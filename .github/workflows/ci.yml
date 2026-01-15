@@ -1,0 +1,56 @@
+name: ci
+
+on:
+  pull_request:
+  workflow_dispatch: {}
+
+env:
+  PYTHON_VERSION: "3.12"
+  NODE_VERSION: "22"
+
+jobs:
+  ci:
+    name: ci
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install OpenSpec CLI
+        run: |
+          npm install -g @fission-ai/openspec@0.17.2
+          openspec --version
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: OpenSpec validate (strict)
+        run: openspec validate --specs --strict --no-interactive
+
+      - name: Gate-0 foundation (engine_id + identity)
+        run: bash scripts/gates/gate0_engine_id_identity.sh --skip-openspec
+
+      - name: Gate-0 security + observability
+        run: bash scripts/gates/gate0_security_observability.sh --skip-openspec
+
+      - name: Gate-0 versioning + deviation
+        run: bash scripts/gates/gate0_versioning_deviation.sh --skip-openspec
+
+      - name: Unit tests
+        run: pytest backend/tests/unit -q
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+
