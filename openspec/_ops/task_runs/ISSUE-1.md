@@ -25,3 +25,24 @@
 - Command: `gh issue create -R Leeky1017/LucidSelf ...`
 - Key output: `https://github.com/Leeky1017/LucidSelf/issues/1`
 
+### 2026-01-16 00:46 OpenSpec strict validation
+- Command: `openspec validate --specs --strict --no-interactive`
+- Key output: `Totals: 27 passed, 0 failed (27 items)`
+
+### 2026-01-16 00:47 Gate-0 foundation (engine_id + identity)
+- Command: `bash scripts/gates/gate0_engine_id_identity.sh --skip-openspec`
+- Key output: `8 passed`
+
+### 2026-01-16 00:47 Gate-0 security + observability
+- Command: `bash scripts/gates/gate0_security_observability.sh --skip-openspec`
+- Key output: `4 passed`
+
+### 2026-01-16 00:48 Gate-0 versioning + deviation
+- Command: `bash scripts/gates/gate0_versioning_deviation.sh --skip-openspec`
+- Key output:
+  - `9 passed`
+  - `artifacts/versioning/version_manifest.json`
+
+### 2026-01-16 00:50 Unit tests
+- Command: `PYTHONPATH=. .venv/bin/pytest backend/tests/unit -q`
+- Key output: `108 passed`
