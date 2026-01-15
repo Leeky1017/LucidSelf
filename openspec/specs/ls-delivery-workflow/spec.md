@@ -39,7 +39,7 @@ Each Issue MUST have a run log at `openspec/_ops/task_runs/ISSUE-N.md` that reco
 
 ### Requirement: Worktrees are used and cleaned after merge
 
-Each Issue SHOULD be developed in an isolated git worktree under `.worktrees/issue-<N>-<slug>`.
+Each Issue MUST be developed in an isolated git worktree, preferably under `.worktrees/issue-<N>-<slug>`.
 
 After a PR is merged and the controlplane `main` is synced to `origin/main`, the corresponding worktree directory under `.worktrees/issue-<N>-<slug>` MUST be removed to avoid stale state and accidental reuse.
 
@@ -80,4 +80,3 @@ The agent MUST:
 - **GIVEN** auto-merge is enabled and all required checks are green
 - **WHEN** the PR reports `reviewDecision=REVIEW_REQUIRED`
 - **THEN** the agent records a blocker and attempts an admin merge (or bot-based merge) instead of assuming the PR will merge
-
