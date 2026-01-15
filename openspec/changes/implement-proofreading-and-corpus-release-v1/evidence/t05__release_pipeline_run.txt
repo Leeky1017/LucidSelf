@@ -1,0 +1,25 @@
+SECTION publish
+artifacts/corpus_releases/cr_b23a6a8439c0
+
+SECTION validate
+OK
+
+SECTION rollback
+OK
+
+SECTION artifacts/corpus_releases_listing
+total 20K
+drwxr-xr-x  3 leeky leeky 4.0K Dec 27 01:24 .
+drwxr-xr-x 12 leeky leeky 4.0K Dec 27 00:57 ..
+-rw-r--r--  1 leeky leeky  225 Dec 27 01:24 active_release.json
+drwxr-xr-x  3 leeky leeky 4.0K Dec 27 01:24 cr_b23a6a8439c0
+-rw-r--r--  1 leeky leeky  894 Dec 27 01:24 release_registry.ndjson
+
+SECTION artifacts/corpus_releases/
+total 24K
+drwxr-xr-x 3 leeky leeky 4.0K Dec 27 01:24 .
+drwxr-xr-x 3 leeky leeky 4.0K Dec 27 01:24 ..
+-rw-r--r-- 1 leeky leeky 3.4K Dec 27 01:24 hashes.json
+-rw-r--r-- 1 leeky leeky 3.7K Dec 27 01:24 release_manifest.json
+drwxr-xr-x 2 leeky leeky 4.0K Dec 27 01:24 reports
+-rw-r--r-- 1 leeky leeky  251 Dec 27 01:24 rollback_record.json

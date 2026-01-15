@@ -1,0 +1,3109 @@
+book_id: tetrabiblos
+extracted_at: '2025-11-30T22:15:00.000000'
+relations:
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.275871'
+  factor_a: genethliacal
+  factor_b: natal_chart
+  relation_id: rel_ptolemy_iii_001
+  relation_nature: Individual application
+  relation_type: foundation
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 'Ptolemy #III'
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.275882'
+  factor_a: prenatal_postnatal
+  factor_b: complete_analysis
+  relation_id: rel_ptolemy_iii_002
+  relation_nature: Both required
+  relation_type: temporal_dual
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 'Ptolemy #III'
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.275902'
+  factor_a: chart_conception
+  factor_b: chart_birth
+  relation_id: rel_iii_010
+  relation_nature: Sympathetic
+  relation_type: correspondence
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.2
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.275924'
+  factor_a: ascendant
+  factor_b: house_framework
+  relation_id: rel_ptolemy_iii_003
+  relation_nature: Establishes positions
+  relation_type: foundation
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 'Ptolemy #III'
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.275927'
+  factor_a: degree_calc
+  factor_b: interpretation
+  relation_id: rel_ptolemy_iii_004
+  relation_nature: Accuracy required
+  relation_type: validation
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 'Ptolemy #III'
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.275948'
+  factor_a: fourfold_div
+  factor_b: systematic_inquiry
+  relation_id: rel_ptolemy_iii_005
+  relation_nature: Structured approach
+  relation_type: methodology
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 'Ptolemy #III'
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.275951'
+  factor_a: topic_sig
+  factor_b: interpretation
+  relation_id: rel_ptolemy_iii_006
+  relation_nature: Each topic has rulers
+  relation_type: assignment
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 'Ptolemy #III'
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.275970'
+  factor_a: mercury_reason
+  factor_b: moon_soul
+  relation_id: rel_ptolemy_iii_007
+  relation_nature: Joint mind rulers
+  relation_type: dual_rulership
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 'Ptolemy #III'
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.275973'
+  factor_a: benefic_malefic
+  factor_b: mind_quality
+  relation_id: rel_ptolemy_iii_008
+  relation_nature: Aspect influence
+  relation_type: modification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 'Ptolemy #III'
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.275994'
+  factor_a: saturn_cold
+  factor_b: mercury_moon_mind
+  relation_id: rel_ptolemy_iii_009
+  relation_nature: Melancholy
+  relation_type: affliction
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 'Ptolemy #III'
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.275996'
+  factor_a: mars_hot
+  factor_b: mercury_moon_mind
+  relation_id: rel_ptolemy_iii_010
+  relation_nature: Epilepsy
+  relation_type: affliction
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 'Ptolemy #III'
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276016'
+  factor_a: father_sig
+  factor_b: father_fortune
+  relation_id: rel_iii_011
+  relation_nature: Sun/Saturn=Father
+  relation_type: signification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.5
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276018'
+  factor_a: mother_sig
+  factor_b: mother_fortune
+  relation_id: rel_iii_012
+  relation_nature: Moon/Venus=Mother
+  relation_type: signification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.5
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276034'
+  factor_a: house_maternal
+  factor_b: sibling_number
+  relation_id: rel_iii_013
+  relation_nature: MC/Venus/Moon=Siblings
+  relation_type: indication
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.6
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276050'
+  factor_a: planet_masculine
+  factor_b: native_sex
+  relation_id: rel_iii_014
+  relation_nature: Majority rule
+  relation_type: determination
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.7
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276065'
+  factor_a: sign_bicorporeal
+  factor_b: birth_number
+  relation_id: rel_iii_015
+  relation_nature: Bicorporeal=Multiples
+  relation_type: multiplication
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.8
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276079'
+  factor_a: birth_defect
+  factor_b: luminary_position
+  relation_id: rel_iii_020
+  relation_nature: Cadent=Risk
+  relation_type: indication
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.9
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276097'
+  factor_a: malefic_planet
+  factor_b: luminary
+  relation_id: rel_iii_021
+  relation_nature: Mars→Sun, Saturn→Moon
+  relation_type: hostility
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.10
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276112'
+  factor_a: lifespan_inquiry
+  factor_b: other_inquiries
+  relation_id: rel_iii_022
+  relation_nature: Primary
+  relation_type: precedence
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.11
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276127'
+  factor_a: house_prorogatory
+  factor_b: priority
+  relation_id: rel_iii_023
+  relation_nature: MC > ASC
+  relation_type: hierarchy
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.12
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276143'
+  factor_a: prorogator
+  factor_b: sect
+  relation_id: rel_iii_024
+  relation_nature: Day=Sun, Night=Moon
+  relation_type: selection
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.13
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276158'
+  factor_a: direction_mode
+  factor_b: prorogator_position
+  relation_id: rel_iii_025
+  relation_nature: Oriental=Direct
+  relation_type: determination
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.14
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276174'
+  factor_a: prorogation_calc
+  factor_b: lifespan
+  relation_id: rel_iii_026
+  relation_nature: Times × Horary
+  relation_type: calculation
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.15
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276190'
+  factor_a: planet_ruler_asc
+  factor_b: body_form
+  relation_id: rel_iii_018
+  relation_nature: ASC ruler=Body
+  relation_type: determination
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.16
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276207'
+  factor_a: malefic_angular
+  factor_b: bodily_affliction
+  relation_id: rel_iii_019
+  relation_nature: Angular malefic=Disease
+  relation_type: affliction
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy III.17
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276229'
+  factor_a: mundane_astrology
+  factor_b: natal_astrology
+  relation_id: rel_ii_001
+  relation_nature: Precedence
+  relation_type: hierarchy
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy II.1
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276322'
+  factor_a: geographic_latitude
+  factor_b: national_temperament
+  relation_id: rel_ii_002
+  relation_nature: Climate→Character
+  relation_type: determination
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy II.2
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276358'
+  factor_a: triplicity_fire
+  factor_b: region_europe
+  relation_id: rel_ii_003
+  relation_nature: Fire=Europe
+  relation_type: assignment
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy II.3
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276377'
+  factor_a: star_region_line
+  factor_b: region_fate
+  relation_id: rel_ii_010
+  relation_nature: Pole-line link
+  relation_type: connection
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy II.4
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276394'
+  factor_a: eclipse_solar
+  factor_b: effect_duration
+  relation_id: rel_ii_004
+  relation_nature: Hours=Years
+  relation_type: timing
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy II.5
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276408'
+  factor_a: zodiacal_familiarity
+  factor_b: eclipse_region
+  relation_id: rel_ii_005
+  relation_nature: Dignity=Affected
+  relation_type: connection
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy II.6
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276431'
+  factor_a: eclipse_duration
+  factor_b: effect_duration
+  relation_id: rel_ii_011
+  relation_nature: Hours→Years/Months
+  relation_type: conversion
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy II.7
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276539'
+  factor_a: sign_shape
+  factor_b: genus_affected
+  relation_id: rel_ii_012
+  relation_nature: Shape=Class
+  relation_type: classification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy II.8
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276563'
+  factor_a: saturn_mundane
+  factor_b: eclipse_effect
+  relation_id: rel_ii_006
+  relation_nature: Saturn=Destruction
+  relation_type: determination
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy II.9
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276579'
+  factor_a: eclipse_colour
+  factor_b: planet_nature
+  relation_id: rel_ii_013
+  relation_nature: Colour=Planet
+  relation_type: indication
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy II.10
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276593'
+  factor_a: sun_ingress_aries
+  factor_b: annual_weather
+  relation_id: rel_ii_007
+  relation_nature: New year=Weather
+  relation_type: indication
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy II.11
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276606'
+  factor_a: sign_weather_quality
+  factor_b: weather_effect
+  relation_id: rel_ii_014
+  relation_nature: Sign=Weather
+  relation_type: production
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy II.12
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276620'
+  factor_a: lunation_monthly
+  factor_b: monthly_weather
+  relation_id: rel_ii_008
+  relation_nature: Lunation=Weather
+  relation_type: indication
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy II.13
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276634'
+  factor_a: comet_mundane
+  factor_b: mundane_event
+  relation_id: rel_ii_009
+  relation_nature: Comet=Portent
+  relation_type: indication
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy II.14
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276660'
+  factor_a: pars_fortunae
+  factor_b: wealth_outcome
+  relation_id: rel_iv_001
+  relation_nature: Fortune indicator
+  relation_type: determination
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.1
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276662'
+  factor_a: benefic_ruler
+  factor_b: pars_fortunae
+  relation_id: rel_iv_002
+  relation_nature: Prosperity
+  relation_type: modification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.1
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276682'
+  factor_a: sun_moon
+  factor_b: rank_outcome
+  relation_id: rel_iv_003
+  relation_nature: Rank indicator
+  relation_type: determination
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.2
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276685'
+  factor_a: doryphory_complete
+  factor_b: sun_moon
+  relation_id: rel_iv_004
+  relation_nature: Royal status
+  relation_type: enhancement
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.2
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276703'
+  factor_a: planet_ruler_mc
+  factor_b: profession_type
+  relation_id: rel_iv_005
+  relation_nature: Trade indicator
+  relation_type: determination
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.3
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276718'
+  factor_a: employment_quality
+  factor_b: planet_nature
+  relation_id: rel_iv_010
+  relation_nature: Profession type
+  relation_type: specification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.4
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276736'
+  factor_a: moon_venus
+  factor_b: spouse_female
+  relation_id: rel_iv_006
+  relation_nature: Wife indicator
+  relation_type: signification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.5
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276739'
+  factor_a: sun_mars
+  factor_b: spouse_male
+  relation_id: rel_iv_007
+  relation_nature: Husband indicator
+  relation_type: signification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.5
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276758'
+  factor_a: planet_fertile
+  factor_b: children_outcome
+  relation_id: rel_iv_008
+  relation_nature: Fertility
+  relation_type: granting
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.6
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276761'
+  factor_a: planet_barren
+  factor_b: children_outcome
+  relation_id: rel_iv_009
+  relation_nature: Barrenness
+  relation_type: denying
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.6
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276799'
+  factor_a: moon_cadent
+  factor_b: travel_outcome
+  relation_id: rel_iv_011
+  relation_nature: Travel trigger
+  relation_type: indication
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.8
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276802'
+  factor_a: benefic_supervise
+  factor_b: travel_outcome
+  relation_id: rel_iv_012
+  relation_nature: Safe travel
+  relation_type: modification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.8
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276824'
+  factor_a: planet_anaeretic
+  factor_b: death_type
+  relation_id: rel_iv_013
+  relation_nature: Death manner
+  relation_type: determination
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.9
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276826'
+  factor_a: dual_malefic
+  factor_b: death_type
+  relation_id: rel_iv_014
+  relation_nature: Violent death
+  relation_type: intensification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.9
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276841'
+  factor_a: planet_age
+  factor_b: life_stage
+  relation_id: rel_iv_020
+  relation_nature: Planet=Age
+  relation_type: correspondence
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy IV.10
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276878'
+  factor_a: astronomy
+  factor_b: astrology
+  relation_id: rel_tetra_i001
+  relation_nature: dependency
+  relation_type: cross_system
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Tetrabiblos I.1
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276881'
+  factor_a: planet_quality
+  factor_b: terrestrial_effect
+  relation_id: rel_tetra_i002
+  relation_nature: causation
+  relation_type: planet_quality
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Tetrabiblos I.1
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276908'
+  factor_a: ambient_configuration
+  factor_b: native_constitution
+  relation_id: rel_i_002
+  relation_nature: Physical influence
+  relation_type: causation
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.2
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276934'
+  factor_a: astro_fate
+  factor_b: concurrent_causes
+  relation_id: rel_i_003
+  relation_nature: Qualified fate
+  relation_type: modification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.3
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276960'
+  factor_a: planet_sun
+  factor_b: quality_hot
+  relation_id: rel_i_004
+  relation_nature: Sun=Hot/Dry
+  relation_type: quality
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.4
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276963'
+  factor_a: planet_saturn
+  factor_b: quality_cold
+  relation_id: rel_i_005
+  relation_nature: Saturn=Cold/Dry
+  relation_type: quality
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.4
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276983'
+  factor_a: planet_benefic
+  factor_b: life_promotion
+  relation_id: rel_i_006
+  relation_nature: Warm-moist=Life
+  relation_type: classification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.5
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.276985'
+  factor_a: planet_malefic
+  factor_b: life_harm
+  relation_id: rel_i_007
+  relation_nature: Cold/Dry=Death
+  relation_type: classification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.5
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277001'
+  factor_a: planet_masculine
+  factor_b: quality_dry
+  relation_id: rel_i_008
+  relation_nature: Dry=Masculine
+  relation_type: quality
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.6
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277004'
+  factor_a: planet_position_sun
+  factor_b: planet_gender
+  relation_id: rel_i_009
+  relation_nature: Position modifies
+  relation_type: modification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.6
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277026'
+  factor_a: planet_saturn
+  factor_b: planet_diurnal
+  relation_id: rel_i_010
+  relation_nature: Cold→Hot day
+  relation_type: mitigation
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.7
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277029'
+  factor_a: planet_mars
+  factor_b: planet_nocturnal
+  relation_id: rel_i_011
+  relation_nature: Dry→Moist night
+  relation_type: mitigation
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.7
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277048'
+  factor_a: lunar_phase
+  factor_b: planet_quality
+  relation_id: rel_i_012
+  relation_nature: Phase→Quality
+  relation_type: modulation
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.8
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277066'
+  factor_a: fixed_star
+  factor_b: planet_nature
+  relation_id: rel_i_013
+  relation_nature: Star=Planet analogue
+  relation_type: analogy
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.9
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277081'
+  factor_a: fixed_star_north
+  factor_b: planet_nature
+  relation_id: rel_i_026
+  relation_nature: Star=Planet
+  relation_type: analogy
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.10
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277097'
+  factor_a: fixed_star_south
+  factor_b: planet_nature
+  relation_id: rel_i_027
+  relation_nature: Star=Planet
+  relation_type: analogy
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.11
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277112'
+  factor_a: tropical_zodiac
+  factor_b: season_quality
+  relation_id: rel_i_014
+  relation_nature: Season=Sign quality
+  relation_type: correspondence
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.12
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277126'
+  factor_a: house_angle
+  factor_b: planet_quality
+  relation_id: rel_i_015
+  relation_nature: Angle adds quality
+  relation_type: modification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.13
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277140'
+  factor_a: sign_modality
+  factor_b: behavior
+  relation_id: rel_i_016
+  relation_nature: Cardinal/Fixed/Mutable
+  relation_type: classification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.14
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277154'
+  factor_a: sign_gender
+  factor_b: behavior
+  relation_id: rel_i_028
+  relation_nature: M=Active, F=Passive
+  relation_type: classification
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.15
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277169'
+  factor_a: aspect_type
+  factor_b: harmony_discord
+  relation_id: rel_i_017
+  relation_nature: Geometric connection
+  relation_type: relation
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.16
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277182'
+  factor_a: sign_commanding
+  factor_b: sign_obeying
+  relation_id: rel_i_029
+  relation_nature: Summer>Winter
+  relation_type: hierarchy
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.17
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277196'
+  factor_a: sign_antiscia
+  factor_b: equal_power
+  relation_id: rel_i_030
+  relation_nature: Solstice equidistance
+  relation_type: mirror
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.18
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277214'
+  factor_a: aspect_inconjunct
+  factor_b: no_relationship
+  relation_id: rel_i_031
+  relation_nature: 30° or 150°
+  relation_type: aversion
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.19
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277309'
+  factor_a: planet_domicile
+  factor_b: planet_strength
+  relation_id: rel_i_018
+  relation_nature: Home=Strong
+  relation_type: dignity
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.20
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277369'
+  factor_a: sign_triplicity
+  factor_b: planet_strength
+  relation_id: rel_i_019
+  relation_nature: Triplicity lord=Strength
+  relation_type: dignity
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.21
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277395'
+  factor_a: planet_exaltation
+  factor_b: planet_strength
+  relation_id: rel_i_020
+  relation_nature: Exaltation=Peak
+  relation_type: dignity
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.22
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277413'
+  factor_a: terms_egyptian
+  factor_b: planet_strength
+  relation_id: rel_i_021a
+  relation_nature: Minor dignity
+  relation_type: dignity
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.23
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277430'
+  factor_a: terms_ptolemaic
+  factor_b: planet_strength
+  relation_id: rel_i_021b
+  relation_nature: Minor dignity
+  relation_type: dignity
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.24
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277527'
+  factor_a: tropical_zodiac
+  factor_b: sign_meaning
+  relation_id: rel_i_022
+  relation_nature: Equinox=Sign start
+  relation_type: definition
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.25
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277567'
+  factor_a: planet_dignity_multiple
+  factor_b: planet_strength
+  relation_id: rel_i_023
+  relation_nature: Multiple dignities=Power
+  relation_type: cumulative
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.26
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277602'
+  factor_a: aspect_application
+  factor_b: aspect_formation
+  relation_id: rel_i_024
+  relation_nature: Faster approaches slower
+  relation_type: motion
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.27
+- condition_constraint: ''
+  effect_direction: ''
+  extracted_at: '2025-11-30 22:05:52.277609'
+  factor_a: planet_oriental
+  factor_b: planet_power
+  relation_id: rel_i_025
+  relation_nature: Oriental=Strong
+  relation_type: strength
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: Ptolemy I.27
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: tetrabib_individual_dest
+  factor_b: concept_general
+  relation_id: rel_auto_88
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: astro_medicine
+  factor_b: concept_general
+  relation_id: rel_auto_89
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_masculine OR planet_feminine
+  factor_b: concept_general
+  relation_id: rel_auto_90
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_sect
+  factor_b: concept_general
+  relation_id: rel_auto_91
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: infant_mortality
+  factor_b: concept_general
+  relation_id: rel_auto_92
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: tetrabib_genethliacal
+  factor_b: concept_general
+  relation_id: rel_auto_93
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: tetrabib_distribution
+  factor_b: concept_general
+  relation_id: rel_auto_94
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: sign_masculine OR sign_feminine
+  factor_b: concept_general
+  relation_id: rel_auto_95
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: sun_father OR moon_mother
+  factor_b: concept_general
+  relation_id: rel_auto_96
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_ruler_fortune
+  factor_b: concept_general
+  relation_id: rel_auto_97
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_moon
+  factor_b: concept_general
+  relation_id: rel_auto_98
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: fixed_star AND region
+  factor_b: concept_general
+  relation_id: rel_auto_99
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: natal_chart_basis
+  factor_b: concept_general
+  relation_id: rel_auto_100
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: tropical_signs
+  factor_b: concept_general
+  relation_id: rel_auto_101
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_dignity_face
+  factor_b: concept_general
+  relation_id: rel_auto_102
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: fixed_star_spica
+  factor_b: concept_general
+  relation_id: rel_auto_103
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: tetrabib_saturn_afflicti
+  factor_b: concept_general
+  relation_id: rel_auto_104
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_benefic OR planet_malefic
+  factor_b: concept_general
+  relation_id: rel_auto_105
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_moon AND quality_moist
+  factor_b: concept_general
+  relation_id: rel_auto_106
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: eclipse_affected_region
+  factor_b: concept_general
+  relation_id: rel_auto_107
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: chart_comparison
+  factor_b: concept_general
+  relation_id: rel_auto_108
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_profession
+  factor_b: concept_general
+  relation_id: rel_auto_109
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_attendants
+  factor_b: concept_general
+  relation_id: rel_auto_110
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_moon AND lunar_phase
+  factor_b: concept_general
+  relation_id: rel_auto_111
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: aspect_square OR aspect_opposition
+  factor_b: concept_general
+  relation_id: rel_auto_112
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: sign_commanding OR sign_obeying
+  factor_b: concept_general
+  relation_id: rel_auto_113
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_angle_interaction
+  factor_b: concept_general
+  relation_id: rel_auto_114
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_superior AND sun_position
+  factor_b: concept_general
+  relation_id: rel_auto_115
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_mercury
+  factor_b: concept_general
+  relation_id: rel_auto_116
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: astro_epistemology
+  factor_b: concept_general
+  relation_id: rel_auto_117
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: mundane_vs_natal
+  factor_b: concept_general
+  relation_id: rel_auto_118
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: sign_aries OR sign_leo OR sign_sagittarius
+  factor_b: concept_general
+  relation_id: rel_auto_119
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: astro_methodology
+  factor_b: concept_general
+  relation_id: rel_auto_120
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_mercury AND quality_variable
+  factor_b: concept_general
+  relation_id: rel_auto_121
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_saturn AND quality_cold
+  factor_b: concept_general
+  relation_id: rel_auto_122
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_sun AND quality_hot
+  factor_b: concept_general
+  relation_id: rel_auto_123
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: calculation_method
+  factor_b: concept_general
+  relation_id: rel_auto_124
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: triplicity_fire AND region_europe
+  factor_b: concept_general
+  relation_id: rel_auto_125
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_sun AND sign_aries
+  factor_b: concept_general
+  relation_id: rel_auto_126
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: sign_aries
+  factor_b: concept_general
+  relation_id: rel_auto_127
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_jupiter OR planet_venus
+  factor_b: concept_general
+  relation_id: rel_auto_128
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_saturn AND place_anaeretic
+  factor_b: concept_general
+  relation_id: rel_auto_129
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_saturn AND sign_capricorn OR sign_aquarius
+  factor_b: concept_general
+  relation_id: rel_auto_130
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: aspect_trine OR aspect_sextile
+  factor_b: concept_general
+  relation_id: rel_auto_131
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: luminary_angular
+  factor_b: concept_general
+  relation_id: rel_auto_132
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_body_part
+  factor_b: concept_general
+  relation_id: rel_auto_133
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: tetrabib_mental_disease
+  factor_b: concept_general
+  relation_id: rel_auto_134
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_mars AND quality_hot
+  factor_b: concept_general
+  relation_id: rel_auto_135
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: tetrabib_accuracy
+  factor_b: concept_general
+  relation_id: rel_auto_136
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: sign_fixed
+  factor_b: concept_general
+  relation_id: rel_auto_137
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: sign_prolific
+  factor_b: concept_general
+  relation_id: rel_auto_138
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: triplicity_region
+  factor_b: concept_general
+  relation_id: rel_auto_139
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_qualities
+  factor_b: concept_general
+  relation_id: rel_auto_140
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: eclipse_solar OR eclipse_lunar
+  factor_b: concept_general
+  relation_id: rel_auto_141
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: chart_origin
+  factor_b: concept_general
+  relation_id: rel_auto_142
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: fixed_star_regulus
+  factor_b: concept_general
+  relation_id: rel_auto_143
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: tetrabib_mind_quality
+  factor_b: concept_general
+  relation_id: rel_auto_144
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_saturn OR planet_mars
+  factor_b: concept_general
+  relation_id: rel_auto_145
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: tetrabib_dual_significat
+  factor_b: concept_general
+  relation_id: rel_auto_146
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: aspect_application OR aspect_separation
+  factor_b: concept_general
+  relation_id: rel_auto_147
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_mars AND place_anaeretic
+  factor_b: concept_general
+  relation_id: rel_auto_148
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_mercury AND house_10
+  factor_b: concept_general
+  relation_id: rel_auto_149
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_eclipse_ruler
+  factor_b: concept_general
+  relation_id: rel_auto_150
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_jupiter AND quality_temperate
+  factor_b: concept_general
+  relation_id: rel_auto_151
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: tetrabib_ascendant
+  factor_b: concept_general
+  relation_id: rel_auto_152
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_venus AND quality_moist
+  factor_b: concept_general
+  relation_id: rel_auto_153
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: element_hierarchy
+  factor_b: concept_general
+  relation_id: rel_auto_154
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: planet_sun OR planet_moon
+  factor_b: concept_general
+  relation_id: rel_auto_155
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: tetrabib_methodology
+  factor_b: concept_general
+  relation_id: rel_auto_156
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: part_of_fortune
+  factor_b: concept_general
+  relation_id: rel_auto_157
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:20:00.000000'
+  factor_a: prescience_utility
+  factor_b: concept_general
+  relation_id: rel_auto_158
+  relation_nature: 语义分类
+  relation_type: semantic_category
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 自动生成
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: tetrabib_genethliacal
+  factor_b: tetrabib_individual_dest
+  relation_id: rel_seq_159
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: tetrabib_individual_dest
+  factor_b: chart_origin
+  relation_id: rel_seq_160
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: chart_origin
+  factor_b: tetrabib_ascendant
+  relation_id: rel_seq_161
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: tetrabib_ascendant
+  factor_b: tetrabib_accuracy
+  relation_id: rel_seq_162
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: tetrabib_accuracy
+  factor_b: tetrabib_distribution
+  relation_id: rel_seq_163
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: tetrabib_distribution
+  factor_b: tetrabib_methodology
+  relation_id: rel_seq_164
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: tetrabib_methodology
+  factor_b: tetrabib_mind_quality
+  relation_id: rel_seq_165
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: tetrabib_mind_quality
+  factor_b: tetrabib_dual_significat
+  relation_id: rel_seq_166
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: tetrabib_dual_significat
+  factor_b: tetrabib_mental_disease
+  relation_id: rel_seq_167
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: tetrabib_mental_disease
+  factor_b: tetrabib_saturn_afflicti
+  relation_id: rel_seq_168
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: tetrabib_saturn_afflicti
+  factor_b: sun_father OR moon_mother
+  relation_id: rel_seq_169
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sun_father OR moon_mother
+  factor_b: planet_attendants
+  relation_id: rel_seq_170
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_attendants
+  factor_b: house_maternal
+  relation_id: rel_seq_171
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: house_maternal
+  factor_b: planet_masculine OR planet_feminine
+  relation_id: rel_seq_172
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_masculine OR planet_feminine
+  factor_b: sign_bicorporeal
+  relation_id: rel_seq_173
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sign_bicorporeal
+  factor_b: birth_defect
+  relation_id: rel_seq_174
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: birth_defect
+  factor_b: infant_mortality
+  relation_id: rel_seq_175
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: infant_mortality
+  factor_b: lifespan
+  relation_id: rel_seq_176
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: lifespan
+  factor_b: house_prorogatory
+  relation_id: rel_seq_177
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: house_prorogatory
+  factor_b: prorogator
+  relation_id: rel_seq_178
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: prorogator
+  factor_b: direction_mode
+  relation_id: rel_seq_179
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: direction_mode
+  factor_b: calculation_method
+  relation_id: rel_seq_180
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: calculation_method
+  factor_b: planet_ruler_asc
+  relation_id: rel_seq_181
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_ruler_asc
+  factor_b: malefic_angular
+  relation_id: rel_seq_182
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: malefic_angular
+  factor_b: planet_body_part
+  relation_id: rel_seq_183
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_body_part
+  factor_b: mundane_astrology
+  relation_id: rel_seq_184
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: mundane_astrology
+  factor_b: geographic_latitude
+  relation_id: rel_seq_185
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: geographic_latitude
+  factor_b: triplicity_region
+  relation_id: rel_seq_186
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: triplicity_region
+  factor_b: triplicity_fire AND region_europe
+  relation_id: rel_seq_187
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: triplicity_fire AND region_europe
+  factor_b: fixed_star AND region
+  relation_id: rel_seq_188
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: fixed_star AND region
+  factor_b: eclipse_solar OR eclipse_lunar
+  relation_id: rel_seq_189
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: eclipse_solar OR eclipse_lunar
+  factor_b: eclipse_affected_region
+  relation_id: rel_seq_190
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: eclipse_affected_region
+  factor_b: eclipse_duration
+  relation_id: rel_seq_191
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: eclipse_duration
+  factor_b: sign_shape
+  relation_id: rel_seq_192
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sign_shape
+  factor_b: planet_eclipse_ruler
+  relation_id: rel_seq_193
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_eclipse_ruler
+  factor_b: eclipse_colour
+  relation_id: rel_seq_194
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: eclipse_colour
+  factor_b: sun_ingress_aries
+  relation_id: rel_seq_195
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sun_ingress_aries
+  factor_b: sign_weather_quality
+  relation_id: rel_seq_196
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sign_weather_quality
+  factor_b: lunation_monthly
+  relation_id: rel_seq_197
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: lunation_monthly
+  factor_b: comet_mundane
+  relation_id: rel_seq_198
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: comet_mundane
+  factor_b: part_of_fortune
+  relation_id: rel_seq_199
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: part_of_fortune
+  factor_b: planet_ruler_fortune
+  relation_id: rel_seq_200
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_ruler_fortune
+  factor_b: luminary_angular
+  relation_id: rel_seq_201
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: luminary_angular
+  factor_b: doryphory_complete
+  relation_id: rel_seq_202
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: doryphory_complete
+  factor_b: planet_ruler_mc
+  relation_id: rel_seq_203
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_ruler_mc
+  factor_b: planet_mercury AND house_10
+  relation_id: rel_seq_204
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_mercury AND house_10
+  factor_b: planet_profession
+  relation_id: rel_seq_205
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_profession
+  factor_b: moon_venus
+  relation_id: rel_seq_206
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: moon_venus
+  factor_b: sun_mars
+  relation_id: rel_seq_207
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sun_mars
+  factor_b: planet_fertile
+  relation_id: rel_seq_208
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_fertile
+  factor_b: sign_prolific
+  relation_id: rel_seq_209
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sign_prolific
+  factor_b: chart_comparison
+  relation_id: rel_seq_210
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: chart_comparison
+  factor_b: moon_cadent
+  relation_id: rel_seq_211
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: moon_cadent
+  factor_b: planet_anaeretic
+  relation_id: rel_seq_212
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_anaeretic
+  factor_b: planet_saturn AND place_anaeretic
+  relation_id: rel_seq_213
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_saturn AND place_anaeretic
+  factor_b: planet_mars AND place_anaeretic
+  relation_id: rel_seq_214
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_mars AND place_anaeretic
+  factor_b: planet_age
+  relation_id: rel_seq_215
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_age
+  factor_b: astro_epistemology
+  relation_id: rel_seq_216
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: astro_epistemology
+  factor_b: astro_methodology
+  relation_id: rel_seq_217
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: astro_methodology
+  factor_b: planet_qualities
+  relation_id: rel_seq_218
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_qualities
+  factor_b: astro_epistemology
+  relation_id: rel_seq_219
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: astro_epistemology
+  factor_b: ambient_configuration
+  relation_id: rel_seq_220
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: ambient_configuration
+  factor_b: element_hierarchy
+  relation_id: rel_seq_221
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: element_hierarchy
+  factor_b: planet_sun
+  relation_id: rel_seq_222
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_sun
+  factor_b: planet_moon
+  relation_id: rel_seq_223
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_moon
+  factor_b: natal_chart_basis
+  relation_id: rel_seq_224
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: natal_chart_basis
+  factor_b: astro_epistemology
+  relation_id: rel_seq_225
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: astro_epistemology
+  factor_b: astro_fate
+  relation_id: rel_seq_226
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: astro_fate
+  factor_b: mundane_vs_natal
+  relation_id: rel_seq_227
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: mundane_vs_natal
+  factor_b: astro_fate
+  relation_id: rel_seq_228
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: astro_fate
+  factor_b: prescience_utility
+  relation_id: rel_seq_229
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: prescience_utility
+  factor_b: astro_medicine
+  relation_id: rel_seq_230
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: astro_medicine
+  factor_b: planet_sun AND quality_hot
+  relation_id: rel_seq_231
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_sun AND quality_hot
+  factor_b: planet_moon AND quality_moist
+  relation_id: rel_seq_232
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_moon AND quality_moist
+  factor_b: planet_saturn AND quality_cold
+  relation_id: rel_seq_233
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_saturn AND quality_cold
+  factor_b: planet_mars AND quality_hot
+  relation_id: rel_seq_234
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_mars AND quality_hot
+  factor_b: planet_jupiter AND quality_temperate
+  relation_id: rel_seq_235
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_jupiter AND quality_temperate
+  factor_b: planet_venus AND quality_moist
+  relation_id: rel_seq_236
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_venus AND quality_moist
+  factor_b: planet_mercury AND quality_variable
+  relation_id: rel_seq_237
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_mercury AND quality_variable
+  factor_b: planet_benefic OR planet_malefic
+  relation_id: rel_seq_238
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_benefic OR planet_malefic
+  factor_b: planet_jupiter OR planet_venus
+  relation_id: rel_seq_239
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_jupiter OR planet_venus
+  factor_b: planet_saturn OR planet_mars
+  relation_id: rel_seq_240
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_saturn OR planet_mars
+  factor_b: planet_gender
+  relation_id: rel_seq_241
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_gender
+  factor_b: planet_mercury
+  relation_id: rel_seq_242
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_mercury
+  factor_b: planet_position_sun
+  relation_id: rel_seq_243
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_position_sun
+  factor_b: planet_sect
+  relation_id: rel_seq_244
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_sect
+  factor_b: planet_saturn OR planet_mars
+  relation_id: rel_seq_245
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_saturn OR planet_mars
+  factor_b: planet_moon AND lunar_phase
+  relation_id: rel_seq_246
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_moon AND lunar_phase
+  factor_b: planet_superior AND sun_position
+  relation_id: rel_seq_247
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_superior AND sun_position
+  factor_b: fixed_star
+  relation_id: rel_seq_248
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: fixed_star
+  factor_b: fixed_star_regulus
+  relation_id: rel_seq_249
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: fixed_star_regulus
+  factor_b: fixed_star_spica
+  relation_id: rel_seq_250
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: fixed_star_spica
+  factor_b: fixed_star_north
+  relation_id: rel_seq_251
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: fixed_star_north
+  factor_b: fixed_star_south
+  relation_id: rel_seq_252
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: fixed_star_south
+  factor_b: fixed_star
+  relation_id: rel_seq_253
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: fixed_star
+  factor_b: season_quality
+  relation_id: rel_seq_254
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: season_quality
+  factor_b: sign_aries
+  relation_id: rel_seq_255
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sign_aries
+  factor_b: tropical_signs
+  relation_id: rel_seq_256
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: tropical_signs
+  factor_b: house_angle
+  relation_id: rel_seq_257
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: house_angle
+  factor_b: planet_angle_interaction
+  relation_id: rel_seq_258
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_angle_interaction
+  factor_b: sign_modality
+  relation_id: rel_seq_259
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sign_modality
+  factor_b: sign_fixed
+  relation_id: rel_seq_260
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sign_fixed
+  factor_b: sign_masculine OR sign_feminine
+  relation_id: rel_seq_261
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sign_masculine OR sign_feminine
+  factor_b: aspect_type
+  relation_id: rel_seq_262
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: aspect_type
+  factor_b: aspect_trine OR aspect_sextile
+  relation_id: rel_seq_263
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: aspect_trine OR aspect_sextile
+  factor_b: aspect_square OR aspect_opposition
+  relation_id: rel_seq_264
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: aspect_square OR aspect_opposition
+  factor_b: sign_commanding OR sign_obeying
+  relation_id: rel_seq_265
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sign_commanding OR sign_obeying
+  factor_b: sign_antiscia
+  relation_id: rel_seq_266
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sign_antiscia
+  factor_b: aspect_inconjunct
+  relation_id: rel_seq_267
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: aspect_inconjunct
+  factor_b: planet_domicile
+  relation_id: rel_seq_268
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_domicile
+  factor_b: planet_sun OR planet_moon
+  relation_id: rel_seq_269
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_sun OR planet_moon
+  factor_b: planet_saturn AND sign_capricorn OR sign_aquarius
+  relation_id: rel_seq_270
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_saturn AND sign_capricorn OR sign_aquarius
+  factor_b: sign_triplicity
+  relation_id: rel_seq_271
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sign_triplicity
+  factor_b: sign_aries OR sign_leo OR sign_sagittarius
+  relation_id: rel_seq_272
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: sign_aries OR sign_leo OR sign_sagittarius
+  factor_b: planet_exaltation
+  relation_id: rel_seq_273
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_exaltation
+  factor_b: planet_sun AND sign_aries
+  relation_id: rel_seq_274
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_sun AND sign_aries
+  factor_b: terms_egyptian
+  relation_id: rel_seq_275
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: terms_egyptian
+  factor_b: terms_ptolemaic
+  relation_id: rel_seq_276
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: terms_ptolemaic
+  factor_b: tropical_signs
+  relation_id: rel_seq_277
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: tropical_signs
+  factor_b: astro_epistemology
+  relation_id: rel_seq_278
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: astro_epistemology
+  factor_b: planet_dignity_face
+  relation_id: rel_seq_279
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_dignity_face
+  factor_b: planet_dignity_multiple
+  relation_id: rel_seq_280
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: planet_dignity_multiple
+  factor_b: aspect_application OR aspect_separation
+  relation_id: rel_seq_281
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+- condition_constraint: '-'
+  effect_direction: 中性
+  extracted_at: '2025-11-30T22:25:00.000000'
+  factor_a: aspect_application OR aspect_separation
+  factor_b: planet_strength
+  relation_id: rel_seq_282
+  relation_nature: 语义关联
+  relation_type: sequential_dependency
+  source_book: tetrabiblos
+  source_chapter: null
+  source_ref: 顺序推断
+source_file: /home/leeky/work/LucidSelf/典籍/texts/Tetrabiblos/编辑/README.md, /home/leeky/work/LucidSelf/典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_III_v2.1.md,
+  /home/leeky/work/LucidSelf/典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_II_v2.1.md,
+  /home/leeky/work/LucidSelf/典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_IV_v2.1.md,
+  /home/leeky/work/LucidSelf/典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_I_v2.1.md

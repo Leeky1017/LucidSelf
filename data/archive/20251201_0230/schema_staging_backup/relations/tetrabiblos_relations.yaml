@@ -1,0 +1,962 @@
+book_id: tetrabiblos
+source_file: 典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_II_v2.1.md, 典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_IV_v2.1.md,
+  典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_I_v2.1.md, 典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_III_v2.1.md
+extracted_at: '2025-12-01T02:28:31.768636'
+relations:
+- relation_id: rel_ii_001
+  relation_type: hierarchy
+  factor_a: mundane_astrology
+  factor_b: natal_astrology
+  relation_nature: Precedence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy II.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.376991'
+- relation_id: rel_ii_002
+  relation_type: determination
+  factor_a: geographic_latitude
+  factor_b: national_temperament
+  relation_nature: Climate→Character
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy II.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.377019'
+- relation_id: rel_ii_003
+  relation_type: assignment
+  factor_a: triplicity_fire
+  factor_b: region_europe
+  relation_nature: Fire=Europe
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy II.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.377040'
+- relation_id: rel_ii_010
+  relation_type: connection
+  factor_a: star_region_line
+  factor_b: region_fate
+  relation_nature: Pole-line link
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy II.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.377055'
+- relation_id: rel_ii_004
+  relation_type: timing
+  factor_a: eclipse_solar
+  factor_b: effect_duration
+  relation_nature: Hours=Years
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy II.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.377071'
+- relation_id: rel_ii_005
+  relation_type: connection
+  factor_a: zodiacal_familiarity
+  factor_b: eclipse_region
+  relation_nature: Dignity=Affected
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy II.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.377085'
+- relation_id: rel_ii_011
+  relation_type: conversion
+  factor_a: eclipse_duration
+  factor_b: effect_duration
+  relation_nature: Hours→Years/Months
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy II.7
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.377101'
+- relation_id: rel_ii_012
+  relation_type: classification
+  factor_a: sign_shape
+  factor_b: genus_affected
+  relation_nature: Shape=Class
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy II.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.377114'
+- relation_id: rel_ii_006
+  relation_type: determination
+  factor_a: saturn_mundane
+  factor_b: eclipse_effect
+  relation_nature: Saturn=Destruction
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy II.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.377130'
+- relation_id: rel_ii_013
+  relation_type: indication
+  factor_a: eclipse_colour
+  factor_b: planet_nature
+  relation_nature: Colour=Planet
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy II.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.377145'
+- relation_id: rel_ii_007
+  relation_type: indication
+  factor_a: sun_ingress_aries
+  factor_b: annual_weather
+  relation_nature: New year=Weather
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy II.11
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.377159'
+- relation_id: rel_ii_014
+  relation_type: production
+  factor_a: sign_weather_quality
+  factor_b: weather_effect
+  relation_nature: Sign=Weather
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy II.12
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.377172'
+- relation_id: rel_ii_008
+  relation_type: indication
+  factor_a: lunation_monthly
+  factor_b: monthly_weather
+  relation_nature: Lunation=Weather
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy II.13
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.377186'
+- relation_id: rel_ii_009
+  relation_type: indication
+  factor_a: comet_mundane
+  factor_b: mundane_event
+  relation_nature: Comet=Portent
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy II.14
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.377200'
+- relation_id: rel_iv_001
+  relation_type: determination
+  factor_a: pars_fortunae
+  factor_b: wealth_outcome
+  relation_nature: Fortune indicator
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380341'
+- relation_id: rel_iv_002
+  relation_type: modification
+  factor_a: benefic_ruler
+  factor_b: pars_fortunae
+  relation_nature: Prosperity
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380347'
+- relation_id: rel_iv_003
+  relation_type: determination
+  factor_a: sun_moon
+  factor_b: rank_outcome
+  relation_nature: Rank indicator
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380371'
+- relation_id: rel_iv_004
+  relation_type: enhancement
+  factor_a: doryphory_complete
+  factor_b: sun_moon
+  relation_nature: Royal status
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380374'
+- relation_id: rel_iv_005
+  relation_type: determination
+  factor_a: planet_ruler_mc
+  factor_b: profession_type
+  relation_nature: Trade indicator
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380394'
+- relation_id: rel_iv_010
+  relation_type: specification
+  factor_a: employment_quality
+  factor_b: planet_nature
+  relation_nature: Profession type
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380411'
+- relation_id: rel_iv_006
+  relation_type: signification
+  factor_a: moon_venus
+  factor_b: spouse_female
+  relation_nature: Wife indicator
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380431'
+- relation_id: rel_iv_007
+  relation_type: signification
+  factor_a: sun_mars
+  factor_b: spouse_male
+  relation_nature: Husband indicator
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380433'
+- relation_id: rel_iv_008
+  relation_type: granting
+  factor_a: planet_fertile
+  factor_b: children_outcome
+  relation_nature: Fertility
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380454'
+- relation_id: rel_iv_009
+  relation_type: denying
+  factor_a: planet_barren
+  factor_b: children_outcome
+  relation_nature: Barrenness
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380457'
+- relation_id: rel_iv_011
+  relation_type: indication
+  factor_a: moon_cadent
+  factor_b: travel_outcome
+  relation_nature: Travel trigger
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380491'
+- relation_id: rel_iv_012
+  relation_type: modification
+  factor_a: benefic_supervise
+  factor_b: travel_outcome
+  relation_nature: Safe travel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380494'
+- relation_id: rel_iv_013
+  relation_type: determination
+  factor_a: planet_anaeretic
+  factor_b: death_type
+  relation_nature: Death manner
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380516'
+- relation_id: rel_iv_014
+  relation_type: intensification
+  factor_a: dual_malefic
+  factor_b: death_type
+  relation_nature: Violent death
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380519'
+- relation_id: rel_iv_020
+  relation_type: correspondence
+  factor_a: planet_age
+  factor_b: life_stage
+  relation_nature: Planet=Age
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy IV.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.380534'
+- relation_id: rel_tetra_i001
+  relation_type: cross_system
+  factor_a: astronomy
+  factor_b: astrology
+  relation_nature: dependency
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Tetrabiblos I.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385523'
+- relation_id: rel_tetra_i002
+  relation_type: planet_quality
+  factor_a: planet_quality
+  factor_b: terrestrial_effect
+  relation_nature: causation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Tetrabiblos I.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385531'
+- relation_id: rel_i_002
+  relation_type: causation
+  factor_a: ambient_configuration
+  factor_b: native_constitution
+  relation_nature: Physical influence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385563'
+- relation_id: rel_i_003
+  relation_type: modification
+  factor_a: astro_fate
+  factor_b: concurrent_causes
+  relation_nature: Qualified fate
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385591'
+- relation_id: rel_i_004
+  relation_type: quality
+  factor_a: planet_sun
+  factor_b: quality_hot
+  relation_nature: Sun=Hot/Dry
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385619'
+- relation_id: rel_i_005
+  relation_type: quality
+  factor_a: planet_saturn
+  factor_b: quality_cold
+  relation_nature: Saturn=Cold/Dry
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385622'
+- relation_id: rel_i_006
+  relation_type: classification
+  factor_a: planet_benefic
+  factor_b: life_promotion
+  relation_nature: Warm-moist=Life
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385643'
+- relation_id: rel_i_007
+  relation_type: classification
+  factor_a: planet_malefic
+  factor_b: life_harm
+  relation_nature: Cold/Dry=Death
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385646'
+- relation_id: rel_i_008
+  relation_type: quality
+  factor_a: planet_masculine
+  factor_b: quality_dry
+  relation_nature: Dry=Masculine
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385666'
+- relation_id: rel_i_009
+  relation_type: modification
+  factor_a: planet_position_sun
+  factor_b: planet_gender
+  relation_nature: Position modifies
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385669'
+- relation_id: rel_i_010
+  relation_type: mitigation
+  factor_a: planet_saturn
+  factor_b: planet_diurnal
+  relation_nature: Cold→Hot day
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.7
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385692'
+- relation_id: rel_i_011
+  relation_type: mitigation
+  factor_a: planet_mars
+  factor_b: planet_nocturnal
+  relation_nature: Dry→Moist night
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.7
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385696'
+- relation_id: rel_i_012
+  relation_type: modulation
+  factor_a: lunar_phase
+  factor_b: planet_quality
+  relation_nature: Phase→Quality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385716'
+- relation_id: rel_i_013
+  relation_type: analogy
+  factor_a: fixed_star
+  factor_b: planet_nature
+  relation_nature: Star=Planet analogue
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385733'
+- relation_id: rel_i_026
+  relation_type: analogy
+  factor_a: fixed_star_north
+  factor_b: planet_nature
+  relation_nature: Star=Planet
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385748'
+- relation_id: rel_i_027
+  relation_type: analogy
+  factor_a: fixed_star_south
+  factor_b: planet_nature
+  relation_nature: Star=Planet
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.11
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385764'
+- relation_id: rel_i_014
+  relation_type: correspondence
+  factor_a: tropical_zodiac
+  factor_b: season_quality
+  relation_nature: Season=Sign quality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.12
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385779'
+- relation_id: rel_i_015
+  relation_type: modification
+  factor_a: house_angle
+  factor_b: planet_quality
+  relation_nature: Angle adds quality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.13
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385794'
+- relation_id: rel_i_016
+  relation_type: classification
+  factor_a: sign_modality
+  factor_b: behavior
+  relation_nature: Cardinal/Fixed/Mutable
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.14
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385811'
+- relation_id: rel_i_028
+  relation_type: classification
+  factor_a: sign_gender
+  factor_b: behavior
+  relation_nature: M=Active, F=Passive
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.15
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385824'
+- relation_id: rel_i_017
+  relation_type: relation
+  factor_a: aspect_type
+  factor_b: harmony_discord
+  relation_nature: Geometric connection
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.16
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385842'
+- relation_id: rel_i_029
+  relation_type: hierarchy
+  factor_a: sign_commanding
+  factor_b: sign_obeying
+  relation_nature: Summer>Winter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.17
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385854'
+- relation_id: rel_i_030
+  relation_type: mirror
+  factor_a: sign_antiscia
+  factor_b: equal_power
+  relation_nature: Solstice equidistance
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.18
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385867'
+- relation_id: rel_i_031
+  relation_type: aversion
+  factor_a: aspect_inconjunct
+  factor_b: no_relationship
+  relation_nature: 30° or 150°
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.19
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385881'
+- relation_id: rel_i_018
+  relation_type: dignity
+  factor_a: planet_domicile
+  factor_b: planet_strength
+  relation_nature: Home=Strong
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.20
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385897'
+- relation_id: rel_i_019
+  relation_type: dignity
+  factor_a: sign_triplicity
+  factor_b: planet_strength
+  relation_nature: Triplicity lord=Strength
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.21
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385911'
+- relation_id: rel_i_020
+  relation_type: dignity
+  factor_a: planet_exaltation
+  factor_b: planet_strength
+  relation_nature: Exaltation=Peak
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.22
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385929'
+- relation_id: rel_i_021a
+  relation_type: dignity
+  factor_a: terms_egyptian
+  factor_b: planet_strength
+  relation_nature: Minor dignity
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.23
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385945'
+- relation_id: rel_i_021b
+  relation_type: dignity
+  factor_a: terms_ptolemaic
+  factor_b: planet_strength
+  relation_nature: Minor dignity
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.24
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385963'
+- relation_id: rel_i_022
+  relation_type: definition
+  factor_a: tropical_zodiac
+  factor_b: sign_meaning
+  relation_nature: Equinox=Sign start
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.25
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385977'
+- relation_id: rel_i_023
+  relation_type: cumulative
+  factor_a: planet_dignity_multiple
+  factor_b: planet_strength
+  relation_nature: Multiple dignities=Power
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.26
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.385994'
+- relation_id: rel_i_024
+  relation_type: motion
+  factor_a: aspect_application
+  factor_b: aspect_formation
+  relation_nature: Faster approaches slower
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.27
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.386012'
+- relation_id: rel_i_025
+  relation_type: strength
+  factor_a: planet_oriental
+  factor_b: planet_power
+  relation_nature: Oriental=Strong
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy I.27
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.386015'
+- relation_id: rel_ptolemy_iii_001
+  relation_type: foundation
+  factor_a: genethliacal
+  factor_b: natal_chart
+  relation_nature: Individual application
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.389905'
+- relation_id: rel_ptolemy_iii_002
+  relation_type: temporal_dual
+  factor_a: prenatal_postnatal
+  factor_b: complete_analysis
+  relation_nature: Both required
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.389913'
+- relation_id: rel_iii_010
+  relation_type: correspondence
+  factor_a: chart_conception
+  factor_b: chart_birth
+  relation_nature: Sympathetic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.389931'
+- relation_id: rel_ptolemy_iii_003
+  relation_type: foundation
+  factor_a: ascendant
+  factor_b: house_framework
+  relation_nature: Establishes positions
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.389953'
+- relation_id: rel_ptolemy_iii_004
+  relation_type: validation
+  factor_a: degree_calc
+  factor_b: interpretation
+  relation_nature: Accuracy required
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.389957'
+- relation_id: rel_ptolemy_iii_005
+  relation_type: methodology
+  factor_a: fourfold_div
+  factor_b: systematic_inquiry
+  relation_nature: Structured approach
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.389978'
+- relation_id: rel_ptolemy_iii_006
+  relation_type: assignment
+  factor_a: topic_sig
+  factor_b: interpretation
+  relation_nature: Each topic has rulers
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.389982'
+- relation_id: rel_ptolemy_iii_007
+  relation_type: dual_rulership
+  factor_a: mercury_reason
+  factor_b: moon_soul
+  relation_nature: Joint mind rulers
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390001'
+- relation_id: rel_ptolemy_iii_008
+  relation_type: modification
+  factor_a: benefic_malefic
+  factor_b: mind_quality
+  relation_nature: Aspect influence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390004'
+- relation_id: rel_ptolemy_iii_009
+  relation_type: affliction
+  factor_a: saturn_cold
+  factor_b: mercury_moon_mind
+  relation_nature: Melancholy
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390024'
+- relation_id: rel_ptolemy_iii_010
+  relation_type: affliction
+  factor_a: mars_hot
+  factor_b: mercury_moon_mind
+  relation_nature: Epilepsy
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390027'
+- relation_id: rel_iii_011
+  relation_type: signification
+  factor_a: father_sig
+  factor_b: father_fortune
+  relation_nature: Sun/Saturn=Father
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390047'
+- relation_id: rel_iii_012
+  relation_type: signification
+  factor_a: mother_sig
+  factor_b: mother_fortune
+  relation_nature: Moon/Venus=Mother
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390049'
+- relation_id: rel_iii_013
+  relation_type: indication
+  factor_a: house_maternal
+  factor_b: sibling_number
+  relation_nature: MC/Venus/Moon=Siblings
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390065'
+- relation_id: rel_iii_014
+  relation_type: determination
+  factor_a: planet_masculine
+  factor_b: native_sex
+  relation_nature: Majority rule
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.7
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390080'
+- relation_id: rel_iii_015
+  relation_type: multiplication
+  factor_a: sign_bicorporeal
+  factor_b: birth_number
+  relation_nature: Bicorporeal=Multiples
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390095'
+- relation_id: rel_iii_020
+  relation_type: indication
+  factor_a: birth_defect
+  factor_b: luminary_position
+  relation_nature: Cadent=Risk
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390111'
+- relation_id: rel_iii_021
+  relation_type: hostility
+  factor_a: malefic_planet
+  factor_b: luminary
+  relation_nature: Mars→Sun, Saturn→Moon
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390128'
+- relation_id: rel_iii_022
+  relation_type: precedence
+  factor_a: lifespan_inquiry
+  factor_b: other_inquiries
+  relation_nature: Primary
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.11
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390145'
+- relation_id: rel_iii_023
+  relation_type: hierarchy
+  factor_a: house_prorogatory
+  factor_b: priority
+  relation_nature: MC > ASC
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.12
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390169'
+- relation_id: rel_iii_024
+  relation_type: selection
+  factor_a: prorogator
+  factor_b: sect
+  relation_nature: Day=Sun, Night=Moon
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.13
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390185'
+- relation_id: rel_iii_025
+  relation_type: determination
+  factor_a: direction_mode
+  factor_b: prorogator_position
+  relation_nature: Oriental=Direct
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.14
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390199'
+- relation_id: rel_iii_026
+  relation_type: calculation
+  factor_a: prorogation_calc
+  factor_b: lifespan
+  relation_nature: Times × Horary
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.15
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390269'
+- relation_id: rel_iii_018
+  relation_type: determination
+  factor_a: planet_ruler_asc
+  factor_b: body_form
+  relation_nature: ASC ruler=Body
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.16
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390292'
+- relation_id: rel_iii_019
+  relation_type: affliction
+  factor_a: malefic_angular
+  factor_b: bodily_affliction
+  relation_nature: Angular malefic=Disease
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Ptolemy III.17
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.390314'

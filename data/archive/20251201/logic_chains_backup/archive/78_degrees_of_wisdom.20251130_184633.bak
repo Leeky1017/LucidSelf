@@ -1,0 +1,96 @@
+chain_id: chain_7dow
+book_id: 78_degrees_of_wisdom
+nodes:
+- node_id: n_7dow_source_text_0
+  snippet_ids:
+  - ns_78deg_001
+  - ns_78deg_002
+  - ns_78deg_059
+  - ns_78deg_060
+  - ns_78deg_061
+  - ns_78deg_063
+  - ns_78deg_009
+  - ns_78deg_010
+  - ns_78deg_013
+  - ns_78deg_018
+  - ns_78deg_020
+  - ns_78deg_025
+  - ns_78deg_027
+  - ns_78deg_028
+  - ns_78deg_031
+  - ns_78deg_032
+  - ns_78deg_035
+  - ns_78deg_036
+  - ns_78deg_038
+  - ns_78deg_039
+  - ns_78deg_043
+  - ns_78deg_044
+  - ns_78deg_045
+  - ns_78deg_047
+  - ns_78deg_048
+  - ns_78deg_049
+  - ns_78deg_051
+  - ns_78deg_052
+  role: 主干
+  condition: null
+  summary: tarot_origin
+  metadata:
+    source_ref: Source Text
+    snippet_count: 28
+- node_id: n_7dow_english_paraphrase_1
+  snippet_ids:
+  - ns_78deg_003
+  - ns_78deg_004
+  - ns_78deg_062
+  - ns_78deg_064
+  - ns_78deg_065
+  - ns_78deg_066
+  - ns_78deg_011
+  - ns_78deg_012
+  - ns_78deg_014
+  - ns_78deg_015
+  - ns_78deg_016
+  - ns_78deg_017
+  - ns_78deg_019
+  - ns_78deg_021
+  - ns_78deg_022
+  - ns_78deg_023
+  - ns_78deg_024
+  - ns_78deg_026
+  - ns_78deg_029
+  - ns_78deg_030
+  - ns_78deg_033
+  - ns_78deg_034
+  - ns_78deg_037
+  - ns_78deg_040
+  - ns_78deg_041
+  - ns_78deg_042
+  - ns_78deg_046
+  - ns_78deg_050
+  - ns_78deg_053
+  - ns_78deg_054
+  role: 主干
+  condition: null
+  summary: esoteric_embedding
+  metadata:
+    source_ref: English Paraphrase
+    snippet_count: 30
+edges: []
+narrative_order:
+- n_7dow_english_paraphrase_1
+- n_7dow_source_text_0
+entry_nodes:
+- n_7dow_source_text_0
+- n_7dow_english_paraphrase_1
+terminal_nodes:
+- n_7dow_english_paraphrase_1
+- n_7dow_source_text_0
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-11-30T18:42:51.611499'
+  source_files:
+  - data/schema_staging/snippets/78_degrees_of_wisdom_snippets.yaml
+  - data/schema_staging/relations/78_degrees_of_wisdom_relations.yaml
+  snippet_count: 58
+  relation_count: 135
+version: 1.0.0

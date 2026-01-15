@@ -1,0 +1,9 @@
+{
+  "suite_id": "gate1_boot_regression",
+  "version_id": "ver_b23a6a8439c0",
+  "tests": [
+    "backend/tests/gate1_boot_regression",
+    "backend/tests/integration/test_pipeline_e2e.py"
+  ],
+  "pass_threshold": "all tests must pass (pytest exit code 0)"
+}

@@ -1,0 +1,5387 @@
+book_id: 子平真诠
+source_file: 典籍/中文典籍/子平真诠/编辑/子平真诠_完整规范化_中卷.md, 典籍/中文典籍/子平真诠/编辑/子平真诠_完整规范化_下卷.md, 典籍/中文典籍/子平真诠/编辑/子平真诠_完整规范化_上卷.md
+extracted_at: '2025-12-01T02:28:20.238467'
+snippets:
+- snippet_id: ns_zpzy_312
+  trigger: 墓库真义
+  factor_trigger: branch IN (chen, xu, chou, wei) AND muku=true AND tougan_huizhi_sheng_yu_xingchong
+  role: 主干
+  snippet_text: 辰戌丑未四墓库，透干会支胜于刑冲。
+  source_ref: 《子平真诠·论墓库刑冲之说》#墓库
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867179'
+- snippet_id: ns_zpzy_313
+  trigger: 透干取用
+  factor_trigger: zaqi_tougan_huizhi AND qibu_shenmei AND heyao_xingchong
+  role: 主干
+  snippet_text: 杂气透干会支岂不甚美，又何劳刑冲？
+  source_ref: 《子平真诠·论墓库刑冲之说》#透干
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867201'
+- snippet_id: ns_zpzy_314
+  trigger: 冲库有别
+  factor_trigger: (caiguan_shutu AND chong_ze_ku_qi) OR (caiguan_shu_shui AND chong_ze_fan_lei)
+  role: 主干
+  snippet_text: 财官属土冲则库启，属水冲则反累。
+  source_ref: 《子平真诠·论墓库刑冲之说》#冲库
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867217'
+- snippet_id: ns_zpzy_315
+  trigger: 杂气透干
+  factor_trigger: zaqi_yueling AND tougan_huizhi AND fang_neng_cheng_ge
+  role: 主干
+  snippet_text: 杂气月令，透干会支方能成格。
+  source_ref: 《子平真诠·论墓库刑冲之说》#杂气
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867232'
+- snippet_id: ns_zpzy_316
+  trigger: 库门开启
+  factor_trigger: zaqi_feng_chong AND kumen_fang_kai
+  role: 主干
+  snippet_text: 杂气逢冲，库门方开。
+  source_ref: 《子平真诠·论墓库刑冲之说》#开库
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867247'
+- snippet_id: ns_zpzy_317
+  trigger: 库冲之辨
+  factor_trigger: simu_feng_chong AND xu_bian_ku_kai_ku_bi
+  role: 主干
+  snippet_text: 四墓逢冲，须辨库开库闭。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867258'
+- snippet_id: ns_zpzy_318
+  trigger: 冲开库门
+  factor_trigger: chong_kai_kumen AND caiguan_shi_xian
+  role: 主干
+  snippet_text: 冲开库门，财官始显。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867268'
+- snippet_id: ns_zpzy_319
+  trigger: 库中藏干
+  factor_trigger: kuzhong_canggan AND tougan_fang_yong
+  role: 主干
+  snippet_text: 库中藏干，透干方用。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867277'
+- snippet_id: ns_zpzy_320
+  trigger: 刑冲破害
+  factor_trigger: xingchong_pohai AND ge_you_qingzhong
+  role: 主干
+  snippet_text: 刑冲破害，各有轻重。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867287'
+- snippet_id: ns_zpzy_321
+  trigger: 墓库收藏
+  factor_trigger: muku_shoucang AND xu_chongkai_fang_xian
+  role: 主干
+  snippet_text: 墓库收藏，须冲开方显。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867296'
+- snippet_id: ns_zpzy_322
+  trigger: 辰为水库
+  factor_trigger: chen=shuiku AND feng_chong_ze_shui_yi
+  role: 主干
+  snippet_text: 辰为水库，逢冲则水溢。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867306'
+- snippet_id: ns_zpzy_323
+  trigger: 戌为火库
+  factor_trigger: xu=huoku AND feng_chong_ze_huo_wang
+  role: 主干
+  snippet_text: 戌为火库，逢冲则火旺。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867319'
+- snippet_id: ns_zpzy_324
+  trigger: 丑为金库
+  factor_trigger: chou=jinku AND feng_chong_ze_jin_xian
+  role: 主干
+  snippet_text: 丑为金库，逢冲则金显。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867332'
+- snippet_id: ns_zpzy_325
+  trigger: 格成格破
+  factor_trigger: (gecheng=true AND result=ji) OR (gepo=true AND result=xiong)
+  role: 主干
+  snippet_text: 格成则吉，格破则凶。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867344'
+- snippet_id: ns_zpzy_326
+  trigger: 日主强弱
+  factor_trigger: rizhu_qiangruo AND ding_geju_zhi_ji
+  role: 主干
+  snippet_text: 日主强弱，定格局之基。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867353'
+- snippet_id: ns_zpzy_327
+  trigger: 第23章要点
+  factor_trigger: chapter=23 AND hexin_lunshu
+  role: 主干
+  snippet_text: 本章核心论述。
+  source_ref: 《子平真诠》#中卷第23章
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867387'
+- snippet_id: ns_zpzy_328
+  trigger: 吉神破格例
+  factor_trigger: caiduo_shenruo AND jishen_fan_cheng_jishen
+  role: 主干
+  snippet_text: 财多身弱，吉神反成忌神。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867398'
+- snippet_id: ns_zpzy_329
+  trigger: 辰戌丑未
+  factor_trigger: branch IN (chen, xu, chou, wei) AND simu_ku
+  role: 主干
+  snippet_text: 辰戌丑未为四墓库。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867409'
+- snippet_id: ns_zpzy_330
+  trigger: 冲开库门
+  factor_trigger: chong_kai_kumen AND caiguan_shi_xian
+  role: 主干
+  snippet_text: 冲开库门，财官始显。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867421'
+- snippet_id: ns_zpzy_331
+  trigger: 库中藏干
+  factor_trigger: kuzhong_canggan AND tougan_fang_yong
+  role: 主干
+  snippet_text: 库中藏干，透干方用。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867431'
+- snippet_id: ns_zpzy_332
+  trigger: 库中有物
+  factor_trigger: kuzhong_youwu AND chong_zhi_ze_chu
+  role: 主干
+  snippet_text: 库中有物，冲之则出。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867446'
+- snippet_id: ns_zpzy_333
+  trigger: 入墓之忌
+  factor_trigger: rigan_rumu AND buli_zishen
+  role: 主干
+  snippet_text: 日干入墓，不利自身。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867462'
+- snippet_id: ns_zpzy_334
+  trigger: 未为木库
+  factor_trigger: wei=muku AND feng_chong_ze_mu_rong
+  role: 主干
+  snippet_text: 未为木库，逢冲则木荣。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867473'
+- snippet_id: ns_zpzy_335
+  trigger: 库中透干
+  factor_trigger: kuzhong_tougan AND geju_nai_cheng
+  role: 主干
+  snippet_text: 库中透干，格局乃成。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867483'
+- snippet_id: ns_zpzy_336
+  trigger: 库不见冲
+  factor_trigger: ku_bujian_chong AND caiguan_nan_xian
+  role: 主干
+  snippet_text: 库不见冲，财官难显。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867492'
+- snippet_id: ns_zpzy_337
+  trigger: 用神有力
+  factor_trigger: yongshen_youli=true AND result=fugui_keqi
+  role: 主干
+  snippet_text: 用神有力，富贵可期。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867503'
+- snippet_id: ns_zpzy_338
+  trigger: 月令当权
+  factor_trigger: yueling_dangquan AND yongshen_zhi_fu
+  role: 主干
+  snippet_text: 月令当权，用神之府。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867513'
+- snippet_id: ns_zpzy_339
+  trigger: 第22章要点
+  factor_trigger: chapter=22 AND hexin_lunshu
+  role: 主干
+  snippet_text: 本章核心论述。
+  source_ref: 《子平真诠》#中卷第22章
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867546'
+- snippet_id: ns_zpzy_340
+  trigger: 凶神成格例
+  factor_trigger: sha_feng_shi_zhi AND xiongshen_zhuan_cheng_guiqi
+  role: 主干
+  snippet_text: 煞逢食制，凶神转成贵气。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867560'
+- snippet_id: ns_zpzy_341
+  trigger: 辰戌丑未
+  factor_trigger: branch IN (chen, xu, chou, wei) AND simu_ku
+  role: 主干
+  snippet_text: 辰戌丑未为四墓库。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867570'
+- snippet_id: ns_zpzy_342
+  trigger: 冲开库门
+  factor_trigger: chong_kai_kumen AND caiguan_shi_xian
+  role: 主干
+  snippet_text: 冲开库门，财官始显。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867580'
+- snippet_id: ns_zpzy_343
+  trigger: 库中藏干
+  factor_trigger: kuzhong_canggan AND tougan_fang_yong
+  role: 主干
+  snippet_text: 库中藏干，透干方用。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867592'
+- snippet_id: ns_zpzy_344
+  trigger: 财官入库
+  factor_trigger: caiguan_ruku AND feng_chong_ze_fa
+  role: 主干
+  snippet_text: 财官入库，逢冲则发。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867602'
+- snippet_id: ns_zpzy_345
+  trigger: 印绶入库
+  factor_trigger: yinshou_ruku AND xueye_nan_cheng
+  role: 主干
+  snippet_text: 印绶入库，学业难成。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867613'
+- snippet_id: ns_zpzy_346
+  trigger: 财入库中
+  factor_trigger: cai_ru_kuzhong AND fu_er_neng_shou
+  role: 主干
+  snippet_text: 财入库中，富而能守。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867622'
+- snippet_id: ns_zpzy_347
+  trigger: 官入库中
+  factor_trigger: guan_ru_kuzhong AND quan_zai_anchu
+  role: 主干
+  snippet_text: 官入库中，权在暗处。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867632'
+- snippet_id: ns_zpzy_348
+  trigger: 印入库中
+  factor_trigger: yin_ru_kuzhong AND xueye_chi_cheng
+  role: 主干
+  snippet_text: 印入库中，学业迟成。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867645'
+- snippet_id: ns_zpzy_349
+  trigger: 用神无力
+  factor_trigger: yongshen_wuli=true AND result=pinjian_nanmian
+  role: 主干
+  snippet_text: 用神无力，贫贱难免。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867654'
+- snippet_id: ns_zpzy_350
+  trigger: 年柱根基
+  factor_trigger: nianzhu_genji AND zuye_zhigong
+  role: 主干
+  snippet_text: 年柱根基，祖业之宫。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867671'
+- snippet_id: ns_zpzy_351
+  trigger: 第21章要点
+  factor_trigger: chapter=21 AND hexin_lunshu
+  role: 主干
+  snippet_text: 本章核心论述。
+  source_ref: 《子平真诠》#中卷第21章
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867699'
+- snippet_id: ns_zpzy_352
+  trigger: 先后之序
+  factor_trigger: (xian_sheng_hou_ke AND result=ji) OR (xian_ke_hou_sheng AND result=xiong)
+  role: 主干
+  snippet_text: 先生后克吉，先克后生凶。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867709'
+- snippet_id: ns_zpzy_353
+  trigger: 食伤入库
+  factor_trigger: shishang_ruku AND zixi_chihuan
+  role: 主干
+  snippet_text: 食伤入库，子息迟缓。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867719'
+- snippet_id: ns_zpzy_354
+  trigger: 比劫入库
+  factor_trigger: bijie_ruku AND shouzu_wuyuan
+  role: 主干
+  snippet_text: 比劫入库，手足无缘。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867730'
+- snippet_id: ns_zpzy_355
+  trigger: 食入库中
+  factor_trigger: shi_ru_kuzhong AND zixi_wan_de
+  role: 主干
+  snippet_text: 食入库中，子息晚得。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867740'
+- snippet_id: ns_zpzy_356
+  trigger: 吉神太旺
+  factor_trigger: jishen_tai_wang AND fan_wei_bumei
+  role: 主干
+  snippet_text: 吉神太旺，反为不美。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867753'
+- snippet_id: ns_zpzy_357
+  trigger: 凶神逢制
+  factor_trigger: xiongshen_feng_zhi AND fan_neng_cheng_ge
+  role: 主干
+  snippet_text: 凶神逢制，反能成格。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867762'
+- snippet_id: ns_zpzy_358
+  trigger: 相神得用
+  factor_trigger: xiangshen_deyong=true AND fuge_yougong
+  role: 主干
+  snippet_text: 相神得用，辅格有功。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867772'
+- snippet_id: ns_zpzy_359
+  trigger: 时柱归宿
+  factor_trigger: shizhu_guisu AND zixi_zhigong
+  role: 主干
+  snippet_text: 时柱归宿，子息之宫。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867782'
+- snippet_id: ns_zpzy_360
+  trigger: 第20章要点
+  factor_trigger: chapter=20 AND hexin_lunshu
+  role: 主干
+  snippet_text: 本章核心论述。
+  source_ref: 《子平真诠》#中卷第20章
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867809'
+- snippet_id: ns_zpzy_361
+  trigger: 星辰不论
+  factor_trigger: shensha_xingchen AND bu_ru_zhengge_zhi_lun
+  role: 主干
+  snippet_text: 神煞星辰，不入正格之论。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867818'
+- snippet_id: ns_zpzy_362
+  trigger: 辰戌丑未
+  factor_trigger: branch IN (chen, xu, chou, wei) AND simu_ku
+  role: 主干
+  snippet_text: 辰戌丑未为四墓库。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867834'
+- snippet_id: ns_zpzy_363
+  trigger: 冲开库门
+  factor_trigger: chong_kai_kumen AND caiguan_shi_xian
+  role: 主干
+  snippet_text: 冲开库门，财官始显。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867844'
+- snippet_id: ns_zpzy_364
+  trigger: 库中藏干
+  factor_trigger: kuzhong_canggan AND tougan_fang_yong
+  role: 主干
+  snippet_text: 库中藏干，透干方用。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867885'
+- snippet_id: ns_zpzy_365
+  trigger: 吉神太过
+  factor_trigger: jishen_tai_guo AND fan_cheng_qi_hai
+  role: 主干
+  snippet_text: 吉神太过，反成其害。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867895'
+- snippet_id: ns_zpzy_366
+  trigger: 凶神得用
+  factor_trigger: xiongshen_deyong AND fan_cheng_qi_fu
+  role: 主干
+  snippet_text: 凶神得用，反成其福。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867905'
+- snippet_id: ns_zpzy_367
+  trigger: 财旺克印
+  factor_trigger: cai_wang_ke_yin AND xueye_nan_cheng
+  role: 主干
+  snippet_text: 财旺克印，学业难成。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867915'
+- snippet_id: ns_zpzy_368
+  trigger: 官旺生印
+  factor_trigger: guan_wang_sheng_yin AND guiqi_tiancheng
+  role: 主干
+  snippet_text: 官旺生印，贵气天成。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867928'
+- snippet_id: ns_zpzy_369
+  trigger: 印旺生身
+  factor_trigger: yin_wang_sheng_shen AND shen_qiang_neng_ren
+  role: 主干
+  snippet_text: 印旺生身，身强能任。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867938'
+- snippet_id: ns_zpzy_370
+  trigger: 喜神来助
+  factor_trigger: xishen_laizhu=true AND result=shishi_shunsui
+  role: 主干
+  snippet_text: 喜神来助，事事顺遂。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867952'
+- snippet_id: ns_zpzy_371
+  trigger: 天干主动
+  factor_trigger: tiangan_zhu_dong AND ying_su_er_xian
+  role: 主干
+  snippet_text: 天干主动，应速而显。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867962'
+- snippet_id: ns_zpzy_372
+  trigger: 四凶亦成
+  factor_trigger: sha_shang_xiao_ren IN sixiongshen AND shi_zhi_deyi AND yi_cheng_ge
+  role: 主干
+  snippet_text: 煞伤枭刃四凶神，施之得宜亦成格。
+  source_ref: 《子平真诠·论四凶神能成格》#四凶
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.867991'
+- snippet_id: ns_zpzy_373
+  trigger: 凶神成格例
+  factor_trigger: (yinqing_tousha_weizhu) OR (cai_feng_bijie_shangguan_ke_jie)
+  role: 主干
+  snippet_text: 印轻透煞为助，财逢比劫伤官可解。
+  source_ref: 《子平真诠·论四凶神能成格》#成格例
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868002'
+- snippet_id: ns_zpzy_374
+  trigger: 凶为良剂
+  factor_trigger: changqiang_daji_ru_xiongshen AND shi_zhi_deyi_ke_kanluan
+  role: 条件分支
+  snippet_text: 如长枪大戟，本非美具，施之得宜可戞乱。
+  source_ref: 《子平真诠·论四凶神能成格》#比喻
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868016'
+- snippet_id: ns_zpzy_375
+  trigger: 外格之用
+  factor_trigger: waige_xu_zhen AND zhen_ze_keyong
+  role: 主干
+  snippet_text: 外格须真，真则可用。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868027'
+- snippet_id: ns_zpzy_376
+  trigger: 辰戌丑未
+  factor_trigger: branch IN (chen, xu, chou, wei) AND simu_ku
+  role: 主干
+  snippet_text: 辰戌丑未为四墓库。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868037'
+- snippet_id: ns_zpzy_377
+  trigger: 冲开库门
+  factor_trigger: chong_kai_kumen AND caiguan_shi_xian
+  role: 主干
+  snippet_text: 冲开库门，财官始显。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868049'
+- snippet_id: ns_zpzy_378
+  trigger: 库中藏干
+  factor_trigger: kuzhong_canggan AND tougan_fang_yong
+  role: 主干
+  snippet_text: 库中藏干，透干方用。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868060'
+- snippet_id: ns_zpzy_379
+  trigger: 财多身弱忌
+  factor_trigger: cai_duo_shen_ruo_yi AND fu_wu_pin_ren
+  role: 主干
+  snippet_text: 财多身弱，富屋贫人。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868078'
+- snippet_id: ns_zpzy_380
+  trigger: 官多为煞忌
+  factor_trigger: guan_duo_wei_sha_yi AND fan_sui_qi_hai
+  role: 主干
+  snippet_text: 官多为煞，反遭其害。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868089'
+- snippet_id: ns_zpzy_381
+  trigger: 食旺泄身
+  factor_trigger: shi_wang_xie_shen AND xiu_qi_liu_lu
+  role: 主干
+  snippet_text: 食旺泄身，秀气流露。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868098'
+- snippet_id: ns_zpzy_382
+  trigger: 煞旺攻身
+  factor_trigger: sha_wang_gong_shen AND xu_yao_shi_hua
+  role: 主干
+  snippet_text: 煞旺攻身，须食制印化。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868112'
+- snippet_id: ns_zpzy_383
+  trigger: 伤旺生财
+  factor_trigger: shang_wang_sheng_cai AND ji_yi_zhi_fu
+  role: 主干
+  snippet_text: 伤旺生财，技艺致富。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868122'
+- snippet_id: ns_zpzy_384
+  trigger: 喜神来助
+  factor_trigger: xishen_laizhu=true AND result=shishi_shunsui
+  role: 主干
+  snippet_text: 喜神来助，事事顺遂。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868132'
+- snippet_id: ns_zpzy_385
+  trigger: 天干主动
+  factor_trigger: tiangan_zhu_dong AND ying_su_er_xian
+  role: 主干
+  snippet_text: 天干主动，应速而显。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868146'
+- snippet_id: ns_zpzy_386
+  trigger: 官多为煞忌
+  factor_trigger: guan_duo_wei_sha AND fan_zao_qi_hai
+  role: 主干
+  snippet_text: 官多为煞，反遭其害。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868160'
+- snippet_id: ns_zpzy_387
+  trigger: 食旺泄身
+  factor_trigger: shi_wang_xie_shen AND xiuqi_liulu
+  role: 主干
+  snippet_text: 食旺泄身，秀气流露。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868172'
+- snippet_id: ns_zpzy_388
+  trigger: 煞旺攻身
+  factor_trigger: sha_wang_gong_shen AND xu_shi_zhi_yin_hua
+  role: 主干
+  snippet_text: 煞旺攻身，须食制印化。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868185'
+- snippet_id: ns_zpzy_389
+  trigger: 伤旺生财
+  factor_trigger: shang_wang_sheng_cai AND jiyi_zhifu
+  role: 主干
+  snippet_text: 伤旺生财，技艺致富。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868196'
+- snippet_id: ns_zpzy_390
+  trigger: 忌神来犯
+  factor_trigger: jishen_laifan=true AND result=zaihuo_nanmian
+  role: 主干
+  snippet_text: 忌神来犯，灾祸难免。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868206'
+- snippet_id: ns_zpzy_391
+  trigger: 地支主静
+  factor_trigger: dizhi_zhu_jing AND ying_huan_er_shen
+  role: 主干
+  snippet_text: 地支主静，应缓而深。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868216'
+- snippet_id: ns_zpzy_392
+  trigger: 四吉亦破
+  factor_trigger: caiguan_yinshi IN sijishen AND yong_zhi_bu_dang AND yi_po_ge
+  role: 主干
+  snippet_text: 财官印食四吉神，用之不当亦破格。
+  source_ref: 《子平真诠·论四吉神能破格》#四吉
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868245'
+- snippet_id: ns_zpzy_393
+  trigger: 吉神破格例
+  factor_trigger: (shishen_daisha_toucai_weihai) OR (chunmu_huowang_jianguan_yi_ji)
+  role: 主干
+  snippet_text: 食神带煞透财为害，春木火旺见官亦忌。
+  source_ref: 《子平真诠·论四吉神能破格》#破格例
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868257'
+- snippet_id: ns_zpzy_394
+  trigger: 配合得宜
+  factor_trigger: jishen_xu_peihe_deyi AND guo_ze_fan_hai AND buzu_ze_wuli
+  role: 主干
+  snippet_text: 吉神须配合得宜，过则反害，不足则无力。
+  source_ref: 《子平真诠·论四吉神能破格》#配合
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868268'
+- snippet_id: ns_zpzy_395
+  trigger: 宫位配亲
+  factor_trigger: nian_yue_ri_shi AND ge_pei_liuqin
+  role: 主干
+  snippet_text: 年月日时，各配六亲。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868282'
+- snippet_id: ns_zpzy_396
+  trigger: 辰戌丑未
+  factor_trigger: branch IN (chen, xu, chou, wei) AND simu_ku
+  role: 主干
+  snippet_text: 辰戌丑未为四墓库。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868293'
+- snippet_id: ns_zpzy_397
+  trigger: 冲开库门
+  factor_trigger: chong_kai_kumen AND caiguan_shi_xian
+  role: 主干
+  snippet_text: 冲开库门，财官始显。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868306'
+- snippet_id: ns_zpzy_398
+  trigger: 库中藏干
+  factor_trigger: kuzhong_canggan AND tougan_fang_yong
+  role: 主干
+  snippet_text: 库中藏干，透干方用。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868316'
+- snippet_id: ns_zpzy_399
+  trigger: 印多克子
+  factor_trigger: yin_duo_ke_shi AND zixi_jiannan
+  role: 主干
+  snippet_text: 印多克食，子息艰难。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868326'
+- snippet_id: ns_zpzy_400
+  trigger: 食多克官
+  factor_trigger: shi_duo_ke_guan AND shitu_bushun
+  role: 主干
+  snippet_text: 食多克官，仕途不顺。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868336'
+- snippet_id: ns_zpzy_401
+  trigger: 比旺争财
+  factor_trigger: bi_wang_zheng_cai AND shouzu_zhengdou
+  role: 主干
+  snippet_text: 比旺争财，手足争斗。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868348'
+- snippet_id: ns_zpzy_402
+  trigger: 劫旺夺财
+  factor_trigger: jie_wang_duo_cai AND qicai_buju
+  role: 主干
+  snippet_text: 劫旺夺财，妻财不聚。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868361'
+- snippet_id: ns_zpzy_403
+  trigger: 先后有别
+  factor_trigger: shengke_xianhou AND jiongxiong_jiongyi
+  role: 主干
+  snippet_text: 生克先后，吉凶迥异。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868371'
+- snippet_id: ns_zpzy_404
+  trigger: 病重药重
+  factor_trigger: (bingzhong AND yaozhong) OR (bingqing AND yaoliang)
+  role: 主干
+  snippet_text: 病重药重，病轻药轻。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868384'
+- snippet_id: ns_zpzy_405
+  trigger: 干支一体
+  factor_trigger: ganzhi_yiti AND tongcan_helun
+  role: 主干
+  snippet_text: 干支一体，统参合论。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868395'
+- snippet_id: ns_zpzy_406
+  trigger: 墓库真义
+  factor_trigger: branch IN (chen, xu, chou, wei) AND simu AND bubi_jie_xi_xingchong
+  role: 主干
+  snippet_text: 辰戌丑未四墓，不必皆喜刑冲。
+  source_ref: 《子平真诠·论墓库刑冲之说》#墓库
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868425'
+- snippet_id: ns_zpzy_407
+  trigger: 透干为先
+  factor_trigger: zaqi_tougan_huizhi AND sheng_yu_xingchong_luandong
+  role: 主干
+  snippet_text: 杂气透干会支，胜于刑冲乱动。
+  source_ref: 《子平真诠·论墓库刑冲之说》#透干
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868436'
+- snippet_id: ns_zpzy_408
+  trigger: 库冲有别
+  factor_trigger: (caiguan_shutu AND chong_ze_ku_qi) OR (caiguan_shushui AND chong_ze_fan_lei)
+  role: 主干
+  snippet_text: 财官属土冲则库启，属水冲则反累。
+  source_ref: 《子平真诠·论墓库刑冲之说》#库冲
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868447'
+- snippet_id: ns_zpzy_409
+  trigger: 妻财子禄
+  factor_trigger: cai_wei_qi AND guan_wei_zi AND ge_you_qufa
+  role: 主干
+  snippet_text: 财为妻，官为子，各有取法。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868456'
+- snippet_id: ns_zpzy_410
+  trigger: 冲开库门
+  factor_trigger: chong_kai_kumen AND caiguan_shi_xian
+  role: 主干
+  snippet_text: 冲开库门，财官始显。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868471'
+- snippet_id: ns_zpzy_411
+  trigger: 库中藏干
+  factor_trigger: kuzhong_canggan AND tougan_fang_yong
+  role: 主干
+  snippet_text: 库中藏干，透干方用。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868481'
+- snippet_id: ns_zpzy_412
+  trigger: 刑冲破害
+  factor_trigger: xingchong_pohai AND ge_you_qingzhong
+  role: 主干
+  snippet_text: 刑冲破害，各有轻重。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868491'
+- snippet_id: ns_zpzy_413
+  trigger: 煞有制化
+  factor_trigger: sha_you_zhi_hua AND hua_xiong_wei_ji
+  role: 主干
+  snippet_text: 煞有制化，化凶为吉。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868499'
+- snippet_id: ns_zpzy_414
+  trigger: 伤有印制
+  factor_trigger: shang_you_yin_zhi AND congming_fan_wei
+  role: 主干
+  snippet_text: 伤有印制，聪明反为。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868508'
+- snippet_id: ns_zpzy_415
+  trigger: 近远不同
+  factor_trigger: rigan_jin_zhe_li_zhong
+  role: 主干
+  snippet_text: 日干近者力重。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868517'
+- snippet_id: ns_zpzy_416
+  trigger: 轻重权衡
+  factor_trigger: qingzhong_quanheng AND ding_qi_gaodi
+  role: 主干
+  snippet_text: 轻重权衡，定其高低。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868527'
+- snippet_id: ns_zpzy_417
+  trigger: 真假分辨
+  factor_trigger: zhenshen_jiashen AND yongfa_butong
+  role: 主干
+  snippet_text: 真神假神，用法不同。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868536'
+- snippet_id: ns_zpzy_418
+  trigger: 有病无药
+  factor_trigger: youbing=true AND wuyao=true AND result=zhongshen_buli
+  role: 主干
+  snippet_text: 有病无药，终身不利。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868545'
+- snippet_id: ns_zpzy_419
+  trigger: 生克有情
+  factor_trigger: shengke_youqing AND fang_wei_zhenyong
+  role: 主干
+  snippet_text: 生克有情，方为真用。
+  source_ref: 《子平真诠》#中卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.868551'
+- snippet_id: ns_zpzy_420
+  trigger: 杂格论
+  factor_trigger: zage_bianhua_duoduan AND xu_shen_zhenwei
+  role: 主干
+  snippet_text: 杂格变化多端，须审真伪。
+  source_ref: 《子平真诠》#下卷第47章
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887408'
+- snippet_id: ns_zpzy_421
+  trigger: 运程喜忌
+  factor_trigger: (yun_xi AND result=ji) OR (yun_ji AND result=xiong)
+  role: 主干
+  snippet_text: 运喜则吉，运忌则凶。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887459'
+- snippet_id: ns_zpzy_422
+  trigger: 伤官之忌
+  factor_trigger: shangguan_jianguan AND weihuo_baiduan
+  role: 主干
+  snippet_text: 伤官见官，为祸百端。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887470'
+- snippet_id: ns_zpzy_423
+  trigger: 行运喜忌
+  factor_trigger: (xingyun_xi AND result=ji) OR (xingyun_ji AND result=xiong)
+  role: 主干
+  snippet_text: 运喜则吉，运忌则凶。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887481'
+- snippet_id: ns_zpzy_424
+  trigger: 运能成格
+  factor_trigger: yun_neng_cheng_ge AND geju_yugao
+  role: 主干
+  snippet_text: 运能成格，格局愈高。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887494'
+- snippet_id: ns_zpzy_425
+  trigger: 运助格局
+  factor_trigger: yun_zhu_geju AND fugui_jiabei
+  role: 主干
+  snippet_text: 运助格局，富贵加倍。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887504'
+- snippet_id: ns_zpzy_426
+  trigger: 运破格局
+  factor_trigger: yun_po_geju AND huohuan_linmen
+  role: 主干
+  snippet_text: 运破格局，祸患临门。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887514'
+- snippet_id: ns_zpzy_427
+  trigger: 正官格运
+  factor_trigger: zhengguan_ge AND xi_yin_cai_yun
+  role: 主干
+  snippet_text: 正官格喜印财运。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887525'
+- snippet_id: ns_zpzy_428
+  trigger: 财格行运
+  factor_trigger: cai_ge AND xi_shishang_shengcai_yun
+  role: 主干
+  snippet_text: 财格喜食伤生财运。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887536'
+- snippet_id: ns_zpzy_429
+  trigger: 命局组合
+  factor_trigger: mingju_zuhe AND jiongxiong_zixian
+  role: 主干
+  snippet_text: 命局组合，吉凶自现。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887544'
+- snippet_id: ns_zpzy_430
+  trigger: 格成格破
+  factor_trigger: (gecheng=true AND result=ji) OR (gepo=true AND result=xiong)
+  role: 主干
+  snippet_text: 格成则吉，格破则凶。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887552'
+- snippet_id: ns_zpzy_431
+  trigger: 日主强弱
+  factor_trigger: rizhu_qiangruo AND ding_geju_zhi_ji
+  role: 主干
+  snippet_text: 日主强弱，定格局之基。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887562'
+- snippet_id: ns_zpzy_432
+  trigger: 真神假神
+  factor_trigger: (zhenshen_deyong AND geju_qing) OR (jiashen_hunza AND geju_zhuo)
+  role: 主干
+  snippet_text: 真神得用格局清，假神混杂格局浊。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887572'
+- snippet_id: ns_zpzy_433
+  trigger: 清浊分辨
+  factor_trigger: (qingqi_weishang) AND (zhuoqi_weixia) AND guijian_youci_fen
+  role: 条件分支
+  snippet_text: 清气为上浊气为下，贵贱由此分。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887581'
+- snippet_id: ns_zpzy_434
+  trigger: 禄劫取运
+  factor_trigger: lujie_ge_quyun AND shi_yongshen_er_ding
+  role: 主干
+  snippet_text: 禄劫格取运，视用神而定。
+  source_ref: 《子平真诠》#下卷第46章
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887613'
+- snippet_id: ns_zpzy_435
+  trigger: 成格之运
+  factor_trigger: yun_neng_cheng_ge AND geju_yugao
+  role: 主干
+  snippet_text: 运能成格，格局愈高。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887645'
+- snippet_id: ns_zpzy_436
+  trigger: 伤官之用
+  factor_trigger: shangguan_shengcai AND fugui_zilai
+  role: 主干
+  snippet_text: 伤官生财，富贵自来。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887660'
+- snippet_id: ns_zpzy_437
+  trigger: 运能变格
+  factor_trigger: yun_neng_bian_ge AND jiongxiong_zhuanhuan
+  role: 主干
+  snippet_text: 运能变格，吉凶转换。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887672'
+- snippet_id: ns_zpzy_438
+  trigger: 干透之验
+  factor_trigger: xishen_tougan AND yingyan_sujie
+  role: 主干
+  snippet_text: 喜神透干，应验速捷。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887682'
+- snippet_id: ns_zpzy_439
+  trigger: 官运逢印
+  factor_trigger: guanyun_feng_yin AND shitu_shunsui
+  role: 主干
+  snippet_text: 官运逢印，仕途顺遂。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887694'
+- snippet_id: ns_zpzy_440
+  trigger: 财运逢食
+  factor_trigger: caiyun_feng_shi AND caiyuan_guangjin
+  role: 主干
+  snippet_text: 财运逢食，财源广进。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887702'
+- snippet_id: ns_zpzy_441
+  trigger: 印格行运
+  factor_trigger: yin_ge AND xi_guansha_shengyin_yun
+  role: 主干
+  snippet_text: 印格喜官煞生印运。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887709'
+- snippet_id: ns_zpzy_442
+  trigger: 食格行运
+  factor_trigger: shi_ge AND xi_caixing_xiexiu_yun
+  role: 主干
+  snippet_text: 食格喜财星泄秀运。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887717'
+- snippet_id: ns_zpzy_443
+  trigger: 干支配合
+  factor_trigger: ganzhi_peihe AND shengke_youqing
+  role: 主干
+  snippet_text: 干支配合，生克有情。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887724'
+- snippet_id: ns_zpzy_444
+  trigger: 用神有力
+  factor_trigger: yongshen_youli=true AND result=fugui_keqi
+  role: 主干
+  snippet_text: 用神有力，富贵可期。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887734'
+- snippet_id: ns_zpzy_445
+  trigger: 月令当权
+  factor_trigger: yueling_dangquan AND yongshen_zhi_fu
+  role: 条件分支
+  snippet_text: 月令当权，用神之府。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887743'
+- snippet_id: ns_zpzy_446
+  trigger: 建禄月劫
+  factor_trigger: jianlu_yuejie_wuge AND xu_bie_xun_yongshen
+  role: 主干
+  snippet_text: 建禄月劫无格，须别寻用神。
+  source_ref: 《子平真诠》#下卷第45章
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887773'
+- snippet_id: ns_zpzy_447
+  trigger: 变格之运
+  factor_trigger: yun_neng_bian_ge AND jiongxiong_zhuanhuan
+  role: 主干
+  snippet_text: 运能变格，吉凶转换。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887787'
+- snippet_id: ns_zpzy_448
+  trigger: 阳刃之性
+  factor_trigger: yangren_weixiong AND xu_guansha_zhi_zhi
+  role: 主干
+  snippet_text: 阳刃为凶，须官煞制之。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887795'
+- snippet_id: ns_zpzy_449
+  trigger: 支会之力
+  factor_trigger: xishen_hui_zhi AND liliang_shenhou
+  role: 主干
+  snippet_text: 喜神会支，力量深厚。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887802'
+- snippet_id: ns_zpzy_450
+  trigger: 正官护印
+  factor_trigger: guan_feng_yin_sheng AND guiqi_tiancheng
+  role: 主干
+  snippet_text: 官逢印生，贵气天成。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887811'
+- snippet_id: ns_zpzy_451
+  trigger: 印运逢官
+  factor_trigger: yinyun_feng_guan AND xueye_youcheng
+  role: 主干
+  snippet_text: 印运逢官，学业有成。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887820'
+- snippet_id: ns_zpzy_452
+  trigger: 食运逢财
+  factor_trigger: shiyun_feng_cai AND jingshang_dali
+  role: 主干
+  snippet_text: 食运逢财，经商大利。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887829'
+- snippet_id: ns_zpzy_453
+  trigger: 煞格行运
+  factor_trigger: sha_ge AND xi_shizhi_yinhua_yun
+  role: 主干
+  snippet_text: 煞格喜食制印化运。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887836'
+- snippet_id: ns_zpzy_454
+  trigger: 伤格行运
+  factor_trigger: shang_ge AND xi_caixing_shengyong_yun
+  role: 主干
+  snippet_text: 伤格喜财星生用运。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887844'
+- snippet_id: ns_zpzy_455
+  trigger: 五行流通
+  factor_trigger: wuxing_liutong AND qiji_changda
+  role: 主干
+  snippet_text: 五行流通，气机畅达。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887851'
+- snippet_id: ns_zpzy_456
+  trigger: 用神无力
+  factor_trigger: yongshen_wuli=true AND result=pinjian_nanmian
+  role: 主干
+  snippet_text: 用神无力，贫贱难免。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887859'
+- snippet_id: ns_zpzy_457
+  trigger: 年柱根基
+  factor_trigger: nianzhu_genji AND zuye_zhigong
+  role: 条件分支
+  snippet_text: 年柱根基，祖业之宫。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887871'
+- snippet_id: ns_zpzy_458
+  trigger: 刃格取运
+  factor_trigger: renge_quyun AND xi_guansha_ji_caixing
+  role: 主干
+  snippet_text: 刃格取运，喜官煞忌财星。
+  source_ref: 《子平真诠》#下卷第44章
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887896'
+- snippet_id: ns_zpzy_459
+  trigger: 干透之妙
+  factor_trigger: xishen_tougan AND yingyan_sujie
+  role: 主干
+  snippet_text: 喜神透干，应验速捷。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887905'
+- snippet_id: ns_zpzy_460
+  trigger: 阳刃之用
+  factor_trigger: yangren_he_sha AND quanwei_xianhe
+  role: 主干
+  snippet_text: 阳刃合煞，权威显赫。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887912'
+- snippet_id: ns_zpzy_461
+  trigger: 财旺生官
+  factor_trigger: cai_wang_sheng_guan AND fugui_shuangquan
+  role: 主干
+  snippet_text: 财旺生官，富贵双全。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887919'
+- snippet_id: ns_zpzy_462
+  trigger: 印绶生身
+  factor_trigger: yinshou_sheng_shen AND xueye_youcheng
+  role: 主干
+  snippet_text: 印绶生身，学业有成。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887927'
+- snippet_id: ns_zpzy_463
+  trigger: 煞运逢食
+  factor_trigger: shayun_feng_shi AND quanwei_xianhe
+  role: 主干
+  snippet_text: 煞运逢食，权威显赫。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887935'
+- snippet_id: ns_zpzy_464
+  trigger: 伤运逢财
+  factor_trigger: shangyun_feng_cai AND jiyi_shengcai
+  role: 主干
+  snippet_text: 伤运逢财，技艺生财。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887945'
+- snippet_id: ns_zpzy_465
+  trigger: 刃格行运
+  factor_trigger: ren_ge AND xi_guansha_zhiren_yun
+  role: 主干
+  snippet_text: 刃格喜官煞制刃运。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887953'
+- snippet_id: ns_zpzy_466
+  trigger: 禄格行运
+  factor_trigger: lu_ge AND sui_yongshen_er_ding_yun
+  role: 主干
+  snippet_text: 禄格随用神而定运。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887961'
+- snippet_id: ns_zpzy_467
+  trigger: 阴阳调和
+  factor_trigger: yinyang_tiaohe AND zhonghe_weigui
+  role: 主干
+  snippet_text: 阴阳调和，中和为贵。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887971'
+- snippet_id: ns_zpzy_468
+  trigger: 相神得用
+  factor_trigger: xiangshen_deyong=true AND fuge_yougong
+  role: 主干
+  snippet_text: 相神得用，辅格有功。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887981'
+- snippet_id: ns_zpzy_469
+  trigger: 时柱归宿
+  factor_trigger: shizhu_guisu AND zixi_zhigong
+  role: 主干
+  snippet_text: 时柱归宿，子息之宫。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.887989'
+- snippet_id: ns_zpzy_470
+  trigger: 阳刃论
+  factor_trigger: yangren_wei_jie AND xu_guansha_zhi_zhi_fang_gui
+  role: 主干
+  snippet_text: 阳刃为劫，须官煞制之方贵。
+  source_ref: 《子平真诠》#下卷第43章
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888016'
+- snippet_id: ns_zpzy_471
+  trigger: 支会之力
+  factor_trigger: xishen_hui_zhi AND liliang_shenhou
+  role: 主干
+  snippet_text: 喜神会支，力量深厚。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888024'
+- snippet_id: ns_zpzy_472
+  trigger: 建禄之格
+  factor_trigger: jianlu_wuge AND xu_bie_xun_yongshen
+  role: 主干
+  snippet_text: 建禄无格，须别寻用神。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888032'
+- snippet_id: ns_zpzy_473
+  trigger: 食神泄秀
+  factor_trigger: shishen_xiexiu AND caihua_hengyi
+  role: 主干
+  snippet_text: 食神泄秀，才华横溢。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888039'
+- snippet_id: ns_zpzy_474
+  trigger: 七煞有制
+  factor_trigger: sha_feng_shi_zhi AND quanwei_xianhe
+  role: 主干
+  snippet_text: 煞逢食制，权威显赫。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888049'
+- snippet_id: ns_zpzy_475
+  trigger: 刃运逢煞
+  factor_trigger: renyun_feng_sha AND zhangbing_quanzhong
+  role: 主干
+  snippet_text: 刃运逢煞，掌兵权重。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888076'
+- snippet_id: ns_zpzy_476
+  trigger: 禄运逢官
+  factor_trigger: luyun_feng_guan AND shitu_hengtong
+  role: 主干
+  snippet_text: 禄运逢官，仕途亨通。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888092'
+- snippet_id: ns_zpzy_477
+  trigger: 从财行运
+  factor_trigger: congcai_ge AND xi_caiwang_zhiyun
+  role: 主干
+  snippet_text: 从财格喜财旺之运。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888105'
+- snippet_id: ns_zpzy_478
+  trigger: 从官行运
+  factor_trigger: congguan_ge AND xi_guanwang_zhiyun
+  role: 主干
+  snippet_text: 从官格喜官旺之运。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888118'
+- snippet_id: ns_zpzy_479
+  trigger: 寒暖燥湿
+  factor_trigger: hannuan_zaoshi AND tiaohou_weixian
+  role: 主干
+  snippet_text: 寒暖燥湿，调候为先。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888131'
+- snippet_id: ns_zpzy_480
+  trigger: 喜神来助
+  factor_trigger: xishen_laizhu=true AND result=shishi_shunsui
+  role: 主干
+  snippet_text: 喜神来助，事事顺遂。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888140'
+- snippet_id: ns_zpzy_481
+  trigger: 天干主动
+  factor_trigger: tiangan_zhu_dong AND ying_su_er_xian
+  role: 主干
+  snippet_text: 天干主动，应速而显。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888151'
+- snippet_id: ns_zpzy_482
+  trigger: 伤格取运
+  factor_trigger: shang_ge_quyun AND xi_caixing_ji_guanxing
+  role: 主干
+  snippet_text: 伤格取运，喜财星忌官星。
+  source_ref: 《子平真诠》#下卷第42章
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888190'
+- snippet_id: ns_zpzy_483
+  trigger: 正官喜印
+  factor_trigger: guan_feng_yin_sheng AND guiqi_tiancheng
+  role: 主干
+  snippet_text: 官逢印生，贵气天成。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888199'
+- snippet_id: ns_zpzy_484
+  trigger: 月劫之论
+  factor_trigger: yuejie_yongcai AND xu_shishang_sheng_zhi
+  role: 主干
+  snippet_text: 月劫用财，须食伤生之。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888207'
+- snippet_id: ns_zpzy_485
+  trigger: 伤官佩印
+  factor_trigger: shangguan_pei_yin AND congming_guoren
+  role: 主干
+  snippet_text: 伤官佩印，聪明过人。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888216'
+- snippet_id: ns_zpzy_486
+  trigger: 伤官生财
+  factor_trigger: shangguan_shengcai AND jingshang_zhifu
+  role: 主干
+  snippet_text: 伤官生财，经商致富。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888225'
+- snippet_id: ns_zpzy_487
+  trigger: 正官之贵
+  factor_trigger: zhengguan_qingchun AND gui_buke_yan
+  role: 主干
+  snippet_text: 正官清纯，贵不可言。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888234'
+- snippet_id: ns_zpzy_488
+  trigger: 正印之福
+  factor_trigger: zhengyin_youli AND fushou_shuangquan
+  role: 主干
+  snippet_text: 正印有力，福寿双全。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888242'
+- snippet_id: ns_zpzy_489
+  trigger: 从煞行运
+  factor_trigger: congsha_ge AND xi_shawang_zhiyun
+  role: 主干
+  snippet_text: 从煞格喜煞旺之运。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888251'
+- snippet_id: ns_zpzy_490
+  trigger: 从儿行运
+  factor_trigger: conger_ge AND xi_shishang_cai_yun
+  role: 主干
+  snippet_text: 从儿格喜食伤财运。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888264'
+- snippet_id: ns_zpzy_491
+  trigger: 强弱平衡
+  factor_trigger: qiangruo_pingheng AND fuyi_deyi
+  role: 主干
+  snippet_text: 强弱平衡，扶抑得宜。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888271'
+- snippet_id: ns_zpzy_492
+  trigger: 忌神来犯
+  factor_trigger: jishen_laifan=true AND result=zaihuo_nanmian
+  role: 主干
+  snippet_text: 忌神来犯，灾祸难免。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888279'
+- snippet_id: ns_zpzy_493
+  trigger: 地支主静
+  factor_trigger: dizhi_zhu_jing AND ying_huan_er_shen
+  role: 主干
+  snippet_text: 地支主静，应缓而深。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888287'
+- snippet_id: ns_zpzy_494
+  trigger: 正官格
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: zhengguan_fen_suo_dang_zun AND xingchong_pohai_yi_xia_fan_shang]
+    正官者分所当尊，如在国有君，在家有亲，刑冲破害，以下犯上，乌乎可乎？'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888769'
+- snippet_id: ns_zpzy_495
+  trigger: 正官格 AND 财印并透
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: caiyin_bingtou AND liang_bu_xiang_ai AND qi_gui_ye_da]
+    以财印并透者论之，两不相碇，其贵也大。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888809'
+- snippet_id: ns_zpzy_496
+  trigger: 正官格 AND 财印相合
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: caiyin_xianghe AND yi_guguan_wufu_lun] 财印二者相合，仍以孤官无辅论。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888836'
+- snippet_id: ns_zpzy_497
+  trigger: 正官格 AND 单用财印
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: dan_yong_yin_bu_ru_dan_yong_cai AND yin_neng_hu_guan_yi_neng_xie_guan
+    AND cai_sheng_guan] 单用印不若单用财，以印能护官，亦能泄官，而财生官也。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888854'
+- snippet_id: ns_zpzy_498
+  trigger: 正官格 AND 化官为印
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: hua_guan_wei_yin_er_tou_cai AND you_hu_yu_ye_da_gui]
+    若化官为印而透财，则又为甚秀，大贵之格也。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888870'
+- snippet_id: ns_zpzy_499
+  trigger: 正官格 AND 遇伤官
+  factor_trigger: null
+  role: 例外处理
+  snippet_text: '[factor_trigger: yu_shang_guan_zai_pei_yin AND hun_sha_gui_qu_qing]
+    遇伤在于佩印，混煞贵乎取清。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888885'
+- snippet_id: ns_zpzy_500
+  trigger: 正官格 AND 杂煞
+  factor_trigger: null
+  role: 例外处理
+  snippet_text: '[factor_trigger: he_sha_liu_guan AND za_sha_qu_qing] 合煞留官，是杂煞而取清也。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888896'
+- snippet_id: ns_zpzy_501
+  trigger: 变格大贵
+  factor_trigger: null
+  role: 例外处理
+  snippet_text: '[factor_trigger: wu_qing_er_yu_yu_qing AND zhao_hua_zhi_miao_bian_hua_wu_qiong]
+    无情而愈有情，此正造化之妙，变幻无穷，焉得不贵？'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888912'
+- snippet_id: ns_zpzy_502
+  trigger: 正官之贵
+  factor_trigger: null
+  role: 总结
+  snippet_text: '[factor_trigger: cun_qi_xi_er_qu_ji] 存其喜而去其忌则贵。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888925'
+- snippet_id: ns_zpzy_503
+  trigger: 正官格取运
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: qu_yun_zhi_dao_yi_ba_zi_jiu_you_yi_ba_zi_zhi_lun]
+    取运之道，一八字则有一八字之论，其理甚精，其法甚活。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888939'
+- snippet_id: ns_zpzy_504
+  trigger: 正官用财印
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: zheng_guan_yong_cai_yin AND shen_qing_zhong_yu_zhu_shen]
+    正官而用财印，身稍轻则取助身，官稍轻则助官。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888954'
+- snippet_id: ns_zpzy_505
+  trigger: 官露
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: guan_lu_bu_ke_feng_he AND bu_ke_za_sha AND bu_ke_zhong_guan]
+    若官露而不可逢合，不可杂煞，不可重官。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888966'
+- snippet_id: ns_zpzy_506
+  trigger: 正官用财
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: zheng_guan_yong_cai AND yun_xi_yin_jia_sheng_di]
+    正官用财，运喜印绶身旺之地，切忌食伤。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.888990'
+- snippet_id: ns_zpzy_507
+  trigger: 正官佩印
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: zheng_guan_pei_yin AND yun_xi_cai_xiang] 正官佩印，运喜财乡，伤食反吉。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.889004'
+- snippet_id: ns_zpzy_508
+  trigger: 正官带伤用印
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: zheng_guan_dai_shang_yong_yin AND yun_xi_guan_wang_yin_wang]
+    正官带伤食而用印制，运喜官旺印旺之乡，财运切忌。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.889016'
+- snippet_id: ns_zpzy_509
+  trigger: 正官带煞
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: zheng_guan_dai_sha AND shang_shi_fan_wu_ai] 正官而带煞，伤食反为不碍。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.889027'
+- snippet_id: ns_zpzy_510
+  trigger: 取运总则
+  factor_trigger: null
+  role: 总结
+  snippet_text: '[factor_trigger: yun_zhong_mei_yu_yi_zi_ge_you_yan_jiu] 运中每遇一字，各有研究，随时取用，不可言形。凡格皆然。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.889039'
+- snippet_id: ns_zpzy_511
+  trigger: 正官格取运
+  factor_trigger: null
+  role: 总结
+  snippet_text: '[factor_trigger: zheng_guan_qu_yun_zhi_dao] 正官格取运之道，强调一八字则有一八字之论。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.889052'
+- snippet_id: ns_zpzy_512
+  trigger: 变格大贵
+  factor_trigger: null
+  role: 例外处理
+  snippet_text: '[factor_trigger: wuqing_er_yu_youqing AND zaohua_zhi_miao] 无情而愈有情，此正造化之妙，变幻无穷，焉得不贵？'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.889064'
+- snippet_id: ns_zpzy_513
+  trigger: 正官之贵
+  factor_trigger: null
+  role: 总结
+  snippet_text: '[factor_trigger: cun_qi_xi_qu_qi_ji_ze_gui] 存其喜而去其忌则贵。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.889081'
+- snippet_id: ns_zpzy_515
+  trigger: 财格
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: cai_wei_wo_ke AND shiyong_zhiwu AND neng_sheng_guan_weimei]
+    财为我克，使用之物也，以能生官，所以为美。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.890945'
+- snippet_id: ns_zpzy_516
+  trigger: 财格
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: cai_wei_caibo_qiqie_caineng_yima] 为财帛，为妻妾，为才能，为驿马，皆财类也。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.890992'
+- snippet_id: ns_zpzy_517
+  trigger: 财格
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: cai_xi_genshen_buyi_tailu AND tou_yiwei_qingyong]
+    财喜根深，不宜太露，然透一位以清用，格所最喜。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891008'
+- snippet_id: ns_zpzy_518
+  trigger: 财旺生官
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: caiwang_shengguan AND lu_yi_buji AND you_guan_shouhu]
+    财旺生官，露亦不忌，譬如府库钱粮，有官守护，即使露白，谁敢劫之？'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891069'
+- snippet_id: ns_zpzy_519
+  trigger: 财旺生官格
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: caiwang_shengguan AND shenqiang_bu_tou_shangguan
+    AND bu_hun_qisha] 有财旺生官者，身强而不透伤官，不混七煞，贵格也。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891086'
+- snippet_id: ns_zpzy_520
+  trigger: 财用食生
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: cai_yong_shi_sheng AND shenqiang_bu_luguan AND lve_dai_bijie]
+    有财用食生者，身强而不露官，略带一位比劫，益觉有情。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891122'
+- snippet_id: ns_zpzy_521
+  trigger: 财格佩印
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: gucai_bugui AND peiyin_bangshen AND ji_yin_qugui]
+    孤财不贵，佩印帮身，即印取贵。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891139'
+- snippet_id: ns_zpzy_522
+  trigger: 财用伤官
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: cai_bushenwang_er_biqiang AND lu_shangguan_yihua]
+    财不甚旺而比强，辂露一位伤官以化之。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891157'
+- snippet_id: ns_zpzy_523
+  trigger: 财带七煞
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: cai_dai_qisha AND (hesha_cuncai OR zhisha_shengcai)]
+    有财带七煞者，或合煞存财，或制煞生财，皆贵格也。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891170'
+- snippet_id: ns_zpzy_524
+  trigger: 财用煞印
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: dangsha_weiji AND yin_yi_huazhi AND gecheng_fuju]
+    党煞为忌，印以化之，格成富局。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891183'
+- snippet_id: ns_zpzy_525
+  trigger: 印绶喜其生身
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: yinshou_shengshen AND zhengpian_yinshou] 印绶喜其生身，正偏同为美格，故财与印不分偏正，同为一格而论之。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891223'
+- snippet_id: ns_zpzy_526
+  trigger: 有印而透官者
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: youyin_touguan AND zhengguan_shengyin] 有印而透官者，正官不独取其生印，而即可以为用，与用煞者不同。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891240'
+- snippet_id: ns_zpzy_527
+  trigger: 印带伤食而贵者
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yin_dai_shangshi AND shangshi_buji_shengguan] 然亦有带伤食而贵者，则如朱尚书命，丙戌、戊戌、辛未、壬辰，壬为戊制，不伤官也。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891254'
+- snippet_id: ns_zpzy_528
+  trigger: 有印而用伤食者
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: youyin_yongshangshi AND shenqiang_yinwang] 有印而用伤食者，身强印旺，恐其太过，泄身以为秀气。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891267'
+- snippet_id: ns_zpzy_529
+  trigger: 借偏官生印者
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: jiepianguan_shengyin AND shenqing_yinjian] 借偏官生印者，偏官本非美物，藉其生印，不得已而用之。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891281'
+- snippet_id: ns_zpzy_530
+  trigger: 用煞而兼带伤食者
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yongsha_jian_dai_shangshi AND sha_sheng_yin_shangshi_xie]
+    用煞而兼带伤食者，则用煞而有制，生身而有泄，不论身旺印重，皆为贵格。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891304'
+- snippet_id: ns_zpzy_531
+  trigger: 印多而用财者
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yin_duo_yongcai AND yinzhong_shenqiang] 印多而用财者，印重身强，透财以抑太过，权而用之，只要根深，无防财破。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891317'
+- snippet_id: ns_zpzy_532
+  trigger: 贪财破印者
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: tancai_poyin AND yinqing_caizhong] 贪财破印者，以财克印，致使印绶无力护身，身与官皆失其依。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891371'
+- snippet_id: ns_zpzy_533
+  trigger: 合财存食者
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: hecai_cunshi AND shangshi_xiecai] 合财存食者，通过合化去财而留食，使食神得以发挥成秀之用。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891399'
+- snippet_id: ns_zpzy_534
+  trigger: 合煞留官者
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: he_sha_liu_guan AND sha_he_guan_zheng] 合煞留官者，以合化方式使煞被合去而官星得以独立成用。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891416'
+- snippet_id: ns_zpzy_535
+  trigger: 印绶格
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: yinshou_xiqi_shengshen AND zhengpian_tongwei_meige]
+    印绶喜其生身，正偏同为美格。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891486'
+- snippet_id: ns_zpzy_536
+  trigger: 印透官
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yin_touguan AND shenwang_yinqiang AND guanxing_qingchun]
+    有印而透官者，身旺印强，不愁太过，只要官星清纯。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891652'
+- snippet_id: ns_zpzy_537
+  trigger: 印用伤食
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yin_yong_shangshi AND shenqiang_yinwang AND xieshen_weishou]
+    有印而用伤食者，身强印旺，恐其太过，泄身以为秀气。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891706'
+- snippet_id: ns_zpzy_538
+  trigger: 印用偏官
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: pianguan_fei_meiwu AND jie_qi_shengyin AND budeyi_er_yong]
+    偏官本非美物，藉其生印，不得已而用之。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.891993'
+- snippet_id: ns_zpzy_539
+  trigger: 印多用财
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yin_duo_yongcai AND yinzhong_shenqiang AND toucai_yi_taiguo]
+    有印多而用财者，印重身强，透财以抑太过。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.892034'
+- snippet_id: ns_zpzy_540
+  trigger: 贪财破印
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yinqing_caizhong AND wu_jiecai_jiu AND tancai_poyin_pinjian]
+    若印轻财重，又无劫财以救，则为贪财破印，贫贱之局也。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.892096'
+- snippet_id: ns_zpzy_541
+  trigger: 印兼官煞
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yin_jian_tou_guansha AND (hesha OR youzhi) AND guige]
+    有印而兼透官煞者，或合煞，或有制，皆为贵格。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.892115'
+- snippet_id: ns_zpzy_542
+  trigger: 印格边界
+  factor_trigger: null
+  role: 总结
+  snippet_text: '[factor_trigger: yinge_bijing_nankan AND yi_xi_xiangzhi] 然此格毕竟难看，宜细详之。'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.892131'
+- snippet_id: ns_zpzy_543
+  trigger: 印格成局后的行运配法
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: yinshou_yongguan AND guanlu_yinzhong AND caiyun_fanji]
+    印绶用官者，官露印重，财运反吉'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.892202'
+- snippet_id: ns_zpzy_544
+  trigger: 印格成局后的行运配法
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yongguan_daishangshi AND yunxi_guanwang_yinshou]
+    用官而带伤食，运喜官旺印绶之乡'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.892256'
+- snippet_id: ns_zpzy_545
+  trigger: 印格成局后的行运配法
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yinshou_yongshangshi AND caiyun_fanji AND shangshi_yili]
+    印绶而用伤食，财运反吉，伤食亦利'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.896462'
+- snippet_id: ns_zpzy_546
+  trigger: 印格成局后的行运配法
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yin_yong_qisha AND yunxi_shangshi AND shenwang_zhifang]
+    印用七煞，运喜伤食，身旺之方'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.896767'
+- snippet_id: ns_zpzy_547
+  trigger: 印格成局后的行运配法
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yinshou_yucai AND yunxi_jiedi AND guanyin_yiheng]
+    印绶遇财，运喜劫地，官印亦亨'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.896975'
+- snippet_id: ns_zpzy_548
+  trigger: 食神格的多种去向
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: shishen_benshu_xieqi AND yi_neng_shengcai_weimei]
+    食神本属泄气，而以能生财为美'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897453'
+- snippet_id: ns_zpzy_549
+  trigger: 食神格的多种去向
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: caihou_shiwang_shenqiang AND shishen_zhi_gui] 财厚食旺而身强，此食神之贵也'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897485'
+- snippet_id: ns_zpzy_550
+  trigger: 食神格的多种去向
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: shishen_shengcai_peiyin AND yunyi_shenwang_yinshou]
+    食神生财而佩印，运宜身旺印绶之乡'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897503'
+- snippet_id: ns_zpzy_551
+  trigger: 食神格的多种去向
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: shishen_yong_shayin AND yunxi_yinshou AND shayun_buji]
+    食神而用煞印，运喜印绶，而煞运不忌'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897566'
+- snippet_id: ns_zpzy_552
+  trigger: 食神格的多种去向
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: shishen_daisha AND xi_xing_shishen_zhisha AND shenwang_zhiyun]
+    食神带煞，喜行食神制煞，身旺之运'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897585'
+- snippet_id: ns_zpzy_553
+  trigger: 食神格行运的四种主要
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: shishen_sheng_cai AND shen_qiang_shi_wang AND cai_yun_zui_yi]
+    食神生财，身强食旺，财运最宜'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897627'
+- snippet_id: ns_zpzy_554
+  trigger: 食神格行运的四种主要
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: shishen_zhi_sha AND yun_xi_shen_wang AND shishen_zhi_di]
+    食神制煞，运喜身旺，食神之地'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897644'
+- snippet_id: ns_zpzy_555
+  trigger: 食神格行运的四种主要
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: shishen_yong_yin AND yun_xi_guan_yin AND shen_wang_zhi_fang]
+    食神用印，运喜官印，身旺之方'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897783'
+- snippet_id: ns_zpzy_556
+  trigger: 食神格行运的四种主要
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: qi_shi_jiu_sha AND yun_xi_shen_wang AND sha_yin_xiang_sheng]
+    弃食就煞，运宜身旺，煞印相生'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897820'
+- snippet_id: ns_zpzy_557
+  trigger: 七煞格的行运侧重点
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: sha_ge_quyun AND yi_shage_suocheng_zhiju_fen_er_pei]
+    煞格取运，以煞格所成之局分而配之'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897876'
+- snippet_id: ns_zpzy_558
+  trigger: 七煞格的行运侧重点
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: sha_yong_shi_zhi AND yunxi_shenwang AND shishang_zhidi]
+    煞用食制，运喜身旺，食伤之地'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897890'
+- snippet_id: ns_zpzy_559
+  trigger: 七煞格的行运侧重点
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: sha_yong_yin_hua AND yunxi_yinshou AND shenwang_zhifang]
+    煞用印化，运喜印绶，身旺之方'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897903'
+- snippet_id: ns_zpzy_560
+  trigger: 七煞格的行运侧重点
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: sha_yong_cai_zi AND yunxi_caidi AND shenwang_yinshou]
+    煞用财滋，运喜财地，身旺印绶'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897927'
+- snippet_id: ns_zpzy_561
+  trigger: 伤官格的多重形态与秀
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: shangguan_fei_jishen AND youshi_yongzhi AND xu_shenqiang]
+    伤官虽非吉神，而有时用之，但要身强'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897957'
+- snippet_id: ns_zpzy_562
+  trigger: 伤官格的多重形态与秀
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: shangguan_yongyin AND yunxi_yinshou AND shenwang_zhidi]
+    伤官用印，运喜印绶，身旺之地'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897971'
+- snippet_id: ns_zpzy_563
+  trigger: 伤官格的多重形态与秀
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: shangguan_yongcai AND yunxi_caixiang AND shishang_yili]
+    伤官用财，运喜财乡，食伤亦利'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.897989'
+- snippet_id: ns_zpzy_564
+  trigger: 伤官格的多重形态与秀
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: shangguan_daisha AND yunxi_yinshou_zhishang_husha]
+    伤官带煞，运喜印绶制伤护煞'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898001'
+- snippet_id: ns_zpzy_565
+  trigger: 伤官格在行运中的放大
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: shangguan_quyun AND yi_shangguan_suocheng_zhiju_fen_er_pei]
+    伤官取运，以伤官所成之局分而配之'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898030'
+- snippet_id: ns_zpzy_566
+  trigger: 伤官格在行运中的放大
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: shangguan_yongyin AND yunxi_guanyin AND shenwang_zhifang]
+    伤官用印，运喜官印，身旺之方'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898043'
+- snippet_id: ns_zpzy_567
+  trigger: 伤官格在行运中的放大
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: shangguan_yongcai AND yunxi_caishi AND shenwang_zhidi]
+    伤官用财，运喜财食，身旺之地'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898055'
+- snippet_id: ns_zpzy_568
+  trigger: 伤官格在行运中的放大
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: shangguan_yongsha AND yunxi_yinshou AND zhishang_husha]
+    伤官用煞，运喜印绶，制伤护煞'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898067'
+- snippet_id: ns_zpzy_569
+  trigger: 阳刃格的特性与用法层
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: yangren_jiecai_zhi_zhong] 阳刃者，劫财之重者也'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898099'
+- snippet_id: ns_zpzy_570
+  trigger: 阳刃格的特性与用法层
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yangren_yongguan AND touguan_zegui AND guansha_hunza_zejian]
+    阳刃用官，透官则贵，官煞混杂则贱'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898117'
+- snippet_id: ns_zpzy_571
+  trigger: 阳刃格的特性与用法层
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yangren_yongsha AND sha_lai_zhiren AND shensha_liangting_zegui]
+    阳刃用煞，煞来制刃，身煞两停则贵'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898133'
+- snippet_id: ns_zpzy_572
+  trigger: 阳刃格的特性与用法层
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yangren_yongcai AND cai_lai_shengguan_zhiren] 阳刃用财，财来生官制刃'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898146'
+- snippet_id: ns_zpzy_573
+  trigger: 阳刃格行运的制衡与放
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: yangren_quyun AND yi_yangren_suocheng_zhiju_fen_er_pei]
+    阳刃取运，以阳刃所成之局分而配之'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898175'
+- snippet_id: ns_zpzy_574
+  trigger: 阳刃格行运的制衡与放
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yangren_yongguan AND yunxi_caiyin AND guansha_zhidi]
+    阳刃用官，运喜财印，官煞之地'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898192'
+- snippet_id: ns_zpzy_575
+  trigger: 阳刃格行运的制衡与放
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: yangren_yongsha AND yunxi_shishang AND shenwang_zhifang]
+    阳刃用煞，运喜食伤，身旺之方'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898207'
+- snippet_id: ns_zpzy_576
+  trigger: 喜忌干支
+  factor_trigger: xiji_zaigan_yunyi_tou AND xiji_zaizhi_yunyi_hui
+  role: 主干
+  snippet_text: 喜忌在干运宜透，在支运宜会。
+  source_ref: 《子平真诠·论喜忌干支有别》#干支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898315'
+- snippet_id: ns_zpzy_577
+  trigger: 干支应速
+  factor_trigger: gan_zhudong_yingsu AND zhi_zhujing_yinghuan
+  role: 主干
+  snippet_text: 干主动应速，支主静应缓。
+  source_ref: 《子平真诠·论喜忌干支有别》#快慢
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898339'
+- snippet_id: ns_zpzy_578
+  trigger: 格成格破
+  factor_trigger: ge_cheng_ze_ji AND ge_po_ze_xiong
+  role: 条件分支
+  snippet_text: 格成则吉，格破则凶。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898358'
+- snippet_id: ns_zpzy_579
+  trigger: 建禄月劫格行运的调配
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: jianlu_yuejie_quyun AND yi_suocheng_zhiju_fen_er_pei]
+    建禄月劫取运，以所成之局分而配之'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898389'
+- snippet_id: ns_zpzy_580
+  trigger: 建禄月劫格行运的调配
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: lujie_yongguan AND yunxi_caiyin AND guansha_zhidi]
+    禄劫用官，运喜财印，官煞之地'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898405'
+- snippet_id: ns_zpzy_581
+  trigger: 建禄月劫格行运的调配
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: lujie_yongcai AND yunxi_shishang AND caiguan_zhidi]
+    禄劫用财，运喜食伤，财官之地'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898419'
+- snippet_id: ns_zpzy_582
+  trigger: 喜忌干支
+  factor_trigger: xiji_zaigan_yunyi_tou AND xiji_zaizhi_yunyi_hui
+  role: 主干
+  snippet_text: 喜忌在干运宜透，在支运宜会。
+  source_ref: 《子平真诠·论喜忌干支有别》#干支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898434'
+- snippet_id: ns_zpzy_583
+  trigger: 干支应速
+  factor_trigger: gan_zhudong_yingsu AND zhi_zhujing_yinghuan
+  role: 主干
+  snippet_text: 干主动应速，支主静应缓。
+  source_ref: 《子平真诠·论喜忌干支有别》#快慢
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898445'
+- snippet_id: ns_zpzy_584
+  trigger: 格成格破
+  factor_trigger: ge_cheng_ze_ji AND ge_po_ze_xiong
+  role: 条件分支
+  snippet_text: 格成则吉，格破则凶。
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898461'
+- snippet_id: ns_zpzy_585
+  trigger: 杂格与从格的总纲
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: waige_fei_zhengge AND waige_yi_you_zhengli] 外格者，非正格也，即外格亦有正理'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898498'
+- snippet_id: ns_zpzy_586
+  trigger: 杂格与从格的总纲
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: congge AND rizhu_wugen AND cong_qi_wangshen] 从格者，日主无根，从其旺神'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898513'
+- snippet_id: ns_zpzy_587
+  trigger: 杂格与从格的总纲
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: huage AND tiangan_xianghe AND hua_wei_yiqi] 化格者，天干相合，化为一气'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898530'
+- snippet_id: ns_zpzy_588
+  trigger: 杂格与从格的行运原则
+  factor_trigger: null
+  role: 主干
+  snippet_text: '[factor_trigger: zage_quyun AND yi_zage_suocheng_zhiju_fen_er_pei]
+    杂格取运，以杂格所成之局分而配之'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898556'
+- snippet_id: ns_zpzy_589
+  trigger: 杂格与从格的行运原则
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: congge_xi_xing_suocong_zhiyun AND ji_shengfu_rizhu]
+    从格喜行所从之运，忌生扶日主'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898571'
+- snippet_id: ns_zpzy_590
+  trigger: 杂格与从格的行运原则
+  factor_trigger: null
+  role: 条件分支
+  snippet_text: '[factor_trigger: huage_xi_xing_huashen_zhiyun AND ji_poge_zhiyun]
+    化格喜行化神之运，忌破格之运'
+  source_ref: 《子平真诠》#下卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.898585'
+- snippet_id: ns_zpzy_001
+  trigger: 阳顺阴逆
+  factor_trigger: (stem_polarity=yang AND changsheng_direction=forward) OR (stem_polarity=yin
+    AND changsheng_direction=reverse)
+  role: 主干依赖
+  snippet_text: 阳干顺行长生，阴干逆行长生。
+  source_ref: 《子平真诠·论阴阳生死》#顺逆
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942505'
+- snippet_id: ns_zpzy_002
+  trigger: 长生十二宫
+  factor_trigger: twelve_stages_sequence=changsheng_muyu_guandai_linguan_diwang_shuai_bing_si_mu_jue_tai_yang
+  role: 主干依赖
+  snippet_text: 长生沐浴冠带临官帝旺衰病死墓绝胎养。
+  source_ref: 《子平真诠·论阴阳生死》#十二宫
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942569'
+- snippet_id: ns_zpzy_003
+  trigger: 死绝活看
+  factor_trigger: (stage=si OR stage=jue) AND (deshi=true OR dedi=true)
+  role: 条件分支
+  snippet_text: 死绝非必凶，得时得地则生机自足。
+  source_ref: 《子平真诠·论阴阳生死》#活看
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942604'
+- snippet_id: ns_zpzy_004
+  trigger: 五行本源
+  factor_trigger: cosmology=yiqi AND dongjing_fenyinyang AND laoshao_chengsixiang
+  role: 主干
+  snippet_text: 天地之间一气而已，动静分阴阳，老少成四象。
+  source_ref: 《子平真诠》#论十干十二支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942638'
+- snippet_id: ns_zpzy_005
+  trigger: 土为中和
+  factor_trigger: element_tu AND role=zhonghe AND function=chengzai_tiaoji
+  role: 主干依赖
+  snippet_text: 土者阴阳老少冲气所结，承载调剂诸行。
+  source_ref: 《子平真诠》#论十干十二支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942677'
+- snippet_id: ns_zpzy_006
+  trigger: 生克同功
+  factor_trigger: four_seasons AND shengke_cycle AND tonggong_chengsui
+  role: 主干依赖
+  snippet_text: 春夏秋冬相生相克，同功于成岁。
+  source_ref: 《子平真诠》#论阴阳生克
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942703'
+- snippet_id: ns_zpzy_007
+  trigger: 克为节制
+  factor_trigger: ke_relation AND function=jiezhi AND ke_yi_baosheng
+  role: 条件分支
+  snippet_text: 杀者使发泄于外者藏收于内，克以保生。
+  source_ref: 《子平真诠》#论阴阳生克
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942739'
+- snippet_id: ns_zpzy_008
+  trigger: 八格取用
+  factor_trigger: pattern_type IN (zhengguan, cai, yin, shi, pianguan, shangguan,
+    yangren, jianlu)
+  role: 主干
+  snippet_text: 八格者：正官、财、印、食、偏官、伤官、阳刃、建禄。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942756'
+- snippet_id: ns_zpzy_009
+  trigger: 月令为纲
+  factor_trigger: yongshen_source=yueling AND rigan_pei_yueling_dizhi
+  role: 主干
+  snippet_text: 八字用神，专求月令，以日干配月令地支。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942767'
+- snippet_id: ns_zpzy_010
+  trigger: 生旺库绝
+  factor_trigger: twelve_stages_complete_cycle
+  role: 主干依赖
+  snippet_text: 长生沐浴冠带临官帝旺衰病死墓绝胎养。
+  source_ref: 《子平真诠》#论阴阳生死
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942778'
+- snippet_id: ns_zpzy_011
+  trigger: 长生帝旺
+  factor_trigger: stage IN (changsheng, linguan, diwang) AND qi_state=sheng
+  role: 主干依赖
+  snippet_text: 长生临官帝旺，气之盛也。
+  source_ref: 《子平真诠》#论阴阳生死
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942788'
+- snippet_id: ns_zpzy_012
+  trigger: 衰病死绝
+  factor_trigger: stage IN (shuai, bing, si, mu, jue) AND qi_state=shuai
+  role: 主干依赖
+  snippet_text: 衰病死墓绝，气之衰也。
+  source_ref: 《子平真诠》#论阴阳生死
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942794'
+- snippet_id: ns_zpzy_013
+  trigger: 胎养长生
+  factor_trigger: stage IN (tai, yang, changsheng) AND qi_state=fangxing_weiai
+  role: 主干依赖
+  snippet_text: 胎养长生，方兴未艾。
+  source_ref: 《子平真诠》#论阴阳生死
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942805'
+- snippet_id: ns_zpzy_014
+  trigger: 木主仁
+  factor_trigger: element=mu AND virtue=ren AND character=(zheng, ci)
+  role: 主干依赖
+  snippet_text: 甲乙木主仁，性直心慈。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942814'
+- snippet_id: ns_zpzy_015
+  trigger: 火主礼
+  factor_trigger: element=huo AND virtue=li AND character=(ji, ming)
+  role: 主干依赖
+  snippet_text: 丙丁火主礼，性急心明。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942820'
+- snippet_id: ns_zpzy_016
+  trigger: 格局为纲
+  factor_trigger: geju=gang AND lunming_foundation
+  role: 主干
+  snippet_text: 以格局为纲，论命之本。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942827'
+- snippet_id: ns_zpzy_017
+  trigger: 用神为目
+  factor_trigger: yongshen=mu AND jixiong_criterion
+  role: 主干
+  snippet_text: 用神为目，吉凶之判。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942833'
+- snippet_id: ns_zpzy_018
+  trigger: 相神辅格
+  factor_trigger: xiangshen_exists AND function=fuge AND geju_level_increase
+  role: 主干依赖
+  snippet_text: 相神辅格，格局愈高。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942839'
+- snippet_id: ns_zpzy_019
+  trigger: 命局组合
+  factor_trigger: mingju_zuhe AND jixiong_manifest
+  role: 总结
+  snippet_text: 命局组合，吉凶自现。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942858'
+- snippet_id: ns_zpzy_020
+  trigger: 格成格破
+  factor_trigger: (ge_status=cheng AND result=ji) OR (ge_status=po AND result=xiong)
+  role: 总结
+  snippet_text: 格成则吉，格破则凶。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942891'
+- snippet_id: ns_zpzy_021
+  trigger: 日主强弱
+  factor_trigger: rizhu_strength IN (qiang, ruo) AND geju_foundation
+  role: 主干依赖
+  snippet_text: 日主强弱，定格局之基。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942916'
+- snippet_id: ns_zpzy_022
+  trigger: 十干性情
+  factor_trigger: tiangan_character AND (jia=gang, yi=rou, bing=lie, ding=he)
+  role: 主干
+  snippet_text: 十干各有性情，甲刚乙柔，丙烈丁和。
+  source_ref: 《子平真诠·论十干配合性情》#性情
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.942999'
+- snippet_id: ns_zpzy_023
+  trigger: 干合化气
+  factor_trigger: tiangan_he AND (jiaji_he_tu OR yigeng_he_jin OR bingxin_he_shui
+    OR dingren_he_mu OR wugui_he_huo)
+  role: 主干依赖
+  snippet_text: 甲己合土，乙庚合金，丙辛合水，丁壬合木，戊癸合火。
+  source_ref: 《子平真诠·论十干配合性情》#干合
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943024'
+- snippet_id: ns_zpzy_024
+  trigger: 合化条件
+  factor_trigger: tiangan_he AND deshi=true AND dedi=true AND huaqi_success
+  role: 条件分支
+  snippet_text: 干合须得时得地，方能化气成功。
+  source_ref: 《子平真诠·论十干配合性情》#化气
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943034'
+- snippet_id: ns_zpzy_025
+  trigger: 合而不合
+  factor_trigger: tiangan_he AND (he_type=zhongzheng OR he_type=renyi OR he_type=weizhi
+    OR he_type=yinte OR he_type=wuqing)
+  role: 条件分支
+  snippet_text: 合有真合假合，须察得令失令。
+  source_ref: 《子平真诠·论十干合而不合》#真假
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943041'
+- snippet_id: ns_zpzy_026
+  trigger: 争合妒合
+  factor_trigger: tiangan_he AND (zhenghe=zhongzheng OR zhenghe=renyi OR zhenghe=weizhi
+    OR zhenghe=yinte OR zhenghe=wuqing)
+  role: 条件分支
+  snippet_text: 一干合两干，有争有妒，须辨谁得谁失。
+  source_ref: 《子平真诠·论十干合而不合》#争妒
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943050'
+- snippet_id: ns_zpzy_027
+  trigger: 合处逢冲
+  factor_trigger: tiangan_he AND (chong=zhongzheng OR chong=renyi OR chong=weizhi
+    OR chong=yinte OR chong=wuqing)
+  role: 条件分支
+  snippet_text: 合处逢冲则散，散中复合则凝。
+  source_ref: 《子平真诠·论十干合而不合》#冲散
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943057'
+- snippet_id: ns_zpzy_028
+  trigger: 甲己合化
+  factor_trigger: jiaji_he AND hua_tu AND he_type=zhongzheng
+  role: 主干依赖
+  snippet_text: 甲己合化土，中正之合。
+  source_ref: 《子平真诠》#论十干配合性情
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943066'
+- snippet_id: ns_zpzy_029
+  trigger: 乙庚合化
+  factor_trigger: yigeng_he AND hua_jin AND he_type=renyi
+  role: 主干依赖
+  snippet_text: 乙庚合化金，仁义之合。
+  source_ref: 《子平真诠》#论十干配合性情
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943077'
+- snippet_id: ns_zpzy_030
+  trigger: 丙辛合化
+  factor_trigger: bingxin_he AND hua_shui AND he_type=weizhi
+  role: 主干依赖
+  snippet_text: 丙辛合化水，威制之合。
+  source_ref: 《子平真诠》#论十干配合性情
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943086'
+- snippet_id: ns_zpzy_031
+  trigger: 丁壬合化
+  factor_trigger: dingren_he AND hua_mu AND he_type=yinte
+  role: 主干依赖
+  snippet_text: 丁壬合化木，淫慱之合。
+  source_ref: 《子平真诠》#论十干配合性情
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943096'
+- snippet_id: ns_zpzy_032
+  trigger: 戊癸合化
+  factor_trigger: wugui_he AND hua_huo AND he_type=wuqing
+  role: 主干依赖
+  snippet_text: 戊癸合化火，无情之合。
+  source_ref: 《子平真诠》#论十干配合性情
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943104'
+- snippet_id: ns_zpzy_033
+  trigger: 土主信
+  factor_trigger: element=tu AND virtue=xin AND character=(hou, shi)
+  role: 主干依赖
+  snippet_text: 戊己土主信，性厚心实。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943113'
+- snippet_id: ns_zpzy_034
+  trigger: 金主义
+  factor_trigger: element=jin AND virtue=yi AND character=(gang, zhi)
+  role: 主干依赖
+  snippet_text: 庚辛金主义，性刚心直。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943124'
+- snippet_id: ns_zpzy_035
+  trigger: 水主智
+  factor_trigger: element=shui AND virtue=zhong AND character=(ren, yin)
+  role: 主干依赖
+  snippet_text: 壬癸水主智，性聪心灵。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943133'
+- snippet_id: ns_zpzy_036
+  trigger: 春木当令
+  factor_trigger: season=chun AND element=mu AND zhenggong=zhongzheng
+  role: 主干依赖
+  snippet_text: 春木当令，木旺火相。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943143'
+- snippet_id: ns_zpzy_037
+  trigger: 喜神助用
+  factor_trigger: xishen_exists AND function=zhuyong AND yuncheng=hengtong
+  role: 条件分支
+  snippet_text: 喜神助用，运程亨通。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943155'
+- snippet_id: ns_zpzy_038
+  trigger: 忌神破格
+  factor_trigger: jishen_exists AND function=poge AND result=zaihuo
+  role: 条件分支
+  snippet_text: 忌神破格，灾祸难免。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943162'
+- snippet_id: ns_zpzy_039
+  trigger: 仇神害用
+  factor_trigger: choushen_exists AND function=haiyong AND result=zuzhi
+  role: 条件分支
+  snippet_text: 仇神害用，事多阻滞。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943170'
+- snippet_id: ns_zpzy_040
+  trigger: 干支配合
+  factor_trigger: ganzhi_peihe AND shengke_youqing
+  role: 主干依赖
+  snippet_text: 干支配合，生克有情。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943178'
+- snippet_id: ns_zpzy_041
+  trigger: 用神有力
+  factor_trigger: yongshen_strength=youli AND result=fugui_keqi
+  role: 总结
+  snippet_text: 用神有力，富贵可期。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943184'
+- snippet_id: ns_zpzy_042
+  trigger: 月令当权
+  factor_trigger: yueling_dangquan AND yongshen_source=yueling
+  role: 主干依赖
+  snippet_text: 月令当权，用神之府。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943191'
+- snippet_id: ns_zpzy_043
+  trigger: 合而不合
+  factor_trigger: tiangan_he AND (deling=true -> zhenhe) OR (deling=false -> jiahe)
+  role: 条件分支
+  snippet_text: 合有真合假合，须察得令失令。
+  source_ref: 《子平真诠·论十干合而不合》#真假
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943251'
+- snippet_id: ns_zpzy_044
+  trigger: 争合妒合
+  factor_trigger: tiangan_he AND he_count>=2 AND (zhenghe OR duhe)
+  role: 条件分支
+  snippet_text: 一干合两干，有争有妒，须辨谁得谁失。
+  source_ref: 《子平真诠·论十干合而不合》#争妒
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943285'
+- snippet_id: ns_zpzy_045
+  trigger: 合处逢冲
+  factor_trigger: tiangan_he AND (fengchong=true -> san) OR (san_zhong_fuhe -> ning)
+  role: 条件分支
+  snippet_text: 合处逢冲则散，散中复合则凝。
+  source_ref: 《子平真诠·论十干合而不合》#冲散
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943321'
+- snippet_id: ns_zpzy_046
+  trigger: 水主智
+  factor_trigger: element=shui AND virtue=zhi AND character=(cong, ling)
+  role: 主干依赖
+  snippet_text: 壬癸水主智，性聪心灵。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943354'
+- snippet_id: ns_zpzy_047
+  trigger: 春木当令
+  factor_trigger: season=chun AND mu_dangling AND mu_wang_huo_xiang
+  role: 主干依赖
+  snippet_text: 春木当令，木旺火相。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943388'
+- snippet_id: ns_zpzy_048
+  trigger: 闲神无用
+  factor_trigger: xianshen_exists AND function=wuyong AND status=buxi_buji
+  role: 条件分支
+  snippet_text: 闲神无用，不喜不忌。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943422'
+- snippet_id: ns_zpzy_049
+  trigger: 调候为急
+  factor_trigger: tiaohou_priority=ji AND condition IN (han, nuan, zao, shi)
+  role: 条件分支
+  snippet_text: 调候为急，寒暖燥湿。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943457'
+- snippet_id: ns_zpzy_050
+  trigger: 通关为妙
+  factor_trigger: tongguan_exists AND function=huajie_zhengzhan
+  role: 主干依赖
+  snippet_text: 通关为妙，化解争战。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943493'
+- snippet_id: ns_zpzy_051
+  trigger: 五行流通
+  factor_trigger: wuxing_liutong AND qiji_changda
+  role: 总结
+  snippet_text: 五行流通，气机畅达。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943530'
+- snippet_id: ns_zpzy_052
+  trigger: 用神无力
+  factor_trigger: yongshen_strength=wuli AND result=pinjian_nanmian
+  role: 总结
+  snippet_text: 用神无力，贫贱难免。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943554'
+- snippet_id: ns_zpzy_053
+  trigger: 年柱根基
+  factor_trigger: pillar=nian AND role=genji_zuye
+  role: 主干依赖
+  snippet_text: 年柱根基，祖业之宫。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943918'
+- snippet_id: ns_zpzy_054
+  trigger: 五行基础
+  factor_trigger: cosmology_yiqi AND dongjing_fen_yinyang AND laoshao_cheng_sixiang
+    AND wuxing_ju_qizhong
+  role: 主干
+  snippet_text: 天地一气，动静分阴阳，老少成四象，五行具于其中。
+  source_ref: 《子平真诠·论十干十二支》#总纲
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.943990'
+- snippet_id: ns_zpzy_055
+  trigger: 水行特性
+  factor_trigger: element=shui AND sixiang=taiyin AND function=(shoulian, xiaxing,
+    cangna)
+  role: 主干依赖
+  snippet_text: 水者太阴，收敛下行藏纳。
+  source_ref: 《子平真诠·论十干十二支》#水行
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944026'
+- snippet_id: ns_zpzy_056
+  trigger: 火行特性
+  factor_trigger: element=huo AND sixiang=taiyang AND function=(fasan, shangsheng,
+    zhaoyao)
+  role: 主干依赖
+  snippet_text: 火者太阳，发散上升照耀。
+  source_ref: 《子平真诠·论十干十二支》#火行
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944051'
+- snippet_id: ns_zpzy_057
+  trigger: 木行特性
+  factor_trigger: element=mu AND sixiang=shaoyang AND function=(fasheng, tiaoda, shengzhang)
+  role: 主干依赖
+  snippet_text: 木者少阳，发生条达生长。
+  source_ref: 《子平真诠·论十干十二支》#木行
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944074'
+- snippet_id: ns_zpzy_058
+  trigger: 金行特性
+  factor_trigger: element=jin AND sixiang=shaoyin AND function=(lianju, shoucheng,
+    susha)
+  role: 主干依赖
+  snippet_text: 金者少阴，敛聚收成肃杀。
+  source_ref: 《子平真诠·论十干十二支》#金行
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944109'
+- snippet_id: ns_zpzy_059
+  trigger: 土行特性
+  factor_trigger: element=tu AND sixiang=zhonghe AND function=(chengzai, tiaoji_zhuxing)
+  role: 主干依赖
+  snippet_text: 土者阴阳老少冲气所结，承载调剂诸行。
+  source_ref: 《子平真诠·论十干十二支》#土行
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944144'
+- snippet_id: ns_zpzy_060
+  trigger: 论命要领
+  factor_trigger: lunming_step1=qiji_dongjing AND lunming_step2=sixiang_jiezou AND
+    lunming_step3=wuxing_yongfa
+  role: 主干依赖
+  snippet_text: 论命先观气机动静，再判四象节奏，后谈五行用法。
+  source_ref: 《子平真诠·论十干十二支》#方法论
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944177'
+- snippet_id: ns_zpzy_061
+  trigger: 天干地支
+  factor_trigger: tiangan_dizhi AND yinyang_xiang
+  role: 主干依赖
+  snippet_text: 天干地支，阴阳之象也。
+  source_ref: 《子平真诠》#论十干十二支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944203'
+- snippet_id: ns_zpzy_062
+  trigger: 干支配合
+  factor_trigger: ganzhi_peihe AND shengke_zhihua_li
+  role: 主干依赖
+  snippet_text: 干支配合，生克制化之理。
+  source_ref: 《子平真诠》#论十干十二支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944219'
+- snippet_id: ns_zpzy_063
+  trigger: 甲乙属木
+  factor_trigger: (jiayi=mu) AND (bingding=huo) AND (wuji=tu) AND (gengxin=jin) AND
+    (rengui=shui)
+  role: 条件分支
+  snippet_text: 甲乙属木，丙丁属火，戊己属土，庚辛属金，壬癸属水。
+  source_ref: 《子平真诠》#论十干十二支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944227'
+- snippet_id: ns_zpzy_064
+  trigger: 夏火司权
+  factor_trigger: season=xia AND huo_siquan AND huo_wang_tu_xiang
+  role: 条件分支
+  snippet_text: 夏火司权，火旺土相。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944233'
+- snippet_id: ns_zpzy_065
+  trigger: 秋金主事
+  factor_trigger: season=qiu AND jin_zhushi AND jin_wang_shui_xiang
+  role: 条件分支
+  snippet_text: 秋金主事，金旺水相。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944239'
+- snippet_id: ns_zpzy_066
+  trigger: 扶抑为常
+  factor_trigger: fuyi_weichang AND pingheng_yinyang
+  role: 总结
+  snippet_text: 扶抑为常，平衡阴阳。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944247'
+- snippet_id: ns_zpzy_067
+  trigger: 病药为贵
+  factor_trigger: bingyao_weigui AND youbing_deyao
+  role: 总结
+  snippet_text: 病药为贵，有病得药。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944255'
+- snippet_id: ns_zpzy_068
+  trigger: 真神得用
+  factor_trigger: zhenshen_deyong AND geju_qingchun
+  role: 总结
+  snippet_text: 真神得用，格局清纯。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944263'
+- snippet_id: ns_zpzy_069
+  trigger: 阴阳调和
+  factor_trigger: yinyang_tiaohe AND zhonghe_weigui
+  role: 总结
+  snippet_text: 阴阳调和，中和为贵。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944269'
+- snippet_id: ns_zpzy_070
+  trigger: 相神得用
+  factor_trigger: xiangshen_deyong AND fuge_yougong
+  role: 主干依赖
+  snippet_text: 相神得用，辅格有功。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944297'
+- snippet_id: ns_zpzy_071
+  trigger: 时柱归宿
+  factor_trigger: pillar=shi AND role=guisu_zixi
+  role: 条件分支
+  snippet_text: 时柱归宿，子息之宫。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944330'
+- snippet_id: ns_zpzy_072
+  trigger: 十干必要性
+  factor_trigger: wuxing_nei_fen_yinyang AND tiangan_count=10
+  role: 主干
+  snippet_text: 五行之中各有阴阳，故有十干。
+  source_ref: 《子平真诠·论十干十二支》#十干由来
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944375'
+- snippet_id: ns_zpzy_073
+  trigger: 甲木特性
+  factor_trigger: stem=jia AND role=yi_zhi_qi AND location=zaitian AND function=shengqi_liuxing
+  role: 主干依赖
+  snippet_text: 甲者乙之气，在天为生气，流行于万物。
+  source_ref: 《子平真诠·论十干十二支》#甲木
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944410'
+- snippet_id: ns_zpzy_074
+  trigger: 乙木特性
+  factor_trigger: stem=yi AND role=jia_zhi_zhi AND location=zaidi AND function=cheng_shengqi
+  role: 主干依赖
+  snippet_text: 乙者甲之质，在地为万物，承兹生气。
+  source_ref: 《子平真诠·论十干十二支》#乙木
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944435'
+- snippet_id: ns_zpzy_075
+  trigger: 气质分辨
+  factor_trigger: (stem=jia AND yi_qi_yibei) OR (stem=yi AND jia_zhi_naijian)
+  role: 总结
+  snippet_text: 方其为甲而乙之气已备，及其为乙而甲之质乃坚。
+  source_ref: 《子平真诠·论十干十二支》#气质互含
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944468'
+- snippet_id: ns_zpzy_076
+  trigger: 干支阴阳
+  factor_trigger: lunming_rigan AND check_wuxing AND check_yinyang AND check_qizhi
+  role: 主干依赖
+  snippet_text: 论日干不仅看属何行，还要看属阴属阳、偏气偏质。
+  source_ref: 《子平真诠·论十干十二支》#方法论
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944506'
+- snippet_id: ns_zpzy_077
+  trigger: 天干地支
+  factor_trigger: tiangan_dizhi AND yinyang_xiang
+  role: 主干依赖
+  snippet_text: 天干地支，阴阳之象也。
+  source_ref: 《子平真诠》#论十干十二支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944541'
+- snippet_id: ns_zpzy_078
+  trigger: 干支配合
+  factor_trigger: ganzhi_peihe AND shengke_zhihua_li
+  role: 主干依赖
+  snippet_text: 干支配合，生克制化之理。
+  source_ref: 《子平真诠》#论十干十二支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944565'
+- snippet_id: ns_zpzy_079
+  trigger: 甲乙属木
+  factor_trigger: (jiayi=mu) AND (bingding=huo) AND (wuji=tu) AND (gengxin=jin) AND
+    (rengui=shui)
+  role: 主干依赖
+  snippet_text: 甲乙属木，丙丁属火，戊己属土，庚辛属金，壬癸属水。
+  source_ref: 《子平真诠》#论十干十二支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944598'
+- snippet_id: ns_zpzy_080
+  trigger: 冬水用事
+  factor_trigger: season=dong AND shui_yongshi AND shui_wang_mu_xiang
+  role: 条件分支
+  snippet_text: 冬水用事，水旺木相。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944631'
+- snippet_id: ns_zpzy_081
+  trigger: 四季土旺
+  factor_trigger: season=siji AND tu_wang AND tu_wang_jin_xiang
+  role: 条件分支
+  snippet_text: 四季土旺，土旺金相。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944654'
+- snippet_id: ns_zpzy_082
+  trigger: 假神无力
+  factor_trigger: jiashen_exists AND strength=wuli AND geju=hunza
+  role: 条件分支
+  snippet_text: 假神无力，格局混杂。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944686'
+- snippet_id: ns_zpzy_083
+  trigger: 清气为上
+  factor_trigger: qingqi_weishang AND zhuoqi_weixia
+  role: 总结
+  snippet_text: 清气为上，浊气为下。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944709'
+- snippet_id: ns_zpzy_084
+  trigger: 纯粹可贵
+  factor_trigger: chuncui_kegui AND zaluan_bukan
+  role: 总结
+  snippet_text: 纯粹可贵，杂乱不堪。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944748'
+- snippet_id: ns_zpzy_085
+  trigger: 寒暖燥湿
+  factor_trigger: condition IN (han, nuan, zao, shi) AND tiaohou_weixian
+  role: 主干依赖
+  snippet_text: 寒暖燥湿，调候为先。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944785'
+- snippet_id: ns_zpzy_086
+  trigger: 喜神来助
+  factor_trigger: xishen_laizhu AND result=shishi_shunsui
+  role: 条件分支
+  snippet_text: 喜神来助，事事顺遂。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944818'
+- snippet_id: ns_zpzy_087
+  trigger: 天干主动
+  factor_trigger: tiangan_zhudong AND ying_su_er_xian
+  role: 条件分支
+  snippet_text: 天干主动，应速而显。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944841'
+- snippet_id: ns_zpzy_088
+  trigger: 干支分工
+  factor_trigger: tiangan_xing_hu_tian AND dizhi_cun_hu_di AND guanzhang_difang_model
+  role: 主干
+  snippet_text: 甲乙行乎天，寅卯存乎地。甲乙像官长号令，寅卯像地方承命。
+  source_ref: 《子平真诠·论十干十二支》#干支分工
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944888'
+- snippet_id: ns_zpzy_089
+  trigger: 禄位真义
+  factor_trigger: luwei_definition AND rigan_qi_zui_deli AND NOT simple_jixing
+  role: 主干依赖
+  snippet_text: 禄者，日干之气在月支最得力处，非简单吉星。
+  source_ref: 《子平真诠·论十干十二支》#禄位
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944899'
+- snippet_id: ns_zpzy_090
+  trigger: 气象形位
+  factor_trigger: jia_qi_ji_yin AND yi_zhi_jian_mao AND qisheng_xinggu_qiang
+  role: 主干依赖
+  snippet_text: 甲之气寄于寅，乙之质坚于卯，气盛形固则强。
+  source_ref: 《子平真诠·论十干十二支》#气象形位
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944906'
+- snippet_id: ns_zpzy_091
+  trigger: 天干地支
+  factor_trigger: tiangan_dizhi AND yinyang_xiang
+  role: 主干依赖
+  snippet_text: 天干地支，阴阳之象也。
+  source_ref: 《子平真诠》#论十干十二支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944916'
+- snippet_id: ns_zpzy_092
+  trigger: 干支配合
+  factor_trigger: ganzhi_peihe AND shengke_zhihua_li
+  role: 主干依赖
+  snippet_text: 干支配合，生克制化之理。
+  source_ref: 《子平真诠》#论十干十二支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944925'
+- snippet_id: ns_zpzy_093
+  trigger: 甲乙属木
+  factor_trigger: (jiayi=mu) AND (bingding=huo) AND (wuji=tu) AND (gengxin=jin) AND
+    (rengui=shui)
+  role: 主干依赖
+  snippet_text: 甲乙属木，丙丁属火，戊己属土，庚辛属金，壬癸属水。
+  source_ref: 《子平真诠》#论十干十二支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944932'
+- snippet_id: ns_zpzy_094
+  trigger: 子午冲
+  factor_trigger: ziwu_chong AND shuihuo_xiangzhan
+  role: 条件分支
+  snippet_text: 子午冲，水火相战。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944939'
+- snippet_id: ns_zpzy_095
+  trigger: 卯酉冲
+  factor_trigger: maoyou_chong AND jinmu_xiangke
+  role: 条件分支
+  snippet_text: 卯酉冲，金木相克。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944945'
+- snippet_id: ns_zpzy_096
+  trigger: 中和最吉
+  factor_trigger: zhonghe_zuiji AND pianku_buli
+  role: 总结
+  snippet_text: 中和最吉，偏枯不利。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944951'
+- snippet_id: ns_zpzy_097
+  trigger: 流通有情
+  factor_trigger: liutong_youqing AND shengsheng_buxi
+  role: 总结
+  snippet_text: 流通有情，生生不息。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.944973'
+- snippet_id: ns_zpzy_098
+  trigger: 阻滞无情
+  factor_trigger: zuzhi_wuqing AND qiji_buchang
+  role: 条件分支
+  snippet_text: 阻滞无情，气机不畅。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945006'
+- snippet_id: ns_zpzy_099
+  trigger: 强弱平衡
+  factor_trigger: qiangruo_pingheng AND fuyi_deyi
+  role: 总结
+  snippet_text: 强弱平衡，扶抑得宜。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945042'
+- snippet_id: ns_zpzy_100
+  trigger: 忌神来犯
+  factor_trigger: jishen_laifan AND result=zaihuo_nanmian
+  role: 条件分支
+  snippet_text: 忌神来犯，灾祸难免。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945066'
+- snippet_id: ns_zpzy_101
+  trigger: 地支主静
+  factor_trigger: dizhi_zhujing AND ying_huan_er_shen
+  role: 条件分支
+  snippet_text: 地支主静，应缓而深。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945089'
+- snippet_id: ns_zpzy_102
+  trigger: 官煞分辨
+  factor_trigger: jin_ke_mu AND (ten_god=zhengguan OR ten_god=qisha) AND shute_panran
+  role: 例外处理
+  snippet_text: 同是金克木，一官一煞，淑慝判然。
+  source_ref: 《子平真诠·论阴阳生克》#官煞分野
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945110'
+- snippet_id: ns_zpzy_103
+  trigger: 印星偏正
+  factor_trigger: (shui_sheng_mu AND yin_you_pian_zheng) AND (jin_ke_mu AND ju_you_guan_sha)
+  role: 主干
+  snippet_text: 水同生木，而印有偏正；金同克木，而局有官煞。
+  source_ref: 《子平真诠·论阴阳生克》#阴阳细分
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945119'
+- snippet_id: ns_zpzy_104
+  trigger: 官煞优先
+  factor_trigger: yin_pianzheng_priority=low AND guansha_bie_priority=high
+  role: 主干
+  snippet_text: 印之偏正可置勿论，官煞之别不可不细详。
+  source_ref: 《子平真诠·论阴阳生克》#判断优先级
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945126'
+- snippet_id: ns_zpzy_105
+  trigger: 阴阳互根
+  factor_trigger: yinyang_hugen AND gangrou_xiangji
+  role: 主干
+  snippet_text: 阴阳互根，刚柔相济。
+  source_ref: 《子平真诠》#论阴阳生克
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945132'
+- snippet_id: ns_zpzy_106
+  trigger: 生克之理
+  factor_trigger: sheng_wo_zhe=yin AND ke_wo_zhe=guansha
+  role: 主干
+  snippet_text: 生我者为印，克我者为官煞。
+  source_ref: 《子平真诠》#论阴阳生克
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945138'
+- snippet_id: ns_zpzy_107
+  trigger: 五行相生
+  factor_trigger: wuxing_xiangsheng_sequence=(mu_huo_tu_jin_shui)
+  role: 主干
+  snippet_text: 木生火、火生土、土生金、金生水、水生木。
+  source_ref: 《子平真诠》#论阴阳生克
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945146'
+- snippet_id: ns_zpzy_108
+  trigger: 寅申冲
+  factor_trigger: branch_chong=(yin, shen) AND jinmu_jiaozhan
+  role: 主干
+  snippet_text: 寅申冲，金木交战。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945152'
+- snippet_id: ns_zpzy_109
+  trigger: 巳亥冲
+  factor_trigger: branch_chong=(si, hai) AND shuihuo_xiangji
+  role: 主干
+  snippet_text: 巳亥冲，水火相激。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945158'
+- snippet_id: ns_zpzy_110
+  trigger: 得地有根
+  factor_trigger: dedi=true AND yougen=true AND strength=chongpei
+  role: 主干
+  snippet_text: 得地有根，力量充沛。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945165'
+- snippet_id: ns_zpzy_111
+  trigger: 失地无根
+  factor_trigger: dedi=false AND yougen=false AND strength=wuli
+  role: 主干
+  snippet_text: 失地无根，虚浮无力。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945170'
+- snippet_id: ns_zpzy_112
+  trigger: 得时当令
+  factor_trigger: deshi=true AND dangling=true AND qishi=zhengsheng
+  role: 主干
+  snippet_text: 得时当令，气势正盛。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945178'
+- snippet_id: ns_zpzy_113
+  trigger: 旺衰定论
+  factor_trigger: wangshuai_determined=true AND geju_clarity=ziming
+  role: 主干
+  snippet_text: 旺衰定论，格局自明。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945183'
+- snippet_id: ns_zpzy_114
+  trigger: 病重药重
+  factor_trigger: (bing_level=zhong AND yao_level=zhong) OR (bing_level=qing AND yao_level=qing)
+  role: 主干
+  snippet_text: 病重药重，病轻药轻。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945191'
+- snippet_id: ns_zpzy_115
+  trigger: 干支一体
+  factor_trigger: ganzhi_yiti=true AND analysis_mode=tongcan_helun
+  role: 主干
+  snippet_text: 干支一体，统参合论。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945199'
+- snippet_id: ns_zpzy_116
+  trigger: 四时生克
+  factor_trigger: season_cycle=(chun_mu, xia_huo, qiu_jin, dong_shui) AND shengke_tonggong_chengsui
+  role: 主干
+  snippet_text: 春木夏火秋金冬水，四时相生相克，同功于成岁。
+  source_ref: 《子平真诠·论阴阳生克》#四时
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945209'
+- snippet_id: ns_zpzy_117
+  trigger: 克即是生
+  factor_trigger: mu_sheng_xia AND sha_yu_qiu AND sha_shi_waixie_cangshounei
+  role: 主干
+  snippet_text: 木盛于夏，杀于秋，杀者使外泄者藏收内。
+  source_ref: 《子平真诠·论阴阳生克》#克生同功
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945215'
+- snippet_id: ns_zpzy_118
+  trigger: 收剑为实
+  factor_trigger: dayi_shoujian=xingqing_zhi_shi AND ke_jiezhi_shengji_busanwang
+  role: 主干
+  snippet_text: 大易以收剑为性情之实，克所以节制生机使不至于散亡。
+  source_ref: 《子平真诠·论阴阳生克》#收剑
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945221'
+- snippet_id: ns_zpzy_119
+  trigger: 阴阳互根
+  factor_trigger: yinyang_hugen=true AND gangrou_xiangji=true
+  role: 主干
+  snippet_text: 阴阳互根，刚柔相济。
+  source_ref: 《子平真诠》#论阴阳生克
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945228'
+- snippet_id: ns_zpzy_120
+  trigger: 生克之理
+  factor_trigger: sheng_wo=yin AND ke_wo=guansha
+  role: 主干
+  snippet_text: 生我者为印，克我者为官煞。
+  source_ref: 《子平真诠》#论阴阳生克
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945234'
+- snippet_id: ns_zpzy_121
+  trigger: 五行相生
+  factor_trigger: wuxing_sheng_cycle=(mu_huo, huo_tu, tu_jin, jin_shui, shui_mu)
+  role: 主干
+  snippet_text: 木生火、火生土、土生金、金生水、水生木。
+  source_ref: 《子平真诠》#论阴阳生克
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945242'
+- snippet_id: ns_zpzy_122
+  trigger: 辰戌冲
+  factor_trigger: branch_chong=(chen, xu) AND tuku_xiangchong
+  role: 主干
+  snippet_text: 辰戌冲，土库相冲。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945249'
+- snippet_id: ns_zpzy_123
+  trigger: 丑未冲
+  factor_trigger: branch_chong=(chou, wei) AND tuku_xiangchong
+  role: 主干
+  snippet_text: 丑未冲，土库相冲。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945257'
+- snippet_id: ns_zpzy_124
+  trigger: 失时无气
+  factor_trigger: shishi=true AND wuqi=true AND state=shuairuo_wuli
+  role: 主干
+  snippet_text: 失时无气，衰弱无力。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945266'
+- snippet_id: ns_zpzy_125
+  trigger: 得势有助
+  factor_trigger: deshi=true AND youzhu=true AND pattern=zhongxing_gongyue
+  role: 主干
+  snippet_text: 得势有助，众星拱月。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945276'
+- snippet_id: ns_zpzy_126
+  trigger: 失势孤立
+  factor_trigger: shishi=true AND guli=true AND pattern=guzhang_nanming
+  role: 主干
+  snippet_text: 失势孤立，孤掌难鸣。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945284'
+- snippet_id: ns_zpzy_127
+  trigger: 喜忌分明
+  factor_trigger: xiji_fenming=true AND action=quji_bixiong
+  role: 主干
+  snippet_text: 喜忌分明，趋吉避凶。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945293'
+- snippet_id: ns_zpzy_128
+  trigger: 有病无药
+  factor_trigger: youbing=true AND wuyao=true AND result=zhongshen_buli
+  role: 主干
+  snippet_text: 有病无药，终身不利。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945301'
+- snippet_id: ns_zpzy_129
+  trigger: 生克有情
+  factor_trigger: shengke_youqing=true AND role=zhenyong
+  role: 主干
+  snippet_text: 生克有情，方为真用。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945331'
+- snippet_id: ns_zpzy_130
+  trigger: 用神定义
+  factor_trigger: yongshen_definition AND yueling=jing AND bage=wei
+  role: 主干
+  snippet_text: 用神者，月令为经，八格为纬。
+  source_ref: 《子平真诠·论用神》#定义
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945360'
+- snippet_id: ns_zpzy_131
+  trigger: 月令取用
+  factor_trigger: yueling_tigang AND yongshen_qushe_xiankan_yueling
+  role: 主干
+  snippet_text: 月令提纲，用神取舍必先看月令。
+  source_ref: 《子平真诠·论用神》#月令
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945372'
+- snippet_id: ns_zpzy_132
+  trigger: 八格归纳
+  factor_trigger: bage_list=(zhengguan, cai, yin, shi, pianguan, shangguan, yangren,
+    jianlu)
+  role: 主干
+  snippet_text: 正官财印食，偏官伤官阳刃建禄。
+  source_ref: 《子平真诠·论用神》#八格
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945379'
+- snippet_id: ns_zpzy_133
+  trigger: 用神为纲
+  factor_trigger: bazi_yongshen AND zhuanqiu_yueling
+  role: 主干
+  snippet_text: 八字用神，专求月令。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945385'
+- snippet_id: ns_zpzy_134
+  trigger: 月令司权
+  factor_trigger: yueling_siquan AND tigang_zhi_fu
+  role: 主干
+  snippet_text: 月令司权，提纲之府。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945391'
+- snippet_id: ns_zpzy_135
+  trigger: 用神取法
+  factor_trigger: yongshen_qufa AND yi_yueling_wei_zhu
+  role: 主干
+  snippet_text: 用神取法，以月令为主。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945397'
+- snippet_id: ns_zpzy_136
+  trigger: 三合成局
+  factor_trigger: sanhe=(shen_zi_chen_shui, yin_wu_xu_huo)
+  role: 主干
+  snippet_text: 申子辰合水，寅午戌合火。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945407'
+- snippet_id: ns_zpzy_137
+  trigger: 三会成方
+  factor_trigger: sanhui=(hai_zi_chou_shui, yin_mao_chen_mu)
+  role: 主干
+  snippet_text: 亥子丑会水，寅卯辰会木。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945413'
+- snippet_id: ns_zpzy_138
+  trigger: 三才定位
+  factor_trigger: sancai=(tian, di, ren) AND ge_you_dingwei
+  role: 主干
+  snippet_text: 天地人三才，各有定位。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945421'
+- snippet_id: ns_zpzy_139
+  trigger: 四柱配合
+  factor_trigger: sizhu=(nian, yue, ri, shi) AND peihe
+  role: 主干
+  snippet_text: 年月日时，四柱配合。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945428'
+- snippet_id: ns_zpzy_140
+  trigger: 干支同论
+  factor_trigger: tiangan_dizhi AND tongcan_helun
+  role: 主干
+  snippet_text: 天干地支，同参合论。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945434'
+- snippet_id: ns_zpzy_141
+  trigger: 无病无药
+  factor_trigger: wubing=true AND wuyao=true AND result=pingchang_zhiren
+  role: 主干
+  snippet_text: 无病无药，平常之人。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945440'
+- snippet_id: ns_zpzy_142
+  trigger: 刑冲无情
+  factor_trigger: xingchong_wuqing=true AND result=poge_baiju
+  role: 主干
+  snippet_text: 刑冲无情，破格败局。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945446'
+- snippet_id: ns_zpzy_143
+  trigger: 用神成败
+  factor_trigger: yongshen_status IN (cheng, bai) AND chengzhong_youbai AND baizhong_youcheng
+  role: 主干
+  snippet_text: 用神有成有败，成中有败，败中有成。
+  source_ref: 《子平真诠·论用神成败救应》#成败
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945462'
+- snippet_id: ns_zpzy_144
+  trigger: 救应之道
+  factor_trigger: (chengzhong_youbai AND yizi_kejiu) OR (baizhong_youcheng AND yizi_kepo)
+  role: 主干
+  snippet_text: 成中有败，一字可救；败中有成，一字可破。
+  source_ref: 《子平真诠·论用神成败救应》#救应
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945470'
+- snippet_id: ns_zpzy_145
+  trigger: 救应之法
+  factor_trigger: (guan_feng_shang AND touyin_yijie) OR (cai_feng_jie AND toushi_yihua)
+  role: 主干
+  snippet_text: 官逢伤而透印以解，财逢劫而透食以化。
+  source_ref: 《子平真诠·论用神成败救应》#救应
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945478'
+- snippet_id: ns_zpzy_146
+  trigger: 成败互转
+  factor_trigger: (chengge AND yizi_po_ji_bai) OR (baige AND yizi_jiu_ji_cheng)
+  role: 主干
+  snippet_text: 成格者一字破之即败，败格者一字救之即成。
+  source_ref: 《子平真诠·论用神成败救应》#互转
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945486'
+- snippet_id: ns_zpzy_147
+  trigger: 用神为纲
+  factor_trigger: bazi_yongshen AND zhuanqiu_yueling
+  role: 主干
+  snippet_text: 八字用神，专求月令。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945491'
+- snippet_id: ns_zpzy_148
+  trigger: 月令司权
+  factor_trigger: yueling_siquan AND tigang_zhi_fu
+  role: 主干
+  snippet_text: 月令司权，提纲之府。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945497'
+- snippet_id: ns_zpzy_149
+  trigger: 用神取法
+  factor_trigger: yongshen_qufa AND yi_yueling_wei_zhu
+  role: 主干
+  snippet_text: 用神取法，以月令为主。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945503'
+- snippet_id: ns_zpzy_150
+  trigger: 六合之情
+  factor_trigger: liuhe=(zi_chou_tu, yin_hai_mu)
+  role: 主干
+  snippet_text: 子丑合土，寅亥合木。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945511'
+- snippet_id: ns_zpzy_151
+  trigger: 天干透出
+  factor_trigger: dizhi_canggan AND tougan_weiyong
+  role: 主干
+  snippet_text: 地支藏干，透干为用。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945519'
+- snippet_id: ns_zpzy_152
+  trigger: 透藏分别
+  factor_trigger: tougan_xianyong AND cangzhi_ancang
+  role: 主干
+  snippet_text: 透干显用，藏支暗藏。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945525'
+- snippet_id: ns_zpzy_153
+  trigger: 虚实有分
+  factor_trigger: (xu_zhe AND wugen=true) OR (shi_zhe AND yougen=true)
+  role: 主干
+  snippet_text: 虚者无根，实者有根。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945532'
+- snippet_id: ns_zpzy_154
+  trigger: 轻重权衡
+  factor_trigger: qingzhong_quanheng AND jixiong_dingduo
+  role: 主干
+  snippet_text: 轻重权衡，吉凶定夺。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945538'
+- snippet_id: ns_zpzy_155
+  trigger: 太过不及
+  factor_trigger: (taiguo=true OR buji=true) AND result=fei_zhonghe
+  role: 主干
+  snippet_text: 太过不及，皆非中和。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945544'
+- snippet_id: ns_zpzy_156
+  trigger: 合化有成
+  factor_trigger: hehua_youcheng=true AND geju_bianhua
+  role: 主干
+  snippet_text: 合化有成，格局变化。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945575'
+- snippet_id: ns_zpzy_157
+  trigger: 用神变化
+  factor_trigger: yongshen_fei_yichengbubian AND sui_xingyun_zhuanyi
+  role: 主干
+  snippet_text: 用神非一成不变，随行运而转移。
+  source_ref: 《子平真诠·论用神变化》#变化
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945599'
+- snippet_id: ns_zpzy_158
+  trigger: 变中有常
+  factor_trigger: yongshen_sui_bian AND bianzhong_you_changli
+  role: 主干
+  snippet_text: 用神虽变，变中有常理可循。
+  source_ref: 《子平真诠·论用神变化》#常理
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945606'
+- snippet_id: ns_zpzy_159
+  trigger: 变化时机
+  factor_trigger: geju_yuyun AND (cheng OR po) AND xucha_yongshen_dongjing
+  role: 主干
+  snippet_text: 格局遇运，或成或破，须察用神动静。
+  source_ref: 《子平真诠·论用神变化》#时机
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945614'
+- snippet_id: ns_zpzy_160
+  trigger: 变中求稳
+  factor_trigger: bianhua_zhizhong AND xu_you_dingjian AND buke_suishi_yaobai
+  role: 主干
+  snippet_text: 变化之中须有定见，不可随势摇摆。
+  source_ref: 《子平真诠·论用神变化》#定见
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945620'
+- snippet_id: ns_zpzy_161
+  trigger: 天干论命
+  factor_trigger: tiangan_zhuwai AND dizhi_zhunei
+  role: 主干
+  snippet_text: 天干主外，地支主内。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945629'
+- snippet_id: ns_zpzy_162
+  trigger: 用神为纲
+  factor_trigger: bazi_yongshen AND zhuanqiu_yueling
+  role: 主干
+  snippet_text: 八字用神，专求月令。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945634'
+- snippet_id: ns_zpzy_163
+  trigger: 月令司权
+  factor_trigger: yueling_siquan AND tigang_zhi_fu
+  role: 主干
+  snippet_text: 月令司权，提纲之府。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945640'
+- snippet_id: ns_zpzy_164
+  trigger: 用神取法
+  factor_trigger: yongshen_qufa AND yi_yueling_wei_zhu
+  role: 主干
+  snippet_text: 用神取法，以月令为主。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945646'
+- snippet_id: ns_zpzy_165
+  trigger: 地支暗藏
+  factor_trigger: dizhi_ancang AND butou_buxian
+  role: 主干
+  snippet_text: 地支暗藏，不透不显。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945652'
+- snippet_id: ns_zpzy_166
+  trigger: 根深叶茂
+  factor_trigger: rigan_yougen AND liliang_beizeng
+  role: 主干
+  snippet_text: 日干有根，力量倍增。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945657'
+- snippet_id: ns_zpzy_167
+  trigger: 格成格破
+  factor_trigger: (gecheng=true AND result=ji) OR (gepo=true AND result=xiong)
+  role: 主干
+  snippet_text: 格成则吉，格破则凶。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945663'
+- snippet_id: ns_zpzy_168
+  trigger: 日主强弱
+  factor_trigger: rizhu_qiangruo AND ding_geju_zhi_ji
+  role: 主干
+  snippet_text: 日主强弱，定格局之基。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945669'
+- snippet_id: ns_zpzy_169
+  trigger: 纯杂之辨
+  factor_trigger: yongshen_yi_chun AND buyi_za AND za_ze_lifen_ersan
+  role: 主干
+  snippet_text: 用神宜纯不宜杂，杂则力分而散。
+  source_ref: 《子平真诠·论用神纯杂》#纯杂
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945689'
+- snippet_id: ns_zpzy_170
+  trigger: 杂而能制
+  factor_trigger: za_er_neng_zhi AND yi_ke_chengge
+  role: 主干
+  snippet_text: 杂而能制，亦可成格。
+  source_ref: 《子平真诠·论用神纯杂》#制杂
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945697'
+- snippet_id: ns_zpzy_171
+  trigger: 杂中取纯
+  factor_trigger: zazhong_yike_quchun AND xucha_shili_qingzhong
+  role: 主干
+  snippet_text: 杂中亦可取纯，须察势力之轻重。
+  source_ref: 《子平真诠·论用神纯杂》#取纯
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945703'
+- snippet_id: ns_zpzy_172
+  trigger: 纯杂得宜
+  factor_trigger: (chun_er_bupian=weishang) OR (za_er_youzhi=yike_yong)
+  role: 主干
+  snippet_text: 纯而不偏为上，杂而有制亦可用。
+  source_ref: 《子平真诠·论用神纯杂》#得宜
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945709'
+- snippet_id: ns_zpzy_173
+  trigger: 地支藏干
+  factor_trigger: dizhi_canggan AND anzhong_quyong
+  role: 主干
+  snippet_text: 地支藏干，暗中取用。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945714'
+- snippet_id: ns_zpzy_174
+  trigger: 用神为纲
+  factor_trigger: bazi_yongshen AND zhuanqiu_yueling
+  role: 主干
+  snippet_text: 八字用神，专求月令。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945720'
+- snippet_id: ns_zpzy_175
+  trigger: 月令司权
+  factor_trigger: yueling_siquan AND tigang_zhi_fu
+  role: 主干
+  snippet_text: 月令司权，提纲之府。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945728'
+- snippet_id: ns_zpzy_176
+  trigger: 用神取法
+  factor_trigger: yongshen_qufa AND yi_yueling_wei_zhu
+  role: 主干
+  snippet_text: 用神取法，以月令为主。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945733'
+- snippet_id: ns_zpzy_177
+  trigger: 无根飘浮
+  factor_trigger: rigan_wugen AND xufu_wuli
+  role: 主干
+  snippet_text: 日干无根，虚浮无力。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945741'
+- snippet_id: ns_zpzy_178
+  trigger: 得令当权
+  factor_trigger: yueling_deling AND qishi_qiangsheng
+  role: 主干
+  snippet_text: 月令得令，气势强盛。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945747'
+- snippet_id: ns_zpzy_179
+  trigger: 用神有力
+  factor_trigger: yongshen_youli AND result=fugui_keqi
+  role: 主干
+  snippet_text: 用神有力，富贵可期。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945752'
+- snippet_id: ns_zpzy_180
+  trigger: 月令当权
+  factor_trigger: yueling_dangquan AND yongshen_zhi_fu
+  role: 主干
+  snippet_text: 月令当权，用神之府。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945758'
+- snippet_id: ns_zpzy_181
+  trigger: 格局高低
+  factor_trigger: geju_level IN (gao, di) AND (gao_zhe_yongshen_youli) AND (di_zhe_yongshen_wuqi)
+  role: 主干
+  snippet_text: 格局有高有低，高者用神有力，低者用神无气。
+  source_ref: 《子平真诠·论用神格局高低》#高低
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945777'
+- snippet_id: ns_zpzy_182
+  trigger: 高低之辨
+  factor_trigger: geju_gaodi AND zaihu_yongshen_qingzhuo
+  role: 主干
+  snippet_text: 格局高低，在乎用神清浊。
+  source_ref: 《子平真诠·论用神格局高低》#清浊
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945791'
+- snippet_id: ns_zpzy_183
+  trigger: 高格条件
+  factor_trigger: yongshen_deling=true AND yongshen_dedi=true AND yongshen_deshi=true
+    AND result=gaoge
+  role: 主干
+  snippet_text: 用神得令得地得势，三者兼备为高。
+  source_ref: 《子平真诠·论用神格局高低》#条件
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945800'
+- snippet_id: ns_zpzy_184
+  trigger: 低格可救
+  factor_trigger: geju_sui_di AND yun_neng_tixie AND result=ke_zhuangao
+  role: 主干
+  snippet_text: 格局虽低，运能提携则可转高。
+  source_ref: 《子平真诠·论用神格局高低》#可救
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945810'
+- snippet_id: ns_zpzy_185
+  trigger: 透干为用
+  factor_trigger: tougan_weiyong AND liliang_xianzhu
+  role: 主干
+  snippet_text: 透干为用，力量显著。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945819'
+- snippet_id: ns_zpzy_186
+  trigger: 用神为纲
+  factor_trigger: bazi_yongshen AND zhuanqiu_yueling
+  role: 主干
+  snippet_text: 八字用神，专求月令。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945827'
+- snippet_id: ns_zpzy_187
+  trigger: 月令司权
+  factor_trigger: yueling_siquan AND tigang_zhi_fu
+  role: 主干
+  snippet_text: 月令司权，提纲之府。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945834'
+- snippet_id: ns_zpzy_188
+  trigger: 用神取法
+  factor_trigger: yongshen_qufa AND yi_yueling_wei_zhu
+  role: 主干
+  snippet_text: 用神取法，以月令为主。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945843'
+- snippet_id: ns_zpzy_189
+  trigger: 失令无力
+  factor_trigger: shiling_zhi_gan AND xu_de_shengfu
+  role: 主干
+  snippet_text: 失令之干，须得生扶。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945851'
+- snippet_id: ns_zpzy_190
+  trigger: 身旺任财
+  factor_trigger: shenwang=true AND fang_neng_ren_caiguan
+  role: 主干
+  snippet_text: 身旺方能任财官。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945862'
+- snippet_id: ns_zpzy_191
+  trigger: 用神无力
+  factor_trigger: yongshen_wuli=true AND result=pinjian_nanmian
+  role: 主干
+  snippet_text: 用神无力，贫贱难免。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945868'
+- snippet_id: ns_zpzy_192
+  trigger: 年柱根基
+  factor_trigger: pillar=nian AND role=genji_zuye
+  role: 主干
+  snippet_text: 年柱根基，祖业之宫。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945920'
+- snippet_id: ns_zpzy_193
+  trigger: 因成得败
+  factor_trigger: geju_bencheng AND yizi_po_zhi AND result=bai
+  role: 主干
+  snippet_text: 格局本成，一字破之则败。
+  source_ref: 《子平真诠·论用神因成得败因败得成》#因成得败
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945949'
+- snippet_id: ns_zpzy_194
+  trigger: 成败转化
+  factor_trigger: (yincheng_debai OR yinbai_decheng) AND yunlu_fenqi
+  role: 主干
+  snippet_text: 因成得败、因败得成，运路分歧。
+  source_ref: 《子平真诠·论用神因成得败因败得成》#转化
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945959'
+- snippet_id: ns_zpzy_195
+  trigger: 因败得成
+  factor_trigger: geju_benbai AND yunzhong_dejiu AND result=cheng
+  role: 主干
+  snippet_text: 格局本败，运中得救则成。
+  source_ref: 《子平真诠·论用神因成得败因败得成》#因败得成
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945971'
+- snippet_id: ns_zpzy_196
+  trigger: 成败循环
+  factor_trigger: chengbai_xiangyin AND fei_yiding_zhi_ju
+  role: 主干
+  snippet_text: 成败相因，非一定之局。
+  source_ref: 《子平真诠·论用神因成得败因败得成》#循环
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945979'
+- snippet_id: ns_zpzy_197
+  trigger: 会局之力
+  factor_trigger: (sanhui OR sanhe) AND liliang_beizeng
+  role: 主干
+  snippet_text: 三会三合，力量倍增。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945988'
+- snippet_id: ns_zpzy_198
+  trigger: 用神为纲
+  factor_trigger: bazi_yongshen AND zhuanqiu_yueling
+  role: 主干
+  snippet_text: 八字用神，专求月令。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.945997'
+- snippet_id: ns_zpzy_199
+  trigger: 月令司权
+  factor_trigger: yueling_siquan AND tigang_zhi_fu
+  role: 主干
+  snippet_text: 月令司权，提纲之府。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946005'
+- snippet_id: ns_zpzy_200
+  trigger: 用神取法
+  factor_trigger: yongshen_qufa AND yi_yueling_wei_zhu
+  role: 主干
+  snippet_text: 用神取法，以月令为主。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946016'
+- snippet_id: ns_zpzy_201
+  trigger: 身弱从势
+  factor_trigger: shenruo_wuyi AND cong_qi_wangshi
+  role: 主干
+  snippet_text: 身弱无依，从其旺势。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946022'
+- snippet_id: ns_zpzy_202
+  trigger: 印绶护身
+  factor_trigger: yinshou_hushen AND huasha_weiquan
+  role: 主干
+  snippet_text: 印绶护身，化煞为权。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946028'
+- snippet_id: ns_zpzy_203
+  trigger: 相神得用
+  factor_trigger: xiangshen_deyong AND fuge_yougong
+  role: 主干
+  snippet_text: 相神得用，辅格有功。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946034'
+- snippet_id: ns_zpzy_204
+  trigger: 时柱归宿
+  factor_trigger: pillar=shi AND role=guisu_zixi
+  role: 例外处理
+  snippet_text: 时柱归宿，子息之宫。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946040'
+- snippet_id: ns_zpzy_205
+  trigger: 气候调候
+  factor_trigger: yongshen_pei_qihou AND hannuan_zaoshi_xude_yi
+  role: 主干
+  snippet_text: 用神配气候，寒暖燥湿须得宜。
+  source_ref: 《子平真诠·论用神配气候得失》#调候
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946057'
+- snippet_id: ns_zpzy_206
+  trigger: 寒暖燥湿
+  factor_trigger: qihou_type IN (han, nuan, zao, shi) AND sishi_tiaohou_zhi_yao
+  role: 主干
+  snippet_text: 寒暖燥湿，四时调候之要。
+  source_ref: 《子平真诠·论用神配气候得失》#四时
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946065'
+- snippet_id: ns_zpzy_207
+  trigger: 寒暖要求
+  factor_trigger: (dongsheng AND yi_huo_nuan) OR (xiasheng AND yi_shui_run)
+  role: 主干
+  snippet_text: 冬生宜火暖，夏生宜水润。
+  source_ref: 《子平真诠·论用神配气候得失》#寒暖
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946074'
+- snippet_id: ns_zpzy_208
+  trigger: 调候优先
+  factor_trigger: geju_sui_hao AND qihou_bu_tiao AND result=nan_fa
+  role: 主干
+  snippet_text: 格局虽好，气候不调则难发。
+  source_ref: 《子平真诠·论用神配气候得失》#优先
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946087'
+- snippet_id: ns_zpzy_209
+  trigger: 冲克之害
+  factor_trigger: chongke_taiguo=true AND result=poge_baiju
+  role: 主干
+  snippet_text: 冲克太过，破格败局。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946100'
+- snippet_id: ns_zpzy_210
+  trigger: 用神为纲
+  factor_trigger: bazi_yongshen AND zhuanqiu_yueling
+  role: 主干
+  snippet_text: 八字用神，专求月令。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946107'
+- snippet_id: ns_zpzy_211
+  trigger: 月令司权
+  factor_trigger: yueling_siquan AND tigang_zhi_fu
+  role: 主干
+  snippet_text: 月令司权，提纲之府。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946115'
+- snippet_id: ns_zpzy_212
+  trigger: 用神取法
+  factor_trigger: yongshen_qufa AND yi_yueling_wei_zhu
+  role: 主干
+  snippet_text: 用神取法，以月令为主。
+  source_ref: 《子平真诠》#论用神
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946121'
+- snippet_id: ns_zpzy_213
+  trigger: 食神制煞
+  factor_trigger: shishen_zhisha AND geju=wugui
+  role: 主干
+  snippet_text: 食神制煞，武贵之格。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946130'
+- snippet_id: ns_zpzy_214
+  trigger: 伤官见官
+  factor_trigger: shangguan_jianguan AND result=huohuan_baiduan
+  role: 主干
+  snippet_text: 伤官见官，祸患百端。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946142'
+- snippet_id: ns_zpzy_215
+  trigger: 喜神来助
+  factor_trigger: xishen_laizhu=true AND result=shishi_shunsui
+  role: 主干
+  snippet_text: 喜神来助，事事顺遂。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946184'
+- snippet_id: ns_zpzy_216
+  trigger: 天干主动
+  factor_trigger: tiangan_zhudong AND ying_su_er_xian
+  role: 主干
+  snippet_text: 天干主动，应速而显。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946198'
+- snippet_id: ns_zpzy_217
+  trigger: 相神紧要
+  factor_trigger: xiangshen_fu_yongshen AND jinyao_zhi_dier
+  role: 主干
+  snippet_text: 相神辅用神，紧要之第二。
+  source_ref: 《子平真诠·论相神紧要》#紧要定义
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946371'
+- snippet_id: ns_zpzy_218
+  trigger: 相辅用神
+  factor_trigger: xiangshen_fuyong AND geju_yuqing
+  role: 主干
+  snippet_text: 相神辅用，格局愈清。
+  source_ref: 《子平真诠·论相神紧要》#辅用
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946415'
+- snippet_id: ns_zpzy_219
+  trigger: 相神作用
+  factor_trigger: (yongshen_you_xiang AND result=yuqing) OR (yongshen_wu_xiang AND
+    result=shigu)
+  role: 主干
+  snippet_text: 用神有相则愈清，无相则势孤。
+  source_ref: 《子平真诠·论相神紧要》#作用
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946429'
+- snippet_id: ns_zpzy_220
+  trigger: 相神选取
+  factor_trigger: xiangshen_xu_yu_yongshen_youqing AND fang_neng_ji_qi_buzu
+  role: 主干
+  snippet_text: 相神须与用神有情，方能济其不足。
+  source_ref: 《子平真诠·论相神紧要》#选取
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946439'
+- snippet_id: ns_zpzy_221
+  trigger: 刑害之论
+  factor_trigger: xinghai_sui_xiong AND xu_kan_peihe
+  role: 主干
+  snippet_text: 刑害虽凶，须看配合。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946460'
+- snippet_id: ns_zpzy_222
+  trigger: 相神得力
+  factor_trigger: xiangshen_deli=true AND result=fugui_keqi
+  role: 主干
+  snippet_text: 相神得力，富贵可期。
+  source_ref: 《子平真诠》#论相神紧要
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946514'
+- snippet_id: ns_zpzy_223
+  trigger: 杂气概念
+  factor_trigger: zaqi_yu_zhongqi AND zaqi_yu_yongshen
+  role: 主干
+  snippet_text: 辰戌丑未为杂气，内藏多神须择用。
+  source_ref: 《子平真诠·论杂气如何取用》#概念
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946533'
+- snippet_id: ns_zpzy_224
+  trigger: 库中取用
+  factor_trigger: zaqi_ku_zhong AND zaqi_qu_yong
+  role: 主干
+  snippet_text: 杂气透干，库中取用。
+  source_ref: 《子平真诠·论杂气如何取用》#取用
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946565'
+- snippet_id: ns_zpzy_225
+  trigger: 透干为用
+  factor_trigger: zaqi_tou_gan AND zaqi_wei_yong
+  role: 主干
+  snippet_text: 杂气透干者先用，不透则看会合。
+  source_ref: 《子平真诠·论杂气如何取用》#透干
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946584'
+- snippet_id: ns_zpzy_226
+  trigger: 冲开库门
+  factor_trigger: zaqi_chong_kai AND zaqi_ku_men
+  role: 主干
+  snippet_text: 杂气逢冲则库开，财官印食各有用。
+  source_ref: 《子平真诠·论杂气如何取用》#冲开
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946595'
+- snippet_id: ns_zpzy_227
+  trigger: 空亡之说
+  factor_trigger: kongwang_yu_zhongqi AND kongwang_yu_yongshen
+  role: 主干
+  snippet_text: 空亡不必尽信。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946602'
+- snippet_id: ns_zpzy_228
+  trigger: 杂气月令
+  factor_trigger: zaqi_yue_ling AND zaqi_yu_zhongqi
+  role: 主干
+  snippet_text: 杂气月令，透干会支。
+  source_ref: 《子平真诠》#论杂气如何取用
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946609'
+- snippet_id: ns_zpzy_229
+  trigger: 病重药重
+  factor_trigger: bingzhong_yaoyong AND bingqing_yaoliang
+  role: 主干
+  snippet_text: 病重药重，病轻药轻。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946620'
+- snippet_id: ns_zpzy_230
+  trigger: 忌神来犯
+  factor_trigger: jishen_laifan=true AND result=zaihuo_nanmian
+  role: 主干
+  snippet_text: 忌神来犯，灾祸难免。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946627'
+- snippet_id: ns_zpzy_231
+  trigger: 杂气概念
+  factor_trigger: branch IN (chen, xu, chou, wei) AND zaqi=true AND neicang_duoshen_xu_zeyong
+  role: 主干
+  snippet_text: 辰戌丑未为杂气，内藏多神须择用。
+  source_ref: 《子平真诠·论杂气如何取用》#概念
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946654'
+- snippet_id: ns_zpzy_232
+  trigger: 库中取用
+  factor_trigger: zaqi_tougan AND kuzhong_quyong
+  role: 主干
+  snippet_text: 杂气透干，库中取用。
+  source_ref: 《子平真诠·论杂气如何取用》#取用
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946663'
+- snippet_id: ns_zpzy_233
+  trigger: 透干为用
+  factor_trigger: zaqi_tougan_zhe_xianyong AND butou_ze_kan_huihe
+  role: 主干
+  snippet_text: 杂气透干者先用，不透则看会合。
+  source_ref: 《子平真诠·论杂气如何取用》#透干
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946675'
+- snippet_id: ns_zpzy_234
+  trigger: 冲开库门
+  factor_trigger: zaqi_feng_chong AND ku_kai AND caiguan_yinshi_ge_you_yong
+  role: 主干
+  snippet_text: 杂气逢冲则库开，财官印食各有用。
+  source_ref: 《子平真诠·论杂气如何取用》#冲开
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946725'
+- snippet_id: ns_zpzy_235
+  trigger: 空亡之说
+  factor_trigger: kongwang_bubi_jinxin
+  role: 主干
+  snippet_text: 空亡不必尽信。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946767'
+- snippet_id: ns_zpzy_236
+  trigger: 杂气月令
+  factor_trigger: zaqi_yueling AND tougan_huizhi
+  role: 主干
+  snippet_text: 杂气月令，透干会支。
+  source_ref: 《子平真诠》#论杂气如何取用
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946784'
+- snippet_id: ns_zpzy_237
+  trigger: 病重药重
+  factor_trigger: (bingzhong AND yaozhong) OR (bingqing AND yaoliang)
+  role: 主干
+  snippet_text: 病重药重，病轻药轻。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946791'
+- snippet_id: ns_zpzy_238
+  trigger: 子平宗旨
+  factor_trigger: ziping_zhi_fa AND rizhu_wei_zhu AND yueling_wei_gang
+  role: 主干
+  snippet_text: 子平之法，以日主为主，月令为纲。
+  source_ref: 《子平真诠·序》#宗旨
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946810'
+- snippet_id: ns_zpzy_239
+  trigger: 月令为纲
+  factor_trigger: bazi_yongshen AND zhuanqiu_yueling
+  role: 主干
+  snippet_text: 八字用神，专求月令。
+  source_ref: 《子平真诠·序》#月令
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946822'
+- snippet_id: ns_zpzy_240
+  trigger: 格局为本
+  factor_trigger: lunming_xian_li_geju AND zai_cha_yongshen_xiji
+  role: 主干
+  snippet_text: 论命先立格局，再察用神喜忌。
+  source_ref: 《子平真诠·序》#格局
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946828'
+- snippet_id: ns_zpzy_241
+  trigger: 边界条件
+  factor_trigger: shiyong_tiaojian AND bianjie_xianzhi
+  role: 条件分支
+  snippet_text: 适用条件与边界。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946835'
+- snippet_id: ns_zpzy_242
+  trigger: 神煞不论
+  factor_trigger: shensha_xingchen AND bu_ru_zhenglun
+  role: 主干
+  snippet_text: 神煞星辰，不入正论。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946844'
+- snippet_id: ns_zpzy_243
+  trigger: 有病无药
+  factor_trigger: youbing=true AND wuyao=true AND result=zhongshen_buli
+  role: 主干
+  snippet_text: 有病无药，终身不利。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946853'
+- snippet_id: ns_zpzy_244
+  trigger: 十干论命
+  factor_trigger: shigan_ge_you_xingqing AND lunming_xu_shi_qi_ben
+  role: 主干
+  snippet_text: 十干各有性情，论命须识其本。
+  source_ref: 《子平真诠·论十干十二支》#十干
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946876'
+- snippet_id: ns_zpzy_245
+  trigger: 实践要领
+  factor_trigger: duanming_shijian AND yaoling_zonghe
+  role: 主干
+  snippet_text: 断命实践要领。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946885'
+- snippet_id: ns_zpzy_246
+  trigger: 边界条件
+  factor_trigger: shiyong_tiaojian AND bianjie_xianzhi
+  role: 条件分支
+  snippet_text: 适用条件与边界。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946893'
+- snippet_id: ns_zpzy_247
+  trigger: 天干地支
+  factor_trigger: tiangan_dizhi AND yinyang_zhi_xiang
+  role: 主干
+  snippet_text: 天干地支，阴阳之象也。
+  source_ref: 《子平真诠》#论十干十二支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946904'
+- snippet_id: ns_zpzy_248
+  trigger: 干支配合
+  factor_trigger: ganzhi_peihe AND shengke_zhihua_zhi_li
+  role: 主干
+  snippet_text: 干支配合，生克制化之理。
+  source_ref: 《子平真诠》#论十干十二支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946912'
+- snippet_id: ns_zpzy_249
+  trigger: 甲乙属木
+  factor_trigger: (jiayi=mu) AND (bingding=huo) AND (wuji=tu) AND (gengxin=jin) AND
+    (rengui=shui)
+  role: 主干
+  snippet_text: 甲乙属木，丙丁属火，戊己属土，庚辛属金，壬癸属水。
+  source_ref: 《子平真诠》#论十干十二支
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946921'
+- snippet_id: ns_zpzy_250
+  trigger: 无病无药
+  factor_trigger: wubing=true AND wuyao=true AND result=pingchang_zhiren
+  role: 主干
+  snippet_text: 无病无药，平常之人。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946927'
+- snippet_id: ns_zpzy_251
+  trigger: 解法要诀
+  factor_trigger: xingchong_you_jie AND huihe_you_san AND xu_cha_quanju
+  role: 主干
+  snippet_text: 刑冲有解，会合有散，须察全局。
+  source_ref: 《子平真诠·论刑冲会合解法》#解法
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946943'
+- snippet_id: ns_zpzy_252
+  trigger: 会合解法
+  factor_trigger: xingchong_huihe_ge_you_jiefa AND xu_cha_qingzhong_huanji
+  role: 主干
+  snippet_text: 刑冲会合各有解法，须察轻重缓急。
+  source_ref: 《子平真诠·论刑冲会合解法》#解法
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946949'
+- snippet_id: ns_zpzy_253
+  trigger: 实践要领
+  factor_trigger: duanming_shijian AND yaoling_zonghe
+  role: 主干
+  snippet_text: 断命实践要领。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946955'
+- snippet_id: ns_zpzy_254
+  trigger: 边界条件
+  factor_trigger: shiyong_tiaojian AND bianjie_xianzhi
+  role: 条件分支
+  snippet_text: 适用条件与边界。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946963'
+- snippet_id: ns_zpzy_255
+  trigger: 太过不及
+  factor_trigger: (taiguo=true OR buji=true) AND result=fei_zhonghe
+  role: 主干
+  snippet_text: 太过不及，皆非中和。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946969'
+- snippet_id: ns_zpzy_256
+  trigger: 命理要义
+  factor_trigger: benjie_hexin_mingli AND lunshu_yaodian
+  role: 主干
+  snippet_text: 本节核心命理论述。
+  source_ref: 《子平真诠》#第49节
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946983'
+- snippet_id: ns_zpzy_257
+  trigger: 实践要领
+  factor_trigger: duanming_shijian AND yaoling_zonghe
+  role: 主干
+  snippet_text: 断命实践要领。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946989'
+- snippet_id: ns_zpzy_258
+  trigger: 边界条件
+  factor_trigger: shiyong_tiaojian AND bianjie_xianzhi
+  role: 条件分支
+  snippet_text: 适用条件与边界。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.946994'
+- snippet_id: ns_zpzy_259
+  trigger: 格成格破
+  factor_trigger: (gecheng=true AND result=ji) OR (gepo=true AND result=xiong)
+  role: 主干
+  snippet_text: 格成则吉，格破则凶。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947001'
+- snippet_id: ns_zpzy_260
+  trigger: 命理要义
+  factor_trigger: benjie_hexin_mingli AND lunshu_yaodian
+  role: 主干
+  snippet_text: 本节核心命理论述。
+  source_ref: 《子平真诠》#第52节
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947015'
+- snippet_id: ns_zpzy_261
+  trigger: 实践要领
+  factor_trigger: duanming_shijian AND yaoling_zonghe
+  role: 主干
+  snippet_text: 断命实践要领。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947022'
+- snippet_id: ns_zpzy_262
+  trigger: 边界条件
+  factor_trigger: shiyong_tiaojian AND bianjie_xianzhi
+  role: 条件分支
+  snippet_text: 适用条件与边界。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947030'
+- snippet_id: ns_zpzy_263
+  trigger: 用神有力
+  factor_trigger: yongshen_youli=true AND result=fugui_keqi
+  role: 主干
+  snippet_text: 用神有力，富贵可期。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947036'
+- snippet_id: ns_zpzy_264
+  trigger: 命理要义
+  factor_trigger: benjie_hexin_mingli AND lunshu_yaodian
+  role: 主干
+  snippet_text: 本节核心命理论述。
+  source_ref: 《子平真诠》#第55节
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947050'
+- snippet_id: ns_zpzy_265
+  trigger: 实践要领
+  factor_trigger: duanming_shijian AND yaoling_zonghe
+  role: 主干
+  snippet_text: 断命实践要领。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947057'
+- snippet_id: ns_zpzy_266
+  trigger: 边界条件
+  factor_trigger: shiyong_tiaojian AND bianjie_xianzhi
+  role: 条件分支
+  snippet_text: 适用条件与边界。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947063'
+- snippet_id: ns_zpzy_267
+  trigger: 用神无力
+  factor_trigger: yongshen_wuli=true AND result=pinjian_nanmian
+  role: 主干
+  snippet_text: 用神无力，贫贱难免。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947069'
+- snippet_id: ns_zpzy_268
+  trigger: 命理要义
+  factor_trigger: benjie_hexin_mingli AND lunshu_yaodian
+  role: 主干
+  snippet_text: 本节核心命理论述。
+  source_ref: 《子平真诠》#第58节
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947087'
+- snippet_id: ns_zpzy_269
+  trigger: 实践要领
+  factor_trigger: duanming_shijian AND yaoling_zonghe
+  role: 主干
+  snippet_text: 断命实践要领。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947093'
+- snippet_id: ns_zpzy_270
+  trigger: 边界条件
+  factor_trigger: shiyong_tiaojian AND bianjie_xianzhi
+  role: 条件分支
+  snippet_text: 适用条件与边界。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947104'
+- snippet_id: ns_zpzy_271
+  trigger: 相神得用
+  factor_trigger: xiangshen_deyong=true AND fuge_yougong
+  role: 主干
+  snippet_text: 相神得用，辅格有功。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947113'
+- snippet_id: ns_zpzy_272
+  trigger: 命理要义
+  factor_trigger: benjie_hexin_mingli AND lunshu_yaodian
+  role: 主干
+  snippet_text: 本节核心命理论述。
+  source_ref: 《子平真诠》#第61节
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947135'
+- snippet_id: ns_zpzy_273
+  trigger: 实践要领
+  factor_trigger: duanming_shijian AND yaoling_zonghe
+  role: 主干
+  snippet_text: 断命实践要领。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947145'
+- snippet_id: ns_zpzy_274
+  trigger: 边界条件
+  factor_trigger: shiyong_tiaojian AND bianjie_xianzhi
+  role: 条件分支
+  snippet_text: 适用条件与边界。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947153'
+- snippet_id: ns_zpzy_275
+  trigger: 喜神来助
+  factor_trigger: xishen_laizhu=true AND result=shishi_shunsui
+  role: 主干
+  snippet_text: 喜神来助，事事顺遂。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947160'
+- snippet_id: ns_zpzy_276
+  trigger: 命理要义
+  factor_trigger: benjie_hexin_mingli AND lunshu_yaodian
+  role: 主干
+  snippet_text: 本节核心命理论述。
+  source_ref: 《子平真诠》#第64节
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947216'
+- snippet_id: ns_zpzy_277
+  trigger: 实践要领
+  factor_trigger: duanming_shijian AND yaoling_zonghe
+  role: 主干
+  snippet_text: 断命实践要领。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947287'
+- snippet_id: ns_zpzy_278
+  trigger: 边界条件
+  factor_trigger: shiyong_tiaojian AND bianjie_xianzhi
+  role: 条件分支
+  snippet_text: 适用条件与边界。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947307'
+- snippet_id: ns_zpzy_279
+  trigger: 忌神来犯
+  factor_trigger: jishen_laifan=true AND result=zaihuo_nanmian
+  role: 主干
+  snippet_text: 忌神来犯，灾祸难免。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947319'
+- snippet_id: ns_zpzy_280
+  trigger: 命理要义
+  factor_trigger: benjie_hexin_mingli AND lunshu_yaodian
+  role: 主干
+  snippet_text: 本节核心命理论述。
+  source_ref: 《子平真诠》#第67节
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947346'
+- snippet_id: ns_zpzy_281
+  trigger: 实践要领
+  factor_trigger: duanming_shijian AND yaoling_zonghe
+  role: 主干
+  snippet_text: 断命实践要领。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947357'
+- snippet_id: ns_zpzy_282
+  trigger: 边界条件
+  factor_trigger: shiyong_tiaojian AND bianjie_xianzhi
+  role: 条件分支
+  snippet_text: 适用条件与边界。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947371'
+- snippet_id: ns_zpzy_283
+  trigger: 病重药重
+  factor_trigger: (bingzhong AND yaozhong) OR (bingqing AND yaoliang)
+  role: 主干
+  snippet_text: 病重药重，病轻药轻。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947433'
+- snippet_id: ns_zpzy_284
+  trigger: 刑冲会合
+  factor_trigger: xingchong_huihe_ge_you_jiefa AND xu_cha_qingzhong_huanji
+  role: 主干
+  snippet_text: 刑冲会合各有解法，须察轻重缓急。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947470'
+- snippet_id: ns_zpzy_285
+  trigger: 有病无药
+  factor_trigger: youbing=true AND wuyao=true AND result=zhongshen_buli
+  role: 主干
+  snippet_text: 有病无药，终身不利。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947490'
+- snippet_id: ns_zpzy_286
+  trigger: 论用神
+  factor_trigger: bazi_yongshen_zhuanqiu_yueling AND yueling_siquan_tigang_zhi_fu
+  role: 主干
+  snippet_text: 八字用神专求月令，月令司权提纲之府。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947522'
+- snippet_id: ns_zpzy_287
+  trigger: 无病无药
+  factor_trigger: wubing=true AND wuyao=true AND result=pingchang_zhiren
+  role: 主干
+  snippet_text: 无病无药，平常之人。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947543'
+- snippet_id: ns_zpzy_288
+  trigger: 成败救应
+  factor_trigger: (chengzhong_youbai AND yizi_kejiu) OR (baizhong_youcheng AND yizi_kepo)
+  role: 主干
+  snippet_text: 成中有败一字可救，败中有成一字可破。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947572'
+- snippet_id: ns_zpzy_289
+  trigger: 格局清纯
+  factor_trigger: geju_qingchun AND guiqi_tiancheng
+  role: 主干
+  snippet_text: 格局清纯，贵气天成。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947641'
+- snippet_id: ns_zpzy_290
+  trigger: 太过不及
+  factor_trigger: (taiguo=true OR buji=true) AND result=fei_zhonghe
+  role: 主干
+  snippet_text: 太过不及，皆非中和。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947677'
+- snippet_id: ns_zpzy_291
+  trigger: 用神变化
+  factor_trigger: yongshen_sui_bian AND bianzhong_you_changli_kexun
+  role: 主干
+  snippet_text: 用神虽变，变中有常理可循。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947727'
+- snippet_id: ns_zpzy_292
+  trigger: 用神有力
+  factor_trigger: yongshen_youli=true AND yunzhu_ze_fa
+  role: 主干
+  snippet_text: 用神有力，运助则发。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947738'
+- snippet_id: ns_zpzy_293
+  trigger: 格成格破
+  factor_trigger: (gecheng=true AND result=ji) OR (gepo=true AND result=xiong)
+  role: 主干
+  snippet_text: 格成则吉，格破则凶。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947759'
+- snippet_id: ns_zpzy_294
+  trigger: 用神纯杂
+  factor_trigger: (yongshen_chuncu AND geju_gao) OR (yongshen_zaluan AND geju_di)
+  role: 主干
+  snippet_text: 用神纯粹格局高，杂乱则低。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.947787'
+- snippet_id: ns_zpzy_295
+  trigger: 忌神有制
+  factor_trigger: jishen_youzhi=true AND xiong_hua_wei_ji
+  role: 主干
+  snippet_text: 忌神有制，凶化为吉。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949612'
+- snippet_id: ns_zpzy_296
+  trigger: 用神有力
+  factor_trigger: yongshen_youli=true AND result=fugui_keqi
+  role: 主干
+  snippet_text: 用神有力，富贵可期。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949653'
+- snippet_id: ns_zpzy_297
+  trigger: 格局高低
+  factor_trigger: geju_gaodi AND zaihu_yongshen_qingzhuo
+  role: 主干
+  snippet_text: 格局高低在乎用神清浊。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949696'
+- snippet_id: ns_zpzy_298
+  trigger: 病药得宜
+  factor_trigger: (bingzhong AND yaozhong) OR (bingqing AND yaoliang)
+  role: 主干
+  snippet_text: 病重药重，病轻药轻。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949703'
+- snippet_id: ns_zpzy_299
+  trigger: 用神无力
+  factor_trigger: yongshen_wuli=true AND result=pinjian_nanmian
+  role: 主干
+  snippet_text: 用神无力，贫贱难免。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949709'
+- snippet_id: ns_zpzy_300
+  trigger: 因成得败
+  factor_trigger: (yincheng_debai OR yinbai_decheng) AND yunlu_fenqi
+  role: 主干
+  snippet_text: 因成得败因败得成，运路分歧。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949730'
+- snippet_id: ns_zpzy_301
+  trigger: 中和为贵
+  factor_trigger: zhonghe_zhi_ming AND fushou_shuangquan
+  role: 主干
+  snippet_text: 中和之命，福寿双全。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949741'
+- snippet_id: ns_zpzy_302
+  trigger: 相神得用
+  factor_trigger: xiangshen_deyong=true AND fuge_yougong
+  role: 条件分支
+  snippet_text: 相神得用，辅格有功。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949748'
+- snippet_id: ns_zpzy_303
+  trigger: 配气候
+  factor_trigger: tiaohou_weiji AND hannuan_zaoshi_dangxian_lun
+  role: 主干
+  snippet_text: 调候为急，寒暖燥湿当先论。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949766'
+- snippet_id: ns_zpzy_304
+  trigger: 偏枯之格
+  factor_trigger: pianku_zhige AND xu_xingyun_bu_zhi
+  role: 主干
+  snippet_text: 偏枯之格，须行运补之。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949773'
+- snippet_id: ns_zpzy_305
+  trigger: 喜神来助
+  factor_trigger: xishen_laizhu=true AND result=shishi_shunsui
+  role: 条件分支
+  snippet_text: 喜神来助，事事顺遂。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949779'
+- snippet_id: ns_zpzy_306
+  trigger: 相神紧要
+  factor_trigger: xiangshen_fuyong AND geju_yuqing_yugao
+  role: 主干
+  snippet_text: 相神辅用，格局愈清愈高。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949799'
+- snippet_id: ns_zpzy_307
+  trigger: 从格之论
+  factor_trigger: congge_xu_zhencong AND zhen_ze_fugui
+  role: 主干
+  snippet_text: 从格须真从，真则富贵。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949812'
+- snippet_id: ns_zpzy_308
+  trigger: 忌神来犯
+  factor_trigger: jishen_laifan=true AND result=zaihuo_nanmian
+  role: 主干
+  snippet_text: 忌神来犯，灾祸难免。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949824'
+- snippet_id: ns_zpzy_309
+  trigger: 杂气取用
+  factor_trigger: zaqi_yueling_tougan_huizhi AND fang_neng_cheng_ge
+  role: 主干
+  snippet_text: 杂气月令透干会支，方能成格。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949841'
+- snippet_id: ns_zpzy_310
+  trigger: 化格之法
+  factor_trigger: huage_xu_huazhen AND zhen_ze_xianda
+  role: 主干
+  snippet_text: 化格须化真，真则显达。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949848'
+- snippet_id: ns_zpzy_311
+  trigger: 病重药重
+  factor_trigger: (bingzhong AND yaozhong) OR (bingqing AND yaoliang)
+  role: 主干
+  snippet_text: 病重药重，病轻药轻。
+  source_ref: 《子平真诠》#上卷
+  source_book: 子平真诠
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:17.949854'

@@ -1,0 +1,384 @@
+/* ============================================
+   Simple Recorder - 极简速记（纯粹的纸）
+   ============================================ */
+
+.simple-recorder-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: color-mix(in srgb, var(--surface-primary) 80%, transparent);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: var(--space-xl);
+}
+
+.simple-recorder {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  height: 80vh;
+  max-height: 800px;
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  box-shadow: 
+    0 20px 60px color-mix(in srgb, #000 20%, transparent),
+    0 0 0 1px color-mix(in srgb, var(--border-primary) 50%, transparent);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* 极简 Header - 只有关闭和保存 */
+.simple-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-lg) var(--space-xl);
+  border-bottom: 1px solid var(--border-primary);
+  background: color-mix(in srgb, var(--surface-secondary) 50%, transparent);
+}
+
+.simple-close,
+.simple-save {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.simple-close:hover {
+  background: var(--surface-tertiary);
+  color: var(--text-primary);
+}
+
+.simple-save {
+  color: var(--accent-gold);
+}
+
+.simple-save:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--accent-gold) 10%, transparent);
+  color: #FFD54F;
+}
+
+.simple-save:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* 纯粹的纸 - 核心输入区 */
+.simple-paper {
+  flex: 1;
+  padding: var(--space-3xl) var(--space-4xl);
+  border: none;
+  outline: none;
+  background: var(--card-bg);
+  color: var(--text-primary);
+  font-size: 1.125rem;
+  line-height: 1.8;
+  font-family: var(--font-serif);
+  resize: none;
+  overflow-y: auto;
+}
+
+.simple-paper::placeholder {
+  color: var(--text-tertiary);
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.simple-paper:focus {
+  background: color-mix(in srgb, var(--surface-secondary) 30%, transparent);
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .simple-recorder-overlay {
+    padding: 0;
+  }
+
+  .simple-recorder {
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    border-radius: 0;
+  }
+
+  .simple-paper {
+    padding: var(--space-2xl) var(--space-xl);
+    font-size: 1rem;
+  }
+}
+
+/* ============================================
+   Detailed Recorder - 沉浸式详细记录
+   ============================================ */
+
+.detailed-recording-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--surface-primary);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Recording Header */
+.recording-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-lg) var(--space-xl);
+  background: var(--surface-secondary);
+  border-bottom: 1px solid var(--border-primary);
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: transparent;
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.875rem;
+}
+
+.back-button:hover {
+  background: var(--surface-tertiary);
+  color: var(--text-primary);
+  border-color: var(--border-secondary);
+}
+
+.header-status {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.status-icon {
+  color: var(--accent-violet);
+}
+
+.save-button-header {
+  padding: var(--space-sm) var(--space-lg);
+  background: var(--accent-gold);
+  border: none;
+  border-radius: var(--radius-sm);
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.save-button-header:hover:not(:disabled) {
+  background: #FFD54F;
+  transform: translateY(-1px);
+}
+
+.save-button-header:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Document Canvas */
+.document-canvas {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-4xl) var(--space-2xl);
+  display: flex;
+  justify-content: center;
+}
+
+.document-content {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+/* Document Title */
+.document-title {
+  width: 100%;
+  padding: var(--space-md) 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--text-primary);
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: var(--font-serif);
+  line-height: 1.3;
+}
+
+.document-title::placeholder {
+  color: var(--text-tertiary);
+  opacity: 0.5;
+}
+
+/* Metadata Bar */
+.metadata-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  color: var(--text-tertiary);
+  font-size: 0.875rem;
+}
+
+.metadata-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.metadata-divider {
+  opacity: 0.5;
+}
+
+/* Document Body */
+.document-body {
+  width: 100%;
+  min-height: 400px;
+  padding: var(--space-lg) 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--text-primary);
+  font-size: 1.125rem;
+  line-height: 1.8;
+  font-family: var(--font-serif);
+  resize: none;
+}
+
+.document-body::placeholder {
+  color: var(--text-tertiary);
+  opacity: 0.5;
+}
+
+/* Properties Section */
+.properties-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--border-primary);
+}
+
+.property-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.property-label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.property-input {
+  padding: var(--space-md);
+  background: var(--surface-secondary);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 0.9375rem;
+  transition: all 0.2s ease;
+}
+
+.property-input:focus {
+  outline: none;
+  border-color: var(--accent-gold);
+  background: var(--card-bg);
+}
+
+.property-input::placeholder {
+  color: var(--text-tertiary);
+}
+
+/* Floating Save Button */
+.floating-save {
+  position: fixed;
+  bottom: var(--space-3xl);
+  right: var(--space-3xl);
+  padding: var(--space-lg) var(--space-2xl);
+  background: var(--accent-gold);
+  border: none;
+  border-radius: var(--radius-full);
+  color: #000;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 8px 24px color-mix(in srgb, var(--accent-gold) 40%, transparent);
+  transition: all 0.3s ease;
+}
+
+.floating-save:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px color-mix(in srgb, var(--accent-gold) 50%, transparent);
+  background: #FFD54F;
+}
+
+.floating-save:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Secondary Button Style */
+.action-button.secondary {
+  background: transparent;
+  border: 1px solid var(--border-primary);
+  color: var(--text-secondary);
+}
+
+.action-button.secondary:hover {
+  background: var(--surface-tertiary);
+  border-color: var(--border-secondary);
+  color: var(--text-primary);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .document-canvas {
+    padding: var(--space-2xl) var(--space-lg);
+  }
+
+  .document-title {
+    font-size: 1.5rem;
+  }
+
+  .document-body {
+    font-size: 1rem;
+    min-height: 300px;
+  }
+
+  .floating-save {
+    bottom: var(--space-xl);
+    right: var(--space-xl);
+    padding: var(--space-md) var(--space-xl);
+  }
+}

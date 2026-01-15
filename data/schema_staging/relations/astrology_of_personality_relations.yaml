@@ -1,0 +1,3496 @@
+book_id: astrology_of_personality
+source_file: 典籍/texts/astrology of personality/编辑/Astrology_of_Personality_Complete_v2.1.md
+extracted_at: '2025-12-04T19:13:41.847867'
+relations:
+- relation_id: rel_aop_pref_001
+  relation_type: synthesis_relation
+  factor_a: psych_depth_psychology
+  factor_b: astro_traditional
+  relation_nature: Integration
+  condition_constraint: When Rudhyar integrates depth psychology with traditional
+    astrology
+  effect_direction: transforming
+  source_ref: Preface 1970 L103-104
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735768'
+- relation_id: rel_aop_pref_002
+  relation_type: synthesis_relation
+  factor_a: phil_holism
+  factor_b: astro_interpretation
+  relation_nature: Framework shift
+  condition_constraint: When holistic philosophy reframes astrological interpretation
+    toward whole person
+  effect_direction: enabling
+  source_ref: Preface 1970 L101-102
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735791'
+- relation_id: rel_aop_pref_003
+  relation_type: rejection_relation
+  factor_a: astro_fortune_telling
+  factor_b: astro_humanistic
+  relation_nature: Paradigm opposition
+  condition_constraint: When humanistic astrology replaces fortune-telling with self-knowledge
+    goal
+  effect_direction: replacing
+  source_ref: Preface 1970 L94-96
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735796'
+- relation_id: rel_aop_pref_004
+  relation_type: historical_relation
+  factor_a: astro_theosophical
+  factor_b: astro_humanistic
+  relation_nature: Evolution
+  condition_constraint: When theosophical astrology evolves from occult to psychological
+    orientation
+  effect_direction: developing
+  source_ref: Preface 1970 L96-98
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735799'
+- relation_id: rel_aop_pref_005
+  relation_type: foundation_relation
+  factor_a: astro_depth_integration
+  factor_b: astro_humanistic_origin
+  relation_nature: Core methodology
+  condition_constraint: When depth-psychology integration becomes the defining methodology
+    of humanistic astrology origin
+  effect_direction: constituting
+  source_ref: Preface 1970 L103-104
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735802'
+- relation_id: rel_aop_pref_006
+  relation_type: foundation_relation
+  factor_a: astro_holistic_frame
+  factor_b: astro_humanistic_origin
+  relation_nature: Philosophical base
+  condition_constraint: When Smuts's holism provides the philosophical framework for
+    humanistic astrology's whole-person approach
+  effect_direction: constituting
+  source_ref: Preface 1970 L101-102
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735805'
+- relation_id: rel_aop_pref_007
+  relation_type: mutual_enhancement
+  factor_a: astro_depth_integration
+  factor_b: astro_holistic_frame
+  relation_nature: Synergy
+  condition_constraint: When depth-psychology and holistic philosophy mutually reinforce
+    the integration of personality
+  effect_direction: amplifying
+  source_ref: Preface 1970 L99-106
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735807'
+- relation_id: rel_aop_pref_008
+  relation_type: consequence_relation
+  factor_a: astro_anti_fortune
+  factor_b: astro_depth_integration
+  relation_nature: Paradigm outcome
+  condition_constraint: When rejection of fortune-telling enables focus on psychological
+    integration as astrology's purpose
+  effect_direction: enabling
+  source_ref: Preface 1970 L94-96
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735810'
+- relation_id: rel_aop_sun_001
+  relation_type: limitation_relation
+  factor_a: astro_sun_sign
+  factor_b: astro_whole_chart
+  relation_nature: Part vs Whole
+  condition_constraint: When Sun-sign astrology fragments the wholeness of complete
+    chart
+  effect_direction: limiting
+  source_ref: Preface L117-124
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735850'
+- relation_id: rel_aop_sun_002
+  relation_type: hierarchy_relation
+  factor_a: astro_old_textbook
+  factor_b: astro_depth_approach
+  relation_nature: Level difference
+  condition_constraint: When depth approach elevates astrology beyond surface textbook
+    meanings
+  effect_direction: elevating
+  source_ref: Preface L126-131
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735853'
+- relation_id: rel_aop_sun_003
+  relation_type: synthesis_relation
+  factor_a: astro_western
+  factor_b: phil_oriental
+  relation_nature: East-West
+  condition_constraint: When Western astrology enriched by integration with Oriental
+    philosophy
+  effect_direction: enriching
+  source_ref: Preface L133-134
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735856'
+- relation_id: rel_aop_sun_004
+  relation_type: opposition_relation
+  factor_a: astro_sun_sign_limit
+  factor_b: astro_whole_chart
+  relation_nature: Reductionism vs Holism
+  condition_constraint: When Sun-sign limitation opposes the holistic understanding
+    of complete birth chart
+  effect_direction: opposing
+  source_ref: Preface L117-124
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735859'
+- relation_id: rel_aop_sun_005
+  relation_type: hierarchy_relation
+  factor_a: astro_psych_levels
+  factor_b: astro_depth_integration
+  relation_nature: Progressive deepening
+  condition_constraint: When multiple psychological levels form a hierarchy culminating
+    in depth-psychology integration
+  effect_direction: structuring
+  source_ref: Preface L126-131
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735862'
+- relation_id: rel_aop_sun_006
+  relation_type: foundation_relation
+  factor_a: astro_east_west
+  factor_b: astro_holistic_frame
+  relation_nature: Cultural synthesis
+  condition_constraint: When Eastern-Western synthesis provides the philosophical
+    foundation for holistic framework
+  effect_direction: grounding
+  source_ref: Preface L131-134
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735865'
+- relation_id: rel_aop_sun_007
+  relation_type: consequence_relation
+  factor_a: astro_sun_sign_limit
+  factor_b: astro_psych_levels
+  relation_nature: Critique motivates depth
+  condition_constraint: When recognition of Sun-sign limitation motivates exploration
+    of deeper psychological levels
+  effect_direction: motivating
+  source_ref: Preface L117-134
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735867'
+- relation_id: rel_aop_zodiac_001
+  relation_type: contrast_relation
+  factor_a: astro_tropical_system
+  factor_b: astro_sidereal_system
+  relation_nature: Technical difference
+  condition_constraint: When precession causes tropical and sidereal zodiac to diverge
+    over time
+  effect_direction: differentiating
+  source_ref: Preface L180-191
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735914'
+- relation_id: rel_aop_zodiac_002
+  relation_type: philosophical_relation
+  factor_a: astro_empirical
+  factor_b: astro_symbolic
+  relation_nature: Paradigm opposition
+  condition_constraint: When purpose of astrology determines choice between empirical
+    and symbolic
+  effect_direction: determining
+  source_ref: Preface L196-200
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735917'
+- relation_id: rel_aop_zodiac_003
+  relation_type: alignment_relation
+  factor_a: astro_tropical_system
+  factor_b: astro_person_centered
+  relation_nature: Natural fit
+  condition_constraint: When tropical system aligns with person-centered Earth-Sun
+    life relationship
+  effect_direction: supporting
+  source_ref: Preface L180-183
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735920'
+- relation_id: rel_aop_zodiac_004
+  relation_type: causal_relation
+  factor_a: astro_precession_effect
+  factor_b: astro_tropical_system
+  relation_nature: Divergence cause
+  condition_constraint: When precession (~1° per 72 years) causes tropical zodiac
+    to shift relative to star background
+  effect_direction: causing
+  source_ref: Preface L186-191
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735923'
+- relation_id: rel_aop_zodiac_005
+  relation_type: causal_relation
+  factor_a: astro_precession_effect
+  factor_b: astro_sidereal_system
+  relation_nature: Reference stability
+  condition_constraint: When precession reveals sidereal zodiac remains fixed relative
+    to stars while tropical shifts
+  effect_direction: differentiating
+  source_ref: Preface L186-191
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735928'
+- relation_id: rel_aop_zodiac_006
+  relation_type: determination_relation
+  factor_a: astro_philosophy_orient
+  factor_b: astro_tropical_system
+  relation_nature: Paradigm choice
+  condition_constraint: When symbolic/person-centered philosophical orientation leads
+    to choice of tropical zodiac
+  effect_direction: determining
+  source_ref: Preface L196-200
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735930'
+- relation_id: rel_aop_zodiac_007
+  relation_type: determination_relation
+  factor_a: astro_philosophy_orient
+  factor_b: astro_sidereal_system
+  relation_nature: Paradigm choice
+  condition_constraint: When empirical/event-prediction philosophical orientation
+    leads to choice of sidereal zodiac
+  effect_direction: determining
+  source_ref: Preface L196-200
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735933'
+- relation_id: rel_aop_zodiac_008
+  relation_type: opposition_relation
+  factor_a: astro_philosophy_orient
+  factor_b: astro_empirical
+  relation_nature: Fundamental choice
+  condition_constraint: When philosophical orientation opposes purely empirical approach
+    to astrology
+  effect_direction: opposing
+  source_ref: Preface L196-200
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.735935'
+- relation_id: rel_aop_human_001
+  relation_type: alignment_relation
+  factor_a: astro_humanistic
+  factor_b: psych_third_force
+  relation_nature: Philosophical kinship
+  condition_constraint: When humanistic astrology aligns with Maslow's third force
+    psychology
+  effect_direction: grounding
+  source_ref: Preface L227-232
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736045'
+- relation_id: rel_aop_human_002
+  relation_type: transformation_relation
+  factor_a: astro_good_bad_judgment
+  factor_b: astro_non_judgmental
+  relation_nature: Paradigm shift
+  condition_constraint: When non-judgmental approach transforms good-bad value judgments
+  effect_direction: liberating
+  source_ref: Preface L236-238
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736052'
+- relation_id: rel_aop_human_003
+  relation_type: function_relation
+  factor_a: astro_chart
+  factor_b: astro_coded_instructions
+  relation_nature: Purpose reframe
+  condition_constraint: When chart reframed from prediction tool to coded life instructions
+  effect_direction: empowering
+  source_ref: Preface L238-242
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736055'
+- relation_id: rel_aop_human_004
+  relation_type: foundation_relation
+  factor_a: psych_third_force
+  factor_b: astro_humanistic_movement
+  relation_nature: Psychological base
+  condition_constraint: When Maslow's Third Force psychology provides the foundation
+    for the humanistic astrology movement
+  effect_direction: constituting
+  source_ref: Preface L222-232
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736058'
+- relation_id: rel_aop_human_005
+  relation_type: methodology_relation
+  factor_a: astro_non_judgmental_interp
+  factor_b: astro_humanistic_movement
+  relation_nature: Core principle
+  condition_constraint: When non-judgmental interpretation becomes the defining methodology
+    of humanistic astrology movement
+  effect_direction: characterizing
+  source_ref: Preface L236-238
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736060'
+- relation_id: rel_aop_human_006
+  relation_type: function_relation
+  factor_a: astro_chart_code
+  factor_b: psych_self_actual_goal
+  relation_nature: Purpose alignment
+  condition_constraint: When chart's coded instructions serve the goal of self-actualization
+  effect_direction: directing
+  source_ref: Preface L238-246
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736063'
+- relation_id: rel_aop_human_007
+  relation_type: consequence_relation
+  factor_a: psych_self_actual_goal
+  factor_b: astro_non_judgmental_interp
+  relation_nature: Goal enables method
+  condition_constraint: When self-actualization goal necessitates non-judgmental interpretation
+    of all chart factors
+  effect_direction: requiring
+  source_ref: Preface L236-242
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736066'
+- relation_id: rel_aop_human_008
+  relation_type: synthesis_relation
+  factor_a: astro_humanistic_movement
+  factor_b: astro_depth_integration
+  relation_nature: Movement integration
+  condition_constraint: When humanistic astrology movement synthesizes with depth-psychology
+    integration
+  effect_direction: combining
+  source_ref: Preface L227-232
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736068'
+- relation_id: rel_aop_human_009
+  relation_type: foundation_relation
+  factor_a: astro_symbolic_not_empirical
+  factor_b: astro_humanistic_movement
+  relation_nature: Epistemological base
+  condition_constraint: When symbolic language approach provides epistemological foundation
+    for humanistic astrology
+  effect_direction: grounding
+  source_ref: Preface L244-246
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736071'
+- relation_id: rel_aop_pers_001
+  relation_type: definition_relation
+  factor_a: personality_esoteric
+  factor_b: personality_wholeness
+  relation_nature: Meaning reclaim
+  condition_constraint: When personality reclaimed in Smuts/Jung wholeness sense
+  effect_direction: elevating
+  source_ref: Preface L366-371
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736113'
+- relation_id: rel_aop_pers_002
+  relation_type: analogy_relation
+  factor_a: human_individual
+  factor_b: solar_system
+  relation_nature: Microcosm-macrocosm
+  condition_constraint: When human individual mirrors solar system as microcosm
+  effect_direction: connecting
+  source_ref: Preface L375-377
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736116'
+- relation_id: rel_aop_pers_003
+  relation_type: transformation_relation
+  factor_a: chaos
+  factor_b: cosmos
+  relation_nature: Alchemy process
+  condition_constraint: When personality work transforms inner chaos into ordered
+    cosmos
+  effect_direction: transforming
+  source_ref: Preface L382-383
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736118'
+- relation_id: rel_aop_pers_004
+  relation_type: definition_relation
+  factor_a: astro_personality_organic
+  factor_b: phil_holism
+  relation_nature: Smuts foundation
+  condition_constraint: When organic personality concept derives from Smuts's holistic
+    philosophy
+  effect_direction: grounding
+  source_ref: Preface L366-371
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736121'
+- relation_id: rel_aop_pers_005
+  relation_type: function_relation
+  factor_a: astro_microcosm_function
+  factor_b: astro_personality_organic
+  relation_nature: Cosmic connection
+  condition_constraint: When microcosm concept enables understanding of personality
+    as reflecting cosmic order
+  effect_direction: enabling
+  source_ref: Preface L375-377
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736124'
+- relation_id: rel_aop_pers_006
+  relation_type: goal_relation
+  factor_a: astro_alchemy_transform
+  factor_b: psych_self_actual_goal
+  relation_nature: Ultimate purpose
+  condition_constraint: When alchemy of personality transformation serves the goal
+    of self-actualization
+  effect_direction: directing
+  source_ref: Preface L382-383
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736126'
+- relation_id: rel_aop_pers_007
+  relation_type: measure_relation
+  factor_a: astro_integration_level
+  factor_b: astro_alchemy_transform
+  relation_nature: Progress indicator
+  condition_constraint: When integration level measures progress in the alchemy transformation
+    process
+  effect_direction: measuring
+  source_ref: Preface L382-383
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736129'
+- relation_id: rel_aop_pers_008
+  relation_type: contrast_relation
+  factor_a: astro_personality_organic
+  factor_b: astro_fortune_telling
+  relation_nature: Purpose opposition
+  condition_constraint: When organic personality concept opposes fortune-telling approach
+    to astrology
+  effect_direction: opposing
+  source_ref: Preface L366-383
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736131'
+- relation_id: rel_aop_alg_001
+  relation_type: analogy_relation
+  factor_a: algebra
+  factor_b: astrology
+  relation_nature: Structural parallel
+  condition_constraint: When algebra and astrology share structural parallel binding
+    parts to whole
+  effect_direction: clarifying
+  source_ref: Preface 1991 L417-429
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736171'
+- relation_id: rel_aop_alg_002
+  relation_type: contrast_relation
+  factor_a: formal_causes
+  factor_b: material_causes
+  relation_nature: Epistemological domains
+  condition_constraint: When formal and material causes require different knowledge
+    approaches
+  effect_direction: distinguishing
+  source_ref: Preface 1991 L435-437
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736174'
+- relation_id: rel_aop_alg_003
+  relation_type: distinction_relation
+  factor_a: quantities
+  factor_b: qualities
+  relation_nature: Content type
+  condition_constraint: When algebra deals with quantities while astrology deals with
+    qualities
+  effect_direction: differentiating
+  source_ref: Preface 1991 L427-429
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736177'
+- relation_id: rel_aop_alg_004
+  relation_type: application_relation
+  factor_a: astro_algebra_framework
+  factor_b: astro_symbolic
+  relation_nature: System structure
+  condition_constraint: When algebra framework structures astrology as symbolic integration
+    of life-elements
+  effect_direction: organizing
+  source_ref: Preface 1991 L417-429
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736180'
+- relation_id: rel_aop_alg_005
+  relation_type: epistemology_relation
+  factor_a: astro_formal_operation
+  factor_b: astro_epistemic_domain
+  relation_nature: Knowledge type
+  condition_constraint: When formal cause operation defines astrology's epistemological
+    domain as pattern-based
+  effect_direction: defining
+  source_ref: Preface 1991 L435-437
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736182'
+- relation_id: rel_aop_alg_006
+  relation_type: content_relation
+  factor_a: astro_quality_focus
+  factor_b: astro_epistemic_domain
+  relation_nature: Subject matter
+  condition_constraint: When focus on qualities determines astrology's epistemological
+    domain as meaning-oriented
+  effect_direction: characterizing
+  source_ref: Preface 1991 L427-429
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736185'
+- relation_id: rel_aop_alg_007
+  relation_type: contrast_relation
+  factor_a: astro_algebra_framework
+  factor_b: astro_empirical
+  relation_nature: Method opposition
+  condition_constraint: When algebra framework opposes purely empirical approach by
+    emphasizing symbolic integration
+  effect_direction: distinguishing
+  source_ref: Preface 1991 L417-437
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736187'
+- relation_id: rel_aop_prel_001
+  relation_type: contrast_relation
+  factor_a: astro_ptolemaic
+  factor_b: astro_archaic
+  relation_nature: Historical opposition
+  condition_constraint: When Ptolemaic intellectual astrology contrasts with archaic
+    vital approach
+  effect_direction: distinguishing
+  source_ref: Prelude L657-666
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736227'
+- relation_id: rel_aop_prel_002
+  relation_type: criterion_relation
+  factor_a: astro_integration
+  factor_b: astro_authenticity
+  relation_nature: Test standard
+  condition_constraint: When integration serves as test standard for astrological
+    authenticity
+  effect_direction: evaluating
+  source_ref: Prelude L693-694
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736230'
+- relation_id: rel_aop_prel_003
+  relation_type: evolution_relation
+  factor_a: human_consciousness
+  factor_b: astro_systems
+  relation_nature: Co-development
+  condition_constraint: When human consciousness evolution shapes astrological systems
+  effect_direction: correlating
+  source_ref: Prelude L568-572
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736233'
+- relation_id: rel_aop_prel_004
+  relation_type: framework_relation
+  factor_a: astro_historical_evolution
+  factor_b: astro_humanistic
+  relation_nature: Methodology base
+  condition_constraint: When historical evolution framework contextualizes humanistic
+    astrology's emergence
+  effect_direction: contextualizing
+  source_ref: Prelude L568-572
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736235'
+- relation_id: rel_aop_prel_005
+  relation_type: standard_relation
+  factor_a: astro_integration_criterion
+  factor_b: astro_authenticity
+  relation_nature: Evaluative principle
+  condition_constraint: When integration criterion serves as the standard for evaluating
+    astrological authenticity
+  effect_direction: evaluating
+  source_ref: Prelude L693-694
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736238'
+- relation_id: rel_aop_prel_006
+  relation_type: contrast_relation
+  factor_a: astro_ptolemaic_archaic
+  factor_b: astro_depth_integration
+  relation_nature: Historical depth
+  condition_constraint: When Ptolemaic-archaic contrast reveals need for depth integration
+    beyond intellectual approach
+  effect_direction: revealing
+  source_ref: Prelude L657-666
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736241'
+- relation_id: rel_aop_prel_007
+  relation_type: significance_relation
+  factor_a: astro_practical_philosophy
+  factor_b: astro_historical_evolution
+  relation_nature: Index function
+  condition_constraint: When practical philosophy index role reveals astrology's significance
+    within historical evolution
+  effect_direction: indicating
+  source_ref: Prelude L584-587
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736243'
+- relation_id: rel_aop_anim_001
+  relation_type: mechanism_relation
+  factor_a: participation_mystique
+  factor_b: celestial_attribution
+  relation_nature: Psychological origin
+  condition_constraint: When undifferentiated consciousness enables celestial attribution
+    through participation mystique
+  effect_direction: enabling
+  source_ref: Prelude L698-707
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736278'
+- relation_id: rel_aop_anim_002
+  relation_type: function_relation
+  factor_a: fear
+  factor_b: sympathetic_magic
+  relation_nature: Coping mechanism
+  condition_constraint: When fear drives sympathetic magic as survival coping mechanism
+  effect_direction: defensive
+  source_ref: Prelude L726-738
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736281'
+- relation_id: rel_aop_anim_003
+  relation_type: priority_relation
+  factor_a: life_quality
+  factor_b: celestial_motion
+  relation_nature: Value hierarchy
+  condition_constraint: When animistic stage prioritizes life quality over celestial
+    motion
+  effect_direction: distinguishing
+  source_ref: Prelude L779-786
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736283'
+- relation_id: rel_aop_anim_004
+  relation_type: phase_relation
+  factor_a: astro_animistic_stage
+  factor_b: astro_historical_evolution
+  relation_nature: Historical sequence
+  condition_constraint: When animistic stage represents first phase in historical
+    evolution of astrological consciousness
+  effect_direction: sequencing
+  source_ref: Prelude L696-707
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736286'
+- relation_id: rel_aop_anim_005
+  relation_type: mechanism_relation
+  factor_a: astro_participation
+  factor_b: astro_animistic_stage
+  relation_nature: Core process
+  condition_constraint: When participation mystique enables the animistic stage's
+    subject-object fusion
+  effect_direction: enabling
+  source_ref: Prelude L698-707
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736289'
+- relation_id: rel_aop_anim_006
+  relation_type: mechanism_relation
+  factor_a: astro_projection
+  factor_b: astro_participation
+  relation_nature: Psychological basis
+  condition_constraint: When projection mechanism underlies participation mystique's
+    attribution process
+  effect_direction: grounding
+  source_ref: Prelude L726-738
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736291'
+- relation_id: rel_aop_anim_007
+  relation_type: condition_relation
+  factor_a: astro_fear_state
+  factor_b: astro_animistic_stage
+  relation_nature: Motivating context
+  condition_constraint: When fear-dominated consciousness characterizes and motivates
+    the animistic stage
+  effect_direction: characterizing
+  source_ref: Prelude L726-738
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736294'
+- relation_id: rel_aop_vital_001
+  relation_type: transition_relation
+  factor_a: astro_animistic
+  factor_b: astro_vitalistic
+  relation_nature: Stage development
+  condition_constraint: When domestication achievement enables transition from animistic
+    to vitalistic
+  effect_direction: evolving
+  source_ref: Prelude L800-806
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736333'
+- relation_id: rel_aop_vital_002
+  relation_type: foundation_relation
+  factor_a: sun_moon_cycles
+  factor_b: life_periodicity
+  relation_nature: Correspondence basis
+  condition_constraint: When agricultural observation grounds life periodicity in
+    Sun-Moon cycles
+  effect_direction: grounding
+  source_ref: Prelude L860-869
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736336'
+- relation_id: rel_aop_vital_003
+  relation_type: analogy_relation
+  factor_a: earth_state
+  factor_b: universe
+  relation_nature: Microcosm-macrocosm
+  condition_constraint: When Law of Analogy maps earth state to universal macrocosm
+  effect_direction: mapping
+  source_ref: Prelude L875-881
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736339'
+- relation_id: rel_aop_vital_004
+  relation_type: phase_relation
+  factor_a: astro_vitalistic_stage
+  factor_b: astro_animistic_stage
+  relation_nature: Historical succession
+  condition_constraint: When vitalistic stage succeeds animistic stage as agricultural
+    civilization develops
+  effect_direction: succeeding
+  source_ref: Prelude L800-806
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736342'
+- relation_id: rel_aop_vital_005
+  relation_type: methodology_relation
+  factor_a: astro_analogy_function
+  factor_b: astro_vitalistic_stage
+  relation_nature: Core method
+  condition_constraint: When law of analogy becomes the defining methodology of vitalistic
+    stage astrology
+  effect_direction: characterizing
+  source_ref: Prelude L875-881
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736344'
+- relation_id: rel_aop_vital_006
+  relation_type: focus_relation
+  factor_a: astro_periodicity_focus
+  factor_b: astro_vitalistic_stage
+  relation_nature: Study object
+  condition_constraint: When periodicity of life-cycles becomes the primary focus
+    of vitalistic stage astrology
+  effect_direction: defining
+  source_ref: Prelude L816-824
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736347'
+- relation_id: rel_aop_vital_007
+  relation_type: scope_relation
+  factor_a: astro_collective_state
+  factor_b: astro_vitalistic_stage
+  relation_nature: Subject scope
+  condition_constraint: When collective state and community become the subject of
+    vitalistic astrology over individual
+  effect_direction: characterizing
+  source_ref: Prelude L875-881
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736350'
+- relation_id: rel_aop_vital_008
+  relation_type: pattern_relation
+  factor_a: astro_yang_yin
+  factor_b: sun_moon_cycles
+  relation_nature: Polarity base
+  condition_constraint: When Yang-Yin dualism derives from fundamental Sun-Moon day-night
+    polarity
+  effect_direction: grounding
+  source_ref: Prelude L893-904
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736352'
+- relation_id: rel_aop_ord_001
+  relation_type: security_relation
+  factor_a: heavenly_order
+  factor_b: chaos
+  relation_nature: Protection
+  condition_constraint: When heavenly order provides protection against elemental
+    chaos
+  effect_direction: stabilizing
+  source_ref: Prelude L912-918
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736386'
+- relation_id: rel_aop_ord_002
+  relation_type: mediation_relation
+  factor_a: emperor
+  factor_b: heaven_earth
+  relation_nature: Bridge function
+  condition_constraint: When emperor serves as mediating bridge between heaven and
+    earth
+  effect_direction: connecting
+  source_ref: Prelude L928-948
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736389'
+- relation_id: rel_aop_ord_003
+  relation_type: alignment_relation
+  factor_a: music
+  factor_b: cosmic_harmony
+  relation_nature: Tuning mechanism
+  condition_constraint: When music aligns with cosmic harmony through Pythagorean
+    principle
+  effect_direction: harmonizing
+  source_ref: Prelude L932-937
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736392'
+- relation_id: rel_aop_ord_004
+  relation_type: development_relation
+  factor_a: astro_heavenly_order
+  factor_b: astro_vitalistic_stage
+  relation_nature: Concept emergence
+  condition_constraint: When heavenly order concept emerges from vitalistic stage
+    as security against chaos
+  effect_direction: developing
+  source_ref: Prelude L912-918
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736394'
+- relation_id: rel_aop_ord_005
+  relation_type: function_relation
+  factor_a: astro_emperor_mediate
+  factor_b: astro_heavenly_order
+  relation_nature: Bridge role
+  condition_constraint: When emperor mediation serves to connect heavenly order with
+    earthly realm
+  effect_direction: bridging
+  source_ref: Prelude L928-948
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736397'
+- relation_id: rel_aop_ord_006
+  relation_type: tool_relation
+  factor_a: astro_calendar_system
+  factor_b: astro_heavenly_order
+  relation_nature: Practical application
+  condition_constraint: When calendar system operationalizes heavenly order for agricultural
+    and ritual timing
+  effect_direction: applying
+  source_ref: Prelude L919-925
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736400'
+- relation_id: rel_aop_ord_007
+  relation_type: method_relation
+  factor_a: astro_musical_tuning
+  factor_b: astro_heavenly_order
+  relation_nature: Harmonic implementation
+  condition_constraint: When musical tuning implements heavenly order through Pythagorean
+    harmonic principles
+  effect_direction: implementing
+  source_ref: Prelude L932-937
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736402'
+- relation_id: rel_aop_axial_001
+  relation_type: transformation_relation
+  factor_a: body_focus
+  factor_b: psyche_focus
+  relation_nature: Foundation shift
+  condition_constraint: When 6th century B.C. transforms focus from body to psyche
+  effect_direction: revolutionizing
+  source_ref: Prelude L1003-1016
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736444'
+- relation_id: rel_aop_axial_002
+  relation_type: parallel_relation
+  factor_a: agriculture
+  factor_b: alchemy
+  relation_nature: Domain transfer
+  condition_constraint: When vitalistic agriculture parallels psychological alchemy
+  effect_direction: analogizing
+  source_ref: Prelude L1048-1051
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736449'
+- relation_id: rel_aop_axial_003
+  relation_type: requirement_relation
+  factor_a: individual_consciousness
+  factor_b: new_astrology
+  relation_nature: Necessity
+  condition_constraint: When individual consciousness demands new astrology beyond
+    old collective forms
+  effect_direction: demanding
+  source_ref: Prelude L992-993
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736452'
+- relation_id: rel_aop_axial_004
+  relation_type: historical_relation
+  factor_a: astro_axial_transform
+  factor_b: astro_vitalistic_stage
+  relation_nature: Historical succession
+  condition_constraint: When axial transformation marks the end of purely vitalistic
+    stage and emergence of individual consciousness
+  effect_direction: transforming
+  source_ref: Prelude L988-993
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736455'
+- relation_id: rel_aop_axial_005
+  relation_type: transition_relation
+  factor_a: astro_body_psyche_func
+  factor_b: astro_axial_transform
+  relation_nature: Core mechanism
+  condition_constraint: When body-to-psyche functional transition constitutes the
+    essence of axial transformation
+  effect_direction: defining
+  source_ref: Prelude L1003-1016
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736458'
+- relation_id: rel_aop_axial_006
+  relation_type: method_relation
+  factor_a: astro_psych_alchemy_func
+  factor_b: astro_individual_consc
+  relation_nature: Inner cultivation
+  condition_constraint: When psychological alchemy serves as method for developing
+    individual consciousness
+  effect_direction: enabling
+  source_ref: Prelude L1048-1051
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736461'
+- relation_id: rel_aop_axial_007
+  relation_type: emergence_relation
+  factor_a: astro_individual_consc
+  factor_b: astro_humanistic
+  relation_nature: Foundation for later
+  condition_constraint: When individual consciousness emergence provides foundation
+    for later humanistic astrology
+  effect_direction: grounding
+  source_ref: Prelude L992-993
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736463'
+- relation_id: rel_aop_alg_001_dup
+  relation_type: analogy_relation
+  factor_a: algebra
+  factor_b: astrology
+  relation_nature: Structural parallel
+  condition_constraint: When algebra and astrology share structural parallel as symbolic
+    systems
+  effect_direction: clarifying
+  source_ref: Prelude L1071-1077
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736499'
+- relation_id: rel_aop_greek_001
+  relation_type: causal_relation
+  factor_a: greek_intellectualism
+  factor_b: astro_degeneration
+  relation_nature: Historical causation
+  condition_constraint: When Greek rational intellectualism causes astrological degeneration
+  effect_direction: degrading
+  source_ref: Prelude L1126-1148
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736539'
+- relation_id: rel_aop_greek_002
+  relation_type: split_relation
+  factor_a: surface_fortune
+  factor_b: depth_alchemy
+  relation_nature: Practice bifurcation
+  condition_constraint: When individual fortune-telling diverges from collective depth
+    alchemy
+  effect_direction: diverging
+  source_ref: Prelude L1144-1148
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736541'
+- relation_id: rel_aop_greek_003
+  relation_type: killing_relation
+  factor_a: greek_logic
+  factor_b: physiological_astrology
+  relation_nature: Paradigm destruction
+  condition_constraint: When Greek abstract logic terminates physiological astrology
+  effect_direction: terminating
+  source_ref: Prelude L1216-1225
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736544'
+- relation_id: rel_aop_greek_004
+  relation_type: causal_relation
+  factor_a: astro_greek_impact
+  factor_b: astro_fortune_mode
+  relation_nature: Degradation path
+  condition_constraint: When Greek intellectualism impact leads to fortune-telling
+    mode as surface degeneration
+  effect_direction: degrading
+  source_ref: Prelude L1126-1148
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736547'
+- relation_id: rel_aop_greek_005
+  relation_type: preservation_relation
+  factor_a: astro_alchemy_survive
+  factor_b: astro_depth_integration
+  relation_nature: Hidden continuation
+  condition_constraint: When alchemy survival preserves depth-integration tradition
+    beneath surface degeneration
+  effect_direction: preserving
+  source_ref: Prelude L1144-1148
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736549'
+- relation_id: rel_aop_greek_006
+  relation_type: origin_relation
+  factor_a: astro_abstract_order
+  factor_b: astro_greek_impact
+  relation_nature: Conceptual source
+  condition_constraint: When abstract order originates from Greek intellectualism's
+    idea-based approach
+  effect_direction: originating
+  source_ref: Prelude L1216-1225
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736552'
+- relation_id: rel_aop_greek_007
+  relation_type: contrast_relation
+  factor_a: astro_fortune_mode
+  factor_b: astro_alchemy_survive
+  relation_nature: Surface vs depth
+  condition_constraint: When fortune-telling mode contrasts with alchemy survival
+    as surface vs depth practice
+  effect_direction: contrasting
+  source_ref: Prelude L1144-1148
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736555'
+- relation_id: rel_aop_church_001
+  relation_type: succession_relation
+  factor_a: astrology
+  factor_b: church
+  relation_nature: Functional replacement
+  condition_constraint: When church functionally replaces astrology in psychological
+    chaos context
+  effect_direction: transferring
+  source_ref: Prelude L1280-1290
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736589'
+- relation_id: rel_aop_church_002
+  relation_type: revival_relation
+  factor_a: psych_animism
+  factor_b: kabbalistic_astro
+  relation_nature: Source manifestation
+  condition_constraint: When 11th century conditions generate Kabbalistic astro from
+    psychological animism
+  effect_direction: generating
+  source_ref: Prelude L1300-1308
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736592'
+- relation_id: rel_aop_church_003
+  relation_type: substitution_relation
+  factor_a: zodiac
+  factor_b: four_elements
+  relation_nature: Symbolic replacement
+  condition_constraint: When Christian context substitutes zodiac with four elements
+    symbolism
+  effect_direction: transforming
+  source_ref: Prelude L1291-1296
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736595'
+- relation_id: rel_aop_church_004
+  relation_type: pattern_relation
+  factor_a: astro_psych_animism
+  factor_b: astro_animistic_stage
+  relation_nature: Level recurrence
+  condition_constraint: When psychological animism recurs as animistic pattern at
+    mental rather than physical level
+  effect_direction: recurring
+  source_ref: Prelude L1273-1279
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736598'
+- relation_id: rel_aop_church_005
+  relation_type: function_relation
+  factor_a: astro_church_function
+  factor_b: astro_heavenly_order
+  relation_nature: Order provision
+  condition_constraint: When church function provides heavenly order in place of astrological
+    cosmic ordering
+  effect_direction: replacing
+  source_ref: Prelude L1280-1290
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736600'
+- relation_id: rel_aop_church_006
+  relation_type: historical_relation
+  factor_a: astro_kabbalistic_revival
+  factor_b: astro_psych_animism
+  relation_nature: Source generation
+  condition_constraint: When Kabbalistic revival emerges from psychological animism
+    conditions of 11th century
+  effect_direction: generating
+  source_ref: Prelude L1300-1308
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736603'
+- relation_id: rel_aop_church_007
+  relation_type: condition_relation
+  factor_a: astro_psych_jungle_state
+  factor_b: astro_psych_animism
+  relation_nature: Environment context
+  condition_constraint: When psychological jungle state provides the environment for
+    psychological animism
+  effect_direction: contextualizing
+  source_ref: Prelude L1273-1279
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736606'
+- relation_id: rel_aop_alch_001
+  relation_type: contrast_relation
+  factor_a: psych_animism
+  factor_b: psych_vitalism
+  relation_nature: Approach difference
+  condition_constraint: When Kabbalistic psychological animism contrasts with alchemical
+    vitalism
+  effect_direction: distinguishing
+  source_ref: Prelude L1406-1414
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736692'
+- relation_id: rel_aop_alch_002
+  relation_type: freedom_relation
+  factor_a: stars
+  factor_b: humans
+  relation_nature: Mutual non-coercion
+  condition_constraint: When Paracelsus principle establishes mutual non-coercion
+    between stars and humans
+  effect_direction: liberating
+  source_ref: Prelude L1454-1461
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736696'
+- relation_id: rel_aop_alch_003
+  relation_type: mandate_relation
+  factor_a: modern_chaos
+  factor_b: astrology_rebirth
+  relation_nature: Historical necessity
+  condition_constraint: When modern chaos requires astrology rebirth for integration
+  effect_direction: requiring
+  source_ref: Prelude L1526-1530
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736699'
+- relation_id: rel_aop_alch_004
+  relation_type: contrast_relation
+  factor_a: astro_psych_vital_struct
+  factor_b: astro_psych_animism
+  relation_nature: Approach distinction
+  condition_constraint: When psychological vitalism structure contrasts with psychological
+    animism as collaborative vs commanding
+  effect_direction: distinguishing
+  source_ref: Prelude L1406-1414
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736702'
+- relation_id: rel_aop_alch_005
+  relation_type: principle_relation
+  factor_a: astro_non_coercive
+  factor_b: astro_mutual_freedom
+  relation_nature: Method-basis
+  condition_constraint: When non-coercive practice derives from principle of mutual
+    freedom between stars and humans
+  effect_direction: grounding
+  source_ref: Prelude L1454-1461
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736705'
+- relation_id: rel_aop_alch_006
+  relation_type: goal_relation
+  factor_a: astro_rebirth
+  factor_b: astro_integration_criterion
+  relation_nature: Purpose
+  condition_constraint: When astrology rebirth serves the goal of integration as its
+    authentic criterion
+  effect_direction: purposing
+  source_ref: Prelude L1526-1530
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736707'
+- relation_id: rel_aop_alch_007
+  relation_type: foundation_relation
+  factor_a: astro_mutual_freedom
+  factor_b: astro_humanistic
+  relation_nature: Core principle
+  condition_constraint: When mutual freedom becomes the foundational principle of
+    humanistic astrology
+  effect_direction: grounding
+  source_ref: Prelude L1454-1461
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736710'
+- relation_id: rel_aop_ch1_001
+  relation_type: parallel_relation
+  factor_a: science_evolution
+  factor_b: astrology_evolution
+  relation_nature: Structural correspondence
+  condition_constraint: When science and astrology evolution show parallel three-stage
+    structure
+  effect_direction: validating
+  source_ref: Ch1 L1645-1647
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736751'
+- relation_id: rel_aop_ch1_002
+  relation_type: equivalence_relation
+  factor_a: mechanism
+  factor_b: vitalism
+  relation_nature: Anthropomorphic basis
+  condition_constraint: When mechanism and vitalism reveal shared anthropomorphic
+    push/pull basis
+  effect_direction: clarifying
+  source_ref: Ch1 L1647-1656
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736754'
+- relation_id: rel_aop_ch1_003
+  relation_type: category_relation
+  factor_a: astrology
+  factor_b: mathematical_thought
+  relation_nature: Epistemological placement
+  condition_constraint: When astrology belongs to mathematical thought category by
+    form not content
+  effect_direction: distinguishing
+  source_ref: Ch1 L1727-1729
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736757'
+- relation_id: rel_aop_ch1_004
+  relation_type: framework_relation
+  factor_a: astro_three_epochs_struct
+  factor_b: astro_historical_evolution
+  relation_nature: Structural model
+  condition_constraint: When three epochs structure provides the framework for understanding
+    historical evolution of astrology
+  effect_direction: modeling
+  source_ref: Ch1 L1645-1647
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736760'
+- relation_id: rel_aop_ch1_005
+  relation_type: critique_relation
+  factor_a: astro_mech_vital_func
+  factor_b: astro_post_anthropo
+  relation_nature: Transcendence
+  condition_constraint: When mechanism-vitalism parallel critique leads to post-anthropomorphic
+    understanding
+  effect_direction: transcending
+  source_ref: Ch1 L1647-1656
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736763'
+- relation_id: rel_aop_ch1_006
+  relation_type: definition_relation
+  factor_a: astro_math_placement
+  factor_b: astro_algebra_def
+  relation_nature: Category specification
+  condition_constraint: When mathematical placement specifies algebra-of-life definition's
+    epistemological category
+  effect_direction: specifying
+  source_ref: Ch1 L1727-1729
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736766'
+- relation_id: rel_aop_ch1_007
+  relation_type: stage_relation
+  factor_a: astro_post_anthropo
+  factor_b: astro_math_placement
+  relation_nature: Cognitive level
+  condition_constraint: When post-anthropomorphic consciousness enables proper mathematical
+    placement of astrology
+  effect_direction: enabling
+  source_ref: Ch1 L1645-1729
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736769'
+- relation_id: rel_ch1_emp_001
+  relation_type: criterion_relation
+  factor_a: induction
+  factor_b: astrology
+  relation_nature: Failure
+  condition_constraint: When induction criterion fails to disqualify astrology since
+    it is never false
+  effect_direction: disqualifying
+  source_ref: L1776-1783
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736827'
+- relation_id: rel_ch1_emp_002
+  relation_type: insufficiency_relation
+  factor_a: rays
+  factor_b: structure
+  relation_nature: Can't explain
+  condition_constraint: When ray theory cannot explain house meanings showing its
+    insufficiency
+  effect_direction: limiting
+  source_ref: L1809-1817
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736830'
+- relation_id: rel_ch1_emp_003
+  relation_type: subsumption_relation
+  factor_a: astro_horary
+  factor_b: astro_natal_func
+  relation_nature: Natal-horary unity
+  condition_constraint: When natal astrology is understood as special case of horary
+    meaning-based approach
+  effect_direction: integrating
+  source_ref: L1821-1828
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736833'
+- relation_id: rel_ch1_coll_001
+  relation_type: bounding_relation
+  factor_a: collective
+  factor_b: individual
+  relation_nature: Ring-Pass-Not
+  condition_constraint: When collective establishes Ring-Pass-Not constraining individual
+    freedom
+  effect_direction: constraining
+  source_ref: L1890-1896
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736860'
+- relation_id: rel_ch1_coll_002
+  relation_type: necessity_relation
+  factor_a: group_context
+  factor_b: accurate_judgment
+  relation_nature: Prerequisite
+  condition_constraint: When knowing group context is prerequisite for accurate individual
+    judgment
+  effect_direction: enabling
+  source_ref: L1900-1904
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736863'
+- relation_id: rel_ch1_coll_003
+  relation_type: structure_relation
+  factor_a: astro_ind_coll_struct
+  factor_b: astro_humanistic
+  relation_nature: Dialectical basis
+  condition_constraint: When individual-collective dialectic structure informs humanistic
+    astrology's contextual approach
+  effect_direction: informing
+  source_ref: L1886-1914
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736865'
+- relation_id: rel_ch1_coll_004
+  relation_type: requirement_relation
+  factor_a: astro_group_req
+  factor_b: astro_ind_coll_struct
+  relation_nature: Practical implication
+  condition_constraint: When group context requirement follows from individual-collective
+    dialectical structure
+  effect_direction: deriving
+  source_ref: L1900-1904
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736868'
+- relation_id: rel_ch1_coll_005
+  relation_type: limitation_relation
+  factor_a: astro_tend_expr_state
+  factor_b: astro_chart
+  relation_nature: Chart function
+  condition_constraint: When tendency-expression state defines the limitation of what
+    chart alone can reveal
+  effect_direction: limiting
+  source_ref: L1911-1914
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736871'
+- relation_id: rel_ch1_formal_001
+  relation_type: analogy_relation
+  factor_a: astrology
+  factor_b: mathematics
+  relation_nature: Structural parallel
+  condition_constraint: When astrology and mathematics share formal structural parallel
+  effect_direction: validating
+  source_ref: L2026-2031
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736898'
+- relation_id: rel_ch1_formal_002
+  relation_type: function_relation
+  factor_a: astrology
+  factor_b: organic_reality
+  relation_nature: Order investment
+  condition_constraint: When associated
+  effect_direction: enabling
+  source_ref: L2053-2058
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736901'
+- relation_id: rel_ch1_formal_003
+  relation_type: structure_relation
+  factor_a: astro_math_par_struct
+  factor_b: astro_algebra_def
+  relation_nature: Structural basis
+  condition_constraint: When mathematical parallel structure supports the algebra-of-life
+    definition
+  effect_direction: supporting
+  source_ref: L2026-2031
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736904'
+- relation_id: rel_ch1_formal_004
+  relation_type: function_relation
+  factor_a: astro_order_invest
+  factor_b: astro_content_free
+  relation_nature: Conditional operation
+  condition_constraint: When order investment function operates only when content-free
+    symbols are applied to actual reality
+  effect_direction: conditionalizing
+  source_ref: L2053-2058
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736907'
+- relation_id: rel_ch1_formal_005
+  relation_type: character_relation
+  factor_a: astro_content_free
+  factor_b: astro_math_par_struct
+  relation_nature: Defining nature
+  condition_constraint: When content-free nature characterizes the mathematical parallel
+    structure
+  effect_direction: characterizing
+  source_ref: L2043-2050
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736909'
+- relation_id: rel_ch1_meas_001
+  relation_type: contrast_relation
+  factor_a: heavens_order
+  factor_b: earth_chaos
+  relation_nature: Fundamental contrast
+  condition_constraint: When contrast between heavenly order and earthly chaos grounds
+    astrology
+  effect_direction: clarifying
+  source_ref: L2065-2068
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736936'
+- relation_id: rel_ch1_meas_002
+  relation_type: function_relation
+  factor_a: measuring_rod
+  factor_b: experience
+  relation_nature: Application
+  condition_constraint: When celestial measuring rod needs experiential content for
+    application
+  effect_direction: enabling
+  source_ref: L2098-2103
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736939'
+- relation_id: rel_ch1_meas_003
+  relation_type: definition_relation
+  factor_a: astro_measure_sys
+  factor_b: astro_algebra_def
+  relation_nature: Function specification
+  condition_constraint: When measuring system definition specifies how algebra-of-life
+    operates
+  effect_direction: specifying
+  source_ref: L2067-2072
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736942'
+- relation_id: rel_ch1_meas_004
+  relation_type: method_relation
+  factor_a: astro_order_jux
+  factor_b: astro_measure_sys
+  relation_nature: Operational mechanism
+  condition_constraint: When order juxtaposition provides the method for measurement
+    system to bring coherence
+  effect_direction: operating
+  source_ref: L2067-2072
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736945'
+- relation_id: rel_ch1_meas_005
+  relation_type: nature_relation
+  factor_a: astro_pure_sym_state
+  factor_b: astro_measure_sys
+  relation_nature: Fundamental character
+  condition_constraint: When pure symbol state characterizes the nature of planets
+    within measuring system
+  effect_direction: characterizing
+  source_ref: L2105-2107
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736947'
+- relation_id: rel_ch1_hol_001
+  relation_type: foundation_relation
+  factor_a: holism
+  factor_b: astrology
+  relation_nature: Metaphysical
+  condition_constraint: When holistic philosophy grounds astrology in whole interpretation
+  effect_direction: grounding
+  source_ref: L2182-2201
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736974'
+- relation_id: rel_ch1_hol_002
+  relation_type: contrast_relation
+  factor_a: holistic_causation
+  factor_b: mechanical_causation
+  relation_nature: Process type
+  condition_constraint: When holistic creative causation contrasts with mechanical
+    determinism
+  effect_direction: distinguishing
+  source_ref: L2248-2255
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736977'
+- relation_id: rel_ch1_hol_003
+  relation_type: foundation_relation
+  factor_a: astro_holism_struct
+  factor_b: astro_humanistic
+  relation_nature: Philosophical basis
+  condition_constraint: When holism philosophy structure provides the foundation for
+    humanistic astrology's whole-person approach
+  effect_direction: grounding
+  source_ref: L2182-2201
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736980'
+- relation_id: rel_ch1_hol_004
+  relation_type: process_relation
+  factor_a: astro_emergence
+  factor_b: astro_holism_struct
+  relation_nature: Core dynamic
+  condition_constraint: When creative emergence constitutes the core dynamic process
+    within holistic philosophy
+  effect_direction: operating
+  source_ref: L2239-2244
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736983'
+- relation_id: rel_ch1_hol_005
+  relation_type: implication_relation
+  factor_a: astro_freedom
+  factor_b: astro_holism_struct
+  relation_nature: Ontological consequence
+  condition_constraint: When inherent freedom follows as ontological consequence from
+    holistic philosophy
+  effect_direction: deriving
+  source_ref: L2251-2255
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.736985'
+- relation_id: rel_ch1_logic_001
+  relation_type: opposition_relation
+  factor_a: holistic_logic
+  factor_b: intellectual_logic
+  relation_nature: Epistemological
+  condition_constraint: When holistic whole-seeing logic opposes intellectual part-analyzing
+    logic
+  effect_direction: distinguishing
+  source_ref: L2330-2347
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737011'
+- relation_id: rel_ch1_logic_002
+  relation_type: transformation_relation
+  factor_a: parts
+  factor_b: organs
+  relation_nature: Whole operation
+  condition_constraint: When whole operates
+  effect_direction: enabling
+  source_ref: L2351-2360
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737014'
+- relation_id: rel_ch1_logic_003
+  relation_type: contrast_relation
+  factor_a: astro_hol_logic_struct
+  factor_b: astro_empirical
+  relation_nature: Epistemological difference
+  condition_constraint: When holistic logic structure contrasts with empirical analytical
+    approach
+  effect_direction: distinguishing
+  source_ref: L2318-2347
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737017'
+- relation_id: rel_ch1_logic_004
+  relation_type: subject_relation
+  factor_a: astro_oper_wholes
+  factor_b: astro_hol_logic_struct
+  relation_nature: Focus object
+  condition_constraint: When operative wholes serve as the subject matter for holistic
+    logic structure
+  effect_direction: focusing
+  source_ref: L2368-2373
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737019'
+- relation_id: rel_ch1_logic_005
+  relation_type: foundation_relation
+  factor_a: astro_time_rooted
+  factor_b: astro_hol_logic_struct
+  relation_nature: Domain grounding
+  condition_constraint: When time-rooted mystery provides the foundation domain for
+    holistic logic structure
+  effect_direction: grounding
+  source_ref: L2396-2398
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737022'
+- relation_id: rel_ch1_time_001
+  relation_type: identity_relation
+  factor_a: time
+  factor_b: wholeness
+  relation_nature: Ontological
+  condition_constraint: When time identified with wholeness grounds real creative
+    time
+  effect_direction: grounding
+  source_ref: L2414-2422
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737049'
+- relation_id: rel_ch1_time_002
+  relation_type: parallel_relation
+  factor_a: cyclology
+  factor_b: mathematics
+  relation_nature: Methodological
+  condition_constraint: When cyclology parallels mathematics in method for time vs
+    space
+  effect_direction: validating
+  source_ref: L2456-2468
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737052'
+- relation_id: rel_ch1_time_003
+  relation_type: foundation_relation
+  factor_a: astro_time_whole_struct
+  factor_b: astro_holism_struct
+  relation_nature: Ontological basis
+  condition_constraint: When time-wholeness identity structure derives from holism
+    philosophy structure
+  effect_direction: deriving
+  source_ref: L2414-2422
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737054'
+- relation_id: rel_ch1_time_004
+  relation_type: method_relation
+  factor_a: astro_cyclology_func
+  factor_b: astro_time_whole_struct
+  relation_nature: Analytical tool
+  condition_constraint: When cyclology function provides the method for analyzing
+    time-wholeness structure
+  effect_direction: analyzing
+  source_ref: L2456-2468
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737057'
+- relation_id: rel_ch1_time_005
+  relation_type: mythological_relation
+  factor_a: astro_chronos_state
+  factor_b: astro_time_whole_struct
+  relation_nature: Symbolic expression
+  condition_constraint: When Chronos principle provides mythological expression of
+    time-wholeness structure
+  effect_direction: symbolizing
+  source_ref: L2480-2489
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737060'
+- relation_id: rel_ch1_time_pol_001
+  relation_type: opposition_relation
+  factor_a: negative_time
+  factor_b: positive_time
+  relation_nature: Fundamental
+  condition_constraint: When negative cessation time opposes positive creative time
+  effect_direction: distinguishing
+  source_ref: L2633-2655
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737085'
+- relation_id: rel_ch1_time_pol_002
+  relation_type: practice_relation
+  factor_a: moment_acceptance
+  factor_b: whole_making
+  relation_nature: Creative living
+  condition_constraint: When accepting moment's message enables creative whole-making
+  effect_direction: enabling
+  source_ref: L2657-2663
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737088'
+- relation_id: rel_ch1_time_pol_003
+  relation_type: framework_relation
+  factor_a: astro_time_polarity
+  factor_b: astro_time_whole_struct
+  relation_nature: Evaluative dimension
+  condition_constraint: When time polarity framework provides evaluative dimension
+    within time-wholeness structure
+  effect_direction: structuring
+  source_ref: L2633-2655
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737091'
+- relation_id: rel_ch1_time_pol_004
+  relation_type: process_relation
+  factor_a: astro_whole_power
+  factor_b: astro_time_polarity
+  relation_nature: Positive pole
+  condition_constraint: When whole-making power constitutes the positive pole of time
+    polarity
+  effect_direction: defining
+  source_ref: L2647-2655
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737093'
+- relation_id: rel_ch1_time_pol_005
+  relation_type: practice_relation
+  factor_a: astro_moment_accept
+  factor_b: astro_whole_power
+  relation_nature: Enabling condition
+  condition_constraint: When moment acceptance provides the practical condition for
+    accessing whole-making power
+  effect_direction: enabling
+  source_ref: L2657-2663
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737096'
+- relation_id: rel_ch1_intuit_001
+  relation_type: opposition_relation
+  factor_a: intuition
+  factor_b: sensation
+  relation_nature: Cognitive mode
+  condition_constraint: When whole-perceiving intuition opposes fragmenting sensation
+  effect_direction: distinguishing
+  source_ref: L2719-2724
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737127'
+- relation_id: rel_ch1_intuit_002
+  relation_type: foundation_relation
+  factor_a: order_celest_identity
+  factor_b: astrology
+  relation_nature: Basis
+  condition_constraint: When order-celestial identity intuitive realization grounds
+    astrology
+  effect_direction: grounding
+  source_ref: L2746-2753
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737131'
+- relation_id: rel_ch1_intuit_003
+  relation_type: mode_relation
+  factor_a: astro_intuition_struct
+  factor_b: astro_hol_logic_struct
+  relation_nature: Cognitive faculty
+  condition_constraint: When intuition structure provides the cognitive mode for holistic
+    logic structure
+  effect_direction: enabling
+  source_ref: L2701-2721
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737133'
+- relation_id: rel_ch1_intuit_004
+  relation_type: process_relation
+  factor_a: astro_symbol_form
+  factor_b: astro_intuition_struct
+  relation_nature: Formation mechanism
+  condition_constraint: When symbol formation constitutes the process through which
+    intuition structure operates
+  effect_direction: operating
+  source_ref: L2746-2753
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737136'
+- relation_id: rel_ch1_intuit_005
+  relation_type: result_relation
+  factor_a: astro_order_celest
+  factor_b: astro_symbol_form
+  relation_nature: Foundation instance
+  condition_constraint: When order-celestial identity results as foundational instance
+    of symbol formation process
+  effect_direction: instantiating
+  source_ref: L2746-2753
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737138'
+- relation_id: rel_ch1_sym_001
+  relation_type: definition_relation
+  factor_a: astro_symbol_def
+  factor_b: astro_intuition_struct
+  relation_nature: Core concept
+  condition_constraint: When symbol definition provides the core concept for intuition
+    structure's operation
+  effect_direction: defining
+  source_ref: L2755-2763
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737160'
+- relation_id: rel_ch1_sym_002
+  relation_type: principle_relation
+  factor_a: astro_birth_id
+  factor_b: astro_symbol_def
+  relation_nature: Foundational application
+  condition_constraint: When birth identity principle represents the foundational
+    application of symbol definition
+  effect_direction: applying
+  source_ref: L2897-2902
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737163'
+- relation_id: rel_ch1_sym_003
+  relation_type: identity_relation
+  factor_a: astro_birth_id
+  factor_b: astro_holism_struct
+  relation_nature: Triple identity
+  condition_constraint: When birth identity establishes triple identity (chart=person=moment)
+    grounded in holism structure
+  effect_direction: grounding
+  source_ref: L2897-2902
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737166'
+- relation_id: rel_ch1_lang_001
+  relation_type: function_relation
+  factor_a: astro_lang_struct
+  factor_b: astro_symbol_form
+  relation_nature: Communication function
+  condition_constraint: When language structure provides communication function for
+    symbol formation
+  effect_direction: enabling
+  source_ref: L2974-2982
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737185'
+- relation_id: rel_ch1_lang_002
+  relation_type: method_relation
+  factor_a: astro_func_coh
+  factor_b: astro_lang_struct
+  relation_nature: Operational principle
+  condition_constraint: When functional coherency provides the methodological principle
+    for language structure
+  effect_direction: governing
+  source_ref: L3065-3080
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737188'
+- relation_id: rel_ch1_lang_003
+  relation_type: derivation_relation
+  factor_a: astro_func_coh
+  factor_b: astro_hol_logic_struct
+  relation_nature: Logic principle
+  condition_constraint: When functional coherency derives from holistic logic structure
+    as its operational principle
+  effect_direction: deriving
+  source_ref: L3065-3080
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737191'
+- relation_id: rel_ch1_geo_001
+  relation_type: framework_relation
+  factor_a: astro_dual_sym
+  factor_b: astro_func_coh
+  relation_nature: Symbolic framework
+  condition_constraint: When dual symbolism framework requires functional coherency
+    for proper application
+  effect_direction: requiring
+  source_ref: L3082-3203
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737213'
+- relation_id: rel_ch1_geo_002
+  relation_type: rule_relation
+  factor_a: astro_no_mix
+  factor_b: astro_dual_sym
+  relation_nature: Application rule
+  condition_constraint: When no-mixing rule governs the application of dual symbolism
+    framework
+  effect_direction: governing
+  source_ref: L3136-3141
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737216'
+- relation_id: rel_ch1_geo_003
+  relation_type: derivation_relation
+  factor_a: astro_no_mix
+  factor_b: astro_func_coh
+  relation_nature: Specific instance
+  condition_constraint: When no-mixing rule derives as specific instance of functional
+    coherency principle
+  effect_direction: instantiating
+  source_ref: L3136-3141
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737219'
+- relation_id: rel_ch2_sync_001
+  relation_type: foundation_relation
+  factor_a: astro_sync_struct
+  factor_b: astro_time_whole_struct
+  relation_nature: Scientific validation
+  condition_constraint: When synchronistic principle structure provides scientific
+    validation for time-wholeness structure
+  effect_direction: validating
+  source_ref: L3305-3322
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737241'
+- relation_id: rel_ch2_sync_002
+  relation_type: mechanism_relation
+  factor_a: astro_time_qual
+  factor_b: astro_sync_struct
+  relation_nature: Operational content
+  condition_constraint: When time-quality provides the operational content of synchronistic
+    principle structure
+  effect_direction: operationalizing
+  source_ref: L3400-3416
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737244'
+- relation_id: rel_ch2_sync_003
+  relation_type: parallel_relation
+  factor_a: astro_sync_struct
+  factor_b: astro_birth_id
+  relation_nature: Conceptual alignment
+  condition_constraint: When synchronistic structure parallels and supports birth
+    identity principle
+  effect_direction: supporting
+  source_ref: L3400-3416
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737247'
+- relation_id: rel_ch2_psych_001
+  relation_type: classification_relation
+  factor_a: astro_three_psych
+  factor_b: astro_analytical_psych
+  relation_nature: Framework
+  condition_constraint: When three psychologies classification establishes analytical
+    psychology's distinctive position
+  effect_direction: classifying
+  source_ref: L3536-3548
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737266'
+- relation_id: rel_ch2_psych_002
+  relation_type: goal_relation
+  factor_a: astro_purpose_whole
+  factor_b: astro_holism_struct
+  relation_nature: Alignment
+  condition_constraint: When purposeful wholeness goal aligns with holism structure's
+    whole-making emphasis
+  effect_direction: aligning
+  source_ref: L3654-3656
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737269'
+- relation_id: rel_ch2_psych_003
+  relation_type: function_relation
+  factor_a: astro_purpose_whole
+  factor_b: astro_three_psych
+  relation_nature: Distinguishing criterion
+  condition_constraint: When purposeful wholeness provides distinguishing function
+    of analytical psychology within three types
+  effect_direction: distinguishing
+  source_ref: L3654-3656
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737272'
+- relation_id: rel_ch2_uncons_001
+  relation_type: source_relation
+  factor_a: astro_coll_uncons_struct
+  factor_b: astro_pos_matrix
+  relation_nature: Structural origin
+  condition_constraint: When collective unconscious structure provides the positive
+    matrix for conscious development
+  effect_direction: sourcing
+  source_ref: L3706-3724
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737290'
+- relation_id: rel_ch2_uncons_002
+  relation_type: parallel_relation
+  factor_a: astro_coll_uncons_struct
+  factor_b: astro_ind_coll_struct
+  relation_nature: Psychic foundation
+  condition_constraint: When collective unconscious parallels and provides psychic
+    foundation for individual-collective dialectic
+  effect_direction: paralleling
+  source_ref: L3706-3724
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737293'
+- relation_id: rel_ch2_uncons_003
+  relation_type: contrast_relation
+  factor_a: astro_pos_matrix
+  factor_b: astro_neg_uncons
+  relation_nature: Jung vs Freud
+  condition_constraint: When positive matrix conception contrasts with negative repression
+    conception of unconscious
+  effect_direction: contrasting
+  source_ref: L3776-3785
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737296'
+- relation_id: rel_ch2_indiv_001
+  relation_type: goal_relation
+  factor_a: astro_indiv_process
+  factor_b: astro_purpose_whole
+  relation_nature: Ultimate aim
+  condition_constraint: When individuation process represents the ultimate aim of
+    purposeful wholeness goal
+  effect_direction: aiming
+  source_ref: L3839-3841
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737317'
+- relation_id: rel_ch2_indiv_002
+  relation_type: transformation_relation
+  factor_a: astro_self_real
+  factor_b: astro_indiv_process
+  relation_nature: Process outcome
+  condition_constraint: When self-realization represents the transformative outcome
+    of individuation process
+  effect_direction: transforming
+  source_ref: L3851-3873
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737320'
+- relation_id: rel_ch2_indiv_003
+  relation_type: parallel_relation
+  factor_a: astro_indiv_process
+  factor_b: astro_holism_struct
+  relation_nature: Conceptual alignment
+  condition_constraint: When individuation process parallels and instantiates holism
+    structure's whole-making
+  effect_direction: instantiating
+  source_ref: L3839-3841
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737322'
+- relation_id: rel_ch2_esth_001
+  relation_type: contrast_relation
+  factor_a: astro_eth_esth_struct
+  factor_b: astro_empirical
+  relation_nature: Value framework
+  condition_constraint: When ethics-esthetics contrast structure challenges empirical
+    moral judgments
+  effect_direction: contrasting
+  source_ref: L3949-4095
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737341'
+- relation_id: rel_ch2_esth_002
+  relation_type: application_relation
+  factor_a: astro_esth_astro
+  factor_b: astro_eth_esth_struct
+  relation_nature: Practical method
+  condition_constraint: When esthetical astrology applies the ethics-esthetics contrast
+    structure to chart interpretation
+  effect_direction: applying
+  source_ref: L4109-4111
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737344'
+- relation_id: rel_ch2_esth_003
+  relation_type: alignment_relation
+  factor_a: astro_esth_astro
+  factor_b: astro_holism_struct
+  relation_nature: No evil planets
+  condition_constraint: When esthetical astrology's no-evil-planets stance aligns
+    with holism structure's non-condemnatory approach
+  effect_direction: aligning
+  source_ref: L4109-4111
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737346'
+- relation_id: rel_ch2_mand_001
+  relation_type: symbol_relation
+  factor_a: astro_mandala_zodiac
+  factor_b: astro_indiv_process
+  relation_nature: Visual representation
+  condition_constraint: When mandala-zodiac provides visual symbol representation
+    for individuation process
+  effect_direction: symbolizing
+  source_ref: L4276-4284
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737365'
+- relation_id: rel_ch2_mand_002
+  relation_type: function_relation
+  factor_a: astro_chart_indiv
+  factor_b: astro_mandala_zodiac
+  relation_nature: Operational use
+  condition_constraint: When chart-individuation function operationalizes the mandala-zodiac
+    symbol for personal guidance
+  effect_direction: operationalizing
+  source_ref: L4284-4288
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737368'
+- relation_id: rel_ch2_mand_003
+  relation_type: synthesis_relation
+  factor_a: astro_chart_indiv
+  factor_b: astro_birth_id
+  relation_nature: Integration
+  condition_constraint: When chart-individuation synthesizes birth identity with individuation
+    process
+  effect_direction: integrating
+  source_ref: L4284-4288
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737371'
+- relation_id: rel_ch3_cyc_001
+  relation_type: foundation_relation
+  factor_a: astro_cyclic_struct
+  factor_b: astro_time_whole_struct
+  relation_nature: Structural basis
+  condition_constraint: When cyclic formula structure provides structural basis for
+    time-wholeness understanding
+  effect_direction: grounding
+  source_ref: L4327-4343
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737391'
+- relation_id: rel_ch3_cyc_002
+  relation_type: derivation_relation
+  factor_a: astro_cyclic_struct
+  factor_b: astro_holism_struct
+  relation_nature: Philosophical source
+  condition_constraint: When cyclic formula derives from holism structure's understanding
+    of organic processes
+  effect_direction: deriving
+  source_ref: L4327-4343
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737394'
+- relation_id: rel_ch3_form_001
+  relation_type: comparison_relation
+  factor_a: astro_two_formulas
+  factor_b: astro_cyclic_struct
+  relation_nature: Alternative paths
+  condition_constraint: When two formulas comparison provides alternative approaches
+    within cyclic structure framework
+  effect_direction: comparing
+  source_ref: L4471-4612
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737410'
+- relation_id: rel_ch3_form_002
+  relation_type: preference_relation
+  factor_a: astro_two_formulas
+  factor_b: astro_time_polarity
+  relation_nature: TAO alignment
+  condition_constraint: When TAO formula's process emphasis aligns with positive time
+    conception within two formulas
+  effect_direction: preferring
+  source_ref: L4542-4612
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737413'
+- relation_id: rel_ch3_new_001
+  relation_type: synthesis_relation
+  factor_a: astro_new_form_struct
+  factor_b: astro_two_formulas
+  relation_nature: Integration
+  condition_constraint: When new formula structure synthesizes elements from two formulas
+    comparison
+  effect_direction: synthesizing
+  source_ref: L4614-4627
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737432'
+- relation_id: rel_ch3_new_002
+  relation_type: application_relation
+  factor_a: astro_yi_king_role
+  factor_b: astro_new_form_struct
+  relation_nature: Practical function
+  condition_constraint: When astrology-Yi King role provides practical application
+    of new formula structure
+  effect_direction: applying
+  source_ref: L4635-4674
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737435'
+- relation_id: rel_ch3_new_003
+  relation_type: foundation_relation
+  factor_a: astro_new_form_struct
+  factor_b: astro_holism_struct
+  relation_nature: Philosophical basis
+  condition_constraint: When new formula structure derives from and extends holism
+    structure
+  effect_direction: grounding
+  source_ref: L4635-4674
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737438'
+- relation_id: rel_ch3_trip_001
+  relation_type: framework_relation
+  factor_a: astro_triple_princ
+  factor_b: astro_cyclic_struct
+  relation_nature: Structural elaboration
+  condition_constraint: When triple principle provides elaborated framework for cyclic
+    structure
+  effect_direction: elaborating
+  source_ref: L4676-4691
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737456'
+- relation_id: rel_ch3_trip_002
+  relation_type: resolution_relation
+  factor_a: astro_creative_synth
+  factor_b: astro_triple_princ
+  relation_nature: Synthesis function
+  condition_constraint: When creative synthesis provides resolution function within
+    triple principle
+  effect_direction: resolving
+  source_ref: L4741-4744
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737459'
+- relation_id: rel_ch3_trip_003
+  relation_type: parallel_relation
+  factor_a: astro_triple_princ
+  factor_b: astro_ind_coll_struct
+  relation_nature: Conceptual extension
+  condition_constraint: When triple principle extends and resolves individual-collective
+    dialectic structure
+  effect_direction: extending
+  source_ref: L4676-4691
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737462'
+- relation_id: rel_ch3_dual_001
+  relation_type: specification_relation
+  factor_a: astro_dual_form
+  factor_b: astro_triple_princ
+  relation_nature: Viewpoint specification
+  condition_constraint: When dual formulas provide substance/spirit viewpoint specifications
+    of triple principle
+  effect_direction: specifying
+  source_ref: L4943-4949
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737479'
+- relation_id: rel_ch3_dual_002
+  relation_type: application_relation
+  factor_a: astro_dual_form
+  factor_b: astro_cyclic_struct
+  relation_nature: Process understanding
+  condition_constraint: When dual formulas provide guiding thread for understanding
+    cyclic structure
+  effect_direction: guiding
+  source_ref: L4943-4949
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737482'
+- relation_id: rel_ch4_sig_001
+  relation_type: foundation_relation
+  factor_a: astro_signature_concept
+  factor_b: astro_symbol_def
+  relation_nature: Conceptual basis
+  condition_constraint: When signature concept provides foundational understanding
+    for symbol definition
+  effect_direction: grounding
+  source_ref: L5834-5839
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737502'
+- relation_id: rel_ch4_sig_002
+  relation_type: application_relation
+  factor_a: astro_signature_concept
+  factor_b: astro_birth_id
+  relation_nature: Chart interpretation
+  condition_constraint: When signature concept applies to birth identity as decipherable
+    pattern
+  effect_direction: applying
+  source_ref: L5862-5864
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737505'
+- relation_id: rel_ch4_mot_001
+  relation_type: framework_relation
+  factor_a: astro_two_motions
+  factor_b: astro_triple_princ
+  relation_nature: Motion framework
+  condition_constraint: When two motion types provide motion framework for triple
+    principle's individual-collective polarity
+  effect_direction: framing
+  source_ref: L5933-5949
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737522'
+- relation_id: rel_ch4_mot_002
+  relation_type: foundation_relation
+  factor_a: astro_pillars
+  factor_b: astro_two_motions
+  relation_nature: Symbolic foundation
+  condition_constraint: When two pillars establish symbolic foundation derived from
+    two motion types
+  effect_direction: establishing
+  source_ref: L5953-5956
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737524'
+- relation_id: rel_ch4_day_001
+  relation_type: specification_relation
+  factor_a: astro_day_year
+  factor_b: astro_two_motions
+  relation_nature: Temporal specification
+  condition_constraint: When day-year cycles provide temporal specification of two
+    motion types
+  effect_direction: specifying
+  source_ref: L6043-6045
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737540'
+- relation_id: rel_ch4_day_002
+  relation_type: parallel_relation
+  factor_a: astro_day_year
+  factor_b: astro_ind_coll_struct
+  relation_nature: Temporal parallel
+  condition_constraint: When day-year cycles parallel individual-collective structure
+    in temporal dimension
+  effect_direction: paralleling
+  source_ref: L6022-6045
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737543'
+- relation_id: rel_ch4_pol_001
+  relation_type: completion_relation
+  factor_a: astro_polar_cycle
+  factor_b: astro_day_year
+  relation_nature: Third cycle
+  condition_constraint: When polar cycle completes the triad of cycles alongside day-year
+    cycles
+  effect_direction: completing
+  source_ref: L6049-6088
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737561'
+- relation_id: rel_ch4_pol_002
+  relation_type: function_relation
+  factor_a: astro_creative_factor
+  factor_b: astro_polar_cycle
+  relation_nature: Creative manifestation
+  condition_constraint: When creative factor provides the functional significance
+    of polar cycle
+  effect_direction: functioning
+  source_ref: L6512-6521
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737564'
+- relation_id: rel_ch4_pol_003
+  relation_type: parallel_relation
+  factor_a: astro_creative_factor
+  factor_b: astro_creative_synth
+  relation_nature: Creative alignment
+  condition_constraint: When polar creative factor parallels the creative synthesis
+    principle
+  effect_direction: aligning
+  source_ref: L6512-6521
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737567'
+- relation_id: rel_ch4_hz_001
+  relation_type: framework_relation
+  factor_a: astro_houses_zodiac
+  factor_b: astro_day_year
+  relation_nature: Structural mapping
+  condition_constraint: When houses-zodiac framework maps onto day-year cycle distinction
+  effect_direction: mapping
+  source_ref: L6154-6258
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737586'
+- relation_id: rel_ch4_hz_002
+  relation_type: parallel_relation
+  factor_a: astro_houses_zodiac
+  factor_b: astro_ind_coll_struct
+  relation_nature: Symbolic parallel
+  condition_constraint: When houses-zodiac parallels individual-collective structure
+    in chart symbolism
+  effect_direction: paralleling
+  source_ref: L6154-6258
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737589'
+- relation_id: rel_ch4_hz_003
+  relation_type: structure_relation
+  factor_a: astro_chart_axes
+  factor_b: astro_houses_zodiac
+  relation_nature: Axis framework
+  condition_constraint: When two axes provide structural orientation within houses-zodiac
+    framework
+  effect_direction: orienting
+  source_ref: L6212-6224
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737592'
+- relation_id: rel_ch5_typ_001
+  relation_type: derivation_relation
+  factor_a: astro_three_types
+  factor_b: astro_two_motions
+  relation_nature: Motion basis
+  condition_constraint: When three astrology types derive from two motion types plus
+    polar motion
+  effect_direction: deriving
+  source_ref: L6603-6612
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737610'
+- relation_id: rel_ch5_typ_002
+  relation_type: parallel_relation
+  factor_a: astro_three_types
+  factor_b: astro_triple_princ
+  relation_nature: Conceptual parallel
+  condition_constraint: When three astrology types parallel the triple principle (individual-collective-creative)
+  effect_direction: paralleling
+  source_ref: L6603-6612
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737613'
+- relation_id: rel_ch5_nat_001
+  relation_type: specification_relation
+  factor_a: astro_natal_func
+  factor_b: astro_three_types
+  relation_nature: Individual type
+  condition_constraint: When natal function specifies the individual type within three
+    astrology types
+  effect_direction: specifying
+  source_ref: L6657-6674
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737630'
+- relation_id: rel_ch5_nat_002
+  relation_type: application_relation
+  factor_a: astro_horary_func
+  factor_b: astro_natal_func
+  relation_nature: Situational extension
+  condition_constraint: When horary function extends natal function to individual
+    situations
+  effect_direction: extending
+  source_ref: L6676-6687
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737633'
+- relation_id: rel_ch5_mun_001
+  relation_type: specification_relation
+  factor_a: astro_mundane_func
+  factor_b: astro_three_types
+  relation_nature: Collective type
+  condition_constraint: When mundane function specifies the collective type within
+    three astrology types
+  effect_direction: specifying
+  source_ref: L6700-6713
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737649'
+- relation_id: rel_ch5_mun_002
+  relation_type: contrast_relation
+  factor_a: astro_mundane_func
+  factor_b: astro_natal_func
+  relation_nature: Objective vs subjective
+  condition_constraint: When mundane function contrasts with natal function in objective
+    vs subjective approach
+  effect_direction: contrasting
+  source_ref: L6700-6713
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737652'
+- relation_id: rel_ch5_occ_001
+  relation_type: specification_relation
+  factor_a: astro_occult_struct
+  factor_b: astro_three_types
+  relation_nature: Occult type
+  condition_constraint: When occult structure specifies the creative-spiritual type
+    within three astrology types
+  effect_direction: specifying
+  source_ref: L6798-6810
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737671'
+- relation_id: rel_ch5_occ_002
+  relation_type: synthesis_relation
+  factor_a: astro_occult_struct
+  factor_b: astro_natal_func
+  relation_nature: Integration
+  condition_constraint: When occult structure synthesizes natal and mundane approaches
+  effect_direction: integrating
+  source_ref: L6798-6810
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737674'
+- relation_id: rel_ch5_occ_003
+  relation_type: energy_relation
+  factor_a: astro_rays
+  factor_b: astro_occult_struct
+  relation_nature: Esoteric energy
+  condition_constraint: When seven rays provide the esoteric energy framework within
+    occult structure
+  effect_direction: energizing
+  source_ref: L6843-6874
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737676'
+- relation_id: rel_ch5_har_001
+  relation_type: methodology_relation
+  factor_a: astro_harmonic_frame
+  factor_b: astro_three_types
+  relation_nature: Integrative method
+  condition_constraint: When harmonic framework provides integrative methodology across
+    three astrology types
+  effect_direction: integrating
+  source_ref: L6968-6987
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737695'
+- relation_id: rel_ch5_har_002
+  relation_type: structure_relation
+  factor_a: astro_elements_struct
+  factor_b: astro_harmonic_frame
+  relation_nature: Elemental basis
+  condition_constraint: When three elements structure provides the structural basis
+    for harmonic framework
+  effect_direction: structuring
+  source_ref: L7030-7056
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737698'
+- relation_id: rel_ch5_har_003
+  relation_type: goal_relation
+  factor_a: astro_harmonic_frame
+  factor_b: astro_indiv_process
+  relation_nature: Individuation support
+  condition_constraint: When harmonic framework serves the goal of supporting individuation
+    process
+  effect_direction: purposing
+  source_ref: L6968-6987
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737700'
+- relation_id: rel_ch6_frm_001
+  relation_type: foundation_relation
+  factor_a: houses_framework
+  factor_b: astro_houses_zodiac
+  relation_nature: Structural basis
+  condition_constraint: When houses framework provides structural basis for houses-zodiac
+    distinction
+  effect_direction: grounding
+  source_ref: L7117-7123
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737718'
+- relation_id: rel_ch6_frm_002
+  relation_type: distinction_relation
+  factor_a: houses_framework
+  factor_b: astro_ind_coll_struct
+  relation_nature: Individual pole
+  condition_constraint: When houses framework represents the individual pole of individual-collective
+    structure
+  effect_direction: representing
+  source_ref: L7117-7123
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737721'
+- relation_id: rel_ch6_fun_001
+  relation_type: mapping_relation
+  factor_a: jung_four_functions
+  factor_b: astro_chart_axes
+  relation_nature: Axis-function mapping
+  condition_constraint: When four Jungian functions map onto chart axes (horizontal/vertical)
+  effect_direction: mapping
+  source_ref: L7172-7175
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737739'
+- relation_id: rel_ch6_fun_002
+  relation_type: structure_relation
+  factor_a: axes_functions
+  factor_b: houses_framework
+  relation_nature: Functional structure
+  condition_constraint: When axes functions provide the functional structure within
+    houses framework
+  effect_direction: structuring
+  source_ref: L7203-7257
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737742'
+- relation_id: rel_ch6_typ_001
+  relation_type: classification_relation
+  factor_a: house_types
+  factor_b: houses_framework
+  relation_nature: House classification
+  condition_constraint: When three house types provide classification scheme within
+    houses framework
+  effect_direction: classifying
+  source_ref: L7297-7323
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737758'
+- relation_id: rel_ch6_typ_002
+  relation_type: process_relation
+  factor_a: house_types
+  factor_b: jung_four_functions
+  relation_nature: Functional process
+  condition_constraint: When house types trace the process through four Jungian functions
+  effect_direction: tracing
+  source_ref: L7297-7323
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737761'
+- relation_id: rel_ch6_28_001
+  relation_type: temporal_relation
+  factor_a: astro_cycle_28
+  factor_b: houses_framework
+  relation_nature: Time-pattern
+  condition_constraint: When 28-year cycle provides temporal pattern for houses framework
+    unfoldment
+  effect_direction: temporalizing
+  source_ref: L7571-7576
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737778'
+- relation_id: rel_ch6_28_002
+  relation_type: structure_relation
+  factor_a: astro_three_births
+  factor_b: astro_cycle_28
+  relation_nature: Three-fold division
+  condition_constraint: When three births provide structural division of 28-year cycle
+    into body/soul/spirit
+  effect_direction: dividing
+  source_ref: L7643-7670
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737781'
+- relation_id: rel_ch6_28_003
+  relation_type: parallel_relation
+  factor_a: astro_three_births
+  factor_b: astro_triple_princ
+  relation_nature: Temporal parallel
+  condition_constraint: When three births parallel the triple principle across life
+    span
+  effect_direction: paralleling
+  source_ref: L7643-7670
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737784'
+- relation_id: rel_ch6_7yr_001
+  relation_type: subdivision_relation
+  factor_a: astro_cycles_7
+  factor_b: astro_cycle_28
+  relation_nature: Fine structure
+  condition_constraint: When seven-year cycles provide fine subdivision of 28-year
+    cycle
+  effect_direction: subdividing
+  source_ref: L7710-7756
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737801'
+- relation_id: rel_ch6_7yr_002
+  relation_type: development_relation
+  factor_a: astro_cycles_7
+  factor_b: jung_four_functions
+  relation_nature: Function development
+  condition_constraint: When seven-year cycles trace development of four Jungian functions
+  effect_direction: developing
+  source_ref: L7710-7756
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737803'
+- relation_id: rel_ch6_7yr_003
+  relation_type: paradox_relation
+  factor_a: astro_indiv_univ
+  factor_b: astro_indiv_process
+  relation_nature: Ultimate resolution
+  condition_constraint: When individual-universal paradox represents ultimate resolution
+    of individuation process
+  effect_direction: resolving
+  source_ref: L7837-7842
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737806'
+- relation_id: rel_ch7_zod_001
+  relation_type: revaluation_relation
+  factor_a: astro_zodiac_houses
+  factor_b: astro_houses_zodiac
+  relation_nature: Modern revision
+  condition_constraint: When zodiac-houses dualism provides modern revision of traditional
+    houses-zodiac framework
+  effect_direction: revising
+  source_ref: L7917-7946
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737826'
+- relation_id: rel_ch7_zod_002
+  relation_type: parallel_relation
+  factor_a: astro_zodiac_houses
+  factor_b: astro_two_motions
+  relation_nature: Motion basis
+  condition_constraint: When zodiac-houses dualism parallels two motion types distinction
+  effect_direction: paralleling
+  source_ref: L7917-7946
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737829'
+- relation_id: rel_ch7_aur_001
+  relation_type: definition_relation
+  factor_a: astro_zodiac_aura
+  factor_b: astro_zodiac_houses
+  relation_nature: Ontological basis
+  condition_constraint: When zodiac-as-aura provides ontological definition for zodiac-houses
+    dualism's collective pole
+  effect_direction: defining
+  source_ref: L8013-8028
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737845'
+- relation_id: rel_ch7_aur_002
+  relation_type: parallel_relation
+  factor_a: astro_zodiac_aura
+  factor_b: astro_coll_uncons_struct
+  relation_nature: Boundary parallel
+  condition_constraint: When zodiac-aura parallels collective unconscious structure
+    as boundary of consciousness
+  effect_direction: paralleling
+  source_ref: L8160-8166
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737849'
+- relation_id: rel_ch7_elm_001
+  relation_type: structure_relation
+  factor_a: astro_four_elements
+  factor_b: astro_zodiac_aura
+  relation_nature: Elemental content
+  condition_constraint: When four elements provide structural content within zodiac-aura
+    framework
+  effect_direction: structuring
+  source_ref: L8277-8286
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737865'
+- relation_id: rel_ch7_elm_002
+  relation_type: parallel_relation
+  factor_a: astro_cardinal
+  factor_b: astro_time_polarity
+  relation_nature: Temporal parallel
+  condition_constraint: When cardinal signs parallel time polarity in marking equinoxes/solstices
+  effect_direction: paralleling
+  source_ref: L8305-8316
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737868'
+- relation_id: rel_ch7_mod_001
+  relation_type: classification_relation
+  factor_a: astro_modalities
+  factor_b: astro_four_elements
+  relation_nature: Energy classification
+  condition_constraint: When sign modalities provide energy classification scheme
+    within four elements
+  effect_direction: classifying
+  source_ref: L8477-8491
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737885'
+- relation_id: rel_ch7_mod_002
+  relation_type: parallel_relation
+  factor_a: astro_modalities
+  factor_b: astro_triple_princ
+  relation_nature: Triple parallel
+  condition_constraint: 'When modalities parallel triple principle: generate/concentrate/distribute
+    = spirit/soul/mind'
+  effect_direction: paralleling
+  source_ref: L8477-8491
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737888'
+- relation_id: rel_ch7_mod_003
+  relation_type: energy_relation
+  factor_a: astro_avataric
+  factor_b: astro_modalities
+  relation_nature: Energy release
+  condition_constraint: When avataric gates provide maximum energy release points
+    within modalities structure
+  effect_direction: releasing
+  source_ref: L8408-8418
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737891'
+- relation_id: rel_ch7_dual_001
+  relation_type: integration_relation
+  factor_a: astro_zodiac_dual
+  factor_b: astro_zodiac_aura
+  relation_nature: Dual perspective
+  condition_constraint: When zodiac dual view integrates zodiac-aura with individual
+    consciousness cycle
+  effect_direction: integrating
+  source_ref: L8569-8594
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737907'
+- relation_id: rel_ch7_dual_002
+  relation_type: synthesis_relation
+  factor_a: astro_four_synthesis
+  factor_b: astro_elements_struct
+  relation_nature: Comprehensive synthesis
+  condition_constraint: When four-element synthesis provides comprehensive synthesis
+    of astrological elements structure
+  effect_direction: synthesizing
+  source_ref: L8624-8630
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737910'
+- relation_id: rel_ch8_per_001
+  relation_type: definition_relation
+  factor_a: astro_personality
+  factor_b: astro_holism_struct
+  relation_nature: Whole operation
+  condition_constraint: When personality definition aligns with holism structure's
+    whole-being emphasis
+  effect_direction: defining
+  source_ref: L8648-8666
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737928'
+- relation_id: rel_ch8_per_002
+  relation_type: distinction_relation
+  factor_a: astro_sun
+  factor_b: astro_personality
+  relation_nature: Power vs totality
+  condition_constraint: When Sun provides integrating power for personality but is
+    not Self itself
+  effect_direction: distinguishing
+  source_ref: L8811-8823
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737931'
+- relation_id: rel_ch8_pair_001
+  relation_type: structure_relation
+  factor_a: astro_saturn_moon
+  factor_b: astro_personality
+  relation_nature: Being function
+  condition_constraint: When Saturn-Moon pair provides the being function within personality
+    structure
+  effect_direction: structuring
+  source_ref: L8909-8932
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737949'
+- relation_id: rel_ch8_pair_002
+  relation_type: structure_relation
+  factor_a: astro_jupiter_mercury
+  factor_b: astro_personality
+  relation_nature: Maintaining function
+  condition_constraint: When Jupiter-Mercury pair provides the maintaining function
+    within personality
+  effect_direction: structuring
+  source_ref: L8934-8987
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737952'
+- relation_id: rel_ch8_pair_003
+  relation_type: structure_relation
+  factor_a: astro_mars_venus
+  factor_b: astro_personality
+  relation_nature: Reproducing function
+  condition_constraint: When Mars-Venus pair provides the reproducing function within
+    personality
+  effect_direction: structuring
+  source_ref: L8996-9028
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737954'
+- relation_id: rel_ch8_ret_001
+  relation_type: direction_relation
+  factor_a: astro_retrograde
+  factor_b: astro_personal_uncon
+  relation_nature: Energy direction
+  condition_constraint: When retrograde provides energy direction toward personal
+    unconscious
+  effect_direction: directing
+  source_ref: L9139-9148
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737971'
+- relation_id: rel_ch8_ret_002
+  relation_type: modification_relation
+  factor_a: astro_retrograde
+  factor_b: astro_saturn_moon
+  relation_nature: Function modification
+  condition_constraint: When retrograde modifies Saturn-Moon pair function toward
+    inner operation
+  effect_direction: modifying
+  source_ref: L9171-9194
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737973'
+- relation_id: rel_ch8_out_001
+  relation_type: function_relation
+  factor_a: astro_uranus
+  factor_b: astro_coll_uncons_struct
+  relation_nature: Projective function
+  condition_constraint: When Uranus provides projective function of collective unconscious
+    structure
+  effect_direction: projecting
+  source_ref: L9343-9357
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737994'
+- relation_id: rel_ch8_out_002
+  relation_type: function_relation
+  factor_a: astro_neptune
+  factor_b: astro_coll_uncons_struct
+  relation_nature: Dissolving function
+  condition_constraint: When Neptune provides dissolving function within collective
+    unconscious structure
+  effect_direction: dissolving
+  source_ref: L9359-9389
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.737997'
+- relation_id: rel_ch8_out_003
+  relation_type: function_relation
+  factor_a: astro_pluto
+  factor_b: astro_coll_uncons_struct
+  relation_nature: Regenerating function
+  condition_constraint: When Pluto provides regenerating function within collective
+    unconscious structure
+  effect_direction: regenerating
+  source_ref: L9391-9425
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738000'
+- relation_id: rel_ch8_moon_001
+  relation_type: linking_relation
+  factor_a: astro_higher_moons
+  factor_b: astro_saturn_moon
+  relation_nature: Planetary linking
+  condition_constraint: When higher moons provide linking functions between planet
+    pairs
+  effect_direction: linking
+  source_ref: L9725-9768
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738018'
+- relation_id: rel_ch8_moon_002
+  relation_type: temporal_relation
+  factor_a: astro_84_temple
+  factor_b: astro_three_births
+  relation_nature: Temporal alignment
+  condition_constraint: When 84-year temple cycle aligns with three births structure
+    (3×28 years)
+  effect_direction: aligning
+  source_ref: L9803-9811
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738021'
+- relation_id: rel_ch9_nod_001
+  relation_type: polarity_relation
+  factor_a: astro_planetary_nodes
+  factor_b: astro_time_polarity
+  relation_nature: Integration polarity
+  condition_constraint: When planetary nodes provide integration-disintegration polarity
+    paralleling time polarity
+  effect_direction: paralleling
+  source_ref: L9879-9947
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738040'
+- relation_id: rel_ch9_nod_002
+  relation_type: application_relation
+  factor_a: astro_planetary_nodes
+  factor_b: astro_uranus
+  relation_nature: Uranian example
+  condition_constraint: When planetary nodes provide interpretive framework applied
+    to Uranus regeneration function
+  effect_direction: applying
+  source_ref: L9949-9980
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738043'
+- relation_id: rel_ch9_lun_001
+  relation_type: specification_relation
+  factor_a: astro_lunar_nodes
+  factor_b: astro_planetary_nodes
+  relation_nature: Geocentric type
+  condition_constraint: When lunar nodes specify geocentric type of planetary nodes
+  effect_direction: specifying
+  source_ref: L10075-10097
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738060'
+- relation_id: rel_ch9_lun_002
+  relation_type: polarity_relation
+  factor_a: astro_lunar_nodes
+  factor_b: astro_time_polarity
+  relation_nature: Past-future polarity
+  condition_constraint: When lunar nodes provide past-future polarity paralleling
+    time polarity
+  effect_direction: paralleling
+  source_ref: L10169-10197
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738063'
+- relation_id: rel_ch9_pf_001
+  relation_type: derivation_relation
+  factor_a: astro_part_fortune
+  factor_b: astro_lunar_nodes
+  relation_nature: Moon-derived point
+  condition_constraint: When Part of Fortune derives from Moon's relationship to Sun
+    and Ascendant like lunar nodes
+  effect_direction: deriving
+  source_ref: L10351-10366
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738877'
+- relation_id: rel_ch9_pf_002
+  relation_type: function_relation
+  factor_a: astro_part_fortune
+  factor_b: astro_personality
+  relation_nature: Ego expression
+  condition_constraint: When Part of Fortune provides point of conscious ego expression
+    within personality
+  effect_direction: expressing
+  source_ref: L10368-10386
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738887'
+- relation_id: rel_ch9_pt_001
+  relation_type: generalization_relation
+  factor_a: astro_parts
+  factor_b: astro_part_fortune
+  relation_nature: General theory
+  condition_constraint: When astrological parts provide general theory from which
+    Part of Fortune is derived
+  effect_direction: generalizing
+  source_ref: L10423-10432
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738912'
+- relation_id: rel_ch9_pt_002
+  relation_type: method_relation
+  factor_a: astro_parts
+  factor_b: astro_lang_struct
+  relation_nature: Algebraic method
+  condition_constraint: When parts provide algebraic calculation method within astrology
+    as language structure
+  effect_direction: providing
+  source_ref: L10464-10478
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738915'
+- relation_id: rel_ch10_deg_001
+  relation_type: synthesis_relation
+  factor_a: astro_degree
+  factor_b: astro_two_motions
+  relation_nature: Motion synthesis
+  condition_constraint: When zodiacal degree provides synthesis point of two motion
+    types
+  effect_direction: synthesizing
+  source_ref: L10504-10529
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738938'
+- relation_id: rel_ch10_deg_002
+  relation_type: parallel_relation
+  factor_a: astro_degree
+  factor_b: astro_creative_factor
+  relation_nature: Creative parallel
+  condition_constraint: When degree parallels creative factor as reconciliation of
+    opposites
+  effect_direction: paralleling
+  source_ref: L10531-10548
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738941'
+- relation_id: rel_ch10_sab_001
+  relation_type: application_relation
+  factor_a: astro_sabian
+  factor_b: astro_degree
+  relation_nature: Symbolic application
+  condition_constraint: When Sabian symbols provide symbolic application of degree
+    synthesis principle
+  effect_direction: applying
+  source_ref: L10601-10636
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738962'
+- relation_id: rel_ch10_sab_002
+  relation_type: structure_relation
+  factor_a: astro_span
+  factor_b: astro_sabian
+  relation_nature: Structural division
+  condition_constraint: When span provides structural division scheme for Sabian symbols
+  effect_direction: structuring
+  source_ref: L10661-10703
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738965'
+- relation_id: rel_ch11_frm_001
+  relation_type: distinction_relation
+  factor_a: astro_form
+  factor_b: astro_body
+  relation_nature: Abstract vs concrete
+  condition_constraint: When form provides abstract pattern distinguished from body's
+    concrete substance
+  effect_direction: distinguishing
+  source_ref: L12413-12462
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738985'
+- relation_id: rel_ch11_frm_002
+  relation_type: synthesis_relation
+  factor_a: astro_personality
+  factor_b: astro_form
+  relation_nature: Trinity synthesis
+  condition_constraint: When personality synthesizes the basic trinity of energy-form-substance
+  effect_direction: synthesizing
+  source_ref: L12464-12471
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.738987'
+- relation_id: rel_ch11_asp_001
+  relation_type: polarity_relation
+  factor_a: astro_conjunction
+  factor_b: astro_opposition
+  relation_nature: Aspect polarity
+  condition_constraint: When conjunction and opposition provide polar aspect relationship
+  effect_direction: polarizing
+  source_ref: L12916-12965
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739014'
+- relation_id: rel_ch11_asp_002
+  relation_type: function_relation
+  factor_a: astro_conjunction
+  factor_b: astro_degree
+  relation_nature: Degree activation
+  condition_constraint: When conjunction provides function of activating degree meaning
+  effect_direction: activating
+  source_ref: L12916-12965
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739019'
+- relation_id: rel_ch11_ser_001
+  relation_type: classification_relation
+  factor_a: astro_trine
+  factor_b: astro_form
+  relation_nature: Triangular series
+  condition_constraint: When trine represents triangular aspect series related to
+    form and ideation
+  effect_direction: classifying
+  source_ref: L13006-13041
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739039'
+- relation_id: rel_ch11_ser_002
+  relation_type: classification_relation
+  factor_a: astro_square
+  factor_b: astro_body
+  relation_nature: Quadrangular series
+  condition_constraint: When square represents quadrangular aspect series related
+    to body and incarnation
+  effect_direction: classifying
+  source_ref: L13006-13041
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739042'
+- relation_id: rel_ch11_ser_003
+  relation_type: function_relation
+  factor_a: astro_quintile
+  factor_b: astro_creative_factor
+  relation_nature: Creative aspect
+  condition_constraint: When quintile provides aspect function for creative-individual
+    factor
+  effect_direction: functioning
+  source_ref: L13043-13058
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739045'
+- relation_id: rel_ch11_foc_001
+  relation_type: method_relation
+  factor_a: astro_focal
+  factor_b: astro_personality
+  relation_nature: Interpretation method
+  condition_constraint: When focal determinators provide primary method for personality
+    interpretation
+  effect_direction: interpreting
+  source_ref: L13108-13117
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739062'
+- relation_id: rel_ch11_foc_002
+  relation_type: effect_relation
+  factor_a: astro_singleton
+  factor_b: astro_focal
+  relation_nature: Dominant influence
+  condition_constraint: When singleton planet provides dominant focal effect on consciousness
+  effect_direction: dominating
+  source_ref: L13185-13196
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739065'
+- relation_id: rel_ch12_sf_001
+  relation_type: polarity_relation
+  factor_a: astro_selfhood
+  factor_b: astro_destiny
+  relation_nature: Being-Becoming polarity
+  condition_constraint: When selfhood and destiny provide polarity of being (space)
+    and becoming (time)
+  effect_direction: polarizing
+  source_ref: L13489-13510
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739085'
+- relation_id: rel_ch12_sf_002
+  relation_type: parallel_relation
+  factor_a: astro_selfhood
+  factor_b: astro_time_polarity
+  relation_nature: Space-time parallel
+  condition_constraint: When selfhood-destiny parallels space-time or knowledge-fulfillment
+    polarity
+  effect_direction: paralleling
+  source_ref: L13609-13611
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739088'
+- relation_id: rel_ch12_bc_001
+  relation_type: representation_relation
+  factor_a: astro_birth_chart
+  factor_b: astro_selfhood
+  relation_nature: Blueprint function
+  condition_constraint: When birth-chart provides symbolical representation of selfhood
+    as potentiality
+  effect_direction: representing
+  source_ref: L13583-13594
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739105'
+- relation_id: rel_ch12_bc_002
+  relation_type: parallel_relation
+  factor_a: astro_birth_chart
+  factor_b: astro_form
+  relation_nature: Form parallel
+  condition_constraint: When birth-chart parallels form as abstract pattern vs concrete
+    body
+  effect_direction: paralleling
+  source_ref: L13687-13695
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739108'
+- relation_id: rel_ch12_cy_001
+  relation_type: triple_relation
+  factor_a: astro_primary
+  factor_b: astro_secondary
+  relation_nature: Triple cycles
+  condition_constraint: When primary, secondary and transits provide triple cycle
+    structure for fulfillment
+  effect_direction: tripling
+  source_ref: L14230-14237
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739126'
+- relation_id: rel_ch12_cy_002
+  relation_type: parallel_relation
+  factor_a: astro_primary
+  factor_b: astro_ind_coll_struct
+  relation_nature: Factor parallel
+  condition_constraint: When primary/secondary/transits parallel individual/collective/personality
+    factors
+  effect_direction: paralleling
+  source_ref: L14292-14308
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739129'
+- relation_id: rel_ch13_sp_001
+  relation_type: function_relation
+  factor_a: astro_prog_sun
+  factor_b: astro_sun
+  relation_nature: Integration function
+  condition_constraint: When progressed Sun provides integration function derived
+    from natal Sun
+  effect_direction: integrating
+  source_ref: L14357-14391
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739147'
+- relation_id: rel_ch13_sp_002
+  relation_type: contrast_relation
+  factor_a: astro_prog_moon
+  factor_b: astro_prog_sun
+  relation_nature: Event vs integration
+  condition_constraint: When progressed Moon contrasts with progressed Sun in concrete
+    events vs integration
+  effect_direction: contrasting
+  source_ref: L14408-14414
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739150'
+- relation_id: rel_ch13_tr_001
+  relation_type: method_relation
+  factor_a: astro_transit_rad
+  factor_b: astro_transits
+  relation_nature: Individual application
+  condition_constraint: When transit-to-radical provides individual application method
+    for transits
+  effect_direction: applying
+  source_ref: L14621-14657
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739166'
+- relation_id: rel_ch13_tr_002
+  relation_type: contrast_relation
+  factor_a: astro_transit_rad
+  factor_b: astro_transit_trans
+  relation_nature: Individual vs collective
+  condition_constraint: When transit-to-radical contrasts with transit-to-transit
+    in individual vs world focus
+  effect_direction: contrasting
+  source_ref: L14680-14686
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739169'
+- relation_id: rel_ch14_in_001
+  relation_type: principle_relation
+  factor_a: astro_interp_indiv
+  factor_b: astro_holism_struct
+  relation_nature: Holistic interpretation
+  condition_constraint: When individual interpretation aligns with holism structure's
+    organic approach
+  effect_direction: aligning
+  source_ref: L15170-15190
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739190'
+- relation_id: rel_ch14_in_002
+  relation_type: method_relation
+  factor_a: astro_interp_indiv
+  factor_b: astro_focal
+  relation_nature: Focus determination
+  condition_constraint: When individual interpretation uses focal determinators as
+    method
+  effect_direction: applying
+  source_ref: L15206-15210
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739193'
+- relation_id: rel_ch14_fr_001
+  relation_type: principle_relation
+  factor_a: astro_freedom
+  factor_b: astro_interp_indiv
+  relation_nature: Freedom enables interpretation
+  condition_constraint: When freedom coefficient enables individual interpretation's
+    creative aspect
+  effect_direction: enabling
+  source_ref: L15835-15860
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739210'
+- relation_id: rel_ch14_fr_002
+  relation_type: paradox_relation
+  factor_a: astro_freedom
+  factor_b: astro_destiny
+  relation_nature: Freedom-destiny paradox
+  condition_constraint: When freedom paradoxically relates to destiny understanding
+  effect_direction: paradoxing
+  source_ref: L15862-15869
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739218'
+- relation_id: rel_ch14_li_001
+  relation_type: complement_relation
+  factor_a: astro_life_interp
+  factor_b: astro_empirical
+  relation_nature: Astrology complements science
+  condition_constraint: When life-interpretation provides individual complement to
+    science's generic approach
+  effect_direction: complementing
+  source_ref: L15848-15852
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739235'
+- relation_id: rel_ch14_li_002
+  relation_type: goal_relation
+  factor_a: astro_life_interp
+  factor_b: astro_wholeness
+  relation_nature: Wholeness goal
+  condition_constraint: When life-interpretation serves the goal of achieving more
+    wholeness
+  effect_direction: purposing
+  source_ref: L15862-15870
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739238'
+- relation_id: rel_epi_wh_001
+  relation_type: goal_relation
+  factor_a: astro_wholeness
+  factor_b: astro_indiv_process
+  relation_nature: Ultimate goal
+  condition_constraint: When more wholeness provides ultimate goal for individuation
+    process
+  effect_direction: purposing
+  source_ref: L15906-15919
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739258'
+- relation_id: rel_epi_wh_002
+  relation_type: method_relation
+  factor_a: astro_wholeness
+  factor_b: astro_personality
+  relation_nature: Integration method
+  condition_constraint: When wholeness provides method criterion for personality integration
+  effect_direction: integrating
+  source_ref: L15943-15948
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739261'
+- relation_id: rel_epi_ap_001
+  relation_type: contrast_relation
+  factor_a: astro_view
+  factor_b: astro_psych
+  relation_nature: Approach contrast
+  condition_constraint: When astrology's potentiality view contrasts with psychology's
+    process view
+  effect_direction: contrasting
+  source_ref: L15967-15973
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739278'
+- relation_id: rel_epi_ap_002
+  relation_type: synthesis_relation
+  factor_a: astro_view
+  factor_b: astro_wholeness
+  relation_nature: Beginning-end identity
+  condition_constraint: When astrology's view provides synthesis of beginning potentiality
+    and end manifestation
+  effect_direction: synthesizing
+  source_ref: L15976-15984
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.739280'

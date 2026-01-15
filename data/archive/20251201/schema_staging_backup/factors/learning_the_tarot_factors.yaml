@@ -1,0 +1,389 @@
+book_id: learning_the_tarot
+source_file: 典籍/texts/Learning the Tarot/编辑/Tarot_Practice_Method_v2.1.md
+extracted_at: '2025-11-30T15:46:48.273035'
+factors:
+- factor_type: System
+  factor_label: Tarot 78-card system
+  factor_id: tarot_78_system
+  factor_source: existing
+  role_position: Complete Deck
+  value_constraint: 22+56 cards
+  engine_id: tarot_semantic
+  notes: Core structure
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883494'
+- factor_type: Historical
+  factor_label: Italian Origin
+  factor_id: tarot_origin_italy
+  factor_source: new_candidate
+  role_position: Origin
+  value_constraint: 15th century
+  engine_id: tarot_semantic
+  notes: Documented
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883502'
+- factor_type: Conceptual
+  factor_label: Personal Growth Tool
+  factor_id: tarot_growth_tool
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Self-discovery
+  engine_id: tarot_semantic
+  notes: Modern use
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883508'
+- factor_type: Functional
+  factor_label: Inner Guide
+  factor_id: inner_guide
+  factor_source: existing
+  role_position: Wisdom Source
+  value_constraint: Unconscious advisor
+  engine_id: tarot_semantic
+  notes: Bunning's core
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883522'
+- factor_type: Psychological
+  factor_label: Projection
+  factor_id: projection
+  factor_source: existing
+  role_position: Mechanism
+  value_constraint: Symbol interpretation
+  engine_id: psych_semantic
+  notes: Rorschach-like
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883526'
+- factor_type: Psychological
+  factor_label: Synchronicity
+  factor_id: synchronicity
+  factor_source: existing
+  role_position: Mechanism
+  value_constraint: Card selection
+  engine_id: psych_semantic
+  notes: Jung concept
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883530'
+- factor_type: Psychological
+  factor_label: Archetype
+  factor_id: archetype
+  factor_source: existing
+  role_position: Structure
+  value_constraint: Universal patterns
+  engine_id: psych_semantic
+  notes: Jung concept
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883534'
+- factor_type: Structure
+  factor_label: Major Arcana
+  factor_id: major_arcana
+  factor_source: existing
+  role_position: 22 Cards
+  value_constraint: 0-XXI
+  engine_id: tarot_semantic
+  notes: Heart of deck
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883546'
+- factor_type: Narrative
+  factor_label: Fool's Journey
+  factor_id: fools_journey
+  factor_source: existing
+  role_position: Development
+  value_constraint: 22 stages
+  engine_id: tarot_semantic
+  notes: Growth path
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883550'
+- factor_type: State
+  factor_label: Wholeness
+  factor_id: wholeness
+  factor_source: existing
+  role_position: Goal
+  value_constraint: Integration
+  engine_id: psych_semantic
+  notes: Journey end
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883559'
+- factor_type: Structure
+  factor_label: Minor Arcana
+  factor_id: minor_arcana
+  factor_source: existing
+  role_position: 56 Cards
+  value_constraint: 4 suits × 14
+  engine_id: tarot_semantic
+  notes: Daily life
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883573'
+- factor_type: Structure
+  factor_label: Wands suit
+  factor_id: suit_wands
+  factor_source: existing
+  role_position: Fire domain
+  value_constraint: Creativity/action
+  engine_id: tarot_semantic
+  notes: Yang
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883578'
+- factor_type: Structure
+  factor_label: Cups suit
+  factor_id: suit_cups
+  factor_source: existing
+  role_position: Water domain
+  value_constraint: Emotion/relationship
+  engine_id: tarot_semantic
+  notes: Yin
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883581'
+- factor_type: Structure
+  factor_label: Swords suit
+  factor_id: suit_swords
+  factor_source: existing
+  role_position: Air domain
+  value_constraint: Intellect/conflict
+  engine_id: tarot_semantic
+  notes: Double-edged
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883585'
+- factor_type: Structure
+  factor_label: Pentacles suit
+  factor_id: suit_pentacles
+  factor_source: existing
+  role_position: Earth domain
+  value_constraint: Material/practical
+  engine_id: tarot_semantic
+  notes: Grounded
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883590'
+- factor_type: Card
+  factor_label: The Fool
+  factor_id: tarot_fool
+  factor_source: existing
+  role_position: Major Arcana 0
+  value_constraint: Beginning/Faith
+  engine_id: tarot_semantic
+  notes: Journey start
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883602'
+- factor_type: State
+  factor_label: New Beginning
+  factor_id: new_beginning
+  factor_source: existing
+  role_position: Trigger
+  value_constraint: Fresh start
+  engine_id: tarot_semantic
+  notes: Fool signal
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883606'
+- factor_type: Quality
+  factor_label: Spontaneity
+  factor_id: spontaneity
+  factor_source: new_candidate
+  role_position: Characteristic
+  value_constraint: Living in moment
+  engine_id: tarot_semantic
+  notes: Fool attribute
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883610'
+- factor_type: Quality
+  factor_label: Faith
+  factor_id: faith
+  factor_source: existing
+  role_position: Characteristic
+  value_constraint: Trust in life
+  engine_id: tarot_semantic
+  notes: Fool attribute
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883614'
+- factor_type: Card
+  factor_label: The Magician
+  factor_id: tarot_magician
+  factor_source: existing
+  role_position: Major Arcana 1
+  value_constraint: Action/Power
+  engine_id: tarot_semantic
+  notes: First numbered
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883629'
+- factor_type: Quality
+  factor_label: Conscious Awareness
+  factor_id: conscious_awareness
+  factor_source: new_candidate
+  role_position: Characteristic
+  value_constraint: Knowing what/why
+  engine_id: tarot_semantic
+  notes: Magician attribute
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883633'
+- factor_type: Quality
+  factor_label: Concentration
+  factor_id: concentration
+  factor_source: existing
+  role_position: Characteristic
+  value_constraint: Single-minded focus
+  engine_id: tarot_semantic
+  notes: Magician attribute
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883637'
+- factor_type: Quality
+  factor_label: Power
+  factor_id: power
+  factor_source: existing
+  role_position: Characteristic
+  value_constraint: Creating miracles
+  engine_id: tarot_semantic
+  notes: Magician attribute
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883641'
+- factor_type: Card
+  factor_label: The High Priestess
+  factor_id: tarot_high_priestess
+  factor_source: existing
+  role_position: Major Arcana 2
+  value_constraint: Nonaction/Mystery
+  engine_id: tarot_semantic
+  notes: Feminine principle
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883651'
+- factor_type: Quality
+  factor_label: Nonaction
+  factor_id: nonaction
+  factor_source: new_candidate
+  role_position: Characteristic
+  value_constraint: Wise waiting
+  engine_id: tarot_semantic
+  notes: HP attribute
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883656'
+- factor_type: Quality
+  factor_label: Intuition
+  factor_id: intuition
+  factor_source: existing
+  role_position: Characteristic
+  value_constraint: Inner knowing
+  engine_id: tarot_semantic
+  notes: HP attribute
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883659'
+- factor_type: Card
+  factor_label: The Empress
+  factor_id: tarot_empress
+  factor_source: existing
+  role_position: Major Arcana 3
+  value_constraint: Mothering/Abundance
+  engine_id: tarot_semantic
+  notes: Earth Mother
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883669'
+- factor_type: Quality
+  factor_label: Abundance
+  factor_id: abundance
+  factor_source: existing
+  role_position: Characteristic
+  value_constraint: Lavish bounty
+  engine_id: tarot_semantic
+  notes: Empress attribute
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883673'
+- factor_type: Quality
+  factor_label: Nurturing
+  factor_id: nurturing
+  factor_source: existing
+  role_position: Characteristic
+  value_constraint: Creating/sustaining life
+  engine_id: tarot_semantic
+  notes: Empress attribute
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883677'
+- factor_type: Card
+  factor_label: The Emperor
+  factor_id: tarot_emperor
+  factor_source: existing
+  role_position: Major Arcana 4
+  value_constraint: Structure/Authority
+  engine_id: tarot_semantic
+  notes: Father figure
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883688'
+- factor_type: Quality
+  factor_label: Structure
+  factor_id: structure
+  factor_source: existing
+  role_position: Characteristic
+  value_constraint: Order from chaos
+  engine_id: tarot_semantic
+  notes: Emperor attribute
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883693'
+- factor_type: Quality
+  factor_label: Authority
+  factor_id: authority
+  factor_source: existing
+  role_position: Characteristic
+  value_constraint: Leadership/command
+  engine_id: tarot_semantic
+  notes: Emperor attribute
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883697'
+- factor_type: Card
+  factor_label: The Hierophant
+  factor_id: tarot_hierophant
+  factor_source: existing
+  role_position: Major Arcana 5
+  value_constraint: Education/Conformity
+  engine_id: tarot_semantic
+  notes: Institution figure
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883708'
+- factor_type: Quality
+  factor_label: Conformity
+  factor_id: conformity
+  factor_source: existing
+  role_position: Characteristic
+  value_constraint: Following rules
+  engine_id: tarot_semantic
+  notes: Hierophant attribute
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883712'
+- factor_type: Quality
+  factor_label: Group Identity
+  factor_id: group_identity
+  factor_source: new_candidate
+  role_position: Characteristic
+  value_constraint: Belonging
+  engine_id: tarot_semantic
+  notes: Hierophant attribute
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.883716'

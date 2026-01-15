@@ -1,0 +1,175 @@
+# 占星体系 - 关系类因子
+# Relational factors for Astrology system
+
+factors:
+  # 主要相位
+  - id: aspect_conjunction
+    status: existing
+    display_zh: 合相
+    display_en: Conjunction
+    aliases_zh: [合]
+    description_zh: 0度相位，能量融合
+    description_en: 0 degree aspect, energy fusion
+    category: relation
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: aspect_opposition
+    status: existing
+    display_zh: 对分相
+    display_en: Opposition
+    aliases_zh: [冲, 对冲]
+    description_zh: 180度相位，能量对立
+    description_en: 180 degree aspect, energy opposition
+    category: relation
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: aspect_trine
+    status: existing
+    display_zh: 三分相
+    display_en: Trine
+    aliases_zh: [拱]
+    description_zh: 120度相位，和谐流动
+    description_en: 120 degree aspect, harmonious flow
+    category: relation
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: aspect_square
+    status: existing
+    display_zh: 四分相
+    display_en: Square
+    aliases_zh: [刑]
+    description_zh: 90度相位，张力挑战
+    description_en: 90 degree aspect, tension and challenge
+    category: relation
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: aspect_sextile
+    status: existing
+    display_zh: 六分相
+    display_en: Sextile
+    aliases_zh: [六合]
+    description_zh: 60度相位，机会协作
+    description_en: 60 degree aspect, opportunity and cooperation
+    category: relation
+    value_type: boolean
+    applicable_systems: [astro]
+
+  # 次要相位
+  - id: aspect_quincunx
+    status: existing
+    display_zh: 补八分相
+    display_en: Quincunx
+    aliases_zh: [梅花相]
+    description_zh: 150度相位，调整需求
+    description_en: 150 degree aspect, adjustment needed
+    category: relation
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: aspect_semi_sextile
+    status: existing
+    display_zh: 半六分相
+    display_en: Semi-sextile
+    description_zh: 30度相位，微妙联系
+    description_en: 30 degree aspect, subtle connection
+    category: relation
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: aspect_semi_square
+    status: existing
+    display_zh: 半四分相
+    display_en: Semi-square
+    description_zh: 45度相位，轻微摩擦
+    description_en: 45 degree aspect, mild friction
+    category: relation
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: aspect_sesquiquadrate
+    status: existing
+    display_zh: 补半四分相
+    display_en: Sesquiquadrate
+    description_zh: 135度相位，持续张力
+    description_en: 135 degree aspect, ongoing tension
+    category: relation
+    value_type: boolean
+    applicable_systems: [astro]
+
+  # 守护关系
+  - id: ruler_planet
+    status: existing
+    display_zh: 守护星
+    display_en: Ruler Planet
+    description_zh: 星座的守护行星
+    description_en: Ruling planet of a sign
+    category: relation
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: chart_ruler
+    status: existing
+    display_zh: 命主星
+    display_en: Chart Ruler
+    description_zh: 上升星座的守护行星
+    description_en: Ruler of the Ascendant sign
+    category: relation
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: dispositor
+    status: existing
+    display_zh: 定位星
+    display_en: Dispositor
+    description_zh: 接管行星力量的守护星
+    description_en: Ruling planet that takes over planet's energy
+    category: relation
+    value_type: reference
+    applicable_systems: [astro]
+
+  # 相位格局
+  - id: grand_trine
+    status: existing
+    display_zh: 大三角
+    display_en: Grand Trine
+    description_zh: 三颗行星互成120度
+    description_en: Three planets in mutual 120 degree aspects
+    category: relation
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: grand_cross
+    status: existing
+    display_zh: 大十字
+    display_en: Grand Cross
+    description_zh: 四颗行星形成十字形相位格局
+    description_en: Four planets in cross-shaped aspect pattern
+    category: relation
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: t_square
+    status: existing
+    display_zh: T三角
+    display_en: T-Square
+    description_zh: 三颗行星形成T形相位格局
+    description_en: Three planets in T-shaped aspect pattern
+    category: relation
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: yod
+    status: existing
+    display_zh: 上帝之指
+    display_en: Yod
+    aliases_zh: [YOD格局]
+    aliases_en: [Finger of God]
+    description_zh: 两个六分相行星同时与第三行星成150度
+    description_en: Two planets in sextile both quincunx a third
+    category: relation
+    value_type: boolean
+    applicable_systems: [astro]

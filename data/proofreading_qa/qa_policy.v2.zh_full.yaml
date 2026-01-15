@@ -1,0 +1,29 @@
+version: 2
+policy_id: proofreading_qa_policy.v2.zh_full
+
+scope:
+  # 中文典籍（9 本），不含已归档的记纂渊海
+  include_books:
+    - 滴天髓
+    - 三命通会
+    - 子平真诠
+    - 渊海子平
+    - 穷通宝鉴
+    - 紫微斗数全书
+    - 梦林玄解
+    - 周公解梦
+    - 周易
+  exclude_books:
+    - 记纂渊海
+  require_books_present: true
+
+coverage:
+  mode: full
+
+thresholds:
+  min_tasks_total: 1
+  max_rejected: 0
+  require_reviewed: false
+  require_full_coverage: true
+  require_books_present: true
+

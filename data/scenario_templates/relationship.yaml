@@ -1,0 +1,81 @@
+# Relationship Scenario Template
+# 感情场景模板配置
+
+scenario_id: scn_relationship
+domain: relationship
+
+keywords:
+  primary: ["感情", "爱情", "恋爱", "relationship", "love", "romance"]
+  synonyms: ["对象", "男友", "女友", "老公", "老婆", "约会", "表白", "分手", "复合", "暧昧", "追求", "相亲", "婚姻", "结婚", "离婚"]
+  negative: []
+  weight: 1.0
+
+decision_axes:
+  - axis_id: compatibility
+    label_zh: 匹配度
+    label_en: Compatibility
+    description: 双方性格和价值观的匹配程度
+    value_type: float
+    default_weight: 1.0
+  
+  - axis_id: emotional_depth
+    label_zh: 情感深度
+    label_en: Emotional Depth
+    description: 情感连接的深度
+    value_type: float
+    default_weight: 1.0
+  
+  - axis_id: stability
+    label_zh: 稳定性
+    label_en: Stability
+    description: 关系的稳定程度
+    value_type: float
+    default_weight: 0.9
+  
+  - axis_id: growth_together
+    label_zh: 共同成长
+    label_en: Growth Together
+    description: 共同成长和进步的潜力
+    value_type: float
+    default_weight: 0.8
+  
+  - axis_id: family_harmony
+    label_zh: 家庭和谐
+    label_en: Family Harmony
+    description: 双方家庭关系的和谐程度
+    value_type: float
+    default_weight: 0.7
+  
+  - axis_id: passion
+    label_zh: 激情
+    label_en: Passion
+    description: 浪漫激情程度
+    value_type: float
+    default_weight: 0.6
+
+factor_include_patterns:
+  - "bazi_*_marriage_*"
+  - "bazi_*_spouse_*"
+  - "ziwei_spouse_*"
+  - "astro_*_7th_*"
+  - "astro_venus_*"
+
+factor_exclude_patterns:
+  - "*_career_*"
+  - "*_wealth_*"
+
+factor_always_include:
+  - "bazi_day_master"
+  - "astro_venus_sign"
+
+rule_categories:
+  - "marriage"
+  - "relationship"
+  - "guidance"
+
+related_scenarios:
+  - "scn_family"
+
+label_zh: 感情
+label_en: Relationship
+description: 恋爱、婚姻、感情问题等亲密关系相关问题

@@ -1,0 +1,42 @@
+$ LS_ARTIFACT_DIR=openspec/changes/implement-versioning-and-boot-regression-v1/evidence/artifacts_t03 PYTHONPATH=. .venv/bin/pytest backend/tests/gate1_boot_regression/test_drift_regression.py -q
+.                                                                        [100%]
+=============================== warnings summary ===============================
+backend/tests/gate1_boot_regression/test_drift_regression.py::test_pipeline_bazi_drift_regression
+  /home/leeky/work/LucidSelf/backend/rules/__init__.py:27: DeprecationWarning: dimension.py 已弃用，请迁移到 backend.core.contracts.unified_dimensions 模块的 DimensionRegistry
+    from backend.rules.dimension import DimensionMapper, get_dimension_mapper
+
+backend/tests/gate1_boot_regression/test_drift_regression.py::test_pipeline_bazi_drift_regression
+  /home/leeky/work/LucidSelf/.venv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_id" has conflict with protected namespace "model_".
+  
+  You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+    warnings.warn(
+
+backend/tests/gate1_boot_regression/test_drift_regression.py::test_pipeline_bazi_drift_regression
+  /home/leeky/work/LucidSelf/.venv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_used" has conflict with protected namespace "model_".
+  
+  You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+    warnings.warn(
+
+backend/tests/gate1_boot_regression/test_drift_regression.py::test_pipeline_bazi_drift_regression
+  /home/leeky/work/LucidSelf/.venv/lib/python3.12/site-packages/pytz/tzinfo.py:27: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+    _epoch = datetime.utcfromtimestamp(0)
+
+backend/tests/gate1_boot_regression/test_drift_regression.py::test_pipeline_bazi_drift_regression
+  <string>:13: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+1 passed, 5 warnings in 1.20s
+
+$ ls -R openspec/changes/implement-versioning-and-boot-regression-v1/evidence/artifacts_t03/regression openspec/changes/implement-versioning-and-boot-regression-v1/evidence/artifacts_t03/versioning
+openspec/changes/implement-versioning-and-boot-regression-v1/evidence/artifacts_t03/regression:
+actual_summary.json
+baseline_summary.json
+deviation_report.json
+
+openspec/changes/implement-versioning-and-boot-regression-v1/evidence/artifacts_t03/versioning:
+version_manifest.json
+
+$ PYTHONPATH=. .venv/bin/python -c '<inspect deviation_report corpus_release_id>'
+version_id= ver_b23a6a8439c0
+baseline_version_id= ver_d9d5dacd8168
+drift.corpus_release_id= cr_b23a6a8439c0

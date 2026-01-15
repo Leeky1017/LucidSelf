@@ -1,0 +1,914 @@
+{
+  "generated_at": "2025-11-30 22:14:39.689948",
+  "total_books": 23,
+  "successful_books": 23,
+  "failed_books": 0,
+  "book_stats": [
+    {
+      "book_id": "78_degrees_of_wisdom",
+      "snippet_count": 58,
+      "node_count": 58,
+      "edge_count": 78791,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.9998451599802006,
+        "condition_coverage": 1.0,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 1.0
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 78765,
+        "factor_semantic": 4,
+        "sequential_order": 22
+      },
+      "cluster_level_breakdown": {
+        "L1": 58
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": []
+    },
+    {
+      "book_id": "astrology_of_personality",
+      "snippet_count": 298,
+      "node_count": 298,
+      "edge_count": 1658,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.911097708082027,
+        "condition_coverage": 0.16216216216216217,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 1.0
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 1358,
+        "factor_semantic": 12,
+        "condition_dependency": 1,
+        "sequential_order": 287
+      },
+      "cluster_level_breakdown": {
+        "L2": 72,
+        "L1": 226
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.16 < 0.6"
+      ]
+    },
+    {
+      "book_id": "christian_astrology,_vol._1_and_2",
+      "snippet_count": 58,
+      "node_count": 58,
+      "edge_count": 152,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.8881578947368421,
+        "condition_coverage": 0.0,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 0.5344827586206896
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 118,
+        "sequential_order": 34
+      },
+      "cluster_level_breakdown": {
+        "L1": 36,
+        "L2": 22
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.00 < 0.6",
+        "node_homogeneity: 0.53 < 0.8",
+        "overall: 0.73 < 0.75"
+      ]
+    },
+    {
+      "book_id": "dreams_visions_symbol_dictionary",
+      "snippet_count": 490,
+      "node_count": 490,
+      "edge_count": 8003,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.9778458078220666,
+        "condition_coverage": 0.1875,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 0.9489795918367347
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 7648,
+        "factor_semantic": 1,
+        "sequential_order": 354
+      },
+      "cluster_level_breakdown": {
+        "L2": 82,
+        "L1": 408
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.19 < 0.6"
+      ]
+    },
+    {
+      "book_id": "learning_the_tarot",
+      "snippet_count": 172,
+      "node_count": 172,
+      "edge_count": 383,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.7007832898172296,
+        "condition_coverage": 0.16666666666666666,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 1.0
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 85,
+        "factor_semantic": 169,
+        "condition_dependency": 3,
+        "sequential_order": 126
+      },
+      "cluster_level_breakdown": {
+        "L1": 141,
+        "L2": 31
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.17 < 0.6"
+      ]
+    },
+    {
+      "book_id": "llewellyns_complete_dictionary_of_dreams",
+      "snippet_count": 47,
+      "node_count": 47,
+      "edge_count": 75,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.8893333333333334,
+        "condition_coverage": 1.0,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 1.0
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 58,
+        "factor_semantic": 1,
+        "sequential_order": 16
+      },
+      "cluster_level_breakdown": {
+        "L1": 47
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": []
+    },
+    {
+      "book_id": "planets_in_transit",
+      "snippet_count": 695,
+      "node_count": 695,
+      "edge_count": 58248,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.7370622167281949,
+        "condition_coverage": 0.125,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 0.9971223021582734
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 7456,
+        "factor_semantic": 50333,
+        "condition_dependency": 69,
+        "sequential_order": 390
+      },
+      "cluster_level_breakdown": {
+        "L2": 75,
+        "L1": 620
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.12 < 0.6"
+      ]
+    },
+    {
+      "book_id": "tetrabiblos",
+      "snippet_count": 85,
+      "node_count": 85,
+      "edge_count": 552,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.9797101449275366,
+        "condition_coverage": 0.0,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 0.7176470588235294
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 528,
+        "factor_semantic": 3,
+        "condition_dependency": 1,
+        "sequential_order": 20
+      },
+      "cluster_level_breakdown": {
+        "L2": 19,
+        "L1": 66
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.00 < 0.6",
+        "node_homogeneity: 0.72 < 0.8"
+      ]
+    },
+    {
+      "book_id": "the_archetypes_and_the_collective_unconscious",
+      "snippet_count": 292,
+      "node_count": 292,
+      "edge_count": 10187,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.8306763522135319,
+        "condition_coverage": 0.037037037037037035,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 0.8424657534246576
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 4544,
+        "factor_semantic": 5434,
+        "condition_dependency": 49,
+        "sequential_order": 160
+      },
+      "cluster_level_breakdown": {
+        "L1": 292
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.04 < 0.6",
+        "overall: 0.75 < 0.75"
+      ]
+    },
+    {
+      "book_id": "the_astrological_houses",
+      "snippet_count": 36,
+      "node_count": 36,
+      "edge_count": 124,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.9435483870967742,
+        "condition_coverage": 0.2,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 0.5277777777777778
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 110,
+        "sequential_order": 14
+      },
+      "cluster_level_breakdown": {
+        "L2": 18,
+        "L1": 18
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.20 < 0.6",
+        "node_homogeneity: 0.53 < 0.8"
+      ]
+    },
+    {
+      "book_id": "the_book_of_thoth",
+      "snippet_count": 109,
+      "node_count": 109,
+      "edge_count": 2187,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.9967992684042063,
+        "condition_coverage": 0.0,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 1.0
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 2171,
+        "factor_semantic": 5,
+        "sequential_order": 11
+      },
+      "cluster_level_breakdown": {
+        "L2": 106,
+        "L1": 3
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.00 < 0.6"
+      ]
+    },
+    {
+      "book_id": "the_inner_sky",
+      "snippet_count": 163,
+      "node_count": 163,
+      "edge_count": 8247,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.9953195101248923,
+        "condition_coverage": 0.14814814814814814,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 0.7914110429447853
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 8143,
+        "factor_semantic": 67,
+        "sequential_order": 37
+      },
+      "cluster_level_breakdown": {
+        "L2": 129,
+        "L1": 34
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.15 < 0.6",
+        "node_homogeneity: 0.79 < 0.8"
+      ]
+    },
+    {
+      "book_id": "the_interpretation_of_dreams",
+      "snippet_count": 51,
+      "node_count": 51,
+      "edge_count": 113,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.7575221238938058,
+        "condition_coverage": 0.2,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 0.7450980392156863
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 51,
+        "factor_semantic": 15,
+        "condition_dependency": 3,
+        "sequential_order": 44
+      },
+      "cluster_level_breakdown": {
+        "L1": 13,
+        "L2": 38
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.20 < 0.6",
+        "node_homogeneity: 0.75 < 0.8"
+      ]
+    },
+    {
+      "book_id": "waite_pictorial_key_to_the_tarot",
+      "snippet_count": 66,
+      "node_count": 66,
+      "edge_count": 354,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.909604519774009,
+        "condition_coverage": 1.0,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 1.0
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 262,
+        "factor_semantic": 70,
+        "sequential_order": 22
+      },
+      "cluster_level_breakdown": {
+        "L1": 66
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": []
+    },
+    {
+      "book_id": "三命通会",
+      "snippet_count": 681,
+      "node_count": 681,
+      "edge_count": 90859,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.9945376902673184,
+        "condition_coverage": 0.0,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 0.5242290748898678
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 89630,
+        "factor_semantic": 591,
+        "sequential_order": 638
+      },
+      "cluster_level_breakdown": {
+        "L1": 632,
+        "L2": 49
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.00 < 0.6",
+        "node_homogeneity: 0.52 < 0.8"
+      ]
+    },
+    {
+      "book_id": "周公解梦",
+      "snippet_count": 953,
+      "node_count": 953,
+      "edge_count": 58949,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.6998999134843694,
+        "condition_coverage": 1.0,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 1.0
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 411,
+        "factor_semantic": 57892,
+        "sequential_order": 646
+      },
+      "cluster_level_breakdown": {
+        "L2": 953
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "reasoning_coherence: 0.70 < 0.7"
+      ]
+    },
+    {
+      "book_id": "周易",
+      "snippet_count": 580,
+      "node_count": 580,
+      "edge_count": 10905,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.7190829894542499,
+        "condition_coverage": 0.1625615763546798,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 0.9948275862068966
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 783,
+        "factor_semantic": 9681,
+        "condition_dependency": 307,
+        "sequential_order": 134
+      },
+      "cluster_level_breakdown": {
+        "L1": 194,
+        "L2": 386
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.16 < 0.6"
+      ]
+    },
+    {
+      "book_id": "子平真诠",
+      "snippet_count": 426,
+      "node_count": 426,
+      "edge_count": 4856,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.9448723228994972,
+        "condition_coverage": 0.15517241379310345,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 1.0
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 4229,
+        "factor_semantic": 218,
+        "condition_dependency": 11,
+        "sequential_order": 398
+      },
+      "cluster_level_breakdown": {
+        "L1": 103,
+        "L2": 309,
+        "L3": 14
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.16 < 0.6"
+      ]
+    },
+    {
+      "book_id": "梦林玄解",
+      "snippet_count": 78,
+      "node_count": 78,
+      "edge_count": 559,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.7329159212880072,
+        "condition_coverage": 1.0,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 0.8974358974358975
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 100,
+        "factor_semantic": 401,
+        "sequential_order": 58
+      },
+      "cluster_level_breakdown": {
+        "L1": 57,
+        "L2": 21
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": []
+    },
+    {
+      "book_id": "渊海子平",
+      "snippet_count": 533,
+      "node_count": 533,
+      "edge_count": 24166,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.9871844740544667,
+        "condition_coverage": 0.19661016949152543,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 0.9962476547842402
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 23413,
+        "factor_semantic": 273,
+        "condition_dependency": 61,
+        "sequential_order": 419
+      },
+      "cluster_level_breakdown": {
+        "L2": 530,
+        "L1": 3
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.20 < 0.6"
+      ]
+    },
+    {
+      "book_id": "滴天髓",
+      "snippet_count": 142,
+      "node_count": 142,
+      "edge_count": 3390,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.7924188790560202,
+        "condition_coverage": 0.0,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 0.29577464788732394
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 1115,
+        "factor_semantic": 2136,
+        "condition_dependency": 33,
+        "sequential_order": 106
+      },
+      "cluster_level_breakdown": {
+        "L1": 102,
+        "L2": 40
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.00 < 0.6",
+        "node_homogeneity: 0.30 < 0.8",
+        "overall: 0.68 < 0.75"
+      ]
+    },
+    {
+      "book_id": "穷通宝鉴",
+      "snippet_count": 286,
+      "node_count": 286,
+      "edge_count": 101403,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.9912142638777119,
+        "condition_coverage": 0.2376237623762376,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 0.6923076923076923
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 98470,
+        "factor_semantic": 2362,
+        "condition_dependency": 516,
+        "sequential_order": 55
+      },
+      "cluster_level_breakdown": {
+        "L2": 194,
+        "L1": 92
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.24 < 0.6",
+        "node_homogeneity: 0.69 < 0.8"
+      ]
+    },
+    {
+      "book_id": "紫微斗数全书",
+      "snippet_count": 7,
+      "node_count": 7,
+      "edge_count": 64,
+      "coverage": 1.0,
+      "quality_report": {
+        "connectivity": 1.0,
+        "orphan_ratio": 0.0,
+        "reasoning_coherence": 0.9625000000000004,
+        "condition_coverage": 0.5,
+        "argument_completeness": 1.0,
+        "node_homogeneity": 1.0
+      },
+      "edge_inference_breakdown": {
+        "explicit_relation": 56,
+        "factor_semantic": 6,
+        "condition_dependency": 2
+      },
+      "cluster_level_breakdown": {
+        "L1": 7
+      },
+      "status": "success",
+      "error_message": null,
+      "threshold_failures": [
+        "condition_coverage: 0.50 < 0.6"
+      ]
+    }
+  ],
+  "edge_inference_breakdown": {
+    "explicit_relation": 329504,
+    "factor_semantic": 129674,
+    "condition_dependency": 1056,
+    "sequential_order": 3991,
+    "orphan_fix": 0
+  },
+  "cluster_level_breakdown": {
+    "L1": 3218,
+    "L2": 3074,
+    "L3": 14
+  },
+  "threshold_failures": [
+    {
+      "book_id": "astrology_of_personality",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review astrology_of_personality quality metrics"
+    },
+    {
+      "book_id": "christian_astrology,_vol._1_and_2",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review christian_astrology,_vol._1_and_2 quality metrics"
+    },
+    {
+      "book_id": "christian_astrology,_vol._1_and_2",
+      "metric": "node_homogeneity",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review christian_astrology,_vol._1_and_2 quality metrics"
+    },
+    {
+      "book_id": "christian_astrology,_vol._1_and_2",
+      "metric": "overall",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review christian_astrology,_vol._1_and_2 quality metrics"
+    },
+    {
+      "book_id": "dreams_visions_symbol_dictionary",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review dreams_visions_symbol_dictionary quality metrics"
+    },
+    {
+      "book_id": "learning_the_tarot",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review learning_the_tarot quality metrics"
+    },
+    {
+      "book_id": "planets_in_transit",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review planets_in_transit quality metrics"
+    },
+    {
+      "book_id": "tetrabiblos",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review tetrabiblos quality metrics"
+    },
+    {
+      "book_id": "tetrabiblos",
+      "metric": "node_homogeneity",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review tetrabiblos quality metrics"
+    },
+    {
+      "book_id": "the_archetypes_and_the_collective_unconscious",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review the_archetypes_and_the_collective_unconscious quality metrics"
+    },
+    {
+      "book_id": "the_archetypes_and_the_collective_unconscious",
+      "metric": "overall",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review the_archetypes_and_the_collective_unconscious quality metrics"
+    },
+    {
+      "book_id": "the_astrological_houses",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review the_astrological_houses quality metrics"
+    },
+    {
+      "book_id": "the_astrological_houses",
+      "metric": "node_homogeneity",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review the_astrological_houses quality metrics"
+    },
+    {
+      "book_id": "the_book_of_thoth",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review the_book_of_thoth quality metrics"
+    },
+    {
+      "book_id": "the_inner_sky",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review the_inner_sky quality metrics"
+    },
+    {
+      "book_id": "the_inner_sky",
+      "metric": "node_homogeneity",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review the_inner_sky quality metrics"
+    },
+    {
+      "book_id": "the_interpretation_of_dreams",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review the_interpretation_of_dreams quality metrics"
+    },
+    {
+      "book_id": "the_interpretation_of_dreams",
+      "metric": "node_homogeneity",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review the_interpretation_of_dreams quality metrics"
+    },
+    {
+      "book_id": "三命通会",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review 三命通会 quality metrics"
+    },
+    {
+      "book_id": "三命通会",
+      "metric": "node_homogeneity",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review 三命通会 quality metrics"
+    },
+    {
+      "book_id": "周公解梦",
+      "metric": "reasoning_coherence",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review 周公解梦 quality metrics"
+    },
+    {
+      "book_id": "周易",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review 周易 quality metrics"
+    },
+    {
+      "book_id": "子平真诠",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review 子平真诠 quality metrics"
+    },
+    {
+      "book_id": "渊海子平",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review 渊海子平 quality metrics"
+    },
+    {
+      "book_id": "滴天髓",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review 滴天髓 quality metrics"
+    },
+    {
+      "book_id": "滴天髓",
+      "metric": "node_homogeneity",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review 滴天髓 quality metrics"
+    },
+    {
+      "book_id": "滴天髓",
+      "metric": "overall",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review 滴天髓 quality metrics"
+    },
+    {
+      "book_id": "穷通宝鉴",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review 穷通宝鉴 quality metrics"
+    },
+    {
+      "book_id": "穷通宝鉴",
+      "metric": "node_homogeneity",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review 穷通宝鉴 quality metrics"
+    },
+    {
+      "book_id": "紫微斗数全书",
+      "metric": "condition_coverage",
+      "actual_value": 0.0,
+      "threshold": 0.0,
+      "remediation": "Review 紫微斗数全书 quality metrics"
+    }
+  ],
+  "average_quality": {
+    "connectivity": 1.0,
+    "orphan_ratio": 0.0,
+    "reasoning_coherence": 0.8844318335354907,
+    "condition_coverage": 0.3251513885230244,
+    "argument_completeness": 1.0,
+    "node_homogeneity": 0.8480785599266981
+  }
+}

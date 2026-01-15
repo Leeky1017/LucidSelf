@@ -1,0 +1,4 @@
+$ PYTHONPATH=. .venv/bin/python - <<PY
+org_id_field True
+org_id_pattern ^org_[a-z0-9]{12}$
+derived_org_id org_aaaaaaaaaaaa

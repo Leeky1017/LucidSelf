@@ -1,0 +1,620 @@
+book_id: the_astrological_houses
+extracted_at: '2025-11-30T22:15:00.000000'
+snippets:
+- extracted_at: '2025-11-30 22:05:52.330883'
+  factor_trigger: the_astr_locality_center
+  role: 主干
+  snippet_id: ns_houses_001
+  snippet_text: Archaic astrology was locality-centered, bounded by the horizon of
+    a particular place, reflecting tribal consciousness rooted in the soil.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Source Text
+  trigger: locality_centered
+- extracted_at: '2025-11-30 22:05:52.330929'
+  factor_trigger: the_astr_globe_centered
+  role: 主干依赖
+  snippet_id: ns_houses_002
+  snippet_text: Modern astrology is globe-centered, using a rational horizon through
+    Earth's center, reflecting mobile consciousness of individualized humanity.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Source Text
+  trigger: globe_centered
+- extracted_at: '2025-11-30 22:05:52.330940'
+  factor_trigger: the_astr_consciousness_e
+  role: 条件分支
+  snippet_id: ns_houses_003
+  snippet_text: This shift represents the evolution from collective tribal identity
+    to individualized self-awareness transcending geographic boundaries.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: consciousness_evolution
+- extracted_at: '2025-11-30 22:05:52.330964'
+  factor_trigger: the_astr_eight_watches
+  role: 主干
+  snippet_id: ns_houses_004
+  snippet_text: The archaic house system divided the day into eight three-hour 'watches'
+    following the Sun's path clockwise.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Source Text
+  trigger: eight_watches
+- extracted_at: '2025-11-30 22:05:52.330972'
+  factor_trigger: the_astr_vitalistic_syst
+  role: 主干依赖
+  snippet_id: ns_houses_005
+  snippet_text: This vitalistic system reflected agricultural rhythms and solar life-force.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Source Text
+  trigger: vitalistic_system
+- extracted_at: '2025-11-30 22:05:52.330981'
+  factor_trigger: the_astr_clockwise_solar
+  role: 条件分支
+  snippet_id: ns_houses_006
+  snippet_text: Clockwise direction follows the Sun's apparent path—representing the
+    vitalistic, life-centered cosmology.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: clockwise_solar
+- extracted_at: '2025-11-30 22:05:52.330998'
+  factor_trigger: the_astr_counterclockwis
+  role: 主干
+  snippet_id: ns_rudhyar_007
+  snippet_text: Modern astrology proceeds counterclockwise from Ascendant—opposite
+    to Sun's apparent motion—reflecting Earth's rotation perspective.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Source Text
+  trigger: counterclockwise
+- extracted_at: '2025-11-30 22:05:52.331007'
+  factor_trigger: the_astr_psychomental
+  role: 主干依赖
+  snippet_id: ns_rudhyar_008
+  snippet_text: This reversal symbolizes the psychomental rhythm opposing the vitalistic—mental/psychological
+    development takes precedence.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Source Text
+  trigger: psychomental
+- extracted_at: '2025-11-30 22:05:52.331015'
+  factor_trigger: the_astr_consciousness_u
+  role: 条件分支
+  snippet_id: ns_rudhyar_009
+  snippet_text: Individual consciousness unfolds from Ascendant through Midheaven
+    to Descendant to IC, creating person-centered framework.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Source Text
+  trigger: consciousness_unfolds
+- extracted_at: '2025-11-30 22:05:52.331025'
+  factor_trigger: the_astr_twelve_arenas
+  role: 总结
+  snippet_id: ns_rudhyar_010
+  snippet_text: 'Twelve houses map psychological life arenas: self-image, resources,
+    communication, home, creativity, work, partnership, transformation, philosophy,
+    career, community, transcendence.'
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: twelve_arenas
+- extracted_at: '2025-11-30 22:05:52.331044'
+  factor_trigger: the_astr_cross_of_matter
+  role: 主干
+  snippet_id: ns_rudhyar_011
+  snippet_text: The four angles create the 'cross of matter,' the cardinal points
+    that are the most powerful positions in any natal chart.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Source Text
+  trigger: cross_of_matter
+- extracted_at: '2025-11-30 22:05:52.331052'
+  factor_trigger: the_astr_horizon_axis
+  role: 主干依赖
+  snippet_id: ns_rudhyar_012
+  snippet_text: The Ascendant and Descendant form the horizon axis—self vs other,
+    birth vs relationship.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Source Text
+  trigger: horizon_axis
+- extracted_at: '2025-11-30 22:05:52.331090'
+  factor_trigger: the_astr_meridian_axis
+  role: 条件分支
+  snippet_id: ns_rudhyar_013
+  snippet_text: The Midheaven and Imum Coeli form the meridian axis—public culmination
+    vs private foundation.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Source Text
+  trigger: meridian_axis
+- extracted_at: '2025-11-30 22:05:52.331106'
+  factor_trigger: the_astr_four_orientatio
+  role: 总结
+  snippet_id: ns_rudhyar_014
+  snippet_text: 'Four fundamental orientations of embodied existence: birth/self (Asc),
+    culmination/achievement (MC), relationship/other (Desc), roots/foundation (IC).'
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: four_orientations
+- extracted_at: '2025-11-30 22:05:52.331123'
+  factor_trigger: the_astr_zodiac_celestia
+  role: 主干
+  snippet_id: ns_houses_007
+  snippet_text: The zodiac is the celestial/orbital frame—Earth's yearly journey around
+    the Sun defining twelve spatial sectors of cosmic qualities.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: zodiac_celestial
+- extracted_at: '2025-11-30 22:05:52.331132'
+  factor_trigger: the_astr_houses_terrestr
+  role: 主干依赖
+  snippet_id: ns_houses_008
+  snippet_text: The houses are the terrestrial/rotational frame—Earth's daily spin
+    dividing experience into twelve temporal life arenas.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: houses_terrestrial
+- extracted_at: '2025-11-30 22:05:52.331141'
+  factor_trigger: the_astr_sky_earth_polar
+  role: 条件分支
+  snippet_id: ns_houses_009
+  snippet_text: 'Zodiac and houses form a sky–earth polarity: signs express heavenly
+    potential, houses show earthly manifestation.'
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: sky_earth_polarity
+- extracted_at: '2025-11-30 22:05:52.331150'
+  factor_trigger: the_astr_how_vs_where
+  role: 总结
+  snippet_id: ns_houses_010
+  snippet_text: In interpretation, signs describe how a planet's energy behaves, while
+    houses reveal where in life that energy concretely plays out.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: how_vs_where
+- extracted_at: '2025-11-30 22:05:52.331165'
+  factor_trigger: zodiac_type
+  role: 主干
+  snippet_id: ns_rudhyar_zodiac_001
+  snippet_text: The sidereal zodiac aligns with actual star constellations, treating
+    them as cosmic hierarchies channeling galactic energies—a pantheistic view where
+    multiple divine powers operate through stellar configurations.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: The Astrological Houses Zodiac
+  trigger: sidereal_tropical
+- extracted_at: '2025-11-30 22:05:52.331174'
+  factor_trigger: tropical
+  role: 主干依赖
+  snippet_id: ns_rudhyar_zodiac_002
+  snippet_text: The tropical zodiac uses Earth's orbital relationship to the Sun measured
+    by equinoxes and solstices—a monotheistic view where the Sun alone is divine center.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: The Astrological Houses Zodiac
+  trigger: tropical_zodiac
+- extracted_at: '2025-11-30 22:05:52.331183'
+  factor_trigger: precession
+  role: 条件分支
+  snippet_id: ns_rudhyar_zodiac_003
+  snippet_text: Due to precession, the sidereal and tropical zodiacs have drifted
+    23° apart over two millennia. This is a philosophical choice, not merely technical.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: The Astrological Houses Zodiac
+  trigger: precession
+- extracted_at: '2025-11-30 22:05:52.331197'
+  factor_trigger: monotheistic
+  role: 主干
+  snippet_id: ns_rudhyar_theology_001
+  snippet_text: Monotheistic astrology treats the Sun as singular divine source, with
+    twelve signs representing twelve "soul avenues" for individual spiritual development
+    in dialogue with one divinity.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: The Astrological Houses Theology
+  trigger: monotheistic_astrology
+- extracted_at: '2025-11-30 22:05:52.331205'
+  factor_trigger: pantheistic
+  role: 主干依赖
+  snippet_id: ns_rudhyar_theology_002
+  snippet_text: Pantheistic astrology treats twelve constellations as multiple cosmic
+    hierarchies, each channeling distinct galactic energies, with Sun functioning
+    as intermediary lens rather than source.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: The Astrological Houses Theology
+  trigger: pantheistic_astrology
+- extracted_at: '2025-11-30 22:05:52.331214'
+  factor_trigger: zodiac_philosophy
+  role: 总结
+  snippet_id: ns_rudhyar_theology_003
+  snippet_text: 'These represent fundamentally incompatible cosmologies: individual
+    soul-divine dialogue (monotheistic/tropical) vs complex weaving of multiple divine
+    powers through stellar hierarchies (pantheistic/sidereal).'
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: The Astrological Houses Theology
+  trigger: cosmology_choice
+- extracted_at: '2025-11-30 22:05:52.331228'
+  factor_trigger: house_1
+  role: 主干
+  snippet_id: ns_rudhyar_h1_001
+  snippet_text: The first house, marked by the Ascendant, represents the point of
+    birth and the dawn of consciousness. It governs self-image, personality expression,
+    and how others perceive you upon first encounter.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: The Astrological Houses H1
+  trigger: house_1
+- extracted_at: '2025-11-30 22:05:52.331235'
+  factor_trigger: house_1 AND asc
+  role: 主干依赖
+  snippet_id: ns_rudhyar_h1_002
+  snippet_text: The Ascendant symbolizes the moment of incarnation when spirit enters
+    material form at birth. It rules the mask or persona we present to the world.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: The Astrological Houses H1
+  trigger: house_1 AND ascendant
+- extracted_at: '2025-11-30 22:05:52.331243'
+  factor_trigger: house_1 AND angular
+  role: 总结
+  snippet_id: ns_rudhyar_h1_003
+  snippet_text: As an angular house paralleling Aries' cardinal fire quality, the
+    first house manifests as personal initiative, courageous self-assertion, and the
+    pioneering impulse to begin new cycles.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: The Astrological Houses H1
+  trigger: house_1 AND angular
+- extracted_at: '2025-11-30 22:05:52.331264'
+  factor_trigger: house_2 AND transcendence
+  role: 总结
+  snippet_id: ns_houses_011
+  snippet_text: At the highest level, the individual realizes he himself is the ultimate
+    possession to surrender on the altar of human evolution.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 2 Source
+  trigger: house_2 AND spiritual
+- extracted_at: '2025-11-30 22:05:52.331276'
+  factor_trigger: house_3
+  role: 主干
+  snippet_id: ns_houses_012
+  snippet_text: Intelligence is the capacity to come to terms with any environment—first
+    physical, then psychic—and to adjust to its demands and eventually transform it.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 3 Source
+  trigger: house_3
+- extracted_at: '2025-11-30 22:05:52.331283'
+  factor_trigger: house_3 AND cognition
+  role: 条件分支
+  snippet_id: ns_houses_013
+  snippet_text: Third house understanding is empirical, behaviorist, pragmatic—the
+    mind of the specialist wanting to know 'how to' for practical reasons.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 3 Source
+  trigger: house_3 AND mind
+- extracted_at: '2025-11-30 22:05:52.331295'
+  factor_trigger: house_4 OR ic
+  role: 主干
+  snippet_id: ns_houses_014
+  snippet_text: In the fourth house the person should reach the experience of center—the
+    center of his own total personality as well as the center of global humanity.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 4 Source
+  trigger: house_4
+- extracted_at: '2025-11-30 22:05:52.331302'
+  factor_trigger: house_4 AND personality
+  role: 主干依赖
+  snippet_id: ns_houses_015
+  snippet_text: Personality is more than a biopsychic organism; it can be considered
+    an engine able to release power for work—this power is generated through fourth
+    house integration.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 4 Source
+  trigger: house_4 AND integration
+- extracted_at: '2025-11-30 22:05:52.331314'
+  factor_trigger: house_5
+  role: 主干
+  snippet_id: ns_houses_016
+  snippet_text: Creativity is referred to the fifth house because to create is to
+    impress upon one's community characteristics of one's own personality—to make
+    one's mark upon society.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 5 Source
+  trigger: house_5
+- extracted_at: '2025-11-30 22:05:52.331322'
+  factor_trigger: house_5 AND dharma
+  role: 条件分支
+  snippet_id: ns_houses_017
+  snippet_text: The fifth house test involves purity of motive—to be pure is to be
+    exclusively what one is as a unique individual in terms of one's destiny.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 5 Source
+  trigger: house_5 AND purity
+- extracted_at: '2025-11-30 22:05:52.331334'
+  factor_trigger: house_6
+  role: 主干
+  snippet_id: ns_houses_018
+  snippet_text: The sixth house represents everything dealing with personal crises
+    and shows how an individual can grow and become transformed.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 6 Source
+  trigger: house_6
+- extracted_at: '2025-11-30 22:05:52.331342'
+  factor_trigger: house_6 AND discipleship
+  role: 条件分支
+  snippet_id: ns_houses_019
+  snippet_text: True discipleship means being subjected to the contagion of example
+    from a master who can use skill in times of crisis—receiving power to transform
+    one's approach to life.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 6 Source
+  trigger: house_6 AND service
+- extracted_at: '2025-11-30 22:05:52.331354'
+  factor_trigger: house_7 OR descendant
+  role: 主干
+  snippet_id: ns_houses_020
+  snippet_text: The seventh house deals with experiences based upon sustained modes
+    of relationship—the cooperators should feel their operation serves a purpose within
+    a larger unit.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 7 Source
+  trigger: house_7
+- extracted_at: '2025-11-30 22:05:52.331362'
+  factor_trigger: house_7 AND dynamics
+  role: 主干依赖
+  snippet_id: ns_houses_021
+  snippet_text: The seventh house is potentially the most dynamic of all houses—it
+    is here that the person can be most basically transformed through relationship.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 7 Source
+  trigger: house_7 AND transformation
+- extracted_at: '2025-11-30 22:05:52.331374'
+  factor_trigger: house_8
+  role: 主干
+  snippet_id: ns_houses_022
+  snippet_text: The eighth house refers to the possessions of the relationship—what
+    is available to become an operative factor in society, based on trust, management,
+    and responsibility.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 8 Source
+  trigger: house_8
+- extracted_at: '2025-11-30 22:05:52.331381'
+  factor_trigger: house_8 AND karma
+  role: 总结
+  snippet_id: ns_houses_023
+  snippet_text: In eighth house experiences a person makes the deepest choices affecting
+    not only the individual but society—every man is responsible for the whole of
+    mankind.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 8 Source
+  trigger: house_8 AND responsibility
+- extracted_at: '2025-11-30 22:05:52.331393'
+  factor_trigger: house_9
+  role: 主干
+  snippet_id: ns_houses_024
+  snippet_text: Ninth house experiences are those encountered in the search for the
+    meaning of things—understanding is a holistic process implying the experience
+    of a people and their culture.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 9 Source
+  trigger: house_9
+- extracted_at: '2025-11-30 22:05:52.331400'
+  factor_trigger: house_9 AND interpretation
+  role: 条件分支
+  snippet_id: ns_houses_025
+  snippet_text: The ninth house is the house of symbols—all words, gestures, and artistic
+    expressions are symbols requiring interpretation against cultural background.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 9 Source
+  trigger: house_9 AND symbol
+- extracted_at: '2025-11-30 22:05:52.331419'
+  factor_trigger: house_10 OR mc
+  role: 主干
+  snippet_id: ns_houses_026
+  snippet_text: The tenth house is the house of achievement—first house potential
+    theoretically becomes actualized fully here through integration into the greater
+    whole.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 10 Source
+  trigger: house_10
+- extracted_at: '2025-11-30 22:05:52.331427'
+  factor_trigger: house_10 AND mastery
+  role: 总结
+  snippet_id: ns_houses_027
+  snippet_text: The Mastery seeks the one who will embody its qualities—the individual
+    aspires while the archetype descends to meet, Heaven uniting with Earth in the
+    transfigured person.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 10 Source
+  trigger: house_10 AND vocation
+- extracted_at: '2025-11-30 22:05:52.331439'
+  factor_trigger: house_11
+  role: 主干
+  snippet_id: ns_houses_028
+  snippet_text: In the eleventh house the power of society is released through the
+    individual—it is creation not of the individual but through them, as the Whole
+    works through a clear lens.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 11 Source
+  trigger: house_11
+- extracted_at: '2025-11-30 22:05:52.331447'
+  factor_trigger: house_11 AND transformation
+  role: 条件分支
+  snippet_id: ns_houses_029
+  snippet_text: The eleventh house is where the seed of a new day forms—the communion
+    of the few who together constitute the seed of transformation for society.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 11 Source
+  trigger: house_11 AND vision
+- extracted_at: '2025-11-30 22:05:52.331459'
+  factor_trigger: house_12
+  role: 主干
+  snippet_id: ns_houses_030
+  snippet_text: The twelfth house closes the cycle—the individual either consolidates
+    successes into seed for new cycle, or meets accumulated results of failures as
+    Guardian of the Threshold.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 12 Source
+  trigger: house_12
+- extracted_at: '2025-11-30 22:05:52.331466'
+  factor_trigger: house_12 AND transcendence
+  role: 总结
+  snippet_id: ns_houses_031
+  snippet_text: The twelfth house contains the seed of rebirth—only by letting go
+    of the lesser is it possible to be born into the greater, as the Tone of the new
+    cycle rings out clearly.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: House 12 Source
+  trigger: house_12 AND rebirth
+- extracted_at: '2025-11-30 22:05:52.331480'
+  factor_trigger: angular OR succedent OR cadent
+  role: 主干
+  snippet_id: ns_rudhyar_asc_001
+  snippet_text: 'The twelve houses are classified into three groups: Angular houses
+    (1,4,7,10) represent action and initiative; Succedent houses (2,5,8,11) represent
+    consolidation and substance; Cadent houses (3,6,9,12) represent distribution and
+    transition.'
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: The Astrological Houses Classification
+  trigger: house_classification
+- extracted_at: '2025-11-30 22:05:52.331488'
+  factor_trigger: houses_angular
+  role: 条件分支
+  snippet_id: ns_rudhyar_asc_002
+  snippet_text: Angular houses mark the cardinal cross—the four most powerful positions
+    in any natal chart. Planets here act with directness, initiating new phases of
+    life.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: The Astrological Houses Classification
+  trigger: angular_houses
+- extracted_at: '2025-11-30 22:05:52.331496'
+  factor_trigger: houses_succedent
+  role: 条件分支
+  snippet_id: ns_rudhyar_asc_003
+  snippet_text: Succedent houses follow the angular, consolidating what was initiated,
+    building substance, security, and resources.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: The Astrological Houses Classification
+  trigger: succedent_houses
+- extracted_at: '2025-11-30 22:05:52.331503'
+  factor_trigger: houses_cadent
+  role: 条件分支
+  snippet_id: ns_rudhyar_asc_004
+  snippet_text: Cadent houses precede the next angular, distributing energy outward,
+    preparing for transition, and processing experience.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: The Astrological Houses Classification
+  trigger: cadent_houses
+- extracted_at: '2025-11-30 22:05:52.331510'
+  factor_trigger: house_cycle
+  role: 总结
+  snippet_id: ns_rudhyar_asc_005
+  snippet_text: The threefold pattern—action, consolidation, distribution—repeats
+    four times around the chart, creating the rhythm that structures consciousness
+    unfoldment.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: The Astrological Houses Classification
+  trigger: threefold_cycle
+- extracted_at: '2025-11-30 22:05:52.331523'
+  factor_trigger: ascendant AND descendant
+  role: 主干
+  snippet_id: ns_houses_032
+  snippet_text: One cannot separate the way one sees oneself from the manner in which
+    one meets people—selfhood and relationship are interdependent aspects of one fundamental
+    drive.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Polarity Principle
+  trigger: polarity_principle
+- extracted_at: '2025-11-30 22:05:52.331531'
+  factor_trigger: horizon OR meridian
+  role: 主干依赖
+  snippet_id: ns_houses_033
+  snippet_text: To define the meaning of one end of an axis without including the
+    meaning of the other simply does not make sense—both ends constantly interact.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Polarity Principle
+  trigger: axis_interpretation
+- extracted_at: '2025-11-30 22:05:52.331555'
+  factor_trigger: uranus_cycle
+  role: 主干
+  snippet_id: ns_houses_034
+  snippet_text: 'Each 28-year cycle represents passage through all twelve houses at
+    a distinct level: physical (0-28), psychomental (28-56), spiritual (56-84).'
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Three-Level Cycle
+  trigger: three_level_cycle
+- extracted_at: '2025-11-30 22:05:52.331562'
+  factor_trigger: ascendant_progression
+  role: 条件分支
+  snippet_id: ns_houses_035
+  snippet_text: The Point of Self moves counterclockwise, reaching each angle at 7-year
+    intervals, contacting natal planets and catalyzing consciousness changes.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Three-Level Cycle
+  trigger: point_of_self
+- extracted_at: '2025-11-30 22:05:52.331576'
+  factor_trigger: interpretation_approach
+  role: 主干
+  snippet_id: ns_houses_036
+  snippet_text: Should we approach the chart first as a whole having a definite 'form'—a
+    complex 'word' revealing meaning—or assign definite meanings to each factor considered
+    separately?
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Epilogue
+  trigger: methodology
+- extracted_at: '2025-11-30 22:05:52.331583'
+  factor_trigger: existence_potential
+  role: 总结
+  snippet_id: ns_houses_037
+  snippet_text: Houses exist in space as archetypal potentialities, but require time
+    for actualization—space represents potential; time actualizes through experience.
+  source_book: the_astrological_houses
+  source_chapter: null
+  source_ref: Epilogue
+  trigger: space_time
+source_file: /home/leeky/work/LucidSelf/典籍/texts/The Astrological Houses/编辑/House_Philosophy_12Houses.md,
+  /home/leeky/work/LucidSelf/典籍/texts/The Astrological Houses/编辑/House_Philosophy_12Houses_v2.1.md,
+  /home/leeky/work/LucidSelf/典籍/texts/The Astrological Houses/编辑/README.md

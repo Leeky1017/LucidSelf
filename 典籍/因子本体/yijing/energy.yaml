@@ -1,0 +1,61 @@
+# 周易体系 - 能量/情绪类因子
+# Energy/Emotion factors for YiJing system
+
+factors:
+  # 阴阳能量
+  - id: yijing_yang_energy
+    status: existing
+    display_zh: 阳能量
+    display_en: Yang Energy
+    description_zh: 卦中阳性能量的强度
+    description_en: Strength of yang energy in hexagram
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [yijing]
+
+  - id: yijing_yin_energy
+    status: existing
+    display_zh: 阴能量
+    display_en: Yin Energy
+    description_zh: 卦中阴性能量的强度
+    description_en: Strength of yin energy in hexagram
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [yijing]
+
+  # 动静能量
+  - id: yijing_movement_energy
+    status: existing
+    display_zh: 动能
+    display_en: Movement Energy
+    description_zh: 卦象整体的变化动能
+    description_en: Overall change momentum of hexagram
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [yijing]
+
+  - id: yijing_stillness_energy
+    status: existing
+    display_zh: 静能
+    display_en: Stillness Energy
+    description_zh: 卦象整体的稳定静能
+    description_en: Overall stability energy of hexagram
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [yijing]
+
+  # 张力
+  - id: yijing_internal_tension
+    status: existing
+    display_zh: 内部张力
+    display_en: Internal Tension
+    description_zh: 卦内各爻之间的冲突张力
+    description_en: Conflict tension between lines
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [yijing]

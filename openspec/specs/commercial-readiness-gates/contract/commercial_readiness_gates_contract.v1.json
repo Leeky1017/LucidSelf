@@ -1,0 +1,63 @@
+{
+  "contract_id": "commercial-readiness-gates",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["version_id"],
+  "entities": [
+    {
+      "name": "ReadinessChecklist",
+      "description": "就绪清单（最小字段集合）",
+      "fields": [
+        { "name": "checklist_id", "type": "string", "required": true, "notes": "清单标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识（门禁决策基准）" },
+        { "name": "gate", "type": "string", "required": true, "notes": "Gate 标识（例如 Gate-3）" },
+        { "name": "items", "type": "array<object>", "required": true, "notes": "清单项集合（结构化）" },
+        { "name": "status", "type": "string", "required": true, "notes": "PASS/BLOCK（口径固定）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ApprovalRecord",
+      "description": "审批记录（最小字段集合）",
+      "fields": [
+        { "name": "approval_id", "type": "string", "required": true, "notes": "审批标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "approver_role", "type": "string", "required": true, "notes": "审批角色（口径固定）" },
+        { "name": "approver_id", "type": "string", "required": false, "notes": "审批人标识（必须脱敏/最小化）" },
+        { "name": "decision", "type": "string", "required": true, "notes": "APPROVE/REJECT（口径固定）" },
+        { "name": "reason", "type": "string", "required": false, "notes": "审批原因摘要（不得包含敏感原文）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "SupportAndIncidentPlan",
+      "description": "支持与应急预案（最小字段集合）",
+      "fields": [
+        { "name": "plan_id", "type": "string", "required": true, "notes": "预案标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "oncall_ref", "type": "string", "required": true, "notes": "值班/支持引用（口径固定/可审计）" },
+        { "name": "escalation_ref", "type": "string", "required": true, "notes": "升级链引用（口径固定/可审计）" },
+        { "name": "runbook_ref", "type": "string", "required": true, "notes": "运行手册引用（口径固定/可审计）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ReleaseLicenseEvidence",
+      "description": "发布许可证据（最小字段集合）",
+      "fields": [
+        { "name": "evidence_id", "type": "string", "required": true, "notes": "证据标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "artifacts", "type": "array<object>", "required": true, "notes": "证据产物清单（结构化引用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "OUTPUT_SCHEMA_INVALID", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

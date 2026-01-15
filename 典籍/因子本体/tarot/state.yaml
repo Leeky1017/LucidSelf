@@ -1,0 +1,68 @@
+# 塔罗体系 - 状态类因子
+# State factors for Tarot system
+
+factors:
+  # 牌位状态
+  - id: tarot_upright
+    status: existing
+    display_zh: 正位
+    display_en: Upright
+    description_zh: 牌面正向，表达牌义的正面能量
+    description_en: Card upright, expressing positive energy of meaning
+    category: state
+    value_type: boolean
+    applicable_systems: [tarot]
+
+  - id: tarot_reversed
+    status: existing
+    display_zh: 逆位
+    display_en: Reversed
+    description_zh: 牌面倒置，表达牌义的挑战或阴影面
+    description_en: Card reversed, expressing challenges or shadow aspects
+    category: state
+    value_type: boolean
+    applicable_systems: [tarot]
+
+  # 牌面强度
+  - id: tarot_card_strength
+    status: existing
+    display_zh: 牌面强度
+    display_en: Card Strength
+    description_zh: 该牌在牌阵中的影响力
+    description_en: Influence strength of card in spread
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [tarot]
+
+  - id: tarot_dignified
+    status: existing
+    display_zh: 有尊严
+    display_en: Dignified
+    description_zh: 牌被相邻吉利牌强化
+    description_en: Card strengthened by neighboring favorable cards
+    category: state
+    value_type: boolean
+    applicable_systems: [tarot]
+
+  - id: tarot_ill_dignified
+    status: existing
+    display_zh: 失尊严
+    display_en: Ill-Dignified
+    description_zh: 牌被相邻不利牌削弱
+    description_en: Card weakened by neighboring unfavorable cards
+    category: state
+    value_type: boolean
+    applicable_systems: [tarot]
+
+  # 数字牌状态
+  - id: tarot_number_energy
+    status: existing
+    display_zh: 数字能量
+    display_en: Number Energy
+    description_zh: 小阿尔卡纳数字牌的能量阶段
+    description_en: Energy stage of Minor Arcana number cards
+    category: state
+    value_type: enum
+    value_range: [beginning, development, stability, challenge, change, harmony, reflection, mastery, completion, excess]
+    applicable_systems: [tarot]

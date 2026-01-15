@@ -1,0 +1,4 @@
+$ rg -n "openspec validate --strict" openspec/specs/*/acceptance.md
+
+$ rg -n "openspec validate --specs --strict --no-interactive" openspec/specs/*/acceptance.md | wc -l
+27

@@ -1,0 +1,403 @@
+# 六十四卦 (64 Hexagrams) Data - King Wen Sequence
+#
+# Each hexagram has:
+# - name_zh: Chinese name
+# - name_pinyin: Pinyin romanization
+# - upper: Upper trigram (Chinese name)
+# - lower: Lower trigram (Chinese name)
+# - judgment: Brief judgment text (optional)
+
+# 1-8: 乾宫八卦
+1:
+  name_zh: 乾
+  name_pinyin: qian
+  upper: 乾
+  lower: 乾
+
+2:
+  name_zh: 坤
+  name_pinyin: kun
+  upper: 坤
+  lower: 坤
+
+3:
+  name_zh: 屯
+  name_pinyin: zhun
+  upper: 坎
+  lower: 震
+
+4:
+  name_zh: 蒙
+  name_pinyin: meng
+  upper: 艮
+  lower: 坎
+
+5:
+  name_zh: 需
+  name_pinyin: xu
+  upper: 坎
+  lower: 乾
+
+6:
+  name_zh: 讼
+  name_pinyin: song
+  upper: 乾
+  lower: 坎
+
+7:
+  name_zh: 师
+  name_pinyin: shi
+  upper: 坤
+  lower: 坎
+
+8:
+  name_zh: 比
+  name_pinyin: bi
+  upper: 坎
+  lower: 坤
+
+
+# 9-16
+9:
+  name_zh: 小畜
+  name_pinyin: xiaoxu
+  upper: 巽
+  lower: 乾
+
+10:
+  name_zh: 履
+  name_pinyin: lv
+  upper: 乾
+  lower: 兑
+
+11:
+  name_zh: 泰
+  name_pinyin: tai
+  upper: 坤
+  lower: 乾
+
+12:
+  name_zh: 否
+  name_pinyin: pi
+  upper: 乾
+  lower: 坤
+
+13:
+  name_zh: 同人
+  name_pinyin: tongren
+  upper: 乾
+  lower: 离
+
+14:
+  name_zh: 大有
+  name_pinyin: dayou
+  upper: 离
+  lower: 乾
+
+15:
+  name_zh: 谦
+  name_pinyin: qian2
+  upper: 坤
+  lower: 艮
+
+16:
+  name_zh: 豫
+  name_pinyin: yu
+  upper: 震
+  lower: 坤
+
+# 17-24
+17:
+  name_zh: 随
+  name_pinyin: sui
+  upper: 兑
+  lower: 震
+
+18:
+  name_zh: 蛊
+  name_pinyin: gu
+  upper: 艮
+  lower: 巽
+
+19:
+  name_zh: 临
+  name_pinyin: lin
+  upper: 坤
+  lower: 兑
+
+20:
+  name_zh: 观
+  name_pinyin: guan
+  upper: 巽
+  lower: 坤
+
+21:
+  name_zh: 噬嗑
+  name_pinyin: shihe
+  upper: 离
+  lower: 震
+
+22:
+  name_zh: 贲
+  name_pinyin: bi2
+  upper: 艮
+  lower: 离
+
+23:
+  name_zh: 剥
+  name_pinyin: bo
+  upper: 艮
+  lower: 坤
+
+24:
+  name_zh: 复
+  name_pinyin: fu
+  upper: 坤
+  lower: 震
+
+# 25-32
+25:
+  name_zh: 无妄
+  name_pinyin: wuwang
+  upper: 乾
+  lower: 震
+
+26:
+  name_zh: 大畜
+  name_pinyin: daxu
+  upper: 艮
+  lower: 乾
+
+27:
+  name_zh: 颐
+  name_pinyin: yi
+  upper: 艮
+  lower: 震
+
+28:
+  name_zh: 大过
+  name_pinyin: daguo
+  upper: 兑
+  lower: 巽
+
+29:
+  name_zh: 坎
+  name_pinyin: kan
+  upper: 坎
+  lower: 坎
+
+30:
+  name_zh: 离
+  name_pinyin: li
+  upper: 离
+  lower: 离
+
+31:
+  name_zh: 咸
+  name_pinyin: xian
+  upper: 兑
+  lower: 艮
+
+32:
+  name_zh: 恒
+  name_pinyin: heng
+  upper: 震
+  lower: 巽
+
+
+# 33-40
+33:
+  name_zh: 遁
+  name_pinyin: dun
+  upper: 乾
+  lower: 艮
+
+34:
+  name_zh: 大壮
+  name_pinyin: dazhuang
+  upper: 震
+  lower: 乾
+
+35:
+  name_zh: 晋
+  name_pinyin: jin
+  upper: 离
+  lower: 坤
+
+36:
+  name_zh: 明夷
+  name_pinyin: mingyi
+  upper: 坤
+  lower: 离
+
+37:
+  name_zh: 家人
+  name_pinyin: jiaren
+  upper: 巽
+  lower: 离
+
+38:
+  name_zh: 睽
+  name_pinyin: kui
+  upper: 离
+  lower: 兑
+
+39:
+  name_zh: 蹇
+  name_pinyin: jian
+  upper: 坎
+  lower: 艮
+
+40:
+  name_zh: 解
+  name_pinyin: jie
+  upper: 震
+  lower: 坎
+
+# 41-48
+41:
+  name_zh: 损
+  name_pinyin: sun
+  upper: 艮
+  lower: 兑
+
+42:
+  name_zh: 益
+  name_pinyin: yi2
+  upper: 巽
+  lower: 震
+
+43:
+  name_zh: 夬
+  name_pinyin: guai
+  upper: 兑
+  lower: 乾
+
+44:
+  name_zh: 姤
+  name_pinyin: gou
+  upper: 乾
+  lower: 巽
+
+45:
+  name_zh: 萃
+  name_pinyin: cui
+  upper: 兑
+  lower: 坤
+
+46:
+  name_zh: 升
+  name_pinyin: sheng
+  upper: 坤
+  lower: 巽
+
+47:
+  name_zh: 困
+  name_pinyin: kun2
+  upper: 兑
+  lower: 坎
+
+48:
+  name_zh: 井
+  name_pinyin: jing
+  upper: 坎
+  lower: 巽
+
+# 49-56
+49:
+  name_zh: 革
+  name_pinyin: ge
+  upper: 兑
+  lower: 离
+
+50:
+  name_zh: 鼎
+  name_pinyin: ding
+  upper: 离
+  lower: 巽
+
+51:
+  name_zh: 震
+  name_pinyin: zhen
+  upper: 震
+  lower: 震
+
+52:
+  name_zh: 艮
+  name_pinyin: gen
+  upper: 艮
+  lower: 艮
+
+53:
+  name_zh: 渐
+  name_pinyin: jian2
+  upper: 巽
+  lower: 艮
+
+54:
+  name_zh: 归妹
+  name_pinyin: guimei
+  upper: 震
+  lower: 兑
+
+55:
+  name_zh: 丰
+  name_pinyin: feng
+  upper: 震
+  lower: 离
+
+56:
+  name_zh: 旅
+  name_pinyin: lv2
+  upper: 离
+  lower: 艮
+
+
+# 57-64
+57:
+  name_zh: 巽
+  name_pinyin: xun
+  upper: 巽
+  lower: 巽
+
+58:
+  name_zh: 兑
+  name_pinyin: dui
+  upper: 兑
+  lower: 兑
+
+59:
+  name_zh: 涣
+  name_pinyin: huan
+  upper: 巽
+  lower: 坎
+
+60:
+  name_zh: 节
+  name_pinyin: jie2
+  upper: 坎
+  lower: 兑
+
+61:
+  name_zh: 中孚
+  name_pinyin: zhongfu
+  upper: 巽
+  lower: 兑
+
+62:
+  name_zh: 小过
+  name_pinyin: xiaoguo
+  upper: 震
+  lower: 艮
+
+63:
+  name_zh: 既济
+  name_pinyin: jiji
+  upper: 坎
+  lower: 离
+
+64:
+  name_zh: 未济
+  name_pinyin: weiji
+  upper: 离
+  lower: 坎

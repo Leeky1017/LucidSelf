@@ -1,0 +1,42 @@
+### artifacts/semantic_extraction_quality
+total 76K
+drwxr-xr-x  2 leeky leeky 4.0K Dec 26 23:59 .
+drwxr-xr-x 10 leeky leeky 4.0K Dec 27 00:28 ..
+-rw-r--r--  1 leeky leeky  64K Dec 27 00:34 quality_report.json
+-rw-r--r--  1 leeky leeky  611 Dec 27 00:34 quality_report.md
+
+### validate json + show verdict
+verdict pass
+version_id ver_b23a6a8439c0
+corpus_release_id cr_b23a6a8439c0
+ruleset_id semantic_extraction_quality_rules.v1
+total_errors 0
+total_warnings 45801
+warnings_by_type_top {'INVALID_FACTOR_PREFIX': 20295, 'UNKNOWN_FACTOR': 17474, 'MISSING_L25_FIELD': 6702, 'EMPTY_FACTOR_REFS': 1330}
+
+### artifacts/semantic_extraction_quality/quality_report.md (head)
+# Semantic Extraction Quality Report
+
+- version_id: `ver_b23a6a8439c0`
+- corpus_release_id: `cr_b23a6a8439c0`
+- ruleset_id: `semantic_extraction_quality_rules.v1`
+- verdict: **PASS**
+
+## Totals
+- total_books: 24
+- migrated_books: 24
+- total_errors: 0
+- total_warnings: 45801
+
+## Thresholds
+- `max_total_errors`: 0 <= 0 => **PASS**
+- `max_total_warnings`: 45801 <= 50000 => **PASS**
+
+## Top Warning Types (sampled)
+- `INVALID_FACTOR_PREFIX`: 20295
+- `UNKNOWN_FACTOR`: 17474
+- `MISSING_L25_FIELD`: 6702
+- `EMPTY_FACTOR_REFS`: 1330
+
+## Artifacts
+- JSON: `artifacts/semantic_extraction_quality/quality_report.json`

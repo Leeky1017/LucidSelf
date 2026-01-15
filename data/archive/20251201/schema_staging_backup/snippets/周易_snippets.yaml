@@ -1,0 +1,5278 @@
+book_id: 周易
+source_file: 典籍/中文典籍/周易/周易_64卦语义提取总结.md, 典籍/中文典籍/周易/编辑/周易_完整规范化_上经.md, 典籍/中文典籍/周易/编辑/周易_完整规范化_下经.md
+extracted_at: '2025-11-30T21:12:27.026463'
+snippets:
+- snippet_id: ns_zhouyi_001
+  trigger: 卦=乾 AND 卦辞
+  factor_trigger: zhouyi_gua_qian AND zhouyi_guaci
+  role: 主干
+  snippet_text: 乾：元，亨，利，贞。万物资始，乃统天。
+  source_ref: 《周易·乾卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821610'
+- snippet_id: ns_zhouyi_002
+  trigger: 卦=乾 AND 初九
+  factor_trigger: zhouyi_gua_qian AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 潜龙勿用：德已具而名未成，应隐伏不求闻达。
+  source_ref: 《周易·乾卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821627'
+- snippet_id: ns_zhouyi_003
+  trigger: 卦=乾 AND 九二
+  factor_trigger: zhouyi_gua_qian AND zhouyi_yao_jiuer
+  role: 条件分支
+  snippet_text: 见龙在田，利见大人：德行显露于世，利于遇见大人。
+  source_ref: 《周易·乾卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821633'
+- snippet_id: ns_zhouyi_004
+  trigger: 卦=乾 AND 九三
+  factor_trigger: zhouyi_gua_qian AND zhouyi_yao_jiusan
+  role: 条件分支
+  snippet_text: 君子终日乾乾，夕惕若厉，无咎：身处险位，唯有日夜自律方免于咎。
+  source_ref: 《周易·乾卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821641'
+- snippet_id: ns_zhouyi_005
+  trigger: 卦=乾 AND 九四
+  factor_trigger: zhouyi_gua_qian AND zhouyi_yao_jiusi
+  role: 条件分支
+  snippet_text: 或跃在渊，无咎：进退未定之时，试探跃升但仍不离其群。
+  source_ref: 《周易·乾卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821674'
+- snippet_id: ns_zhouyi_006
+  trigger: 卦=乾 AND 九五
+  factor_trigger: zhouyi_gua_qian AND zhouyi_yao_jiuwu
+  role: 条件分支
+  snippet_text: 飞龙在天，利见大人：大人居尊位，与天地日月四时相应而行道。
+  source_ref: 《周易·乾卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821683'
+- snippet_id: ns_zhouyi_007
+  trigger: 卦=乾 AND 上九
+  factor_trigger: zhouyi_gua_qian AND zhouyi_yao_shangjiu
+  role: 条件分支
+  snippet_text: 亢龙有悔：只知进不知退、只知存不知亡、只知得不知丧，终致有悔。
+  source_ref: 《周易·乾卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821691'
+- snippet_id: ns_zhouyi_008
+  trigger: 卦=乾 AND 用九
+  factor_trigger: zhouyi_gua_qian AND zhouyi_yao_yongjiu
+  role: 条件分支
+  snippet_text: 见群龙无首，吉：众阳皆动而无首领，天德不可为首。
+  source_ref: 《周易·乾卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821697'
+- snippet_id: ns_zhouyi_009
+  trigger: 卦=乾 AND 彖传
+  factor_trigger: zhouyi_gua_qian AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 大哉乾元！万物资始，乃统天。乾道变化，各正性命，保合大和。
+  source_ref: 《周易·乾卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821702'
+- snippet_id: ns_zhouyi_010
+  trigger: 卦=乾 AND 象传
+  factor_trigger: zhouyi_gua_qian AND zhouyi_xiang
+  role: 主干
+  snippet_text: 天行健，君子以自强不息：以天道刚健为法，不断砥砺自身。
+  source_ref: 《周易·乾卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821708'
+- snippet_id: ns_zhouyi_011
+  trigger: 卦=乾 AND 文言四德
+  factor_trigger: zhouyi_gua_qian AND zhouyi_wenyan
+  role: 主干
+  snippet_text: 元亨利贞：元者善之长，亨者嘉之会，利者义之和，贞者事之干。
+  source_ref: 《周易·乾卦·文言》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821713'
+- snippet_id: ns_zhouyi_012
+  trigger: 卦=乾 AND 文言进德
+  factor_trigger: zhouyi_gua_qian AND zhouyi_wenyan
+  role: 主干依赖
+  snippet_text: 君子进德修业：以忠信进德，以修辞立诚，以知几存义。
+  source_ref: 《周易·乾卦·文言》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821719'
+- snippet_id: ns_zhouyi_013
+  trigger: 卦=乾 AND 文言大人
+  factor_trigger: zhouyi_gua_qian AND zhouyi_wenyan
+  role: 总结
+  snippet_text: 大人者，与天地合德，与日月合明，与四时合序，与鬼神合吉凶。
+  source_ref: 《周易·乾卦·文言》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821724'
+- snippet_id: ns_zhouyi_014
+  trigger: 卦=乾 AND 文言亢极
+  factor_trigger: zhouyi_gua_qian AND zhouyi_wenyan
+  role: 总结
+  snippet_text: 知进退存亡而不失其正者，其唯圣人乎！
+  source_ref: 《周易·乾卦·文言》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821729'
+- snippet_id: ns_zhouyi_015
+  trigger: 卦=坤 AND 卦辞
+  factor_trigger: zhouyi_gua_kun AND zhouyi_guaci
+  role: 主干
+  snippet_text: 坤：元亨，利牝马之贞。君子有攸往，先迷后得主，利。
+  source_ref: 《周易·坤卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821762'
+- snippet_id: ns_zhouyi_016
+  trigger: 卦=坤 AND 方位
+  factor_trigger: zhouyi_gua_kun AND zhouyi_guaci
+  role: 条件分支
+  snippet_text: 西南得朋，东北丧朋，安贞吉：向同类之方则得助，安处守贞则吉。
+  source_ref: 《周易·坤卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821767'
+- snippet_id: ns_zhouyi_017
+  trigger: 卦=坤 AND 初六
+  factor_trigger: zhouyi_gua_kun AND zhouyi_yao_chuliu
+  role: 条件分支
+  snippet_text: 履霜坚冰至：早见微霜，当知严冬将临，防患于未然。
+  source_ref: 《周易·坤卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821773'
+- snippet_id: ns_zhouyi_018
+  trigger: 卦=坤 AND 六二
+  factor_trigger: zhouyi_gua_kun AND zhouyi_yao_liuer
+  role: 条件分支
+  snippet_text: 直方大，不习无不利：端直方正广博，不必矫饰，自可无不利。
+  source_ref: 《周易·坤卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821778'
+- snippet_id: ns_zhouyi_019
+  trigger: 卦=坤 AND 六三
+  factor_trigger: zhouyi_gua_kun AND zhouyi_yao_liusan
+  role: 主干依赖
+  snippet_text: 含章可贞，或从王事，无成有终：内含光彩不炫耀，辅佐王事，无功而善终。
+  source_ref: 《周易·坤卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821785'
+- snippet_id: ns_zhouyi_020
+  trigger: 卦=坤 AND 六四
+  factor_trigger: zhouyi_gua_kun AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 括囊，无咎无誉：扎紧口袋，既无灾祸也无赞誉，谨慎自守。
+  source_ref: 《周易·坤卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821790'
+- snippet_id: ns_zhouyi_021
+  trigger: 卦=坤 AND 六五
+  factor_trigger: zhouyi_gua_kun AND zhouyi_yao_liuwu
+  role: 条件分支
+  snippet_text: 黄裳，元吉：身穿黄色下裳，柔顺居中，非常吉利。
+  source_ref: 《周易·坤卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821796'
+- snippet_id: ns_zhouyi_022
+  trigger: 卦=坤 AND 上六
+  factor_trigger: zhouyi_gua_kun AND zhouyi_yao_shangliu
+  role: 总结
+  snippet_text: 龙战于野，其血玄黄：阴极则阳来战，刚柔失位相争，两败俱伤。
+  source_ref: 《周易·坤卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821801'
+- snippet_id: ns_zhouyi_023
+  trigger: 卦=坤 AND 用六
+  factor_trigger: zhouyi_gua_kun AND zhouyi_yao_yongliu
+  role: 条件分支
+  snippet_text: 用六，利永贞：众阴皆柔，宜长守正道。
+  source_ref: 《周易·坤卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821807'
+- snippet_id: ns_zhouyi_024
+  trigger: 卦=坤 AND 彖传
+  factor_trigger: zhouyi_gua_kun AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 至哉坤元！万物资生，乃顺承天。坤厚载物，德合无疆。
+  source_ref: 《周易·坤卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821812'
+- snippet_id: ns_zhouyi_025
+  trigger: 卦=坤 AND 象传
+  factor_trigger: zhouyi_gua_kun AND zhouyi_xiang
+  role: 主干
+  snippet_text: 地势坤，君子以厚德载物：如大地承载万物，以厚德容纳众生。
+  source_ref: 《周易·坤卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821819'
+- snippet_id: ns_zhouyi_026
+  trigger: 卦=坤 AND 文言顺承
+  factor_trigger: zhouyi_gua_kun AND zhouyi_wenyan
+  role: 主干
+  snippet_text: 坤至柔而动也刚，至静而德方。后得主而有常，含万物而化光。
+  source_ref: 《周易·坤卦·文言》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821824'
+- snippet_id: ns_zhouyi_027
+  trigger: 卦=坤 AND 文言积善
+  factor_trigger: zhouyi_gua_kun AND zhouyi_wenyan
+  role: 主干依赖
+  snippet_text: 积善之家必有余庆，积不善之家必有余殃。
+  source_ref: 《周易·坤卦·文言》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821828'
+- snippet_id: ns_zhouyi_028
+  trigger: 卦=坤 AND 文言直方
+  factor_trigger: zhouyi_gua_kun AND zhouyi_wenyan
+  role: 总结
+  snippet_text: 直其正也，方其义也。君子敬以直内，义以方外，敬义立而德不孤。
+  source_ref: 《周易·坤卦·文言》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821834'
+- snippet_id: ns_zhouyi_029
+  trigger: 卦=屯 AND 卦辞
+  factor_trigger: zhouyi_gua_zhun AND zhouyi_guaci
+  role: 主干
+  snippet_text: 屯：元亨，利贞。勿用有攸往，利建侯。草创艰难，宜立根基。
+  source_ref: 《周易·屯卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821850'
+- snippet_id: ns_zhouyi_030
+  trigger: 卦=屯 AND 彖传
+  factor_trigger: zhouyi_gua_zhun AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 屯，刚柔始交而难生。动乎险中，大亨贞。
+  source_ref: 《周易·屯卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821854'
+- snippet_id: ns_zhouyi_031
+  trigger: 卦=屯 AND 象传
+  factor_trigger: zhouyi_gua_zhun AND zhouyi_xiang
+  role: 主干
+  snippet_text: 云雷屯，君子以经纶：云雷交动而未成雨，君子当理丝成文，筹划天下。
+  source_ref: 《周易·屯卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821859'
+- snippet_id: ns_zhouyi_032
+  trigger: 卦=屯 AND 初九
+  factor_trigger: zhouyi_gua_zhun AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 磐桓，利居贞，利建侯：反复徘徊之时，宜守正积基。
+  source_ref: 《周易·屯卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821864'
+- snippet_id: ns_zhouyi_033
+  trigger: 卦=屯 AND 六二
+  factor_trigger: zhouyi_gua_zhun AND zhouyi_yao_liuer
+  role: 条件分支
+  snippet_text: 屯如邅如，乘马班如：进退维艰，仍须求中道而应上。
+  source_ref: 《周易·屯卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821868'
+- snippet_id: ns_zhouyi_034
+  trigger: 卦=屯 AND 六三
+  factor_trigger: zhouyi_gua_zhun AND zhouyi_yao_liusan
+  role: 条件分支
+  snippet_text: 即鹿无虞，惟入于林中：冒进逐利而缺向导，终入险地。
+  source_ref: 《周易·屯卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821874'
+- snippet_id: ns_zhouyi_035
+  trigger: 卦=屯 AND 六四
+  factor_trigger: zhouyi_gua_zhun AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 乘马班如，求婚媾，往吉无不利：虽徘徊不定，但求正当结合则吉。
+  source_ref: 《周易·屯卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821879'
+- snippet_id: ns_zhouyi_036
+  trigger: 卦=屯 AND 九五
+  factor_trigger: zhouyi_gua_zhun AND zhouyi_yao_jiuwu
+  role: 条件分支
+  snippet_text: 屯其膏，小贞吉，大贞凶：资源受困时，小守可吉，大举则凶。
+  source_ref: 《周易·屯卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821887'
+- snippet_id: ns_zhouyi_037
+  trigger: 卦=屯 AND 上六
+  factor_trigger: zhouyi_gua_zhun AND zhouyi_yao_shangliu
+  role: 总结
+  snippet_text: 乘马班如，泣血涟如：一味迟疑失机，终至哀痛难止。
+  source_ref: 《周易·屯卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821892'
+- snippet_id: ns_zhouyi_038
+  trigger: 卦=蒙 AND 卦辞
+  factor_trigger: zhouyi_gua_meng AND zhouyi_guaci
+  role: 主干
+  snippet_text: 蒙：亨。匪我求童蒙，童蒙求我。初筮告，再三渎，渎则不告。
+  source_ref: 《周易·蒙卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821909'
+- snippet_id: ns_zhouyi_039
+  trigger: 卦=蒙 AND 彖传
+  factor_trigger: zhouyi_gua_meng AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 蒙以养正，圣功也。在蒙昧初开时以正道养育，成就圣人之功。
+  source_ref: 《周易·蒙卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821914'
+- snippet_id: ns_zhouyi_040
+  trigger: 卦=蒙 AND 象传
+  factor_trigger: zhouyi_gua_meng AND zhouyi_xiang
+  role: 主干
+  snippet_text: 山下出泉，蒙；君子以果行育德：泉水初出山下，君子当果决行动育德。
+  source_ref: 《周易·蒙卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821918'
+- snippet_id: ns_zhouyi_041
+  trigger: 卦=蒙 AND 初六
+  factor_trigger: zhouyi_gua_meng AND zhouyi_yao_chuliu
+  role: 条件分支
+  snippet_text: 发蒙，利用刑人：以有节的惩戒发蒙，脱桎梏而后吉。
+  source_ref: 《周易·蒙卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821924'
+- snippet_id: ns_zhouyi_042
+  trigger: 卦=蒙 AND 九二
+  factor_trigger: zhouyi_gua_meng AND zhouyi_yao_jiuer
+  role: 主干依赖
+  snippet_text: 包蒙吉，纳妇吉，子克家：以宽厚包容蒙者，使其终能成事。
+  source_ref: 《周易·蒙卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821930'
+- snippet_id: ns_zhouyi_043
+  trigger: 卦=蒙 AND 六三
+  factor_trigger: zhouyi_gua_meng AND zhouyi_yao_liusan
+  role: 条件分支
+  snippet_text: 勿用取女，见金夫，不有躬：贪利而失身之女不可娶。
+  source_ref: 《周易·蒙卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821935'
+- snippet_id: ns_zhouyi_044
+  trigger: 卦=蒙 AND 六四
+  factor_trigger: zhouyi_gua_meng AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 困蒙，吝：孤立无援而陷入困境，有所困窘。
+  source_ref: 《周易·蒙卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821940'
+- snippet_id: ns_zhouyi_045
+  trigger: 卦=蒙 AND 六五
+  factor_trigger: zhouyi_gua_meng AND zhouyi_yao_liuwu
+  role: 条件分支
+  snippet_text: 童蒙，吉：保持童子求学之心，虚心受教则吉。
+  source_ref: 《周易·蒙卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821945'
+- snippet_id: ns_zhouyi_046
+  trigger: 卦=蒙 AND 上九
+  factor_trigger: zhouyi_gua_meng AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 击蒙，不利为寇，利御寇：严厉击蒙，只宜防御，不宜主动为暴。
+  source_ref: 《周易·蒙卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821950'
+- snippet_id: ns_zhouyi_047
+  trigger: 卦=需 AND 卦辞
+  factor_trigger: zhouyi_gua_xu AND zhouyi_guaci
+  role: 主干
+  snippet_text: 需：有孚，光亨，贞吉。利涉大川。等待中守信，自能光明通达。
+  source_ref: 《周易·需卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821967'
+- snippet_id: ns_zhouyi_048
+  trigger: 卦=需 AND 彖传
+  factor_trigger: zhouyi_gua_xu AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 需，须也；险在前也。刚健而不陷，其义不困穷矣。
+  source_ref: 《周易·需卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821972'
+- snippet_id: ns_zhouyi_049
+  trigger: 卦=需 AND 象传
+  factor_trigger: zhouyi_gua_xu AND zhouyi_xiang
+  role: 主干
+  snippet_text: 云上于天，需；君子以饮食宴乐：有待于时，先安内而后图外。
+  source_ref: 《周易·需卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821976'
+- snippet_id: ns_zhouyi_050
+  trigger: 卦=需 AND 初九
+  factor_trigger: zhouyi_gua_xu AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 需于郊，利用恒，无咎：在郊外守候，持恒以待机。
+  source_ref: 《周易·需卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.821981'
+- snippet_id: ns_zhouyi_051
+  trigger: 卦=需 AND 九二
+  factor_trigger: zhouyi_gua_xu AND zhouyi_yao_jiuer
+  role: 条件分支
+  snippet_text: 需于沙，小有言，终吉：浅滩受阻，小有口舌而终得吉。
+  source_ref: 《周易·需卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822015'
+- snippet_id: ns_zhouyi_052
+  trigger: 卦=需 AND 九三
+  factor_trigger: zhouyi_gua_xu AND zhouyi_yao_jiusan
+  role: 条件分支
+  snippet_text: 需于泥，致寇至：久困泥中不进退，易招灾寇。
+  source_ref: 《周易·需卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822023'
+- snippet_id: ns_zhouyi_053
+  trigger: 卦=需 AND 六四
+  factor_trigger: zhouyi_gua_xu AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 需于血，出自穴：深陷危险之域，宜及时脱身。
+  source_ref: 《周易·需卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822030'
+- snippet_id: ns_zhouyi_054
+  trigger: 卦=需 AND 九五
+  factor_trigger: zhouyi_gua_xu AND zhouyi_yao_jiuwu
+  role: 条件分支
+  snippet_text: 需于酒食，贞吉：在酒食之会中守正，反得其吉。
+  source_ref: 《周易·需卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822035'
+- snippet_id: ns_zhouyi_055
+  trigger: 卦=需 AND 上六
+  factor_trigger: zhouyi_gua_xu AND zhouyi_yao_shangliu
+  role: 总结
+  snippet_text: 入于穴，有不速之客三人来，敬之终吉：已入险穴，不速之客至，敬待则吉。
+  source_ref: 《周易·需卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822041'
+- snippet_id: ns_zhouyi_056
+  trigger: 卦=讼 AND 卦辞
+  factor_trigger: zhouyi_gua_song AND zhouyi_guaci
+  role: 主干
+  snippet_text: 讼：有孚窒惕，中吉，终凶。利见大人，不利涉大川。
+  source_ref: 《周易·讼卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822062'
+- snippet_id: ns_zhouyi_057
+  trigger: 卦=讼 AND 彖传
+  factor_trigger: zhouyi_gua_song AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 讼，上刚下险，险而健，讼。终凶，讼不可成也。
+  source_ref: 《周易·讼卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822067'
+- snippet_id: ns_zhouyi_058
+  trigger: 卦=讼 AND 象传
+  factor_trigger: zhouyi_gua_song AND zhouyi_xiang
+  role: 主干
+  snippet_text: 天与水违行，讼；君子以作事谋始：上下乖违时，凡事当谨慎于始。
+  source_ref: 《周易·讼卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822073'
+- snippet_id: ns_zhouyi_059
+  trigger: 卦=讼 AND 初六
+  factor_trigger: zhouyi_gua_song AND zhouyi_yao_chuliu
+  role: 条件分支
+  snippet_text: 不永所事，小有言，终吉：讼事不久拖，适时止讼则终吉。
+  source_ref: 《周易·讼卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822080'
+- snippet_id: ns_zhouyi_060
+  trigger: 卦=讼 AND 九二
+  factor_trigger: zhouyi_gua_song AND zhouyi_yao_jiuer
+  role: 条件分支
+  snippet_text: 不克讼，归而逋，其邑人三百户，无眚：明知不胜之讼，当退守本邑。
+  source_ref: 《周易·讼卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822085'
+- snippet_id: ns_zhouyi_061
+  trigger: 卦=讼 AND 六三
+  factor_trigger: zhouyi_gua_song AND zhouyi_yao_liusan
+  role: 条件分支
+  snippet_text: 食旧德，贞厉，终吉：凭借旧有恩德自守，虽厉而终吉。
+  source_ref: 《周易·讼卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822090'
+- snippet_id: ns_zhouyi_062
+  trigger: 卦=讼 AND 九四
+  factor_trigger: zhouyi_gua_song AND zhouyi_yao_jiusi
+  role: 条件分支
+  snippet_text: 不克讼，复即命，渝，安贞吉：不能胜讼则回归本命，改变态度安守正道则吉。
+  source_ref: 《周易·讼卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822095'
+- snippet_id: ns_zhouyi_063
+  trigger: 卦=讼 AND 九五
+  factor_trigger: zhouyi_gua_song AND zhouyi_yao_jiuwu
+  role: 主干依赖
+  snippet_text: 讼，元吉：处中正之位，能以公道裁讼而获大吉。
+  source_ref: 《周易·讼卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822099'
+- snippet_id: ns_zhouyi_064
+  trigger: 卦=讼 AND 上九
+  factor_trigger: zhouyi_gua_song AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 或锡之鞶带，终朝三褫之：讼胜而受赏，亦可能朝夕被夺，不可久恃。
+  source_ref: 《周易·讼卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822104'
+- snippet_id: ns_zhouyi_065
+  trigger: 卦=师 AND 卦辞
+  factor_trigger: zhouyi_gua_shi AND zhouyi_guaci
+  role: 主干
+  snippet_text: 师：贞，丈人吉，无咎。军旅之事，应由有德之长者主之。
+  source_ref: 《周易·师卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822118'
+- snippet_id: ns_zhouyi_066
+  trigger: 卦=师 AND 彖传
+  factor_trigger: zhouyi_gua_shi AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 师，众也；贞，正也。能以众正，可以王矣。
+  source_ref: 《周易·师卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822124'
+- snippet_id: ns_zhouyi_067
+  trigger: 卦=师 AND 象传
+  factor_trigger: zhouyi_gua_shi AND zhouyi_xiang
+  role: 主干
+  snippet_text: 地中有水，师；君子以容民畜众：如地含水，广容百姓。
+  source_ref: 《周易·师卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822129'
+- snippet_id: ns_zhouyi_068
+  trigger: 卦=师 AND 初六
+  factor_trigger: zhouyi_gua_shi AND zhouyi_yao_chuliu
+  role: 条件分支
+  snippet_text: 师出以律，否臧凶：出师必有严明军纪，否则凶。
+  source_ref: 《周易·师卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822134'
+- snippet_id: ns_zhouyi_069
+  trigger: 卦=师 AND 九二
+  factor_trigger: zhouyi_gua_shi AND zhouyi_yao_jiuer
+  role: 主干依赖
+  snippet_text: 在师中吉，无咎；王三锡命：居军中中位，受命有加。
+  source_ref: 《周易·师卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822138'
+- snippet_id: ns_zhouyi_070
+  trigger: 卦=师 AND 六三
+  factor_trigger: zhouyi_gua_shi AND zhouyi_yao_liusan
+  role: 例外处理
+  snippet_text: 师或舆尸，凶：统军不善，反致尸载于车。
+  source_ref: 《周易·师卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822143'
+- snippet_id: ns_zhouyi_071
+  trigger: 卦=师 AND 六四
+  factor_trigger: zhouyi_gua_shi AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 师左次，无咎：暂退守候，等待时机，无咎。
+  source_ref: 《周易·师卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822147'
+- snippet_id: ns_zhouyi_072
+  trigger: 卦=师 AND 六五
+  factor_trigger: zhouyi_gua_shi AND zhouyi_yao_liuwu
+  role: 条件分支
+  snippet_text: 田有禽，利执言，无咎；长子帅师，弟子舆尸：长子领军吉，弟子领军凶。
+  source_ref: 《周易·师卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822153'
+- snippet_id: ns_zhouyi_073
+  trigger: 卦=师 AND 上六
+  factor_trigger: zhouyi_gua_shi AND zhouyi_yao_shangliu
+  role: 总结
+  snippet_text: 大君有命，开国承家，小人勿用：成败之后封赏有度，小人不可用。
+  source_ref: 《周易·师卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822159'
+- snippet_id: ns_zhouyi_074
+  trigger: 卦=比 AND 卦辞
+  factor_trigger: zhouyi_gua_bi AND zhouyi_guaci
+  role: 主干
+  snippet_text: 比：吉，原筮，元永贞，无咎。不宁方来，后夫凶。
+  source_ref: 《周易·比卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822174'
+- snippet_id: ns_zhouyi_075
+  trigger: 卦=比 AND 彖传
+  factor_trigger: zhouyi_gua_bi AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 比，吉也；比，辅也。下顺从也。
+  source_ref: 《周易·比卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822181'
+- snippet_id: ns_zhouyi_076
+  trigger: 卦=比 AND 象传
+  factor_trigger: zhouyi_gua_bi AND zhouyi_xiang
+  role: 主干
+  snippet_text: 地上有水，比；先王以建万国亲诸侯：天下诸侯比附于王。
+  source_ref: 《周易·比卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822186'
+- snippet_id: ns_zhouyi_077
+  trigger: 卦=比 AND 初六
+  factor_trigger: zhouyi_gua_bi AND zhouyi_yao_chuliu
+  role: 条件分支
+  snippet_text: 有孚比之，无咎；有孚盈缶，终来有它吉：以诚信相比，终得吉应。
+  source_ref: 《周易·比卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822194'
+- snippet_id: ns_zhouyi_078
+  trigger: 卦=比 AND 六二
+  factor_trigger: zhouyi_gua_bi AND zhouyi_yao_liuer
+  role: 条件分支
+  snippet_text: 比之自内，贞吉：由内而比，守正则吉。
+  source_ref: 《周易·比卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822199'
+- snippet_id: ns_zhouyi_079
+  trigger: 卦=比 AND 六三
+  factor_trigger: zhouyi_gua_bi AND zhouyi_yao_liusan
+  role: 例外处理
+  snippet_text: 比之匪人：结交非其人，比附不正。
+  source_ref: 《周易·比卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822204'
+- snippet_id: ns_zhouyi_080
+  trigger: 卦=比 AND 六四
+  factor_trigger: zhouyi_gua_bi AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 外比之，贞吉：向外亲比，守正则吉。
+  source_ref: 《周易·比卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822208'
+- snippet_id: ns_zhouyi_081
+  trigger: 卦=比 AND 九五
+  factor_trigger: zhouyi_gua_bi AND zhouyi_yao_jiuwu
+  role: 主干依赖
+  snippet_text: 显比，王用三驱，失前禽，邑人不诫，吉：显然相比，有所舍取。
+  source_ref: 《周易·比卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822213'
+- snippet_id: ns_zhouyi_082
+  trigger: 卦=比 AND 上六
+  factor_trigger: zhouyi_gua_bi AND zhouyi_yao_shangliu
+  role: 总结
+  snippet_text: 比之无首，凶：亲比无主，群龙无首而终凶。
+  source_ref: 《周易·比卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822219'
+- snippet_id: ns_zhouyi_083
+  trigger: 卦=小畜 AND 卦辞
+  factor_trigger: zhouyi_gua_xiaoxu AND zhouyi_guaci
+  role: 主干
+  snippet_text: 小畜：亨。密云不雨，自我西郊。有积蓄而未施。
+  source_ref: 《周易·小畜卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822237'
+- snippet_id: ns_zhouyi_084
+  trigger: 卦=小畜 AND 彖传
+  factor_trigger: zhouyi_gua_xiaoxu AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 小畜，柔得位而上下应之，曰小畜。健而巽，刚中而志行，乃亨。
+  source_ref: 《周易·小畜卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822242'
+- snippet_id: ns_zhouyi_085
+  trigger: 卦=小畜 AND 象传
+  factor_trigger: zhouyi_gua_xiaoxu AND zhouyi_xiang
+  role: 主干
+  snippet_text: 风行天上，小畜；君子以懿文德：以柔德蓄养而未大发。
+  source_ref: 《周易·小畜卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822248'
+- snippet_id: ns_zhouyi_086
+  trigger: 卦=小畜 AND 初九
+  factor_trigger: zhouyi_gua_xiaoxu AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 复自道，何其咎，吉：小有偏差，能返本自省则吉。
+  source_ref: 《周易·小畜卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822253'
+- snippet_id: ns_zhouyi_087
+  trigger: 卦=小畜 AND 九二
+  factor_trigger: zhouyi_gua_xiaoxu AND zhouyi_yao_jiuer
+  role: 条件分支
+  snippet_text: 牵复，吉：被牵回正道，反得其吉。
+  source_ref: 《周易·小畜卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822258'
+- snippet_id: ns_zhouyi_088
+  trigger: 卦=小畜 AND 九三
+  factor_trigger: zhouyi_gua_xiaoxu AND zhouyi_yao_jiusan
+  role: 例外处理
+  snippet_text: 舆说辐，夫妻反目：车轮脱落，结构松脱，人心反目。
+  source_ref: 《周易·小畜卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822262'
+- snippet_id: ns_zhouyi_089
+  trigger: 卦=小畜 AND 六四
+  factor_trigger: zhouyi_gua_xiaoxu AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 有孚，血去惕出，无咎：以诚信化解血光惊惧。
+  source_ref: 《周易·小畜卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822267'
+- snippet_id: ns_zhouyi_090
+  trigger: 卦=小畜 AND 九五
+  factor_trigger: zhouyi_gua_xiaoxu AND zhouyi_yao_jiuwu
+  role: 条件分支
+  snippet_text: 有孚挛如，富以其邻：以诚信相连，与邻里共富。
+  source_ref: 《周易·小畜卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822272'
+- snippet_id: ns_zhouyi_091
+  trigger: 卦=小畜 AND 上九
+  factor_trigger: zhouyi_gua_xiaoxu AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 既雨既处，尚德载，妇贞厉，月几望，君子征凶：雨后初晴，出征仍须慎之。
+  source_ref: 《周易·小畜卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822277'
+- snippet_id: ns_zhouyi_092
+  trigger: 卦=履 AND 卦辞
+  factor_trigger: zhouyi_gua_lv AND zhouyi_guaci
+  role: 主干
+  snippet_text: 履：履虎尾，不咥人，亨。行走于险处而得无伤。
+  source_ref: 《周易·履卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822292'
+- snippet_id: ns_zhouyi_093
+  trigger: 卦=履 AND 彖传
+  factor_trigger: zhouyi_gua_lv AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 履，柔履刚也。说而应乎乾，是以履虎尾不咥人，亨。
+  source_ref: 《周易·履卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822297'
+- snippet_id: ns_zhouyi_094
+  trigger: 卦=履 AND 象传
+  factor_trigger: zhouyi_gua_lv AND zhouyi_xiang
+  role: 主干
+  snippet_text: 上天下泽，履；君子以辨上下定民志：分辨上下尊卑以定人心。
+  source_ref: 《周易·履卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822302'
+- snippet_id: ns_zhouyi_095
+  trigger: 卦=履 AND 初九
+  factor_trigger: zhouyi_gua_lv AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 素履往，无咎：以素朴之履行事，不求虚饰。
+  source_ref: 《周易·履卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822309'
+- snippet_id: ns_zhouyi_096
+  trigger: 卦=履 AND 九二
+  factor_trigger: zhouyi_gua_lv AND zhouyi_yao_jiuer
+  role: 条件分支
+  snippet_text: 履道坦坦，幽人贞吉：行于平坦正道，虽幽处亦吉。
+  source_ref: 《周易·履卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822313'
+- snippet_id: ns_zhouyi_097
+  trigger: 卦=履 AND 六三
+  factor_trigger: zhouyi_gua_lv AND zhouyi_yao_liusan
+  role: 例外处理
+  snippet_text: 眇能视，跛能履，履虎尾咥人凶：资质有限者强行履险，终凶。
+  source_ref: 《周易·履卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822318'
+- snippet_id: ns_zhouyi_098
+  trigger: 卦=履 AND 九四
+  factor_trigger: zhouyi_gua_lv AND zhouyi_yao_jiusi
+  role: 条件分支
+  snippet_text: 履虎尾，愬愬终吉：战战兢兢而行险，终得吉。
+  source_ref: 《周易·履卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822354'
+- snippet_id: ns_zhouyi_099
+  trigger: 卦=履 AND 九五
+  factor_trigger: zhouyi_gua_lv AND zhouyi_yao_jiuwu
+  role: 主干依赖
+  snippet_text: 夬履，贞厉：果断前行，守正但须戒惧。
+  source_ref: 《周易·履卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822364'
+- snippet_id: ns_zhouyi_100
+  trigger: 卦=履 AND 上九
+  factor_trigger: zhouyi_gua_lv AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 视履考祥，其旋元吉：反观所履之迹，终得大吉。
+  source_ref: 《周易·履卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822370'
+- snippet_id: ns_zhouyi_101
+  trigger: 卦=泰 AND 卦辞
+  factor_trigger: zhouyi_gua_tai AND zhouyi_guaci
+  role: 主干
+  snippet_text: 泰：小往大来，吉，亨。天地交泰，小者退大者进。
+  source_ref: 《周易·泰卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822388'
+- snippet_id: ns_zhouyi_102
+  trigger: 卦=泰 AND 彖传
+  factor_trigger: zhouyi_gua_tai AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 泰，小往大来，吉亨；则是天地交而万物通也。
+  source_ref: 《周易·泰卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822497'
+- snippet_id: ns_zhouyi_103
+  trigger: 卦=泰 AND 象传
+  factor_trigger: zhouyi_gua_tai AND zhouyi_xiang
+  role: 主干
+  snippet_text: 天地交，泰；后以财成天地之道：上下交通，万物各得其所。
+  source_ref: 《周易·泰卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822506'
+- snippet_id: ns_zhouyi_104
+  trigger: 卦=泰 AND 初九
+  factor_trigger: zhouyi_gua_tai AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 拔茅茹，以其汇，征吉：同类相牵，共同进退而吉。
+  source_ref: 《周易·泰卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822512'
+- snippet_id: ns_zhouyi_105
+  trigger: 卦=泰 AND 九二
+  factor_trigger: zhouyi_gua_tai AND zhouyi_yao_jiuer
+  role: 条件分支
+  snippet_text: 包荒，用冯河，不遐遗，朋亡，得尚于中行：以宽大胸怀包容群下。
+  source_ref: 《周易·泰卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822518'
+- snippet_id: ns_zhouyi_106
+  trigger: 卦=泰 AND 九三
+  factor_trigger: zhouyi_gua_tai AND zhouyi_yao_jiusan
+  role: 主干依赖
+  snippet_text: 无平不陂，无往不复，艰贞无咎：盛泰之中，已伏否机。
+  source_ref: 《周易·泰卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822525'
+- snippet_id: ns_zhouyi_107
+  trigger: 卦=泰 AND 六四
+  factor_trigger: zhouyi_gua_tai AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 翩翩不富，以其邻，不戒以孚：柔顺下交，与邻共进。
+  source_ref: 《周易·泰卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822530'
+- snippet_id: ns_zhouyi_108
+  trigger: 卦=泰 AND 六五
+  factor_trigger: zhouyi_gua_tai AND zhouyi_yao_liuwu
+  role: 条件分支
+  snippet_text: 帝乙归妹，以祉元吉：柔居中而得正，婚盟合宜。
+  source_ref: 《周易·泰卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822534'
+- snippet_id: ns_zhouyi_109
+  trigger: 卦=泰 AND 上六
+  factor_trigger: zhouyi_gua_tai AND zhouyi_yao_shangliu
+  role: 总结
+  snippet_text: 城复于隍，勿用师，自邑告命：盛泰走向否极，当止兵守和。
+  source_ref: 《周易·泰卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822539'
+- snippet_id: ns_zhouyi_110
+  trigger: 卦=否 AND 卦辞
+  factor_trigger: zhouyi_gua_pi AND zhouyi_guaci
+  role: 主干
+  snippet_text: 否：否之匪人，不利君子贞，大往小来。小人道长，君子道消。
+  source_ref: 《周易·否卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822557'
+- snippet_id: ns_zhouyi_111
+  trigger: 卦=否 AND 彖传
+  factor_trigger: zhouyi_gua_pi AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 否之匪人，不利君子贞，大往小来；则是天地不交而万物不通也。
+  source_ref: 《周易·否卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822563'
+- snippet_id: ns_zhouyi_112
+  trigger: 卦=否 AND 象传
+  factor_trigger: zhouyi_gua_pi AND zhouyi_xiang
+  role: 主干
+  snippet_text: 天地不交，否；君子以俭德辟难，不可荣以禄：上下闭塞，以退藏避难。
+  source_ref: 《周易·否卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822568'
+- snippet_id: ns_zhouyi_113
+  trigger: 卦=否 AND 初六
+  factor_trigger: zhouyi_gua_pi AND zhouyi_yao_chuliu
+  role: 条件分支
+  snippet_text: 拔茅茹，以其汇，贞吉亨：君子相与，同退小人而守贞。
+  source_ref: 《周易·否卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822575'
+- snippet_id: ns_zhouyi_114
+  trigger: 卦=否 AND 六二
+  factor_trigger: zhouyi_gua_pi AND zhouyi_yao_liuer
+  role: 例外处理
+  snippet_text: 包承，小人吉，大人否亨：小人因势得利，大人反受抑。
+  source_ref: 《周易·否卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822581'
+- snippet_id: ns_zhouyi_115
+  trigger: 卦=否 AND 六三
+  factor_trigger: zhouyi_gua_pi AND zhouyi_yao_liusan
+  role: 条件分支
+  snippet_text: 包羞：包藏羞辱，处否塞之中尚有良心不安。
+  source_ref: 《周易·否卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822586'
+- snippet_id: ns_zhouyi_116
+  trigger: 卦=否 AND 九四
+  factor_trigger: zhouyi_gua_pi AND zhouyi_yao_jiusi
+  role: 条件分支
+  snippet_text: 有命无咎，畴离祉：顺天命而保无咎，福自他方。
+  source_ref: 《周易·否卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822590'
+- snippet_id: ns_zhouyi_117
+  trigger: 卦=否 AND 九五
+  factor_trigger: zhouyi_gua_pi AND zhouyi_yao_jiuwu
+  role: 主干依赖
+  snippet_text: 休否，大人吉；其亡其亡，系于苞桑：否极即将反泰之机。
+  source_ref: 《周易·否卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822594'
+- snippet_id: ns_zhouyi_118
+  trigger: 卦=否 AND 上九
+  factor_trigger: zhouyi_gua_pi AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 倾否，先否后喜：闭塞既倾，喜庆随来。
+  source_ref: 《周易·否卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822599'
+- snippet_id: ns_zhouyi_119
+  trigger: 卦=同人 AND 卦辞
+  factor_trigger: zhouyi_gua_tongren AND zhouyi_guaci
+  role: 主干
+  snippet_text: 同人于野，亨，利涉大川，利君子贞：在广阔之地与人同心，可以济险。
+  source_ref: 《周易·同人卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822615'
+- snippet_id: ns_zhouyi_120
+  trigger: 卦=同人 AND 彖传
+  factor_trigger: zhouyi_gua_tongren AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 同人，柔得位得中而应乎乾，曰同人。
+  source_ref: 《周易·同人卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822619'
+- snippet_id: ns_zhouyi_121
+  trigger: 卦=同人 AND 象传
+  factor_trigger: zhouyi_gua_tongren AND zhouyi_xiang
+  role: 主干
+  snippet_text: 天与火，同人；君子以类族辨物：以同类相聚而各得其所。
+  source_ref: 《周易·同人卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822626'
+- snippet_id: ns_zhouyi_122
+  trigger: 卦=同人 AND 初九
+  factor_trigger: zhouyi_gua_tongren AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 同人于门，无咎：从家门起，与近者先同。
+  source_ref: 《周易·同人卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822631'
+- snippet_id: ns_zhouyi_123
+  trigger: 卦=同人 AND 六二
+  factor_trigger: zhouyi_gua_tongren AND zhouyi_yao_liuer
+  role: 例外处理
+  snippet_text: 同人于宗，吝：只同宗族而局限，终有可吝。
+  source_ref: 《周易·同人卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822636'
+- snippet_id: ns_zhouyi_124
+  trigger: 卦=同人 AND 九三
+  factor_trigger: zhouyi_gua_tongren AND zhouyi_yao_jiusan
+  role: 条件分支
+  snippet_text: 伏戎于莽，升其高陵，三岁不兴：暗藏兵戎，久不出动。
+  source_ref: 《周易·同人卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822642'
+- snippet_id: ns_zhouyi_125
+  trigger: 卦=同人 AND 九四
+  factor_trigger: zhouyi_gua_tongren AND zhouyi_yao_jiusi
+  role: 条件分支
+  snippet_text: 乘其墉，弗克攻，吉：乘城攻而不克，知难而退则吉。
+  source_ref: 《周易·同人卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822647'
+- snippet_id: ns_zhouyi_126
+  trigger: 卦=同人 AND 九五
+  factor_trigger: zhouyi_gua_tongren AND zhouyi_yao_jiuwu
+  role: 主干依赖
+  snippet_text: 同人，先号啕而后笑，大师克相遇：同心之前，须经冲突而后会。
+  source_ref: 《周易·同人卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822651'
+- snippet_id: ns_zhouyi_127
+  trigger: 卦=同人 AND 上九
+  factor_trigger: zhouyi_gua_tongren AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 同人于郊，无悔：超出局限，在更大空间中与人同。
+  source_ref: 《周易·同人卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822656'
+- snippet_id: ns_zhouyi_128
+  trigger: 卦=大有 AND 卦辞
+  factor_trigger: zhouyi_gua_dayou AND zhouyi_guaci
+  role: 主干
+  snippet_text: 大有，元亨：拥有广大财富与资源而能大亨。
+  source_ref: 《周易·大有卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822670'
+- snippet_id: ns_zhouyi_129
+  trigger: 卦=大有 AND 彖传
+  factor_trigger: zhouyi_gua_dayou AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 大有，柔得尊位大中，而上下应之，曰大有。
+  source_ref: 《周易·大有卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822676'
+- snippet_id: ns_zhouyi_130
+  trigger: 卦=大有 AND 象传
+  factor_trigger: zhouyi_gua_dayou AND zhouyi_xiang
+  role: 主干
+  snippet_text: 火在天上，大有；君子以遏恶扬善，顺天休命：高位持明，以善导众。
+  source_ref: 《周易·大有卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822684'
+- snippet_id: ns_zhouyi_131
+  trigger: 卦=大有 AND 初九
+  factor_trigger: zhouyi_gua_dayou AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 无交害，匪咎，艰则无咎：在大有之初，慎交则免害。
+  source_ref: 《周易·大有卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822690'
+- snippet_id: ns_zhouyi_132
+  trigger: 卦=大有 AND 九二
+  factor_trigger: zhouyi_gua_dayou AND zhouyi_yao_jiuer
+  role: 条件分支
+  snippet_text: 大车以载，有攸往，无咎：资财如大车，可载而往。
+  source_ref: 《周易·大有卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822695'
+- snippet_id: ns_zhouyi_133
+  trigger: 卦=大有 AND 九三
+  factor_trigger: zhouyi_gua_dayou AND zhouyi_yao_jiusan
+  role: 主干依赖
+  snippet_text: 公用亨于天子，小人弗克：能与天子共享丰盛，非小人所能。
+  source_ref: 《周易·大有卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822699'
+- snippet_id: ns_zhouyi_134
+  trigger: 卦=大有 AND 九四
+  factor_trigger: zhouyi_gua_dayou AND zhouyi_yao_jiusi
+  role: 条件分支
+  snippet_text: 匪其彭，无咎：不因盛大而炫耀，可无咎。
+  source_ref: 《周易·大有卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822705'
+- snippet_id: ns_zhouyi_135
+  trigger: 卦=大有 AND 六五
+  factor_trigger: zhouyi_gua_dayou AND zhouyi_yao_liuwu
+  role: 条件分支
+  snippet_text: 厥孚交如，威如，吉：以诚信相交而自有威仪。
+  source_ref: 《周易·大有卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822710'
+- snippet_id: ns_zhouyi_136
+  trigger: 卦=大有 AND 上九
+  factor_trigger: zhouyi_gua_dayou AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 自天佑之，吉无不利：得天之佑，所向皆利。
+  source_ref: 《周易·大有卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822715'
+- snippet_id: ns_zhouyi_137
+  trigger: 卦=谦 AND 卦辞
+  factor_trigger: zhouyi_gua_qian2 AND zhouyi_guaci
+  role: 主干
+  snippet_text: 谦，亨，君子有终：以谦处世，始终得善果。
+  source_ref: 《周易·谦卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822760'
+- snippet_id: ns_zhouyi_138
+  trigger: 卦=谦 AND 彖传
+  factor_trigger: zhouyi_gua_qian2 AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 谦，亨。天道亏盈而益谦，地道变盈而流谦。
+  source_ref: 《周易·谦卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822772'
+- snippet_id: ns_zhouyi_139
+  trigger: 卦=谦 AND 象传
+  factor_trigger: zhouyi_gua_qian2 AND zhouyi_xiang
+  role: 主干
+  snippet_text: 地中有山，谦；君子以裒多益寡，称物平施：多者减之，以补不足。
+  source_ref: 《周易·谦卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822778'
+- snippet_id: ns_zhouyi_140
+  trigger: 卦=谦 AND 初六
+  factor_trigger: zhouyi_gua_qian2 AND zhouyi_yao_chuliu
+  role: 条件分支
+  snippet_text: 谦谦君子，用涉大川，吉：以谦可济大险。
+  source_ref: 《周易·谦卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822782'
+- snippet_id: ns_zhouyi_141
+  trigger: 卦=谦 AND 六二
+  factor_trigger: zhouyi_gua_qian2 AND zhouyi_yao_liuer
+  role: 条件分支
+  snippet_text: 鸣谦，贞吉：谦而能言其志，仍守正而吉。
+  source_ref: 《周易·谦卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822787'
+- snippet_id: ns_zhouyi_142
+  trigger: 卦=谦 AND 九三
+  factor_trigger: zhouyi_gua_qian2 AND zhouyi_yao_jiusan
+  role: 主干依赖
+  snippet_text: 劳谦君子，有终，吉：劳而不矜，终获大吉。
+  source_ref: 《周易·谦卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822791'
+- snippet_id: ns_zhouyi_143
+  trigger: 卦=谦 AND 六四
+  factor_trigger: zhouyi_gua_qian2 AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 无不利，撝谦：无往不利，推谦而行。
+  source_ref: 《周易·谦卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822795'
+- snippet_id: ns_zhouyi_144
+  trigger: 卦=谦 AND 六五
+  factor_trigger: zhouyi_gua_qian2 AND zhouyi_yao_liuwu
+  role: 条件分支
+  snippet_text: 不富，以其邻，利用侵伐，无不利：不自专其富，能共其利。
+  source_ref: 《周易·谦卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822801'
+- snippet_id: ns_zhouyi_145
+  trigger: 卦=谦 AND 上六
+  factor_trigger: zhouyi_gua_qian2 AND zhouyi_yao_shangliu
+  role: 总结
+  snippet_text: 鸣谦，利用行师，征邑国：以谦领军，师出有名。
+  source_ref: 《周易·谦卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822806'
+- snippet_id: ns_zhouyi_146
+  trigger: 卦=豫 AND 卦辞
+  factor_trigger: zhouyi_gua_yu AND zhouyi_guaci
+  role: 主干
+  snippet_text: 豫，利建侯行师：在和乐之时，仍宜建制行师。
+  source_ref: 《周易·豫卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822822'
+- snippet_id: ns_zhouyi_147
+  trigger: 卦=豫 AND 彖传
+  factor_trigger: zhouyi_gua_yu AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 豫，刚应而志行，顺以动，豫。
+  source_ref: 《周易·豫卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822827'
+- snippet_id: ns_zhouyi_148
+  trigger: 卦=豫 AND 象传
+  factor_trigger: zhouyi_gua_yu AND zhouyi_xiang
+  role: 主干
+  snippet_text: 雷出地奋，豫；先王以作乐崇德：外乐而内守礼。
+  source_ref: 《周易·豫卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822832'
+- snippet_id: ns_zhouyi_149
+  trigger: 卦=豫 AND 初六
+  factor_trigger: zhouyi_gua_yu AND zhouyi_yao_chuliu
+  role: 例外处理
+  snippet_text: 鸣豫，凶：草率欢悦，未当其时则凶。
+  source_ref: 《周易·豫卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822838'
+- snippet_id: ns_zhouyi_150
+  trigger: 卦=豫 AND 六二
+  factor_trigger: zhouyi_gua_yu AND zhouyi_yao_liuer
+  role: 主干依赖
+  snippet_text: 介于石，不终日，贞吉：居乐而如介石，能自持则吉。
+  source_ref: 《周易·豫卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822844'
+- snippet_id: ns_zhouyi_151
+  trigger: 卦=豫 AND 六三
+  factor_trigger: zhouyi_gua_yu AND zhouyi_yao_liusan
+  role: 条件分支
+  snippet_text: 盱豫，悔，迟有悔：仰视他人之乐，迟疑则悔。
+  source_ref: 《周易·豫卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822848'
+- snippet_id: ns_zhouyi_152
+  trigger: 卦=豫 AND 九四
+  factor_trigger: zhouyi_gua_yu AND zhouyi_yao_jiusi
+  role: 条件分支
+  snippet_text: 由豫，大有得，勿疑，朋盍簪：顺势而乐，反得大利。
+  source_ref: 《周易·豫卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822854'
+- snippet_id: ns_zhouyi_153
+  trigger: 卦=豫 AND 六五
+  factor_trigger: zhouyi_gua_yu AND zhouyi_yao_liuwu
+  role: 条件分支
+  snippet_text: 贞疾，恒不死：患难中守正，终能不亡。
+  source_ref: 《周易·豫卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822860'
+- snippet_id: ns_zhouyi_154
+  trigger: 卦=豫 AND 上六
+  factor_trigger: zhouyi_gua_yu AND zhouyi_yao_shangliu
+  role: 总结
+  snippet_text: 冥豫，成有渝，无咎：沉迷于乐，终致变故。
+  source_ref: 《周易·豫卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822864'
+- snippet_id: ns_zhouyi_155
+  trigger: 卦=随 AND 卦辞
+  factor_trigger: zhouyi_gua_sui AND zhouyi_guaci
+  role: 主干
+  snippet_text: 随，元亨利贞，无咎：善于随时而动，守正则无咎。
+  source_ref: 《周易·随卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822877'
+- snippet_id: ns_zhouyi_156
+  trigger: 卦=随 AND 彖传
+  factor_trigger: zhouyi_gua_sui AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 随，刚来而下柔，动而说，随。
+  source_ref: 《周易·随卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822881'
+- snippet_id: ns_zhouyi_157
+  trigger: 卦=随 AND 象传
+  factor_trigger: zhouyi_gua_sui AND zhouyi_xiang
+  role: 主干
+  snippet_text: 泽中有雷，随；君子以向晦入宴息：知随时而休息。
+  source_ref: 《周易·随卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822886'
+- snippet_id: ns_zhouyi_158
+  trigger: 卦=随 AND 初九
+  factor_trigger: zhouyi_gua_sui AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 官有渝，贞吉，出门交有功：官位有变，改从正道则吉。
+  source_ref: 《周易·随卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822890'
+- snippet_id: ns_zhouyi_159
+  trigger: 卦=随 AND 六二
+  factor_trigger: zhouyi_gua_sui AND zhouyi_yao_liuer
+  role: 例外处理
+  snippet_text: 系小子，失丈夫：只随小者而失大者。
+  source_ref: 《周易·随卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822895'
+- snippet_id: ns_zhouyi_160
+  trigger: 卦=随 AND 六三
+  factor_trigger: zhouyi_gua_sui AND zhouyi_yao_liusan
+  role: 条件分支
+  snippet_text: 系丈夫，失小子，随有求得：从大者而舍小利。
+  source_ref: 《周易·随卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822901'
+- snippet_id: ns_zhouyi_161
+  trigger: 卦=随 AND 九四
+  factor_trigger: zhouyi_gua_sui AND zhouyi_yao_jiusi
+  role: 条件分支
+  snippet_text: 随有获，贞凶，有孚在道以明：随而有得，守正道。
+  source_ref: 《周易·随卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822905'
+- snippet_id: ns_zhouyi_162
+  trigger: 卦=随 AND 九五
+  factor_trigger: zhouyi_gua_sui AND zhouyi_yao_jiuwu
+  role: 主干依赖
+  snippet_text: 孚于嘉，吉：以真诚随善者而吉。
+  source_ref: 《周易·随卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822911'
+- snippet_id: ns_zhouyi_163
+  trigger: 卦=随 AND 上六
+  factor_trigger: zhouyi_gua_sui AND zhouyi_yao_shangliu
+  role: 总结
+  snippet_text: 拘系之，乃从维之，王用亨于西山：过度拘系，反失其随。
+  source_ref: 《周易·随卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822918'
+- snippet_id: ns_zhouyi_164
+  trigger: 卦=蛊 AND 卦辞
+  factor_trigger: zhouyi_gua_gu AND zhouyi_guaci
+  role: 主干
+  snippet_text: 蛊，元亨，利涉大川，先甲三日，后甲三日：面对积弊，仍可大有作为。
+  source_ref: 《周易·蛊卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822930'
+- snippet_id: ns_zhouyi_165
+  trigger: 卦=蛊 AND 彖传
+  factor_trigger: zhouyi_gua_gu AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 蛊，刚上而柔下，巽而止，蛊。
+  source_ref: 《周易·蛊卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822936'
+- snippet_id: ns_zhouyi_166
+  trigger: 卦=蛊 AND 象传
+  factor_trigger: zhouyi_gua_gu AND zhouyi_xiang
+  role: 主干
+  snippet_text: 山下有风，蛊；君子以振民育德：整饥民心，培育德行。
+  source_ref: 《周易·蛊卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822941'
+- snippet_id: ns_zhouyi_167
+  trigger: 卦=蛊 AND 初六
+  factor_trigger: zhouyi_gua_gu AND zhouyi_yao_chuliu
+  role: 条件分支
+  snippet_text: 干父之蛊，有子，考无咎，厉终吉：子能承父未竟之业。
+  source_ref: 《周易·蛊卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822946'
+- snippet_id: ns_zhouyi_168
+  trigger: 卦=蛊 AND 九二
+  factor_trigger: zhouyi_gua_gu AND zhouyi_yao_jiuer
+  role: 条件分支
+  snippet_text: 干母之蛊，不可贞：对母之过当谨慎，不可固执。
+  source_ref: 《周易·蛊卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822953'
+- snippet_id: ns_zhouyi_169
+  trigger: 卦=蛊 AND 九三
+  factor_trigger: zhouyi_gua_gu AND zhouyi_yao_jiusan
+  role: 条件分支
+  snippet_text: 干父之蛊，小有悔，无大咎：可能小有过失，无大咎。
+  source_ref: 《周易·蛊卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822957'
+- snippet_id: ns_zhouyi_170
+  trigger: 卦=蛊 AND 六四
+  factor_trigger: zhouyi_gua_gu AND zhouyi_yao_liusi
+  role: 例外处理
+  snippet_text: 裕父之蛊，往见吝：一味放纵旧习，终有可吝。
+  source_ref: 《周易·蛊卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822962'
+- snippet_id: ns_zhouyi_171
+  trigger: 卦=蛊 AND 六五
+  factor_trigger: zhouyi_gua_gu AND zhouyi_yao_liuwu
+  role: 主干依赖
+  snippet_text: 干父之蛊，用誉：善治旧弊，终获称誉。
+  source_ref: 《周易·蛊卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822966'
+- snippet_id: ns_zhouyi_172
+  trigger: 卦=蛊 AND 上九
+  factor_trigger: zhouyi_gua_gu AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 不事王侯，高尚其事：不以世俗功名为志。
+  source_ref: 《周易·蛊卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822971'
+- snippet_id: ns_zhouyi_173
+  trigger: 卦=临 AND 卦辞
+  factor_trigger: zhouyi_gua_lin AND zhouyi_guaci
+  role: 主干
+  snippet_text: 临，元亨利贞，至于八月有凶：盛临将极，须防衰变。
+  source_ref: 《周易·临卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822983'
+- snippet_id: ns_zhouyi_174
+  trigger: 卦=临 AND 彖传
+  factor_trigger: zhouyi_gua_lin AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 临，刚浸而长，说而顺，刚中而应。
+  source_ref: 《周易·临卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822988'
+- snippet_id: ns_zhouyi_175
+  trigger: 卦=临 AND 象传
+  factor_trigger: zhouyi_gua_lin AND zhouyi_xiang
+  role: 主干
+  snippet_text: 泽上有地，临；君子以教思无穷，容保民无疆：地居泽上，以临下而教。
+  source_ref: 《周易·临卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822994'
+- snippet_id: ns_zhouyi_176
+  trigger: 卦=临 AND 初九
+  factor_trigger: zhouyi_gua_lin AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 咸临，贞吉：以感通之心下临众人。
+  source_ref: 《周易·临卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.822999'
+- snippet_id: ns_zhouyi_177
+  trigger: 卦=临 AND 九二
+  factor_trigger: zhouyi_gua_lin AND zhouyi_yao_jiuer
+  role: 条件分支
+  snippet_text: 咸临，吉，无不利：以诚感临，无不利。
+  source_ref: 《周易·临卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823004'
+- snippet_id: ns_zhouyi_178
+  trigger: 卦=临 AND 六三
+  factor_trigger: zhouyi_gua_lin AND zhouyi_yao_liusan
+  role: 例外处理
+  snippet_text: 甘临，无攸利，既忧之，无咎：以甘言临人，终无所利。
+  source_ref: 《周易·临卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823009'
+- snippet_id: ns_zhouyi_179
+  trigger: 卦=临 AND 六四
+  factor_trigger: zhouyi_gua_lin AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 至临，无咎：亲身下临，无咎。
+  source_ref: 《周易·临卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823013'
+- snippet_id: ns_zhouyi_180
+  trigger: 卦=临 AND 六五
+  factor_trigger: zhouyi_gua_lin AND zhouyi_yao_liuwu
+  role: 主干依赖
+  snippet_text: 知临，大君之宜，吉：以智慧临人，合大君之道。
+  source_ref: 《周易·临卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823017'
+- snippet_id: ns_zhouyi_181
+  trigger: 卦=临 AND 上六
+  factor_trigger: zhouyi_gua_lin AND zhouyi_yao_shangliu
+  role: 总结
+  snippet_text: 敦临，吉，无咎：以敦厚之德临下。
+  source_ref: 《周易·临卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823022'
+- snippet_id: ns_zhouyi_182
+  trigger: 卦=观 AND 卦辞
+  factor_trigger: zhouyi_gua_guan AND zhouyi_guaci
+  role: 主干
+  snippet_text: 观，盥而不荐，有孚顢若：在祭礼前沐浴观德。
+  source_ref: 《周易·观卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823034'
+- snippet_id: ns_zhouyi_183
+  trigger: 卦=观 AND 彖传
+  factor_trigger: zhouyi_gua_guan AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 大观在上，顺而巽，中正以观天下。
+  source_ref: 《周易·观卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823039'
+- snippet_id: ns_zhouyi_184
+  trigger: 卦=观 AND 象传
+  factor_trigger: zhouyi_gua_guan AND zhouyi_xiang
+  role: 主干
+  snippet_text: 风行地上，观；先王以省方观民设教：巡行四方，观察民情而施教。
+  source_ref: 《周易·观卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823044'
+- snippet_id: ns_zhouyi_185
+  trigger: 卦=观 AND 初六
+  factor_trigger: zhouyi_gua_guan AND zhouyi_yao_chuliu
+  role: 例外处理
+  snippet_text: 童观，小人无咎，君子吝：以童稚之见观事。
+  source_ref: 《周易·观卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823074'
+- snippet_id: ns_zhouyi_186
+  trigger: 卦=观 AND 六二
+  factor_trigger: zhouyi_gua_guan AND zhouyi_yao_liuer
+  role: 条件分支
+  snippet_text: 闚观，利女贞：从门缝窥观，如女子之慎守。
+  source_ref: 《周易·观卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823083'
+- snippet_id: ns_zhouyi_187
+  trigger: 卦=观 AND 六三
+  factor_trigger: zhouyi_gua_guan AND zhouyi_yao_liusan
+  role: 条件分支
+  snippet_text: 观我生，进退：自观自身所处之进退。
+  source_ref: 《周易·观卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823088'
+- snippet_id: ns_zhouyi_188
+  trigger: 卦=观 AND 六四
+  factor_trigger: zhouyi_gua_guan AND zhouyi_yao_liusi
+  role: 主干依赖
+  snippet_text: 观国之光，利用宾于王：以观国之盛光而知所宾。
+  source_ref: 《周易·观卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823094'
+- snippet_id: ns_zhouyi_189
+  trigger: 卦=观 AND 九五
+  factor_trigger: zhouyi_gua_guan AND zhouyi_yao_jiuwu
+  role: 条件分支
+  snippet_text: 观我生，君子无咎：君子自观其生，而无咎。
+  source_ref: 《周易·观卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823098'
+- snippet_id: ns_zhouyi_190
+  trigger: 卦=观 AND 上九
+  factor_trigger: zhouyi_gua_guan AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 观其生，君子无咎：以他人为镜而无咎。
+  source_ref: 《周易·观卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823103'
+- snippet_id: ns_zhouyi_191
+  trigger: 卦=噬嗑 AND 卦辞
+  factor_trigger: zhouyi_gua_shihe AND zhouyi_guaci
+  role: 主干
+  snippet_text: 噬嗑，亨，利用狱：以刑狱之道通行正义。
+  source_ref: 《周易·噬嗑卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823116'
+- snippet_id: ns_zhouyi_192
+  trigger: 卦=噬嗑 AND 彖传
+  factor_trigger: zhouyi_gua_shihe AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 颔中有物，曰噬嗑。噬嗑而亨。
+  source_ref: 《周易·噬嗑卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823122'
+- snippet_id: ns_zhouyi_193
+  trigger: 卦=噬嗑 AND 象传
+  factor_trigger: zhouyi_gua_shihe AND zhouyi_xiang
+  role: 主干
+  snippet_text: 雷电，噬嗑；先王以明罚敕法：以雷电之威明罚。
+  source_ref: 《周易·噬嗑卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823127'
+- snippet_id: ns_zhouyi_194
+  trigger: 卦=噬嗑 AND 初九
+  factor_trigger: zhouyi_gua_shihe AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 屦校灭趾，无咎：早期约束虽伤趾，终可防大害。
+  source_ref: 《周易·噬嗑卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823132'
+- snippet_id: ns_zhouyi_195
+  trigger: 卦=噬嗑 AND 六二
+  factor_trigger: zhouyi_gua_shihe AND zhouyi_yao_liuer
+  role: 条件分支
+  snippet_text: 噬肤灭鼻，无咎：咕咕肌肤，虽用力过度但无大咎。
+  source_ref: 《周易·噬嗑卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823137'
+- snippet_id: ns_zhouyi_196
+  trigger: 卦=噬嗑 AND 六三
+  factor_trigger: zhouyi_gua_shihe AND zhouyi_yao_liusan
+  role: 条件分支
+  snippet_text: 噬腊肉，遇毒，小吝，无咎：咕咕干肉遇毒，小有困窘。
+  source_ref: 《周易·噬嗑卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823142'
+- snippet_id: ns_zhouyi_197
+  trigger: 卦=噬嗑 AND 九四
+  factor_trigger: zhouyi_gua_shihe AND zhouyi_yao_jiusi
+  role: 条件分支
+  snippet_text: 噬干胏，得金矢，利艰贞，吉：咕咕干肉，得金矢则吉。
+  source_ref: 《周易·噬嗑卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823147'
+- snippet_id: ns_zhouyi_198
+  trigger: 卦=噬嗑 AND 六五
+  factor_trigger: zhouyi_gua_shihe AND zhouyi_yao_liuwu
+  role: 主干依赖
+  snippet_text: 噬干肉，得黄金，贞厉，无咎：咕咕干肉得黄金，守正则吉。
+  source_ref: 《周易·噬嗑卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823151'
+- snippet_id: ns_zhouyi_199
+  trigger: 卦=噬嗑 AND 上九
+  factor_trigger: zhouyi_gua_shihe AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 何校灭耳，凶：刑罚过度，终致凶咎。
+  source_ref: 《周易·噬嗑卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823158'
+- snippet_id: ns_zhouyi_200
+  trigger: 卦=贲 AND 卦辞
+  factor_trigger: zhouyi_gua_bi2 AND zhouyi_guaci
+  role: 主干
+  snippet_text: 贲，亨，小利有攸往：文采装饰宜小用而不可过。
+  source_ref: 《周易·贲卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823170'
+- snippet_id: ns_zhouyi_201
+  trigger: 卦=贲 AND 彖传
+  factor_trigger: zhouyi_gua_bi2 AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 贲，亨。柔来而文刚，故亨。
+  source_ref: 《周易·贲卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823177'
+- snippet_id: ns_zhouyi_202
+  trigger: 卦=贲 AND 象传
+  factor_trigger: zhouyi_gua_bi2 AND zhouyi_xiang
+  role: 主干
+  snippet_text: 山下有火，贲；君子以明庶政，无敢折狱。
+  source_ref: 《周易·贲卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823182'
+- snippet_id: ns_zhouyi_203
+  trigger: 卦=贲 AND 初九
+  factor_trigger: zhouyi_gua_bi2 AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 贲其趾，舍车而徒：从下饰起，以朴实为先。
+  source_ref: 《周易·贲卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823188'
+- snippet_id: ns_zhouyi_204
+  trigger: 卦=贲 AND 六二
+  factor_trigger: zhouyi_gua_bi2 AND zhouyi_yao_liuer
+  role: 条件分支
+  snippet_text: 贲其须：饰须，文对须眼。
+  source_ref: 《周易·贲卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823192'
+- snippet_id: ns_zhouyi_205
+  trigger: 卦=贲 AND 九三
+  factor_trigger: zhouyi_gua_bi2 AND zhouyi_yao_jiusan
+  role: 条件分支
+  snippet_text: 贲如，濡如，永贞吉：文采润泽，永守则吉。
+  source_ref: 《周易·贲卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823196'
+- snippet_id: ns_zhouyi_206
+  trigger: 卦=贲 AND 六四
+  factor_trigger: zhouyi_gua_bi2 AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 贲如皤如，白马翰如，匪寇婚媾：素朴之饰，反成高雅。
+  source_ref: 《周易·贲卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823202'
+- snippet_id: ns_zhouyi_207
+  trigger: 卦=贲 AND 六五
+  factor_trigger: zhouyi_gua_bi2 AND zhouyi_yao_liuwu
+  role: 主干依赖
+  snippet_text: 贲于丘园，束帛戋戋，吝，终吉：以素朴之礼，终获吉。
+  source_ref: 《周易·贲卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823207'
+- snippet_id: ns_zhouyi_208
+  trigger: 卦=贲 AND 上九
+  factor_trigger: zhouyi_gua_bi2 AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 白贲，无咎：回归素白之饰，则无咎。
+  source_ref: 《周易·贲卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823211'
+- snippet_id: ns_zhouyi_209
+  trigger: 卦=剥 AND 卦辞
+  factor_trigger: zhouyi_gua_bo AND zhouyi_guaci
+  role: 主干
+  snippet_text: 剥，不利有攸往：剥蚀之时，不宜有所作为。
+  source_ref: 《周易·剥卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823222'
+- snippet_id: ns_zhouyi_210
+  trigger: 卦=剥 AND 彖传
+  factor_trigger: zhouyi_gua_bo AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 剥，剥也，柔变刚也。
+  source_ref: 《周易·剥卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823226'
+- snippet_id: ns_zhouyi_211
+  trigger: 卦=剥 AND 象传
+  factor_trigger: zhouyi_gua_bo AND zhouyi_xiang
+  role: 主干
+  snippet_text: 山附于地，剥；上以厚下安宅。
+  source_ref: 《周易·剥卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823231'
+- snippet_id: ns_zhouyi_212
+  trigger: 卦=剥 AND 初六
+  factor_trigger: zhouyi_gua_bo AND zhouyi_yao_chuliu
+  role: 条件分支
+  snippet_text: 剥床以足，蔑贞凶：剥蚀自下起。
+  source_ref: 《周易·剥卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823236'
+- snippet_id: ns_zhouyi_213
+  trigger: 卦=剥 AND 六二
+  factor_trigger: zhouyi_gua_bo AND zhouyi_yao_liuer
+  role: 条件分支
+  snippet_text: 剥床以辨，蔑贞凶：剥床之上部。
+  source_ref: 《周易·剥卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823241'
+- snippet_id: ns_zhouyi_214
+  trigger: 卦=剥 AND 六三
+  factor_trigger: zhouyi_gua_bo AND zhouyi_yao_liusan
+  role: 条件分支
+  snippet_text: 剥之，无咎：剥而不害。
+  source_ref: 《周易·剥卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823247'
+- snippet_id: ns_zhouyi_215
+  trigger: 卦=剥 AND 六四
+  factor_trigger: zhouyi_gua_bo AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 剥床以肤，凶：剥及自身。
+  source_ref: 《周易·剥卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823252'
+- snippet_id: ns_zhouyi_216
+  trigger: 卦=剥 AND 六五
+  factor_trigger: zhouyi_gua_bo AND zhouyi_yao_liuwu
+  role: 主干依赖
+  snippet_text: 贯鱼，以宫人宠，无不利：保持秩序与宠爱。
+  source_ref: 《周易·剥卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823256'
+- snippet_id: ns_zhouyi_217
+  trigger: 卦=剥 AND 上九
+  factor_trigger: zhouyi_gua_bo AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 硕果不食，君子得舆，小人剥庐：留种保全。
+  source_ref: 《周易·剥卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823260'
+- snippet_id: ns_zhouyi_218
+  trigger: 卦=复 AND 卦辞
+  factor_trigger: zhouyi_gua_fu AND zhouyi_guaci
+  role: 主干
+  snippet_text: 复，亨，出入无疾，朋来无咎：阳气复来之时。
+  source_ref: 《周易·复卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823271'
+- snippet_id: ns_zhouyi_219
+  trigger: 卦=复 AND 彖传
+  factor_trigger: zhouyi_gua_fu AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 复，亨。刚反，动而以顺行。
+  source_ref: 《周易·复卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823275'
+- snippet_id: ns_zhouyi_220
+  trigger: 卦=复 AND 象传
+  factor_trigger: zhouyi_gua_fu AND zhouyi_xiang
+  role: 主干
+  snippet_text: 雷在地中，复；先王以至日闭关。
+  source_ref: 《周易·复卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823280'
+- snippet_id: ns_zhouyi_221
+  trigger: 卦=复 AND 初九
+  factor_trigger: zhouyi_gua_fu AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 不远复，无祗悔，元吉：迷而能返，不致深悔。
+  source_ref: 《周易·复卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823286'
+- snippet_id: ns_zhouyi_222
+  trigger: 卦=复 AND 六二
+  factor_trigger: zhouyi_gua_fu AND zhouyi_yao_liuer
+  role: 条件分支
+  snippet_text: 休复，吉：美善之复。
+  source_ref: 《周易·复卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823291'
+- snippet_id: ns_zhouyi_223
+  trigger: 卦=复 AND 六三
+  factor_trigger: zhouyi_gua_fu AND zhouyi_yao_liusan
+  role: 条件分支
+  snippet_text: 频复，厉，无咎：反复之复。
+  source_ref: 《周易·复卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823295'
+- snippet_id: ns_zhouyi_224
+  trigger: 卦=复 AND 六四
+  factor_trigger: zhouyi_gua_fu AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 中行独复：中道独行而复。
+  source_ref: 《周易·复卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823300'
+- snippet_id: ns_zhouyi_225
+  trigger: 卦=复 AND 六五
+  factor_trigger: zhouyi_gua_fu AND zhouyi_yao_liuwu
+  role: 主干依赖
+  snippet_text: 敦复，无悔：以敦厚之心返本。
+  source_ref: 《周易·复卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823304'
+- snippet_id: ns_zhouyi_226
+  trigger: 卦=复 AND 上六
+  factor_trigger: zhouyi_gua_fu AND zhouyi_yao_shangliu
+  role: 总结
+  snippet_text: 迷复，凶，有灾眩：迷失不返，灾咎随之。
+  source_ref: 《周易·复卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823310'
+- snippet_id: ns_zhouyi_227
+  trigger: 卦=无妄 AND 卦辞
+  factor_trigger: zhouyi_gua_wuwang AND zhouyi_guaci
+  role: 主干
+  snippet_text: 无妄，元亨利贞，其匪正有眙：无妄之道在于中正。
+  source_ref: 《周易·无妄卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823346'
+- snippet_id: ns_zhouyi_228
+  trigger: 卦=无妄 AND 彖传
+  factor_trigger: zhouyi_gua_wuwang AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 无妄，刚自外来而为主于内。
+  source_ref: 《周易·无妄卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823356'
+- snippet_id: ns_zhouyi_229
+  trigger: 卦=无妄 AND 象传
+  factor_trigger: zhouyi_gua_wuwang AND zhouyi_xiang
+  role: 主干
+  snippet_text: 天下雷行，物与无妄；先王以茂对时育万物。
+  source_ref: 《周易·无妄卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823363'
+- snippet_id: ns_zhouyi_230
+  trigger: 卦=无妄 AND 初九
+  factor_trigger: zhouyi_gua_wuwang AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 无妄，往吉：行而无妄则吉。
+  source_ref: 《周易·无妄卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823369'
+- snippet_id: ns_zhouyi_231
+  trigger: 卦=无妄 AND 六二
+  factor_trigger: zhouyi_gua_wuwang AND zhouyi_yao_liuer
+  role: 条件分支
+  snippet_text: 不耕获，不菔畟，则利有攸往：不妄者可往。
+  source_ref: 《周易·无妄卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823375'
+- snippet_id: ns_zhouyi_232
+  trigger: 卦=无妄 AND 六三
+  factor_trigger: zhouyi_gua_wuwang AND zhouyi_yao_liusan
+  role: 例外处理
+  snippet_text: 无妄之灾，或系之牛：无心之过亦可招灾。
+  source_ref: 《周易·无妄卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823380'
+- snippet_id: ns_zhouyi_233
+  trigger: 卦=无妄 AND 九四
+  factor_trigger: zhouyi_gua_wuwang AND zhouyi_yao_jiusi
+  role: 条件分支
+  snippet_text: 可贞，无咎：守正则无咎。
+  source_ref: 《周易·无妄卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823384'
+- snippet_id: ns_zhouyi_234
+  trigger: 卦=无妄 AND 九五
+  factor_trigger: zhouyi_gua_wuwang AND zhouyi_yao_jiuwu
+  role: 主干依赖
+  snippet_text: 无妄之疾，勿药有喜：自然痊愈，不必妄为。
+  source_ref: 《周易·无妄卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823389'
+- snippet_id: ns_zhouyi_235
+  trigger: 卦=无妄 AND 上九
+  factor_trigger: zhouyi_gua_wuwang AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 无妄，行有眙，无攸利：极处心动，宜守不宜进。
+  source_ref: 《周易·无妄卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823394'
+- snippet_id: ns_zhouyi_236
+  trigger: 卦=大畜 AND 卦辞
+  factor_trigger: zhouyi_gua_daxu AND zhouyi_guaci
+  role: 主干
+  snippet_text: 大畜，利贞，不家食吉，利涉大川：大畜于外而不自私。
+  source_ref: 《周易·大畜卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823406'
+- snippet_id: ns_zhouyi_237
+  trigger: 卦=大畜 AND 彖传
+  factor_trigger: zhouyi_gua_daxu AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 大畜，刚健篃实辉光，日新其德。
+  source_ref: 《周易·大畜卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823411'
+- snippet_id: ns_zhouyi_238
+  trigger: 卦=大畜 AND 象传
+  factor_trigger: zhouyi_gua_daxu AND zhouyi_xiang
+  role: 主干
+  snippet_text: 天在山中，大畜；君子以多识前言往行以畜其德。
+  source_ref: 《周易·大畜卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823416'
+- snippet_id: ns_zhouyi_239
+  trigger: 卦=大畜 AND 初九
+  factor_trigger: zhouyi_gua_daxu AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 有厉，利已：有危则宜止。
+  source_ref: 《周易·大畜卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823422'
+- snippet_id: ns_zhouyi_240
+  trigger: 卦=大畜 AND 九二
+  factor_trigger: zhouyi_gua_daxu AND zhouyi_yao_jiuer
+  role: 条件分支
+  snippet_text: 舆说辐：车轴脱落，不能前进。
+  source_ref: 《周易·大畜卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823426'
+- snippet_id: ns_zhouyi_241
+  trigger: 卦=大畜 AND 九三
+  factor_trigger: zhouyi_gua_daxu AND zhouyi_yao_jiusan
+  role: 条件分支
+  snippet_text: 良马逐，利艰贞，日闲舆卫：良马逐事，守正则吉。
+  source_ref: 《周易·大畜卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823431'
+- snippet_id: ns_zhouyi_242
+  trigger: 卦=大畜 AND 六四
+  factor_trigger: zhouyi_gua_daxu AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 童牛之牡，元吉：防微杜渐，元吉。
+  source_ref: 《周易·大畜卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823435'
+- snippet_id: ns_zhouyi_243
+  trigger: 卦=大畜 AND 六五
+  factor_trigger: zhouyi_gua_daxu AND zhouyi_yao_liuwu
+  role: 主干依赖
+  snippet_text: 豺豕之牙，吉：防患于未然。
+  source_ref: 《周易·大畜卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823440'
+- snippet_id: ns_zhouyi_244
+  trigger: 卦=大畜 AND 上九
+  factor_trigger: zhouyi_gua_daxu AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 何天之衢，亨：畜极则能大行其道。
+  source_ref: 《周易·大畜卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823573'
+- snippet_id: ns_zhouyi_245
+  trigger: 卦=颐 AND 卦辞
+  factor_trigger: zhouyi_gua_yi AND zhouyi_guaci
+  role: 主干
+  snippet_text: 颐，贞吉，观颐，自求口实：以颐养之道自求所食。
+  source_ref: 《周易·颐卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823589'
+- snippet_id: ns_zhouyi_246
+  trigger: 卦=颐 AND 彖传
+  factor_trigger: zhouyi_gua_yi AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 颐，贞吉，养正则吉也。
+  source_ref: 《周易·颐卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823594'
+- snippet_id: ns_zhouyi_247
+  trigger: 卦=颐 AND 象传
+  factor_trigger: zhouyi_gua_yi AND zhouyi_xiang
+  role: 主干
+  snippet_text: 山下有雷，颐；君子以慎言语，节饮食。
+  source_ref: 《周易·颐卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823598'
+- snippet_id: ns_zhouyi_248
+  trigger: 卦=颐 AND 初九
+  factor_trigger: zhouyi_gua_yi AND zhouyi_yao_chujiu
+  role: 例外处理
+  snippet_text: 舍尔灵龟，观我朵颐，凶：舍本逐末，以口腹为乐。
+  source_ref: 《周易·颐卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823603'
+- snippet_id: ns_zhouyi_249
+  trigger: 卦=颐 AND 六二
+  factor_trigger: zhouyi_gua_yi AND zhouyi_yao_liuer
+  role: 条件分支
+  snippet_text: 颠颐，拂经，于丘颐，征凶：颐道颠倒，背离常经。
+  source_ref: 《周易·颐卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823607'
+- snippet_id: ns_zhouyi_250
+  trigger: 卦=颐 AND 六三
+  factor_trigger: zhouyi_gua_yi AND zhouyi_yao_liusan
+  role: 条件分支
+  snippet_text: 拂颐，贞凶，十年勿用：背弃颐道，十年不用。
+  source_ref: 《周易·颐卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823611'
+- snippet_id: ns_zhouyi_251
+  trigger: 卦=颐 AND 六四
+  factor_trigger: zhouyi_gua_yi AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 颠颐，吉，虎视眈眈：颠覆旧颐之道而归于正养。
+  source_ref: 《周易·颐卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823667'
+- snippet_id: ns_zhouyi_252
+  trigger: 卦=颐 AND 六五
+  factor_trigger: zhouyi_gua_yi AND zhouyi_yao_liuwu
+  role: 主干依赖
+  snippet_text: 拂经，居贞吉，不可涉大川：守正则吉，不可越越。
+  source_ref: 《周易·颐卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823708'
+- snippet_id: ns_zhouyi_253
+  trigger: 卦=颐 AND 上九
+  factor_trigger: zhouyi_gua_yi AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 由颐，厉吉，利涉大川：循颐养之道虽厉而吉。
+  source_ref: 《周易·颐卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823717'
+- snippet_id: ns_zhouyi_254
+  trigger: 卦=大过 AND 卦辞
+  factor_trigger: zhouyi_gua_daguo AND zhouyi_guaci
+  role: 主干
+  snippet_text: 大过，栋桡，利有攸往，亨：梁栋将折之时，反宜有所作为。
+  source_ref: 《周易·大过卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823729'
+- snippet_id: ns_zhouyi_255
+  trigger: 卦=大过 AND 彖传
+  factor_trigger: zhouyi_gua_daguo AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 大过，大者过也。栋桡，本末弱也。
+  source_ref: 《周易·大过卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823734'
+- snippet_id: ns_zhouyi_256
+  trigger: 卦=大过 AND 象传
+  factor_trigger: zhouyi_gua_daguo AND zhouyi_xiang
+  role: 主干
+  snippet_text: 泽灭木，大过；君子以独立不惧，遯世无闷。
+  source_ref: 《周易·大过卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823739'
+- snippet_id: ns_zhouyi_257
+  trigger: 卦=大过 AND 初六
+  factor_trigger: zhouyi_gua_daguo AND zhouyi_yao_chuliu
+  role: 条件分支
+  snippet_text: 藉用白茅，无咎：以柔弱之物垫承，反免其咎。
+  source_ref: 《周易·大过卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823746'
+- snippet_id: ns_zhouyi_258
+  trigger: 卦=大过 AND 九二
+  factor_trigger: zhouyi_gua_daguo AND zhouyi_yao_jiuer
+  role: 条件分支
+  snippet_text: 枯杨生稊，老夫得其女妻：枯木生芽，新生之象。
+  source_ref: 《周易·大过卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823751'
+- snippet_id: ns_zhouyi_259
+  trigger: 卦=大过 AND 九三
+  factor_trigger: zhouyi_gua_daguo AND zhouyi_yao_jiusan
+  role: 例外处理
+  snippet_text: 栋桡，凶：梁栋已折，结构难支。
+  source_ref: 《周易·大过卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823756'
+- snippet_id: ns_zhouyi_260
+  trigger: 卦=大过 AND 九四
+  factor_trigger: zhouyi_gua_daguo AND zhouyi_yao_jiusi
+  role: 条件分支
+  snippet_text: 栋隆，吉，有它吝：梁栋加固，反得其吉。
+  source_ref: 《周易·大过卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823761'
+- snippet_id: ns_zhouyi_261
+  trigger: 卦=大过 AND 九五
+  factor_trigger: zhouyi_gua_daguo AND zhouyi_yao_jiuwu
+  role: 主干依赖
+  snippet_text: 枯杨生华，老妇得其士夫：枯木开花，终而复兴。
+  source_ref: 《周易·大过卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823767'
+- snippet_id: ns_zhouyi_262
+  trigger: 卦=大过 AND 上六
+  factor_trigger: zhouyi_gua_daguo AND zhouyi_yao_shangliu
+  role: 总结
+  snippet_text: 过涉灭顶，凶，无咎：涉水过深，灭顶而凶。
+  source_ref: 《周易·大过卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823771'
+- snippet_id: ns_zhouyi_263
+  trigger: 卦=坎 AND 卦辞
+  factor_trigger: zhouyi_gua_kan AND zhouyi_guaci
+  role: 主干
+  snippet_text: 习坎，有孚，维心亨，行有尚：身处重险，惟心存诚信可亨。
+  source_ref: 《周易·坎卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823782'
+- snippet_id: ns_zhouyi_264
+  trigger: 卦=坎 AND 彖传
+  factor_trigger: zhouyi_gua_kan AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 习坎，重险也。水流而不盈，行险而不失其信，维心亨，乃以刚中也。
+  source_ref: 《周易·坎卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823787'
+- snippet_id: ns_zhouyi_265
+  trigger: 卦=坎 AND 象传
+  factor_trigger: zhouyi_gua_kan AND zhouyi_xiang
+  role: 主干
+  snippet_text: 水洊至，习坎；君子以常德行，习教事。
+  source_ref: 《周易·坎卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823793'
+- snippet_id: ns_zhouyi_266
+  trigger: 卦=坎 AND 初六
+  factor_trigger: zhouyi_gua_kan AND zhouyi_yao_chuliu
+  role: 例外处理
+  snippet_text: 习坎，入于坎窞，凶：习于险而陷入深坑。
+  source_ref: 《周易·坎卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823797'
+- snippet_id: ns_zhouyi_267
+  trigger: 卦=坎 AND 九二
+  factor_trigger: zhouyi_gua_kan AND zhouyi_yao_jiuer
+  role: 条件分支
+  snippet_text: 坎有险，求小得：险中有险，求小则得。
+  source_ref: 《周易·坎卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823802'
+- snippet_id: ns_zhouyi_268
+  trigger: 卦=坎 AND 六三
+  factor_trigger: zhouyi_gua_kan AND zhouyi_yao_liusan
+  role: 条件分支
+  snippet_text: 来之坎坎，险且枕，入于坎窞，勿用：险象重重。
+  source_ref: 《周易·坎卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823808'
+- snippet_id: ns_zhouyi_269
+  trigger: 卦=坎 AND 六四
+  factor_trigger: zhouyi_gua_kan AND zhouyi_yao_liusi
+  role: 条件分支
+  snippet_text: 樽酒，簋贰，用缶，纳约自牖，终无咎：以简朴之礼渡险。
+  source_ref: 《周易·坎卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823812'
+- snippet_id: ns_zhouyi_270
+  trigger: 卦=坎 AND 九五
+  factor_trigger: zhouyi_gua_kan AND zhouyi_yao_jiuwu
+  role: 主干依赖
+  snippet_text: 坎不盈，祇既平，无咎：险中不溢，渐趋平稳。
+  source_ref: 《周易·坎卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823842'
+- snippet_id: ns_zhouyi_271
+  trigger: 卦=坎 AND 上六
+  factor_trigger: zhouyi_gua_kan AND zhouyi_yao_shangliu
+  role: 总结
+  snippet_text: 系用徽𬙊，置于丛棘，三岁不得，凶：被缚于丛棘之中。
+  source_ref: 《周易·坎卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823860'
+- snippet_id: ns_zhouyi_272
+  trigger: 卦=离 AND 卦辞
+  factor_trigger: zhouyi_gua_li AND zhouyi_guaci
+  role: 主干
+  snippet_text: 离，利贞，亨，畜牝牛吉：附丽正道，以柔顺承光明。
+  source_ref: 《周易·离卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823876'
+- snippet_id: ns_zhouyi_273
+  trigger: 卦=离 AND 彖传
+  factor_trigger: zhouyi_gua_li AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 离，丽也。日月丽乎天，百榖草木丽乎土，重明以丽乎正，乃化成天下。
+  source_ref: 《周易·离卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823884'
+- snippet_id: ns_zhouyi_274
+  trigger: 卦=离 AND 象传
+  factor_trigger: zhouyi_gua_li AND zhouyi_xiang
+  role: 主干
+  snippet_text: 明两作，离；大人以继明照于四方。
+  source_ref: 《周易·离卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823889'
+- snippet_id: ns_zhouyi_275
+  trigger: 卦=离 AND 初九
+  factor_trigger: zhouyi_gua_li AND zhouyi_yao_chujiu
+  role: 条件分支
+  snippet_text: 履错然，敬之，无咎：行步谨慎有序，敬慎而行。
+  source_ref: 《周易·离卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823896'
+- snippet_id: ns_zhouyi_276
+  trigger: 卦=离 AND 六二
+  factor_trigger: zhouyi_gua_li AND zhouyi_yao_liuer
+  role: 主干依赖
+  snippet_text: 黄离，元吉：黄为中色，中道之明，大吉。
+  source_ref: 《周易·离卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823902'
+- snippet_id: ns_zhouyi_277
+  trigger: 卦=离 AND 九三
+  factor_trigger: zhouyi_gua_li AND zhouyi_yao_jiusan
+  role: 例外处理
+  snippet_text: 日昃之离，不鼓缶而歌，则大耋之嗟，凶：光明将衰，不宜纵情。
+  source_ref: 《周易·离卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823907'
+- snippet_id: ns_zhouyi_278
+  trigger: 卦=离 AND 九四
+  factor_trigger: zhouyi_gua_li AND zhouyi_yao_jiusi
+  role: 例外处理
+  snippet_text: 突如其来如，焚如，死如，弃如：光明失控，焚毁自身。
+  source_ref: 《周易·离卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823913'
+- snippet_id: ns_zhouyi_279
+  trigger: 卦=离 AND 六五
+  factor_trigger: zhouyi_gua_li AND zhouyi_yao_liuwu
+  role: 条件分支
+  snippet_text: 出涕沱若，戚嗟若，吉：忧患深重，反能居安思危。
+  source_ref: 《周易·离卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823917'
+- snippet_id: ns_zhouyi_280
+  trigger: 卦=离 AND 上九
+  factor_trigger: zhouyi_gua_li AND zhouyi_yao_shangjiu
+  role: 总结
+  snippet_text: 王用出征，有嘉折首，获匪其丑，无咎：以明威行征伐，匡正邦国。
+  source_ref: 《周易·离卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.823922'
+- snippet_id: ns_zhouyi_281
+  trigger: 卦=咸 AND 卦辞=亨利贞取女吉
+  factor_trigger: zhouyi_gua_xian AND zhouyi_guaci
+  role: 主干
+  snippet_text: 咸，亨利贞，取女吉：以感应之道，交感则通。
+  source_ref: 《周易·咸卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840268'
+- snippet_id: ns_zhouyi_282
+  trigger: 卦=咸 AND 彖传
+  factor_trigger: zhouyi_gua_xian AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 感也。柔上而刚下，二气感应以相与。
+  source_ref: 《周易·咸卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840312'
+- snippet_id: ns_zhouyi_283
+  trigger: 卦=咸 AND 象传=山上有泽
+  factor_trigger: zhouyi_gua_xian AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 山上有泽，咸；君子以虚受人：山承泽润，以虚心感物。
+  source_ref: 《周易·咸卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840321'
+- snippet_id: ns_zhouyi_284
+  trigger: 卦=咸 AND 初六=咸其拇
+  factor_trigger: zhouyi_gua_xian
+  role: 条件分支
+  snippet_text: 咸其拇：感应始于脚趾，尚在初动。
+  source_ref: 《周易·咸卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840329'
+- snippet_id: ns_zhouyi_285
+  trigger: 卦=咸 AND 六二=咸其腓
+  factor_trigger: zhouyi_gua_xian
+  role: 例外处理
+  snippet_text: 咸其腓，凶；居吉：感应及腿，躁动则凶。
+  source_ref: 《周易·咸卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840340'
+- snippet_id: ns_zhouyi_286
+  trigger: 卦=咸 AND 九三=咸其股
+  factor_trigger: zhouyi_gua_xian
+  role: 条件分支
+  snippet_text: 咸其股，执其随：感应及股，随人而动。
+  source_ref: 《周易·咸卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840348'
+- snippet_id: ns_zhouyi_287
+  trigger: 卦=咸 AND 九四=贞吉悔亡
+  factor_trigger: zhouyi_gua_xian
+  role: 主干依赖
+  snippet_text: 贞吉悔亡，憧憧往来：守正则吉，往来不定则惑。
+  source_ref: 《周易·咸卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840355'
+- snippet_id: ns_zhouyi_288
+  trigger: 卦=咸 AND 九五=咸其脢
+  factor_trigger: zhouyi_gua_xian
+  role: 条件分支
+  snippet_text: 咸其脢，无悔：感应及背脊，内定而无悔。
+  source_ref: 《周易·咸卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840364'
+- snippet_id: ns_zhouyi_289
+  trigger: 卦=咸 AND 上六=咸其辅颊舌
+  factor_trigger: zhouyi_gua_xian
+  role: 总结
+  snippet_text: 咸其辅颊舌：感应及面舌，言语过多。
+  source_ref: 《周易·咸卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840372'
+- snippet_id: ns_zhouyi_290
+  trigger: 卦=恒 AND 卦辞=亨无咎利贞
+  factor_trigger: zhouyi_gua_heng AND zhouyi_guaci
+  role: 主干
+  snippet_text: 恒，亨无咎，利贞：长久守正，自然亨通。
+  source_ref: 《周易·恒卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840398'
+- snippet_id: ns_zhouyi_291
+  trigger: 卦=恒 AND 彖传
+  factor_trigger: zhouyi_gua_heng AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 久也。刚上而柔下，雷风相与。
+  source_ref: 《周易·恒卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840404'
+- snippet_id: ns_zhouyi_292
+  trigger: 卦=恒 AND 象传=雷风恒
+  factor_trigger: zhouyi_gua_heng AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 雷风恒；君子以立不易方：风雷相随，君子以立场恒定。
+  source_ref: 《周易·恒卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840409'
+- snippet_id: ns_zhouyi_293
+  trigger: 卦=恒 AND 初六=浚恒
+  factor_trigger: zhouyi_gua_heng
+  role: 例外处理
+  snippet_text: 浚恒，贞凶：急于求恒，反陷于凶。
+  source_ref: 《周易·恒卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840415'
+- snippet_id: ns_zhouyi_294
+  trigger: 卦=恒 AND 九二=悔亡
+  factor_trigger: zhouyi_gua_heng
+  role: 条件分支
+  snippet_text: 悔亡：能守中道，悔恨自消。
+  source_ref: 《周易·恒卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840419'
+- snippet_id: ns_zhouyi_295
+  trigger: 卦=恒 AND 九三=不恒其德
+  factor_trigger: zhouyi_gua_heng
+  role: 例外处理
+  snippet_text: 不恒其德，或承之羞：德行不恒，终受其辱。
+  source_ref: 《周易·恒卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840424'
+- snippet_id: ns_zhouyi_296
+  trigger: 卦=恒 AND 九四=田无禽
+  factor_trigger: zhouyi_gua_heng
+  role: 条件分支
+  snippet_text: 田无禽：久守而无所获，非其位也。
+  source_ref: 《周易·恒卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840430'
+- snippet_id: ns_zhouyi_297
+  trigger: 卦=恒 AND 六五=恒其德贞
+  factor_trigger: zhouyi_gua_heng
+  role: 主干依赖
+  snippet_text: 恒其德，贞；妇人吉，夫子凶：柔顺之恒宜妇人，刚健者不可拘。
+  source_ref: 《周易·恒卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840436'
+- snippet_id: ns_zhouyi_298
+  trigger: 卦=恒 AND 上六=振恒凶
+  factor_trigger: zhouyi_gua_heng
+  role: 总结
+  snippet_text: 振恒，凶：恒而躁动，终致凶咎。
+  source_ref: 《周易·恒卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840441'
+- snippet_id: ns_zhouyi_299
+  trigger: 卦=遯 AND 卦辞=亨小利贞
+  factor_trigger: zhouyi_gua_dun AND zhouyi_guaci
+  role: 主干
+  snippet_text: 遯，亨，小利贞：退隐之时，小处守正为宜。
+  source_ref: 《周易·遯卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840454'
+- snippet_id: ns_zhouyi_300
+  trigger: 卦=遯 AND 彖传
+  factor_trigger: zhouyi_gua_dun AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 亨。刚当位而应，与时行也。
+  source_ref: 《周易·遯卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840459'
+- snippet_id: ns_zhouyi_301
+  trigger: 卦=遯 AND 象传=天下有山
+  factor_trigger: zhouyi_gua_dun AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 天下有山，遯；君子以远小人，不恶而严：远离小人，不怀恶意却保持严正。
+  source_ref: 《周易·遯卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840463'
+- snippet_id: ns_zhouyi_302
+  trigger: 卦=遯 AND 初六=遯尾
+  factor_trigger: zhouyi_gua_dun
+  role: 例外处理
+  snippet_text: 遯尾，厉，勿用有攸往：退得太晚，危险，勿再前往。
+  source_ref: 《周易·遯卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840468'
+- snippet_id: ns_zhouyi_303
+  trigger: 卦=遯 AND 六二=执之用黄牛之革
+  factor_trigger: zhouyi_gua_dun
+  role: 条件分支
+  snippet_text: 执之用黄牛之革，莫之胜说：坚定守持，不可轻易脱离。
+  source_ref: 《周易·遯卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840477'
+- snippet_id: ns_zhouyi_304
+  trigger: 卦=遯 AND 九三=系遯
+  factor_trigger: zhouyi_gua_dun
+  role: 例外处理
+  snippet_text: 系遯，有疾厉，畜臣妾吉：被牵系而退，身心俱疲，宜缩小范围。
+  source_ref: 《周易·遯卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840482'
+- snippet_id: ns_zhouyi_305
+  trigger: 卦=遯 AND 九四=好遯
+  factor_trigger: zhouyi_gua_dun
+  role: 条件分支
+  snippet_text: 好遯，君子吉，小人否：欣然择退，君子吉，小人不能。
+  source_ref: 《周易·遯卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840488'
+- snippet_id: ns_zhouyi_306
+  trigger: 卦=遯 AND 九五=嘉遯
+  factor_trigger: zhouyi_gua_dun
+  role: 主干依赖
+  snippet_text: 嘉遯，贞吉：善美之退，守正则吉。
+  source_ref: 《周易·遯卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840493'
+- snippet_id: ns_zhouyi_307
+  trigger: 卦=遯 AND 上九=肥遯无不利
+  factor_trigger: zhouyi_gua_dun
+  role: 总结
+  snippet_text: 肥遯，无不利：从容丰足而退，无所不利。
+  source_ref: 《周易·遯卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840499'
+- snippet_id: ns_zhouyi_308
+  trigger: 卦=大壮 AND 卦辞=利贞
+  factor_trigger: zhouyi_gua_dazhuang AND zhouyi_guaci
+  role: 主干
+  snippet_text: 大壮，利贞：阳气壮盛，仍须守正。
+  source_ref: 《周易·大壮卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840511'
+- snippet_id: ns_zhouyi_309
+  trigger: 卦=大壮 AND 彖传
+  factor_trigger: zhouyi_gua_dazhuang AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 大者壮也。刚以动，故壮。
+  source_ref: 《周易·大壮卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840517'
+- snippet_id: ns_zhouyi_310
+  trigger: 卦=大壮 AND 象传=雷在天上
+  factor_trigger: zhouyi_gua_dazhuang AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 雷在天上，大壮；君子以非礼弗履：阳壮之时，仍守礼节。
+  source_ref: 《周易·大壮卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840522'
+- snippet_id: ns_zhouyi_311
+  trigger: 卦=大壮 AND 初九=壮于趾
+  factor_trigger: zhouyi_gua_dazhuang
+  role: 例外处理
+  snippet_text: 壮于趾，征凶：壮在脚趾，轻举妄动则凶。
+  source_ref: 《周易·大壮卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840527'
+- snippet_id: ns_zhouyi_312
+  trigger: 卦=大壮 AND 九二=贞吉
+  factor_trigger: zhouyi_gua_dazhuang
+  role: 条件分支
+  snippet_text: 贞吉：居中守正，自然吉祥。
+  source_ref: 《周易·大壮卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840533'
+- snippet_id: ns_zhouyi_313
+  trigger: 卦=大壮 AND 九三=小人用壮
+  factor_trigger: zhouyi_gua_dazhuang
+  role: 例外处理
+  snippet_text: 小人用壮，君子用罔：小人恃强，君子以智。
+  source_ref: 《周易·大壮卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840539'
+- snippet_id: ns_zhouyi_314
+  trigger: 卦=大壮 AND 九四=贞吉悔亡
+  factor_trigger: zhouyi_gua_dazhuang
+  role: 条件分支
+  snippet_text: 贞吉悔亡，藩决不缸：守正则吉，障碍可除。
+  source_ref: 《周易·大壮卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840544'
+- snippet_id: ns_zhouyi_315
+  trigger: 卦=大壮 AND 六五=丧羊于易
+  factor_trigger: zhouyi_gua_dazhuang
+  role: 条件分支
+  snippet_text: 丧羊于易，无悔：失羊于平地，未必可悔。
+  source_ref: 《周易·大壮卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840549'
+- snippet_id: ns_zhouyi_316
+  trigger: 卦=大壮 AND 上六=羝羊触藩
+  factor_trigger: zhouyi_gua_dazhuang
+  role: 总结
+  snippet_text: 羝羊触藩，不能退，不能遂，无攸利；艰则吉。
+  source_ref: 《周易·大壮卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840553'
+- snippet_id: ns_zhouyi_317
+  trigger: 卦=晋 AND 卦辞=康侯用锡马
+  factor_trigger: zhouyi_gua_jin AND zhouyi_guaci
+  role: 主干
+  snippet_text: 晋，康侯用锡马蕃庶，昼日三接：光明上进，受宠日增。
+  source_ref: 《周易·晋卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840566'
+- snippet_id: ns_zhouyi_318
+  trigger: 卦=晋 AND 彖传
+  factor_trigger: zhouyi_gua_jin AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 进也。明出地上，顺而丽乎大明。
+  source_ref: 《周易·晋卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840572'
+- snippet_id: ns_zhouyi_319
+  trigger: 卦=晋 AND 象传=明出地上
+  factor_trigger: zhouyi_gua_jin AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 明出地上，晋；君子以自昭明德：光明自下而上，照耀德行。
+  source_ref: 《周易·晋卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840577'
+- snippet_id: ns_zhouyi_320
+  trigger: 卦=晋 AND 初六=晋如摧如
+  factor_trigger: zhouyi_gua_jin
+  role: 条件分支
+  snippet_text: 晋如摧如，贞吉：虽进而遇挫，守正仍吉。
+  source_ref: 《周易·晋卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840583'
+- snippet_id: ns_zhouyi_321
+  trigger: 卦=晋 AND 六二=晋如愁如
+  factor_trigger: zhouyi_gua_jin
+  role: 条件分支
+  snippet_text: 晋如愁如，贞吉：虽进而忧愁，守正自吉。
+  source_ref: 《周易·晋卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840615'
+- snippet_id: ns_zhouyi_322
+  trigger: 卦=晋 AND 六三=众允悔亡
+  factor_trigger: zhouyi_gua_jin
+  role: 条件分支
+  snippet_text: 众允，悔亡：众人信服，悔恨消解。
+  source_ref: 《周易·晋卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840625'
+- snippet_id: ns_zhouyi_323
+  trigger: 卦=晋 AND 九四=晋如鼫鼠
+  factor_trigger: zhouyi_gua_jin
+  role: 例外处理
+  snippet_text: 晋如鼫鼠，贞厉：如鼫鼠般贪进，虽贞亦厉。
+  source_ref: 《周易·晋卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840632'
+- snippet_id: ns_zhouyi_324
+  trigger: 卦=晋 AND 六五=悔亡失得勿恤
+  factor_trigger: zhouyi_gua_jin
+  role: 主干依赖
+  snippet_text: 悔亡，失得勿恤：不计得失，悔恨自消。
+  source_ref: 《周易·晋卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840638'
+- snippet_id: ns_zhouyi_325
+  trigger: 卦=晋 AND 上九=晋其角
+  factor_trigger: zhouyi_gua_jin
+  role: 总结
+  snippet_text: 晋其角，维用伐邑：进至极处，宜用于内治。
+  source_ref: 《周易·晋卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840644'
+- snippet_id: ns_zhouyi_326
+  trigger: 卦=明夷 AND 卦辞=利艰贞
+  factor_trigger: zhouyi_gua_mingyi AND zhouyi_guaci
+  role: 主干
+  snippet_text: 明夷，利艰贞：光明受伤之时，宜坚守艰难之正道。
+  source_ref: 《周易·明夷卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840658'
+- snippet_id: ns_zhouyi_327
+  trigger: 卦=明夷 AND 彖传
+  factor_trigger: zhouyi_gua_mingyi AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 明入地中。内文明而外柔顺。
+  source_ref: 《周易·明夷卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840663'
+- snippet_id: ns_zhouyi_328
+  trigger: 卦=明夷 AND 象传=明入地中
+  factor_trigger: zhouyi_gua_mingyi AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 明入地中，明夷；君子以莉众，用晦而明：韬光养晦以治众。
+  source_ref: 《周易·明夷卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840669'
+- snippet_id: ns_zhouyi_329
+  trigger: 卦=明夷 AND 初九=明夷于飞
+  factor_trigger: zhouyi_gua_mingyi
+  role: 条件分支
+  snippet_text: 明夷于飞，垂其翼：光明受伤，如飞鸟垂翼。
+  source_ref: 《周易·明夷卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840803'
+- snippet_id: ns_zhouyi_330
+  trigger: 卦=明夷 AND 六二=明夷夷于左股
+  factor_trigger: zhouyi_gua_mingyi
+  role: 条件分支
+  snippet_text: 明夷，夷于左股：伤及左股，仍可行走。
+  source_ref: 《周易·明夷卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840813'
+- snippet_id: ns_zhouyi_331
+  trigger: 卦=明夷 AND 九三=明夷于南狩
+  factor_trigger: zhouyi_gua_mingyi
+  role: 条件分支
+  snippet_text: 明夷于南狩，得其大首：南征而获大收。
+  source_ref: 《周易·明夷卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840820'
+- snippet_id: ns_zhouyi_332
+  trigger: 卦=明夷 AND 六四=入于左腹
+  factor_trigger: zhouyi_gua_mingyi
+  role: 主干依赖
+  snippet_text: 入于左腹，获明夷之心：深入腹地，知其伤心之由。
+  source_ref: 《周易·明夷卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840831'
+- snippet_id: ns_zhouyi_333
+  trigger: 卦=明夷 AND 六五=箕子之明夷
+  factor_trigger: zhouyi_gua_mingyi
+  role: 主干依赖
+  snippet_text: 箕子之明夷，利贞：如箕子韬光，守正而利。
+  source_ref: 《周易·明夷卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840837'
+- snippet_id: ns_zhouyi_334
+  trigger: 卦=明夷 AND 上六=不明晦
+  factor_trigger: zhouyi_gua_mingyi
+  role: 总结
+  snippet_text: 不明晦，初登于天，后入于地：先明后暗，由盛转衰。
+  source_ref: 《周易·明夷卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840846'
+- snippet_id: ns_zhouyi_335
+  trigger: 卦=家人 AND 卦辞=利女贞
+  factor_trigger: zhouyi_gua_jiaren AND zhouyi_guaci
+  role: 主干
+  snippet_text: 家人，利女贞：治家之道在于女正位乎内。
+  source_ref: 《周易·家人卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840860'
+- snippet_id: ns_zhouyi_336
+  trigger: 卦=家人 AND 彖传
+  factor_trigger: zhouyi_gua_jiaren AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 女正位乎内，男正位乎外。
+  source_ref: 《周易·家人卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840865'
+- snippet_id: ns_zhouyi_337
+  trigger: 卦=家人 AND 象传=风自火出
+  factor_trigger: zhouyi_gua_jiaren AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 风自火出，家人；君子以言有物而行有恒：言行一致以治家。
+  source_ref: 《周易·家人卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840870'
+- snippet_id: ns_zhouyi_338
+  trigger: 卦=家人 AND 初九=闲有家
+  factor_trigger: zhouyi_gua_jiaren
+  role: 条件分支
+  snippet_text: 闲有家，悔亡：以规矩治家，悔恨自消。
+  source_ref: 《周易·家人卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840893'
+- snippet_id: ns_zhouyi_339
+  trigger: 卦=家人 AND 六二=无攸遂
+  factor_trigger: zhouyi_gua_jiaren
+  role: 条件分支
+  snippet_text: 无攸遂，在中馈，贞吉：专事中馈，守正则吉。
+  source_ref: 《周易·家人卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840902'
+- snippet_id: ns_zhouyi_340
+  trigger: 卦=家人 AND 九三=家人嗃嗃
+  factor_trigger: zhouyi_gua_jiaren
+  role: 例外处理
+  snippet_text: 家人嗃嗃，悔厉吉：严厉治家，虽厉而终吉。
+  source_ref: 《周易·家人卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840908'
+- snippet_id: ns_zhouyi_341
+  trigger: 卦=家人 AND 六四=富家大吉
+  factor_trigger: zhouyi_gua_jiaren
+  role: 条件分支
+  snippet_text: 富家，大吉：家道丰裕，大为吉祥。
+  source_ref: 《周易·家人卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840913'
+- snippet_id: ns_zhouyi_342
+  trigger: 卦=家人 AND 九五=王假有家
+  factor_trigger: zhouyi_gua_jiaren
+  role: 主干依赖
+  snippet_text: 王假有家，勿恤吉：王以有家为本，不忧自吉。
+  source_ref: 《周易·家人卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840917'
+- snippet_id: ns_zhouyi_343
+  trigger: 卦=家人 AND 上九=有孚威如
+  factor_trigger: zhouyi_gua_jiaren
+  role: 总结
+  snippet_text: 有孚威如，终吉：以诚信立威，终得其吉。
+  source_ref: 《周易·家人卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840923'
+- snippet_id: ns_zhouyi_344
+  trigger: 卦=睽 AND 卦辞=小事吉
+  factor_trigger: zhouyi_gua_kui AND zhouyi_guaci
+  role: 主干
+  snippet_text: 睽，小事吉：乖离之时，小事尚可成。
+  source_ref: 《周易·睽卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840935'
+- snippet_id: ns_zhouyi_345
+  trigger: 卦=睽 AND 彖传
+  factor_trigger: zhouyi_gua_kui AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 火动而上，泽动而下。
+  source_ref: 《周易·睽卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840939'
+- snippet_id: ns_zhouyi_346
+  trigger: 卦=睽 AND 象传=上火下泽
+  factor_trigger: zhouyi_gua_kui AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 上火下泽，睽；君子以同而异：火泽相违，和而不同。
+  source_ref: 《周易·睽卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840944'
+- snippet_id: ns_zhouyi_347
+  trigger: 卦=睽 AND 初九=悔亡丧马勿逐
+  factor_trigger: zhouyi_gua_kui
+  role: 条件分支
+  snippet_text: 悔亡，丧马勿逐：失马不追，自复来归。
+  source_ref: 《周易·睽卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840948'
+- snippet_id: ns_zhouyi_348
+  trigger: 卦=睽 AND 九二=遇主于巷
+  factor_trigger: zhouyi_gua_kui
+  role: 条件分支
+  snippet_text: 遇主于巷，无咎：在小巷偶遇，亦可相合。
+  source_ref: 《周易·睽卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840952'
+- snippet_id: ns_zhouyi_349
+  trigger: 卦=睽 AND 六三=见舆曳
+  factor_trigger: zhouyi_gua_kui
+  role: 例外处理
+  snippet_text: 见舆曳，其牛掣：车被拖曳，牛被牵制。
+  source_ref: 《周易·睽卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840956'
+- snippet_id: ns_zhouyi_350
+  trigger: 卦=睽 AND 九四=睽孤遇元夫
+  factor_trigger: zhouyi_gua_kui
+  role: 条件分支
+  snippet_text: 睽孤，遇元夫：孤立之中，遇贤人相助。
+  source_ref: 《周易·睽卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840960'
+- snippet_id: ns_zhouyi_351
+  trigger: 卦=睽 AND 六五=悔亡厥宗噬肤
+  factor_trigger: zhouyi_gua_kui
+  role: 主干依赖
+  snippet_text: 悔亡，厥宗噬肤：与宗族相合，如食美肤。
+  source_ref: 《周易·睽卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840967'
+- snippet_id: ns_zhouyi_352
+  trigger: 卦=睽 AND 上九=睽孤见豕负涂
+  factor_trigger: zhouyi_gua_kui
+  role: 总结
+  snippet_text: 睽孤，见豕负涂：极度孤立，所见皆疑。
+  source_ref: 《周易·睽卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.840971'
+- snippet_id: ns_zhouyi_353
+  trigger: 卦=蹇 AND 卦辞=利西南不利东北
+  factor_trigger: zhouyi_gua_jian AND zhouyi_guaci
+  role: 主干
+  snippet_text: 蹇，利西南，不利东北：行险之时，宜向平易之地。
+  source_ref: 《周易·蹇卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841176'
+- snippet_id: ns_zhouyi_354
+  trigger: 卦=蹇 AND 彖传
+  factor_trigger: zhouyi_gua_jian AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 难也。险在前也。见险而能止。
+  source_ref: 《周易·蹇卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841204'
+- snippet_id: ns_zhouyi_355
+  trigger: 卦=蹇 AND 象传=山上有水
+  factor_trigger: zhouyi_gua_jian AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 山上有水，蹇；君子以反身修德：遇险当自省修德。
+  source_ref: 《周易·蹇卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841218'
+- snippet_id: ns_zhouyi_356
+  trigger: 卦=蹇 AND 初六=往蹇来誉
+  factor_trigger: zhouyi_gua_jian
+  role: 条件分支
+  snippet_text: 往蹇来誉：前往则蹇，退守则有誉。
+  source_ref: 《周易·蹇卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841230'
+- snippet_id: ns_zhouyi_357
+  trigger: 卦=蹇 AND 六二=王臣蹇蹇
+  factor_trigger: zhouyi_gua_jian
+  role: 主干依赖
+  snippet_text: 王臣蹇蹇，匪躬之故：臣子虽蹇，非为私利。
+  source_ref: 《周易·蹇卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841257'
+- snippet_id: ns_zhouyi_358
+  trigger: 卦=蹇 AND 九三=往蹇来反
+  factor_trigger: zhouyi_gua_jian
+  role: 条件分支
+  snippet_text: 往蹇来反：前进则蹇，返回乃宜。
+  source_ref: 《周易·蹇卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841270'
+- snippet_id: ns_zhouyi_359
+  trigger: 卦=蹇 AND 六四=往蹇来连
+  factor_trigger: zhouyi_gua_jian
+  role: 例外处理
+  snippet_text: 往蹇来连：前进则蹇，退而与众相连。
+  source_ref: 《周易·蹇卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841298'
+- snippet_id: ns_zhouyi_360
+  trigger: 卦=蹇 AND 九五=大蹇朋来
+  factor_trigger: zhouyi_gua_jian
+  role: 主干依赖
+  snippet_text: 大蹇，朋来：大难之中，援友来助。
+  source_ref: 《周易·蹇卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841311'
+- snippet_id: ns_zhouyi_361
+  trigger: 卦=蹇 AND 上六=往蹇来硕
+  factor_trigger: zhouyi_gua_jian
+  role: 总结
+  snippet_text: 往蹇来硕，吉：归而得硕果。
+  source_ref: 《周易·蹇卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841323'
+- snippet_id: ns_zhouyi_362
+  trigger: 卦=解 AND 卦辞=利西南无所往
+  factor_trigger: zhouyi_gua_jie AND zhouyi_guaci
+  role: 主干
+  snippet_text: 解，利西南；无所往，其来复吉：难解之后，宜归于平。
+  source_ref: 《周易·解卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841347'
+- snippet_id: ns_zhouyi_363
+  trigger: 卦=解 AND 彖传
+  factor_trigger: zhouyi_gua_jie AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 险以动，动而免乎险。
+  source_ref: 《周易·解卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841358'
+- snippet_id: ns_zhouyi_364
+  trigger: 卦=解 AND 象传=雷雨作解
+  factor_trigger: zhouyi_gua_jie AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 雷雨作，解；君子以赦过宥罪：雷雨解散阴郁，赦免过罪。
+  source_ref: 《周易·解卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841368'
+- snippet_id: ns_zhouyi_365
+  trigger: 卦=解 AND 初六=无咎
+  factor_trigger: zhouyi_gua_jie
+  role: 条件分支
+  snippet_text: 无咎：解之初，无所咎。
+  source_ref: 《周易·解卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841379'
+- snippet_id: ns_zhouyi_366
+  trigger: 卦=解 AND 九二=田获三狐
+  factor_trigger: zhouyi_gua_jie
+  role: 条件分支
+  snippet_text: 田获三狐，得黄矢：解除群狐之患，得正直之器。
+  source_ref: 《周易·解卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841390'
+- snippet_id: ns_zhouyi_367
+  trigger: 卦=解 AND 六三=负且乘
+  factor_trigger: zhouyi_gua_jie
+  role: 例外处理
+  snippet_text: 负且乘，致寇至：身份错位，招致祸患。
+  source_ref: 《周易·解卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841409'
+- snippet_id: ns_zhouyi_368
+  trigger: 卦=解 AND 九四=解而拇
+  factor_trigger: zhouyi_gua_jie
+  role: 条件分支
+  snippet_text: 解而拇，朋至斯孚：先解小处，朋友来信。
+  source_ref: 《周易·解卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841427'
+- snippet_id: ns_zhouyi_369
+  trigger: 卦=解 AND 六五=君子维有解
+  factor_trigger: zhouyi_gua_jie
+  role: 主干依赖
+  snippet_text: 君子维有解，吉：君子自有解脱之道。
+  source_ref: 《周易·解卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841440'
+- snippet_id: ns_zhouyi_370
+  trigger: 卦=解 AND 上六=公用射隼
+  factor_trigger: zhouyi_gua_jie
+  role: 总结
+  snippet_text: 公用射隼于高墉之上：以正手段解除高处之患。
+  source_ref: 《周易·解卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841603'
+- snippet_id: ns_zhouyi_371
+  trigger: 卦=损 AND 卦辞=有孚元吉
+  factor_trigger: zhouyi_gua_sun AND zhouyi_guaci
+  role: 主干
+  snippet_text: 损，有孚，元吉：以诚信而损，终得大吉。
+  source_ref: 《周易·损卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841653'
+- snippet_id: ns_zhouyi_372
+  trigger: 卦=损 AND 彖传
+  factor_trigger: zhouyi_gua_sun AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 损下益上，其道上行。
+  source_ref: 《周易·损卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841669'
+- snippet_id: ns_zhouyi_373
+  trigger: 卦=损 AND 象传=山下有泽
+  factor_trigger: zhouyi_gua_sun AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 山下有泽，损；君子以惩忿窒欲：以损抑怒欲。
+  source_ref: 《周易·损卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841681'
+- snippet_id: ns_zhouyi_374
+  trigger: 卦=损 AND 初九=已事遄往
+  factor_trigger: zhouyi_gua_sun
+  role: 条件分支
+  snippet_text: 已事遄往，无咎：事毕速往，以助他人。
+  source_ref: 《周易·损卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841694'
+- snippet_id: ns_zhouyi_375
+  trigger: 卦=损 AND 九二=利贞征凶
+  factor_trigger: zhouyi_gua_sun
+  role: 例外处理
+  snippet_text: 利贞，征凶：守正则利，轻举则凶。
+  source_ref: 《周易·损卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841753'
+- snippet_id: ns_zhouyi_376
+  trigger: 卦=损 AND 六三=三人行则损一人
+  factor_trigger: zhouyi_gua_sun
+  role: 条件分支
+  snippet_text: 三人行则损一人，一人行则得其友：损以求专一。
+  source_ref: 《周易·损卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841779'
+- snippet_id: ns_zhouyi_377
+  trigger: 卦=损 AND 六四=损其疾
+  factor_trigger: zhouyi_gua_sun
+  role: 条件分支
+  snippet_text: 损其疾，使遄有喜：损去疾病，速有喜庆。
+  source_ref: 《周易·损卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841792'
+- snippet_id: ns_zhouyi_378
+  trigger: 卦=损 AND 六五=或益之十朋之龟
+  factor_trigger: zhouyi_gua_sun
+  role: 主干依赖
+  snippet_text: 或益之十朋之龟，弗克违：天佑以益，不可违逆。
+  source_ref: 《周易·损卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841804'
+- snippet_id: ns_zhouyi_379
+  trigger: 卦=损 AND 上九=弗损益之
+  factor_trigger: zhouyi_gua_sun
+  role: 总结
+  snippet_text: 弗损益之，无咎：不损反益，无所咎责。
+  source_ref: 《周易·损卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841821'
+- snippet_id: ns_zhouyi_380
+  trigger: 卦=益 AND 卦辞=利有攸往利涉大川
+  factor_trigger: zhouyi_gua_yi AND zhouyi_guaci
+  role: 主干
+  snippet_text: 益，利有攸往，利涉大川：增益之时，宜有所往。
+  source_ref: 《周易·益卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841847'
+- snippet_id: ns_zhouyi_381
+  trigger: 卦=益 AND 彖传
+  factor_trigger: zhouyi_gua_yi AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 损上益下，民说无疆。
+  source_ref: 《周易·益卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841858'
+- snippet_id: ns_zhouyi_382
+  trigger: 卦=益 AND 象传=风雷益
+  factor_trigger: zhouyi_gua_yi AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 风雷，益；君子以见善则迁，有过则改：增益在于迁善改过。
+  source_ref: 《周易·益卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841881'
+- snippet_id: ns_zhouyi_383
+  trigger: 卦=益 AND 初九=利用为大作
+  factor_trigger: zhouyi_gua_yi
+  role: 条件分支
+  snippet_text: 利用为大作，元吉：初受益时，宜有大作为。
+  source_ref: 《周易·益卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841892'
+- snippet_id: ns_zhouyi_384
+  trigger: 卦=益 AND 六二=或益之十朋之龟
+  factor_trigger: zhouyi_gua_yi
+  role: 主干依赖
+  snippet_text: 或益之十朋之龟，弗克违：天赐大益，不可违拒。
+  source_ref: 《周易·益卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841902'
+- snippet_id: ns_zhouyi_385
+  trigger: 卦=益 AND 六三=益之用凶事
+  factor_trigger: zhouyi_gua_yi
+  role: 条件分支
+  snippet_text: 益之用凶事，无咎：以凶事为益，非不可也。
+  source_ref: 《周易·益卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841913'
+- snippet_id: ns_zhouyi_386
+  trigger: 卦=益 AND 六四=中行告公从
+  factor_trigger: zhouyi_gua_yi
+  role: 条件分支
+  snippet_text: 中行，告公从，利用为依迁国：以中道从王公。
+  source_ref: 《周易·益卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841930'
+- snippet_id: ns_zhouyi_387
+  trigger: 卦=益 AND 九五=有孚惠心
+  factor_trigger: zhouyi_gua_yi
+  role: 主干依赖
+  snippet_text: 有孚惠心，勿问元吉：诚信惠人，大吉无疑。
+  source_ref: 《周易·益卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841943'
+- snippet_id: ns_zhouyi_388
+  trigger: 卦=益 AND 上九=莫益之或击之
+  factor_trigger: zhouyi_gua_yi
+  role: 总结
+  snippet_text: 莫益之，或击之：益极而遭击，过犹不及。
+  source_ref: 《周易·益卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841953'
+- snippet_id: ns_zhouyi_389
+  trigger: 卦=夬 AND 卦辞=扬于王庭
+  factor_trigger: zhouyi_gua_guai AND zhouyi_guaci
+  role: 主干
+  snippet_text: 夬，扬于王庭，孚号有厉：决断之时，当公开昭示。
+  source_ref: 《周易·夬卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841975'
+- snippet_id: ns_zhouyi_390
+  trigger: 卦=夬 AND 彖传
+  factor_trigger: zhouyi_gua_guai AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 决也。刚决柔也。健而说。
+  source_ref: 《周易·夬卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.841999'
+- snippet_id: ns_zhouyi_391
+  trigger: 卦=夬 AND 象传=泽上于天
+  factor_trigger: zhouyi_gua_guai AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 泽上于天，夬；君子以施禄及下：如泽升于天，施惠于下。
+  source_ref: 《周易·夬卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842016'
+- snippet_id: ns_zhouyi_392
+  trigger: 卦=夬 AND 初九=壮于前趾
+  factor_trigger: zhouyi_gua_guai
+  role: 条件分支
+  snippet_text: 壮于前趾，往不胜：力壮于趾，前往难胜。
+  source_ref: 《周易·夬卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842035'
+- snippet_id: ns_zhouyi_393
+  trigger: 卦=夬 AND 九二=惕号
+  factor_trigger: zhouyi_gua_guai
+  role: 条件分支
+  snippet_text: 惕号，莫夜有戎，勿恤：警惕呼号，夜有戎兵亦勿忧。
+  source_ref: 《周易·夬卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842053'
+- snippet_id: ns_zhouyi_394
+  trigger: 卦=夬 AND 九三=壮于頄
+  factor_trigger: zhouyi_gua_guai
+  role: 条件分支
+  snippet_text: 壮于頄，有凶：力壮于颧骨，独断则凶。
+  source_ref: 《周易·夬卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842066'
+- snippet_id: ns_zhouyi_395
+  trigger: 卦=夬 AND 九四=臀无肤
+  factor_trigger: zhouyi_gua_guai
+  role: 条件分支
+  snippet_text: 臀无肤，其行次且：臀部无肉，行动不便。
+  source_ref: 《周易·夬卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842206'
+- snippet_id: ns_zhouyi_396
+  trigger: 卦=夬 AND 九五=苋陆夬夬
+  factor_trigger: zhouyi_gua_guai
+  role: 主干依赖
+  snippet_text: 苋陆夬夬，中行无咎：如除苋陆之草，行于中道。
+  source_ref: 《周易·夬卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842230'
+- snippet_id: ns_zhouyi_397
+  trigger: 卦=夬 AND 上六=无号终有凶
+  factor_trigger: zhouyi_gua_guai
+  role: 总结
+  snippet_text: 无号，终有凶：不呼号警示，终遭凶咎。
+  source_ref: 《周易·夬卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842243'
+- snippet_id: ns_zhouyi_398
+  trigger: 卦=姤 AND 卦辞=女壮勿用取女
+  factor_trigger: zhouyi_gua_gou AND zhouyi_guaci
+  role: 主干
+  snippet_text: 姤，女壮，勿用取女：阴气初生，须防女壮。
+  source_ref: 《周易·姤卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842388'
+- snippet_id: ns_zhouyi_399
+  trigger: 卦=姤 AND 彖传
+  factor_trigger: zhouyi_gua_gou AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 遇也。柔遇刚也。
+  source_ref: 《周易·姤卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842442'
+- snippet_id: ns_zhouyi_400
+  trigger: 卦=姤 AND 象传=天下有风
+  factor_trigger: zhouyi_gua_gou AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 天下有风，姤；后以施命诰四方：风行天下，传布号令。
+  source_ref: 《周易·姤卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842491'
+- snippet_id: ns_zhouyi_401
+  trigger: 卦=姤 AND 初六=系于金柅
+  factor_trigger: zhouyi_gua_gou
+  role: 条件分支
+  snippet_text: 系于金柅，贞吉：系于金闸，守正则吉。
+  source_ref: 《周易·姤卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842527'
+- snippet_id: ns_zhouyi_402
+  trigger: 卦=姤 AND 九二=包有鱼
+  factor_trigger: zhouyi_gua_gou
+  role: 条件分支
+  snippet_text: 包有鱼，无咎，不利宾：厨中有鱼，不宜待客。
+  source_ref: 《周易·姤卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842537'
+- snippet_id: ns_zhouyi_403
+  trigger: 卦=姤 AND 九三=臀无肤
+  factor_trigger: zhouyi_gua_gou
+  role: 条件分支
+  snippet_text: 臀无肤，其行次且：行动不便，进退维艰。
+  source_ref: 《周易·姤卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842544'
+- snippet_id: ns_zhouyi_404
+  trigger: 卦=姤 AND 九四=包无鱼
+  factor_trigger: zhouyi_gua_gou
+  role: 条件分支
+  snippet_text: 包无鱼，起凶：厨中无鱼，将起凶咎。
+  source_ref: 《周易·姤卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842551'
+- snippet_id: ns_zhouyi_405
+  trigger: 卦=姤 AND 九五=以杞包瓜
+  factor_trigger: zhouyi_gua_gou
+  role: 主干依赖
+  snippet_text: 以杞包瓜，含章，有陨自天：杞木包瓜，含德而待天佑。
+  source_ref: 《周易·姤卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842557'
+- snippet_id: ns_zhouyi_406
+  trigger: 卦=姤 AND 上九=姤其角
+  factor_trigger: zhouyi_gua_gou
+  role: 总结
+  snippet_text: 姤其角，吝，无咎：遇于角落，虽吝而无咎。
+  source_ref: 《周易·姤卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842566'
+- snippet_id: ns_zhouyi_407
+  trigger: 卦=萃 AND 卦辞=亨王假有庙
+  factor_trigger: zhouyi_gua_cui AND zhouyi_guaci
+  role: 主干
+  snippet_text: 萃，亨；王假有庙：聚会之道，王以宗庙聚众。
+  source_ref: 《周易·萃卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842586'
+- snippet_id: ns_zhouyi_408
+  trigger: 卦=萃 AND 彖传
+  factor_trigger: zhouyi_gua_cui AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 聚也。顺以说，刚中而应。
+  source_ref: 《周易·萃卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842592'
+- snippet_id: ns_zhouyi_409
+  trigger: 卦=萃 AND 象传=泽上于地
+  factor_trigger: zhouyi_gua_cui AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 泽上于地，萃；君子以除戎器戒不虞：萃聚之时，备戎防患。
+  source_ref: 《周易·萃卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842600'
+- snippet_id: ns_zhouyi_410
+  trigger: 卦=萃 AND 初六=有孚不终
+  factor_trigger: zhouyi_gua_cui
+  role: 条件分支
+  snippet_text: 有孚不终，乃乱乃萃：诚信不持终，则乱而后萃。
+  source_ref: 《周易·萃卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842649'
+- snippet_id: ns_zhouyi_411
+  trigger: 卦=萃 AND 六二=引吉无咎
+  factor_trigger: zhouyi_gua_cui
+  role: 条件分支
+  snippet_text: 引吉，无咎：引导而吉，无所咎责。
+  source_ref: 《周易·萃卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842662'
+- snippet_id: ns_zhouyi_412
+  trigger: 卦=萃 AND 六三=萃如嗟如
+  factor_trigger: zhouyi_gua_cui
+  role: 条件分支
+  snippet_text: 萃如嗟如，无攸利：聚而叹息，无所利也。
+  source_ref: 《周易·萃卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842668'
+- snippet_id: ns_zhouyi_413
+  trigger: 卦=萃 AND 九四=大吉无咎
+  factor_trigger: zhouyi_gua_cui
+  role: 主干依赖
+  snippet_text: 大吉，无咎：大为吉祥，无所咎责。
+  source_ref: 《周易·萃卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842675'
+- snippet_id: ns_zhouyi_414
+  trigger: 卦=萃 AND 九五=萃有位
+  factor_trigger: zhouyi_gua_cui
+  role: 主干依赖
+  snippet_text: 萃有位，无咎：聚于正位，无所咎责。
+  source_ref: 《周易·萃卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842681'
+- snippet_id: ns_zhouyi_415
+  trigger: 卦=萃 AND 上六=齎咨涕洟
+  factor_trigger: zhouyi_gua_cui
+  role: 总结
+  snippet_text: 齎咨涕洟，无咎：悲泣涕泪，无所咎责。
+  source_ref: 《周易·萃卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842687'
+- snippet_id: ns_zhouyi_416
+  trigger: 卦=升 AND 卦辞=元亨用见大人
+  factor_trigger: zhouyi_gua_sheng AND zhouyi_guaci
+  role: 主干
+  snippet_text: 升，元亨；用见大人，勿恤：上升之时，利见大人。
+  source_ref: 《周易·升卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842702'
+- snippet_id: ns_zhouyi_417
+  trigger: 卦=升 AND 彖传
+  factor_trigger: zhouyi_gua_sheng AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 柔以时升。
+  source_ref: 《周易·升卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842708'
+- snippet_id: ns_zhouyi_418
+  trigger: 卦=升 AND 象传=地中生木
+  factor_trigger: zhouyi_gua_sheng AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 地中生木，升；君子以顺德积小以高大：如木自地升起。
+  source_ref: 《周易·升卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842714'
+- snippet_id: ns_zhouyi_419
+  trigger: 卦=升 AND 初六=允升大吉
+  factor_trigger: zhouyi_gua_sheng
+  role: 条件分支
+  snippet_text: 允升，大吉：诚信而升，大为吉祥。
+  source_ref: 《周易·升卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842741'
+- snippet_id: ns_zhouyi_420
+  trigger: 卦=升 AND 九二=孚乃利用禴
+  factor_trigger: zhouyi_gua_sheng
+  role: 条件分支
+  snippet_text: 孚乃利用禴，无咎：诚信则祭礼可简。
+  source_ref: 《周易·升卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842747'
+- snippet_id: ns_zhouyi_421
+  trigger: 卦=升 AND 九三=升虚邑
+  factor_trigger: zhouyi_gua_sheng
+  role: 例外处理
+  snippet_text: 升虚邑：升入空虚之邑，无所阻碍。
+  source_ref: 《周易·升卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842755'
+- snippet_id: ns_zhouyi_422
+  trigger: 卦=升 AND 六四=王用亨于岐山
+  factor_trigger: zhouyi_gua_sheng
+  role: 主干依赖
+  snippet_text: 王用亨于岐山，吉无咎：王于岐山祭享而吉。
+  source_ref: 《周易·升卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842761'
+- snippet_id: ns_zhouyi_423
+  trigger: 卦=升 AND 六五=贞吉升阶
+  factor_trigger: zhouyi_gua_sheng
+  role: 主干依赖
+  snippet_text: 贞吉，升阶：守正则吉，循阶而升。
+  source_ref: 《周易·升卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842766'
+- snippet_id: ns_zhouyi_424
+  trigger: 卦=升 AND 上六=冥升利于不息之贞
+  factor_trigger: zhouyi_gua_sheng
+  role: 总结
+  snippet_text: 冥升，利于不息之贞：冥冥而升，须持续守正。
+  source_ref: 《周易·升卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842772'
+- snippet_id: ns_zhouyi_425
+  trigger: 卦=困 AND 卦辞=亨贞大人吉
+  factor_trigger: zhouyi_gua_kun2 AND zhouyi_guaci
+  role: 主干
+  snippet_text: 困，亨；贞大人吉：困境之中，大人守正可吉。
+  source_ref: 《周易·困卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842787'
+- snippet_id: ns_zhouyi_426
+  trigger: 卦=困 AND 彖传
+  factor_trigger: zhouyi_gua_kun AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 刚掩也。险以说。
+  source_ref: 《周易·困卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842793'
+- snippet_id: ns_zhouyi_427
+  trigger: 卦=困 AND 象传=泽无水困
+  factor_trigger: zhouyi_gua_kun2 AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 泽无水，困；君子以致命遂志：泽竭而困，君子以志遂命。
+  source_ref: 《周易·困卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842799'
+- snippet_id: ns_zhouyi_428
+  trigger: 卦=困 AND 初六=臀困于株木
+  factor_trigger: zhouyi_gua_kun2
+  role: 条件分支
+  snippet_text: 臀困于株木，入于幽谷：困于枯木，陷入幽谷。
+  source_ref: 《周易·困卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842805'
+- snippet_id: ns_zhouyi_429
+  trigger: 卦=困 AND 九二=困于酒食
+  factor_trigger: zhouyi_gua_kun2
+  role: 条件分支
+  snippet_text: 困于酒食，朱绂方来：虽困于酒食，赤绂将至。
+  source_ref: 《周易·困卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842816'
+- snippet_id: ns_zhouyi_430
+  trigger: 卦=困 AND 六三=困于石据于蒺藜
+  factor_trigger: zhouyi_gua_kun2
+  role: 例外处理
+  snippet_text: 困于石，据于蒺藜：前困于石，后倚蒺藜。
+  source_ref: 《周易·困卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842822'
+- snippet_id: ns_zhouyi_431
+  trigger: 卦=困 AND 九四=来徐徐
+  factor_trigger: zhouyi_gua_kun2
+  role: 条件分支
+  snippet_text: 来徐徐，困于金车：缓缓而来，困于金车。
+  source_ref: 《周易·困卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842828'
+- snippet_id: ns_zhouyi_432
+  trigger: 卦=困 AND 九五=劓刖困于赤绂
+  factor_trigger: zhouyi_gua_kun2
+  role: 主干依赖
+  snippet_text: 劓刖，困于赤绂：刑罚施身，困于爵禄。
+  source_ref: 《周易·困卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842835'
+- snippet_id: ns_zhouyi_433
+  trigger: 卦=困 AND 上六=困于葛藟
+  factor_trigger: zhouyi_gua_kun2
+  role: 总结
+  snippet_text: 困于葛藟，于臲卼：困于藤蔓，摇摇欲坠。
+  source_ref: 《周易·困卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842842'
+- snippet_id: ns_zhouyi_434
+  trigger: 卦=井 AND 卦辞=改邑不改井
+  factor_trigger: zhouyi_gua_jing AND zhouyi_guaci
+  role: 主干
+  snippet_text: 井，改邑不改井，无丧无得：井道恒常，不因迁邑而变。
+  source_ref: 《周易·井卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842855'
+- snippet_id: ns_zhouyi_435
+  trigger: 卦=井 AND 彖传
+  factor_trigger: zhouyi_gua_jing AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 巽乎水而上水。
+  source_ref: 《周易·井卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842861'
+- snippet_id: ns_zhouyi_436
+  trigger: 卦=井 AND 象传=木上有水
+  factor_trigger: zhouyi_gua_jing AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 木上有水，井；君子以劳民劝相：如井养万民。
+  source_ref: 《周易·井卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842868'
+- snippet_id: ns_zhouyi_437
+  trigger: 卦=井 AND 初六=井泥不食
+  factor_trigger: zhouyi_gua_jing
+  role: 例外处理
+  snippet_text: 井泥不食，旧井无禽：井底泥浊，无人取用。
+  source_ref: 《周易·井卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842877'
+- snippet_id: ns_zhouyi_438
+  trigger: 卦=井 AND 九二=井谷射鲋
+  factor_trigger: zhouyi_gua_jing
+  role: 例外处理
+  snippet_text: 井谷射鲋，瓮敝漏：井中只有小鱼，瓦瓮亦漏。
+  source_ref: 《周易·井卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842883'
+- snippet_id: ns_zhouyi_439
+  trigger: 卦=井 AND 九三=井渫不食
+  factor_trigger: zhouyi_gua_jing
+  role: 条件分支
+  snippet_text: 井渫不食，为我心恻：井已清洁，却无人饮用。
+  source_ref: 《周易·井卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842890'
+- snippet_id: ns_zhouyi_440
+  trigger: 卦=井 AND 六四=井甃无咎
+  factor_trigger: zhouyi_gua_jing
+  role: 条件分支
+  snippet_text: 井甃，无咎：以砖砌井，无所咎责。
+  source_ref: 《周易·井卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842895'
+- snippet_id: ns_zhouyi_441
+  trigger: 卦=井 AND 九五=井洌寒泉食
+  factor_trigger: zhouyi_gua_jing
+  role: 主干依赖
+  snippet_text: 井洌，寒泉食：井水清冽，可以饮用。
+  source_ref: 《周易·井卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842901'
+- snippet_id: ns_zhouyi_442
+  trigger: 卦=井 AND 上六=井收勿幕
+  factor_trigger: zhouyi_gua_jing
+  role: 总结
+  snippet_text: 井收勿幕，有孚元吉：井口不蔽，诚信大吉。
+  source_ref: 《周易·井卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842909'
+- snippet_id: ns_zhouyi_443
+  trigger: 卦=革 AND 卦辞=己日乃孚
+  factor_trigger: zhouyi_gua_ge AND zhouyi_guaci
+  role: 主干
+  snippet_text: 革，己日乃孚，元亨利贞：变革在适时，诚信方能亨通。
+  source_ref: 《周易·革卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842925'
+- snippet_id: ns_zhouyi_444
+  trigger: 卦=革 AND 彖传
+  factor_trigger: zhouyi_gua_ge AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 水火相息。二女同居。
+  source_ref: 《周易·革卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842932'
+- snippet_id: ns_zhouyi_445
+  trigger: 卦=革 AND 象传=泽中有火
+  factor_trigger: zhouyi_gua_ge AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 泽中有火，革；君子以治历明时：水火相息，明辨时变。
+  source_ref: 《周易·革卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842939'
+- snippet_id: ns_zhouyi_446
+  trigger: 卦=革 AND 初九=巩用黄牛之革
+  factor_trigger: zhouyi_gua_ge
+  role: 条件分支
+  snippet_text: 巩用黄牛之革：以柔顺坚固之物束缚，不可轻动。
+  source_ref: 《周易·革卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842946'
+- snippet_id: ns_zhouyi_447
+  trigger: 卦=革 AND 六二=己日乃革之
+  factor_trigger: zhouyi_gua_ge
+  role: 条件分支
+  snippet_text: 己日乃革之，征吉：至时而变，征行则吉。
+  source_ref: 《周易·革卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842954'
+- snippet_id: ns_zhouyi_448
+  trigger: 卦=革 AND 九三=征凶贞厉
+  factor_trigger: zhouyi_gua_ge
+  role: 例外处理
+  snippet_text: 征凶贞厉，革言三就：变革之言须三思而行。
+  source_ref: 《周易·革卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842961'
+- snippet_id: ns_zhouyi_449
+  trigger: 卦=革 AND 九四=悔亡有孚
+  factor_trigger: zhouyi_gua_ge
+  role: 条件分支
+  snippet_text: 悔亡，有孚改命吉：变革得信，改命得吉。
+  source_ref: 《周易·革卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842969'
+- snippet_id: ns_zhouyi_450
+  trigger: 卦=革 AND 九五=大人虎变
+  factor_trigger: zhouyi_gua_ge
+  role: 主干依赖
+  snippet_text: 大人虎变，未占有孚：大人如虎之变，威仪自明。
+  source_ref: 《周易·革卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842975'
+- snippet_id: ns_zhouyi_451
+  trigger: 卦=革 AND 上六=君子豹变
+  factor_trigger: zhouyi_gua_ge
+  role: 总结
+  snippet_text: 君子豹变，小人革面：君子如豹纹之变，小人则改面从新。
+  source_ref: 《周易·革卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.842982'
+- snippet_id: ns_zhouyi_452
+  trigger: 卦=鼎 AND 卦辞=元吉亨
+  factor_trigger: zhouyi_gua_ding AND zhouyi_guaci
+  role: 主干
+  snippet_text: 鼎，元吉，亨：鼎为重器，象征大吉亨通。
+  source_ref: 《周易·鼎卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843034'
+- snippet_id: ns_zhouyi_453
+  trigger: 卦=鼎 AND 彖传
+  factor_trigger: zhouyi_gua_ding AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 象也。以木巽火。
+  source_ref: 《周易·鼎卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843045'
+- snippet_id: ns_zhouyi_454
+  trigger: 卦=鼎 AND 象传=木上有火
+  factor_trigger: zhouyi_gua_ding AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 木上有火，鼎；君子以正位凝命：如鼎烹物，正位凝命。
+  source_ref: 《周易·鼎卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843054'
+- snippet_id: ns_zhouyi_455
+  trigger: 卦=鼎 AND 初六=鼎颠趾
+  factor_trigger: zhouyi_gua_ding
+  role: 条件分支
+  snippet_text: 鼎颠趾，利出否：鼎足翻覆，利于去旧。
+  source_ref: 《周易·鼎卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843061'
+- snippet_id: ns_zhouyi_456
+  trigger: 卦=鼎 AND 九二=鼎有实
+  factor_trigger: zhouyi_gua_ding
+  role: 条件分支
+  snippet_text: 鼎有实，我仇有疾：鼎中有物，仇敌有疾。
+  source_ref: 《周易·鼎卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843068'
+- snippet_id: ns_zhouyi_457
+  trigger: 卦=鼎 AND 九三=鼎耳革
+  factor_trigger: zhouyi_gua_ding
+  role: 例外处理
+  snippet_text: 鼎耳革，其行塞：鼎耳脱落，难以举行。
+  source_ref: 《周易·鼎卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843074'
+- snippet_id: ns_zhouyi_458
+  trigger: 卦=鼎 AND 九四=鼎折足
+  factor_trigger: zhouyi_gua_ding
+  role: 例外处理
+  snippet_text: 鼎折足，覆公餗：鼎足折断，倾覆所烹。
+  source_ref: 《周易·鼎卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843081'
+- snippet_id: ns_zhouyi_459
+  trigger: 卦=鼎 AND 六五=鼎黄耳金铉
+  factor_trigger: zhouyi_gua_ding
+  role: 主干依赖
+  snippet_text: 鼎黄耳金铉，利贞：黄金鼎耳，守正则利。
+  source_ref: 《周易·鼎卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843090'
+- snippet_id: ns_zhouyi_460
+  trigger: 卦=鼎 AND 上九=鼎玉铉
+  factor_trigger: zhouyi_gua_ding
+  role: 总结
+  snippet_text: 鼎玉铉，大吉，无不利：玉制鼎铉，大吉无不利。
+  source_ref: 《周易·鼎卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843099'
+- snippet_id: ns_zhouyi_461
+  trigger: 卦=震 AND 卦辞=亨震来虩虩
+  factor_trigger: zhouyi_gua_zhen AND zhouyi_guaci
+  role: 主干
+  snippet_text: 震，亨；震来虩虩，笑言哑哑：雷震之后，惊惧转为安乐。
+  source_ref: 《周易·震卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843117'
+- snippet_id: ns_zhouyi_462
+  trigger: 卦=震 AND 彖传
+  factor_trigger: zhouyi_gua_zhen AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 亨。震来虩虩，恐致福也。
+  source_ref: 《周易·震卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843124'
+- snippet_id: ns_zhouyi_463
+  trigger: 卦=震 AND 象传=洊雷震
+  factor_trigger: zhouyi_gua_zhen AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 洊雷，震；君子以恐惧修省：重雷震动，君子因惧而自省。
+  source_ref: 《周易·震卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843131'
+- snippet_id: ns_zhouyi_464
+  trigger: 卦=震 AND 初九=震来虩虩
+  factor_trigger: zhouyi_gua_zhen
+  role: 条件分支
+  snippet_text: 震来虩虩，后笑言哑哑：初惧后安。
+  source_ref: 《周易·震卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843138'
+- snippet_id: ns_zhouyi_465
+  trigger: 卦=震 AND 六二=震来厉
+  factor_trigger: zhouyi_gua_zhen
+  role: 条件分支
+  snippet_text: 震来厉，亿丧贝：雷震将至，或有财损。
+  source_ref: 《周易·震卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843274'
+- snippet_id: ns_zhouyi_466
+  trigger: 卦=震 AND 六三=震苏苏
+  factor_trigger: zhouyi_gua_zhen
+  role: 条件分支
+  snippet_text: 震苏苏，震行无眚：惊惧而醒，无灾眚。
+  source_ref: 《周易·震卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843290'
+- snippet_id: ns_zhouyi_467
+  trigger: 卦=震 AND 九四=震遂泥
+  factor_trigger: zhouyi_gua_zhen
+  role: 例外处理
+  snippet_text: 震遂泥：震惧而陷于泥中。
+  source_ref: 《周易·震卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843298'
+- snippet_id: ns_zhouyi_468
+  trigger: 卦=震 AND 六五=震往来厉
+  factor_trigger: zhouyi_gua_zhen
+  role: 主干依赖
+  snippet_text: 震往来厉，亿无丧：往来皆厉，但无大损。
+  source_ref: 《周易·震卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843309'
+- snippet_id: ns_zhouyi_469
+  trigger: 卦=震 AND 上六=震索索
+  factor_trigger: zhouyi_gua_zhen
+  role: 总结
+  snippet_text: 震索索，视矍矍：惧而索缩，目光惊惧。
+  source_ref: 《周易·震卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843316'
+- snippet_id: ns_zhouyi_470
+  trigger: 卦=艮 AND 卦辞=艮其背不获其身
+  factor_trigger: zhouyi_gua_gen AND zhouyi_guaci
+  role: 主干
+  snippet_text: 艮其背，不获其身，行其庭，不见其人：止于背，不见其身。
+  source_ref: 《周易·艮卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843334'
+- snippet_id: ns_zhouyi_471
+  trigger: 卦=艮 AND 彖传
+  factor_trigger: zhouyi_gua_gen AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 止也。时止则止，时行则行。
+  source_ref: 《周易·艮卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843342'
+- snippet_id: ns_zhouyi_472
+  trigger: 卦=艮 AND 象传=兼山艮
+  factor_trigger: zhouyi_gua_gen AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 兼山，艮；君子以思不出其位：两山相止，君子止于其位。
+  source_ref: 《周易·艮卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843473'
+- snippet_id: ns_zhouyi_473
+  trigger: 卦=艮 AND 初六=艮其趾
+  factor_trigger: zhouyi_gua_gen
+  role: 条件分支
+  snippet_text: 艮其趾，无咎：止于足趾，无所咎责。
+  source_ref: 《周易·艮卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843484'
+- snippet_id: ns_zhouyi_474
+  trigger: 卦=艮 AND 六二=艮其腓
+  factor_trigger: zhouyi_gua_gen
+  role: 条件分支
+  snippet_text: 艮其腓，不拯其随：止于小腿，不能拯救所随之人。
+  source_ref: 《周易·艮卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843492'
+- snippet_id: ns_zhouyi_475
+  trigger: 卦=艮 AND 九三=艮其限
+  factor_trigger: zhouyi_gua_gen
+  role: 例外处理
+  snippet_text: 艮其限，列其夤：止于腰际，脊背生裂。
+  source_ref: 《周易·艮卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843560'
+- snippet_id: ns_zhouyi_476
+  trigger: 卦=艮 AND 六四=艮其身
+  factor_trigger: zhouyi_gua_gen
+  role: 条件分支
+  snippet_text: 艮其身，无咎：止于身体，无所咎责。
+  source_ref: 《周易·艮卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843569'
+- snippet_id: ns_zhouyi_477
+  trigger: 卦=艮 AND 六五=艮其辅
+  factor_trigger: zhouyi_gua_gen
+  role: 主干依赖
+  snippet_text: 艮其辅，言有序：止于面颊，言语有序。
+  source_ref: 《周易·艮卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843574'
+- snippet_id: ns_zhouyi_478
+  trigger: 卦=艮 AND 上九=敦艮吉
+  factor_trigger: zhouyi_gua_gen
+  role: 总结
+  snippet_text: 敦艮，吉：敦厚而止，大为吉祥。
+  source_ref: 《周易·艮卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843584'
+- snippet_id: ns_zhouyi_479
+  trigger: 卦=渐 AND 卦辞=女归吉
+  factor_trigger: zhouyi_gua_jian2 AND zhouyi_guaci
+  role: 主干
+  snippet_text: 渐，女归吉，利贞：渐进之道，如女归夫家。
+  source_ref: 《周易·渐卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843597'
+- snippet_id: ns_zhouyi_480
+  trigger: 卦=渐 AND 彖传
+  factor_trigger: zhouyi_gua_jian AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 进也。女归吉也。
+  source_ref: 《周易·渐卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843603'
+- snippet_id: ns_zhouyi_481
+  trigger: 卦=渐 AND 象传=山上有木
+  factor_trigger: zhouyi_gua_jian2 AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 山上有木，渐；君子以居贤德善俗：如木渐长于山，以德渐化风俗。
+  source_ref: 《周易·渐卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843609'
+- snippet_id: ns_zhouyi_482
+  trigger: 卦=渐 AND 初六=鸿渐于干
+  factor_trigger: zhouyi_gua_jian2
+  role: 条件分支
+  snippet_text: 鸿渐于干，小子厉：鸿雁渐进于涯岸。
+  source_ref: 《周易·渐卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843615'
+- snippet_id: ns_zhouyi_483
+  trigger: 卦=渐 AND 六二=鸿渐于磐
+  factor_trigger: zhouyi_gua_jian2
+  role: 条件分支
+  snippet_text: 鸿渐于磐，饮食衎衎：鸿雁进于磐石，安乐饮食。
+  source_ref: 《周易·渐卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843622'
+- snippet_id: ns_zhouyi_484
+  trigger: 卦=渐 AND 九三=鸿渐于陆
+  factor_trigger: zhouyi_gua_jian2
+  role: 例外处理
+  snippet_text: 鸿渐于陆，夫征不复：鸿雁进于陆地，远征不归。
+  source_ref: 《周易·渐卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843626'
+- snippet_id: ns_zhouyi_485
+  trigger: 卦=渐 AND 六四=鸿渐于木
+  factor_trigger: zhouyi_gua_jian2
+  role: 条件分支
+  snippet_text: 鸿渐于木，或得其桷：鸿雁进于树上。
+  source_ref: 《周易·渐卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843659'
+- snippet_id: ns_zhouyi_486
+  trigger: 卦=渐 AND 九五=鸿渐于陵
+  factor_trigger: zhouyi_gua_jian2
+  role: 主干依赖
+  snippet_text: 鸿渐于陵，妇三岁不孕：鸿雁进于高陵。
+  source_ref: 《周易·渐卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843673'
+- snippet_id: ns_zhouyi_487
+  trigger: 卦=渐 AND 上九=鸿渐于逵
+  factor_trigger: zhouyi_gua_jian2
+  role: 总结
+  snippet_text: 鸿渐于逵，其羽可用为仪：鸿雁渐至高处，羽毛可作仪饰。
+  source_ref: 《周易·渐卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843681'
+- snippet_id: ns_zhouyi_488
+  trigger: 卦=归妹 AND 卦辞=征凶无攸利
+  factor_trigger: zhouyi_gua_guimei AND zhouyi_guaci
+  role: 主干
+  snippet_text: 归妹，征凶，无攸利：少女归嫁，冒进则凶。
+  source_ref: 《周易·归妹卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843704'
+- snippet_id: ns_zhouyi_489
+  trigger: 卦=归妹 AND 彖传
+  factor_trigger: zhouyi_gua_guimei AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 天地之大义也。
+  source_ref: 《周易·归妹卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843711'
+- snippet_id: ns_zhouyi_490
+  trigger: 卦=归妹 AND 象传=泽上有雷
+  factor_trigger: zhouyi_gua_guimei AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 泽上有雷，归妹；君子以永终知敝：雷动泽上，知其终敝。
+  source_ref: 《周易·归妹卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843719'
+- snippet_id: ns_zhouyi_491
+  trigger: 卦=归妹 AND 初九=归妹以娣
+  factor_trigger: zhouyi_gua_guimei
+  role: 条件分支
+  snippet_text: 归妹以娣，跛能履：以妾身份出嫁。
+  source_ref: 《周易·归妹卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843765'
+- snippet_id: ns_zhouyi_492
+  trigger: 卦=归妹 AND 九二=眇能视
+  factor_trigger: zhouyi_gua_guimei
+  role: 条件分支
+  snippet_text: 眇能视，利幽人之贞：独眼能视，利于幽人守正。
+  source_ref: 《周易·归妹卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843778'
+- snippet_id: ns_zhouyi_493
+  trigger: 卦=归妹 AND 六三=归妹以须
+  factor_trigger: zhouyi_gua_guimei
+  role: 条件分支
+  snippet_text: 归妹以须，反归以娣：等待而后出嫁。
+  source_ref: 《周易·归妹卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843788'
+- snippet_id: ns_zhouyi_494
+  trigger: 卦=归妹 AND 九四=归妹愆期
+  factor_trigger: zhouyi_gua_guimei
+  role: 例外处理
+  snippet_text: 归妹愆期，迟归有时：婚期延误，终有其时。
+  source_ref: 《周易·归妹卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843798'
+- snippet_id: ns_zhouyi_495
+  trigger: 卦=归妹 AND 六五=帝乙归妹
+  factor_trigger: zhouyi_gua_guimei
+  role: 主干依赖
+  snippet_text: 帝乙归妹，其君之袂不如其娣之袂良：帝乙嫁女，妾衣胜主。
+  source_ref: 《周易·归妹卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843805'
+- snippet_id: ns_zhouyi_496
+  trigger: 卦=归妹 AND 上六=女承筐无实
+  factor_trigger: zhouyi_gua_guimei
+  role: 总结
+  snippet_text: 女承筐无实，士刲羊无血：虚礼无实。
+  source_ref: 《周易·归妹卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843813'
+- snippet_id: ns_zhouyi_497
+  trigger: 卦=丰 AND 卦辞=亨王假之
+  factor_trigger: zhouyi_gua_feng AND zhouyi_guaci
+  role: 主干
+  snippet_text: 丰，亨；王假之，勿忧，宜日中：丰盛之时，王临之而勿忧。
+  source_ref: 《周易·丰卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843830'
+- snippet_id: ns_zhouyi_498
+  trigger: 卦=丰 AND 彖传
+  factor_trigger: zhouyi_gua_feng AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 大也。明以动，故丰。
+  source_ref: 《周易·丰卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843866'
+- snippet_id: ns_zhouyi_499
+  trigger: 卦=丰 AND 象传=雷电皆至
+  factor_trigger: zhouyi_gua_feng AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 雷电皆至，丰；君子以折狱致刑：雷电并作，明断狱刑。
+  source_ref: 《周易·丰卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843893'
+- snippet_id: ns_zhouyi_500
+  trigger: 卦=丰 AND 初九=遇其配主
+  factor_trigger: zhouyi_gua_feng
+  role: 条件分支
+  snippet_text: 遇其配主，虽旬无咎：遇合适之主，十日无咎。
+  source_ref: 《周易·丰卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843900'
+- snippet_id: ns_zhouyi_501
+  trigger: 卦=丰 AND 六二=丰其蔀
+  factor_trigger: zhouyi_gua_feng
+  role: 条件分支
+  snippet_text: 丰其蔀，日中见斗：帷幕遮日，日中见斗。
+  source_ref: 《周易·丰卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843906'
+- snippet_id: ns_zhouyi_502
+  trigger: 卦=丰 AND 九三=丰其沛
+  factor_trigger: zhouyi_gua_feng
+  role: 例外处理
+  snippet_text: 丰其沛，日中见沫：繁盛之极，日中见星。
+  source_ref: 《周易·丰卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843939'
+- snippet_id: ns_zhouyi_503
+  trigger: 卦=丰 AND 九四=丰其蔀日中见斗
+  factor_trigger: zhouyi_gua_feng
+  role: 条件分支
+  snippet_text: 丰其蔀，日中见斗，遇其夷主：帷幕遮蔽，遇平等之主。
+  source_ref: 《周易·丰卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.843978'
+- snippet_id: ns_zhouyi_504
+  trigger: 卦=丰 AND 六五=来章有庆誉
+  factor_trigger: zhouyi_gua_feng
+  role: 主干依赖
+  snippet_text: 来章，有庆誉，吉：文采来临，庆誉齐至。
+  source_ref: 《周易·丰卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844022'
+- snippet_id: ns_zhouyi_505
+  trigger: 卦=丰 AND 上六=丰其屋蔀其家
+  factor_trigger: zhouyi_gua_feng
+  role: 总结
+  snippet_text: 丰其屋，蔀其家：屋大而家遮蔽，孤立无援。
+  source_ref: 《周易·丰卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844030'
+- snippet_id: ns_zhouyi_506
+  trigger: 卦=旅 AND 卦辞=小亨旅贞吉
+  factor_trigger: zhouyi_gua_lv2 AND zhouyi_guaci
+  role: 主干
+  snippet_text: 旅，小亨；旅贞吉：羁旅之时，小事亨通。
+  source_ref: 《周易·旅卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844051'
+- snippet_id: ns_zhouyi_507
+  trigger: 卦=旅 AND 彖传
+  factor_trigger: zhouyi_gua_lv AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 小亨。柔得中乎外而顺乎刚。
+  source_ref: 《周易·旅卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844058'
+- snippet_id: ns_zhouyi_508
+  trigger: 卦=旅 AND 象传=山上有火
+  factor_trigger: zhouyi_gua_lv2 AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 山上有火，旅；君子以明慎用刑而不留狱：旅途明慎，不滞狱事。
+  source_ref: 《周易·旅卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844063'
+- snippet_id: ns_zhouyi_509
+  trigger: 卦=旅 AND 初六=旅琐琐
+  factor_trigger: zhouyi_gua_lv2
+  role: 例外处理
+  snippet_text: 旅琐琐，斯其所取灾：旅途琐碎，自招其灾。
+  source_ref: 《周易·旅卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844068'
+- snippet_id: ns_zhouyi_510
+  trigger: 卦=旅 AND 六二=旅即次
+  factor_trigger: zhouyi_gua_lv2
+  role: 条件分支
+  snippet_text: 旅即次，怀其资，得童仆贞：旅至客舍，财资在身。
+  source_ref: 《周易·旅卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844072'
+- snippet_id: ns_zhouyi_511
+  trigger: 卦=旅 AND 九三=旅焚其次
+  factor_trigger: zhouyi_gua_lv2
+  role: 例外处理
+  snippet_text: 旅焚其次，丧其童仆：客舍被焚，失其仆从。
+  source_ref: 《周易·旅卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844077'
+- snippet_id: ns_zhouyi_512
+  trigger: 卦=旅 AND 九四=旅于处
+  factor_trigger: zhouyi_gua_lv2
+  role: 条件分支
+  snippet_text: 旅于处，得其资斧：旅居一处，得财得器。
+  source_ref: 《周易·旅卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844081'
+- snippet_id: ns_zhouyi_513
+  trigger: 卦=旅 AND 六五=射雉一矢亡
+  factor_trigger: zhouyi_gua_lv2
+  role: 主干依赖
+  snippet_text: 射雉，一矢亡：射雉失矢，有所损失。
+  source_ref: 《周易·旅卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844086'
+- snippet_id: ns_zhouyi_514
+  trigger: 卦=旅 AND 上九=鸟焚其巢
+  factor_trigger: zhouyi_gua_lv2
+  role: 总结
+  snippet_text: 鸟焚其巢，旅人先笑后号啕：鸟巢被焚，先笑后哭。
+  source_ref: 《周易·旅卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844167'
+- snippet_id: ns_zhouyi_515
+  trigger: 卦=巽 AND 卦辞=小亨利有攸往
+  factor_trigger: zhouyi_gua_xun AND zhouyi_guaci
+  role: 主干
+  snippet_text: 巽，小亨；利有攸往，利见大人：巽顺入微，利见大人。
+  source_ref: 《周易·巽卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844191'
+- snippet_id: ns_zhouyi_516
+  trigger: 卦=巽 AND 彖传
+  factor_trigger: zhouyi_gua_xun AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 重巽以申命。
+  source_ref: 《周易·巽卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844270'
+- snippet_id: ns_zhouyi_517
+  trigger: 卦=巽 AND 象传=随风巽
+  factor_trigger: zhouyi_gua_xun AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 随风，巽；君子以申命行事：风行相随，申明号令。
+  source_ref: 《周易·巽卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844299'
+- snippet_id: ns_zhouyi_518
+  trigger: 卦=巽 AND 初六=进退利武人之贞
+  factor_trigger: zhouyi_gua_xun
+  role: 条件分支
+  snippet_text: 进退，利武人之贞：进退不定，须武人守正。
+  source_ref: 《周易·巽卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844314'
+- snippet_id: ns_zhouyi_519
+  trigger: 卦=巽 AND 九二=巽在床下
+  factor_trigger: zhouyi_gua_xun
+  role: 条件分支
+  snippet_text: 巽在床下，用史巫纷若：卑顺在下，多用史巫。
+  source_ref: 《周易·巽卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844335'
+- snippet_id: ns_zhouyi_520
+  trigger: 卦=巽 AND 九三=频巽吝
+  factor_trigger: zhouyi_gua_xun
+  role: 例外处理
+  snippet_text: 频巽，吝：过于卑顺，反生吝惜。
+  source_ref: 《周易·巽卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844354'
+- snippet_id: ns_zhouyi_521
+  trigger: 卦=巽 AND 六四=悔亡田获三品
+  factor_trigger: zhouyi_gua_xun
+  role: 条件分支
+  snippet_text: 悔亡，田获三品：悔恨消解，田猎有获。
+  source_ref: 《周易·巽卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844369'
+- snippet_id: ns_zhouyi_522
+  trigger: 卦=巽 AND 九五=贞吉悔亡无不利
+  factor_trigger: zhouyi_gua_xun
+  role: 主干依赖
+  snippet_text: 贞吉，悔亡，无不利：守正则吉，无所不利。
+  source_ref: 《周易·巽卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844389'
+- snippet_id: ns_zhouyi_523
+  trigger: 卦=巽 AND 上九=巽在床下
+  factor_trigger: zhouyi_gua_xun
+  role: 总结
+  snippet_text: 巽在床下，丧其资斧：过于卑顺，失其资器。
+  source_ref: 《周易·巽卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844402'
+- snippet_id: ns_zhouyi_524
+  trigger: 卦=兑 AND 卦辞=亨利贞
+  factor_trigger: zhouyi_gua_dui AND zhouyi_guaci
+  role: 主干
+  snippet_text: 兑，亨，利贞：悦泽之道，亨通利贞。
+  source_ref: 《周易·兑卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844426'
+- snippet_id: ns_zhouyi_525
+  trigger: 卦=兑 AND 彖传
+  factor_trigger: zhouyi_gua_dui AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 说也。刚中而柔外。
+  source_ref: 《周易·兑卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844437'
+- snippet_id: ns_zhouyi_526
+  trigger: 卦=兑 AND 象传=丽泽兑
+  factor_trigger: zhouyi_gua_dui AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 丽泽，兑；君子以朋友讲习：两泽相丽，朋友讲学。
+  source_ref: 《周易·兑卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844449'
+- snippet_id: ns_zhouyi_527
+  trigger: 卦=兑 AND 初九=和兑吉
+  factor_trigger: zhouyi_gua_dui
+  role: 条件分支
+  snippet_text: 和兑，吉：和悦待人，自然吉祥。
+  source_ref: 《周易·兑卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844465'
+- snippet_id: ns_zhouyi_528
+  trigger: 卦=兑 AND 九二=孚兑吉
+  factor_trigger: zhouyi_gua_dui
+  role: 条件分支
+  snippet_text: 孚兑，吉，悔亡：诚信而悦，悔恨消解。
+  source_ref: 《周易·兑卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844486'
+- snippet_id: ns_zhouyi_529
+  trigger: 卦=兑 AND 六三=来兑凶
+  factor_trigger: zhouyi_gua_dui
+  role: 例外处理
+  snippet_text: 来兑，凶：来求悦人，反招其凶。
+  source_ref: 《周易·兑卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844501'
+- snippet_id: ns_zhouyi_530
+  trigger: 卦=兑 AND 九四=商兑未宁
+  factor_trigger: zhouyi_gua_dui
+  role: 条件分支
+  snippet_text: 商兑未宁，介疾有喜：商议悦乐，未能安宁。
+  source_ref: 《周易·兑卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844521'
+- snippet_id: ns_zhouyi_531
+  trigger: 卦=兑 AND 九五=孚于剥有厉
+  factor_trigger: zhouyi_gua_dui
+  role: 例外处理
+  snippet_text: 孚于剥，有厉：信于小人，终有危厉。
+  source_ref: 《周易·兑卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844533'
+- snippet_id: ns_zhouyi_532
+  trigger: 卦=兑 AND 上六=引兑
+  factor_trigger: zhouyi_gua_dui
+  role: 总结
+  snippet_text: 引兑：引人共悦，牵引其心。
+  source_ref: 《周易·兑卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844544'
+- snippet_id: ns_zhouyi_533
+  trigger: 卦=涣 AND 卦辞=亨王假有庙
+  factor_trigger: zhouyi_gua_huan AND zhouyi_guaci
+  role: 主干
+  snippet_text: 涣，亨；王假有庙，利涉大川：涣散之时，王以宗庙聚心。
+  source_ref: 《周易·涣卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844566'
+- snippet_id: ns_zhouyi_534
+  trigger: 卦=涣 AND 彖传
+  factor_trigger: zhouyi_gua_huan AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 亨。刚来而不穷。
+  source_ref: 《周易·涣卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844577'
+- snippet_id: ns_zhouyi_535
+  trigger: 卦=涣 AND 象传=风行水上
+  factor_trigger: zhouyi_gua_huan AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 风行水上，涣；先王以享于帝立庙：风行水上，涣散成波。
+  source_ref: 《周易·涣卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844588'
+- snippet_id: ns_zhouyi_536
+  trigger: 卦=涣 AND 初六=用拯马壮吉
+  factor_trigger: zhouyi_gua_huan
+  role: 条件分支
+  snippet_text: 用拯马壮，吉：以壮马拯救涣散。
+  source_ref: 《周易·涣卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844598'
+- snippet_id: ns_zhouyi_537
+  trigger: 卦=涣 AND 九二=涣奔其机
+  factor_trigger: zhouyi_gua_huan
+  role: 条件分支
+  snippet_text: 涣奔其机，悔亡：奔走于机要之处。
+  source_ref: 《周易·涣卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844690'
+- snippet_id: ns_zhouyi_538
+  trigger: 卦=涣 AND 六三=涣其躬
+  factor_trigger: zhouyi_gua_huan
+  role: 条件分支
+  snippet_text: 涣其躬，无悔：涣散自身之私。
+  source_ref: 《周易·涣卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844721'
+- snippet_id: ns_zhouyi_539
+  trigger: 卦=涣 AND 六四=涣其群
+  factor_trigger: zhouyi_gua_huan
+  role: 主干依赖
+  snippet_text: 涣其群，元吉：涣散朋党，大为吉祥。
+  source_ref: 《周易·涣卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844738'
+- snippet_id: ns_zhouyi_540
+  trigger: 卦=涣 AND 九五=涣汗其大号
+  factor_trigger: zhouyi_gua_huan
+  role: 主干依赖
+  snippet_text: 涣汗其大号，涣王居：如汗之出，号令天下。
+  source_ref: 《周易·涣卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844846'
+- snippet_id: ns_zhouyi_541
+  trigger: 卦=涣 AND 上九=涣其血去逖出
+  factor_trigger: zhouyi_gua_huan
+  role: 总结
+  snippet_text: 涣其血，去逖出：涣散血腥，远离灾祸。
+  source_ref: 《周易·涣卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844872'
+- snippet_id: ns_zhouyi_542
+  trigger: 卦=节 AND 卦辞=亨苦节不可贞
+  factor_trigger: zhouyi_gua_jie2 AND zhouyi_guaci
+  role: 主干
+  snippet_text: 节，亨；苦节不可贞：节制有度，过苦则不可守。
+  source_ref: 《周易·节卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844892'
+- snippet_id: ns_zhouyi_543
+  trigger: 卦=节 AND 彖传
+  factor_trigger: zhouyi_gua_jie AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 亨。刚柔分而刚得中。
+  source_ref: 《周易·节卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844901'
+- snippet_id: ns_zhouyi_544
+  trigger: 卦=节 AND 象传=泽上有水
+  factor_trigger: zhouyi_gua_jie2 AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 泽上有水，节；君子以制数度议德行：泽蓄有度，制定规矩。
+  source_ref: 《周易·节卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844953'
+- snippet_id: ns_zhouyi_545
+  trigger: 卦=节 AND 初九=不出户庭
+  factor_trigger: zhouyi_gua_jie2
+  role: 条件分支
+  snippet_text: 不出户庭，无咎：守于门户之内。
+  source_ref: 《周易·节卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.844993'
+- snippet_id: ns_zhouyi_546
+  trigger: 卦=节 AND 九二=不出门庭凶
+  factor_trigger: zhouyi_gua_jie2
+  role: 例外处理
+  snippet_text: 不出门庭，凶：过于自守，反失时机。
+  source_ref: 《周易·节卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845011'
+- snippet_id: ns_zhouyi_547
+  trigger: 卦=节 AND 六三=不节若
+  factor_trigger: zhouyi_gua_jie2
+  role: 例外处理
+  snippet_text: 不节若，则嗟若：不知节制，终有嗟叹。
+  source_ref: 《周易·节卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845019'
+- snippet_id: ns_zhouyi_548
+  trigger: 卦=节 AND 六四=安节亨
+  factor_trigger: zhouyi_gua_jie2
+  role: 条件分支
+  snippet_text: 安节，亨：安于节制，自然亨通。
+  source_ref: 《周易·节卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845026'
+- snippet_id: ns_zhouyi_549
+  trigger: 卦=节 AND 九五=甘节吉
+  factor_trigger: zhouyi_gua_jie2
+  role: 主干依赖
+  snippet_text: 甘节，吉：甘于节制，大为吉祥。
+  source_ref: 《周易·节卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845031'
+- snippet_id: ns_zhouyi_550
+  trigger: 卦=节 AND 上六=苦节贞凶
+  factor_trigger: zhouyi_gua_jie2
+  role: 总结
+  snippet_text: 苦节，贞凶，悔亡：过苦之节，守正亦凶。
+  source_ref: 《周易·节卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845037'
+- snippet_id: ns_zhouyi_551
+  trigger: 卦=中孚 AND 卦辞=豚鱼吉
+  factor_trigger: zhouyi_gua_zhongfu AND zhouyi_guaci
+  role: 主干
+  snippet_text: 中孚，豚鱼吉，利涉大川：诚信感化及于豚鱼。
+  source_ref: 《周易·中孚卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845052'
+- snippet_id: ns_zhouyi_552
+  trigger: 卦=中孚 AND 彖传
+  factor_trigger: zhouyi_gua_zhongfu AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 柔在内而刚得中。
+  source_ref: 《周易·中孚卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845057'
+- snippet_id: ns_zhouyi_553
+  trigger: 卦=中孚 AND 象传=泽上有风
+  factor_trigger: zhouyi_gua_zhongfu AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 泽上有风，中孚；君子以议狱缓死：诚信如风感泽，议狱宜缓。
+  source_ref: 《周易·中孚卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845064'
+- snippet_id: ns_zhouyi_554
+  trigger: 卦=中孚 AND 初九=虞吉
+  factor_trigger: zhouyi_gua_zhongfu
+  role: 条件分支
+  snippet_text: 虞吉，有它不燕：安虞则吉，有变则不安。
+  source_ref: 《周易·中孚卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845070'
+- snippet_id: ns_zhouyi_555
+  trigger: 卦=中孚 AND 九二=鸣鹤在阴
+  factor_trigger: zhouyi_gua_zhongfu
+  role: 主干依赖
+  snippet_text: 鸣鹤在阴，其子和之：鹤鸣于阴，子声相应。
+  source_ref: 《周易·中孚卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845182'
+- snippet_id: ns_zhouyi_556
+  trigger: 卦=中孚 AND 六三=得敌或鼓或罢
+  factor_trigger: zhouyi_gua_zhongfu
+  role: 例外处理
+  snippet_text: 得敌，或鼓或罢：遇敌而进退不定。
+  source_ref: 《周易·中孚卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845197'
+- snippet_id: ns_zhouyi_557
+  trigger: 卦=中孚 AND 六四=月几望
+  factor_trigger: zhouyi_gua_zhongfu
+  role: 条件分支
+  snippet_text: 月几望，马匹亡：月将满，马匹失。
+  source_ref: 《周易·中孚卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845205'
+- snippet_id: ns_zhouyi_558
+  trigger: 卦=中孚 AND 九五=有孚挛如
+  factor_trigger: zhouyi_gua_zhongfu
+  role: 主干依赖
+  snippet_text: 有孚挛如，无咎：诚信相系，无所咎责。
+  source_ref: 《周易·中孚卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845212'
+- snippet_id: ns_zhouyi_559
+  trigger: 卦=中孚 AND 上九=翰音登于天
+  factor_trigger: zhouyi_gua_zhongfu
+  role: 总结
+  snippet_text: 翰音登于天，贞凶：鸡鸣登天，守正亦凶。
+  source_ref: 《周易·中孚卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845219'
+- snippet_id: ns_zhouyi_560
+  trigger: 卦=小过 AND 卦辞=亨利贞
+  factor_trigger: zhouyi_gua_xiaoguo AND zhouyi_guaci
+  role: 主干
+  snippet_text: 小过，亨，利贞：小事可过，大事不可。
+  source_ref: 《周易·小过卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845298'
+- snippet_id: ns_zhouyi_561
+  trigger: 卦=小过 AND 彖传
+  factor_trigger: zhouyi_gua_xiaoguo AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 小者过而亨也。
+  source_ref: 《周易·小过卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845441'
+- snippet_id: ns_zhouyi_562
+  trigger: 卦=小过 AND 象传=山上有雷
+  factor_trigger: zhouyi_gua_xiaoguo AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 山上有雷，小过；君子以行过乎恭，丧过乎哀：小过之时，行礼宜过。
+  source_ref: 《周易·小过卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845592'
+- snippet_id: ns_zhouyi_563
+  trigger: 卦=小过 AND 初六=飞鸟以凶
+  factor_trigger: zhouyi_gua_xiaoguo
+  role: 例外处理
+  snippet_text: 飞鸟以凶：飞鸟冒进而凶。
+  source_ref: 《周易·小过卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845670'
+- snippet_id: ns_zhouyi_564
+  trigger: 卦=小过 AND 六二=过其祖遇其妣
+  factor_trigger: zhouyi_gua_xiaoguo
+  role: 条件分支
+  snippet_text: 过其祖，遇其妣：越过祖而遇其妣。
+  source_ref: 《周易·小过卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845709'
+- snippet_id: ns_zhouyi_565
+  trigger: 卦=小过 AND 九三=弗过防之
+  factor_trigger: zhouyi_gua_xiaoguo
+  role: 例外处理
+  snippet_text: 弗过防之，从或戕之：不过度防范，反遭戕害。
+  source_ref: 《周易·小过卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845725'
+- snippet_id: ns_zhouyi_566
+  trigger: 卦=小过 AND 九四=无咎弗过遇之
+  factor_trigger: zhouyi_gua_xiaoguo
+  role: 条件分支
+  snippet_text: 无咎，弗过遇之：无咎而遇，非过度也。
+  source_ref: 《周易·小过卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845844'
+- snippet_id: ns_zhouyi_567
+  trigger: 卦=小过 AND 六五=密云不雨
+  factor_trigger: zhouyi_gua_xiaoguo
+  role: 主干依赖
+  snippet_text: 密云不雨，自我西郊：云密而不雨，德泽未施。
+  source_ref: 《周易·小过卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845912'
+- snippet_id: ns_zhouyi_568
+  trigger: 卦=小过 AND 上六=弗遇过之
+  factor_trigger: zhouyi_gua_xiaoguo
+  role: 总结
+  snippet_text: 弗遇过之，飞鸟离之：不遇而过，如飞鸟远离。
+  source_ref: 《周易·小过卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845951'
+- snippet_id: ns_zhouyi_569
+  trigger: 卦=既济 AND 卦辞=亨小利贞
+  factor_trigger: zhouyi_gua_jiji AND zhouyi_guaci
+  role: 主干
+  snippet_text: 既济，亨小，利贞：事已成，小利守正。
+  source_ref: 《周易·既济卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845987'
+- snippet_id: ns_zhouyi_570
+  trigger: 卦=既济 AND 彖传
+  factor_trigger: zhouyi_gua_jiji AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 亨小。柔得中也。
+  source_ref: 《周易·既济卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.845998'
+- snippet_id: ns_zhouyi_571
+  trigger: 卦=既济 AND 象传=水在火上
+  factor_trigger: zhouyi_gua_jiji AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 水在火上，既济；君子以思患而预防之：水火既济，思患预防。
+  source_ref: 《周易·既济卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846006'
+- snippet_id: ns_zhouyi_572
+  trigger: 卦=既济 AND 初九=曳其轮
+  factor_trigger: zhouyi_gua_jiji
+  role: 条件分支
+  snippet_text: 曳其轮，濡其尾：拖曳车轮，沾湿尾巴。
+  source_ref: 《周易·既济卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846150'
+- snippet_id: ns_zhouyi_573
+  trigger: 卦=既济 AND 六二=妇丧其茀
+  factor_trigger: zhouyi_gua_jiji
+  role: 条件分支
+  snippet_text: 妇丧其茀，勿逐：妇人失车帷，勿追逐。
+  source_ref: 《周易·既济卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846167'
+- snippet_id: ns_zhouyi_574
+  trigger: 卦=既济 AND 九三=高宗伐鬼方
+  factor_trigger: zhouyi_gua_jiji
+  role: 主干依赖
+  snippet_text: 高宗伐鬼方，三年克之：征伐远方，三年乃克。
+  source_ref: 《周易·既济卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846175'
+- snippet_id: ns_zhouyi_575
+  trigger: 卦=既济 AND 六四=繻有衣袽
+  factor_trigger: zhouyi_gua_jiji
+  role: 例外处理
+  snippet_text: 繻有衣袽，终日戒：有破衣备用，终日警戒。
+  source_ref: 《周易·既济卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846183'
+- snippet_id: ns_zhouyi_576
+  trigger: 卦=既济 AND 九五=东邻杀牛
+  factor_trigger: zhouyi_gua_jiji
+  role: 主干依赖
+  snippet_text: 东邻杀牛，不如西邻之禴祭：厚祭不如薄祭之诚。
+  source_ref: 《周易·既济卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846602'
+- snippet_id: ns_zhouyi_577
+  trigger: 卦=既济 AND 上六=濡其首
+  factor_trigger: zhouyi_gua_jiji
+  role: 总结
+  snippet_text: 濡其首，厉：沾湿其首，危厉之象。
+  source_ref: 《周易·既济卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846644'
+- snippet_id: ns_zhouyi_578
+  trigger: 卦=未济 AND 卦辞=亨小狐汔济
+  factor_trigger: zhouyi_gua_weiji AND zhouyi_guaci
+  role: 主干
+  snippet_text: 未济，亨；小狐汔济，濡其尾：小狐将渡，尾已湿矣。
+  source_ref: 《周易·未济卦·卦辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846674'
+- snippet_id: ns_zhouyi_579
+  trigger: 卦=未济 AND 彖传
+  factor_trigger: zhouyi_gua_weiji AND zhouyi_tuan
+  role: 主干依赖
+  snippet_text: 亨。柔得中也。
+  source_ref: 《周易·未济卦·彖传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846687'
+- snippet_id: ns_zhouyi_580
+  trigger: 卦=未济 AND 象传=火在水上
+  factor_trigger: zhouyi_gua_weiji AND zhouyi_xiang
+  role: 主干依赖
+  snippet_text: 火在水上，未济；君子以慎辨物居方：火水未济，慎辨物类。
+  source_ref: 《周易·未济卦·象传》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846707'
+- snippet_id: ns_zhouyi_581
+  trigger: 卦=未济 AND 初六=濡其尾
+  factor_trigger: zhouyi_gua_weiji
+  role: 条件分支
+  snippet_text: 濡其尾，吝：尾已湿，有所吝惜。
+  source_ref: 《周易·未济卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846720'
+- snippet_id: ns_zhouyi_582
+  trigger: 卦=未济 AND 九二=曳其轮
+  factor_trigger: zhouyi_gua_weiji
+  role: 条件分支
+  snippet_text: 曳其轮，贞吉：拖曳车轮，守正则吉。
+  source_ref: 《周易·未济卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846731'
+- snippet_id: ns_zhouyi_583
+  trigger: 卦=未济 AND 六三=未济征凶
+  factor_trigger: zhouyi_gua_weiji
+  role: 例外处理
+  snippet_text: 未济，征凶，利涉大川：未济而征，凶；利涉险川。
+  source_ref: 《周易·未济卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846742'
+- snippet_id: ns_zhouyi_584
+  trigger: 卦=未济 AND 九四=贞吉悔亡
+  factor_trigger: zhouyi_gua_weiji
+  role: 条件分支
+  snippet_text: 贞吉，悔亡：守正则吉，悔恨消解。
+  source_ref: 《周易·未济卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846764'
+- snippet_id: ns_zhouyi_585
+  trigger: 卦=未济 AND 六五=贞吉无悔
+  factor_trigger: zhouyi_gua_weiji
+  role: 主干依赖
+  snippet_text: 贞吉，无悔：君子之光，有孚吉。
+  source_ref: 《周易·未济卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846780'
+- snippet_id: ns_zhouyi_586
+  trigger: 卦=未济 AND 上九=有孚于饮酒
+  factor_trigger: zhouyi_gua_weiji
+  role: 总结
+  snippet_text: 有孚于饮酒，无咎：诚信饮酒，无所咎责。
+  source_ref: 《周易·未济卦·爻辞》
+  source_book: 周易
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.846802'

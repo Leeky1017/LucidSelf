@@ -1,0 +1,6 @@
+$ .venv/bin/python scripts/corpus_governance/generate_manifest.py --input data/governance/corpus_manifest.v1.yaml --output artifacts/corpus_governance/corpus_manifest.compiled.json
+artifacts/corpus_governance/corpus_manifest.compiled.json
+$ .venv/bin/python scripts/corpus_governance/validate_manifest.py artifacts/corpus_governance/corpus_manifest.compiled.json --strict
+OK
+$ .venv/bin/python scripts/text_normalization_alignment/run_pipeline.py --output-dir artifacts/text_normalization_alignment
+artifacts/text_normalization_alignment

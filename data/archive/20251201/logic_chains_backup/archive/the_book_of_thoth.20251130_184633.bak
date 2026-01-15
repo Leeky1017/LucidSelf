@@ -1,0 +1,179 @@
+chain_id: chain_tbot
+book_id: the_book_of_thoth
+nodes:
+- node_id: n_tbot_english_paraphrase_0
+  snippet_ids:
+  - ns_thoth_001
+  - ns_thoth_002
+  - ns_thoth_003
+  - ns_thoth_004
+  - ns_thoth_005
+  - ns_thoth_006
+  - ns_thoth_007
+  - ns_thoth_008
+  - ns_thoth_009
+  - ns_thoth_010
+  - ns_thoth_011
+  - ns_thoth_012
+  - ns_thoth_013
+  - ns_thoth_014
+  - ns_thoth_015
+  - ns_thoth_016
+  - ns_thoth_018
+  - ns_thoth_019
+  - ns_thoth_020
+  - ns_thoth_021
+  - ns_thoth_022
+  - ns_thoth_023
+  - ns_thoth_024
+  - ns_thoth_025
+  - ns_thoth_026
+  - ns_thoth_027
+  - ns_thoth_028
+  - ns_thoth_029
+  - ns_thoth_030
+  - ns_thoth_031
+  - ns_thoth_032
+  - ns_thoth_033
+  - ns_thoth_034
+  - ns_thoth_035
+  - ns_thoth_036
+  - ns_thoth_037
+  - ns_thoth_038
+  - ns_thoth_039
+  - ns_thoth_040
+  - ns_thoth_041
+  - ns_thoth_042
+  - ns_thoth_043
+  - ns_thoth_044
+  - ns_thoth_045
+  - ns_thoth_046
+  - ns_thoth_047
+  - ns_thoth_048
+  - ns_thoth_049
+  - ns_thoth_050
+  - ns_thoth_051
+  - ns_thoth_052
+  - ns_thoth_054
+  - ns_thoth_055
+  - ns_thoth_056
+  - ns_thoth_057
+  - ns_thoth_058
+  - ns_thoth_059
+  - ns_thoth_060
+  - ns_thoth_061
+  - ns_thoth_062
+  - ns_thoth_063
+  - ns_thoth_064
+  - ns_thoth_065
+  - ns_thoth_066
+  - ns_thoth_067
+  - ns_thoth_068
+  - ns_thoth_069
+  - ns_thoth_070
+  - ns_thoth_071
+  - ns_thoth_072
+  - ns_thoth_073
+  - ns_thoth_074
+  - ns_thoth_075
+  - ns_thoth_076
+  - ns_thoth_077
+  - ns_thoth_078
+  - ns_thoth_079
+  - ns_thoth_080
+  - ns_thoth_081
+  - ns_thoth_082
+  - ns_thoth_083
+  - ns_thoth_084
+  - ns_thoth_085
+  - ns_thoth_086
+  - ns_thoth_087
+  - ns_thoth_088
+  - ns_thoth_089
+  - ns_thoth_090
+  - ns_thoth_theory_001
+  - ns_thoth_theory_002
+  - ns_thoth_theory_003
+  - ns_thoth_theory_004
+  - ns_thoth_theory_005
+  - ns_thoth_theory_006
+  - ns_thoth_theory_007
+  - ns_thoth_theory_008
+  - ns_thoth_theory_009
+  - ns_thoth_theory_010
+  - ns_thoth_theory_012
+  - ns_thoth_app_005
+  - ns_thoth_app_007
+  role: 主干
+  condition: null
+  summary: thoth_system
+  metadata:
+    source_ref: English Paraphrase
+    snippet_count: 101
+- node_id: n_tbot_snake_eagle_represent_progress_1
+  snippet_ids:
+  - ns_thoth_017
+  role: 主干依赖
+  condition: null
+  summary: scorpio_forms
+  metadata:
+    source_ref: snake→eagle) represent progressive transformation stages. → Source Text
+    snippet_count: 1
+- node_id: n_tbot_osiris_horus_english_paraphras_2
+  snippet_ids:
+  - ns_thoth_053
+  role: 主干依赖
+  condition: null
+  summary: aeon_rhythm
+  metadata:
+    source_ref: Osiris→Horus). → English Paraphrase
+    snippet_count: 1
+- node_id: n_tbot_end_pagan_system_is_circular_e_3
+  snippet_ids:
+  - ns_thoth_theory_011
+  role: 主干
+  condition: null
+  summary: hebrew_pagan
+  metadata:
+    source_ref: End); Pagan system is circular (eternal wheel around Zero). → English Paraphrase
+    snippet_count: 1
+- node_id: n_tbot_source_text_4
+  snippet_ids:
+  - ns_thoth_app_001
+  - ns_thoth_app_002
+  - ns_thoth_app_003
+  - ns_thoth_app_004
+  - ns_thoth_app_006
+  - ns_thoth_app_008
+  role: 主干
+  condition: null
+  summary: card_behaviour
+  metadata:
+    source_ref: Source Text
+    snippet_count: 6
+edges: []
+narrative_order:
+- n_tbot_end_pagan_system_is_circular_e_3
+- n_tbot_english_paraphrase_0
+- n_tbot_source_text_4
+- n_tbot_osiris_horus_english_paraphras_2
+- n_tbot_snake_eagle_represent_progress_1
+entry_nodes:
+- n_tbot_english_paraphrase_0
+- n_tbot_end_pagan_system_is_circular_e_3
+- n_tbot_source_text_4
+terminal_nodes:
+- n_tbot_end_pagan_system_is_circular_e_3
+- n_tbot_english_paraphrase_0
+- n_tbot_osiris_horus_english_paraphras_2
+- n_tbot_snake_eagle_represent_progress_1
+- n_tbot_source_text_4
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-11-30T18:42:51.496820'
+  source_files:
+  - data/schema_staging/snippets/the_book_of_thoth_snippets.yaml
+  - data/schema_staging/relations/the_book_of_thoth_relations.yaml
+  snippet_count: 110
+  relation_count: 109
+version: 1.0.0

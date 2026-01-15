@@ -1,0 +1,72 @@
+{
+  "contract_id": "playbook-and-action-loop",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["user_id", "version_id"],
+  "entities": [
+    {
+      "name": "PlaybookDefinition",
+      "description": "playbook 定义（最小字段集合）",
+      "fields": [
+        { "name": "playbook_id", "type": "string", "required": true, "notes": "playbook 标识（唯一）" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识（用于可复现与可审计）" },
+        { "name": "name", "type": "string", "required": true, "notes": "名称（可审计）" },
+        { "name": "description", "type": "string", "required": false, "notes": "描述摘要（禁止敏感原文）" },
+        { "name": "steps", "type": "array<object>", "required": true, "notes": "步骤集合（最小化；禁止实现细节）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ExecutionRecord",
+      "description": "执行记录（最小字段集合）",
+      "fields": [
+        { "name": "execution_id", "type": "string", "required": true, "notes": "执行标识（唯一）" },
+        { "name": "playbook_id", "type": "string", "required": true, "notes": "关联 playbook" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "执行版本标识" },
+        { "name": "status", "type": "string", "required": true, "notes": "pending/running/succeeded/failed/rolled_back（枚举在规格层固定）" },
+        { "name": "started_at", "type": "string", "required": true, "notes": "开始时间（ISO-8601）" },
+        { "name": "finished_at", "type": "string", "required": false, "notes": "结束时间（ISO-8601；若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ApprovalRecord",
+      "description": "审批记录（最小字段集合）",
+      "fields": [
+        { "name": "approval_id", "type": "string", "required": true, "notes": "审批标识（唯一）" },
+        { "name": "execution_id", "type": "string", "required": true, "notes": "关联执行标识" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "请求用户标识（隔离边界）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "审批口径版本标识" },
+        { "name": "actor_type", "type": "string", "required": false, "notes": "system/user/service（若适用）" },
+        { "name": "actor_id", "type": "string", "required": false, "notes": "审批者标识（必须脱敏/最小化）" },
+        { "name": "decision", "type": "string", "required": true, "notes": "APPROVE/DENY（枚举在规格层固定）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "RollbackRecord",
+      "description": "回滚记录（最小字段集合）",
+      "fields": [
+        { "name": "rollback_id", "type": "string", "required": true, "notes": "回滚标识（唯一）" },
+        { "name": "execution_id", "type": "string", "required": true, "notes": "关联执行标识" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "请求用户标识（隔离边界）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "回滚口径版本标识" },
+        { "name": "reason", "type": "string", "required": false, "notes": "回滚原因摘要（禁止敏感原文）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_USER_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "PLAYBOOK_NOT_FOUND", "category": "not_found", "retryable": false },
+    { "code": "APPROVAL_REQUIRED", "category": "gate", "retryable": false },
+    { "code": "APPROVAL_DENIED", "category": "gate", "retryable": false },
+    { "code": "ROLLBACK_FAILED", "category": "gate", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}

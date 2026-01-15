@@ -1,0 +1,60 @@
+# Gate-0 workflow: security/privacy/compliance + observability SLOs
+
+name: Gate-0 Security + Observability
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'backend/**'
+      - 'openspec/**'
+      - 'requirements.txt'
+      - 'scripts/gates/gate0_security_observability.sh'
+      - '.github/workflows/gate0-security-observability.yml'
+  pull_request:
+    branches: [main, develop]
+    paths:
+      - 'backend/**'
+      - 'openspec/**'
+      - 'requirements.txt'
+      - 'scripts/gates/gate0_security_observability.sh'
+      - '.github/workflows/gate0-security-observability.yml'
+  workflow_dispatch: {}
+
+env:
+  PYTHON_VERSION: '3.12'
+
+jobs:
+  gate0:
+    name: Gate-0 (Security + Observability)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install OpenSpec CLI
+        run: |
+          npm install -g @fission-ai/openspec@0.17.2
+          openspec --version
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Gate-0 acceptance
+        run: |
+          bash scripts/gates/gate0_security_observability.sh
+

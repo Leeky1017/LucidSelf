@@ -1,0 +1,75 @@
+{
+  "contract_id": "cross-book-consistency-conflicts",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["corpus_release_id", "version_id"],
+  "entities": [
+    {
+      "name": "ConflictRecord",
+      "description": "冲突记录（最小字段集合）",
+      "fields": [
+        { "name": "conflict_id", "type": "string", "required": true, "notes": "冲突标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识（用于可复现与可审计）" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识" },
+        { "name": "conflict_type", "type": "string", "required": true, "notes": "冲突类型（枚举在规格层固定）" },
+        { "name": "subject_key", "type": "string", "required": true, "notes": "冲突主题键（规范化后；禁止敏感原文）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "SourceCitation",
+      "description": "来源引用（最小字段集合）",
+      "fields": [
+        { "name": "citation_id", "type": "string", "required": true, "notes": "引用标识（唯一）" },
+        { "name": "conflict_id", "type": "string", "required": true, "notes": "关联冲突" },
+        { "name": "asset_id", "type": "string", "required": true, "notes": "来源资产标识（可解析）" },
+        { "name": "anchor_id", "type": "string", "required": false, "notes": "来源锚点标识（若适用）" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ConflictDecision",
+      "description": "冲突决策（最小字段集合）",
+      "fields": [
+        { "name": "decision_id", "type": "string", "required": true, "notes": "决策标识（唯一）" },
+        { "name": "conflict_id", "type": "string", "required": true, "notes": "关联冲突" },
+        { "name": "decision", "type": "string", "required": true, "notes": "RESOLVED/UNRESOLVED/EXCEPTION 等（枚举在规格层固定）" },
+        { "name": "rationale", "type": "string", "required": false, "notes": "决策理由摘要（禁止敏感原文）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ExceptionApproval",
+      "description": "例外批准记录（最小字段集合）",
+      "fields": [
+        { "name": "approval_id", "type": "string", "required": true, "notes": "批准标识（唯一）" },
+        { "name": "conflict_id", "type": "string", "required": true, "notes": "关联冲突" },
+        { "name": "approved_by", "type": "string", "required": false, "notes": "批准人标识（脱敏/最小化）" },
+        { "name": "expires_at", "type": "string", "required": false, "notes": "到期时间（ISO-8601，若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ConflictReport",
+      "description": "冲突报表（最小字段集合）",
+      "fields": [
+        { "name": "report_id", "type": "string", "required": true, "notes": "报表标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识" },
+        { "name": "total_conflicts", "type": "number", "required": true, "notes": "冲突总数" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_CORPUS_RELEASE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "CONFLICT_NOT_FOUND", "category": "not_found", "retryable": false },
+    { "code": "INVALID_CONFLICT_RECORD", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

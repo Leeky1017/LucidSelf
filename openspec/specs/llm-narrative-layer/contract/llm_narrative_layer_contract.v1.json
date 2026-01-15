@@ -1,0 +1,80 @@
+{
+  "contract_id": "llm-narrative-layer",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["user_id", "engine_id", "version_id", "prompt_id", "model_version_id"],
+  "entities": [
+    {
+      "name": "NarrativeOutput",
+      "description": "叙述输出（最小字段集合）",
+      "fields": [
+        { "name": "output_id", "type": "string", "required": true, "notes": "输出标识（唯一）" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "叙述层版本标识（用于可复现与可审计）" },
+        { "name": "prompt_id", "type": "string", "required": true, "notes": "提示标识（可审计）" },
+        { "name": "model_version_id", "type": "string", "required": true, "notes": "模型版本标识（可审计）" },
+        { "name": "output_schema_version", "type": "string", "required": true, "notes": "输出 schema 版本（口径固定）" },
+        { "name": "sections", "type": "array<object>", "required": true, "notes": "结构化叙述段落（最小化；内容必须遵循安全策略）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "PromptVersionRecord",
+      "description": "提示版本记录（最小字段集合）",
+      "fields": [
+        { "name": "prompt_id", "type": "string", "required": true, "notes": "提示标识" },
+        { "name": "prompt_version", "type": "string", "required": true, "notes": "提示版本（口径固定）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "记录版本标识" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ModelVersionRecord",
+      "description": "模型版本记录（最小字段集合）",
+      "fields": [
+        { "name": "model_version_id", "type": "string", "required": true, "notes": "模型版本标识（唯一）" },
+        { "name": "provider", "type": "string", "required": true, "notes": "提供方标识（口径固定）" },
+        { "name": "model_name", "type": "string", "required": true, "notes": "模型名称（口径固定）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "CitationBinding",
+      "description": "引用绑定（最小字段集合）",
+      "fields": [
+        { "name": "binding_id", "type": "string", "required": true, "notes": "绑定标识（唯一）" },
+        { "name": "output_id", "type": "string", "required": true, "notes": "关联叙述输出" },
+        { "name": "chain_id", "type": "string", "required": true, "notes": "关联证据链（对齐 citations-evidence-protocol 的 EvidenceChain.chain_id）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ContentSafetyAudit",
+      "description": "内容安全审计（最小字段集合）",
+      "fields": [
+        { "name": "safety_audit_id", "type": "string", "required": true, "notes": "安全审计标识（唯一）" },
+        { "name": "output_id", "type": "string", "required": true, "notes": "关联叙述输出" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "安全策略版本标识" },
+        { "name": "result", "type": "string", "required": true, "notes": "ALLOW/BLOCK（枚举在规格层固定）" },
+        { "name": "policy_id", "type": "string", "required": false, "notes": "策略标识（若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_USER_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_ENGINE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_PROMPT_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_MODEL_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "OUTPUT_SCHEMA_INVALID", "category": "validation", "retryable": false },
+    { "code": "CITATION_NOT_RESOLVABLE", "category": "validation", "retryable": false },
+    { "code": "CONTENT_SAFETY_VIOLATION", "category": "gate", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}

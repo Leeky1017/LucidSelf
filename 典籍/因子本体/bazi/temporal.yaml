@@ -1,0 +1,162 @@
+# 八字体系 - 时间类因子
+# Temporal factors for BaZi system
+
+factors:
+  # 流年流月
+  - id: current_year
+    status: existing
+    display_zh: 流年
+    display_en: Current Year
+    description_zh: 当前年份的干支
+    description_en: Current year stem-branch
+    category: temporal
+    value_type: string
+    applicable_systems: [bazi]
+
+  - id: current_month
+    status: existing
+    display_zh: 流月
+    display_en: Current Month
+    description_zh: 当前月份的干支
+    description_en: Current month stem-branch
+    category: temporal
+    value_type: string
+    applicable_systems: [bazi]
+
+  - id: current_day
+    status: existing
+    display_zh: 流日
+    display_en: Current Day
+    description_zh: 当前日期的干支
+    description_en: Current day stem-branch
+    category: temporal
+    value_type: string
+    applicable_systems: [bazi]
+
+  # 大运
+  - id: dayun_stem
+    status: existing
+    display_zh: 大运天干
+    display_en: Major Luck Stem
+    description_zh: 当前大运的天干
+    description_en: Current major luck period stem
+    category: temporal
+    value_type: enum
+    value_range: [甲, 乙, 丙, 丁, 戊, 己, 庚, 辛, 壬, 癸]
+    applicable_systems: [bazi]
+
+  - id: dayun_branch
+    status: existing
+    display_zh: 大运地支
+    display_en: Major Luck Branch
+    description_zh: 当前大运的地支
+    description_en: Current major luck period branch
+    category: temporal
+    value_type: enum
+    value_range: [子, 丑, 寅, 卯, 辰, 巳, 午, 未, 申, 酉, 戌, 亥]
+    applicable_systems: [bazi]
+
+  - id: current_age
+    status: existing
+    display_zh: 当前年龄
+    display_en: Current Age
+    description_zh: 命主当前年龄
+    description_en: Current age of the native
+    category: temporal
+    value_type: numeric
+    applicable_systems: [bazi]
+
+  # 节气
+  - id: solar_term
+    status: existing
+    display_zh: 节气
+    display_en: Solar Term
+    description_zh: 当前所处的二十四节气
+    description_en: Current solar term among 24 terms
+    category: temporal
+    value_type: enum
+    value_range: [立春, 雨水, 惊蛰, 春分, 清明, 谷雨, 立夏, 小满, 芒种, 夏至, 小暑, 大暑, 立秋, 处暑, 白露, 秋分, 寒露, 霜降, 立冬, 小雪, 大雪, 冬至, 小寒, 大寒]
+    applicable_systems: [bazi]
+
+  # 季节
+  - id: birth_season
+    status: existing
+    display_zh: 出生季节
+    display_en: Birth Season
+    description_zh: 命主出生时的季节
+    description_en: Season when native was born
+    category: temporal
+    value_type: enum
+    value_range: [spring, summer, autumn, winter]
+    applicable_systems: [bazi]
+
+  - id: season_spring
+    status: existing
+    display_zh: 春季
+    display_en: Spring Season
+    description_zh: 正月、二月、三月 (寅卯辰)
+    description_en: First, second, third lunar months (Yin, Mao, Chen)
+    category: temporal
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: season_summer
+    status: existing
+    display_zh: 夏季
+    display_en: Summer Season
+    description_zh: 四月、五月、六月 (巳午未)
+    description_en: Fourth, fifth, sixth lunar months (Si, Wu, Wei)
+    category: temporal
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: season_autumn
+    status: existing
+    display_zh: 秋季
+    display_en: Autumn Season
+    description_zh: 七月、八月、九月 (申酉戌)
+    description_en: Seventh, eighth, ninth lunar months (Shen, You, Xu)
+    category: temporal
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: season_winter
+    status: existing
+    display_zh: 冬季
+    display_en: Winter Season
+    description_zh: 十月、十一月、十二月 (亥子丑)
+    description_en: Tenth, eleventh, twelfth lunar months (Hai, Zi, Chou)
+    category: temporal
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  # 特殊时点
+  - id: bazi_suiyun_binlin
+    status: existing
+    display_zh: 岁运并临
+    display_en: Year-Luck Coincidence
+    description_zh: 流年干支与大运干支相同
+    description_en: Annual pillar same as major luck pillar
+    category: temporal
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_fanyin_year
+    status: existing
+    display_zh: 反吟年
+    display_en: Counter Year
+    description_zh: 流年地支与日支相冲
+    description_en: Annual branch clashes with day branch
+    category: temporal
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_fuyin_year
+    status: existing
+    display_zh: 伏吟年
+    display_en: Repeat Year
+    description_zh: 流年干支与日柱相同
+    description_en: Annual pillar same as day pillar
+    category: temporal
+    value_type: boolean
+    applicable_systems: [bazi]

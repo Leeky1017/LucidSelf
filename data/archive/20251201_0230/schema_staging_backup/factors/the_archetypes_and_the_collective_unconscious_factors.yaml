@@ -1,0 +1,1147 @@
+book_id: the_archetypes_and_the_collective_unconscious
+source_file: 典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_VI_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_IX_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_XI_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_IV_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_VIII_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_VII_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_V_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_X_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+extracted_at: '2025-12-01T02:28:32.652502'
+factors:
+- factor_type: Concept
+  factor_label: Great Mother
+  factor_id: great_mother
+  factor_source: new_candidate
+  role_position: Religious
+  value_constraint: Derivative
+  engine_id: psych_semantic
+  notes: Comparative religion
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542005'
+- factor_type: Concept
+  factor_label: Mother Archetype
+  factor_id: mother_archetype
+  factor_source: existing
+  role_position: Psychological
+  value_constraint: Foundational
+  engine_id: psych_semantic
+  notes: Jung's focus
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542014'
+- factor_type: Methodology
+  factor_label: Empiricist stance
+  factor_id: empiricist_stance
+  factor_source: new_candidate
+  role_position: Position
+  value_constraint: Not metaphysical
+  engine_id: psych_semantic
+  notes: Jung's method
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542020'
+- factor_type: Analogy
+  factor_label: Crystal axis
+  factor_id: crystal_analogy
+  factor_source: new_candidate
+  role_position: Illustration
+  value_constraint: Preforming
+  engine_id: psych_semantic
+  notes: Key teaching
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542035'
+- factor_type: Quality
+  factor_label: Facultas praeformandi
+  factor_id: facultas_praeformandi
+  factor_source: new_candidate
+  role_position: Nature
+  value_constraint: Empty form
+  engine_id: psych_semantic
+  notes: Technical term
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542039'
+- factor_type: Distinction
+  factor_label: Form vs Content
+  factor_id: form_content_distinction
+  factor_source: new_candidate
+  role_position: Category
+  value_constraint: Inherited vs Acquired
+  engine_id: psych_semantic
+  notes: Fundamental
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542044'
+- factor_type: Symbol Category
+  factor_label: Mother positive
+  factor_id: mother_positive
+  factor_source: new_candidate
+  role_position: Light Pole
+  value_constraint: Nurturing
+  engine_id: psych_semantic
+  notes: Cherishing
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542057'
+- factor_type: Symbol Category
+  factor_label: Mother negative
+  factor_id: mother_negative
+  factor_source: new_candidate
+  role_position: Dark Pole
+  value_constraint: Devouring
+  engine_id: psych_semantic
+  notes: Terrible
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542062'
+- factor_type: Symbol
+  factor_label: Mandala as mother
+  factor_id: mandala_mother
+  factor_source: new_candidate
+  role_position: Protection
+  value_constraint: Container
+  engine_id: psych_semantic
+  notes: Circle
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542066'
+- factor_type: Quality
+  factor_label: Loving mother
+  factor_id: loving_mother
+  factor_source: new_candidate
+  role_position: Positive Pole
+  value_constraint: Cherishing
+  engine_id: psych_semantic
+  notes: Light
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542079'
+- factor_type: Quality
+  factor_label: Terrible mother
+  factor_id: terrible_mother
+  factor_source: new_candidate
+  role_position: Negative Pole
+  value_constraint: Devouring
+  engine_id: psych_semantic
+  notes: Dark
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542084'
+- factor_type: Example
+  factor_label: Kali
+  factor_id: kali
+  factor_source: new_candidate
+  role_position: Paradigm
+  value_constraint: Paradoxical
+  engine_id: psych_semantic
+  notes: Indian
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542088'
+- factor_type: Pattern
+  factor_label: Son's mother-complex
+  factor_id: son_mother_complex
+  factor_source: new_candidate
+  role_position: Male
+  value_constraint: Anima-mixed
+  engine_id: psych_semantic
+  notes: Clinical
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542099'
+- factor_type: Effect
+  factor_label: Differentiated Eros
+  factor_id: differentiated_eros
+  factor_source: new_candidate
+  role_position: Positive
+  value_constraint: Friendship capacity
+  engine_id: psych_semantic
+  notes: Gift
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542104'
+- factor_type: Effect
+  factor_label: Don Juanism
+  factor_id: don_juanism
+  factor_source: new_candidate
+  role_position: Negative/Positive
+  value_constraint: Seeking mother
+  engine_id: psych_semantic
+  notes: Ambivalent
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542117'
+- factor_type: Type
+  factor_label: Maternal hypertrophy
+  factor_id: daughter_type_a
+  factor_source: new_candidate
+  role_position: Pattern
+  value_constraint: Over-maternal
+  engine_id: psych_semantic
+  notes: Demeter
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542132'
+- factor_type: Type
+  factor_label: Overdeveloped Eros
+  factor_id: daughter_type_b
+  factor_source: new_candidate
+  role_position: Pattern
+  value_constraint: Father-bound
+  engine_id: psych_semantic
+  notes: Electra
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542137'
+- factor_type: Type
+  factor_label: Mother identity
+  factor_id: daughter_type_c
+  factor_source: new_candidate
+  role_position: Pattern
+  value_constraint: Shadow-existence
+  engine_id: psych_semantic
+  notes: Persephone
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542141'
+- factor_type: Type
+  factor_label: Mother resistance
+  factor_id: daughter_type_d
+  factor_source: new_candidate
+  role_position: Pattern
+  value_constraint: Counter-identification
+  engine_id: psych_semantic
+  notes: Negative
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542145'
+- factor_type: Image
+  factor_label: Mater natura/spiritualis
+  factor_id: mater_natura
+  factor_source: new_candidate
+  role_position: Transpersonal
+  value_constraint: Beyond personal
+  engine_id: psych_semantic
+  notes: Archetypal mother
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542191'
+- factor_type: Principle
+  factor_label: Psychic hygiene
+  factor_id: psychic_hygiene
+  factor_source: new_candidate
+  role_position: Necessity
+  value_constraint: Practical importance
+  engine_id: psych_semantic
+  notes: Why archetypes matter
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542229'
+- factor_type: State
+  factor_label: Archetype consciousness
+  factor_id: archetype_consciousness
+  factor_source: new_candidate
+  role_position: Goal
+  value_constraint: Stay connected to roots
+  engine_id: psych_semantic
+  notes: Health
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542240'
+- factor_type: Principle
+  factor_label: Logos
+  factor_id: logos
+  factor_source: existing
+  role_position: Paternal
+  value_constraint: Discriminates
+  engine_id: psych_semantic
+  notes: Opposite of Eros
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542261'
+- factor_type: Act
+  factor_label: Matricide
+  factor_id: matricide_liberation
+  factor_source: new_candidate
+  role_position: Liberation
+  value_constraint: From unconsciousness
+  engine_id: psych_semantic
+  notes: First creative act
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542267'
+- factor_type: Source
+  factor_label: Emotion as fire
+  factor_id: emotion_fire
+  factor_source: new_candidate
+  role_position: Transformation
+  value_constraint: Creates consciousness
+  engine_id: psych_semantic
+  notes: Alchemical
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542272'
+- factor_type: Structure
+  factor_label: Collective Unconscious
+  factor_id: collective_unconscious
+  factor_source: existing
+  role_position: Universal Substrate
+  value_constraint: Inherited, inborn
+  engine_id: psych_semantic
+  notes: Jung's core concept
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547283'
+- factor_type: Structure
+  factor_label: Personal Unconscious
+  factor_id: personal_unconscious
+  factor_source: existing
+  role_position: Individual Layer
+  value_constraint: Acquired, biographical
+  engine_id: psych_semantic
+  notes: Freud's domain
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547293'
+- factor_type: Relational
+  factor_label: Personal-Collective layering
+  factor_id: psych_layer_relation
+  factor_source: new_candidate
+  role_position: Hierarchy
+  value_constraint: Personal rests on Collective
+  engine_id: psych_semantic
+  notes: Two-layer model
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547298'
+- factor_type: Structure
+  factor_label: Archetype
+  factor_id: archetype
+  factor_source: existing
+  role_position: CU Content
+  value_constraint: Universal pattern
+  engine_id: psych_semantic
+  notes: Core concept
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547320'
+- factor_type: Structure
+  factor_label: Feeling-toned Complex
+  factor_id: complex
+  factor_source: existing
+  role_position: PU Content
+  value_constraint: Personal pattern
+  engine_id: psych_semantic
+  notes: Freudian origin
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547325'
+- factor_type: Relational
+  factor_label: Complex-Archetype distinction
+  factor_id: content_distinction
+  factor_source: new_candidate
+  role_position: Category
+  value_constraint: Personal vs Universal
+  engine_id: psych_semantic
+  notes: Key differentiation
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547330'
+- factor_type: Process
+  factor_label: Conscious Elaboration
+  factor_id: conscious_elaboration
+  factor_source: new_candidate
+  role_position: Transformation
+  value_constraint: Raw→Elaborated
+  engine_id: psych_semantic
+  notes: Cultural processing
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547346'
+- factor_type: Structure
+  factor_label: Archetypal Image
+  factor_id: archetypal_image
+  factor_source: existing
+  role_position: Manifestation
+  value_constraint: Culturally shaped
+  engine_id: psych_semantic
+  notes: Visible form
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547351'
+- factor_type: Distinction
+  factor_label: Archetype vs Image
+  factor_id: archetype_image_distinction
+  factor_source: new_candidate
+  role_position: Category
+  value_constraint: Unconscious vs Conscious
+  engine_id: psych_semantic
+  notes: Key methodology
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547355'
+- factor_type: Process
+  factor_label: Psychic projection
+  factor_id: projection
+  factor_source: existing
+  role_position: Mechanism
+  value_constraint: Inner to outer
+  engine_id: psych_semantic
+  notes: Core Jungian concept
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547369'
+- factor_type: Container
+  factor_label: Religious formula
+  factor_id: religious_container
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Archetypal holding
+  engine_id: psych_semantic
+  notes: Protects from raw experience
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547374'
+- factor_type: Content
+  factor_label: Eternal images
+  factor_id: eternal_images
+  factor_source: new_candidate
+  role_position: Object
+  value_constraint: Universal
+  engine_id: psych_semantic
+  notes: Treasure-house contents
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547380'
+- factor_type: Quality
+  factor_label: Sacred-dangerous
+  factor_id: sacred_dangerous
+  factor_source: new_candidate
+  role_position: Nature
+  value_constraint: Tribal lore
+  engine_id: psych_semantic
+  notes: Paradoxical quality
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547384'
+- factor_type: Experience
+  factor_label: Numinous encounter
+  factor_id: numinous
+  factor_source: existing
+  role_position: Raw Content
+  value_constraint: Overwhelming
+  engine_id: psych_semantic
+  notes: Otto's concept
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547399'
+- factor_type: Symbol
+  factor_label: Mandala
+  factor_id: mandala
+  factor_source: existing
+  role_position: Protection
+  value_constraint: Chaos antidote
+  engine_id: psych_semantic
+  notes: Universal symbol
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547403'
+- factor_type: Container
+  factor_label: Dogma
+  factor_id: dogma_container
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Transforms raw to abstract
+  engine_id: psych_semantic
+  notes: Religious function
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547408'
+- factor_type: Process
+  factor_label: Symbol elaboration
+  factor_id: symbol_elaboration
+  factor_source: new_candidate
+  role_position: Mechanism
+  value_constraint: Years of work
+  engine_id: psych_semantic
+  notes: Assimilation
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547412'
+- factor_type: Risk
+  factor_label: Ego dissolution
+  factor_id: ego_dissolution
+  factor_source: new_candidate
+  role_position: Threat
+  value_constraint: Heart "burst into pieces"
+  engine_id: psych_semantic
+  notes: Without container
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547416'
+- factor_type: Process
+  factor_label: Iconoclasm
+  factor_id: iconoclasm
+  factor_source: new_candidate
+  role_position: Destruction
+  value_constraint: Sacred images
+  engine_id: psych_semantic
+  notes: Reformation
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547499'
+- factor_type: State
+  factor_label: Symbol poverty
+  factor_id: symbol_poverty
+  factor_source: new_candidate
+  role_position: Modern condition
+  value_constraint: Alarming
+  engine_id: psych_semantic
+  notes: Crisis
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547504'
+- factor_type: Virtue
+  factor_label: Spiritual poverty
+  factor_id: spiritual_poverty
+  factor_source: new_candidate
+  role_position: Authentic stance
+  value_constraint: Vow
+  engine_id: psych_semantic
+  notes: Starting point
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547508'
+- factor_type: Transformation
+  factor_label: Spirit to water
+  factor_id: spirit_to_water
+  factor_source: new_candidate
+  role_position: Descent
+  value_constraint: Heraclitean
+  engine_id: psych_semantic
+  notes: Fire→Water
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547514'
+- factor_type: Usurpation
+  factor_label: Intellect for spirit
+  factor_id: intellect_usurpation
+  factor_source: new_candidate
+  role_position: Luciferian
+  value_constraint: False replacement
+  engine_id: psych_semantic
+  notes: Error
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547518'
+- factor_type: Symbol
+  factor_label: Dark lake
+  factor_id: dark_lake
+  factor_source: new_candidate
+  role_position: Unconscious
+  value_constraint: Dream image
+  engine_id: psych_semantic
+  notes: Theologian's dream
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547535'
+- factor_type: Process
+  factor_label: Descent to water
+  factor_id: descent_to_water
+  factor_source: new_candidate
+  role_position: Individuation
+  value_constraint: Downward
+  engine_id: psych_semantic
+  notes: Required path
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547540'
+- factor_type: Symbol
+  factor_label: Pearl in well
+  factor_id: pearl_treasure
+  factor_source: new_candidate
+  role_position: Self/Wholeness
+  value_constraint: Guarded
+  engine_id: psych_semantic
+  notes: Gnostic hymn
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547544'
+- factor_type: Agent
+  factor_label: Pneuma
+  factor_id: pneuma
+  factor_source: new_candidate
+  role_position: Spirit
+  value_constraint: Wind
+  engine_id: psych_semantic
+  notes: Breath of God
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547550'
+- factor_type: Guardian
+  factor_label: Dragon
+  factor_id: dragon_guardian
+  factor_source: new_candidate
+  role_position: Threshold
+  value_constraint: In well
+  engine_id: psych_semantic
+  notes: Must be faced
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547555'
+- factor_type: Symbol
+  factor_label: Water
+  factor_id: water_symbol
+  factor_source: new_candidate
+  role_position: Universal Symbol
+  value_constraint: Unconscious
+  engine_id: psych_semantic
+  notes: Dreams
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547565'
+- factor_type: Structure
+  factor_label: Shadow
+  factor_id: shadow
+  factor_source: existing
+  role_position: Gateway
+  value_constraint: Personal unconscious
+  engine_id: psych_semantic
+  notes: First encounter
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547570'
+- factor_type: Quality
+  factor_label: CU Objectivity
+  factor_id: cu_objectivity
+  factor_source: new_candidate
+  role_position: Nature
+  value_constraint: Transpersonal
+  engine_id: psych_semantic
+  notes: Not personal
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547574'
+- factor_type: Danger
+  factor_label: Possession
+  factor_id: possession
+  factor_source: new_candidate
+  role_position: Threat
+  value_constraint: Unconscious takes over
+  engine_id: psych_semantic
+  notes: Age-old danger
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547593'
+- factor_type: Protection
+  factor_label: Rite and dogma
+  factor_id: rite_dogma_protection
+  factor_source: new_candidate
+  role_position: Barrier
+  value_constraint: Dams and walls
+  engine_id: psych_semantic
+  notes: Consolidates consciousness
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547597'
+- factor_type: Event
+  factor_label: Barrier collapse
+  factor_id: barrier_collapse
+  factor_source: new_candidate
+  role_position: Catastrophe
+  value_constraint: Waters rise
+  engine_id: psych_semantic
+  notes: Symbol weakening
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547602'
+- factor_type: Concept
+  factor_label: Gods as factors
+  factor_id: gods_as_factors
+  factor_source: new_candidate
+  role_position: Modern view
+  value_constraint: Makers
+  engine_id: psych_semantic
+  notes: Psychological reframing
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547607'
+- factor_type: Structure
+  factor_label: Anima
+  factor_id: anima
+  factor_source: existing
+  role_position: Contrasexual
+  value_constraint: Feminine in masculine
+  engine_id: psych_semantic
+  notes: Core archetype
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547622'
+- factor_type: Process
+  factor_label: Projection
+  factor_id: projection
+  factor_source: existing
+  role_position: Mechanism
+  value_constraint: Inner→Outer
+  engine_id: psych_semantic
+  notes: Discovery mode
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547626'
+- factor_type: Sequence
+  factor_label: Shadow→Anima
+  factor_id: descent_sequence
+  factor_source: new_candidate
+  role_position: Order
+  value_constraint: After shadow
+  engine_id: psych_semantic
+  notes: Individuation path
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547631'
+- factor_type: Structure
+  factor_label: Anima (dark)
+  factor_id: anima_dark
+  factor_source: new_candidate
+  role_position: Negative Pole
+  value_constraint: Life-draining
+  engine_id: psych_semantic
+  notes: Succubus/witch
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547641'
+- factor_type: Structure
+  factor_label: Anima (light)
+  factor_id: anima_light
+  factor_source: new_candidate
+  role_position: Positive Pole
+  value_constraint: Life-giving
+  engine_id: psych_semantic
+  notes: Psychopomp
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547645'
+- factor_type: Quality
+  factor_label: A priori factor
+  factor_id: apriori_factor
+  factor_source: new_candidate
+  role_position: Nature
+  value_constraint: Cannot be made
+  engine_id: psych_semantic
+  notes: Spontaneous
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547649'
+- factor_type: Sequence
+  factor_label: Individuation stages
+  factor_id: individuation_sequence
+  factor_source: new_candidate
+  role_position: Order
+  value_constraint: Shadow→Anima→...
+  engine_id: psych_semantic
+  notes: Developmental
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547664'
+- factor_type: Process
+  factor_label: Ordeal by fire
+  factor_id: ordeal_fire
+  factor_source: new_candidate
+  role_position: Test
+  value_constraint: Anima challenge
+  engine_id: psych_semantic
+  notes: Spiritual test
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547668'
+- factor_type: Relational
+  factor_label: Anima-Mother fusion
+  factor_id: anima_mother
+  factor_source: new_candidate
+  role_position: Hidden
+  value_constraint: In mother power
+  engine_id: psych_semantic
+  notes: Son's psychology
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547672'
+- factor_type: Structure
+  factor_label: Wise Old Man
+  factor_id: wise_old_man
+  factor_source: existing
+  role_position: Spirit Archetype
+  value_constraint: Meaning-giver
+  engine_id: psych_semantic
+  notes: Core archetype
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547681'
+- factor_type: Quality
+  factor_label: Pre-existent meaning
+  factor_id: preexistent_meaning
+  factor_source: new_candidate
+  role_position: Hidden Order
+  value_constraint: In chaos
+  engine_id: psych_semantic
+  notes: Spirit's gift
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547685'
+- factor_type: Symbol
+  factor_label: Two Magicians
+  factor_id: two_magicians
+  factor_source: new_candidate
+  role_position: Dual Spirit
+  value_constraint: White/Black inverted
+  engine_id: psych_semantic
+  notes: Same archetype
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547696'
+- factor_type: Symbol
+  factor_label: Old King
+  factor_id: old_king
+  factor_source: new_candidate
+  role_position: Outworn Dominant
+  value_constraint: Must die
+  engine_id: psych_semantic
+  notes: Ruling symbol
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547701'
+- factor_type: Symbol
+  factor_label: Black Horse
+  factor_id: black_horse
+  factor_source: new_candidate
+  role_position: Released Passion
+  value_constraint: From anima
+  engine_id: psych_semantic
+  notes: Platonic
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547705'
+- factor_type: Symbol
+  factor_label: Keys of Paradise
+  factor_id: keys_paradise
+  factor_source: new_candidate
+  role_position: Individuation
+  value_constraint: Mandala
+  engine_id: psych_semantic
+  notes: Goal
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547711'
+- factor_type: Concept
+  factor_label: Nirdvandva
+  factor_id: nirdvandva
+  factor_source: new_candidate
+  role_position: Freedom
+  value_constraint: Beyond opposites
+  engine_id: psych_semantic
+  notes: Hindu
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547725'
+- factor_type: Concept
+  factor_label: Lucifer as archetype
+  factor_id: lucifer_archetype
+  factor_source: new_candidate
+  role_position: Light-bringer
+  value_constraint: Spirit
+  engine_id: psych_semantic
+  notes: Alternative name
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547731'
+- factor_type: Principle
+  factor_label: Unconscious compensation
+  factor_id: unc_compensation
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Relative to conscious
+  engine_id: psych_semantic
+  notes: Core principle
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547736'
+- factor_type: Set
+  factor_label: Three personified archetypes
+  factor_id: three_archetypes
+  factor_source: new_candidate
+  role_position: Group
+  value_constraint: Shadow+Anima+WOM
+  engine_id: psych_semantic
+  notes: Directly experienceable
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.547740'
+- factor_type: Methodology
+  factor_label: Empirical approach
+  factor_id: empirical_method
+  factor_source: new_candidate
+  role_position: Foundation
+  value_constraint: Experience-based
+  engine_id: psych_semantic
+  notes: Scientific
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565275'
+- factor_type: Principle
+  factor_label: Anti-reductionism
+  factor_id: anti_reductionism
+  factor_source: new_candidate
+  role_position: Position
+  value_constraint: Against physiology-only
+  engine_id: psych_semantic
+  notes: Core argument
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565284'
+- factor_type: Principle
+  factor_label: Psyche totality
+  factor_id: psyche_totality
+  factor_source: new_candidate
+  role_position: Scope
+  value_constraint: Whole picture
+  engine_id: psych_semantic
+  notes: Holism
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565289'
+- factor_type: Methodology
+  factor_label: Empirical concept
+  factor_id: empirical_concept
+  factor_source: new_candidate
+  role_position: Classification
+  value_constraint: Not theoretical
+  engine_id: psych_semantic
+  notes: Scientific status
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565303'
+- factor_type: Quality
+  factor_label: Psychic autonomy
+  factor_id: psychic_autonomy
+  factor_source: new_candidate
+  role_position: Nature
+  value_constraint: Sui generis
+  engine_id: psych_semantic
+  notes: Irreducible
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565309'
+- factor_type: Evidence
+  factor_label: Universal parallels
+  factor_id: universal_parallels
+  factor_source: new_candidate
+  role_position: Proof
+  value_constraint: Cross-cultural
+  engine_id: psych_semantic
+  notes: Validation
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565314'
+- factor_type: Structure
+  factor_label: Syzygy
+  factor_id: syzygy
+  factor_source: existing
+  role_position: Pairing Archetype
+  value_constraint: Male-Female
+  engine_id: psych_semantic
+  notes: Universal
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565328'
+- factor_type: Parallel
+  factor_label: Yang-Yin
+  factor_id: yang_yin
+  factor_source: existing
+  role_position: Chinese Expression
+  value_constraint: Cosmogonic
+  engine_id: psych_semantic
+  notes: Eastern
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565333'
+- factor_type: Parallel
+  factor_label: P'o/Kuei
+  factor_id: po_kuei
+  factor_source: new_candidate
+  role_position: Chinese Anima
+  value_constraint: Feminine soul
+  engine_id: psych_semantic
+  notes: Chthonic
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565337'
+- factor_type: Concept
+  factor_label: Représentation collective
+  factor_id: rep_collective
+  factor_source: new_candidate
+  role_position: Dominating idea
+  value_constraint: Universal
+  engine_id: psych_semantic
+  notes: Durkheimian
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565350'
+- factor_type: Quality
+  factor_label: Archetype specific energy
+  factor_id: archetype_energy
+  factor_source: new_candidate
+  role_position: Persistence
+  value_constraint: Even if ignored
+  engine_id: psych_semantic
+  notes: Instinctual
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565356'
+- factor_type: Principle
+  factor_label: Religion substitution
+  factor_id: religion_substitution
+  factor_source: new_candidate
+  role_position: Mechanism
+  value_constraint: One replaces another
+  engine_id: psych_semantic
+  notes: No escape
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565361'
+- factor_type: Process
+  factor_label: Withdrawal
+  factor_id: projection_withdrawal
+  factor_source: new_candidate
+  role_position: Resolution
+  value_constraint: Conscious recognition
+  engine_id: psych_semantic
+  notes: Therapeutic
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565378'
+- factor_type: Evidence
+  factor_label: Klaus vision
+  factor_id: klaus_vision
+  factor_source: new_candidate
+  role_position: Case
+  value_constraint: Father-Mother God
+  engine_id: psych_semantic
+  notes: Heretical
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565388'
+- factor_type: Quality
+  factor_label: Fundamental factor
+  factor_id: fundamental_factor
+  factor_source: new_candidate
+  role_position: Importance
+  value_constraint: Psychic core
+  engine_id: psych_semantic
+  notes: Universal
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565392'
+- factor_type: Theory
+  factor_label: Anti-tabula rasa
+  factor_id: anti_tabula_rasa
+  factor_source: new_candidate
+  role_position: Position
+  value_constraint: Inherited aptitudes
+  engine_id: psych_semantic
+  notes: Core argument
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565405'
+- factor_type: Function
+  factor_label: Anthropomorphizing
+  factor_id: anthropomorphize
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: Mythologizing reality
+  engine_id: psych_semantic
+  notes: Archetype action
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565409'
+- factor_type: Process
+  factor_label: Demythologization
+  factor_id: demythologization
+  factor_source: new_candidate
+  role_position: Transition
+  value_constraint: Disappointment
+  engine_id: psych_semantic
+  notes: Child to adult
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565422'
+- factor_type: Complex
+  factor_label: Castration reframed
+  factor_id: castration_reframed
+  factor_source: new_candidate
+  role_position: Fear of reality
+  value_constraint: Not literal
+  engine_id: psych_semantic
+  notes: Jung vs Freud
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565426'
+- factor_type: Ritual
+  factor_label: Dual birth
+  factor_id: dual_birth
+  factor_source: new_candidate
+  role_position: Preservation
+  value_constraint: Godparents
+  engine_id: psych_semantic
+  notes: Tradition
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565435'
+- factor_type: State
+  factor_label: Cultural discontent
+  factor_id: cultural_discontent
+  factor_source: new_candidate
+  role_position: Result
+  value_constraint: Archetype loss
+  engine_id: psych_semantic
+  notes: Unbehagen
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565440'
+- factor_type: Transition
+  factor_label: Midlife
+  factor_id: midlife
+  factor_source: new_candidate
+  role_position: Turning point
+  value_constraint: ~35 years
+  engine_id: psych_semantic
+  notes: Different needs
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565452'
+- factor_type: Effect
+  factor_label: Anima constellated
+  factor_id: anima_constellated
+  factor_source: new_candidate
+  role_position: Emotional takeover
+  value_constraint: Moodiness
+  engine_id: psych_semantic
+  notes: Negative
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565456'
+- factor_type: Goal
+  factor_label: Archetypal reconnection
+  factor_id: archetype_reconnection
+  factor_source: new_candidate
+  role_position: Therapy
+  value_constraint: Post-midlife
+  engine_id: psych_semantic
+  notes: Vitality
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565461'

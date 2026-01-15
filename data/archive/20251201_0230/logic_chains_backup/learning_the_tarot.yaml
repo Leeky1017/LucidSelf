@@ -1,0 +1,5228 @@
+chain_id: chain_learning_the_tarot
+book_id: learning_the_tarot
+nodes:
+- node_id: n_learning_the_tarot_l308_310_1
+  snippet_ids:
+  - ns_ltt_001
+  role: 主干
+  condition: null
+  summary: tarot_origin
+  metadata:
+    cluster_level: L1
+    source_ref: L308-310
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l312_316_2
+  snippet_ids:
+  - ns_ltt_002
+  role: 主干依赖
+  condition: null
+  summary: occult_rediscovery
+  metadata:
+    cluster_level: L1
+    source_ref: L312-316
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l306_307_3
+  snippet_ids:
+  - ns_ltt_003
+  role: 总结
+  condition: null
+  summary: personal_growth
+  metadata:
+    cluster_level: L1
+    source_ref: L306-307
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l346_348_4
+  snippet_ids:
+  - ns_ltt_004
+  role: 主干
+  condition: null
+  summary: unconscious_definition
+  metadata:
+    cluster_level: L1
+    source_ref: L346-348
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l351_353_5
+  snippet_ids:
+  - ns_ltt_005
+  role: 主干依赖
+  condition: null
+  summary: jung_creative
+  metadata:
+    cluster_level: L1
+    source_ref: L351-353
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l434_438_6
+  snippet_ids:
+  - ns_ltt_006
+  role: 主干
+  condition: null
+  summary: inner_guide_def
+  metadata:
+    cluster_level: L1
+    source_ref: L434-438
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l374_375_7
+  snippet_ids:
+  - ns_ltt_007
+  role: 条件分支
+  condition: null
+  summary: projection_mechanism
+  metadata:
+    cluster_level: L1
+    source_ref: L374-375
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l222_223_8
+  snippet_ids:
+  - ns_ltt_008
+  role: 总结
+  condition: null
+  summary: no_psychic_needed
+  metadata:
+    cluster_level: L1
+    source_ref: L222-223
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l474_476_9
+  snippet_ids:
+  - ns_ltt_009
+  role: 主干
+  condition: null
+  summary: arcana_meaning
+  metadata:
+    cluster_level: L1
+    source_ref: L474-476
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l477_478_10
+  snippet_ids:
+  - ns_ltt_010
+  role: 主干
+  condition: null
+  summary: major_arcana_heart
+  metadata:
+    cluster_level: L1
+    source_ref: L477-478
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l495_498_11
+  snippet_ids:
+  - ns_ltt_011
+  role: 主干依赖
+  condition: null
+  summary: fools_journey
+  metadata:
+    cluster_level: L1
+    source_ref: L495-498
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l509_522_12
+  snippet_ids:
+  - ns_ltt_012
+  role: 条件分支
+  condition: null
+  summary: journey_nonlinear
+  metadata:
+    cluster_level: L1
+    source_ref: L509-522
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l488_490_13
+  snippet_ids:
+  - ns_ltt_013
+  role: 总结
+  condition: null
+  summary: major_weight
+  metadata:
+    cluster_level: L1
+    source_ref: L488-490
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l532_534_14
+  snippet_ids:
+  - ns_ltt_014
+  role: 主干
+  condition: null
+  summary: minor_practical
+  metadata:
+    cluster_level: L1
+    source_ref: L532-534
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l538_543_15
+  snippet_ids:
+  - ns_ltt_015
+  role: 主干依赖
+  condition: null
+  summary: wands_fire
+  metadata:
+    cluster_level: L1
+    source_ref: L538-543
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l544_549_16
+  snippet_ids:
+  - ns_ltt_016
+  role: 主干依赖
+  condition: null
+  summary: cups_water
+  metadata:
+    cluster_level: L1
+    source_ref: L544-549
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l550_556_17
+  snippet_ids:
+  - ns_ltt_017
+  role: 条件分支
+  condition: null
+  summary: swords_air
+  metadata:
+    cluster_level: L1
+    source_ref: L550-556
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l557_561_18
+  snippet_ids:
+  - ns_ltt_018
+  role: 主干依赖
+  condition: null
+  summary: pentacles_earth
+  metadata:
+    cluster_level: L1
+    source_ref: L557-561
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3507_3510_19
+  snippet_ids:
+  - ns_ltt_019
+  role: 主干
+  condition: null
+  summary: fool_card
+  metadata:
+    cluster_level: L1
+    source_ref: L3507-3510
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3518_3519_20
+  snippet_ids:
+  - ns_ltt_020
+  role: 主干依赖
+  condition: null
+  summary: fool_beginning
+  metadata:
+    cluster_level: L1
+    source_ref: L3518-3519
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3515_3517_21
+  snippet_ids:
+  - ns_ltt_021
+  role: 主干依赖
+  condition: null
+  summary: fool_faith
+  metadata:
+    cluster_level: L1
+    source_ref: L3515-3517
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3520_3522_22
+  snippet_ids:
+  - ns_ltt_022
+  role: 总结
+  condition: null
+  summary: fool_folly
+  metadata:
+    cluster_level: L1
+    source_ref: L3520-3522
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3573_3575_23
+  snippet_ids:
+  - ns_ltt_023
+  role: 主干
+  condition: null
+  summary: magician_card
+  metadata:
+    cluster_level: L1
+    source_ref: L3573-3575
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3587_3588_24
+  snippet_ids:
+  - ns_ltt_024
+  role: 主干依赖
+  condition: null
+  summary: magician_action
+  metadata:
+    cluster_level: L1
+    source_ref: L3587-3588
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3575_3577_25
+  snippet_ids:
+  - ns_ltt_025
+  role: 条件分支
+  condition: null
+  summary: magician_channel
+  metadata:
+    cluster_level: L1
+    source_ref: L3575-3577
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3583_3585_26
+  snippet_ids:
+  - ns_ltt_026
+  role: 总结
+  condition: null
+  summary: magician_focus
+  metadata:
+    cluster_level: L1
+    source_ref: L3583-3585
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3639_3641_27
+  snippet_ids:
+  - ns_ltt_027
+  role: 主干
+  condition: null
+  summary: high_priestess_card
+  metadata:
+    cluster_level: L1
+    source_ref: L3639-3641
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3643_3644_28
+  snippet_ids:
+  - ns_ltt_028
+  role: 主干依赖
+  condition: null
+  summary: high_priestess_balance
+  metadata:
+    cluster_level: L1
+    source_ref: L3643-3644
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3649_3651_29
+  snippet_ids:
+  - ns_ltt_029
+  role: 总结
+  condition: null
+  summary: high_priestess_deeper
+  metadata:
+    cluster_level: L1
+    source_ref: L3649-3651
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3700_3702_30
+  snippet_ids:
+  - ns_ltt_030
+  role: 主干
+  condition: null
+  summary: empress_card
+  metadata:
+    cluster_level: L1
+    source_ref: L3700-3702
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3698_3700_31
+  snippet_ids:
+  - ns_ltt_031
+  role: 主干依赖
+  condition: null
+  summary: empress_feminine
+  metadata:
+    cluster_level: L1
+    source_ref: L3698-3700
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3712_3715_32
+  snippet_ids:
+  - ns_ltt_032
+  role: 总结
+  condition: null
+  summary: empress_abundance
+  metadata:
+    cluster_level: L1
+    source_ref: L3712-3715
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3774_3775_33
+  snippet_ids:
+  - ns_ltt_033
+  role: 主干
+  condition: null
+  summary: emperor_card
+  metadata:
+    cluster_level: L1
+    source_ref: L3774-3775
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3774_3776_34
+  snippet_ids:
+  - ns_ltt_034
+  role: 主干依赖
+  condition: null
+  summary: emperor_balance
+  metadata:
+    cluster_level: L1
+    source_ref: L3774-3776
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3777_3780_35
+  snippet_ids:
+  - ns_ltt_035
+  role: 条件分支
+  condition: null
+  summary: emperor_context
+  metadata:
+    cluster_level: L1
+    source_ref: L3777-3780
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3838_3840_36
+  snippet_ids:
+  - ns_ltt_036
+  role: 主干
+  condition: null
+  summary: hierophant_card
+  metadata:
+    cluster_level: L1
+    source_ref: L3838-3840
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3840_3842_37
+  snippet_ids:
+  - ns_ltt_037
+  role: 主干依赖
+  condition: null
+  summary: hierophant_belief
+  metadata:
+    cluster_level: L1
+    source_ref: L3840-3842
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3847_3849_38
+  snippet_ids:
+  - ns_ltt_038
+  role: 条件分支
+  condition: null
+  summary: hierophant_tension
+  metadata:
+    cluster_level: L1
+    source_ref: L3847-3849
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3909_3911_39
+  snippet_ids:
+  - ns_ltt_039
+  role: 主干
+  condition: null
+  summary: lovers_card
+  metadata:
+    cluster_level: L1
+    source_ref: L3909-3911
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3916_3917_40
+  snippet_ids:
+  - ns_ltt_040
+  role: 主干依赖
+  condition: null
+  summary: lovers_values
+  metadata:
+    cluster_level: L1
+    source_ref: L3916-3917
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3976_3979_41
+  snippet_ids:
+  - ns_ltt_041
+  role: 主干
+  condition: null
+  summary: chariot_card
+  metadata:
+    cluster_level: L1
+    source_ref: L3976-3979
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l3985_3987_42
+  snippet_ids:
+  - ns_ltt_042
+  role: 主干依赖
+  condition: null
+  summary: chariot_control
+  metadata:
+    cluster_level: L1
+    source_ref: L3985-3987
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4039_4042_43
+  snippet_ids:
+  - ns_ltt_043
+  role: 主干
+  condition: null
+  summary: strength_card
+  metadata:
+    cluster_level: L1
+    source_ref: L4039-4042
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4048_4051_44
+  snippet_ids:
+  - ns_ltt_044
+  role: 主干依赖
+  condition: null
+  summary: strength_soft
+  metadata:
+    cluster_level: L1
+    source_ref: L4048-4051
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4103_4106_45
+  snippet_ids:
+  - ns_ltt_045
+  role: 主干
+  condition: null
+  summary: hermit_card
+  metadata:
+    cluster_level: L1
+    source_ref: L4103-4106
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4114_4116_46
+  snippet_ids:
+  - ns_ltt_046
+  role: 主干依赖
+  condition: null
+  summary: hermit_solitude
+  metadata:
+    cluster_level: L1
+    source_ref: L4114-4116
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4171_4175_47
+  snippet_ids:
+  - ns_ltt_047
+  role: 主干
+  condition: null
+  summary: wheel_card
+  metadata:
+    cluster_level: L1
+    source_ref: L4171-4175
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4184_4186_48
+  snippet_ids:
+  - ns_ltt_048
+  role: 主干依赖
+  condition: null
+  summary: wheel_movement
+  metadata:
+    cluster_level: L1
+    source_ref: L4184-4186
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4238_4243_49
+  snippet_ids:
+  - ns_ltt_049
+  role: 主干
+  condition: null
+  summary: justice_card
+  metadata:
+    cluster_level: L1
+    source_ref: L4238-4243
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4250_4252_50
+  snippet_ids:
+  - ns_ltt_050
+  role: 主干依赖
+  condition: null
+  summary: justice_karma
+  metadata:
+    cluster_level: L1
+    source_ref: L4250-4252
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4312_4317_51
+  snippet_ids:
+  - ns_ltt_051
+  role: 主干
+  condition: null
+  summary: hanged_man_card
+  metadata:
+    cluster_level: L1
+    source_ref: L4312-4317
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4318_4323_52
+  snippet_ids:
+  - ns_ltt_052
+  role: 主干依赖
+  condition: null
+  summary: hanged_man_paradox
+  metadata:
+    cluster_level: L1
+    source_ref: L4318-4323
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4379_4382_53
+  snippet_ids:
+  - ns_ltt_053
+  role: 主干
+  condition: null
+  summary: death_card
+  metadata:
+    cluster_level: L1
+    source_ref: L4379-4382
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4388_4390_54
+  snippet_ids:
+  - ns_ltt_054
+  role: 主干依赖
+  condition: null
+  summary: death_transformation
+  metadata:
+    cluster_level: L1
+    source_ref: L4388-4390
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4443_4450_55
+  snippet_ids:
+  - ns_ltt_055
+  role: 主干
+  condition: null
+  summary: temperance_card
+  metadata:
+    cluster_level: L1
+    source_ref: L4443-4450
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4452_4454_56
+  snippet_ids:
+  - ns_ltt_056
+  role: 主干依赖
+  condition: null
+  summary: temperance_balance
+  metadata:
+    cluster_level: L1
+    source_ref: L4452-4454
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4515_4520_57
+  snippet_ids:
+  - ns_ltt_057
+  role: 主干
+  condition: null
+  summary: devil_card
+  metadata:
+    cluster_level: L1
+    source_ref: L4515-4520
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4521_4529_58
+  snippet_ids:
+  - ns_ltt_058
+  role: 主干依赖
+  condition: null
+  summary: devil_warning
+  metadata:
+    cluster_level: L1
+    source_ref: L4521-4529
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4574_4576_59
+  snippet_ids:
+  - ns_ltt_059
+  role: 主干
+  condition: null
+  summary: tower_card
+  metadata:
+    cluster_level: L1
+    source_ref: L4574-4576
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4579_4582_60
+  snippet_ids:
+  - ns_ltt_060
+  role: 主干依赖
+  condition: null
+  summary: tower_wakeup
+  metadata:
+    cluster_level: L1
+    source_ref: L4579-4582
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4643_4644_61
+  snippet_ids:
+  - ns_ltt_061
+  role: 主干
+  condition: null
+  summary: star_card
+  metadata:
+    cluster_level: L1
+    source_ref: L4643-4644
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4645_4646_62
+  snippet_ids:
+  - ns_ltt_062
+  role: 主干依赖
+  condition: null
+  summary: star_hope
+  metadata:
+    cluster_level: L1
+    source_ref: L4645-4646
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4711_4712_63
+  snippet_ids:
+  - ns_ltt_063
+  role: 主干
+  condition: null
+  summary: moon_card
+  metadata:
+    cluster_level: L1
+    source_ref: L4711-4712
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4717_4718_64
+  snippet_ids:
+  - ns_ltt_064
+  role: 主干依赖
+  condition: null
+  summary: moon_illusion
+  metadata:
+    cluster_level: L1
+    source_ref: L4717-4718
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4774_4775_65
+  snippet_ids:
+  - ns_ltt_065
+  role: 主干
+  condition: null
+  summary: sun_card
+  metadata:
+    cluster_level: L1
+    source_ref: L4774-4775
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4780_4781_66
+  snippet_ids:
+  - ns_ltt_066
+  role: 主干依赖
+  condition: null
+  summary: sun_success
+  metadata:
+    cluster_level: L1
+    source_ref: L4780-4781
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4841_4842_67
+  snippet_ids:
+  - ns_ltt_067
+  role: 主干
+  condition: null
+  summary: judgement_card
+  metadata:
+    cluster_level: L1
+    source_ref: L4841-4842
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4843_4844_68
+  snippet_ids:
+  - ns_ltt_068
+  role: 主干依赖
+  condition: null
+  summary: judgement_calling
+  metadata:
+    cluster_level: L1
+    source_ref: L4843-4844
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4905_4906_69
+  snippet_ids:
+  - ns_ltt_069
+  role: 主干
+  condition: null
+  summary: world_card
+  metadata:
+    cluster_level: L1
+    source_ref: L4905-4906
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l4910_4911_70
+  snippet_ids:
+  - ns_ltt_070
+  role: 主干依赖
+  condition: null
+  summary: world_fulfillment
+  metadata:
+    cluster_level: L1
+    source_ref: L4910-4911
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5030_5031_71
+  snippet_ids:
+  - ns_ltt_071
+  role: 主干
+  condition: null
+  summary: ace_wands
+  metadata:
+    cluster_level: L1
+    source_ref: L5030-5031
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5036_5037_72
+  snippet_ids:
+  - ns_ltt_072
+  role: 主干依赖
+  condition: null
+  summary: ace_wands_action
+  metadata:
+    cluster_level: L1
+    source_ref: L5036-5037
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5044_5050_73
+  snippet_ids:
+  - ns_ltt_073
+  role: 主干
+  condition: null
+  summary: two_wands
+  metadata:
+    cluster_level: L1
+    source_ref: L5044-5050
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5101_5110_74
+  snippet_ids:
+  - ns_ltt_074
+  role: 主干
+  condition: null
+  summary: three_wands
+  metadata:
+    cluster_level: L1
+    source_ref: L5101-5110
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5158_5165_75
+  snippet_ids:
+  - ns_ltt_075
+  role: 主干
+  condition: null
+  summary: four_wands
+  metadata:
+    cluster_level: L1
+    source_ref: L5158-5165
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5215_5225_76
+  snippet_ids:
+  - ns_ltt_076
+  role: 主干
+  condition: null
+  summary: five_wands
+  metadata:
+    cluster_level: L1
+    source_ref: L5215-5225
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5272_5280_77
+  snippet_ids:
+  - ns_ltt_077
+  role: 主干
+  condition: null
+  summary: six_wands
+  metadata:
+    cluster_level: L1
+    source_ref: L5272-5280
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5329_5340_78
+  snippet_ids:
+  - ns_ltt_078
+  role: 主干
+  condition: null
+  summary: seven_wands
+  metadata:
+    cluster_level: L1
+    source_ref: L5329-5340
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5386_5395_79
+  snippet_ids:
+  - ns_ltt_079
+  role: 主干
+  condition: null
+  summary: eight_wands
+  metadata:
+    cluster_level: L1
+    source_ref: L5386-5395
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5443_5455_80
+  snippet_ids:
+  - ns_ltt_080
+  role: 主干
+  condition: null
+  summary: nine_wands
+  metadata:
+    cluster_level: L1
+    source_ref: L5443-5455
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5500_5510_81
+  snippet_ids:
+  - ns_ltt_081
+  role: 主干
+  condition: null
+  summary: ten_wands
+  metadata:
+    cluster_level: L1
+    source_ref: L5500-5510
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5557_5565_82
+  snippet_ids:
+  - ns_ltt_082
+  role: 主干
+  condition: null
+  summary: ace_cups
+  metadata:
+    cluster_level: L1
+    source_ref: L5557-5565
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5619_5630_83
+  snippet_ids:
+  - ns_ltt_083
+  role: 主干
+  condition: null
+  summary: two_cups
+  metadata:
+    cluster_level: L1
+    source_ref: L5619-5630
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5676_5685_84
+  snippet_ids:
+  - ns_ltt_084
+  role: 主干
+  condition: null
+  summary: three_cups
+  metadata:
+    cluster_level: L1
+    source_ref: L5676-5685
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5733_5745_85
+  snippet_ids:
+  - ns_ltt_085
+  role: 主干
+  condition: null
+  summary: four_cups
+  metadata:
+    cluster_level: L1
+    source_ref: L5733-5745
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5790_5800_86
+  snippet_ids:
+  - ns_ltt_086
+  role: 主干
+  condition: null
+  summary: five_cups
+  metadata:
+    cluster_level: L1
+    source_ref: L5790-5800
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5847_5855_87
+  snippet_ids:
+  - ns_ltt_087
+  role: 主干
+  condition: null
+  summary: six_cups
+  metadata:
+    cluster_level: L1
+    source_ref: L5847-5855
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5904_5915_88
+  snippet_ids:
+  - ns_ltt_088
+  role: 主干
+  condition: null
+  summary: seven_cups
+  metadata:
+    cluster_level: L1
+    source_ref: L5904-5915
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l5961_5970_89
+  snippet_ids:
+  - ns_ltt_089
+  role: 主干
+  condition: null
+  summary: eight_cups
+  metadata:
+    cluster_level: L1
+    source_ref: L5961-5970
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6018_6025_90
+  snippet_ids:
+  - ns_ltt_090
+  role: 主干
+  condition: null
+  summary: nine_cups
+  metadata:
+    cluster_level: L1
+    source_ref: L6018-6025
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6075_6085_91
+  snippet_ids:
+  - ns_ltt_091
+  role: 主干
+  condition: null
+  summary: ten_cups
+  metadata:
+    cluster_level: L1
+    source_ref: L6075-6085
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6132_6140_92
+  snippet_ids:
+  - ns_ltt_092
+  role: 主干
+  condition: null
+  summary: ace_swords
+  metadata:
+    cluster_level: L1
+    source_ref: L6132-6140
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6194_6205_93
+  snippet_ids:
+  - ns_ltt_093
+  role: 主干
+  condition: null
+  summary: two_swords
+  metadata:
+    cluster_level: L1
+    source_ref: L6194-6205
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6251_6260_94
+  snippet_ids:
+  - ns_ltt_094
+  role: 主干
+  condition: null
+  summary: three_swords
+  metadata:
+    cluster_level: L1
+    source_ref: L6251-6260
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6308_6320_95
+  snippet_ids:
+  - ns_ltt_095
+  role: 主干
+  condition: null
+  summary: four_swords
+  metadata:
+    cluster_level: L1
+    source_ref: L6308-6320
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6365_6375_96
+  snippet_ids:
+  - ns_ltt_096
+  role: 主干
+  condition: null
+  summary: five_swords
+  metadata:
+    cluster_level: L1
+    source_ref: L6365-6375
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6422_6430_97
+  snippet_ids:
+  - ns_ltt_097
+  role: 主干
+  condition: null
+  summary: six_swords
+  metadata:
+    cluster_level: L1
+    source_ref: L6422-6430
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6479_6490_98
+  snippet_ids:
+  - ns_ltt_098
+  role: 主干
+  condition: null
+  summary: seven_swords
+  metadata:
+    cluster_level: L1
+    source_ref: L6479-6490
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6536_6545_99
+  snippet_ids:
+  - ns_ltt_099
+  role: 主干
+  condition: null
+  summary: eight_swords
+  metadata:
+    cluster_level: L1
+    source_ref: L6536-6545
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6593_6600_100
+  snippet_ids:
+  - ns_ltt_100
+  role: 主干
+  condition: null
+  summary: nine_swords
+  metadata:
+    cluster_level: L1
+    source_ref: L6593-6600
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6650_6660_101
+  snippet_ids:
+  - ns_ltt_101
+  role: 主干
+  condition: null
+  summary: ten_swords
+  metadata:
+    cluster_level: L1
+    source_ref: L6650-6660
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6707_6715_102
+  snippet_ids:
+  - ns_ltt_102
+  role: 主干
+  condition: null
+  summary: ace_pentacles
+  metadata:
+    cluster_level: L1
+    source_ref: L6707-6715
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6769_6780_103
+  snippet_ids:
+  - ns_ltt_103
+  role: 主干
+  condition: null
+  summary: two_pentacles
+  metadata:
+    cluster_level: L1
+    source_ref: L6769-6780
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6826_6835_104
+  snippet_ids:
+  - ns_ltt_104
+  role: 主干
+  condition: null
+  summary: three_pentacles
+  metadata:
+    cluster_level: L1
+    source_ref: L6826-6835
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6883_6895_105
+  snippet_ids:
+  - ns_ltt_105
+  role: 主干
+  condition: null
+  summary: four_pentacles
+  metadata:
+    cluster_level: L1
+    source_ref: L6883-6895
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6940_6950_106
+  snippet_ids:
+  - ns_ltt_106
+  role: 主干
+  condition: null
+  summary: five_pentacles
+  metadata:
+    cluster_level: L1
+    source_ref: L6940-6950
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l6997_7005_107
+  snippet_ids:
+  - ns_ltt_107
+  role: 主干
+  condition: null
+  summary: six_pentacles
+  metadata:
+    cluster_level: L1
+    source_ref: L6997-7005
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l7054_7065_108
+  snippet_ids:
+  - ns_ltt_108
+  role: 主干
+  condition: null
+  summary: seven_pentacles
+  metadata:
+    cluster_level: L1
+    source_ref: L7054-7065
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l7111_7120_109
+  snippet_ids:
+  - ns_ltt_109
+  role: 主干
+  condition: null
+  summary: eight_pentacles
+  metadata:
+    cluster_level: L1
+    source_ref: L7111-7120
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l7168_7175_110
+  snippet_ids:
+  - ns_ltt_110
+  role: 主干
+  condition: null
+  summary: nine_pentacles
+  metadata:
+    cluster_level: L1
+    source_ref: L7168-7175
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l7225_7235_111
+  snippet_ids:
+  - ns_ltt_111
+  role: 主干
+  condition: null
+  summary: ten_pentacles
+  metadata:
+    cluster_level: L1
+    source_ref: L7225-7235
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_112
+  snippet_ids:
+  - ns_ltt_112
+  role: 主干
+  condition: null
+  summary: page_wands
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_113
+  snippet_ids:
+  - ns_ltt_113
+  role: 主干
+  condition: null
+  summary: knight_wands
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_114
+  snippet_ids:
+  - ns_ltt_114
+  role: 主干
+  condition: null
+  summary: queen_wands
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_115
+  snippet_ids:
+  - ns_ltt_115
+  role: 主干
+  condition: null
+  summary: king_wands
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_116
+  snippet_ids:
+  - ns_ltt_116
+  role: 主干
+  condition: null
+  summary: page_cups
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_117
+  snippet_ids:
+  - ns_ltt_117
+  role: 主干
+  condition: null
+  summary: knight_cups
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_118
+  snippet_ids:
+  - ns_ltt_118
+  role: 主干
+  condition: null
+  summary: queen_cups
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_119
+  snippet_ids:
+  - ns_ltt_119
+  role: 主干
+  condition: null
+  summary: king_cups
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_120
+  snippet_ids:
+  - ns_ltt_120
+  role: 主干
+  condition: null
+  summary: page_swords
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_121
+  snippet_ids:
+  - ns_ltt_121
+  role: 主干
+  condition: null
+  summary: knight_swords
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_122
+  snippet_ids:
+  - ns_ltt_122
+  role: 主干
+  condition: null
+  summary: queen_swords
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_123
+  snippet_ids:
+  - ns_ltt_123
+  role: 主干
+  condition: null
+  summary: king_swords
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_124
+  snippet_ids:
+  - ns_ltt_124
+  role: 主干
+  condition: null
+  summary: page_pentacles
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_125
+  snippet_ids:
+  - ns_ltt_125
+  role: 主干
+  condition: null
+  summary: knight_pentacles
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_126
+  snippet_ids:
+  - ns_ltt_126
+  role: 主干
+  condition: null
+  summary: queen_pentacles
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_127
+  snippet_ids:
+  - ns_ltt_127
+  role: 主干
+  condition: null
+  summary: king_pentacles
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_128
+  snippet_ids:
+  - ns_ltt_154
+  role: 主干
+  condition: null
+  summary: position_1
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_129
+  snippet_ids:
+  - ns_ltt_155
+  role: 主干
+  condition: null
+  summary: position_2
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_130
+  snippet_ids:
+  - ns_ltt_156
+  role: 主干
+  condition: null
+  summary: position_3
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_131
+  snippet_ids:
+  - ns_ltt_157
+  role: 主干
+  condition: null
+  summary: position_4
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_132
+  snippet_ids:
+  - ns_ltt_158
+  role: 主干
+  condition: null
+  summary: position_5
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_133
+  snippet_ids:
+  - ns_ltt_159
+  role: 主干
+  condition: null
+  summary: position_6
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_134
+  snippet_ids:
+  - ns_ltt_160
+  role: 主干
+  condition: null
+  summary: position_7
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_135
+  snippet_ids:
+  - ns_ltt_161
+  role: 主干
+  condition: null
+  summary: position_8
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_136
+  snippet_ids:
+  - ns_ltt_162
+  role: 主干
+  condition: null
+  summary: position_9
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_137
+  snippet_ids:
+  - ns_ltt_163
+  role: 主干
+  condition: null
+  summary: position_10
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_138
+  snippet_ids:
+  - ns_ltt_168
+  role: 主干
+  condition: null
+  summary: jill_reading_1
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_139
+  snippet_ids:
+  - ns_ltt_169
+  role: 主干
+  condition: null
+  summary: jill_reading_2
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_140
+  snippet_ids:
+  - ns_ltt_170
+  role: 主干
+  condition: null
+  summary: jill_reading_3
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_141
+  snippet_ids:
+  - ns_ltt_171
+  role: 主干
+  condition: null
+  summary: jill_lessons
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_no_source_ref_142
+  snippet_ids:
+  - ns_ltt_172
+  role: 主干
+  condition: null
+  summary: exercises
+  metadata:
+    cluster_level: L2
+    source_ref: ''
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l616_618_143
+  snippet_ids:
+  - ns_ltt_128
+  role: 主干
+  condition: null
+  summary: spread_position
+  metadata:
+    cluster_level: L1
+    source_ref: L616-618
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l638_642_144
+  snippet_ids:
+  - ns_ltt_129
+  role: 主干
+  condition: null
+  summary: celtic_cross
+  metadata:
+    cluster_level: L1
+    source_ref: L638-642
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l648_651_145
+  snippet_ids:
+  - ns_ltt_130
+  role: 主干
+  condition: null
+  summary: daily_reading
+  metadata:
+    cluster_level: L1
+    source_ref: L648-651
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l702_708_146
+  snippet_ids:
+  - ns_ltt_131
+  role: 主干
+  condition: null
+  summary: color_coding
+  metadata:
+    cluster_level: L1
+    source_ref: L702-708
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l726_744_147
+  snippet_ids:
+  - ns_ltt_132
+  role: 主干
+  condition: null
+  summary: five_qualities
+  metadata:
+    cluster_level: L1
+    source_ref: L726-744
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l754_760_148
+  snippet_ids:
+  - ns_ltt_133
+  role: 主干
+  condition: null
+  summary: tarot_spot
+  metadata:
+    cluster_level: L1
+    source_ref: L754-760
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l801_902_149
+  snippet_ids:
+  - ns_ltt_134
+  role: 主干
+  condition: null
+  summary: question_principles
+  metadata:
+    cluster_level: L1
+    source_ref: L801-902
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l830_836_150
+  snippet_ids:
+  - ns_ltt_135
+  role: 主干
+  condition: null
+  summary: question_starters
+  metadata:
+    cluster_level: L1
+    source_ref: L830-836
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l909_1098_151
+  snippet_ids:
+  - ns_ltt_136
+  role: 主干
+  condition: null
+  summary: reading_procedure
+  metadata:
+    cluster_level: L1
+    source_ref: L909-1098
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1019_1034_152
+  snippet_ids:
+  - ns_ltt_137
+  role: 主干依赖
+  condition: null
+  summary: story_creation
+  metadata:
+    cluster_level: L1
+    source_ref: L1019-1034
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1099_1127_153
+  snippet_ids:
+  - ns_ltt_138
+  role: 主干
+  condition: null
+  summary: other_reading
+  metadata:
+    cluster_level: L1
+    source_ref: L1099-1127
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1150_1159_154
+  snippet_ids:
+  - ns_ltt_139
+  role: 主干
+  condition: null
+  summary: open_reading
+  metadata:
+    cluster_level: L1
+    source_ref: L1150-1159
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1211_1223_155
+  snippet_ids:
+  - ns_ltt_140
+  role: 主干
+  condition: null
+  summary: four_sources
+  metadata:
+    cluster_level: L1
+    source_ref: L1211-1223
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1271_1274_156
+  snippet_ids:
+  - ns_ltt_141
+  role: 主干依赖
+  condition: null
+  summary: aha_reaction
+  metadata:
+    cluster_level: L1
+    source_ref: L1271-1274
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1280_1287_157
+  snippet_ids:
+  - ns_ltt_142
+  role: 主干
+  condition: null
+  summary: major_minor_weight
+  metadata:
+    cluster_level: L1
+    source_ref: L1280-1287
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1355_1358_158
+  snippet_ids:
+  - ns_ltt_143
+  role: 主干
+  condition: null
+  summary: aces_portals
+  metadata:
+    cluster_level: L1
+    source_ref: L1355-1358
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1324_1326_159
+  snippet_ids:
+  - ns_ltt_144
+  role: 主干
+  condition: null
+  summary: aces_gifts
+  metadata:
+    cluster_level: L1
+    source_ref: L1324-1326
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1380_1383_160
+  snippet_ids:
+  - ns_ltt_145
+  role: 主干
+  condition: null
+  summary: court_card_system
+  metadata:
+    cluster_level: L1
+    source_ref: L1380-1383
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1437_1474_161
+  snippet_ids:
+  - ns_ltt_146
+  role: 主干依赖
+  condition: null
+  summary: court_interpretation
+  metadata:
+    cluster_level: L1
+    source_ref: L1437-1474
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1498_1502_162
+  snippet_ids:
+  - ns_ltt_147
+  role: 主干
+  condition: null
+  summary: law_opposition
+  metadata:
+    cluster_level: L1
+    source_ref: L1498-1502
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1515_1569_163
+  snippet_ids:
+  - ns_ltt_148
+  role: 主干依赖
+  condition: null
+  summary: pair_types
+  metadata:
+    cluster_level: L1
+    source_ref: L1515-1569
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1575_1790_164
+  snippet_ids:
+  - ns_ltt_149
+  role: 主干
+  condition: null
+  summary: position_pairs
+  metadata:
+    cluster_level: L1
+    source_ref: L1575-1790
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1805_1809_165
+  snippet_ids:
+  - ns_ltt_150
+  role: 主干
+  condition: null
+  summary: reversed_theory
+  metadata:
+    cluster_level: L1
+    source_ref: L1805-1809
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1862_1867_166
+  snippet_ids:
+  - ns_ltt_151
+  role: 主干
+  condition: null
+  summary: reversed_proportion
+  metadata:
+    cluster_level: L1
+    source_ref: L1862-1867
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l1026_1034_167
+  snippet_ids:
+  - ns_ltt_152
+  role: 主干
+  condition: null
+  summary: story_creation
+  metadata:
+    cluster_level: L1
+    source_ref: L1026-1034
+    snippet_count: 1
+- node_id: n_learning_the_tarot_l2000_2005_168
+  snippet_ids:
+  - ns_ltt_153
+  role: 主干
+  condition: null
+  summary: final_thoughts
+  metadata:
+    cluster_level: L1
+    source_ref: L2000-2005
+    snippet_count: 1
+- node_id: n_learning_the_tarot_appendix_a_169
+  snippet_ids:
+  - ns_ltt_164
+  role: 主干
+  condition: null
+  summary: fools_journey
+  metadata:
+    cluster_level: L1
+    source_ref: Appendix A
+    snippet_count: 1
+- node_id: n_learning_the_tarot_appendix_b_170
+  snippet_ids:
+  - ns_ltt_165
+  role: 主干
+  condition: null
+  summary: suit_qualities
+  metadata:
+    cluster_level: L1
+    source_ref: Appendix B
+    snippet_count: 1
+- node_id: n_learning_the_tarot_appendix_c_171
+  snippet_ids:
+  - ns_ltt_166
+  role: 主干
+  condition: null
+  summary: suit_pairs
+  metadata:
+    cluster_level: L1
+    source_ref: Appendix C
+    snippet_count: 1
+- node_id: n_learning_the_tarot_appendix_d_172
+  snippet_ids:
+  - ns_ltt_167
+  role: 主干
+  condition: null
+  summary: rank_pairs
+  metadata:
+    cluster_level: L1
+    source_ref: Appendix D
+    snippet_count: 1
+edges:
+- from_node: n_learning_the_tarot_l477_478_10
+  to_node: n_learning_the_tarot_l495_498_11
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_004
+    source_ref: Bunning L2
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3507_3510_19
+  to_node: n_learning_the_tarot_l3518_3519_20
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_010
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3515_3517_21
+  to_node: n_learning_the_tarot_l3518_3519_20
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_010
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3520_3522_22
+  to_node: n_learning_the_tarot_l3518_3519_20
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_010
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3507_3510_19
+  to_node: n_learning_the_tarot_l3838_3840_36
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3507_3510_19
+  to_node: n_learning_the_tarot_l3840_3842_37
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3507_3510_19
+  to_node: n_learning_the_tarot_l3847_3849_38
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3518_3519_20
+  to_node: n_learning_the_tarot_l3838_3840_36
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3518_3519_20
+  to_node: n_learning_the_tarot_l3840_3842_37
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3518_3519_20
+  to_node: n_learning_the_tarot_l3847_3849_38
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3515_3517_21
+  to_node: n_learning_the_tarot_l3838_3840_36
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3515_3517_21
+  to_node: n_learning_the_tarot_l3840_3842_37
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3515_3517_21
+  to_node: n_learning_the_tarot_l3847_3849_38
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3520_3522_22
+  to_node: n_learning_the_tarot_l3838_3840_36
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3520_3522_22
+  to_node: n_learning_the_tarot_l3840_3842_37
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3520_3522_22
+  to_node: n_learning_the_tarot_l3847_3849_38
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3507_3510_19
+  to_node: n_learning_the_tarot_l4643_4644_61
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3507_3510_19
+  to_node: n_learning_the_tarot_l4645_4646_62
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3518_3519_20
+  to_node: n_learning_the_tarot_l4643_4644_61
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3518_3519_20
+  to_node: n_learning_the_tarot_l4645_4646_62
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3515_3517_21
+  to_node: n_learning_the_tarot_l4643_4644_61
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3515_3517_21
+  to_node: n_learning_the_tarot_l4645_4646_62
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3520_3522_22
+  to_node: n_learning_the_tarot_l4643_4644_61
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3520_3522_22
+  to_node: n_learning_the_tarot_l4645_4646_62
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3573_3575_23
+  to_node: n_learning_the_tarot_l3639_3641_27
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3573_3575_23
+  to_node: n_learning_the_tarot_l3643_3644_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3573_3575_23
+  to_node: n_learning_the_tarot_l3649_3651_29
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3573_3575_23
+  to_node: n_learning_the_tarot_l3698_3700_31
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3587_3588_24
+  to_node: n_learning_the_tarot_l3639_3641_27
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3587_3588_24
+  to_node: n_learning_the_tarot_l3643_3644_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3587_3588_24
+  to_node: n_learning_the_tarot_l3649_3651_29
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3587_3588_24
+  to_node: n_learning_the_tarot_l3698_3700_31
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3575_3577_25
+  to_node: n_learning_the_tarot_l3639_3641_27
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3575_3577_25
+  to_node: n_learning_the_tarot_l3643_3644_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3575_3577_25
+  to_node: n_learning_the_tarot_l3649_3651_29
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3575_3577_25
+  to_node: n_learning_the_tarot_l3698_3700_31
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3583_3585_26
+  to_node: n_learning_the_tarot_l3639_3641_27
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3583_3585_26
+  to_node: n_learning_the_tarot_l3643_3644_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3583_3585_26
+  to_node: n_learning_the_tarot_l3649_3651_29
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3583_3585_26
+  to_node: n_learning_the_tarot_l3698_3700_31
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3643_3644_28
+  to_node: n_learning_the_tarot_l3639_3641_27
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3643_3644_28
+  to_node: n_learning_the_tarot_l3649_3651_29
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3643_3644_28
+  to_node: n_learning_the_tarot_l3698_3700_31
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3573_3575_23
+  to_node: n_learning_the_tarot_l3976_3979_41
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3573_3575_23
+  to_node: n_learning_the_tarot_l3985_3987_42
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3573_3575_23
+  to_node: n_learning_the_tarot_l4048_4051_44
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3587_3588_24
+  to_node: n_learning_the_tarot_l3976_3979_41
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3587_3588_24
+  to_node: n_learning_the_tarot_l3985_3987_42
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3587_3588_24
+  to_node: n_learning_the_tarot_l4048_4051_44
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3575_3577_25
+  to_node: n_learning_the_tarot_l3976_3979_41
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3575_3577_25
+  to_node: n_learning_the_tarot_l3985_3987_42
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3575_3577_25
+  to_node: n_learning_the_tarot_l4048_4051_44
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3583_3585_26
+  to_node: n_learning_the_tarot_l3976_3979_41
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3583_3585_26
+  to_node: n_learning_the_tarot_l3985_3987_42
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3583_3585_26
+  to_node: n_learning_the_tarot_l4048_4051_44
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3643_3644_28
+  to_node: n_learning_the_tarot_l3976_3979_41
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3643_3644_28
+  to_node: n_learning_the_tarot_l3985_3987_42
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3643_3644_28
+  to_node: n_learning_the_tarot_l4048_4051_44
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3639_3641_27
+  to_node: n_learning_the_tarot_l3573_3575_23
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3639_3641_27
+  to_node: n_learning_the_tarot_l3587_3588_24
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3639_3641_27
+  to_node: n_learning_the_tarot_l3575_3577_25
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3639_3641_27
+  to_node: n_learning_the_tarot_l3583_3585_26
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3639_3641_27
+  to_node: n_learning_the_tarot_l3643_3644_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3643_3644_28
+  to_node: n_learning_the_tarot_l3573_3575_23
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3643_3644_28
+  to_node: n_learning_the_tarot_l3587_3588_24
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3643_3644_28
+  to_node: n_learning_the_tarot_l3575_3577_25
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3643_3644_28
+  to_node: n_learning_the_tarot_l3583_3585_26
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3649_3651_29
+  to_node: n_learning_the_tarot_l3573_3575_23
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3649_3651_29
+  to_node: n_learning_the_tarot_l3587_3588_24
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3649_3651_29
+  to_node: n_learning_the_tarot_l3575_3577_25
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3649_3651_29
+  to_node: n_learning_the_tarot_l3583_3585_26
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3649_3651_29
+  to_node: n_learning_the_tarot_l3643_3644_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3698_3700_31
+  to_node: n_learning_the_tarot_l3573_3575_23
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3698_3700_31
+  to_node: n_learning_the_tarot_l3587_3588_24
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3698_3700_31
+  to_node: n_learning_the_tarot_l3575_3577_25
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3698_3700_31
+  to_node: n_learning_the_tarot_l3583_3585_26
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3698_3700_31
+  to_node: n_learning_the_tarot_l3643_3644_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3639_3641_27
+  to_node: n_learning_the_tarot_l4103_4106_45
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3639_3641_27
+  to_node: n_learning_the_tarot_l4114_4116_46
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3643_3644_28
+  to_node: n_learning_the_tarot_l4103_4106_45
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3643_3644_28
+  to_node: n_learning_the_tarot_l4114_4116_46
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3649_3651_29
+  to_node: n_learning_the_tarot_l4103_4106_45
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3649_3651_29
+  to_node: n_learning_the_tarot_l4114_4116_46
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3698_3700_31
+  to_node: n_learning_the_tarot_l4103_4106_45
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l3698_3700_31
+  to_node: n_learning_the_tarot_l4114_4116_46
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_learning_the_tarot_l477_478_10
+  to_node: n_learning_the_tarot_l532_534_14
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card__arcana
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l477_478_10
+  to_node: n_learning_the_tarot_appendix_a_169
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card__arcana
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l532_534_14
+  to_node: n_learning_the_tarot_appendix_a_169
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card__arcana
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_l6132_6140_92
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_l6194_6205_93
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_l6251_6260_94
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_l6308_6320_95
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_l6365_6375_96
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_l6422_6430_97
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_l6479_6490_98
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_l6536_6545_99
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_l6593_6600_100
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_l6650_6660_101
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_no_source_ref_120
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_no_source_ref_121
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_no_source_ref_122
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_no_source_ref_123
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3507_3510_19
+  to_node: n_learning_the_tarot_l3515_3517_21
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_fool
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3507_3510_19
+  to_node: n_learning_the_tarot_l3520_3522_22
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_fool
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3515_3517_21
+  to_node: n_learning_the_tarot_l3520_3522_22
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_fool
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3520_3522_22
+  to_node: n_learning_the_tarot_l3916_3917_40
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - decision
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3573_3575_23
+  to_node: n_learning_the_tarot_l3587_3588_24
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_magician
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3573_3575_23
+  to_node: n_learning_the_tarot_l3575_3577_25
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_magician
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3573_3575_23
+  to_node: n_learning_the_tarot_l3583_3585_26
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_magician
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3587_3588_24
+  to_node: n_learning_the_tarot_l3575_3577_25
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_magician
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3587_3588_24
+  to_node: n_learning_the_tarot_l3583_3585_26
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_magician
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3587_3588_24
+  to_node: n_learning_the_tarot_l5036_5037_72
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - action
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3575_3577_25
+  to_node: n_learning_the_tarot_l3583_3585_26
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_magician
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3639_3641_27
+  to_node: n_learning_the_tarot_l3649_3651_29
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_high_priestess
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3639_3641_27
+  to_node: n_learning_the_tarot_l3698_3700_31
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_high_priestess
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3649_3651_29
+  to_node: n_learning_the_tarot_l3698_3700_31
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_high_priestess
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3700_3702_30
+  to_node: n_learning_the_tarot_l3698_3700_31
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_empress
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3700_3702_30
+  to_node: n_learning_the_tarot_l3712_3715_32
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_empress
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3700_3702_30
+  to_node: n_learning_the_tarot_l3774_3776_34
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_empress
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3698_3700_31
+  to_node: n_learning_the_tarot_l3712_3715_32
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_empress
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3698_3700_31
+  to_node: n_learning_the_tarot_l3774_3776_34
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_empress
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3712_3715_32
+  to_node: n_learning_the_tarot_l3774_3776_34
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_empress
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3774_3775_33
+  to_node: n_learning_the_tarot_l3774_3776_34
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_emper
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3774_3775_33
+  to_node: n_learning_the_tarot_l3777_3780_35
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_emper
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3774_3776_34
+  to_node: n_learning_the_tarot_l3777_3780_35
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_emper
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3777_3780_35
+  to_node: n_learning_the_tarot_l4521_4529_58
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - situation
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3838_3840_36
+  to_node: n_learning_the_tarot_l3840_3842_37
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_hierophant
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3838_3840_36
+  to_node: n_learning_the_tarot_l3847_3849_38
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_hierophant
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3840_3842_37
+  to_node: n_learning_the_tarot_l3847_3849_38
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_hierophant
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3847_3849_38
+  to_node: n_learning_the_tarot_l4452_4454_56
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - conflict
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3909_3911_39
+  to_node: n_learning_the_tarot_l3916_3917_40
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_lovers
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3976_3979_41
+  to_node: n_learning_the_tarot_l3985_3987_42
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_chariot
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3976_3979_41
+  to_node: n_learning_the_tarot_l4048_4051_44
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_chariot
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3985_3987_42
+  to_node: n_learning_the_tarot_l4048_4051_44
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_chariot
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4039_4042_43
+  to_node: n_learning_the_tarot_l4048_4051_44
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_strength
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4103_4106_45
+  to_node: n_learning_the_tarot_l4114_4116_46
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_hermit
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4171_4175_47
+  to_node: n_learning_the_tarot_l4184_4186_48
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_wheel
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4238_4243_49
+  to_node: n_learning_the_tarot_l4250_4252_50
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_justice
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4312_4317_51
+  to_node: n_learning_the_tarot_l4318_4323_52
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_hanged_man
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4379_4382_53
+  to_node: n_learning_the_tarot_l4388_4390_54
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_death
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4443_4450_55
+  to_node: n_learning_the_tarot_l4452_4454_56
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_temperance
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4515_4520_57
+  to_node: n_learning_the_tarot_l4521_4529_58
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_devil
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4515_4520_57
+  to_node: n_learning_the_tarot_l4645_4646_62
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_devil
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4521_4529_58
+  to_node: n_learning_the_tarot_l4645_4646_62
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_devil
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4574_4576_59
+  to_node: n_learning_the_tarot_l4579_4582_60
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_tower
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4643_4644_61
+  to_node: n_learning_the_tarot_l4645_4646_62
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - star_tarot_star
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4711_4712_63
+  to_node: n_learning_the_tarot_l4717_4718_64
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_moon
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4774_4775_65
+  to_node: n_learning_the_tarot_l4780_4781_66
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_sun
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4780_4781_66
+  to_node: n_learning_the_tarot_l4910_4911_70
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - success
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4841_4842_67
+  to_node: n_learning_the_tarot_l4843_4844_68
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_judgement
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l4905_4906_69
+  to_node: n_learning_the_tarot_l4910_4911_70
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ld
+    - card_tarot_w
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l5030_5031_71
+  to_node: n_learning_the_tarot_l5036_5037_72
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_ace_w
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6132_6140_92
+  to_node: n_learning_the_tarot_l6194_6205_93
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6132_6140_92
+  to_node: n_learning_the_tarot_l6251_6260_94
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6132_6140_92
+  to_node: n_learning_the_tarot_l6308_6320_95
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6132_6140_92
+  to_node: n_learning_the_tarot_l6365_6375_96
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6132_6140_92
+  to_node: n_learning_the_tarot_l6422_6430_97
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6132_6140_92
+  to_node: n_learning_the_tarot_l6479_6490_98
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6132_6140_92
+  to_node: n_learning_the_tarot_l6536_6545_99
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6132_6140_92
+  to_node: n_learning_the_tarot_l6593_6600_100
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6132_6140_92
+  to_node: n_learning_the_tarot_l6650_6660_101
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6132_6140_92
+  to_node: n_learning_the_tarot_no_source_ref_120
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6132_6140_92
+  to_node: n_learning_the_tarot_no_source_ref_121
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6132_6140_92
+  to_node: n_learning_the_tarot_no_source_ref_122
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6132_6140_92
+  to_node: n_learning_the_tarot_no_source_ref_123
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6194_6205_93
+  to_node: n_learning_the_tarot_l6251_6260_94
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6194_6205_93
+  to_node: n_learning_the_tarot_l6308_6320_95
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6194_6205_93
+  to_node: n_learning_the_tarot_l6365_6375_96
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6194_6205_93
+  to_node: n_learning_the_tarot_l6422_6430_97
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6194_6205_93
+  to_node: n_learning_the_tarot_l6479_6490_98
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6194_6205_93
+  to_node: n_learning_the_tarot_l6536_6545_99
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6194_6205_93
+  to_node: n_learning_the_tarot_l6593_6600_100
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6194_6205_93
+  to_node: n_learning_the_tarot_l6650_6660_101
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6194_6205_93
+  to_node: n_learning_the_tarot_no_source_ref_120
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6194_6205_93
+  to_node: n_learning_the_tarot_no_source_ref_121
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6194_6205_93
+  to_node: n_learning_the_tarot_no_source_ref_122
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6194_6205_93
+  to_node: n_learning_the_tarot_no_source_ref_123
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6251_6260_94
+  to_node: n_learning_the_tarot_l6308_6320_95
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6251_6260_94
+  to_node: n_learning_the_tarot_l6365_6375_96
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6251_6260_94
+  to_node: n_learning_the_tarot_l6422_6430_97
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6251_6260_94
+  to_node: n_learning_the_tarot_l6479_6490_98
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6251_6260_94
+  to_node: n_learning_the_tarot_l6536_6545_99
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6251_6260_94
+  to_node: n_learning_the_tarot_l6593_6600_100
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6251_6260_94
+  to_node: n_learning_the_tarot_l6650_6660_101
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6251_6260_94
+  to_node: n_learning_the_tarot_no_source_ref_120
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6251_6260_94
+  to_node: n_learning_the_tarot_no_source_ref_121
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6251_6260_94
+  to_node: n_learning_the_tarot_no_source_ref_122
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6251_6260_94
+  to_node: n_learning_the_tarot_no_source_ref_123
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6308_6320_95
+  to_node: n_learning_the_tarot_l6365_6375_96
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6308_6320_95
+  to_node: n_learning_the_tarot_l6422_6430_97
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6308_6320_95
+  to_node: n_learning_the_tarot_l6479_6490_98
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6308_6320_95
+  to_node: n_learning_the_tarot_l6536_6545_99
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6308_6320_95
+  to_node: n_learning_the_tarot_l6593_6600_100
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6308_6320_95
+  to_node: n_learning_the_tarot_l6650_6660_101
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6308_6320_95
+  to_node: n_learning_the_tarot_no_source_ref_120
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6308_6320_95
+  to_node: n_learning_the_tarot_no_source_ref_121
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6308_6320_95
+  to_node: n_learning_the_tarot_no_source_ref_122
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6308_6320_95
+  to_node: n_learning_the_tarot_no_source_ref_123
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6365_6375_96
+  to_node: n_learning_the_tarot_l6422_6430_97
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6365_6375_96
+  to_node: n_learning_the_tarot_l6479_6490_98
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6365_6375_96
+  to_node: n_learning_the_tarot_l6536_6545_99
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6365_6375_96
+  to_node: n_learning_the_tarot_l6593_6600_100
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6365_6375_96
+  to_node: n_learning_the_tarot_l6650_6660_101
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6365_6375_96
+  to_node: n_learning_the_tarot_no_source_ref_120
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6365_6375_96
+  to_node: n_learning_the_tarot_no_source_ref_121
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6365_6375_96
+  to_node: n_learning_the_tarot_no_source_ref_122
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6365_6375_96
+  to_node: n_learning_the_tarot_no_source_ref_123
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6422_6430_97
+  to_node: n_learning_the_tarot_l6479_6490_98
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6422_6430_97
+  to_node: n_learning_the_tarot_l6536_6545_99
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6422_6430_97
+  to_node: n_learning_the_tarot_l6593_6600_100
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6422_6430_97
+  to_node: n_learning_the_tarot_l6650_6660_101
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6422_6430_97
+  to_node: n_learning_the_tarot_no_source_ref_120
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6422_6430_97
+  to_node: n_learning_the_tarot_no_source_ref_121
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6422_6430_97
+  to_node: n_learning_the_tarot_no_source_ref_122
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6422_6430_97
+  to_node: n_learning_the_tarot_no_source_ref_123
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6479_6490_98
+  to_node: n_learning_the_tarot_l6536_6545_99
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6479_6490_98
+  to_node: n_learning_the_tarot_l6593_6600_100
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6479_6490_98
+  to_node: n_learning_the_tarot_l6650_6660_101
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6479_6490_98
+  to_node: n_learning_the_tarot_no_source_ref_120
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6479_6490_98
+  to_node: n_learning_the_tarot_no_source_ref_121
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6479_6490_98
+  to_node: n_learning_the_tarot_no_source_ref_122
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6479_6490_98
+  to_node: n_learning_the_tarot_no_source_ref_123
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6536_6545_99
+  to_node: n_learning_the_tarot_l6593_6600_100
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6536_6545_99
+  to_node: n_learning_the_tarot_l6650_6660_101
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6536_6545_99
+  to_node: n_learning_the_tarot_no_source_ref_120
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6536_6545_99
+  to_node: n_learning_the_tarot_no_source_ref_121
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6536_6545_99
+  to_node: n_learning_the_tarot_no_source_ref_122
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6536_6545_99
+  to_node: n_learning_the_tarot_no_source_ref_123
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6593_6600_100
+  to_node: n_learning_the_tarot_l6650_6660_101
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6593_6600_100
+  to_node: n_learning_the_tarot_no_source_ref_120
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6593_6600_100
+  to_node: n_learning_the_tarot_no_source_ref_121
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6593_6600_100
+  to_node: n_learning_the_tarot_no_source_ref_122
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6593_6600_100
+  to_node: n_learning_the_tarot_no_source_ref_123
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6650_6660_101
+  to_node: n_learning_the_tarot_no_source_ref_120
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6650_6660_101
+  to_node: n_learning_the_tarot_no_source_ref_121
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6650_6660_101
+  to_node: n_learning_the_tarot_no_source_ref_122
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l6650_6660_101
+  to_node: n_learning_the_tarot_no_source_ref_123
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_no_source_ref_120
+  to_node: n_learning_the_tarot_no_source_ref_121
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_no_source_ref_120
+  to_node: n_learning_the_tarot_no_source_ref_122
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_no_source_ref_120
+  to_node: n_learning_the_tarot_no_source_ref_123
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_no_source_ref_121
+  to_node: n_learning_the_tarot_no_source_ref_122
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_no_source_ref_121
+  to_node: n_learning_the_tarot_no_source_ref_123
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_no_source_ref_122
+  to_node: n_learning_the_tarot_no_source_ref_123
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - ds
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_no_source_ref_138
+  to_node: n_learning_the_tarot_no_source_ref_139
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_sample_reading
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_no_source_ref_138
+  to_node: n_learning_the_tarot_no_source_ref_140
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_sample_reading
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_no_source_ref_139
+  to_node: n_learning_the_tarot_no_source_ref_140
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_sample_reading
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_no_source_ref_141
+  to_node: n_learning_the_tarot_l1211_1223_155
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_interpretation
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l638_642_144
+  to_node: n_learning_the_tarot_l1575_1790_164
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_celtic_cross
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l801_902_149
+  to_node: n_learning_the_tarot_l830_836_150
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_question
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l1019_1034_152
+  to_node: n_learning_the_tarot_l1026_1034_167
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_st
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l1355_1358_158
+  to_node: n_learning_the_tarot_l1324_1326_159
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_aces
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l1380_1383_160
+  to_node: n_learning_the_tarot_l1437_1474_161
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_court_cards
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l1498_1502_162
+  to_node: n_learning_the_tarot_l1515_1569_163
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_pairs
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l1805_1809_165
+  to_node: n_learning_the_tarot_l1862_1867_166
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_reversed
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_learning_the_tarot_l3575_3577_25
+  to_node: n_learning_the_tarot_l3573_3575_23
+  relation: depends_on
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_magician
+    confidence: 0.7
+    inferred_from: condition_dependency
+- from_node: n_learning_the_tarot_l3777_3780_35
+  to_node: n_learning_the_tarot_l3774_3775_33
+  relation: depends_on
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_emper
+    confidence: 0.7
+    inferred_from: condition_dependency
+- from_node: n_learning_the_tarot_l3847_3849_38
+  to_node: n_learning_the_tarot_l3838_3840_36
+  relation: depends_on
+  condition: null
+  metadata:
+    shared_factors:
+    - card_tarot_hierophant
+    confidence: 0.7
+    inferred_from: condition_dependency
+- from_node: n_learning_the_tarot_no_source_ref_112
+  to_node: n_learning_the_tarot_no_source_ref_113
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_113
+  to_node: n_learning_the_tarot_no_source_ref_114
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_114
+  to_node: n_learning_the_tarot_no_source_ref_115
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_115
+  to_node: n_learning_the_tarot_no_source_ref_116
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_116
+  to_node: n_learning_the_tarot_no_source_ref_117
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_117
+  to_node: n_learning_the_tarot_no_source_ref_118
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_118
+  to_node: n_learning_the_tarot_no_source_ref_119
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_119
+  to_node: n_learning_the_tarot_no_source_ref_120
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_123
+  to_node: n_learning_the_tarot_no_source_ref_124
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_124
+  to_node: n_learning_the_tarot_no_source_ref_125
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_125
+  to_node: n_learning_the_tarot_no_source_ref_126
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_126
+  to_node: n_learning_the_tarot_no_source_ref_127
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_127
+  to_node: n_learning_the_tarot_no_source_ref_128
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_128
+  to_node: n_learning_the_tarot_no_source_ref_129
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_129
+  to_node: n_learning_the_tarot_no_source_ref_130
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_130
+  to_node: n_learning_the_tarot_no_source_ref_131
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_131
+  to_node: n_learning_the_tarot_no_source_ref_132
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_132
+  to_node: n_learning_the_tarot_no_source_ref_133
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_133
+  to_node: n_learning_the_tarot_no_source_ref_134
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_134
+  to_node: n_learning_the_tarot_no_source_ref_135
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_135
+  to_node: n_learning_the_tarot_no_source_ref_136
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_136
+  to_node: n_learning_the_tarot_no_source_ref_137
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_137
+  to_node: n_learning_the_tarot_no_source_ref_138
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_140
+  to_node: n_learning_the_tarot_no_source_ref_141
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_141
+  to_node: n_learning_the_tarot_no_source_ref_142
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_no_source_ref_142
+  to_node: n_learning_the_tarot_appendix_a_169
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_appendix_a_169
+  to_node: n_learning_the_tarot_appendix_b_170
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_appendix_b_170
+  to_node: n_learning_the_tarot_appendix_c_171
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_appendix_c_171
+  to_node: n_learning_the_tarot_appendix_d_172
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_appendix_d_172
+  to_node: n_learning_the_tarot_l1019_1034_152
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l1026_1034_167
+  to_node: n_learning_the_tarot_l1099_1127_153
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l1099_1127_153
+  to_node: n_learning_the_tarot_l1150_1159_154
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l1150_1159_154
+  to_node: n_learning_the_tarot_l1211_1223_155
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l1211_1223_155
+  to_node: n_learning_the_tarot_l1271_1274_156
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l1271_1274_156
+  to_node: n_learning_the_tarot_l1280_1287_157
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l1280_1287_157
+  to_node: n_learning_the_tarot_l1324_1326_159
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l1324_1326_159
+  to_node: n_learning_the_tarot_l1355_1358_158
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l1355_1358_158
+  to_node: n_learning_the_tarot_l1380_1383_160
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l1437_1474_161
+  to_node: n_learning_the_tarot_l1498_1502_162
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l1515_1569_163
+  to_node: n_learning_the_tarot_l1575_1790_164
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l1575_1790_164
+  to_node: n_learning_the_tarot_l1805_1809_165
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l1862_1867_166
+  to_node: n_learning_the_tarot_l2000_2005_168
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l2000_2005_168
+  to_node: n_learning_the_tarot_l222_223_8
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l222_223_8
+  to_node: n_learning_the_tarot_l306_307_3
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l306_307_3
+  to_node: n_learning_the_tarot_l308_310_1
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l308_310_1
+  to_node: n_learning_the_tarot_l312_316_2
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l312_316_2
+  to_node: n_learning_the_tarot_l346_348_4
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l346_348_4
+  to_node: n_learning_the_tarot_l3507_3510_19
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l3507_3510_19
+  to_node: n_learning_the_tarot_l351_353_5
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l351_353_5
+  to_node: n_learning_the_tarot_l3515_3517_21
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l3518_3519_20
+  to_node: n_learning_the_tarot_l3520_3522_22
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l3520_3522_22
+  to_node: n_learning_the_tarot_l3573_3575_23
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l3583_3585_26
+  to_node: n_learning_the_tarot_l3587_3588_24
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l3698_3700_31
+  to_node: n_learning_the_tarot_l3700_3702_30
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l3712_3715_32
+  to_node: n_learning_the_tarot_l374_375_7
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l374_375_7
+  to_node: n_learning_the_tarot_l3774_3775_33
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l3777_3780_35
+  to_node: n_learning_the_tarot_l3838_3840_36
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l3847_3849_38
+  to_node: n_learning_the_tarot_l3909_3911_39
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l3916_3917_40
+  to_node: n_learning_the_tarot_l3976_3979_41
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l3985_3987_42
+  to_node: n_learning_the_tarot_l4039_4042_43
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l4048_4051_44
+  to_node: n_learning_the_tarot_l4103_4106_45
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l4114_4116_46
+  to_node: n_learning_the_tarot_l4171_4175_47
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l4184_4186_48
+  to_node: n_learning_the_tarot_l4238_4243_49
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l4250_4252_50
+  to_node: n_learning_the_tarot_l4312_4317_51
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l4318_4323_52
+  to_node: n_learning_the_tarot_l434_438_6
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l434_438_6
+  to_node: n_learning_the_tarot_l4379_4382_53
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l4388_4390_54
+  to_node: n_learning_the_tarot_l4443_4450_55
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l4452_4454_56
+  to_node: n_learning_the_tarot_l4515_4520_57
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l4521_4529_58
+  to_node: n_learning_the_tarot_l4574_4576_59
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l4579_4582_60
+  to_node: n_learning_the_tarot_l4643_4644_61
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l4645_4646_62
+  to_node: n_learning_the_tarot_l4711_4712_63
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l4717_4718_64
+  to_node: n_learning_the_tarot_l474_476_9
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l474_476_9
+  to_node: n_learning_the_tarot_l477_478_10
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l477_478_10
+  to_node: n_learning_the_tarot_l4774_4775_65
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l4780_4781_66
+  to_node: n_learning_the_tarot_l4841_4842_67
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l4843_4844_68
+  to_node: n_learning_the_tarot_l488_490_13
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l488_490_13
+  to_node: n_learning_the_tarot_l4905_4906_69
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l4910_4911_70
+  to_node: n_learning_the_tarot_l495_498_11
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l495_498_11
+  to_node: n_learning_the_tarot_l5030_5031_71
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5036_5037_72
+  to_node: n_learning_the_tarot_l5044_5050_73
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5044_5050_73
+  to_node: n_learning_the_tarot_l509_522_12
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l509_522_12
+  to_node: n_learning_the_tarot_l5101_5110_74
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5101_5110_74
+  to_node: n_learning_the_tarot_l5158_5165_75
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5158_5165_75
+  to_node: n_learning_the_tarot_l5215_5225_76
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5215_5225_76
+  to_node: n_learning_the_tarot_l5272_5280_77
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5272_5280_77
+  to_node: n_learning_the_tarot_l532_534_14
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l532_534_14
+  to_node: n_learning_the_tarot_l5329_5340_78
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5329_5340_78
+  to_node: n_learning_the_tarot_l538_543_15
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l538_543_15
+  to_node: n_learning_the_tarot_l5386_5395_79
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5386_5395_79
+  to_node: n_learning_the_tarot_l544_549_16
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l544_549_16
+  to_node: n_learning_the_tarot_l5443_5455_80
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5443_5455_80
+  to_node: n_learning_the_tarot_l550_556_17
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l550_556_17
+  to_node: n_learning_the_tarot_l5500_5510_81
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5500_5510_81
+  to_node: n_learning_the_tarot_l5557_5565_82
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5557_5565_82
+  to_node: n_learning_the_tarot_l557_561_18
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l557_561_18
+  to_node: n_learning_the_tarot_l5619_5630_83
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5619_5630_83
+  to_node: n_learning_the_tarot_l5676_5685_84
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5676_5685_84
+  to_node: n_learning_the_tarot_l5733_5745_85
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5733_5745_85
+  to_node: n_learning_the_tarot_l5790_5800_86
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5790_5800_86
+  to_node: n_learning_the_tarot_l5847_5855_87
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5847_5855_87
+  to_node: n_learning_the_tarot_l5904_5915_88
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5904_5915_88
+  to_node: n_learning_the_tarot_l5961_5970_89
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l5961_5970_89
+  to_node: n_learning_the_tarot_l6018_6025_90
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l6018_6025_90
+  to_node: n_learning_the_tarot_l6075_6085_91
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l6075_6085_91
+  to_node: n_learning_the_tarot_l6132_6140_92
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l6132_6140_92
+  to_node: n_learning_the_tarot_l616_618_143
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l616_618_143
+  to_node: n_learning_the_tarot_l6194_6205_93
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l6365_6375_96
+  to_node: n_learning_the_tarot_l638_642_144
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l638_642_144
+  to_node: n_learning_the_tarot_l6422_6430_97
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l6479_6490_98
+  to_node: n_learning_the_tarot_l648_651_145
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l648_651_145
+  to_node: n_learning_the_tarot_l6536_6545_99
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l6650_6660_101
+  to_node: n_learning_the_tarot_l6707_6715_102
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l6707_6715_102
+  to_node: n_learning_the_tarot_l6769_6780_103
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l6769_6780_103
+  to_node: n_learning_the_tarot_l6826_6835_104
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l6826_6835_104
+  to_node: n_learning_the_tarot_l6883_6895_105
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l6883_6895_105
+  to_node: n_learning_the_tarot_l6940_6950_106
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l6940_6950_106
+  to_node: n_learning_the_tarot_l6997_7005_107
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l6997_7005_107
+  to_node: n_learning_the_tarot_l702_708_146
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l702_708_146
+  to_node: n_learning_the_tarot_l7054_7065_108
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l7054_7065_108
+  to_node: n_learning_the_tarot_l7111_7120_109
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l7111_7120_109
+  to_node: n_learning_the_tarot_l7168_7175_110
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l7168_7175_110
+  to_node: n_learning_the_tarot_l7225_7235_111
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l7225_7235_111
+  to_node: n_learning_the_tarot_l726_744_147
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l726_744_147
+  to_node: n_learning_the_tarot_l754_760_148
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l754_760_148
+  to_node: n_learning_the_tarot_l801_902_149
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_learning_the_tarot_l830_836_150
+  to_node: n_learning_the_tarot_l909_1098_151
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+narrative_order:
+- n_learning_the_tarot_l308_310_1
+- n_learning_the_tarot_l312_316_2
+- n_learning_the_tarot_l306_307_3
+- n_learning_the_tarot_l346_348_4
+- n_learning_the_tarot_l351_353_5
+- n_learning_the_tarot_l434_438_6
+- n_learning_the_tarot_l374_375_7
+- n_learning_the_tarot_l222_223_8
+- n_learning_the_tarot_l474_476_9
+- n_learning_the_tarot_l477_478_10
+- n_learning_the_tarot_l495_498_11
+- n_learning_the_tarot_l509_522_12
+- n_learning_the_tarot_l488_490_13
+- n_learning_the_tarot_l532_534_14
+- n_learning_the_tarot_l538_543_15
+- n_learning_the_tarot_l544_549_16
+- n_learning_the_tarot_l550_556_17
+- n_learning_the_tarot_l557_561_18
+- n_learning_the_tarot_l3507_3510_19
+- n_learning_the_tarot_l3518_3519_20
+- n_learning_the_tarot_l3515_3517_21
+- n_learning_the_tarot_l3520_3522_22
+- n_learning_the_tarot_l3573_3575_23
+- n_learning_the_tarot_l3587_3588_24
+- n_learning_the_tarot_l3575_3577_25
+- n_learning_the_tarot_l3583_3585_26
+- n_learning_the_tarot_l3639_3641_27
+- n_learning_the_tarot_l3643_3644_28
+- n_learning_the_tarot_l3649_3651_29
+- n_learning_the_tarot_l3700_3702_30
+- n_learning_the_tarot_l3698_3700_31
+- n_learning_the_tarot_l3712_3715_32
+- n_learning_the_tarot_l3774_3775_33
+- n_learning_the_tarot_l3774_3776_34
+- n_learning_the_tarot_l3777_3780_35
+- n_learning_the_tarot_l3838_3840_36
+- n_learning_the_tarot_l3840_3842_37
+- n_learning_the_tarot_l3847_3849_38
+- n_learning_the_tarot_l3909_3911_39
+- n_learning_the_tarot_l3916_3917_40
+- n_learning_the_tarot_l3976_3979_41
+- n_learning_the_tarot_l3985_3987_42
+- n_learning_the_tarot_l4039_4042_43
+- n_learning_the_tarot_l4048_4051_44
+- n_learning_the_tarot_l4103_4106_45
+- n_learning_the_tarot_l4114_4116_46
+- n_learning_the_tarot_l4171_4175_47
+- n_learning_the_tarot_l4184_4186_48
+- n_learning_the_tarot_l4238_4243_49
+- n_learning_the_tarot_l4250_4252_50
+- n_learning_the_tarot_l4312_4317_51
+- n_learning_the_tarot_l4318_4323_52
+- n_learning_the_tarot_l4379_4382_53
+- n_learning_the_tarot_l4388_4390_54
+- n_learning_the_tarot_l4443_4450_55
+- n_learning_the_tarot_l4452_4454_56
+- n_learning_the_tarot_l4515_4520_57
+- n_learning_the_tarot_l4521_4529_58
+- n_learning_the_tarot_l4574_4576_59
+- n_learning_the_tarot_l4579_4582_60
+- n_learning_the_tarot_l4643_4644_61
+- n_learning_the_tarot_l4645_4646_62
+- n_learning_the_tarot_l4711_4712_63
+- n_learning_the_tarot_l4717_4718_64
+- n_learning_the_tarot_l4774_4775_65
+- n_learning_the_tarot_l4780_4781_66
+- n_learning_the_tarot_l4841_4842_67
+- n_learning_the_tarot_l4843_4844_68
+- n_learning_the_tarot_l4905_4906_69
+- n_learning_the_tarot_l4910_4911_70
+- n_learning_the_tarot_l5030_5031_71
+- n_learning_the_tarot_l5036_5037_72
+- n_learning_the_tarot_l5044_5050_73
+- n_learning_the_tarot_l5101_5110_74
+- n_learning_the_tarot_l5158_5165_75
+- n_learning_the_tarot_l5215_5225_76
+- n_learning_the_tarot_l5272_5280_77
+- n_learning_the_tarot_l5329_5340_78
+- n_learning_the_tarot_l5386_5395_79
+- n_learning_the_tarot_l5443_5455_80
+- n_learning_the_tarot_l5500_5510_81
+- n_learning_the_tarot_l5557_5565_82
+- n_learning_the_tarot_l5619_5630_83
+- n_learning_the_tarot_l5676_5685_84
+- n_learning_the_tarot_l5733_5745_85
+- n_learning_the_tarot_l5790_5800_86
+- n_learning_the_tarot_l5847_5855_87
+- n_learning_the_tarot_l5904_5915_88
+- n_learning_the_tarot_l5961_5970_89
+- n_learning_the_tarot_l6018_6025_90
+- n_learning_the_tarot_l6075_6085_91
+- n_learning_the_tarot_l6132_6140_92
+- n_learning_the_tarot_l6194_6205_93
+- n_learning_the_tarot_l6251_6260_94
+- n_learning_the_tarot_l6308_6320_95
+- n_learning_the_tarot_l6365_6375_96
+- n_learning_the_tarot_l6422_6430_97
+- n_learning_the_tarot_l6479_6490_98
+- n_learning_the_tarot_l6536_6545_99
+- n_learning_the_tarot_l6593_6600_100
+- n_learning_the_tarot_l6650_6660_101
+- n_learning_the_tarot_l6707_6715_102
+- n_learning_the_tarot_l6769_6780_103
+- n_learning_the_tarot_l6826_6835_104
+- n_learning_the_tarot_l6883_6895_105
+- n_learning_the_tarot_l6940_6950_106
+- n_learning_the_tarot_l6997_7005_107
+- n_learning_the_tarot_l7054_7065_108
+- n_learning_the_tarot_l7111_7120_109
+- n_learning_the_tarot_l7168_7175_110
+- n_learning_the_tarot_l7225_7235_111
+- n_learning_the_tarot_no_source_ref_112
+- n_learning_the_tarot_no_source_ref_113
+- n_learning_the_tarot_no_source_ref_114
+- n_learning_the_tarot_no_source_ref_115
+- n_learning_the_tarot_no_source_ref_116
+- n_learning_the_tarot_no_source_ref_117
+- n_learning_the_tarot_no_source_ref_118
+- n_learning_the_tarot_no_source_ref_119
+- n_learning_the_tarot_no_source_ref_120
+- n_learning_the_tarot_no_source_ref_121
+- n_learning_the_tarot_no_source_ref_122
+- n_learning_the_tarot_no_source_ref_123
+- n_learning_the_tarot_no_source_ref_124
+- n_learning_the_tarot_no_source_ref_125
+- n_learning_the_tarot_no_source_ref_126
+- n_learning_the_tarot_no_source_ref_127
+- n_learning_the_tarot_no_source_ref_128
+- n_learning_the_tarot_no_source_ref_129
+- n_learning_the_tarot_no_source_ref_130
+- n_learning_the_tarot_no_source_ref_131
+- n_learning_the_tarot_no_source_ref_132
+- n_learning_the_tarot_no_source_ref_133
+- n_learning_the_tarot_no_source_ref_134
+- n_learning_the_tarot_no_source_ref_135
+- n_learning_the_tarot_no_source_ref_136
+- n_learning_the_tarot_no_source_ref_137
+- n_learning_the_tarot_no_source_ref_138
+- n_learning_the_tarot_no_source_ref_139
+- n_learning_the_tarot_no_source_ref_140
+- n_learning_the_tarot_no_source_ref_141
+- n_learning_the_tarot_no_source_ref_142
+- n_learning_the_tarot_l616_618_143
+- n_learning_the_tarot_l638_642_144
+- n_learning_the_tarot_l648_651_145
+- n_learning_the_tarot_l702_708_146
+- n_learning_the_tarot_l726_744_147
+- n_learning_the_tarot_l754_760_148
+- n_learning_the_tarot_l801_902_149
+- n_learning_the_tarot_l830_836_150
+- n_learning_the_tarot_l909_1098_151
+- n_learning_the_tarot_l1019_1034_152
+- n_learning_the_tarot_l1099_1127_153
+- n_learning_the_tarot_l1150_1159_154
+- n_learning_the_tarot_l1211_1223_155
+- n_learning_the_tarot_l1271_1274_156
+- n_learning_the_tarot_l1280_1287_157
+- n_learning_the_tarot_l1355_1358_158
+- n_learning_the_tarot_l1324_1326_159
+- n_learning_the_tarot_l1380_1383_160
+- n_learning_the_tarot_l1437_1474_161
+- n_learning_the_tarot_l1498_1502_162
+- n_learning_the_tarot_l1515_1569_163
+- n_learning_the_tarot_l1575_1790_164
+- n_learning_the_tarot_l1805_1809_165
+- n_learning_the_tarot_l1862_1867_166
+- n_learning_the_tarot_l1026_1034_167
+- n_learning_the_tarot_l2000_2005_168
+- n_learning_the_tarot_appendix_a_169
+- n_learning_the_tarot_appendix_b_170
+- n_learning_the_tarot_appendix_c_171
+- n_learning_the_tarot_appendix_d_172
+entry_nodes:
+- n_learning_the_tarot_l474_476_9
+- n_learning_the_tarot_l477_478_10
+- n_learning_the_tarot_l3507_3510_19
+- n_learning_the_tarot_l3573_3575_23
+- n_learning_the_tarot_l3639_3641_27
+- n_learning_the_tarot_l3700_3702_30
+- n_learning_the_tarot_l3774_3775_33
+- n_learning_the_tarot_l3838_3840_36
+- n_learning_the_tarot_l3909_3911_39
+- n_learning_the_tarot_l3976_3979_41
+- n_learning_the_tarot_l4039_4042_43
+- n_learning_the_tarot_l4103_4106_45
+- n_learning_the_tarot_l4171_4175_47
+- n_learning_the_tarot_l4238_4243_49
+- n_learning_the_tarot_l4312_4317_51
+- n_learning_the_tarot_l4379_4382_53
+- n_learning_the_tarot_l4443_4450_55
+- n_learning_the_tarot_l4515_4520_57
+- n_learning_the_tarot_l4574_4576_59
+- n_learning_the_tarot_l4643_4644_61
+- n_learning_the_tarot_l4711_4712_63
+- n_learning_the_tarot_l4774_4775_65
+- n_learning_the_tarot_l4841_4842_67
+- n_learning_the_tarot_l4905_4906_69
+- n_learning_the_tarot_l1380_1383_160
+- n_learning_the_tarot_l308_310_1
+- n_learning_the_tarot_l346_348_4
+- n_learning_the_tarot_l434_438_6
+- n_learning_the_tarot_l532_534_14
+- n_learning_the_tarot_l5030_5031_71
+- n_learning_the_tarot_l5044_5050_73
+- n_learning_the_tarot_l5101_5110_74
+- n_learning_the_tarot_l5158_5165_75
+- n_learning_the_tarot_l5215_5225_76
+- n_learning_the_tarot_l5272_5280_77
+- n_learning_the_tarot_l5329_5340_78
+- n_learning_the_tarot_l5386_5395_79
+- n_learning_the_tarot_l5443_5455_80
+- n_learning_the_tarot_l5500_5510_81
+- n_learning_the_tarot_l5557_5565_82
+- n_learning_the_tarot_l5619_5630_83
+- n_learning_the_tarot_l5676_5685_84
+- n_learning_the_tarot_l5733_5745_85
+- n_learning_the_tarot_l5790_5800_86
+- n_learning_the_tarot_l5847_5855_87
+- n_learning_the_tarot_l5904_5915_88
+- n_learning_the_tarot_l5961_5970_89
+- n_learning_the_tarot_l6018_6025_90
+- n_learning_the_tarot_l6075_6085_91
+- n_learning_the_tarot_l6132_6140_92
+- n_learning_the_tarot_l6194_6205_93
+- n_learning_the_tarot_l6251_6260_94
+- n_learning_the_tarot_l6308_6320_95
+- n_learning_the_tarot_l6365_6375_96
+- n_learning_the_tarot_l6422_6430_97
+- n_learning_the_tarot_l6479_6490_98
+- n_learning_the_tarot_l6536_6545_99
+- n_learning_the_tarot_l6593_6600_100
+- n_learning_the_tarot_l6650_6660_101
+- n_learning_the_tarot_l6707_6715_102
+- n_learning_the_tarot_l6769_6780_103
+- n_learning_the_tarot_l6826_6835_104
+- n_learning_the_tarot_l6883_6895_105
+- n_learning_the_tarot_l6940_6950_106
+- n_learning_the_tarot_l6997_7005_107
+- n_learning_the_tarot_l7054_7065_108
+- n_learning_the_tarot_l7111_7120_109
+- n_learning_the_tarot_l7168_7175_110
+- n_learning_the_tarot_l7225_7235_111
+- n_learning_the_tarot_no_source_ref_112
+- n_learning_the_tarot_no_source_ref_113
+- n_learning_the_tarot_no_source_ref_114
+- n_learning_the_tarot_no_source_ref_115
+- n_learning_the_tarot_no_source_ref_116
+- n_learning_the_tarot_no_source_ref_117
+- n_learning_the_tarot_no_source_ref_118
+- n_learning_the_tarot_no_source_ref_119
+- n_learning_the_tarot_no_source_ref_120
+- n_learning_the_tarot_no_source_ref_121
+- n_learning_the_tarot_no_source_ref_122
+- n_learning_the_tarot_no_source_ref_123
+- n_learning_the_tarot_no_source_ref_124
+- n_learning_the_tarot_no_source_ref_125
+- n_learning_the_tarot_no_source_ref_126
+- n_learning_the_tarot_no_source_ref_127
+- n_learning_the_tarot_no_source_ref_128
+- n_learning_the_tarot_no_source_ref_129
+- n_learning_the_tarot_no_source_ref_130
+- n_learning_the_tarot_no_source_ref_131
+- n_learning_the_tarot_no_source_ref_132
+- n_learning_the_tarot_no_source_ref_133
+- n_learning_the_tarot_no_source_ref_134
+- n_learning_the_tarot_no_source_ref_135
+- n_learning_the_tarot_no_source_ref_136
+- n_learning_the_tarot_no_source_ref_137
+- n_learning_the_tarot_no_source_ref_138
+- n_learning_the_tarot_no_source_ref_139
+- n_learning_the_tarot_no_source_ref_140
+- n_learning_the_tarot_no_source_ref_141
+- n_learning_the_tarot_no_source_ref_142
+- n_learning_the_tarot_l616_618_143
+- n_learning_the_tarot_l638_642_144
+- n_learning_the_tarot_l648_651_145
+- n_learning_the_tarot_l702_708_146
+- n_learning_the_tarot_l726_744_147
+- n_learning_the_tarot_l754_760_148
+- n_learning_the_tarot_l801_902_149
+- n_learning_the_tarot_l830_836_150
+- n_learning_the_tarot_l909_1098_151
+- n_learning_the_tarot_l1099_1127_153
+- n_learning_the_tarot_l1150_1159_154
+- n_learning_the_tarot_l1211_1223_155
+- n_learning_the_tarot_l1280_1287_157
+- n_learning_the_tarot_l1355_1358_158
+- n_learning_the_tarot_l1324_1326_159
+- n_learning_the_tarot_l1498_1502_162
+- n_learning_the_tarot_l1575_1790_164
+- n_learning_the_tarot_l1805_1809_165
+- n_learning_the_tarot_l1862_1867_166
+- n_learning_the_tarot_l1026_1034_167
+- n_learning_the_tarot_l2000_2005_168
+- n_learning_the_tarot_appendix_a_169
+- n_learning_the_tarot_appendix_b_170
+- n_learning_the_tarot_appendix_c_171
+- n_learning_the_tarot_appendix_d_172
+terminal_nodes:
+- n_learning_the_tarot_l909_1098_151
+metadata:
+  version: 2.0.0
+  extracted_at: 2025-11-30 22:12:46.026069
+  source_files: []
+  snippet_count: 172
+  relation_count: 163
+version: 1.0.0

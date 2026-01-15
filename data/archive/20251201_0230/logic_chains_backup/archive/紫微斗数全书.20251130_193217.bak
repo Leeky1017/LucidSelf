@@ -1,0 +1,34 @@
+chain_id: chain_紫微斗
+book_id: 紫微斗数全书
+nodes:
+- node_id: n_紫微斗_紫微星_0
+  snippet_ids:
+  - ns_zwds_j1_001
+  - ns_zwds_j1_002
+  - ns_zwds_j1_003
+  - ns_zwds_j1_004
+  - ns_zwds_j1_005
+  - ns_zwds_j1_006
+  - ns_zwds_j1_007
+  role: 主干
+  condition: null
+  summary: 紫微守命
+  metadata:
+    source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+    snippet_count: 7
+edges: []
+narrative_order:
+- n_紫微斗_紫微星_0
+entry_nodes:
+- n_紫微斗_紫微星_0
+terminal_nodes:
+- n_紫微斗_紫微星_0
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-11-30T18:46:04.901906'
+  source_files:
+  - data/schema_staging/snippets/紫微斗数全书_snippets.yaml
+  - data/schema_staging/relations/紫微斗数全书_relations.yaml
+  snippet_count: 7
+  relation_count: 804
+version: 1.0.0

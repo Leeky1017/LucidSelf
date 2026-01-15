@@ -1,0 +1,53 @@
+$ PYTHONPATH=. .venv/bin/pytest backend/tests/gate0/test_identity_and_data_isolation.py -q
+...                                                                      [100%]
+=============================== warnings summary ===============================
+.venv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:149
+  /home/leeky/work/LucidSelf/.venv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_id" has conflict with protected namespace "model_".
+  
+  You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+    warnings.warn(
+
+.venv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:149
+  /home/leeky/work/LucidSelf/.venv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_used" has conflict with protected namespace "model_".
+  
+  You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+    warnings.warn(
+
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+  /home/leeky/work/LucidSelf/.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.5/migration/
+    warnings.warn(DEPRECATION_MESSAGE, DeprecationWarning)
+
+backend/tests/gate0/test_identity_and_data_isolation.py:33
+  /home/leeky/work/LucidSelf/backend/tests/gate0/test_identity_and_data_isolation.py:33: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    created_at: datetime = datetime.utcnow()
+
+backend/tests/gate0/test_identity_and_data_isolation.py:34
+  /home/leeky/work/LucidSelf/backend/tests/gate0/test_identity_and_data_isolation.py:34: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    updated_at: datetime = datetime.utcnow()
+
+backend/tests/gate0/test_identity_and_data_isolation.py::test_dream_create_rejects_client_user_id_mismatch
+  /home/leeky/work/LucidSelf/backend/tests/gate0/test_identity_and_data_isolation.py:99: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    created_at=datetime.utcnow(),
+
+backend/tests/gate0/test_identity_and_data_isolation.py::test_dream_create_uses_authenticated_identity
+  /home/leeky/work/LucidSelf/backend/tests/gate0/test_identity_and_data_isolation.py:130: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    created_at=datetime.utcnow(),
+
+backend/tests/gate0/test_identity_and_data_isolation.py::test_dream_create_uses_authenticated_identity
+  /home/leeky/work/LucidSelf/backend/tests/gate0/test_identity_and_data_isolation.py:60: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    created_at=datetime.utcnow(),
+
+backend/tests/gate0/test_identity_and_data_isolation.py::test_dream_create_uses_authenticated_identity
+  /home/leeky/work/LucidSelf/backend/tests/gate0/test_identity_and_data_isolation.py:61: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    updated_at=datetime.utcnow(),
+
+backend/tests/gate0/test_identity_and_data_isolation.py::test_dream_list_scopes_by_user_and_org
+  /home/leeky/work/LucidSelf/backend/tests/gate0/test_identity_and_data_isolation.py:160: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    created_at=datetime.utcnow(),
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+3 passed, 14 warnings in 1.54s

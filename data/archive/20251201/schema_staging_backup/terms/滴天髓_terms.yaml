@@ -1,0 +1,2407 @@
+book_id: 滴天髓
+source_file: 典籍/中文典籍/滴天髓/编辑/滴天髓_完整规范化_上卷.md, 典籍/中文典籍/滴天髓/编辑/滴天髓_完整规范化_下卷.md, 典籍/中文典籍/滴天髓/编辑/滴天髓_完整规范化_中卷.md
+extracted_at: '2025-11-30T21:12:29.462877'
+terms:
+- term_zh: 三元
+  term_en: Three Foundations (Sanyuan)
+  definition_zh: 天元、地元、人元，或年元、月元、日元，构成命理体系的三层框架
+  definition_en: Heaven-Earth-Human foundations or Year-Month-Day pillars, forming
+    the three-tier framework of destiny analysis
+  factor_id: sanyuan_frame
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 帝载
+  term_en: Imperial Mandate (Dizai)
+  definition_zh: 天道运行的承载轨道，指历法、节令、岁时的周期系统
+  definition_en: The celestial carrying track, referring to calendar cycles, seasonal
+    nodes, and temporal order
+  factor_id: dizai_shengong
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 神功
+  term_en: Divine Workings (Shengong)
+  definition_zh: 四时造化的具体作用，春木夏火秋金冬水的气机运转
+  definition_en: The concrete transformative functions of four seasons and their qi
+    circulation
+  factor_id: shengong_function
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 天元
+  term_en: Heaven Foundation (Tianyuan)
+  definition_zh: 以日干为核心的上位主体层，代表命主本身
+  definition_en: The upper foundation centered on Day Stem, representing the self
+  factor_id: tianyuan_layer
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 地元
+  term_en: Earth Foundation (Diyuan)
+  definition_zh: 四柱地支所代表的环境与地气层
+  definition_en: The environmental foundation represented by Four Branches
+  factor_id: diyuan_layer
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 人元
+  term_en: Human Foundation (Renyuan)
+  definition_zh: 支中藏干所代表的人事与作用层
+  definition_en: The human affairs layer represented by Hidden Stems within Branches
+  factor_id: renyuan_layer
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 坤元
+  term_en: Earth's Foundation (Kunyuan)
+  definition_zh: 地支所代表的地道、地气与方位结构
+  definition_en: The terrestrial foundation formed by Earthly Branches, representing
+    terrain and qi distribution
+  factor_id: kunyuan_earth_layout
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 合德
+  term_en: Virtue Alignment (Hede)
+  definition_zh: 地支局与天干用神相生相扶之状态
+  definition_en: The state where Earthly Branch formations align in virtue with Heavenly
+    Stem Useful Gods
+  factor_id: hede_alignment
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 机缄
+  term_en: Pivotal Hubs (Jijian)
+  definition_zh: 三合、方局、库地等能量进出的枢纽
+  definition_en: Structural hubs such as trines, directional formations and storage
+    branches where qi enters and exits
+  factor_id: jijian_hub_flow
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 五气
+  term_en: Five Qi (Wuqi)
+  definition_zh: 木火土金水五行之气的总称
+  definition_en: The collective qi of the five elements Wood, Fire, Earth, Metal and
+    Water
+  factor_id: wuqi_elements
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 偏全
+  term_en: Bias or Completeness (Pianquan)
+  definition_zh: 五行之气有偏颇或纯全的分布状态
+  definition_en: The biased or complete distribution pattern of the Five Elements'
+    qi
+  factor_id: wuxing_bias_pattern
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 戴天
+  term_en: Wearing Heaven (Dai Tian)
+  definition_zh: 承接天时、天道的运行节律
+  definition_en: Receiving and aligning with celestial timing and seasonal mandate
+  factor_id: daitian_alignment
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 履地
+  term_en: Treading Earth (Lü Di)
+  definition_zh: 践履地气、立足于地支环境结构
+  definition_en: Grounding in terrestrial qi and environmental configuration
+  factor_id: ludi_grounding
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 三才
+  term_en: Heaven-Earth-Human Triad (Sancai)
+  definition_zh: 天、地、人三个层次的系统框架
+  definition_en: The three-tier systemic framework of celestial, terrestrial, and
+    human dimensions
+  factor_id: sancai_alignment
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 顺
+  term_en: Accordance (Shun)
+  definition_zh: 顺应五行常理与当下气机的方向
+  definition_en: Acting in harmony with elemental principles and current qi momentum
+  factor_id: shun_bei_pattern
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 悖
+  term_en: Contravention (Bei)
+  definition_zh: 违逆自然规律与结构大势
+  definition_en: Acting against natural patterns and structural momentum
+  factor_id: shun_bei_pattern
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 用神
+  term_en: Useful God (Yongshen)
+  definition_zh: 命局中起关键平衡或推动作用的五行
+  definition_en: The element that plays a pivotal balancing or propelling role in
+    the chart
+  factor_id: yongshen
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 聋瞆
+  term_en: Deaf and Blind (Long Kuai)
+  definition_zh: 听不见、看不明，比喻对命理机制的迷昧无知
+  definition_en: Metaphor for confusion and ignorance regarding destiny mechanisms
+  factor_id: longkuai_state
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 机
+  term_en: Pivotal Mechanism (Ji)
+  definition_zh: 关键转折点、铰链时刻，结构-时机-选择交汇处
+  definition_en: Critical leverage points where structure, timing, and choice intersect
+  factor_id: ji_pivot_profile
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 理会
+  term_en: Comprehension (Lihui)
+  definition_zh: 明白并掌握，从迷昧到觉察的认知转化
+  definition_en: To understand and grasp, cognitive transformation from confusion
+    to awareness
+  factor_id: lihui_awareness
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 机在时令
+  term_en: Timing-Based Pivot
+  definition_zh: 顺悖随节令、运岁变化的动态机位
+  definition_en: Dynamic pivot points that shift with seasonal and cyclical phases
+  factor_id: ji_timing_pivot
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 机在强弱
+  term_en: Strength-Based Pivot
+  definition_zh: 因日主强弱不同而产生的机位差异
+  definition_en: Pivot variations arising from Day Master strength configurations
+  factor_id: ji_strength_pivot
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 机在情义
+  term_en: Sentiment-Based Pivot
+  definition_zh: 生合有情或冲刑害深形成的关系枢纽
+  definition_en: Relational pivots formed by harmonious or conflicting interactions
+  factor_id: ji_sentiment_pivot
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 理
+  term_en: Principle (Li)
+  definition_zh: 五行运行的恒常法则与秩序
+  definition_en: The constant principle and order governing Five Elements movement
+  factor_id: li_principle
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 气行
+  term_en: Qi Movement (Qi Xing)
+  definition_zh: 气机的升降出入、翕辟往来
+  definition_en: The rising-falling, contraction-expansion circulation of qi
+  factor_id: qi_movement
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 进
+  term_en: Advance (Jin)
+  definition_zh: 气之进、生旺之势
+  definition_en: Phase of waxing strength and vigor
+  factor_id: jin_tui_phase
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 退
+  term_en: Retreat (Tui)
+  definition_zh: 气之退、休囚之势
+  definition_en: Phase of waning strength and decline
+  factor_id: jin_tui_phase
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 抑
+  term_en: Restraint (Yi)
+  definition_zh: 抑制过度、削减太过之处
+  definition_en: Restraining what is excessive, reducing what is too strong
+  factor_id: yi_yang_strategy
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 扬
+  term_en: Support (Yang)
+  definition_zh: 扶助不足、补充欠缺之方
+  definition_en: Supporting what is deficient, supplementing what is lacking
+  factor_id: yi_yang_strategy
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 干支配合
+  term_en: Stem-Branch Combinations (Gan Zhi Pei He)
+  definition_zh: 天干与地支的匹配组合关系
+  definition_en: The pairing and combinatorial relationships between Heavenly Stems
+    and Earthly Branches
+  factor_id: ganzhi_pairing_map
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 透
+  term_en: Revealed/Transparent (Tou)
+  definition_zh: 天干显露，功能显化
+  definition_en: Stems manifest visibly, functions become apparent
+  factor_id: gan_reveal_state
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 藏
+  term_en: Hidden/Concealed (Cang)
+  definition_zh: 地支藏干，根气潜伏
+  definition_en: Hidden stems within branches, latent root qi
+  factor_id: cang_hidden_state
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 通根
+  term_en: Rooting (Tong Gen)
+  definition_zh: 天干在地支中有根气支撑
+  definition_en: Stems having root qi support in branches
+  factor_id: tonggen
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 情义
+  term_en: Affection-Sentiment (Qing Yi)
+  definition_zh: 干支间生合克冲的和谐或冲突关系
+  definition_en: Harmonious or conflicting dynamics of generation, combination, control,
+    clash among stems-branches
+  factor_id: qingyi_relation
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 祸福
+  term_en: Fortune-Misfortune (Huo Fu)
+  definition_zh: 吉凶祸福的综合判定
+  definition_en: Comprehensive assessment of auspicious and inauspicious outcomes
+  factor_id: huofu_outcome
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 五阳
+  term_en: Five Yang Stems
+  definition_zh: 甲丙戊庚壬五个阳性天干
+  definition_en: 'The five Yang Heavenly Stems: Jia, Bing, Wu, Geng, Ren'
+  factor_id: wuyang_group
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 五阴
+  term_en: Five Yin Stems
+  definition_zh: 乙丁己辛癸五个阴性天干
+  definition_en: 'The five Yin Heavenly Stems: Yi, Ding, Ji, Xin, Gui'
+  factor_id: wuyin_group
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 阳中之阳
+  term_en: Yang within Yang
+  definition_zh: 阳干中最纯粹的阳性，指丙火
+  definition_en: The purest Yang among Yang stems, referring to Bing Fire
+  factor_id: bing_huo_pole
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 阴中之阴
+  term_en: Yin within Yin
+  definition_zh: 阴干中最纯粹的阴性，指癸水
+  definition_en: The purest Yin among Yin stems, referring to Gui Water
+  factor_id: gui_shui_pole
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 丙火
+  term_en: Bing Fire
+  definition_zh: 阳火，禀阳之精，光明外放
+  definition_en: Yang Fire, embodying the essence of Yang, bright and outward-radiating
+  factor_id: tiangan_bing
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 癸水
+  term_en: Gui Water
+  definition_zh: 阴水，禀阴之精，润下内藏
+  definition_en: Yin Water, embodying the essence of Yin, moistening and inward-concealing
+  factor_id: tiangan_gui
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 从气
+  term_en: Following Qi (Cong Qi)
+  definition_zh: 以日主本气为主，不随外势的从属模式
+  definition_en: A following pattern where the chart aligns primarily with the Day
+    Master's intrinsic qi rather than external forces
+  factor_id: cong_qi_pattern
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 从势
+  term_en: Following Shi (Cong Shi)
+  definition_zh: 以外在财官煞等强势结构为主的从属模式
+  definition_en: A following pattern where the chart yields to dominant external formations
+    such as Wealth, Authority or Killing
+  factor_id: cong_shi_pattern
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 气
+  term_en: Intrinsic Qi (Qi)
+  definition_zh: 日主之根、令与同类支持所形成的内在力量
+  definition_en: The intrinsic strength formed by root, seasonal command and same-element
+    support of the Day Master
+  factor_id: intrinsic_qi
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 势
+  term_en: External Momentum (Shi)
+  definition_zh: 由财官煞等外在结构及环境形成的强势
+  definition_en: The external momentum created by configurations of Wealth, Authority,
+    Killing and contextual pressures
+  factor_id: external_shi
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 从格
+  term_en: Following Pattern (Cong Ge)
+  definition_zh: 日主放弃自立而随某一单一气/势的格局
+  definition_en: A pattern where the Day Master relinquishes self-dominance and follows
+    a single concentrated qi or shi
+  factor_id: cong_ge
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 情义
+  term_en: Affection-Sentiment (Qingyi)
+  definition_zh: 生合有情或克冲无情的关系取向与稳定度
+  definition_en: The quality and stability of generative or conflicting relationships
+    among stems and branches
+  factor_id: qingyi_stability
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 阳支
+  term_en: Yang Branches
+  definition_zh: 子寅辰午申戌六支
+  definition_en: 'The six yang branches: Zi Yin Chen Wu Shen Xu'
+  factor_id: dizhi_yangzhi_group
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 动且强
+  term_en: Dynamic and Strong
+  definition_zh: 性动势强主动有力
+  definition_en: Active nature, forceful momentum
+  factor_id: yangzhi_dong_qiang
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 速达
+  term_en: Rapid Manifestation
+  definition_zh: 应事快、反应迅速
+  definition_en: Events manifest quickly and visibly
+  factor_id: suda_yingqi
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 显灾祥
+  term_en: Visible Fortune-Misfortune
+  definition_zh: 吉凶迹象来得明显
+  definition_en: Auspice and inauspice become clearly visible
+  factor_id: xian_zaixiang
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 阴支
+  term_en: Yin Branches
+  definition_zh: 丑卯巳未酉亥六支
+  definition_en: 'Six yin branches: Chou Mao Si Wei You Hai'
+  factor_id: dizhi_yinzhi_group
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 静且专
+  term_en: Still and Focused
+  definition_zh: 性静气专守而不散
+  definition_en: Still nature, focused qi
+  factor_id: yinzhi_jing_zhuan
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 否泰
+  term_en: Fortune-Misfortune
+  definition_zh: 吉凶祸福
+  definition_en: Auspice and inauspice
+  factor_id: pitai
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 每经年
+  term_en: Through Full Years
+  definition_zh: 需经历完整年份
+  definition_en: Requiring full-year cycles
+  factor_id: jingnian_yingqi
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 生方
+  term_en: Birth Locations
+  definition_zh: 寅申巳亥四长生位
+  definition_en: 'Four birth-locations: Yin Shen Si Hai'
+  factor_id: shengfang
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 库
+  term_en: Storage Vaults
+  definition_zh: 辰戌丑未四墓库
+  definition_en: 'Four vaults: Chen Xu Chou Wei'
+  factor_id: kudi
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 败地
+  term_en: Defeat Locations
+  definition_zh: 子午卯酉四败位
+  definition_en: 'Four defeat-locations: Zi Wu Mao You'
+  factor_id: baidi
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 怕动
+  term_en: Fears Disturbance
+  definition_zh: 生方忌冲扰根基
+  definition_en: Birth-locations fear root disturbance
+  factor_id: padong
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 库宜开
+  term_en: Vaults Benefit Opening
+  definition_zh: 库地宜冲开发藏
+  definition_en: Vaults benefit from opening
+  factor_id: kuyikai
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 子细裁
+  term_en: Detailed Judgment
+  definition_zh: 需细致权衡判断
+  definition_en: Requires careful case-analysis
+  factor_id: zixicai
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 中文术语
+  term_en: 英文术语
+  definition_zh: 中文定义
+  definition_en: 英文定义
+  factor_id: factor_id
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 生方
+  term_en: Birth Position
+  definition_zh: 四生地（寅申巳亥）
+  definition_en: 'Four birth positions: Yin Shen Si Hai'
+  factor_id: dizhi_birth_position
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 库地
+  term_en: Storage Vault
+  definition_zh: 四库地（辰戌丑未）
+  definition_en: 'Four storage vaults: Chen Xu Chou Wei'
+  factor_id: dizhi_storage_vault
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 败地
+  term_en: Defeat Position
+  definition_zh: 四败地（子午卯酉）
+  definition_en: 'Four defeat positions: Zi Wu Mao You'
+  factor_id: dizhi_defeat_position
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 护根
+  term_en: Protect Roots
+  definition_zh: 生地忌冲，需护持根气
+  definition_en: Birth positions dislike clashing, need protection
+  factor_id: hugen_strategy
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 开库
+  term_en: Open Vault
+  definition_zh: 库地宜冲，方能发用
+  definition_en: Storage vaults benefit from opening
+  factor_id: kaichu_strategy
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 权衡
+  term_en: Balance
+  definition_zh: 败地或喜冲或喜合，需权衡
+  definition_en: Defeat positions require case-by-case judgment
+  factor_id: quanheng_strategy
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 冲
+  term_en: Clash (Chong)
+  definition_zh: 地支相冲必克引动
+  definition_en: Branch clashing, involves克 and triggers motion
+  factor_id: dizhi_chong
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 刑
+  term_en: Punishment (Xing)
+  definition_zh: 制约伤害有时含生合
+  definition_en: Constraining harm, sometimes contains生合
+  factor_id: dizhi_xing
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 害
+  term_en: Harm (Hai)
+  definition_zh: 损伤不合可能缓冲
+  definition_en: Damaging incompatibility, may be buffered
+  factor_id: dizhi_hai
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 动不动
+  term_en: Motion or Not
+  definition_zh: 是否真正引发动象
+  definition_en: Whether truly triggers motion
+  factor_id: dongbudong
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 生合缓冲
+  term_en: Birth-Combine Buffer
+  definition_zh: 刑害中的生合关系缓解
+  definition_en: Mitigating relationships in punishment-harm
+  factor_id: shenghe_huanchong
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 动象
+  term_en: Motion Manifestation
+  definition_zh: 事象的变动显现
+  definition_en: Manifestation of change and movement
+  factor_id: dongxiang
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 暗冲
+  term_en: Hidden Clash
+  definition_zh: 非显见的冲动关系
+  definition_en: Non-explicit clashing via structural assembly
+  factor_id: anchong
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 暗会
+  term_en: Hidden Meeting
+  definition_zh: 三合会局形成暗神
+  definition_en: Hidden spirits via three-harmony assembly
+  factor_id: anhui
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 彼冲我
+  term_en: They Clash Me
+  definition_zh: 对方冲动本方
+  definition_en: 'Directional: they initiate clash against me'
+  factor_id: bichongwo
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 我冲彼
+  term_en: I Clash Them
+  definition_zh: 本方冲动对方
+  definition_en: 'Directional: I initiate clash against them'
+  factor_id: wochongbi
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 暗神
+  term_en: Hidden Spirit
+  definition_zh: 隐藏的力量结构
+  definition_en: Hidden structural force
+  factor_id: anshen
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 灵动
+  term_en: Flexible Power
+  definition_zh: 隐藏力量的灵活性
+  definition_en: Flexible effectiveness of hidden forces
+  factor_id: lingdong
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 天全一气
+  term_en: Heaven Complete One-Qi
+  definition_zh: 天干一气过盛
+  definition_en: Heaven-stems single-element dominance
+  factor_id: tianquan_yiqi
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 地道
+  term_en: Earth Way
+  definition_zh: 地支层面的承载
+  definition_en: Earth-branches' carrying capacity
+  factor_id: didao
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 莫之载
+  term_en: Cannot Carry
+  definition_zh: 无法承载天干之势
+  definition_en: Unable to carry heaven's momentum
+  factor_id: mozhizai
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 承载
+  term_en: Carrying Capacity
+  definition_zh: 地支对天干的支撑
+  definition_en: Earth supporting heaven
+  factor_id: chengzai
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 失衡
+  term_en: Imbalance
+  definition_zh: 上下结构不协调
+  definition_en: Vertical structural discord
+  factor_id: shiheng
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 通关
+  term_en: Passageway
+  definition_zh: 调和疏导的路径
+  definition_en: Mediating and conducting pathway
+  factor_id: tongguan
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 地全三物
+  term_en: Earth Complete Three-Materials
+  definition_zh: 地支三会方局
+  definition_en: Earth-branches three-assembly purity
+  factor_id: diquan_sanwu
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 天道
+  term_en: Heaven Way
+  definition_zh: 天干层面的覆护
+  definition_en: Heaven-stems' covering function
+  factor_id: tiandao
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 莫之覆
+  term_en: Cannot Cover
+  definition_zh: 无法覆护地支之局
+  definition_en: Unable to cover earth's assembly
+  factor_id: mozhifu
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 覆护
+  term_en: Covering Protection
+  definition_zh: 天干对地支的呼应
+  definition_en: Heaven corresponding to earth
+  factor_id: fuhu
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 方局
+  term_en: Directional Assembly
+  definition_zh: 三会方局如寅卯辰
+  definition_en: Three-assembly like Yin-Mao-Chen
+  factor_id: fangju
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 上下匹配
+  term_en: Vertical Alignment
+  definition_zh: 天地干支相配
+  definition_en: Heaven-earth stem-branch matching
+  factor_id: shangxia_pipei
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 阳乘阳位
+  term_en: Yang on Yang Position
+  definition_zh: 阳干坐阳支
+  definition_en: Yang stem on yang branch
+  factor_id: yangcheng_yangwei
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 阳气昌
+  term_en: Yang Qi Flourishing
+  definition_zh: 阳气极旺盛
+  definition_en: Yang energy at peak
+  factor_id: yangqi_chang
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 行程安顿
+  term_en: Journey Settlement
+  definition_zh: 运程需稳定安顿
+  definition_en: Transit requires stable settling
+  factor_id: xingcheng_andun
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 阴顺
+  term_en: Yin Compliance
+  definition_zh: 阴柔顺承之地
+  definition_en: Yin-natured compliant environment
+  factor_id: yinshun
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 涵养
+  term_en: Cultivation
+  definition_zh: 蓄养保护
+  definition_en: Protect and nurture
+  factor_id: hanyang
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 躁进
+  term_en: Rash Advance
+  definition_zh: 急躁冒进
+  definition_en: Hasty advancement
+  factor_id: zaojin
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 阴乘阴位
+  term_en: Yin on Yin Position
+  definition_zh: 阴干配阴支
+  definition_en: Yin-stem on yin-branch position
+  factor_id: yincheng_yinwei
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 阴气盛
+  term_en: Yin Qi Prosperity
+  definition_zh: 阴气极盛深藏
+  definition_en: Extreme yin prosperity and concealment
+  factor_id: yinqi_sheng
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 道路光亨
+  term_en: Bright Open Paths
+  definition_zh: 需阳明开阔之路
+  definition_en: Requires yang-bright open routes
+  factor_id: daolu_guangheng
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 光亨
+  term_en: Bright and Open
+  definition_zh: 明亮通达不幽闭
+  definition_en: Bright accessible not secluded
+  factor_id: guangheng
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 幽闭
+  term_en: Seclusion
+  definition_zh: 过度阴沉封闭
+  definition_en: Excessive gloom and closure
+  factor_id: youbi
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 阳明开启
+  term_en: Yang Opening
+  definition_zh: 阳气开启阴局
+  definition_en: Yang-qi opening yin-assembly
+  factor_id: yangming_kaiqi
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 地生天
+  term_en: Earth Births Heaven
+  definition_zh: 地支生天干
+  definition_en: Earth-branch birthing heaven-stem
+  factor_id: dishengtian
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 天衰
+  term_en: Heaven Weak
+  definition_zh: 天干衰弱
+  definition_en: Heaven-stem weakened
+  factor_id: tianshuai
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 怕冲
+  term_en: Fears Clash
+  definition_zh: 畏惧地支被冲
+  definition_en: Fears earth-branch clashing
+  factor_id: pachong
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 根拔
+  term_en: Root Pulled
+  definition_zh: 根基被拔起
+  definition_en: Foundation extracted
+  factor_id: genba
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 母子
+  term_en: Mother-Child
+  definition_zh: 地支为母天干为子
+  definition_en: Earth as mother, heaven as child
+  factor_id: muzi
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 失根
+  term_en: Losing Root
+  definition_zh: 根基动摇消失
+  definition_en: Foundation destabilized
+  factor_id: shigen
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 天合地
+  term_en: Heaven Combines Earth
+  definition_zh: 天干合化地支
+  definition_en: Heaven-stem harmonizes with earth
+  factor_id: tianhedi
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 地旺
+  term_en: Earth Prosperous
+  definition_zh: 地支旺盛
+  definition_en: Earth-branch prosperous
+  factor_id: diwang
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 喜静
+  term_en: Prefers Stillness
+  definition_zh: 宜静不宜动
+  definition_en: Prefers stability over disturbance
+  factor_id: xijing
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 合化
+  term_en: Harmonize-Transform
+  definition_zh: 天地干支合化
+  definition_en: Stem-branch harmonizing transformation
+  factor_id: hehua
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 旺冲
+  term_en: Prosperous Clashed
+  definition_zh: 旺支被冲破化
+  definition_en: Prosperous branch clashed breaking harmony
+  factor_id: wangchong
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 情协
+  term_en: Affinity Coordinated
+  definition_zh: 上下相合协调
+  definition_en: Upper-lower harmonious coordination
+  factor_id: qingxie
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 上下
+  term_en: Upper-Lower
+  definition_zh: 天干与地支
+  definition_en: Heaven-stems and earth-branches
+  factor_id: shangxia
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 贵乎
+  term_en: Values/Esteems
+  definition_zh: 重视看重
+  definition_en: Values and esteems
+  factor_id: guihu
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 天地配合
+  term_en: Heaven-Earth Matching
+  definition_zh: 干支相配协调
+  definition_en: Stem-branch coordinated matching
+  factor_id: tiandi_peihe
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 相生相合
+  term_en: Mutual Birth-Combine
+  definition_zh: 生合关系相协
+  definition_en: Mutual生合 relationships
+  factor_id: xiangsheng_xianghe
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 情义
+  term_en: Affinity-Righteousness
+  definition_zh: 关系和谐之情义
+  definition_en: Harmonious relational affinity
+  factor_id: qingyi
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 左右
+  term_en: Left-Right
+  definition_zh: 相邻柱位
+  definition_en: Adjacent pillars
+  factor_id: zuoyou
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 志同
+  term_en: Same Aspiration
+  definition_zh: 目标方向一致
+  definition_en: Aligned goals and direction
+  factor_id: zhitong
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 一气三物
+  term_en: One-Qi Three-Materials
+  definition_zh: 同类元素纯局
+  definition_en: Same-element pure assembly
+  factor_id: yiqi_sanwu
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 化生
+  term_en: Transform-Birth
+  definition_zh: 互相促进相生
+  definition_en: Mutual promotion and birth
+  factor_id: huasheng
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 协同
+  term_en: Coordination
+  definition_zh: 共同配合
+  definition_en: Joint coordination
+  factor_id: xietong
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 相掁
+  term_en: Mutual Hindrance
+  definition_zh: 彼此牵制
+  definition_en: Mutual restraint
+  factor_id: xiangche
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 始终有序
+  term_en: Orderly Beginning-End
+  definition_zh: 首尾呼应有序
+  definition_en: Coherent beginning and ending
+  factor_id: shizhong_youxu
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 反悖
+  term_en: Contradiction
+  definition_zh: 上下相反对立
+  definition_en: Upper-lower contradiction
+  factor_id: fanbei
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 妒忌
+  term_en: Envy-Obstruction
+  definition_zh: 相互妒忌拆台
+  definition_en: Mutual envy and obstruction
+  factor_id: duji
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 始终路径
+  term_en: Origin-Destination Path
+  definition_zh: 由年月到日时的整体发展路径
+  definition_en: Development path from origin to destination
+  factor_id: mingju_path
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 路径完整度
+  term_en: Path Integrity
+  definition_zh: 始终关系是否连贯
+  definition_en: Path continuity and coherence
+  factor_id: path_integrity
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 方
+  term_en: Directional Assembly
+  definition_zh: 三会方局如寅卯辰
+  definition_en: Three-directional assembly
+  factor_id: fang
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 局
+  term_en: Trinity Assembly
+  definition_zh: 三合局如亥卯未
+  definition_en: Three-harmony assembly
+  factor_id: ju
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 莫混局
+  term_en: Don't Mix Assembly
+  definition_zh: 不可混淆局形
+  definition_en: Avoid confusing assembly types
+  factor_id: mohun
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 太过
+  term_en: Excessive
+  definition_zh: 气机过度集中
+  definition_en: Over-concentration of qi
+  factor_id: taiguo
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 混局
+  term_en: Mixed Assembly
+  definition_zh: 方局混杂结构不清
+  definition_en: Confused structural logic
+  factor_id: hunju
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 专方
+  term_en: Exclusive Direction
+  definition_zh: 专取一方之气
+  definition_en: Exclusively using directional qi
+  factor_id: zhuanfang
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 方局一齐来
+  term_en: Fang and Ju Together
+  definition_zh: 方气与局气同时出现
+  definition_en: Directional and trinity assemblies together
+  factor_id: fangju_yiqilai
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 干头无反复
+  term_en: Stems Without Reversal
+  definition_zh: 天干顺序顺承不悖
+  definition_en: Stems sequenced coherently
+  factor_id: gantou_wufanfu
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 顺序
+  term_en: Sequence Order
+  definition_zh: 气机流动有序
+  definition_en: Logical flow of qi
+  factor_id: shunxu
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 行运不悖
+  term_en: Luck Not Contradictory
+  definition_zh: 岁运不逆其势
+  definition_en: Luck cycles support the flow
+  factor_id: xingyun_bubei
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 成用
+  term_en: Functional Realization
+  definition_zh: 结构转化为实际功用
+  definition_en: Structure realizing its function
+  factor_id: chengyong
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 顺承链条
+  term_en: Sequential Chain
+  definition_zh: 连贯的生扶链条
+  definition_en: Unbroken chain of support
+  factor_id: shuncheng_liantiao
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 成方
+  term_en: Formed Fang
+  definition_zh: 地支已成一方之气的结构
+  definition_en: Directional structure fully formed
+  factor_id: chengfang
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 元神干透
+  term_en: Yuan Shen Stem Revealed
+  definition_zh: 元神天干透出并具力量
+  definition_en: Governing stem appearing strongly
+  factor_id: yuanshen_tougan
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 生地
+  term_en: Birth Terrain
+  definition_zh: 给予额外生助的地支
+  definition_en: Branch generating extra qi
+  factor_id: shengdi
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 库地
+  term_en: Storage Terrain
+  definition_zh: 蓄积气势的库地支
+  definition_en: Branch storing qi
+  factor_id: kudi
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 过载支撑
+  term_en: Overloaded Support
+  definition_zh: 方足后仍叠加同气致滞
+  definition_en: Over-supporting causing stagnation
+  factor_id: guozai_zhicheng
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 成局
+  term_en: Formed Trinity Assembly
+  definition_zh: 三合局已成
+  definition_en: Trinity structure established
+  factor_id: chengju
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 官星干透
+  term_en: Officer Star Revealed
+  definition_zh: 官星透出天干
+  definition_en: Official star revealed in stem
+  factor_id: guanxing_tougan
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 左右方气
+  term_en: Left-Right Fang Qi
+  definition_zh: 左右方气干扰
+  definition_en: Surrounding directional interference
+  factor_id: zuoyou_fangqi
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 空碌碌
+  term_en: Empty Busyness
+  definition_zh: 忙碌无成
+  definition_en: Busy for nothing
+  factor_id: konglulu
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 局混方
+  term_en: Ju Mixed with Fang
+  definition_zh: 局中混杂方气
+  definition_en: Trinity mixed with directional qi
+  factor_id: juhunfang
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 分流耗散
+  term_en: Dispersed Effort
+  definition_zh: 力量分散消耗
+  definition_en: Energy dispersed and wasted
+  factor_id: fenliu_haosan
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 格局
+  term_en: Pattern Structure (Ge Ju)
+  definition_zh: 以月令为纲透干为标的结构
+  definition_en: Standard structure based on month pivot
+  factor_id: geju_type
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 提纲
+  term_en: Month Pivot (Ti Gang)
+  definition_zh: 月令支神为全局枢纽
+  definition_en: Month branch as command center
+  factor_id: yueling_key_god
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 透干
+  term_en: Stem Manifestation (Tou Gan)
+  definition_zh: 支中藏干透出天干
+  definition_en: Hidden stems revealed in heaven
+  factor_id: tougan_status
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 真格
+  term_en: True Pattern
+  definition_zh: 提纲有力透干之格
+  definition_en: Valid structure supported by pivot and stem
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 遥系
+  term_en: Remote Influence
+  definition_zh: 飞天合禄等远隔关系
+  definition_en: Distant connections not core pattern
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 用神
+  term_en: Useful Spirit (Yong Shen)
+  definition_zh: 平衡局势之关键神
+  definition_en: Functional element for balance
+  factor_id: yong_shen
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 财官印绶
+  term_en: Wealth-Officer-Seal
+  definition_zh: 正偏财官印六神
+  definition_en: Primary functional gods
+  factor_id: caiguanyinxiu
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 偏正
+  term_en: Indirect-Direct
+  definition_zh: 区分正偏性质
+  definition_en: Polarity distinction
+  factor_id: pianzheng
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 食伤
+  term_en: Eating-Hurting
+  definition_zh: 食神伤官
+  definition_en: Output gods
+  factor_id: shishang
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 格局定
+  term_en: Pattern Established
+  definition_zh: 提纲透干定格
+  definition_en: Structure confirmed
+  factor_id: gejuding
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 月令为纲
+  term_en: Month as Key Link
+  definition_zh: 月令为格局核心
+  definition_en: Month branch dictates theme
+  factor_id: yueling_weigang
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 透干为标
+  term_en: Stem as Manifestation
+  definition_zh: 干透以显其用
+  definition_en: Stem reveals function
+  factor_id: tougan_weibiao
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 官煞相混
+  term_en: Mixed Official-Killing
+  definition_zh: 正官七杀混杂出现
+  definition_en: Coexistence of authority stars
+  factor_id: guansha_xianghun
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 可混
+  term_en: Permissible Mix
+  definition_zh: 特定条件下可混用
+  definition_en: Mix allowed under conditions
+  factor_id: kehun
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 不可混
+  term_en: Forbidden Mix
+  definition_zh: 混杂导致凶险
+  definition_en: Mix brings danger
+  factor_id: bukehun
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 势在官
+  term_en: Power in Official
+  definition_zh: 官星得令有根为主
+  definition_en: Official dominates
+  factor_id: shi_zai_guan
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 势在煞
+  term_en: Power in Killing
+  definition_zh: 七杀得势为主
+  definition_en: Seven Killings dominate
+  factor_id: shi_zai_sha
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 权重
+  term_en: Empowered Authority
+  definition_zh: 官统煞掌实权
+  definition_en: Authority controlling aggression
+  factor_id: quanzhong
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 真从之像
+  term_en: Image of True Following
+  definition_zh: 似真从但非真
+  definition_en: Looks like true following
+  factor_id: zhencong_zhixiang
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 假从
+  term_en: False Following
+  definition_zh: 不得已而从之
+  definition_en: Forced follow with residual
+  factor_id: jiacong
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 中有所助
+  term_en: Hidden Support
+  definition_zh: 局中仍有微根暗助
+  definition_en: Hidden roots preventing true
+  factor_id: zhong_yousuozhu
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 发其身
+  term_en: Prosper Self
+  definition_zh: 顺运亦可发达
+  definition_en: Success in favorable luck
+  factor_id: fa_qishen
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 心术不端
+  term_en: Moral Ambiguity
+  definition_zh: 性情偏狡不纯
+  definition_en: Cunning lacking integrity
+  factor_id: xinshu_buduan
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 祸患
+  term_en: Misfortune
+  definition_zh: 富贵中伴随之灾
+  definition_en: Disaster amidst prosperity
+  factor_id: huohuan
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 假化
+  term_en: False Transformation
+  definition_zh: 化不真且日主有根
+  definition_en: Incomplete transformation
+  factor_id: jiahua
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 亦可贵
+  term_en: Also Noble
+  definition_zh: 假化顺运亦可贵
+  definition_en: Achieve status in luck
+  factor_id: yikegui
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 孤儿异姓
+  term_en: Orphan/Outsider
+  definition_zh: 离家异姓之人
+  definition_en: Separated from kin
+  factor_id: guer_yixing
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 执滞偏拗
+  term_en: Obstinate/Stubborn
+  definition_zh: 性情固执乖僻
+  definition_en: Rigid and inflexible
+  factor_id: zhizhi_pianniu
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 骨肉刑克
+  term_en: Family Conflict
+  definition_zh: 与亲属缘薄多克
+  definition_en: Conflict with relatives
+  factor_id: gurou_xingke
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 待运助
+  term_en: Awaiting Luck Support
+  definition_zh: 需运扶合神制忌
+  definition_en: Needs luck cycle
+  factor_id: daiyunzhu
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 运
+  term_en: Major Luck (Yun)
+  definition_zh: 十年大运重地支
+  definition_en: 10-year cycle earth qi
+  factor_id: yun
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 岁
+  term_en: Annual Year (Sui)
+  definition_zh: 流年太岁重天干
+  definition_en: 1-year cycle sky qi
+  factor_id: sui
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 冲战
+  term_en: Clash and War
+  definition_zh: 岁运相克相冲
+  definition_en: Conflict between Yun-Sui
+  factor_id: chongzhan
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 和好
+  term_en: Harmony and Good
+  definition_zh: 岁运相合相生
+  definition_en: Agreement between Yun-Sui
+  factor_id: hehao
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 孰降
+  term_en: Who Yields
+  definition_zh: 冲战中势弱者降
+  definition_en: Which side backs down
+  factor_id: shujiang
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 孰切
+  term_en: Who is Closer
+  definition_zh: 和好中与体更切者
+  definition_en: Which side more relevant
+  factor_id: shuqie
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 五行和
+  term_en: Five-Element Harmony
+  definition_zh: 五行各得其所生克有序
+  definition_en: Wood/Fire/Earth/Metal/Water all present in proper place
+  factor_id: wuxinghe
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 各得其所
+  term_en: Each in Proper Place
+  definition_zh: 各行居当位
+  definition_en: Each element in appropriate position
+  factor_id: gedeqisuo
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 气机平稳
+  term_en: Even Qi Circulation
+  definition_zh: 升降出入协调
+  definition_en: Balanced rising-falling movement
+  factor_id: qiji_pingwen
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 调候
+  term_en: Climatic Regulation (Tiao Hou)
+  definition_zh: 调节寒热燥湿
+  definition_en: Regulate cold-heat and dryness-moisture
+  factor_id: tiaohou
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 大灾重病
+  term_en: Major Calamities/Severe Illness
+  definition_zh: 威胁生命的疾病
+  definition_en: Life-threatening disasters or illnesses
+  factor_id: dazai_zhongbing
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 六亲
+  term_en: Six Relations (Liu-Qin)
+  definition_zh: 六亲眷属
+  definition_en: Six relatives
+  factor_id: liuqin
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 宿世姻缘
+  term_en: Predestined Marriage
+  definition_zh: 命中注定
+  definition_en: Karmic connection
+  factor_id: sushi_yinyuan
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 根枝
+  term_en: Roots and Branches
+  definition_zh: 家族根基
+  definition_en: Family lineage
+  factor_id: genzhi
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 气势
+  term_en: Global Momentum (Qi-Shi)
+  definition_zh: 全局气势
+  definition_en: Overall energy flow
+  factor_id: qishi
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 兴替
+  term_en: Rise and Fall (Xing-Ti)
+  definition_zh: 兴旺衰败
+  definition_en: Prosperity and decline
+  factor_id: xingti
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 安详
+  term_en: Peaceful/Composed
+  definition_zh: 安稳祥和
+  definition_en: Serene and stable
+  factor_id: anxiang
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 科第
+  term_en: Imperial Examination (Keju)
+  definition_zh: 科举功名
+  definition_en: Civil service examination
+  factor_id: kedi
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 元机
+  term_en: Hidden Pivot (Yuanji)
+  definition_zh: 命局关键枢纽
+  definition_en: Critical hidden mechanism
+  factor_id: yuanji
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 迈等伦
+  term_en: Surpassing Peers
+  definition_zh: 超越同辈
+  definition_en: Exceeding contemporaries
+  factor_id: maidenglun
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 暗里寻
+  term_en: Seeking in Darkness
+  definition_zh: 在暗处搜寻
+  definition_en: Searching hidden places
+  factor_id: anlixun
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 清气
+  term_en: Clear Energy
+  definition_zh: 官印清纯
+  definition_en: Pure official-seal energy
+  factor_id: qingqi
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 清静
+  term_en: Clear and Quiet
+  definition_zh: 内心安定、局势沉稳
+  definition_en: Mental calm and stable chart
+  factor_id: clear_quiet_level
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 黄榜
+  term_en: Imperial Examination List
+  definition_zh: 科举金榜
+  definition_en: List of successful candidates
+  factor_id: keju_rank
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 浊气
+  term_en: Turbid Energy
+  definition_zh: 杂乱之气
+  definition_en: Mixed or impure energy
+  factor_id: turbid_energy_flag
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 中式
+  term_en: Pass Examination
+  definition_zh: 考中科举
+  definition_en: Successfully pass the exam
+  factor_id: keju_rank
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 容杂
+  term_en: Tolerate Mixture
+  definition_zh: 容许杂气
+  definition_en: Allow mixed elements
+  factor_id: mixture_tolerance
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 秀才
+  term_en: Xiucai (Scholar)
+  definition_zh: 科举最低功名
+  definition_en: Lowest imperial exam degree
+  factor_id: keju_xiucai_grade
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 尘凡子
+  term_en: Common Mortal
+  definition_zh: 普通人
+  definition_en: Ordinary person
+  factor_id: common_mortal
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 官不起
+  term_en: Official Star Weak
+  definition_zh: 官星不旺
+  definition_en: Weak official star
+  factor_id: official_star_weak
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 功名
+  term_en: Official Achievement
+  definition_zh: 科举成就
+  definition_en: Academic/official accomplishment
+  factor_id: keju_rank
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 台阁
+  term_en: Cabinet/Grand Secretariat
+  definition_zh: 内阁枢密
+  definition_en: Highest government office
+  factor_id: taige
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 勋劳
+  term_en: Meritorious Service
+  definition_zh: 功勋劳绩
+  definition_en: Distinguished service
+  factor_id: xunlao
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 百世传
+  term_en: Renowned for Generations
+  definition_zh: 功名流传
+  definition_en: Fame lasting generations
+  factor_id: baishichuan
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 机权
+  term_en: Strategic Authority
+  definition_zh: 机谋权柄
+  definition_en: Strategic power and authority
+  factor_id: jiquan
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 兵权
+  term_en: Military Authority
+  definition_zh: 军事权力
+  definition_en: Military command power
+  factor_id: bingquan
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 豸冠
+  term_en: Censorate Hat
+  definition_zh: 御史帽
+  definition_en: Censor's official hat
+  factor_id: zhiguan_hat
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 刃杀
+  term_en: Blade and Killing
+  definition_zh: 羊刃与七杀
+  definition_en: Yang Blade and Seven Killings
+  factor_id: yangren_qisha
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 神清
+  term_en: Spirit Clear
+  definition_zh: 精神清明
+  definition_en: Clear and focused spirit
+  factor_id: shenqing
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 气势特
+  term_en: Special Momentum
+  definition_zh: 气势独特
+  definition_en: Distinctive energy pattern
+  factor_id: qishite
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 分藩
+  term_en: Provincial Governor
+  definition_zh: 地方大员
+  definition_en: Regional high official
+  factor_id: fenfan_regional_role
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 司牧
+  term_en: Local Administrator
+  definition_zh: 地方长官
+  definition_en: Local governing official
+  factor_id: simu_local_admin_role
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 财官和
+  term_en: Wealth-Official Harmony
+  definition_zh: 财星官星调和
+  definition_en: Harmonious wealth and official
+  factor_id: wealth_official_harmony
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 清奇
+  term_en: Clear and Extraordinary
+  definition_zh: 清纯奇特
+  definition_en: Pure and distinctive
+  factor_id: extraordinary_level
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 纯粹
+  term_en: Pure Complete
+  definition_zh: 纯净完整
+  definition_en: Complete purity
+  factor_id: purity_level
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 贵
+  term_en: Nobility/Honor
+  definition_zh: 尊贵、显贵
+  definition_en: Noble status or honor
+  factor_id: nobility_grade
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 官星
+  term_en: Official Star
+  definition_zh: 正官星
+  definition_en: Legitimate official element
+  factor_id: guan_xing
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 理会
+  term_en: Proper Meeting
+  definition_zh: 合理配置
+  definition_en: Proper arrangement/configuration
+  factor_id: proper_meeting
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 有理
+  term_en: Has Principle
+  definition_zh: 有章法
+  definition_en: Following proper principles
+  factor_id: principle_alignment
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 得位
+  term_en: Properly Positioned
+  definition_zh: 位置得当
+  definition_en: Well-positioned
+  factor_id: proper_position
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 贱
+  term_en: Lowly/Base
+  definition_zh: 卑贱、地位低
+  definition_en: Low status
+  factor_id: lowly_risk
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 官星不见
+  term_en: Official Star Unseen
+  definition_zh: 官星不显
+  definition_en: Official star not visible
+  factor_id: official_star_absent
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 总不见
+  term_en: Completely Absent
+  definition_zh: 完全不见
+  definition_en: Totally absent
+  factor_id: official_star_absent
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 克伤
+  term_en: Damaged by Clash
+  definition_zh: 被克制损伤
+  definition_en: Damaged by conflicting elements
+  factor_id: damage_level
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 不显
+  term_en: Not Manifest
+  definition_zh: 不显现
+  definition_en: Not manifesting
+  factor_id: official_star_damaged
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 富
+  term_en: Wealthy
+  definition_zh: 富裕、有财
+  definition_en: Wealth and prosperity
+  factor_id: wealth_grade
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 财气
+  term_en: Wealth Energy
+  definition_zh: 财星之气
+  definition_en: Energy of wealth element
+  factor_id: cai_xing
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 通门户
+  term_en: Through the Gate
+  definition_zh: 通达门户
+  definition_en: Flowing through life's gateway
+  factor_id: wealth_flow
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 门户
+  term_en: Life Gate
+  definition_zh: 命局门户
+  definition_en: Gateway of the chart
+  factor_id: gate_config
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 通达
+  term_en: Flowing Through
+  definition_zh: 畅通无阻
+  definition_en: Unobstructed flow
+  factor_id: wealth_flow
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 寿
+  term_en: Longevity
+  definition_zh: 长寿
+  definition_en: Long life
+  factor_id: longevity_grade
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 性定
+  term_en: Nature Stable
+  definition_zh: 性情稳定
+  definition_en: Stable temperament
+  factor_id: temperament_stable
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 元气
+  term_en: Primordial Energy
+  definition_zh: 先天元气
+  definition_en: Original vital energy
+  factor_id: vitality_level
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 厚
+  term_en: Thick/Abundant
+  definition_zh: 充厚
+  definition_en: Abundant and strong
+  factor_id: vitality_level
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 性情
+  term_en: Temperament
+  definition_zh: 性格情绪
+  definition_en: Character and emotions
+  factor_id: temperament_stable
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 参天
+  term_en: Towering Upright (Can Tian)
+  definition_zh: 高大挺拔、直指天际之势
+  definition_en: Reaching skyward with upright vigor
+  factor_id: jia_mu_cantian
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 脱胎
+  term_en: Shedding Crude Essence (Tuo Tai)
+  definition_zh: 去粗存精、炼质成器
+  definition_en: Refining from raw material to finished product
+  factor_id: tuotai_yaohuo
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 春不容金
+  term_en: Spring Cannot Accommodate Metal
+  definition_zh: 春木当令时强金为逆势
+  definition_en: Strong Metal contradicts spring's Wood prosperity
+  factor_id: chun_burong_jin
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 秋不容土
+  term_en: Autumn Cannot Accommodate Earth
+  definition_zh: 秋金旺时厚土助金困木
+  definition_en: Excessive Earth in autumn compounds Metal's dominance
+  factor_id: qiu_burong_tu
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 乘龙
+  term_en: Riding the Dragon (Cheng Long)
+  definition_zh: 火势得辰湿土承载不焚木
+  definition_en: Fire moderated by Chen reservoir-earth
+  factor_id: chenglong_chentu
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 骑虎
+  term_en: Riding the Tiger (Qi Hu)
+  definition_zh: 水势得寅禄位纳润不淹木
+  definition_en: Water absorbed through Yin lu-position without drowning
+  factor_id: qihu_yinmu
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 柔中
+  term_en: Soft Centrality (Rou Zhong)
+  definition_zh: 柔和而得中道，不偏不倚
+  definition_en: Gentle and balanced, neither too soft nor too hard
+  factor_id: tiangan_ding_rou_zhong
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 昭融
+  term_en: Bright Harmony (Zhao Rong)
+  definition_zh: 光明融和，外柔内明
+  definition_en: Luminous harmony, soft outside but bright inside
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 抱乙而孝
+  term_en: Sheltering Yi with Filial Devotion
+  definition_zh: 护母乙木不使辛金克伤
+  definition_en: Protecting mother Yi Wood from Xin Metal attack
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 合壬而忠
+  term_en: Combining with Ren in Loyalty
+  definition_zh: 与壬合化护君不使戊欺
+  definition_en: Combining with Ren to protect from Wu Earth control
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 嫡母
+  term_en: Legitimate Mother (Di Mu)
+  definition_zh: 正印甲木，生丁火之源
+  definition_en: Direct Resource Jia Wood as primary support
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 可秋可冬
+  term_en: Viable in Autumn and Winter
+  definition_zh: 秋冬寒令有甲木可行
+  definition_en: Functional in cold seasons with Jia Wood support
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 固重
+  term_en: Solid and Heavy (Gu Zhong)
+  definition_zh: 稳固厚重，如山岳之势
+  definition_en: Stable and heavy like mountain ranges
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 中正
+  term_en: Central and Upright (Zhong Zheng)
+  definition_zh: 居中而正，不偏不倚
+  definition_en: Central and upright, unbiased
+  factor_id: tiangan_wu_zhong_zheng
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 静翕动辟
+  term_en: Contracting in Stillness, Expanding in Movement
+  definition_zh: 静时收藏，动时开辟
+  definition_en: Contracting when still, expanding when active
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 万物司命
+  term_en: Commander of Myriad Things
+  definition_zh: 主宰万物生成之枢纽
+  definition_en: The pivot commanding creation of all things
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 水旺物生
+  term_en: Water Abundance Brings Life
+  definition_zh: 得水滋润则生机盎然
+  definition_en: Abundant water brings flourishing life
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 怕冲宜静
+  term_en: Fear Clash, Favor Quietude
+  definition_zh: 逢冲则根动，宜安静守正
+  definition_en: Clash destabilizes roots, stillness is advised
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 卑湿
+  term_en: Low and Moist (Bei Shi)
+  definition_zh: 低洼湿润，性质柔顺
+  definition_en: Low-lying and moist, yielding in nature
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 中正蓄藏
+  term_en: Central Storage
+  definition_zh: 居中守正，蓄藏万物
+  definition_en: Centered and upright, storing all things
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 不愁木盛
+  term_en: No Fear of Abundant Wood
+  definition_zh: 柔土生木，木盛不为患
+  definition_en: Soft earth nurtures wood, no threat from wood abundance
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 不畏水旺
+  term_en: No Fear of Strong Water
+  definition_zh: 深土纳水，水旺不能荡
+  definition_en: Deep earth absorbs water, strong water cannot wash away
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 火晦金明
+  term_en: Fire Dims, Metal Brightens
+  definition_zh: 湿土使火晦金明
+  definition_en: Moist earth dims fire but brightens metal
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 宜助宜帮
+  term_en: Needs Assistance and Support
+  definition_zh: 己土昌盛需比劫帮扶
+  definition_en: Ji Earth flourishing requires peer support
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 带煞
+  term_en: Carrying Killing Edge (Dai Sha)
+  definition_zh: 含杀伐之气，刚猛有力
+  definition_en: Possessing martial killing energy, fierce and powerful
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 刚强为最
+  term_en: Most Unyielding
+  definition_zh: 阳金之刚健为十干之最
+  definition_en: Yang Metal's hardness is supreme among the ten stems
+  factor_id: tiangan_geng_gang_qiang
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 得水而清
+  term_en: Clear Through Water
+  definition_zh: 水泄金锐使其清润
+  definition_en: Water drains metal's edge making it clear and refined
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 得火而锐
+  term_en: Sharp Through Fire
+  definition_zh: 火锻金使其成器
+  definition_en: Fire tempers metal into sharp implements
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 土润则生
+  term_en: Moist Earth Nurtures
+  definition_zh: 湿土生金全其质
+  definition_en: Moist earth generates metal with full quality
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 输于乙妹
+  term_en: Yielding to Yi Sister
+  definition_zh: 乙庚相合使庚受制
+  definition_en: Yi-Geng combination makes Geng yield
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 软弱
+  term_en: Soft and Gentle (Ruan Ruo)
+  definition_zh: 柔软不刚，与庚金形成对照
+  definition_en: Soft and not hard, contrasting with Geng Metal
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 温润而清
+  term_en: Warm, Moist and Clear
+  definition_zh: 温和柔润，清秀可观
+  definition_en: Warm, moist and pure, elegant and refined
+  factor_id: tiangan_xin_wenrun
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 畏土之叠
+  term_en: Fearing Earth Accumulation
+  definition_zh: 怕多土埋没金光
+  definition_en: Fearing excessive earth burying metal's luster
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 乐水之盈
+  term_en: Delighting in Water Abundance
+  definition_zh: 喜水多则清秀流通
+  definition_en: Enjoying abundant water for clarity and flow
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 扶社稷
+  term_en: Supporting the State
+  definition_zh: 调和关系匡扶大局
+  definition_en: Mediating relationships to support the greater order
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 热则喜母
+  term_en: In Heat, Favors Mother
+  definition_zh: 夏热需己土晦火护金
+  definition_en: In summer heat, needs Ji Earth to dim fire and protect metal
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 汪洋
+  term_en: Vast Ocean (Wang Yang)
+  definition_zh: 广阔深远，水势浩大
+  definition_en: Vast and deep, great water momentum
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 刚中之德
+  term_en: Virtue Within Firmness
+  definition_zh: 外柔内刚，刚健居中
+  definition_en: Soft outside but firm inside, balanced strength
+  factor_id: tiangan_ren_gangzhong
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 周流不滞
+  term_en: Circulating Without Stagnation
+  definition_zh: 循环流动，不停滞淤塞
+  definition_en: Flowing continuously without blockage
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 冲天奔地
+  term_en: Rushing to Heaven and Earth
+  definition_zh: 水势浩大不可遏制
+  definition_en: Unstoppable water momentum
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 化则有情
+  term_en: Transformation with Affection
+  definition_zh: 壬丁合化木生丁火，有情有义
+  definition_en: Ren-Ding combination with mutual benefit
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 从则相济
+  term_en: Following with Mutual Assistance
+  definition_zh: 从火土势时仍能润济
+  definition_en: Even when following Fire-Earth, still provides moisture
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 至弱
+  term_en: Most Subtle (Zhi Ruo)
+  definition_zh: 十干中最柔弱者
+  definition_en: The most subtle and weak among ten stems
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 达于天津
+  term_en: Reaching Heavenly Ford
+  definition_zh: 上接天河之津，灵性通天
+  definition_en: Connecting to celestial water crossing, spiritual channel
+  factor_id: tiangan_gui_tianjin
+  status: existing
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 龙德而运
+  term_en: Dragon Virtue in Motion
+  definition_zh: 借木气运化水汽如龙布雨
+  definition_en: Like dragon moving clouds, carrying water through wood
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 功化斯神
+  term_en: Divine Transformation Power
+  definition_zh: 化育之功精微入神
+  definition_en: Subtle and divine transformative power
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 不畏火土
+  term_en: Not Fearing Fire or Earth
+  definition_zh: 有木承运则不循常规生克
+  definition_en: With wood support, bypassing conventional cycles
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null
+- term_zh: 合戊见火化火乃真
+  term_en: Wu Combination True Only with Fire Root
+  definition_zh: 癸戊合化须有真火根
+  definition_en: Gui-Wu transformation requires genuine fire roots
+  factor_id: ''
+  status: new_candidate
+  source_book: 滴天髓
+  source_chapter: null

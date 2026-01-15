@@ -1,0 +1,865 @@
+book_id: the_interpretation_of_dreams
+source_file: 典籍/texts/The Interpretation of Dreams/编辑/L1.md, 典籍/texts/The Interpretation
+  of Dreams/编辑/Freud_Dreams_Ch7_Psychology_v2.1.md, 典籍/texts/The Interpretation of
+  Dreams/编辑/Freud_Dreams_Ch6_DreamWork_v2.1.md, 典籍/texts/The Interpretation of Dreams/编辑/Freud_Dreams_Ch4_Distortion_v2.1.md,
+  典籍/texts/The Interpretation of Dreams/编辑/Freud_Dreams_Ch3_WishFulfillment_v2.1.md,
+  典籍/texts/The Interpretation of Dreams/编辑/Freud_Dreams_Ch5_Sources_v2.1.md, 典籍/texts/The
+  Interpretation of Dreams/编辑/Freud_Dreams_Ch2_Method_v2.1.md, 典籍/texts/The Interpretation
+  of Dreams/编辑/L2.md, 典籍/texts/The Interpretation of Dreams/编辑/Dream_Mechanisms_Freud_v2.1.md
+extracted_at: '2025-12-04T14:27:44.208115'
+relations:
+- relation_id: rel_freud_psy_001
+  relation_type: enables
+  factor_a: guardian_of_sleep
+  factor_b: sleep_extension
+  relation_nature: Function→Effect
+  condition_constraint: When disturbance present guardian of sleep enables sleep extension
+  effect_direction: protecting
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079145'
+- relation_id: rel_freud_psy_002
+  relation_type: uses
+  factor_a: guardian_of_sleep
+  factor_b: stimulus_incorporation
+  relation_nature: Function→Mechanism
+  condition_constraint: When external stimulus present guardian uses stimulus incorporation
+  effect_direction: absorbing
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079151'
+- relation_id: rel_freud_psy_003
+  relation_type: exemplifies
+  factor_a: burning_child
+  factor_b: guardian_of_sleep
+  relation_nature: Instance→Concept
+  condition_constraint: When paradigmatic case burning child exemplifies guardian
+    of sleep
+  effect_direction: illustrating
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079155'
+- relation_id: rel_freud_reg_001
+  relation_type: produces
+  factor_a: regression
+  factor_b: hallucinatory_satisfaction
+  relation_nature: Process→Product
+  condition_constraint: When sleep state regression produces hallucinatory satisfaction
+  effect_direction: generating
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079195'
+- relation_id: rel_freud_reg_002
+  relation_type: reverses
+  factor_a: regression
+  factor_b: perceptual_end
+  relation_nature: Process→Direction
+  condition_constraint: When blocked motor regression reverses toward perceptual end
+  effect_direction: targeting
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079199'
+- relation_id: rel_freud_reg_003
+  relation_type: explains
+  factor_a: regression
+  factor_b: visual_quality
+  relation_nature: Mechanism→Phenomenon
+  condition_constraint: When dream state regression explains visual quality of dreams
+  effect_direction: clarifying
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079204'
+- relation_id: rel_freud_proc_001
+  relation_type: governs
+  factor_a: pleasure_principle
+  factor_b: primary_process
+  relation_nature: Principle→Mode
+  condition_constraint: When always pleasure principle governs primary process directing
+  effect_direction: directing
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079240'
+- relation_id: rel_freud_proc_002
+  relation_type: governs
+  factor_a: reality_principle
+  factor_b: secondary_process
+  relation_nature: Principle→Mode
+  condition_constraint: When always reality principle governs secondary process directing
+  effect_direction: directing
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079243'
+- relation_id: rel_freud_proc_003
+  relation_type: relaxes
+  factor_a: sleep
+  factor_b: secondary_process
+  relation_nature: State→Mode
+  condition_constraint: When sleep onset relaxes secondary process releasing primary
+  effect_direction: releasing
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079246'
+- relation_id: rel_freud_anx_001
+  relation_type: produces
+  factor_a: threatening_wish
+  factor_b: anxiety_signal
+  relation_nature: Cause→Effect
+  condition_constraint: When distortion insufficient threatening wish produces anxiety
+    signal
+  effect_direction: triggering
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079280'
+- relation_id: rel_freud_anx_002
+  relation_type: causes
+  factor_a: anxiety_signal
+  factor_b: dream_abortion
+  relation_nature: Signal→Response
+  condition_constraint: When signal strong enough anxiety causes dream abortion
+  effect_direction: terminating
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079284'
+- relation_id: rel_freud_anx_003
+  relation_type: confirms
+  factor_a: anxiety_dream
+  factor_b: wish_fulfillment
+  relation_nature: Exception→Rule
+  condition_constraint: When paradoxically anxiety dream confirms wish fulfillment
+    theory
+  effect_direction: proving
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079287'
+- relation_id: rel_freud_ucs_001
+  relation_type: contains
+  factor_a: system_ucs
+  factor_b: system_cs
+  relation_nature: Larger→Smaller
+  condition_constraint: When always system Ucs contains system Cs as larger circle
+  effect_direction: including
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079331'
+- relation_id: rel_freud_ucs_002
+  relation_type: grounds
+  factor_a: system_ucs
+  factor_b: real_psychic
+  relation_nature: System→Ontology
+  condition_constraint: When always system Ucs grounds real psychic ontologically
+  effect_direction: founding
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079333'
+- relation_id: rel_freud_ucs_003
+  relation_type: produces
+  factor_a: system_ucs
+  factor_b: system_cs
+  relation_nature: Foundation→Emergence
+  condition_constraint: When always system Ucs produces system Cs emergently
+  effect_direction: generating
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.079338'
+- relation_id: rel_freud_dw_001
+  relation_type: transforms
+  factor_a: dream_work
+  factor_b: manifest_content
+  relation_nature: Production
+  condition_constraint: When latent content present dream work transforms into manifest
+    content
+  effect_direction: generating
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081654'
+- relation_id: rel_freud_dw_002
+  relation_type: conceals
+  factor_a: manifest_content
+  factor_b: latent_content
+  relation_nature: Surface/Depth
+  condition_constraint: When dream formation manifest content conceals latent content
+  effect_direction: hiding
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081660'
+- relation_id: rel_freud_dw_003
+  relation_type: decodes
+  factor_a: rebus_principle
+  factor_b: manifest_content
+  relation_nature: Methodology
+  condition_constraint: When free association rebus principle decodes manifest content
+  effect_direction: revealing
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081664'
+- relation_id: rel_freud_cond_001
+  relation_type: produces
+  factor_a: condensation
+  factor_b: composite_figure
+  relation_nature: Mechanism→Product
+  condition_constraint: When multiple persons condensation produces composite figure
+  effect_direction: generating
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081703'
+- relation_id: rel_freud_cond_002
+  relation_type: creates
+  factor_a: condensation
+  factor_b: nodal_point
+  relation_nature: Mechanism→Structure
+  condition_constraint: When convergence condensation creates nodal point
+  effect_direction: forming
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081707'
+- relation_id: rel_freud_cond_003
+  relation_type: measures
+  factor_a: disproportion_ratio
+  factor_b: condensation
+  relation_nature: Diagnostic
+  condition_constraint: When 1:6-12 ratio measures disproportion indicating condensation
+  effect_direction: indicating
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081712'
+- relation_id: rel_freud_disp_001
+  relation_type: shifts
+  factor_a: displacement
+  factor_b: psychic_intensity
+  relation_nature: Mechanism→Quality
+  condition_constraint: When censorship active displacement shifts psychic intensity
+  effect_direction: redistributing
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081751'
+- relation_id: rel_freud_disp_002
+  relation_type: serves
+  factor_a: displacement
+  factor_b: censorship
+  relation_nature: Function
+  condition_constraint: When forbidden wish displacement serves censorship function
+  effect_direction: enabling
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081754'
+- relation_id: rel_freud_disp_003
+  relation_type: produces
+  factor_a: displacement
+  factor_b: emotional_disproportion
+  relation_nature: Mechanism→Sign
+  condition_constraint: When completed displacement produces emotional disproportion
+    sign
+  effect_direction: indicating
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081757'
+- relation_id: rel_freud_rep_001
+  relation_type: constrains
+  factor_a: dream_visual_limitation
+  factor_b: dream_logical_relations
+  relation_nature: Medium→Content
+  condition_constraint: When always visual limitation constrains logical relations
+    representation
+  effect_direction: preventing
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081793'
+- relation_id: rel_freud_rep_002
+  relation_type: destroys
+  factor_a: dream_work
+  factor_b: dream_logical_relations
+  relation_nature: Process→Structure
+  condition_constraint: When dream formation dream work destroys logical relations
+  effect_direction: fragmenting
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081795'
+- relation_id: rel_freud_rep_003
+  relation_type: preserves
+  factor_a: dream_work
+  factor_b: dream_objective_content
+  relation_nature: Process→Content
+  condition_constraint: When always dream work preserves objective content
+  effect_direction: maintaining
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081798'
+- relation_id: rel_freud_pres_001
+  relation_type: requires
+  factor_a: dream_presentability
+  factor_b: dream_abstract_concrete
+  relation_nature: Constraint→Process
+  condition_constraint: When abstract content presentability requires concrete transformation
+  effect_direction: triggering
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081837'
+- relation_id: rel_freud_pres_002
+  relation_type: enables
+  factor_a: dream_verbal_ambiguity
+  factor_b: condensation
+  relation_nature: Property→Process
+  condition_constraint: When multiple meanings verbal ambiguity enables condensation
+  effect_direction: facilitating
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081842'
+- relation_id: rel_freud_pres_003
+  relation_type: serves
+  factor_a: dream_abstract_concrete
+  factor_b: disguise
+  relation_nature: Process→Function
+  condition_constraint: When censor active abstract concrete transformation serves
+    disguise
+  effect_direction: concealing
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081845'
+- relation_id: rel_freud_aff_001
+  relation_type: preserves
+  factor_a: dream_work
+  factor_b: dream_affect
+  relation_nature: Transformation
+  condition_constraint: When always dream work preserves affect through transformation
+  effect_direction: maintaining
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081947'
+- relation_id: rel_freud_aff_002
+  relation_type: transforms
+  factor_a: dream_work
+  factor_b: presentation_content
+  relation_nature: Transformation
+  condition_constraint: When always dream work transforms presentation content
+  effect_direction: altering
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081953'
+- relation_id: rel_freud_aff_003
+  relation_type: produces
+  factor_a: affect_dissociation
+  factor_b: incongruence
+  relation_nature: Mechanism→Sign
+  condition_constraint: When displacement affect dissociation produces incongruence
+    sign
+  effect_direction: indicating
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081957'
+- relation_id: rel_freud_sec_001
+  relation_type: creates
+  factor_a: dream_secondary_elaboration
+  factor_b: dream_facade
+  relation_nature: Mechanism→Product
+  condition_constraint: When dream fragmentation secondary elaboration creates facade
+  effect_direction: generating
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081995'
+- relation_id: rel_freud_sec_002
+  relation_type: adds
+  factor_a: dream_secondary_elaboration
+  factor_b: dream_interpolation
+  relation_nature: Mechanism→Content
+  condition_constraint: When gap present secondary elaboration adds interpolation
+  effect_direction: filling
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.081999'
+- relation_id: rel_freud_sec_003
+  relation_type: conceals
+  factor_a: dream_facade
+  factor_b: dream_fragmentation
+  relation_nature: Surface→Depth
+  condition_constraint: When elaboration complete facade conceals fragmentation
+  effect_direction: hiding
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.082004'
+- relation_id: rel_dist_001
+  relation_type: produces
+  factor_a: dream_censor
+  factor_b: dream_distortion
+  relation_nature: Causal
+  condition_constraint: Wish unacceptable
+  effect_direction: MIXED
+  source_ref: Freud Ch.IV
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.083375'
+- relation_id: rel_dist_002
+  relation_type: transforms
+  factor_a: dream_work
+  factor_b: latent_to_manifest
+  relation_nature: Process
+  condition_constraint: Censor active
+  effect_direction: MIXED
+  source_ref: Freud Ch.IV
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.083380'
+- relation_id: rel_dist_003
+  relation_type: hides
+  factor_a: manifest_content
+  factor_b: latent_content
+  relation_nature: Structural
+  condition_constraint: Distortion present
+  effect_direction: MIXED
+  source_ref: Freud Ch.IV
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.083384'
+- relation_id: rel_dist_004
+  relation_type: satisfies
+  factor_a: punishment_dreams
+  factor_b: masochistic_wish
+  relation_nature: Variant
+  condition_constraint: Self-punishment desired
+  effect_direction: BENEFICIAL
+  source_ref: Freud Ch.IV
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.083387'
+- relation_id: rel_dist_005
+  relation_type: strengthens
+  factor_a: moral_training
+  factor_b: dream_censor
+  relation_nature: Developmental
+  condition_constraint: Victorian upbringing
+  effect_direction: MIXED
+  source_ref: Freud Ch.IV
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.083390'
+- relation_id: rel_dist_006
+  relation_type: reveals
+  factor_a: interpretation
+  factor_b: latent_content
+  relation_nature: Therapeutic
+  condition_constraint: Free association applied
+  effect_direction: BENEFICIAL
+  source_ref: Freud Ch.IV
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.083393'
+- relation_id: rel_wish_001
+  relation_type: demonstrates
+  factor_a: children_dreams
+  factor_b: wish_fulfillment
+  relation_nature: Proof
+  condition_constraint: No censor interference
+  effect_direction: BENEFICIAL
+  source_ref: Freud Ch.III
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.084123'
+- relation_id: rel_wish_002
+  relation_type: demonstrates
+  factor_a: convenience_dreams
+  factor_b: wish_fulfillment
+  relation_nature: Proof
+  condition_constraint: Sleep protection need
+  effect_direction: BENEFICIAL
+  source_ref: Freud Ch.III
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.084128'
+- relation_id: rel_wish_003
+  relation_type: enables
+  factor_a: hallucinatory_satisfaction
+  factor_b: sleep_guardian
+  relation_nature: Functional
+  condition_constraint: Wish satisfiable mentally
+  effect_direction: BENEFICIAL
+  source_ref: Freud Ch.III
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.084131'
+- relation_id: rel_wish_004
+  relation_type: compensates
+  factor_a: dream_content
+  factor_b: waking_frustration
+  relation_nature: Compensatory
+  condition_constraint: Reality denied wish
+  effect_direction: BENEFICIAL
+  source_ref: Freud Ch.III
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.084136'
+- relation_id: rel_wish_005
+  relation_type: absent_in
+  factor_a: dream_censor
+  factor_b: children_dreams
+  relation_nature: Structural
+  condition_constraint: Weak repression
+  effect_direction: BENEFICIAL
+  source_ref: Freud Ch.III
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.084139'
+- relation_id: rel_freud_src_001
+  relation_type: triggers
+  factor_a: day_residue
+  factor_b: dream_formation
+  relation_nature: Source→Process
+  condition_constraint: When always day residue triggers dream formation
+  effect_direction: initiating
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.085498'
+- relation_id: rel_freud_src_002
+  relation_type: enables
+  factor_a: indifferent_material
+  factor_b: displacement
+  relation_nature: Content→Process
+  condition_constraint: When censor active indifferent material enables displacement
+  effect_direction: facilitating
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.085504'
+- relation_id: rel_freud_src_003
+  relation_type: connects
+  factor_a: association_chain
+  factor_b: day_residue
+  relation_nature: Mechanism→Source
+  condition_constraint: When remote content association chain connects to day residue
+  effect_direction: linking
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.085508'
+- relation_id: rel_freud_inf_001
+  relation_type: preserves
+  factor_a: unconscious
+  factor_b: dream_infantile_experience
+  relation_nature: Storage
+  condition_constraint: When always unconscious preserves infantile experience
+  effect_direction: maintaining
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.085549'
+- relation_id: rel_freud_inf_002
+  relation_type: drives
+  factor_a: childhood_wish
+  factor_b: adult_dream
+  relation_nature: Motor
+  condition_constraint: When wish active childhood wish drives adult dream
+  effect_direction: generating
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.085553'
+- relation_id: rel_freud_inf_003
+  relation_type: demonstrates
+  factor_a: perennial_dream
+  factor_b: child_lives_on
+  relation_nature: Instance→Principle
+  condition_constraint: When recurrence perennial dream demonstrates child lives on
+  effect_direction: proving
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.085558'
+- relation_id: rel_freud_typ_001
+  relation_type: contains
+  factor_a: dream_typical_dream
+  factor_b: dream_nakedness_dream
+  relation_nature: Category→Instance
+  condition_constraint: When universal typical dream category contains nakedness dream
+  effect_direction: classifying
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.085602'
+- relation_id: rel_freud_typ_002
+  relation_type: reveals
+  factor_a: dream_nakedness_dream
+  factor_b: dream_exhibitionism
+  relation_nature: Dream→Wish
+  condition_constraint: When repression present nakedness dream reveals exhibitionism
+  effect_direction: exposing
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.085605'
+- relation_id: rel_freud_typ_003
+  relation_type: reassures
+  factor_a: dream_examination_dream
+  factor_b: dream_ego
+  relation_nature: Dream→Function
+  condition_constraint: When stress present examination dream reassures ego
+  effect_direction: supporting
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.085608'
+- relation_id: rel_method_001
+  relation_type: enables
+  factor_a: free_association
+  factor_b: piece_by_piece
+  relation_nature: Methodological
+  condition_constraint: When patient suspends critique
+  effect_direction: REQUIRED
+  source_ref: Freud Ch.II
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.086566'
+- relation_id: rel_method_002
+  relation_type: reveals
+  factor_a: piece_by_piece
+  factor_b: background_thoughts
+  relation_nature: Analytical
+  condition_constraint: Each element yields associations
+  effect_direction: BENEFICIAL
+  source_ref: Freud Ch.II
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.086572'
+- relation_id: rel_method_003
+  relation_type: produces
+  factor_a: condensation AND displacement
+  factor_b: manifest_content
+  relation_nature: Dream-work
+  condition_constraint: Latent → Manifest transformation
+  effect_direction: MIXED
+  source_ref: Freud Ch.II
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.086578'
+- relation_id: rel_method_004
+  relation_type: fulfills
+  factor_a: dream_content
+  factor_b: wish_fulfillment
+  relation_nature: Functional
+  condition_constraint: Dreams serve wish satisfaction
+  effect_direction: BENEFICIAL
+  source_ref: Freud Ch.II
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.086582'
+- relation_id: rel_irma_001
+  relation_type: demonstrates
+  factor_a: irma_dream
+  factor_b: wish_fulfillment
+  relation_nature: Exemplary
+  condition_constraint: Specimen dream proves thesis
+  effect_direction: BENEFICIAL
+  source_ref: Freud Ch.II
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.086587'
+- relation_id: rel_irma_002
+  relation_type: applies
+  factor_a: condensation
+  factor_b: irma_figure
+  relation_nature: Mechanism
+  condition_constraint: Irma = 3 women
+  effect_direction: MIXED
+  source_ref: Freud Ch.II
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.086590'
+- relation_id: rel_freud_paradigm_001
+  relation_type: causal
+  factor_a: paradigm AND dream_dream_psychopathology
+  factor_b: unconscious_mech
+  relation_nature: Dreams reveal neurosis mechanisms
+  condition_constraint: When dreams are studied psychoanalytically
+  effect_direction: BENEFICIAL
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.089931'
+- relation_id: rel_freud_paradigm_002
+  relation_type: complementary
+  factor_a: dream_universal AND dream_dream_accessible
+  factor_b: theoretical_value
+  relation_nature: Universal access enables study
+  condition_constraint: When dreamer reports dream content
+  effect_direction: BENEFICIAL
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.089938'
+- relation_id: rel_freud_paradigm_003
+  relation_type: semantic_category
+  factor_a: dream_phobia AND dream_dream_obsession AND dream_dream_delusion
+  factor_b: freud_dream_theory
+  relation_nature: Same mechanisms at different intensities
+  condition_constraint: When unconscious conflict exists
+  effect_direction: MIXED
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.089942'
+- relation_id: rel_freud_manifest_latent
+  relation_type: dream_mechanism
+  factor_a: dream_manifest AND dream_latent
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: When dream formation mechanism reveals unconscious content
+  effect_direction: revealing
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.089976'
+- relation_id: rel_freud_wish_fulfillment
+  relation_type: dream_mechanism
+  factor_a: wish_fulfillment
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: When dream formation mechanism reveals unconscious content
+  effect_direction: revealing
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.090008'
+- relation_id: rel_freud_condensation
+  relation_type: dream_mechanism
+  factor_a: condensation
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: When dream formation mechanism reveals unconscious content
+  effect_direction: revealing
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.090043'
+- relation_id: rel_freud_displacement
+  relation_type: dream_mechanism
+  factor_a: displacement
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: When dream formation mechanism reveals unconscious content
+  effect_direction: revealing
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.090073'
+- relation_id: rel_freud_symbolization
+  relation_type: dream_mechanism
+  factor_a: symbolization
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: When dream formation mechanism reveals unconscious content
+  effect_direction: revealing
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.090102'
+- relation_id: rel_freud_free_association
+  relation_type: dream_mechanism
+  factor_a: free_association
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: When dream formation mechanism reveals unconscious content
+  effect_direction: revealing
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.090134'
+- relation_id: rel_freud_censorship
+  relation_type: dream_mechanism
+  factor_a: censorship
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: When dream formation mechanism reveals unconscious content
+  effect_direction: revealing
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.090167'
+- relation_id: rel_freud_day_residues
+  relation_type: dream_mechanism
+  factor_a: day_residues
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: When dream formation mechanism reveals unconscious content
+  effect_direction: revealing
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.090198'
+- relation_id: rel_freud_regression
+  relation_type: dream_mechanism
+  factor_a: regression
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: When dream formation mechanism reveals unconscious content
+  effect_direction: revealing
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.090277'
+- relation_id: rel_freud_primary_secondary
+  relation_type: dream_mechanism
+  factor_a: primary_process
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: When dream formation mechanism reveals unconscious content
+  effect_direction: revealing
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.090302'
+- relation_id: rel_freud_typical_dreams
+  relation_type: dream_mechanism
+  factor_a: dream_typical_dream
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: When dream formation mechanism reveals unconscious content
+  effect_direction: revealing
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.090316'
+- relation_id: rel_freud_anxiety
+  relation_type: dream_mechanism
+  factor_a: anxiety_dream
+  factor_b: censorship
+  relation_nature: Psychodynamic
+  condition_constraint: When forbidden wish anxiety dream alarms censorship
+  effect_direction: alarming
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.090345'

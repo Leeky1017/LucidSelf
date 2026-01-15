@@ -1,0 +1,2661 @@
+book_id: 周易
+source_file: 典籍/中文典籍/周易/周易_64卦语义提取总结.md, 典籍/中文典籍/周易/编辑/周易_完整规范化_上经.md, 典籍/中文典籍/周易/编辑/周易_完整规范化_下经.md
+extracted_at: '2025-12-04T14:27:34.461113'
+terms:
+- term_zh: 乾
+  term_en: Qian (Creative Heaven)
+  definition_zh: 八卦之首，纯阳之天，象征刚健主动、资始万物的创造之道
+  definition_en: The first trigram, pure Yang Heaven, symbolizing the creative principle
+    that initiates and sustains all things with vigorous movement
+  factor_id: zhouyi_trigram_qian
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 元亨利贞
+  term_en: Yuan-Heng-Li-Zhen (Four Virtues)
+  definition_zh: 乾卦四德：元为始与善之长，亨为通达之会，利为合义之利，贞为守正之干
+  definition_en: 'The four core virtues of Qian: Yuan as origin and chief of goodness,
+    Heng as fluent circulation, Li as benefit aligned with rightness, and Zhen as
+    steadfast adherence to what is correct'
+  factor_id: zhouyi_yuan_heng_li_zhen
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 六龙
+  term_en: Six Dragons
+  definition_zh: 乾卦六爻所象之龙，从潜伏到飞腾再至亢极，描写君子随时位进退的阶段
+  definition_en: The six dragon images represented by the lines of Qian, from hidden
+    to soaring to overreaching, describing how a noble person advances and withdraws
+    according to changing positions
+  factor_id: zhouyi_six_dragons
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 天行健
+  term_en: Heaven Moves Strongly
+  definition_zh: 《象传》语，指天道运行刚健不息，为君子修身立命之根本范式
+  definition_en: Phrase from the Image text indicating that Heaven moves with tireless
+    strength and providing the fundamental model for self-cultivation
+  factor_id: zhouyi_tian_xing_jian
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 自强不息
+  term_en: Self-Strengthening Without Rest
+  definition_zh: 君子法天之道，在德行与事业上不断自我砥砺、不懈怠
+  definition_en: The noble person emulates Heaven by continually exerting effort in
+    character and action without slackening
+  factor_id: zhouyi_ziqiang_buxi
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 亢龙有悔
+  term_en: Overreaching Dragon Has Regret
+  definition_zh: 上九爻辞，指只知进取不知退守、过满而失其正，终致悔恨之象
+  definition_en: The top-line statement referring to one who only advances and never
+    withdraws, becoming overfull and losing proper balance, which inevitably brings
+    regret
+  factor_id: zhouyi_kanglong_youhui
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 坤
+  term_en: Kun (Receptive Earth)
+  definition_zh: 八卦之一，纯阴之地，象征柔顺承载、资生万物的大地之道
+  definition_en: One of the Eight Trigrams, pure Yin Earth, symbolizing the receptive
+    way that bears and nurtures all beings
+  factor_id: zhouyi_trigram_kun
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 利牝马之贞
+  term_en: Favoring the Mare's Steadfastness
+  definition_zh: 卦辞要点，比喻如牝马般柔顺坚贞、坚韧持久的行事方式最合坤道
+  definition_en: 'Key phrase of the Judgment, likening the proper conduct to a mare:
+    gentle yet firm, enduring and steadfast, which best accords with Kun''s way'
+  factor_id: zhouyi_li_pinma_zhen
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 厚德载物
+  term_en: Bearing All with Great Virtue
+  definition_zh: 象传语，指以深厚广大的德性承载万物、不加弃舍
+  definition_en: Phrase from the Image text, meaning to support and contain all things
+    with vast and deep virtue, without rejecting any
+  factor_id: zhouyi_houde_zaiwu
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 西南得朋/东北丧朋
+  term_en: Gaining Friends in Southwest, Losing Friends in Northeast
+  definition_zh: 卦辞中以方位喻趋向：趋向坤方与同类同行则得朋，转向东北则离群而终得庆
+  definition_en: 'Directional metaphor in the Judgment: turning toward Kun''s southwest
+    to go with one''s kind gains allies, while turning northeast leaves the group
+    yet ultimately brings good outcome'
+  factor_id: zhouyi_xinan_dongbei_peng
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 履霜坚冰至
+  term_en: Treading on Frost, Hard Ice Will Come
+  definition_zh: 初六爻辞，比喻从细微征兆预见严重后果的渐进规律
+  definition_en: First line statement, using early frost to foretell hard ice as a
+    metaphor for how small omens grow into serious consequences
+  factor_id: zhouyi_lvshuang_jianbing
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 黄裳
+  term_en: Yellow Skirt
+  definition_zh: 六五爻象，以居下而守中的黄色下裳象征中和而不张扬的美德
+  definition_en: Image of the fifth line, a yellow lower garment symbolizing modest
+    virtue that is central and unobtrusive
+  factor_id: zhouyi_huangchang
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 龙战于野
+  term_en: Dragon Fighting in the Wild
+  definition_zh: 上六爻象，指阴极疑阳而争战，导致天地玄黄杂乱的失衡局面
+  definition_en: Top-line image where Yin, having reached an extreme, suspects and
+    fights Yang, leading to a chaotic mixture of Heaven and Earth
+  factor_id: zhouyi_longzhan_yuye
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 屯
+  term_en: Zhun (Difficulty at Beginning)
+  definition_zh: 卦名，指草创初难、万物萌发之际的艰阻状态
+  definition_en: Name of hexagram, denoting initial difficulty when things are just
+    beginning to sprout
+  factor_id: zhouyi_gua_zhun
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 建侯
+  term_en: Establishing Feudal Lords
+  definition_zh: 建立核心秩序与领导结构，比喻在草创期先立根基
+  definition_en: Establishing foundational order and leadership structure during initial
+    stages
+  factor_id: zhouyi_jianhou
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 经纶
+  term_en: Organizing Affairs
+  definition_zh: 筹划治理、经略天下，如理丝成文
+  definition_en: Organizing and managing affairs of state, like arranging silk threads
+    into patterns
+  factor_id: zhouyi_jinglun
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 蒙
+  term_en: Meng (Envelopment/Ignorance)
+  definition_zh: 卦名，指资质被蒙、认知未启的状态，也指可被教化的早期阶段
+  definition_en: Name of the hexagram, referring to a state in which potential is
+    covered and understanding is not yet awakened, but can be educated
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 童蒙
+  term_en: Childlike Learner
+  definition_zh: 心智未开、需受教化之人，既可能纯真可教，也可能顽蒙难化
+  definition_en: A person whose mind is not yet mature and needs instruction, potentially
+    innocent and teachable or stubbornly ignorant
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 发蒙
+  term_en: Opening the Obscurity
+  definition_zh: 初六爻象，指通过启发、示警与解除束缚来开启蒙昧
+  definition_en: First-line image of initiating enlightenment by warning and releasing
+    from shackles
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 包蒙
+  term_en: Embracing the Ignorant
+  definition_zh: 九二爻象，以宽厚包容的方式承接蒙者，辅之以家庭与日常实践
+  definition_en: Second-line image of taking in the ignorant with tolerance and grounding
+    education in everyday family life
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 困蒙
+  term_en: Trapped in Ignorance
+  definition_zh: 六四爻象，指长期停留在蒙昧而不学的自困状态
+  definition_en: Fourth-line image of being stuck in ignorance by refusing to learn
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 击蒙
+  term_en: Striking the Ignorant
+  definition_zh: 上九爻象，对顽固不化之蒙以严厉方式矫正，但以“御寇”而非“为寇”为界
+  definition_en: Top-line image of forcefully correcting hardened ignorance, used
+    to defend against harm rather than to oppress
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 蒙以养正
+  term_en: Nurturing Correctness in Youth
+  definition_zh: 彖传语，指在童蒙之时先立其正，使德性与方向得以端正
+  definition_en: Phrase from the Judgment meaning to use the time of youth to establish
+    correctness so that virtue and direction are set right
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 需
+  term_en: Xu (Waiting Before Danger)
+  definition_zh: 卦名，指前有险而未入险、必须待其时的等待状态
+  definition_en: Name of the hexagram, referring to a situation where danger lies
+    ahead but has not yet fully arrived, requiring patient waiting
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 有孚
+  term_en: Inner Trust and Faith
+  definition_zh: 卦辞要点，指内在具备诚信与信任，为等待之根基
+  definition_en: Key term in the Judgment, meaning inner sincerity and trust that
+    form the basis for meaningful waiting
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 光亨
+  term_en: Bright Prospects and Flow
+  definition_zh: 指虽暂时停顿但前景光明、终能通达的态势
+  definition_en: Phrase indicating that although there is temporary pause, the overall
+    prospects are bright and will eventually flow
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 贞吉
+  term_en: Steadfastness Brings Good Fortune
+  definition_zh: 守正不妄动则吉，在等待期间不得改易根本原则
+  definition_en: Statement that maintaining correctness without rash movement brings
+    good fortune, especially during the waiting period
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 利涉大川
+  term_en: Favorable to Cross the Great River
+  definition_zh: 时机成熟时一举跨越大险的象征，而非立即行动的鼓励
+  definition_en: Symbol that when the time is right, one decisive move can cross great
+    danger; not an encouragement to act prematurely
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 需于郊/沙/泥/血
+  term_en: Waiting at Outskirts/Sands/Mud/Blood
+  definition_zh: 六爻中不同环境的等待位置，显示与险势远近与紧迫度的渐变
+  definition_en: The various waiting positions in the lines, showing a gradient of
+    distance and urgency relative to danger
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 不速之客
+  term_en: Unexpected Guest
+  definition_zh: 非预期而来的客人或机缘，考验当事人以敬相待的态度
+  definition_en: An unanticipated guest or opportunity that tests whether one can
+    respond with respectful attentiveness
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 讼
+  term_en: Song (Contention/Litigation)
+  definition_zh: 卦名，指因立场与利益冲突而起的争辩与诉讼局面
+  definition_en: Name of the hexagram, referring to situations of dispute and litigation
+    arising from conflicting positions and interests
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 有孚窒惕
+  term_en: Sincere Yet Wary
+  definition_zh: 卦辞要点：内有诚信与根据，在受阻与压力中仍保持警惕与自制
+  definition_en: Key phrase describing having sincerity and grounds while remaining
+    cautious under obstruction and pressure
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 中吉终凶
+  term_en: Good in the Middle, Ruin at the End
+  definition_zh: 指争讼在适当范围与时间内尚可得吉，久拖不止则终致凶祸
+  definition_en: Statement that contention can bring acceptable outcomes if limited
+    in scope and duration, but prolonged disputes end badly
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 利见大人
+  term_en: Favorable to See the Great Person
+  definition_zh: 遇争端宜求助于德行与立场中正之人或制度裁决
+  definition_en: Indicates that in disputes it is advantageous to appeal to a just
+    and principled authority or institution
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 不永所事
+  term_en: Do Not Prolong the Matter
+  definition_zh: 初六爻意，提醒争讼不宜长期坚持，应及早止讼
+  definition_en: First-line warning not to persist in litigation for too long and
+    to end it early
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 食旧德
+  term_en: Living on Old Merit
+  definition_zh: 六三爻象，比喻依赖旧有功业维持现状，却难以在新局中再建新功
+  definition_en: Third-line image of relying on past merit to sustain status without
+    creating new achievements
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 鞶带三褫
+  term_en: Belt Granted and Thrice Removed
+  definition_zh: 上九爻象，指因争讼得来的荣宠反复被授与剥夺，象征得失无常
+  definition_en: Top-line image of a ceremonial belt being granted and taken away
+    repeatedly, symbolizing unstable honors gained through contention
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 师
+  term_en: Shi (Army/Mass)
+  definition_zh: 卦名，指军队与众人，也泛指一切需要统御的大规模群体
+  definition_en: Name of the hexagram, referring to armies and masses, or any large
+    group requiring leadership
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 贞，丈人吉
+  term_en: Righteousness, Elder Brings Good Fortune
+  definition_zh: 卦辞要点：用师必须立于正道，并由德高望重者统帅，方能吉而无咎
+  definition_en: Key phrase stating that military or group action must be based on
+    righteousness and led by a venerable elder to be fortunate
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 师出以律
+  term_en: Army Sets Forth with Discipline
+  definition_zh: 初六爻象，强调出师之初即确立严明军纪和规则
+  definition_en: First-line image stressing that from the outset the army must be
+    governed by strict discipline
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 在师中
+  term_en: In the Midst of the Army
+  definition_zh: 九二爻象，象征处于军队或组织核心位置、承上启下之人
+  definition_en: Second-line image symbolizing a person in the central position within
+    the army or organization
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 师或舆尸
+  term_en: The Army May Carry Corpses
+  definition_zh: 六三爻象，比喻由于指挥不当或任用失宜而导致严重损失
+  definition_en: Third-line image likening misused or misled troops to an army returning
+    with corpses
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 师左次
+  term_en: The Army Camps on the Left
+  definition_zh: 六四爻象，象征在形势不利时主动侧移安营、暂缓进攻的策略
+  definition_en: Fourth-line image of moving the army to the side and camping, symbolizing
+    strategic withdrawal
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 长子帅师/小人勿用
+  term_en: Eldest Son Leads / Do Not Use the Petty
+  definition_zh: 六五与上六所示，对比德才兼备者领军与任用品行不端者的后果
+  definition_en: Phrases contrasting the proper leading of the army by a noble eldest
+    son with the dangers of employing petty people
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 比
+  term_en: Bi (Affiliation/Alliance)
+  definition_zh: 卦名，指亲近、依附、辅佐之关系结构
+  definition_en: Name of the hexagram, referring to structures of closeness, affiliation,
+    and alliance
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 原筮
+  term_en: First Divination
+  definition_zh: 指在关系或结盟开始时所做的根本占问与立约
+  definition_en: The initial divination or decision made when a relationship or alliance
+    is first formed
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 元永贞
+  term_en: From Beginning, Long-Lasting Steadfastness
+  definition_zh: 从开始到长期皆守正不移的关系原则
+  definition_en: Principle of steadfast correctness maintained from the beginning
+    through the long term
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 不宁方来
+  term_en: The Unsettled Come
+  definition_zh: 指局势不安之方前来亲附，寻求稳定与依托
+  definition_en: Phrase indicating that those in unrest come to seek alliance and
+    stability
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 后夫凶
+  term_en: The Latecomer Is Doomed
+  definition_zh: 指迟迟不来亲比或犹豫不决者，最终处境不利
+  definition_en: Statement that those who come to ally too late are eventually in
+    danger
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 显比
+  term_en: Manifest Alliance
+  definition_zh: 九五爻象，指公开透明、光明正大的亲比关系
+  definition_en: Fifth-line image of open and honorable alliance
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 三驱失前禽
+  term_en: Three Drives Losing the Front Game
+  definition_zh: 比喻在利益分配上有舍有取，不尽取，以仁政与节制换取长久信任
+  definition_en: Metaphor for intentionally giving up some immediate gains in order
+    to secure long-term trust and harmony
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 比之无首
+  term_en: Alliance Without a Head
+  definition_zh: 上六爻象，指众人相比却无中心与主导，终致混乱
+  definition_en: Top-line image of a group allied without a leader, leading to disorder
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 小畜
+  term_en: Xiao Chu (Lesser Accumulation/Restraint)
+  definition_zh: 卦名，指以柔顺之力小规模蓄积与约束强大能量的过程
+  definition_en: Name of the hexagram, referring to the process of small-scale accumulation
+    and gentle restraint of stronger forces
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 密云不雨
+  term_en: Dense Clouds Without Rain
+  definition_zh: 卦辞意象，指条件具备而效果暂未显现的蓄积状态
+  definition_en: Image in the Judgment indicating that conditions are gathered while
+    results are still delayed
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 自我西郊
+  term_en: From Our Western Outskirts
+  definition_zh: 指影响范围尚在边缘，象征作用力尚未深入核心区域
+  definition_en: Phrase suggesting that influence is still confined to the margins
+    and has not reached the center
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 复自道/牵复
+  term_en: Returning by One's Own Path / Being Drawn Back
+  definition_zh: 初九与九二爻象，指自我修正与相互牵引式的回归正道
+  definition_en: First and second line images describing self-correction and mutual
+    pulling back to the right path
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 舆说辐
+  term_en: The Carriage Loses Its Spokes
+  definition_zh: 九三爻象，比喻结构松散、沟通断裂导致的功能失灵
+  definition_en: Third-line image likening breakdown of structure and communication
+    to a carriage losing its spokes
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 有孚挛如
+  term_en: With Trust Bound Together
+  definition_zh: 九五爻象，指以内在信任将人心紧密相连
+  definition_en: Fifth-line image describing how inner trust binds people closely
+    together
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 富以其邻
+  term_en: Enriching His Neighbors
+  definition_zh: 九五爻辞，指将自身富足惠及邻人，形成互惠网络
+  definition_en: "Phrase describing extending one\x13s wealth to neighbors, forming\
+    \ a network of mutual benefit"
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 既雨既处
+  term_en: Already Raining, Already at Rest
+  definition_zh: 上九爻象，指能量释放后应及时收束安处，不再过度推进
+  definition_en: Top-line image stating that after release of accumulated energy one
+    should settle and not keep pushing
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 履
+  term_en: Lu (Treading/Conduct)
+  definition_zh: 卦名，指踏履、行走，引申为在秩序结构中的行为方式与路径
+  definition_en: Name of the hexagram, referring to treading and conduct within a
+    structured order
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 履虎尾
+  term_en: Treading on the Tiger's Tail
+  definition_zh: 踩在虎尾之上，象征身处极险之境、稍有不慎即有大祸
+  definition_en: Stepping on a tiger's tail, symbolizing an extremely dangerous situation
+    where the slightest misstep brings disaster
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 柔履刚
+  term_en: The Soft Treading upon the Hard
+  definition_zh: 以柔顺之道行于刚强之上，强调用和悦与谦敬来应对强势环境
+  definition_en: The soft line treading upon the hard, emphasizing gentle and respectful
+    conduct in the face of strength
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 素履
+  term_en: Plain Treading
+  definition_zh: 不矫饰、不逞强的朴素行履方式
+  definition_en: Simple and unadorned conduct without pretension or bravado
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 履道坦坦
+  term_en: Treading a Level Path
+  definition_zh: 行于平坦大道，比喻正直光明、无隐曲的行事之道
+  definition_en: Walking on a level path, a metaphor for straightforward and open
+    conduct
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 夬履
+  term_en: Decisive Treading
+  definition_zh: 在守正前提下果断前行的行履方式，伴随风险与压力
+  definition_en: A mode of treading that is resolute and decisive under the constraint
+    of correctness, inherently risky
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 视履考祥
+  term_en: Observing the Treading and Examining the Omens
+  definition_zh: 审视自己的行履并据此判断吉凶，以便调整行为
+  definition_en: Observing one's conduct and examining omens to discern fortune and
+    misfortune and adjust behavior accordingly
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 其旋元吉
+  term_en: In Returning There Is Great Good Fortune
+  definition_zh: 经由回旋归返、复盘调整而获得的大吉结果
+  definition_en: The great good fortune that arises from turning back, revising one's
+    conduct, and returning to the right path
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 泰
+  term_en: Tai (Peace/Great Harmony)
+  definition_zh: 卦名，指天地交泰、上下通达而成盛世之象
+  definition_en: Name of the hexagram, indicating a time of peace and great harmony
+    when Heaven and Earth and all levels communicate freely
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 小往，大来
+  term_en: The Small Goes, the Great Comes
+  definition_zh: 小人退去、君子进用的格局变化
+  definition_en: The withdrawal of petty forces and the advance of greater, nobler
+    influences
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 天地交
+  term_en: Heaven and Earth in Communion
+  definition_zh: 乾坤相交、阴阳和合，使万物通达
+  definition_en: Heaven and Earth unite so that Yin and Yang are harmonized and all
+    things can flow
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 君子道长，小人道消
+  term_en: The Noble Way Grows, the Petty Way Declines
+  definition_zh: 君子之道日益壮大，小人之道逐渐消退
+  definition_en: The way of the noble grows stronger while the way of the petty gradually
+    wanes
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 拔茅茹，以其汇
+  term_en: Pulling Up the Grasses with Their Roots Entangled
+  definition_zh: 拔出茅草连带其根系，比喻提携同类、群贤并进
+  definition_en: Pulling up grasses so their entangled roots come along, a metaphor
+    for lifting up one person and thereby many of like kind
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 包荒、不遐遗、朋亡
+  term_en: Embracing the Wastelands, Neglecting None Afar, Parties Disappear
+  definition_zh: 包容瑕疵、广纳远人、不结朋党的用人之道
+  definition_en: A way of employing people that tolerates imperfections, includes
+    those far away, and dissolves factional cliques
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 帝乙归妹
+  term_en: King Di Yi Marries Off His Younger Sister
+  definition_zh: 以王者嫁女联结诸侯，使天下蒙受福祉的礼乐制度安排
+  definition_en: The royal marriage by King Di Yi used to bind nobles and spread blessing
+    through ritual and alliance
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 城复于隍
+  term_en: The City Wall Falls Back into the Moat
+  definition_zh: 城墙倾倒入壕，象征盛世结构开始崩坏、泰极将否
+  definition_en: The city wall collapsing into the moat, symbolizing the beginning
+    of structural collapse and the turning of Tai into Pi
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 否
+  term_en: Pi (Obstruction)
+  definition_zh: 卦名，指闭塞不通、天地不交
+  definition_en: Obstruction; heaven and earth not communicating
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 休否
+  term_en: Suspending Obstruction
+  definition_zh: 暂时缓解否塞状态
+  definition_en: Temporarily relieving obstruction
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 倾否
+  term_en: Overturning Obstruction
+  definition_zh: 彻底改变否塞局面
+  definition_en: Completely overturning obstruction
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 同人
+  term_en: Tong Ren (Fellowship with People)
+  definition_zh: 卦名，指在差异中以志同为基础结成的同道关系
+  definition_en: Name of the hexagram, referring to fellowship based on shared intent
+    amid difference
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 同人于野
+  term_en: Fellowship with People in the Open Country
+  definition_zh: 在郊野之地结交同人，象征超越宗族与门户的开放场域
+  definition_en: Fellowship formed in the open countryside, symbolizing alliances
+    beyond clan and gate
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 同人于宗
+  term_en: Fellowship Only within the Clan
+  definition_zh: 只在本宗、本派之中同人，导致视野与资源局限
+  definition_en: Fellowship confined to one’s own clan or sect, leading to narrowness
+    and limitation
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 文明以健
+  term_en: Civilized Within, Strong Without
+  definition_zh: 内有文明明德，外具刚健行动的结构格局
+  definition_en: A configuration of inner clarity and culture with outer strength
+    and initiative
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 类族辨物
+  term_en: Distinguishing Things by Kind and Clan
+  definition_zh: 按类按族辨别对象，而非无原则地与所有人同
+  definition_en: Discerning people and matters by kind and group, rather than mixing
+    with everyone without principle
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 伏戎于莽
+  term_en: Hiding Troops in the Thickets
+  definition_zh: 在草莽中伏兵，象征同人过程中潜在的武备与冲突
+  definition_en: Hiding troops in the brush, symbolizing latent military force and
+    conflict within fellowship
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 大师克相遇
+  term_en: Great Armies Meet and Overcome
+  definition_zh: 大军交战而后相会，象征冲突之后达成的更广泛同人
+  definition_en: Great armies meeting and overcoming, symbolizing broad fellowship
+    achieved after conflict
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 大有
+  term_en: Da You (Great Possession)
+  definition_zh: 卦名，指资源与德位俱盛的大有状态
+  definition_en: Name of the hexagram, referring to a state of great possession in
+    both resources and moral position
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 元亨
+  term_en: Great Originating Success
+  definition_zh: 根基深厚而通达的大吉之象
+  definition_en: A symbol of profound, originating success that flows freely
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 柔得尊位大中
+  term_en: Gentle Line in the Honored Central Position
+  definition_zh: 柔爻居尊位而得其中，得上下之应的结构
+  definition_en: A gentle line occupying the honored central place, receiving responses
+    above and below
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 遏恶扬善
+  term_en: Restraining Evil and Exalting Good
+  definition_zh: 抑制邪恶、彰显善行的治理原则
+  definition_en: The governing principle of restraining evil and promoting good
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 无交害
+  term_en: No Harmful Entanglements
+  definition_zh: 不与有害之人或关系相互混杂伤害
+  definition_en: Not becoming entangled in harmful relationships or interactions
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 大车以载
+  term_en: A Great Carriage to Carry
+  definition_zh: 以大车承载大道与重任的象征
+  definition_en: A symbol of carrying great responsibilities and purposes
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 公用亨于天子
+  term_en: Public Offerings to Honor the Son of Heaven
+  definition_zh: 以公共礼器祭享天子，象征公器与公德
+  definition_en: Using public offerings to honor the ruler, symbolizing public resources
+    and virtue
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 自天祐之
+  term_en: Blessed from Heaven
+  definition_zh: 由天命与大势所赐之庇佑，而非单纯人力所得
+  definition_en: Blessing and protection that come from Heaven and the greater order,
+    not from human effort alone
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 谦
+  term_en: Qian (Modesty/Humility)
+  definition_zh: 卦名，指在已有之中仍能自觉退下、减盈益谦的德行
+  definition_en: Name of the hexagram, referring to the virtue of stepping down and
+    reducing fullness even when one already possesses much
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 君子有终
+  term_en: The Noble Person Has an End
+  definition_zh: 君子能以谦德自始至终，不在中途丧失本心
+  definition_en: A noble person maintains modest virtue from beginning to end without
+    losing his original heart
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 亏盈益谦
+  term_en: Lessening the Full and Increasing the Modest
+  definition_zh: 天道削减盈满之处而增益谦下之处
+  definition_en: Heaven reduces what is overfull and increases what is modest
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 害盈福谦
+  term_en: Harming the Full and Blessing the Modest
+  definition_zh: 鬼神损害骄盈者、赐福谦下者的长期趋势
+  definition_en: The tendency of spirits to harm the overfull and bless the humble
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 裒多益寡
+  term_en: Gathering from the Abundant to Add to the Lacking
+  definition_zh: 在资源分配上收敛多者、增益少者，使整体平衡
+  definition_en: Gathering from those who have much to give to those who have little
+    so that the whole is balanced
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 称物平施
+  term_en: Weighing Things and Distributing Evenly
+  definition_zh: 权衡事物轻重，使施予恰当而平均
+  definition_en: Weighing the weight of things to distribute benefits appropriately
+    and fairly
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 鸣谦
+  term_en: Proclaimed Modesty
+  definition_zh: 谦德内实而名声远播的状态
+  definition_en: A state in which real modesty within naturally gives rise to a widely
+    known good name
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 劳谦
+  term_en: Toil and Modesty
+  definition_zh: 辛劳有功而仍能谦下、不自矜的德行
+  definition_en: The virtue of remaining humble even after hard work and great achievements
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 豫
+  term_en: Yu (Enthusiasm/Joy)
+  definition_zh: 卦名，指顺势而乐、气机鼓荡的状态，也含预备、提前布局之意
+  definition_en: Name of the hexagram, referring to a state of moving with joyful
+    momentum and surging energy, also implying preparation
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 利建侯，行师
+  term_en: Favorable to Establish Lords and Set Armies in Motion
+  definition_zh: 在豫乐之时适合封建诸侯、出兵行师等大规模制度与军政行动
+  definition_en: In times of Yu, it is favorable to confirm feudal lords and undertake
+    military or political campaigns
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 顺以动
+  term_en: Moving in Accord with the Flow
+  definition_zh: 顺应天时人心而动，不逆势强为
+  definition_en: Moving in harmony with Heaven's timing and people's hearts, not forcing
+    against the current
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 作乐崇德
+  term_en: Making Music to Honor Virtue
+  definition_zh: 制作音乐礼仪以承载与引导集体情绪，使欢乐有德行内涵而非单纯放纵
+  definition_en: Creating music and ritual to channel collective emotion so that joy
+    has virtuous content rather than mere license
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 鸣豫
+  term_en: Proclaiming Joy
+  definition_zh: 高声宣扬快乐而无实际根基，导致凶险
+  definition_en: Loudly announcing joy without real foundation, leading to misfortune
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 介于石
+  term_en: Firm as Stone
+  definition_zh: 在欢乐时仍能保持如石般的坚贞与自制，不过度沉溺
+  definition_en: Remaining firm and self-disciplined as stone even in joyful times,
+    not overindulging
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 盱豫
+  term_en: Looking Up in Joy
+  definition_zh: 仰视而乐、好高骛远、轻浮不实的快乐状态
+  definition_en: A frivolous, unrealistic joy that looks upward with vain ambition
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 冥豫
+  term_en: Dark Joy
+  definition_zh: 沉迷于昏冥、不自觉的快乐，已到危险边缘
+  definition_en: Intoxicated in dark, unconscious pleasure, approaching danger
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 随
+  term_en: Sui (Following)
+  definition_zh: 卦名，指追随、跟从、顺应时势的行为与智慧
+  definition_en: Following or accord with the time and proper leaders
+  factor_id: zhouyi_gua_sui
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 随时
+  term_en: Following the Time
+  definition_zh: 顺应时机、不固执于旧，依时势调整方向
+  definition_en: Adapting to the times without clinging to the past
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 元亨利贞
+  term_en: Great Success through Correctness
+  definition_zh: 随之大吉在于守持正道而随
+  definition_en: Great fortune comes from following with integrity
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 蛊
+  term_en: Gu (Decay)
+  definition_zh: 卦名，指事物败坏、腐朽，需要整治振作
+  definition_en: Decay or corruption requiring active renovation
+  factor_id: zhouyi_gua_gu
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 先甲三日，后甲三日
+  term_en: Three Days Before/After
+  definition_zh: 在行动前后都需谨慎计划与跟进
+  definition_en: Careful planning before and vigilance after action
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 干父之蛊
+  term_en: Taking on Father's Decay
+  definition_zh: 承担前人留下的问题与责任
+  definition_en: Shouldering problems left by predecessors
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 临
+  term_en: Lin (Approach)
+  definition_zh: 卦名，指接近、临近、下临于民的状态
+  definition_en: Approaching power or descending to engage the people
+  factor_id: zhouyi_gua_lin
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 至于八月有凶
+  term_en: By the Eighth Month, Misfortune
+  definition_zh: 提示盛极必衰，需提前警觉
+  definition_en: Warning that after peak comes decline
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 教思无穷
+  term_en: Teaching and Contemplation Without End
+  definition_zh: 君子在临位时不断教化与反思
+  definition_en: Continuous teaching and reflection in position of approach
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 观
+  term_en: Guan (Contemplation)
+  definition_zh: 卦名，指观察、被观察、示范的双重含义
+  definition_en: Both observing and being observed; setting an example
+  factor_id: zhouyi_gua_guan
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 观国之光
+  term_en: Observing the Glory of the State
+  definition_zh: 通过观察了解大势与文化
+  definition_en: Understanding the times by observing the realm
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 童观
+  term_en: Childish Observation
+  definition_zh: 幼稚、肤浅的观察，未见大道
+  definition_en: Shallow, naive observation missing the deeper truth
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 噬嗑
+  term_en: Shi He (Biting Through)
+  definition_zh: 卦名，指咬合、清除障碍、用刑罚的行为
+  definition_en: Biting through obstructions; using punishment to restore order
+  factor_id: zhouyi_gua_shihe
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 明罚敕法
+  term_en: Clarifying Punishments and Laws
+  definition_zh: 使刑罚与法度明确清晰
+  definition_en: Making punishments and regulations clear and transparent
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 何校灭耳
+  term_en: Cangue Covering the Ears
+  definition_zh: 刑罚过重、失去听闻，象征过度惩罚
+  definition_en: Punishment so severe it cuts off perception
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 贲
+  term_en: Bi (Adornment)
+  definition_zh: 卦名，指文饰、美化、文化修养与外在呈现
+  definition_en: Adornment, grace, and cultural refinement
+  factor_id: zhouyi_gua_bi
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 白贲无咎
+  term_en: Plain Adornment, No Blame
+  definition_zh: 返璞归真、以朴素为美
+  definition_en: Returning to simplicity; unadorned beauty
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 贲于丘园
+  term_en: Adorning the Garden
+  definition_zh: 文饰已至园林，雅致但有过度之虞
+  definition_en: Grace extending to gardens; risk of over-refinement
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 剥
+  term_en: Bo (Splitting Apart)
+  definition_zh: 卦名，指剥落、崩解、阴盛阳衰的局面
+  definition_en: Splitting apart; erosion of the positive by the negative
+  factor_id: zhouyi_gua_bo
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 硕果不食
+  term_en: The Last Fruit Uneaten
+  definition_zh: 保留最后种子，待来年重生
+  definition_en: Preserving the last seed for future renewal
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 剥床以肤
+  term_en: Peeling the Bed to the Skin
+  definition_zh: 剥蚀已至肌肤，形势危急
+  definition_en: Erosion reaching the very skin; critical danger
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 复
+  term_en: Fu (Return)
+  definition_zh: 卦名，指返回、恢复、阳气初生的转折点
+  definition_en: Return of yang energy; the turning point after decline
+  factor_id: zhouyi_gua_fu
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 七日来复
+  term_en: Return in Seven Days
+  definition_zh: 自然周期的象征，天道循环
+  definition_en: Natural cycle; the rhythm of Heaven's way
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 复其见天地之心
+  term_en: In Return We See the Heart of Heaven and Earth
+  definition_zh: 复卦展现天地生生不息的核心
+  definition_en: Return reveals the heart of Heaven and Earth
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 无妄
+  term_en: Wu Wang (Innocence)
+  definition_zh: 卦名，指无妄为、真诚、天然而不造作
+  definition_en: Innocence, sincerity, acting without artifice or ulterior motive
+  factor_id: zhouyi_gua_wuwang
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 无妄之灾
+  term_en: Disaster of the Innocent
+  definition_zh: 即使真诚也可能遭遇意外，需坚守不改
+  definition_en: Misfortune can befall the innocent; perseverance is key
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 先王以茂对时育万物
+  term_en: Former Kings Nourished All Things in Season
+  definition_zh: 以无妄之德育化万物
+  definition_en: Nurturing all beings with innocent sincerity
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 大畜
+  term_en: Da Xu (Great Accumulation)
+  definition_zh: 卦名，指大规模的蓄积、约束与培养
+  definition_en: Great accumulation; restraining and cultivating power
+  factor_id: zhouyi_gua_daxu
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 不家食吉
+  term_en: Not Eating at Home Brings Fortune
+  definition_zh: 走出家门、用于公事，蓄德用世
+  definition_en: Going beyond private life to serve the public
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 何天之衢
+  term_en: Highway of Heaven
+  definition_zh: 大畜之极，道路通达天下
+  definition_en: At the peak of accumulation, the way opens wide
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 颐
+  term_en: Yi (Nourishment)
+  definition_zh: 卦名，指养护、滋养、自养与养人
+  definition_en: Nourishment; both nurturing oneself and providing for others
+  factor_id: zhouyi_gua_yi
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 观颐
+  term_en: Observing Nourishment
+  definition_zh: 观察养护的方式与对象
+  definition_en: Observing how and what one nourishes
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 自求口实
+  term_en: Seek One's Own Nourishment
+  definition_zh: 自己寻求养分，不依赖他人
+  definition_en: Seeking one's own sustenance independently
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 大过
+  term_en: Da Guo (Great Excess)
+  definition_zh: 卦名，指过度、超载、非常时期
+  definition_en: Great excess; extraordinary circumstances requiring decisive action
+  factor_id: zhouyi_gua_daguo
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 栋桡
+  term_en: The Ridgepole Sags
+  definition_zh: 梁柱弯曲，象征结构承压过度
+  definition_en: The main beam bends; structural overload
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 独立不惧
+  term_en: Standing Alone Without Fear
+  definition_zh: 在危机中独立坚守
+  definition_en: Standing firm alone in times of crisis
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 习坎
+  term_en: Xi Kan (Repeated Danger)
+  definition_zh: 卦名，指重复的险阻、不断面对危难
+  definition_en: Repeated danger; navigating through recurring perils
+  factor_id: zhouyi_gua_xikan
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 维心亨
+  term_en: Maintaining Sincerity in the Heart
+  definition_zh: 保持内心真诚，方能通达
+  definition_en: Maintaining inner integrity to achieve success
+  factor_id: zhouyi_weixin_heng
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 入于坎窞
+  term_en: Falling into the Pit
+  definition_zh: 陷入险境最深处
+  definition_en: Falling into the deepest part of the abyss
+  factor_id: zhouyi_ruyu_kandan
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 离
+  term_en: Li (Clinging/Radiance)
+  definition_zh: 卦名，指附丽、光明
+  definition_en: Clinging, radiance; attachment to the correct path
+  factor_id: zhouyi_gua_li
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 丽
+  term_en: Li (Attachment)
+  definition_zh: 附着、依附
+  definition_en: Attachment, clinging to
+  factor_id: zhouyi_li_attachment
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 黄离
+  term_en: Yellow Radiance
+  definition_zh: 黄色附着，象征中道之明
+  definition_en: Yellow radiance symbolizing the middle way
+  factor_id: zhouyi_huangli
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 咸
+  term_en: Xian (Influence)
+  definition_zh: 卦名，感应与相互吸引
+  definition_en: Hexagram name meaning mutual influence and attraction
+  factor_id: zhouyi_gua_031
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 二气感应
+  term_en: Mutual Resonance
+  definition_zh: 阴阳二气相互感通、彼此影响
+  definition_en: The sympathetic interaction between yin and yang energies
+  factor_id: concept_yinyang_resonance_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 虚受人
+  term_en: Receiving with Emptiness
+  definition_zh: 虚心接纳他人，不以己意强加
+  definition_en: Receiving others with an open, unprejudiced mind
+  factor_id: concept_open_reception_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 男下女
+  term_en: Man Goes Beneath Woman
+  definition_zh: 主动方谦下于被动方，以求和合
+  definition_en: The active party humbles itself to seek harmony
+  factor_id: relation_male_below_female_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 咸其脢
+  term_en: Influence at the Back
+  definition_zh: 感应深入背脊，象征整体姿态与价值观的共鸣
+  definition_en: Influence reaching the spine, symbolizing resonance of entire bearing
+  factor_id: symbol_influence_back_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 恒
+  term_en: Heng (Duration)
+  definition_zh: 卦名，恒久持守之道
+  definition_en: Hexagram name meaning enduring constancy
+  factor_id: zhouyi_gua_032
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 雷风相与
+  term_en: Thunder and Wind Together
+  definition_zh: 雷风交互、循环往复
+  definition_en: Thunder and wind interacting in continuous cycle
+  factor_id: symbol_thunder_wind_cycle_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 立不易方
+  term_en: Stand Without Changing Direction
+  definition_zh: 确立根本方向后不轻易改变
+  definition_en: Establishing firm direction without wavering
+  factor_id: principle_stand_firm_direction_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 久于其道
+  term_en: Persisting in One's Way
+  definition_zh: 长期坚持正确道路
+  definition_en: Long-term adherence to the right path
+  factor_id: principle_long_term_way_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 浚恒
+  term_en: Seeking Constancy Too Deep
+  definition_zh: 求恒过度、挖掘太深
+  definition_en: Pursuing duration excessively
+  factor_id: warning_over_striving_constancy_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 遯
+  term_en: Dun (Retreat)
+  definition_zh: 卦名，退隐避世之道
+  definition_en: Hexagram name meaning strategic retreat
+  factor_id: zhouyi_gua_033
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 天下有山
+  term_en: Mountain Under Heaven
+  definition_zh: 山止于天下，象征前路受阻
+  definition_en: Mountain blocking the path below heaven
+  factor_id: symbol_mountain_under_heaven_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 不恶而严
+  term_en: Firm Without Hatred
+  definition_zh: 不以私情憎恶，却在原则上严正
+  definition_en: Maintaining strictness without personal animosity
+  factor_id: principle_firm_without_hatred_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 肥遯
+  term_en: Prosperous Retreat
+  definition_zh: 丰足从容的退隐
+  definition_en: Retreat with abundance and ease
+  factor_id: state_prosperous_retreat_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 遯尾
+  term_en: Retreat at the Tail
+  definition_zh: 退得太晚，处于队尾
+  definition_en: Retreating too late, at the end
+  factor_id: warning_late_retreat_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 大壮
+  term_en: Da Zhuang (Great Power)
+  definition_zh: 卦名，力量极盛之道
+  definition_en: Hexagram name meaning great power
+  factor_id: zhouyi_gua_034
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 非礼弗履
+  term_en: Propriety First
+  definition_zh: 不合礼的事一步不踏
+  definition_en: Not stepping without propriety
+  factor_id: principle_not_step_without_ritual_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 羝羊触藩
+  term_en: Ram at Fence
+  definition_zh: 公羊撞篱笆被困
+  definition_en: Ram butting fence, getting stuck
+  factor_id: symbol_ram_hits_fence_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 用罔
+  term_en: Self-Restraint
+  definition_zh: 以网约束力量
+  definition_en: Using restraint on strength
+  factor_id: method_self_restraint_net_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 大者正也
+  term_en: Greatness in Correctness
+  definition_zh: 真正的大在于守正
+  definition_en: True greatness lies in correctness
+  factor_id: principle_greatness_in_correctness_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 晋
+  term_en: Jin (Progress)
+  definition_zh: 前进、光明上升
+  definition_en: Advance with brightness rising
+  factor_id: zhouyi_gua_035
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 明出地上
+  term_en: Brightness Emerges
+  definition_zh: 光明出于地面
+  definition_en: Brightness rising above earth
+  factor_id: symbol_brightness_earth_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 自昭明德
+  term_en: Self-Illuminating Virtue
+  definition_zh: 自己彰显德行
+  definition_en: Illuminating one's own virtue
+  factor_id: principle_self_illuminating_virtue_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 康侯锡马
+  term_en: Rewarded Noble
+  definition_zh: 受赐恩宠之诸侯
+  definition_en: Noble rewarded with horses
+  factor_id: state_rewarded_noble_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 晋其角
+  term_en: Progress to Extreme
+  definition_zh: 进升到极点
+  definition_en: Advancing to the extreme
+  factor_id: warning_progress_extreme_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 明夷
+  term_en: Ming Yi (Darkening)
+  definition_zh: 光明受伤入地
+  definition_en: Brightness wounded, entering earth
+  factor_id: zhouyi_gua_036
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 晦其明
+  term_en: Dimming the Light
+  definition_zh: 收敛光明锋芒
+  definition_en: Concealing one's brightness
+  factor_id: method_dimming_light_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 用晦而明
+  term_en: Bright Through Darkness
+  definition_zh: 以晦暗方式守明
+  definition_en: Maintaining light through darkness
+  factor_id: principle_bright_through_darkness_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 箕子之明夷
+  term_en: Jizi's Darkening
+  definition_zh: 箕子式的韬晦守节
+  definition_en: Jizi-style preservation of virtue
+  factor_id: exemplar_jizi_darkening_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 利艰贞
+  term_en: Benefit in Hardship
+  definition_zh: 艰难中守正有利
+  definition_en: Benefit lies in persevering through hardship
+  factor_id: principle_benefit_hardship_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 家人
+  term_en: Jia Ren (Family)
+  definition_zh: 家庭、家人之道
+  definition_en: The way of family and household
+  factor_id: zhouyi_gua_037
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 女正位乎内
+  term_en: Woman's Inner Position
+  definition_zh: 女子主内之正位
+  definition_en: Woman's proper position within
+  factor_id: principle_woman_inner_position_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 言有物行有恒
+  term_en: Substance in Words
+  definition_zh: 言语有实质、行动有恒常
+  definition_en: Words with substance, actions with constancy
+  factor_id: principle_words_substance_actions_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 威如之吉
+  term_en: Dignity Brings Fortune
+  definition_zh: 威严带来吉祥
+  definition_en: Dignity and seriousness bring good fortune
+  factor_id: principle_dignity_fortune_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 正家而天下定
+  term_en: Family Order World Peace
+  definition_zh: 正家则天下安定
+  definition_en: Order in family leads to world peace
+  factor_id: principle_family_order_world_peace_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 睽
+  term_en: Kui (Opposition)
+  definition_zh: 乖离、睽违
+  definition_en: Opposition, divergence
+  factor_id: zhouyi_gua_038
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 二女同居
+  term_en: Two Daughters Together
+  definition_zh: 同居而志不同
+  definition_en: Living together with different aims
+  factor_id: symbol_two_daughters_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 见豕负涂
+  term_en: Pig Bearing Mud
+  definition_zh: 看似污秽不堪
+  definition_en: Seeing pig carrying mud, initial misperception
+  factor_id: symbol_pig_mud_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 遇雨则吉
+  term_en: Rain Brings Fortune
+  definition_zh: 阴阳交合则吉
+  definition_en: When opposing forces unite, fortune comes
+  factor_id: principle_rain_fortune_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 小事吉
+  term_en: Small Matters Favorable
+  definition_zh: 小事可成
+  definition_en: Small undertakings are favorable
+  factor_id: principle_small_matters_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 蹇
+  term_en: Jian (Obstruction)
+  definition_zh: 艰难、险阻
+  definition_en: Difficulty, obstruction
+  factor_id: zhouyi_gua_039
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 见险能止
+  term_en: Stopping Before Danger
+  definition_zh: 见到险阻能止步
+  definition_en: Ability to stop when seeing danger
+  factor_id: principle_see_danger_stop_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 利见大人
+  term_en: Benefit From Great Person
+  definition_zh: 利于见贵人
+  definition_en: Beneficial to see a great person
+  factor_id: principle_benefit_great_person_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 往蹇来誉
+  term_en: Go Difficult Return Honored
+  definition_zh: 前往困难返回有誉
+  definition_en: Difficulty in going, honor in returning
+  factor_id: state_go_difficult_return_honored_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 反身修德
+  term_en: Self-Reflection
+  definition_zh: 反躬自省修养德行
+  definition_en: Turning inward to cultivate virtue
+  factor_id: principle_self_reflection_virtue_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 解
+  term_en: Xie (Deliverance)
+  definition_zh: 缓解、解除
+  definition_en: Release, deliverance
+  factor_id: zhouyi_gua_040
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 雷雨作
+  term_en: Thunder and Rain
+  definition_zh: 雷雨交作万物解
+  definition_en: Thunder and rain bring release
+  factor_id: symbol_thunder_rain_release_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 赦过宥罪
+  term_en: Pardoning Mistakes
+  definition_zh: 赦免过失宽宥罪责
+  definition_en: Pardoning mistakes, forgiving crimes
+  factor_id: principle_pardon_forgive_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 解其拇
+  term_en: Releasing the Toe
+  definition_zh: 解除初始的牵绊
+  definition_en: Releasing initial constraints
+  factor_id: method_release_toe_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 公用射隼
+  term_en: Shooting the Hawk
+  definition_zh: 用箭射高墙上鹰
+  definition_en: Shooting hawk on high wall
+  factor_id: method_shoot_hawk_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 损
+  term_en: Sun (Decrease)
+  definition_zh: 减损、付出
+  definition_en: Decrease, giving
+  factor_id: zhouyi_gua_041
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 损下益上
+  term_en: Decrease Below Benefit Above
+  definition_zh: 减损下层益上层
+  definition_en: Decreasing below to benefit above
+  factor_id: principle_decrease_below_benefit_above_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 惩忿窒欲
+  term_en: Restraining Anger Desires
+  definition_zh: 惩戒忿怒窒塞欲望
+  definition_en: Restraining anger, blocking desires
+  factor_id: principle_restrain_anger_desire_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 二簋可用享
+  term_en: Two Bowls Suffice
+  definition_zh: 两碗祭品足够
+  definition_en: Two bowls of offerings suffice
+  factor_id: symbol_two_bowls_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 损而有孚
+  term_en: Decrease With Sincerity
+  definition_zh: 减损而有诚信
+  definition_en: Decreasing with sincerity
+  factor_id: principle_decrease_with_sincerity_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 益
+  term_en: Yi (Increase)
+  definition_zh: 增益、利人
+  definition_en: Increase, benefiting others
+  factor_id: zhouyi_gua_042
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 损上益下
+  term_en: Decrease Above Benefit Below
+  definition_zh: 减上层益下层
+  definition_en: Decreasing above to benefit below
+  factor_id: principle_decrease_above_benefit_below_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 见善则迁
+  term_en: Move Toward Good
+  definition_zh: 见到善就追随
+  definition_en: Moving toward goodness when seen
+  factor_id: principle_follow_good_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 益之用凶事
+  term_en: Increase for Difficulties
+  definition_zh: 用增益应对困难
+  definition_en: Using increase to handle difficulties
+  factor_id: method_increase_for_crisis_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 有过则改
+  term_en: Correct Mistakes
+  definition_zh: 有过失就改正
+  definition_en: Correcting mistakes when found
+  factor_id: principle_correct_mistakes_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 夬
+  term_en: Guai (Breakthrough)
+  definition_zh: 决断、决裂
+  definition_en: Breakthrough, resolution
+  factor_id: zhouyi_gua_043
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 扬于王庭
+  term_en: Proclaim in Court
+  definition_zh: 在王庭公开宣示
+  definition_en: Proclaiming in the royal court
+  factor_id: principle_proclaim_court_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 刚决柔
+  term_en: Firm Resolves Yielding
+  definition_zh: 刚健决断柔弱
+  definition_en: The firm resolves the yielding
+  factor_id: principle_firm_resolves_yielding_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 孚号有厉
+  term_en: Sincere Call Dangerous
+  definition_zh: 诚信呼号有危险
+  definition_en: Sincere calling brings danger
+  factor_id: principle_sincere_call_danger_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 不利即戎
+  term_en: Not Favor Arms
+  definition_zh: 不利于立即用兵
+  definition_en: Not favorable to take up arms
+  factor_id: principle_not_favor_arms_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 姤
+  term_en: Gou (Encountering)
+  definition_zh: 遇合、相交
+  definition_en: Encountering, meeting
+  factor_id: zhouyi_gua_044
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 柔遇刚
+  term_en: Yielding Meets Firm
+  definition_zh: 柔顺遇见刚健
+  definition_en: The yielding encounters the firm
+  factor_id: principle_yielding_meets_firm_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 女壮勿用取女
+  term_en: Woman Strong Not Marry
+  definition_zh: 女子壮盛时不宜娶
+  definition_en: When woman is strong, not suitable to marry
+  factor_id: principle_woman_strong_not_marry_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 包有鱼
+  term_en: Wrapped Fish
+  definition_zh: 包裹有鱼
+  definition_en: Having fish wrapped
+  factor_id: symbol_wrapped_fish_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 系于金柅
+  term_en: Tied to Metal Brake
+  definition_zh: 系于金属制动器
+  definition_en: Tied to metal brake
+  factor_id: method_tied_metal_brake_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 萃
+  term_en: Cui (Gathering)
+  definition_zh: 聚集、会萃
+  definition_en: Gathering, assembly
+  factor_id: zhouyi_gua_045
+  status: existing
+  source_book: 周易
+  source_chapter: null
+- term_zh: 王假有庙
+  term_en: King Arrives at Temple
+  definition_zh: 王到宗庙祭祀
+  definition_en: King arrives at ancestral temple
+  factor_id: principle_king_temple_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 用大牡吉
+  term_en: Great Sacrifice Auspicious
+  definition_zh: 用大牡畜祭祀吉
+  definition_en: Using great sacrifices brings fortune
+  factor_id: method_great_sacrifice_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 萃有位
+  term_en: Gathering Has Position
+  definition_zh: 聚合得其正位
+  definition_en: Gathering has proper position
+  factor_id: principle_gathering_position_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 刚中而应
+  term_en: Firm Center Responds
+  definition_zh: 刚健居中而有应
+  definition_en: Firm in center and has response
+  factor_id: principle_firm_center_responds_proposal
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 升
+  term_en: Sheng (Ascending)
+  definition_zh: 上升、进阶
+  definition_en: Ascending, advancing
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 柔以时升
+  term_en: Yielding Ascends Timely
+  definition_zh: 柔顺应时而升
+  definition_en: Yielding ascends at the right time
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 南征吉
+  term_en: Southern Campaign Auspicious
+  definition_zh: 向南进取吉祥
+  definition_en: Campaign to the south is auspicious
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 升虚邑
+  term_en: Ascending Empty City
+  definition_zh: 进入空虚之城
+  definition_en: Ascending to an empty city
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 用见大人
+  term_en: Seeing Great Person
+  definition_zh: 宜于见大人物
+  definition_en: Suitable to see a great person
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 困
+  term_en: Kun (Exhaustion)
+  definition_zh: 困穷、受阻
+  definition_en: Exhaustion, being confined
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 泽无水
+  term_en: Marsh Without Water
+  definition_zh: 沼泽无水枯竭
+  definition_en: Marsh without water, exhausted
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 刚掩柔
+  term_en: Firm Covers Yielding
+  definition_zh: 刚健被柔弱遮蔽
+  definition_en: The firm is covered by the yielding
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 困于株木
+  term_en: Confined by Stump
+  definition_zh: 困于树桩之下
+  definition_en: Confined by tree stumps
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 有言不信
+  term_en: Words Not Believed
+  definition_zh: 说话不被信任
+  definition_en: Words are not believed
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 井
+  term_en: Jing (Well)
+  definition_zh: 水井、滋养
+  definition_en: Well, nourishment
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 井养不穷
+  term_en: Well Nourishes Inexhaustibly
+  definition_zh: 井养众生无穷尽
+  definition_en: Well nourishes without exhaustion
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 改邑不改井
+  term_en: Change Town Not Well
+  definition_zh: 城邑可改井不可改
+  definition_en: Cities may change but not the well
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 井渫不食
+  term_en: Cleared Well Unused
+  definition_zh: 井已清却无人食用
+  definition_en: Well is cleared but not used
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 寒泉之食
+  term_en: Cold Spring Food
+  definition_zh: 寒泉清水可饮用
+  definition_en: Cold spring water for drinking
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 革
+  term_en: Ge (Revolution)
+  definition_zh: 变革、更新
+  definition_en: Revolution, transformation
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 己日乃孚
+  term_en: Day Brings Trust
+  definition_zh: 时机到则得信任
+  definition_en: When the time comes, trust is gained
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 顺天应人
+  term_en: Follow Heaven Respond People
+  definition_zh: 顺应天命回应人心
+  definition_en: Following heaven and responding to people
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 大人虎变
+  term_en: Great Person Tiger Change
+  definition_zh: 大人变革如虎
+  definition_en: Great person transforms like tiger
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 革面
+  term_en: Change Face
+  definition_zh: 改变面貌
+  definition_en: Changing one's appearance
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 鼎
+  term_en: Ding (Cauldron)
+  definition_zh: 鼎器、立制
+  definition_en: Cauldron, establishing order
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 鼎有实
+  term_en: Cauldron Has Content
+  definition_zh: 鼎中有实物
+  definition_en: Cauldron has substantial content
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 正位凝命
+  term_en: Correct Position Solidify Fate
+  definition_zh: 正其位以凝其命
+  definition_en: Correct position to solidify destiny
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 黄耳金铉
+  term_en: Yellow Ears Gold Handle
+  definition_zh: 黄金之耳与铉
+  definition_en: Golden ears and handle
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 鼎新
+  term_en: Cauldron Renewal
+  definition_zh: 以鼎革新
+  definition_en: Renewal through the cauldron
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 震
+  term_en: Zhen (Thunder)
+  definition_zh: 震动、雷鸣
+  definition_en: Thunder, arousing
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 震来虩虩
+  term_en: Thunder Comes Fearfully
+  definition_zh: 雷来时恐惧战栗
+  definition_en: Thunder comes with fear and trembling
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 不丧匕鬯
+  term_en: Not Losing Ladle Wine
+  definition_zh: 不失祭祀之器
+  definition_en: Not losing sacrificial implements
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 恐惧修省
+  term_en: Fear Leads to Reflection
+  definition_zh: 恐惧中反省修养
+  definition_en: Fear leading to self-reflection
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 震索索
+  term_en: Thunder Searching
+  definition_zh: 惊惶不安之状
+  definition_en: Frightened and anxious
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 艮
+  term_en: Gen (Keeping Still)
+  definition_zh: 止静、山
+  definition_en: Keeping still, mountain
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 艮其背
+  term_en: Still at the Back
+  definition_zh: 止于背后不见其身
+  definition_en: Keeping still at the back
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 时止则止
+  term_en: Stop When Time Stops
+  definition_zh: 应止则止应行则行
+  definition_en: Stopping when the time demands
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 敦艮
+  term_en: Sincere Stillness
+  definition_zh: 敦厚的止静
+  definition_en: Sincere and steady stillness
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 兼山
+  term_en: Double Mountains
+  definition_zh: 两山相叠
+  definition_en: Double mountains
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 渐
+  term_en: Jian (Gradual Progress)
+  definition_zh: 渐进、循序
+  definition_en: Gradual progress
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 鸿渐
+  term_en: Wild Goose Advances
+  definition_zh: 鸿雁渐进
+  definition_en: Wild goose gradually advances
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 女归吉
+  term_en: Woman Marrying Auspicious
+  definition_zh: 女子出嫁吉祥
+  definition_en: Woman marrying brings fortune
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 归妹
+  term_en: Gui Mei (Marrying Maiden)
+  definition_zh: 少女出嫁
+  definition_en: The marrying maiden
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 以娣
+  term_en: As Concubine
+  definition_zh: 作为侧室
+  definition_en: As secondary wife
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 征凶
+  term_en: Undertaking Brings Misfortune
+  definition_zh: 出征有凶
+  definition_en: Undertaking brings misfortune
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 跛能履
+  term_en: Lame Can Walk
+  definition_zh: 跛足亦能行
+  definition_en: Even lame can walk
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 永贞
+  term_en: Eternal Correctness
+  definition_zh: 永远守正
+  definition_en: Eternal correctness
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 丰
+  term_en: Feng (Abundance)
+  definition_zh: 盛大、丰隆
+  definition_en: Abundance, fullness
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 日中则昃
+  term_en: Sun at Zenith Declines
+  definition_zh: 日到中天则西斜
+  definition_en: Sun at zenith then declines
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 王假之
+  term_en: King Arrives
+  definition_zh: 王临至丰盛
+  definition_en: King arrives at abundance
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 宜日中
+  term_en: Suitable at Noon
+  definition_zh: 宜在日正当中时
+  definition_en: Suitable at high noon
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 丰其蔀
+  term_en: Covering Abundance
+  definition_zh: 遮蔽丰盛之象
+  definition_en: Covering the abundance
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 旅
+  term_en: Lv (Traveling)
+  definition_zh: 旅途、寄寓
+  definition_en: Traveling, sojourning
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 旅即次
+  term_en: Traveler Finds Lodging
+  definition_zh: 旅人入住寓所
+  definition_en: Traveler finds proper lodging
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 得童仆贞
+  term_en: Gaining Servants Correctly
+  definition_zh: 得到仆从且守正
+  definition_en: Gaining servants with correctness
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 明慎用刑
+  term_en: Bright and Careful Punishment
+  definition_zh: 明察慎用刑罚
+  definition_en: Bright and careful in punishment
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 丧其资斧
+  term_en: Losing Resources
+  definition_zh: 失去资财工具
+  definition_en: Losing resources and tools
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 巽
+  term_en: Xun (Gentle Wind)
+  definition_zh: 卑顺、柔入
+  definition_en: Gentle wind, yielding penetration
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 随风巽
+  term_en: Following Wind
+  definition_zh: 风相随而入
+  definition_en: Wind following wind
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 申命行事
+  term_en: Repeat Commands
+  definition_zh: 反复申明命令
+  definition_en: Repeatedly issue commands
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 巽在床下
+  term_en: Wind Under Bed
+  definition_zh: 卑伏于床下
+  definition_en: Penetrating under the bed
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 用史巫
+  term_en: Using Diviners
+  definition_zh: 用祭祀占卜者
+  definition_en: Using priests and diviners
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 兑
+  term_en: Dui (Joy)
+  definition_zh: 喜悦、和悦
+  definition_en: Joy, pleasure
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 丽泽
+  term_en: Connected Marshes
+  definition_zh: 两泽相连
+  definition_en: Two marshes connected
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 朋友讲习
+  term_en: Friends Discuss
+  definition_zh: 朋友互相讲论
+  definition_en: Friends discuss and learn
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 和兑
+  term_en: Harmonious Joy
+  definition_zh: 和谐的喜悦
+  definition_en: Harmonious joy
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 商兑
+  term_en: Trading Joy
+  definition_zh: 交易性的喜悦
+  definition_en: Trading or calculating joy
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 涣
+  term_en: Huan (Dispersion)
+  definition_zh: 涣散、离析
+  definition_en: Dispersion, dissolution
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 王假有庙
+  term_en: King at Temple
+  definition_zh: 王临宗庙凝聚
+  definition_en: King arrives at temple to unite
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 涣其群
+  term_en: Dispersing Groups
+  definition_zh: 涣散小群立大群
+  definition_en: Dispersing small groups for greater unity
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 涣汗其大号
+  term_en: Sweating Great Proclamation
+  definition_zh: 发布重大号令
+  definition_en: Issuing great proclamation
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 风行水上
+  term_en: Wind Over Water
+  definition_zh: 风吹水面涣散
+  definition_en: Wind moves over water
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 节
+  term_en: Jie (Limitation)
+  definition_zh: 节制、限度
+  definition_en: Limitation, restraint
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 甘节
+  term_en: Sweet Limitation
+  definition_zh: 甘愿的节制
+  definition_en: Willing limitation
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 苦节
+  term_en: Bitter Limitation
+  definition_zh: 苦涩的节制
+  definition_en: Bitter limitation
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 制数度
+  term_en: Setting Measures
+  definition_zh: 制定尺度规范
+  definition_en: Setting measures and standards
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 当位以节
+  term_en: Proper Position Limits
+  definition_zh: 以正当之位节制
+  definition_en: Limitation from proper position
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 中孚
+  term_en: Zhong Fu (Inner Truth)
+  definition_zh: 中心诚信
+  definition_en: Inner truth, sincerity
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 豚鱼吉
+  term_en: Pig Fish Auspicious
+  definition_zh: 诚信感及豚鱼
+  definition_en: Sincerity reaching pigs and fish
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 鸣鹤在阴
+  term_en: Crane Calls in Shade
+  definition_zh: 鹤鸣于树荫
+  definition_en: Crane calling in the shade
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 有孚挛如
+  term_en: Sincerity Bonds
+  definition_zh: 诚信如绳相系
+  definition_en: Sincerity bonding like rope
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 翰音登天
+  term_en: Rooster Crows to Heaven
+  definition_zh: 雄鸡高鸣
+  definition_en: Rooster crowing to heaven
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 小过
+  term_en: Xiao Guo (Small Exceeding)
+  definition_zh: 小有过越
+  definition_en: Small exceeding
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 飞鸟遗音
+  term_en: Flying Bird Leaves Sound
+  definition_zh: 飞鸟留下声音
+  definition_en: Flying bird leaves its sound
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 可小事不可大事
+  term_en: Small Matters Not Great
+  definition_zh: 宜小事不宜大事
+  definition_en: Suitable for small, not great matters
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 宜下不宜上
+  term_en: Suitable Below Not Above
+  definition_zh: 宜居下不宜居上
+  definition_en: Suitable to stay below
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 过其祖
+  term_en: Passing Ancestors
+  definition_zh: 超过祖辈
+  definition_en: Passing beyond ancestors
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 既济
+  term_en: Ji Ji (After Completion)
+  definition_zh: 事已成济
+  definition_en: After completion
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 初吉终乱
+  term_en: Good Start Bad End
+  definition_zh: 开始吉后来乱
+  definition_en: Auspicious at start, disorder at end
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 思患预防
+  term_en: Think of Danger Prevent
+  definition_zh: 思虑患难以预防
+  definition_en: Thinking of dangers to prevent them
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 濡其首
+  term_en: Wetting Head
+  definition_zh: 沾湿头部
+  definition_en: Getting one's head wet
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 高宗伐鬼方
+  term_en: Gao Zong Attacks
+  definition_zh: 高宗讨伐鬼方
+  definition_en: Gao Zong attacks the demon region
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 未济
+  term_en: Wei Ji (Before Completion)
+  definition_zh: 事未完成
+  definition_en: Before completion
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 小狐汔济
+  term_en: Little Fox Nearly Crosses
+  definition_zh: 小狐狸将渡河
+  definition_en: Little fox nearly completes crossing
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 濡其尾
+  term_en: Wetting Tail
+  definition_zh: 沾湿尾巴
+  definition_en: Getting its tail wet
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 辨物居方
+  term_en: Distinguish Things Place
+  definition_zh: 辨别万物各居其所
+  definition_en: Distinguishing things and placing properly
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null
+- term_zh: 有孚失是
+  term_en: Sincerity Loses This
+  definition_zh: 有诚信却失去方向
+  definition_en: Having sincerity but losing direction
+  factor_id: ''
+  status: new_candidate
+  source_book: 周易
+  source_chapter: null

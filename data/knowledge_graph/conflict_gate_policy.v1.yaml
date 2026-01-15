@@ -1,0 +1,46 @@
+version: 1
+policy_id: cross_book_conflict_gate_policy.v1
+
+scope:
+  cross_book_only: true
+
+blocking:
+  enabled: true
+
+severity_map:
+  direct_contradiction: HIGH
+  conditional_exception: LOW
+  scope_difference: LOW
+  cross_system_divergence: MEDIUM
+
+thresholds:
+  - name: direct_contradiction_max
+    match:
+      conflict_type: direct_contradiction
+      severity: HIGH
+    max_count: 153
+  - name: cross_system_divergence_max
+    match:
+      conflict_type: cross_system_divergence
+      severity: MEDIUM
+    max_count: 502
+  - name: conditional_exception_max
+    match:
+      conflict_type: conditional_exception
+      severity: LOW
+    max_count: 0
+  - name: scope_difference_max
+    match:
+      conflict_type: scope_difference
+      severity: LOW
+    max_count: 0
+  - name: total_conflicts_max
+    match: {}
+    max_count: 655
+
+reporting:
+  max_conflicts: 5000
+  max_examples_per_bucket: 20
+
+exceptions:
+  path: data/knowledge_graph/exceptions/conflict_exceptions.v1.yaml

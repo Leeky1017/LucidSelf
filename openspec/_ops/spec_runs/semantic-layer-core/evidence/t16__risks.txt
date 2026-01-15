@@ -1,0 +1,35 @@
+$ rg -n "Top 风险" openspec/specs/semantic-layer-core/design.md
+87:## Top 风险与缓解（写入门禁/证据/回退）
+
+$ rg -n "语义查询漂移" openspec/specs/semantic-layer-core/design.md
+55:- 系统 MUST 能检测语义查询漂移（例如同一查询在同版本语义下返回不同结果集合）。
+89:1) **语义查询漂移导致不可复现**：同一输入在同版本语义下返回不同结果集合  
+
+$ openspec validate --specs --strict --no-interactive
+✓ spec/abuse-and-rate-limits
+✓ spec/billing-and-entitlements
+✓ spec/bootability-and-regression-baseline
+✓ spec/citations-evidence-protocol
+✓ spec/commercial-readiness-gates
+✓ spec/corpus-governance
+✓ spec/corpus-release-pipeline
+✓ spec/cross-book-consistency-conflicts
+✓ spec/deployment-release
+✓ spec/engine-id-governance
+✓ spec/fusion-engine-explainability
+✓ spec/geocoding-first-class
+✓ spec/golden-sets-and-regression
+✓ spec/identity-and-data-isolation
+✓ spec/knowledge-graph-runtime-semanticquery
+✓ spec/llm-narrative-layer
+✓ spec/observability-slos
+✓ spec/playbook-and-action-loop
+✓ spec/production-defaults-no-mock
+✓ spec/proofreading-workflow-qa
+✓ spec/security-privacy-compliance
+✓ spec/semantic-extraction-quality-gates
+✓ spec/semantic-layer-core
+✓ spec/seven-engine-pipeline-e2e
+✓ spec/text-normalization-alignment
+✓ spec/versioning-and-deviation-detection
+Totals: 26 passed, 0 failed (26 items)

@@ -1,0 +1,1201 @@
+system: psych
+total_candidates: 89
+extraction_time: '2025-12-04T22:30:22.505755'
+by_type:
+  Concept:
+  - factor_type: Concept
+    factor_label: Great Mother
+    factor_id: great_mother
+    factor_source: new_candidate
+    role_position: Religious
+    value_constraints: Derivative
+    engine_id: psych_semantic
+    notes: Comparative religion
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 4
+    block_index: 0
+    inferred_system: psych
+  - factor_type: Concept
+    factor_label: Gods as factors
+    factor_id: gods_as_factors
+    factor_source: new_candidate
+    role_position: Modern view
+    value_constraints: Makers
+    engine_id: psych_semantic
+    notes: Psychological reframing
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 7
+    block_index: 8
+    inferred_system: psych
+  - factor_type: Concept
+    factor_label: Nirdvandva
+    factor_id: nirdvandva
+    factor_source: new_candidate
+    role_position: Freedom
+    value_constraints: Beyond opposites
+    engine_id: psych_semantic
+    notes: Hindu
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 4
+    block_index: 14
+    inferred_system: psych
+  - factor_type: Concept
+    factor_label: Lucifer as archetype
+    factor_id: lucifer_archetype
+    factor_source: new_candidate
+    role_position: Light-bringer
+    value_constraints: Spirit
+    engine_id: psych_semantic
+    notes: Alternative name
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 5
+    block_index: 14
+    inferred_system: psych
+  - factor_type: Concept
+    factor_label: Représentation collective
+    factor_id: rep_collective
+    factor_source: new_candidate
+    role_position: Dominating idea
+    value_constraints: Universal
+    engine_id: psych_semantic
+    notes: Durkheimian
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 4
+    block_index: 3
+    inferred_system: psych
+  Methodology:
+  - factor_type: Methodology
+    factor_label: Empiricist stance
+    factor_id: empiricist_stance
+    factor_source: new_candidate
+    role_position: Position
+    value_constraints: Not metaphysical
+    engine_id: psych_semantic
+    notes: Jung's method
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 6
+    block_index: 0
+    inferred_system: psych
+  - factor_type: Methodology
+    factor_label: Empirical approach
+    factor_id: empirical_method
+    factor_source: new_candidate
+    role_position: Foundation
+    value_constraints: Experience-based
+    engine_id: psych_semantic
+    notes: Scientific
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 4
+    block_index: 0
+    inferred_system: psych
+  - factor_type: Methodology
+    factor_label: Empirical concept
+    factor_id: empirical_concept
+    factor_source: new_candidate
+    role_position: Classification
+    value_constraints: Not theoretical
+    engine_id: psych_semantic
+    notes: Scientific status
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 4
+    block_index: 1
+    inferred_system: psych
+  Analogy:
+  - factor_type: Analogy
+    factor_label: Crystal axis
+    factor_id: crystal_analogy
+    factor_source: new_candidate
+    role_position: Illustration
+    value_constraints: Preforming
+    engine_id: psych_semantic
+    notes: Key teaching
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 4
+    block_index: 1
+    inferred_system: psych
+  Quality:
+  - factor_type: Quality
+    factor_label: Facultas praeformandi
+    factor_id: facultas_praeformandi
+    factor_source: new_candidate
+    role_position: Nature
+    value_constraints: Empty form
+    engine_id: psych_semantic
+    notes: Technical term
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 5
+    block_index: 1
+    inferred_system: psych
+  - factor_type: Quality
+    factor_label: Loving mother
+    factor_id: loving_mother
+    factor_source: new_candidate
+    role_position: Positive Pole
+    value_constraints: Cherishing
+    engine_id: psych_semantic
+    notes: Light
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 4
+    block_index: 3
+    inferred_system: psych
+  - factor_type: Quality
+    factor_label: Terrible mother
+    factor_id: terrible_mother
+    factor_source: new_candidate
+    role_position: Negative Pole
+    value_constraints: Devouring
+    engine_id: psych_semantic
+    notes: Dark
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 5
+    block_index: 3
+    inferred_system: psych
+  - factor_type: Quality
+    factor_label: Sacred-dangerous
+    factor_id: sacred_dangerous
+    factor_source: new_candidate
+    role_position: Nature
+    value_constraints: Tribal lore
+    engine_id: psych_semantic
+    notes: Paradoxical quality
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 7
+    block_index: 3
+    inferred_system: psych
+  - factor_type: Quality
+    factor_label: CU Objectivity
+    factor_id: cu_objectivity
+    factor_source: new_candidate
+    role_position: Nature
+    value_constraints: Transpersonal
+    engine_id: psych_semantic
+    notes: Not personal
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 6
+    block_index: 7
+    inferred_system: psych
+  - factor_type: Quality
+    factor_label: A priori factor
+    factor_id: apriori_factor
+    factor_source: new_candidate
+    role_position: Nature
+    value_constraints: Cannot be made
+    engine_id: psych_semantic
+    notes: Spontaneous
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 6
+    block_index: 10
+    inferred_system: psych
+  - factor_type: Quality
+    factor_label: Pre-existent meaning
+    factor_id: preexistent_meaning
+    factor_source: new_candidate
+    role_position: Hidden Order
+    value_constraints: In chaos
+    engine_id: psych_semantic
+    notes: Spirit's gift
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 5
+    block_index: 12
+    inferred_system: psych
+  - factor_type: Quality
+    factor_label: Psychic autonomy
+    factor_id: psychic_autonomy
+    factor_source: new_candidate
+    role_position: Nature
+    value_constraints: Sui generis
+    engine_id: psych_semantic
+    notes: Irreducible
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 5
+    block_index: 1
+    inferred_system: psych
+  - factor_type: Quality
+    factor_label: Archetype specific energy
+    factor_id: archetype_energy
+    factor_source: new_candidate
+    role_position: Persistence
+    value_constraints: Even if ignored
+    engine_id: psych_semantic
+    notes: Instinctual
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 5
+    block_index: 3
+    inferred_system: psych
+  - factor_type: Quality
+    factor_label: Fundamental factor
+    factor_id: fundamental_factor
+    factor_source: new_candidate
+    role_position: Importance
+    value_constraints: Psychic core
+    engine_id: psych_semantic
+    notes: Universal
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 5
+    block_index: 5
+    inferred_system: psych
+  Distinction:
+  - factor_type: Distinction
+    factor_label: Form vs Content
+    factor_id: form_content_distinction
+    factor_source: new_candidate
+    role_position: Category
+    value_constraints: Inherited vs Acquired
+    engine_id: psych_semantic
+    notes: Fundamental
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 6
+    block_index: 1
+    inferred_system: psych
+  - factor_type: Distinction
+    factor_label: Archetype vs Image
+    factor_id: archetype_image_distinction
+    factor_source: new_candidate
+    role_position: Category
+    value_constraints: Unconscious vs Conscious
+    engine_id: psych_semantic
+    notes: Key methodology
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 6
+    block_index: 2
+    inferred_system: psych
+  Symbol Category:
+  - factor_type: Symbol Category
+    factor_label: Mother positive
+    factor_id: mother_positive
+    factor_source: new_candidate
+    role_position: Light Pole
+    value_constraints: Nurturing
+    engine_id: psych_semantic
+    notes: Cherishing
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 4
+    block_index: 2
+    inferred_system: psych
+  - factor_type: Symbol Category
+    factor_label: Mother negative
+    factor_id: mother_negative
+    factor_source: new_candidate
+    role_position: Dark Pole
+    value_constraints: Devouring
+    engine_id: psych_semantic
+    notes: Terrible
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 5
+    block_index: 2
+    inferred_system: psych
+  Symbol:
+  - factor_type: Symbol
+    factor_label: Mandala as mother
+    factor_id: mandala_mother
+    factor_source: new_candidate
+    role_position: Protection
+    value_constraints: Container
+    engine_id: psych_semantic
+    notes: Circle
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 6
+    block_index: 2
+    inferred_system: psych
+  - factor_type: Symbol
+    factor_label: Dark lake
+    factor_id: dark_lake
+    factor_source: new_candidate
+    role_position: Unconscious
+    value_constraints: Dream image
+    engine_id: psych_semantic
+    notes: Theologian's dream
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 4
+    block_index: 6
+    inferred_system: psych
+  - factor_type: Symbol
+    factor_label: Pearl in well
+    factor_id: pearl_treasure
+    factor_source: new_candidate
+    role_position: Self/Wholeness
+    value_constraints: Guarded
+    engine_id: psych_semantic
+    notes: Gnostic hymn
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 6
+    block_index: 6
+    inferred_system: psych
+  - factor_type: Symbol
+    factor_label: Water
+    factor_id: water_symbol
+    factor_source: new_candidate
+    role_position: Universal Symbol
+    value_constraints: Unconscious
+    engine_id: psych_semantic
+    notes: Dreams
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 4
+    block_index: 7
+    inferred_system: psych
+  - factor_type: Symbol
+    factor_label: Two Magicians
+    factor_id: two_magicians
+    factor_source: new_candidate
+    role_position: Dual Spirit
+    value_constraints: White/Black inverted
+    engine_id: psych_semantic
+    notes: Same archetype
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 4
+    block_index: 13
+    inferred_system: psych
+  - factor_type: Symbol
+    factor_label: Old King
+    factor_id: old_king
+    factor_source: new_candidate
+    role_position: Outworn Dominant
+    value_constraints: Must die
+    engine_id: psych_semantic
+    notes: Ruling symbol
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 5
+    block_index: 13
+    inferred_system: psych
+  - factor_type: Symbol
+    factor_label: Black Horse
+    factor_id: black_horse
+    factor_source: new_candidate
+    role_position: Released Passion
+    value_constraints: From anima
+    engine_id: psych_semantic
+    notes: Platonic
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 6
+    block_index: 13
+    inferred_system: psych
+  - factor_type: Symbol
+    factor_label: Keys of Paradise
+    factor_id: keys_paradise
+    factor_source: new_candidate
+    role_position: Individuation
+    value_constraints: Mandala
+    engine_id: psych_semantic
+    notes: Goal
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 7
+    block_index: 13
+    inferred_system: psych
+  Example:
+  - factor_type: Example
+    factor_label: Kali
+    factor_id: kali
+    factor_source: new_candidate
+    role_position: Paradigm
+    value_constraints: Paradoxical
+    engine_id: psych_semantic
+    notes: Indian
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 6
+    block_index: 3
+    inferred_system: psych
+  Pattern:
+  - factor_type: Pattern
+    factor_label: Son's mother-complex
+    factor_id: son_mother_complex
+    factor_source: new_candidate
+    role_position: Male
+    value_constraints: Anima-mixed
+    engine_id: psych_semantic
+    notes: Clinical
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 4
+    block_index: 4
+    inferred_system: psych
+  Effect:
+  - factor_type: Effect
+    factor_label: Differentiated Eros
+    factor_id: differentiated_eros
+    factor_source: new_candidate
+    role_position: Positive
+    value_constraints: Friendship capacity
+    engine_id: psych_semantic
+    notes: Gift
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 5
+    block_index: 4
+    inferred_system: psych
+  - factor_type: Effect
+    factor_label: Don Juanism
+    factor_id: don_juanism
+    factor_source: new_candidate
+    role_position: Negative/Positive
+    value_constraints: Seeking mother
+    engine_id: psych_semantic
+    notes: Ambivalent
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 6
+    block_index: 4
+    inferred_system: psych
+  - factor_type: Effect
+    factor_label: Anima constellated
+    factor_id: anima_constellated
+    factor_source: new_candidate
+    role_position: Emotional takeover
+    value_constraints: Moodiness
+    engine_id: psych_semantic
+    notes: Negative
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 5
+    block_index: 8
+    inferred_system: psych
+  Type:
+  - factor_type: Type
+    factor_label: Maternal hypertrophy
+    factor_id: daughter_type_a
+    factor_source: new_candidate
+    role_position: Pattern
+    value_constraints: Over-maternal
+    engine_id: psych_semantic
+    notes: Demeter
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 4
+    block_index: 5
+    inferred_system: psych
+  - factor_type: Type
+    factor_label: Overdeveloped Eros
+    factor_id: daughter_type_b
+    factor_source: new_candidate
+    role_position: Pattern
+    value_constraints: Father-bound
+    engine_id: psych_semantic
+    notes: Electra
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 5
+    block_index: 5
+    inferred_system: psych
+  - factor_type: Type
+    factor_label: Mother identity
+    factor_id: daughter_type_c
+    factor_source: new_candidate
+    role_position: Pattern
+    value_constraints: Shadow-existence
+    engine_id: psych_semantic
+    notes: Persephone
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 6
+    block_index: 5
+    inferred_system: psych
+  - factor_type: Type
+    factor_label: Mother resistance
+    factor_id: daughter_type_d
+    factor_source: new_candidate
+    role_position: Pattern
+    value_constraints: Counter-identification
+    engine_id: psych_semantic
+    notes: Negative
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 7
+    block_index: 5
+    inferred_system: psych
+  Image:
+  - factor_type: Image
+    factor_label: Mater natura/spiritualis
+    factor_id: mater_natura
+    factor_source: new_candidate
+    role_position: Transpersonal
+    value_constraints: Beyond personal
+    engine_id: psych_semantic
+    notes: Archetypal mother
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 4
+    block_index: 6
+    inferred_system: psych
+  Principle:
+  - factor_type: Principle
+    factor_label: Psychic hygiene
+    factor_id: psychic_hygiene
+    factor_source: new_candidate
+    role_position: Necessity
+    value_constraints: Practical importance
+    engine_id: psych_semantic
+    notes: Why archetypes matter
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 5
+    block_index: 6
+    inferred_system: psych
+  - factor_type: Principle
+    factor_label: Unconscious compensation
+    factor_id: unc_compensation
+    factor_source: new_candidate
+    role_position: Function
+    value_constraints: Relative to conscious
+    engine_id: psych_semantic
+    notes: Core principle
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 6
+    block_index: 14
+    inferred_system: psych
+  - factor_type: Principle
+    factor_label: Anti-reductionism
+    factor_id: anti_reductionism
+    factor_source: new_candidate
+    role_position: Position
+    value_constraints: Against physiology-only
+    engine_id: psych_semantic
+    notes: Core argument
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 5
+    block_index: 0
+    inferred_system: psych
+  - factor_type: Principle
+    factor_label: Psyche totality
+    factor_id: psyche_totality
+    factor_source: new_candidate
+    role_position: Scope
+    value_constraints: Whole picture
+    engine_id: psych_semantic
+    notes: Holism
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 6
+    block_index: 0
+    inferred_system: psych
+  - factor_type: Principle
+    factor_label: Religion substitution
+    factor_id: religion_substitution
+    factor_source: new_candidate
+    role_position: Mechanism
+    value_constraints: One replaces another
+    engine_id: psych_semantic
+    notes: No escape
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 6
+    block_index: 3
+    inferred_system: psych
+  State:
+  - factor_type: State
+    factor_label: Archetype consciousness
+    factor_id: archetype_consciousness
+    factor_source: new_candidate
+    role_position: Goal
+    value_constraints: Stay connected to roots
+    engine_id: psych_semantic
+    notes: Health
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 6
+    block_index: 6
+    inferred_system: psych
+  - factor_type: State
+    factor_label: Symbol poverty
+    factor_id: symbol_poverty
+    factor_source: new_candidate
+    role_position: Modern condition
+    value_constraints: Alarming
+    engine_id: psych_semantic
+    notes: Crisis
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 5
+    block_index: 5
+    inferred_system: psych
+  - factor_type: State
+    factor_label: Cultural discontent
+    factor_id: cultural_discontent
+    factor_source: new_candidate
+    role_position: Result
+    value_constraints: Archetype loss
+    engine_id: psych_semantic
+    notes: Unbehagen
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 7
+    block_index: 7
+    inferred_system: psych
+  Act:
+  - factor_type: Act
+    factor_label: Matricide
+    factor_id: matricide_liberation
+    factor_source: new_candidate
+    role_position: Liberation
+    value_constraints: From unconsciousness
+    engine_id: psych_semantic
+    notes: First creative act
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 5
+    block_index: 7
+    inferred_system: psych
+  Source:
+  - factor_type: Source
+    factor_label: Emotion as fire
+    factor_id: emotion_fire
+    factor_source: new_candidate
+    role_position: Transformation
+    value_constraints: Creates consciousness
+    engine_id: psych_semantic
+    notes: Alchemical
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md
+    line_number: 6
+    block_index: 7
+    inferred_system: psych
+  Relational:
+  - factor_type: Relational
+    factor_label: Personal-Collective layering
+    factor_id: psych_layer_relation
+    factor_source: new_candidate
+    role_position: Hierarchy
+    value_constraints: Personal rests on Collective
+    engine_id: psych_semantic
+    notes: Two-layer model
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 6
+    block_index: 0
+    inferred_system: psych
+  - factor_type: Relational
+    factor_label: Complex-Archetype distinction
+    factor_id: content_distinction
+    factor_source: new_candidate
+    role_position: Category
+    value_constraints: Personal vs Universal
+    engine_id: psych_semantic
+    notes: Key differentiation
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 6
+    block_index: 1
+    inferred_system: psych
+  - factor_type: Relational
+    factor_label: Anima-Mother fusion
+    factor_id: anima_mother
+    factor_source: new_candidate
+    role_position: Hidden
+    value_constraints: In mother power
+    engine_id: psych_semantic
+    notes: Son's psychology
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 6
+    block_index: 11
+    inferred_system: psych
+  Process:
+  - factor_type: Process
+    factor_label: Conscious Elaboration
+    factor_id: conscious_elaboration
+    factor_source: new_candidate
+    role_position: Transformation
+    value_constraints: Raw→Elaborated
+    engine_id: psych_semantic
+    notes: Cultural processing
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 4
+    block_index: 2
+    inferred_system: psych
+  - factor_type: Process
+    factor_label: Symbol elaboration
+    factor_id: symbol_elaboration
+    factor_source: new_candidate
+    role_position: Mechanism
+    value_constraints: Years of work
+    engine_id: psych_semantic
+    notes: Assimilation
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 7
+    block_index: 4
+    inferred_system: psych
+  - factor_type: Process
+    factor_label: Iconoclasm
+    factor_id: iconoclasm
+    factor_source: new_candidate
+    role_position: Destruction
+    value_constraints: Sacred images
+    engine_id: psych_semantic
+    notes: Reformation
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 4
+    block_index: 5
+    inferred_system: psych
+  - factor_type: Process
+    factor_label: Descent to water
+    factor_id: descent_to_water
+    factor_source: new_candidate
+    role_position: Individuation
+    value_constraints: Downward
+    engine_id: psych_semantic
+    notes: Required path
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 5
+    block_index: 6
+    inferred_system: psych
+  - factor_type: Process
+    factor_label: Ordeal by fire
+    factor_id: ordeal_fire
+    factor_source: new_candidate
+    role_position: Test
+    value_constraints: Anima challenge
+    engine_id: psych_semantic
+    notes: Spiritual test
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 5
+    block_index: 11
+    inferred_system: psych
+  - factor_type: Process
+    factor_label: Withdrawal
+    factor_id: projection_withdrawal
+    factor_source: new_candidate
+    role_position: Resolution
+    value_constraints: Conscious recognition
+    engine_id: psych_semantic
+    notes: Therapeutic
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 5
+    block_index: 4
+    inferred_system: psych
+  - factor_type: Process
+    factor_label: Demythologization
+    factor_id: demythologization
+    factor_source: new_candidate
+    role_position: Transition
+    value_constraints: Disappointment
+    engine_id: psych_semantic
+    notes: Child to adult
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 4
+    block_index: 7
+    inferred_system: psych
+  Container:
+  - factor_type: Container
+    factor_label: Religious formula
+    factor_id: religious_container
+    factor_source: new_candidate
+    role_position: Function
+    value_constraints: Archetypal holding
+    engine_id: psych_semantic
+    notes: Protects from raw experience
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 5
+    block_index: 3
+    inferred_system: psych
+  - factor_type: Container
+    factor_label: Dogma
+    factor_id: dogma_container
+    factor_source: new_candidate
+    role_position: Function
+    value_constraints: Transforms raw to abstract
+    engine_id: psych_semantic
+    notes: Religious function
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 6
+    block_index: 4
+    inferred_system: psych
+  Content:
+  - factor_type: Content
+    factor_label: Eternal images
+    factor_id: eternal_images
+    factor_source: new_candidate
+    role_position: Object
+    value_constraints: Universal
+    engine_id: psych_semantic
+    notes: Treasure-house contents
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 6
+    block_index: 3
+    inferred_system: psych
+  Risk:
+  - factor_type: Risk
+    factor_label: Ego dissolution
+    factor_id: ego_dissolution
+    factor_source: new_candidate
+    role_position: Threat
+    value_constraints: Heart "burst into pieces"
+    engine_id: psych_semantic
+    notes: Without container
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 8
+    block_index: 4
+    inferred_system: psych
+  Virtue:
+  - factor_type: Virtue
+    factor_label: Spiritual poverty
+    factor_id: spiritual_poverty
+    factor_source: new_candidate
+    role_position: Authentic stance
+    value_constraints: Vow
+    engine_id: psych_semantic
+    notes: Starting point
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 6
+    block_index: 5
+    inferred_system: psych
+  Transformation:
+  - factor_type: Transformation
+    factor_label: Spirit to water
+    factor_id: spirit_to_water
+    factor_source: new_candidate
+    role_position: Descent
+    value_constraints: Heraclitean
+    engine_id: psych_semantic
+    notes: Fire→Water
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 7
+    block_index: 5
+    inferred_system: psych
+  Usurpation:
+  - factor_type: Usurpation
+    factor_label: Intellect for spirit
+    factor_id: intellect_usurpation
+    factor_source: new_candidate
+    role_position: Luciferian
+    value_constraints: False replacement
+    engine_id: psych_semantic
+    notes: Error
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 8
+    block_index: 5
+    inferred_system: psych
+  Agent:
+  - factor_type: Agent
+    factor_label: Pneuma
+    factor_id: pneuma
+    factor_source: new_candidate
+    role_position: Spirit
+    value_constraints: Wind
+    engine_id: psych_semantic
+    notes: Breath of God
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 7
+    block_index: 6
+    inferred_system: psych
+  Guardian:
+  - factor_type: Guardian
+    factor_label: Dragon
+    factor_id: dragon_guardian
+    factor_source: new_candidate
+    role_position: Threshold
+    value_constraints: In well
+    engine_id: psych_semantic
+    notes: Must be faced
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 8
+    block_index: 6
+    inferred_system: psych
+  Danger:
+  - factor_type: Danger
+    factor_label: Possession
+    factor_id: possession
+    factor_source: new_candidate
+    role_position: Threat
+    value_constraints: Unconscious takes over
+    engine_id: psych_semantic
+    notes: Age-old danger
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 4
+    block_index: 8
+    inferred_system: psych
+  Protection:
+  - factor_type: Protection
+    factor_label: Rite and dogma
+    factor_id: rite_dogma_protection
+    factor_source: new_candidate
+    role_position: Barrier
+    value_constraints: Dams and walls
+    engine_id: psych_semantic
+    notes: Consolidates consciousness
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 5
+    block_index: 8
+    inferred_system: psych
+  Event:
+  - factor_type: Event
+    factor_label: Barrier collapse
+    factor_id: barrier_collapse
+    factor_source: new_candidate
+    role_position: Catastrophe
+    value_constraints: Waters rise
+    engine_id: psych_semantic
+    notes: Symbol weakening
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 6
+    block_index: 8
+    inferred_system: psych
+  Sequence:
+  - factor_type: Sequence
+    factor_label: Shadow→Anima
+    factor_id: descent_sequence
+    factor_source: new_candidate
+    role_position: Order
+    value_constraints: After shadow
+    engine_id: psych_semantic
+    notes: Individuation path
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 6
+    block_index: 9
+    inferred_system: psych
+  - factor_type: Sequence
+    factor_label: Individuation stages
+    factor_id: individuation_sequence
+    factor_source: new_candidate
+    role_position: Order
+    value_constraints: Shadow→Anima→...
+    engine_id: psych_semantic
+    notes: Developmental
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 4
+    block_index: 11
+    inferred_system: psych
+  Structure:
+  - factor_type: Structure
+    factor_label: Anima (dark)
+    factor_id: anima_dark
+    factor_source: new_candidate
+    role_position: Negative Pole
+    value_constraints: Life-draining
+    engine_id: psych_semantic
+    notes: Succubus/witch
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 4
+    block_index: 10
+    inferred_system: psych
+  - factor_type: Structure
+    factor_label: Anima (light)
+    factor_id: anima_light
+    factor_source: new_candidate
+    role_position: Positive Pole
+    value_constraints: Life-giving
+    engine_id: psych_semantic
+    notes: Psychopomp
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 5
+    block_index: 10
+    inferred_system: psych
+  Set:
+  - factor_type: Set
+    factor_label: Three personified archetypes
+    factor_id: three_archetypes
+    factor_source: new_candidate
+    role_position: Group
+    value_constraints: Shadow+Anima+WOM
+    engine_id: psych_semantic
+    notes: Directly experienceable
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md
+    line_number: 7
+    block_index: 14
+    inferred_system: psych
+  Evidence:
+  - factor_type: Evidence
+    factor_label: Universal parallels
+    factor_id: universal_parallels
+    factor_source: new_candidate
+    role_position: Proof
+    value_constraints: Cross-cultural
+    engine_id: psych_semantic
+    notes: Validation
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 6
+    block_index: 1
+    inferred_system: psych
+  - factor_type: Evidence
+    factor_label: Klaus vision
+    factor_id: klaus_vision
+    factor_source: new_candidate
+    role_position: Case
+    value_constraints: Father-Mother God
+    engine_id: psych_semantic
+    notes: Heretical
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 4
+    block_index: 5
+    inferred_system: psych
+  Parallel:
+  - factor_type: Parallel
+    factor_label: P'o/Kuei
+    factor_id: po_kuei
+    factor_source: new_candidate
+    role_position: Chinese Anima
+    value_constraints: Feminine soul
+    engine_id: psych_semantic
+    notes: Chthonic
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 6
+    block_index: 2
+    inferred_system: psych
+  Theory:
+  - factor_type: Theory
+    factor_label: Anti-tabula rasa
+    factor_id: anti_tabula_rasa
+    factor_source: new_candidate
+    role_position: Position
+    value_constraints: Inherited aptitudes
+    engine_id: psych_semantic
+    notes: Core argument
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 4
+    block_index: 6
+    inferred_system: psych
+  Function:
+  - factor_type: Function
+    factor_label: Anthropomorphizing
+    factor_id: anthropomorphize
+    factor_source: new_candidate
+    role_position: Effect
+    value_constraints: Mythologizing reality
+    engine_id: psych_semantic
+    notes: Archetype action
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 5
+    block_index: 6
+    inferred_system: psych
+  Complex:
+  - factor_type: Complex
+    factor_label: Castration reframed
+    factor_id: castration_reframed
+    factor_source: new_candidate
+    role_position: Fear of reality
+    value_constraints: Not literal
+    engine_id: psych_semantic
+    notes: Jung vs Freud
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 5
+    block_index: 7
+    inferred_system: psych
+  Ritual:
+  - factor_type: Ritual
+    factor_label: Dual birth
+    factor_id: dual_birth
+    factor_source: new_candidate
+    role_position: Preservation
+    value_constraints: Godparents
+    engine_id: psych_semantic
+    notes: Tradition
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 6
+    block_index: 7
+    inferred_system: psych
+  Transition:
+  - factor_type: Transition
+    factor_label: Midlife
+    factor_id: midlife
+    factor_source: new_candidate
+    role_position: Turning point
+    value_constraints: ~35 years
+    engine_id: psych_semantic
+    notes: Different needs
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 4
+    block_index: 8
+    inferred_system: psych
+  Goal:
+  - factor_type: Goal
+    factor_label: Archetypal reconnection
+    factor_id: archetype_reconnection
+    factor_source: new_candidate
+    role_position: Therapy
+    value_constraints: Post-midlife
+    engine_id: psych_semantic
+    notes: Vitality
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The Archetypes and the Collective
+      Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+    line_number: 6
+    block_index: 8
+    inferred_system: psych
+  Metaphor:
+  - factor_type: Metaphor
+    factor_label: Dam
+    factor_id: metaphor_dam
+    factor_source: new_candidate
+    role_position: Jungian
+    value_constraints: Consciousness blocks
+    engine_id: psych_semantic
+    notes: Blown by Tower
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 6
+    block_index: 16
+    inferred_system: psych
+  Archetype:
+  - factor_type: Archetype
+    factor_label: Hidden Identity
+    factor_id: archetype_hidden_identity
+    factor_source: new_candidate
+    role_position: Hero
+    value_constraints: True self
+    engine_id: psych_semantic
+    notes: Until call answered
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 8
+    block_index: 20
+    inferred_system: psych

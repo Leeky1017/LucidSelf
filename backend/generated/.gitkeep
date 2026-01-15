@@ -1,0 +1,10 @@
+# This directory contains auto-generated Python modules from Codegen Pipeline.
+# Files in this directory (except .gitkeep) are excluded from version control.
+#
+# Structure:
+# - rules/{engine_id}_rules_v{version}.py
+# - factors/{engine_id}_factors_v{version}.py
+# - semantics/{engine_id}_semantics_v{version}.py
+# - .codegen_manifest.json (清单文件)
+#
+# 重新生成: python -m scripts.codegen compile all

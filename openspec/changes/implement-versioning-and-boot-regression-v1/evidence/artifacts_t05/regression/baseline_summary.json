@@ -1,0 +1,30 @@
+{
+  "engine_results": {
+    "bazi-calculator": {
+      "rule_count": 1207
+    }
+  },
+  "fusion": {
+    "primary_themes": [
+      "事业",
+      "性格",
+      "健康",
+      "财富",
+      "婚姻"
+    ],
+    "cross_validation_score": 0.0,
+    "contributing_engines": [
+      "bazi-calculator"
+    ]
+  },
+  "raw_factors": {
+    "bazi-calculator": {
+      "has_four_pillars": true,
+      "has_day_master": true
+    },
+    "astro-calculator": {
+      "has_four_pillars": false,
+      "has_day_master": false
+    }
+  }
+}

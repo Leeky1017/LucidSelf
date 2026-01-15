@@ -1,0 +1,6071 @@
+chain_id: chain_wpkttt
+book_id: waite_pictorial_key_to_the_tarot
+nodes:
+- node_id: n_wpkttt_waite_pentacles_0
+  snippet_ids:
+  - ns_waite_p2
+  - ns_waite_p3
+  - ns_waite_p4
+  - ns_waite_p5
+  - ns_waite_p6
+  - ns_waite_p7
+  - ns_waite_p8
+  - ns_waite_p9
+  - ns_waite_p10
+  - ns_waite_pp
+  - ns_waite_pk
+  - ns_waite_pq
+  - ns_waite_pki
+  role: 主干
+  condition: null
+  summary: minor_pentacles_two
+  metadata:
+    source_ref: Waite Pentacles
+    snippet_count: 13
+  factor_refs:
+  - minor_pentacles_eight
+  - minor_pentacles_five
+  - minor_pentacles_four
+  - minor_pentacles_king
+  - minor_pentacles_knight
+  - minor_pentacles_nine
+  - minor_pentacles_page
+  - minor_pentacles_queen
+  - minor_pentacles_seven
+  - minor_pentacles_six
+- node_id: n_wpkttt_core_1
+  snippet_ids:
+  - ns_waite_pent_001
+  - ns_waite_pent_004
+  - ns_waite_pent_007
+  - ns_waite_pent_010
+  - ns_waite_pent_013
+  - ns_waite_pent_016
+  - ns_waite_pent_019
+  - ns_waite_pent_022
+  - ns_waite_pent_025
+  - ns_waite_pent_028
+  - ns_waite_pent_031
+  - ns_waite_pent_034
+  - ns_waite_pent_037
+  - ns_waite_pent_040
+  - ns_waite_043
+  - ns_waite_046
+  - ns_waite_073
+  - ns_waite_076
+  - ns_waite_079
+  - ns_waite_082
+  - ns_waite_wands_005
+  - ns_waite_wands_009
+  - ns_waite_wands_011
+  - ns_waite_wands_026
+  - ns_waite_wands_015
+  - ns_waite_wands_017
+  - ns_waite_wands_019
+  - ns_waite_wands_021
+  - ns_waite_wands_022
+  - ns_waite_wands_023
+  - ns_waite_wands_024
+  - ns_waite_swords_001
+  - ns_waite_swords_004
+  - ns_waite_swords_007
+  - ns_waite_swords_010
+  - ns_waite_swords_013
+  - ns_waite_swords_016
+  - ns_waite_swords_019
+  - ns_waite_swords_022
+  - ns_waite_swords_025
+  - ns_waite_swords_028
+  - ns_waite_swords_031
+  - ns_waite_swords_034
+  - ns_waite_swords_037
+  - ns_waite_swords_040
+  - ns_waite_cups_001
+  - ns_waite_cups_004
+  - ns_waite_cups_007
+  - ns_waite_cups_010
+  - ns_waite_cups_013
+  - ns_waite_cups_016
+  - ns_waite_cups_019
+  - ns_waite_cups_022
+  - ns_waite_cups_025
+  - ns_waite_cups_028
+  - ns_waite_cups_031
+  - ns_waite_cups_034
+  - ns_waite_cups_037
+  role: 主干
+  condition: null
+  summary: ace_pent_waite
+  metadata:
+    source_ref: Core
+    snippet_count: 58
+  factor_refs:
+  - waite_cups_eight
+  - waite_cups_five
+  - waite_cups_king
+  - waite_cups_knight
+  - waite_cups_nine
+  - waite_cups_page
+  - waite_cups_queen
+  - waite_cups_seven
+  - waite_cups_six
+  - waite_cups_ten
+- node_id: n_wpkttt_meaning_2
+  snippet_ids:
+  - ns_waite_pent_002
+  - ns_waite_pent_008
+  - ns_waite_pent_011
+  - ns_waite_pent_017
+  - ns_waite_pent_023
+  - ns_waite_pent_026
+  - ns_waite_pent_029
+  - ns_waite_pent_032
+  - ns_waite_pent_035
+  - ns_waite_pent_038
+  - ns_waite_pent_041
+  - ns_waite_044
+  - ns_waite_wands_029
+  - ns_waite_wands_012
+  - ns_waite_wands_034
+  - ns_waite_wands_036
+  - ns_waite_wands_018
+  - ns_waite_wands_039
+  - ns_waite_wands_043
+  - ns_waite_wands_025
+  - ns_waite_swords_002
+  - ns_waite_swords_008
+  - ns_waite_swords_011
+  - ns_waite_swords_014
+  - ns_waite_swords_017
+  - ns_waite_swords_026
+  - ns_waite_swords_029
+  - ns_waite_swords_038
+  - ns_waite_swords_041
+  - ns_waite_cups_002
+  - ns_waite_cups_011
+  - ns_waite_cups_017
+  - ns_waite_cups_020
+  - ns_waite_cups_023
+  - ns_waite_cups_026
+  role: 条件分支
+  condition: null
+  summary: prosperity_always
+  metadata:
+    source_ref: Meaning
+    snippet_count: 35
+  factor_refs:
+  - independence
+  - waite_swords_nine
+  - waite_pentacles_six
+  - waite_cups_seven
+  - revaluation
+  - polarity
+  - waite_wands_queen
+  - duty
+  - waite_swords_ten
+  - grief
+  - waite_cups_ace
+  - waite_wands_ace
+  - activity_feeds
+  - condition
+  - authority
+  - despair
+  - waite_wands_seven
+  - degradation
+  - origin
+  - waite_pentacles_knight
+  - waite_wands_page
+  - waite_pentacles_eight
+  - waite_cups_five
+  - defence
+  - valour
+  - tarot_devil
+  - good_news
+  - waite_swords_ace
+  - recognition
+  - palisade
+  - waite_swords_four
+  - waite_pentacles_queen
+  - aptitude
+  - scholarship
+  - waite_wands_eight
+  - mortality
+  - waite_pentacles_nine
+  - waite_pentacles_ten
+  - waite_swords_king
+  - waite_pentacles_three
+  - waite_cups_ten
+  - limitation
+  - waite_swords_five
+  - character
+  - waite_pentacles_four
+  - imagination
+  - obviousness
+  - waite_cups_eight
+  - waite_pentacles_king
+  - burden
+  - charity
+  - waite_pentacles_page
+  - abundance
+  - security
+  - messenger
+  - waite_swords_three
+  - waite_swords_queen
+  - imminence
+  - king_wands
+  - emotional_completion
+  - waite_swords_six
+  - clarification
+  - lineage
+  - horse_motion
+  - waite_cups_nine
+  - waite_pentacles_ace
+  - symbolism
+  - diligence
+  - material_bondage
+- node_id: n_wpkttt_shadow_3
+  snippet_ids:
+  - ns_waite_pent_003
+  - ns_waite_pent_006
+  - ns_waite_pent_009
+  - ns_waite_pent_012
+  - ns_waite_pent_015
+  - ns_waite_pent_018
+  - ns_waite_pent_021
+  - ns_waite_pent_024
+  - ns_waite_pent_027
+  - ns_waite_pent_033
+  - ns_waite_pent_036
+  - ns_waite_pent_039
+  - ns_waite_pent_042
+  - ns_waite_072
+  - ns_waite_wands_002
+  - ns_waite_wands_010
+  - ns_waite_wands_033
+  - ns_waite_wands_035
+  - ns_waite_wands_016
+  - ns_waite_wands_037
+  - ns_waite_wands_038
+  - ns_waite_wands_040
+  - ns_waite_wands_042
+  - ns_waite_wands_044
+  - ns_waite_wands_045
+  - ns_waite_swords_003
+  - ns_waite_swords_006
+  - ns_waite_swords_009
+  - ns_waite_swords_024
+  - ns_waite_swords_027
+  - ns_waite_swords_033
+  - ns_waite_swords_036
+  - ns_waite_swords_039
+  - ns_waite_swords_042
+  - ns_waite_cups_009
+  - ns_waite_cups_027
+  - ns_waite_cups_030
+  - ns_waite_cups_033
+  - ns_waite_cups_036
+  - ns_waite_cups_039
+  role: 条件分支
+  condition: null
+  summary: evil_side_wealth
+  metadata:
+    source_ref: Shadow
+    snippet_count: 40
+  factor_refs:
+  - waite_cups_three
+  - reversal
+  - nameless_tendency
+  - waite_swords_nine
+  - waite_pentacles_six
+  - waite_swords_knight
+  - waite_wands_queen
+  - antagonist
+  - waite_pentacles_two
+  - waite_cups_queen
+  - waite_swords_page
+  - waite_wands_king
+  - waite_wands_six
+  - waite_pentacles_seven
+  - reversed_state
+  - waite_cups_page
+  - waite_wands_seven
+  - waite_wands_knight
+  - waite_pentacles_knight
+  - waite_wands_page
+  - waite_pentacles_eight
+  - waite_wands_ten
+  - waite_swords_ace
+  - waite_pentacles_five
+  - waite_pentacles_queen
+  - wands_in_leaf
+  - strange_tidings
+  - waite_cups_knight
+  - waite_swords_two
+  - waite_pentacles_nine
+  - waite_swords_eight
+  - waite_swords_king
+  - waite_pentacles_three
+  - waite_cups_ten
+  - litigation
+  - waite_pentacles_four
+  - waite_pentacles_king
+  - waite_pentacles_page
+  - tarot_moon
+  - waite_cups_king
+  - waite_swords_three
+  - waite_swords_queen
+  - waite_wands_nine
+  - waite_pentacles_ace
+  - love_jealousy
+- node_id: n_wpkttt_complexity_4
+  snippet_ids:
+  - ns_waite_pent_005
+  - ns_waite_pent_020
+  role: 条件分支
+  condition: null
+  summary: obstacles_agitation
+  metadata:
+    source_ref: Complexity
+    snippet_count: 2
+  factor_refs:
+  - challenge
+  - polyvalence
+  - waite_pentacles_seven
+  - waite_pentacles_two
+- node_id: n_wpkttt_symbol_5
+  snippet_ids:
+  - ns_waite_pent_014
+  - ns_waite_wands_031
+  - ns_waite_wands_032
+  - ns_waite_wands_041
+  role: 条件分支
+  condition: null
+  summary: help_nearby
+  metadata:
+    source_ref: Symbol
+    snippet_count: 4
+  factor_refs:
+  - waite_wands_four
+  - celebration
+  - refuge
+  - waite_wands_knight
+  - journey
+  - waite_pentacles_five
+  - competition
+  - waite_wands_five
+- node_id: n_wpkttt_volatility_6
+  snippet_ids:
+  - ns_waite_pent_030
+  role: 条件分支
+  condition: null
+  summary: chance_fatality
+  metadata:
+    source_ref: Volatility
+    snippet_count: 1
+  factor_refs:
+  - waite_pentacles_ten
+  - reversal
+- node_id: n_wpkttt_waite_secret_tradition_7
+  snippet_ids:
+  - ns_waite_tdp
+  - ns_waite_tew
+  - ns_waite_tsk
+  - ns_waite_tsl
+  - ns_waite_tsh
+  - ns_waite_tsb
+  - ns_waite_tts
+  role: 主干
+  condition: null
+  summary: tarot_divine_presence
+  metadata:
+    source_ref: Waite Secret Tradition
+    snippet_count: 7
+  factor_refs:
+  - tarot_babalon_riding_the_beast_feminine_divine_power_directing_masculine_solar_force
+  - tarot_primordial_creative_chaos_the_first_stirring_of_divine_consciousness
+  - tarot_primordial_chaos
+  - tarot_fool_1
+  - tarot_alchemical_putrefaction_stage_where_matter_must_rot_before_it_can_be_reborn
+  - tarot_logos
+  - tarot_adjustment_1
+- node_id: n_wpkttt_waite_minor_8
+  snippet_ids:
+  - ns_waite_ep
+  role: 主干
+  condition: null
+  summary: eight_pentacles
+  metadata:
+    source_ref: Waite Minor
+    snippet_count: 1
+  factor_refs:
+  - eight_pentacles
+- node_id: n_wpkttt_waite_symbolism_9
+  snippet_ids:
+  - ns_waite_ck
+  - ns_waite_dm
+  - ns_waite_du
+  - ns_waite_tok
+  - ns_waite_wol
+  - ns_waite_voi
+  - ns_waite_pent
+  - ns_waite_scales
+  - ns_waite_klaw
+  - ns_waite_an
+  - ns_waite_lp
+  - ns_waite_myst_death
+  - ns_waite_ld
+  - ns_waite_mj
+  - ns_waite_inf
+  - ns_waite_mr
+  - ns_waite_te
+  - ns_waite_mon
+  - ns_waite_ph
+  - ns_waite_ap
+  - ns_waite_hh
+  - ns_waite_fg
+  - ns_waite_hhr
+  - ns_waite_fj
+  - ns_waite_hm
+  - ns_waite_gv
+  - ns_waite_mw
+  - ns_waite_sor
+  - ns_waite_pos
+  - ns_waite_spy
+  - ns_waite_sus
+  - ns_waite_stu
+  - ns_waite_ent
+  - ns_waite_sed
+  - ns_waite_nm
+  - ns_waite_gh
+  - ns_waite_hn
+  - ns_waite_gr
+  - ns_waite_lw
+  - ns_waite_fut
+  - ns_waite_nov
+  - ns_waite_durance
+  - ns_waite_tram
+  - ns_waite_trop
+  - ns_waite_tos
+  - ns_waite_twi
+  - ns_waite_wd
+  - ns_waite_wa
+  - ns_waite_bk
+  - ns_waite_bh
+  - ns_waite_bur
+  - ns_waite_cp
+  - ns_waite_cont
+  - ns_waite_dnl
+  - ns_waite_eld
+  - ns_waite_eg
+  - ns_waite_en
+  - ns_waite_ee
+  - ns_waite_fd
+  - ns_waite_fr
+  - ns_waite_fs
+  - ns_waite_fsp
+  - ns_waite_fc
+  - ns_waite_fv
+  - ns_waite_hg
+  - ns_waite_hp
+  - ns_waite_ht
+  - ns_waite_il
+  - ns_waite_id
+  - ns_waite_li
+  - ns_waite_lb
+  - ns_waite_mean
+  - ns_waite_nmind
+  - ns_waite_nt
+  - ns_waite_nb
+  - ns_waite_nme
+  - ns_waite_om
+  - ns_waite_oe
+  - ns_waite_pbs
+  - ns_waite_ps
+  - ns_waite_pm2
+  - ns_waite_rem
+  - ns_waite_seek
+  - ns_waite_se
+  - ns_waite_si
+  - ns_waite_sc
+  - ns_waite_soa
+  role: 条件分支
+  condition: null
+  summary: crossed_keys
+  metadata:
+    source_ref: Waite Symbolism
+    snippet_count: 87
+  factor_refs:
+  - all_pierced
+  - animal_nature
+  - bridge_keep
+  - bull_head
+  - burial
+  - conclusion_plenty
+  - contemplates
+  - crossed_keys
+  - divine_mystery
+  - divine_universe
+- node_id: n_wpkttt_waite_qabalah_10
+  snippet_ids:
+  - ns_waite_tol
+  - ns_waite_yh
+  - ns_waite_ls
+  role: 条件分支
+  condition: null
+  summary: tree_of_life
+  metadata:
+    source_ref: Waite Qabalah
+    snippet_count: 3
+  factor_refs:
+  - tarot_death_rebirth_cycle
+- node_id: n_wpkttt_waite_divination_11
+  snippet_ids:
+  - ns_waite_vh
+  role: 条件分支
+  condition: null
+  summary: violent_death
+  metadata:
+    source_ref: Waite Divination
+    snippet_count: 1
+  factor_refs:
+  - tarot_sacrifice_state
+- node_id: n_wpkttt_waite_astrology_12
+  snippet_ids:
+  - ns_waite_pv
+  - ns_waite_pm
+  role: 条件分支
+  condition: null
+  summary: planet_venus
+  metadata:
+    source_ref: Waite Astrology
+    snippet_count: 2
+  factor_refs:
+  - planet_mars
+  - planet_venus
+- node_id: n_wpkttt_waite_cups_13
+  snippet_ids:
+  - ns_waite_mck
+  - ns_waite_c2
+  - ns_waite_c3
+  - ns_waite_c4
+  - ns_waite_c5
+  - ns_waite_c6
+  - ns_waite_c7
+  - ns_waite_c8
+  - ns_waite_c9
+  - ns_waite_c10
+  - ns_waite_cups_page
+  - ns_waite_cq
+  - ns_waite_cki
+  role: 主干
+  condition: null
+  summary: minor_cups_knight
+  metadata:
+    source_ref: Waite Cups
+    snippet_count: 13
+  factor_refs:
+  - minor_cups_eight
+  - minor_cups_five
+  - minor_cups_four
+  - minor_cups_king
+  - minor_cups_knight
+  - minor_cups_nine
+  - minor_cups_page
+  - minor_cups_queen
+  - minor_cups_seven
+  - minor_cups_six
+- node_id: n_wpkttt_source_text_14
+  snippet_ids:
+  - ns_waite_001
+  - ns_waite_002
+  - ns_waite_003
+  - ns_waite_004
+  - ns_waite_005
+  - ns_waite_006
+  - ns_waite_007
+  - ns_waite_008
+  - ns_waite_009
+  - ns_waite_010
+  - ns_waite_011
+  - ns_waite_012
+  - ns_waite_013
+  - ns_waite_015
+  - ns_waite_016
+  - ns_waite_017
+  - ns_waite_018
+  - ns_waite_019
+  - ns_waite_020
+  - ns_waite_021
+  - ns_waite_022
+  - ns_waite_023
+  - ns_waite_024
+  - ns_waite_025
+  - ns_waite_026
+  - ns_waite_027
+  - ns_waite_028
+  - ns_waite_029
+  - ns_waite_030
+  - ns_waite_031
+  - ns_waite_032
+  - ns_waite_033
+  - ns_waite_034
+  - ns_waite_036
+  - ns_waite_037
+  - ns_waite_038
+  - ns_waite_039
+  - ns_waite_040
+  - ns_waite_041
+  - ns_waite_042
+  - ns_waite_047
+  - ns_waite_048
+  - ns_waite_049
+  - ns_waite_050
+  - ns_waite_051
+  - ns_waite_052
+  - ns_waite_053
+  - ns_waite_054
+  - ns_waite_055
+  - ns_waite_056
+  - ns_waite_057
+  - ns_waite_058
+  - ns_waite_059
+  - ns_waite_060
+  - ns_waite_061
+  - ns_waite_062
+  - ns_waite_063
+  - ns_waite_064
+  - ns_waite_065
+  - ns_waite_066
+  - ns_waite_067
+  - ns_waite_068
+  - ns_waite_069
+  - ns_waite_070
+  - ns_waite_wands_001
+  - ns_waite_wands_003
+  - ns_waite_wands_004
+  - ns_waite_wands_007
+  - ns_waite_wands_008
+  role: 主干
+  condition: null
+  summary: magician_divine
+  metadata:
+    source_ref: Source Text
+    snippet_count: 69
+  factor_refs:
+  - tarot_primordial_creative_chaos_the_first_stirring_of_divine_consciousness
+  - tarot_babalon_riding_the_beast_feminine_divine_power_directing_masculine_solar_force
+- node_id: n_wpkttt_english_paraphrase_15
+  snippet_ids:
+  - ns_waite_014
+  - ns_waite_035
+  role: 主干
+  condition: null
+  summary: gateway_in
+  metadata:
+    source_ref: English Paraphrase
+    snippet_count: 2
+  factor_refs:
+  - tarot_hermit
+- node_id: n_wpkttt_hope_16
+  snippet_ids:
+  - ns_waite_045
+  - ns_waite_swords_023
+  - ns_waite_cups_012
+  role: 条件分支
+  condition: null
+  summary: devil_enslaved
+  metadata:
+    source_ref: Hope
+    snippet_count: 3
+  factor_refs:
+  - path
+  - self_bondage
+  - waite_swords_eight
+  - waite_cups_five
+  - tarot_devil
+  - escape
+- node_id: n_wpkttt_distinction_17
+  snippet_ids:
+  - ns_waite_071
+  role: 条件分支
+  condition: null
+  summary: moon_imagination
+  metadata:
+    source_ref: Distinction
+    snippet_count: 1
+  factor_refs:
+  - imagination_spirit
+  - tarot_moon
+- node_id: n_wpkttt_achievement_18
+  snippet_ids:
+  - ns_waite_074
+  - ns_waite_078
+  role: 条件分支
+  condition: null
+  summary: sun_spirit
+  metadata:
+    source_ref: Achievement
+    snippet_count: 2
+  factor_refs:
+  - tarot_androgynous_figure_represents_union_of_masculine_feminine_sun_moon_active_passive
+- node_id: n_wpkttt_wisdom_19
+  snippet_ids:
+  - ns_waite_075
+  role: 条件分支
+  condition: null
+  summary: sun_childlike
+  metadata:
+    source_ref: Wisdom
+    snippet_count: 1
+  factor_refs:
+  - tarot_androgynous_figure_represents_union_of_masculine_feminine_sun_moon_active_passive
+- node_id: n_wpkttt_speed_20
+  snippet_ids:
+  - ns_waite_077
+  role: 条件分支
+  condition: null
+  summary: judgement_twinkling
+  metadata:
+    source_ref: Speed
+    snippet_count: 1
+  factor_refs:
+  - tarot_judgement
+  - instant_transformation
+- node_id: n_wpkttt_vision_21
+  snippet_ids:
+  - ns_waite_080
+  role: 条件分支
+  condition: null
+  summary: world_vision
+  metadata:
+    source_ref: Vision
+    snippet_count: 1
+  factor_refs:
+  - tarot_the_magus_is_titled_the_lord_of_illusion_because_he_creates_the_manifested_world_through_the_word
+- node_id: n_wpkttt_origin_22
+  snippet_ids:
+  - ns_waite_081
+  - ns_waite_083
+  role: 条件分支
+  condition: null
+  summary: world_morning
+  metadata:
+    source_ref: Origin
+    snippet_count: 2
+  factor_refs:
+  - tarot_the_magus_is_titled_the_lord_of_illusion_because_he_creates_the_manifested_world_through_the_word
+- node_id: n_wpkttt_eloquence_23
+  snippet_ids:
+  - ns_waite_084
+  role: 条件分支
+  condition: null
+  summary: fool_symbol
+  metadata:
+    source_ref: Eloquence
+    snippet_count: 1
+  factor_refs:
+  - tarot_fool
+  - eloquent_symbol
+- node_id: n_wpkttt_waite_wands_24
+  snippet_ids:
+  - ns_waite_w4
+  role: 主干
+  condition: null
+  summary: minor_wands_four
+  metadata:
+    source_ref: Waite Wands
+    snippet_count: 1
+  factor_refs:
+  - tarot_the_four_elemental_weapons_float_freely_signifying_effortless_mastery
+- node_id: n_wpkttt_function_25
+  snippet_ids:
+  - ns_waite_wands_006
+  - ns_waite_cups_029
+  role: 条件分支
+  condition: null
+  summary: three_wands_coop
+  metadata:
+    source_ref: Function
+    snippet_count: 2
+  factor_refs:
+  - tarot_the_three_forms_of_scorpio_scorpion_snake_eagle_represent_progressive_transformation_stages
+- node_id: n_wpkttt_relief_26
+  snippet_ids:
+  - ns_waite_wands_030
+  role: 条件分支
+  condition: null
+  summary: three_wands_reversal
+  metadata:
+    source_ref: Relief
+    snippet_count: 1
+  factor_refs:
+  - tarot_the_three_forms_of_scorpio_scorpion_snake_eagle_represent_progressive_transformation_stages
+- node_id: n_wpkttt_warning_27
+  snippet_ids:
+  - ns_waite_wands_020
+  - ns_waite_swords_005
+  - ns_waite_swords_020
+  role: 条件分支
+  condition: null
+  summary: ten_wands_swords
+  metadata:
+    source_ref: Warning
+    snippet_count: 3
+  factor_refs:
+  - tarot_the_ape_beneath_serves_as_a_warning_words_can_either_transmit_truth_or_distort_it
+- node_id: n_wpkttt_business_28
+  snippet_ids:
+  - ns_waite_wands_049
+  role: 条件分支
+  condition: null
+  summary: queen_wands_business
+  metadata:
+    source_ref: Business
+    snippet_count: 1
+  factor_refs:
+  - tarot_death_in_thoth_system_represents_transformation_and_renewal_not_literal_physical_death
+- node_id: n_wpkttt_interest_29
+  snippet_ids:
+  - ns_waite_wands_050
+  role: 条件分支
+  condition: null
+  summary: queen_wands_interest
+  metadata:
+    source_ref: Interest
+    snippet_count: 1
+  factor_refs:
+  - tarot_death_in_thoth_system_represents_transformation_and_renewal_not_literal_physical_death
+- node_id: n_wpkttt_waite_swords_30
+  snippet_ids:
+  - ns_waite_s2
+  - ns_waite_s3
+  - ns_waite_s4
+  - ns_waite_s5
+  - ns_waite_s6
+  - ns_waite_s7
+  - ns_waite_s8
+  - ns_waite_s9
+  - ns_waite_s10
+  - ns_waite_sp
+  - ns_waite_sk
+  - ns_waite_sq
+  - ns_waite_ski
+  role: 主干
+  condition: null
+  summary: minor_swords_two
+  metadata:
+    source_ref: Waite Swords
+    snippet_count: 13
+  factor_refs:
+  - tarot_the_ape_beneath_serves_as_a_warning_words_can_either_transmit_truth_or_distort_it
+- node_id: n_wpkttt_fruit_31
+  snippet_ids:
+  - ns_waite_swords_012
+  role: 条件分支
+  condition: null
+  summary: wise_administration
+  metadata:
+    source_ref: Fruit
+    snippet_count: 1
+  factor_refs:
+  - reversal
+  - waite_swords_four
+- node_id: n_wpkttt_persistence_32
+  snippet_ids:
+  - ns_waite_swords_015
+  role: 条件分支
+  condition: null
+  summary: burial_obsequies
+  metadata:
+    source_ref: Persistence
+    snippet_count: 1
+  factor_refs:
+  - reversal
+  - waite_swords_five
+- node_id: n_wpkttt_speech_33
+  snippet_ids:
+  - ns_waite_swords_018
+  role: 条件分支
+  condition: null
+  summary: declaration_confession
+  metadata:
+    source_ref: Speech
+    snippet_count: 1
+  factor_refs:
+  - reversal
+  - waite_swords_six
+- node_id: n_wpkttt_polarity_34
+  snippet_ids:
+  - ns_waite_swords_021
+  - ns_waite_cups_003
+  role: 条件分支
+  condition: null
+  summary: good_advice_slander
+  metadata:
+    source_ref: Polarity
+    snippet_count: 2
+  factor_refs:
+  - tarot_death_in_thoth_system_represents_transformation_and_renewal_not_literal_physical_death
+- node_id: n_wpkttt_impermanence_35
+  snippet_ids:
+  - ns_waite_swords_030
+  role: 条件分支
+  condition: null
+  summary: none_permanent
+  metadata:
+    source_ref: Impermanence
+    snippet_count: 1
+  factor_refs:
+  - waite_swords_ten
+  - reversal
+- node_id: n_wpkttt_character_36
+  snippet_ids:
+  - ns_waite_swords_032
+  - ns_waite_cups_032
+  role: 条件分支
+  condition: null
+  summary: expected_enemy
+  metadata:
+    source_ref: Character
+    snippet_count: 2
+  factor_refs:
+  - sensuality
+  - waite_swords_page
+  - waite_cups_knight
+  - watchfulness
+- node_id: n_wpkttt_context_37
+  snippet_ids:
+  - ns_waite_swords_035
+  role: 条件分支
+  condition: null
+  summary: conditional_death
+  metadata:
+    source_ref: Context
+    snippet_count: 1
+  factor_refs:
+  - tarot_conditional_1
+  - tarot_conditional
+- node_id: n_wpkttt_mystical_38
+  snippet_ids:
+  - ns_waite_cups_005
+  role: 条件分支
+  condition: null
+  summary: sanctified_desire
+  metadata:
+    source_ref: Mystical
+    snippet_count: 1
+  factor_refs:
+  - tarot_when_desire_aligns_with_true_will_it_becomes_divine_force
+- node_id: n_wpkttt_meanings_39
+  snippet_ids:
+  - ns_waite_cups_006
+  role: 条件分支
+  condition: null
+  summary: caduceus_symbol
+  metadata:
+    source_ref: Meanings
+    snippet_count: 1
+  factor_refs:
+  - waite_cups_two
+  - hermes
+- node_id: n_wpkttt_positive_40
+  snippet_ids:
+  - ns_waite_cups_008
+  role: 条件分支
+  condition: null
+  summary: happy_conclusion
+  metadata:
+    source_ref: Positive
+    snippet_count: 1
+  factor_refs:
+  - waite_cups_three
+  - celebration
+- node_id: n_wpkttt_theme_41
+  snippet_ids:
+  - ns_waite_cups_014
+  role: 条件分支
+  condition: null
+  summary: nostalgia
+  metadata:
+    source_ref: Theme
+    snippet_count: 1
+  factor_refs:
+  - memory
+  - waite_cups_six
+- node_id: n_wpkttt_reversal_42
+  snippet_ids:
+  - ns_waite_cups_015
+  - ns_waite_cups_018
+  - ns_waite_cups_021
+  - ns_waite_cups_024
+  role: 条件分支
+  condition: null
+  summary: future_renewal
+  metadata:
+    source_ref: Reversal
+    snippet_count: 4
+  factor_refs:
+  - tarot_the_old_age_dies_the_new_age_is_born
+- node_id: n_wpkttt_virtue_43
+  snippet_ids:
+  - ns_waite_cups_035
+  - ns_waite_cups_038
+  role: 条件分支
+  condition: null
+  summary: loving_intelligence
+  metadata:
+    source_ref: Virtue
+    snippet_count: 2
+  factor_refs:
+  - waite_cups_queen
+  - waite_cups_king
+  - wisdom
+edges:
+- from_node: n_wpkttt_waite_pentacles_0
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Two of Pentacles young man dances juggling with infinity cord
+  metadata:
+    source_relation_id: rel_pent_003
+    source_ref: 'Waite #Two_Pentacles'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_waite_pentacles_0
+  to_node: n_wpkttt_waite_minor_8
+  relation: leads_to
+  condition: When Three of Pentacles apprentice has graduated from Eight's training
+  metadata:
+    source_relation_id: rel_pent_006
+    source_ref: 'Waite #Three_Pentacles'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_waite_pentacles_0
+  to_node: n_wpkttt_source_text_14
+  relation: leads_to
+  condition: When Eight of Pentacles reversed indicates skill corrupted into cunning
+    or fraud
+  metadata:
+    source_relation_id: rel_pent_016
+    source_ref: 'Waite #Eight_Pentacles'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_waite_pentacles_0
+  to_node: n_wpkttt_warning_27
+  relation: leads_to
+  condition: When Ten of Pentacles shows family receiving legacy at entrance to ancestral
+    domain
+  metadata:
+    source_relation_id: rel_pent_019
+    source_ref: 'Waite #Ten_Pentacles'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Empress serves as gateway for incarnation into material world
+  metadata:
+    source_relation_id: rel_waite_008
+    source_ref: 'Waite #Empress'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_waite_astrology_12
+  relation: leads_to
+  condition: When Empress channels Venus energy of fertility and creative love
+  metadata:
+    source_relation_id: rel_waite_009
+    source_ref: 'Waite #Empress'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_waite_qabalah_10
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Tree of Life (man) and Tree of Knowledge (woman) form spiritual-conscious
+    polarity
+  metadata:
+    source_relation_id: rel_waite_017
+    source_ref: 'Waite #Lovers'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Hermit who has attained becomes beacon guiding those still seeking
+  metadata:
+    source_relation_id: rel_waite_025
+    source_ref: 'Waite #Hermit'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_source_text_14
+  relation: leads_to
+  condition: When divine mysteries naturally protect themselves from unprepared seekers
+  metadata:
+    source_relation_id: rel_waite_027
+    source_ref: 'Waite #Hermit'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_waite_qabalah_10
+  relation: leads_to
+  condition: When Wheel of Fortune integrates YHVH Divine Name revealing Providence
+  metadata:
+    source_relation_id: rel_waite_028
+    source_ref: 'Waite #Wheel'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_achievement_18
+  relation: leads_to
+  condition: When Temperance reveals eternal life achievable while still incarnate
+  metadata:
+    source_relation_id: rel_waite_040
+    source_ref: 'Waite #Temperance'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_source_text_14
+  relation: leads_to
+  condition: When Devil inverts Hierophant blessing into curse through reversed gesture
+  metadata:
+    source_relation_id: rel_waite_043
+    source_ref: 'Waite #Devil'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_source_text_14
+  relation: leads_to
+  condition: When Devil inverts Hierophant blessing into curse through reversed gesture
+  metadata:
+    source_relation_id: rel_waite_043
+    source_ref: 'Waite #Devil'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_source_text_14
+  relation: leads_to
+  condition: When Devil inverts Hierophant blessing into curse through reversed gesture
+  metadata:
+    source_relation_id: rel_waite_043
+    source_ref: 'Waite #Devil'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Devil reveals bondage sustained by own evil nature blind to available
+    liberty
+  metadata:
+    source_relation_id: rel_waite_045
+    source_ref: 'Waite #Devil'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Devil reveals bondage sustained by own evil nature blind to available
+    liberty
+  metadata:
+    source_relation_id: rel_waite_045
+    source_ref: 'Waite #Devil'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Devil reveals bondage sustained by own evil nature blind to available
+    liberty
+  metadata:
+    source_relation_id: rel_waite_045
+    source_ref: 'Waite #Devil'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_hope_16
+  relation: leads_to
+  condition: When Tower destroys material structures as Devil destroys intellectual
+    ones
+  metadata:
+    source_relation_id: rel_waite_046
+    source_ref: 'Waite #Tower'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_meaning_2
+  relation: leads_to
+  condition: When Tower destroys material structures as Devil destroys intellectual
+    ones
+  metadata:
+    source_relation_id: rel_waite_046
+    source_ref: 'Waite #Tower'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_core_1
+  relation: leads_to
+  condition: When Tower destroys material structures as Devil destroys intellectual
+    ones
+  metadata:
+    source_relation_id: rel_waite_046
+    source_ref: 'Waite #Tower'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_wisdom_19
+  relation: leads_to
+  condition: When Moon offers reflected intellectual light versus Sun's direct spiritual
+    light
+  metadata:
+    source_relation_id: rel_waite_052
+    source_ref: 'Waite #Moon'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_achievement_18
+  relation: leads_to
+  condition: When Moon offers reflected intellectual light versus Sun's direct spiritual
+    light
+  metadata:
+    source_relation_id: rel_waite_052
+    source_ref: 'Waite #Moon'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_core_1
+  relation: leads_to
+  condition: When Moon offers reflected intellectual light versus Sun's direct spiritual
+    light
+  metadata:
+    source_relation_id: rel_waite_052
+    source_ref: 'Waite #Moon'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_shadow_3
+  to_node: n_wpkttt_wisdom_19
+  relation: leads_to
+  condition: When Moon offers reflected intellectual light versus Sun's direct spiritual
+    light
+  metadata:
+    source_relation_id: rel_waite_052
+    source_ref: 'Waite #Moon'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_shadow_3
+  to_node: n_wpkttt_achievement_18
+  relation: leads_to
+  condition: When Moon offers reflected intellectual light versus Sun's direct spiritual
+    light
+  metadata:
+    source_relation_id: rel_waite_052
+    source_ref: 'Waite #Moon'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_shadow_3
+  to_node: n_wpkttt_core_1
+  relation: leads_to
+  condition: When Moon offers reflected intellectual light versus Sun's direct spiritual
+    light
+  metadata:
+    source_relation_id: rel_waite_052
+    source_ref: 'Waite #Moon'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_wisdom_19
+  relation: leads_to
+  condition: When Moon offers reflected intellectual light versus Sun's direct spiritual
+    light
+  metadata:
+    source_relation_id: rel_waite_052
+    source_ref: 'Waite #Moon'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_achievement_18
+  relation: leads_to
+  condition: When Moon offers reflected intellectual light versus Sun's direct spiritual
+    light
+  metadata:
+    source_relation_id: rel_waite_052
+    source_ref: 'Waite #Moon'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_shadow_3
+  relation: leads_to
+  condition: When Moon reveals nameless abyss tendency striving to manifest but sinking
+    back
+  metadata:
+    source_relation_id: rel_waite_053
+    source_ref: 'Waite #Moon'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_shadow_3
+  relation: leads_to
+  condition: When Moon reveals nameless abyss tendency striving to manifest but sinking
+    back
+  metadata:
+    source_relation_id: rel_waite_053
+    source_ref: 'Waite #Moon'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Moon's higher mind calms animal nature saying 'Peace be still'
+  metadata:
+    source_relation_id: rel_waite_054
+    source_ref: 'Waite #Moon'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_shadow_3
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Moon's higher mind calms animal nature saying 'Peace be still'
+  metadata:
+    source_relation_id: rel_waite_054
+    source_ref: 'Waite #Moon'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_wisdom_19
+  to_node: n_wpkttt_distinction_17
+  relation: leads_to
+  condition: When Sun provides direct spiritual light as antithesis to Moon's reflection
+  metadata:
+    source_relation_id: rel_waite_055
+    source_ref: 'Waite #Sun'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_wisdom_19
+  to_node: n_wpkttt_shadow_3
+  relation: leads_to
+  condition: When Sun provides direct spiritual light as antithesis to Moon's reflection
+  metadata:
+    source_relation_id: rel_waite_055
+    source_ref: 'Waite #Sun'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_wisdom_19
+  to_node: n_wpkttt_core_1
+  relation: leads_to
+  condition: When Sun provides direct spiritual light as antithesis to Moon's reflection
+  metadata:
+    source_relation_id: rel_waite_055
+    source_ref: 'Waite #Sun'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_distinction_17
+  relation: leads_to
+  condition: When Sun provides direct spiritual light as antithesis to Moon's reflection
+  metadata:
+    source_relation_id: rel_waite_055
+    source_ref: 'Waite #Sun'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_shadow_3
+  relation: leads_to
+  condition: When Sun provides direct spiritual light as antithesis to Moon's reflection
+  metadata:
+    source_relation_id: rel_waite_055
+    source_ref: 'Waite #Sun'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_core_1
+  relation: leads_to
+  condition: When Sun provides direct spiritual light as antithesis to Moon's reflection
+  metadata:
+    source_relation_id: rel_waite_055
+    source_ref: 'Waite #Sun'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_distinction_17
+  relation: leads_to
+  condition: When Sun provides direct spiritual light as antithesis to Moon's reflection
+  metadata:
+    source_relation_id: rel_waite_055
+    source_ref: 'Waite #Sun'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_wisdom_19
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Sun represents self-knowing consciousness above natural mind level
+  metadata:
+    source_relation_id: rel_waite_056
+    source_ref: 'Waite #Sun'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Sun represents self-knowing consciousness above natural mind level
+  metadata:
+    source_relation_id: rel_waite_056
+    source_ref: 'Waite #Sun'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_source_text_14
+  relation: leads_to
+  condition: When Judgement and Temperance both concern eternal life from different
+    aspects
+  metadata:
+    source_relation_id: rel_waite_058
+    source_ref: 'Waite #Judgement'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_speed_20
+  to_node: n_wpkttt_source_text_14
+  relation: leads_to
+  condition: When Judgement and Temperance both concern eternal life from different
+    aspects
+  metadata:
+    source_relation_id: rel_waite_058
+    source_ref: 'Waite #Judgement'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_speed_20
+  to_node: n_wpkttt_core_1
+  relation: leads_to
+  condition: When Judgement trumpet sounds from within not as external force
+  metadata:
+    source_relation_id: rel_waite_059
+    source_ref: 'Waite #Judgement'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_speed_20
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Judgement transformation occurs in twinkling of an eye per 1 Cor
+    15:52
+  metadata:
+    source_relation_id: rel_waite_060
+    source_ref: 'Waite #Judgement'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_vision_21
+  to_node: n_wpkttt_origin_22
+  relation: leads_to
+  condition: When World completes Fool's journey through all Major Arcana
+  metadata:
+    source_relation_id: rel_waite_061
+    source_ref: 'Waite #World'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_vision_21
+  to_node: n_wpkttt_eloquence_23
+  relation: leads_to
+  condition: When World completes Fool's journey through all Major Arcana
+  metadata:
+    source_relation_id: rel_waite_061
+    source_ref: 'Waite #World'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_vision_21
+  to_node: n_wpkttt_core_1
+  relation: leads_to
+  condition: When World completes Fool's journey through all Major Arcana
+  metadata:
+    source_relation_id: rel_waite_061
+    source_ref: 'Waite #World'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_eloquence_23
+  relation: leads_to
+  condition: When World completes Fool's journey through all Major Arcana
+  metadata:
+    source_relation_id: rel_waite_061
+    source_ref: 'Waite #World'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_core_1
+  relation: leads_to
+  condition: When World completes Fool's journey through all Major Arcana
+  metadata:
+    source_relation_id: rel_waite_061
+    source_ref: 'Waite #World'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_origin_22
+  relation: leads_to
+  condition: When World completes Fool's journey through all Major Arcana
+  metadata:
+    source_relation_id: rel_waite_061
+    source_ref: 'Waite #World'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_eloquence_23
+  relation: leads_to
+  condition: When World completes Fool's journey through all Major Arcana
+  metadata:
+    source_relation_id: rel_waite_061
+    source_ref: 'Waite #World'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_vision_21
+  to_node: n_wpkttt_source_text_14
+  relation: leads_to
+  condition: When World represents universe in God and self-understanding achieved
+  metadata:
+    source_relation_id: rel_waite_062
+    source_ref: 'Waite #World'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_source_text_14
+  relation: leads_to
+  condition: When World represents universe in God and self-understanding achieved
+  metadata:
+    source_relation_id: rel_waite_062
+    source_ref: 'Waite #World'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_vision_21
+  relation: leads_to
+  condition: When Fool begins cycle that World completes through all Trumps
+  metadata:
+    source_relation_id: rel_waite_064
+    source_ref: 'Waite #Fool'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_vision_21
+  relation: leads_to
+  condition: When Fool begins cycle that World completes through all Trumps
+  metadata:
+    source_relation_id: rel_waite_064
+    source_ref: 'Waite #Fool'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_origin_22
+  relation: leads_to
+  condition: When Fool begins cycle that World completes through all Trumps
+  metadata:
+    source_relation_id: rel_waite_064
+    source_ref: 'Waite #Fool'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_core_1
+  relation: leads_to
+  condition: When Fool begins cycle that World completes through all Trumps
+  metadata:
+    source_relation_id: rel_waite_064
+    source_ref: 'Waite #Fool'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_vision_21
+  relation: leads_to
+  condition: When Fool begins cycle that World completes through all Trumps
+  metadata:
+    source_relation_id: rel_waite_064
+    source_ref: 'Waite #Fool'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_source_text_14
+  relation: leads_to
+  condition: When Fool at precipice is protected by angels who uphold in all ways
+  metadata:
+    source_relation_id: rel_waite_066
+    source_ref: 'Waite #Fool'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_shadow_3
+  relation: leads_to
+  condition: When Ace of Wands polarity shifts between creation (upright) and decadence
+    (reversed)
+  metadata:
+    source_relation_id: rel_wands_002
+    source_ref: 'Waite #Ace_Wands'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_function_25
+  relation: leads_to
+  condition: When Three of Wands ships represent established strength venturing abroad
+  metadata:
+    source_relation_id: rel_wands_005
+    source_ref: 'Waite #Three_Wands'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_waite_wands_24
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Four of Wands harvest-home celebrates domestic completion and perfected
+    work
+  metadata:
+    source_relation_id: rel_wands_007
+    source_ref: 'Waite #Four_Wands'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_meaning_2
+  relation: leads_to
+  condition: When Six of Wands victor triumphantly announces good news of public success
+  metadata:
+    source_relation_id: rel_wands_011
+    source_ref: 'Waite #Six_Wands'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_warning_27
+  relation: leads_to
+  condition: When Ten of Wands success becomes oppressive burden weighing down achiever
+  metadata:
+    source_relation_id: rel_wands_019
+    source_ref: 'Waite #Ten_Wands'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_waite_swords_30
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Two of Swords hoodwinked figure maintains armed truce and concord
+  metadata:
+    source_relation_id: rel_swords_003
+    source_ref: 'Waite #Two_Swords'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_waite_swords_30
+  to_node: n_wpkttt_meaning_2
+  relation: leads_to
+  condition: When Five of Swords shows hollow victory won at degrading moral cost
+  metadata:
+    source_relation_id: rel_swords_009
+    source_ref: 'Waite #Five_Swords'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_waite_swords_30
+  to_node: n_wpkttt_source_text_14
+  relation: leads_to
+  condition: When Five of Swords shows hollow victory won at degrading moral cost
+  metadata:
+    source_relation_id: rel_swords_009
+    source_ref: 'Waite #Five_Swords'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_waite_swords_30
+  to_node: n_wpkttt_waite_divination_11
+  relation: leads_to
+  condition: When Ten of Swords despite appearance does not especially indicate violent
+    death
+  metadata:
+    source_relation_id: rel_swords_020
+    source_ref: 'Waite #Ten_Swords'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_waite_cups_13
+  to_node: n_wpkttt_source_text_14
+  relation: leads_to
+  condition: When Two of Cups caduceus symbol sanctifies union between youth and maiden
+  metadata:
+    source_relation_id: rel_cups_003
+    source_ref: 'Waite #Two_Cups'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_waite_cups_13
+  to_node: n_wpkttt_waite_symbolism_9
+  relation: leads_to
+  condition: When Three of Cups indicates celebration, perfection, and happy conclusion
+  metadata:
+    source_relation_id: rel_cups_005
+    source_ref: 'Waite #Three_Cups'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_waite_cups_13
+  to_node: n_wpkttt_core_1
+  relation: leads_to
+  condition: When Eight of Cups indicates dejected abandonment of former felicity
+  metadata:
+    source_relation_id: rel_cups_015
+    source_ref: 'Waite #Eight_Cups'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_waite_cups_13
+  to_node: n_wpkttt_meaning_2
+  relation: leads_to
+  condition: When Queen of Cups sees visions but also acts with activity that sustains
+  metadata:
+    source_relation_id: rel_cups_025
+    source_ref: 'Waite #Queen_Cups'
+    inferred_from: explicit_relation
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_core_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_pentacles_seven
+    - waite_pentacles_two
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_pentacles_five
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_pentacles_ten
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_english_paraphrase_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_hope_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_devil
+    - waite_cups_five
+    - waite_swords_eight
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_core_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_interest_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_fruit_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_swords_four
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_swords_five
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_swords_six
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_ace
+    - waite_swords_seven
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_impermanence_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_swords_ten
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_core_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_knight
+    - waite_swords_page
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_core_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_swords_knight
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_two
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_two
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_three
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_six
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_eight
+    - waite_cups_nine
+    - waite_cups_seven
+    - waite_cups_six
+- from_node: n_wpkttt_core_1
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_king
+    - waite_cups_queen
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_ten
+    - waite_pentacles_ace
+    - waite_pentacles_eight
+    - waite_pentacles_four
+    - waite_pentacles_king
+    - waite_pentacles_knight
+    - waite_pentacles_nine
+    - waite_pentacles_page
+    - waite_pentacles_queen
+    - waite_pentacles_six
+    - waite_pentacles_three
+    - waite_swords_ace
+    - waite_swords_king
+    - waite_swords_nine
+    - waite_swords_queen
+    - waite_swords_three
+    - waite_wands_page
+    - waite_wands_queen
+    - waite_wands_seven
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_meaning_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_pentacles_ten
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_meaning_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_meaning_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_devil
+    - waite_cups_five
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_meaning_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_meaning_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_meaning_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_meaning_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_meaning_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_wands_queen
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_meaning_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_wands_queen
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_meaning_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_swords_four
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_swords_five
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_swords_six
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - polarity
+    - waite_cups_ace
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_meaning_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_swords_ten
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_meaning_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_meaning_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_eight
+    - waite_cups_nine
+    - waite_cups_seven
+- from_node: n_wpkttt_meaning_2
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_pentacles_seven
+    - waite_pentacles_two
+- from_node: n_wpkttt_shadow_3
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_pentacles_five
+    - waite_wands_knight
+- from_node: n_wpkttt_shadow_3
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_swords_eight
+- from_node: n_wpkttt_shadow_3
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_shadow_3
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_page
+- from_node: n_wpkttt_relief_26
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_shadow_3
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_swords_two
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_wands_queen
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_wands_queen
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_shadow_3
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_polarity_34
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_knight
+    - waite_swords_page
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_swords_knight
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_positive_40
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_three
+- from_node: n_wpkttt_shadow_3
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_reversal_42
+  to_node: n_wpkttt_shadow_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_shadow_3
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_king
+    - waite_cups_queen
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_english_paraphrase_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_hope_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_distinction_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_complexity_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_eloquence_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_function_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_complexity_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_interest_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_fruit_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_impermanence_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_complexity_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_context_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_complexity_4
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_symbol_5
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_symbol_5
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_speed_20
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_symbol_5
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_relief_26
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_symbol_5
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_speech_33
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_polarity_34
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_positive_40
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - celebration
+- from_node: n_wpkttt_symbol_5
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_reversal_42
+  to_node: n_wpkttt_symbol_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_symbol_5
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_volatility_6
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_speed_20
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_vision_21
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_relief_26
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_volatility_6
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_speech_33
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_polarity_34
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_positive_40
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_theme_41
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_reversal_42
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_virtue_43
+  to_node: n_wpkttt_volatility_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_relief_26
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_polarity_34
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_positive_40
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_reversal_42
+  to_node: n_wpkttt_source_text_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_source_text_14
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_hope_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_english_paraphrase_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_english_paraphrase_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_english_paraphrase_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_function_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_english_paraphrase_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_interest_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_fruit_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_impermanence_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_english_paraphrase_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_english_paraphrase_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_english_paraphrase_15
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_hope_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_hope_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_hope_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_hope_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_hope_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_interest_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_hope_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_impermanence_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_hope_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_hope_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_hope_16
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_eloquence_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_function_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_distinction_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_interest_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_fruit_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_impermanence_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_distinction_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_distinction_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_distinction_17
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_sun
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_judgement
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_eloquence_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_function_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_business_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_interest_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_fruit_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_impermanence_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_character_36
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_context_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_achievement_18
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_speed_20
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_vision_21
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_relief_26
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_warning_27
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_speech_33
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_polarity_34
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_positive_40
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_theme_41
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_reversal_42
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_virtue_43
+  to_node: n_wpkttt_wisdom_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_speed_20
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_relief_26
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_speed_20
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_speech_33
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_polarity_34
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_positive_40
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_speed_20
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_reversal_42
+  to_node: n_wpkttt_speed_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_speed_20
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_relief_26
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_vision_21
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_speech_33
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_polarity_34
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_positive_40
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_theme_41
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_reversal_42
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_virtue_43
+  to_node: n_wpkttt_vision_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_origin_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_origin_22
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_function_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_eloquence_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_interest_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_fruit_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_impermanence_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_eloquence_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_eloquence_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_eloquence_23
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_function_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_interest_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_function_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_impermanence_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_function_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_function_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_function_25
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_relief_26
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_relief_26
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_polarity_34
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_positive_40
+  to_node: n_wpkttt_relief_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_relief_26
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_relief_26
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_relief_26
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_speech_33
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_polarity_34
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_swords_seven
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_positive_40
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_theme_41
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_reversal_42
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_virtue_43
+  to_node: n_wpkttt_warning_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_interest_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_wands_queen
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_fruit_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_impermanence_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_character_36
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_context_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_business_28
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_interest_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_interest_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_interest_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_interest_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_interest_29
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_impermanence_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_fruit_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_fruit_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_fruit_31
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_persistence_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_persistence_32
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_polarity_34
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_positive_40
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_speech_33
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_reversal_42
+  to_node: n_wpkttt_speech_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_speech_33
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_polarity_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_polarity_34
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_polarity_34
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_polarity_34
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_polarity_34
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_impermanence_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_impermanence_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - reversal
+- from_node: n_wpkttt_impermanence_35
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_context_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_character_36
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_meanings_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_context_37
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_mystical_38
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_two
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_mystical_38
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_positive_40
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_meanings_39
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_positive_40
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_positive_40
+  to_node: n_wpkttt_reversal_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_positive_40
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_reversal_42
+  to_node: n_wpkttt_theme_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - waite_cups_six
+- from_node: n_wpkttt_theme_41
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_wpkttt_reversal_42
+  to_node: n_wpkttt_virtue_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+narrative_order:
+- n_wpkttt_waite_cups_13
+- n_wpkttt_waite_pentacles_0
+- n_wpkttt_waite_minor_8
+- n_wpkttt_waite_secret_tradition_7
+- n_wpkttt_waite_swords_30
+- n_wpkttt_waite_wands_24
+- n_wpkttt_waite_divination_11
+- n_wpkttt_core_1
+- n_wpkttt_english_paraphrase_15
+- n_wpkttt_source_text_14
+- n_wpkttt_achievement_18
+- n_wpkttt_business_28
+- n_wpkttt_character_36
+- n_wpkttt_complexity_4
+- n_wpkttt_context_37
+- n_wpkttt_distinction_17
+- n_wpkttt_eloquence_23
+- n_wpkttt_fruit_31
+- n_wpkttt_function_25
+- n_wpkttt_hope_16
+- n_wpkttt_impermanence_35
+- n_wpkttt_interest_29
+- n_wpkttt_meaning_2
+- n_wpkttt_meanings_39
+- n_wpkttt_mystical_38
+- n_wpkttt_origin_22
+- n_wpkttt_persistence_32
+- n_wpkttt_polarity_34
+- n_wpkttt_positive_40
+- n_wpkttt_relief_26
+- n_wpkttt_reversal_42
+- n_wpkttt_shadow_3
+- n_wpkttt_speech_33
+- n_wpkttt_speed_20
+- n_wpkttt_symbol_5
+- n_wpkttt_theme_41
+- n_wpkttt_virtue_43
+- n_wpkttt_vision_21
+- n_wpkttt_volatility_6
+- n_wpkttt_waite_astrology_12
+- n_wpkttt_waite_qabalah_10
+- n_wpkttt_waite_symbolism_9
+- n_wpkttt_warning_27
+- n_wpkttt_wisdom_19
+entry_nodes:
+- n_wpkttt_waite_pentacles_0
+- n_wpkttt_waite_secret_tradition_7
+- n_wpkttt_waite_cups_13
+- n_wpkttt_waite_wands_24
+- n_wpkttt_waite_swords_30
+terminal_nodes:
+- n_wpkttt_waite_astrology_12
+- n_wpkttt_waite_divination_11
+- n_wpkttt_waite_minor_8
+- n_wpkttt_waite_secret_tradition_7
+- n_wpkttt_waite_symbolism_9
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-12-04T19:17:52.360296'
+  source_files:
+  - data/schema_staging/snippets/waite_pictorial_key_to_the_tarot_snippets.yaml
+  - data/schema_staging/relations/waite_pictorial_key_to_the_tarot_relations.yaml
+  snippet_count: 391
+  relation_count: 177
+version: 1.0.0

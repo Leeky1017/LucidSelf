@@ -1,0 +1,10 @@
+$ rg -n "validate_engine_id_or_raise|EngineIdGovernanceError" backend/pipeline backend/rules backend/integration backend/services/narrative backend/api/routes/analyze.py
+backend/api/routes/analyze.py:22:from backend.core.engines.governance import EngineIdGovernanceError
+backend/api/routes/analyze.py:187:    except EngineIdGovernanceError as e:
+backend/rules/engine.py:24:    EngineIdGovernanceError,
+backend/rules/engine.py:25:    validate_engine_id_or_raise,
+backend/rules/engine.py:122:            raise EngineIdGovernanceError(
+backend/rules/engine.py:127:        validate_engine_id_or_raise(engine_id)
+backend/rules/engine.py:539:            validate_engine_id_or_raise(engine_id)
+backend/pipeline/orchestrator.py:28:    EngineIdGovernanceError,
+backend/pipeline/orchestrator.py:260:        except EngineIdGovernanceError as e:

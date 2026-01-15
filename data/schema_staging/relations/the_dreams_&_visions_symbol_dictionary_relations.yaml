@@ -1,0 +1,3104 @@
+book_id: the_dreams_&_visions_symbol_dictionary
+source_file: 典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_G_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Christian_v2.1_Part4_Extended.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_M_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Christian_v2.1_Part1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_D_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_PQ_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_E_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_F_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Christian_v2.1_Part4_FINAL.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_C_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_B_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_IJ_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Christian_Framework_Symbols.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_TZ_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_NO_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_A_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_KL_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Christian_v2.1_Part3.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_H_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_S_v2.1.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Christian_v2.1_Part2.md,
+  典籍/texts/The Dreams & Visions Symbol Dictionary/编辑/Dreams_Dictionary_Symbols_R_v2.1.md
+extracted_at: '2025-12-04T14:27:43.288969'
+relations:
+- relation_id: rel_dav_g001
+  relation_type: state_determines
+  factor_a: dream_symbol_gate
+  factor_b: gate_state
+  relation_nature: 状态决定
+  condition_constraint: When gate open indicates access and opportunity when closed
+    indicates blocked path
+  effect_direction: 调节
+  source_ref: '#Gate'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.912398'
+- relation_id: rel_dav_g002
+  relation_type: nature_determines
+  factor_a: dream_symbol_gifts
+  factor_b: gift_nature
+  relation_nature: 性质决定
+  condition_constraint: When gift freely given indicates blessing when with strings
+    indicates manipulation
+  effect_direction: 调节
+  source_ref: '#Gifts'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.912404'
+- relation_id: rel_dav_g003
+  relation_type: state_determines
+  factor_a: dream_symbol_glasses
+  factor_b: glasses_state
+  relation_nature: 状态决定
+  condition_constraint: When glasses clear indicates spiritual insight when broken
+    indicates impaired vision
+  effect_direction: 调节
+  source_ref: '#Glasses'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.912409'
+- relation_id: rel_dav_g004
+  relation_type: usage_determines
+  factor_a: dream_symbol_gold
+  factor_b: gold_usage
+  relation_nature: 使用决定
+  condition_constraint: When gold used for divine purpose indicates glory when as
+    idol indicates sin
+  effect_direction: 调节
+  source_ref: '#Gold'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.912412'
+- relation_id: rel_dav_g005
+  relation_type: state_determines
+  factor_a: dream_symbol_grapes
+  factor_b: grapes_state
+  relation_nature: 状态决定
+  condition_constraint: When grapes sweet indicates blessing and fruitfulness when
+    sour indicates bitterness
+  effect_direction: 调节
+  source_ref: '#Grapes'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.912415'
+- relation_id: rel_dav_g006
+  relation_type: state_determines
+  factor_a: dream_symbol_grass
+  factor_b: grass_state
+  relation_nature: 状态决定
+  condition_constraint: When grass green indicates God's provision when dried indicates
+    human frailty
+  effect_direction: 调节
+  source_ref: '#Grass'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.912418'
+- relation_id: rel_dav_g007
+  relation_type: state_determines
+  factor_a: dream_symbol_green
+  factor_b: green_state
+  relation_nature: 状态决定
+  condition_constraint: When green color indicates life and growth when associated
+    with envy indicates negative
+  effect_direction: 调节
+  source_ref: '#Green'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.912421'
+- relation_id: rel_dream_Part4_Extended_14
+  relation_type: dream_symbol
+  factor_a: dream_Part4_Extended_14
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.914978'
+- relation_id: rel_dream_Part4_Extended_15
+  relation_type: dream_symbol
+  factor_a: dream_Part4_Extended_15
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.915010'
+- relation_id: rel_dream_Part4_Extended_16
+  relation_type: dream_symbol
+  factor_a: dream_Part4_Extended_16
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.915035'
+- relation_id: rel_dream_Part4_Extended_17
+  relation_type: dream_symbol
+  factor_a: dream_Part4_Extended_17
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.915058'
+- relation_id: rel_dream_Part4_Extended_18
+  relation_type: dream_symbol
+  factor_a: dream_Part4_Extended_18
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.915077'
+- relation_id: rel_dream_Part4_Extended_19
+  relation_type: dream_symbol
+  factor_a: dream_Part4_Extended_19
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.915096'
+- relation_id: rel_dream_Part4_Extended_20
+  relation_type: dream_symbol
+  factor_a: dream_Part4_Extended_20
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.915115'
+- relation_id: rel_dream_Part4_Extended_21
+  relation_type: dream_symbol
+  factor_a: dream_Part4_Extended_21
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.915135'
+- relation_id: rel_dream_Part4_Extended_22
+  relation_type: dream_symbol
+  factor_a: dream_Part4_Extended_22
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.915160'
+- relation_id: rel_dav_m001
+  relation_type: state_determines
+  factor_a: dream_symbol_makeup
+  factor_b: makeup_state
+  relation_nature: 状态决定
+  condition_constraint: When makeup beautiful indicates confidence when stripped indicates
+    vulnerability
+  effect_direction: 调节
+  source_ref: '#Make-up'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.916492'
+- relation_id: rel_dav_m002
+  relation_type: image_determines
+  factor_a: dream_symbol_man
+  factor_b: man_image
+  relation_nature: 形象决定
+  condition_constraint: When man known reveals specific meaning when Goliath-like
+    indicates fear or challenge
+  effect_direction: 调节
+  source_ref: '#Man'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.916499'
+- relation_id: rel_dav_m003
+  relation_type: manner_determines
+  factor_a: dream_symbol_meat
+  factor_b: meat_manner
+  relation_nature: 方式决定
+  condition_constraint: When meat eaten properly indicates solid doctrine when gluttony
+    indicates flesh
+  effect_direction: 调节
+  source_ref: '#Meat'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.916503'
+- relation_id: rel_dav_m004
+  relation_type: state_determines
+  factor_a: dream_symbol_milk
+  factor_b: milk_state
+  relation_nature: 状态决定
+  condition_constraint: When milk fresh indicates spiritual growth when sour indicates
+    passed season
+  effect_direction: 调节
+  source_ref: '#Milk'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.916506'
+- relation_id: rel_dav_m005
+  relation_type: source_determines
+  factor_a: dream_symbol_money
+  factor_b: money_source
+  relation_nature: 来源决定
+  condition_constraint: When money from Lord indicates provision when from black hand
+    indicates theft
+  effect_direction: 调节
+  source_ref: '#Money'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.916509'
+- relation_id: rel_dav_m006
+  relation_type: always_negative
+  factor_a: dream_symbol_monkey
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When monkey appears indicating mimicry deception or demonic
+    mockery
+  effect_direction: 固定凶
+  source_ref: '#Monkey'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.916512'
+- relation_id: rel_dav_m007
+  relation_type: relationship_determines
+  factor_a: dream_symbol_mother
+  factor_b: mother_relationship
+  relation_nature: 关系决定
+  condition_constraint: When mother godly indicates church when ungodly indicates
+    fleshly influence
+  effect_direction: 调节
+  source_ref: '#Mother'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.916515'
+- relation_id: rel_dav_m008
+  relation_type: context_determines
+  factor_a: dream_symbol_moon
+  factor_b: moon_context
+  relation_nature: 上下文决定
+  condition_constraint: When moon in natural context indicates seasons when in zodiac
+    indicates divination
+  effect_direction: 调节
+  source_ref: '#Moon'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.916518'
+- relation_id: rel_dav_m009
+  relation_type: context_determines
+  factor_a: dream_symbol_mountain
+  factor_b: mountain_context
+  relation_nature: 上下文决定
+  condition_constraint: When climbing mountain indicates promotion when blocked indicates
+    obstacle
+  effect_direction: 调节
+  source_ref: '#Mountain'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.916524'
+- relation_id: rel_dav_m010
+  relation_type: always_negative
+  factor_a: dream_symbol_mouse
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When mouse appears indicating devourer or small demonic harassment
+  effect_direction: 固定凶
+  source_ref: '#Mouse'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.916529'
+- relation_id: rel_dav_m011
+  relation_type: content_determines
+  factor_a: dream_symbol_mouth
+  factor_b: mouth_content
+  relation_nature: 内容决定
+  condition_constraint: When mouth speaks water indicates blessing when fire indicates
+    curse
+  effect_direction: 调节
+  source_ref: '#Mouth'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.916532'
+- relation_id: rel_dav_m012
+  relation_type: always_negative
+  factor_a: dream_symbol_mummy
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When mummy appears indicating death spirit or occult bondage
+  effect_direction: 固定凶
+  source_ref: '#Mummy'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.916536'
+- relation_id: rel_dream_Part1_1
+  relation_type: dream_symbol
+  factor_a: dream_Part1_1
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.918089'
+- relation_id: rel_dream_Part1_2
+  relation_type: dream_symbol
+  factor_a: dream_Part1_2
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.918126'
+- relation_id: rel_dream_Part1_3
+  relation_type: dream_symbol
+  factor_a: dream_Part1_3
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.918164'
+- relation_id: rel_dav_d001
+  relation_type: purpose_determines
+  factor_a: dream_symbol_dagger
+  factor_b: dagger_purpose
+  relation_nature: 目的决定
+  condition_constraint: When dagger used in spiritual warfare positive when in violence
+    negative
+  effect_direction: 调节
+  source_ref: '#Dagger'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919382'
+- relation_id: rel_dav_d002
+  relation_type: always_negative
+  factor_a: dream_symbol_darkness
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When darkness appears indicating spiritual blindness or enemy
+    territory
+  effect_direction: 固定凶
+  source_ref: '#Darkness'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919387'
+- relation_id: rel_dav_d003
+  relation_type: relationship_determines
+  factor_a: dream_symbol_daughter
+  factor_b: daughter_relationship
+  relation_nature: 关系决定
+  condition_constraint: When daughter relationship positive indicates spiritual fruit
+    when negative indicates flesh
+  effect_direction: 调节
+  source_ref: '#Daughter'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919391'
+- relation_id: rel_dav_d004
+  relation_type: always_negative
+  factor_a: dream_symbol_darts
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When fiery darts appear indicating enemy's targeted attack
+  effect_direction: 固定凶
+  source_ref: '#Darts'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919394'
+- relation_id: rel_dav_d005
+  relation_type: usually_positive
+  factor_a: dream_symbol_day
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When day appears indicating resurrection and new beginning
+  effect_direction: 偏吉
+  source_ref: '#Day'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919397'
+- relation_id: rel_dav_d006
+  relation_type: context_determines
+  factor_a: dream_symbol_death
+  factor_b: death_context
+  relation_nature: 上下文决定
+  condition_constraint: When death of flesh positive when death by enemy negative
+  effect_direction: 调节
+  source_ref: '#Death'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919400'
+- relation_id: rel_dav_d007
+  relation_type: discernment_required
+  factor_a: dream_symbol_demons
+  factor_b: spiritual_gift
+  relation_nature: 辨别需要
+  condition_constraint: When demons appear requiring gift of discerning spirits
+  effect_direction: 警示
+  source_ref: '#Demons'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919405'
+- relation_id: rel_dav_d008
+  relation_type: purpose_determines
+  factor_a: dream_symbol_desert
+  factor_b: desert_purpose
+  relation_nature: 目的决定
+  condition_constraint: When desert for spiritual growth positive when for dryness
+    negative
+  effect_direction: 调节
+  source_ref: '#Desert'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919407'
+- relation_id: rel_dav_d009
+  relation_type: usually_positive
+  factor_a: dream_symbol_diamonds
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When diamonds appear indicating God's favor or spiritual gifts
+  effect_direction: 偏吉
+  source_ref: '#Diamonds'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919410'
+- relation_id: rel_dav_d010
+  relation_type: always_negative
+  factor_a: dream_symbol_disease
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When disease appears indicating spiritual sickness or enemy
+    attack
+  effect_direction: 固定凶
+  source_ref: '#Disease'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919413'
+- relation_id: rel_dav_d011
+  relation_type: experience_determines
+  factor_a: dream_symbol_dog
+  factor_b: dog_experience
+  relation_nature: 经验决定
+  condition_constraint: When dog loved indicates loyalty when feared indicates demonic
+    attack
+  effect_direction: 调节
+  source_ref: '#Dog'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919416'
+- relation_id: rel_dav_d012
+  relation_type: context_determines
+  factor_a: dream_symbol_donkey
+  factor_b: donkey_context
+  relation_nature: 上下文决定
+  condition_constraint: When donkey represents humility positive when stubbornness
+    negative
+  effect_direction: 调节
+  source_ref: '#Donkey'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919421'
+- relation_id: rel_dav_d013
+  relation_type: state_determines
+  factor_a: dream_symbol_door
+  factor_b: door_state
+  relation_nature: 状态决定
+  condition_constraint: When door open indicates opportunity when closed indicates
+    blocked path
+  effect_direction: 调节
+  source_ref: '#Door'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919423'
+- relation_id: rel_dav_d014
+  relation_type: usually_positive
+  factor_a: dream_symbol_dove
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When dove appears indicating Holy Spirit's presence and peace
+  effect_direction: 偏吉
+  source_ref: '#Dove'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919426'
+- relation_id: rel_dav_d015
+  relation_type: condition_determines
+  factor_a: dream_symbol_dress
+  factor_b: dress_condition
+  relation_nature: 状态决定
+  condition_constraint: When dress new indicates life change when torn indicates flesh
+    issue
+  effect_direction: 调节
+  source_ref: '#Dress'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919430'
+- relation_id: rel_dav_d016
+  relation_type: always_negative
+  factor_a: dream_symbol_dragon
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When dragon appears indicating Satan or major demonic power
+  effect_direction: 固定凶
+  source_ref: '#Dragon'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.919433'
+- relation_id: rel_dav_pq001
+  relation_type: usage_determines
+  factor_a: dream_symbol_pearls
+  factor_b: pearls_usage
+  relation_nature: 使用决定
+  condition_constraint: When pearls treasured indicates value when cast to swine indicates
+    waste
+  effect_direction: 调节
+  source_ref: '#Pearls'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920845'
+- relation_id: rel_dav_pq002
+  relation_type: color_determines
+  factor_a: dream_symbol_pen
+  factor_b: pen_color
+  relation_nature: 颜色决定
+  condition_constraint: When pen golden indicates sound teaching when black indicates
+    heresy
+  effect_direction: 调节
+  source_ref: '#Pen'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920851'
+- relation_id: rel_dav_pq003
+  relation_type: source_determines
+  factor_a: dream_symbol_perfume
+  factor_b: perfume_source
+  relation_nature: 来源决定
+  condition_constraint: When perfume of bride indicates Christ's fragrance when of
+    harlot indicates world
+  effect_direction: 调节
+  source_ref: '#Perfume'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920854'
+- relation_id: rel_dav_pq004
+  relation_type: relationship_determines
+  factor_a: dream_symbol_pet
+  factor_b: pet_relationship
+  relation_nature: 关系决定
+  condition_constraint: When pet loved indicates responsibility when disliked indicates
+    irritation
+  effect_direction: 调节
+  source_ref: '#Pet'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920857'
+- relation_id: rel_dav_pq005
+  relation_type: always_negative
+  factor_a: dream_symbol_pig
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When pig appears indicating unclean spirit or return to sin
+  effect_direction: 固定凶
+  source_ref: '#Pig'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920861'
+- relation_id: rel_dav_pq006
+  relation_type: state_determines
+  factor_a: dream_symbol_plants
+  factor_b: plants_state
+  relation_nature: 状态决定
+  condition_constraint: When plants flourishing indicates right season when dead indicates
+    ended season
+  effect_direction: 调节
+  source_ref: '#Plants'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920864'
+- relation_id: rel_dav_pq007
+  relation_type: always_negative
+  factor_a: dream_symbol_poison
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When poison appears indicating deadly words or demonic contamination
+  effect_direction: 固定凶
+  source_ref: '#Poison'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920869'
+- relation_id: rel_dav_pq008
+  relation_type: usually_positive
+  factor_a: dream_symbol_potter
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When potter appears indicating God shaping vessel on wheel
+  effect_direction: 偏吉
+  source_ref: '#Potter'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920872'
+- relation_id: rel_dav_pq009
+  relation_type: state_determines
+  factor_a: dream_symbol_stones
+  factor_b: stones_state
+  relation_nature: 状态决定
+  condition_constraint: When precious stones shining indicates value when tarnished
+    indicates wasted gift
+  effect_direction: 调节
+  source_ref: '#Stones'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920875'
+- relation_id: rel_dav_pq010
+  relation_type: content_determines
+  factor_a: dream_symbol_pregnant
+  factor_b: pregnancy_content
+  relation_nature: 内容决定
+  condition_constraint: When pregnancy with blessing indicates positive when with
+    fear indicates negative
+  effect_direction: 调节
+  source_ref: '#Pregnant'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920878'
+- relation_id: rel_dav_pq011
+  relation_type: who_determines
+  factor_a: dream_symbol_prison
+  factor_b: prison_who
+  relation_nature: 谁被关决定
+  condition_constraint: When enemy in prison indicates victory when self imprisoned
+    indicates bondage
+  effect_direction: 调节
+  source_ref: '#Prison'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920882'
+- relation_id: rel_dav_pq012
+  relation_type: action_determines
+  factor_a: dream_symbol_pub
+  factor_b: pub_action
+  relation_nature: 行动决定
+  condition_constraint: When in pub for evangelism indicates positive when drunk indicates
+    escape
+  effect_direction: 调节
+  source_ref: '#Pub'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920885'
+- relation_id: rel_dav_pq013
+  relation_type: usually_positive
+  factor_a: dream_symbol_purple
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When purple appears indicating royalty and kingly authority
+  effect_direction: 偏吉
+  source_ref: '#Purple'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920888'
+- relation_id: rel_dav_pq014
+  relation_type: state_determines
+  factor_a: dream_symbol_purse
+  factor_b: purse_state
+  relation_nature: 状态决定
+  condition_constraint: When purse filled indicates provision when empty indicates
+    lack
+  effect_direction: 调节
+  source_ref: '#Purse'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920891'
+- relation_id: rel_dav_pq015
+  relation_type: usually_positive
+  factor_a: dream_symbol_quail
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When quail appears indicating supernatural provision from
+    God
+  effect_direction: 偏吉
+  source_ref: '#Quail'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920895'
+- relation_id: rel_dav_pq016
+  relation_type: usually_positive
+  factor_a: dream_symbol_queen
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When queen appears indicating royal authority or bride of
+    Christ
+  effect_direction: 偏吉
+  source_ref: '#Queen'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.920898'
+- relation_id: rel_dav_e001
+  relation_type: usually_positive
+  factor_a: dream_symbol_eagle
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When eagle appears indicating prophetic anointing or soaring
+    above circumstances
+  effect_direction: 偏吉
+  source_ref: '#Eagle'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.921642'
+- relation_id: rel_dav_e002
+  relation_type: usage_determines
+  factor_a: dream_symbol_earrings
+  factor_b: earrings_usage
+  relation_nature: 使用决定
+  condition_constraint: When earrings worn for commitment positive when as idol negative
+  effect_direction: 调节
+  source_ref: '#Earrings'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.921648'
+- relation_id: rel_dav_e003
+  relation_type: state_determines
+  factor_a: dream_symbol_ears
+  factor_b: ears_state
+  relation_nature: 状态决定
+  condition_constraint: When ears anointed indicates spiritual hearing when closed
+    indicates deafness
+  effect_direction: 调节
+  source_ref: '#Ears'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.921651'
+- relation_id: rel_dav_e004
+  relation_type: source_determines
+  factor_a: dream_symbol_earthquake
+  factor_b: earthquake_source
+  relation_nature: 来源决定
+  condition_constraint: When earthquake from Lord indicates release when from enemy
+    indicates instability
+  effect_direction: 调节
+  source_ref: '#Earthquake'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.921654'
+- relation_id: rel_dav_e005
+  relation_type: context_determines
+  factor_a: dream_symbol_east
+  factor_b: east_context
+  relation_nature: 上下文决定
+  condition_constraint: When east represents sunrise positive when attack from east
+    negative
+  effect_direction: 调节
+  source_ref: '#East'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.921658'
+- relation_id: rel_dav_e006
+  relation_type: state_determines
+  factor_a: dream_symbol_eyes
+  factor_b: eyes_state
+  relation_nature: 状态决定
+  condition_constraint: When eyes enlightened indicates revelation when blind indicates
+    spiritual darkness
+  effect_direction: 调节
+  source_ref: '#Eyes'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.921661'
+- relation_id: rel_dav_f001
+  relation_type: state_determines
+  factor_a: dream_symbol_face
+  factor_b: face_state
+  relation_nature: 状态决定
+  condition_constraint: When face shining indicates God's favor when turned away indicates
+    rejection
+  effect_direction: 调节
+  source_ref: '#Face'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922855'
+- relation_id: rel_dav_f002
+  relation_type: image_determines
+  factor_a: dream_symbol_father
+  factor_b: father_image
+  relation_nature: 形象决定
+  condition_constraint: When father figure godly indicates heavenly Father when wounded
+    indicates earthly wounds
+  effect_direction: 调节
+  source_ref: '#Father'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922860'
+- relation_id: rel_dav_f003
+  relation_type: condition_determines
+  factor_a: dream_symbol_feet
+  factor_b: feet_condition
+  relation_nature: 状态决定
+  condition_constraint: When feet beautiful indicates gospel messenger when dirty
+    indicates contamination
+  effect_direction: 调节
+  source_ref: '#Feet'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922863'
+- relation_id: rel_dav_f004
+  relation_type: state_determines
+  factor_a: dream_symbol_field
+  factor_b: field_state
+  relation_nature: 状态决定
+  condition_constraint: When field fruitful indicates blessing when barren indicates
+    spiritual drought
+  effect_direction: 调节
+  source_ref: '#Field'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922866'
+- relation_id: rel_dav_f005
+  relation_type: action_determines
+  factor_a: dream_symbol_finger
+  factor_b: finger_action
+  relation_nature: 动作决定
+  condition_constraint: When finger points with power positive when accuses indicates
+    condemnation
+  effect_direction: 调节
+  source_ref: '#Finger'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922870'
+- relation_id: rel_dav_f006
+  relation_type: source_determines
+  factor_a: dream_symbol_fire
+  factor_b: fire_source
+  relation_nature: 来源决定
+  condition_constraint: When fire from Spirit indicates purification when from judgment
+    indicates destruction
+  effect_direction: 调节
+  source_ref: '#Fire'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922874'
+- relation_id: rel_dav_f007
+  relation_type: state_determines
+  factor_a: dream_symbol_fish
+  factor_b: fish_state
+  relation_nature: 状态决定
+  condition_constraint: When fish alive indicates souls for harvest when dead indicates
+    lifeless ministry
+  effect_direction: 调节
+  source_ref: '#Fish'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922878'
+- relation_id: rel_dav_f008
+  relation_type: always_negative
+  factor_a: dream_symbol_fleas
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When fleas appear indicating demonic irritation and harassment
+  effect_direction: 固定凶
+  source_ref: '#Fleas'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922881'
+- relation_id: rel_dav_f009
+  relation_type: always_negative
+  factor_a: dream_symbol_flies
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When flies appear indicating Beelzebub lord of flies demonic
+    presence
+  effect_direction: 固定凶
+  source_ref: '#Flies'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922884'
+- relation_id: rel_dav_f010
+  relation_type: source_determines
+  factor_a: dream_symbol_flood
+  factor_b: flood_source
+  relation_nature: 来源决定
+  condition_constraint: When flood from Spirit refreshes when from enemy overwhelms
+  effect_direction: 调节
+  source_ref: '#Flood'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922887'
+- relation_id: rel_dav_f011
+  relation_type: state_determines
+  factor_a: dream_symbol_flowers
+  factor_b: flowers_state
+  relation_nature: 状态决定
+  condition_constraint: When flowers blooming indicates life and beauty when wilting
+    indicates death
+  effect_direction: 调节
+  source_ref: '#Flowers'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922889'
+- relation_id: rel_dav_f012
+  relation_type: manner_determines
+  factor_a: dream_symbol_flying
+  factor_b: flying_manner
+  relation_nature: 方式决定
+  condition_constraint: When flying controlled indicates spiritual elevation when
+    chaotic indicates flesh
+  effect_direction: 调节
+  source_ref: '#Flying'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922894'
+- relation_id: rel_dav_f013
+  relation_type: state_determines
+  factor_a: dream_symbol_food
+  factor_b: food_state
+  relation_nature: 状态决定
+  condition_constraint: When food good indicates Word of God when rotten indicates
+    false doctrine
+  effect_direction: 调节
+  source_ref: '#Food'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922900'
+- relation_id: rel_dav_f014
+  relation_type: state_determines
+  factor_a: dream_symbol_foundation
+  factor_b: foundation_state
+  relation_nature: 状态决定
+  condition_constraint: When foundation solid indicates Christ when cracked indicates
+    structural problem
+  effect_direction: 调节
+  source_ref: '#Foundation'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922903'
+- relation_id: rel_dav_f015
+  relation_type: state_determines
+  factor_a: dream_symbol_fountain
+  factor_b: fountain_state
+  relation_nature: 状态决定
+  condition_constraint: When fountain flowing indicates Spirit's life when dried indicates
+    spiritual barrenness
+  effect_direction: 调节
+  source_ref: '#Fountain'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922906'
+- relation_id: rel_dav_f016
+  relation_type: always_negative
+  factor_a: dream_symbol_foxes
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When foxes appear indicating cunning deception spoiling the
+    vine
+  effect_direction: 固定凶
+  source_ref: '#Foxes'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922909'
+- relation_id: rel_dav_f017
+  relation_type: always_negative
+  factor_a: dream_symbol_frogs
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When frogs appear indicating unclean spirits or demonic doctrine
+  effect_direction: 固定凶
+  source_ref: '#Frogs'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922912'
+- relation_id: rel_dav_f018
+  relation_type: quality_determines
+  factor_a: dream_symbol_fruit
+  factor_b: fruit_quality
+  relation_nature: 质量决定
+  condition_constraint: When fruit good indicates Spirit's work when bad indicates
+    works of flesh
+  effect_direction: 调节
+  source_ref: '#Fruit'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.922914'
+- relation_id: rel_dav_c001
+  relation_type: always_negative
+  factor_a: dream_symbol_cage
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When cage appears in any context
+  effect_direction: 固定凶
+  source_ref: '#Cage'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925160'
+- relation_id: rel_dav_c002
+  relation_type: condition_determines
+  factor_a: dream_symbol_cake
+  factor_b: cake_condition
+  relation_nature: 状态决定吉凶
+  condition_constraint: When cake full indicates blessing when half indicates lacking
+  effect_direction: 调节
+  source_ref: '#Cake'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925167'
+- relation_id: rel_dav_c003
+  relation_type: type_determines
+  factor_a: dream_symbol_calf
+  factor_b: calf_type
+  relation_nature: 类型决定含义
+  condition_constraint: When normal calf indicates birth when golden calf indicates
+    idol worship
+  effect_direction: 调节
+  source_ref: '#Calf'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925171'
+- relation_id: rel_dav_c004
+  relation_type: context_determines
+  factor_a: dream_symbol_camel
+  factor_b: camel_context
+  relation_nature: 上下文决定
+  condition_constraint: When context When camel context determines blessing or stumbling
+    block meaning determines meaning
+  effect_direction: 调节
+  source_ref: '#Camel'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925174'
+- relation_id: rel_dav_c005
+  relation_type: state_determines
+  factor_a: dream_symbol_candle
+  factor_b: candle_state
+  relation_nature: 状态决定
+  condition_constraint: When symbol state When candle lit indicates testimony when
+    blown indicates demotivation determines meaning
+  effect_direction: 调节
+  source_ref: '#Candle'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925177'
+- relation_id: rel_dav_c006
+  relation_type: motive_determines
+  factor_a: dream_symbol_candy
+  factor_b: candy_motive
+  relation_nature: 动机决定
+  condition_constraint: When candy as treat indicates blessing when indulgence indicates
+    flesh
+  effect_direction: 调节
+  source_ref: '#Candy'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925180'
+- relation_id: rel_dav_c007
+  relation_type: driver_determines
+  factor_a: dream_symbol_car
+  factor_b: car_driver
+  relation_nature: 驾驶者决定
+  condition_constraint: When Lord drives car indicates positive when flesh drives
+    indicates negative
+  effect_direction: 调节
+  source_ref: '#Car'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925183'
+- relation_id: rel_dav_c008
+  relation_type: context_determines
+  factor_a: dream_symbol_caterpillar
+  factor_b: caterpillar_context
+  relation_nature: 上下文决定
+  condition_constraint: When context When caterpillar context indicates potential
+    transformation or destruction determines meaning
+  effect_direction: 调节
+  source_ref: '#Caterpillar'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925186'
+- relation_id: rel_dav_c009
+  relation_type: condition_determines
+  factor_a: dream_symbol_cattle
+  factor_b: cattle_condition
+  relation_nature: 状态决定
+  condition_constraint: When symbol state When cattle fat indicates blessing when
+    thin indicates curse determines meaning
+  effect_direction: 调节
+  source_ref: '#Cattle'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925189'
+- relation_id: rel_dav_c010
+  relation_type: motive_determines
+  factor_a: dream_symbol_cave
+  factor_b: cave_motive
+  relation_nature: 动机决定
+  condition_constraint: When cave entered for intimacy indicates positive when for
+    hiding indicates negative
+  effect_direction: 调节
+  source_ref: '#Cave'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925192'
+- relation_id: rel_dav_c011
+  relation_type: always_negative
+  factor_a: dream_symbol_chains
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When chains appear in any context
+  effect_direction: 固定凶
+  source_ref: '#Chains'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925195'
+- relation_id: rel_dav_c012
+  relation_type: content_determines
+  factor_a: dream_symbol_chest
+  factor_b: chest_content
+  relation_nature: 内容决定
+  condition_constraint: When content When chest content reveals treasure type determining
+    meaning determines meaning
+  effect_direction: 调节
+  source_ref: '#Chest'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925198'
+- relation_id: rel_dav_c013
+  relation_type: context_determines
+  factor_a: dream_symbol_child
+  factor_b: child_context
+  relation_nature: 上下文决定
+  condition_constraint: When context When child indicates new birth or immaturity
+    based on dream context determines meaning
+  effect_direction: 调节
+  source_ref: '#Child'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925200'
+- relation_id: rel_dav_c014
+  relation_type: usually_positive
+  factor_a: dream_symbol_chisel
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When symbol appears When chisel appears indicating God's shaping
+    work on character usually positive
+  effect_direction: 偏吉
+  source_ref: '#Chisel'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925207'
+- relation_id: rel_dav_c015
+  relation_type: state_determines
+  factor_a: dream_symbol_church
+  factor_b: church_state
+  relation_nature: 状态决定
+  condition_constraint: When symbol state When church alive indicates spiritual vitality
+    when dead indicates stagnation determines meaning
+  effect_direction: 调节
+  source_ref: '#Church'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925210'
+- relation_id: rel_dav_c016
+  relation_type: usually_positive
+  factor_a: dream_symbol_circumcision
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When symbol appears When circumcision appears indicating being
+    set apart for God usually positive
+  effect_direction: 偏吉
+  source_ref: '#Circumcision'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925212'
+- relation_id: rel_dav_c017
+  relation_type: usually_positive
+  factor_a: dream_symbol_clay
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When symbol appears When clay appears indicating God as potter
+    forming vessel usually positive
+  effect_direction: 偏吉
+  source_ref: '#Clay'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925215'
+- relation_id: rel_dav_c018
+  relation_type: usually_positive
+  factor_a: dream_symbol_cloak
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When symbol appears When cloak appears indicating authority
+    or anointing transfer usually positive
+  effect_direction: 偏吉
+  source_ref: '#Cloak'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925218'
+- relation_id: rel_dav_c019
+  relation_type: type_determines
+  factor_a: dream_symbol_clouds
+  factor_b: cloud_type
+  relation_nature: 类型决定
+  condition_constraint: When cloud of presence indicates positive when storm cloud
+    indicates warning
+  effect_direction: 调节
+  source_ref: '#Clouds'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925222'
+- relation_id: rel_dav_c020
+  relation_type: usually_positive
+  factor_a: dream_symbol_coals
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When symbol appears When coals appear indicating purification
+    or passionate zeal usually positive
+  effect_direction: 偏吉
+  source_ref: '#Coals'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925224'
+- relation_id: rel_dav_c021
+  relation_type: usually_positive
+  factor_a: dream_symbol_cocoon
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When symbol appears When cocoon appears indicating transformation
+    season approaching usually positive
+  effect_direction: 偏吉
+  source_ref: '#Cocoon'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925229'
+- relation_id: rel_dav_c022
+  relation_type: context_determines
+  factor_a: dream_symbol_coffin
+  factor_b: coffin_context
+  relation_nature: 上下文决定
+  condition_constraint: When context When coffin indicates death to flesh or death
+    of enemy based on context determines meaning
+  effect_direction: 调节
+  source_ref: '#Coffin'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925232'
+- relation_id: rel_dav_c023
+  relation_type: reference_index
+  factor_a: dream_symbol_colors
+  factor_b: individual_colors
+  relation_nature: 索引条目
+  condition_constraint: When colors appear see specific color entries for meaning
+  effect_direction: 参考
+  source_ref: '#Colors'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925235'
+- relation_id: rel_dav_c024
+  relation_type: usually_positive
+  factor_a: dream_symbol_cooking
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When symbol appears When cooking appears indicating ministry
+    preparation or training season usually positive
+  effect_direction: 偏吉
+  source_ref: '#Cooking'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925239'
+- relation_id: rel_dav_c025
+  relation_type: content_determines
+  factor_a: dream_symbol_conceive
+  factor_b: conceive_content
+  relation_nature: 内容决定
+  condition_constraint: When content When conception content determines new thing
+    from God or sin determines meaning
+  effect_direction: 调节
+  source_ref: '#Conceive'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925242'
+- relation_id: rel_dav_c026
+  relation_type: nature_determines
+  factor_a: dream_symbol_cords
+  factor_b: cord_nature
+  relation_nature: 联结性质决定
+  condition_constraint: When cord of marriage indicates positive when cord of bondage
+    indicates negative
+  effect_direction: 调节
+  source_ref: '#Cords'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925246'
+- relation_id: rel_dav_c027
+  relation_type: usage_determines
+  factor_a: dream_symbol_cross
+  factor_b: cross_usage
+  relation_nature: 使用方式决定
+  condition_constraint: When cross borne indicates positive when worshipped as idol
+    indicates negative
+  effect_direction: 调节
+  source_ref: '#Cross'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925249'
+- relation_id: rel_dav_c028
+  relation_type: possession_determines
+  factor_a: dream_symbol_crown
+  factor_b: crown_possession
+  relation_nature: 得失决定
+  condition_constraint: When crown received indicates honor when lost indicates warning
+  effect_direction: 调节
+  source_ref: '#Crown'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925252'
+- relation_id: rel_dav_c029
+  relation_type: content_determines
+  factor_a: dream_symbol_cup
+  factor_b: cup_content
+  relation_nature: 内容决定
+  condition_constraint: When content When cup content determines blessing or trials
+    meaning determines meaning
+  effect_direction: 调节
+  source_ref: '#Cup'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925256'
+- relation_id: rel_dav_c030
+  relation_type: function_determines
+  factor_a: dream_symbol_curtain
+  factor_b: curtain_function
+  relation_nature: 作用决定
+  condition_constraint: When curtain for intimacy indicates positive when for masking
+    indicates negative
+  effect_direction: 调节
+  source_ref: '#Curtain'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.925260'
+- relation_id: rel_dav_b001
+  relation_type: always_negative
+  factor_a: dream_symbol_babel
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When Babel tower appears in any context
+  effect_direction: 固定凶
+  source_ref: '#Babel'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928001'
+- relation_id: rel_dav_b002
+  relation_type: gender_determines
+  factor_a: dream_symbol_baby
+  factor_b: baby_gender
+  relation_nature: 性别决定事工
+  condition_constraint: When boy=teaching ministry, when girl=prophetic ministry
+  effect_direction: 调节
+  source_ref: '#Baby'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928009'
+- relation_id: rel_dav_b003
+  relation_type: condition_determines
+  factor_a: dream_symbol_back
+  factor_b: back_condition
+  relation_nature: 状态决定含义
+  condition_constraint: When strong=conviction, when broken=loss of strength
+  effect_direction: 调节
+  source_ref: '#Back'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928016'
+- relation_id: rel_dav_b004
+  relation_type: condition_determines
+  factor_a: dream_symbol_bag
+  factor_b: bag_condition
+  relation_nature: 状态决定吉凶
+  condition_constraint: When full=blessing, when holes=financial curse
+  effect_direction: 调节
+  source_ref: '#Bag'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928020'
+- relation_id: rel_dav_b005
+  relation_type: direction_determines
+  factor_a: dream_symbol_balances
+  factor_b: balance_direction
+  relation_nature: 方向决定吉凶
+  condition_constraint: When in favor=blessing, when against=judgment
+  effect_direction: 调节
+  source_ref: '#Balances'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928023'
+- relation_id: rel_dav_b006
+  relation_type: condition_determines
+  factor_a: dream_symbol_balm
+  factor_b: balm_condition
+  relation_nature: 状态决定含义
+  condition_constraint: When pure=healing, when fly in it=contamination
+  effect_direction: 调节
+  source_ref: '#Balm'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928026'
+- relation_id: rel_dav_b007
+  relation_type: always_negative
+  factor_a: dream_symbol_band
+  factor_b: outcome_jiong
+  relation_nature: 多为负面
+  condition_constraint: When iron band appears restraining growth
+  effect_direction: 限制成长
+  source_ref: '#Band'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928029'
+- relation_id: rel_dav_b008
+  relation_type: type_determines
+  factor_a: dream_symbol_baptism
+  factor_b: baptism_type
+  relation_nature: 类型决定含义
+  condition_constraint: When life baptism=positive, when death baptism=painful
+  effect_direction: 调节
+  source_ref: '#Baptism'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928032'
+- relation_id: rel_dav_b009
+  relation_type: condition_determines
+  factor_a: dream_symbol_barn
+  factor_b: barn_condition
+  relation_nature: 状态决定吉凶
+  condition_constraint: When full=blessing, when empty=curse
+  effect_direction: 调节
+  source_ref: '#Barn'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928035'
+- relation_id: rel_dav_b010
+  relation_type: type_determines
+  factor_a: dream_symbol_bars
+  factor_b: bar_type
+  relation_nature: 类型决定含义
+  condition_constraint: When prison bars=bondage, when gold bars=provision
+  effect_direction: 调节
+  source_ref: '#Bars'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928039'
+- relation_id: rel_dav_b011
+  relation_type: condition_determines
+  factor_a: dream_symbol_bath
+  factor_b: water_condition
+  relation_nature: 状态决定含义
+  condition_constraint: When clean water=forgiveness, when dirty=past hurts
+  effect_direction: 调节
+  source_ref: '#Bath'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928042'
+- relation_id: rel_dav_b012
+  relation_type: always_negative
+  factor_a: dream_symbol_bats
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When bats appear in any context
+  effect_direction: 固定凶
+  source_ref: '#Bats'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928045'
+- relation_id: rel_dav_b013
+  relation_type: always_negative
+  factor_a: dream_symbol_bear
+  factor_b: outcome_jiong
+  relation_nature: 多为负面
+  condition_constraint: When bear appears (protection role=rare exception)
+  effect_direction: 毁灭
+  source_ref: '#Bear'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928048'
+- relation_id: rel_dav_b014
+  relation_type: context_determines
+  factor_a: dream_symbol_bed
+  factor_b: relationship_type
+  relation_nature: 关系决定含义
+  condition_constraint: When with Lord=positive, when adultery=negative
+  effect_direction: 调节
+  source_ref: '#Bed'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928051'
+- relation_id: rel_dav_b015
+  relation_type: always_negative
+  factor_a: dream_symbol_beelzebub
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When Beelzebub appears in any context
+  effect_direction: 固定凶
+  source_ref: '#Beelzebub'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928054'
+- relation_id: rel_dav_b016
+  relation_type: type_determines
+  factor_a: dream_symbol_bees
+  factor_b: bee_state
+  relation_nature: 类型决定含义
+  condition_constraint: When honey=blessing, when swarm=attack
+  effect_direction: 调节
+  source_ref: '#Bees'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928057'
+- relation_id: rel_dav_b017
+  relation_type: type_determines
+  factor_a: dream_symbol_birds
+  factor_b: bird_type
+  relation_nature: 类型决定含义
+  condition_constraint: When dove=joy, when black birds=demonic
+  effect_direction: 调节
+  source_ref: '#Birds'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928063'
+- relation_id: rel_dav_b018
+  relation_type: condition_determines
+  factor_a: dream_symbol_birth
+  factor_b: birth_condition
+  relation_nature: 状态决定含义
+  condition_constraint: When normal=calling, when deformed=sin/curse
+  effect_direction: 调节
+  source_ref: '#Birth'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.928066'
+- relation_id: rel_dav_ij001
+  relation_type: always_negative
+  factor_a: dream_symbol_ice
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When ice appears indicating coldness hardness or frozen heart
+  effect_direction: 固定凶
+  source_ref: '#Ice'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.929266'
+- relation_id: rel_dav_ij002
+  relation_type: always_negative
+  factor_a: dream_symbol_idol
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When idol appears indicating false worship or anything put
+    before God
+  effect_direction: 固定凶
+  source_ref: '#Idol'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.929272'
+- relation_id: rel_dav_ij003
+  relation_type: action_determines
+  factor_a: dream_symbol_insects
+  factor_b: insects_action
+  relation_nature: 行动决定
+  condition_constraint: When insects crushed indicates victory when swarming indicates
+    demonic attack
+  effect_direction: 调节
+  source_ref: '#Insects'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.929276'
+- relation_id: rel_dav_ij004
+  relation_type: target_determines
+  factor_a: dream_symbol_incense
+  factor_b: incense_target
+  relation_nature: 对象决定
+  condition_constraint: When incense offered to God indicates prayer when to false
+    god indicates flesh
+  effect_direction: 调节
+  source_ref: '#Incense'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.929279'
+- relation_id: rel_dav_ij005
+  relation_type: source_determines
+  factor_a: dream_symbol_inheritance
+  factor_b: inheritance_source
+  relation_nature: 来源决定
+  condition_constraint: When inheritance from Christ indicates blessing when from
+    occult indicates curse
+  effect_direction: 调节
+  source_ref: '#Inheritance'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.929282'
+- relation_id: rel_dav_ij006
+  relation_type: context_determines
+  factor_a: dream_symbol_iron
+  factor_b: iron_context
+  relation_nature: 上下文决定
+  condition_constraint: When iron sharpens indicates growth when used as weapon indicates
+    attack
+  effect_direction: 调节
+  source_ref: '#Iron'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.929285'
+- relation_id: rel_dav_ij007
+  relation_type: separator_determines
+  factor_a: dream_symbol_island
+  factor_b: island_separator
+  relation_nature: 分离者决定
+  condition_constraint: When island separation by Lord indicates training when by
+    self indicates isolation
+  effect_direction: 调节
+  source_ref: '#Island'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.929290'
+- relation_id: rel_dav_ij008
+  relation_type: state_determines
+  factor_a: dream_symbol_jaw
+  factor_b: jaw_state
+  relation_nature: 状态决定
+  condition_constraint: When jaw healthy indicates clear communication when broken
+    indicates difficulty
+  effect_direction: 调节
+  source_ref: '#Jaw'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.929293'
+- relation_id: rel_dav_ij009
+  relation_type: usually_positive
+  factor_a: dream_symbol_jesus
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When Jesus appears indicating Lord's presence visitation or
+    commissioning
+  effect_direction: 偏吉
+  source_ref: '#Jesus'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.929296'
+- relation_id: rel_dav_ij010
+  relation_type: usage_determines
+  factor_a: dream_symbol_jewelry
+  factor_b: jewelry_usage
+  relation_nature: 使用决定
+  condition_constraint: When jewelry worn as blessing positive when worn in vanity
+    indicates flesh
+  effect_direction: 调节
+  source_ref: '#Jewelry'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.929300'
+- relation_id: rel_dav_ij011
+  relation_type: target_determines
+  factor_a: dream_symbol_kiss
+  factor_b: kiss_target
+  relation_nature: 对象决定
+  condition_constraint: When kiss from Lord indicates affection when from betrayer
+    indicates deception
+  effect_direction: 调节
+  source_ref: '#Kiss'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.929303'
+- relation_id: rel_dav_ij012
+  relation_type: user_determines
+  factor_a: dream_symbol_knife
+  factor_b: knife_user
+  relation_nature: 使用者决定
+  condition_constraint: When knife used by Lord indicates surgical healing when by
+    enemy indicates destruction
+  effect_direction: 调节
+  source_ref: '#Knife'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.929308'
+- relation_id: rel_dav_tz01
+  relation_type: state_determines
+  factor_a: dream_symbol_table
+  factor_b: table_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When table prepared indicates provision when overturned indicates
+    confrontation
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.930998'
+- relation_id: rel_dav_tz02
+  relation_type: state_determines
+  factor_a: dream_symbol_teeth
+  factor_b: teeth_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When teeth healthy indicates strength when falling out indicates
+    powerlessness
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931004'
+- relation_id: rel_dav_tz03
+  relation_type: usually_positive
+  factor_a: dream_symbol_temple
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: ''
+  effect_direction: When temple appears indicating God's dwelling or body as temple
+  source_ref: 偏吉
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931007'
+- relation_id: rel_dav_tz04
+  relation_type: context_determines
+  factor_a: dream_symbol_thief
+  factor_b: thief_context
+  relation_nature: 上下文决定
+  condition_constraint: ''
+  effect_direction: When thief as Christ's return positive when as enemy indicates
+    robbery
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931010'
+- relation_id: rel_dav_tz05
+  relation_type: usually_positive
+  factor_a: dream_symbol_throne
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: ''
+  effect_direction: When throne appears indicating authority seat or God's presence
+  source_ref: 偏吉
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931013'
+- relation_id: rel_dav_tz06
+  relation_type: type_determines
+  factor_a: dream_symbol_tower
+  factor_b: tower_type
+  relation_nature: 类型决定
+  condition_constraint: ''
+  effect_direction: When tower of God indicates protection when of Babel indicates
+    pride
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931016'
+- relation_id: rel_dav_tz07
+  relation_type: state_determines
+  factor_a: dream_symbol_train
+  factor_b: train_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When train on track indicates aligned journey when derailed indicates
+    off course
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931019'
+- relation_id: rel_dav_tz08
+  relation_type: state_determines
+  factor_a: dream_symbol_tree
+  factor_b: tree_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When tree fruitful indicates blessing when barren indicates curse
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931023'
+- relation_id: rel_dav_tz09
+  relation_type: usually_positive
+  factor_a: dream_symbol_trumpet
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: ''
+  effect_direction: When trumpet appears indicating prophetic call or heavenly announcement
+  source_ref: 偏吉
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931026'
+- relation_id: rel_dav_tz10
+  relation_type: progress_determines
+  factor_a: dream_symbol_tunnel
+  factor_b: tunnel_progress
+  relation_nature: 进展决定
+  condition_constraint: ''
+  effect_direction: When emerging from tunnel indicates breakthrough when stuck indicates
+    trial
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931029'
+- relation_id: rel_dav_tz11
+  relation_type: context_determines
+  factor_a: dream_symbol_turtle
+  factor_b: turtle_context
+  relation_nature: 上下文决定
+  condition_constraint: ''
+  effect_direction: When turtle as slow progress positive when as hiding indicates
+    withdrawal
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931032'
+- relation_id: rel_dav_tz12
+  relation_type: state_determines
+  factor_a: dream_symbol_umbrella
+  factor_b: umbrella_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When umbrella open indicates protection when broken indicates
+    vulnerability
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931034'
+- relation_id: rel_dav_tz13
+  relation_type: presence_determines
+  factor_a: dream_symbol_valley
+  factor_b: valley_presence
+  relation_nature: 同在决定
+  condition_constraint: ''
+  effect_direction: When in valley with God's presence indicates trust when alone
+    indicates fear
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931037'
+- relation_id: rel_dav_tz14
+  relation_type: connection_determines
+  factor_a: dream_symbol_vine
+  factor_b: vine_connection
+  relation_nature: 连接决定
+  condition_constraint: ''
+  effect_direction: When connected to vine indicates fruitfulness when severed indicates
+    barrenness
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931040'
+- relation_id: rel_dav_tz15
+  relation_type: source_determines
+  factor_a: dream_symbol_volcano
+  factor_b: volcano_source
+  relation_nature: 来源决定
+  condition_constraint: ''
+  effect_direction: When volcano from God indicates power when from enemy indicates
+    destruction
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931044'
+- relation_id: rel_dav_tz16
+  relation_type: purpose_determines
+  factor_a: dream_symbol_wall
+  factor_b: wall_purpose
+  relation_nature: 目的决定
+  condition_constraint: ''
+  effect_direction: When wall for protection positive when for division indicates
+    barrier
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931049'
+- relation_id: rel_dav_tz17
+  relation_type: state_determines
+  factor_a: dream_symbol_water
+  factor_b: water_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When water clear indicates Spirit's life when murky indicates
+    contamination
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931052'
+- relation_id: rel_dav_tz18
+  relation_type: usually_positive
+  factor_a: dream_symbol_wedding
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: ''
+  effect_direction: When wedding appears indicating covenant union or Lamb's marriage
+  source_ref: 偏吉
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931056'
+- relation_id: rel_dav_tz19
+  relation_type: state_determines
+  factor_a: dream_symbol_well
+  factor_b: well_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When well flowing indicates life source when dried indicates spiritual
+    drought
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931060'
+- relation_id: rel_dav_tz20
+  relation_type: context_determines
+  factor_a: dream_symbol_whale
+  factor_b: whale_context
+  relation_nature: 上下文决定
+  condition_constraint: ''
+  effect_direction: When whale as Jonah's redemption positive when as Leviathan indicates
+    enemy
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931063'
+- relation_id: rel_dav_tz21
+  relation_type: usually_positive
+  factor_a: dream_symbol_wheat
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: ''
+  effect_direction: When wheat appears indicating harvest of souls or Word of God
+  source_ref: 偏吉
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931065'
+- relation_id: rel_dav_tz22
+  relation_type: intensity_determines
+  factor_a: dream_symbol_wind
+  factor_b: wind_intensity
+  relation_nature: 强度决定
+  condition_constraint: ''
+  effect_direction: When gentle wind indicates Spirit when violent indicates trial
+    or change
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931068'
+- relation_id: rel_dav_tz23
+  relation_type: manner_determines
+  factor_a: dream_symbol_wine
+  factor_b: wine_manner
+  relation_nature: 方式决定
+  condition_constraint: ''
+  effect_direction: When wine new indicates Spirit when old indicates tradition
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931071'
+- relation_id: rel_dav_tz24
+  relation_type: state_determines
+  factor_a: dream_symbol_wolf
+  factor_b: wolf_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When wolf tamed indicates converted enemy when attacking indicates
+    destroyer
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.931074'
+- relation_id: rel_dav_no001
+  relation_type: feeling_determines
+  factor_a: dream_symbol_naked
+  factor_b: naked_feeling
+  relation_nature: 感受决定
+  condition_constraint: When naked feeling comfortable indicates transparency when
+    uncomfortable indicates vulnerability
+  effect_direction: 调节
+  source_ref: '#Naked'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.932114'
+- relation_id: rel_dav_no002
+  relation_type: state_determines
+  factor_a: dream_symbol_navel
+  factor_b: navel_state
+  relation_nature: 状态决定
+  condition_constraint: When navel clean indicates good heritage when damaged indicates
+    generational curse
+  effect_direction: 调节
+  source_ref: '#Navel'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.932119'
+- relation_id: rel_dav_no003
+  relation_type: state_determines
+  factor_a: dream_symbol_neck
+  factor_b: neck_state
+  relation_nature: 状态决定
+  condition_constraint: When neck strong indicates strength when yoked indicates burden
+    or bondage
+  effect_direction: 调节
+  source_ref: '#Neck'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.932123'
+- relation_id: rel_dav_no004
+  relation_type: nature_determines
+  factor_a: dream_symbol_necklace
+  factor_b: necklace_nature
+  relation_nature: 性质决定
+  condition_constraint: When necklace gold indicates covenant when black indicates
+    bondage
+  effect_direction: 调节
+  source_ref: '#Necklace'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.932126'
+- relation_id: rel_dav_no005
+  relation_type: usage_determines
+  factor_a: dream_symbol_net
+  factor_b: net_usage
+  relation_nature: 使用决定
+  condition_constraint: When net used for fishing indicates evangelism when as trap
+    indicates snare
+  effect_direction: 调节
+  source_ref: '#Net'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.932150'
+- relation_id: rel_dav_no006
+  relation_type: feeling_determines
+  factor_a: dream_symbol_night
+  factor_b: night_feeling
+  relation_nature: 感受决定
+  condition_constraint: When night peaceful indicates rest when fearful indicates
+    enemy activity
+  effect_direction: 调节
+  source_ref: '#Night'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.932155'
+- relation_id: rel_dav_no007
+  relation_type: neutral
+  factor_a: dream_symbol_numbers
+  factor_b: outcome_neutral
+  relation_nature: 中性
+  condition_constraint: When symbol neutral biblical_context requires context
+  effect_direction: 参考
+  source_ref: '#Numbers'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.932159'
+- relation_id: rel_dav_no008
+  relation_type: state_determines
+  factor_a: dream_symbol_ocean
+  factor_b: ocean_state
+  relation_nature: 状态决定
+  condition_constraint: When ocean calm indicates trust when tossed indicates instability
+  effect_direction: 调节
+  source_ref: '#Ocean'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.932162'
+- relation_id: rel_dav_no009
+  relation_type: always_negative
+  factor_a: dream_symbol_octopus
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When octopus appears indicating controlling spirit or multiple
+    demonic tentacles
+  effect_direction: 固定凶
+  source_ref: '#Octopus'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.932165'
+- relation_id: rel_dav_no010
+  relation_type: state_determines
+  factor_a: dream_symbol_oil
+  factor_b: oil_state
+  relation_nature: 状态决定
+  condition_constraint: When oil pure indicates anointing when spoiled indicates tainted
+    ministry
+  effect_direction: 调节
+  source_ref: '#Oil'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.932168'
+- relation_id: rel_dav_no011
+  relation_type: state_determines
+  factor_a: dream_symbol_olive
+  factor_b: olive_state
+  relation_nature: 状态决定
+  condition_constraint: When olive crushed indicates anointing when severed indicates
+    removal from vine
+  effect_direction: 调节
+  source_ref: '#Olive'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.932171'
+- relation_id: rel_dav_no012
+  relation_type: source_determines
+  factor_a: dream_symbol_owl
+  factor_b: owl_source
+  relation_nature: 来源决定
+  condition_constraint: When owl in culture indicates wisdom when in Bible indicates
+    desolation
+  effect_direction: 调节
+  source_ref: '#Owl'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.932176'
+- relation_id: rel_dav_no013
+  relation_type: usually_positive
+  factor_a: dream_symbol_oyster
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When oyster appears indicating hidden pearl or blessing within
+    trial
+  effect_direction: 偏吉
+  source_ref: '#Oyster'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.932179'
+- relation_id: rel_dav_a001
+  relation_type: symbol_valence
+  factor_a: dream_symbol_adultery
+  factor_b: dream_feeling
+  relation_nature: 情感决定吉凶
+  condition_constraint: When dream feels right=positive, when feels unclean=negative
+  effect_direction: 调节
+  source_ref: '#Adultery'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936355'
+- relation_id: rel_dav_a002
+  relation_type: symbol_valence
+  factor_a: dream_symbol_airplane
+  factor_b: airplane_size
+  relation_nature: 大小决定规模
+  condition_constraint: When jumbo jet=public ministry, when fighter=intercession
+  effect_direction: 调节
+  source_ref: '#Airplane'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936364'
+- relation_id: rel_dav_a003
+  relation_type: always_negative
+  factor_a: dream_symbol_alligator
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When alligator appears in any context
+  effect_direction: 固定凶
+  source_ref: '#Alligator'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936368'
+- relation_id: rel_dav_a004
+  relation_type: opposite_pair
+  factor_a: dream_symbol_aloes_positive
+  factor_b: dream_symbol_aloes_negative
+  relation_nature: 雅歌vs箴言7
+  condition_constraint: When Song of Solomon context=positive, when Proverbs 7 context=negative
+  effect_direction: 对立
+  source_ref: '#Aloes'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936371'
+- relation_id: rel_dav_a005
+  relation_type: wake_feeling_rule
+  factor_a: dream_symbol_altar
+  factor_b: wake_feeling
+  relation_nature: 醒来感受决定
+  condition_constraint: When wake in fear=demonic attack, when peaceful=divine encounter
+  effect_direction: 调节
+  source_ref: '#Altar'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936375'
+- relation_id: rel_dav_a006
+  relation_type: role_determines
+  factor_a: dream_symbol_ambush
+  factor_b: ambush_role
+  relation_nature: 角色决定吉凶
+  condition_constraint: When ambushing enemy=positive, when being ambushed=negative
+  effect_direction: 调节
+  source_ref: '#Ambush'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936378'
+- relation_id: rel_dav_a007
+  relation_type: relationship_rule
+  factor_a: dream_symbol_ancestor
+  factor_b: actual_relationship
+  relation_nature: 实际关系决定
+  condition_constraint: When ancestor visiting directly=demonic, when representing
+    pattern=generational
+  effect_direction: 调节
+  source_ref: '#Ancestor'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936384'
+- relation_id: rel_dav_a008
+  relation_type: action_determines
+  factor_a: dream_symbol_anchor
+  factor_b: anchor_action
+  relation_nature: 动作决定吉凶
+  condition_constraint: When dropping anchor=rest, when hoisting=move on
+  effect_direction: 调节
+  source_ref: '#Anchor'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936387'
+- relation_id: rel_dav_a009
+  relation_type: type_classification
+  factor_a: dream_symbol_angels
+  factor_b: angel_authenticity
+  relation_nature: 类型分真假
+  condition_constraint: When face visible and peaceful=true, when faceless and forceful=false
+  effect_direction: 分类
+  source_ref: '#Angels'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936391'
+- relation_id: rel_dav_a010
+  relation_type: dual_symbol
+  factor_a: dream_symbol_apple
+  factor_b: fruit_condition
+  relation_nature: 状态决定吉凶
+  condition_constraint: When fresh=favor, when rotten=evil
+  effect_direction: 调节
+  source_ref: '#Apple'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936394'
+- relation_id: rel_dav_a011
+  relation_type: transition_model
+  factor_a: dream_symbol_ark
+  factor_b: transition_phase
+  relation_nature: 过渡阶段
+  condition_constraint: When entering=death phase, when inside=incubation, when exiting=resurrection
+  effect_direction: 时序
+  source_ref: '#Ark'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936401'
+- relation_id: rel_dav_a012
+  relation_type: source_determines
+  factor_a: dream_symbol_arm
+  factor_b: strength_source
+  relation_nature: 来源决定吉凶
+  condition_constraint: When divine source=positive, when human flesh=negative
+  effect_direction: 调节
+  source_ref: '#Arm'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936404'
+- relation_id: rel_dav_a013
+  relation_type: fit_determines
+  factor_a: dream_symbol_armor
+  factor_b: armor_fit
+  relation_nature: 合适度决定
+  condition_constraint: When fits well=god's armor, when oversized=relying on flesh
+  effect_direction: 调节
+  source_ref: '#Armor'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936406'
+- relation_id: rel_dav_a014
+  relation_type: role_determines
+  factor_a: dream_symbol_army
+  factor_b: army_role
+  relation_nature: 身份决定含义
+  condition_constraint: When enlisted=training, when prisoner=spiritual conflict
+  effect_direction: 调节
+  source_ref: '#Army'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936410'
+- relation_id: rel_dav_a015
+  relation_type: nature_determines
+  factor_a: dream_symbol_arrow
+  factor_b: arrow_nature
+  relation_nature: 性质决定吉凶
+  condition_constraint: When fiery=deliverance, when dark=curse/attack
+  effect_direction: 调节
+  source_ref: '#Arrow'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936413'
+- relation_id: rel_dav_a016
+  relation_type: use_determines
+  factor_a: dream_symbol_axe
+  factor_b: axe_use
+  relation_nature: 用途决定含义
+  condition_constraint: When in battle=spiritual warfare, when at root=judgment
+  effect_direction: 调节
+  source_ref: '#Axe'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936416'
+- relation_id: rel_dav_a017
+  relation_type: condition_determines
+  factor_a: dream_symbol_ankle
+  factor_b: ankle_condition
+  relation_nature: 状态决定吉凶
+  condition_constraint: When healed=weakness overcome, when hurt=character flaw
+  effect_direction: 调节
+  source_ref: '#Ankle'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936419'
+- relation_id: rel_dav_a018
+  relation_type: state_determines
+  factor_a: dream_symbol_audience
+  factor_b: performance_state
+  relation_nature: 表现状态
+  condition_constraint: When confident=inner healing, when performing=people pleasing
+  effect_direction: 调节
+  source_ref: '#Audience'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936422'
+- relation_id: rel_dav_a019
+  relation_type: relation_determines
+  factor_a: dream_symbol_authorities
+  factor_b: authority_relation
+  relation_nature: 权柄关系
+  condition_constraint: When accepted=spiritual growth, when in bondage=demonic attack
+  effect_direction: 调节
+  source_ref: '#Authorities'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936425'
+- relation_id: rel_dav_a020
+  relation_type: relation_determines
+  factor_a: dream_symbol_aunt
+  factor_b: aunt_relation
+  relation_nature: 阿姨关系
+  condition_constraint: When intercession role=positive, when curse role=negative
+    generational
+  effect_direction: 调节
+  source_ref: '#Aunt'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.936428'
+- relation_id: rel_dav_kl001
+  relation_type: usually_positive
+  factor_a: dream_symbol_key
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When key appears indicating spiritual authority or calling
+    activation
+  effect_direction: 偏吉
+  source_ref: '#Key'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.937799'
+- relation_id: rel_dav_kl002
+  relation_type: state_determines
+  factor_a: dream_symbol_king
+  factor_b: king_state
+  relation_nature: 状态决定
+  condition_constraint: When king crowned indicates rise to authority when dethroned
+    indicates fall
+  effect_direction: 调节
+  source_ref: '#King'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.937805'
+- relation_id: rel_dav_kl003
+  relation_type: direction_determines
+  factor_a: dream_symbol_ladder
+  factor_b: ladder_direction
+  relation_nature: 方向决定
+  condition_constraint: When climbing ladder indicates promotion when descending indicates
+    demotion
+  effect_direction: 调节
+  source_ref: '#Ladder'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.937810'
+- relation_id: rel_dav_kl004
+  relation_type: state_determines
+  factor_a: dream_symbol_lamb
+  factor_b: lamb_state
+  relation_nature: 状态决定
+  condition_constraint: When lamb healthy indicates innocence when beaten indicates
+    victimization
+  effect_direction: 调节
+  source_ref: '#Lamb'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.937813'
+- relation_id: rel_dav_kl005
+  relation_type: state_determines
+  factor_a: dream_symbol_lamp
+  factor_b: lamp_state
+  relation_nature: 状态决定
+  condition_constraint: When lamp lit indicates revelation when dim indicates spiritual
+    neglect
+  effect_direction: 调节
+  source_ref: '#Lamp'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.937817'
+- relation_id: rel_dav_kl006
+  relation_type: state_determines
+  factor_a: dream_symbol_legs
+  factor_b: legs_state
+  relation_nature: 状态决定
+  condition_constraint: When legs strong indicates ability to stand when lame indicates
+    depression
+  effect_direction: 调节
+  source_ref: '#Legs'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.937820'
+- relation_id: rel_dav_kl007
+  relation_type: source_determines
+  factor_a: dream_symbol_light
+  factor_b: light_source
+  relation_nature: 来源决定
+  condition_constraint: When light from Lord indicates hope when false light indicates
+    deception
+  effect_direction: 调节
+  source_ref: '#Light'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.937822'
+- relation_id: rel_dav_kl008
+  relation_type: side_determines
+  factor_a: dream_symbol_lion
+  factor_b: lion_side
+  relation_nature: 阵营决定
+  condition_constraint: When lion of Judah indicates Christ protector when roaring
+    lion indicates enemy destroyer
+  effect_direction: 调节
+  source_ref: '#Lion'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.937825'
+- relation_id: rel_dav_kl009
+  relation_type: context_determines
+  factor_a: dream_symbol_locust
+  factor_b: locust_context
+  relation_nature: 上下文决定
+  condition_constraint: When locusts as food indicates provision when swarming indicates
+    devourer theft
+  effect_direction: 调节
+  source_ref: '#Locust'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.937828'
+- relation_id: rel_dream_Part3_8
+  relation_type: dream_symbol
+  factor_a: dream_Part3_8
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.940099'
+- relation_id: rel_dream_Part3_9
+  relation_type: dream_symbol
+  factor_a: dream_Part3_9
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.940133'
+- relation_id: rel_dream_Part3_10
+  relation_type: dream_symbol
+  factor_a: dream_Part3_10
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.940166'
+- relation_id: rel_dream_Part3_11
+  relation_type: dream_symbol
+  factor_a: dream_Part3_11
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.940196'
+- relation_id: rel_dream_Part3_12
+  relation_type: dream_symbol
+  factor_a: dream_Part3_12
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.940286'
+- relation_id: rel_dream_Part3_13
+  relation_type: dream_symbol
+  factor_a: dream_Part3_13
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.940319'
+- relation_id: rel_dav_h001
+  relation_type: state_determines
+  factor_a: dream_symbol_hair
+  factor_b: hair_state
+  relation_nature: 状态决定
+  condition_constraint: When hair beautiful indicates confidence and glory when damaged
+    indicates inner conflict
+  effect_direction: 调节
+  source_ref: '#Hair'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.941512'
+- relation_id: rel_dav_h002
+  relation_type: color_determines
+  factor_a: dream_symbol_hand
+  factor_b: hand_color
+  relation_nature: 颜色决定
+  condition_constraint: When hand normal indicates blessing when black indicates enemy's
+    work
+  effect_direction: 调节
+  source_ref: '#Hand'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.941519'
+- relation_id: rel_dav_h003
+  relation_type: usually_positive
+  factor_a: dream_symbol_harp
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: When harp appears indicating gift of worship and prophetic
+    praise
+  effect_direction: 偏吉
+  source_ref: '#Harp'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.941523'
+- relation_id: rel_dav_h004
+  relation_type: state_determines
+  factor_a: dream_symbol_harvest
+  factor_b: harvest_state
+  relation_nature: 状态决定
+  condition_constraint: When harvest fruitful indicates blessing when choked by weeds
+    indicates enemy
+  effect_direction: 调节
+  source_ref: '#Harvest'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.941526'
+- relation_id: rel_dav_h005
+  relation_type: state_determines
+  factor_a: dream_symbol_head
+  factor_b: head_state
+  relation_nature: 状态决定
+  condition_constraint: When head crowned indicates promotion when lost indicates
+    demotion or defeat
+  effect_direction: 调节
+  source_ref: '#Head'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.941532'
+- relation_id: rel_dav_h006
+  relation_type: state_determines
+  factor_a: dream_symbol_heart
+  factor_b: heart_state
+  relation_nature: 状态决定
+  condition_constraint: When heart healed indicates blessing when stony indicates
+    closed and hardened
+  effect_direction: 调节
+  source_ref: '#Heart'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.941535'
+- relation_id: rel_dav_h007
+  relation_type: always_negative
+  factor_a: dream_symbol_hell
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When hell appears indicating spiritual danger or enemy's destination
+  effect_direction: 固定凶
+  source_ref: '#Hell'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.941537'
+- relation_id: rel_dav_h008
+  relation_type: result_determines
+  factor_a: dream_symbol_honey
+  factor_b: honey_result
+  relation_nature: 结果决定
+  condition_constraint: When honey sweet indicates Word's blessing when bitter indicates
+    worldly disappointment
+  effect_direction: 调节
+  source_ref: '#Honey'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.941540'
+- relation_id: rel_dav_h009
+  relation_type: side_determines
+  factor_a: dream_symbol_horse
+  factor_b: horse_side
+  relation_nature: 阵营决定
+  condition_constraint: When horse on Lord's side indicates victory when on enemy's
+    side indicates attack
+  effect_direction: 调节
+  source_ref: '#Horse'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.941543'
+- relation_id: rel_dav_h010
+  relation_type: always_negative
+  factor_a: dream_symbol_horseshoe
+  factor_b: outcome_jiong
+  relation_nature: 始终负面
+  condition_constraint: When horseshoe appears indicating superstition and false luck
+  effect_direction: 固定凶
+  source_ref: '#Horseshoe'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.941546'
+- relation_id: rel_dav_h011
+  relation_type: state_determines
+  factor_a: dream_symbol_house
+  factor_b: house_state
+  relation_nature: 状态决定
+  condition_constraint: When house built indicates blessing when destroyed indicates
+    enemy attack
+  effect_direction: 调节
+  source_ref: '#House'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.941549'
+- relation_id: rel_dav_h012
+  relation_type: image_determines
+  factor_a: dream_symbol_husband
+  factor_b: husband_image
+  relation_nature: 形象决定
+  condition_constraint: When husband godly indicates Christ when fleshly indicates
+    earthly nature
+  effect_direction: 调节
+  source_ref: '#Husband'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.941551'
+- relation_id: rel_dav_s001
+  relation_type: state_determines
+  factor_a: dream_symbol_salt
+  factor_b: salt_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When salt savory indicates preservation when lost savor indicates
+    uselessness
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942523'
+- relation_id: rel_dav_s002
+  relation_type: context_determines
+  factor_a: dream_symbol_sand
+  factor_b: sand_context
+  relation_nature: 上下文决定
+  condition_constraint: ''
+  effect_direction: When sand as foundation indicates instability when as multitude
+    indicates descendants
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942529'
+- relation_id: rel_dav_s003
+  relation_type: usually_positive
+  factor_a: dream_symbol_scepter
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: ''
+  effect_direction: When scepter appears indicating royal authority and kingdom rule
+  source_ref: 偏吉
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942534'
+- relation_id: rel_dav_s004
+  relation_type: result_determines
+  factor_a: dream_symbol_school
+  factor_b: school_result
+  relation_nature: 结果决定
+  condition_constraint: ''
+  effect_direction: When passing school indicates promotion when failing indicates
+    lesson repeat
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942537'
+- relation_id: rel_dav_s005
+  relation_type: usually_positive
+  factor_a: dream_symbol_scroll
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: ''
+  effect_direction: When scroll appears indicating revelation decree or prophetic
+    word
+  source_ref: 偏吉
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942540'
+- relation_id: rel_dav_s006
+  relation_type: state_determines
+  factor_a: dream_symbol_sea
+  factor_b: sea_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When sea calm indicates peace when raging indicates turmoil or
+    nations
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942543'
+- relation_id: rel_dav_s007
+  relation_type: type_determines
+  factor_a: dream_symbol_seed
+  factor_b: seed_type
+  relation_nature: 类型决定
+  condition_constraint: ''
+  effect_direction: When seed good indicates Word when bad indicates enemy's planting
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942545'
+- relation_id: rel_dav_s008
+  relation_type: context_determines
+  factor_a: dream_symbol_serpent
+  factor_b: serpent_context
+  relation_nature: 上下文决定
+  condition_constraint: ''
+  effect_direction: When serpent bronze indicates Christ lifted up when attacking
+    indicates enemy
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942548'
+- relation_id: rel_dav_s009
+  relation_type: usually_positive
+  factor_a: dream_symbol_shepherd
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: ''
+  effect_direction: When shepherd appears indicating Lord's care and pastoral leadership
+  source_ref: 偏吉
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942552'
+- relation_id: rel_dav_s010
+  relation_type: usually_positive
+  factor_a: dream_symbol_shield
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: ''
+  effect_direction: When shield appears indicating faith's protection against enemy
+  source_ref: 偏吉
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942555'
+- relation_id: rel_dav_s011
+  relation_type: state_determines
+  factor_a: dream_symbol_ship
+  factor_b: ship_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When ship sailing steady indicates safe journey when sinking indicates
+    trouble
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942560'
+- relation_id: rel_dav_s012
+  relation_type: context_determines
+  factor_a: dream_symbol_silver
+  factor_b: silver_context
+  relation_nature: 上下文决定
+  condition_constraint: ''
+  effect_direction: When silver as redemption indicates positive when as betrayal
+    indicates negative
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942563'
+- relation_id: rel_dav_s013
+  relation_type: usually_positive
+  factor_a: dream_symbol_son
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: ''
+  effect_direction: When son appears indicating spiritual offspring or Christ the
+    Son
+  source_ref: 偏吉
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942566'
+- relation_id: rel_dav_s014
+  relation_type: direction_determines
+  factor_a: dream_symbol_stairs
+  factor_b: stairs_direction
+  relation_nature: 方向决定
+  condition_constraint: ''
+  effect_direction: When ascending stairs indicates promotion when descending indicates
+    demotion
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942570'
+- relation_id: rel_dav_s015
+  relation_type: context_determines
+  factor_a: dream_symbol_stone
+  factor_b: stone_context
+  relation_nature: 上下文决定
+  condition_constraint: ''
+  effect_direction: When stone as living stone indicates Christ when as stumbling
+    stone indicates offense
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942573'
+- relation_id: rel_dav_s016
+  relation_type: response_determines
+  factor_a: dream_symbol_storm
+  factor_b: storm_response
+  relation_nature: 回应决定
+  condition_constraint: ''
+  effect_direction: When storm faced with peace indicates faith when with fear indicates
+    trial
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942577'
+- relation_id: rel_dav_s017
+  relation_type: intensity_determines
+  factor_a: dream_symbol_sun
+  factor_b: sun_intensity
+  relation_nature: 强度决定
+  condition_constraint: ''
+  effect_direction: When sun shining indicates God's glory when scorching indicates
+    trial
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942581'
+- relation_id: rel_dav_s018
+  relation_type: direction_determines
+  factor_a: dream_symbol_sword
+  factor_b: sword_direction
+  relation_nature: 方向决定
+  condition_constraint: ''
+  effect_direction: When sword in your hand indicates authority when pointed at you
+    indicates attack
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.942584'
+- relation_id: rel_dream_Part2_4
+  relation_type: dream_symbol
+  factor_a: dream_Part2_4
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.944403'
+- relation_id: rel_dream_Part2_5
+  relation_type: dream_symbol
+  factor_a: dream_Part2_5
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.944437'
+- relation_id: rel_dream_Part2_6
+  relation_type: dream_symbol
+  factor_a: dream_Part2_6
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.944471'
+- relation_id: rel_dream_Part2_7
+  relation_type: dream_symbol
+  factor_a: dream_Part2_7
+  factor_b: interpretation
+  relation_nature: Symbolic
+  condition_constraint: When dream symbol appears revealing meaning through context
+  effect_direction: revealing
+  source_ref: 'Dictionary #Dreams'
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.944509'
+- relation_id: rel_dav_r001
+  relation_type: type_determines
+  factor_a: dream_symbol_rain
+  factor_b: rain_type
+  relation_nature: 类型决定
+  condition_constraint: ''
+  effect_direction: When rain gentle indicates blessing when storm indicates judgment
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.945401'
+- relation_id: rel_dav_r002
+  relation_type: usually_positive
+  factor_a: dream_symbol_rainbow
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: ''
+  effect_direction: When rainbow appears indicating God's covenant promise
+  source_ref: 偏吉
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.945406'
+- relation_id: rel_dav_r003
+  relation_type: context_determines
+  factor_a: dream_symbol_raven
+  factor_b: raven_context
+  relation_nature: 上下文决定
+  condition_constraint: ''
+  effect_direction: When raven brings provision positive when as carrion eater negative
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.945410'
+- relation_id: rel_dav_r004
+  relation_type: context_determines
+  factor_a: dream_symbol_red
+  factor_b: red_context
+  relation_nature: 上下文决定
+  condition_constraint: ''
+  effect_direction: When red indicates blood of Christ positive when anger or war
+    negative
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.945413'
+- relation_id: rel_dav_r005
+  relation_type: state_determines
+  factor_a: dream_symbol_ring
+  factor_b: ring_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When ring given indicates covenant when lost indicates broken
+    relationship
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.945416'
+- relation_id: rel_dav_r006
+  relation_type: state_determines
+  factor_a: dream_symbol_river
+  factor_b: river_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When river flowing clear indicates Spirit when murky indicates
+    flesh
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.945419'
+- relation_id: rel_dav_r007
+  relation_type: state_determines
+  factor_a: dream_symbol_road
+  factor_b: road_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When road straight indicates clear path when crooked indicates
+    confusion
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.945422'
+- relation_id: rel_dav_r008
+  relation_type: context_determines
+  factor_a: dream_symbol_rock
+  factor_b: rock_context
+  relation_nature: 上下文决定
+  condition_constraint: ''
+  effect_direction: When rock as foundation indicates Christ when as obstacle indicates
+    challenge
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.945427'
+- relation_id: rel_dav_r009
+  relation_type: state_determines
+  factor_a: dream_symbol_roof
+  factor_b: roof_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When roof intact indicates covering when leaking indicates vulnerability
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.945430'
+- relation_id: rel_dav_r010
+  relation_type: state_determines
+  factor_a: dream_symbol_root
+  factor_b: root_state
+  relation_nature: 状态决定
+  condition_constraint: ''
+  effect_direction: When root healthy indicates grounded when bitter indicates generational
+    curse
+  source_ref: 调节
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.945435'
+- relation_id: rel_dav_r011
+  relation_type: usually_positive
+  factor_a: dream_symbol_rose
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: ''
+  effect_direction: When rose appears indicating beauty love or Christ the Rose of
+    Sharon
+  source_ref: 偏吉
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.945438'
+- relation_id: rel_dav_r012
+  relation_type: usually_positive
+  factor_a: dream_symbol_ruby
+  factor_b: outcome_ji
+  relation_nature: 通常正面
+  condition_constraint: ''
+  effect_direction: When ruby appears indicating great value or wisdom's price
+  source_ref: 偏吉
+  source_book: the_dreams_&_visions_symbol_dictionary
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.945442'

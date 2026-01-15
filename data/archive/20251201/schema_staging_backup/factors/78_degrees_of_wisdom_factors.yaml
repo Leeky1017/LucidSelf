@@ -1,0 +1,2314 @@
+book_id: 78_degrees_of_wisdom
+source_file: 典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+extracted_at: '2025-11-30T15:46:49.276214'
+factors:
+- factor_type: Archetype
+  factor_label: The Fool
+  factor_id: tarot_major_fool
+  factor_source: existing
+  role_position: Major Arcana 0
+  value_constraint: Unnumbered, infinite potential
+  engine_id: tarot_engine
+  notes: Journey initiator and completion echo
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050629'
+- factor_type: Numerical
+  factor_label: Zero/No-Number
+  factor_id: tarot_number_0
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 0 (not 1-21)
+  engine_id: tarot_calculator
+  notes: Transcends sequence
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050639'
+- factor_type: State
+  factor_label: True Innocence
+  factor_id: state_true_innocence
+  factor_source: new_candidate
+  role_position: Psychological
+  value_constraint: Without fear, total openness
+  engine_id: tarot_semantic
+  notes: Prerequisite for spontaneity
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050645'
+- factor_type: State
+  factor_label: Psychic Wholeness
+  factor_id: state_psychic_wholeness
+  factor_source: new_candidate
+  role_position: Psychological
+  value_constraint: Pre-differentiation
+  engine_id: tarot_semantic
+  notes: Before ego/shadow split
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050649'
+- factor_type: Symbol
+  factor_label: Precipice/Cliff
+  factor_id: symbol_precipice
+  factor_source: existing
+  role_position: Visual Element
+  value_constraint: Threshold location
+  engine_id: tarot_semantic
+  notes: Leap of faith required
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050654'
+- factor_type: Symbol
+  factor_label: White Rose
+  factor_id: symbol_white_rose
+  factor_source: existing
+  role_position: Visual Element
+  value_constraint: Purity signifier
+  engine_id: tarot_semantic
+  notes: Innocence not naivety
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050658'
+- factor_type: Symbol
+  factor_label: Small Dog
+  factor_id: symbol_fool_dog
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Companion/instinct
+  engine_id: tarot_semantic
+  notes: Animal nature as ally
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050663'
+- factor_type: Pattern
+  factor_label: Fall from Innocence
+  factor_id: pattern_fall_innocence
+  factor_source: new_candidate
+  role_position: Mythic
+  value_constraint: Universal
+  engine_id: tarot_semantic
+  notes: Paradise lost archetype
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050667'
+- factor_type: Framework
+  factor_label: Fool's Journey
+  factor_id: framework_fools_journey
+  factor_source: existing
+  role_position: Structural
+  value_constraint: 22 stages
+  engine_id: tarot_engine
+  notes: Core developmental sequence
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050676'
+- factor_type: Archetype
+  factor_label: Puer Aeternus
+  factor_id: psych_archetype_puer
+  factor_source: existing
+  role_position: Jungian
+  value_constraint: Eternal child
+  engine_id: psych_semantic
+  notes: 'Shadow: refuses maturation'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050680'
+- factor_type: State
+  factor_label: Beginner's Mind
+  factor_id: state_beginners_mind
+  factor_source: existing
+  role_position: Zen/Psychological
+  value_constraint: Shoshin
+  engine_id: common
+  notes: Cross-system openness state
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050684'
+- factor_type: Archetype
+  factor_label: The Magician
+  factor_id: tarot_major_magician
+  factor_source: existing
+  role_position: Major Arcana I
+  value_constraint: Conscious will, creative mastery
+  engine_id: tarot_engine
+  notes: First Line initiator
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050717'
+- factor_type: Numerical
+  factor_label: Number One
+  factor_id: tarot_number_1
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 1 (first genuine number)
+  engine_id: tarot_calculator
+  notes: Unity, action principle
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050721'
+- factor_type: Principle
+  factor_label: Correspondence
+  factor_id: principle_correspondence
+  factor_source: existing
+  role_position: Hermetic
+  value_constraint: As above so below
+  engine_id: tarot_semantic
+  notes: Operating law
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050726'
+- factor_type: System
+  factor_label: Four Elements
+  factor_id: system_four_elements
+  factor_source: existing
+  role_position: Structural
+  value_constraint: Fire/Water/Air/Earth
+  engine_id: tarot_engine
+  notes: Tools of manifestation
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050730'
+- factor_type: State
+  factor_label: Conscious Will
+  factor_id: state_conscious_will
+  factor_source: existing
+  role_position: Psychological
+  value_constraint: Ego-directed intention
+  engine_id: tarot_semantic
+  notes: Creative power
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050735'
+- factor_type: Symbol
+  factor_label: Infinity Sign
+  factor_id: symbol_infinity
+  factor_source: existing
+  role_position: Visual Element
+  value_constraint: ∞ above head
+  engine_id: tarot_semantic
+  notes: Unlimited through limited
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.050972'
+- factor_type: Symbol
+  factor_label: Ouroboros
+  factor_id: symbol_ouroboros
+  factor_source: existing
+  role_position: Visual Element
+  value_constraint: Serpent belt
+  engine_id: tarot_semantic
+  notes: Eternal renewal
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051030'
+- factor_type: Symbol
+  factor_label: Raised Wand
+  factor_id: symbol_raised_wand
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Right hand to heaven
+  engine_id: tarot_semantic
+  notes: Channeling function
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051049'
+- factor_type: State
+  factor_label: Ego Consciousness
+  factor_id: psych_ego_consciousness
+  factor_source: existing
+  role_position: Jungian
+  value_constraint: Powerful yet limited
+  engine_id: psych_semantic
+  notes: Necessary vehicle
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051056'
+- factor_type: Planet
+  factor_label: Mercury
+  factor_id: planet_mercury
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Communication, transformation
+  engine_id: astro_calculator
+  notes: Magician's ruler
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051061'
+- factor_type: Archetype
+  factor_label: Hermes/Trickster
+  factor_id: psych_archetype_hermes
+  factor_source: existing
+  role_position: Mythological
+  value_constraint: Psychopomp
+  engine_id: psych_semantic
+  notes: Liminal guide
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051068'
+- factor_type: Archetype
+  factor_label: The High Priestess
+  factor_id: tarot_major_high_priestess
+  factor_source: existing
+  role_position: Major Arcana II
+  value_constraint: Unconscious wisdom, receptivity
+  engine_id: tarot_engine
+  notes: Magician's polar complement
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051097'
+- factor_type: Numerical
+  factor_label: Number Two
+  factor_id: tarot_number_2
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 2 (first even)
+  engine_id: tarot_calculator
+  notes: Duality, feminine
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051103'
+- factor_type: Symbol
+  factor_label: Two Pillars
+  factor_id: symbol_two_pillars
+  factor_source: existing
+  role_position: Visual Element
+  value_constraint: B & J, threshold
+  engine_id: tarot_semantic
+  notes: Balance of opposites
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051107'
+- factor_type: Symbol
+  factor_label: TORA Scroll
+  factor_id: symbol_tora_scroll
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Hidden knowledge
+  engine_id: tarot_semantic
+  notes: Inexpressible wisdom
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051112'
+- factor_type: Symbol
+  factor_label: Crescent Moon
+  factor_id: symbol_crescent_moon
+  factor_source: existing
+  role_position: Visual Element
+  value_constraint: At feet
+  engine_id: tarot_semantic
+  notes: Lunar sovereignty
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051116'
+- factor_type: Symbol
+  factor_label: Veil with Pomegranates
+  factor_id: symbol_priestess_veil
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Hidden mysteries
+  engine_id: tarot_semantic
+  notes: Persephone connection
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051120'
+- factor_type: State
+  factor_label: Lunar Wisdom
+  factor_id: state_lunar_wisdom
+  factor_source: new_candidate
+  role_position: Psychological
+  value_constraint: Receptive knowing
+  engine_id: tarot_semantic
+  notes: Cyclical intuition
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051126'
+- factor_type: State
+  factor_label: Total Passivity
+  factor_id: state_total_passivity
+  factor_source: new_candidate
+  role_position: Strategic
+  value_constraint: Non-action preserves
+  engine_id: tarot_semantic
+  notes: Paradox of withdrawal
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051131'
+- factor_type: Archetype
+  factor_label: Anima
+  factor_id: psych_archetype_anima
+  factor_source: existing
+  role_position: Jungian
+  value_constraint: Feminine soul-image
+  engine_id: psych_semantic
+  notes: Guide to unconscious
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051135'
+- factor_type: Archetype
+  factor_label: Threshold Guardian
+  factor_id: archetype_threshold_guardian
+  factor_source: existing
+  role_position: Mythological
+  value_constraint: Initiation gatekeeper
+  engine_id: common
+  notes: Tests readiness
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051141'
+- factor_type: Planet
+  factor_label: Moon
+  factor_id: planet_moon
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Ruling planet
+  engine_id: astro_calculator
+  notes: Receptive, cyclical
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051145'
+- factor_type: Archetype
+  factor_label: The Empress
+  factor_id: tarot_major_empress
+  factor_source: existing
+  role_position: Major Arcana III
+  value_constraint: Great Mother, nature, fertility
+  engine_id: tarot_engine
+  notes: First Line feminine manifest
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051169'
+- factor_type: Numerical
+  factor_label: Number Three
+  factor_id: tarot_number_3
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 3 (synthesis of 1+2)
+  engine_id: tarot_calculator
+  notes: Child, creation, form
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051173'
+- factor_type: Archetype
+  factor_label: Great Mother
+  factor_id: archetype_great_mother
+  factor_source: existing
+  role_position: Psychological
+  value_constraint: Nature personified
+  engine_id: psych_semantic
+  notes: Nurturing, fertile
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051177'
+- factor_type: Planet
+  factor_label: Venus
+  factor_id: planet_venus
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Love, beauty, fertility
+  engine_id: astro_calculator
+  notes: Empress ruler
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051181'
+- factor_type: Symbol
+  factor_label: Life Force River
+  factor_id: symbol_life_river
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Flowing water
+  engine_id: tarot_semantic
+  notes: Passion current
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051186'
+- factor_type: Symbol
+  factor_label: Grain Field
+  factor_id: symbol_grain_field
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Harvest, Demeter
+  engine_id: tarot_semantic
+  notes: Material abundance
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051192'
+- factor_type: Symbol
+  factor_label: Crown of Stars
+  factor_id: symbol_star_crown
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: 12 zodiac stars
+  engine_id: tarot_semantic
+  notes: Cosmic domain
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051196'
+- factor_type: State
+  factor_label: Pure Emotion
+  factor_id: state_pure_emotion
+  factor_source: new_candidate
+  role_position: Psychological
+  value_constraint: Feeling without filter
+  engine_id: tarot_semantic
+  notes: Empress mode
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051200'
+- factor_type: Principle
+  factor_label: Sensuality as Path
+  factor_id: principle_sensual_path
+  factor_source: new_candidate
+  role_position: Spiritual
+  value_constraint: Body before transcendence
+  engine_id: tarot_semantic
+  notes: Pollack's teaching
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051205'
+- factor_type: Archetype
+  factor_label: Child
+  factor_id: archetype_child
+  factor_source: existing
+  role_position: Developmental
+  value_constraint: Number 3 offspring
+  engine_id: psych_semantic
+  notes: Direct experience
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051209'
+- factor_type: Polarity
+  factor_label: Empress-Emperor
+  factor_id: polarity_empress_emperor
+  factor_source: existing
+  role_position: Structural
+  value_constraint: Nature vs Society
+  engine_id: tarot_engine
+  notes: Complementary pair
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051213'
+- factor_type: Archetype
+  factor_label: The Emperor
+  factor_id: tarot_major_emperor
+  factor_source: existing
+  role_position: Major Arcana IV
+  value_constraint: Authority, structure, father
+  engine_id: tarot_engine
+  notes: First Line masculine structure
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051237'
+- factor_type: Numerical
+  factor_label: Number Four
+  factor_id: tarot_number_4
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 4 (stability, completion)
+  engine_id: tarot_calculator
+  notes: Square foundation
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051242'
+- factor_type: Archetype
+  factor_label: Father
+  factor_id: archetype_father
+  factor_source: existing
+  role_position: Psychological
+  value_constraint: Remote authority, judge
+  engine_id: psych_semantic
+  notes: Society representative
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051247'
+- factor_type: Principle
+  factor_label: Reality Principle
+  factor_id: psych_reality_principle
+  factor_source: existing
+  role_position: Freudian
+  value_constraint: Delays pleasure
+  engine_id: psych_semantic
+  notes: Opposes pleasure principle
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051253'
+- factor_type: Structure
+  factor_label: Superego
+  factor_id: psych_superego
+  factor_source: existing
+  role_position: Freudian
+  value_constraint: Internalized authority
+  engine_id: psych_semantic
+  notes: Inner judge
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051258'
+- factor_type: Symbol
+  factor_label: Stone Throne
+  factor_id: symbol_stone_throne
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Immovable authority
+  engine_id: tarot_semantic
+  notes: Permanence
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051262'
+- factor_type: Symbol
+  factor_label: Controlled River
+  factor_id: symbol_controlled_river
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Channeled passion
+  engine_id: tarot_semantic
+  notes: Nature harnessed
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051266'
+- factor_type: Symbol
+  factor_label: Barren Mountains
+  factor_id: symbol_barren_mountains
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Harsh landscape
+  engine_id: tarot_semantic
+  notes: Cost of civilization
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051271'
+- factor_type: Planet
+  factor_label: Mars
+  factor_id: planet_mars
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Aries ruler
+  engine_id: astro_calculator
+  notes: Active force
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051275'
+- factor_type: Sign
+  factor_label: Aries
+  factor_id: sign_aries
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Cardinal fire
+  engine_id: astro_calculator
+  notes: Initiative, leadership
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051281'
+- factor_type: Polarity
+  factor_label: Emperor-Empress
+  factor_id: polarity_empress_emperor
+  factor_source: existing
+  role_position: Structural
+  value_constraint: Society vs Nature
+  engine_id: tarot_engine
+  notes: Complementary pair
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051285'
+- factor_type: Archetype
+  factor_label: The Hierophant
+  factor_id: tarot_major_hierophant
+  factor_source: existing
+  role_position: Major Arcana V
+  value_constraint: Religious authority, outer path
+  engine_id: tarot_engine
+  notes: Worldly Sequence completion
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051309'
+- factor_type: Numerical
+  factor_label: Number Five
+  factor_id: tarot_number_5
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 5 (human microcosm)
+  engine_id: tarot_calculator
+  notes: Pentagram, spirit+elements
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051313'
+- factor_type: Path
+  factor_label: Outer Way
+  factor_id: path_outer
+  factor_source: new_candidate
+  role_position: Spiritual
+  value_constraint: External teaching
+  engine_id: tarot_semantic
+  notes: Polar with Inner Way
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051317'
+- factor_type: Path
+  factor_label: Inner Way
+  factor_id: path_inner
+  factor_source: new_candidate
+  role_position: Spiritual
+  value_constraint: Direct experience
+  engine_id: tarot_semantic
+  notes: High Priestess domain
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051323'
+- factor_type: Framework
+  factor_label: Worldly Sequence
+  factor_id: framework_worldly_sequence
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: Cards 3-4-5
+  engine_id: tarot_engine
+  notes: Nature-Society-Religion
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051327'
+- factor_type: Archetype
+  factor_label: Teacher
+  factor_id: archetype_teacher
+  factor_source: existing
+  role_position: Psychological
+  value_constraint: Transmits tradition
+  engine_id: psych_semantic
+  notes: Must be transcended
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051332'
+- factor_type: Symbol
+  factor_label: Triple Crown
+  factor_id: symbol_triple_crown
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Three worlds
+  engine_id: tarot_semantic
+  notes: Papal authority
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051338'
+- factor_type: Symbol
+  factor_label: Keys of Peter
+  factor_id: symbol_peters_keys
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Admit/exclude
+  engine_id: tarot_semantic
+  notes: Institutional gatekeeping
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051342'
+- factor_type: Symbol
+  factor_label: Two Pillars
+  factor_id: symbol_hierophant_pillars
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Formalized threshold
+  engine_id: tarot_semantic
+  notes: Echo of High Priestess
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051346'
+- factor_type: Sign
+  factor_label: Taurus
+  factor_id: sign_taurus
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Fixed earth
+  engine_id: astro_calculator
+  notes: Traditional attribution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051351'
+- factor_type: Polarity
+  factor_label: Hierophant-High Priestess
+  factor_id: polarity_hierophant_priestess
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: Outer vs Inner
+  engine_id: tarot_engine
+  notes: Complementary paths
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051356'
+- factor_type: Archetype
+  factor_label: The Lovers
+  factor_id: tarot_major_lovers
+  factor_source: existing
+  role_position: Major Arcana VI
+  value_constraint: Union, choice, transcendence
+  engine_id: tarot_engine
+  notes: First Line culmination
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051383'
+- factor_type: Numerical
+  factor_label: Number Six
+  factor_id: tarot_number_6
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 6 (harmony, hexagram)
+  engine_id: tarot_calculator
+  notes: Perfect balance
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051387'
+- factor_type: State
+  factor_label: Super-conscious
+  factor_id: state_superconscious
+  factor_source: new_candidate
+  role_position: Psychological
+  value_constraint: Product of union
+  engine_id: tarot_semantic
+  notes: Angel Raphael
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051393'
+- factor_type: Archetype
+  factor_label: Sacred Marriage
+  factor_id: archetype_hieros_gamos
+  factor_source: existing
+  role_position: Mythological
+  value_constraint: Coniunctio
+  engine_id: psych_semantic
+  notes: Alchemical union
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051398'
+- factor_type: Archetype
+  factor_label: Hermaphrodite
+  factor_id: archetype_hermaphrodite
+  factor_source: existing
+  role_position: Mythological
+  value_constraint: Original wholeness
+  engine_id: psych_semantic
+  notes: Goal of journey
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051402'
+- factor_type: Principle
+  factor_label: Passion Liberates
+  factor_id: principle_passion_liberates
+  factor_source: new_candidate
+  role_position: Spiritual
+  value_constraint: Feeling→transcendence
+  engine_id: tarot_semantic
+  notes: Reverses tradition
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051407'
+- factor_type: Symbol
+  factor_label: Angel Raphael
+  factor_id: symbol_angel_raphael
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Super-conscious
+  engine_id: tarot_semantic
+  notes: Born from union
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051411'
+- factor_type: Symbol
+  factor_label: Twin Trees
+  factor_id: symbol_twin_trees
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Knowledge & Life
+  engine_id: tarot_semantic
+  notes: Polarity unified
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051415'
+- factor_type: Sign
+  factor_label: Gemini
+  factor_id: sign_gemini
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Mutable air, twins
+  engine_id: astro_calculator
+  notes: Traditional attribution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051419'
+- factor_type: Polarity
+  factor_label: Conscious-Unconscious
+  factor_id: polarity_conscious_unconscious
+  factor_source: existing
+  role_position: Structural
+  value_constraint: Union produces super
+  engine_id: psych_semantic
+  notes: Core dynamic
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051424'
+- factor_type: Archetype
+  factor_label: The Chariot
+  factor_id: tarot_major_chariot
+  factor_source: existing
+  role_position: Major Arcana VII
+  value_constraint: Will triumph, ego victory
+  engine_id: tarot_engine
+  notes: First Line culmination
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051446'
+- factor_type: Numerical
+  factor_label: Number Seven
+  factor_id: tarot_number_7
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 7 (victory, completion)
+  engine_id: tarot_calculator
+  notes: Netzach
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051452'
+- factor_type: Symbol
+  factor_label: Unreconciled Sphinxes
+  factor_id: symbol_unreconciled_sphinxes
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Held by will
+  engine_id: tarot_semantic
+  notes: Tension not resolution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051458'
+- factor_type: State
+  factor_label: Persona
+  factor_id: psych_persona
+  factor_source: existing
+  role_position: Jungian
+  value_constraint: Successful mask
+  engine_id: psych_semantic
+  notes: Not true self
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051462'
+- factor_type: State
+  factor_label: Stone Rigidity
+  factor_id: state_stone_rigidity
+  factor_source: new_candidate
+  role_position: Psychological
+  value_constraint: Ego fixation danger
+  engine_id: tarot_semantic
+  notes: Warning
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051466'
+- factor_type: Principle
+  factor_label: Will-Power
+  factor_id: principle_willpower
+  factor_source: existing
+  role_position: Psychological
+  value_constraint: Control through effort
+  engine_id: tarot_semantic
+  notes: Masculine force
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051471'
+- factor_type: Symbol
+  factor_label: Star Crown
+  factor_id: symbol_star_crown_chariot
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Victory marker
+  engine_id: tarot_semantic
+  notes: Achievement
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051476'
+- factor_type: Symbol
+  factor_label: Wand Down
+  factor_id: symbol_wand_down
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Earthly power
+  engine_id: tarot_semantic
+  notes: vs Magician's raised
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051481'
+- factor_type: Sign
+  factor_label: Cancer
+  factor_id: sign_cancer
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Cardinal water
+  engine_id: astro_calculator
+  notes: Traditional attribution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051486'
+- factor_type: Framework
+  factor_label: First Line
+  factor_id: framework_first_line
+  factor_source: existing
+  role_position: Structural
+  value_constraint: Cards 1-7
+  engine_id: tarot_engine
+  notes: Ego development
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051491'
+- factor_type: Archetype
+  factor_label: Strength
+  factor_id: tarot_major_strength
+  factor_source: existing
+  role_position: Major Arcana VIII
+  value_constraint: Feminine power, surrender
+  engine_id: tarot_engine
+  notes: Second Line beginning
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051515'
+- factor_type: Numerical
+  factor_label: Number Eight
+  factor_id: tarot_number_8
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 8 (female magic, ∞)
+  engine_id: tarot_calculator
+  notes: Reversal of 7
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051519'
+- factor_type: Symbol
+  factor_label: Lion
+  factor_id: symbol_lion
+  factor_source: existing
+  role_position: Visual Element
+  value_constraint: Passions, personality force
+  engine_id: tarot_semantic
+  notes: Tamed not killed
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051524'
+- factor_type: Principle
+  factor_label: Surrender-Power
+  factor_id: principle_surrender_power
+  factor_source: new_candidate
+  role_position: Psychological
+  value_constraint: Release, acceptance
+  engine_id: tarot_semantic
+  notes: vs Will-power
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051529'
+- factor_type: Energy
+  factor_label: Kundalini
+  factor_id: energy_kundalini
+  factor_source: existing
+  role_position: Esoteric
+  value_constraint: Serpent power
+  engine_id: tarot_semantic
+  notes: Teth connection
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051534'
+- factor_type: Symbol
+  factor_label: Infinity
+  factor_id: symbol_infinity_strength
+  factor_source: existing
+  role_position: Visual Element
+  value_constraint: Same as Magician
+  engine_id: tarot_semantic
+  notes: Power through love
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051537'
+- factor_type: Principle
+  factor_label: Taming not Killing
+  factor_id: principle_taming_not_killing
+  factor_source: new_candidate
+  role_position: Spiritual
+  value_constraint: Love vs force
+  engine_id: tarot_semantic
+  notes: Key teaching
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051542'
+- factor_type: Sign
+  factor_label: Leo
+  factor_id: sign_leo
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Fixed fire, heart
+  engine_id: astro_calculator
+  notes: Traditional attribution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051549'
+- factor_type: Polarity
+  factor_label: Chariot-Strength
+  factor_id: polarity_chariot_strength
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: Will vs Surrender
+  engine_id: tarot_engine
+  notes: Complementary methods
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051553'
+- factor_type: Framework
+  factor_label: Second Line
+  factor_id: framework_second_line
+  factor_source: existing
+  role_position: Structural
+  value_constraint: Cards 8-14
+  engine_id: tarot_engine
+  notes: Inner journey
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051557'
+- factor_type: Archetype
+  factor_label: The Hermit
+  factor_id: tarot_major_hermit
+  factor_source: existing
+  role_position: Major Arcana IX
+  value_constraint: Withdrawal, guide
+  engine_id: tarot_engine
+  notes: Second Line guidance
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051578'
+- factor_type: Numerical
+  factor_label: Number Nine
+  factor_id: tarot_number_9
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 9 (near-complete)
+  engine_id: tarot_calculator
+  notes: Penultimate
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051582'
+- factor_type: Archetype
+  factor_label: Wise Old Man
+  factor_id: archetype_wise_old_man
+  factor_source: existing
+  role_position: Jungian
+  value_constraint: Guide figure
+  engine_id: psych_semantic
+  notes: Inner teacher
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051588'
+- factor_type: Framework
+  factor_label: Abulafia Triangle
+  factor_id: framework_abulafia
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: 5-9-19
+  engine_id: tarot_engine
+  notes: Three levels
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051592'
+- factor_type: Symbol
+  factor_label: Lantern
+  factor_id: symbol_hermit_lantern
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Inner light
+  engine_id: tarot_semantic
+  notes: Available to all
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051597'
+- factor_type: Symbol
+  factor_label: Six-Pointed Star
+  factor_id: symbol_hexagram
+  factor_source: existing
+  role_position: Visual Element
+  value_constraint: Opposites united
+  engine_id: tarot_semantic
+  notes: Goal of work
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051602'
+- factor_type: Symbol
+  factor_label: Staff
+  factor_id: symbol_hermit_staff
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Deliberate support
+  engine_id: tarot_semantic
+  notes: Magician's wand used
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051607'
+- factor_type: Practice
+  factor_label: Vision Quest
+  factor_id: practice_vision_quest
+  factor_source: existing
+  role_position: Shamanic
+  value_constraint: Wilderness withdrawal
+  engine_id: common
+  notes: Spirit seeking
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051611'
+- factor_type: Sign
+  factor_label: Virgo
+  factor_id: sign_virgo
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Mutable earth
+  engine_id: astro_calculator
+  notes: Traditional attribution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051615'
+- factor_type: Polarity
+  factor_label: Hermit-High Priestess
+  factor_id: polarity_hermit_priestess
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: Active vs passive withdrawal
+  engine_id: tarot_engine
+  notes: Both column 2
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051619'
+- factor_type: Archetype
+  factor_label: Wheel of Fortune
+  factor_id: tarot_major_wheel
+  factor_source: existing
+  role_position: Major Arcana X
+  value_constraint: Fate, cycles, midpoint
+  engine_id: tarot_engine
+  notes: Vision card
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051639'
+- factor_type: Numerical
+  factor_label: Number Ten
+  factor_id: tarot_number_10
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 10 (cycle complete)
+  engine_id: tarot_calculator
+  notes: Midpoint
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051643'
+- factor_type: Symbol
+  factor_label: Sphinx
+  factor_id: symbol_sphinx
+  factor_source: existing
+  role_position: Visual Element
+  value_constraint: Horus, risen
+  engine_id: tarot_semantic
+  notes: Above wheel
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051650'
+- factor_type: Cycle
+  factor_label: Death-Rebirth
+  factor_id: cycle_death_rebirth
+  factor_source: existing
+  role_position: Mythological
+  value_constraint: Set/Anubis
+  engine_id: tarot_semantic
+  notes: Necessary dissolution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051655'
+- factor_type: Principle
+  factor_label: Karma
+  factor_id: principle_karma
+  factor_source: existing
+  role_position: Philosophical
+  value_constraint: Causation mystery
+  engine_id: common
+  notes: Why things happen
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051659'
+- factor_type: System
+  factor_label: Four Fixed Signs
+  factor_id: system_fixed_signs
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Guardians
+  engine_id: astro_calculator
+  notes: Four corners
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051663'
+- factor_type: Symbol
+  factor_label: YHVH
+  factor_id: symbol_yhvh
+  factor_source: existing
+  role_position: Qabalistic
+  value_constraint: Divine name
+  engine_id: tarot_semantic
+  notes: Ultimate cause
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051667'
+- factor_type: Planet
+  factor_label: Jupiter
+  factor_id: planet_jupiter
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Fortune, expansion
+  engine_id: astro_calculator
+  notes: Traditional ruler
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051671'
+- factor_type: Parallel
+  factor_label: Wheel-World
+  factor_id: parallel_wheel_world
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: 10-21 midpoint
+  engine_id: tarot_engine
+  notes: Vision vs embodiment
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051675'
+- factor_type: Archetype
+  factor_label: Justice
+  factor_id: tarot_major_justice
+  factor_source: existing
+  role_position: Major Arcana XI
+  value_constraint: Midpoint, balance, responsibility
+  engine_id: tarot_engine
+  notes: Response to vision
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051695'
+- factor_type: Numerical
+  factor_label: Number Eleven
+  factor_id: tarot_number_11
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 11 (midpoint of 22)
+  engine_id: tarot_calculator
+  notes: Balance center
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051700'
+- factor_type: Principle
+  factor_label: Self-Creation
+  factor_id: principle_self_creation
+  factor_source: new_candidate
+  role_position: Philosophical
+  value_constraint: Every action forms self
+  engine_id: tarot_semantic
+  notes: Core teaching
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051705'
+- factor_type: Symbol
+  factor_label: Wisdom Sword
+  factor_id: symbol_wisdom_sword
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Upward-pointing
+  engine_id: tarot_semantic
+  notes: Cuts illusion
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051710'
+- factor_type: Symbol
+  factor_label: Balanced Scales
+  factor_id: symbol_balanced_scales
+  factor_source: existing
+  role_position: Visual Element
+  value_constraint: Past-future equilibrium
+  engine_id: tarot_semantic
+  notes: Not in time but sight
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051715'
+- factor_type: Principle
+  factor_label: Response Required
+  factor_id: principle_response_required
+  factor_source: new_candidate
+  role_position: Initiatory
+  value_constraint: Vision needs response
+  engine_id: tarot_semantic
+  notes: Crucial moment
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051720'
+- factor_type: Unity
+  factor_label: Magician-Priestess
+  factor_id: unity_magician_priestess
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: Action-wisdom united
+  engine_id: tarot_engine
+  notes: At midpoint
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051724'
+- factor_type: Sign
+  factor_label: Libra
+  factor_id: sign_libra
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Cardinal air
+  engine_id: astro_calculator
+  notes: Traditional attribution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051728'
+- factor_type: Symbol
+  factor_label: No Blindfold
+  factor_id: symbol_no_blindfold
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Must see truth
+  engine_id: tarot_semantic
+  notes: vs legal Justitia
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051732'
+- factor_type: Archetype
+  factor_label: The Hanged Man
+  factor_id: tarot_major_hanged_man
+  factor_source: existing
+  role_position: Major Arcana XII
+  value_constraint: Surrender, reversal
+  engine_id: tarot_engine
+  notes: Midpoint completion
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051754'
+- factor_type: Numerical
+  factor_label: Number Twelve
+  factor_id: tarot_number_12
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 12 (21 reversed)
+  engine_id: tarot_calculator
+  notes: Halfway to World
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051758'
+- factor_type: Principle
+  factor_label: Voluntary Surrender
+  factor_id: principle_voluntary_surrender
+  factor_source: new_candidate
+  role_position: Philosophical
+  value_constraint: Chosen, not forced
+  engine_id: tarot_semantic
+  notes: Peace through release
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051762'
+- factor_type: Symbol
+  factor_label: World Tree
+  factor_id: symbol_world_tree
+  factor_source: existing
+  role_position: Mythological
+  value_constraint: Yggdrasil, T-cross
+  engine_id: tarot_semantic
+  notes: Three-world axis
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051767'
+- factor_type: Principle
+  factor_label: Reversed Values
+  factor_id: principle_reversed_values
+  factor_source: new_candidate
+  role_position: Spiritual
+  value_constraint: Inversion of worldly
+  engine_id: tarot_semantic
+  notes: New perspective
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051772'
+- factor_type: Myth
+  factor_label: Odin's Sacrifice
+  factor_id: myth_odin_sacrifice
+  factor_source: existing
+  role_position: Norse
+  value_constraint: 9 days hanging
+  engine_id: common
+  notes: Wisdom through suffering
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051776'
+- factor_type: Symbol
+  factor_label: Halo
+  factor_id: symbol_hanged_man_halo
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Spiritual light
+  engine_id: tarot_semantic
+  notes: Illumination entered
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051780'
+- factor_type: Planet
+  factor_label: Neptune
+  factor_id: planet_neptune
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Dissolution, surrender
+  engine_id: astro_calculator
+  notes: Modern attribution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051786'
+- factor_type: Parallel
+  factor_label: Hanged Man-World
+  factor_id: parallel_hanged_world
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: 12-21 reversal
+  engine_id: tarot_engine
+  notes: Same digits inverted
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051791'
+- factor_type: Archetype
+  factor_label: Death
+  factor_id: tarot_major_death
+  factor_source: existing
+  role_position: Major Arcana XIII
+  value_constraint: Ego-death, release
+  engine_id: tarot_engine
+  notes: Second Line climax
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051813'
+- factor_type: Numerical
+  factor_label: Number Thirteen
+  factor_id: tarot_number_13
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 13 (fear/anxiety)
+  engine_id: tarot_calculator
+  notes: Western death fear
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051818'
+- factor_type: State
+  factor_label: Ego-Death
+  factor_id: state_ego_death
+  factor_source: existing
+  role_position: Psychological
+  value_constraint: Old I ceases
+  engine_id: psych_semantic
+  notes: Necessary for emergence
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051822'
+- factor_type: Framework
+  factor_label: Four Reactions
+  factor_id: framework_four_reactions
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: King/Priest/Maiden/Child
+  engine_id: tarot_semantic
+  notes: Four approaches
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051826'
+- factor_type: Symbol
+  factor_label: Skeleton
+  factor_id: symbol_skeleton
+  factor_source: existing
+  role_position: Visual Element
+  value_constraint: Eternal beneath transitory
+  engine_id: tarot_semantic
+  notes: Shamanic seeing
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051832'
+- factor_type: State
+  factor_label: Moment of Release
+  factor_id: state_moment_release
+  factor_source: new_candidate
+  role_position: Psychological
+  value_constraint: Instant of letting go
+  engine_id: tarot_semantic
+  notes: Decisive, not gradual
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051837'
+- factor_type: Symbol
+  factor_label: White Horse
+  factor_id: symbol_white_horse_death
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Purity, inevitability
+  engine_id: tarot_semantic
+  notes: Death's mount
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051843'
+- factor_type: Sign
+  factor_label: Scorpio
+  factor_id: sign_scorpio
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Fixed water, transformation
+  engine_id: astro_calculator
+  notes: Traditional attribution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051847'
+- factor_type: Sequence
+  factor_label: Hanged Man→Death
+  factor_id: sequence_hanged_death
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: Surrender→release
+  engine_id: tarot_engine
+  notes: Peace then fear
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051851'
+- factor_type: Archetype
+  factor_label: Temperance
+  factor_id: tarot_major_temperance
+  factor_source: existing
+  role_position: Major Arcana XIV
+  value_constraint: Integration, return
+  engine_id: tarot_engine
+  notes: Second Line completion
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051956'
+- factor_type: Numerical
+  factor_label: Number Fourteen
+  factor_id: tarot_number_14
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 14 (1+4=5)
+  engine_id: tarot_calculator
+  notes: Higher Hierophant
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051963'
+- factor_type: Principle
+  factor_label: Temperare
+  factor_id: principle_temperare
+  factor_source: new_candidate
+  role_position: Etymological
+  value_constraint: To mix properly
+  engine_id: tarot_semantic
+  notes: Not self-control
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051967'
+- factor_type: Deity
+  factor_label: Iris
+  factor_id: deity_iris
+  factor_source: existing
+  role_position: Greek
+  value_constraint: Rainbow messenger
+  engine_id: common
+  notes: Between worlds
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051972'
+- factor_type: State
+  factor_label: Natural Moderation
+  factor_id: state_natural_moderation
+  factor_source: new_candidate
+  role_position: Psychological
+  value_constraint: Organic balance
+  engine_id: tarot_semantic
+  notes: Not forced
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051976'
+- factor_type: Principle
+  factor_label: Return with Gifts
+  factor_id: principle_return_gifts
+  factor_source: new_candidate
+  role_position: Hero Journey
+  value_constraint: Enriched return
+  engine_id: tarot_semantic
+  notes: Journey complete
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051982'
+- factor_type: Symbol
+  factor_label: Two Cups
+  factor_id: symbol_two_cups
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Impossible flow
+  engine_id: tarot_semantic
+  notes: Magical integration
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051987'
+- factor_type: Symbol
+  factor_label: Mountain Path
+  factor_id: symbol_mountain_path
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Road of return
+  engine_id: tarot_semantic
+  notes: Coming back
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051992'
+- factor_type: Sign
+  factor_label: Sagittarius
+  factor_id: sign_sagittarius
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Mutable fire, synthesis
+  engine_id: astro_calculator
+  notes: Traditional attribution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.051997'
+- factor_type: Parallel
+  factor_label: Temperance-Chariot
+  factor_id: parallel_temperance_chariot
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: 14 below 7
+  engine_id: tarot_engine
+  notes: Rigid→flowing
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052001'
+- factor_type: Archetype
+  factor_label: The Devil
+  factor_id: tarot_major_devil
+  factor_source: existing
+  role_position: Major Arcana XV
+  value_constraint: Shadow, bondage, energy
+  engine_id: tarot_engine
+  notes: Third Line introduction
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052024'
+- factor_type: Numerical
+  factor_label: Number Fifteen
+  factor_id: tarot_number_15
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 15 (reduces to 6)
+  engine_id: tarot_calculator
+  notes: Lovers perverted
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052028'
+- factor_type: State
+  factor_label: Shadow
+  factor_id: psych_shadow
+  factor_source: existing
+  role_position: Jungian
+  value_constraint: Repressed material
+  engine_id: psych_semantic
+  notes: Must be faced
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052032'
+- factor_type: Principle
+  factor_label: Sexual-Spiritual Unity
+  factor_id: principle_sexual_spiritual
+  factor_source: new_candidate
+  role_position: Occult
+  value_constraint: Same energy
+  engine_id: tarot_semantic
+  notes: Transformation possible
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052039'
+- factor_type: Symbol
+  factor_label: Loose Chains
+  factor_id: symbol_loose_chains
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Self-imposed
+  engine_id: tarot_semantic
+  notes: Could be escaped
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052044'
+- factor_type: State
+  factor_label: Materialism
+  factor_id: state_materialism
+  factor_source: existing
+  role_position: Philosophical
+  value_constraint: Nothing beyond senses
+  engine_id: tarot_semantic
+  notes: Primary illusion
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052048'
+- factor_type: Symbol
+  factor_label: Reversed Pentacle
+  factor_id: symbol_reversed_pentacle
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Desire over reason
+  engine_id: tarot_semantic
+  notes: Black magic
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052053'
+- factor_type: Sign
+  factor_label: Capricorn
+  factor_id: sign_capricorn
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Cardinal earth
+  engine_id: astro_calculator
+  notes: Traditional attribution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052057'
+- factor_type: Parallel
+  factor_label: Devil-Lovers
+  factor_id: parallel_devil_lovers
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: 15 perverts 6
+  engine_id: tarot_engine
+  notes: Without transcendence
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052061'
+- factor_type: Framework
+  factor_label: Third Line
+  factor_id: framework_third_line
+  factor_source: existing
+  role_position: Structural
+  value_constraint: Cards 15-21
+  engine_id: tarot_engine
+  notes: Archetypal
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052065'
+- factor_type: Archetype
+  factor_label: The Tower
+  factor_id: tarot_major_tower
+  factor_source: existing
+  role_position: Major Arcana XVI
+  value_constraint: Breakthrough, destruction
+  engine_id: tarot_engine
+  notes: Devil's consequence
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052088'
+- factor_type: Numerical
+  factor_label: Number Sixteen
+  factor_id: tarot_number_16
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 16 (1+6=7)
+  engine_id: tarot_calculator
+  notes: Chariot destroyed
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052092'
+- factor_type: Metaphor
+  factor_label: Dam
+  factor_id: metaphor_dam
+  factor_source: new_candidate
+  role_position: Jungian
+  value_constraint: Consciousness blocks
+  engine_id: psych_semantic
+  notes: Blown by Tower
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052096'
+- factor_type: Symbol
+  factor_label: Yod Grace
+  factor_id: symbol_yod_grace
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: First of YHVH
+  engine_id: tarot_semantic
+  notes: Grace not punishment
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052100'
+- factor_type: State
+  factor_label: Veil Torn
+  factor_id: state_veil_torn
+  factor_source: new_candidate
+  role_position: Mystical
+  value_constraint: Temple opened
+  engine_id: tarot_semantic
+  notes: Access to eternity
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052104'
+- factor_type: State
+  factor_label: Breakthrough
+  factor_id: state_breakthrough
+  factor_source: existing
+  role_position: Psychological
+  value_constraint: Violent passage
+  engine_id: psych_semantic
+  notes: Necessary destruction
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052108'
+- factor_type: Symbol
+  factor_label: Lightning
+  factor_id: symbol_lightning_tower
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Divine intervention
+  engine_id: tarot_semantic
+  notes: Awakening force
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052114'
+- factor_type: Sequence
+  factor_label: Devil-Tower
+  factor_id: sequence_devil_tower
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: Energy→explosion
+  engine_id: tarot_engine
+  notes: Violent course
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052123'
+- factor_type: Archetype
+  factor_label: The Star
+  factor_id: tarot_major_star
+  factor_source: existing
+  role_position: Major Arcana XVII
+  value_constraint: Hope, healing
+  engine_id: tarot_engine
+  notes: Post-Tower peace
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052143'
+- factor_type: Numerical
+  factor_label: Number Seventeen
+  factor_id: tarot_number_17
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 17 (1+7=8)
+  engine_id: tarot_calculator
+  notes: Higher Strength
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052147'
+- factor_type: State
+  factor_label: Behind Veil
+  factor_id: state_behind_veil
+  factor_source: new_candidate
+  role_position: Mystical
+  value_constraint: Direct experience
+  engine_id: tarot_semantic
+  notes: Tower's gift
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052153'
+- factor_type: State
+  factor_label: Naked Truth
+  factor_id: state_naked_truth
+  factor_source: new_candidate
+  role_position: Psychological
+  value_constraint: No persona
+  engine_id: tarot_semantic
+  notes: Complete openness
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052159'
+- factor_type: Deity
+  factor_label: Thoth
+  factor_id: deity_thoth
+  factor_source: existing
+  role_position: Egyptian
+  value_constraint: Wisdom, creativity
+  engine_id: common
+  notes: Ibis watching
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052164'
+- factor_type: Symbol
+  factor_label: Eight-Pointed Star
+  factor_id: symbol_octogram
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Matter-spirit midway
+  engine_id: tarot_semantic
+  notes: Integration
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052169'
+- factor_type: Sign
+  factor_label: Aquarius
+  factor_id: sign_aquarius
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Fixed air
+  engine_id: astro_calculator
+  notes: Traditional attribution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052173'
+- factor_type: Contrast
+  factor_label: Star-Temperance
+  factor_id: contrast_star_temperance
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: Free vs controlled
+  engine_id: tarot_engine
+  notes: Pouring freely
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052179'
+- factor_type: Archetype
+  factor_label: The Moon
+  factor_id: tarot_major_moon
+  factor_source: existing
+  role_position: Major Arcana XVIII
+  value_constraint: Fear, imagination
+  engine_id: tarot_engine
+  notes: Return journey
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052200'
+- factor_type: Numerical
+  factor_label: Number Eighteen
+  factor_id: tarot_number_18
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 18 (1+8=9)
+  engine_id: tarot_calculator
+  notes: Guide needed
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052205'
+- factor_type: Principle
+  factor_label: Imagination Distortion
+  factor_id: principle_imagination_distortion
+  factor_source: new_candidate
+  role_position: Psychological
+  value_constraint: Shapes formless
+  engine_id: tarot_semantic
+  notes: Necessary but distorting
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052209'
+- factor_type: Symbol
+  factor_label: Crayfish
+  factor_id: symbol_crayfish
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Deepest fears
+  engine_id: tarot_semantic
+  notes: Emerging from pool
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052213'
+- factor_type: State
+  factor_label: Lunar Wildness
+  factor_id: state_lunar_wildness
+  factor_source: new_candidate
+  role_position: Psychological
+  value_constraint: Untamed moon
+  engine_id: tarot_semantic
+  notes: Lunacy quality
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052218'
+- factor_type: Symbol
+  factor_label: Dog and Wolf
+  factor_id: symbol_dog_wolf
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Tame/wild animal
+  engine_id: tarot_semantic
+  notes: Id surfaces
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052222'
+- factor_type: Sign
+  factor_label: Pisces
+  factor_id: sign_pisces
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Mutable water
+  engine_id: astro_calculator
+  notes: Traditional attribution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052226'
+- factor_type: Sequence
+  factor_label: Star-Moon-Sun
+  factor_id: sequence_star_moon_sun
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: Direct→distorted→clear
+  engine_id: tarot_engine
+  notes: Return journey
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052231'
+- factor_type: Archetype
+  factor_label: The Sun
+  factor_id: tarot_major_sun
+  factor_source: existing
+  role_position: Major Arcana XIX
+  value_constraint: Joy, clarity
+  engine_id: tarot_engine
+  notes: Enlightenment
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052252'
+- factor_type: Numerical
+  factor_label: Number Nineteen
+  factor_id: tarot_number_19
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 19 (1+9=10)
+  engine_id: tarot_calculator
+  notes: Abulafia third
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052258'
+- factor_type: State
+  factor_label: Lucid
+  factor_id: state_lucid
+  factor_source: new_candidate
+  role_position: Mystical
+  value_constraint: Filled with light
+  engine_id: tarot_semantic
+  notes: Experience not idea
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052262'
+- factor_type: Symbol
+  factor_label: Naked Child
+  factor_id: symbol_naked_child
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Innocence regained
+  engine_id: tarot_semantic
+  notes: Holy child
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052266'
+- factor_type: State
+  factor_label: Eden Regained
+  factor_id: state_eden_regained
+  factor_source: new_candidate
+  role_position: Spiritual
+  value_constraint: Paradise within
+  engine_id: tarot_semantic
+  notes: Never lost
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052272'
+- factor_type: Symbol
+  factor_label: Sun Light
+  factor_id: symbol_sun_light
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Own light (vs reflect)
+  engine_id: tarot_semantic
+  notes: Life-giving
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052276'
+- factor_type: Celestial
+  factor_label: Sun
+  factor_id: celestial_sun
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Consciousness, life
+  engine_id: astro_calculator
+  notes: Ruler
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052281'
+- factor_type: Sequence
+  factor_label: Moon-Sun
+  factor_id: sequence_moon_sun
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: Fear→joy
+  engine_id: tarot_engine
+  notes: Journey through
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052285'
+- factor_type: Archetype
+  factor_label: Judgement
+  factor_id: tarot_major_judgement
+  factor_source: existing
+  role_position: Major Arcana XX
+  value_constraint: Call, resurrection
+  engine_id: tarot_engine
+  notes: Pre-World
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052306'
+- factor_type: Numerical
+  factor_label: Number Twenty
+  factor_id: tarot_number_20
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 20 (10×2)
+  engine_id: tarot_calculator
+  notes: True mind
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052310'
+- factor_type: State
+  factor_label: The Call
+  factor_id: state_the_call
+  factor_source: new_candidate
+  role_position: Mystical
+  value_constraint: Inside + outside
+  engine_id: tarot_semantic
+  notes: Barrier broken
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052314'
+- factor_type: Principle
+  factor_label: No Personal Liberation
+  factor_id: principle_no_personal_liberation
+  factor_source: new_candidate
+  role_position: Buddhist
+  value_constraint: Bodhisattva
+  engine_id: tarot_semantic
+  notes: Collective
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052320'
+- factor_type: Archetype
+  factor_label: Hidden Identity
+  factor_id: archetype_hidden_identity
+  factor_source: new_candidate
+  role_position: Hero
+  value_constraint: True self
+  engine_id: psych_semantic
+  notes: Until call answered
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052325'
+- factor_type: Symbol
+  factor_label: Angel Trumpet
+  factor_id: symbol_angel_trumpet
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Call from beyond
+  engine_id: tarot_semantic
+  notes: Awakening
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052329'
+- factor_type: Planet
+  factor_label: Pluto
+  factor_id: planet_pluto
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Transformation
+  engine_id: astro_calculator
+  notes: Modern attribution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052334'
+- factor_type: Contrast
+  factor_label: Judgement-Justice
+  factor_id: contrast_judgement_justice
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: Greater vs personal
+  engine_id: tarot_engine
+  notes: Different calls
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052374'
+- factor_type: Archetype
+  factor_label: The World
+  factor_id: tarot_major_world
+  factor_source: existing
+  role_position: Major Arcana XXI
+  value_constraint: Completion, dance
+  engine_id: tarot_engine
+  notes: Journey's end/begin
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052422'
+- factor_type: Numerical
+  factor_label: Number Twenty-One
+  factor_id: tarot_number_21
+  factor_source: existing
+  role_position: Card Number
+  value_constraint: 21 (1+2 unified)
+  engine_id: tarot_calculator
+  notes: Return to 0
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052429'
+- factor_type: Principle
+  factor_label: Cosmic Dance
+  factor_id: principle_cosmic_dance
+  factor_source: existing
+  role_position: Philosophical
+  value_constraint: Movement=unity
+  engine_id: tarot_semantic
+  notes: Shiva Nataraja
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052434'
+- factor_type: Archetype
+  factor_label: Adam Kadmon
+  factor_id: archetype_adam_kadmon
+  factor_source: existing
+  role_position: Qabalistic
+  value_constraint: Pure light being
+  engine_id: tarot_semantic
+  notes: Restored through Arcana
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052442'
+- factor_type: Symbol
+  factor_label: Living Creatures
+  factor_id: symbol_living_creatures
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Four corners alive
+  engine_id: tarot_semantic
+  notes: vs Wheel's symbols
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052448'
+- factor_type: Symbol
+  factor_label: Oval Wreath
+  factor_id: symbol_oval_wreath
+  factor_source: new_candidate
+  role_position: Visual Element
+  value_constraint: Cosmic egg, 0
+  engine_id: tarot_semantic
+  notes: All potentials
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052456'
+- factor_type: Planet
+  factor_label: Saturn
+  factor_id: planet_saturn
+  factor_source: existing
+  role_position: Astrological
+  value_constraint: Completion
+  engine_id: astro_calculator
+  notes: Traditional attribution
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052460'
+- factor_type: Parallel
+  factor_label: World-Hanged Man
+  factor_id: parallel_world_hanged
+  factor_source: new_candidate
+  role_position: Structural
+  value_constraint: 21-12 reversed
+  engine_id: tarot_engine
+  notes: Movement vs stillness
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.052464'

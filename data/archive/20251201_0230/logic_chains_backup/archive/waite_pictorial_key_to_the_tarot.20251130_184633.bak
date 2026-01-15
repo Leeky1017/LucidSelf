@@ -1,0 +1,110 @@
+chain_id: chain_wpkttt
+book_id: waite_pictorial_key_to_the_tarot
+nodes:
+- node_id: n_wpkttt_source_text_0
+  snippet_ids:
+  - ns_waite_001
+  - ns_waite_002
+  - ns_waite_003
+  - ns_waite_004
+  - ns_waite_005
+  - ns_waite_006
+  - ns_waite_007
+  - ns_waite_008
+  - ns_waite_009
+  - ns_waite_010
+  - ns_waite_011
+  - ns_waite_012
+  - ns_waite_013
+  - ns_waite_015
+  - ns_waite_016
+  - ns_waite_017
+  - ns_waite_018
+  - ns_waite_019
+  - ns_waite_020
+  - ns_waite_021
+  - ns_waite_022
+  - ns_waite_023
+  - ns_waite_024
+  - ns_waite_025
+  - ns_waite_026
+  - ns_waite_027
+  - ns_waite_028
+  - ns_waite_029
+  - ns_waite_030
+  - ns_waite_031
+  - ns_waite_032
+  - ns_waite_033
+  - ns_waite_034
+  - ns_waite_036
+  - ns_waite_037
+  - ns_waite_038
+  - ns_waite_039
+  - ns_waite_040
+  - ns_waite_041
+  - ns_waite_042
+  - ns_waite_047
+  - ns_waite_048
+  - ns_waite_049
+  - ns_waite_050
+  - ns_waite_051
+  - ns_waite_052
+  - ns_waite_053
+  - ns_waite_054
+  - ns_waite_055
+  - ns_waite_056
+  - ns_waite_057
+  - ns_waite_058
+  - ns_waite_059
+  - ns_waite_060
+  - ns_waite_061
+  - ns_waite_062
+  - ns_waite_063
+  - ns_waite_064
+  - ns_waite_065
+  - ns_waite_066
+  - ns_waite_067
+  - ns_waite_068
+  - ns_waite_069
+  - ns_waite_070
+  role: 主干
+  condition: null
+  summary: magician_divine
+  metadata:
+    source_ref: Source Text
+    snippet_count: 64
+- node_id: n_wpkttt_english_paraphrase_1
+  snippet_ids:
+  - ns_waite_014
+  - ns_waite_035
+  role: 主干
+  condition: null
+  summary: gateway_in
+  metadata:
+    source_ref: English Paraphrase
+    snippet_count: 2
+edges:
+- from_node: n_wpkttt_source_text_0
+  to_node: n_wpkttt_english_paraphrase_1
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_waite_010
+    source_ref: 'Waite #Emperor'
+    inferred_from: explicit_relation
+narrative_order:
+- n_wpkttt_english_paraphrase_1
+- n_wpkttt_source_text_0
+entry_nodes:
+- n_wpkttt_source_text_0
+terminal_nodes:
+- n_wpkttt_english_paraphrase_1
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-11-30T18:45:01.176977'
+  source_files:
+  - data/schema_staging/snippets/waite_pictorial_key_to_the_tarot_snippets.yaml
+  - data/schema_staging/relations/waite_pictorial_key_to_the_tarot_relations.yaml
+  snippet_count: 66
+  relation_count: 178
+version: 1.0.0

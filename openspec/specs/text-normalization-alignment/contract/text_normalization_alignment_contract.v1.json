@@ -1,0 +1,77 @@
+{
+  "contract_id": "text-normalization-alignment",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["corpus_release_id", "version_id"],
+  "entities": [
+    {
+      "name": "NormalizationRuleSet",
+      "description": "归一化规则集（最小字段集合）",
+      "fields": [
+        { "name": "rule_set_id", "type": "string", "required": true, "notes": "规则集标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识（用于可复现与可审计）" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识" },
+        { "name": "name", "type": "string", "required": true, "notes": "名称（可审计）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "AlignmentMapping",
+      "description": "对齐映射（最小字段集合）",
+      "fields": [
+        { "name": "mapping_id", "type": "string", "required": true, "notes": "映射标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识" },
+        { "name": "source_asset_id", "type": "string", "required": false, "notes": "源资产标识（若适用）" },
+        { "name": "target_asset_id", "type": "string", "required": false, "notes": "目标资产标识（若适用）" },
+        { "name": "mapping_count", "type": "number", "required": false, "notes": "映射条目数量（若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "TransformationAuditRecord",
+      "description": "变换审计记录（最小字段集合）",
+      "fields": [
+        { "name": "audit_id", "type": "string", "required": true, "notes": "审计标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识" },
+        { "name": "rule_set_id", "type": "string", "required": false, "notes": "关联规则集（若适用）" },
+        { "name": "mapping_id", "type": "string", "required": false, "notes": "关联映射（若适用）" },
+        { "name": "result", "type": "string", "required": true, "notes": "ALLOW/DENY/BLOCK（枚举在规格层固定）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "CoverageReport",
+      "description": "覆盖率报告（最小字段集合）",
+      "fields": [
+        { "name": "coverage_report_id", "type": "string", "required": true, "notes": "报告标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识" },
+        { "name": "coverage_ratio", "type": "number", "required": true, "notes": "覆盖率（0..1）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ExceptionList",
+      "description": "例外清单（最小字段集合）",
+      "fields": [
+        { "name": "exception_list_id", "type": "string", "required": true, "notes": "清单标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识" },
+        { "name": "exception_count", "type": "number", "required": false, "notes": "例外条目数量（若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_CORPUS_RELEASE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "INVALID_MAPPING", "category": "validation", "retryable": false },
+    { "code": "CONFLICT_DETECTED", "category": "conflict", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

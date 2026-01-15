@@ -1,0 +1,39 @@
+OPENSPEC DASHBOARD (仪表盘)
+- specs: 26
+- requirements: 156
+- scenarios: 156
+- changes: 1
+- tasks: 59/424 (13%)
+
+SPECS (26)
+- abuse-and-rate-limits: 滥用防护与限流（Abuse and Rate Limits） [P1 Gate-2] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- billing-and-entitlements: 计费与权益（Billing and Entitlements） [P1 Gate-3] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- bootability-and-regression-baseline: 启动性与回归基线（Bootability and Regression Baseline） [P0 Gate-1] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- citations-evidence-protocol: 引用与证据协议（Citations and Evidence Protocol） [P0 Gate-1] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- commercial-readiness-gates: 商业化就绪门禁（Commercial Readiness Gates） [P1 Gate-3] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- corpus-governance: 语料治理（Corpus Governance） [资产层 资产门禁] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- corpus-release-pipeline: 语料发布流水线（Corpus Release Pipeline） [P1 Gate-2] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- cross-book-consistency-conflicts: 跨书一致性与冲突（Cross-Book Consistency Conflicts） [资产层 资产门禁] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- deployment-release: 部署与发布（Deployment Release） [P1 Gate-2] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- engine-id-governance: 引擎ID治理（Engine ID Governance） [P0 Gate-0] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- fusion-engine-explainability: 融合引擎可解释性（Fusion Engine Explainability） [P0 Gate-2] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- geocoding-first-class: 地理编码一等公民（Geocoding First Class） [P2 Gate-3] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- golden-sets-and-regression: Golden Set与回归评测（Golden Sets and Regression） [P0 Gate-1] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- identity-and-data-isolation: 身份与数据隔离（Identity and Data Isolation） [P0 Gate-0] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- knowledge-graph-runtime-semanticquery: 知识图谱运行时语义查询（Knowledge Graph Runtime Semantic Query） [P1 Gate-2] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- llm-narrative-layer: LLM叙述层（LLM Narrative Layer） [P2 Gate-2] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- observability-slos: 可观测性与SLO（Observability and SLOs） [P0 Gate-0] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- playbook-and-action-loop: Playbook与行动闭环（Playbook and Action Loop） [P1 Gate-2] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- production-defaults-no-mock: 生产默认值（禁止Mock）（Production Defaults No Mock） [P0 Gate-0] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- proofreading-workflow-qa: 校对工作流与QA（Proofreading Workflow QA） [资产层 资产门禁] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- security-privacy-compliance: 安全/隐私/合规（Security Privacy Compliance） [P0 Gate-0] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- semantic-extraction-quality-gates: 语义抽取质量门禁（Semantic Extraction Quality Gates） [P1 Gate-1] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- semantic-layer-core: 语义层核心（Semantic Layer Core） [P0 Gate-1] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- seven-engine-pipeline-e2e: 七引擎流水线E2E（Seven Engine Pipeline E2E） [P0 Gate-2] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- text-normalization-alignment: 文本归一化与对齐（Text Normalization Alignment） [资产层 资产门禁] | requirements 6, scenarios 6, tasks 2/16 (12%)
+- versioning-and-deviation-detection: 版本化与偏差检测（Versioning and Deviation Detection） [P0 Gate-0] | requirements 6, scenarios 6, tasks 2/16 (12%)
+
+CHANGES (1)
+- super-openspec-baseline-rebuild: tasks 7/8 (87%)
+
+VALID

@@ -1,0 +1,31 @@
+$ rg -n "数据完整性语义" openspec/specs/deployment-release/design.md
+17:## 数据完整性语义（规格层）
+
+$ openspec validate --specs --strict --no-interactive
+✓ spec/abuse-and-rate-limits
+✓ spec/billing-and-entitlements
+✓ spec/bootability-and-regression-baseline
+✓ spec/citations-evidence-protocol
+✓ spec/commercial-readiness-gates
+✓ spec/corpus-governance
+✓ spec/corpus-release-pipeline
+✓ spec/cross-book-consistency-conflicts
+✓ spec/deployment-release
+✓ spec/engine-id-governance
+✓ spec/fusion-engine-explainability
+✓ spec/geocoding-first-class
+✓ spec/golden-sets-and-regression
+✓ spec/identity-and-data-isolation
+✓ spec/knowledge-graph-runtime-semanticquery
+✓ spec/llm-narrative-layer
+✓ spec/observability-slos
+✓ spec/playbook-and-action-loop
+✓ spec/production-defaults-no-mock
+✓ spec/proofreading-workflow-qa
+✓ spec/security-privacy-compliance
+✓ spec/semantic-extraction-quality-gates
+✓ spec/semantic-layer-core
+✓ spec/seven-engine-pipeline-e2e
+✓ spec/text-normalization-alignment
+✓ spec/versioning-and-deviation-detection
+Totals: 26 passed, 0 failed (26 items)

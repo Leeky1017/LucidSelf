@@ -1,0 +1,118 @@
+:root {
+  /* Shared tokens - exact figma v2 values */
+  --accent-gold: #c5a572;
+  --accent-amber: orange;
+  --accent-violet: #7c4dff;
+  --accent-emerald: #00bfa5;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+  --space-5xl: 128px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+  
+  /* Light theme (figma v2 default light) */
+  --background: #fff;
+  --foreground: #0a0a0a;
+  --bg-bottom: #fafafa;
+  --bg-middle: #fff;
+  --bg-top: #fff;
+  --text-primary: #0a0a0a;
+  --text-secondary: #6b6b6b;
+  --text-tertiary: #a0a0a0;
+  --card-bg: #fff;
+  --card-border: #e8e8e8;
+  --card-shadow: 0 1px 3px #00000005;
+  --card-hover-shadow: 0 4px 12px #0000000a;
+  --glow-color: #c5a57226;
+}
+
+/* @theme block removed - using CSS variables directly */
+
+/* Dark theme - exact figma v2 values */
+[data-theme="dark"] {
+  --background: #0a0a0a;
+  --foreground: #fafafa;
+  --bg-bottom: #000;
+  --bg-middle: #0a0a0a;
+  --bg-top: #151515;
+  --text-primary: #fafafa;
+  --text-secondary: #a0a0a0;
+  --text-tertiary: #6b6b6b;
+  --card-bg: #151515;
+  --card-border: #242424;
+  --card-shadow: 0 1px 3px #0000004d;
+  --card-hover-shadow: 0 4px 12px #00000080;
+  --glow-color: #c5a5721f;
+}
+
+/* Cyber theme - 赛博科技感 */
+[data-theme="cyber"] {
+  --accent-gold: #00f0ff;
+  --accent-amber: #ff00ff;
+  --accent-violet: #8b5cf6;
+  --accent-emerald: #00ff88;
+  --background: #0a0a12;
+  --foreground: #e0f0ff;
+  --bg-bottom: #050510;
+  --bg-middle: #0a0a18;
+  --bg-top: #12122a;
+  --text-primary: #e0f0ff;
+  --text-secondary: #7aa0c0;
+  --text-tertiary: #4a6080;
+  --card-bg: #12122a;
+  --card-border: #1a1a3a;
+  --card-shadow: 0 0 20px #00f0ff15;
+  --card-hover-shadow: 0 0 30px #00f0ff25;
+  --glow-color: #00f0ff30;
+}
+
+/* Kawaii theme - 清纯可爱感（淡粉色） */
+[data-theme="kawaii"] {
+  --accent-gold: #ff8fab;
+  --accent-amber: #ffb3c6;
+  --accent-violet: #c9a0dc;
+  --accent-emerald: #98d8aa;
+  --background: #fff5f7;
+  --foreground: #4a3540;
+  --bg-bottom: #fff0f3;
+  --bg-middle: #fff5f7;
+  --bg-top: #fffafb;
+  --text-primary: #4a3540;
+  --text-secondary: #8a6b78;
+  --text-tertiary: #b8a0aa;
+  --card-bg: #ffffff;
+  --card-border: #ffe0e8;
+  --card-shadow: 0 2px 8px #ffb3c620;
+  --card-hover-shadow: 0 4px 16px #ffb3c630;
+  --glow-color: #ff8fab20;
+}
+
+/* Nature theme - 清新大自然风格 */
+[data-theme="nature"] {
+  --accent-gold: #7cb342;
+  --accent-amber: #ffb74d;
+  --accent-violet: #81c784;
+  --accent-emerald: #4db6ac;
+  --background: #f5f9f0;
+  --foreground: #33472a;
+  --bg-bottom: #eef5e8;
+  --bg-middle: #f5f9f0;
+  --bg-top: #fcfff8;
+  --text-primary: #33472a;
+  --text-secondary: #5a7050;
+  --text-tertiary: #8aa080;
+  --card-bg: #ffffff;
+  --card-border: #d5e8c8;
+  --card-shadow: 0 2px 8px #7cb34215;
+  --card-hover-shadow: 0 4px 16px #7cb34225;
+  --glow-color: #7cb34220;
+}

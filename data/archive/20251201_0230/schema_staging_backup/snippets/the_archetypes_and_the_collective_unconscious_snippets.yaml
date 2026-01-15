@@ -1,0 +1,3416 @@
+book_id: the_archetypes_and_the_collective_unconscious
+source_file: 典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_VI_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_IX_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_XI_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_IV_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_VIII_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_VII_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_V_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_X_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+extracted_at: '2025-12-01T02:28:32.678830'
+snippets:
+- snippet_id: ns_cw9i_III_001
+  trigger: archetype_platonic
+  factor_trigger: archetype
+  role: 主干
+  snippet_text: '"Archetype" was synonymous with "Idea" in Platonic usage—pre-existent
+    and supraordinate to phenomena.'
+  source_ref: ¶149
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542486'
+- snippet_id: ns_cw9i_III_002
+  trigger: jung_empiricist
+  factor_trigger: methodology
+  role: 条件分支
+  snippet_text: I am an empiricist, not a philosopher—I cannot presuppose my own disposition
+    is universal.
+  source_ref: ¶149
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542498'
+- snippet_id: ns_cw9i_III_003
+  trigger: apriori_cognition
+  factor_trigger: archetype
+  role: 主干依赖
+  snippet_text: There can be no empirical knowledge that is not already caught and
+    limited by the a priori structure of cognition.
+  source_ref: ¶150
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542507'
+- snippet_id: ns_cw9i_III_151
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Preconscious psyche is NOT empty vessel—tremendously complicated individual
+    entity.
+  source_ref: ¶151
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542524'
+- snippet_id: ns_cw9i_III_152
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Man's behaviour results from "images"—primordial patterns, the "human
+    quality."
+  source_ref: ¶152
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542536'
+- snippet_id: ns_cw9i_III_153
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Archetypes can rearise spontaneously, at any time, without outside
+    influence.
+  source_ref: ¶153
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542544'
+- snippet_id: ns_cw9i_III_154
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Present in every psyche: unconscious but active forms—living dispositions
+    preforming thoughts.'
+  source_ref: ¶154
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542552'
+- snippet_id: ns_cw9i_III_004
+  trigger: archetype_form_not_content
+  factor_trigger: archetype
+  role: 主干
+  snippet_text: Archetypes are not determined as regards their content, but only as
+    regards their form—they correspond in every way to instincts.
+  source_ref: ¶155
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542564'
+- snippet_id: ns_cw9i_III_005
+  trigger: crystal_analogy
+  factor_trigger: archetype
+  role: 主干依赖
+  snippet_text: The archetype's form might be compared to the axial system of a crystal,
+    which preforms the structure in the mother liquid although it has no material
+    existence of its own.
+  source_ref: ¶155
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542574'
+- snippet_id: ns_cw9i_III_006
+  trigger: facultas_praeformandi
+  factor_trigger: archetype
+  role: 主干
+  snippet_text: The archetype in itself is empty and purely formal, nothing but a
+    facultas praeformandi, a possibility of representation given a priori.
+  source_ref: ¶155
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542583'
+- snippet_id: ns_cw9i_III_007
+  trigger: mother_symbols
+  factor_trigger: mother_archetype
+  role: 主干
+  snippet_text: Mother symbols include goddesses, Paradise, Church, earth, sea, moon,
+    cave, well, vessels, mandala—and negative symbols like witch, dragon, grave, deep
+    water.
+  source_ref: ¶156-157
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542600'
+- snippet_id: ns_cw9i_III_008
+  trigger: mother_polarity
+  factor_trigger: mother_archetype
+  role: 条件分支
+  snippet_text: All mother symbols can have positive or negative meaning—the goddesses
+    of fate (Moira, Norns) embody ambivalence.
+  source_ref: ¶157
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542608'
+- snippet_id: ns_cw9i_III_009
+  trigger: mother_qualities
+  factor_trigger: mother_archetype
+  role: 主干
+  snippet_text: 'The mother archetype''s qualities: maternal solicitude, magic authority,
+    wisdom transcending reason, and all that cherishes and sustains—but also the abyss,
+    the world of the dead, all that devours and poisons.'
+  source_ref: ¶158
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542622'
+- snippet_id: ns_cw9i_III_010
+  trigger: loving_terrible
+  factor_trigger: mother_archetype
+  role: 主干依赖
+  snippet_text: The loving and the terrible mother—Virgin Mary is not only the Lord's
+    mother but also his cross; in India, Kali embodies this paradox.
+  source_ref: ¶158
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542630'
+- snippet_id: ns_cw9i_III_159
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Personal mother has only limited significance—true influence is the
+    archetype projected upon her.
+  source_ref: ¶159
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542642'
+- snippet_id: ns_cw9i_III_160
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Archetypes are inalienable assets; task is to dissolve projections,
+    not deny archetypes.
+  source_ref: ¶160
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542650'
+- snippet_id: ns_cw9i_III_161
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Mother archetype is foundation of mother-complex—disturbed instincts
+    constellate archetypes that come between child and mother.
+  source_ref: ¶161
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542661'
+- snippet_id: ns_cw9i_III_011
+  trigger: son_mothercomplex_negative
+  factor_trigger: mother_complex
+  role: 条件分支
+  snippet_text: 'Typical effects on the son: homosexuality (heterosexuality tied to
+    mother), Don Juanism (seeking mother in every woman), impotence.'
+  source_ref: ¶162
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542674'
+- snippet_id: ns_cw9i_III_012
+  trigger: son_mothercomplex_positive
+  factor_trigger: mother_complex
+  role: 主干依赖
+  snippet_text: 'Positive effects: finely differentiated Eros, great friendship capacity,
+    aesthetic sense, religious feelings, revolutionary spirit, heroism.'
+  source_ref: ¶164-165
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542714'
+- snippet_id: ns_cw9i_III_013
+  trigger: anima_in_mothercomplex
+  factor_trigger: anima AND mother_complex
+  role: 主干
+  snippet_text: In every masculine mother-complex, the anima plays a significant role
+    alongside the mother archetype—the mother is the first feminine being for the
+    man-to-be.
+  source_ref: ¶162
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542728'
+- snippet_id: ns_cw9i_III_014
+  trigger: daughter_type_a
+  factor_trigger: mother_complex
+  role: 条件分支
+  snippet_text: 'Type (a) Maternal hypertrophy: intensification of all female instincts,
+    husband secondary, lives through children, unconscious will to power.'
+  source_ref: ¶167
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542745'
+- snippet_id: ns_cw9i_III_015
+  trigger: daughter_type_b
+  factor_trigger: mother_complex AND eros
+  role: 条件分支
+  snippet_text: 'Type (b) Overdeveloped Eros: maternal instinct wiped out, unconscious
+    incestuous relation with father, attracted to married men.'
+  source_ref: ¶168
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542753'
+- snippet_id: ns_cw9i_III_016
+  trigger: daughter_type_c
+  factor_trigger: mother_complex AND shadow
+  role: 条件分支
+  snippet_text: 'Type (c) Identity with mother: shadow-existence, sucked dry by mother,
+    paralysis of feminine initiative, attractive as empty vessel.'
+  source_ref: ¶169
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542760'
+- snippet_id: ns_cw9i_III_017
+  trigger: daughter_type_d
+  factor_trigger: mother_complex
+  role: 条件分支
+  snippet_text: 'Type (d) Resistance: "Anything so long as it is not like Mother!"—knows
+    what she doesn''t want but not her own fate.'
+  source_ref: ¶170
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542767'
+- snippet_id: ns_cw9i_III_171
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Resistance to mother can result in spontaneous intellect development—to
+    break mother's power by criticism.
+  source_ref: ¶171
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542780'
+- snippet_id: ns_cw9i_III_018
+  trigger: mother_love
+  factor_trigger: mother_archetype
+  role: 主干
+  snippet_text: Mother-love is the mysterious root of all growth and change—homecoming,
+    shelter, the long silence from which everything begins and ends.
+  source_ref: ¶172
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542794'
+- snippet_id: ns_cw9i_III_019
+  trigger: archetype_hygiene
+  factor_trigger: archetype
+  role: 主干依赖
+  snippet_text: The archetype is less a scientific problem than an urgent question
+    of psychic hygiene—without it, our highest values disappear into the unconscious.
+  source_ref: ¶173
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542802'
+- snippet_id: ns_cw9i_III_020
+  trigger: roots_archetypes
+  factor_trigger: archetype AND nature
+  role: 总结
+  snippet_text: Man must remain conscious of the world of archetypes because there
+    he is part of Nature and connected with his own roots.
+  source_ref: ¶174
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542809'
+- snippet_id: ns_cw9i_III_021
+  trigger: athi_vision
+  factor_trigger: consciousness
+  role: 主干
+  snippet_text: '"The world was still in its primeval state; it did not know that
+    it was. And then, in that one moment in which I came to know, the world sprang
+    into being."'
+  source_ref: ¶177
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542823'
+- snippet_id: ns_cw9i_III_022
+  trigger: logos_matricide
+  factor_trigger: logos
+  role: 主干依赖
+  snippet_text: The Logos eternally struggles to extricate itself from the maternal
+    womb—unconsciousness is the primal sin; its first act of liberation is matricide.
+  source_ref: ¶178
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542830'
+- snippet_id: ns_cw9i_III_023
+  trigger: emotion_consciousness
+  factor_trigger: emotion
+  role: 总结
+  snippet_text: Emotion is the chief source of consciousness—there is no change from
+    darkness to light without emotion.
+  source_ref: ¶179
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542839'
+- snippet_id: ns_cw9i_III_180
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Disturber is herself changed; what seemed senseless upheaval becomes
+    purification.
+  source_ref: ¶180
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542852'
+- snippet_id: ns_cw9i_III_182
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Empty vessel filled by anima projection—Cherchez la femme, secret
+    of his success.
+  source_ref: ¶182
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542860'
+- snippet_id: ns_cw9i_III_183
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Emptiness is great feminine secret—the yin. Such female is fate itself.
+  source_ref: ¶183
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542869'
+- snippet_id: ns_cw9i_III_184
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Negative type has best chance for marriage success in second half
+    of life.
+  source_ref: ¶184
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542878'
+- snippet_id: ns_cw9i_III_187
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Mythology and mother-complex point to unconscious—man's cosmos division
+    reflects conscious/unconscious polarity.
+  source_ref: ¶187
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542887'
+- snippet_id: ns_cw9i_III_189
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'West split God: Yahweh'
+  source_ref: exclusively good God; evil → devil. Man swallowed evil, became carrier
+    of mysterium iniquitatis. → ¶189
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542893'
+- snippet_id: ns_cw9i_III_190
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Nietzsche's Superman tried to imprison divine paradox in mortal man—burst
+    asunder.
+  source_ref: ¶190
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542901'
+- snippet_id: ns_cw9i_III_192
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Man's mother-image is alien, symbolical; his idealization is hidden
+    fear of unconscious.
+  source_ref: ¶192
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542910'
+- snippet_id: ns_cw9i_III_193
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Man = Urania type, identifies with puer aeternus; woman = chthonic,
+    identifies with Earth Mother.
+  source_ref: ¶193
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542917'
+- snippet_id: ns_cw9i_III_194
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Syzygies lead to individuation—realm of immediate experience, terrifying
+    paradox.
+  source_ref: ¶194
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542926'
+- snippet_id: ns_cw9i_III_195
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Psyche is empirical reality with powers of its own—not mere figure
+    of speech.
+  source_ref: ¶195
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542934'
+- snippet_id: ns_cw9i_III_198
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Archetype = purely formal (facultas praeformandi); filled with experience
+    becomes vivid image.
+  source_ref: ¶198
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.542941'
+- snippet_id: ns_cw9i_VI_385_001
+  trigger: spirit_meanings
+  factor_trigger: spirit AND semantics
+  role: 主干
+  snippet_text: '"精神"=多义词，约20种意义——物质对立面、生命原理、态度、时代精神、客观精神、鬼魂。'
+  source_ref: §385-388
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545025'
+- snippet_id: ns_cw9i_VI_389
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Spirit''s wind-nature: active, winged, swift—dynamic principle vs
+    matter''s stasis.'
+  source_ref: §389
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545048'
+- snippet_id: ns_cw9i_VI_390
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Transcendent spirit became supranatural cosmic order, named "God."
+  source_ref: §390
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545056'
+- snippet_id: ns_cw9i_VI_391
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Materialism: spirit = psychic functions dependent on brain/metabolism.'
+  source_ref: §391
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545066'
+- snippet_id: ns_cw9i_VI_393_001
+  trigger: spirit_hallmarks
+  factor_trigger: spirit AND characteristics
+  role: 主干
+  snippet_text: 精神三标志：自发运动、自发产像、自主操控——动态原理vs物质的静止惰性。
+  source_ref: §393
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545075'
+- snippet_id: ns_cw9i_VI_396_001
+  trigger: spirit_archetype
+  factor_trigger: spirit AND wise_old_man
+  role: 主干
+  snippet_text: 精神具原型本质——智慧老人是最常见形式，在需要洞察理解但自己无法调动时出现。
+  source_ref: §396-398
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545086'
+- snippet_id: ns_cw9i_VI_401_001
+  trigger: old_man_fairytale
+  factor_trigger: wise_old_man AND fairytale
+  role: 主干
+  snippet_text: 老人在英雄绝望时出现——代表知识、智慧、善意，是精神功能的人格化。
+  source_ref: §401-406
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545093'
+- snippet_id: ns_cw9i_VI_407
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Old man as dwarf = connection to unconscious; little iron man appears
+    at critical junctures.
+  source_ref: §407
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545103'
+- snippet_id: ns_cw9i_VI_408
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Unconscious = world of infinitesimally small; archetypes share this
+    with atomic world—smallest causes, greatest effects.
+  source_ref: §408
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545111'
+- snippet_id: ns_cw9i_VI_409_001
+  trigger: old_man_sun
+  factor_trigger: spirit AND fire
+  role: 主干
+  snippet_text: 老人与太阳/火=启明性质——精神的火焰面向。
+  source_ref: §409
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545118'
+- snippet_id: ns_cw9i_VI_413_001
+  trigger: archetype_dark_side
+  factor_trigger: spirit AND shadow
+  role: 主干
+  snippet_text: 原型有光明面和阴暗面——老人可能是自己的对立面，既赐生也予死。
+  source_ref: §413
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545124'
+- snippet_id: ns_cw9i_VI_414_001
+  trigger: scrutinize_context
+  factor_trigger: old_man AND evil
+  role: 主干
+  snippet_text: 审慎审查"善良老人"语境——他可能事先设置困境。
+  source_ref: §414
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545131'
+- snippet_id: ns_cw9i_VI_415_001
+  trigger: merlin
+  factor_trigger: spirit AND ambiguity
+  role: 主干依赖
+  snippet_text: 老人=歧义精灵性格——梅林为证，善恶皆可。
+  source_ref: §415
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545138'
+- snippet_id: ns_cw9i_VI_417_001
+  trigger: animus_possession
+  factor_trigger: old_man AND animus
+  role: 主干依赖
+  snippet_text: 老人=女性的阿尼姆斯——阿尼姆斯附身导致囚禁。
+  source_ref: §417
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545144'
+- snippet_id: ns_cw9i_VI_419_001
+  trigger: animal_form
+  factor_trigger: spirit AND theriomorphism
+  role: 主干
+  snippet_text: 动物形式=精神原型的超人领域表现——无意识悖论统一对立。
+  source_ref: §419
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545151'
+- snippet_id: ns_cw9i_VI_421_001
+  trigger: helpful_animals
+  factor_trigger: spirit AND animal
+  role: 主干依赖
+  snippet_text: 动物助手=精神原型的动物表达——说人语、超人智慧。
+  source_ref: §421
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545156'
+- snippet_id: ns_cw9i_VI_425_001
+  trigger: horse_spirit
+  factor_trigger: horse AND intuition
+  role: 主干依赖
+  snippet_text: 马=知识和直觉功能——精神既是功能也是自主主体。
+  source_ref: §425
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545163'
+- snippet_id: ns_cw9i_VI_426_001
+  trigger: three_four
+  factor_trigger: quaternity AND triad
+  role: 主干
+  snippet_text: 三vs四=极性vs整体——每个三元组预设其对立。
+  source_ref: §426
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545171'
+- snippet_id: ns_cw9i_VI_430_001
+  trigger: functions
+  factor_trigger: consciousness AND functions
+  role: 主干
+  snippet_text: 四种心理功能——三可分化，一为劣势，阿喀琉斯之踵。
+  source_ref: §430
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545178'
+- snippet_id: ns_cw9i_VI_434_001
+  trigger: hero_hunter
+  factor_trigger: superior AND inferior
+  role: 主干依赖
+  snippet_text: 英雄=优势功能，猎人=劣势功能——最终合一。
+  source_ref: §434
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545182'
+- snippet_id: ns_cw9i_VI_435
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Russian variant "Maria Morevna": three helpful animals = Ivan''s
+    three sisters married to bird-men (angelic helpers).'
+  source_ref: §435
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545193'
+- snippet_id: ns_cw9i_VI_439
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Three-legged horse = mare = unconscious masculinity in female = animus
+    representing spirit.
+  source_ref: §438-439
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545202'
+- snippet_id: ns_cw9i_VI_440
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Princess A (anima) possesses three-legged horse (shadow)—she has caught
+    the hero on his weak side.
+  source_ref: §440
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545210'
+- snippet_id: ns_cw9i_VI_443
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Four-legged horse = hunter's mount; quaternity = more conscious state;
+    hero's claim is legitimate through witch's permission.
+  source_ref: §443-446
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545221'
+- snippet_id: ns_cw9i_VI_447
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Two horses together = complete union of opposites: feminine triad
+    (unconscious) + masculine quaternity (conscious).'
+  source_ref: §447-450
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545229'
+- snippet_id: ns_cw9i_VI_453
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Spirit archetype is ambivalent—can help or possess; the decisive factor
+    is consciousness.
+  source_ref: §451-453
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545237'
+- snippet_id: ns_cw9i_VI_454_001
+  trigger: spirit_demonism
+  factor_trigger: spirit AND consciousness
+  role: 主干
+  snippet_text: 精神未脱魔性——科技发展增加被附身危险，善恶取决于有意识决定，无意识是人最大的罪。
+  source_ref: §454-455
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.545244'
+- snippet_id: ns_cw9i_001
+  trigger: collective_unconscious_definition
+  factor_trigger: collective_unconscious
+  role: 主干
+  snippet_text: The collective unconscious is a deeper layer that does not derive
+    from personal experience but is inborn—universal in all humans.
+  source_ref: ¶3
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548109'
+- snippet_id: ns_cw9i_002
+  trigger: freud_limitation
+  factor_trigger: personal_unconscious
+  role: 条件分支
+  snippet_text: For Freud, the unconscious is exclusively personal—nothing but the
+    gathering place of forgotten and repressed contents.
+  source_ref: ¶2
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548124'
+- snippet_id: ns_cw9i_003
+  trigger: suprapersonal_nature
+  factor_trigger: collective_unconscious
+  role: 主干依赖
+  snippet_text: The collective unconscious constitutes a common psychic substrate
+    of suprapersonal nature present in every one of us.
+  source_ref: ¶3
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548132'
+- snippet_id: ns_cw9i_004
+  trigger: archetype_definition
+  factor_trigger: archetype
+  role: 主干
+  snippet_text: The contents of the collective unconscious are known as archetypes—primordial
+    types, universal images that have existed since the remotest times.
+  source_ref: ¶4-5
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548149'
+- snippet_id: ns_cw9i_005
+  trigger: complex_vs_archetype
+  factor_trigger: feeling_toned_complex AND archetype
+  role: 条件分支
+  snippet_text: Personal unconscious contains feeling-toned complexes; collective
+    unconscious contains archetypes.
+  source_ref: ¶4
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548158'
+- snippet_id: ns_cw9i_006
+  trigger: archetype_etymology
+  factor_trigger: archetype
+  role: 主干依赖
+  snippet_text: '"Archetype" occurs in Philo (Imago Dei), Irenaeus, Corpus Hermeticum—it
+    is a paraphrase of the Platonic εἶδος.'
+  source_ref: ¶5
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548166'
+- snippet_id: ns_cw9i_007
+  trigger: archetype_vs_myth
+  factor_trigger: archetype AND myth
+  role: 主干
+  snippet_text: Myth and fairytale express archetypes but are forms that have received
+    a specific stamp—the archetype itself is prior to conscious elaboration.
+  source_ref: ¶6
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548180'
+- snippet_id: ns_cw9i_008
+  trigger: archetype_alteration
+  factor_trigger: archetype
+  role: 主干依赖
+  snippet_text: The archetype is essentially an unconscious content that is altered
+    by becoming conscious and takes its colour from the individual consciousness.
+  source_ref: ¶6
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548187'
+- snippet_id: ns_cw9i_009
+  trigger: myth_as_psyche
+  factor_trigger: myth
+  role: 条件分支
+  snippet_text: Myths are first and foremost psychic phenomena that reveal the nature
+    of the soul—not solar, lunar, or meteorological allegories.
+  source_ref: ¶7
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548197'
+- snippet_id: ns_cw9i_024
+  trigger: myth_psychic
+  factor_trigger: myth AND psyche
+  role: 主干
+  snippet_text: Primitive man's knowledge of nature is essentially the language and
+    outer dress of an unconscious psychic process—myths refer to something psychic.
+  source_ref: ¶8
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548211'
+- snippet_id: ns_cw9i_025
+  trigger: unconscious_subject
+  factor_trigger: collective_unconscious
+  role: 主干依赖
+  snippet_text: Our unconscious is an acting and suffering subject with an inner drama
+    which primitive man rediscovers by analogy in nature.
+  source_ref: ¶8
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548217'
+- snippet_id: ns_cw9i_026
+  trigger: inner_astrology
+  factor_trigger: astrology AND psyche
+  role: 条件分支
+  snippet_text: '"The stars of thine own fate lie in thy breast"—a dictum that should
+    satisfy all astrologers if we knew the heart''s secrets.'
+  source_ref: ¶9
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548224'
+- snippet_id: ns_cw9i_027
+  trigger: sacred_lore
+  factor_trigger: religion AND archetype
+  role: 主干依赖
+  snippet_text: Tribal lore is always sacred and dangerous. All esoteric teachings
+    seek to apprehend unseen happenings in the psyche.
+  source_ref: ¶10
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548230'
+- snippet_id: ns_cw9i_028
+  trigger: tradition_distance
+  factor_trigger: religious_image
+  role: 条件分支
+  snippet_text: The more beautiful, sublime, and comprehensive the traditional image,
+    the further removed it is from individual experience.
+  source_ref: ¶10
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548237'
+- snippet_id: ns_cw9i_029
+  trigger: religious_formula
+  factor_trigger: religion AND collective_unconscious
+  role: 总结
+  snippet_text: We had a religious formula for everything psychic—more beautiful and
+    comprehensive than immediate experience—so psychology is the youngest science.
+  source_ref: ¶11
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548244'
+- snippet_id: ns_cw9i_030
+  trigger: brother_klaus
+  factor_trigger: numinous_experience
+  role: 主干
+  snippet_text: Brother Klaus saw a sight so terrible that his countenance was permanently
+    changed—people were terrified of him.
+  source_ref: ¶13
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548257'
+- snippet_id: ns_cw9i_031
+  trigger: heart_burst
+  factor_trigger: ego_dissolution
+  role: 主干依赖
+  snippet_text: He had seen a piercing light resembling a human face—at the sight
+    of it he feared his heart would burst into little pieces.
+  source_ref: ¶13
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548265'
+- snippet_id: ns_cw9i_032
+  trigger: mandala_protection
+  factor_trigger: mandala
+  role: 条件分支
+  snippet_text: The mandala is the traditional antidote for chaotic states of mind—that
+    is why Brother Klaus was fascinated by the symbol of the wheel.
+  source_ref: ¶16
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548272'
+- snippet_id: ns_cw9i_033
+  trigger: dogma_assimilation
+  factor_trigger: dogma AND archetype
+  role: 主干
+  snippet_text: Dogma proved its power of assimilation by turning something horribly
+    alive into the beautiful abstraction of the Trinity idea.
+  source_ref: ¶17
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548280'
+- snippet_id: ns_cw9i_034
+  trigger: dogma_container
+  factor_trigger: dogma AND collective_unconscious
+  role: 总结
+  snippet_text: Dogma takes the place of the collective unconscious by formulating
+    its contents on a grand scale.
+  source_ref: ¶21
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548286'
+- snippet_id: ns_cw9i_035
+  trigger: cu_channeled
+  factor_trigger: religion AND collective_unconscious
+  role: 主干依赖
+  snippet_text: The entire life of the collective unconscious has been channelled
+    into dogmatic archetypal ideas, flowing like a well-controlled stream.
+  source_ref: ¶21
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548293'
+- snippet_id: ns_cw9i_036
+  trigger: iconoclasm
+  factor_trigger: reformation AND symbol
+  role: 主干
+  snippet_text: The Reformation's iconoclasm quite literally made a breach in the
+    protective wall of sacred images—one image after another has crumbled away.
+  source_ref: ¶22
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548307'
+- snippet_id: ns_cw9i_037
+  trigger: gods_die
+  factor_trigger: archetype AND consciousness
+  role: 主干依赖
+  snippet_text: Gods die when man discovers they seem to mean nothing—but really,
+    he has merely discovered he never thought about his images at all.
+  source_ref: ¶22
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548314'
+- snippet_id: ns_cw9i_038
+  trigger: symbol_poverty
+  factor_trigger: protestantism AND symbol
+  role: 主干
+  snippet_text: The history of Protestantism has been one of chronic iconoclasm—the
+    alarming poverty of symbols is now the condition of our life.
+  source_ref: ¶23
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548323'
+- snippet_id: ns_cw9i_039
+  trigger: borrowed_symbols
+  factor_trigger: symbol AND culture
+  role: 条件分支
+  snippet_text: Can we put on like new clothes ready-made symbols grown on foreign
+    soil—resembling a beggar who wraps himself in kingly raiment?
+  source_ref: ¶27
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548331'
+- snippet_id: ns_cw9i_040
+  trigger: avow_poverty
+  factor_trigger: spiritual_poverty
+  role: 主干
+  snippet_text: It would be far better to avow our spiritual poverty, our symbol-lessness,
+    instead of feigning a legacy to which we are not legitimate heirs.
+  source_ref: ¶28
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548339'
+- snippet_id: ns_cw9i_041
+  trigger: spirit_water
+  factor_trigger: spirit AND water
+  role: 总结
+  snippet_text: When spirit becomes heavy it turns to water, and with Luciferian presumption
+    the intellect usurps the seat where once the spirit was enthroned.
+  source_ref: ¶32
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548350'
+- snippet_id: ns_cw9i_042
+  trigger: sophia_bythos
+  factor_trigger: soul AND water
+  role: 主干
+  snippet_text: The way of the soul seeking its lost father—like Sophia seeking Bythos—leads
+    to the water, to the dark mirror that reposes at its bottom.
+  source_ref: ¶33
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548363'
+- snippet_id: ns_cw9i_043
+  trigger: water_symbol
+  factor_trigger: water_symbolism
+  role: 主干依赖
+  snippet_text: This water is no figure of speech, but a living symbol of the dark
+    psyche.
+  source_ref: ¶33
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548369'
+- snippet_id: ns_cw9i_044
+  trigger: theologian_dream
+  factor_trigger: dream AND water
+  role: 条件分支
+  snippet_text: A Protestant theologian often dreamed of a dark lake in a deep valley—something
+    always prevented him from approaching until he resolved to go.
+  source_ref: ¶34
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548376'
+- snippet_id: ns_cw9i_045
+  trigger: pneuma
+  factor_trigger: spirit AND water
+  role: 主干依赖
+  snippet_text: In the dream the wind, the pneuma, rushes over the water's face—hinting
+    at an unseen presence, a numen that lives of itself.
+  source_ref: ¶35
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548382'
+- snippet_id: ns_cw9i_046
+  trigger: way_downward
+  factor_trigger: descent AND treasure
+  role: 主干
+  snippet_text: We must go the way of waters, which always tend downward, if we would
+    raise up the treasure, the precious heritage of the father.
+  source_ref: ¶37
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548389'
+- snippet_id: ns_cw9i_047
+  trigger: gnostic_pearl
+  factor_trigger: pearl AND dragon
+  role: 条件分支
+  snippet_text: In the Gnostic hymn, the son is sent to seek the pearl at the bottom
+    of a deep well, guarded by a dragon in the land of the Egyptians.
+  source_ref: ¶37
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548397'
+- snippet_id: ns_cw9i_010
+  trigger: water_symbol
+  factor_trigger: water_symbolism
+  role: 主干
+  snippet_text: Water is the commonest symbol for the unconscious—psychologically,
+    water means spirit that has become unconscious.
+  source_ref: ¶40
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548410'
+- snippet_id: ns_cw9i_011
+  trigger: shadow_encounter
+  factor_trigger: shadow
+  role: 条件分支
+  snippet_text: The shadow is a tight passage, a narrow door, whose painful constriction
+    no one is spared who goes down to the deep well.
+  source_ref: ¶45
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548418'
+- snippet_id: ns_cw9i_012
+  trigger: cu_objectivity
+  factor_trigger: collective_unconscious
+  role: 主干依赖
+  snippet_text: The collective unconscious is sheer objectivity, as wide as the world—there
+    I am the object of every subject.
+  source_ref: ¶46
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548424'
+- snippet_id: ns_cw9i_013
+  trigger: identity_danger
+  factor_trigger: ego AND collective_unconscious
+  role: 例外处理
+  snippet_text: '"Lost in oneself"—I forget who I really am. That is why we must know
+    who we are.'
+  source_ref: ¶46
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548431'
+- snippet_id: ns_cw9i_048
+  trigger: possession
+  factor_trigger: unconscious AND ego
+  role: 主干
+  snippet_text: The unconscious no sooner touches us than we are it—we become unconscious
+    of ourselves. That is the age-old danger.
+  source_ref: ¶47
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548445'
+- snippet_id: ns_cw9i_049
+  trigger: rite_dogma
+  factor_trigger: ritual AND consciousness
+  role: 主干依赖
+  snippet_text: Rite and dogma were dams and walls to keep back the dangers of the
+    unconscious, the "perils of the soul."
+  source_ref: ¶47
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548451'
+- snippet_id: ns_cw9i_050
+  trigger: barriers_collapse
+  factor_trigger: symbol AND catastrophe
+  role: 条件分支
+  snippet_text: When symbols become weak with age, these barriers collapse—then the
+    waters rise and boundless catastrophes break over mankind.
+  source_ref: ¶48
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548457'
+- snippet_id: ns_cw9i_051
+  trigger: taos_warning
+  factor_trigger: religion AND consciousness
+  role: 条件分支
+  snippet_text: '"When our religion dies, the sun won''t rise any more"—night will
+    fall, consciousness extinguished, dark sea of unconscious breaks in.'
+  source_ref: ¶48
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548465'
+- snippet_id: ns_cw9i_052
+  trigger: gods_factors
+  factor_trigger: archetype AND modern
+  role: 主干
+  snippet_text: Today we call the gods "factors"—the makers stand behind the wings
+    of the world-theatre.
+  source_ref: ¶49
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548473'
+- snippet_id: ns_cw9i_053
+  trigger: unseen_factors
+  factor_trigger: shadow AND ego
+  role: 总结
+  snippet_text: If we step through the door of the shadow we discover with terror
+    that we are the objects of unseen factors.
+  source_ref: ¶49
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548479'
+- snippet_id: ns_cw9i_014
+  trigger: anima_definition
+  factor_trigger: anima
+  role: 主干
+  snippet_text: Every man carries with him the eternal image of woman—a definite feminine
+    image that is fundamentally unconscious, inherited, primordial.
+  source_ref: ¶52
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548494'
+- snippet_id: ns_cw9i_015
+  trigger: anima_projection
+  factor_trigger: anima AND projection
+  role: 条件分支
+  snippet_text: Since this image is unconscious, it is always projected upon the beloved—one
+    of the chief reasons for passionate attraction or aversion.
+  source_ref: ¶53
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548501'
+- snippet_id: ns_cw9i_016
+  trigger: anima_after_shadow
+  factor_trigger: shadow AND anima
+  role: 主干依赖
+  snippet_text: After the shadow comes the anima—she is the other, the complementary
+    side.
+  source_ref: ¶50
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548507'
+- snippet_id: ns_cw9i_017
+  trigger: anima_dark_forms
+  factor_trigger: anima
+  role: 条件分支
+  snippet_text: The anima can be a siren, melusina, succubus, who infatuates young
+    men and sucks the life out of them—or a witch mixing vile potions.
+  source_ref: ¶53-54
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548520'
+- snippet_id: ns_cw9i_018
+  trigger: soul_etymology
+  factor_trigger: soul
+  role: 主干依赖
+  snippet_text: Soul is the living thing in man, that which lives of itself and causes
+    life—Greek psyche means butterfly, quick-moving, twinkling.
+  source_ref: ¶55-56
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548528'
+- snippet_id: ns_cw9i_019
+  trigger: anima_as_factor
+  factor_trigger: anima
+  role: 主干
+  snippet_text: The anima is a natural archetype, a "factor" that man cannot make—it
+    is the a priori element in moods, reactions, and spontaneous psychic life.
+  source_ref: ¶57
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548535'
+- snippet_id: ns_cw9i_020
+  trigger: shadow_anima_sequence
+  factor_trigger: shadow AND anima
+  role: 主干
+  snippet_text: Shadow encounter is the "apprentice-piece"; anima encounter is the
+    "master-piece"—an ordeal by fire for spiritual and moral forces.
+  source_ref: ¶61
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548547'
+- snippet_id: ns_cw9i_021
+  trigger: archetypes_as_fate
+  factor_trigger: archetype
+  role: 主干依赖
+  snippet_text: Archetypes are complexes of experience that come upon us like fate—it
+    is no use at all to learn a list of archetypes by heart.
+  source_ref: ¶62
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548553'
+- snippet_id: ns_cw9i_022
+  trigger: anima_in_mother
+  factor_trigger: anima AND mother_complex
+  role: 条件分支
+  snippet_text: For the son, the anima is hidden in the dominating power of the mother—can
+    leave sentimental attachment impairing adult fate.
+  source_ref: ¶61
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548560'
+- snippet_id: ns_cw9i_023
+  trigger: wise_old_man
+  factor_trigger: wise_old_man
+  role: 主干
+  snippet_text: The wise old man is the superior master and teacher, the archetype
+    of the spirit, symbolizing the pre-existent meaning hidden in the chaos of life.
+  source_ref: ¶74
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548571'
+- snippet_id: ns_cw9i_054
+  trigger: primordial_thought
+  factor_trigger: archetype AND revelation
+  role: 主干
+  snippet_text: All important ideas are founded on primordial archetypal forms—thought
+    was revelation, forced upon us, not invented.
+  source_ref: ¶69
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548587'
+- snippet_id: ns_cw9i_055
+  trigger: two_magicians
+  factor_trigger: wise_old_man
+  role: 主干依赖
+  snippet_text: 'The white magician said: "For this we need the help of the black
+    magician"—dressed in opposite colors, they are two aspects of the same archetype.'
+  source_ref: ¶71
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548595'
+- snippet_id: ns_cw9i_056
+  trigger: old_king_dies
+  factor_trigger: symbol AND transformation
+  role: 条件分支
+  snippet_text: The old king is the ruling symbol that wants eternal rest—when he
+    dies, the anima awakens as a black horse.
+  source_ref: ¶72
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548601'
+- snippet_id: ns_cw9i_057
+  trigger: keys_paradise
+  factor_trigger: mandala AND individuation
+  role: 总结
+  snippet_text: The black magician found the lost keys of paradise—the mandala is
+    a symbol of individuation.
+  source_ref: ¶73
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548607'
+- snippet_id: ns_cw9i_058
+  trigger: opposites_together
+  factor_trigger: good AND evil
+  role: 主干
+  snippet_text: The old man is showing how good and evil function together—approaching
+    the nirdvandva, freedom from opposites.
+  source_ref: ¶76
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548619'
+- snippet_id: ns_cw9i_059
+  trigger: unconscious_relative
+  factor_trigger: unconscious AND compensation
+  role: 主干依赖
+  snippet_text: The standpoint of the unconscious is relative to the conscious attitude—the
+    tendency to relativize opposites is a notable peculiarity.
+  source_ref: ¶77
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548626'
+- snippet_id: ns_cw9i_060
+  trigger: lucifer_archetype
+  factor_trigger: wise_old_man
+  role: 条件分支
+  snippet_text: If "Lucifer" (light-bringer) were not prejudicial, it would be a suitable
+    name for this archetype of meaning.
+  source_ref: ¶79
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548634'
+- snippet_id: ns_cw9i_061
+  trigger: three_archetypes
+  factor_trigger: shadow AND anima AND wise_old_man
+  role: 总结
+  snippet_text: The three archetypes—shadow, anima, wise old man—can be directly experienced
+    in personified form.
+  source_ref: ¶80
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548640'
+- snippet_id: ns_cw9i_062
+  trigger: transformation_archetypes
+  factor_trigger: null
+  role: 主干
+  snippet_text: Archetypes of transformation are not personalities but typical situations
+    that symbolize transformation.
+  source_ref: ¶80
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548657'
+- snippet_id: ns_cw9i_063
+  trigger: enantiodromia
+  factor_trigger: null
+  role: 主干
+  snippet_text: Symbolic process shows enantiodromian structure like I Ching—rhythm
+    of opposites.
+  source_ref: ¶82
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548670'
+- snippet_id: ns_cw9i_064
+  trigger: individuation_defined
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'In all dissociation: integrate unconscious into consciousness—the
+    "individuation process."'
+  source_ref: ¶83
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548682'
+- snippet_id: ns_cw9i_065
+  trigger: dialectical_method
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Archetypes require dialectical procedure—the alchemical meditatio:
+    "inner colloquy with one''s good angel."'
+  source_ref: ¶85
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548691'
+- snippet_id: ns_cw9i_066
+  trigger: solar_phallus
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Patient: "Surely you see the sun''s penis—that is where the wind
+    comes from."'
+  source_ref: ¶105
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548704'
+- snippet_id: ns_cw9i_067
+  trigger: mithraic_parallel
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Mithraic liturgy: "the tube, origin of ministering wind, hanging
+    from the sun."'
+  source_ref: ¶106
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.548713'
+- snippet_id: ns_cw9i_IX_001
+  trigger: 个体化案例
+  factor_trigger: individuation AND animus
+  role: 主干
+  snippet_text: X小姐与阿尼姆斯生活，访问母亲国家激发绘画——第一幅画显示被困岩石，期望魔法解放。
+  source_ref: ¶525-527
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552268'
+- snippet_id: ns_cw9i_IX_002
+  trigger: 蛋象征
+  factor_trigger: egg_symbol AND individuation
+  role: 主干
+  snippet_text: 石头转变为蛋——生命胚芽，哲学象征——无意识暗示个体化是解决方案。
+  source_ref: ¶529-530
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552281'
+- snippet_id: ns_cw9i_IX_003
+  trigger: 闪电解放
+  factor_trigger: lightning AND liberation
+  role: 主干依赖
+  snippet_text: 闪电从黑暗混沌中炸出圆球——突然的心理状态改变——圆球=自性。
+  source_ref: ¶538
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552288'
+- snippet_id: ns_cw9i_IX_532
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Eggs transformed into abstract spheres; magician's touch became lightning—rediscovering
+    the rotundum, original form of Anthropos.
+  source_ref: ¶531-532
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552301'
+- snippet_id: ns_cw9i_IX_534
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Böhme: "In this Spirit of the Fire-flash consists the Great Almighty
+    Life." Flash = Birth of Light with transformative power.'
+  source_ref: ¶534
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552310'
+- snippet_id: ns_cw9i_IX_535
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Lightning caught in the four Qualities makes a Cross—pertaining to
+    the Kingdom of Glory while Nature remains in darkness.
+  source_ref: ¶535-536
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552319'
+- snippet_id: ns_cw9i_IX_004
+  trigger: 银带墨丘利
+  factor_trigger: mercurius AND animus
+  role: 主干
+  snippet_text: 银带 = 水银 = 墨丘利翅膀 = 阿尼姆斯——在外面而不是里面，尚未整合。
+  source_ref: ¶545
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552327'
+- snippet_id: ns_cw9i_IX_540
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'The unconscious goes straight for its goal: allowing an individual
+    to become whole—not a personal imbroglio.'
+  source_ref: ¶540
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552351'
+- snippet_id: ns_cw9i_IX_541
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Inferior function = deus ex machina, depends on self not ego; thrusts
+    ego aside for totality. Self was always present but sleeping.
+  source_ref: ¶541
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552360'
+- snippet_id: ns_cw9i_IX_543
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Gold = sunlight, value, divinity—the aurum philosophicum. Pyramids
+    = unconscious contents pushing up into consciousness.
+  source_ref: ¶543
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552368'
+- snippet_id: ns_cw9i_IX_548
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Number 12 = culminating point of life; this is the birth of the self,
+    not of the dreamer.
+  source_ref: ¶548
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552378'
+- snippet_id: ns_cw9i_IX_550
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: '"True personality" = Chinese chen-yen = alchemical homo quadratus;
+    the "total" man is as big as the world like an Anthropos.'
+  source_ref: ¶549-550
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552387'
+- snippet_id: ns_cw9i_IX_554
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Primordial image: the world egg encoiled by a snake—the self entwined
+    by the mercurial serpent.'
+  source_ref: ¶554
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552394'
+- snippet_id: ns_cw9i_IX_557
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Black serpent with golden Mercury wings = pneumatic nature; alchemists'
+    Mercurius duplex.
+  source_ref: ¶556-557
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552407'
+- snippet_id: ns_cw9i_IX_559
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Miss X''s realization: "Ego was not the centre—following universal
+    law, I circled round a sun."'
+  source_ref: ¶558-559
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552414'
+- snippet_id: ns_cw9i_IX_563
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Letting go is sine qua non of higher spiritual development; but holding
+    fast requires conscious ego.
+  source_ref: ¶562-563
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552423'
+- snippet_id: ns_cw9i_IX_570
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Swastika wheeling to the right = ascent into light of consciousness;
+    philosophical tree = individuation process.
+  source_ref: ¶569-570
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552433'
+- snippet_id: ns_cw9i_IX_572
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Mandala is a God-image: "God is an infinite circle whose centre is
+    everywhere and circumference nowhere."'
+  source_ref: ¶571-573
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552441'
+- snippet_id: ns_cw9i_IX_576
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Cortices (layers of skin) = cabalistic klippoth; golden cross binds
+    the four together as inner consolidation.
+  source_ref: ¶574-576
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552449'
+- snippet_id: ns_cw9i_IX_580
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Four eddies coalesced into wavy squares; golden points emit rainbow
+    colours = cauda pavonis.
+  source_ref: ¶580
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552457'
+- snippet_id: ns_cw9i_IX_592
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Eye = prototype of mandala; Böhme calls it "Eye of the Wonders of
+    Eternity"—animus had "seen things too blackly."
+  source_ref: ¶591-592
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552468'
+- snippet_id: ns_cw9i_IX_595
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Accepting darkness = kindling a light that illuminates the darkness
+    within.
+  source_ref: ¶595
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552474'
+- snippet_id: ns_cw9i_IX_597
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Mandala divided: above, three white birds (Trinity); below, goat
+    with ravens (Wotan''s birds)—Western Christian background.'
+  source_ref: ¶597
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552482'
+- snippet_id: ns_cw9i_IX_603
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Böhme failed to unite opposites in mandala; Miss X succeeded aided
+    by Chinese Yin-Yang doctrine.
+  source_ref: ¶603
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552493'
+- snippet_id: ns_cw9i_IX_608
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Cancer sign appeared; 16 years later Miss X died of breast cancer—a
+    synchronistic phenomenon at the climax of opposites.
+  source_ref: ¶608
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552503'
+- snippet_id: ns_cw9i_IX_614
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Eye motif = polyophthalmia = "multiple consciousness" of the unconscious.
+  source_ref: ¶614
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552510'
+- snippet_id: ns_cw9i_IX_617
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Nobody can tell the whole story of individuation—death speaks the
+    final "consummatum est."
+  source_ref: ¶617
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552520'
+- snippet_id: ns_cw9i_IX_618
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Masses are not changed unless the individual changes; bettering begins
+    with individual responsibility.
+  source_ref: ¶618
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552527'
+- snippet_id: ns_cw9i_IX_620
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: How can consciousness be linked up again with the unconscious? Anyone
+    who overlooks instincts will be ambuscaded by them.
+  source_ref: ¶620
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552535'
+- snippet_id: ns_cw9i_IX_621
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Pathological reaction = identification with archetype
+  source_ref: inflation/possession → weakening of consciousness. → ¶621
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552543'
+- snippet_id: ns_cw9i_IX_622
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Mandala paintings are ideograms of unconscious contents—they develop
+    out of themselves, often opposing conscious intentions.
+  source_ref: ¶622
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552552'
+- snippet_id: ns_cw9i_IX_626
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Individuation subordinates the many to the One; the One is God; the
+    God-image expresses itself in the mandala.
+  source_ref: ¶626
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.552562'
+- snippet_id: ns_cw9i_XI_001
+  trigger: 曼陀罗普遍性
+  factor_trigger: mandala AND universality
+  role: 主干
+  snippet_text: 曼陀罗东西方普遍存在——自发出现于现代人梦境，表达对完整性和中心化的渴望。
+  source_ref: ¶713-715
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.554044'
+- snippet_id: ns_cw9i_XI_002
+  trigger: 曼陀罗自性
+  factor_trigger: mandala AND self
+  role: 主干
+  snippet_text: 曼陀罗代表自性——人格整体；制作或冥想带来平衡和安宁，是心灵自我调节机制。
+  source_ref: ¶716-718
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.554055'
+- snippet_id: ns_cw9i_IV_259
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Child motif's universality was obscured by disciplinary fragmentation—psychology
+    overlooked the nonconscious psyche until Carus.
+  source_ref: ¶259
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556459'
+- snippet_id: ns_cw9i_IV_260_001
+  trigger: archetype_names
+  factor_trigger: archetype
+  role: 主干
+  snippet_text: 原型有多重名称：母题、原始意象、类型——童子原型是极好的例子。
+  source_ref: ¶260
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556475'
+- snippet_id: ns_cw9i_IV_260_002
+  trigger: archetype_media
+  factor_trigger: archetype AND myth
+  role: 主干依赖
+  snippet_text: 原型在神话/童话中以有序形式出现，在梦/精神病幻想中以无序但隐含连贯的形式出现。
+  source_ref: ¶260
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556483'
+- snippet_id: ns_cw9i_IV_260_003
+  trigger: archetype_nature
+  factor_trigger: archetype AND psyche
+  role: 主干依赖
+  snippet_text: 原型不源于物理事实，而是描述心灵如何体验物理事实——心灵可专制地否认现实。
+  source_ref: ¶260
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556490'
+- snippet_id: ns_cw9i_IV_261_001
+  trigger: myth_experience
+  factor_trigger: myth
+  role: 主干
+  snippet_text: 原始心智不发明神话，而是经历神话——神话是前意识心灵的原初启示。
+  source_ref: ¶261
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556500'
+- snippet_id: ns_cw9i_IV_261_002
+  trigger: myth_vital
+  factor_trigger: myth AND soul
+  role: 主干依赖
+  snippet_text: 神话就是原始部落的心理生活——失去神话遗产如同失去灵魂。
+  source_ref: ¶261
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556505'
+- snippet_id: ns_cw9i_IV_261_003
+  trigger: myth_religion
+  factor_trigger: myth AND religion
+  role: 主干依赖
+  snippet_text: 部落的神话就是它的活宗教——失去它总是道德灾难。
+  source_ref: ¶261
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556512'
+- snippet_id: ns_cw9i_IV_262_001
+  trigger: two_fantasy_types
+  factor_trigger: fantasy
+  role: 主干
+  snippet_text: 幻想分两类：个人的可通过回忆解释；非个人的不可还原，与神话类型平行。
+  source_ref: ¶262
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556521'
+- snippet_id: ns_cw9i_IV_262_002
+  trigger: impersonal_inherited
+  factor_trigger: impersonal_fantasy AND inheritance
+  role: 主干依赖
+  snippet_text: 非个人幻想对应集体结构元素，如身体形态元素一样是遗传的。
+  source_ref: ¶262
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556526'
+- snippet_id: ns_cw9i_IV_262_003
+  trigger: collective_unconscious_origin
+  factor_trigger: collective_unconscious
+  role: 主干依赖
+  snippet_text: 大量无法用传统解释的案例迫使假设"自生复活"——由此产生集体无意识概念。
+  source_ref: ¶262
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556532'
+- snippet_id: ns_cw9i_IV_263_001
+  trigger: reduced_consciousness
+  factor_trigger: consciousness AND archetype
+  role: 主干
+  snippet_text: 原型内容产生于意识强度降低的状态——梦、谵妄、幻想、幻觉——此时意识抑制停止，无意识如打开的侧闸涌入。
+  source_ref: ¶263
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556542'
+- snippet_id: ns_cw9i_IV_264_001
+  trigger: abaissement
+  factor_trigger: consciousness AND janet
+  role: 主干
+  snippet_text: 雅内的"心理水平下降"对应原始意识状态——神话最初就在此状态中形成，与今天个体中原型显现相似。
+  source_ref: ¶264
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556550'
+- snippet_id: ns_cw9i_IV_265_001
+  trigger: as_if
+  factor_trigger: archetype AND interpretation
+  role: 主干
+  snippet_text: 每种原型解释必然是"似乎"——意义核心可界定但不可描述。
+  source_ref: ¶265
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556558'
+- snippet_id: ns_cw9i_IV_265_002
+  trigger: preconscious
+  factor_trigger: preconscious_structure
+  role: 主干依赖
+  snippet_text: 前意识结构早于人格统一和意识存在——幼儿期梦常显现原型内容。
+  source_ref: ¶265
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556565'
+- snippet_id: ns_cw9i_IV_266_001
+  trigger: living_forces
+  factor_trigger: archetype
+  role: 主干
+  snippet_text: 原型是活的心理力量，要求被认真对待——它们有奇特方式确保其效果。
+  source_ref: ¶266
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556573'
+- snippet_id: ns_cw9i_IV_266_002
+  trigger: protection_salvation
+  factor_trigger: archetype AND function
+  role: 主干依赖
+  snippet_text: 原型是保护与救赎的带来者——违反它们导致"灵魂危险"和神经症/精神病。
+  source_ref: ¶266
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556578'
+- snippet_id: ns_cw9i_IV_266_003
+  trigger: archetype_as_organ
+  factor_trigger: archetype AND body
+  role: 主干依赖
+  snippet_text: 原型行为像身体器官——忽视或虐待它们会导致疾病。
+  source_ref: ¶266
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556584'
+- snippet_id: ns_cw9i_IV_267_001
+  trigger: archetype_metaphor
+  factor_trigger: archetype AND expression
+  role: 主干
+  snippet_text: 原型以隐喻表达——既非此物也非彼物，而是未知第三物，不能纳入公式。
+  source_ref: ¶267
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556595'
+- snippet_id: ns_cw9i_IV_267_002
+  trigger: archetype_foundation
+  factor_trigger: archetype AND neurosis
+  role: 主干依赖
+  snippet_text: 脱离原型根基必付神经症代价——如脱离身体和器官就是自杀。
+  source_ref: ¶267
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556600'
+- snippet_id: ns_cw9i_IV_267_003
+  trigger: saviour_metamorphosis
+  factor_trigger: saviour AND child
+  role: 主干依赖
+  snippet_text: 救世主在"神的变形"中反复崛起——从石头、树、水中涌出，以童子、侏儒等模糊形式。
+  source_ref: ¶267
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556605'
+- snippet_id: ns_cw9i_IV_268_001
+  trigger: child_god
+  factor_trigger: child_archetype
+  role: 主干
+  snippet_text: 童神原型极其普遍——基督童子"比小更小，比大更大"体现悖论本质。
+  source_ref: ¶268
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556614'
+- snippet_id: ns_cw9i_IV_268_002
+  trigger: anthroparion
+  factor_trigger: child_archetype AND alchemy
+  role: 主干依赖
+  snippet_text: 炼金术的小金属人居住矿井、代表金属，特别是完美重生的墨丘利。
+  source_ref: ¶268
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556619'
+- snippet_id: ns_cw9i_IV_268_003
+  trigger: irruption
+  factor_trigger: child_archetype AND unconscious
+  role: 主干依赖
+  snippet_text: 中世纪证据显示童子不仅是传统形象，而是"无意识的突入"——自发体验的幻象。
+  source_ref: ¶268
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556624'
+- snippet_id: ns_cw9i_IV_269_001
+  trigger: puer_aeternus_modern
+  factor_trigger: puer_aeternus
+  role: 主干
+  snippet_text: 现代文学中永恒少年仍以新形式出现——证明童子原型的持久生命力。
+  source_ref: ¶269
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556631'
+- snippet_id: ns_cw9i_IV_270_001
+  trigger: child_psychopathology
+  factor_trigger: child_archetype AND psychopathology
+  role: 条件分支
+  snippet_text: 精神病理中的童子：想象的孩子、小人——如施雷伯案例中成群折磨患者。
+  source_ref: ¶270
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556642'
+- snippet_id: ns_cw9i_IV_270_002
+  trigger: child_individuation
+  factor_trigger: child_archetype AND individuation
+  role: 主干
+  snippet_text: 童子母题在个体化过程中最清晰最重要——前意识过程通过幻想、梦或积极想象意识化。
+  source_ref: ¶270
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556649'
+- snippet_id: ns_cw9i_IV_270_003
+  trigger: child_chthonic
+  factor_trigger: child_archetype AND chthonic
+  role: 主干依赖
+  snippet_text: 童子常从非基督教的地下层次产生——从鳄鱼、龙、蛇、猴子中发展。
+  source_ref: ¶270
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556655'
+- snippet_id: ns_cw9i_IV_270_004
+  trigger: treasure_hard_to_attain
+  factor_trigger: child_archetype AND treasure
+  role: 主干依赖
+  snippet_text: 童子是"难以获得的宝藏"母题特例——可变形为宝石、珍珠、金蛋、四元性、金球等。
+  source_ref: ¶270
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556660'
+- snippet_id: ns_cw9i_IV_271_001
+  trigger: archetype_unexplainable
+  factor_trigger: archetype AND interpretation
+  role: 主干
+  snippet_text: 原型不能被最终解释——最好的解释只是翻译成另一种隐喻语言，我们能做的最多是"将神话继续做梦"。
+  source_ref: ¶271
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556669'
+- snippet_id: ns_cw9i_IV_271_002
+  trigger: archetype_organ
+  factor_trigger: archetype
+  role: 主干
+  snippet_text: 原型是存在于所有人中的心理器官——坏解释伤害它，最终伤害解释者自己。
+  source_ref: ¶271
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556674'
+- snippet_id: ns_cw9i_IV_271_003
+  trigger: religio
+  factor_trigger: archetype AND religion
+  role: 主干依赖
+  snippet_text: Religio = "联结回去"——与原型根源的联系是所有宗教生活的本质。
+  source_ref: ¶271
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556679'
+- snippet_id: ns_cw9i_IV_272_001
+  trigger: no_rational_substitute
+  factor_trigger: archetype
+  role: 主干
+  snippet_text: 原型没有理性替代物——如小脑或肾脏不能被替代，必须问目的论问题：原型的生物学目的是什么？
+  source_ref: ¶272
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556688'
+- snippet_id: ns_cw9i_IV_273_001
+  trigger: child_collective
+  factor_trigger: child_archetype AND collective_psyche
+  role: 主干
+  snippet_text: 童子母题代表集体心灵的前意识、童年方面——不是个人童年记忆，而是人类共同的心理遗产。
+  source_ref: ¶273
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556695'
+- snippet_id: ns_cw9i_IV_274_001
+  trigger: dissociation
+  factor_trigger: dissociation AND persona
+  role: 主干
+  snippet_text: 看到自己作为童子的幻象以解离为条件——为人格面具切断原初性格导致失去根基。
+  source_ref: ¶274
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556703'
+- snippet_id: ns_cw9i_IV_275_001
+  trigger: religious_ritual
+  factor_trigger: ritual AND original_condition
+  role: 主干
+  snippet_text: 宗教仪式将童年意象一次又一次呈现在意识眼前——以使与原初状态的联系不被打断。
+  source_ref: ¶275
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556711'
+- snippet_id: ns_cw9i_IV_276_001
+  trigger: compensation_function
+  factor_trigger: archetype AND compensation
+  role: 主干
+  snippet_text: 童子母题是当下运作的系统——目的是补偿或修正意识心智不可避免的片面性和极端性。
+  source_ref: ¶276
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556720'
+- snippet_id: ns_cw9i_IV_276_002
+  trigger: promethean_debt
+  factor_trigger: progress AND catastrophe
+  role: 主干依赖
+  snippet_text: 进步积累"普罗米修斯式债务"——必须以可怕灾难偿还。人类梦想飞行，得到的是地毯式轰炸。
+  source_ref: ¶276
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556725'
+- snippet_id: ns_cw9i_IV_277_001
+  trigger: retarding_progressive
+  factor_trigger: compensation AND progress
+  role: 主干
+  snippet_text: 保守理想更原始、自然、道德；进步理想更抽象、不自然——意志强制的进步总是痉挛性的。
+  source_ref: ¶277
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556734'
+- snippet_id: ns_cw9i_IV_277_002
+  trigger: split_possession
+  factor_trigger: dissociation AND possession
+  role: 主干依赖
+  snippet_text: 心理学公理：分裂的心灵部分并非去活化，而是占据人格——可行的进步只能来自两者合作。
+  source_ref: ¶277
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556739'
+- snippet_id: ns_cw9i_IV_278_001
+  trigger: child_futurity
+  factor_trigger: child_archetype AND future
+  role: 主干
+  snippet_text: 童子的本质特征是未来性——童子是潜在的未来，预期未来发展，为人格变化铺路。
+  source_ref: ¶278
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556748'
+- snippet_id: ns_cw9i_IV_278_002
+  trigger: child_unites_opposites
+  factor_trigger: child_archetype AND opposites
+  role: 主干依赖
+  snippet_text: 童子是统一对立的象征——调解者、治愈的带来者、使人完整者。
+  source_ref: ¶278
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556753'
+- snippet_id: ns_cw9i_IV_278_003
+  trigger: self_definition
+  factor_trigger: self
+  role: 主干
+  snippet_text: 自性=超越意识的整体性；可表达为圆形、球、四元性——个体化的目标是自性的综合。
+  source_ref: ¶278
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556758'
+- snippet_id: ns_cw9i_IV_279_001
+  trigger: child_plurality
+  factor_trigger: child_archetype AND plurality
+  role: 主干
+  snippet_text: 复数童子无个体特征=解离可能，见于精神分裂症——众多童子代表人格瓦解产物。
+  source_ref: ¶279
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556769'
+- snippet_id: ns_cw9i_IV_279_002
+  trigger: incomplete_synthesis
+  factor_trigger: self AND group
+  role: 主干依赖
+  snippet_text: 正常人复数童子=尚未完成的人格综合——自性仍在复数阶段，只能在群体中体验整体性。
+  source_ref: ¶279
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556849'
+- snippet_id: ns_cw9i_IV_280_001
+  trigger: child_unity
+  factor_trigger: child_archetype AND unity
+  role: 主干
+  snippet_text: 单一童子=无意识且暂时完成的人格综合——如一切无意识，仅意味着可能性。
+  source_ref: ¶280
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556856'
+- snippet_id: ns_cw9i_IV_281_001
+  trigger: child_god_hero
+  factor_trigger: child_archetype
+  role: 主干
+  snippet_text: 童神完全超自然，人格化未整合的集体无意识；童英雄是半神，代表意识与无意识的综合。
+  source_ref: ¶281
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556865'
+- snippet_id: ns_cw9i_IV_281_002
+  trigger: hero_individuation
+  factor_trigger: hero AND individuation
+  role: 主干依赖
+  snippet_text: 童英雄意味着接近整体性的个体化过程的潜在预期。
+  source_ref: ¶281
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556870'
+- snippet_id: ns_cw9i_IV_282_001
+  trigger: miraculous_birth
+  factor_trigger: child_archetype AND self
+  role: 主干
+  snippet_text: 奇迹诞生描绘自性起源的体验方式——心理起源必须非经验地发生。
+  source_ref: ¶282
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556878'
+- snippet_id: ns_cw9i_IV_282_002
+  trigger: dragon_serpent
+  factor_trigger: serpent AND unconscious
+  role: 主干依赖
+  snippet_text: 龙蛇威胁=意识被无意识吞噬的危险；蛇梦表示意识偏离本能基础。
+  source_ref: ¶282
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556883'
+- snippet_id: ns_cw9i_IV_283_001
+  trigger: smaller_bigger_paradox
+  factor_trigger: hero AND paradox
+  role: 主干
+  snippet_text: '"比小更小，比大更大"悖论是英雄本质——能应对最大危险，却被微不足道之物毁灭。'
+  source_ref: ¶283
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556893'
+- snippet_id: ns_cw9i_IV_284_001
+  trigger: conquer_darkness
+  factor_trigger: hero AND consciousness
+  role: 主干
+  snippet_text: 英雄主要功绩是战胜黑暗怪物——意识战胜无意识的胜利；"要有光"是此太古体验的投射。
+  source_ref: ¶284
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556901'
+- snippet_id: ns_cw9i_IV_284_002
+  trigger: loss_of_soul
+  factor_trigger: soul_loss
+  role: 主干依赖
+  snippet_text: 灵魂丧失是原始人典型心理疾病——童子的功绩指向战胜黑暗。
+  source_ref: ¶284
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556905'
+- snippet_id: ns_cw9i_IV_285_001
+  trigger: third_thing
+  factor_trigger: opposites AND transcendent_function
+  role: 主干
+  snippet_text: 从对立碰撞中，无意识创造第三种非理性东西——既非"是"也非"否"，被双方拒绝。
+  source_ref: ¶285
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556914'
+- snippet_id: ns_cw9i_IV_285_002
+  trigger: numinous_child
+  factor_trigger: child_archetype AND numinous
+  role: 主干依赖
+  snippet_text: 童子的神圣性来自其作为第三物的地位——有意义但未知的内容有秘密魅力。
+  source_ref: ¶285
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556919'
+- snippet_id: ns_cw9i_IV_286_001
+  trigger: child_emergence
+  factor_trigger: child_archetype AND conflict
+  role: 主干
+  snippet_text: 童子从冲突情境中涌现——受意识负面态度和无意识"空虚恐惧"双重威胁。
+  source_ref: ¶286
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556926'
+- snippet_id: ns_cw9i_IV_286_002
+  trigger: animal_protection
+  factor_trigger: child_archetype AND instinct
+  role: 主干依赖
+  snippet_text: 自然/本能将童子置于羽翼之下——被动物哺育或保护。
+  source_ref: ¶286
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556934'
+- snippet_id: ns_cw9i_IV_287_001
+  trigger: abandonment_necessary
+  factor_trigger: child_archetype AND independence
+  role: 主干
+  snippet_text: 童子=向独立进化；遗弃是必要条件，非仅症状——必须与起源分离才能独立。
+  source_ref: ¶287
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556943'
+- snippet_id: ns_cw9i_IV_287_002
+  trigger: symbol_redemption
+  factor_trigger: symbol AND consciousness
+  role: 主干依赖
+  snippet_text: 童子象征迷住意识，其救赎效果带来意识自身无法实现的分离；象征预期萌芽意识状态。
+  source_ref: ¶287
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556948'
+- snippet_id: ns_cw9i_IV_288_001
+  trigger: culture_hero
+  factor_trigger: child_archetype AND culture
+  role: 主干
+  snippet_text: 许多童子是文化英雄——带来火、金属、谷物；作为光的带来者战胜黑暗/无意识。
+  source_ref: ¶288
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556956'
+- snippet_id: ns_cw9i_IV_288_002
+  trigger: fear_of_dark
+  factor_trigger: darkness AND fear
+  role: 主干依赖
+  snippet_text: 原始人对黑暗的"非理性"恐惧源于原初无意识状态——夜间神话被释放。
+  source_ref: ¶288
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556961'
+- snippet_id: ns_cw9i_IV_289_001
+  trigger: child_paradox
+  factor_trigger: child_archetype AND invincibility
+  role: 主干
+  snippet_text: 童子神话悖论：无助+危险 vs 超凡力量——微不足道却神圣，将意外渡过难关。
+  source_ref: ¶289
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556969'
+- snippet_id: ns_cw9i_IV_289_002
+  trigger: self_realization_urge
+  factor_trigger: child_archetype AND self_realization
+  role: 主干
+  snippet_text: 童子代表最强大、最不可逃避的冲动——自我实现的冲动，是活生生自然的生命力量人格化。
+  source_ref: ¶289
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556974'
+- snippet_id: ns_cw9i_IV_290_001
+  trigger: golden_egg
+  factor_trigger: child_archetype AND non_differentiation
+  role: 主干
+  snippet_text: 童子诞生指向原初非分化状态——金蛋既是人也是宇宙，又都不是，是非理性第三物。
+  source_ref: ¶290
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556982'
+- snippet_id: ns_cw9i_IV_290_002
+  trigger: fantasy_reality
+  factor_trigger: fantasy AND body
+  role: 主干依赖
+  snippet_text: 幻想是无意识的自然表达，有真实心理生理后果——人体由世界材料构成，幻想通过身体变得可见。
+  source_ref: ¶290
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.556987'
+- snippet_id: ns_cw9i_IV_291_001
+  trigger: symbol_body
+  factor_trigger: self AND body
+  role: 主干
+  snippet_text: 自性象征从身体深处升起——象征是活的身体(corpus et anima)，"童子"是象征的恰当公式。
+  source_ref: ¶291
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557003'
+- snippet_id: ns_cw9i_IV_291_002
+  trigger: depth_universality
+  factor_trigger: symbol AND collective
+  role: 主干依赖
+  snippet_text: 象征越古老/深/生理学
+  source_ref: 越集体/普遍/物质；越抽象/分化→越脱落普遍性。在底层心灵只是"世界"。→ ¶291
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557008'
+- snippet_id: ns_cw9i_IV_292_001
+  trigger: hermaphrodite
+  factor_trigger: child_archetype AND opposites
+  role: 主干
+  snippet_text: 雌雄同体=最强对立面的统一——从原初非分化转化为"统一象征"，指向未来目标。
+  source_ref: ¶292-293
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557017'
+- snippet_id: ns_cw9i_IV_293_001
+  trigger: archetype_bridge
+  factor_trigger: archetype AND mediation
+  role: 主干依赖
+  snippet_text: 原型因统一对立的力量在无意识与意识之间调解——在当今意识与原始整体性之间架起桥梁。
+  source_ref: ¶293
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557024'
+- snippet_id: ns_cw9i_IV_294_001
+  trigger: hermaphrodite_self
+  factor_trigger: hermaphrodite AND self
+  role: 主干
+  snippet_text: 双性原初存在转化为自性象征——对立面战争找到和平，成为自我发展的遥远目标。
+  source_ref: ¶294
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557031'
+- snippet_id: ns_cw9i_IV_294_002
+  trigger: anima_animus
+  factor_trigger: anima AND animus
+  role: 主干依赖
+  snippet_text: 男性无意识天生女性（阿尼玛），女性无意识天生男性（阿尼姆斯）——整体性=意识+无意识统一。
+  source_ref: ¶294
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557037'
+- snippet_id: ns_cw9i_IV_295
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Coniunctio in Gnosticism as mysterium iniquitatis; Gospel of Egyptians:
+    "When two shall be one, male with female neither male nor female."'
+  source_ref: ¶295
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557049'
+- snippet_id: ns_cw9i_IV_296
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Hermaphrodite in modern psychology = male-female antithesis; woman
+    has animus (masculine unconscious), man has anima.
+  source_ref: ¶296
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557057'
+- snippet_id: ns_cw9i_IV_297
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Archetype evolved from fertility magic
+  source_ref: symbolic meaning → psychological process combining conscious and unconscious.
+    → ¶297
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557064'
+- snippet_id: ns_cw9i_IV_298_001
+  trigger: beginning_end
+  factor_trigger: child_archetype AND time
+  role: 主干
+  snippet_text: 童子=开端+终结，初始+终端生物——象征前意识本质和后意识本质。
+  source_ref: ¶298-299
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557074'
+- snippet_id: ns_cw9i_IV_299_001
+  trigger: wholeness_all_embracing
+  factor_trigger: wholeness AND unconscious
+  role: 主干依赖
+  snippet_text: 整体性=全包，超越意识范围——比意识更老更年轻，在时空上包裹意识。
+  source_ref: ¶299
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557080'
+- snippet_id: ns_cw9i_IV_300_001
+  trigger: eternal_child
+  factor_trigger: child_archetype AND personality
+  role: 主干
+  snippet_text: 永恒童子=不可描述经验+不协调+障碍+神圣特权——决定人格终极价值的不可衡量者。
+  source_ref: ¶300
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557088'
+- snippet_id: ns_cw9i_IV_301_001
+  trigger: archetype_irreducible
+  factor_trigger: archetype
+  role: 主干
+  snippet_text: 没有原型可简化为公式——是永远倒不空填不满的容器，只有潜在存在，需不断重新诠释。
+  source_ref: ¶301
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557097'
+- snippet_id: ns_cw9i_IV_302_001
+  trigger: psychology_myth
+  factor_trigger: psychology AND myth
+  role: 主干依赖
+  snippet_text: 心理学使用源自原型结构的观念——产生一种更抽象的神话，是科学神话的元素。
+  source_ref: ¶302
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557102'
+- snippet_id: ns_cw9i_IV_303_001
+  trigger: individuation_stages
+  factor_trigger: child_archetype AND individuation
+  role: 主干
+  snippet_text: 童子原型在个体化中三阶段：童稚认同
+  source_ref: 分离客体化→英雄神话——打破认同后英雄分化为自性象征。→ ¶303
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557111'
+- snippet_id: ns_cw9i_IV_304_001
+  trigger: ego_to_self
+  factor_trigger: ego AND self
+  role: 主干
+  snippet_text: 绕过英雄认同后意识与无意识分离和解综合——人格中心从自我转移到自性。
+  source_ref: ¶304
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557116'
+- snippet_id: ns_cw9i_IV_305_001
+  trigger: four_motifs
+  factor_trigger: child_archetype AND motifs
+  role: 主干
+  snippet_text: 四个童子母题——遗弃、不可战胜、雌雄同体、开端与终结——作为不同经验和理解类别各就其位。
+  source_ref: ¶305
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.557122'
+- snippet_id: ns_cw9i_VIII_000
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Psychosis differs from neurosis: unconscious contents utterly strange,
+    ego swamped by them.'
+  source_ref: ¶493-495
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.560049'
+- snippet_id: ns_cw9i_VIII_001
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Autonomy of unconscious begins with emotions—instinctive, involuntary,
+    upsetting rational order.
+  source_ref: ¶497
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.560063'
+- snippet_id: ns_cw9i_VIII_002
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Unconscious = reality in potentia; conscious thinks in years, unconscious
+    in millennia.
+  source_ref: ¶498-499
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.560071'
+- snippet_id: ns_cw9i_VIII_003
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Unconscious is the mother of consciousness—ego was born out of it.
+  source_ref: ¶501-503
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.560080'
+- snippet_id: ns_cw9i_VIII_003a
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Unconscious often truer and wiser than conscious; fate depends on
+    it.
+  source_ref: ¶504
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.560090'
+- snippet_id: ns_cw9i_VIII_003b
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Unconscious collaboration is intelligent, purposive, compensatory.
+  source_ref: ¶505
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.560097'
+- snippet_id: ns_cw9i_VIII_003c
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: If fragments have personality, the whole must have it to higher degree.
+  source_ref: ¶508
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.560104'
+- snippet_id: ns_cw9i_VIII_504
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Unconscious influences often truer and wiser than conscious thinking;
+    fate largely dependent on unconscious.
+  source_ref: ¶504
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.560114'
+- snippet_id: ns_cw9i_VIII_505
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Unconscious collaboration is intelligent, purposive, compensatory—restoring
+    lost balance.
+  source_ref: ¶505
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.560126'
+- snippet_id: ns_cw9i_VIII_508
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: If fragments have personality, the whole must have personality—dormant
+    or dreaming.
+  source_ref: ¶508
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.560133'
+- snippet_id: ns_cw9i_VIII_004
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Anima (in man) and animus (in woman) = contrasexual unconscious personality.
+  source_ref: ¶511-512
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.560142'
+- snippet_id: ns_cw9i_VIII_005
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Shadow = personal unconscious, personifies refused inferior traits.
+  source_ref: ¶513
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.560149'
+- snippet_id: ns_cw9i_VIII_006
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Individuation = fair fight between conscious and unconscious; hammer
+    and anvil forging "individual."
+  source_ref: ¶522
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.560158'
+- snippet_id: ns_cw9i_VIII_007
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Union of opposites = "transcendent function"—goal of psychotherapy
+    beyond symptom cure.
+  source_ref: ¶524
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.560165'
+- snippet_id: ns_cw9i_VII_456_001
+  trigger: trickster_features
+  factor_trigger: trickster AND mercurius
+  role: 主干
+  snippet_text: 骗术师特征：恶作剧、变形、双重性、受折磨、近救世主——墨丘利是典型组合。
+  source_ref: §456
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561168'
+- snippet_id: ns_cw9i_VII_457_001
+  trigger: poltergeist
+  factor_trigger: trickster AND parapsychology
+  role: 主干依赖
+  snippet_text: 骚灵=超心理学中的骗术师平行物——围绕青春期前儿童的恶作剧和低智力通信。
+  source_ref: §457
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561178'
+- snippet_id: ns_cw9i_VII_458_001
+  trigger: yahweh_trickster
+  factor_trigger: trickster AND yahweh
+  role: 主干依赖
+  snippet_text: 旧约雅威展现骗术师特征——不可预测、毁灭狂欢、自我强加痛苦、逐渐人性化。
+  source_ref: §458
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561185'
+- snippet_id: ns_cw9i_VII_458_002
+  trigger: trickster_saint
+  factor_trigger: trickster AND saint
+  role: 主干
+  snippet_text: 骗术师与圣人=补偿关系——无意义转化为有意义揭示这一关系。
+  source_ref: §458
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561193'
+- snippet_id: ns_cw9i_VII_459_001
+  trigger: fools_feast
+  factor_trigger: trickster AND church
+  role: 主干依赖
+  snippet_text: 中世纪愚人节=古代农神节的教会版——等级颠倒、下流行为、化装舞蹈。
+  source_ref: §459
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561199'
+- snippet_id: ns_cw9i_VII_465
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Trickster is a psychologem—archetypal structure of extreme antiquity,
+    reflecting undifferentiated consciousness barely above animal level.
+  source_ref: §465
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561212'
+- snippet_id: ns_cw9i_VII_469
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Trickster motif appears in modern man's "accidents"—I call this component
+    the shadow.
+  source_ref: §469
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561220'
+- snippet_id: ns_cw9i_VII_472
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Trickster is forerunner of saviour; his sufferings are real and therapeutic—through
+    laughter man rises above his predicament.
+  source_ref: §472
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561228'
+- snippet_id: ns_cw9i_VII_477_001
+  trigger: civilizing_process
+  factor_trigger: trickster AND civilization
+  role: 主干
+  snippet_text: 文明化过程在骗术师循环内开始——原始状态被克服，行为变有用明智。
+  source_ref: §477
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561236'
+- snippet_id: ns_cw9i_VII_478_001
+  trigger: forgotten_trickster
+  factor_trigger: trickster AND shadow
+  role: 主干
+  snippet_text: 文明人遗忘骗术师——不知阴影危险，群众聚集时阴影被动员并可肉身化。
+  source_ref: §478
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561241'
+- snippet_id: ns_cw9i_VII_480_001
+  trigger: therapeutic_myth
+  factor_trigger: trickster AND therapy
+  role: 主干
+  snippet_text: 骗术师神话有治疗效果——使人不忘早期状态，两种矛盾倾向并存。
+  source_ref: §480
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561272'
+- snippet_id: ns_cw9i_VII_484_001
+  trigger: psychic_polarity
+  factor_trigger: psyche AND structure
+  role: 主干依赖
+  snippet_text: 心灵极性结构——统一在中间，神话形象作为自主人格直接作用于无意识。
+  source_ref: §484
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561281'
+- snippet_id: ns_cw9i_VII_484_002
+  trigger: collective_shadow
+  factor_trigger: trickster AND shadow
+  role: 主干
+  snippet_text: 骗术师=集体阴影=所有低劣特征总和——个体阴影从不缺席，集体形象不断构建。
+  source_ref: §484
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561290'
+- snippet_id: ns_cw9i_VII_487_001
+  trigger: saviour_hint
+  factor_trigger: trickster AND saviour
+  role: 主干依赖
+  snippet_text: 救世主暗示=灾难被意识理解——阴影整合创造痛苦处境，只有救世主能解开。
+  source_ref: §487
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561306'
+- snippet_id: ns_cw9i_VII_488_001
+  trigger: enantiodromia
+  factor_trigger: shadow AND transformation
+  role: 主干依赖
+  snippet_text: 个体阴影含向对立面转化种子——意识发展带来从无意识囚禁的解放。
+  source_ref: §488
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.561316'
+- snippet_id: ns_cw9i_V_306_001
+  trigger: kore_archetype
+  factor_trigger: kore AND anima AND self
+  role: 主干
+  snippet_text: Kore的心理学对应：自性/超位人格+阿尼玛——三相女神是无意识心理学的实际问题。
+  source_ref: §306
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562578'
+- snippet_id: ns_cw9i_V_307_001
+  trigger: definition_difficulty
+  factor_trigger: archetype AND context
+  role: 主干依赖
+  snippet_text: 原型只在习惯性语境中清晰——抽象本质会使之模糊，需让其保持有机整体。
+  source_ref: §307
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562589'
+- snippet_id: ns_cw9i_V_308_001
+  trigger: phenomenology
+  factor_trigger: method
+  role: 主干
+  snippet_text: 现象学方法是研究心理现象的唯一可行途径——描述和分类优于过早解释。
+  source_ref: §308
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562599'
+- snippet_id: ns_cw9i_V_309_001
+  trigger: archetype_list
+  factor_trigger: archetypes
+  role: 主干
+  snippet_text: 主要原型：阴影、智慧老人、童子、母亲、少女、阿尼玛/阿尼姆斯——反复出现的情境和人物类型。
+  source_ref: §309
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562605'
+- snippet_id: ns_cw9i_V_310_001
+  trigger: kore_gender
+  factor_trigger: kore AND gender
+  role: 主干
+  snippet_text: Kore在男性中=阿尼玛，在女性中=超位人格——心理形象本质双重双极。
+  source_ref: §310
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562613'
+- snippet_id: ns_cw9i_V_314_001
+  trigger: supraordinate
+  factor_trigger: self AND wholeness
+  role: 主干
+  snippet_text: 超位人格=完整的人=真正的人——包括无意识心灵及其要求和需要。
+  source_ref: §314
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562621'
+- snippet_id: ns_cw9i_V_315_001
+  trigger: self_symbols
+  factor_trigger: self AND symbols
+  role: 主干依赖
+  snippet_text: 自性象征：人类形象、兽形、植物、几何形象——从动物到神圣补充人格描述。
+  source_ref: §315
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562627'
+- snippet_id: ns_cw9i_V_316_001
+  trigger: mother_daughter
+  factor_trigger: demeter_kore AND consciousness
+  role: 主干
+  snippet_text: 母女原型向上向下延伸女性意识——每个母亲包含女儿，每个女儿包含母亲，超越时间达永恒。
+  source_ref: §316
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562635'
+- snippet_id: ns_cw9i_V_317_001
+  trigger: eleusinian
+  factor_trigger: demeter AND healing
+  role: 主干依赖
+  snippet_text: 得墨忒耳崇拜=净化+再生——现代文化缺乏厄琉息斯式心理卫生。
+  source_ref: §317
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562644'
+- snippet_id: ns_cw9i_V_319_001
+  trigger: active_imagination
+  factor_trigger: method AND unconscious
+  role: 主干
+  snippet_text: 积极想象=观察内在图像流的内省方法——集中注意、观察变化、悬置批评、客观记录。
+  source_ref: §319-320
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562653'
+- snippet_id: ns_cw9i_V_321_001
+  trigger: case_x
+  factor_trigger: active_imagination AND kore
+  role: 主干
+  snippet_text: 案例X白鸟幻象——麦子、蓝衣女神、母亲原型。
+  source_ref: §321-322
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562663'
+- snippet_id: ns_cw9i_V_323_001
+  trigger: bull_child
+  factor_trigger: europa AND sacrifice
+  role: 主干依赖
+  snippet_text: 公牛与孩童——欧罗巴形式、球游戏与儿童献祭母题。
+  source_ref: §323-324
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562668'
+- snippet_id: ns_cw9i_V_326_001
+  trigger: syzygy
+  factor_trigger: animus AND wholeness
+  role: 主干依赖
+  snippet_text: 青年与少女=配对/合一——阿尼姆斯整合象征整体性。
+  source_ref: §326
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562673'
+- snippet_id: ns_cw9i_V_331_001
+  trigger: earth_mother
+  factor_trigger: chthonic_goddess
+  role: 主干
+  snippet_text: 海底蛇穴神圣女性=地母原型——皮肤黝黑、红唇、巨大力量。
+  source_ref: §331-332
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562680'
+- snippet_id: ns_cw9i_V_333_001
+  trigger: illumination
+  factor_trigger: light AND grain
+  role: 主干依赖
+  snippet_text: 光明与麦田=启示——白火在头上舞动，母亲篇章结束。
+  source_ref: §333-334
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562685'
+- snippet_id: ns_cw9i_V_341_001
+  trigger: sky_woman_bear
+  factor_trigger: supraordinate AND bipolarity
+  role: 主干
+  snippet_text: 天空女人与熊=超位人格双重性——正面保护，负面本能，需整合。
+  source_ref: §340-341
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562699'
+- snippet_id: ns_cw9i_V_343_001
+  trigger: ursanna
+  factor_trigger: bear_goddess AND self
+  role: 主干依赖
+  snippet_text: Ursanna神殿=熊女神+圣母合一——四位一体结构象征自性。
+  source_ref: §342-343
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562704'
+- snippet_id: ns_cw9i_V_347_001
+  trigger: moon_lady
+  factor_trigger: moon AND earth_mother
+  role: 主干依赖
+  snippet_text: 月亮女士vs大地母亲——上方推动冒险，下方保护接住，做梦者扮演科瑞角色。
+  source_ref: §345-347
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562709'
+- snippet_id: ns_cw9i_V_356_001
+  trigger: anima_kore
+  factor_trigger: anima AND male
+  role: 主干
+  snippet_text: 男性中科瑞=阿尼玛——双极性，与神秘/黑暗有隐秘联系，在时间之外。
+  source_ref: §356
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562718'
+- snippet_id: ns_cw9i_V_370_001
+  trigger: anima_transformations
+  factor_trigger: anima AND shape_shifting
+  role: 主干依赖
+  snippet_text: 案例Z阿尼玛变形——鸟、蛇、女神、老妇，展示无意识的流动性和矛盾性。
+  source_ref: §359-370
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562724'
+- snippet_id: ns_cw9i_V_383_001
+  trigger: matriarchal
+  factor_trigger: demeter_kore AND matriarchy
+  role: 主干依赖
+  snippet_text: 得墨忒耳-科瑞=母权社会秩序——男性不可或缺但令人不安。
+  source_ref: §383
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.562728'
+- snippet_id: ns_cw9i_X_001
+  trigger: 曼陀罗定义
+  factor_trigger: mandala AND self
+  role: 主干
+  snippet_text: 曼陀罗是圆形图像，代表自性——人格整体，自发出现于心理转折点，提供整合与保护。
+  source_ref: ¶627-635
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.563858'
+- snippet_id: ns_cw9i_X_632
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Kundalini: Shakti as snake wound round lingam (Shiva); creation begins
+    with division of opposites united in deity.'
+  source_ref: ¶632
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.563874'
+- snippet_id: ns_cw9i_X_634
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Basic motif: premonition of personality centre—the self (not ego),
+    source of energy to which everything is related.'
+  source_ref: ¶634
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.563884'
+- snippet_id: ns_cw9i_X_637
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Perfect union of all energies = Diamond Body (Chinese), corpus incorruptibile
+    (medieval), corpus glorificationis (Christian).
+  source_ref: ¶637
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.563892'
+- snippet_id: ns_cw9i_X_646
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Mandala formal elements: circle/sphere/egg, flower/wheel, centre
+    with rays, rotation, snake, squaring of circle, temenos, eye.'
+  source_ref: ¶646
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.563903'
+- snippet_id: ns_cw9i_X_648
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: The inner spiral = Kundalini snake winding three and a half times
+    round the centre stone.
+  source_ref: ¶648
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.563910'
+- snippet_id: ns_cw9i_X_002
+  trigger: 蛇鱼区别
+  factor_trigger: snake AND fish
+  role: 主干
+  snippet_text: 蛇人格化无意识本身，鱼代表其内容——鱼更分化，历史上有更高权威（Ichthys）。
+  source_ref: ¶671-672
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.563922'
+- snippet_id: ns_cw9i_X_003
+  trigger: 珍珠形成
+  factor_trigger: pearl AND treasure
+  role: 主干依赖
+  snippet_text: 鱼在无意识海洋制造漩涡，在中心形成珍贵珍珠——难以获得的宝藏。
+  source_ref: ¶671
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.563929'
+- snippet_id: ns_cw9i_X_663
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Penelope-like weaving of magic circle as counterbalance to life's
+    difficulties—protective against tension of opposites.
+  source_ref: ¶663
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.563940'
+- snippet_id: ns_cw9i_X_672
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Snake = unconscious itself (primitive); fish = its contents (differentiated).
+    Two different stages of development.
+  source_ref: ¶672
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.563948'
+- snippet_id: ns_cw9i_X_679
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Three phases of individuation: chthonic roots below, cultivating
+    mind in middle, reborn receiving illumination at top.'
+  source_ref: ¶679
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.563978'
+- snippet_id: ns_cw9i_X_654
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: 'Liverpool dream: red-flowering magnolia in everlasting sunshine amidst
+    dark city—became ruby rose, "window opening on to eternity."'
+  source_ref: ¶654-655
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.563994'
+- snippet_id: ns_cw9i_X_660
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Four animals at cardinal points = instinctive forces brought into
+    unity; integration of instincts is prerequisite for individuation.
+  source_ref: ¶660
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.564004'
+- snippet_id: ns_cw9i_X_004
+  trigger: 孔雀凤凰
+  factor_trigger: peacock AND phoenix
+  role: 主干
+  snippet_text: 孔雀=凤凰，从火中重生——cauda pavonis是所有颜色，整体性的展开和实现。
+  source_ref: ¶685-686
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.564023'
+- snippet_id: ns_cw9i_X_680
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Five = natural man; four = spiritual man. The dilemma of four and
+    five corresponds to the conflict between culture and nature.
+  source_ref: ¶680
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.564043'
+- snippet_id: ns_cw9i_X_687
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Children's circle drawings function as protective magic circles—self-protection
+    against outer difficulties.
+  source_ref: ¶687-688
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.564052'
+- snippet_id: ns_cw9i_X_689
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Behind the mandala lurks the devil—the shadow aspect represents the
+    chaos that hides behind the self.
+  source_ref: ¶689
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.564060'
+- snippet_id: ns_cw9i_X_692
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Divine Child = child enclosed in revolving sphere = Hiranyagarbha
+    = homunculus.
+  source_ref: ¶692
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.564070'
+- snippet_id: ns_cw9i_X_696
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Breaking lines in schizoid mandala = evil/destructive impulses; regular
+    structure restrains dissociation.
+  source_ref: ¶696
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.564078'
+- snippet_id: ns_cw9i_X_698
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Birth of new insight (eye) from depths of unconscious (sea); eye =
+    the self.
+  source_ref: ¶698
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.564085'
+- snippet_id: ns_cw9i_X_005
+  trigger: 治疗功能
+  factor_trigger: mandala AND healing
+  role: 主干
+  snippet_text: 曼陀罗为心理混乱提供秩序，为分裂人格提供整合——制作过程本身就是治疗。
+  source_ref: ¶700-712
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.564095'
+- snippet_id: ns_cw9i_X_629
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Sanskrit mandala means 'circle'—best and most significant mandalas
+    are found in Tibetan Buddhism.
+  source_ref: ¶629
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.564105'
+- snippet_id: ns_cw9i_X_630
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Mandala as yantra (instrument of contemplation)—aids concentration
+    by narrowing psychic field to the centre.
+  source_ref: ¶630
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.564135'
+- snippet_id: ns_cw9i_II_013
+  trigger: psychology_empirical
+  factor_trigger: methodology
+  role: 主干
+  snippet_text: A drastic revolution by Fechner and Wundt was needed to show that
+    psychology was a field of experience, not philosophical theory.
+  source_ref: ¶111
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565631'
+- snippet_id: ns_cw9i_II_014
+  trigger: freud_limits
+  factor_trigger: methodology
+  role: 条件分支
+  snippet_text: Freud cleared ground only so far as physiological concepts permitted—psychology
+    looked like an offshoot of physiology.
+  source_ref: ¶112
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565645'
+- snippet_id: ns_cw9i_II_015
+  trigger: psyche_totality
+  factor_trigger: psyche
+  role: 总结
+  snippet_text: The psyche does not end where physiological assumption stops—we must
+    consider manifestations in their totality.
+  source_ref: ¶113
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565654'
+- snippet_id: ns_cw9i_II_001
+  trigger: anima_empirical
+  factor_trigger: anima
+  role: 主干
+  snippet_text: The concept of the anima is a purely empirical concept, whose sole
+    purpose is to give a name to a group of related psychic phenomena—not theoretical
+    invention.
+  source_ref: ¶114
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565669'
+- snippet_id: ns_cw9i_II_002
+  trigger: psyche_autonomous
+  factor_trigger: psyche
+  role: 主干依赖
+  snippet_text: The psychic factor must be regarded as an autonomous reality of enigmatic
+    character—psychic processes cannot be fabricated in a retort.
+  source_ref: ¶118
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565678'
+- snippet_id: ns_cw9i_II_003
+  trigger: archetype_independent
+  factor_trigger: archetype
+  role: 条件分支
+  snippet_text: From the unconscious emanate determining influences which, independently
+    of tradition, guarantee similarity of experience—proven by universal mythological
+    parallels.
+  source_ref: ¶118
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565687'
+- snippet_id: ns_cw9i_II_004
+  trigger: anima_chinese
+  factor_trigger: anima
+  role: 条件分支
+  snippet_text: In classical Chinese philosophy, the anima (p'o or kuei) is regarded
+    as the feminine and chthonic part of the soul.
+  source_ref: ¶119
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565702'
+- snippet_id: ns_cw9i_II_005
+  trigger: syzygy_universal
+  factor_trigger: syzygy
+  role: 主干
+  snippet_text: We encounter the anima in the divine syzygies, male-female pairs of
+    deities—yang and yin—as universal as the existence of man and woman.
+  source_ref: ¶120
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565709'
+- snippet_id: ns_cw9i_II_006
+  trigger: gods_as_projections
+  factor_trigger: projection
+  role: 主干依赖
+  snippet_text: Transcendental intuitions are projections—psychic contents extrapolated
+    in metaphysical space and hypostatized.
+  source_ref: ¶120
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565716'
+- snippet_id: ns_cw9i_II_016
+  trigger: god_embarrassing
+  factor_trigger: religion
+  role: 条件分支
+  snippet_text: It is more embarrassing to talk about God at table than to tell a
+    risqué story—admitting analyst is saviour seems pathological.
+  source_ref: ¶124
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565729'
+- snippet_id: ns_cw9i_II_017
+  trigger: isms_as_religion
+  factor_trigger: representation_collective
+  role: 主干
+  snippet_text: Materialism, atheism, communism, socialism, existentialism—all are
+    dominating représentations collectives, proving no one escapes religious ideas.
+  source_ref: ¶125
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565737'
+- snippet_id: ns_cw9i_II_018
+  trigger: archetype_energy
+  factor_trigger: archetype
+  role: 主干依赖
+  snippet_text: The archetype behind religious ideas has its specific energy, which
+    it does not lose even if the conscious mind ignores it.
+  source_ref: ¶129
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565744'
+- snippet_id: ns_cw9i_II_019
+  trigger: prejudice_human
+  factor_trigger: archetype
+  role: 总结
+  snippet_text: Anyone who puts off the mantle of faith does so only because another
+    lies close to hand—no one can escape the prejudice of being human.
+  source_ref: ¶129
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565753'
+- snippet_id: ns_cw9i_II_007
+  trigger: projection_definition
+  factor_trigger: projection
+  role: 主干
+  snippet_text: Projection is an unconscious, automatic process whereby a content
+    transfers itself to an object, so that it seems to belong to that object—it ceases
+    when made conscious.
+  source_ref: ¶121
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565766'
+- snippet_id: ns_cw9i_II_008
+  trigger: projection_unconscious
+  factor_trigger: projection
+  role: 主干依赖
+  snippet_text: 'Projection is never conscious: projections are always there first
+    and are recognized afterwards.'
+  source_ref: ¶122
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565774'
+- snippet_id: ns_cw9i_II_009
+  trigger: klaus_vision
+  factor_trigger: syzygy
+  role: 条件分支
+  snippet_text: Brother Klaus saw God in dual form—majestic father AND majestic mother—could
+    not be more unorthodox, proving spontaneous archetypal vision.
+  source_ref: ¶131
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565786'
+- snippet_id: ns_cw9i_II_010
+  trigger: syzygy_proof
+  factor_trigger: syzygy
+  role: 主干
+  snippet_text: The syzygy motif expresses that masculine is always paired with feminine—its
+    wide distribution and emotionality prove it is a fundamental psychic factor.
+  source_ref: ¶134
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565793'
+- snippet_id: ns_cw9i_II_011
+  trigger: tabula_rasa_refuted
+  factor_trigger: archetype
+  role: 主干
+  snippet_text: It is a great mistake to suppose the newborn psyche is a tabula rasa—the
+    child meets stimuli with specific inherited aptitudes, the archetypes.
+  source_ref: ¶136
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565806'
+- snippet_id: ns_cw9i_II_012
+  trigger: archetype_strength
+  factor_trigger: archetype
+  role: 条件分支
+  snippet_text: Archetypes are strongest where consciousness is weakest—they anthropomorphize
+    reality most where fantasy can overrun facts.
+  source_ref: ¶137
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565813'
+- snippet_id: ns_cw9i_II_020
+  trigger: hermaphrodite_mother
+  factor_trigger: syzygy
+  role: 条件分支
+  snippet_text: The mother was first a divine hermaphrodite, then through reality's
+    disappointment, changed into an ordinary old woman—this was the patient's "castration."
+  source_ref: ¶138
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565827'
+- snippet_id: ns_cw9i_II_021
+  trigger: castration_reframed
+  factor_trigger: castration_complex
+  role: 主干
+  snippet_text: '"Fear of castration" was fear of real life, which refused to come
+    up to childish expectations and lacked mythological meaning—life became "godless."'
+  source_ref: ¶139
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565835'
+- snippet_id: ns_cw9i_II_022
+  trigger: dual_birth
+  factor_trigger: godparents
+  role: 条件分支
+  snippet_text: Godparents represent the pair of gods who appear at birth—the "dual
+    birth" motif preserving connection to archetypal stage.
+  source_ref: ¶140
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565842'
+- snippet_id: ns_cw9i_II_023
+  trigger: archetype_loss
+  factor_trigger: archetype
+  role: 总结
+  snippet_text: Nobody can stand total loss of the archetype—when that happens, it
+    gives rise to frightful "discontent in culture" where nobody feels at home.
+  source_ref: ¶141
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565851'
+- snippet_id: ns_cw9i_II_142
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Archetype in quiescent state has no determinable form—assumes definite
+    form only in projection.
+  source_ref: ¶142
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565864'
+- snippet_id: ns_cw9i_II_143
+  trigger: ''
+  factor_trigger: null
+  role: 主干
+  snippet_text: Empirically = types; but basic psychic elements infinitely varied—empiricist
+    uses theoretical "as if."
+  source_ref: ¶143
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565874'
+- snippet_id: ns_cw9i_II_024
+  trigger: anima_effects
+  factor_trigger: anima
+  role: 主干
+  snippet_text: The anima intensifies, exaggerates, falsifies, and mythologizes all
+    emotional relations—when constellated, she makes a man touchy, moody, jealous,
+    maladjusted.
+  source_ref: ¶144
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565884'
+- snippet_id: ns_cw9i_II_025
+  trigger: before_midlife
+  factor_trigger: development
+  role: 条件分支
+  snippet_text: Before midlife, a man can bear total anima loss—the important thing
+    is for a man to be a man, freeing from mother's fascination.
+  source_ref: ¶146
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565891'
+- snippet_id: ns_cw9i_II_026
+  trigger: after_midlife
+  factor_trigger: development
+  role: 条件分支
+  snippet_text: After midlife, permanent anima loss means diminution of vitality,
+    flexibility, human kindness—premature rigidity or resignation.
+  source_ref: ¶147
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565899'
+- snippet_id: ns_cw9i_II_027
+  trigger: reconnect_archetype
+  factor_trigger: therapy
+  role: 总结
+  snippet_text: After middle life, connection with the archetypal sphere of experience
+    should if possible be re-established.
+  source_ref: ¶147
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.565906'

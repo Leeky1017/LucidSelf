@@ -1,0 +1,21 @@
+$ sed -n "1,20p" openspec/SPECS_INDEX.md
+# SPECS_INDEX（控制台中枢）
+
+包含：规格清单（≈26）、优先级、门禁归属、依赖 DAG、验收口径、审计闭环方法。
+
+## Specs Overview
+ID | 名称 | 优先级 | Owner | 状态 | Gate
+--- | --- | --- | --- | --- | ---
+engine-id-governance | 引擎ID治理 | P0 | system | 进行中 | Gate-0
+identity-and-data-isolation | 身份与数据隔离 | P0 | system | 进行中 | Gate-0
+observability-slos | 可观测性与SLO | P0 | system | 未开始 | Gate-0
+production-defaults-no-mock | 生产默认值（禁止Mock） | P0 | system | 未开始 | Gate-0
+security-privacy-compliance | 安全/隐私/合规 | P0 | system | 未开始 | Gate-0
+versioning-and-deviation-detection | 版本化与偏差检测 | P0 | system | 未开始 | Gate-0
+bootability-and-regression-baseline | 启动性与回归基线 | P0 | system | 未开始 | Gate-1
+citations-evidence-protocol | 引用与证据协议 | P0 | system | 未开始 | Gate-1
+golden-sets-and-regression | Golden Set与回归评测 | P0 | system | 未开始 | Gate-1
+semantic-layer-core | 语义层核心 | P0 | system | 未开始 | Gate-1
+fusion-engine-explainability | 融合引擎可解释性 | P0 | system | 未开始 | Gate-2
+seven-engine-pipeline-e2e | 七引擎流水线E2E | P0 | system | 未开始 | Gate-2
+semantic-extraction-quality-gates | 语义抽取质量门禁 | P1 | system | 未开始 | Gate-1

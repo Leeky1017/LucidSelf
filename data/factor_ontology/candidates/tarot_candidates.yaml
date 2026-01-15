@@ -1,0 +1,4103 @@
+system: tarot
+total_candidates: 326
+extraction_time: '2025-12-04T22:30:22.505755'
+by_type:
+  Historical:
+  - factor_type: Historical
+    factor_label: Italian Origin
+    factor_id: tarot_origin_italy
+    factor_source: new_candidate
+    role_position: Origin
+    value_constraints: 15th century
+    engine_id: tarot_semantic
+    notes: Documented
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/Learning the Tarot/编辑/Tarot_Practice_Method_v2.1.md
+    line_number: 3
+    block_index: 0
+    inferred_system: tarot
+  Conceptual:
+  - factor_type: Conceptual
+    factor_label: Personal Growth Tool
+    factor_id: tarot_growth_tool
+    factor_source: new_candidate
+    role_position: Function
+    value_constraints: Self-discovery
+    engine_id: tarot_semantic
+    notes: Modern use
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/Learning the Tarot/编辑/Tarot_Practice_Method_v2.1.md
+    line_number: 4
+    block_index: 0
+    inferred_system: tarot
+  Quality:
+  - factor_type: Quality
+    factor_label: Spontaneity
+    factor_id: spontaneity
+    factor_source: new_candidate
+    role_position: Characteristic
+    value_constraints: Living in moment
+    engine_id: tarot_semantic
+    notes: Fool attribute
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/Learning the Tarot/编辑/Tarot_Practice_Method_v2.1.md
+    line_number: 4
+    block_index: 4
+    inferred_system: tarot
+  - factor_type: Quality
+    factor_label: Conscious Awareness
+    factor_id: conscious_awareness
+    factor_source: new_candidate
+    role_position: Characteristic
+    value_constraints: Knowing what/why
+    engine_id: tarot_semantic
+    notes: Magician attribute
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/Learning the Tarot/编辑/Tarot_Practice_Method_v2.1.md
+    line_number: 3
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: Quality
+    factor_label: Nonaction
+    factor_id: nonaction
+    factor_source: new_candidate
+    role_position: Characteristic
+    value_constraints: Wise waiting
+    engine_id: tarot_semantic
+    notes: HP attribute
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/Learning the Tarot/编辑/Tarot_Practice_Method_v2.1.md
+    line_number: 3
+    block_index: 6
+    inferred_system: tarot
+  - factor_type: Quality
+    factor_label: Group Identity
+    factor_id: group_identity
+    factor_source: new_candidate
+    role_position: Characteristic
+    value_constraints: Belonging
+    engine_id: tarot_semantic
+    notes: Hierophant attribute
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/Learning the Tarot/编辑/Tarot_Practice_Method_v2.1.md
+    line_number: 4
+    block_index: 9
+    inferred_system: tarot
+  State:
+  - factor_type: State
+    factor_label: Primordial State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Pre-manifestation
+    engine_id: tarot_semantic
+    notes: Undifferentiated potential
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 8
+    block_index: 0
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Equilibrium State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Dynamic Balance
+    engine_id: null
+    notes: Maintained via constant micro-adjustments
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 1
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Ecstatic Union State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Ecstatic Integration
+    engine_id: null
+    notes: Spirit and instinct unified joyfully
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 2
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Transformation State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Total Dissolution
+    engine_id: null
+    notes: Old forms broken down completely
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 3
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Alchemical Synthesis State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Opposites United
+    engine_id: null
+    notes: Created through solve et coagula
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 4
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Sacred Material State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Earthed Creative Power
+    engine_id: null
+    notes: Matter experienced as divine
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Aeonic Transition State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Old→New Aeon
+    engine_id: null
+    notes: Paradigm shift of age
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 6
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Consciousness State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Focused Will
+    engine_id: null
+    notes: Active manifestation
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 7
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Psychological State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Receptive Silence
+    engine_id: null
+    notes: Subconscious knowing
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 8
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Creative State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Active Nurturing
+    engine_id: null
+    notes: Maternal creation
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 9
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Authority State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Commanding Will
+    engine_id: null
+    notes: Paternal power
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 10
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Consciousness State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Inward Seeking
+    engine_id: null
+    notes: Withdrawal for wisdom
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 13
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Victory State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Achievement
+    value_constraints: Through Will
+    engine_id: null
+    notes: Not force
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 15
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Sacrifice State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Voluntary Surrender
+    engine_id: null
+    notes: Ego death
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 16
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Hope State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Cosmic Trust
+    engine_id: null
+    notes: Renewal/inspiration
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 18
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Liberation State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Freed from Duality
+    engine_id: null
+    notes: Joy/success
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 20
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Completion State
+    factor_id: null
+    factor_source: new_candidate
+    role_position: State
+    value_constraints: Total Integration
+    engine_id: tarot_semantic
+    notes: Perfect manifestation
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 9
+    block_index: 21
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: True Innocence
+    factor_id: state_true_innocence
+    factor_source: new_candidate
+    role_position: Psychological
+    value_constraints: Without fear, total openness
+    engine_id: tarot_semantic
+    notes: Prerequisite for spontaneity
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 6
+    block_index: 0
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Psychic Wholeness
+    factor_id: state_psychic_wholeness
+    factor_source: new_candidate
+    role_position: Psychological
+    value_constraints: Pre-differentiation
+    engine_id: tarot_semantic
+    notes: Before ego/shadow split
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 7
+    block_index: 0
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Lunar Wisdom
+    factor_id: state_lunar_wisdom
+    factor_source: new_candidate
+    role_position: Psychological
+    value_constraints: Receptive knowing
+    engine_id: tarot_semantic
+    notes: Cyclical intuition
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 2
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Total Passivity
+    factor_id: state_total_passivity
+    factor_source: new_candidate
+    role_position: Strategic
+    value_constraints: Non-action preserves
+    engine_id: tarot_semantic
+    notes: Paradox of withdrawal
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 11
+    block_index: 2
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Pure Emotion
+    factor_id: state_pure_emotion
+    factor_source: new_candidate
+    role_position: Psychological
+    value_constraints: Feeling without filter
+    engine_id: tarot_semantic
+    notes: Empress mode
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 11
+    block_index: 3
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Super-conscious
+    factor_id: state_superconscious
+    factor_source: new_candidate
+    role_position: Psychological
+    value_constraints: Product of union
+    engine_id: tarot_semantic
+    notes: Angel Raphael
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 6
+    block_index: 6
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Stone Rigidity
+    factor_id: state_stone_rigidity
+    factor_source: new_candidate
+    role_position: Psychological
+    value_constraints: Ego fixation danger
+    engine_id: tarot_semantic
+    notes: Warning
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 8
+    block_index: 7
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Moment of Release
+    factor_id: state_moment_release
+    factor_source: new_candidate
+    role_position: Psychological
+    value_constraints: Instant of letting go
+    engine_id: tarot_semantic
+    notes: Decisive, not gradual
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 9
+    block_index: 13
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Natural Moderation
+    factor_id: state_natural_moderation
+    factor_source: new_candidate
+    role_position: Psychological
+    value_constraints: Organic balance
+    engine_id: tarot_semantic
+    notes: Not forced
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 8
+    block_index: 14
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Veil Torn
+    factor_id: state_veil_torn
+    factor_source: new_candidate
+    role_position: Mystical
+    value_constraints: Temple opened
+    engine_id: tarot_semantic
+    notes: Access to eternity
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 8
+    block_index: 16
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Behind Veil
+    factor_id: state_behind_veil
+    factor_source: new_candidate
+    role_position: Mystical
+    value_constraints: Direct experience
+    engine_id: tarot_semantic
+    notes: Tower's gift
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 6
+    block_index: 17
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Naked Truth
+    factor_id: state_naked_truth
+    factor_source: new_candidate
+    role_position: Psychological
+    value_constraints: No persona
+    engine_id: tarot_semantic
+    notes: Complete openness
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 7
+    block_index: 17
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Lunar Wildness
+    factor_id: state_lunar_wildness
+    factor_source: new_candidate
+    role_position: Psychological
+    value_constraints: Untamed moon
+    engine_id: tarot_semantic
+    notes: Lunacy quality
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 8
+    block_index: 18
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Lucid
+    factor_id: state_lucid
+    factor_source: new_candidate
+    role_position: Mystical
+    value_constraints: Filled with light
+    engine_id: tarot_semantic
+    notes: Experience not idea
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 6
+    block_index: 19
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: Eden Regained
+    factor_id: state_eden_regained
+    factor_source: new_candidate
+    role_position: Spiritual
+    value_constraints: Paradise within
+    engine_id: tarot_semantic
+    notes: Never lost
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 8
+    block_index: 19
+    inferred_system: tarot
+  - factor_type: State
+    factor_label: The Call
+    factor_id: state_the_call
+    factor_source: new_candidate
+    role_position: Mystical
+    value_constraints: Inside + outside
+    engine_id: tarot_semantic
+    notes: Barrier broken
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 6
+    block_index: 20
+    inferred_system: tarot
+  Relational:
+  - factor_type: Relational
+    factor_label: Chaos as Creative Source
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Relation
+    value_constraints: Chaos→Creation
+    engine_id: tarot_semantic
+    notes: Holy madness births cycles
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 9
+    block_index: 0
+    inferred_system: tarot
+  - factor_type: Relational
+    factor_label: Karma as Natural Law
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Relation
+    value_constraints: Action↔Reaction
+    engine_id: null
+    notes: Neutral cause-effect beyond morality
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 1
+    inferred_system: tarot
+  - factor_type: Relational
+    factor_label: Sacred Sexuality Relation
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Relation
+    value_constraints: Desire↔True Will
+    engine_id: null
+    notes: Desire becomes divine when authentic
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 2
+    inferred_system: tarot
+  - factor_type: Relational
+    factor_label: Death-Rebirth Cycle
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Relation
+    value_constraints: Death↔Rebirth
+    engine_id: null
+    notes: Destruction clears space for new life
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 3
+    inferred_system: tarot
+  - factor_type: Relational
+    factor_label: Great Work Process
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Relation
+    value_constraints: Opposites→Stone
+    engine_id: null
+    notes: Creative union produces Philosopher's Stone
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 4
+    inferred_system: tarot
+  - factor_type: Relational
+    factor_label: Desire-Shame Relation
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Relation
+    value_constraints: Desire↔Shame
+    engine_id: null
+    notes: Shame distorts natural energy into bondage
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: Relational
+    factor_label: Collective Evolution Relation
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Relation
+    value_constraints: Humanity↔Aeon
+    engine_id: null
+    notes: Species-level consciousness shift
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 6
+    inferred_system: tarot
+  - factor_type: Relational
+    factor_label: Elemental Mastery
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Function
+    value_constraints: 4 Elements
+    engine_id: null
+    notes: Wand/Cup/Sword/Disk
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 7
+    inferred_system: tarot
+  - factor_type: Relational
+    factor_label: Karmic Law
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Law
+    value_constraints: Natural Cause-Effect
+    engine_id: null
+    notes: Not moral judgment
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 11
+    inferred_system: tarot
+  - factor_type: Relational
+    factor_label: Microcosm-Macrocosm Union
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Function
+    value_constraints: Bridge
+    engine_id: null
+    notes: Central magical work
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 12
+    inferred_system: tarot
+  - factor_type: Relational
+    factor_label: Sacred Union
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Function
+    value_constraints: Royal Marriage
+    engine_id: null
+    notes: Coniunctio Oppositorum
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 14
+    inferred_system: tarot
+  - factor_type: Relational
+    factor_label: Sacred Vessel
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Container
+    value_constraints: Holy Grail
+    engine_id: null
+    notes: Ego holding divine
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 15
+    inferred_system: tarot
+  Relation ID:
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: Effect Direction
+    notes: source_ref
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 0
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 13
+    block_index: 1
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 2
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 13
+    block_index: 3
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 13
+    block_index: 4
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 13
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 6
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 7
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 8
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 9
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 10
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 11
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 12
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 13
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 14
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 15
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 16
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 17
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 18
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 19
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: null
+    notes: Effect Direction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 14
+    block_index: 20
+    inferred_system: tarot
+  - factor_type: Relation ID
+    factor_label: Relation Type
+    factor_id: Factor A
+    factor_source: Factor B
+    role_position: Relation Nature
+    value_constraints: Condition Constraint
+    engine_id: Effect Direction
+    notes: source_ref
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 21
+    inferred_system: tarot
+  rel_thoth_fool_001:
+  - factor_type: rel_thoth_fool_001
+    factor_label: causal
+    factor_id: tarot_fool AND tarot_chaos
+    factor_source: tarot_primordial_potential
+    role_position: Chaos births potential
+    value_constraints: When Fool card represents primordial chaos birthing infinite
+      potential
+    engine_id: BENEFICIAL
+    notes: 'Crowley #Fool'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 18
+    block_index: 0
+    inferred_system: tarot
+  rel_thoth_fool_002:
+  - factor_type: rel_thoth_fool_002
+    factor_label: complementary
+    factor_id: tarot_zero AND tarot_potential
+    factor_source: tarot_manifestation
+    role_position: Zero contains infinity
+    value_constraints: When Zero archetype contains infinite potential for new manifestation
+    engine_id: BENEFICIAL
+    notes: 'Crowley #Fool'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 19
+    block_index: 0
+    inferred_system: tarot
+  rel_thoth_fool_003:
+  - factor_type: rel_thoth_fool_003
+    factor_label: causal
+    factor_id: tarot_madness AND tarot_wisdom
+    factor_source: tarot_transcendence
+    role_position: Holy madness yields wisdom
+    value_constraints: When divine madness transcends rational limits to yield higher
+      wisdom
+    engine_id: BENEFICIAL
+    notes: 'Crowley #Fool'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 20
+    block_index: 0
+    inferred_system: tarot
+  rel_thoth_fool_004:
+  - factor_type: rel_thoth_fool_004
+    factor_label: semantic_category
+    factor_id: tarot_thoth_fool AND tarot_rws_fool
+    factor_source: tarot_fool_archetype
+    role_position: Same archetype different systems
+    value_constraints: When Thoth and RWS Fool are compared as same archetype in different
+      systems
+    engine_id: NEUTRAL
+    notes: 'Crowley #Fool'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 21
+    block_index: 0
+    inferred_system: tarot
+  Evidence ID:
+  - factor_type: Evidence ID
+    factor_label: l1_anchor
+    factor_id: involved_factors
+    factor_source: confidence
+    role_position: reasoning_path
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 25
+    block_index: 0
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: l1_anchor
+    factor_id: involved_factors
+    factor_source: confidence
+    role_position: reasoning_path
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 1
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: l1_anchor
+    factor_id: involved_factors
+    factor_source: confidence
+    role_position: reasoning_path
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 23
+    block_index: 2
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: l1_anchor
+    factor_id: involved_factors
+    factor_source: confidence
+    role_position: reasoning_path
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 3
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: l1_anchor
+    factor_id: involved_factors
+    factor_source: confidence
+    role_position: reasoning_path
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 4
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: l1_anchor
+    factor_id: involved_factors
+    factor_source: confidence
+    role_position: reasoning_path
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: l1_anchor
+    factor_id: involved_factors
+    factor_source: confidence
+    role_position: reasoning_path
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 23
+    block_index: 6
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: l1_anchor
+    factor_id: involved_factors
+    factor_source: confidence
+    role_position: reasoning_path
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 23
+    block_index: 7
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: Source Anchor
+    factor_id: Involved Factors
+    factor_source: Reasoning Step
+    role_position: Conclusion Direction
+    value_constraints: Confidence
+    engine_id: null
+    notes: Can Generate Rule
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 20
+    block_index: 8
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: Source Anchor
+    factor_id: Involved Factors
+    factor_source: Reasoning Step
+    role_position: Conclusion Direction
+    value_constraints: Confidence
+    engine_id: null
+    notes: Can Generate Rule
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 20
+    block_index: 9
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: Source Anchor
+    factor_id: Involved Factors
+    factor_source: Reasoning Step
+    role_position: Conclusion Direction
+    value_constraints: Confidence
+    engine_id: null
+    notes: Can Generate Rule
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 20
+    block_index: 10
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: Source Anchor
+    factor_id: Involved Factors
+    factor_source: Reasoning Step
+    role_position: Conclusion Direction
+    value_constraints: Confidence
+    engine_id: null
+    notes: Can Generate Rule
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 20
+    block_index: 11
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: Source Anchor
+    factor_id: Involved Factors
+    factor_source: Reasoning Step
+    role_position: Conclusion Direction
+    value_constraints: Confidence
+    engine_id: null
+    notes: Can Generate Rule
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 20
+    block_index: 12
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: Source Anchor
+    factor_id: Involved Factors
+    factor_source: Reasoning Step
+    role_position: Conclusion Direction
+    value_constraints: Confidence
+    engine_id: null
+    notes: Can Generate Rule
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 20
+    block_index: 13
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: Source Anchor
+    factor_id: Involved Factors
+    factor_source: Reasoning Step
+    role_position: Conclusion Direction
+    value_constraints: Confidence
+    engine_id: null
+    notes: Can Generate Rule
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 20
+    block_index: 14
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: Source Anchor
+    factor_id: Involved Factors
+    factor_source: Reasoning Step
+    role_position: Conclusion Direction
+    value_constraints: Confidence
+    engine_id: null
+    notes: Can Generate Rule
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 20
+    block_index: 15
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: Source Anchor
+    factor_id: Involved Factors
+    factor_source: Reasoning Step
+    role_position: Conclusion Direction
+    value_constraints: Confidence
+    engine_id: null
+    notes: Can Generate Rule
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 20
+    block_index: 16
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: Source Anchor
+    factor_id: Involved Factors
+    factor_source: Reasoning Step
+    role_position: Conclusion Direction
+    value_constraints: Confidence
+    engine_id: null
+    notes: Can Generate Rule
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 20
+    block_index: 17
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: Source Anchor
+    factor_id: Involved Factors
+    factor_source: Reasoning Step
+    role_position: Conclusion Direction
+    value_constraints: Confidence
+    engine_id: null
+    notes: Can Generate Rule
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 20
+    block_index: 18
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: Source Anchor
+    factor_id: Involved Factors
+    factor_source: Reasoning Step
+    role_position: Conclusion Direction
+    value_constraints: Confidence
+    engine_id: null
+    notes: Can Generate Rule
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 20
+    block_index: 19
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: Source Anchor
+    factor_id: Involved Factors
+    factor_source: Reasoning Step
+    role_position: Conclusion Direction
+    value_constraints: Confidence
+    engine_id: null
+    notes: Can Generate Rule
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 20
+    block_index: 20
+    inferred_system: tarot
+  - factor_type: Evidence ID
+    factor_label: Source Anchor
+    factor_id: Involved Factors
+    factor_source: Reasoning Step
+    role_position: Conclusion Direction
+    value_constraints: Confidence
+    engine_id: Can Generate Rule
+    notes: Target Rule ID
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 23
+    block_index: 21
+    inferred_system: tarot
+  evi_thoth_fool_001:
+  - factor_type: evi_thoth_fool_001
+    factor_label: '"zero pregnant with infinite possibility"'
+    factor_id: tarot_fool, tarot_zero, tarot_potential
+    factor_source: HIGH
+    role_position: 'Direct Crowley statement: Fool = 0 = infinite potential before
+      manifestation'
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 27
+    block_index: 0
+    inferred_system: tarot
+  evi_thoth_fool_002:
+  - factor_type: evi_thoth_fool_002
+    factor_label: '"primordial creative chaos—the first stirring of divine consciousness"'
+    factor_id: tarot_fool, tarot_chaos, tarot_consciousness
+    factor_source: HIGH
+    role_position: Explicit description of Fool's cosmic function
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 28
+    block_index: 0
+    inferred_system: tarot
+  evi_thoth_fool_003:
+  - factor_type: evi_thoth_fool_003
+    factor_label: '"holy madness—abandoning rationality to access higher wisdom"'
+    factor_id: tarot_madness, tarot_wisdom
+    factor_source: HIGH
+    role_position: Direct statement linking madness to transcendent wisdom
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 29
+    block_index: 0
+    inferred_system: tarot
+  mapping_id:
+  - factor_type: mapping_id
+    factor_label: source_system
+    factor_id: source_factor
+    factor_source: target_system
+    role_position: target_factor
+    value_constraints: mapping_type
+    engine_id: notes
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 33
+    block_index: 0
+    inferred_system: tarot
+  - factor_type: mapping_id
+    factor_label: source_system
+    factor_id: source_factor
+    factor_source: target_system
+    role_position: target_factor
+    value_constraints: mapping_type
+    engine_id: null
+    notes: notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 30
+    block_index: 1
+    inferred_system: tarot
+  - factor_type: mapping_id
+    factor_label: source_system
+    factor_id: source_factor
+    factor_source: target_system
+    role_position: target_factor
+    value_constraints: mapping_type
+    engine_id: null
+    notes: notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 31
+    block_index: 2
+    inferred_system: tarot
+  - factor_type: mapping_id
+    factor_label: source_system
+    factor_id: source_factor
+    factor_source: target_system
+    role_position: target_factor
+    value_constraints: mapping_type
+    engine_id: null
+    notes: notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 30
+    block_index: 3
+    inferred_system: tarot
+  - factor_type: mapping_id
+    factor_label: source_system
+    factor_id: source_factor
+    factor_source: target_system
+    role_position: target_factor
+    value_constraints: mapping_type
+    engine_id: null
+    notes: notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 30
+    block_index: 4
+    inferred_system: tarot
+  - factor_type: mapping_id
+    factor_label: source_system
+    factor_id: source_factor
+    factor_source: target_system
+    role_position: target_factor
+    value_constraints: mapping_type
+    engine_id: null
+    notes: notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 30
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: mapping_id
+    factor_label: source_system
+    factor_id: source_factor
+    factor_source: target_system
+    role_position: target_factor
+    value_constraints: mapping_type
+    engine_id: null
+    notes: notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 31
+    block_index: 6
+    inferred_system: tarot
+  - factor_type: mapping_id
+    factor_label: source_system
+    factor_id: source_factor
+    factor_source: target_system
+    role_position: target_factor
+    value_constraints: mapping_type
+    engine_id: null
+    notes: notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 31
+    block_index: 7
+    inferred_system: tarot
+  map_thoth_fool_001:
+  - factor_type: map_thoth_fool_001
+    factor_label: tarot
+    factor_id: tarot_fool
+    factor_source: astro
+    role_position: astro_planet_uranus
+    value_constraints: analogous
+    engine_id: Both represent sudden breakthrough and chaos
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 35
+    block_index: 0
+    inferred_system: tarot
+  map_thoth_fool_002:
+  - factor_type: map_thoth_fool_002
+    factor_label: tarot
+    factor_id: tarot_primordial_chaos
+    factor_source: jung
+    role_position: jung_collective_unconscious
+    value_constraints: related
+    engine_id: Both represent undifferentiated potential
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 36
+    block_index: 0
+    inferred_system: tarot
+  rel_thoth_adj_001:
+  - factor_type: rel_thoth_adj_001
+    factor_label: causal
+    factor_id: tarot_adjustment AND tarot_balance
+    factor_source: tarot_cosmic_equilibrium
+    role_position: Dynamic balance maintains order
+    value_constraints: When Adjustment card indicates need for dynamic balance and
+      cosmic equilibrium
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 15
+    block_index: 1
+    inferred_system: tarot
+  rel_thoth_adj_002:
+  - factor_type: rel_thoth_adj_002
+    factor_label: complementary
+    factor_id: tarot_karma AND tarot_equilibrium
+    factor_source: tarot_natural_consequence
+    role_position: Actions produce equal reactions
+    value_constraints: When karmic law manifests as natural consequences of past actions
+    engine_id: null
+    notes: NEUTRAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 1
+    inferred_system: tarot
+  rel_thoth_adj_003:
+  - factor_type: rel_thoth_adj_003
+    factor_label: causal
+    factor_id: tarot_lovers AND tarot_will
+    factor_source: tarot_thelemic_balance
+    role_position: Love balanced by will creates harmony
+    value_constraints: When love under will creates Thelemic balance and authentic
+      harmony
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 17
+    block_index: 1
+    inferred_system: tarot
+  rel_thoth_adj_004:
+  - factor_type: rel_thoth_adj_004
+    factor_label: semantic_category
+    factor_id: tarot_adjustment
+    factor_source: tarot_justice_rws
+    role_position: Same archetype renamed
+    value_constraints: When Adjustment (Thoth) and Justice (RWS) are recognized as
+      same archetype
+    engine_id: null
+    notes: NEUTRAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 18
+    block_index: 1
+    inferred_system: tarot
+  evi_thoth_adj_001:
+  - factor_type: evi_thoth_adj_001
+    factor_label: '"Adjustment emphasizes dynamic balance rather than static judgment"'
+    factor_id: tarot_adjustment, tarot_balance
+    factor_source: HIGH
+    role_position: Direct statement distinguishing Thoth from RWS interpretation
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 24
+    block_index: 1
+    inferred_system: tarot
+  evi_thoth_adj_002:
+  - factor_type: evi_thoth_adj_002
+    factor_label: '"Karma as physics, not morality: every action creates equal and
+      opposite reaction"'
+    factor_id: tarot_karma, tarot_equilibrium
+    factor_source: HIGH
+    role_position: Crowley's explicit redefinition of karma as natural law
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 25
+    block_index: 1
+    inferred_system: tarot
+  evi_thoth_adj_003:
+  - factor_type: evi_thoth_adj_003
+    factor_label: '"Love is the law, love under will"'
+    factor_id: tarot_love, tarot_will
+    factor_source: HIGH
+    role_position: Core Thelemic maxim directly quoted
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 1
+    inferred_system: tarot
+  map_thoth_adj_001:
+  - factor_type: map_thoth_adj_001
+    factor_label: tarot
+    factor_id: tarot_adjustment
+    factor_source: astro
+    role_position: astro_sign_libra
+    value_constraints: equivalent
+    engine_id: null
+    notes: Both represent balance and equilibrium
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 32
+    block_index: 1
+    inferred_system: tarot
+  map_thoth_adj_002:
+  - factor_type: map_thoth_adj_002
+    factor_label: tarot
+    factor_id: tarot_karma
+    factor_source: jung
+    role_position: jung_process_individuation
+    value_constraints: related
+    engine_id: null
+    notes: Both involve consequences of choices
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 33
+    block_index: 1
+    inferred_system: tarot
+  rel_thoth_lust_001:
+  - factor_type: rel_thoth_lust_001
+    factor_label: causal
+    factor_id: tarot_lust AND tarot_sacred
+    factor_source: tarot_divine_sexuality
+    role_position: Primal force as sacred
+    value_constraints: When Lust card sanctifies primal creative force as divine sexuality
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 2
+    inferred_system: tarot
+  rel_thoth_lust_002:
+  - factor_type: rel_thoth_lust_002
+    factor_label: complementary
+    factor_id: tarot_babalon AND tarot_beast
+    factor_source: tarot_sacred_union
+    role_position: Feminine directs masculine
+    value_constraints: When Babalon (feminine consciousness) directs Beast (primal
+      masculine)
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 17
+    block_index: 2
+    inferred_system: tarot
+  rel_thoth_lust_003:
+  - factor_type: rel_thoth_lust_003
+    factor_label: causal
+    factor_id: tarot_desire AND tarot_true_will
+    factor_source: tarot_divine_power
+    role_position: Desire aligned with Will is sacred
+    value_constraints: When authentic desire aligns with True Will becoming sacred
+      power
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 18
+    block_index: 2
+    inferred_system: tarot
+  rel_thoth_lust_004:
+  - factor_type: rel_thoth_lust_004
+    factor_label: semantic_category
+    factor_id: tarot_lust
+    factor_source: tarot_strength_rws
+    role_position: Same archetype renamed
+    value_constraints: When Lust (Thoth) and Strength (RWS) are recognized as same
+      archetype
+    engine_id: null
+    notes: NEUTRAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 19
+    block_index: 2
+    inferred_system: tarot
+  evi_thoth_lust_001:
+  - factor_type: evi_thoth_lust_001
+    factor_label: '"Lust represents primal creative force unashamed and unleashed"'
+    factor_id: tarot_lust, tarot_sacred
+    factor_source: HIGH
+    role_position: Direct statement of card's core meaning
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 25
+    block_index: 2
+    inferred_system: tarot
+  evi_thoth_lust_002:
+  - factor_type: evi_thoth_lust_002
+    factor_label: '"Babalon riding the Beast—feminine divine power directing masculine
+      solar force"'
+    factor_id: tarot_babalon, tarot_beast
+    factor_source: HIGH
+    role_position: Explicit description of sacred union symbolism
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 2
+    inferred_system: tarot
+  evi_thoth_lust_003:
+  - factor_type: evi_thoth_lust_003
+    factor_label: '"when desire aligns with True Will, it becomes divine force"'
+    factor_id: tarot_desire, tarot_true_will
+    factor_source: HIGH
+    role_position: Thelemic principle applied to Lust
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 27
+    block_index: 2
+    inferred_system: tarot
+  map_thoth_lust_001:
+  - factor_type: map_thoth_lust_001
+    factor_label: tarot
+    factor_id: tarot_lust
+    factor_source: astro
+    role_position: astro_sign_leo
+    value_constraints: equivalent
+    engine_id: null
+    notes: Both represent creative solar force
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 33
+    block_index: 2
+    inferred_system: tarot
+  map_thoth_lust_002:
+  - factor_type: map_thoth_lust_002
+    factor_label: tarot
+    factor_id: tarot_kundalini
+    factor_source: jung
+    role_position: jung_archetype_anima
+    value_constraints: related
+    engine_id: null
+    notes: Both involve integration of primal energy
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 34
+    block_index: 2
+    inferred_system: tarot
+  rel_thoth_death_001:
+  - factor_type: rel_thoth_death_001
+    factor_label: causal
+    factor_id: tarot_death AND tarot_transformation
+    factor_source: tarot_renewal
+    role_position: Death enables rebirth
+    value_constraints: When Death card indicates old forms dying to enable transformative
+      renewal
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 15
+    block_index: 3
+    inferred_system: tarot
+  rel_thoth_death_002:
+  - factor_type: rel_thoth_death_002
+    factor_label: causal
+    factor_id: tarot_putrefaction AND tarot_rebirth
+    factor_source: tarot_higher_form
+    role_position: Decay precedes regeneration
+    value_constraints: When alchemical putrefaction (Nigredo) precedes regeneration
+      into higher form
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 3
+    inferred_system: tarot
+  rel_thoth_death_003:
+  - factor_type: rel_thoth_death_003
+    factor_label: conditional
+    factor_id: tarot_scorpio AND tarot_transformation
+    factor_source: tarot_transcendence
+    role_position: Scorpion becomes eagle
+    value_constraints: When Scorpio energy transmutes from lowest (scorpion) to highest
+      (eagle) form
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 17
+    block_index: 3
+    inferred_system: tarot
+  rel_thoth_death_004:
+  - factor_type: rel_thoth_death_004
+    factor_label: causal
+    factor_id: tarot_ego_death AND tarot_true_will
+    factor_source: tarot_authentic_self
+    role_position: Old identity dies for new
+    value_constraints: When ego death dissolves false identity revealing authentic
+      True Will self
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 18
+    block_index: 3
+    inferred_system: tarot
+  evi_thoth_death_001:
+  - factor_type: evi_thoth_death_001
+    factor_label: '"Death in Thoth system represents transformation and renewal, not
+      literal physical death"'
+    factor_id: tarot_death, tarot_transformation
+    factor_source: HIGH
+    role_position: Crowley's explicit distinction from literal death
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 24
+    block_index: 3
+    inferred_system: tarot
+  evi_thoth_death_002:
+  - factor_type: evi_thoth_death_002
+    factor_label: '"alchemical putrefaction stage where matter must rot before it
+      can be reborn"'
+    factor_id: tarot_putrefaction, tarot_rebirth
+    factor_source: HIGH
+    role_position: Alchemical framework directly stated
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 25
+    block_index: 3
+    inferred_system: tarot
+  evi_thoth_death_003:
+  - factor_type: evi_thoth_death_003
+    factor_label: '"The three forms of Scorpio (scorpion→snake→eagle) represent progressive
+      transformation stages"'
+    factor_id: tarot_scorpio, tarot_transformation
+    factor_source: HIGH
+    role_position: Explicit transformation sequence
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 3
+    inferred_system: tarot
+  map_thoth_death_001:
+  - factor_type: map_thoth_death_001
+    factor_label: tarot
+    factor_id: tarot_death
+    factor_source: astro
+    role_position: astro_sign_scorpio
+    value_constraints: equivalent
+    engine_id: null
+    notes: Both represent death-rebirth transformation
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 32
+    block_index: 3
+    inferred_system: tarot
+  map_thoth_death_002:
+  - factor_type: map_thoth_death_002
+    factor_label: tarot
+    factor_id: tarot_ego_death
+    factor_source: jung
+    role_position: jung_process_individuation
+    value_constraints: related
+    engine_id: null
+    notes: Both involve dissolution of false self
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 33
+    block_index: 3
+    inferred_system: tarot
+  rel_thoth_art_001:
+  - factor_type: rel_thoth_art_001
+    factor_label: causal
+    factor_id: tarot_art AND tarot_alchemy
+    factor_source: tarot_transcendent_creation
+    role_position: Creative synthesis produces higher form
+    value_constraints: When Art card indicates alchemical synthesis producing transcendent
+      creation
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 15
+    block_index: 4
+    inferred_system: tarot
+  rel_thoth_art_002:
+  - factor_type: rel_thoth_art_002
+    factor_label: complementary
+    factor_id: tarot_solve AND tarot_coagula
+    factor_source: tarot_philosophers_stone
+    role_position: Dissolve then recombine
+    value_constraints: When Solve et Coagula process dissolves and recombines toward
+      Philosopher's Stone
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 4
+    inferred_system: tarot
+  rel_thoth_art_003:
+  - factor_type: rel_thoth_art_003
+    factor_label: complementary
+    factor_id: tarot_androgyne AND tarot_union
+    factor_source: tarot_sacred_marriage
+    role_position: Masculine/feminine united
+    value_constraints: When androgynous figure represents sacred marriage of masculine
+      and feminine
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 17
+    block_index: 4
+    inferred_system: tarot
+  rel_thoth_art_004:
+  - factor_type: rel_thoth_art_004
+    factor_label: causal
+    factor_id: tarot_art AND tarot_will
+    factor_source: tarot_manifest_form
+    role_position: Will applied skillfully creates
+    value_constraints: When skillful will application transforms vision into manifest
+      form
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 18
+    block_index: 4
+    inferred_system: tarot
+  evi_thoth_art_001:
+  - factor_type: evi_thoth_art_001
+    factor_label: '"Art replaces Temperance to emphasize alchemical creation over
+      moral moderation"'
+    factor_id: tarot_art, tarot_alchemy
+    factor_source: HIGH
+    role_position: Crowley's explicit renaming rationale
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 24
+    block_index: 4
+    inferred_system: tarot
+  evi_thoth_art_002:
+  - factor_type: evi_thoth_art_002
+    factor_label: '"Solve et coagula (dissolve and recombine)—the deliberate, skillful
+      uniting of opposites"'
+    factor_id: tarot_solve, tarot_coagula
+    factor_source: HIGH
+    role_position: Core alchemical formula directly stated
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 25
+    block_index: 4
+    inferred_system: tarot
+  evi_thoth_art_003:
+  - factor_type: evi_thoth_art_003
+    factor_label: '"androgynous figure represents union of masculine/feminine, sun/moon,
+      active/passive"'
+    factor_id: tarot_androgyne, tarot_union
+    factor_source: HIGH
+    role_position: Visual symbolism explicitly interpreted
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 4
+    inferred_system: tarot
+  map_thoth_art_001:
+  - factor_type: map_thoth_art_001
+    factor_label: tarot
+    factor_id: tarot_art
+    factor_source: astro
+    role_position: astro_sign_sagittarius
+    value_constraints: equivalent
+    engine_id: null
+    notes: Both represent directed creative vision
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 32
+    block_index: 4
+    inferred_system: tarot
+  map_thoth_art_002:
+  - factor_type: map_thoth_art_002
+    factor_label: tarot
+    factor_id: tarot_alchemical_wedding
+    factor_source: jung
+    role_position: jung_archetype_self
+    value_constraints: related
+    engine_id: null
+    notes: Both represent integration of opposites
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 33
+    block_index: 4
+    inferred_system: tarot
+  rel_thoth_devil_001:
+  - factor_type: rel_thoth_devil_001
+    factor_label: causal
+    factor_id: tarot_devil AND tarot_creative_energy
+    factor_source: tarot_material_manifestation
+    role_position: Primal force creates
+    value_constraints: When Devil card channels primal creative energy into material
+      manifestation
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 15
+    block_index: 5
+    inferred_system: tarot
+  rel_thoth_devil_002:
+  - factor_type: rel_thoth_devil_002
+    factor_label: complementary
+    factor_id: tarot_pan AND tarot_baphomet
+    factor_source: tarot_nature_deity
+    role_position: Nature worship
+    value_constraints: When Pan/Baphomet symbolism honors sexuality and nature as
+      divine force
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 5
+    inferred_system: tarot
+  rel_thoth_devil_003:
+  - factor_type: rel_thoth_devil_003
+    factor_label: conditional
+    factor_id: tarot_chains AND tarot_self_bondage
+    factor_source: tarot_false_imprisonment
+    role_position: Self-imposed through shame
+    value_constraints: When natural desires are suppressed by guilt
+    engine_id: null
+    notes: HARMFUL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 17
+    block_index: 5
+    inferred_system: tarot
+  rel_thoth_devil_004:
+  - factor_type: rel_thoth_devil_004
+    factor_label: causal
+    factor_id: tarot_materialism AND tarot_true_will
+    factor_source: tarot_sacred_success
+    role_position: Material aligned with spirit
+    value_constraints: When worldly ambition serves authentic purpose
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 18
+    block_index: 5
+    inferred_system: tarot
+  evi_thoth_devil_001:
+  - factor_type: evi_thoth_devil_001
+    factor_label: '"The Devil represents creative energy in its most material, primal
+      form"'
+    factor_id: tarot_devil, tarot_creative_energy
+    factor_source: HIGH
+    role_position: Direct statement of card's meaning
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 24
+    block_index: 5
+    inferred_system: tarot
+  evi_thoth_devil_002:
+  - factor_type: evi_thoth_devil_002
+    factor_label: '"Crowley''s Devil is Pan, Baphomet, the Goat of Mendes"'
+    factor_id: tarot_pan, tarot_baphomet
+    factor_source: HIGH
+    role_position: Explicit deity identification
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 25
+    block_index: 5
+    inferred_system: tarot
+  evi_thoth_devil_003:
+  - factor_type: evi_thoth_devil_003
+    factor_label: '"Chains present but loose—we bind ourselves through fear and shame"'
+    factor_id: tarot_chains, tarot_self_bondage
+    factor_source: HIGH
+    role_position: Key interpretive insight
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 5
+    inferred_system: tarot
+  map_thoth_devil_001:
+  - factor_type: map_thoth_devil_001
+    factor_label: tarot
+    factor_id: tarot_devil
+    factor_source: astro
+    role_position: astro_sign_capricorn
+    value_constraints: equivalent
+    engine_id: null
+    notes: Both represent material manifestation
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 32
+    block_index: 5
+    inferred_system: tarot
+  map_thoth_devil_002:
+  - factor_type: map_thoth_devil_002
+    factor_label: tarot
+    factor_id: tarot_sacred_materialism
+    factor_source: jung
+    role_position: jung_archetype_shadow
+    value_constraints: related
+    engine_id: null
+    notes: Both involve integration of rejected aspects
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 33
+    block_index: 5
+    inferred_system: tarot
+  rel_thoth_aeon_001:
+  - factor_type: rel_thoth_aeon_001
+    factor_label: causal
+    factor_id: tarot_aeon AND tarot_paradigm
+    factor_source: tarot_collective_evolution
+    role_position: Age shifts transform consciousness
+    value_constraints: When old worldview has exhausted its purpose
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 6
+    inferred_system: tarot
+  rel_thoth_aeon_002:
+  - factor_type: rel_thoth_aeon_002
+    factor_label: complementary
+    factor_id: tarot_new_age AND tarot_evolution
+    factor_source: tarot_consciousness_leap
+    role_position: Evolution transcends individual
+    value_constraints: When participating in species-level shift
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 17
+    block_index: 6
+    inferred_system: tarot
+  rel_thoth_aeon_003:
+  - factor_type: rel_thoth_aeon_003
+    factor_label: semantic_category
+    factor_id: tarot_nuit AND tarot_hadit AND tarot_horus
+    factor_source: tarot_thelemic_trinity
+    role_position: Three cosmic principles
+    value_constraints: When understanding Thelemic cosmology
+    engine_id: null
+    notes: NEUTRAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 18
+    block_index: 6
+    inferred_system: tarot
+  rel_thoth_aeon_004:
+  - factor_type: rel_thoth_aeon_004
+    factor_label: causal
+    factor_id: tarot_aeon AND tarot_horus
+    factor_source: tarot_new_cosmic_era
+    role_position: Child god replaces dying god
+    value_constraints: When Osiris age gives way to Horus age
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 19
+    block_index: 6
+    inferred_system: tarot
+  evi_thoth_aeon_001:
+  - factor_type: evi_thoth_aeon_001
+    factor_label: '"The Aeon represents paradigm shifts—not just personal transformation
+      but collective consciousness evolution"'
+    factor_id: tarot_aeon, tarot_paradigm
+    factor_source: HIGH
+    role_position: Core card meaning directly stated
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 25
+    block_index: 6
+    inferred_system: tarot
+  evi_thoth_aeon_002:
+  - factor_type: evi_thoth_aeon_002
+    factor_label: '"The old age dies, the new age is born"'
+    factor_id: tarot_new_age, tarot_evolution
+    factor_source: HIGH
+    role_position: Central Aeon concept
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 6
+    inferred_system: tarot
+  evi_thoth_aeon_003:
+  - factor_type: evi_thoth_aeon_003
+    factor_label: '"Nuit (infinite space), Hadit (infinitesimal point), Horus (crowned
+      child)"'
+    factor_id: tarot_nuit, tarot_hadit, tarot_horus
+    factor_source: HIGH
+    role_position: Thelemic trinity explicitly named
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 27
+    block_index: 6
+    inferred_system: tarot
+  map_thoth_aeon_001:
+  - factor_type: map_thoth_aeon_001
+    factor_label: tarot
+    factor_id: tarot_aeon
+    factor_source: astro
+    role_position: astro_age_aquarius
+    value_constraints: analogous
+    engine_id: null
+    notes: Both represent collective paradigm shifts
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 33
+    block_index: 6
+    inferred_system: tarot
+  map_thoth_aeon_002:
+  - factor_type: map_thoth_aeon_002
+    factor_label: tarot
+    factor_id: tarot_collective_evolution
+    factor_source: jung
+    role_position: jung_collective_unconscious
+    value_constraints: related
+    engine_id: null
+    notes: Both involve species-level consciousness
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 34
+    block_index: 6
+    inferred_system: tarot
+  rel_thoth_magus_001:
+  - factor_type: rel_thoth_magus_001
+    factor_label: causal
+    factor_id: tarot_magus AND tarot_illusion
+    factor_source: tarot_manifested_reality
+    role_position: Word creates world
+    value_constraints: When conscious will is focused and trained
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 7
+    inferred_system: tarot
+  rel_thoth_magus_002:
+  - factor_type: rel_thoth_magus_002
+    factor_label: complementary
+    factor_id: tarot_tools AND tarot_mastery
+    factor_source: tarot_effortless_control
+    role_position: Skill transcends force
+    value_constraints: When elemental forces are understood
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 17
+    block_index: 7
+    inferred_system: tarot
+  rel_thoth_magus_003:
+  - factor_type: rel_thoth_magus_003
+    factor_label: complementary
+    factor_id: tarot_caduceus AND tarot_reconciliation
+    factor_source: tarot_opposites_balanced
+    role_position: Active/passive united
+    value_constraints: When opposites are consciously integrated
+    engine_id: null
+    notes: BENEFICIAL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 18
+    block_index: 7
+    inferred_system: tarot
+  rel_thoth_magus_004:
+  - factor_type: rel_thoth_magus_004
+    factor_label: inhibitory
+    factor_id: tarot_ape AND tarot_mimicry
+    factor_source: tarot_truth_distortion
+    role_position: Mimicry without understanding
+    value_constraints: When words imitate without comprehension
+    engine_id: null
+    notes: HARMFUL
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 19
+    block_index: 7
+    inferred_system: tarot
+  evi_thoth_magus_001:
+  - factor_type: evi_thoth_magus_001
+    factor_label: '"The Magus is titled ''The Lord of Illusion'' because he creates
+      the manifested world through the Word"'
+    factor_id: tarot_magus, tarot_illusion
+    factor_source: HIGH
+    role_position: Direct title explanation
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 25
+    block_index: 7
+    inferred_system: tarot
+  evi_thoth_magus_002:
+  - factor_type: evi_thoth_magus_002
+    factor_label: '"The four elemental weapons float freely—signifying effortless
+      mastery"'
+    factor_id: tarot_tools, tarot_mastery
+    factor_source: HIGH
+    role_position: Key visual symbolism interpreted
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 7
+    inferred_system: tarot
+  evi_thoth_magus_003:
+  - factor_type: evi_thoth_magus_003
+    factor_label: '"The Ape beneath serves as a warning: words can either transmit
+      truth or distort it"'
+    factor_id: tarot_ape, tarot_mimicry
+    factor_source: HIGH
+    role_position: Explicit warning stated
+    value_constraints: null
+    engine_id: null
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 27
+    block_index: 7
+    inferred_system: tarot
+  map_thoth_magus_001:
+  - factor_type: map_thoth_magus_001
+    factor_label: tarot
+    factor_id: tarot_magus
+    factor_source: astro
+    role_position: astro_planet_mercury
+    value_constraints: equivalent
+    engine_id: null
+    notes: Both represent communication and intellect
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 33
+    block_index: 7
+    inferred_system: tarot
+  map_thoth_magus_002:
+  - factor_type: map_thoth_magus_002
+    factor_label: tarot
+    factor_id: tarot_logos
+    factor_source: jung
+    role_position: jung_archetype_self
+    value_constraints: related
+    engine_id: null
+    notes: Both represent conscious organizing principle
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 34
+    block_index: 7
+    inferred_system: tarot
+  Boundary:
+  - factor_type: Boundary
+    factor_label: Threshold Guardian
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Role
+    value_constraints: Abyss Crossing
+    engine_id: null
+    notes: Gateway to Supernals
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 8
+    inferred_system: tarot
+  rel_thoth_atu_2:
+  - factor_type: rel_thoth_atu_2
+    factor_label: qabalah_path
+    factor_id: atu_2
+    factor_source: qabalah
+    role_position: Hebrew letter
+    value_constraints: When ATU II corresponds to Hebrew letter and Tree of Life path
+    engine_id: null
+    notes: connecting
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 8
+    inferred_system: tarot
+  evi_thoth_atu_2:
+  - factor_type: evi_thoth_atu_2
+    factor_label: '"Thoth ATU II"'
+    factor_id: atu_2
+    factor_source: Symbol -> meaning
+    role_position: Archetype
+    value_constraints: High
+    engine_id: null
+    notes: 'Yes'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 8
+    inferred_system: tarot
+  Concept ID:
+  - factor_type: Concept ID
+    factor_label: Common Semantics
+    factor_id: Bazi Correspondence
+    factor_source: Astrology Correspondence
+    role_position: Dream Correspondence
+    value_constraints: Psychology Correspondence
+    engine_id: null
+    notes: Notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 8
+    inferred_system: tarot
+  - factor_type: Concept ID
+    factor_label: Common Semantics
+    factor_id: Bazi Correspondence
+    factor_source: Astrology Correspondence
+    role_position: Dream Correspondence
+    value_constraints: Psychology Correspondence
+    engine_id: null
+    notes: Notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 9
+    inferred_system: tarot
+  - factor_type: Concept ID
+    factor_label: Common Semantics
+    factor_id: Bazi Correspondence
+    factor_source: Astrology Correspondence
+    role_position: Dream Correspondence
+    value_constraints: Psychology Correspondence
+    engine_id: null
+    notes: Notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 10
+    inferred_system: tarot
+  - factor_type: Concept ID
+    factor_label: Common Semantics
+    factor_id: Bazi Correspondence
+    factor_source: Astrology Correspondence
+    role_position: Dream Correspondence
+    value_constraints: Psychology Correspondence
+    engine_id: null
+    notes: Notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 11
+    inferred_system: tarot
+  - factor_type: Concept ID
+    factor_label: Common Semantics
+    factor_id: Bazi Correspondence
+    factor_source: Astrology Correspondence
+    role_position: Dream Correspondence
+    value_constraints: Psychology Correspondence
+    engine_id: null
+    notes: Notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 12
+    inferred_system: tarot
+  - factor_type: Concept ID
+    factor_label: Common Semantics
+    factor_id: Bazi Correspondence
+    factor_source: Astrology Correspondence
+    role_position: Dream Correspondence
+    value_constraints: Psychology Correspondence
+    engine_id: null
+    notes: Notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 13
+    inferred_system: tarot
+  - factor_type: Concept ID
+    factor_label: Common Semantics
+    factor_id: Bazi Correspondence
+    factor_source: Astrology Correspondence
+    role_position: Dream Correspondence
+    value_constraints: Psychology Correspondence
+    engine_id: null
+    notes: Notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 14
+    inferred_system: tarot
+  - factor_type: Concept ID
+    factor_label: Common Semantics
+    factor_id: Bazi Correspondence
+    factor_source: Astrology Correspondence
+    role_position: Dream Correspondence
+    value_constraints: Psychology Correspondence
+    engine_id: null
+    notes: Notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 15
+    inferred_system: tarot
+  - factor_type: Concept ID
+    factor_label: Common Semantics
+    factor_id: Bazi Correspondence
+    factor_source: Astrology Correspondence
+    role_position: Dream Correspondence
+    value_constraints: Psychology Correspondence
+    engine_id: null
+    notes: Notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 16
+    inferred_system: tarot
+  - factor_type: Concept ID
+    factor_label: Common Semantics
+    factor_id: Bazi Correspondence
+    factor_source: Astrology Correspondence
+    role_position: Dream Correspondence
+    value_constraints: Psychology Correspondence
+    engine_id: null
+    notes: Notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 17
+    inferred_system: tarot
+  - factor_type: Concept ID
+    factor_label: Common Semantics
+    factor_id: Bazi Correspondence
+    factor_source: Astrology Correspondence
+    role_position: Dream Correspondence
+    value_constraints: Psychology Correspondence
+    engine_id: null
+    notes: Notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 18
+    inferred_system: tarot
+  - factor_type: Concept ID
+    factor_label: Common Semantics
+    factor_id: Bazi Correspondence
+    factor_source: Astrology Correspondence
+    role_position: Dream Correspondence
+    value_constraints: Psychology Correspondence
+    engine_id: null
+    notes: Notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 19
+    inferred_system: tarot
+  - factor_type: Concept ID
+    factor_label: Common Semantics
+    factor_id: Bazi Correspondence
+    factor_source: Astrology Correspondence
+    role_position: Dream Correspondence
+    value_constraints: Psychology Correspondence
+    engine_id: null
+    notes: Notes
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 26
+    block_index: 20
+    inferred_system: tarot
+  - factor_type: Concept ID
+    factor_label: Common Semantics
+    factor_id: Bazi Correspondence
+    factor_source: Astrology Correspondence
+    role_position: Dream Correspondence
+    value_constraints: Psychology Correspondence
+    engine_id: Notes
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 29
+    block_index: 21
+    inferred_system: tarot
+  concept_atu_2:
+  - factor_type: concept_atu_2
+    factor_label: ATU II archetype
+    factor_id: null
+    factor_source: zodiac
+    role_position: archetype_dream
+    value_constraints: archetype
+    engine_id: null
+    notes: Thoth system
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 28
+    block_index: 8
+    inferred_system: tarot
+  rel_thoth_atu_3:
+  - factor_type: rel_thoth_atu_3
+    factor_label: qabalah_path
+    factor_id: atu_3
+    factor_source: qabalah
+    role_position: Hebrew letter
+    value_constraints: When ATU III corresponds to Hebrew letter and Tree of Life
+      path
+    engine_id: null
+    notes: connecting
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 9
+    inferred_system: tarot
+  evi_thoth_atu_3:
+  - factor_type: evi_thoth_atu_3
+    factor_label: '"Thoth ATU III"'
+    factor_id: atu_3
+    factor_source: Symbol -> meaning
+    role_position: Archetype
+    value_constraints: High
+    engine_id: null
+    notes: 'Yes'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 9
+    inferred_system: tarot
+  concept_atu_3:
+  - factor_type: concept_atu_3
+    factor_label: ATU III archetype
+    factor_id: null
+    factor_source: zodiac
+    role_position: archetype_dream
+    value_constraints: archetype
+    engine_id: null
+    notes: Thoth system
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 28
+    block_index: 9
+    inferred_system: tarot
+  rel_thoth_atu_4:
+  - factor_type: rel_thoth_atu_4
+    factor_label: qabalah_path
+    factor_id: atu_4
+    factor_source: qabalah
+    role_position: Hebrew letter
+    value_constraints: When ATU IV corresponds to Hebrew letter and Tree of Life path
+    engine_id: null
+    notes: connecting
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 10
+    inferred_system: tarot
+  evi_thoth_atu_4:
+  - factor_type: evi_thoth_atu_4
+    factor_label: '"Thoth ATU IV"'
+    factor_id: atu_4
+    factor_source: Symbol -> meaning
+    role_position: Archetype
+    value_constraints: High
+    engine_id: null
+    notes: 'Yes'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 10
+    inferred_system: tarot
+  concept_atu_4:
+  - factor_type: concept_atu_4
+    factor_label: ATU IV archetype
+    factor_id: null
+    factor_source: zodiac
+    role_position: archetype_dream
+    value_constraints: archetype
+    engine_id: null
+    notes: Thoth system
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 28
+    block_index: 10
+    inferred_system: tarot
+  Temporal:
+  - factor_type: Temporal
+    factor_label: Cycle Pattern
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Pattern
+    value_constraints: 3-Phase Cycle
+    engine_id: null
+    notes: Creation-Preservation-Destruction
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 11
+    inferred_system: tarot
+  - factor_type: Temporal
+    factor_label: Aeon Cycle
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Cycle
+    value_constraints: 2,000 years
+    engine_id: null
+    notes: Hierophantic rhythm
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 12
+    inferred_system: tarot
+  rel_thoth_atu_10:
+  - factor_type: rel_thoth_atu_10
+    factor_label: qabalah_path
+    factor_id: atu_10
+    factor_source: qabalah
+    role_position: Hebrew letter
+    value_constraints: When ATU X (Fortune) corresponds to Hebrew Kaph and wheel cycle
+    engine_id: null
+    notes: connecting
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 11
+    inferred_system: tarot
+  evi_thoth_atu_10:
+  - factor_type: evi_thoth_atu_10
+    factor_label: '"Thoth ATU X"'
+    factor_id: atu_10
+    factor_source: Symbol -> meaning
+    role_position: Archetype
+    value_constraints: High
+    engine_id: null
+    notes: 'Yes'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 11
+    inferred_system: tarot
+  concept_atu_10:
+  - factor_type: concept_atu_10
+    factor_label: ATU X archetype
+    factor_id: null
+    factor_source: zodiac
+    role_position: archetype_dream
+    value_constraints: archetype
+    engine_id: null
+    notes: Thoth system
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 28
+    block_index: 11
+    inferred_system: tarot
+  rel_thoth_atu_5:
+  - factor_type: rel_thoth_atu_5
+    factor_label: qabalah_path
+    factor_id: atu_5
+    factor_source: qabalah
+    role_position: Hebrew letter
+    value_constraints: When ATU V corresponds to Hebrew letter and Tree of Life path
+    engine_id: null
+    notes: connecting
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 12
+    inferred_system: tarot
+  evi_thoth_atu_5:
+  - factor_type: evi_thoth_atu_5
+    factor_label: '"Thoth ATU V"'
+    factor_id: atu_5
+    factor_source: Symbol -> meaning
+    role_position: Archetype
+    value_constraints: High
+    engine_id: null
+    notes: 'Yes'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 12
+    inferred_system: tarot
+  concept_atu_5:
+  - factor_type: concept_atu_5
+    factor_label: ATU V archetype
+    factor_id: null
+    factor_source: zodiac
+    role_position: archetype_dream
+    value_constraints: archetype
+    engine_id: null
+    notes: Thoth system
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 28
+    block_index: 12
+    inferred_system: tarot
+  rel_thoth_atu_9:
+  - factor_type: rel_thoth_atu_9
+    factor_label: qabalah_path
+    factor_id: atu_9
+    factor_source: qabalah
+    role_position: Hebrew letter
+    value_constraints: When ATU IX corresponds to Hebrew Yod and solitary wisdom path
+    engine_id: null
+    notes: connecting
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 13
+    inferred_system: tarot
+  evi_thoth_atu_9:
+  - factor_type: evi_thoth_atu_9
+    factor_label: '"Thoth ATU IX"'
+    factor_id: atu_9
+    factor_source: Symbol -> meaning
+    role_position: Archetype
+    value_constraints: High
+    engine_id: null
+    notes: 'Yes'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 13
+    inferred_system: tarot
+  concept_atu_9:
+  - factor_type: concept_atu_9
+    factor_label: ATU IX archetype
+    factor_id: null
+    factor_source: zodiac
+    role_position: archetype_dream
+    value_constraints: archetype
+    engine_id: null
+    notes: Thoth system
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 28
+    block_index: 13
+    inferred_system: tarot
+  Process:
+  - factor_type: Process
+    factor_label: Alchemical Operation
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Process
+    value_constraints: Solve et Coagula
+    engine_id: null
+    notes: Dissolve & Coagulate
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 14
+    inferred_system: tarot
+  - factor_type: Process
+    factor_label: Destruction Process
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Process
+    value_constraints: Sudden Demolition
+    engine_id: null
+    notes: Necessary purging
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 6
+    block_index: 17
+    inferred_system: tarot
+  - factor_type: Process
+    factor_label: Evolutionary Ascent
+    factor_id: null
+    factor_source: new_candidate
+    role_position: Evolution
+    value_constraints: Water-Land-Air
+    engine_id: null
+    notes: Consciousness rising
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 7
+    block_index: 19
+    inferred_system: tarot
+  - factor_type: Process
+    factor_label: Naples Arrangement
+    factor_id: naples_arrangement
+    factor_source: new_candidate
+    role_position: Creation sequence
+    value_constraints: 0→10
+    engine_id: qabalah_engine
+    notes: Crowley term
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Theory_of_Tarot.md
+    line_number: 4
+    block_index: 1
+    inferred_system: tarot
+  - factor_type: Process
+    factor_label: Daughter Rising
+    factor_id: daughter_rise
+    factor_source: new_candidate
+    role_position: Renewal
+    value_constraints: Princess→Queen
+    engine_id: qabalah_engine
+    notes: Key secret
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Theory_of_Tarot.md
+    line_number: 4
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: Process
+    factor_label: Experiential Learning
+    factor_id: exp_learning
+    factor_source: new_candidate
+    role_position: Pedagogy
+    value_constraints: Time-based
+    engine_id: tarot_semantic
+    notes: Crowley emphasis
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Appendices_Thoth.md
+    line_number: 4
+    block_index: 0
+    inferred_system: tarot
+  rel_thoth_atu_6:
+  - factor_type: rel_thoth_atu_6
+    factor_label: qabalah_path
+    factor_id: atu_6
+    factor_source: qabalah
+    role_position: Hebrew letter
+    value_constraints: When ATU VI corresponds to Hebrew Zayin and lovers' choice
+      path
+    engine_id: null
+    notes: connecting
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 14
+    inferred_system: tarot
+  evi_thoth_atu_6:
+  - factor_type: evi_thoth_atu_6
+    factor_label: '"Thoth ATU VI"'
+    factor_id: atu_6
+    factor_source: Symbol -> meaning
+    role_position: Archetype
+    value_constraints: High
+    engine_id: null
+    notes: 'Yes'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 14
+    inferred_system: tarot
+  concept_atu_6:
+  - factor_type: concept_atu_6
+    factor_label: ATU VI archetype
+    factor_id: null
+    factor_source: zodiac
+    role_position: archetype_dream
+    value_constraints: archetype
+    engine_id: null
+    notes: Thoth system
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 28
+    block_index: 14
+    inferred_system: tarot
+  rel_thoth_atu_7:
+  - factor_type: rel_thoth_atu_7
+    factor_label: qabalah_path
+    factor_id: atu_7
+    factor_source: qabalah
+    role_position: Hebrew letter
+    value_constraints: When ATU VII corresponds to Hebrew Cheth and victory chariot
+      path
+    engine_id: null
+    notes: connecting
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 15
+    inferred_system: tarot
+  evi_thoth_atu_7:
+  - factor_type: evi_thoth_atu_7
+    factor_label: '"Thoth ATU VII"'
+    factor_id: atu_7
+    factor_source: Symbol -> meaning
+    role_position: Archetype
+    value_constraints: High
+    engine_id: null
+    notes: 'Yes'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 15
+    inferred_system: tarot
+  concept_atu_7:
+  - factor_type: concept_atu_7
+    factor_label: ATU VII archetype
+    factor_id: null
+    factor_source: zodiac
+    role_position: archetype_dream
+    value_constraints: archetype
+    engine_id: null
+    notes: Thoth system
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 28
+    block_index: 15
+    inferred_system: tarot
+  rel_thoth_atu_12:
+  - factor_type: rel_thoth_atu_12
+    factor_label: qabalah_path
+    factor_id: atu_12
+    factor_source: qabalah
+    role_position: Hebrew letter
+    value_constraints: When ATU XII corresponds to Hebrew Mem and suspension/sacrifice
+      path
+    engine_id: null
+    notes: connecting
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 16
+    inferred_system: tarot
+  evi_thoth_atu_12:
+  - factor_type: evi_thoth_atu_12
+    factor_label: '"Thoth ATU XII"'
+    factor_id: atu_12
+    factor_source: Symbol -> meaning
+    role_position: Archetype
+    value_constraints: High
+    engine_id: null
+    notes: 'Yes'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 16
+    inferred_system: tarot
+  concept_atu_12:
+  - factor_type: concept_atu_12
+    factor_label: ATU XII archetype
+    factor_id: null
+    factor_source: zodiac
+    role_position: archetype_dream
+    value_constraints: archetype
+    engine_id: null
+    notes: Thoth system
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 28
+    block_index: 16
+    inferred_system: tarot
+  rel_thoth_atu_16:
+  - factor_type: rel_thoth_atu_16
+    factor_label: qabalah_path
+    factor_id: atu_16
+    factor_source: qabalah
+    role_position: Hebrew letter
+    value_constraints: When ATU XVI corresponds to Hebrew Peh and destruction/liberation
+      path
+    engine_id: null
+    notes: connecting
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 17
+    inferred_system: tarot
+  evi_thoth_atu_16:
+  - factor_type: evi_thoth_atu_16
+    factor_label: '"Thoth ATU XVI"'
+    factor_id: atu_16
+    factor_source: Symbol -> meaning
+    role_position: Archetype
+    value_constraints: High
+    engine_id: null
+    notes: 'Yes'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 17
+    inferred_system: tarot
+  concept_atu_16:
+  - factor_type: concept_atu_16
+    factor_label: ATU XVI archetype
+    factor_id: null
+    factor_source: zodiac
+    role_position: archetype_dream
+    value_constraints: archetype
+    engine_id: null
+    notes: Thoth system
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 28
+    block_index: 17
+    inferred_system: tarot
+  rel_thoth_atu_17:
+  - factor_type: rel_thoth_atu_17
+    factor_label: qabalah_path
+    factor_id: atu_17
+    factor_source: qabalah
+    role_position: Hebrew letter
+    value_constraints: When ATU XVII corresponds to Hebrew Tzaddi and meditation/hope
+      path
+    engine_id: null
+    notes: connecting
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 18
+    inferred_system: tarot
+  evi_thoth_atu_17:
+  - factor_type: evi_thoth_atu_17
+    factor_label: '"Thoth ATU XVII"'
+    factor_id: atu_17
+    factor_source: Symbol -> meaning
+    role_position: Archetype
+    value_constraints: High
+    engine_id: null
+    notes: 'Yes'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 18
+    inferred_system: tarot
+  concept_atu_17:
+  - factor_type: concept_atu_17
+    factor_label: ATU XVII archetype
+    factor_id: null
+    factor_source: zodiac
+    role_position: archetype_dream
+    value_constraints: archetype
+    engine_id: null
+    notes: Thoth system
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 28
+    block_index: 18
+    inferred_system: tarot
+  rel_thoth_atu_18:
+  - factor_type: rel_thoth_atu_18
+    factor_label: qabalah_path
+    factor_id: atu_18
+    factor_source: qabalah
+    role_position: Hebrew letter
+    value_constraints: When ATU XVIII corresponds to Hebrew Qoph and illusion/evolution
+      path
+    engine_id: null
+    notes: connecting
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 19
+    inferred_system: tarot
+  evi_thoth_atu_18:
+  - factor_type: evi_thoth_atu_18
+    factor_label: '"Thoth ATU XVIII"'
+    factor_id: atu_18
+    factor_source: Symbol -> meaning
+    role_position: Archetype
+    value_constraints: High
+    engine_id: null
+    notes: 'Yes'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 19
+    inferred_system: tarot
+  concept_atu_18:
+  - factor_type: concept_atu_18
+    factor_label: ATU XVIII archetype
+    factor_id: null
+    factor_source: zodiac
+    role_position: archetype_dream
+    value_constraints: archetype
+    engine_id: null
+    notes: Thoth system
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 28
+    block_index: 19
+    inferred_system: tarot
+  rel_thoth_atu_19:
+  - factor_type: rel_thoth_atu_19
+    factor_label: qabalah_path
+    factor_id: atu_19
+    factor_source: qabalah
+    role_position: Hebrew letter
+    value_constraints: When ATU XIX corresponds to Hebrew Resh and solar consciousness
+      path
+    engine_id: null
+    notes: connecting
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 16
+    block_index: 20
+    inferred_system: tarot
+  evi_thoth_atu_19:
+  - factor_type: evi_thoth_atu_19
+    factor_label: '"Thoth ATU XIX"'
+    factor_id: atu_19
+    factor_source: Symbol -> meaning
+    role_position: Archetype
+    value_constraints: High
+    engine_id: null
+    notes: 'Yes'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 22
+    block_index: 20
+    inferred_system: tarot
+  concept_atu_19:
+  - factor_type: concept_atu_19
+    factor_label: ATU XIX archetype
+    factor_id: null
+    factor_source: zodiac
+    role_position: archetype_dream
+    value_constraints: archetype
+    engine_id: null
+    notes: Thoth system
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 28
+    block_index: 20
+    inferred_system: tarot
+  rel_thoth_atu_21:
+  - factor_type: rel_thoth_atu_21
+    factor_label: completion_path
+    factor_id: card_atu_21
+    factor_source: letter_tau
+    role_position: Final path Yesod-Malkuth
+    value_constraints: When ATU XXI corresponds to Tau completing final Yesod-Malkuth
+      path
+    engine_id: completing
+    notes: 'Crowley #Universe'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 18
+    block_index: 21
+    inferred_system: tarot
+  rel_thoth_atu_21b:
+  - factor_type: rel_thoth_atu_21b
+    factor_label: eternal_return
+    factor_id: symbol_ouroboros
+    factor_source: card_atu_21
+    role_position: Cycle complete
+    value_constraints: When Universe card ouroboros symbolizes cycle completion enabling
+      new beginning
+    engine_id: cycling
+    notes: 'Crowley #Universe'
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 19
+    block_index: 21
+    inferred_system: tarot
+  concept_cosmic_completion:
+  - factor_type: concept_cosmic_completion
+    factor_label: Total integration, perfect manifestation
+    factor_id: null
+    factor_source: planet_saturn, sign_earth
+    role_position: completion_dream, mandala_dream
+    value_constraints: individuation, wholeness
+    engine_id: Four Kerubim balanced
+    notes: null
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Major_Arcana_Thoth.md
+    line_number: 31
+    block_index: 21
+    inferred_system: tarot
+  Concept:
+  - factor_type: Concept
+    factor_label: Three Veils
+    factor_id: ain_veils
+    factor_source: new_candidate
+    role_position: Pre-manifestation
+    value_constraints: 0/00/000
+    engine_id: qabalah_engine
+    notes: Negative existence
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Theory_of_Tarot.md
+    line_number: 2
+    block_index: 1
+    inferred_system: tarot
+  - factor_type: Concept
+    factor_label: Card Behaviour
+    factor_id: card_behaviour
+    factor_source: new_candidate
+    role_position: Observable
+    value_constraints: Interactive
+    engine_id: tarot_semantic
+    notes: Key insight
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Appendices_Thoth.md
+    line_number: 3
+    block_index: 0
+    inferred_system: tarot
+  - factor_type: Concept
+    factor_label: Essential Character
+    factor_id: essential_char
+    factor_source: new_candidate
+    role_position: Core meaning
+    value_constraints: Irreducible
+    engine_id: tarot_semantic
+    notes: Key
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Appendices_Thoth.md
+    line_number: 3
+    block_index: 2
+    inferred_system: tarot
+  Relation:
+  - factor_type: Relation
+    factor_label: Dimensional emergence
+    factor_id: dim_emerge
+    factor_source: new_candidate
+    role_position: Point→Solid
+    value_constraints: Geometric
+    engine_id: qabalah_engine
+    notes: Logical necessity
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Theory_of_Tarot.md
+    line_number: 5
+    block_index: 1
+    inferred_system: tarot
+  - factor_type: Relation
+    factor_label: Card Interplay
+    factor_id: card_interplay
+    factor_source: new_candidate
+    role_position: Reading dynamics
+    value_constraints: Contextual
+    engine_id: tarot_semantic
+    notes: Essential
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Appendices_Thoth.md
+    line_number: 5
+    block_index: 0
+    inferred_system: tarot
+  Model:
+  - factor_type: Model
+    factor_label: Hebrew System
+    factor_id: hebrew_linear
+    factor_source: new_candidate
+    role_position: Linear
+    value_constraints: Beginning→End
+    engine_id: qabalah_engine
+    notes: Causal
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Theory_of_Tarot.md
+    line_number: 2
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: Model
+    factor_label: Pagan System
+    factor_id: pagan_circular
+    factor_source: new_candidate
+    role_position: Circular
+    value_constraints: Eternal wheel
+    engine_id: qabalah_engine
+    notes: Cyclic
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Theory_of_Tarot.md
+    line_number: 3
+    block_index: 5
+    inferred_system: tarot
+  Principle:
+  - factor_type: Principle
+    factor_label: Zero Axis
+    factor_id: zero_axis
+    factor_source: new_candidate
+    role_position: Center
+    value_constraints: Motionless
+    engine_id: qabalah_engine
+    notes: 0=∞
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Theory_of_Tarot.md
+    line_number: 5
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: Principle
+    factor_label: Sensuality as Path
+    factor_id: principle_sensual_path
+    factor_source: new_candidate
+    role_position: Spiritual
+    value_constraints: Body before transcendence
+    engine_id: tarot_semantic
+    notes: Pollack's teaching
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 12
+    block_index: 3
+    inferred_system: tarot
+  - factor_type: Principle
+    factor_label: Passion Liberates
+    factor_id: principle_passion_liberates
+    factor_source: new_candidate
+    role_position: Spiritual
+    value_constraints: Feeling→transcendence
+    engine_id: tarot_semantic
+    notes: Reverses tradition
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 9
+    block_index: 6
+    inferred_system: tarot
+  - factor_type: Principle
+    factor_label: Surrender-Power
+    factor_id: principle_surrender_power
+    factor_source: new_candidate
+    role_position: Psychological
+    value_constraints: Release, acceptance
+    engine_id: tarot_semantic
+    notes: vs Will-power
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 7
+    block_index: 8
+    inferred_system: tarot
+  - factor_type: Principle
+    factor_label: Taming not Killing
+    factor_id: principle_taming_not_killing
+    factor_source: new_candidate
+    role_position: Spiritual
+    value_constraints: Love vs force
+    engine_id: tarot_semantic
+    notes: Key teaching
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 8
+    inferred_system: tarot
+  - factor_type: Principle
+    factor_label: Self-Creation
+    factor_id: principle_self_creation
+    factor_source: new_candidate
+    role_position: Philosophical
+    value_constraints: Every action forms self
+    engine_id: tarot_semantic
+    notes: Core teaching
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 6
+    block_index: 11
+    inferred_system: tarot
+  - factor_type: Principle
+    factor_label: Response Required
+    factor_id: principle_response_required
+    factor_source: new_candidate
+    role_position: Initiatory
+    value_constraints: Vision needs response
+    engine_id: tarot_semantic
+    notes: Crucial moment
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 9
+    block_index: 11
+    inferred_system: tarot
+  - factor_type: Principle
+    factor_label: Voluntary Surrender
+    factor_id: principle_voluntary_surrender
+    factor_source: new_candidate
+    role_position: Philosophical
+    value_constraints: Chosen, not forced
+    engine_id: tarot_semantic
+    notes: Peace through release
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 6
+    block_index: 12
+    inferred_system: tarot
+  - factor_type: Principle
+    factor_label: Reversed Values
+    factor_id: principle_reversed_values
+    factor_source: new_candidate
+    role_position: Spiritual
+    value_constraints: Inversion of worldly
+    engine_id: tarot_semantic
+    notes: New perspective
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 8
+    block_index: 12
+    inferred_system: tarot
+  - factor_type: Principle
+    factor_label: Temperare
+    factor_id: principle_temperare
+    factor_source: new_candidate
+    role_position: Etymological
+    value_constraints: To mix properly
+    engine_id: tarot_semantic
+    notes: Not self-control
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 6
+    block_index: 14
+    inferred_system: tarot
+  - factor_type: Principle
+    factor_label: Return with Gifts
+    factor_id: principle_return_gifts
+    factor_source: new_candidate
+    role_position: Hero Journey
+    value_constraints: Enriched return
+    engine_id: tarot_semantic
+    notes: Journey complete
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 9
+    block_index: 14
+    inferred_system: tarot
+  - factor_type: Principle
+    factor_label: Sexual-Spiritual Unity
+    factor_id: principle_sexual_spiritual
+    factor_source: new_candidate
+    role_position: Occult
+    value_constraints: Same energy
+    engine_id: tarot_semantic
+    notes: Transformation possible
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 7
+    block_index: 15
+    inferred_system: tarot
+  - factor_type: Principle
+    factor_label: Imagination Distortion
+    factor_id: principle_imagination_distortion
+    factor_source: new_candidate
+    role_position: Psychological
+    value_constraints: Shapes formless
+    engine_id: tarot_semantic
+    notes: Necessary but distorting
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 6
+    block_index: 18
+    inferred_system: tarot
+  - factor_type: Principle
+    factor_label: No Personal Liberation
+    factor_id: principle_no_personal_liberation
+    factor_source: new_candidate
+    role_position: Buddhist
+    value_constraints: Bodhisattva
+    engine_id: tarot_semantic
+    notes: Collective
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 7
+    block_index: 20
+    inferred_system: tarot
+  Method:
+  - factor_type: Method
+    factor_label: Five Operations
+    factor_id: five_ops
+    factor_source: new_candidate
+    role_position: Divination structure
+    value_constraints: Sequential
+    engine_id: tarot_calculator
+    notes: Golden Dawn
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Appendices_Thoth.md
+    line_number: 2
+    block_index: 1
+    inferred_system: tarot
+  Spread:
+  - factor_type: Spread
+    factor_label: YHVH Stacks
+    factor_id: yhvh_spread
+    factor_source: new_candidate
+    role_position: Operation I
+    value_constraints: 4 piles
+    engine_id: tarot_calculator
+    notes: Domain
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Appendices_Thoth.md
+    line_number: 3
+    block_index: 1
+    inferred_system: tarot
+  - factor_type: Spread
+    factor_label: House Spread
+    factor_id: house_spread
+    factor_source: new_candidate
+    role_position: Operation II
+    value_constraints: 12 piles
+    engine_id: tarot_calculator
+    notes: Development
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Appendices_Thoth.md
+    line_number: 4
+    block_index: 1
+    inferred_system: tarot
+  - factor_type: Spread
+    factor_label: Tree Spread
+    factor_id: tree_spread
+    factor_source: new_candidate
+    role_position: Operation V
+    value_constraints: 10 piles
+    engine_id: tarot_calculator
+    notes: Final
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Appendices_Thoth.md
+    line_number: 5
+    block_index: 1
+    inferred_system: tarot
+  Technique:
+  - factor_type: Technique
+    factor_label: Counting
+    factor_id: counting_tech
+    factor_source: new_candidate
+    role_position: Narrative
+    value_constraints: K/Q/Pr=4, etc.
+    engine_id: tarot_calculator
+    notes: Golden Dawn
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Appendices_Thoth.md
+    line_number: 6
+    block_index: 1
+    inferred_system: tarot
+  Context:
+  - factor_type: Context
+    factor_label: Spiritual/Material
+    factor_id: sp_mat_context
+    factor_source: new_candidate
+    role_position: Interpretation domain
+    value_constraints: Abstract/Practical
+    engine_id: tarot_semantic
+    notes: Dual
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/The book of Thoth/编辑/Appendices_Thoth.md
+    line_number: 4
+    block_index: 2
+    inferred_system: tarot
+  Symbol:
+  - factor_type: Symbol
+    factor_label: Small Dog
+    factor_id: symbol_fool_dog
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Companion/instinct
+    engine_id: tarot_semantic
+    notes: Animal nature as ally
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 0
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Raised Wand
+    factor_id: symbol_raised_wand
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Right hand to heaven
+    engine_id: tarot_semantic
+    notes: Channeling function
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 11
+    block_index: 1
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: TORA Scroll
+    factor_id: symbol_tora_scroll
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Hidden knowledge
+    engine_id: tarot_semantic
+    notes: Inexpressible wisdom
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 7
+    block_index: 2
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Veil with Pomegranates
+    factor_id: symbol_priestess_veil
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Hidden mysteries
+    engine_id: tarot_semantic
+    notes: Persephone connection
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 9
+    block_index: 2
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Life Force River
+    factor_id: symbol_life_river
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Flowing water
+    engine_id: tarot_semantic
+    notes: Passion current
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 8
+    block_index: 3
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Grain Field
+    factor_id: symbol_grain_field
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Harvest, Demeter
+    engine_id: tarot_semantic
+    notes: Material abundance
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 9
+    block_index: 3
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Crown of Stars
+    factor_id: symbol_star_crown
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: 12 zodiac stars
+    engine_id: tarot_semantic
+    notes: Cosmic domain
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 3
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Stone Throne
+    factor_id: symbol_stone_throne
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Immovable authority
+    engine_id: tarot_semantic
+    notes: Permanence
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 9
+    block_index: 4
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Controlled River
+    factor_id: symbol_controlled_river
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Channeled passion
+    engine_id: tarot_semantic
+    notes: Nature harnessed
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 4
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Barren Mountains
+    factor_id: symbol_barren_mountains
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Harsh landscape
+    engine_id: tarot_semantic
+    notes: Cost of civilization
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 11
+    block_index: 4
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Triple Crown
+    factor_id: symbol_triple_crown
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Three worlds
+    engine_id: tarot_semantic
+    notes: Papal authority
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Keys of Peter
+    factor_id: symbol_peters_keys
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Admit/exclude
+    engine_id: tarot_semantic
+    notes: Institutional gatekeeping
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 11
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Two Pillars
+    factor_id: symbol_hierophant_pillars
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Formalized threshold
+    engine_id: tarot_semantic
+    notes: Echo of High Priestess
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 12
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Angel Raphael
+    factor_id: symbol_angel_raphael
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Super-conscious
+    engine_id: tarot_semantic
+    notes: Born from union
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 6
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Twin Trees
+    factor_id: symbol_twin_trees
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Knowledge & Life
+    engine_id: tarot_semantic
+    notes: Polarity unified
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 11
+    block_index: 6
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Unreconciled Sphinxes
+    factor_id: symbol_unreconciled_sphinxes
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Held by will
+    engine_id: tarot_semantic
+    notes: Tension not resolution
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 6
+    block_index: 7
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Star Crown
+    factor_id: symbol_star_crown_chariot
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Victory marker
+    engine_id: tarot_semantic
+    notes: Achievement
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 7
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Wand Down
+    factor_id: symbol_wand_down
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Earthly power
+    engine_id: tarot_semantic
+    notes: vs Magician's raised
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 11
+    block_index: 7
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Lantern
+    factor_id: symbol_hermit_lantern
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Inner light
+    engine_id: tarot_semantic
+    notes: Available to all
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 8
+    block_index: 9
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Staff
+    factor_id: symbol_hermit_staff
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Deliberate support
+    engine_id: tarot_semantic
+    notes: Magician's wand used
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 9
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Wisdom Sword
+    factor_id: symbol_wisdom_sword
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Upward-pointing
+    engine_id: tarot_semantic
+    notes: Cuts illusion
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 7
+    block_index: 11
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: No Blindfold
+    factor_id: symbol_no_blindfold
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Must see truth
+    engine_id: tarot_semantic
+    notes: vs legal Justitia
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 12
+    block_index: 11
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Halo
+    factor_id: symbol_hanged_man_halo
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Spiritual light
+    engine_id: tarot_semantic
+    notes: Illumination entered
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 12
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: White Horse
+    factor_id: symbol_white_horse_death
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Purity, inevitability
+    engine_id: tarot_semantic
+    notes: Death's mount
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 13
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Two Cups
+    factor_id: symbol_two_cups
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Impossible flow
+    engine_id: tarot_semantic
+    notes: Magical integration
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 14
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Mountain Path
+    factor_id: symbol_mountain_path
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Road of return
+    engine_id: tarot_semantic
+    notes: Coming back
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 11
+    block_index: 14
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Loose Chains
+    factor_id: symbol_loose_chains
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Self-imposed
+    engine_id: tarot_semantic
+    notes: Could be escaped
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 8
+    block_index: 15
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Reversed Pentacle
+    factor_id: symbol_reversed_pentacle
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Desire over reason
+    engine_id: tarot_semantic
+    notes: Black magic
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 15
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Yod Grace
+    factor_id: symbol_yod_grace
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: First of YHVH
+    engine_id: tarot_semantic
+    notes: Grace not punishment
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 7
+    block_index: 16
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Lightning
+    factor_id: symbol_lightning_tower
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Divine intervention
+    engine_id: tarot_semantic
+    notes: Awakening force
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 16
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Eight-Pointed Star
+    factor_id: symbol_octogram
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Matter-spirit midway
+    engine_id: tarot_semantic
+    notes: Integration
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 9
+    block_index: 17
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Crayfish
+    factor_id: symbol_crayfish
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Deepest fears
+    engine_id: tarot_semantic
+    notes: Emerging from pool
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 7
+    block_index: 18
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Dog and Wolf
+    factor_id: symbol_dog_wolf
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Tame/wild animal
+    engine_id: tarot_semantic
+    notes: Id surfaces
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 9
+    block_index: 18
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Naked Child
+    factor_id: symbol_naked_child
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Innocence regained
+    engine_id: tarot_semantic
+    notes: Holy child
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 7
+    block_index: 19
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Sun Light
+    factor_id: symbol_sun_light
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Own light (vs reflect)
+    engine_id: tarot_semantic
+    notes: Life-giving
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 9
+    block_index: 19
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Angel Trumpet
+    factor_id: symbol_angel_trumpet
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Call from beyond
+    engine_id: tarot_semantic
+    notes: Awakening
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 9
+    block_index: 20
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Living Creatures
+    factor_id: symbol_living_creatures
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Four corners alive
+    engine_id: tarot_semantic
+    notes: vs Wheel's symbols
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 9
+    block_index: 21
+    inferred_system: tarot
+  - factor_type: Symbol
+    factor_label: Oval Wreath
+    factor_id: symbol_oval_wreath
+    factor_source: new_candidate
+    role_position: Visual Element
+    value_constraints: Cosmic egg, 0
+    engine_id: tarot_semantic
+    notes: All potentials
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 21
+    inferred_system: tarot
+  Pattern:
+  - factor_type: Pattern
+    factor_label: Fall from Innocence
+    factor_id: pattern_fall_innocence
+    factor_source: new_candidate
+    role_position: Mythic
+    value_constraints: Universal
+    engine_id: tarot_semantic
+    notes: Paradise lost archetype
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 11
+    block_index: 0
+    inferred_system: tarot
+  Path:
+  - factor_type: Path
+    factor_label: Outer Way
+    factor_id: path_outer
+    factor_source: new_candidate
+    role_position: Spiritual
+    value_constraints: External teaching
+    engine_id: tarot_semantic
+    notes: Polar with Inner Way
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 6
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: Path
+    factor_label: Inner Way
+    factor_id: path_inner
+    factor_source: new_candidate
+    role_position: Spiritual
+    value_constraints: Direct experience
+    engine_id: tarot_semantic
+    notes: High Priestess domain
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 7
+    block_index: 5
+    inferred_system: tarot
+  Framework:
+  - factor_type: Framework
+    factor_label: Worldly Sequence
+    factor_id: framework_worldly_sequence
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: Cards 3-4-5
+    engine_id: tarot_engine
+    notes: Nature-Society-Religion
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 8
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: Framework
+    factor_label: Abulafia Triangle
+    factor_id: framework_abulafia
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: 5-9-19
+    engine_id: tarot_engine
+    notes: Three levels
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 7
+    block_index: 9
+    inferred_system: tarot
+  - factor_type: Framework
+    factor_label: Four Reactions
+    factor_id: framework_four_reactions
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: King/Priest/Maiden/Child
+    engine_id: tarot_semantic
+    notes: Four approaches
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 7
+    block_index: 13
+    inferred_system: tarot
+  Polarity:
+  - factor_type: Polarity
+    factor_label: Hierophant-High Priestess
+    factor_id: polarity_hierophant_priestess
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: Outer vs Inner
+    engine_id: tarot_engine
+    notes: Complementary paths
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 14
+    block_index: 5
+    inferred_system: tarot
+  - factor_type: Polarity
+    factor_label: Chariot-Strength
+    factor_id: polarity_chariot_strength
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: Will vs Surrender
+    engine_id: tarot_engine
+    notes: Complementary methods
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 12
+    block_index: 8
+    inferred_system: tarot
+  - factor_type: Polarity
+    factor_label: Hermit-High Priestess
+    factor_id: polarity_hermit_priestess
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: Active vs passive withdrawal
+    engine_id: tarot_engine
+    notes: Both column 2
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 13
+    block_index: 9
+    inferred_system: tarot
+  Parallel:
+  - factor_type: Parallel
+    factor_label: Wheel-World
+    factor_id: parallel_wheel_world
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: 10-21 midpoint
+    engine_id: tarot_engine
+    notes: Vision vs embodiment
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 12
+    block_index: 10
+    inferred_system: tarot
+  - factor_type: Parallel
+    factor_label: Hanged Man-World
+    factor_id: parallel_hanged_world
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: 12-21 reversal
+    engine_id: tarot_engine
+    notes: Same digits inverted
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 12
+    block_index: 12
+    inferred_system: tarot
+  - factor_type: Parallel
+    factor_label: Temperance-Chariot
+    factor_id: parallel_temperance_chariot
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: 14 below 7
+    engine_id: tarot_engine
+    notes: Rigid→flowing
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 13
+    block_index: 14
+    inferred_system: tarot
+  - factor_type: Parallel
+    factor_label: Devil-Lovers
+    factor_id: parallel_devil_lovers
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: 15 perverts 6
+    engine_id: tarot_engine
+    notes: Without transcendence
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 12
+    block_index: 15
+    inferred_system: tarot
+  - factor_type: Parallel
+    factor_label: World-Hanged Man
+    factor_id: parallel_world_hanged
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: 21-12 reversed
+    engine_id: tarot_engine
+    notes: Movement vs stillness
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 12
+    block_index: 21
+    inferred_system: tarot
+  Unity:
+  - factor_type: Unity
+    factor_label: Magician-Priestess
+    factor_id: unity_magician_priestess
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: Action-wisdom united
+    engine_id: tarot_engine
+    notes: At midpoint
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 10
+    block_index: 11
+    inferred_system: tarot
+  Sequence:
+  - factor_type: Sequence
+    factor_label: Hanged Man→Death
+    factor_id: sequence_hanged_death
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: Surrender→release
+    engine_id: tarot_engine
+    notes: Peace then fear
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 12
+    block_index: 13
+    inferred_system: tarot
+  - factor_type: Sequence
+    factor_label: Devil-Tower
+    factor_id: sequence_devil_tower
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: Energy→explosion
+    engine_id: tarot_engine
+    notes: Violent course
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 12
+    block_index: 16
+    inferred_system: tarot
+  - factor_type: Sequence
+    factor_label: Star-Moon-Sun
+    factor_id: sequence_star_moon_sun
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: Direct→distorted→clear
+    engine_id: tarot_engine
+    notes: Return journey
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 11
+    block_index: 18
+    inferred_system: tarot
+  - factor_type: Sequence
+    factor_label: Moon-Sun
+    factor_id: sequence_moon_sun
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: Fear→joy
+    engine_id: tarot_engine
+    notes: Journey through
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 11
+    block_index: 19
+    inferred_system: tarot
+  Contrast:
+  - factor_type: Contrast
+    factor_label: Star-Temperance
+    factor_id: contrast_star_temperance
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: Free vs controlled
+    engine_id: tarot_engine
+    notes: Pouring freely
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 11
+    block_index: 17
+    inferred_system: tarot
+  - factor_type: Contrast
+    factor_label: Judgement-Justice
+    factor_id: contrast_judgement_justice
+    factor_source: new_candidate
+    role_position: Structural
+    value_constraints: Greater vs personal
+    engine_id: tarot_engine
+    notes: Different calls
+    source_file: /home/leeky/work/LucidSelf/典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+    line_number: 11
+    block_index: 20
+    inferred_system: tarot

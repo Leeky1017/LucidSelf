@@ -1,0 +1,124 @@
+# 紫微体系 - 状态类因子
+# State factors for ZiWei system
+
+factors:
+  # 星曜状态
+  - id: ziwei_miaowang
+    status: existing
+    display_zh: 庙旺
+    display_en: Exalted
+    aliases_zh: [入庙, 旺位]
+    aliases_en: [Dignified, Strong]
+    description_zh: 星曜在有利宫位，力量最强
+    description_en: Star in favorable palace, maximum strength
+    category: state
+    value_type: boolean
+    applicable_systems: [ziwei]
+
+  - id: ziwei_dedi
+    status: existing
+    display_zh: 得地
+    display_en: Rooted
+    aliases_zh: [利位]
+    aliases_en: [Supported]
+    description_zh: 星曜在次有利宫位
+    description_en: Star in secondarily favorable palace
+    category: state
+    value_type: boolean
+    applicable_systems: [ziwei]
+
+  - id: ziwei_pinghe
+    status: existing
+    display_zh: 平和
+    display_en: Neutral
+    aliases_zh: [闲位]
+    aliases_en: [Idle]
+    description_zh: 星曜在中性宫位
+    description_en: Star in neutral palace
+    category: state
+    value_type: boolean
+    applicable_systems: [ziwei]
+
+  - id: ziwei_luoxian
+    status: existing
+    display_zh: 落陷
+    display_en: Debilitated
+    aliases_zh: [陷位]
+    aliases_en: [Fallen, Weak]
+    description_zh: 星曜在不利宫位，力量最弱
+    description_en: Star in unfavorable palace, minimum strength
+    category: state
+    value_type: boolean
+    applicable_systems: [ziwei]
+
+  # 四化状态
+  - id: ziwei_hualu
+    status: existing
+    display_zh: 化禄
+    display_en: Hua Lu (Wealth Transform)
+    aliases_zh: [禄]
+    aliases_en: [Wealth Enhancement]
+    description_zh: 星曜获得禄的加成
+    description_en: Star receives wealth enhancement
+    category: state
+    value_type: boolean
+    applicable_systems: [ziwei]
+
+  - id: ziwei_huaquan
+    status: existing
+    display_zh: 化权
+    display_en: Hua Quan (Power Transform)
+    aliases_zh: [权]
+    aliases_en: [Power Enhancement]
+    description_zh: 星曜获得权的加成
+    description_en: Star receives power enhancement
+    category: state
+    value_type: boolean
+    applicable_systems: [ziwei]
+
+  - id: ziwei_huake
+    status: existing
+    display_zh: 化科
+    display_en: Hua Ke (Fame Transform)
+    aliases_zh: [科]
+    aliases_en: [Fame Enhancement]
+    description_zh: 星曜获得科的加成
+    description_en: Star receives fame enhancement
+    category: state
+    value_type: boolean
+    applicable_systems: [ziwei]
+
+  - id: ziwei_huaji
+    status: existing
+    display_zh: 化忌
+    display_en: Hua Ji (Obstruction Transform)
+    aliases_zh: [忌]
+    aliases_en: [Obstruction]
+    description_zh: 星曜获得忌的阻碍
+    description_en: Star receives obstruction
+    category: state
+    value_type: boolean
+    applicable_systems: [ziwei]
+
+  # 整体状态
+  - id: ziwei_star_strength
+    status: existing
+    display_zh: 星曜强度
+    display_en: Star Strength
+    description_zh: 星曜的整体力量评估
+    description_en: Overall strength assessment of star
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [ziwei]
+
+  - id: ziwei_palace_quality
+    status: existing
+    display_zh: 宫位质量
+    display_en: Palace Quality
+    description_zh: 宫位的整体吉凶评估
+    description_en: Overall auspiciousness of palace
+    category: state
+    value_type: numeric
+    value_range: [-1, 1]
+    applicable_systems: [ziwei]

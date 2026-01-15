@@ -1,0 +1,431 @@
+$ ls -1 scripts/gates
+gate0_engine_id_identity.sh
+gate0_security_observability.sh
+gate0_versioning_deviation.sh
+gate1_boot_regression.sh
+
+$ sed -n "1,120p" scripts/gates/gate0_versioning_deviation.sh
+#!/usr/bin/env bash
+set -euo pipefail
+
+usage() {
+  cat <<'USAGE'
+Gate-0: Versioning + Deviation Detection
+
+Usage:
+  bash scripts/gates/gate0_versioning_deviation.sh [--skip-openspec] [--skip-pytest]
+
+Runs:
+  - openspec validate --specs --strict --no-interactive
+  - pytest backend/tests/gate0_versioning_deviation
+
+Artifacts:
+  - Exports LS_ARTIFACT_DIR (default: artifacts)
+  - Writes artifacts/versioning/version_manifest.json (smoke)
+  - Writes JUnit XML: artifacts/gate0_versioning_deviation/pytest-junit.xml
+
+Environment:
+  - Uses .venv/bin/{python,pytest} if present; otherwise falls back to python3/python.
+  - Sets PYTHONPATH=. to run tests from repo root.
+USAGE
+}
+
+SKIP_OPENSPEC=0
+SKIP_PYTEST=0
+
+for arg in "$@"; do
+  case "$arg" in
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    --skip-openspec)
+      SKIP_OPENSPEC=1
+      ;;
+    --skip-pytest)
+      SKIP_PYTEST=1
+      ;;
+    *)
+      echo "Unknown argument: $arg" >&2
+      echo >&2
+      usage >&2
+      exit 2
+      ;;
+  esac
+done
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+cd "$ROOT_DIR"
+
+PYTHON_BIN=""
+if [[ -x ".venv/bin/python" ]]; then
+  PYTHON_BIN=".venv/bin/python"
+elif command -v python3 >/dev/null 2>&1; then
+  PYTHON_BIN="python3"
+elif command -v python >/dev/null 2>&1; then
+  PYTHON_BIN="python"
+else
+  echo "Missing python interpreter (expected .venv/bin/python, python3, or python)" >&2
+  exit 127
+fi
+
+PYTEST_BIN=""
+if [[ -x ".venv/bin/pytest" ]]; then
+  PYTEST_BIN=".venv/bin/pytest"
+else
+  PYTEST_BIN="$PYTHON_BIN -m pytest"
+fi
+
+if [[ -z "${LS_ARTIFACT_DIR:-}" ]]; then
+  export LS_ARTIFACT_DIR="artifacts"
+fi
+mkdir -p "$LS_ARTIFACT_DIR/gate0_versioning_deviation" "$LS_ARTIFACT_DIR/versioning"
+
+if [[ -z "${LS_VERSION_ID:-}" ]] && command -v git >/dev/null 2>&1; then
+  SHA="$(git rev-parse --short=12 HEAD 2>/dev/null || true)"
+  if [[ -n "$SHA" ]]; then
+    export LS_VERSION_ID="ver_${SHA}"
+  fi
+fi
+
+if [[ -z "${LS_CORPUS_RELEASE_ID:-}" ]] && command -v git >/dev/null 2>&1; then
+  TREE="$(git rev-parse HEAD:data 2>/dev/null || true)"
+  if [[ -n "$TREE" ]]; then
+    export LS_CORPUS_RELEASE_ID="cr_${TREE:0:12}"
+  fi
+fi
+
+if [[ "$SKIP_OPENSPEC" -eq 0 ]]; then
+  if ! command -v openspec >/dev/null 2>&1; then
+    echo "Missing 'openspec' CLI in PATH" >&2
+    exit 127
+  fi
+  echo "\$ openspec validate --specs --strict --no-interactive"
+  openspec validate --specs --strict --no-interactive
+fi
+
+if [[ "$SKIP_PYTEST" -eq 0 ]]; then
+  echo "\$ PYTHONPATH=. ${PYTEST_BIN} backend/tests/gate0_versioning_deviation -q --junitxml=${LS_ARTIFACT_DIR}/gate0_versioning_deviation/pytest-junit.xml"
+  PYTHONPATH=. $PYTEST_BIN backend/tests/gate0_versioning_deviation -q --junitxml="${LS_ARTIFACT_DIR}/gate0_versioning_deviation/pytest-junit.xml"
+fi
+
+echo "\$ ${PYTHON_BIN} -c '<generate version manifest>'"
+PYTHONPATH=. $PYTHON_BIN - <<'PY'
+import os
+from pathlib import Path
+
+from backend.core.versioning.artifacts import write_version_manifest
+from backend.core.versioning.ids import resolve_version_id
+from backend.core.versioning.models import VersionManifestEntry
+
+root = Path(os.getenv("LS_ARTIFACT_DIR", "artifacts")) / "versioning"
+write_version_manifest(
+    [
+        VersionManifestEntry(
+            version_id=resolve_version_id(),
+            engine_id="cross-system-fusion",
+            status="ACTIVE",
+
+$ sed -n "1,160p" scripts/gates/gate1_boot_regression.sh
+#!/usr/bin/env bash
+set -euo pipefail
+
+usage() {
+  cat <<'USAGE'
+Gate-1: Bootability + Regression Baseline
+
+Usage:
+  bash scripts/gates/gate1_boot_regression.sh [--skip-openspec] [--skip-pytest]
+
+Runs:
+  - openspec validate --specs --strict --no-interactive
+  - pytest backend/tests/gate1_boot_regression backend/tests/integration/test_pipeline_e2e.py
+
+Artifacts:
+  - Exports LS_ARTIFACT_DIR (default: artifacts)
+  - Drift report + summaries: artifacts/regression/*.json
+  - Version manifest: artifacts/versioning/version_manifest.json
+  - JUnit XML: artifacts/gate1_boot_regression/pytest-junit.xml
+  - Version link report: artifacts/regression/version_link_report.json
+  - Regression suite baseline: artifacts/regression/regression_suite_baseline.json
+
+Environment:
+  - Uses .venv/bin/{python,pytest} if present; otherwise falls back to python3/python.
+  - Sets PYTHONPATH=. to run tests from repo root.
+USAGE
+}
+
+SKIP_OPENSPEC=0
+SKIP_PYTEST=0
+
+for arg in "$@"; do
+  case "$arg" in
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    --skip-openspec)
+      SKIP_OPENSPEC=1
+      ;;
+    --skip-pytest)
+      SKIP_PYTEST=1
+      ;;
+    *)
+      echo "Unknown argument: $arg" >&2
+      echo >&2
+      usage >&2
+      exit 2
+      ;;
+  esac
+done
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+cd "$ROOT_DIR"
+
+PYTHON_BIN=""
+if [[ -x ".venv/bin/python" ]]; then
+  PYTHON_BIN=".venv/bin/python"
+elif command -v python3 >/dev/null 2>&1; then
+  PYTHON_BIN="python3"
+elif command -v python >/dev/null 2>&1; then
+  PYTHON_BIN="python"
+else
+  echo "Missing python interpreter (expected .venv/bin/python, python3, or python)" >&2
+  exit 127
+fi
+
+PYTEST_BIN=""
+if [[ -x ".venv/bin/pytest" ]]; then
+  PYTEST_BIN=".venv/bin/pytest"
+else
+  PYTEST_BIN="$PYTHON_BIN -m pytest"
+fi
+
+if [[ -z "${LS_ARTIFACT_DIR:-}" ]]; then
+  export LS_ARTIFACT_DIR="artifacts"
+fi
+mkdir -p "$LS_ARTIFACT_DIR/gate1_boot_regression" "$LS_ARTIFACT_DIR/regression" "$LS_ARTIFACT_DIR/versioning"
+
+if [[ -z "${LS_VERSION_ID:-}" ]] && command -v git >/dev/null 2>&1; then
+  SHA="$(git rev-parse --short=12 HEAD 2>/dev/null || true)"
+  if [[ -n "$SHA" ]]; then
+    export LS_VERSION_ID="ver_${SHA}"
+  fi
+fi
+
+if [[ -z "${LS_CORPUS_RELEASE_ID:-}" ]] && command -v git >/dev/null 2>&1; then
+  TREE="$(git rev-parse HEAD:data 2>/dev/null || true)"
+  if [[ -n "$TREE" ]]; then
+    export LS_CORPUS_RELEASE_ID="cr_${TREE:0:12}"
+  fi
+fi
+
+if [[ "$SKIP_OPENSPEC" -eq 0 ]]; then
+  if ! command -v openspec >/dev/null 2>&1; then
+    echo "Missing 'openspec' CLI in PATH" >&2
+    exit 127
+  fi
+  echo "\$ openspec validate --specs --strict --no-interactive"
+  openspec validate --specs --strict --no-interactive
+fi
+
+if [[ "$SKIP_PYTEST" -eq 0 ]]; then
+  echo "\$ PYTHONPATH=. ${PYTEST_BIN} backend/tests/gate1_boot_regression backend/tests/integration/test_pipeline_e2e.py -q --junitxml=${LS_ARTIFACT_DIR}/gate1_boot_regression/pytest-junit.xml"
+  PYTHONPATH=. $PYTEST_BIN \
+    backend/tests/gate1_boot_regression \
+    backend/tests/integration/test_pipeline_e2e.py \
+    -q \
+    --junitxml="${LS_ARTIFACT_DIR}/gate1_boot_regression/pytest-junit.xml"
+fi
+
+echo "\$ ${PYTHON_BIN} -c '<write regression suite baseline + version link report>'"
+PYTHONPATH=. $PYTHON_BIN - <<'PY'
+import os
+import uuid
+from pathlib import Path
+
+from backend.core.versioning.artifacts import write_regression_suite_baseline, write_version_link_report, write_startup_checks
+from backend.core.versioning.ids import resolve_version_id
+from backend.core.versioning.models import RegressionSuiteBaseline, VersionLinkArtifact, VersionLinkReport
+from backend.core.boot.checks import get_boot_requirements, run_boot_checks
+
+artifact_root = Path(os.getenv("LS_ARTIFACT_DIR", "artifacts"))
+regression_dir = artifact_root / "regression"
+regression_dir.mkdir(parents=True, exist_ok=True)
+
+version_id = resolve_version_id()
+
+baseline = RegressionSuiteBaseline(
+    suite_id="gate1_boot_regression",
+    version_id=version_id,
+    tests=[
+        "backend/tests/gate1_boot_regression",
+        "backend/tests/integration/test_pipeline_e2e.py",
+    ],
+    pass_threshold="all tests must pass (pytest exit code 0)",
+)
+write_regression_suite_baseline(baseline, regression_dir / "regression_suite_baseline.json")
+
+requirements = get_boot_requirements()
+import asyncio
+_, _, startup_checks = asyncio.run(run_boot_checks(requirements=requirements))
+write_startup_checks(startup_checks, regression_dir / "startup_checks.json")
+
+report = VersionLinkReport(
+    report_id=f"vlr_{uuid.uuid4().hex[:12]}",
+    version_id=version_id,
+    artifacts=[
+        VersionLinkArtifact(type="junit", id="pytest", path=str(artifact_root / "gate1_boot_regression" / "pytest-junit.xml")),
+        VersionLinkArtifact(type="deviation_report", id="pipeline_bazi", path=str(regression_dir / "deviation_report.json")),
+        VersionLinkArtifact(type="regression_suite_baseline", id="gate1_boot_regression", path=str(regression_dir / "regression_suite_baseline.json")),
+        VersionLinkArtifact(type="startup_checks", id="readiness", path=str(regression_dir / "startup_checks.json")),
+        VersionLinkArtifact(type="version_manifest", id="versioning", path=str(artifact_root / "versioning" / "version_manifest.json")),
+    ],
+)
+write_version_link_report(report, regression_dir / "version_link_report.json")
+print(str(regression_dir / "version_link_report.json"))
+PY
+
+$ ls -1 .github/workflows | rg "gate0-versioning-deviation|gate1-boot-regression"
+gate0-versioning-deviation.yml
+gate1-boot-regression.yml
+
+$ sed -n "1,140p" .github/workflows/gate0-versioning-deviation.yml
+# Gate-0 workflow: versioning + deviation detection
+
+name: Gate-0 Versioning + Deviation Detection
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'backend/**'
+      - 'data/**'
+      - 'openspec/**'
+      - 'scripts/gates/gate0_versioning_deviation.sh'
+      - '.github/workflows/gate0-versioning-deviation.yml'
+  pull_request:
+    branches: [main, develop]
+    paths:
+      - 'backend/**'
+      - 'data/**'
+      - 'openspec/**'
+      - 'scripts/gates/gate0_versioning_deviation.sh'
+      - '.github/workflows/gate0-versioning-deviation.yml'
+  workflow_dispatch: {}
+
+env:
+  PYTHON_VERSION: '3.12'
+
+jobs:
+  gate0:
+    name: Gate-0 (Versioning + Deviation)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install OpenSpec CLI
+        run: |
+          npm install -g @fission-ai/openspec@0.17.2
+          openspec --version
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Gate-0 acceptance
+        run: |
+          bash scripts/gates/gate0_versioning_deviation.sh
+
+      - name: Upload Gate-0 artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gate0-versioning-deviation-artifacts
+          path: artifacts/
+          retention-days: 30
+
+
+$ sed -n "1,140p" .github/workflows/gate1-boot-regression.yml
+# Gate-1 workflow: bootability + regression baseline
+
+name: Gate-1 Bootability + Regression Baseline
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'backend/**'
+      - 'data/**'
+      - 'openspec/**'
+      - 'scripts/gates/gate1_boot_regression.sh'
+      - '.github/workflows/gate1-boot-regression.yml'
+  pull_request:
+    branches: [main, develop]
+    paths:
+      - 'backend/**'
+      - 'data/**'
+      - 'openspec/**'
+      - 'scripts/gates/gate1_boot_regression.sh'
+      - '.github/workflows/gate1-boot-regression.yml'
+  workflow_dispatch: {}
+
+env:
+  PYTHON_VERSION: '3.12'
+
+jobs:
+  gate1:
+    name: Gate-1 (Bootability + Regression)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install OpenSpec CLI
+        run: |
+          npm install -g @fission-ai/openspec@0.17.2
+          openspec --version
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Gate-1 acceptance
+        run: |
+          bash scripts/gates/gate1_boot_regression.sh
+
+      - name: Upload Gate-1 artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gate1-boot-regression-artifacts
+          path: artifacts/
+          retention-days: 30
+

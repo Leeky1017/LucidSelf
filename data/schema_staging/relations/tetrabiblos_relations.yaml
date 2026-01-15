@@ -1,0 +1,1077 @@
+book_id: tetrabiblos
+source_file: 典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_II_v2.1.md, 典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_IV_v2.1.md,
+  典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_I_v2.1.md, 典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_III_v2.1.md
+extracted_at: '2025-12-04T19:08:29.464834'
+relations:
+- relation_id: rel_ii_001
+  relation_type: hierarchy
+  factor_a: mundane_astrology
+  factor_b: natal_astrology
+  relation_nature: Precedence
+  condition_constraint: When general mundane astrology takes precedence over particular
+    natal astrology
+  effect_direction: ordering
+  source_ref: Ptolemy II.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374548'
+- relation_id: rel_ii_002
+  relation_type: determination
+  factor_a: astro_geographic_latitude
+  factor_b: national_temperament
+  relation_nature: Climate→Character
+  condition_constraint: When geographic latitude climate determines national temperament
+  effect_direction: specifying
+  source_ref: Ptolemy II.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374576'
+- relation_id: rel_ii_002b
+  relation_type: hierarchy
+  factor_a: national_temperament
+  factor_b: mundane_astrology
+  relation_nature: Part-whole
+  condition_constraint: When national temperament analysis belongs to mundane astrology
+    branch
+  effect_direction: categorizing
+  source_ref: Ptolemy II.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374581'
+- relation_id: rel_ii_003
+  relation_type: assignment
+  factor_a: astro_triplicity_fire
+  factor_b: astro_region_europe
+  relation_nature: Fire=Europe
+  condition_constraint: When fire triplicity Jupiter/Mars characterizes European region
+  effect_direction: characterizing
+  source_ref: Ptolemy II.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374600'
+- relation_id: rel_ii_010
+  relation_type: connection
+  factor_a: star_region_line
+  factor_b: region_fate
+  relation_nature: Pole-line link
+  condition_constraint: When fixed star pole-line position connects to regional fate
+  effect_direction: participating
+  source_ref: Ptolemy II.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374615'
+- relation_id: rel_ii_004
+  relation_type: timing
+  factor_a: astro_eclipse_solar
+  factor_b: effect_duration
+  relation_nature: Hours=Years
+  condition_constraint: When solar eclipse duration hours equal years of effect
+  effect_direction: temporal
+  source_ref: Ptolemy II.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374631'
+- relation_id: rel_ii_005
+  relation_type: connection
+  factor_a: zodiacal_familiarity
+  factor_b: eclipse_region
+  relation_nature: Dignity=Affected
+  condition_constraint: When zodiacal dignity domicile-exaltation links eclipse to
+    affected region
+  effect_direction: linking
+  source_ref: Ptolemy II.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374648'
+- relation_id: rel_ii_005b
+  relation_type: application
+  factor_a: astro_eclipse_affected_region
+  factor_b: astro_eclipse_solar
+  relation_nature: Part-whole
+  condition_constraint: When eclipse region analysis applies to solar eclipses
+  effect_direction: specifying
+  source_ref: Ptolemy II.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374650'
+- relation_id: rel_ii_011
+  relation_type: conversion
+  factor_a: astro_eclipse_duration
+  factor_b: effect_duration
+  relation_nature: Hours→Years/Months
+  condition_constraint: When solar eclipse hours become years lunar hours become months
+    of effect
+  effect_direction: determining
+  source_ref: Ptolemy II.7
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374665'
+- relation_id: rel_ii_012
+  relation_type: classification
+  factor_a: astro_sign_shape
+  factor_b: genus_affected
+  relation_nature: Shape=Class
+  condition_constraint: When constellation shape form determines class of genus affected
+  effect_direction: determining
+  source_ref: Ptolemy II.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374683'
+- relation_id: rel_ii_006
+  relation_type: determination
+  factor_a: saturn_mundane
+  factor_b: eclipse_effect
+  relation_nature: Saturn=Destruction
+  condition_constraint: When Saturn as eclipse ruler determines destructive mundane
+    effects
+  effect_direction: negative
+  source_ref: Ptolemy II.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374700'
+- relation_id: rel_ii_013
+  relation_type: indication
+  factor_a: astro_eclipse_colour
+  factor_b: planet_nature
+  relation_nature: Colour=Planet
+  condition_constraint: When eclipse colour indicates modifying planet's nature visually
+  effect_direction: modifying
+  source_ref: Ptolemy II.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374714'
+- relation_id: rel_ii_007
+  relation_type: indication
+  factor_a: astro_sun_ingress_aries
+  factor_b: annual_weather
+  relation_nature: New year=Weather
+  condition_constraint: When Sun ingress Aries at vernal equinox predicts annual weather
+  effect_direction: predictive
+  source_ref: Ptolemy II.11
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374727'
+- relation_id: rel_ii_014
+  relation_type: production
+  factor_a: astro_sign_weather_quality
+  factor_b: weather_effect
+  relation_nature: Sign=Weather
+  condition_constraint: When Moon position in sign produces corresponding weather
+    effect
+  effect_direction: producing
+  source_ref: Ptolemy II.12
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374740'
+- relation_id: rel_ii_008
+  relation_type: indication
+  factor_a: astro_lunation_monthly
+  factor_b: monthly_weather
+  relation_nature: Lunation=Weather
+  condition_constraint: When New or Full Moon lunation indicates monthly weather pattern
+  effect_direction: predictive
+  source_ref: Ptolemy II.13
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374753'
+- relation_id: rel_ii_009
+  relation_type: indication
+  factor_a: astro_comet_mundane
+  factor_b: mundane_event
+  relation_nature: Comet=Portent
+  condition_constraint: When comet colour and sign warns of portentous mundane events
+  effect_direction: warning
+  source_ref: Ptolemy II.14
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.374766'
+- relation_id: rel_iv_001
+  relation_type: determination
+  factor_a: pars_fortunae
+  factor_b: wealth_outcome
+  relation_nature: Fortune indicator
+  condition_constraint: When Part of Fortune angular or cadent determines wealth positive
+    or negative
+  effect_direction: positive/negative
+  source_ref: Ptolemy IV.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376876'
+- relation_id: rel_iv_002
+  relation_type: modification
+  factor_a: benefic_ruler
+  factor_b: pars_fortunae
+  relation_nature: Prosperity
+  condition_constraint: When benefic ruler aspects Part of Fortune enhancing prosperity
+  effect_direction: enhancing
+  source_ref: Ptolemy IV.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376881'
+- relation_id: rel_iv_003
+  relation_type: determination
+  factor_a: sun_moon
+  factor_b: rank_outcome
+  relation_nature: Rank indicator
+  condition_constraint: When Sun/Moon angular with doryphory amplifies rank outcome
+  effect_direction: amplifying
+  source_ref: Ptolemy IV.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376905'
+- relation_id: rel_iv_004
+  relation_type: enhancement
+  factor_a: astro_doryphory_complete
+  factor_b: sun_moon
+  relation_nature: Royal status
+  condition_constraint: When complete doryphory with all planets in dignity grants
+    royal status
+  effect_direction: maximum
+  source_ref: Ptolemy IV.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376907'
+- relation_id: rel_iv_005
+  relation_type: determination
+  factor_a: astro_planet_ruler_mc
+  factor_b: profession_type
+  relation_nature: Trade indicator
+  condition_constraint: When MC ruler planet nature determines specific profession
+    type
+  effect_direction: specific
+  source_ref: Ptolemy IV.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376926'
+- relation_id: rel_iv_010
+  relation_type: specification
+  factor_a: employment_quality
+  factor_b: planet_nature
+  relation_nature: Profession type
+  condition_constraint: When planet's oriental appearance determines employment quality
+    and type
+  effect_direction: determining
+  source_ref: Ptolemy IV.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376942'
+- relation_id: rel_iv_006
+  relation_type: signification
+  factor_a: astro_moon_venus
+  factor_b: spouse_female
+  relation_nature: Wife indicator
+  condition_constraint: When Moon and Venus describe wife characteristics for male
+    native
+  effect_direction: descriptive
+  source_ref: Ptolemy IV.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376961'
+- relation_id: rel_iv_007
+  relation_type: signification
+  factor_a: astro_sun_mars
+  factor_b: spouse_male
+  relation_nature: Husband indicator
+  condition_constraint: When Sun and Mars describe husband characteristics for female
+    native
+  effect_direction: descriptive
+  source_ref: Ptolemy IV.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376964'
+- relation_id: rel_iv_008
+  relation_type: granting
+  factor_a: astro_planet_fertile
+  factor_b: children_outcome
+  relation_nature: Fertility
+  condition_constraint: When fertile planets in MC/11th grant positive children outcome
+  effect_direction: positive
+  source_ref: Ptolemy IV.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376984'
+- relation_id: rel_iv_009
+  relation_type: denying
+  factor_a: planet_barren
+  factor_b: children_outcome
+  relation_nature: Barrenness
+  condition_constraint: When barren planets in MC/11th deny children with negative
+    outcome
+  effect_direction: negative
+  source_ref: Ptolemy IV.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376986'
+- relation_id: rel_iv_011
+  relation_type: indication
+  factor_a: astro_moon_cadent
+  factor_b: travel_outcome
+  relation_nature: Travel trigger
+  condition_constraint: When cadent Moon from angles initiates travel indication
+  effect_direction: initiating
+  source_ref: Ptolemy IV.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.377020'
+- relation_id: rel_iv_012
+  relation_type: modification
+  factor_a: benefic_supervise
+  factor_b: travel_outcome
+  relation_nature: Safe travel
+  condition_constraint: When benefic planets supervising by aspect protect travel
+    outcome
+  effect_direction: protective
+  source_ref: Ptolemy IV.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.377023'
+- relation_id: rel_iv_013
+  relation_type: determination
+  factor_a: astro_planet_anaeretic
+  factor_b: death_type
+  relation_nature: Death manner
+  condition_constraint: When anaeretic planet nature specifies manner of death
+  effect_direction: specifying
+  source_ref: Ptolemy IV.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.377044'
+- relation_id: rel_iv_014
+  relation_type: intensification
+  factor_a: dual_malefic
+  factor_b: death_type
+  relation_nature: Violent death
+  condition_constraint: When both malefics in anaeretic position intensify to violent
+    death
+  effect_direction: extreme
+  source_ref: Ptolemy IV.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.377046'
+- relation_id: rel_iv_020
+  relation_type: correspondence
+  factor_a: astro_planet_age
+  factor_b: life_stage
+  relation_nature: Planet=Age
+  condition_constraint: When planetary spheres sequentially govern corresponding life
+    stages
+  effect_direction: governing
+  source_ref: Ptolemy IV.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.377061'
+- relation_id: rel_tetra_i001
+  relation_type: causal
+  factor_a: astro_epistemology AND astro_astro_astronomy
+  factor_b: astro_astrology
+  relation_nature: Foundation precedes application
+  condition_constraint: When precise celestial calculations are completed
+  effect_direction: BENEFICIAL
+  source_ref: Tetrabiblos I.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.380919'
+- relation_id: rel_tetra_i002
+  relation_type: conditional
+  factor_a: astro_planet_qualities AND astro_astro_ambient
+  factor_b: astro_terrestrial_effect
+  relation_nature: Natural properties cause changes
+  condition_constraint: When planetary configurations form aspects
+  effect_direction: MIXED
+  source_ref: Tetrabiblos I.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.380926'
+- relation_id: rel_tetra_i003
+  relation_type: inhibitory
+  factor_a: astro_material_variability AND astro_astro_conjecture
+  factor_b: astro_absolute_certainty
+  relation_nature: Uncertainty limits precision
+  condition_constraint: When material objects are weak and variable
+  effect_direction: RESTRICTIVE
+  source_ref: Tetrabiblos I.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.380929'
+- relation_id: rel_tetra_i004
+  relation_type: causal
+  factor_a: astro_ambient_configuration AND astro_astro_natal_moment
+  factor_b: astro_native_constitution
+  relation_nature: Ambient imprints at birth
+  condition_constraint: When conception or birth occurs
+  effect_direction: BENEFICIAL
+  source_ref: Ptolemy I.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.380959'
+- relation_id: rel_tetra_i005
+  relation_type: causal
+  factor_a: astro_planet_sun AND astro_astro_regulation
+  factor_b: astro_seasonal_variation
+  relation_nature: Sun regulates earthly cycles
+  condition_constraint: When Sun moves through zodiac signs
+  effect_direction: BENEFICIAL
+  source_ref: Ptolemy I.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.380963'
+- relation_id: rel_tetra_i006
+  relation_type: causal
+  factor_a: astro_planet_moon AND astro_astro_moisture
+  factor_b: astro_tidal_effects
+  relation_nature: Moon governs fluids
+  condition_constraint: When Moon waxes and wanes
+  effect_direction: BENEFICIAL
+  source_ref: Ptolemy I.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.380965'
+- relation_id: rel_i_003
+  relation_type: modification
+  factor_a: astro_fate
+  factor_b: concurrent_causes
+  relation_nature: Qualified fate
+  condition_constraint: When other concurrent causes modify astrological fate
+  effect_direction: modifying
+  source_ref: Ptolemy I.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.380991'
+- relation_id: rel_i_004
+  relation_type: quality
+  factor_a: planet_sun
+  factor_b: quality_hot
+  relation_nature: Sun=Hot/Dry
+  condition_constraint: When Sun's primary nature imparts hot and dry qualities
+  effect_direction: heating
+  source_ref: Ptolemy I.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381016'
+- relation_id: rel_i_005
+  relation_type: quality
+  factor_a: planet_saturn
+  factor_b: quality_cold
+  relation_nature: Saturn=Cold/Dry
+  condition_constraint: When Saturn's remote position imparts cold and dry qualities
+  effect_direction: cooling
+  source_ref: Ptolemy I.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381018'
+- relation_id: rel_i_006
+  relation_type: classification
+  factor_a: planet_benefic
+  factor_b: life_promotion
+  relation_nature: Warm-moist=Life
+  condition_constraint: When Jupiter/Venus/Moon warm-moist nature promotes life positively
+  effect_direction: positive
+  source_ref: Ptolemy I.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381038'
+- relation_id: rel_i_007
+  relation_type: classification
+  factor_a: planet_malefic
+  factor_b: life_harm
+  relation_nature: Cold/Dry=Death
+  condition_constraint: When Saturn/Mars cold-dry nature harms life negatively
+  effect_direction: negative
+  source_ref: Ptolemy I.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381040'
+- relation_id: rel_i_008
+  relation_type: quality
+  factor_a: planet_masculine
+  factor_b: quality_dry
+  relation_nature: Dry=Masculine
+  condition_constraint: When inherent dry quality characterizes planet as masculine
+  effect_direction: characterizing
+  source_ref: Ptolemy I.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381056'
+- relation_id: rel_i_009
+  relation_type: modification
+  factor_a: planet_position_sun
+  factor_b: planet_gender
+  relation_nature: Position modifies
+  condition_constraint: When matutine or vespertine position modifies planet gender
+  effect_direction: modifying
+  source_ref: Ptolemy I.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381059'
+- relation_id: rel_i_010
+  relation_type: mitigation
+  factor_a: planet_saturn
+  factor_b: planet_diurnal
+  relation_nature: Cold→Hot day
+  condition_constraint: When Saturn's cold tempered by diurnal hot contrary placement
+  effect_direction: tempering
+  source_ref: Ptolemy I.7
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381079'
+- relation_id: rel_i_011
+  relation_type: mitigation
+  factor_a: planet_mars
+  factor_b: planet_nocturnal
+  relation_nature: Dry→Moist night
+  condition_constraint: When Mars's dry tempered by nocturnal moist contrary placement
+  effect_direction: tempering
+  source_ref: Ptolemy I.7
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381082'
+- relation_id: rel_i_012
+  relation_type: modulation
+  factor_a: lunar_phase
+  factor_b: planet_quality
+  relation_nature: Phase→Quality
+  condition_constraint: When lunar synodic phase modulates planetary quality expression
+  effect_direction: cycling
+  source_ref: Ptolemy I.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381101'
+- relation_id: rel_i_013
+  relation_type: analogy
+  factor_a: fixed_star
+  factor_b: planet_nature
+  relation_nature: Star=Planet analogue
+  condition_constraint: When fixed star at paran amplifies analogous planetary nature
+  effect_direction: amplifying
+  source_ref: Ptolemy I.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381117'
+- relation_id: rel_i_026
+  relation_type: analogy
+  factor_a: fixed_star_north
+  factor_b: planet_nature
+  relation_nature: Star=Planet
+  condition_constraint: When northern fixed star at paran amplifies planetary nature
+  effect_direction: amplifying
+  source_ref: Ptolemy I.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381130'
+- relation_id: rel_i_027
+  relation_type: analogy
+  factor_a: fixed_star_south
+  factor_b: planet_nature
+  relation_nature: Star=Planet
+  condition_constraint: When southern fixed star at paran amplifies planetary nature
+  effect_direction: amplifying
+  source_ref: Ptolemy I.11
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381145'
+- relation_id: rel_i_014
+  relation_type: correspondence
+  factor_a: tropical_zodiac
+  factor_b: season_quality
+  relation_nature: Season=Sign quality
+  condition_constraint: When tropical cardinal points define seasonal sign qualities
+  effect_direction: defining
+  source_ref: Ptolemy I.12
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381160'
+- relation_id: rel_i_015
+  relation_type: modification
+  factor_a: house_angle
+  factor_b: planet_quality
+  relation_nature: Angle adds quality
+  condition_constraint: When angular house ASC/MC/DSC/IC amplifies planet quality
+  effect_direction: amplifying
+  source_ref: Ptolemy I.13
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381174'
+- relation_id: rel_i_016
+  relation_type: classification
+  factor_a: sign_modality
+  factor_b: behavior
+  relation_nature: Cardinal/Fixed/Mutable
+  condition_constraint: When seasonal position characterizes sign as cardinal fixed
+    or mutable
+  effect_direction: characterizing
+  source_ref: Ptolemy I.14
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381188'
+- relation_id: rel_i_028
+  relation_type: classification
+  factor_a: sign_gender
+  factor_b: behavior
+  relation_nature: M=Active, F=Passive
+  condition_constraint: When alternating signs characterize masculine active or feminine
+    passive
+  effect_direction: characterizing
+  source_ref: Ptolemy I.15
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381200'
+- relation_id: rel_i_017
+  relation_type: relation
+  factor_a: aspect_type
+  factor_b: harmony_discord
+  relation_nature: Geometric connection
+  condition_constraint: When geometric aspect connects same or different gender signs
+    for harmony or discord
+  effect_direction: characterizing
+  source_ref: Ptolemy I.16
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381215'
+- relation_id: rel_i_029
+  relation_type: hierarchy
+  factor_a: sign_commanding
+  factor_b: sign_obeying
+  relation_nature: Summer>Winter
+  condition_constraint: When summer signs command winter signs based on equinox distance
+  effect_direction: commanding
+  source_ref: Ptolemy I.17
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381227'
+- relation_id: rel_i_030
+  relation_type: mirror
+  factor_a: sign_antiscia
+  factor_b: equal_power
+  relation_nature: Solstice equidistance
+  condition_constraint: When signs equidistant from solstice mirror each other with
+    equal power
+  effect_direction: mirroring
+  source_ref: Ptolemy I.18
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381239'
+- relation_id: rel_i_031
+  relation_type: aversion
+  factor_a: aspect_inconjunct
+  factor_b: no_relationship
+  relation_nature: 30° or 150°
+  condition_constraint: When 30° or 150° inconjunct aspect disconnects with no familiarity
+  effect_direction: disconnecting
+  source_ref: Ptolemy I.19
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381254'
+- relation_id: rel_i_031b
+  relation_type: contrast
+  factor_a: astro_aspect_inconjunct
+  factor_b: astro_aspect_trine
+  relation_nature: Negative-positive
+  condition_constraint: When inconjunct stands as opposite of trine familiarity
+  effect_direction: contrasting
+  source_ref: Ptolemy I.19
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381257'
+- relation_id: rel_i_018
+  relation_type: dignity
+  factor_a: planet_domicile
+  factor_b: planet_strength
+  relation_nature: Home=Strong
+  condition_constraint: When planet in own domicile rulership amplifies strength
+  effect_direction: amplifying
+  source_ref: Ptolemy I.20
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381271'
+- relation_id: rel_i_019
+  relation_type: dignity
+  factor_a: sign_triplicity
+  factor_b: planet_strength
+  relation_nature: Triplicity lord=Strength
+  condition_constraint: When day or night triplicity lordship supports planetary strength
+  effect_direction: supporting
+  source_ref: Ptolemy I.21
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381284'
+- relation_id: rel_i_020
+  relation_type: dignity
+  factor_a: planet_exaltation
+  factor_b: planet_strength
+  relation_nature: Exaltation=Peak
+  condition_constraint: When planet in specific exaltation sign maximizes strength
+    to peak
+  effect_direction: maximizing
+  source_ref: Ptolemy I.22
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381301'
+- relation_id: rel_i_021a
+  relation_type: dignity
+  factor_a: terms_egyptian
+  factor_b: planet_strength
+  relation_nature: Minor dignity
+  condition_constraint: When Egyptian terms 5 segments provide supporting minor dignity
+  effect_direction: supporting
+  source_ref: Ptolemy I.23
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381315'
+- relation_id: rel_i_021b
+  relation_type: dignity
+  factor_a: terms_ptolemaic
+  factor_b: planet_strength
+  relation_nature: Minor dignity
+  condition_constraint: When Ptolemaic terms with rational basis provide supporting
+    minor dignity
+  effect_direction: supporting
+  source_ref: Ptolemy I.24
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381330'
+- relation_id: rel_i_022
+  relation_type: definition
+  factor_a: tropical_zodiac
+  factor_b: sign_meaning
+  relation_nature: Equinox=Sign start
+  condition_constraint: When equinox seasonal point defines tropical zodiac sign start
+  effect_direction: defining
+  source_ref: Ptolemy I.25
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381343'
+- relation_id: rel_i_023
+  relation_type: cumulative
+  factor_a: planet_dignity_multiple
+  factor_b: planet_strength
+  relation_nature: Multiple dignities=Power
+  condition_constraint: When multiple dignities in same sign cumulatively amplify
+    planetary power
+  effect_direction: amplifying
+  source_ref: Ptolemy I.26
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381358'
+- relation_id: rel_i_024
+  relation_type: motion
+  factor_a: aspect_application
+  factor_b: aspect_formation
+  relation_nature: Faster approaches slower
+  condition_constraint: When faster planet approaches slower within orb forming connecting
+    aspect
+  effect_direction: connecting
+  source_ref: Ptolemy I.27
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381377'
+- relation_id: rel_i_025
+  relation_type: strength
+  factor_a: planet_oriental
+  factor_b: planet_power
+  relation_nature: Oriental=Strong
+  condition_constraint: When planet oriental rising before Sun enhances power
+  effect_direction: enhancing
+  source_ref: Ptolemy I.27
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.381379'
+- relation_id: rel_ptolemy_iii_001
+  relation_type: foundation
+  factor_a: genethliacal
+  factor_b: natal_chart
+  relation_nature: Individual application
+  condition_constraint: When birth data specifies individual natal chart foundation
+  effect_direction: specifying
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384468'
+- relation_id: rel_ptolemy_iii_002
+  relation_type: temporal_dual
+  factor_a: prenatal_postnatal
+  factor_b: complete_analysis
+  relation_nature: Both required
+  condition_constraint: When conception and birth data together complete analysis
+  effect_direction: completing
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384473'
+- relation_id: rel_iii_010
+  relation_type: correspondence
+  factor_a: chart_conception
+  factor_b: chart_birth
+  relation_nature: Sympathetic
+  condition_constraint: When nature sympathetically times birth to match conception
+    chart
+  effect_direction: equivalent
+  source_ref: Ptolemy III.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384494'
+- relation_id: rel_iii_010b
+  relation_type: foundation
+  factor_a: astro_conception_chart
+  factor_b: natal_astrology
+  relation_nature: Branch-root
+  condition_constraint: When conception chart provides foundation for natal astrology
+  effect_direction: grounding
+  source_ref: Ptolemy III.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384497'
+- relation_id: rel_ptolemy_iii_003
+  relation_type: foundation
+  factor_a: ascendant
+  factor_b: house_framework
+  relation_nature: Establishes positions
+  condition_constraint: When exact degree ascendant anchors entire house framework
+  effect_direction: anchoring
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384520'
+- relation_id: rel_ptolemy_iii_004
+  relation_type: validation
+  factor_a: degree_calc
+  factor_b: interpretation
+  relation_nature: Accuracy required
+  condition_constraint: When degree calculation accuracy validates interpretation
+    since errors cascade
+  effect_direction: validating
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384523'
+- relation_id: rel_ptolemy_iii_005
+  relation_type: methodology
+  factor_a: fourfold_div
+  factor_b: systematic_inquiry
+  relation_nature: Structured approach
+  condition_constraint: When fourfold division organizes systematic inquiry in regular
+    order
+  effect_direction: organizing
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384545'
+- relation_id: rel_ptolemy_iii_006
+  relation_type: assignment
+  factor_a: topic_sig
+  factor_b: interpretation
+  relation_nature: Each topic has rulers
+  condition_constraint: When significator identified specifies rulers for each topic
+  effect_direction: specifying
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384548'
+- relation_id: rel_ptolemy_iii_007
+  relation_type: dual_rulership
+  factor_a: mercury_reason
+  factor_b: moon_soul
+  relation_nature: Joint mind rulers
+  condition_constraint: When Mercury and Moon jointly rule mind requiring both assessment
+  effect_direction: completing
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384569'
+- relation_id: rel_ptolemy_iii_008
+  relation_type: modification
+  factor_a: benefic_malefic
+  factor_b: mind_quality
+  relation_nature: Aspect influence
+  condition_constraint: When configured planets modify mind quality through benefic
+    or malefic aspects
+  effect_direction: modifying
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384572'
+- relation_id: rel_ptolemy_iii_009
+  relation_type: affliction
+  factor_a: saturn_cold
+  factor_b: mercury_moon_mind
+  relation_nature: Melancholy
+  condition_constraint: When Saturn's cold afflicts Mercury-Moon mind without benefic
+    support
+  effect_direction: damaging
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384593'
+- relation_id: rel_ptolemy_iii_010
+  relation_type: affliction
+  factor_a: mars_hot
+  factor_b: mercury_moon_mind
+  relation_nature: Epilepsy
+  condition_constraint: When Mars's hot afflicts Mercury-Moon mind without benefic
+    support
+  effect_direction: disturbing
+  source_ref: 'Ptolemy #III'
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384596'
+- relation_id: rel_iii_011
+  relation_type: signification
+  factor_a: father_sig
+  factor_b: father_fortune
+  relation_nature: Sun/Saturn=Father
+  condition_constraint: When Sun and Saturn signify father's fortune through doryphory
+  effect_direction: specifying
+  source_ref: Ptolemy III.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384696'
+- relation_id: rel_iii_012
+  relation_type: signification
+  factor_a: mother_sig
+  factor_b: mother_fortune
+  relation_nature: Moon/Venus=Mother
+  condition_constraint: When Moon and Venus signify mother's fortune through doryphory
+  effect_direction: specifying
+  source_ref: Ptolemy III.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384703'
+- relation_id: rel_iii_013
+  relation_type: indication
+  factor_a: astro_house_maternal
+  factor_b: sibling_number
+  relation_nature: MC/Venus/Moon=Siblings
+  condition_constraint: When MC/Venus/Moon with benefic-malefic aspects quantify sibling
+    number
+  effect_direction: quantifying
+  source_ref: Ptolemy III.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384725'
+- relation_id: rel_iii_014
+  relation_type: determination
+  factor_a: planet_masculine
+  factor_b: native_sex
+  relation_nature: Majority rule
+  condition_constraint: When majority of masculine planets determines native as male
+  effect_direction: specifying
+  source_ref: Ptolemy III.7
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384744'
+- relation_id: rel_iii_015
+  relation_type: multiplication
+  factor_a: astro_sign_bicorporeal
+  factor_b: birth_number
+  relation_nature: Bicorporeal=Multiples
+  condition_constraint: When bicorporeal signs in 2-3 places multiply birth number
+  effect_direction: multiplying
+  source_ref: Ptolemy III.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384761'
+- relation_id: rel_iii_020
+  relation_type: indication
+  factor_a: astro_birth_defect
+  factor_b: luminary_position
+  relation_nature: Cadent=Risk
+  condition_constraint: When cadent luminary with angular malefic warns of birth defect
+    risk
+  effect_direction: warning
+  source_ref: Ptolemy III.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384778'
+- relation_id: rel_iii_021
+  relation_type: hostility
+  factor_a: malefic_planet
+  factor_b: luminary
+  relation_nature: Mars→Sun, Saturn→Moon
+  condition_constraint: When Mars opposes Sun or Saturn opposes Moon from angular
+    position fatally
+  effect_direction: fatal
+  source_ref: Ptolemy III.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384797'
+- relation_id: rel_iii_022
+  relation_type: precedence
+  factor_a: lifespan_inquiry
+  factor_b: other_inquiries
+  relation_nature: Primary
+  condition_constraint: When lifespan inquiry takes precedence since survival is required
+    for other inquiries
+  effect_direction: foundational
+  source_ref: Ptolemy III.11
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384813'
+- relation_id: rel_iii_023
+  relation_type: hierarchy
+  factor_a: astro_house_prorogatory
+  factor_b: priority
+  relation_nature: MC > ASC
+  condition_constraint: When MC ranks above ASC in five prorogatory place hierarchy
+  effect_direction: ranking
+  source_ref: Ptolemy III.12
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384829'
+- relation_id: rel_iii_024
+  relation_type: selection
+  factor_a: astro_prorogator
+  factor_b: astro_planet_sect
+  relation_nature: Day=Sun, Night=Moon
+  condition_constraint: When sect determines Sun prorogator by day Moon by night in
+    prorogatory places
+  effect_direction: priority
+  source_ref: Ptolemy III.13
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384844'
+- relation_id: rel_iii_025
+  relation_type: determination
+  factor_a: astro_direction_mode
+  factor_b: prorogator_position
+  relation_nature: Oriental=Direct
+  condition_constraint: When oriental prorogator directs forward occidental directs
+    both ways
+  effect_direction: mode_selection
+  source_ref: Ptolemy III.14
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384859'
+- relation_id: rel_iii_026
+  relation_type: calculation
+  factor_a: prorogation_calc
+  factor_b: astro_lifespan
+  relation_nature: Times × Horary
+  condition_constraint: When prorogation calculation determines lifespan through times
+    and horary periods
+  effect_direction: determining
+  source_ref: Ptolemy III.15
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384877'
+- relation_id: rel_iii_018
+  relation_type: determination
+  factor_a: astro_planet_ruler_asc
+  factor_b: body_form
+  relation_nature: ASC ruler=Body
+  condition_constraint: When ASC ruler's oriental-occidental position determines body
+    form
+  effect_direction: specifying
+  source_ref: Ptolemy III.16
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384892'
+- relation_id: rel_iii_019
+  relation_type: affliction
+  factor_a: astro_malefic_angular
+  factor_b: bodily_affliction
+  relation_nature: Angular malefic=Disease
+  condition_constraint: When angular malefic on ASC/DSC damages body with disease
+  effect_direction: damaging
+  source_ref: Ptolemy III.17
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.384910'

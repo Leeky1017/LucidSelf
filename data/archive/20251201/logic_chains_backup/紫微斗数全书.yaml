@@ -1,0 +1,670 @@
+chain_id: chain_紫微斗数全书
+book_id: 紫微斗数全书
+nodes:
+- node_id: n_紫微斗数全书_紫微守命_1
+  snippet_ids:
+  - ns_zwds_j1_001
+  role: 主干
+  condition: null
+  summary: 紫微守命
+  metadata:
+    cluster_level: L1
+    source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+    snippet_count: 1
+- node_id: n_紫微斗数全书_紫微有辅弼_2
+  snippet_ids:
+  - ns_zwds_j1_002
+  role: 主干依赖
+  condition: null
+  summary: 紫微有辅弼
+  metadata:
+    cluster_level: L1
+    source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+    snippet_count: 1
+- node_id: n_紫微斗数全书_紫微无辅弼_3
+  snippet_ids:
+  - ns_zwds_j1_003
+  role: 条件分支
+  condition: null
+  summary: 紫微无辅弼
+  metadata:
+    cluster_level: L1
+    source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+    snippet_count: 1
+- node_id: n_紫微斗数全书_紫微遇禄存日月_4
+  snippet_ids:
+  - ns_zwds_j1_004
+  role: 主干
+  condition: null
+  summary: 紫微遇禄存日月
+  metadata:
+    cluster_level: L1
+    source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+    snippet_count: 1
+- node_id: n_紫微斗数全书_紫微制杀_5
+  snippet_ids:
+  - ns_zwds_j1_005
+  role: 例外处理
+  condition: null
+  summary: 紫微制杀
+  metadata:
+    cluster_level: L1
+    source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+    snippet_count: 1
+- node_id: n_紫微斗数全书_紫微落四陷宫_6
+  snippet_ids:
+  - ns_zwds_j1_006
+  role: 条件分支
+  condition: null
+  summary: 紫微落四陷宫
+  metadata:
+    cluster_level: L1
+    source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+    snippet_count: 1
+- node_id: n_紫微斗数全书_女命紫微_7
+  snippet_ids:
+  - ns_zwds_j1_007
+  role: 总结
+  condition: null
+  summary: 女命紫微
+  metadata:
+    cluster_level: L1
+    source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+    snippet_count: 1
+edges:
+- from_node: n_紫微斗数全书_紫微有辅弼_2
+  to_node: n_紫微斗数全书_紫微守命_1
+  relation: leads_to
+  condition: 前后宫位
+  metadata:
+    source_relation_id: rel_fubi_003
+    source_ref: 《安左辅右弼星诀》
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微有辅弼_2
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 前后宫位
+  metadata:
+    source_relation_id: rel_fubi_003
+    source_ref: 《安左辅右弼星诀》
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微有辅弼_2
+  to_node: n_紫微斗数全书_紫微遇禄存日月_4
+  relation: leads_to
+  condition: 前后宫位
+  metadata:
+    source_relation_id: rel_fubi_003
+    source_ref: 《安左辅右弼星诀》
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微有辅弼_2
+  to_node: n_紫微斗数全书_紫微制杀_5
+  relation: leads_to
+  condition: 前后宫位
+  metadata:
+    source_relation_id: rel_fubi_003
+    source_ref: 《安左辅右弼星诀》
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微有辅弼_2
+  to_node: n_紫微斗数全书_紫微落四陷宫_6
+  relation: leads_to
+  condition: 前后宫位
+  metadata:
+    source_relation_id: rel_fubi_003
+    source_ref: 《安左辅右弼星诀》
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微有辅弼_2
+  to_node: n_紫微斗数全书_女命紫微_7
+  relation: leads_to
+  condition: 前后宫位
+  metadata:
+    source_relation_id: rel_fubi_003
+    source_ref: 《安左辅右弼星诀》
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微无辅弼_3
+  to_node: n_紫微斗数全书_紫微守命_1
+  relation: leads_to
+  condition: 前后宫位
+  metadata:
+    source_relation_id: rel_fubi_003
+    source_ref: 《安左辅右弼星诀》
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微无辅弼_3
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 前后宫位
+  metadata:
+    source_relation_id: rel_fubi_003
+    source_ref: 《安左辅右弼星诀》
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微无辅弼_3
+  to_node: n_紫微斗数全书_紫微遇禄存日月_4
+  relation: leads_to
+  condition: 前后宫位
+  metadata:
+    source_relation_id: rel_fubi_003
+    source_ref: 《安左辅右弼星诀》
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微无辅弼_3
+  to_node: n_紫微斗数全书_紫微制杀_5
+  relation: leads_to
+  condition: 前后宫位
+  metadata:
+    source_relation_id: rel_fubi_003
+    source_ref: 《安左辅右弼星诀》
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微无辅弼_3
+  to_node: n_紫微斗数全书_紫微落四陷宫_6
+  relation: leads_to
+  condition: 前后宫位
+  metadata:
+    source_relation_id: rel_fubi_003
+    source_ref: 《安左辅右弼星诀》
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微无辅弼_3
+  to_node: n_紫微斗数全书_女命紫微_7
+  relation: leads_to
+  condition: 前后宫位
+  metadata:
+    source_relation_id: rel_fubi_003
+    source_ref: 《安左辅右弼星诀》
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微守命_1
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_001
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微守命_1
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_001
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微有辅弼_2
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_001
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微无辅弼_3
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_001
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微遇禄存日月_4
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_001
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微遇禄存日月_4
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_001
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微制杀_5
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_001
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微制杀_5
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_001
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微落四陷宫_6
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_001
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微落四陷宫_6
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_001
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_女命紫微_7
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_001
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_女命紫微_7
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_001
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微守命_1
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_002
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微守命_1
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_002
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微有辅弼_2
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_002
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微无辅弼_3
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_002
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微遇禄存日月_4
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_002
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微遇禄存日月_4
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_002
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微制杀_5
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_002
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微制杀_5
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_002
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微落四陷宫_6
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_002
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微落四陷宫_6
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_002
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_女命紫微_7
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_002
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_女命紫微_7
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_ziwei_002
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微守命_1
+  to_node: n_紫微斗数全书_紫微制杀_5
+  relation: leads_to
+  condition: 紫微庙旺
+  metadata:
+    source_relation_id: rel_ziwei_003
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微有辅弼_2
+  to_node: n_紫微斗数全书_紫微制杀_5
+  relation: leads_to
+  condition: 紫微庙旺
+  metadata:
+    source_relation_id: rel_ziwei_003
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微无辅弼_3
+  to_node: n_紫微斗数全书_紫微制杀_5
+  relation: leads_to
+  condition: 紫微庙旺
+  metadata:
+    source_relation_id: rel_ziwei_003
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微遇禄存日月_4
+  to_node: n_紫微斗数全书_紫微制杀_5
+  relation: leads_to
+  condition: 紫微庙旺
+  metadata:
+    source_relation_id: rel_ziwei_003
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微落四陷宫_6
+  to_node: n_紫微斗数全书_紫微制杀_5
+  relation: leads_to
+  condition: 紫微庙旺
+  metadata:
+    source_relation_id: rel_ziwei_003
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_女命紫微_7
+  to_node: n_紫微斗数全书_紫微制杀_5
+  relation: leads_to
+  condition: 紫微庙旺
+  metadata:
+    source_relation_id: rel_ziwei_003
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微守命_1
+  to_node: n_紫微斗数全书_紫微制杀_5
+  relation: leads_to
+  condition: 紫微庙旺
+  metadata:
+    source_relation_id: rel_ziwei_004
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微有辅弼_2
+  to_node: n_紫微斗数全书_紫微制杀_5
+  relation: leads_to
+  condition: 紫微庙旺
+  metadata:
+    source_relation_id: rel_ziwei_004
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微无辅弼_3
+  to_node: n_紫微斗数全书_紫微制杀_5
+  relation: leads_to
+  condition: 紫微庙旺
+  metadata:
+    source_relation_id: rel_ziwei_004
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微遇禄存日月_4
+  to_node: n_紫微斗数全书_紫微制杀_5
+  relation: leads_to
+  condition: 紫微庙旺
+  metadata:
+    source_relation_id: rel_ziwei_004
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微落四陷宫_6
+  to_node: n_紫微斗数全书_紫微制杀_5
+  relation: leads_to
+  condition: 紫微庙旺
+  metadata:
+    source_relation_id: rel_ziwei_004
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_女命紫微_7
+  to_node: n_紫微斗数全书_紫微制杀_5
+  relation: leads_to
+  condition: 紫微庙旺
+  metadata:
+    source_relation_id: rel_ziwei_004
+    source_ref: 《诸星问答论》#紫微星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微遇禄存日月_4
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_taiyang_002
+    source_ref: 《诸星问答论》#太阳星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微遇禄存日月_4
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 同宫或三方
+  metadata:
+    source_relation_id: rel_taiyang_002
+    source_ref: 《诸星问答论》#太阳星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微制杀_5
+  to_node: n_紫微斗数全书_紫微守命_1
+  relation: leads_to
+  condition: 同度或拱照
+  metadata:
+    source_relation_id: rel_qisha_001
+    source_ref: 《诸星问答论》#七杀星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微制杀_5
+  to_node: n_紫微斗数全书_紫微有辅弼_2
+  relation: leads_to
+  condition: 同度或拱照
+  metadata:
+    source_relation_id: rel_qisha_001
+    source_ref: 《诸星问答论》#七杀星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微制杀_5
+  to_node: n_紫微斗数全书_紫微无辅弼_3
+  relation: leads_to
+  condition: 同度或拱照
+  metadata:
+    source_relation_id: rel_qisha_001
+    source_ref: 《诸星问答论》#七杀星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微制杀_5
+  to_node: n_紫微斗数全书_紫微遇禄存日月_4
+  relation: leads_to
+  condition: 同度或拱照
+  metadata:
+    source_relation_id: rel_qisha_001
+    source_ref: 《诸星问答论》#七杀星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微制杀_5
+  to_node: n_紫微斗数全书_紫微落四陷宫_6
+  relation: leads_to
+  condition: 同度或拱照
+  metadata:
+    source_relation_id: rel_qisha_001
+    source_ref: 《诸星问答论》#七杀星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微制杀_5
+  to_node: n_紫微斗数全书_女命紫微_7
+  relation: leads_to
+  condition: 同度或拱照
+  metadata:
+    source_relation_id: rel_qisha_001
+    source_ref: 《诸星问答论》#七杀星
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_紫微斗数全书_紫微守命_1
+  to_node: n_紫微斗数全书_紫微遇禄存日月_4
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - star_ziwei
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_紫微斗数全书_紫微守命_1
+  to_node: n_紫微斗数全书_紫微落四陷宫_6
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - star_ziwei
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_紫微斗数全书_紫微守命_1
+  to_node: n_紫微斗数全书_女命紫微_7
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - star_ziwei
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_紫微斗数全书_紫微遇禄存日月_4
+  to_node: n_紫微斗数全书_紫微落四陷宫_6
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - star_ziwei
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_紫微斗数全书_紫微遇禄存日月_4
+  to_node: n_紫微斗数全书_女命紫微_7
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - star_ziwei
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_紫微斗数全书_紫微落四陷宫_6
+  to_node: n_紫微斗数全书_女命紫微_7
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - star_ziwei
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_紫微斗数全书_紫微落四陷宫_6
+  to_node: n_紫微斗数全书_紫微守命_1
+  relation: depends_on
+  condition: null
+  metadata:
+    shared_factors:
+    - star_ziwei
+    confidence: 0.7
+    inferred_from: condition_dependency
+- from_node: n_紫微斗数全书_紫微落四陷宫_6
+  to_node: n_紫微斗数全书_紫微遇禄存日月_4
+  relation: depends_on
+  condition: null
+  metadata:
+    shared_factors:
+    - star_ziwei
+    confidence: 0.7
+    inferred_from: condition_dependency
+narrative_order:
+- n_紫微斗数全书_紫微守命_1
+- n_紫微斗数全书_紫微有辅弼_2
+- n_紫微斗数全书_紫微无辅弼_3
+- n_紫微斗数全书_紫微遇禄存日月_4
+- n_紫微斗数全书_紫微制杀_5
+- n_紫微斗数全书_紫微落四陷宫_6
+- n_紫微斗数全书_女命紫微_7
+entry_nodes:
+- n_紫微斗数全书_紫微守命_1
+- n_紫微斗数全书_紫微遇禄存日月_4
+terminal_nodes:
+- n_紫微斗数全书_女命紫微_7
+metadata:
+  version: 2.0.0
+  extracted_at: 2025-11-30 22:14:39.575062
+  source_files: []
+  snippet_count: 7
+  relation_count: 811
+version: 1.0.0

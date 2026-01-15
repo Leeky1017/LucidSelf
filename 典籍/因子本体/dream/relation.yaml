@@ -1,0 +1,88 @@
+# 梦境体系 - 关系类因子
+# Relational factors for Dream system
+
+factors:
+  # 代理关系
+  - id: dream_proxy_relation_type
+    status: existing
+    display_zh: 代理关系类型
+    display_en: Proxy Relation Type
+    description_zh: 梦中人物与现实人物的代理关系
+    description_en: Proxy relationship between dream and real figures
+    category: relation
+    value_type: enum
+    value_range: [direct, symbolic, composite, shadow, anima_animus]
+    applicable_systems: [dream]
+
+  - id: dream_proxy_reliability
+    status: existing
+    display_zh: 代理可靠度
+    display_en: Proxy Reliability
+    description_zh: 代理关系的确定程度
+    description_en: Certainty of proxy relationship
+    category: relation
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [dream]
+
+  # 符号关联
+  - id: dream_symbol_connection
+    status: existing
+    display_zh: 符号关联
+    display_en: Symbol Connection
+    description_zh: 梦境符号与现实事件的关联
+    description_en: Connection between dream symbols and real events
+    category: relation
+    value_type: string
+    applicable_systems: [dream]
+
+  - id: dream_recurring_pattern
+    status: existing
+    display_zh: 重复模式
+    display_en: Recurring Pattern
+    description_zh: 是否存在反复出现的梦境模式
+    description_en: Whether there's a recurring dream pattern
+    category: relation
+    value_type: boolean
+    applicable_systems: [dream]
+
+  # 原型关联
+  - id: dream_archetype_shadow
+    status: existing
+    display_zh: 阴影原型
+    display_en: Shadow Archetype
+    description_zh: 梦中出现阴影原型元素
+    description_en: Shadow archetype elements in dream
+    category: relation
+    value_type: boolean
+    applicable_systems: [dream]
+
+  - id: dream_archetype_anima
+    status: existing
+    display_zh: 阿尼玛原型
+    display_en: Anima Archetype
+    description_zh: 梦中出现阿尼玛原型元素
+    description_en: Anima archetype elements in dream
+    category: relation
+    value_type: boolean
+    applicable_systems: [dream]
+
+  - id: dream_archetype_animus
+    status: existing
+    display_zh: 阿尼姆斯原型
+    display_en: Animus Archetype
+    description_zh: 梦中出现阿尼姆斯原型元素
+    description_en: Animus archetype elements in dream
+    category: relation
+    value_type: boolean
+    applicable_systems: [dream]
+
+  - id: dream_archetype_self
+    status: existing
+    display_zh: 自性原型
+    display_en: Self Archetype
+    description_zh: 梦中出现自性原型元素
+    description_en: Self archetype elements in dream
+    category: relation
+    value_type: boolean
+    applicable_systems: [dream]

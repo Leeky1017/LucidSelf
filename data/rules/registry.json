@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0",
+  "description": "LucidSelf Rule Registry - 规则注册表",
+  "systems": {
+    "bazi": {
+      "name": "八字规则引擎",
+      "engine_id": "bazi_rule_engine",
+      "rule_files": ["career.jsonl", "wealth.jsonl", "marriage.jsonl", "personality.jsonl", "health.jsonl"],
+      "reference_books": ["三命通会", "子平真诠", "滴天髓", "渊海子平", "穷通宝鉴"]
+    },
+    "ziwei": {
+      "name": "紫微斗数规则引擎",
+      "engine_id": "ziwei_rule_engine",
+      "rule_files": ["palace.jsonl", "star.jsonl", "transform.jsonl"],
+      "reference_books": ["紫微斗数全书"]
+    },
+    "tarot": {
+      "name": "塔罗牌规则引擎",
+      "engine_id": "tarot_rule_engine",
+      "rule_files": ["major_arcana.jsonl", "minor_arcana.jsonl", "spread.jsonl"],
+      "reference_books": ["Rider-Waite Tarot"]
+    },
+    "astro": {
+      "name": "占星规则引擎",
+      "engine_id": "astro_rule_engine",
+      "rule_files": ["planet_sign.jsonl", "planet_house.jsonl", "aspect.jsonl"],
+      "reference_books": ["Modern Astrology"]
+    },
+    "dream": {
+      "name": "解梦规则引擎",
+      "engine_id": "dream_rule_engine",
+      "rule_files": ["symbol.jsonl", "theme.jsonl", "emotion.jsonl"],
+      "reference_books": ["Dream Dictionary", "周公解梦"]
+    },
+    "yijing": {
+      "name": "易经规则引擎",
+      "engine_id": "yijing_rule_engine",
+      "rule_files": ["hexagram.jsonl", "yao.jsonl", "trigram.jsonl"],
+      "reference_books": ["周易"]
+    },
+    "psychology": {
+      "name": "心理学规则引擎",
+      "engine_id": "psychology_rule_engine",
+      "rule_files": ["archetype.jsonl", "function.jsonl", "process.jsonl"],
+      "reference_books": ["Jung Archetypes", "Psychological Types"]
+    }
+  },
+  "status_transitions": {
+    "draft": ["active"],
+    "active": ["deprecated"],
+    "deprecated": []
+  },
+  "metadata": {
+    "created_at": "2025-01-01T00:00:00Z",
+    "updated_at": "2025-01-01T00:00:00Z"
+  }
+}

@@ -1,0 +1,5 @@
+### openspec/SPECS_INDEX.md (status lines)
+20:semantic-extraction-quality-gates | 语义抽取质量门禁 | P1 | system | 已完成 | Gate-1
+148:semantic-extraction-quality-gates | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 证据链可审计；语义层契约稳定；质量门禁阈值明确；回归基线可执行 | `openspec/specs/semantic-extraction-quality-gates/`（spec/requirements/tasks/design/acceptance）
+31:cross-book-consistency-conflicts | 跨书一致性与冲突 | 资产层 | system | 已完成 | 资产门禁
+159:cross-book-consistency-conflicts | `openspec validate --specs --strict --no-interactive` | 许可/血缘/QA/冲突处置可追溯；失败样本与例外审批可审计 | `openspec/specs/cross-book-consistency-conflicts/`（spec/requirements/tasks/design/acceptance）

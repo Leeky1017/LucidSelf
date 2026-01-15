@@ -1,0 +1,6032 @@
+chain_id: chain_ltt
+book_id: learning_the_tarot
+nodes:
+- node_id: n_ltt_l308_310_0
+  snippet_ids:
+  - ns_ltt_001
+  role: 主干
+  condition: null
+  summary: tarot_origin
+  metadata:
+    source_ref: L308-310
+    snippet_count: 1
+- node_id: n_ltt_l312_316_1
+  snippet_ids:
+  - ns_ltt_002
+  role: 主干依赖
+  condition: null
+  summary: occult_rediscovery
+  metadata:
+    source_ref: L312-316
+    snippet_count: 1
+- node_id: n_ltt_l306_307_2
+  snippet_ids:
+  - ns_ltt_003
+  role: 总结
+  condition: null
+  summary: personal_growth
+  metadata:
+    source_ref: L306-307
+    snippet_count: 1
+- node_id: n_ltt_l346_348_3
+  snippet_ids:
+  - ns_ltt_004
+  role: 主干
+  condition: null
+  summary: unconscious_definition
+  metadata:
+    source_ref: L346-348
+    snippet_count: 1
+- node_id: n_ltt_l351_353_4
+  snippet_ids:
+  - ns_ltt_005
+  role: 主干依赖
+  condition: null
+  summary: jung_creative
+  metadata:
+    source_ref: L351-353
+    snippet_count: 1
+- node_id: n_ltt_l434_438_5
+  snippet_ids:
+  - ns_ltt_006
+  role: 主干
+  condition: null
+  summary: inner_guide_def
+  metadata:
+    source_ref: L434-438
+    snippet_count: 1
+- node_id: n_ltt_l374_375_6
+  snippet_ids:
+  - ns_ltt_007
+  role: 条件分支
+  condition: null
+  summary: projection_mechanism
+  metadata:
+    source_ref: L374-375
+    snippet_count: 1
+- node_id: n_ltt_l222_223_7
+  snippet_ids:
+  - ns_ltt_008
+  role: 总结
+  condition: null
+  summary: no_psychic_needed
+  metadata:
+    source_ref: L222-223
+    snippet_count: 1
+- node_id: n_ltt_l474_476_8
+  snippet_ids:
+  - ns_ltt_009
+  role: 主干
+  condition: null
+  summary: arcana_meaning
+  metadata:
+    source_ref: L474-476
+    snippet_count: 1
+- node_id: n_ltt_l477_478_9
+  snippet_ids:
+  - ns_ltt_010
+  role: 主干
+  condition: null
+  summary: major_arcana_heart
+  metadata:
+    source_ref: L477-478
+    snippet_count: 1
+- node_id: n_ltt_l495_498_10
+  snippet_ids:
+  - ns_ltt_011
+  role: 主干依赖
+  condition: null
+  summary: fools_journey
+  metadata:
+    source_ref: L495-498
+    snippet_count: 1
+- node_id: n_ltt_l509_522_11
+  snippet_ids:
+  - ns_ltt_012
+  role: 条件分支
+  condition: null
+  summary: journey_nonlinear
+  metadata:
+    source_ref: L509-522
+    snippet_count: 1
+- node_id: n_ltt_l488_490_12
+  snippet_ids:
+  - ns_ltt_013
+  role: 总结
+  condition: null
+  summary: major_weight
+  metadata:
+    source_ref: L488-490
+    snippet_count: 1
+- node_id: n_ltt_l532_534_13
+  snippet_ids:
+  - ns_ltt_014
+  role: 主干
+  condition: null
+  summary: minor_practical
+  metadata:
+    source_ref: L532-534
+    snippet_count: 1
+- node_id: n_ltt_l538_543_14
+  snippet_ids:
+  - ns_ltt_015
+  role: 主干依赖
+  condition: null
+  summary: wands_fire
+  metadata:
+    source_ref: L538-543
+    snippet_count: 1
+- node_id: n_ltt_l544_549_15
+  snippet_ids:
+  - ns_ltt_016
+  role: 主干依赖
+  condition: null
+  summary: cups_water
+  metadata:
+    source_ref: L544-549
+    snippet_count: 1
+- node_id: n_ltt_l550_556_16
+  snippet_ids:
+  - ns_ltt_017
+  role: 条件分支
+  condition: null
+  summary: swords_air
+  metadata:
+    source_ref: L550-556
+    snippet_count: 1
+- node_id: n_ltt_l557_561_17
+  snippet_ids:
+  - ns_ltt_018
+  role: 主干依赖
+  condition: null
+  summary: pentacles_earth
+  metadata:
+    source_ref: L557-561
+    snippet_count: 1
+- node_id: n_ltt_l3507_3510_18
+  snippet_ids:
+  - ns_ltt_019
+  role: 主干
+  condition: null
+  summary: fool_card
+  metadata:
+    source_ref: L3507-3510
+    snippet_count: 1
+- node_id: n_ltt_l3518_3519_19
+  snippet_ids:
+  - ns_ltt_020
+  role: 主干依赖
+  condition: null
+  summary: fool_beginning
+  metadata:
+    source_ref: L3518-3519
+    snippet_count: 1
+- node_id: n_ltt_l3515_3517_20
+  snippet_ids:
+  - ns_ltt_021
+  role: 主干依赖
+  condition: null
+  summary: fool_faith
+  metadata:
+    source_ref: L3515-3517
+    snippet_count: 1
+- node_id: n_ltt_l3520_3522_21
+  snippet_ids:
+  - ns_ltt_022
+  role: 总结
+  condition: null
+  summary: fool_folly
+  metadata:
+    source_ref: L3520-3522
+    snippet_count: 1
+- node_id: n_ltt_l3573_3575_22
+  snippet_ids:
+  - ns_ltt_023
+  role: 主干
+  condition: null
+  summary: magician_card
+  metadata:
+    source_ref: L3573-3575
+    snippet_count: 1
+- node_id: n_ltt_l3587_3588_23
+  snippet_ids:
+  - ns_ltt_024
+  role: 主干依赖
+  condition: null
+  summary: magician_action
+  metadata:
+    source_ref: L3587-3588
+    snippet_count: 1
+- node_id: n_ltt_l3575_3577_24
+  snippet_ids:
+  - ns_ltt_025
+  role: 条件分支
+  condition: null
+  summary: magician_channel
+  metadata:
+    source_ref: L3575-3577
+    snippet_count: 1
+- node_id: n_ltt_l3583_3585_25
+  snippet_ids:
+  - ns_ltt_026
+  role: 总结
+  condition: null
+  summary: magician_focus
+  metadata:
+    source_ref: L3583-3585
+    snippet_count: 1
+- node_id: n_ltt_l3639_3641_26
+  snippet_ids:
+  - ns_ltt_027
+  role: 主干
+  condition: null
+  summary: high_priestess_card
+  metadata:
+    source_ref: L3639-3641
+    snippet_count: 1
+- node_id: n_ltt_l3643_3644_27
+  snippet_ids:
+  - ns_ltt_028
+  role: 主干依赖
+  condition: null
+  summary: high_priestess_balance
+  metadata:
+    source_ref: L3643-3644
+    snippet_count: 1
+- node_id: n_ltt_l3649_3651_28
+  snippet_ids:
+  - ns_ltt_029
+  role: 总结
+  condition: null
+  summary: high_priestess_deeper
+  metadata:
+    source_ref: L3649-3651
+    snippet_count: 1
+- node_id: n_ltt_l3700_3702_29
+  snippet_ids:
+  - ns_ltt_030
+  role: 主干
+  condition: null
+  summary: empress_card
+  metadata:
+    source_ref: L3700-3702
+    snippet_count: 1
+- node_id: n_ltt_l3698_3700_30
+  snippet_ids:
+  - ns_ltt_031
+  role: 主干依赖
+  condition: null
+  summary: empress_feminine
+  metadata:
+    source_ref: L3698-3700
+    snippet_count: 1
+- node_id: n_ltt_l3712_3715_31
+  snippet_ids:
+  - ns_ltt_032
+  role: 总结
+  condition: null
+  summary: empress_abundance
+  metadata:
+    source_ref: L3712-3715
+    snippet_count: 1
+- node_id: n_ltt_l3774_3775_32
+  snippet_ids:
+  - ns_ltt_033
+  role: 主干
+  condition: null
+  summary: emperor_card
+  metadata:
+    source_ref: L3774-3775
+    snippet_count: 1
+- node_id: n_ltt_l3774_3776_33
+  snippet_ids:
+  - ns_ltt_034
+  role: 主干依赖
+  condition: null
+  summary: emperor_balance
+  metadata:
+    source_ref: L3774-3776
+    snippet_count: 1
+- node_id: n_ltt_l3777_3780_34
+  snippet_ids:
+  - ns_ltt_035
+  role: 条件分支
+  condition: null
+  summary: emperor_context
+  metadata:
+    source_ref: L3777-3780
+    snippet_count: 1
+- node_id: n_ltt_l3838_3840_35
+  snippet_ids:
+  - ns_ltt_036
+  role: 主干
+  condition: null
+  summary: hierophant_card
+  metadata:
+    source_ref: L3838-3840
+    snippet_count: 1
+- node_id: n_ltt_l3840_3842_36
+  snippet_ids:
+  - ns_ltt_037
+  role: 主干依赖
+  condition: null
+  summary: hierophant_belief
+  metadata:
+    source_ref: L3840-3842
+    snippet_count: 1
+- node_id: n_ltt_l3847_3849_37
+  snippet_ids:
+  - ns_ltt_038
+  role: 条件分支
+  condition: null
+  summary: hierophant_tension
+  metadata:
+    source_ref: L3847-3849
+    snippet_count: 1
+- node_id: n_ltt_l3909_3911_38
+  snippet_ids:
+  - ns_ltt_039
+  role: 主干
+  condition: null
+  summary: lovers_card
+  metadata:
+    source_ref: L3909-3911
+    snippet_count: 1
+- node_id: n_ltt_l3916_3917_39
+  snippet_ids:
+  - ns_ltt_040
+  role: 主干依赖
+  condition: null
+  summary: lovers_values
+  metadata:
+    source_ref: L3916-3917
+    snippet_count: 1
+- node_id: n_ltt_l3976_3979_40
+  snippet_ids:
+  - ns_ltt_041
+  role: 主干
+  condition: null
+  summary: chariot_card
+  metadata:
+    source_ref: L3976-3979
+    snippet_count: 1
+- node_id: n_ltt_l3985_3987_41
+  snippet_ids:
+  - ns_ltt_042
+  role: 主干依赖
+  condition: null
+  summary: chariot_control
+  metadata:
+    source_ref: L3985-3987
+    snippet_count: 1
+- node_id: n_ltt_l4039_4042_42
+  snippet_ids:
+  - ns_ltt_043
+  role: 主干
+  condition: null
+  summary: strength_card
+  metadata:
+    source_ref: L4039-4042
+    snippet_count: 1
+- node_id: n_ltt_l4048_4051_43
+  snippet_ids:
+  - ns_ltt_044
+  role: 主干依赖
+  condition: null
+  summary: strength_soft
+  metadata:
+    source_ref: L4048-4051
+    snippet_count: 1
+- node_id: n_ltt_l4103_4106_44
+  snippet_ids:
+  - ns_ltt_045
+  role: 主干
+  condition: null
+  summary: hermit_card
+  metadata:
+    source_ref: L4103-4106
+    snippet_count: 1
+- node_id: n_ltt_l4114_4116_45
+  snippet_ids:
+  - ns_ltt_046
+  role: 主干依赖
+  condition: null
+  summary: hermit_solitude
+  metadata:
+    source_ref: L4114-4116
+    snippet_count: 1
+- node_id: n_ltt_l4171_4175_46
+  snippet_ids:
+  - ns_ltt_047
+  role: 主干
+  condition: null
+  summary: wheel_card
+  metadata:
+    source_ref: L4171-4175
+    snippet_count: 1
+- node_id: n_ltt_l4184_4186_47
+  snippet_ids:
+  - ns_ltt_048
+  role: 主干依赖
+  condition: null
+  summary: wheel_movement
+  metadata:
+    source_ref: L4184-4186
+    snippet_count: 1
+- node_id: n_ltt_l4238_4243_48
+  snippet_ids:
+  - ns_ltt_049
+  role: 主干
+  condition: null
+  summary: justice_card
+  metadata:
+    source_ref: L4238-4243
+    snippet_count: 1
+- node_id: n_ltt_l4250_4252_49
+  snippet_ids:
+  - ns_ltt_050
+  role: 主干依赖
+  condition: null
+  summary: justice_karma
+  metadata:
+    source_ref: L4250-4252
+    snippet_count: 1
+- node_id: n_ltt_l4312_4317_50
+  snippet_ids:
+  - ns_ltt_051
+  role: 主干
+  condition: null
+  summary: hanged_man_card
+  metadata:
+    source_ref: L4312-4317
+    snippet_count: 1
+- node_id: n_ltt_l4318_4323_51
+  snippet_ids:
+  - ns_ltt_052
+  role: 主干依赖
+  condition: null
+  summary: hanged_man_paradox
+  metadata:
+    source_ref: L4318-4323
+    snippet_count: 1
+- node_id: n_ltt_l4379_4382_52
+  snippet_ids:
+  - ns_ltt_053
+  role: 主干
+  condition: null
+  summary: death_card
+  metadata:
+    source_ref: L4379-4382
+    snippet_count: 1
+- node_id: n_ltt_l4388_4390_53
+  snippet_ids:
+  - ns_ltt_054
+  role: 主干依赖
+  condition: null
+  summary: death_transformation
+  metadata:
+    source_ref: L4388-4390
+    snippet_count: 1
+- node_id: n_ltt_l4443_4450_54
+  snippet_ids:
+  - ns_ltt_055
+  role: 主干
+  condition: null
+  summary: temperance_card
+  metadata:
+    source_ref: L4443-4450
+    snippet_count: 1
+- node_id: n_ltt_l4452_4454_55
+  snippet_ids:
+  - ns_ltt_056
+  role: 主干依赖
+  condition: null
+  summary: temperance_balance
+  metadata:
+    source_ref: L4452-4454
+    snippet_count: 1
+- node_id: n_ltt_l4515_4520_56
+  snippet_ids:
+  - ns_ltt_057
+  role: 主干
+  condition: null
+  summary: devil_card
+  metadata:
+    source_ref: L4515-4520
+    snippet_count: 1
+- node_id: n_ltt_l4521_4529_57
+  snippet_ids:
+  - ns_ltt_058
+  role: 主干依赖
+  condition: null
+  summary: devil_warning
+  metadata:
+    source_ref: L4521-4529
+    snippet_count: 1
+- node_id: n_ltt_l4574_4576_58
+  snippet_ids:
+  - ns_ltt_059
+  role: 主干
+  condition: null
+  summary: tower_card
+  metadata:
+    source_ref: L4574-4576
+    snippet_count: 1
+- node_id: n_ltt_l4579_4582_59
+  snippet_ids:
+  - ns_ltt_060
+  role: 主干依赖
+  condition: null
+  summary: tower_wakeup
+  metadata:
+    source_ref: L4579-4582
+    snippet_count: 1
+- node_id: n_ltt_l4643_4644_60
+  snippet_ids:
+  - ns_ltt_061
+  role: 主干
+  condition: null
+  summary: star_card
+  metadata:
+    source_ref: L4643-4644
+    snippet_count: 1
+- node_id: n_ltt_l4645_4646_61
+  snippet_ids:
+  - ns_ltt_062
+  role: 主干依赖
+  condition: null
+  summary: star_hope
+  metadata:
+    source_ref: L4645-4646
+    snippet_count: 1
+- node_id: n_ltt_l4711_4712_62
+  snippet_ids:
+  - ns_ltt_063
+  role: 主干
+  condition: null
+  summary: moon_card
+  metadata:
+    source_ref: L4711-4712
+    snippet_count: 1
+- node_id: n_ltt_l4717_4718_63
+  snippet_ids:
+  - ns_ltt_064
+  role: 主干依赖
+  condition: null
+  summary: moon_illusion
+  metadata:
+    source_ref: L4717-4718
+    snippet_count: 1
+- node_id: n_ltt_l4774_4775_64
+  snippet_ids:
+  - ns_ltt_065
+  role: 主干
+  condition: null
+  summary: sun_card
+  metadata:
+    source_ref: L4774-4775
+    snippet_count: 1
+- node_id: n_ltt_l4780_4781_65
+  snippet_ids:
+  - ns_ltt_066
+  role: 主干依赖
+  condition: null
+  summary: sun_success
+  metadata:
+    source_ref: L4780-4781
+    snippet_count: 1
+- node_id: n_ltt_l4841_4842_66
+  snippet_ids:
+  - ns_ltt_067
+  role: 主干
+  condition: null
+  summary: judgement_card
+  metadata:
+    source_ref: L4841-4842
+    snippet_count: 1
+- node_id: n_ltt_l4843_4844_67
+  snippet_ids:
+  - ns_ltt_068
+  role: 主干依赖
+  condition: null
+  summary: judgement_calling
+  metadata:
+    source_ref: L4843-4844
+    snippet_count: 1
+- node_id: n_ltt_l4905_4906_68
+  snippet_ids:
+  - ns_ltt_069
+  role: 主干
+  condition: null
+  summary: world_card
+  metadata:
+    source_ref: L4905-4906
+    snippet_count: 1
+- node_id: n_ltt_l4910_4911_69
+  snippet_ids:
+  - ns_ltt_070
+  role: 主干依赖
+  condition: null
+  summary: world_fulfillment
+  metadata:
+    source_ref: L4910-4911
+    snippet_count: 1
+- node_id: n_ltt_l5030_5031_70
+  snippet_ids:
+  - ns_ltt_071
+  role: 主干
+  condition: null
+  summary: ace_wands
+  metadata:
+    source_ref: L5030-5031
+    snippet_count: 1
+- node_id: n_ltt_l5036_5037_71
+  snippet_ids:
+  - ns_ltt_072
+  role: 主干依赖
+  condition: null
+  summary: ace_wands_action
+  metadata:
+    source_ref: L5036-5037
+    snippet_count: 1
+- node_id: n_ltt_l5044_5050_72
+  snippet_ids:
+  - ns_ltt_073
+  role: 主干
+  condition: null
+  summary: two_wands
+  metadata:
+    source_ref: L5044-5050
+    snippet_count: 1
+- node_id: n_ltt_l5101_5110_73
+  snippet_ids:
+  - ns_ltt_074
+  role: 主干
+  condition: null
+  summary: three_wands
+  metadata:
+    source_ref: L5101-5110
+    snippet_count: 1
+- node_id: n_ltt_l5158_5165_74
+  snippet_ids:
+  - ns_ltt_075
+  role: 主干
+  condition: null
+  summary: four_wands
+  metadata:
+    source_ref: L5158-5165
+    snippet_count: 1
+- node_id: n_ltt_l5215_5225_75
+  snippet_ids:
+  - ns_ltt_076
+  role: 主干
+  condition: null
+  summary: five_wands
+  metadata:
+    source_ref: L5215-5225
+    snippet_count: 1
+- node_id: n_ltt_l5272_5280_76
+  snippet_ids:
+  - ns_ltt_077
+  role: 主干
+  condition: null
+  summary: six_wands
+  metadata:
+    source_ref: L5272-5280
+    snippet_count: 1
+- node_id: n_ltt_l5329_5340_77
+  snippet_ids:
+  - ns_ltt_078
+  role: 主干
+  condition: null
+  summary: seven_wands
+  metadata:
+    source_ref: L5329-5340
+    snippet_count: 1
+- node_id: n_ltt_l5386_5395_78
+  snippet_ids:
+  - ns_ltt_079
+  role: 主干
+  condition: null
+  summary: eight_wands
+  metadata:
+    source_ref: L5386-5395
+    snippet_count: 1
+- node_id: n_ltt_l5443_5455_79
+  snippet_ids:
+  - ns_ltt_080
+  role: 主干
+  condition: null
+  summary: nine_wands
+  metadata:
+    source_ref: L5443-5455
+    snippet_count: 1
+- node_id: n_ltt_l5500_5510_80
+  snippet_ids:
+  - ns_ltt_081
+  role: 主干
+  condition: null
+  summary: ten_wands
+  metadata:
+    source_ref: L5500-5510
+    snippet_count: 1
+- node_id: n_ltt_l5557_5565_81
+  snippet_ids:
+  - ns_ltt_082
+  role: 主干
+  condition: null
+  summary: ace_cups
+  metadata:
+    source_ref: L5557-5565
+    snippet_count: 1
+- node_id: n_ltt_l5619_5630_82
+  snippet_ids:
+  - ns_ltt_083
+  role: 主干
+  condition: null
+  summary: two_cups
+  metadata:
+    source_ref: L5619-5630
+    snippet_count: 1
+- node_id: n_ltt_l5676_5685_83
+  snippet_ids:
+  - ns_ltt_084
+  role: 主干
+  condition: null
+  summary: three_cups
+  metadata:
+    source_ref: L5676-5685
+    snippet_count: 1
+- node_id: n_ltt_l5733_5745_84
+  snippet_ids:
+  - ns_ltt_085
+  role: 主干
+  condition: null
+  summary: four_cups
+  metadata:
+    source_ref: L5733-5745
+    snippet_count: 1
+- node_id: n_ltt_l5790_5800_85
+  snippet_ids:
+  - ns_ltt_086
+  role: 主干
+  condition: null
+  summary: five_cups
+  metadata:
+    source_ref: L5790-5800
+    snippet_count: 1
+- node_id: n_ltt_l5847_5855_86
+  snippet_ids:
+  - ns_ltt_087
+  role: 主干
+  condition: null
+  summary: six_cups
+  metadata:
+    source_ref: L5847-5855
+    snippet_count: 1
+- node_id: n_ltt_l5904_5915_87
+  snippet_ids:
+  - ns_ltt_088
+  role: 主干
+  condition: null
+  summary: seven_cups
+  metadata:
+    source_ref: L5904-5915
+    snippet_count: 1
+- node_id: n_ltt_l5961_5970_88
+  snippet_ids:
+  - ns_ltt_089
+  role: 主干
+  condition: null
+  summary: eight_cups
+  metadata:
+    source_ref: L5961-5970
+    snippet_count: 1
+- node_id: n_ltt_l6018_6025_89
+  snippet_ids:
+  - ns_ltt_090
+  role: 主干
+  condition: null
+  summary: nine_cups
+  metadata:
+    source_ref: L6018-6025
+    snippet_count: 1
+- node_id: n_ltt_l6075_6085_90
+  snippet_ids:
+  - ns_ltt_091
+  role: 主干
+  condition: null
+  summary: ten_cups
+  metadata:
+    source_ref: L6075-6085
+    snippet_count: 1
+- node_id: n_ltt_l6132_6140_91
+  snippet_ids:
+  - ns_ltt_092
+  role: 主干
+  condition: null
+  summary: ace_swords
+  metadata:
+    source_ref: L6132-6140
+    snippet_count: 1
+- node_id: n_ltt_l6194_6205_92
+  snippet_ids:
+  - ns_ltt_093
+  role: 主干
+  condition: null
+  summary: two_swords
+  metadata:
+    source_ref: L6194-6205
+    snippet_count: 1
+- node_id: n_ltt_l6251_6260_93
+  snippet_ids:
+  - ns_ltt_094
+  role: 主干
+  condition: null
+  summary: three_swords
+  metadata:
+    source_ref: L6251-6260
+    snippet_count: 1
+- node_id: n_ltt_l6308_6320_94
+  snippet_ids:
+  - ns_ltt_095
+  role: 主干
+  condition: null
+  summary: four_swords
+  metadata:
+    source_ref: L6308-6320
+    snippet_count: 1
+- node_id: n_ltt_l6365_6375_95
+  snippet_ids:
+  - ns_ltt_096
+  role: 主干
+  condition: null
+  summary: five_swords
+  metadata:
+    source_ref: L6365-6375
+    snippet_count: 1
+- node_id: n_ltt_l6422_6430_96
+  snippet_ids:
+  - ns_ltt_097
+  role: 主干
+  condition: null
+  summary: six_swords
+  metadata:
+    source_ref: L6422-6430
+    snippet_count: 1
+- node_id: n_ltt_l6479_6490_97
+  snippet_ids:
+  - ns_ltt_098
+  role: 主干
+  condition: null
+  summary: seven_swords
+  metadata:
+    source_ref: L6479-6490
+    snippet_count: 1
+- node_id: n_ltt_l6536_6545_98
+  snippet_ids:
+  - ns_ltt_099
+  role: 主干
+  condition: null
+  summary: eight_swords
+  metadata:
+    source_ref: L6536-6545
+    snippet_count: 1
+- node_id: n_ltt_l6593_6600_99
+  snippet_ids:
+  - ns_ltt_100
+  role: 主干
+  condition: null
+  summary: nine_swords
+  metadata:
+    source_ref: L6593-6600
+    snippet_count: 1
+- node_id: n_ltt_l6650_6660_100
+  snippet_ids:
+  - ns_ltt_101
+  role: 主干
+  condition: null
+  summary: ten_swords
+  metadata:
+    source_ref: L6650-6660
+    snippet_count: 1
+- node_id: n_ltt_l6707_6715_101
+  snippet_ids:
+  - ns_ltt_102
+  role: 主干
+  condition: null
+  summary: ace_pentacles
+  metadata:
+    source_ref: L6707-6715
+    snippet_count: 1
+- node_id: n_ltt_l6769_6780_102
+  snippet_ids:
+  - ns_ltt_103
+  role: 主干
+  condition: null
+  summary: two_pentacles
+  metadata:
+    source_ref: L6769-6780
+    snippet_count: 1
+- node_id: n_ltt_l6826_6835_103
+  snippet_ids:
+  - ns_ltt_104
+  role: 主干
+  condition: null
+  summary: three_pentacles
+  metadata:
+    source_ref: L6826-6835
+    snippet_count: 1
+- node_id: n_ltt_l6883_6895_104
+  snippet_ids:
+  - ns_ltt_105
+  role: 主干
+  condition: null
+  summary: four_pentacles
+  metadata:
+    source_ref: L6883-6895
+    snippet_count: 1
+- node_id: n_ltt_l6940_6950_105
+  snippet_ids:
+  - ns_ltt_106
+  role: 主干
+  condition: null
+  summary: five_pentacles
+  metadata:
+    source_ref: L6940-6950
+    snippet_count: 1
+- node_id: n_ltt_l6997_7005_106
+  snippet_ids:
+  - ns_ltt_107
+  role: 主干
+  condition: null
+  summary: six_pentacles
+  metadata:
+    source_ref: L6997-7005
+    snippet_count: 1
+- node_id: n_ltt_l7054_7065_107
+  snippet_ids:
+  - ns_ltt_108
+  role: 主干
+  condition: null
+  summary: seven_pentacles
+  metadata:
+    source_ref: L7054-7065
+    snippet_count: 1
+- node_id: n_ltt_l7111_7120_108
+  snippet_ids:
+  - ns_ltt_109
+  role: 主干
+  condition: null
+  summary: eight_pentacles
+  metadata:
+    source_ref: L7111-7120
+    snippet_count: 1
+- node_id: n_ltt_l7168_7175_109
+  snippet_ids:
+  - ns_ltt_110
+  role: 主干
+  condition: null
+  summary: nine_pentacles
+  metadata:
+    source_ref: L7168-7175
+    snippet_count: 1
+- node_id: n_ltt_l7225_7235_110
+  snippet_ids:
+  - ns_ltt_111
+  role: 主干
+  condition: null
+  summary: ten_pentacles
+  metadata:
+    source_ref: L7225-7235
+    snippet_count: 1
+- node_id: n_ltt_unknown_111
+  snippet_ids:
+  - ns_ltt_112
+  - ns_ltt_113
+  - ns_ltt_114
+  - ns_ltt_115
+  - ns_ltt_116
+  - ns_ltt_117
+  - ns_ltt_118
+  - ns_ltt_119
+  - ns_ltt_120
+  - ns_ltt_121
+  - ns_ltt_122
+  - ns_ltt_123
+  - ns_ltt_124
+  - ns_ltt_125
+  - ns_ltt_126
+  - ns_ltt_127
+  - ns_ltt_154
+  - ns_ltt_155
+  - ns_ltt_156
+  - ns_ltt_157
+  - ns_ltt_158
+  - ns_ltt_159
+  - ns_ltt_160
+  - ns_ltt_161
+  - ns_ltt_162
+  - ns_ltt_163
+  - ns_ltt_168
+  - ns_ltt_169
+  - ns_ltt_170
+  - ns_ltt_171
+  - ns_ltt_172
+  role: 主干
+  condition: null
+  summary: page_wands
+  metadata:
+    source_ref: ''
+    snippet_count: 31
+- node_id: n_ltt_l616_618_112
+  snippet_ids:
+  - ns_ltt_128
+  role: 主干
+  condition: null
+  summary: spread_position
+  metadata:
+    source_ref: L616-618
+    snippet_count: 1
+- node_id: n_ltt_l638_642_113
+  snippet_ids:
+  - ns_ltt_129
+  role: 主干
+  condition: null
+  summary: celtic_cross
+  metadata:
+    source_ref: L638-642
+    snippet_count: 1
+- node_id: n_ltt_l648_651_114
+  snippet_ids:
+  - ns_ltt_130
+  role: 主干
+  condition: null
+  summary: daily_reading
+  metadata:
+    source_ref: L648-651
+    snippet_count: 1
+- node_id: n_ltt_l702_708_115
+  snippet_ids:
+  - ns_ltt_131
+  role: 主干
+  condition: null
+  summary: color_coding
+  metadata:
+    source_ref: L702-708
+    snippet_count: 1
+- node_id: n_ltt_l726_744_116
+  snippet_ids:
+  - ns_ltt_132
+  role: 主干
+  condition: null
+  summary: five_qualities
+  metadata:
+    source_ref: L726-744
+    snippet_count: 1
+- node_id: n_ltt_l754_760_117
+  snippet_ids:
+  - ns_ltt_133
+  role: 主干
+  condition: null
+  summary: tarot_spot
+  metadata:
+    source_ref: L754-760
+    snippet_count: 1
+- node_id: n_ltt_l801_902_118
+  snippet_ids:
+  - ns_ltt_134
+  role: 主干
+  condition: null
+  summary: question_principles
+  metadata:
+    source_ref: L801-902
+    snippet_count: 1
+- node_id: n_ltt_l830_836_119
+  snippet_ids:
+  - ns_ltt_135
+  role: 主干
+  condition: null
+  summary: question_starters
+  metadata:
+    source_ref: L830-836
+    snippet_count: 1
+- node_id: n_ltt_l909_1098_120
+  snippet_ids:
+  - ns_ltt_136
+  role: 主干
+  condition: null
+  summary: reading_procedure
+  metadata:
+    source_ref: L909-1098
+    snippet_count: 1
+- node_id: n_ltt_l1019_1034_121
+  snippet_ids:
+  - ns_ltt_137
+  role: 主干依赖
+  condition: null
+  summary: story_creation
+  metadata:
+    source_ref: L1019-1034
+    snippet_count: 1
+- node_id: n_ltt_l1099_1127_122
+  snippet_ids:
+  - ns_ltt_138
+  role: 主干
+  condition: null
+  summary: other_reading
+  metadata:
+    source_ref: L1099-1127
+    snippet_count: 1
+- node_id: n_ltt_l1150_1159_123
+  snippet_ids:
+  - ns_ltt_139
+  role: 主干
+  condition: null
+  summary: open_reading
+  metadata:
+    source_ref: L1150-1159
+    snippet_count: 1
+- node_id: n_ltt_l1211_1223_124
+  snippet_ids:
+  - ns_ltt_140
+  role: 主干
+  condition: null
+  summary: four_sources
+  metadata:
+    source_ref: L1211-1223
+    snippet_count: 1
+- node_id: n_ltt_l1271_1274_125
+  snippet_ids:
+  - ns_ltt_141
+  role: 主干依赖
+  condition: null
+  summary: aha_reaction
+  metadata:
+    source_ref: L1271-1274
+    snippet_count: 1
+- node_id: n_ltt_l1280_1287_126
+  snippet_ids:
+  - ns_ltt_142
+  role: 主干
+  condition: null
+  summary: major_minor_weight
+  metadata:
+    source_ref: L1280-1287
+    snippet_count: 1
+- node_id: n_ltt_l1355_1358_127
+  snippet_ids:
+  - ns_ltt_143
+  role: 主干
+  condition: null
+  summary: aces_portals
+  metadata:
+    source_ref: L1355-1358
+    snippet_count: 1
+- node_id: n_ltt_l1324_1326_128
+  snippet_ids:
+  - ns_ltt_144
+  role: 主干
+  condition: null
+  summary: aces_gifts
+  metadata:
+    source_ref: L1324-1326
+    snippet_count: 1
+- node_id: n_ltt_l1380_1383_129
+  snippet_ids:
+  - ns_ltt_145
+  role: 主干
+  condition: null
+  summary: court_card_system
+  metadata:
+    source_ref: L1380-1383
+    snippet_count: 1
+- node_id: n_ltt_l1437_1474_130
+  snippet_ids:
+  - ns_ltt_146
+  role: 主干依赖
+  condition: null
+  summary: court_interpretation
+  metadata:
+    source_ref: L1437-1474
+    snippet_count: 1
+- node_id: n_ltt_l1498_1502_131
+  snippet_ids:
+  - ns_ltt_147
+  role: 主干
+  condition: null
+  summary: law_opposition
+  metadata:
+    source_ref: L1498-1502
+    snippet_count: 1
+- node_id: n_ltt_l1515_1569_132
+  snippet_ids:
+  - ns_ltt_148
+  role: 主干依赖
+  condition: null
+  summary: pair_types
+  metadata:
+    source_ref: L1515-1569
+    snippet_count: 1
+- node_id: n_ltt_l1575_1790_133
+  snippet_ids:
+  - ns_ltt_149
+  role: 主干
+  condition: null
+  summary: position_pairs
+  metadata:
+    source_ref: L1575-1790
+    snippet_count: 1
+- node_id: n_ltt_l1805_1809_134
+  snippet_ids:
+  - ns_ltt_150
+  role: 主干
+  condition: null
+  summary: reversed_theory
+  metadata:
+    source_ref: L1805-1809
+    snippet_count: 1
+- node_id: n_ltt_l1862_1867_135
+  snippet_ids:
+  - ns_ltt_151
+  role: 主干
+  condition: null
+  summary: reversed_proportion
+  metadata:
+    source_ref: L1862-1867
+    snippet_count: 1
+- node_id: n_ltt_l1026_1034_136
+  snippet_ids:
+  - ns_ltt_152
+  role: 主干
+  condition: null
+  summary: story_creation
+  metadata:
+    source_ref: L1026-1034
+    snippet_count: 1
+- node_id: n_ltt_l2000_2005_137
+  snippet_ids:
+  - ns_ltt_153
+  role: 主干
+  condition: null
+  summary: final_thoughts
+  metadata:
+    source_ref: L2000-2005
+    snippet_count: 1
+- node_id: n_ltt_appendix_a_138
+  snippet_ids:
+  - ns_ltt_164
+  role: 主干
+  condition: null
+  summary: fools_journey
+  metadata:
+    source_ref: Appendix A
+    snippet_count: 1
+- node_id: n_ltt_appendix_b_139
+  snippet_ids:
+  - ns_ltt_165
+  role: 主干
+  condition: null
+  summary: suit_qualities
+  metadata:
+    source_ref: Appendix B
+    snippet_count: 1
+- node_id: n_ltt_appendix_c_140
+  snippet_ids:
+  - ns_ltt_166
+  role: 主干
+  condition: null
+  summary: suit_pairs
+  metadata:
+    source_ref: Appendix C
+    snippet_count: 1
+- node_id: n_ltt_appendix_d_141
+  snippet_ids:
+  - ns_ltt_167
+  role: 主干
+  condition: null
+  summary: rank_pairs
+  metadata:
+    source_ref: Appendix D
+    snippet_count: 1
+edges:
+- from_node: n_ltt_l477_478_9
+  to_node: n_ltt_l495_498_10
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_004
+    source_ref: Bunning L2
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3518_3519_19
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_010
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3518_3519_19
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_010
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3507_3510_18
+  to_node: n_ltt_l3518_3519_19
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_010
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3847_3849_37
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3840_3842_36
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3838_3840_35
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l3847_3849_37
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l3840_3842_36
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l3838_3840_35
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3847_3849_37
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3840_3842_36
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3838_3840_35
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3507_3510_18
+  to_node: n_ltt_l3847_3849_37
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3507_3510_18
+  to_node: n_ltt_l3840_3842_36
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3507_3510_18
+  to_node: n_ltt_l3838_3840_35
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_011
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4645_4646_61
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4643_4644_60
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4645_4646_61
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4643_4644_60
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4645_4646_61
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4643_4644_60
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3507_3510_18
+  to_node: n_ltt_l4645_4646_61
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3507_3510_18
+  to_node: n_ltt_l4643_4644_60
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_012
+    source_ref: Bunning Fool
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l3639_3641_26
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l3698_3700_30
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l3649_3651_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l3643_3644_27
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l3639_3641_26
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l3698_3700_30
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l3649_3651_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l3643_3644_27
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l3639_3641_26
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l3698_3700_30
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l3649_3651_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l3643_3644_27
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3573_3575_22
+  to_node: n_ltt_l3639_3641_26
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3573_3575_22
+  to_node: n_ltt_l3698_3700_30
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3573_3575_22
+  to_node: n_ltt_l3649_3651_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3573_3575_22
+  to_node: n_ltt_l3643_3644_27
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3639_3641_26
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3698_3700_30
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3649_3651_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_013
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l4048_4051_43
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l3976_3979_40
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l3985_3987_41
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l4048_4051_43
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l3976_3979_40
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l3985_3987_41
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l4048_4051_43
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l3976_3979_40
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l3985_3987_41
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3573_3575_22
+  to_node: n_ltt_l4048_4051_43
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3573_3575_22
+  to_node: n_ltt_l3976_3979_40
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3573_3575_22
+  to_node: n_ltt_l3985_3987_41
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4048_4051_43
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3976_3979_40
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3985_3987_41
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_014
+    source_ref: Bunning Magician
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3639_3641_26
+  to_node: n_ltt_l3587_3588_23
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3639_3641_26
+  to_node: n_ltt_l3583_3585_25
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3639_3641_26
+  to_node: n_ltt_l3575_3577_24
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3639_3641_26
+  to_node: n_ltt_l3573_3575_22
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3639_3641_26
+  to_node: n_ltt_l3643_3644_27
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l3587_3588_23
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l3583_3585_25
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l3575_3577_24
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l3573_3575_22
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l3643_3644_27
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l3587_3588_23
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l3583_3585_25
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l3575_3577_24
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l3573_3575_22
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l3643_3644_27
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3587_3588_23
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3583_3585_25
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3575_3577_24
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3573_3575_22
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_015
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3639_3641_26
+  to_node: n_ltt_l4114_4116_45
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3639_3641_26
+  to_node: n_ltt_l4103_4106_44
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4114_4116_45
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4103_4106_44
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4114_4116_45
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4103_4106_44
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4114_4116_45
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4103_4106_44
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ltt_016
+    source_ref: Bunning HP
+    inferred_from: explicit_relation
+- from_node: n_ltt_l3507_3510_18
+  to_node: n_ltt_l3515_3517_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_fool
+- from_node: n_ltt_l3507_3510_18
+  to_node: n_ltt_l3520_3522_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_fool
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l3587_3588_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l3575_3577_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l3583_3585_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l3643_3644_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l3649_3651_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l3698_3700_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l3712_3715_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l3774_3776_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l3777_3780_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l3985_3987_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4048_4051_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3518_3519_19
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3520_3522_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_fool
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3587_3588_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3575_3577_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3583_3585_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3643_3644_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3649_3651_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3698_3700_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3712_3715_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3774_3776_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3777_3780_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l3985_3987_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4048_4051_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3515_3517_20
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3587_3588_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3575_3577_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3583_3585_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3643_3644_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3649_3651_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3698_3700_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3712_3715_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3774_3776_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3777_3780_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - decision
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l3985_3987_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4048_4051_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3520_3522_21
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3573_3575_22
+  to_node: n_ltt_l3587_3588_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_magician
+- from_node: n_ltt_l3573_3575_22
+  to_node: n_ltt_l3575_3577_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_magician
+- from_node: n_ltt_l3573_3575_22
+  to_node: n_ltt_l3583_3585_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_magician
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l3587_3588_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_magician
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l3587_3588_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_magician
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l3712_3715_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l3774_3776_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l3777_3780_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l3840_3842_36
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l3847_3849_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3587_3588_23
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - action
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l3583_3585_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_magician
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l3712_3715_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l3774_3776_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l3777_3780_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l3840_3842_36
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l3847_3849_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3575_3577_24
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l3712_3715_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l3774_3776_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l3777_3780_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l3840_3842_36
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l3847_3849_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3583_3585_25
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3639_3641_26
+  to_node: n_ltt_l3649_3651_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_high_priestess
+- from_node: n_ltt_l3639_3641_26
+  to_node: n_ltt_l3698_3700_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_high_priestess
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3712_3715_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3774_3776_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3777_3780_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3840_3842_36
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3847_3849_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3643_3644_27
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l3698_3700_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_high_priestess
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l3712_3715_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l3774_3776_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l3777_3780_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l3840_3842_36
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l3847_3849_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l3985_3987_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4048_4051_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3649_3651_28
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l3700_3702_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_empress
+- from_node: n_ltt_l3700_3702_29
+  to_node: n_ltt_l3712_3715_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_empress
+- from_node: n_ltt_l3700_3702_29
+  to_node: n_ltt_l3774_3776_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_empress
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l3712_3715_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_empress
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l3774_3776_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_empress
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l3777_3780_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l3840_3842_36
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l3847_3849_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l3985_3987_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4048_4051_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3698_3700_30
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l3774_3776_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_empress
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l3777_3780_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l3840_3842_36
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l3847_3849_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l3985_3987_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l4048_4051_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3712_3715_31
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3775_32
+  to_node: n_ltt_l3774_3776_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_emperor
+- from_node: n_ltt_l3774_3775_32
+  to_node: n_ltt_l3777_3780_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_emperor
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l3777_3780_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_emperor
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l3840_3842_36
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l3847_3849_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l3985_3987_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l4048_4051_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3774_3776_33
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l3840_3842_36
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l3847_3849_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l3985_3987_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l4048_4051_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - situation
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3777_3780_34
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3838_3840_35
+  to_node: n_ltt_l3840_3842_36
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_hierophant
+- from_node: n_ltt_l3838_3840_35
+  to_node: n_ltt_l3847_3849_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_hierophant
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l3847_3849_37
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_hierophant
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l3985_3987_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l4048_4051_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3840_3842_36
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l3985_3987_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l4048_4051_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - conflict
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3847_3849_37
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3909_3911_38
+  to_node: n_ltt_l3916_3917_39
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_lovers
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l3985_3987_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l4048_4051_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3916_3917_39
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3976_3979_40
+  to_node: n_ltt_l3985_3987_41
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_chariot
+- from_node: n_ltt_l3976_3979_40
+  to_node: n_ltt_l4048_4051_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_chariot
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l4048_4051_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_chariot
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l3985_3987_41
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4039_4042_42
+  to_node: n_ltt_l4048_4051_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_strength
+- from_node: n_ltt_l4048_4051_43
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4048_4051_43
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4048_4051_43
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4048_4051_43
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4048_4051_43
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4048_4051_43
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4048_4051_43
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4048_4051_43
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4048_4051_43
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4048_4051_43
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4048_4051_43
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4048_4051_43
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4048_4051_43
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4048_4051_43
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4103_4106_44
+  to_node: n_ltt_l4114_4116_45
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_hermit
+- from_node: n_ltt_l4114_4116_45
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4114_4116_45
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4114_4116_45
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4114_4116_45
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4114_4116_45
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4114_4116_45
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4114_4116_45
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4114_4116_45
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4114_4116_45
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4114_4116_45
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4114_4116_45
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4114_4116_45
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4114_4116_45
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4171_4175_46
+  to_node: n_ltt_l4184_4186_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_wheel
+- from_node: n_ltt_l4184_4186_47
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4184_4186_47
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4184_4186_47
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4184_4186_47
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4184_4186_47
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4184_4186_47
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4184_4186_47
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4184_4186_47
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4184_4186_47
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4184_4186_47
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4184_4186_47
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4184_4186_47
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4238_4243_48
+  to_node: n_ltt_l4250_4252_49
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_justice
+- from_node: n_ltt_l4250_4252_49
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4250_4252_49
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4250_4252_49
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4250_4252_49
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4250_4252_49
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4250_4252_49
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4250_4252_49
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4250_4252_49
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4250_4252_49
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4250_4252_49
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4250_4252_49
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4312_4317_50
+  to_node: n_ltt_l4318_4323_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_hanged_man
+- from_node: n_ltt_l4318_4323_51
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4318_4323_51
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4318_4323_51
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4318_4323_51
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4318_4323_51
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4318_4323_51
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4318_4323_51
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4318_4323_51
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4318_4323_51
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4318_4323_51
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4379_4382_52
+  to_node: n_ltt_l4388_4390_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_death
+- from_node: n_ltt_l4388_4390_53
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4388_4390_53
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4388_4390_53
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4388_4390_53
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4388_4390_53
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4388_4390_53
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4388_4390_53
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4388_4390_53
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4388_4390_53
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4443_4450_54
+  to_node: n_ltt_l4452_4454_55
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_temperance
+- from_node: n_ltt_l4452_4454_55
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4452_4454_55
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4452_4454_55
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4452_4454_55
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4452_4454_55
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4452_4454_55
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4452_4454_55
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4452_4454_55
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4515_4520_56
+  to_node: n_ltt_l4521_4529_57
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_devil
+- from_node: n_ltt_l4515_4520_56
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_devil
+- from_node: n_ltt_l4521_4529_57
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4521_4529_57
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_devil
+- from_node: n_ltt_l4521_4529_57
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4521_4529_57
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4521_4529_57
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4521_4529_57
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4521_4529_57
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4574_4576_58
+  to_node: n_ltt_l4579_4582_59
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_tower
+- from_node: n_ltt_l4579_4582_59
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4579_4582_59
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4579_4582_59
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4579_4582_59
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4579_4582_59
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4579_4582_59
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4643_4644_60
+  to_node: n_ltt_l4645_4646_61
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_star
+- from_node: n_ltt_l4645_4646_61
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4645_4646_61
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4645_4646_61
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4645_4646_61
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4645_4646_61
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4711_4712_62
+  to_node: n_ltt_l4717_4718_63
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_moon
+- from_node: n_ltt_l4717_4718_63
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4717_4718_63
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4717_4718_63
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4717_4718_63
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4774_4775_64
+  to_node: n_ltt_l4780_4781_65
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_sun
+- from_node: n_ltt_l4780_4781_65
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4780_4781_65
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - success
+- from_node: n_ltt_l4780_4781_65
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4841_4842_66
+  to_node: n_ltt_l4843_4844_67
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_judgement
+- from_node: n_ltt_l4843_4844_67
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4843_4844_67
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l4905_4906_68
+  to_node: n_ltt_l4910_4911_69
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_world
+- from_node: n_ltt_l4910_4911_69
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_ltt_l5030_5031_70
+  to_node: n_ltt_l5036_5037_71
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_ace_wands
+- from_node: n_ltt_unknown_111
+  to_node: n_ltt_l1211_1223_124
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_interpretation
+- from_node: n_ltt_l1575_1790_133
+  to_node: n_ltt_l638_642_113
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_celtic_cross
+- from_node: n_ltt_l801_902_118
+  to_node: n_ltt_l830_836_119
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_question
+- from_node: n_ltt_l1019_1034_121
+  to_node: n_ltt_l1026_1034_136
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_story
+- from_node: n_ltt_l1324_1326_128
+  to_node: n_ltt_l1355_1358_127
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_aces
+- from_node: n_ltt_l1380_1383_129
+  to_node: n_ltt_l1437_1474_130
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_court_cards
+- from_node: n_ltt_l1498_1502_131
+  to_node: n_ltt_l1515_1569_132
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_pairs
+- from_node: n_ltt_l1805_1809_134
+  to_node: n_ltt_l1862_1867_135
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tarot_reversed
+narrative_order:
+- n_ltt_unknown_111
+- n_ltt_appendix_a_138
+- n_ltt_appendix_b_139
+- n_ltt_appendix_c_140
+- n_ltt_appendix_d_141
+- n_ltt_l1099_1127_122
+- n_ltt_l1150_1159_123
+- n_ltt_l1211_1223_124
+- n_ltt_l1280_1287_126
+- n_ltt_l1324_1326_128
+- n_ltt_l1355_1358_127
+- n_ltt_l1380_1383_129
+- n_ltt_l1498_1502_131
+- n_ltt_l1575_1790_133
+- n_ltt_l1805_1809_134
+- n_ltt_l1862_1867_135
+- n_ltt_l2000_2005_137
+- n_ltt_l308_310_0
+- n_ltt_l346_348_3
+- n_ltt_l3507_3510_18
+- n_ltt_l3774_3775_32
+- n_ltt_l3909_3911_38
+- n_ltt_l4039_4042_42
+- n_ltt_l4171_4175_46
+- n_ltt_l4238_4243_48
+- n_ltt_l4312_4317_50
+- n_ltt_l434_438_5
+- n_ltt_l4379_4382_52
+- n_ltt_l4443_4450_54
+- n_ltt_l4515_4520_56
+- n_ltt_l4574_4576_58
+- n_ltt_l4711_4712_62
+- n_ltt_l474_476_8
+- n_ltt_l477_478_9
+- n_ltt_l4774_4775_64
+- n_ltt_l4841_4842_66
+- n_ltt_l4905_4906_68
+- n_ltt_l5030_5031_70
+- n_ltt_l5044_5050_72
+- n_ltt_l5101_5110_73
+- n_ltt_l5158_5165_74
+- n_ltt_l5215_5225_75
+- n_ltt_l5272_5280_76
+- n_ltt_l532_534_13
+- n_ltt_l5329_5340_77
+- n_ltt_l5386_5395_78
+- n_ltt_l5443_5455_79
+- n_ltt_l5500_5510_80
+- n_ltt_l5557_5565_81
+- n_ltt_l5619_5630_82
+- n_ltt_l5676_5685_83
+- n_ltt_l5733_5745_84
+- n_ltt_l5790_5800_85
+- n_ltt_l5847_5855_86
+- n_ltt_l5904_5915_87
+- n_ltt_l5961_5970_88
+- n_ltt_l6018_6025_89
+- n_ltt_l6075_6085_90
+- n_ltt_l6132_6140_91
+- n_ltt_l616_618_112
+- n_ltt_l6194_6205_92
+- n_ltt_l6251_6260_93
+- n_ltt_l6308_6320_94
+- n_ltt_l6365_6375_95
+- n_ltt_l638_642_113
+- n_ltt_l6422_6430_96
+- n_ltt_l6479_6490_97
+- n_ltt_l648_651_114
+- n_ltt_l6536_6545_98
+- n_ltt_l6593_6600_99
+- n_ltt_l6650_6660_100
+- n_ltt_l6707_6715_101
+- n_ltt_l6769_6780_102
+- n_ltt_l6826_6835_103
+- n_ltt_l6883_6895_104
+- n_ltt_l6940_6950_105
+- n_ltt_l6997_7005_106
+- n_ltt_l702_708_115
+- n_ltt_l7054_7065_107
+- n_ltt_l7111_7120_108
+- n_ltt_l7168_7175_109
+- n_ltt_l7225_7235_110
+- n_ltt_l726_744_116
+- n_ltt_l754_760_117
+- n_ltt_l801_902_118
+- n_ltt_l830_836_119
+- n_ltt_l909_1098_120
+- n_ltt_l1019_1034_121
+- n_ltt_l1026_1034_136
+- n_ltt_l1271_1274_125
+- n_ltt_l1437_1474_130
+- n_ltt_l1515_1569_132
+- n_ltt_l222_223_7
+- n_ltt_l306_307_2
+- n_ltt_l312_316_1
+- n_ltt_l351_353_4
+- n_ltt_l3515_3517_20
+- n_ltt_l3520_3522_21
+- n_ltt_l3518_3519_19
+- n_ltt_l3838_3840_35
+- n_ltt_l4643_4644_60
+- n_ltt_l374_375_6
+- n_ltt_l488_490_12
+- n_ltt_l495_498_10
+- n_ltt_l509_522_11
+- n_ltt_l538_543_14
+- n_ltt_l544_549_15
+- n_ltt_l550_556_16
+- n_ltt_l557_561_17
+- n_ltt_l3573_3575_22
+- n_ltt_l3639_3641_26
+- n_ltt_l3700_3702_29
+- n_ltt_l3976_3979_40
+- n_ltt_l4103_4106_44
+- n_ltt_l3575_3577_24
+- n_ltt_l3583_3585_25
+- n_ltt_l3587_3588_23
+- n_ltt_l3643_3644_27
+- n_ltt_l3649_3651_28
+- n_ltt_l3698_3700_30
+- n_ltt_l3712_3715_31
+- n_ltt_l3774_3776_33
+- n_ltt_l3777_3780_34
+- n_ltt_l3840_3842_36
+- n_ltt_l3847_3849_37
+- n_ltt_l3916_3917_39
+- n_ltt_l3985_3987_41
+- n_ltt_l4048_4051_43
+- n_ltt_l4114_4116_45
+- n_ltt_l4184_4186_47
+- n_ltt_l4250_4252_49
+- n_ltt_l4318_4323_51
+- n_ltt_l4388_4390_53
+- n_ltt_l4452_4454_55
+- n_ltt_l4521_4529_57
+- n_ltt_l4579_4582_59
+- n_ltt_l4645_4646_61
+- n_ltt_l4717_4718_63
+- n_ltt_l4780_4781_65
+- n_ltt_l4843_4844_67
+- n_ltt_l4910_4911_69
+- n_ltt_l5036_5037_71
+entry_nodes:
+- n_ltt_l308_310_0
+- n_ltt_l346_348_3
+- n_ltt_l434_438_5
+- n_ltt_l474_476_8
+- n_ltt_l477_478_9
+- n_ltt_l532_534_13
+- n_ltt_l3507_3510_18
+- n_ltt_l3774_3775_32
+- n_ltt_l3909_3911_38
+- n_ltt_l4039_4042_42
+- n_ltt_l4171_4175_46
+- n_ltt_l4238_4243_48
+- n_ltt_l4312_4317_50
+- n_ltt_l4379_4382_52
+- n_ltt_l4443_4450_54
+- n_ltt_l4515_4520_56
+- n_ltt_l4574_4576_58
+- n_ltt_l4711_4712_62
+- n_ltt_l4774_4775_64
+- n_ltt_l4841_4842_66
+- n_ltt_l4905_4906_68
+- n_ltt_l5030_5031_70
+- n_ltt_l5044_5050_72
+- n_ltt_l5101_5110_73
+- n_ltt_l5158_5165_74
+- n_ltt_l5215_5225_75
+- n_ltt_l5272_5280_76
+- n_ltt_l5329_5340_77
+- n_ltt_l5386_5395_78
+- n_ltt_l5443_5455_79
+- n_ltt_l5500_5510_80
+- n_ltt_l5557_5565_81
+- n_ltt_l5619_5630_82
+- n_ltt_l5676_5685_83
+- n_ltt_l5733_5745_84
+- n_ltt_l5790_5800_85
+- n_ltt_l5847_5855_86
+- n_ltt_l5904_5915_87
+- n_ltt_l5961_5970_88
+- n_ltt_l6018_6025_89
+- n_ltt_l6075_6085_90
+- n_ltt_l6132_6140_91
+- n_ltt_l6194_6205_92
+- n_ltt_l6251_6260_93
+- n_ltt_l6308_6320_94
+- n_ltt_l6365_6375_95
+- n_ltt_l6422_6430_96
+- n_ltt_l6479_6490_97
+- n_ltt_l6536_6545_98
+- n_ltt_l6593_6600_99
+- n_ltt_l6650_6660_100
+- n_ltt_l6707_6715_101
+- n_ltt_l6769_6780_102
+- n_ltt_l6826_6835_103
+- n_ltt_l6883_6895_104
+- n_ltt_l6940_6950_105
+- n_ltt_l6997_7005_106
+- n_ltt_l7054_7065_107
+- n_ltt_l7111_7120_108
+- n_ltt_l7168_7175_109
+- n_ltt_l7225_7235_110
+- n_ltt_unknown_111
+- n_ltt_l616_618_112
+- n_ltt_l648_651_114
+- n_ltt_l702_708_115
+- n_ltt_l726_744_116
+- n_ltt_l754_760_117
+- n_ltt_l801_902_118
+- n_ltt_l909_1098_120
+- n_ltt_l1099_1127_122
+- n_ltt_l1150_1159_123
+- n_ltt_l1280_1287_126
+- n_ltt_l1324_1326_128
+- n_ltt_l1380_1383_129
+- n_ltt_l1498_1502_131
+- n_ltt_l1575_1790_133
+- n_ltt_l1805_1809_134
+- n_ltt_l2000_2005_137
+- n_ltt_appendix_a_138
+- n_ltt_appendix_b_139
+- n_ltt_appendix_c_140
+- n_ltt_appendix_d_141
+terminal_nodes:
+- n_ltt_l306_307_2
+- n_ltt_l222_223_7
+- n_ltt_l488_490_12
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-11-30T18:46:33.914017'
+  source_files:
+  - data/schema_staging/snippets/learning_the_tarot_snippets.yaml
+  - data/schema_staging/relations/learning_the_tarot_relations.yaml
+  snippet_count: 172
+  relation_count: 16
+version: 1.0.0

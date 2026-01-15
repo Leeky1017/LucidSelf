@@ -1,0 +1,27 @@
+$ PYTHONPATH=. .venv/bin/python - <<'PY'
+import logging
+from fastapi import FastAPI
+from fastapi.testclient import TestClient
+from backend.api.middleware.request_logging import RequestLoggingMiddleware
+
+logging.basicConfig(level=logging.INFO)
+
+app = FastAPI()
+app.add_middleware(RequestLoggingMiddleware)
+
+@app.get('/ping')
+async def ping():
+    return {'ok': True}
+
+client = TestClient(app)
+resp = client.get('/ping')
+print('status', resp.status_code)
+print('X-Request-ID', resp.headers.get('X-Request-ID'))
+print('X-Trace-ID', resp.headers.get('X-Trace-ID'))
+PY
+INFO:backend.api.middleware.request_logging:{"event": "request_start", "request_id": "req_fe43545bf852", "user_id": null, "org_id": null, "engine_id": null, "version_id": null, "trace_id": "0ea1419a08ed4cdc9803ef678b661f4b", "method": "GET", "path": "/ping", "query_keys": null, "client_ip": "testclient", "headers": {"accept": "*/*", "user-agent": "testclient"}}
+INFO:backend.api.middleware.request_logging:{"event": "request_complete", "request_id": "req_fe43545bf852", "user_id": null, "org_id": null, "engine_id": null, "version_id": null, "trace_id": "0ea1419a08ed4cdc9803ef678b661f4b", "method": "GET", "path": "/ping", "status_code": 200, "latency_ms": 0.75}
+INFO:httpx:HTTP Request: GET http://testserver/ping "HTTP/1.1 200 OK"
+status 200
+X-Request-ID req_fe43545bf852
+X-Trace-ID 0ea1419a08ed4cdc9803ef678b661f4b

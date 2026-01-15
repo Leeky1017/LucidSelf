@@ -1,0 +1,49 @@
+# 周易体系 - 时间类因子
+# Temporal factors for YiJing system
+
+factors:
+  # 占问时机
+  - id: yijing_divination_time
+    status: existing
+    display_zh: 占问时辰
+    display_en: Divination Time
+    description_zh: 进行占卜的时间
+    description_en: Time when divination was performed
+    category: temporal
+    value_type: string
+    applicable_systems: [yijing]
+
+  - id: yijing_question_timing
+    status: existing
+    display_zh: 问事时机
+    display_en: Question Timing
+    description_zh: 所问之事的时间背景
+    description_en: Time context of the question
+    category: temporal
+    value_type: enum
+    value_range: [past, present, future, ongoing]
+    applicable_systems: [yijing]
+
+  # 应期
+  - id: yijing_response_period
+    status: existing
+    display_zh: 应期
+    display_en: Response Period
+    description_zh: 卦象应验的时间周期
+    description_en: Time period for hexagram to manifest
+    category: temporal
+    value_type: enum
+    value_range: [immediate, days, months, years]
+    applicable_systems: [yijing]
+
+  # 时义
+  - id: yijing_time_significance
+    status: existing
+    display_zh: 时义
+    display_en: Time Significance
+    description_zh: 卦象蕴含的时机意义
+    description_en: Timing significance within the hexagram
+    category: temporal
+    value_type: enum
+    value_range: [favorable, unfavorable, wait, act]
+    applicable_systems: [yijing]

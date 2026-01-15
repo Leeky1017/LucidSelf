@@ -1,0 +1,1452 @@
+book_id: learning_the_tarot
+source_file: 典籍/texts/Learning the Tarot/编辑/Tarot_Practice_Method_v2.1.md
+extracted_at: '2025-12-04T14:27:42.664156'
+relations:
+- relation_id: rel_ltt_001
+  relation_type: tarot_evolution
+  factor_a: tarot_origin_italy
+  factor_b: tarot_growth_tool
+  relation_nature: Historical development
+  condition_constraint: When tracing tarot evolution from 15th century Italy to modern
+    self-growth tool
+  effect_direction: progressive
+  source_ref: Bunning L1
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862103'
+- relation_id: rel_ltt_002
+  relation_type: psych_archetype_relation
+  factor_a: inner_guide
+  factor_b: archetype
+  relation_nature: Inner Guide uses archetypes
+  condition_constraint: When Inner Guide communicates through archetypal tarot imagery
+  effect_direction: guiding
+  source_ref: Bunning L1.2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862145'
+- relation_id: rel_ltt_003
+  relation_type: mechanism
+  factor_a: projection
+  factor_b: synchronicity
+  relation_nature: Dual mechanism
+  condition_constraint: When projection and synchronicity combine in card selection
+    and interpretation
+  effect_direction: complementary
+  source_ref: Bunning L1.2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862149'
+- relation_id: rel_ltt_004
+  relation_type: narrative_sequence
+  factor_a: major_arcana
+  factor_b: fools_journey
+  relation_nature: 22 cards map journey
+  condition_constraint: When 22 Major Arcana cards map the Fool's developmental journey
+    to wholeness
+  effect_direction: progressive
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862212'
+- relation_id: rel_ltt_005
+  relation_type: psych_archetype_relation
+  factor_a: archetype
+  factor_b: wholeness
+  relation_nature: Archetypes integrated = wholeness
+  condition_constraint: When all archetypal energies are consciously integrated into
+    personality wholeness
+  effect_direction: transformative
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862215'
+- relation_id: rel_ltt_h001
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_fool
+  relation_nature: Major Arcana contains The Fool
+  condition_constraint: The Fool (0) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862220'
+- relation_id: rel_ltt_h002
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_magician
+  relation_nature: Major Arcana contains The Magician
+  condition_constraint: The Magician (I) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862223'
+- relation_id: rel_ltt_h003
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_high_priestess
+  relation_nature: Major Arcana contains The High Priestess
+  condition_constraint: The High Priestess (II) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862226'
+- relation_id: rel_ltt_h004
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_empress
+  relation_nature: Major Arcana contains The Empress
+  condition_constraint: The Empress (III) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862229'
+- relation_id: rel_ltt_h005
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_emperor
+  relation_nature: Major Arcana contains The Emperor
+  condition_constraint: The Emperor (IV) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862232'
+- relation_id: rel_ltt_h006
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_hierophant
+  relation_nature: Major Arcana contains The Hierophant
+  condition_constraint: The Hierophant (V) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862234'
+- relation_id: rel_ltt_h007
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_lovers
+  relation_nature: Major Arcana contains The Lovers
+  condition_constraint: The Lovers (VI) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862237'
+- relation_id: rel_ltt_h008
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_chariot
+  relation_nature: Major Arcana contains The Chariot
+  condition_constraint: The Chariot (VII) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862239'
+- relation_id: rel_ltt_h009
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_strength
+  relation_nature: Major Arcana contains Strength
+  condition_constraint: Strength (VIII) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862244'
+- relation_id: rel_ltt_h010
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_hermit
+  relation_nature: Major Arcana contains The Hermit
+  condition_constraint: The Hermit (IX) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862247'
+- relation_id: rel_ltt_h011
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_wheel
+  relation_nature: Major Arcana contains Wheel of Fortune
+  condition_constraint: Wheel of Fortune (X) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862249'
+- relation_id: rel_ltt_h012
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_justice
+  relation_nature: Major Arcana contains Justice
+  condition_constraint: Justice (XI) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862252'
+- relation_id: rel_ltt_h013
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_hanged_man
+  relation_nature: Major Arcana contains The Hanged Man
+  condition_constraint: The Hanged Man (XII) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862255'
+- relation_id: rel_ltt_h014
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_death
+  relation_nature: Major Arcana contains Death
+  condition_constraint: Death (XIII) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862258'
+- relation_id: rel_ltt_h015
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_temperance
+  relation_nature: Major Arcana contains Temperance
+  condition_constraint: Temperance (XIV) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862261'
+- relation_id: rel_ltt_h016
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_devil
+  relation_nature: Major Arcana contains The Devil
+  condition_constraint: The Devil (XV) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862264'
+- relation_id: rel_ltt_h017
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_tower
+  relation_nature: Major Arcana contains The Tower
+  condition_constraint: The Tower (XVI) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862267'
+- relation_id: rel_ltt_h018
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_star
+  relation_nature: Major Arcana contains The Star
+  condition_constraint: The Star (XVII) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862271'
+- relation_id: rel_ltt_h019
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_moon
+  relation_nature: Major Arcana contains The Moon
+  condition_constraint: The Moon (XVIII) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862274'
+- relation_id: rel_ltt_h020
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_sun
+  relation_nature: Major Arcana contains The Sun
+  condition_constraint: The Sun (XIX) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862276'
+- relation_id: rel_ltt_h021
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_judgement
+  relation_nature: Major Arcana contains Judgement
+  condition_constraint: Judgement (XX) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862279'
+- relation_id: rel_ltt_h022
+  relation_type: hierarchy
+  factor_a: major_arcana
+  factor_b: tarot_world
+  relation_nature: Major Arcana contains The World
+  condition_constraint: The World (XXI) is part of the 22 Major Arcana cards
+  effect_direction: contains
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862282'
+- relation_id: rel_ltt_006
+  relation_type: element_correspondence
+  factor_a: suit_wands
+  factor_b: element_fire
+  relation_nature: Wands = Fire
+  condition_constraint: When Wands suit cards appear representing fire element qualities
+    (will, passion, action)
+  effect_direction: characteristic
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862536'
+- relation_id: rel_ltt_007
+  relation_type: element_correspondence
+  factor_a: suit_cups
+  factor_b: element_water
+  relation_nature: Cups = Water
+  condition_constraint: When Cups suit cards appear representing water element qualities
+    (emotion, intuition)
+  effect_direction: characteristic
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862541'
+- relation_id: rel_ltt_008
+  relation_type: element_correspondence
+  factor_a: suit_swords
+  factor_b: element_air
+  relation_nature: Swords = Air
+  condition_constraint: When Swords suit cards appear representing air element qualities
+    (mind, thought, conflict)
+  effect_direction: characteristic
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862545'
+- relation_id: rel_ltt_009
+  relation_type: element_correspondence
+  factor_a: suit_pentacles
+  factor_b: element_earth
+  relation_nature: Pentacles = Earth
+  condition_constraint: When Pentacles suit cards appear representing earth element
+    qualities (material, practical)
+  effect_direction: characteristic
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862548'
+- relation_id: rel_ltt_hw01
+  relation_type: hierarchy
+  factor_a: suit_wands
+  factor_b: tarot_ace_wands
+  relation_nature: Wands suit contains Ace of Wands
+  condition_constraint: Ace of Wands is part of the 14 Wands suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862551'
+- relation_id: rel_ltt_hw02
+  relation_type: hierarchy
+  factor_a: suit_wands
+  factor_b: tarot_two_wands
+  relation_nature: Wands suit contains Two of Wands
+  condition_constraint: Two of Wands is part of the 14 Wands suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862554'
+- relation_id: rel_ltt_hw03
+  relation_type: hierarchy
+  factor_a: suit_wands
+  factor_b: tarot_three_wands
+  relation_nature: Wands suit contains Three of Wands
+  condition_constraint: Three of Wands is part of the 14 Wands suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862557'
+- relation_id: rel_ltt_hw04
+  relation_type: hierarchy
+  factor_a: suit_wands
+  factor_b: tarot_four_wands
+  relation_nature: Wands suit contains Four of Wands
+  condition_constraint: Four of Wands is part of the 14 Wands suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862560'
+- relation_id: rel_ltt_hw05
+  relation_type: hierarchy
+  factor_a: suit_wands
+  factor_b: tarot_five_wands
+  relation_nature: Wands suit contains Five of Wands
+  condition_constraint: Five of Wands is part of the 14 Wands suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862562'
+- relation_id: rel_ltt_hw06
+  relation_type: hierarchy
+  factor_a: suit_wands
+  factor_b: tarot_six_wands
+  relation_nature: Wands suit contains Six of Wands
+  condition_constraint: Six of Wands is part of the 14 Wands suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862565'
+- relation_id: rel_ltt_hw07
+  relation_type: hierarchy
+  factor_a: suit_wands
+  factor_b: tarot_seven_wands
+  relation_nature: Wands suit contains Seven of Wands
+  condition_constraint: Seven of Wands is part of the 14 Wands suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862569'
+- relation_id: rel_ltt_hw08
+  relation_type: hierarchy
+  factor_a: suit_wands
+  factor_b: tarot_eight_wands
+  relation_nature: Wands suit contains Eight of Wands
+  condition_constraint: Eight of Wands is part of the 14 Wands suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862574'
+- relation_id: rel_ltt_hw09
+  relation_type: hierarchy
+  factor_a: suit_wands
+  factor_b: tarot_nine_wands
+  relation_nature: Wands suit contains Nine of Wands
+  condition_constraint: Nine of Wands is part of the 14 Wands suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862577'
+- relation_id: rel_ltt_hw10
+  relation_type: hierarchy
+  factor_a: suit_wands
+  factor_b: tarot_ten_wands
+  relation_nature: Wands suit contains Ten of Wands
+  condition_constraint: Ten of Wands is part of the 14 Wands suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862579'
+- relation_id: rel_ltt_hw11
+  relation_type: hierarchy
+  factor_a: suit_wands
+  factor_b: tarot_page_wands
+  relation_nature: Wands suit contains Page of Wands
+  condition_constraint: Page of Wands is part of the 14 Wands suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862582'
+- relation_id: rel_ltt_hw12
+  relation_type: hierarchy
+  factor_a: suit_wands
+  factor_b: tarot_knight_wands
+  relation_nature: Wands suit contains Knight of Wands
+  condition_constraint: Knight of Wands is part of the 14 Wands suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862585'
+- relation_id: rel_ltt_hw13
+  relation_type: hierarchy
+  factor_a: suit_wands
+  factor_b: tarot_queen_wands
+  relation_nature: Wands suit contains Queen of Wands
+  condition_constraint: Queen of Wands is part of the 14 Wands suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862587'
+- relation_id: rel_ltt_hw14
+  relation_type: hierarchy
+  factor_a: suit_wands
+  factor_b: tarot_king_wands
+  relation_nature: Wands suit contains King of Wands
+  condition_constraint: King of Wands is part of the 14 Wands suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862590'
+- relation_id: rel_ltt_hc01
+  relation_type: hierarchy
+  factor_a: suit_cups
+  factor_b: tarot_ace_cups
+  relation_nature: Cups suit contains Ace of Cups
+  condition_constraint: Ace of Cups is part of the 14 Cups suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862594'
+- relation_id: rel_ltt_hc02
+  relation_type: hierarchy
+  factor_a: suit_cups
+  factor_b: tarot_two_cups
+  relation_nature: Cups suit contains Two of Cups
+  condition_constraint: Two of Cups is part of the 14 Cups suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862597'
+- relation_id: rel_ltt_hc03
+  relation_type: hierarchy
+  factor_a: suit_cups
+  factor_b: tarot_three_cups
+  relation_nature: Cups suit contains Three of Cups
+  condition_constraint: Three of Cups is part of the 14 Cups suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862600'
+- relation_id: rel_ltt_hc04
+  relation_type: hierarchy
+  factor_a: suit_cups
+  factor_b: tarot_four_cups
+  relation_nature: Cups suit contains Four of Cups
+  condition_constraint: Four of Cups is part of the 14 Cups suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862604'
+- relation_id: rel_ltt_hc05
+  relation_type: hierarchy
+  factor_a: suit_cups
+  factor_b: tarot_five_cups
+  relation_nature: Cups suit contains Five of Cups
+  condition_constraint: Five of Cups is part of the 14 Cups suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862608'
+- relation_id: rel_ltt_hc06
+  relation_type: hierarchy
+  factor_a: suit_cups
+  factor_b: tarot_six_cups
+  relation_nature: Cups suit contains Six of Cups
+  condition_constraint: Six of Cups is part of the 14 Cups suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862611'
+- relation_id: rel_ltt_hc07
+  relation_type: hierarchy
+  factor_a: suit_cups
+  factor_b: tarot_seven_cups
+  relation_nature: Cups suit contains Seven of Cups
+  condition_constraint: Seven of Cups is part of the 14 Cups suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862613'
+- relation_id: rel_ltt_hc08
+  relation_type: hierarchy
+  factor_a: suit_cups
+  factor_b: tarot_eight_cups
+  relation_nature: Cups suit contains Eight of Cups
+  condition_constraint: Eight of Cups is part of the 14 Cups suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862616'
+- relation_id: rel_ltt_hc09
+  relation_type: hierarchy
+  factor_a: suit_cups
+  factor_b: tarot_nine_cups
+  relation_nature: Cups suit contains Nine of Cups
+  condition_constraint: Nine of Cups is part of the 14 Cups suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862620'
+- relation_id: rel_ltt_hc10
+  relation_type: hierarchy
+  factor_a: suit_cups
+  factor_b: tarot_ten_cups
+  relation_nature: Cups suit contains Ten of Cups
+  condition_constraint: Ten of Cups is part of the 14 Cups suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862623'
+- relation_id: rel_ltt_hc11
+  relation_type: hierarchy
+  factor_a: suit_cups
+  factor_b: tarot_page_cups
+  relation_nature: Cups suit contains Page of Cups
+  condition_constraint: Page of Cups is part of the 14 Cups suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862625'
+- relation_id: rel_ltt_hc12
+  relation_type: hierarchy
+  factor_a: suit_cups
+  factor_b: tarot_knight_cups
+  relation_nature: Cups suit contains Knight of Cups
+  condition_constraint: Knight of Cups is part of the 14 Cups suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862628'
+- relation_id: rel_ltt_hc13
+  relation_type: hierarchy
+  factor_a: suit_cups
+  factor_b: tarot_queen_cups
+  relation_nature: Cups suit contains Queen of Cups
+  condition_constraint: Queen of Cups is part of the 14 Cups suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862631'
+- relation_id: rel_ltt_hc14
+  relation_type: hierarchy
+  factor_a: suit_cups
+  factor_b: tarot_king_cups
+  relation_nature: Cups suit contains King of Cups
+  condition_constraint: King of Cups is part of the 14 Cups suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862635'
+- relation_id: rel_ltt_hs01
+  relation_type: hierarchy
+  factor_a: suit_swords
+  factor_b: tarot_ace_swords
+  relation_nature: Swords suit contains Ace of Swords
+  condition_constraint: Ace of Swords is part of the 14 Swords suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862651'
+- relation_id: rel_ltt_hs02
+  relation_type: hierarchy
+  factor_a: suit_swords
+  factor_b: tarot_two_swords
+  relation_nature: Swords suit contains Two of Swords
+  condition_constraint: Two of Swords is part of the 14 Swords suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862654'
+- relation_id: rel_ltt_hs03
+  relation_type: hierarchy
+  factor_a: suit_swords
+  factor_b: tarot_three_swords
+  relation_nature: Swords suit contains Three of Swords
+  condition_constraint: Three of Swords is part of the 14 Swords suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862656'
+- relation_id: rel_ltt_hs04
+  relation_type: hierarchy
+  factor_a: suit_swords
+  factor_b: tarot_four_swords
+  relation_nature: Swords suit contains Four of Swords
+  condition_constraint: Four of Swords is part of the 14 Swords suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862659'
+- relation_id: rel_ltt_hs05
+  relation_type: hierarchy
+  factor_a: suit_swords
+  factor_b: tarot_five_swords
+  relation_nature: Swords suit contains Five of Swords
+  condition_constraint: Five of Swords is part of the 14 Swords suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862662'
+- relation_id: rel_ltt_hs06
+  relation_type: hierarchy
+  factor_a: suit_swords
+  factor_b: tarot_six_swords
+  relation_nature: Swords suit contains Six of Swords
+  condition_constraint: Six of Swords is part of the 14 Swords suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862664'
+- relation_id: rel_ltt_hs07
+  relation_type: hierarchy
+  factor_a: suit_swords
+  factor_b: tarot_seven_swords
+  relation_nature: Swords suit contains Seven of Swords
+  condition_constraint: Seven of Swords is part of the 14 Swords suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862667'
+- relation_id: rel_ltt_hs08
+  relation_type: hierarchy
+  factor_a: suit_swords
+  factor_b: tarot_eight_swords
+  relation_nature: Swords suit contains Eight of Swords
+  condition_constraint: Eight of Swords is part of the 14 Swords suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862670'
+- relation_id: rel_ltt_hs09
+  relation_type: hierarchy
+  factor_a: suit_swords
+  factor_b: tarot_nine_swords
+  relation_nature: Swords suit contains Nine of Swords
+  condition_constraint: Nine of Swords is part of the 14 Swords suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862672'
+- relation_id: rel_ltt_hs10
+  relation_type: hierarchy
+  factor_a: suit_swords
+  factor_b: tarot_ten_swords
+  relation_nature: Swords suit contains Ten of Swords
+  condition_constraint: Ten of Swords is part of the 14 Swords suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862678'
+- relation_id: rel_ltt_hs11
+  relation_type: hierarchy
+  factor_a: suit_swords
+  factor_b: tarot_page_swords
+  relation_nature: Swords suit contains Page of Swords
+  condition_constraint: Page of Swords is part of the 14 Swords suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862680'
+- relation_id: rel_ltt_hs12
+  relation_type: hierarchy
+  factor_a: suit_swords
+  factor_b: tarot_knight_swords
+  relation_nature: Swords suit contains Knight of Swords
+  condition_constraint: Knight of Swords is part of the 14 Swords suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862683'
+- relation_id: rel_ltt_hs13
+  relation_type: hierarchy
+  factor_a: suit_swords
+  factor_b: tarot_queen_swords
+  relation_nature: Swords suit contains Queen of Swords
+  condition_constraint: Queen of Swords is part of the 14 Swords suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862686'
+- relation_id: rel_ltt_hs14
+  relation_type: hierarchy
+  factor_a: suit_swords
+  factor_b: tarot_king_swords
+  relation_nature: Swords suit contains King of Swords
+  condition_constraint: King of Swords is part of the 14 Swords suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862688'
+- relation_id: rel_ltt_hp01
+  relation_type: hierarchy
+  factor_a: suit_pentacles
+  factor_b: tarot_ace_pentacles
+  relation_nature: Pentacles suit contains Ace of Pentacles
+  condition_constraint: Ace of Pentacles is part of the 14 Pentacles suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862691'
+- relation_id: rel_ltt_hp02
+  relation_type: hierarchy
+  factor_a: suit_pentacles
+  factor_b: tarot_two_pentacles
+  relation_nature: Pentacles suit contains Two of Pentacles
+  condition_constraint: Two of Pentacles is part of the 14 Pentacles suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862694'
+- relation_id: rel_ltt_hp03
+  relation_type: hierarchy
+  factor_a: suit_pentacles
+  factor_b: tarot_three_pentacles
+  relation_nature: Pentacles suit contains Three of Pentacles
+  condition_constraint: Three of Pentacles is part of the 14 Pentacles suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862697'
+- relation_id: rel_ltt_hp04
+  relation_type: hierarchy
+  factor_a: suit_pentacles
+  factor_b: tarot_four_pentacles
+  relation_nature: Pentacles suit contains Four of Pentacles
+  condition_constraint: Four of Pentacles is part of the 14 Pentacles suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862702'
+- relation_id: rel_ltt_hp05
+  relation_type: hierarchy
+  factor_a: suit_pentacles
+  factor_b: tarot_five_pentacles
+  relation_nature: Pentacles suit contains Five of Pentacles
+  condition_constraint: Five of Pentacles is part of the 14 Pentacles suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862705'
+- relation_id: rel_ltt_hp06
+  relation_type: hierarchy
+  factor_a: suit_pentacles
+  factor_b: tarot_six_pentacles
+  relation_nature: Pentacles suit contains Six of Pentacles
+  condition_constraint: Six of Pentacles is part of the 14 Pentacles suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862710'
+- relation_id: rel_ltt_hp07
+  relation_type: hierarchy
+  factor_a: suit_pentacles
+  factor_b: tarot_seven_pentacles
+  relation_nature: Pentacles suit contains Seven of Pentacles
+  condition_constraint: Seven of Pentacles is part of the 14 Pentacles suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862712'
+- relation_id: rel_ltt_hp08
+  relation_type: hierarchy
+  factor_a: suit_pentacles
+  factor_b: tarot_eight_pentacles
+  relation_nature: Pentacles suit contains Eight of Pentacles
+  condition_constraint: Eight of Pentacles is part of the 14 Pentacles suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862715'
+- relation_id: rel_ltt_hp09
+  relation_type: hierarchy
+  factor_a: suit_pentacles
+  factor_b: tarot_nine_pentacles
+  relation_nature: Pentacles suit contains Nine of Pentacles
+  condition_constraint: Nine of Pentacles is part of the 14 Pentacles suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862718'
+- relation_id: rel_ltt_hp10
+  relation_type: hierarchy
+  factor_a: suit_pentacles
+  factor_b: tarot_ten_pentacles
+  relation_nature: Pentacles suit contains Ten of Pentacles
+  condition_constraint: Ten of Pentacles is part of the 14 Pentacles suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862721'
+- relation_id: rel_ltt_hp11
+  relation_type: hierarchy
+  factor_a: suit_pentacles
+  factor_b: tarot_page_pentacles
+  relation_nature: Pentacles suit contains Page of Pentacles
+  condition_constraint: Page of Pentacles is part of the 14 Pentacles suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862723'
+- relation_id: rel_ltt_hp12
+  relation_type: hierarchy
+  factor_a: suit_pentacles
+  factor_b: tarot_knight_pentacles
+  relation_nature: Pentacles suit contains Knight of Pentacles
+  condition_constraint: Knight of Pentacles is part of the 14 Pentacles suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862727'
+- relation_id: rel_ltt_hp13
+  relation_type: hierarchy
+  factor_a: suit_pentacles
+  factor_b: tarot_queen_pentacles
+  relation_nature: Pentacles suit contains Queen of Pentacles
+  condition_constraint: Queen of Pentacles is part of the 14 Pentacles suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862731'
+- relation_id: rel_ltt_hp14
+  relation_type: hierarchy
+  factor_a: suit_pentacles
+  factor_b: tarot_king_pentacles
+  relation_nature: Pentacles suit contains King of Pentacles
+  condition_constraint: King of Pentacles is part of the 14 Pentacles suit cards
+  effect_direction: contains
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862734'
+- relation_id: rel_ltt_sw01
+  relation_type: narrative_sequence
+  factor_a: tarot_ace_wands
+  factor_b: tarot_two_wands
+  relation_nature: Wands Ace to Two
+  condition_constraint: Ace of Wands (potential) leads to Two of Wands (personal power)
+  effect_direction: progressive
+  source_ref: Bunning Wands
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862737'
+- relation_id: rel_ltt_sw02
+  relation_type: narrative_sequence
+  factor_a: tarot_two_wands
+  factor_b: tarot_three_wands
+  relation_nature: Wands Two to Three
+  condition_constraint: Two of Wands (planning) leads to Three of Wands (exploration)
+  effect_direction: progressive
+  source_ref: Bunning Wands
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862741'
+- relation_id: rel_ltt_sw03
+  relation_type: narrative_sequence
+  factor_a: tarot_three_wands
+  factor_b: tarot_four_wands
+  relation_nature: Wands Three to Four
+  condition_constraint: Three of Wands (foresight) leads to Four of Wands (celebration)
+  effect_direction: progressive
+  source_ref: Bunning Wands
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862743'
+- relation_id: rel_ltt_sw04
+  relation_type: narrative_sequence
+  factor_a: tarot_four_wands
+  factor_b: tarot_five_wands
+  relation_nature: Wands Four to Five
+  condition_constraint: Four of Wands (celebration) leads to Five of Wands (competition)
+  effect_direction: progressive
+  source_ref: Bunning Wands
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862746'
+- relation_id: rel_ltt_sw05
+  relation_type: narrative_sequence
+  factor_a: tarot_five_wands
+  factor_b: tarot_six_wands
+  relation_nature: Wands Five to Six
+  condition_constraint: Five of Wands (competition) leads to Six of Wands (victory)
+  effect_direction: progressive
+  source_ref: Bunning Wands
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862750'
+- relation_id: rel_ltt_sw06
+  relation_type: narrative_sequence
+  factor_a: tarot_six_wands
+  factor_b: tarot_seven_wands
+  relation_nature: Wands Six to Seven
+  condition_constraint: Six of Wands (victory) leads to Seven of Wands (defense)
+  effect_direction: progressive
+  source_ref: Bunning Wands
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862753'
+- relation_id: rel_ltt_sw07
+  relation_type: narrative_sequence
+  factor_a: tarot_seven_wands
+  factor_b: tarot_eight_wands
+  relation_nature: Wands Seven to Eight
+  condition_constraint: Seven of Wands (defense) leads to Eight of Wands (swift action)
+  effect_direction: progressive
+  source_ref: Bunning Wands
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862756'
+- relation_id: rel_ltt_sw08
+  relation_type: narrative_sequence
+  factor_a: tarot_eight_wands
+  factor_b: tarot_nine_wands
+  relation_nature: Wands Eight to Nine
+  condition_constraint: Eight of Wands (swift action) leads to Nine of Wands (perseverance)
+  effect_direction: progressive
+  source_ref: Bunning Wands
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862759'
+- relation_id: rel_ltt_sw09
+  relation_type: narrative_sequence
+  factor_a: tarot_nine_wands
+  factor_b: tarot_ten_wands
+  relation_nature: Wands Nine to Ten
+  condition_constraint: Nine of Wands (perseverance) leads to Ten of Wands (burden)
+  effect_direction: progressive
+  source_ref: Bunning Wands
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862761'
+- relation_id: rel_ltt_sc01
+  relation_type: narrative_sequence
+  factor_a: tarot_ace_cups
+  factor_b: tarot_two_cups
+  relation_nature: Cups Ace to Two
+  condition_constraint: Ace of Cups (emotional potential) leads to Two of Cups (partnership)
+  effect_direction: progressive
+  source_ref: Bunning Cups
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862764'
+- relation_id: rel_ltt_sc02
+  relation_type: narrative_sequence
+  factor_a: tarot_two_cups
+  factor_b: tarot_three_cups
+  relation_nature: Cups Two to Three
+  condition_constraint: Two of Cups (partnership) leads to Three of Cups (celebration)
+  effect_direction: progressive
+  source_ref: Bunning Cups
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862767'
+- relation_id: rel_ltt_sc03
+  relation_type: narrative_sequence
+  factor_a: tarot_three_cups
+  factor_b: tarot_four_cups
+  relation_nature: Cups Three to Four
+  condition_constraint: Three of Cups (celebration) leads to Four of Cups (withdrawal)
+  effect_direction: progressive
+  source_ref: Bunning Cups
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862773'
+- relation_id: rel_ltt_sc04
+  relation_type: narrative_sequence
+  factor_a: tarot_four_cups
+  factor_b: tarot_five_cups
+  relation_nature: Cups Four to Five
+  condition_constraint: Four of Cups (withdrawal) leads to Five of Cups (grief)
+  effect_direction: progressive
+  source_ref: Bunning Cups
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862776'
+- relation_id: rel_ltt_sc05
+  relation_type: narrative_sequence
+  factor_a: tarot_five_cups
+  factor_b: tarot_six_cups
+  relation_nature: Cups Five to Six
+  condition_constraint: Five of Cups (grief) leads to Six of Cups (nostalgia)
+  effect_direction: progressive
+  source_ref: Bunning Cups
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862779'
+- relation_id: rel_ltt_sc06
+  relation_type: narrative_sequence
+  factor_a: tarot_six_cups
+  factor_b: tarot_seven_cups
+  relation_nature: Cups Six to Seven
+  condition_constraint: Six of Cups (innocence) leads to Seven of Cups (fantasy)
+  effect_direction: progressive
+  source_ref: Bunning Cups
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862782'
+- relation_id: rel_ltt_sc07
+  relation_type: narrative_sequence
+  factor_a: tarot_seven_cups
+  factor_b: tarot_eight_cups
+  relation_nature: Cups Seven to Eight
+  condition_constraint: Seven of Cups (fantasy) leads to Eight of Cups (seeking)
+  effect_direction: progressive
+  source_ref: Bunning Cups
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862785'
+- relation_id: rel_ltt_sc08
+  relation_type: narrative_sequence
+  factor_a: tarot_eight_cups
+  factor_b: tarot_nine_cups
+  relation_nature: Cups Eight to Nine
+  condition_constraint: Eight of Cups (seeking) leads to Nine of Cups (satisfaction)
+  effect_direction: progressive
+  source_ref: Bunning Cups
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862789'
+- relation_id: rel_ltt_sc09
+  relation_type: narrative_sequence
+  factor_a: tarot_nine_cups
+  factor_b: tarot_ten_cups
+  relation_nature: Cups Nine to Ten
+  condition_constraint: Nine of Cups (satisfaction) leads to Ten of Cups (fulfillment)
+  effect_direction: progressive
+  source_ref: Bunning Cups
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862791'
+- relation_id: rel_ltt_ss01
+  relation_type: narrative_sequence
+  factor_a: tarot_ace_swords
+  factor_b: tarot_two_swords
+  relation_nature: Swords Ace to Two
+  condition_constraint: Ace of Swords (clarity) leads to Two of Swords (stalemate)
+  effect_direction: progressive
+  source_ref: Bunning Swords
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862794'
+- relation_id: rel_ltt_ss02
+  relation_type: narrative_sequence
+  factor_a: tarot_two_swords
+  factor_b: tarot_three_swords
+  relation_nature: Swords Two to Three
+  condition_constraint: Two of Swords (avoidance) leads to Three of Swords (heartbreak)
+  effect_direction: progressive
+  source_ref: Bunning Swords
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862797'
+- relation_id: rel_ltt_ss03
+  relation_type: narrative_sequence
+  factor_a: tarot_three_swords
+  factor_b: tarot_four_swords
+  relation_nature: Swords Three to Four
+  condition_constraint: Three of Swords (heartbreak) leads to Four of Swords (rest)
+  effect_direction: progressive
+  source_ref: Bunning Swords
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862801'
+- relation_id: rel_ltt_ss04
+  relation_type: narrative_sequence
+  factor_a: tarot_four_swords
+  factor_b: tarot_five_swords
+  relation_nature: Swords Four to Five
+  condition_constraint: Four of Swords (recovery) leads to Five of Swords (conflict)
+  effect_direction: progressive
+  source_ref: Bunning Swords
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862805'
+- relation_id: rel_ltt_ss05
+  relation_type: narrative_sequence
+  factor_a: tarot_five_swords
+  factor_b: tarot_six_swords
+  relation_nature: Swords Five to Six
+  condition_constraint: Five of Swords (defeat) leads to Six of Swords (transition)
+  effect_direction: progressive
+  source_ref: Bunning Swords
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862808'
+- relation_id: rel_ltt_ss06
+  relation_type: narrative_sequence
+  factor_a: tarot_six_swords
+  factor_b: tarot_seven_swords
+  relation_nature: Swords Six to Seven
+  condition_constraint: Six of Swords (departure) leads to Seven of Swords (stealth)
+  effect_direction: progressive
+  source_ref: Bunning Swords
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862810'
+- relation_id: rel_ltt_ss07
+  relation_type: narrative_sequence
+  factor_a: tarot_seven_swords
+  factor_b: tarot_eight_swords
+  relation_nature: Swords Seven to Eight
+  condition_constraint: Seven of Swords (deception) leads to Eight of Swords (trapped)
+  effect_direction: progressive
+  source_ref: Bunning Swords
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862813'
+- relation_id: rel_ltt_ss08
+  relation_type: narrative_sequence
+  factor_a: tarot_eight_swords
+  factor_b: tarot_nine_swords
+  relation_nature: Swords Eight to Nine
+  condition_constraint: Eight of Swords (trapped) leads to Nine of Swords (anxiety)
+  effect_direction: progressive
+  source_ref: Bunning Swords
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862816'
+- relation_id: rel_ltt_ss09
+  relation_type: narrative_sequence
+  factor_a: tarot_nine_swords
+  factor_b: tarot_ten_swords
+  relation_nature: Swords Nine to Ten
+  condition_constraint: Nine of Swords (anguish) leads to Ten of Swords (rock bottom)
+  effect_direction: progressive
+  source_ref: Bunning Swords
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862818'
+- relation_id: rel_ltt_sp01
+  relation_type: narrative_sequence
+  factor_a: tarot_ace_pentacles
+  factor_b: tarot_two_pentacles
+  relation_nature: Pentacles Ace to Two
+  condition_constraint: Ace of Pentacles (opportunity) leads to Two of Pentacles (juggling)
+  effect_direction: progressive
+  source_ref: Bunning Pentacles
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862821'
+- relation_id: rel_ltt_sp02
+  relation_type: narrative_sequence
+  factor_a: tarot_two_pentacles
+  factor_b: tarot_three_pentacles
+  relation_nature: Pentacles Two to Three
+  condition_constraint: Two of Pentacles (balance) leads to Three of Pentacles (teamwork)
+  effect_direction: progressive
+  source_ref: Bunning Pentacles
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862825'
+- relation_id: rel_ltt_sp03
+  relation_type: narrative_sequence
+  factor_a: tarot_three_pentacles
+  factor_b: tarot_four_pentacles
+  relation_nature: Pentacles Three to Four
+  condition_constraint: Three of Pentacles (collaboration) leads to Four of Pentacles
+    (control)
+  effect_direction: progressive
+  source_ref: Bunning Pentacles
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862828'
+- relation_id: rel_ltt_sp04
+  relation_type: narrative_sequence
+  factor_a: tarot_four_pentacles
+  factor_b: tarot_five_pentacles
+  relation_nature: Pentacles Four to Five
+  condition_constraint: Four of Pentacles (hoarding) leads to Five of Pentacles (hardship)
+  effect_direction: progressive
+  source_ref: Bunning Pentacles
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862830'
+- relation_id: rel_ltt_sp05
+  relation_type: narrative_sequence
+  factor_a: tarot_five_pentacles
+  factor_b: tarot_six_pentacles
+  relation_nature: Pentacles Five to Six
+  condition_constraint: Five of Pentacles (poverty) leads to Six of Pentacles (generosity)
+  effect_direction: progressive
+  source_ref: Bunning Pentacles
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862834'
+- relation_id: rel_ltt_sp06
+  relation_type: narrative_sequence
+  factor_a: tarot_six_pentacles
+  factor_b: tarot_seven_pentacles
+  relation_nature: Pentacles Six to Seven
+  condition_constraint: Six of Pentacles (giving) leads to Seven of Pentacles (assessment)
+  effect_direction: progressive
+  source_ref: Bunning Pentacles
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862837'
+- relation_id: rel_ltt_sp07
+  relation_type: narrative_sequence
+  factor_a: tarot_seven_pentacles
+  factor_b: tarot_eight_pentacles
+  relation_nature: Pentacles Seven to Eight
+  condition_constraint: Seven of Pentacles (evaluation) leads to Eight of Pentacles
+    (diligence)
+  effect_direction: progressive
+  source_ref: Bunning Pentacles
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862839'
+- relation_id: rel_ltt_sp08
+  relation_type: narrative_sequence
+  factor_a: tarot_eight_pentacles
+  factor_b: tarot_nine_pentacles
+  relation_nature: Pentacles Eight to Nine
+  condition_constraint: Eight of Pentacles (dedication) leads to Nine of Pentacles
+    (success)
+  effect_direction: progressive
+  source_ref: Bunning Pentacles
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862843'
+- relation_id: rel_ltt_sp09
+  relation_type: narrative_sequence
+  factor_a: tarot_nine_pentacles
+  factor_b: tarot_ten_pentacles
+  relation_nature: Pentacles Nine to Ten
+  condition_constraint: Nine of Pentacles (success) leads to Ten of Pentacles (legacy)
+  effect_direction: progressive
+  source_ref: Bunning Pentacles
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862847'
+- relation_id: rel_ltt_010
+  relation_type: card_meaning
+  factor_a: tarot_fool
+  factor_b: new_beginning
+  relation_nature: Fool signals beginnings
+  condition_constraint: When Fool card appears indicating fresh start, leap of faith,
+    or innocent new beginning
+  effect_direction: positive
+  source_ref: Bunning Fool
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862891'
+- relation_id: rel_ltt_011
+  relation_type: card_opposition
+  factor_a: tarot_fool
+  factor_b: tarot_hierophant
+  relation_nature: Fool vs convention
+  condition_constraint: When Fool opposes Hierophant creating freedom vs. tradition
+    dynamic
+  effect_direction: opposing
+  source_ref: Bunning Fool
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862894'
+- relation_id: rel_ltt_012
+  relation_type: card_reinforcement
+  factor_a: tarot_fool
+  factor_b: tarot_star
+  relation_nature: Fool + Star = innocence/trust
+  condition_constraint: When Fool and Star appear together reinforcing innocence and
+    cosmic trust
+  effect_direction: reinforcing
+  source_ref: Bunning Fool
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862897'
+- relation_id: rel_ltt_013
+  relation_type: card_opposition
+  factor_a: tarot_magician
+  factor_b: tarot_high_priestess
+  relation_nature: Active vs receptive
+  condition_constraint: When Magician and High Priestess appear creating active-receptive
+    polarity
+  effect_direction: complementary
+  source_ref: Bunning Magician
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862928'
+- relation_id: rel_ltt_014
+  relation_type: card_reinforcement
+  factor_a: tarot_magician
+  factor_b: tarot_chariot
+  relation_nature: Focus and will
+  condition_constraint: When Magician and Chariot together amplify focus, willpower,
+    and conscious action
+  effect_direction: reinforcing
+  source_ref: Bunning Magician
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862931'
+- relation_id: rel_ltt_015
+  relation_type: card_polarity
+  factor_a: tarot_high_priestess
+  factor_b: tarot_magician
+  relation_nature: Feminine/Masculine
+  condition_constraint: When High Priestess-Magician form primary feminine-masculine
+    archetypal polarity
+  effect_direction: complementary
+  source_ref: Bunning HP
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862961'
+- relation_id: rel_ltt_016
+  relation_type: card_reinforcement
+  factor_a: tarot_high_priestess
+  factor_b: tarot_hermit
+  relation_nature: Looking inward
+  condition_constraint: When High Priestess and Hermit together emphasize introspection
+    and inner knowledge
+  effect_direction: reinforcing
+  source_ref: Bunning HP
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.862964'

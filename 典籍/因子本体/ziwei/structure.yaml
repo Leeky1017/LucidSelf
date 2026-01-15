@@ -1,0 +1,295 @@
+# 紫微体系 - 结构类因子
+# Structure factors for ZiWei system
+
+factors:
+  # 主星
+  - id: ziwei_ziwei
+    status: existing
+    display_zh: 紫微星
+    display_en: Zi Wei Star
+    aliases_zh: [紫微, 帝星]
+    aliases_en: [Emperor Star]
+    description_zh: 紫微斗数主星之首，代表帝王、权贵
+    description_en: Primary star of Zi Wei Dou Shu, represents emperor and nobility
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_tianji
+    status: existing
+    display_zh: 天机星
+    display_en: Tian Ji Star
+    aliases_zh: [天机]
+    aliases_en: [Heavenly Secret]
+    description_zh: 智慧、变动之星
+    description_en: Star of wisdom and change
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_taiyang
+    status: existing
+    display_zh: 太阳星
+    display_en: Tai Yang Star
+    aliases_zh: [太阳, 日]
+    aliases_en: [Sun Star]
+    description_zh: 光明、男性能量之星
+    description_en: Star of light and masculine energy
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_wuqu
+    status: existing
+    display_zh: 武曲星
+    display_en: Wu Qu Star
+    aliases_zh: [武曲]
+    aliases_en: [Military Star]
+    description_zh: 财星，刚毅果断
+    description_en: Wealth star, resolute and decisive
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_tianfu
+    status: existing
+    display_zh: 天府星
+    display_en: Tian Fu Star
+    aliases_zh: [天府, 库星]
+    aliases_en: [Heavenly Vault]
+    description_zh: 财库之星，稳重保守
+    description_en: Treasury star, stable and conservative
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_taiyin
+    status: existing
+    display_zh: 太阴星
+    display_en: Tai Yin Star
+    aliases_zh: [太阴, 月]
+    aliases_en: [Moon Star]
+    description_zh: 阴柔、女性能量之星
+    description_en: Star of feminine energy
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_tanlang
+    status: existing
+    display_zh: 贪狼星
+    display_en: Tan Lang Star
+    aliases_zh: [贪狼]
+    aliases_en: [Greedy Wolf]
+    description_zh: 欲望、桃花之星
+    description_en: Star of desire and romance
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_jumen
+    status: existing
+    display_zh: 巨门星
+    display_en: Ju Men Star
+    aliases_zh: [巨门]
+    aliases_en: [Giant Gate]
+    description_zh: 口舌是非之星
+    description_en: Star of speech and disputes
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_tianxiang
+    status: existing
+    display_zh: 天相星
+    display_en: Tian Xiang Star
+    aliases_zh: [天相]
+    aliases_en: [Heavenly Minister]
+    description_zh: 印星，辅佐之星
+    description_en: Seal star, supporting star
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_tianliang
+    status: existing
+    display_zh: 天梁星
+    display_en: Tian Liang Star
+    aliases_zh: [天梁]
+    aliases_en: [Heavenly Beam]
+    description_zh: 荫星，庇护之星
+    description_en: Shadow star, protective star
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_qisha
+    status: existing
+    display_zh: 七杀星
+    display_en: Qi Sha Star
+    aliases_zh: [七杀]
+    aliases_en: [Seven Killings Star]
+    description_zh: 将军星，杀伐果断
+    description_en: General star, decisive action
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_pojun
+    status: existing
+    display_zh: 破军星
+    display_en: Po Jun Star
+    aliases_zh: [破军]
+    aliases_en: [Army Breaker]
+    description_zh: 破坏、开创之星
+    description_en: Star of destruction and pioneering
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_lianzhen
+    status: existing
+    display_zh: 廉贞星
+    display_en: Lian Zhen Star
+    aliases_zh: [廉贞]
+    aliases_en: [Purity Star]
+    description_zh: 次桃花星，政治能力
+    description_en: Secondary romance star, political ability
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_tianton
+    status: existing
+    display_zh: 天同星
+    display_en: Tian Tong Star
+    aliases_zh: [天同]
+    aliases_en: [Heavenly Unity]
+    description_zh: 福星，享乐安逸
+    description_en: Fortune star, pleasure and comfort
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  # 十二宫位
+  - id: ziwei_palace_life
+    status: existing
+    display_zh: 命宫
+    display_en: Life Palace
+    description_zh: 紫微斗数命宫
+    description_en: Zi Wei life palace
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_palace_siblings
+    status: existing
+    display_zh: 兄弟宫
+    display_en: Siblings Palace
+    description_zh: 紫微斗数兄弟宫
+    description_en: Zi Wei siblings palace
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_palace_spouse
+    status: existing
+    display_zh: 夫妻宫
+    display_en: Spouse Palace
+    description_zh: 紫微斗数夫妻宫
+    description_en: Zi Wei spouse palace
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_palace_children
+    status: existing
+    display_zh: 子女宫
+    display_en: Children Palace
+    description_zh: 紫微斗数子女宫
+    description_en: Zi Wei children palace
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_palace_wealth
+    status: existing
+    display_zh: 财帛宫
+    display_en: Wealth Palace
+    description_zh: 紫微斗数财帛宫
+    description_en: Zi Wei wealth palace
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_palace_health
+    status: existing
+    display_zh: 疾厄宫
+    display_en: Health Palace
+    description_zh: 紫微斗数疾厄宫
+    description_en: Zi Wei health palace
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_palace_travel
+    status: existing
+    display_zh: 迁移宫
+    display_en: Travel Palace
+    description_zh: 紫微斗数迁移宫
+    description_en: Zi Wei travel palace
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_palace_friends
+    status: existing
+    display_zh: 交友宫
+    display_en: Friends Palace
+    aliases_zh: [仆役宫]
+    description_zh: 紫微斗数交友宫
+    description_en: Zi Wei friends palace
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_palace_career
+    status: existing
+    display_zh: 官禄宫
+    display_en: Career Palace
+    aliases_zh: [事业宫]
+    description_zh: 紫微斗数官禄宫
+    description_en: Zi Wei career palace
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_palace_property
+    status: existing
+    display_zh: 田宅宫
+    display_en: Property Palace
+    description_zh: 紫微斗数田宅宫
+    description_en: Zi Wei property palace
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_palace_fortune
+    status: existing
+    display_zh: 福德宫
+    display_en: Fortune Palace
+    description_zh: 紫微斗数福德宫
+    description_en: Zi Wei fortune palace
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_palace_parents
+    status: existing
+    display_zh: 父母宫
+    display_en: Parents Palace
+    description_zh: 紫微斗数父母宫
+    description_en: Zi Wei parents palace
+    category: structure
+    value_type: reference
+    applicable_systems: [ziwei]

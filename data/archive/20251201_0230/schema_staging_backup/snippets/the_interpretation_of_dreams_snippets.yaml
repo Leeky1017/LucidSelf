@@ -1,0 +1,806 @@
+book_id: the_interpretation_of_dreams
+source_file: 典籍/texts/The Interpretation of Dreams/编辑/L1.md, 典籍/texts/The Interpretation
+  of Dreams/编辑/Freud_Dreams_Ch7_Psychology_v2.1.md, 典籍/texts/The Interpretation of
+  Dreams/编辑/Freud_Dreams_Ch6_DreamWork_v2.1.md, 典籍/texts/The Interpretation of Dreams/编辑/Freud_Dreams_Ch5_Sources_v2.1.md,
+  典籍/texts/The Interpretation of Dreams/编辑/L2.md, 典籍/texts/The Interpretation of Dreams/编辑/Dream_Mechanisms_Freud_v2.1.md
+extracted_at: '2025-12-01T02:28:32.618677'
+snippets:
+- snippet_id: ns_freud_psy_001
+  trigger: guardian_of_sleep
+  factor_trigger: guardian_of_sleep
+  role: 主干
+  snippet_text: The dream triumphed over conscious reflection because it could show
+    the child alive. For the sake of this wish-fulfilment the father slept a moment
+    longer—dreams guard sleep.
+  source_ref: 'Freud Ch.VII #Psychology'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.527898'
+- snippet_id: ns_freud_psy_002
+  trigger: stimulus_incorporation
+  factor_trigger: guardian_of_sleep AND dream_work
+  role: 主干依赖
+  snippet_text: External stimulus (the fire's light) was incorporated into dream narrative—the
+    child's words "I am burning" absorbed the disturbance while fulfilling a wish.
+  source_ref: 'Freud Ch.VII #Psychology'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.527914'
+- snippet_id: ns_freud_psy_003
+  trigger: overdetermination_burning
+  factor_trigger: overdetermination
+  role: 条件分支
+  snippet_text: '"I am burning" is overdetermined: it incorporates actual fire AND
+    recalls child''s fever—multiple sources woven into unified dream narrative.'
+  source_ref: 'Freud Ch.VII #Psychology'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.527922'
+- snippet_id: ns_freud_psy_004
+  trigger: regression
+  factor_trigger: regression
+  role: 主干
+  snippet_text: The dream process takes a regressive path not followed in waking life—psychic
+    energy flows backward from motor to perceptual end, producing visual hallucination.
+  source_ref: 'Freud Ch.VII #Regression'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.527939'
+- snippet_id: ns_freud_psy_005
+  trigger: topographical_model
+  factor_trigger: regression AND psychic_apparatus
+  role: 主干依赖
+  snippet_text: 'The psychic apparatus has two ends: perceptual (input) and motor
+    (output). Waking flows forward; dreaming reverses direction.'
+  source_ref: 'Freud Ch.VII #Regression'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.527947'
+- snippet_id: ns_freud_psy_006
+  trigger: hallucinatory_fulfillment
+  factor_trigger: regression AND wish_fulfillment
+  role: 条件分支
+  snippet_text: Blocked motor outlet during sleep forces wishes to find expression
+    through regression to perceptual hallucination—we "see" wish-fulfillment.
+  source_ref: 'Freud Ch.VII #Regression'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.527956'
+- snippet_id: ns_freud_psy_007
+  trigger: primary_process
+  factor_trigger: primary_process
+  role: 主干
+  snippet_text: 'The primary psychic process shows the same peculiarities as dream-work:
+    condensation, displacement, and free transferability of cathexes—following the
+    pleasure principle.'
+  source_ref: 'Freud Ch.VII #Processes'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.527974'
+- snippet_id: ns_freud_psy_008
+  trigger: secondary_process
+  factor_trigger: secondary_process
+  role: 主干依赖
+  snippet_text: The secondary process brings about bound energy and directed thinking—it
+    operates according to logic, contradiction, and reality demands.
+  source_ref: 'Freud Ch.VII #Processes'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.527981'
+- snippet_id: ns_freud_psy_009
+  trigger: process_dominance
+  factor_trigger: primary_process AND secondary_process
+  role: 条件分支
+  snippet_text: Dreams reveal primary process because secondary process relaxes during
+    sleep—the bizarreness of dreams reflects primary process logic.
+  source_ref: 'Freud Ch.VII #Processes'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.527989'
+- snippet_id: ns_freud_psy_010
+  trigger: anxiety_dream
+  factor_trigger: anxiety_dream
+  role: 主干
+  snippet_text: Anxiety dreams represent guardian function failure—the wish is too
+    threatening despite distortion, triggering waking as last-resort defense.
+  source_ref: 'Freud Ch.VII #AnxietyDream'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528005'
+- snippet_id: ns_freud_psy_011
+  trigger: dream_awakens
+  factor_trigger: guardian_of_sleep
+  role: 主干依赖
+  snippet_text: The dream invariably awakens us—it puts into activity part of the
+    dormant foreconscious. The question is how much arousal before waking occurs.
+  source_ref: 'Freud Ch.VII #AnxietyDream'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528012'
+- snippet_id: ns_freud_psy_012
+  trigger: anxiety_confirms_wish
+  factor_trigger: anxiety_dream AND wish_fulfillment
+  role: 条件分支
+  snippet_text: 'Anxiety dreams confirm wish-fulfillment: the forbidden wish is present
+    but so disturbing that even disguised expression triggers alarm and ends sleep.'
+  source_ref: 'Freud Ch.VII #AnxietyDream'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528019'
+- snippet_id: ns_freud_psy_013
+  trigger: larger_circle
+  factor_trigger: unconscious
+  role: 主干
+  snippet_text: The unconscious is the larger circle which includes the smaller circle
+    of consciousness—everything conscious has its preliminary step in the unconscious.
+  source_ref: 'Freud Ch.VII #Unconscious'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528038'
+- snippet_id: ns_freud_psy_014
+  trigger: real_psychic
+  factor_trigger: unconscious
+  role: 主干依赖
+  snippet_text: Properly speaking, the unconscious is the real psychic; its inner
+    nature is just as unknown to us as the reality of the external world.
+  source_ref: 'Freud Ch.VII #Unconscious'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528046'
+- snippet_id: ns_freud_psy_015
+  trigger: dynamic_view
+  factor_trigger: topographical_model
+  role: 条件分支
+  snippet_text: We replace a topical mode of presentation by a dynamic—it is not the
+    psychic formation that moves but the cathexis; perception is virtual like the
+    telescope image.
+  source_ref: 'Freud Ch.VII #Unconscious'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528056'
+- snippet_id: ns_freud_dw_001
+  trigger: dream_interpretation_method
+  factor_trigger: manifest_content AND latent_content
+  role: 主干
+  snippet_text: The dream content appears to us as a translation of the dream thoughts
+    into another form of expression, whose signs and laws of composition we are to
+    learn by comparing the original with the translation.
+  source_ref: 'Freud Ch.VI #Condensation'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530638'
+- snippet_id: ns_freud_dw_002
+  trigger: dream_is_rebus
+  factor_trigger: dream_work
+  role: 主干依赖
+  snippet_text: The dream is a picture-puzzle (rebus), and our predecessors have made
+    the mistake of judging it as an artistic composition. As such it appears nonsensical
+    and worthless.
+  source_ref: 'Freud Ch.VI #Condensation'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530654'
+- snippet_id: ns_freud_dw_003
+  trigger: manifest_vs_latent
+  factor_trigger: manifest_content
+  role: 条件分支
+  snippet_text: All previous attempts to solve the problems of the dream have been
+    based directly upon the manifest dream content—we alone possess the latent dream
+    content as new psychic material.
+  source_ref: 'Freud Ch.VI #Condensation'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530664'
+- snippet_id: ns_freud_dw_004
+  trigger: condensation_mechanism
+  factor_trigger: condensation
+  role: 主干
+  snippet_text: The dream is reserved, paltry, and laconic when compared with the
+    range and copiousness of the dream thoughts. The dream when written fills half
+    a page; the analysis requires six, eight, twelve times as much space.
+  source_ref: 'Freud Ch.VI #Condensation'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530683'
+- snippet_id: ns_freud_dw_005
+  trigger: condensation_ratio
+  factor_trigger: condensation
+  role: 主干依赖
+  snippet_text: The amount of condensation is—strictly speaking—indeterminable. One
+    is never sure of having interpreted a dream completely; a further meaning may
+    always be manifested.
+  source_ref: 'Freud Ch.VI #Condensation'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530694'
+- snippet_id: ns_freud_dw_006
+  trigger: nodal_point
+  factor_trigger: condensation AND overdetermination
+  role: 条件分支
+  snippet_text: Each dream element serves as a nodal point where multiple thought-chains
+    converge—a single image may represent multiple persons, ideas, and time periods.
+  source_ref: 'Freud Ch.VI #Condensation'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530703'
+- snippet_id: ns_freud_dw_007
+  trigger: displacement_mechanism
+  factor_trigger: displacement
+  role: 主干
+  snippet_text: It is as if a mental lever had displaced the centre of gravity. Where
+    the emphasis falls in the dream thoughts, it vanishes in the dream; what is left
+    behind is only trivial and indifferent.
+  source_ref: 'Freud Ch.VI #Displacement'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530721'
+- snippet_id: ns_freud_dw_008
+  trigger: displacement_censorship
+  factor_trigger: displacement AND censorship
+  role: 主干依赖
+  snippet_text: Displacement strips elements of high psychic value of their intensity,
+    and by means of over-determination creates new values for elements of low valence.
+  source_ref: 'Freud Ch.VI #Displacement'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530729'
+- snippet_id: ns_freud_dw_009
+  trigger: emotional_disproportion
+  factor_trigger: displacement
+  role: 条件分支
+  snippet_text: 'Dreams often seem emotionally disproportionate: intense feeling about
+    trivial matters, indifference to what should be significant. This disproportion
+    signals displacement.'
+  source_ref: 'Freud Ch.VI #Displacement'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530737'
+- snippet_id: ns_freud_dw_010
+  trigger: logical_relations
+  factor_trigger: dream_work AND representation
+  role: 主干
+  snippet_text: The dream has at its disposal no means for representing logical relations
+    among the dream thoughts. In most cases it disregards all conjunctions and elaborates
+    only the objective content.
+  source_ref: 'Freud Ch.VI #Representation'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530755'
+- snippet_id: ns_freud_dw_011
+  trigger: drifting_ice
+  factor_trigger: dream_work
+  role: 主干依赖
+  snippet_text: When dream thoughts are subjected to dream activity, parts are turned
+    about, broken up, and pushed together, something like drifting ice—what becomes
+    of the logical ties?
+  source_ref: 'Freud Ch.VI #Representation'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530767'
+- snippet_id: ns_freud_dw_012
+  trigger: visual_limitation
+  factor_trigger: representation
+  role: 条件分支
+  snippet_text: 'Dreams are limited like painting: the visual medium cannot directly
+    express speech, argument, or logical relations. Old paintings used speech-tags;
+    dreams have other compensatory mechanisms.'
+  source_ref: 'Freud Ch.VI #Representation'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530777'
+- snippet_id: ns_freud_dw_013
+  trigger: presentability
+  factor_trigger: presentability AND visual_limitation
+  role: 主干
+  snippet_text: Whatever is visual is capable of representation in the dream; abstract
+    expression would confront dream representation with difficulties similar to representing
+    a political editorial in an illustrated journal.
+  source_ref: 'Freud Ch.VI #Presentability'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530795'
+- snippet_id: ns_freud_dw_014
+  trigger: abstract_to_concrete
+  factor_trigger: presentability
+  role: 主干依赖
+  snippet_text: A colourless and abstract expression in the dream-thought is exchanged
+    for one that is visual and concrete—the dream recasts thoughts into figurative
+    language.
+  source_ref: 'Freud Ch.VI #Presentability'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530803'
+- snippet_id: ns_freud_dw_015
+  trigger: word_ambiguity
+  factor_trigger: condensation AND presentability
+  role: 条件分支
+  snippet_text: A word being a point of junction for a number of conceptions possesses
+    predestined ambiguity—neuroses and dreams alike exploit this for condensation
+    and disguise.
+  source_ref: 'Freud Ch.VI #Presentability'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530811'
+- snippet_id: ns_freud_dw_016
+  trigger: affect_reality
+  factor_trigger: affect
+  role: 主干
+  snippet_text: If I am afraid of robbers in the dream, the robbers are imaginary,
+    but the fear of them is real. The emotion experienced in the dream is in no way
+    less valid than one of like intensity in waking life.
+  source_ref: 'Freud Ch.VI #Affects'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530827'
+- snippet_id: ns_freud_dw_017
+  trigger: affect_unchanged
+  factor_trigger: affect AND displacement
+  role: 主干依赖
+  snippet_text: Presentation contents have undergone displacements and substitutions,
+    while affects have remained unchanged—no wonder the altered content no longer
+    fits the intact affect.
+  source_ref: 'Freud Ch.VI #Affects'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530835'
+- snippet_id: ns_freud_dw_018
+  trigger: affect_guide
+  factor_trigger: affect
+  role: 条件分支
+  snippet_text: In a psychic complex subjected to censorship, affects are the unyielding
+    constituent, which alone is capable of guiding us to correct supplementation of
+    the latent content.
+  source_ref: 'Freud Ch.VI #Affects'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530845'
+- snippet_id: ns_freud_dw_019
+  trigger: secondary_elaboration
+  factor_trigger: secondary_elaboration
+  role: 主干
+  snippet_text: 'We proceed to the fourth factor in dream formation: the censoring
+    instance is responsible for interpolations and amplifications, stopping up the
+    breaches in dream structure like a philosopher with scraps and rags.'
+  source_ref: 'Freud Ch.VI #SecondaryElaboration'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530862'
+- snippet_id: ns_freud_dw_020
+  trigger: facade_creation
+  factor_trigger: secondary_elaboration
+  role: 主干依赖
+  snippet_text: The result of secondary elaboration is that the dream loses the appearance
+    of absurdity and incoherence, and approaches the pattern of an intelligible experience—a
+    logical façade.
+  source_ref: 'Freud Ch.VI #SecondaryElaboration'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530871'
+- snippet_id: ns_freud_dw_021
+  trigger: pre_interpreted
+  factor_trigger: secondary_elaboration
+  role: 条件分支
+  snippet_text: These are dreams which have been interpreted before we subject them
+    to waking interpretation—their apparent coherence conceals the fragmentation underneath.
+  source_ref: 'Freud Ch.VI #SecondaryElaboration'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.530880'
+- snippet_id: ns_freud_src_001
+  trigger: day_residue
+  factor_trigger: day_residue
+  role: 主干
+  snippet_text: Some reference to the experiences of the day which has most recently
+    passed is to be found in every dream—the stimulus for every dream is found among
+    experiences upon which one has not yet slept.
+  source_ref: 'Freud Ch.V #Sources'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.533353'
+- snippet_id: ns_freud_src_002
+  trigger: indifferent_material
+  factor_trigger: day_residue AND displacement
+  role: 主干依赖
+  snippet_text: The dream makes its selection according to principles other than waking
+    memory—it recalls not what is essential and important, but what is subordinate
+    and disregarded.
+  source_ref: 'Freud Ch.V #Sources'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.533366'
+- snippet_id: ns_freud_src_003
+  trigger: value_inversion
+  factor_trigger: day_residue
+  role: 条件分支
+  snippet_text: Trivial day residue serves as vehicle for deeper concerns—its very
+    insignificance makes it useful for the dream-work's disguise function.
+  source_ref: 'Freud Ch.V #Sources'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.533375'
+- snippet_id: ns_freud_src_007
+  trigger: infantile_source
+  factor_trigger: infantile_experience
+  role: 主干
+  snippet_text: Impressions from the earliest times of our lives, which seem not at
+    the disposal of waking memory, may appear in the dream—dreams access what consciousness
+    has forgotten.
+  source_ref: 'Freud Ch.V #InfantileSources'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.533393'
+- snippet_id: ns_freud_src_008
+  trigger: child_lives_on
+  factor_trigger: infantile_wish
+  role: 主干依赖
+  snippet_text: The wish which has given rise to the dream has originated in childhood—one
+    is astonished to find that the child with all its impulses lives on in the dream.
+  source_ref: 'Freud Ch.V #InfantileSources'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.533403'
+- snippet_id: ns_freud_src_009
+  trigger: perennial_dream
+  factor_trigger: infantile_experience
+  role: 条件分支
+  snippet_text: Perennial dreams recurring from childhood to adulthood demonstrate
+    how memory traces persist—the yellow lion appeared for decades until its porcelain
+    source was discovered.
+  source_ref: 'Freud Ch.V #InfantileSources'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.533413'
+- snippet_id: ns_freud_src_004
+  trigger: typical_dreams
+  factor_trigger: typical_dream
+  role: 主干
+  snippet_text: Typical dreams appear across individuals with remarkably similar content—nakedness,
+    death of loved ones, examination, falling/flying—suggesting universal psychic
+    structures.
+  source_ref: 'Freud Ch.V #TypicalDreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.533430'
+- snippet_id: ns_freud_src_005
+  trigger: nakedness_dream
+  factor_trigger: nakedness_dream
+  role: 主干依赖
+  snippet_text: The nakedness dream represents conflict between childhood exhibitionism
+    and adult shame—the indifferent observers fulfill the wish that exposure doesn't
+    matter.
+  source_ref: 'Freud Ch.V #TypicalDreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.533438'
+- snippet_id: ns_freud_src_006
+  trigger: examination_dream
+  factor_trigger: examination_dream
+  role: 条件分支
+  snippet_text: The examination dream appears when facing new challenges—it says "you
+    feared the old exam but passed; you'll pass this too." A paradoxical reassurance
+    mechanism.
+  source_ref: 'Freud Ch.V #TypicalDreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.533446'
+- snippet_id: ns_freud_001
+  trigger: first_link
+  factor_trigger: dream AND psychopathology
+  role: 主干
+  snippet_text: The dream proves to be the first link in a chain of abnormal psychic
+    structures—phobias, obsessions, delusions.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538011'
+- snippet_id: ns_freud_002
+  trigger: paradigm_value
+  factor_trigger: dream AND paradigm
+  role: 主干依赖
+  snippet_text: The dream's theoretical value as a paradigm is all the greater; one
+    who cannot explain dreams will strive in vain to understand phobias.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538024'
+- snippet_id: ns_freud_003
+  trigger: universal_access
+  factor_trigger: dream AND universal
+  role: 条件分支
+  snippet_text: Dreams are universal, occurring nightly in all humans, making them
+    the ideal model for studying unconscious mechanisms.
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538033'
+- snippet_id: ns_freud_004
+  trigger: foundation
+  factor_trigger: dream AND foundation
+  role: 总结
+  snippet_text: Cannot understand neuroses without first understanding dreams—dreams
+    are the foundational paradigm.
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538046'
+- snippet_id: ns_freud_005
+  trigger: manifest_content
+  factor_trigger: manifest AND latent
+  role: 主干
+  snippet_text: We must distinguish between the manifest dream-content, which we remember
+    and narrate, and the latent dream-thoughts in the unconscious.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538062'
+- snippet_id: ns_freud_006
+  trigger: dream_work
+  factor_trigger: dream_work AND transformation
+  role: 主干依赖
+  snippet_text: The transformation of latent thoughts into manifest content—the dream-work
+    proper—is the core process we must understand.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538070'
+- snippet_id: ns_freud_007
+  trigger: two_layer
+  factor_trigger: surface AND hidden
+  role: 条件分支
+  snippet_text: Manifest is the surface narrative; latent is the hidden unconscious
+    wishes—dreams have a two-layer structure.
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538077'
+- snippet_id: ns_freud_008
+  trigger: reverse_process
+  factor_trigger: interpretation AND reversal
+  role: 总结
+  snippet_text: 'Interpretation aims to reverse the dream-work: from manifest content,
+    recover the latent thoughts through free association.'
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538084'
+- snippet_id: ns_freud_009
+  trigger: wish_principle
+  factor_trigger: dream AND wish_fulfillment
+  role: 主干
+  snippet_text: The dream is a perfectly valid psychic phenomenon, actually a wish-fulfillment.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538100'
+- snippet_id: ns_freud_010
+  trigger: dream_not_random
+  factor_trigger: dream AND meaning
+  role: 主干依赖
+  snippet_text: The dream is not meaningless, not absurd—it does not presuppose that
+    one part of our store of ideas is dormant while another begins to awake.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538109'
+- snippet_id: ns_freud_011
+  trigger: sleep_protection
+  factor_trigger: dream AND sleep_guardian
+  role: 条件分支
+  snippet_text: The dream creates hallucinatory experience of wish-satisfaction, allowing
+    the dreamer to continue sleeping.
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538119'
+- snippet_id: ns_freud_012
+  trigger: disguise_necessity
+  factor_trigger: wish AND disguise
+  role: 总结
+  snippet_text: Because many wishes are unacceptable to consciousness, they require
+    disguise through dream-work mechanisms.
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538126'
+- snippet_id: ns_freud_013
+  trigger: condensation_principle
+  factor_trigger: condensation AND compression
+  role: 主干
+  snippet_text: A tremendous work of condensation has been accomplished—the dream
+    is meagre and laconic in comparison with the range of dream-thoughts.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538142'
+- snippet_id: ns_freud_014
+  trigger: compression_ratio
+  factor_trigger: compression AND expansion
+  role: 主干依赖
+  snippet_text: The dream fills half a page; the analysis requires six, eight, twelve
+    times as much space.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538148'
+- snippet_id: ns_freud_015
+  trigger: composite_figures
+  factor_trigger: condensation AND composite
+  role: 条件分支
+  snippet_text: Condensation creates composite figures—one dream character with features
+    of several real persons.
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538162'
+- snippet_id: ns_freud_016
+  trigger: overdetermination
+  factor_trigger: overdetermination AND convergence
+  role: 总结
+  snippet_text: Each manifest element is overdetermined—multiply caused by several
+    latent thoughts converging on it.
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538170'
+- snippet_id: ns_freud_017
+  trigger: displacement_allusion
+  factor_trigger: displacement AND allusion
+  role: 主干
+  snippet_text: By displacement a latent element is replaced not by a component part
+    of itself but by something more remote—by an allusion.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538186'
+- snippet_id: ns_freud_018
+  trigger: psychic_accent
+  factor_trigger: displacement AND emphasis
+  role: 主干依赖
+  snippet_text: The psychic accent is so displaced that elements which are important
+    appear as subsidiary, while minor elements are pushed into the foreground.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538194'
+- snippet_id: ns_freud_019
+  trigger: reversal_significance
+  factor_trigger: reversal AND concealment
+  role: 条件分支
+  snippet_text: Central becomes peripheral, peripheral becomes central—the dream appears
+    concerned with irrelevant minutiae while concealing its true emotional core.
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538218'
+- snippet_id: ns_freud_020
+  trigger: follow_intensity
+  factor_trigger: intensity AND hidden
+  role: 总结
+  snippet_text: Following displaced intensity reveals concealed significance—disproportionate
+    emotional emphasis points toward hidden latent thoughts.
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538226'
+- snippet_id: ns_freud_021
+  trigger: universal_symbols
+  factor_trigger: symbol AND universal
+  role: 主干
+  snippet_text: A portion of dream symbolism is common property of all mankind—similar
+    symbols found in legends, myths, folk-lore, and jokes.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538240'
+- snippet_id: ns_freud_022
+  trigger: disguised_representation
+  factor_trigger: symbolism AND disguise
+  role: 主干依赖
+  snippet_text: The dream makes use of this symbolism in order to give a disguised
+    representation to its latent thoughts.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538247'
+- snippet_id: ns_freud_023
+  trigger: symbol_examples
+  factor_trigger: symbol AND examples
+  role: 条件分支
+  snippet_text: 'Common symbols: houses for bodies, journeys for life/death, stairs
+    for sexual intercourse, weapons for male genitalia, containers for female.'
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538255'
+- snippet_id: ns_freud_024
+  trigger: archaic_thinking
+  factor_trigger: archaic AND collective
+  role: 总结
+  snippet_text: Symbols represent archaic, pre-linguistic modes of thought inherited
+    from humanity's collective past.
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538262'
+- snippet_id: ns_freud_025
+  trigger: free_association_method
+  factor_trigger: free_association AND method
+  role: 主干
+  snippet_text: I instruct the patient to report whatever internal observations he
+    is able to make—feelings, thoughts, memories—in the order in which they occur
+    to him.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538276'
+- snippet_id: ns_freud_026
+  trigger: suspend_criticism
+  factor_trigger: association AND uncritical
+  role: 主干依赖
+  snippet_text: I warn him against excluding any ideas, whether too disagreeable,
+    indiscreet, unimportant, or irrelevant—simply report what passes through his mind.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538284'
+- snippet_id: ns_freud_027
+  trigger: associative_pathway
+  factor_trigger: pathway AND unconscious
+  role: 条件分支
+  snippet_text: Associations follow paths determined by unconscious connections—the
+    same paths the dream-work used in reverse.
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538292'
+- snippet_id: ns_freud_028
+  trigger: resistance_reveals
+  factor_trigger: resistance AND significance
+  role: 总结
+  snippet_text: When associations cease or the dreamer censors, the analyst notes
+    these moments as especially meaningful—resistance indicates proximity to important
+    material.
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538301'
+- snippet_id: ns_freud_029
+  trigger: censor_guardian
+  factor_trigger: censor AND guardian
+  role: 主干
+  snippet_text: Between the unconscious and consciousness stands a psychic guard or
+    censor that examines mental excitations and blocks unacceptable material.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538316'
+- snippet_id: ns_freud_030
+  trigger: waking_sleep_strength
+  factor_trigger: censor AND sleep
+  role: 主干依赖
+  snippet_text: The censor is stricter during the waking state and only relaxes somewhat
+    in sleep—it never entirely lays down its office.
+  source_ref: Source Text
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538323'
+- snippet_id: ns_freud_031
+  trigger: disguise_requirement
+  factor_trigger: censor AND disguise
+  role: 条件分支
+  snippet_text: Because the censor remains on duty even in sleep, unacceptable wishes
+    can reach consciousness only by adopting disguise through dream-work mechanisms.
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538330'
+- snippet_id: ns_freud_032
+  trigger: ego_defense_censor
+  factor_trigger: ego AND defense
+  role: 总结
+  snippet_text: Censorship operates automatically as part of the ego's defensive structure,
+    enforcing internalized moral prohibitions on what may become conscious.
+  source_ref: English Paraphrase
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.538338'

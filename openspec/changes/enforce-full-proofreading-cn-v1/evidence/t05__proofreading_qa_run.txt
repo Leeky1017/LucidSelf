@@ -1,0 +1,8 @@
+$ PYTHONPATH=. .venv/bin/python scripts/proofreading_qa/run_workflow.py run --policy data/proofreading_qa/qa_policy.v2.zh_full.yaml --output-dir artifacts/proofreading_qa
+OK: artifacts/proofreading_qa/qa_report.json
+
+$ .venv/bin/python -c '<read qa_report>'
+verdict pass
+tasks_total 2012
+coverage_mode full
+missing_books []

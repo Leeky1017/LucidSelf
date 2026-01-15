@@ -1,0 +1,59 @@
+# Authority Configuration - 典籍权威性配置
+# Feature: cross-book-knowledge-graph
+# Requirement Refs: Req 3.3, Req 15.1
+
+# 权威性分数计算公式:
+# authority_score = book_authority_weight * 0.5 + node_quality_score * 0.3 + source_count_factor * 0.2
+# 其中:
+# - node_quality_score = (reasoning_coherence + node_homogeneity) / 2
+# - source_count_factor = min(1.0, len(source_nodes) / 3)
+
+formula:
+  book_weight: 0.5
+  quality_weight: 0.3
+  source_count_weight: 0.2
+  quality_penalty_threshold: 0.6  # 低于此阈值应用惩罚因子
+  quality_penalty_factor: 0.8
+
+# 典籍权威性权重 (1.0 = 最高权威)
+# 共23本典籍覆盖七大体系（与data/logic_chains/*.yaml对齐）
+book_authority_weights:
+  # ============ 八字典籍 (5本) ============
+  滴天髓: 1.0
+  子平真诠: 1.0
+  穷通宝鉴: 1.0
+  三命通会: 0.9
+  渊海子平: 0.9
+  
+  # ============ 紫微典籍 (1本) ============
+  紫微斗数全书: 1.0
+  
+  # ============ 占星典籍 (6本) ============
+  tetrabiblos: 1.0
+  christian_astrology,_vol._1_and_2: 0.95
+  planets_in_transit: 0.9
+  the_inner_sky: 0.85
+  the_astrological_houses: 0.8
+  astrology_of_personality: 0.8
+  
+  # ============ 塔罗典籍 (4本) ============
+  78_degrees_of_wisdom: 0.9
+  the_book_of_thoth: 0.85
+  learning_the_tarot: 0.8
+  waite_pictorial_key_to_the_tarot: 0.75
+  
+  # ============ 梦境典籍 (5本) ============
+  周公解梦: 0.85
+  梦林玄解: 0.8
+  the_interpretation_of_dreams: 0.9
+  llewellyns_complete_dictionary_of_dreams: 0.75
+  dreams_visions_symbol_dictionary: 0.7
+  
+  # ============ 心理学典籍 (1本) ============
+  the_archetypes_and_the_collective_unconscious: 0.9
+  
+  # ============ 周易典籍 (1本) ============
+  周易: 1.0
+  
+  # 默认权重（未列出的典籍）
+  _default: 0.7

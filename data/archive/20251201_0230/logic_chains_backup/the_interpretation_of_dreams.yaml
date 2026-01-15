@@ -1,0 +1,1555 @@
+chain_id: chain_the_interpretation_of_dreams
+book_id: the_interpretation_of_dreams
+nodes:
+- node_id: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  snippet_ids:
+  - ns_freud_psy_001
+  - ns_freud_psy_002
+  - ns_freud_psy_003
+  role: 主干
+  condition: null
+  summary: guardian_of_sleep
+  metadata:
+    cluster_level: L1
+    source_ref: 'Freud Ch.VII #Psychology'
+    snippet_count: 3
+- node_id: n_the_interpretation_of_dreams_freud_ch_vii_regress_2
+  snippet_ids:
+  - ns_freud_psy_004
+  - ns_freud_psy_005
+  - ns_freud_psy_006
+  role: 主干
+  condition: null
+  summary: regression
+  metadata:
+    cluster_level: L1
+    source_ref: 'Freud Ch.VII #Regression'
+    snippet_count: 3
+- node_id: n_the_interpretation_of_dreams_freud_ch_vii_process_3
+  snippet_ids:
+  - ns_freud_psy_007
+  - ns_freud_psy_008
+  - ns_freud_psy_009
+  role: 主干
+  condition: null
+  summary: primary_process
+  metadata:
+    cluster_level: L1
+    source_ref: 'Freud Ch.VII #Processes'
+    snippet_count: 3
+- node_id: n_the_interpretation_of_dreams_freud_ch_vii_anxiety_4
+  snippet_ids:
+  - ns_freud_psy_010
+  - ns_freud_psy_011
+  - ns_freud_psy_012
+  role: 主干
+  condition: null
+  summary: anxiety_dream
+  metadata:
+    cluster_level: L1
+    source_ref: 'Freud Ch.VII #AnxietyDream'
+    snippet_count: 3
+- node_id: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  snippet_ids:
+  - ns_freud_psy_013
+  - ns_freud_psy_014
+  - ns_freud_psy_015
+  role: 主干
+  condition: null
+  summary: larger_circle
+  metadata:
+    cluster_level: L1
+    source_ref: 'Freud Ch.VII #Unconscious'
+    snippet_count: 3
+- node_id: n_the_interpretation_of_dreams_freud_ch_vi_condensa_6
+  snippet_ids:
+  - ns_freud_dw_001
+  role: 主干
+  condition: null
+  summary: dream_interpretation_method
+  metadata:
+    cluster_level: L2
+    source_ref: 'Freud Ch.VI #Condensation'
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_freud_ch_vi_condensa_7
+  snippet_ids:
+  - ns_freud_dw_002
+  role: 主干依赖
+  condition: null
+  summary: dream_is_rebus
+  metadata:
+    cluster_level: L2
+    source_ref: 'Freud Ch.VI #Condensation'
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_freud_ch_vi_condensa_8
+  snippet_ids:
+  - ns_freud_dw_003
+  role: 条件分支
+  condition: null
+  summary: manifest_vs_latent
+  metadata:
+    cluster_level: L2
+    source_ref: 'Freud Ch.VI #Condensation'
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_freud_ch_vi_condensa_9
+  snippet_ids:
+  - ns_freud_dw_004
+  role: 主干
+  condition: null
+  summary: condensation_mechanism
+  metadata:
+    cluster_level: L2
+    source_ref: 'Freud Ch.VI #Condensation'
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_freud_ch_vi_condensa_10
+  snippet_ids:
+  - ns_freud_dw_005
+  role: 主干依赖
+  condition: null
+  summary: condensation_ratio
+  metadata:
+    cluster_level: L2
+    source_ref: 'Freud Ch.VI #Condensation'
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_freud_ch_vi_condensa_11
+  snippet_ids:
+  - ns_freud_dw_006
+  role: 条件分支
+  condition: null
+  summary: nodal_point
+  metadata:
+    cluster_level: L2
+    source_ref: 'Freud Ch.VI #Condensation'
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_freud_ch_vi_displace_12
+  snippet_ids:
+  - ns_freud_dw_007
+  - ns_freud_dw_008
+  - ns_freud_dw_009
+  role: 主干
+  condition: null
+  summary: displacement_mechanism
+  metadata:
+    cluster_level: L1
+    source_ref: 'Freud Ch.VI #Displacement'
+    snippet_count: 3
+- node_id: n_the_interpretation_of_dreams_freud_ch_vi_represen_13
+  snippet_ids:
+  - ns_freud_dw_010
+  - ns_freud_dw_011
+  - ns_freud_dw_012
+  role: 主干
+  condition: null
+  summary: logical_relations
+  metadata:
+    cluster_level: L1
+    source_ref: 'Freud Ch.VI #Representation'
+    snippet_count: 3
+- node_id: n_the_interpretation_of_dreams_freud_ch_vi_presenta_14
+  snippet_ids:
+  - ns_freud_dw_013
+  - ns_freud_dw_014
+  - ns_freud_dw_015
+  role: 主干
+  condition: null
+  summary: presentability
+  metadata:
+    cluster_level: L1
+    source_ref: 'Freud Ch.VI #Presentability'
+    snippet_count: 3
+- node_id: n_the_interpretation_of_dreams_freud_ch_vi_affects_15
+  snippet_ids:
+  - ns_freud_dw_016
+  - ns_freud_dw_017
+  - ns_freud_dw_018
+  role: 主干
+  condition: null
+  summary: affect_reality
+  metadata:
+    cluster_level: L1
+    source_ref: 'Freud Ch.VI #Affects'
+    snippet_count: 3
+- node_id: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  snippet_ids:
+  - ns_freud_dw_019
+  - ns_freud_dw_020
+  - ns_freud_dw_021
+  role: 主干
+  condition: null
+  summary: secondary_elaboration
+  metadata:
+    cluster_level: L1
+    source_ref: 'Freud Ch.VI #SecondaryElaboration'
+    snippet_count: 3
+- node_id: n_the_interpretation_of_dreams_freud_ch_v_sources_17
+  snippet_ids:
+  - ns_freud_src_001
+  - ns_freud_src_002
+  - ns_freud_src_003
+  role: 主干
+  condition: null
+  summary: day_residue
+  metadata:
+    cluster_level: L1
+    source_ref: 'Freud Ch.V #Sources'
+    snippet_count: 3
+- node_id: n_the_interpretation_of_dreams_freud_ch_v_infantile_18
+  snippet_ids:
+  - ns_freud_src_007
+  - ns_freud_src_008
+  - ns_freud_src_009
+  role: 主干
+  condition: null
+  summary: infantile_source
+  metadata:
+    cluster_level: L1
+    source_ref: 'Freud Ch.V #InfantileSources'
+    snippet_count: 3
+- node_id: n_the_interpretation_of_dreams_freud_ch_v_typicaldr_19
+  snippet_ids:
+  - ns_freud_src_004
+  - ns_freud_src_005
+  - ns_freud_src_006
+  role: 主干
+  condition: null
+  summary: typical_dreams
+  metadata:
+    cluster_level: L1
+    source_ref: 'Freud Ch.V #TypicalDreams'
+    snippet_count: 3
+- node_id: n_the_interpretation_of_dreams_source_text_20
+  snippet_ids:
+  - ns_freud_001
+  role: 主干
+  condition: null
+  summary: first_link
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_21
+  snippet_ids:
+  - ns_freud_002
+  role: 主干依赖
+  condition: null
+  summary: paradigm_value
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_22
+  snippet_ids:
+  - ns_freud_005
+  role: 主干
+  condition: null
+  summary: manifest_content
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_23
+  snippet_ids:
+  - ns_freud_006
+  role: 主干依赖
+  condition: null
+  summary: dream_work
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_24
+  snippet_ids:
+  - ns_freud_009
+  role: 主干
+  condition: null
+  summary: wish_principle
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_25
+  snippet_ids:
+  - ns_freud_010
+  role: 主干依赖
+  condition: null
+  summary: dream_not_random
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_26
+  snippet_ids:
+  - ns_freud_013
+  role: 主干
+  condition: null
+  summary: condensation_principle
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_27
+  snippet_ids:
+  - ns_freud_014
+  role: 主干依赖
+  condition: null
+  summary: compression_ratio
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_28
+  snippet_ids:
+  - ns_freud_017
+  role: 主干
+  condition: null
+  summary: displacement_allusion
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_29
+  snippet_ids:
+  - ns_freud_018
+  role: 主干依赖
+  condition: null
+  summary: psychic_accent
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_30
+  snippet_ids:
+  - ns_freud_021
+  role: 主干
+  condition: null
+  summary: universal_symbols
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_31
+  snippet_ids:
+  - ns_freud_022
+  role: 主干依赖
+  condition: null
+  summary: disguised_representation
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_32
+  snippet_ids:
+  - ns_freud_025
+  role: 主干
+  condition: null
+  summary: free_association_method
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_33
+  snippet_ids:
+  - ns_freud_026
+  role: 主干依赖
+  condition: null
+  summary: suspend_criticism
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_34
+  snippet_ids:
+  - ns_freud_029
+  role: 主干
+  condition: null
+  summary: censor_guardian
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_source_text_35
+  snippet_ids:
+  - ns_freud_030
+  role: 主干依赖
+  condition: null
+  summary: waking_sleep_strength
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_36
+  snippet_ids:
+  - ns_freud_003
+  role: 条件分支
+  condition: null
+  summary: universal_access
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_37
+  snippet_ids:
+  - ns_freud_004
+  role: 总结
+  condition: null
+  summary: foundation
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_38
+  snippet_ids:
+  - ns_freud_007
+  role: 条件分支
+  condition: null
+  summary: two_layer
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_39
+  snippet_ids:
+  - ns_freud_008
+  role: 总结
+  condition: null
+  summary: reverse_process
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_40
+  snippet_ids:
+  - ns_freud_011
+  role: 条件分支
+  condition: null
+  summary: sleep_protection
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_41
+  snippet_ids:
+  - ns_freud_012
+  role: 总结
+  condition: null
+  summary: disguise_necessity
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_42
+  snippet_ids:
+  - ns_freud_015
+  role: 条件分支
+  condition: null
+  summary: composite_figures
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_43
+  snippet_ids:
+  - ns_freud_016
+  role: 总结
+  condition: null
+  summary: overdetermination
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_44
+  snippet_ids:
+  - ns_freud_019
+  role: 条件分支
+  condition: null
+  summary: reversal_significance
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_45
+  snippet_ids:
+  - ns_freud_020
+  role: 总结
+  condition: null
+  summary: follow_intensity
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_46
+  snippet_ids:
+  - ns_freud_023
+  role: 条件分支
+  condition: null
+  summary: symbol_examples
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_47
+  snippet_ids:
+  - ns_freud_024
+  role: 总结
+  condition: null
+  summary: archaic_thinking
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_48
+  snippet_ids:
+  - ns_freud_027
+  role: 条件分支
+  condition: null
+  summary: associative_pathway
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_49
+  snippet_ids:
+  - ns_freud_028
+  role: 总结
+  condition: null
+  summary: resistance_reveals
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_50
+  snippet_ids:
+  - ns_freud_031
+  role: 条件分支
+  condition: null
+  summary: disguise_requirement
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_interpretation_of_dreams_english_paraphrase_51
+  snippet_ids:
+  - ns_freud_032
+  role: 总结
+  condition: null
+  summary: ego_defense_censor
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+edges:
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_psy_002
+    source_ref: Freud Ch.VII
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_anxiety_4
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_psy_002
+    source_ref: Freud Ch.VII
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_process_3
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_proc_003
+    source_ref: Freud Ch.VII
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_anxiety_4
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_process_3
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_proc_003
+    source_ref: Freud Ch.VII
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_40
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_process_3
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_proc_003
+    source_ref: Freud Ch.VII
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_anxiety_4
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_regress_2
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_anx_003
+    source_ref: Freud Ch.VII
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_6
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_dw_001
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_8
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_dw_001
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_7
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_6
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_dw_001
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_7
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_8
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_dw_001
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_represen_13
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_6
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_dw_001
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_represen_13
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_8
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_dw_001
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_8
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_6
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_dw_002
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_affects_15
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_displace_12
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_disp_002
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_v_sources_17
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_displace_12
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_disp_002
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_source_text_28
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_displace_12
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_disp_002
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_presenta_14
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_rep_001
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_rep_002
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_7
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_rep_002
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_represen_13
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_rep_002
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_affects_15
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_aff_001
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_7
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_affects_15
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_aff_001
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_represen_13
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_affects_15
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_aff_001
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_aff_002
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_7
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_aff_002
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_represen_13
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_aff_002
+    source_ref: Freud Ch.VI
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_v_sources_17
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_src_001
+    source_ref: Freud Ch.V
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  to_node: n_the_interpretation_of_dreams_freud_ch_v_sources_17
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_src_003
+    source_ref: Freud Ch.V
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  to_node: n_the_interpretation_of_dreams_freud_ch_v_infantile_18
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_inf_001
+    source_ref: Freud Ch.V
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_51
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_typ_003
+    source_ref: Freud Ch.V
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_v_typicaldr_19
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_51
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_typ_003
+    source_ref: Freud Ch.V
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_source_text_21
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_paradigm
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_regress_2
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_wish_fulfillment
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_anxiety_4
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_wish_fulfillment
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_9
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_condensation
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_10
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_condensation
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_11
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_condensation
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_presenta_14
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_condensation
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_condensation
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_source_text_26
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_condensation
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_displace_12
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_displacement
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_affects_15
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_displacement
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_v_sources_17
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_displacement
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_source_text_28
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_displacement
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_symbolization
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_free_association
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_displace_12
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_censorship
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_v_sources_17
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_day_residues
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_regress_2
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_regression
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_v_typicaldr_19
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_typical_dreams
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_anxiety_4
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_displace_12
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_anxiety
+    source_ref: 'Freud #Dreams'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_anxiety_4
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - guardian_of_sleep
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_7
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - dream_w
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_11
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - overdetermination
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_represen_13
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - dream_w
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_7
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_represen_13
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - dream_w
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_9
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_10
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - condensation
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_9
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_11
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - condensation
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_9
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_presenta_14
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - condensation
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_10
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_11
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - condensation
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_10
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_presenta_14
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - condensation
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_11
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_presenta_14
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - condensation
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_affects_15
+  to_node: n_the_interpretation_of_dreams_freud_ch_v_sources_17
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - displacement
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_source_text_23
+  to_node: n_the_interpretation_of_dreams_source_text_25
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - the_interp_dream
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_source_text_30
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_36
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - the_interp_universal
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_41
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_50
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - the_interp_disguise
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_11
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  relation: depends_on
+  condition: null
+  metadata:
+    shared_factors:
+    - overdetermination
+    confidence: 0.7
+    inferred_from: condition_dependency
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_11
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_9
+  relation: depends_on
+  condition: null
+  metadata:
+    shared_factors:
+    - condensation
+    confidence: 0.7
+    inferred_from: condition_dependency
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_36
+  to_node: n_the_interpretation_of_dreams_source_text_30
+  relation: depends_on
+  condition: null
+  metadata:
+    shared_factors:
+    - the_interp_universal
+    confidence: 0.7
+    inferred_from: condition_dependency
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_36
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_37
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_37
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_38
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_38
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_39
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_39
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_40
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_40
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_41
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_41
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_42
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_42
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_43
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_43
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_44
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_44
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_45
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_45
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_46
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_46
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_47
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_47
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_48
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_48
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_49
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_49
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_50
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_50
+  to_node: n_the_interpretation_of_dreams_english_paraphrase_51
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_english_paraphrase_51
+  to_node: n_the_interpretation_of_dreams_freud_ch_v_infantile_18
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_freud_ch_v_infantile_18
+  to_node: n_the_interpretation_of_dreams_freud_ch_v_sources_17
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_freud_ch_v_sources_17
+  to_node: n_the_interpretation_of_dreams_freud_ch_v_typicaldr_19
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_freud_ch_v_typicaldr_19
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_affects_15
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_affects_15
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_6
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_6
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_7
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_8
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_9
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_condensa_11
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_displace_12
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_displace_12
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_presenta_14
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_presenta_14
+  to_node: n_the_interpretation_of_dreams_freud_ch_vi_represen_13
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_anxiety_4
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_process_3
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+  to_node: n_the_interpretation_of_dreams_freud_ch_vii_regress_2
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+  to_node: n_the_interpretation_of_dreams_source_text_20
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_20
+  to_node: n_the_interpretation_of_dreams_source_text_21
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_21
+  to_node: n_the_interpretation_of_dreams_source_text_22
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_22
+  to_node: n_the_interpretation_of_dreams_source_text_23
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_23
+  to_node: n_the_interpretation_of_dreams_source_text_24
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_24
+  to_node: n_the_interpretation_of_dreams_source_text_25
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_25
+  to_node: n_the_interpretation_of_dreams_source_text_26
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_26
+  to_node: n_the_interpretation_of_dreams_source_text_27
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_27
+  to_node: n_the_interpretation_of_dreams_source_text_28
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_28
+  to_node: n_the_interpretation_of_dreams_source_text_29
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_29
+  to_node: n_the_interpretation_of_dreams_source_text_30
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_30
+  to_node: n_the_interpretation_of_dreams_source_text_31
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_31
+  to_node: n_the_interpretation_of_dreams_source_text_32
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_32
+  to_node: n_the_interpretation_of_dreams_source_text_33
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_33
+  to_node: n_the_interpretation_of_dreams_source_text_34
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_interpretation_of_dreams_source_text_34
+  to_node: n_the_interpretation_of_dreams_source_text_35
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+narrative_order:
+- n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+- n_the_interpretation_of_dreams_freud_ch_vii_regress_2
+- n_the_interpretation_of_dreams_freud_ch_vii_process_3
+- n_the_interpretation_of_dreams_freud_ch_vii_anxiety_4
+- n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+- n_the_interpretation_of_dreams_freud_ch_vi_condensa_6
+- n_the_interpretation_of_dreams_freud_ch_vi_condensa_7
+- n_the_interpretation_of_dreams_freud_ch_vi_condensa_8
+- n_the_interpretation_of_dreams_freud_ch_vi_condensa_9
+- n_the_interpretation_of_dreams_freud_ch_vi_condensa_10
+- n_the_interpretation_of_dreams_freud_ch_vi_condensa_11
+- n_the_interpretation_of_dreams_freud_ch_vi_displace_12
+- n_the_interpretation_of_dreams_freud_ch_vi_represen_13
+- n_the_interpretation_of_dreams_freud_ch_vi_presenta_14
+- n_the_interpretation_of_dreams_freud_ch_vi_affects_15
+- n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+- n_the_interpretation_of_dreams_freud_ch_v_sources_17
+- n_the_interpretation_of_dreams_freud_ch_v_infantile_18
+- n_the_interpretation_of_dreams_freud_ch_v_typicaldr_19
+- n_the_interpretation_of_dreams_source_text_20
+- n_the_interpretation_of_dreams_source_text_21
+- n_the_interpretation_of_dreams_source_text_22
+- n_the_interpretation_of_dreams_source_text_23
+- n_the_interpretation_of_dreams_source_text_24
+- n_the_interpretation_of_dreams_source_text_25
+- n_the_interpretation_of_dreams_source_text_26
+- n_the_interpretation_of_dreams_source_text_27
+- n_the_interpretation_of_dreams_source_text_28
+- n_the_interpretation_of_dreams_source_text_29
+- n_the_interpretation_of_dreams_source_text_30
+- n_the_interpretation_of_dreams_source_text_31
+- n_the_interpretation_of_dreams_source_text_32
+- n_the_interpretation_of_dreams_source_text_33
+- n_the_interpretation_of_dreams_source_text_34
+- n_the_interpretation_of_dreams_source_text_35
+- n_the_interpretation_of_dreams_english_paraphrase_36
+- n_the_interpretation_of_dreams_english_paraphrase_37
+- n_the_interpretation_of_dreams_english_paraphrase_38
+- n_the_interpretation_of_dreams_english_paraphrase_39
+- n_the_interpretation_of_dreams_english_paraphrase_40
+- n_the_interpretation_of_dreams_english_paraphrase_41
+- n_the_interpretation_of_dreams_english_paraphrase_42
+- n_the_interpretation_of_dreams_english_paraphrase_43
+- n_the_interpretation_of_dreams_english_paraphrase_44
+- n_the_interpretation_of_dreams_english_paraphrase_45
+- n_the_interpretation_of_dreams_english_paraphrase_46
+- n_the_interpretation_of_dreams_english_paraphrase_47
+- n_the_interpretation_of_dreams_english_paraphrase_48
+- n_the_interpretation_of_dreams_english_paraphrase_49
+- n_the_interpretation_of_dreams_english_paraphrase_50
+- n_the_interpretation_of_dreams_english_paraphrase_51
+entry_nodes:
+- n_the_interpretation_of_dreams_source_text_30
+- n_the_interpretation_of_dreams_english_paraphrase_46
+- n_the_interpretation_of_dreams_freud_ch_vii_psychol_1
+- n_the_interpretation_of_dreams_freud_ch_vii_regress_2
+- n_the_interpretation_of_dreams_freud_ch_vii_process_3
+- n_the_interpretation_of_dreams_freud_ch_vii_anxiety_4
+- n_the_interpretation_of_dreams_freud_ch_vii_unconsc_5
+- n_the_interpretation_of_dreams_freud_ch_vi_condensa_6
+- n_the_interpretation_of_dreams_freud_ch_vi_condensa_9
+- n_the_interpretation_of_dreams_freud_ch_vi_displace_12
+- n_the_interpretation_of_dreams_freud_ch_vi_represen_13
+- n_the_interpretation_of_dreams_freud_ch_vi_presenta_14
+- n_the_interpretation_of_dreams_freud_ch_vi_affects_15
+- n_the_interpretation_of_dreams_freud_ch_vi_secondar_16
+- n_the_interpretation_of_dreams_freud_ch_v_sources_17
+- n_the_interpretation_of_dreams_freud_ch_v_infantile_18
+- n_the_interpretation_of_dreams_freud_ch_v_typicaldr_19
+- n_the_interpretation_of_dreams_source_text_20
+- n_the_interpretation_of_dreams_source_text_22
+- n_the_interpretation_of_dreams_source_text_24
+- n_the_interpretation_of_dreams_source_text_26
+- n_the_interpretation_of_dreams_source_text_28
+- n_the_interpretation_of_dreams_source_text_32
+- n_the_interpretation_of_dreams_source_text_34
+terminal_nodes:
+- n_the_interpretation_of_dreams_source_text_35
+metadata:
+  version: 2.0.0
+  extracted_at: 2025-11-30 22:13:10.724361
+  source_files: []
+  snippet_count: 77
+  relation_count: 104
+version: 1.0.0

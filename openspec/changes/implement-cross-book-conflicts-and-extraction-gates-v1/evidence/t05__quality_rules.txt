@@ -1,0 +1,56 @@
+### sha256
+21235507ea7bd21e843d8612880a90b2d0a1597da77e1a837b716eba9e08cbae  data/quality_gates/semantic_extraction_rules.v1.yaml
+
+### data/quality_gates/semantic_extraction_rules.v1.yaml
+version: 1
+ruleset_id: semantic_extraction_quality_rules.v1
+
+blocking:
+  enabled: true
+
+minimum_blocking_set:
+  description: Any ERROR-severity validation finding after exceptions MUST block.
+  error_types: []
+
+thresholds:
+  max_total_errors: 0
+  max_total_warnings: 50000
+
+reporting:
+  max_error_samples: 200
+  max_warning_samples: 200
+
+exceptions:
+  path: data/quality_gates/exceptions/semantic_extraction_exceptions.v1.yaml
+
+### artifacts/semantic_extraction_quality/quality_report.json summary
+{
+  "total_books": 24,
+  "migrated_books": 24,
+  "coverage_percentage": 100.0,
+  "overall_success_rate": 1.0,
+  "total_errors": 0,
+  "total_warnings": 45801,
+  "parsed_warnings": 45801,
+  "warnings_by_type_top": {
+    "INVALID_FACTOR_PREFIX": 20295,
+    "UNKNOWN_FACTOR": 17474,
+    "MISSING_L25_FIELD": 6702,
+    "EMPTY_FACTOR_REFS": 1330
+  },
+  "thresholds": [
+    {
+      "name": "max_total_errors",
+      "value": 0,
+      "max": 0,
+      "status": "pass"
+    },
+    {
+      "name": "max_total_warnings",
+      "value": 45801,
+      "max": 50000,
+      "status": "pass"
+    }
+  ],
+  "verdict": "pass"
+}

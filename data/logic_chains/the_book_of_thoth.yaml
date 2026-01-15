@@ -1,0 +1,4503 @@
+chain_id: chain_tbot
+book_id: the_book_of_thoth
+nodes:
+- node_id: n_tbot_core_meaning_0
+  snippet_ids:
+  - ns_thoth_cups_001
+  - ns_thoth_cups_004
+  role: 主干
+  condition: null
+  summary: ace_cups_thoth
+  metadata:
+    source_ref: Core Meaning
+    snippet_count: 2
+  factor_refs:
+  - thoth_cups_ace
+  - thoth_cups_two
+- node_id: n_tbot_visual_elements_1
+  snippet_ids:
+  - ns_thoth_cups_002
+  - ns_thoth_cups_005
+  role: 条件分支
+  condition: null
+  summary: binah_dark_sea
+  metadata:
+    source_ref: Visual Elements
+    snippet_count: 2
+  factor_refs:
+  - thoth_cups_ace
+  - thoth_cups_two
+  - symbol_twin_dolphins
+  - symbol_binah_sea
+- node_id: n_tbot_symbolism_2
+  snippet_ids:
+  - ns_thoth_cups_003
+  - ns_thoth_cups_014
+  - ns_thoth_cups_033
+  - ns_thoth_disks_042
+  - ns_thoth_swords_002
+  - ns_thoth_wands_018
+  role: 条件分支
+  condition: null
+  summary: dove_consecration
+  metadata:
+    source_ref: Symbolism
+    snippet_count: 6
+  factor_refs:
+  - thoth_disks_princess
+  - thoth_cups_ace
+  - symbol_pentagram
+  - thoth_cups_five
+  - thoth_cups_knight
+  - symbol_sun
+  - thoth_swords_ace
+  - symbol_peacock
+  - symbol_sword
+  - thoth_wands_six
+  - symbol_dove_holy_ghost
+  - symbol_spiral
+- node_id: n_tbot_thelemic_principle_3
+  snippet_ids:
+  - ns_thoth_cups_006
+  role: 主干依赖
+  condition: null
+  summary: love_under_will
+  metadata:
+    source_ref: Thelemic Principle
+    snippet_count: 1
+  factor_refs:
+  - tarot_love_is_the_law_love_under_will
+- node_id: n_tbot_core_4
+  snippet_ids:
+  - ns_thoth_cups_007
+  - ns_thoth_cups_010
+  - ns_thoth_cups_013
+  - ns_thoth_cups_016
+  - ns_thoth_cups_019
+  - ns_thoth_cups_022
+  - ns_thoth_cups_025
+  - ns_thoth_cups_028
+  - ns_thoth_cups_031
+  - ns_thoth_cups_034
+  - ns_thoth_cups_037
+  - ns_thoth_cups_040
+  - ns_thoth_disks_001
+  - ns_thoth_disks_004
+  - ns_thoth_disks_007
+  - ns_thoth_disks_010
+  - ns_thoth_disks_013
+  - ns_thoth_disks_016
+  - ns_thoth_disks_019
+  - ns_thoth_disks_022
+  - ns_thoth_disks_025
+  - ns_thoth_disks_028
+  - ns_thoth_disks_031
+  - ns_thoth_disks_034
+  - ns_thoth_disks_037
+  - ns_thoth_disks_040
+  - ns_thoth_swords_001
+  - ns_thoth_swords_004
+  - ns_thoth_swords_007
+  - ns_thoth_swords_010
+  - ns_thoth_swords_013
+  - ns_thoth_swords_016
+  - ns_thoth_swords_019
+  - ns_thoth_swords_022
+  - ns_thoth_swords_025
+  - ns_thoth_swords_028
+  - ns_thoth_swords_031
+  - ns_thoth_swords_034
+  - ns_thoth_swords_037
+  - ns_thoth_swords_040
+  - ns_thoth_wands_001
+  - ns_thoth_wands_004
+  - ns_thoth_wands_007
+  - ns_thoth_wands_010
+  - ns_thoth_wands_013
+  - ns_thoth_wands_016
+  - ns_thoth_wands_019
+  - ns_thoth_wands_022
+  - ns_thoth_wands_025
+  - ns_thoth_wands_028
+  - ns_thoth_wands_031
+  - ns_thoth_wands_034
+  - ns_thoth_wands_037
+  - ns_thoth_wands_040
+  role: 主干
+  condition: null
+  summary: three_cups_abundance
+  metadata:
+    source_ref: Core
+    snippet_count: 54
+  factor_refs:
+  - tarot_the_three_forms_of_scorpio_scorpion_snake_eagle_represent_progressive_transformation_stages
+- node_id: n_tbot_warning_5
+  snippet_ids:
+  - ns_thoth_cups_008
+  - ns_thoth_cups_021
+  role: 条件分支
+  condition: null
+  summary: pomegranate_binding
+  metadata:
+    source_ref: Warning
+    snippet_count: 2
+  factor_refs:
+  - tarot_chains_present_but_loose_we_bind_ourselves_through_fear_and_shame
+- node_id: n_tbot_paradox_6
+  snippet_ids:
+  - ns_thoth_cups_009
+  role: 条件分支
+  condition: null
+  summary: abounding_joy
+  metadata:
+    source_ref: Paradox
+    snippet_count: 1
+  factor_refs:
+  - state_abundance
+  - thoth_cups_three
+- node_id: n_tbot_degradation_7
+  snippet_ids:
+  - ns_thoth_cups_011
+  - ns_thoth_cups_020
+  role: 条件分支
+  condition: null
+  summary: seeds_decay
+  metadata:
+    source_ref: Degradation
+    snippet_count: 2
+  factor_refs:
+  - state_decay
+  - thoth_cups_seven
+  - thoth_cups_four
+  - symbol_tiger_lily
+- node_id: n_tbot_number_8
+  snippet_ids:
+  - ns_thoth_cups_012
+  role: 条件分支
+  condition: null
+  summary: curse_limitation
+  metadata:
+    source_ref: Number
+    snippet_count: 1
+  factor_refs:
+  - principle_four
+  - thoth_cups_four
+- node_id: n_tbot_visual_9
+  snippet_ids:
+  - ns_thoth_cups_015
+  - ns_thoth_cups_018
+  - ns_thoth_cups_023
+  - ns_thoth_cups_026
+  - ns_thoth_cups_029
+  - ns_thoth_cups_032
+  - ns_thoth_cups_035
+  - ns_thoth_cups_038
+  - ns_thoth_cups_041
+  - ns_thoth_disks_002
+  - ns_thoth_disks_006
+  - ns_thoth_disks_009
+  - ns_thoth_disks_012
+  - ns_thoth_disks_015
+  - ns_thoth_disks_018
+  - ns_thoth_disks_021
+  - ns_thoth_disks_024
+  - ns_thoth_disks_027
+  - ns_thoth_disks_030
+  - ns_thoth_disks_032
+  - ns_thoth_disks_035
+  - ns_thoth_disks_038
+  - ns_thoth_disks_041
+  - ns_thoth_swords_006
+  - ns_thoth_swords_009
+  - ns_thoth_swords_012
+  - ns_thoth_swords_015
+  - ns_thoth_swords_018
+  - ns_thoth_swords_021
+  - ns_thoth_swords_024
+  - ns_thoth_swords_027
+  - ns_thoth_swords_030
+  - ns_thoth_swords_032
+  - ns_thoth_swords_035
+  - ns_thoth_swords_038
+  - ns_thoth_swords_041
+  - ns_thoth_wands_002
+  - ns_thoth_wands_005
+  - ns_thoth_wands_009
+  - ns_thoth_wands_012
+  - ns_thoth_wands_015
+  - ns_thoth_wands_021
+  - ns_thoth_wands_024
+  - ns_thoth_wands_027
+  - ns_thoth_wands_030
+  - ns_thoth_wands_032
+  - ns_thoth_wands_035
+  - ns_thoth_wands_038
+  - ns_thoth_wands_041
+  role: 条件分支
+  condition: null
+  summary: torn_lotuses
+  metadata:
+    source_ref: Visual
+    snippet_count: 49
+  factor_refs:
+  - tarot_growth_tool
+- node_id: n_tbot_esoteric_10
+  snippet_ids:
+  - ns_thoth_cups_017
+  role: 条件分支
+  condition: null
+  summary: sexual_will
+  metadata:
+    source_ref: Esoteric
+    snippet_count: 1
+  factor_refs:
+  - thoth_cups_six
+  - principle_sexual
+- node_id: n_tbot_astrological_11
+  snippet_ids:
+  - ns_thoth_cups_024
+  - ns_thoth_cups_030
+  - ns_thoth_disks_005
+  - ns_thoth_disks_008
+  - ns_thoth_disks_011
+  - ns_thoth_disks_014
+  - ns_thoth_disks_017
+  - ns_thoth_disks_020
+  - ns_thoth_disks_023
+  - ns_thoth_disks_026
+  - ns_thoth_disks_029
+  - ns_thoth_swords_005
+  - ns_thoth_swords_008
+  - ns_thoth_swords_011
+  - ns_thoth_swords_014
+  - ns_thoth_swords_017
+  - ns_thoth_swords_020
+  - ns_thoth_swords_023
+  - ns_thoth_swords_026
+  - ns_thoth_swords_029
+  - ns_thoth_wands_006
+  - ns_thoth_wands_008
+  - ns_thoth_wands_011
+  - ns_thoth_wands_014
+  - ns_thoth_wands_017
+  - ns_thoth_wands_020
+  - ns_thoth_wands_023
+  - ns_thoth_wands_026
+  - ns_thoth_wands_029
+  role: 条件分支
+  condition: null
+  summary: saturn_deadening
+  metadata:
+    source_ref: Astrological
+    snippet_count: 29
+  factor_refs:
+  - planet_mercury_taurus
+  - planet_mars_aries
+  - planet_jupiter_leo
+  - thoth_swords_four
+  - thoth_swords_six
+  - thoth_wands_ten
+  - planet_mercury_sagittarius
+  - thoth_swords_eight
+  - planet_saturn_libra
+  - planet_moon_taurus
+  - thoth_disks_nine
+  - planet_venus_aquarius
+  - thoth_wands_four
+  - planet_saturn_taurus
+  - planet_jupiter_gemini
+  - thoth_wands_five
+  - thoth_wands_nine
+  - planet_moon_sagittarius
+  - planet_venus_virgo
+  - thoth_wands_eight
+  - thoth_disks_four
+  - planet_mars_capricorn
+  - planet_jupiter_capricorn
+  - thoth_disks_eight
+  - thoth_disks_ten
+  - thoth_swords_seven
+  - planet_moon_aquarius
+  - planet_sun_aries
+  - planet_saturn_pisces
+  - thoth_swords_two
+  - thoth_wands_two
+  - thoth_swords_five
+  - thoth_disks_six
+  - planet_moon_libra
+  - thoth_swords_three
+  - thoth_swords_nine
+  - thoth_disks_five
+  - planet_mercury_virgo
+  - planet_saturn_sagittarius
+  - thoth_disks_two
+  - planet_sun_capricorn
+  - thoth_wands_three
+  - thoth_wands_seven
+  - planet_mars_leo
+  - planet_venus_aries
+  - thoth_disks_seven
+  - planet_mercury_aquarius
+  - thoth_swords_ten
+  - thoth_cups_eight
+  - planet_mars_pisces
+  - thoth_disks_three
+  - planet_jupiter_libra
+  - thoth_cups_ten
+  - planet_sun_gemini
+  - thoth_wands_six
+  - planet_mars_gemini
+  - planet_saturn_leo
+  - planet_sun_virgo
+- node_id: n_tbot_geomantic_12
+  snippet_ids:
+  - ns_thoth_cups_027
+  role: 条件分支
+  condition: null
+  summary: laetitia_joy
+  metadata:
+    source_ref: Geomantic
+    snippet_count: 1
+  factor_refs:
+  - geomancy_laetitia
+  - thoth_cups_nine
+- node_id: n_tbot_shadow_13
+  snippet_ids:
+  - ns_thoth_cups_036
+  - ns_thoth_swords_033
+  - ns_thoth_swords_036
+  - ns_thoth_wands_033
+  role: 条件分支
+  condition: null
+  summary: mirror_distortion
+  metadata:
+    source_ref: Shadow
+    snippet_count: 4
+  factor_refs:
+  - tarot_the_ape_beneath_serves_as_a_warning_words_can_either_transmit_truth_or_distort_it
+- node_id: n_tbot_character_14
+  snippet_ids:
+  - ns_thoth_cups_039
+  - ns_thoth_cups_042
+  - ns_thoth_disks_033
+  - ns_thoth_disks_036
+  - ns_thoth_disks_039
+  - ns_thoth_swords_039
+  - ns_thoth_swords_042
+  - ns_thoth_wands_036
+  - ns_thoth_wands_039
+  - ns_thoth_wands_042
+  role: 条件分支
+  condition: null
+  summary: ruthless_transmutation
+  metadata:
+    source_ref: Character
+    snippet_count: 10
+  factor_refs:
+  - thoth_wands_prince
+  - state_volatile
+  - thoth_wands_princess
+  - state_gracious
+  - thoth_swords_princess
+  - thoth_swords_prince
+  - thoth_cups_prince
+  - thoth_disks_knight
+  - thoth_wands_queen
+  - thoth_disks_prince
+  - state_strategy
+  - state_character
+  - thoth_cups_princess
+  - state_passion
+  - thoth_disks_queen
+- node_id: n_tbot_crowley_thoth_15
+  snippet_ids:
+  - ns_thoth_atu
+  - ns_thoth_qab
+  - ns_thoth_tol
+  - ns_thoth_thl
+  - ns_thoth_thoth
+  - ns_thoth_fire
+  - ns_thoth_water
+  - ns_thoth_air
+  - ns_thoth_earth
+  - ns_thoth_fof
+  - ns_thoth_foa
+  - ns_thoth_foe
+  - ns_thoth_aoa
+  - ns_thoth_aof
+  - ns_thoth_aow
+  - ns_thoth_aoe
+  - ns_thoth_suit
+  - ns_thoth_decan
+  - ns_thoth_qabalah
+  - ns_thoth_ruach
+  - ns_thoth_binah_s
+  - ns_thoth_binah_f
+  - ns_thoth_hex
+  - ns_thoth_pent
+  - ns_thoth_yod
+  - ns_thoth_5tat
+  - ns_thoth_dorje
+  - ns_thoth_rosecross
+  - ns_thoth_rosycross
+  - ns_thoth_fool
+  - ns_thoth_thfool
+  - ns_thoth_rwsfool
+  - ns_thoth_zero
+  - ns_thoth_adj
+  - ns_thoth_lust
+  - ns_thoth_death
+  - ns_thoth_babalon
+  - ns_thoth_beast
+  - ns_thoth_strws
+  - ns_thoth_jusrws
+  - ns_thoth_wa
+  - ns_thoth_w2
+  - ns_thoth_w3
+  - ns_thoth_w4
+  - ns_thoth_w5
+  - ns_thoth_w6
+  - ns_thoth_w8
+  - ns_thoth_w9
+  - ns_thoth_w10
+  - ns_thoth_wk
+  - ns_thoth_ca
+  - ns_thoth_c2
+  - ns_thoth_c3
+  - ns_thoth_c4
+  - ns_thoth_c5
+  - ns_thoth_c6
+  - ns_thoth_c7
+  - ns_thoth_c8
+  - ns_thoth_c9
+  - ns_thoth_c10
+  - ns_thoth_sa
+  - ns_thoth_s2
+  - ns_thoth_s3
+  - ns_thoth_s4
+  - ns_thoth_s5
+  - ns_thoth_s6
+  - ns_thoth_s7
+  - ns_thoth_s8
+  - ns_thoth_s9
+  - ns_thoth_s10
+  - ns_thoth_sk
+  - ns_thoth_da
+  - ns_thoth_d2
+  - ns_thoth_d3
+  - ns_thoth_d4
+  - ns_thoth_d5
+  - ns_thoth_d6
+  - ns_thoth_d7
+  - ns_thoth_d8
+  - ns_thoth_d9
+  - ns_thoth_d10
+  - ns_thoth_dk
+  - ns_thoth_dom
+  - ns_thoth_vir
+  - ns_thoth_str
+  - ns_thoth_swi
+  - ns_thoth_stre
+  - ns_thoth_opp
+  - ns_thoth_love
+  - ns_thoth_abund
+  - ns_thoth_lux
+  - ns_thoth_dis
+  - ns_thoth_plea
+  - ns_thoth_deb
+  - ns_thoth_ind
+  - ns_thoth_hap
+  - ns_thoth_sat
+  - ns_thoth_peace
+  - ns_thoth_sor
+  - ns_thoth_truce
+  - ns_thoth_def
+  - ns_thoth_sci
+  - ns_thoth_fut
+  - ns_thoth_int
+  - ns_thoth_cru
+  - ns_thoth_ruin
+  - ns_thoth_cha
+  - ns_thoth_work
+  - ns_thoth_worry
+  - ns_thoth_succ
+  - ns_thoth_fail
+  - ns_thoth_prud
+  - ns_thoth_gain
+  - ns_thoth_weal
+  - ns_thoth_valour
+  - ns_thoth_clar
+  - ns_thoth_purint
+  - ns_thoth_imag
+  - ns_thoth_intel
+  - ns_thoth_inter
+  - ns_thoth_comb
+  - ns_thoth_stat
+  - ns_thoth_fuel
+  - ns_thoth_exp
+  - ns_thoth_expan
+  - ns_thoth_plan
+  - ns_thoth_ques
+  - ns_thoth_spmat
+  - ns_thoth_subt
+  - ns_thoth_wvfr
+  - ns_thoth_ltau
+  - ns_thoth_yhsp
+  - ns_thoth_thelb
+  - ns_thoth_thell
+  - ns_thoth_thelt
+  - ns_thoth_esot
+  - ns_thoth_hier
+  - ns_thoth_tree
+  - ns_thoth_dogma
+  - ns_thoth_conv
+  - ns_thoth_trihe
+  - ns_thoth_3wh
+  - ns_thoth_yy
+  - ns_thoth_opbal
+  - ns_thoth_grail
+  - ns_thoth_torch
+  - ns_thoth_grsw
+  - ns_thoth_pyr
+  - ns_thoth_philstone
+  - ns_thoth_rbow
+  - ns_thoth_blrose
+  - ns_thoth_tiglil
+  - ns_thoth_danlot
+  - ns_thoth_stagpool
+  - ns_thoth_brokcp
+  - ns_thoth_tiltcp
+  - ns_thoth_9cp
+  - ns_thoth_arrows
+  - ns_thoth_dirfl
+  - ns_thoth_volcen
+  - ns_thoth_flail
+  - ns_thoth_crossw
+  - ns_thoth_2longsw
+  - ns_thoth_6exblad
+  - ns_thoth_rustysw
+  - ns_thoth_brokensw
+  - ns_thoth_shattersw
+  - ns_thoth_sqdk
+  - ns_thoth_leaddk
+  - ns_thoth_fortress
+  - ns_thoth_shirehorse
+  - ns_thoth_blackhorse
+  - ns_thoth_madsteed
+  - ns_thoth_chimaera
+  - ns_thoth_barsclaws
+  - ns_thoth_scorpio
+  - ns_thoth_natdeit
+  - ns_thoth_agrwk
+  - ns_thoth_apathy
+  - ns_thoth_appeas
+  - ns_thoth_authself
+  - ns_thoth_baleng
+  - ns_thoth_balint
+  - ns_thoth_barhold
+  - ns_thoth_bindpls
+  - ns_thoth_blgrow
+  - ns_thoth_blindf
+  - ns_thoth_collev
+  - ns_thoth_consleap
+  - ns_thoth_ctrlconf
+  - ns_thoth_corrpls
+  - ns_thoth_creatfs
+  - ns_thoth_creatseed
+  - ns_thoth_deadctr
+  - ns_thoth_decayseed
+  - ns_thoth_degess
+  - ns_thoth_destrose
+  - ns_thoth_distrust
+  - ns_thoth_distdue
+  - ns_thoth_dynstab
+  - ns_thoth_effctrl
+  - ns_thoth_elecray
+  - ns_thoth_emexh
+  - ns_thoth_emfull
+  - ns_thoth_emharm
+  - ns_thoth_emptagg
+  - ns_thoth_estauth
+  - ns_thoth_esteng
+  - ns_thoth_exawill
+  - ns_thoth_falseimp
+  - ns_thoth_fertjoy
+  - ns_thoth_fierimp
+  - ns_thoth_finsolid
+  - ns_thoth_frustpls
+  - ns_thoth_fulldev
+  - ns_thoth_grnslime
+  - ns_thoth_harmtruce
+  - ns_thoth_heartbrk
+  - ns_thoth_hiveloc
+  - ns_thoth_hiform
+  - ns_thoth_intmind
+  - ns_thoth_intcult
+  - ns_thoth_invdef
+  - ns_thoth_laetitia
+  - ns_thoth_lifesrc
+  - ns_thoth_lightatt
+  - ns_thoth_limit
+  - ns_thoth_livearth
+  - ns_thoth_madness
+  - ns_thoth_manform
+  - ns_thoth_manreal
+  - ns_thoth_matanx
+  - ns_thoth_matcons
+  - ns_thoth_matharm
+  - ns_thoth_matman
+  - ns_thoth_matmult
+  - ns_thoth_mentang
+  - ns_thoth_mentbal
+  - ns_thoth_mentcol
+  - ns_thoth_mentref
+  - ns_thoth_menttort
+  - ns_thoth_natcons
+  - ns_thoth_newcosera
+  - ns_thoth_obsanx
+  - ns_thoth_overfull
+  - ns_thoth_patlab
+  - ns_thoth_perfjoy
+  - ns_thoth_poisbl
+  - ns_thoth_populus
+  - ns_thoth_primf
+  - ns_thoth_primint
+  - ns_thoth_primpot
+  - ns_thoth_profsac
+  - ns_thoth_putref
+  - ns_thoth_qtyqal
+  - ns_thoth_reasmd
+  - ns_thoth_regseed
+  - ns_thoth_renseed
+  - ns_thoth_resdef
+  - ns_thoth_rubeus
+  - ns_thoth_sacmat
+  - ns_thoth_sacsucc
+  - ns_thoth_scitr
+  - ns_thoth_seeddis
+  - ns_thoth_selfact
+  - ns_thoth_selfdev
+  - ns_thoth_selfsab
+  - ns_thoth_selfsup
+  - ns_thoth_shortf
+  - ns_thoth_solterra
+  - ns_thoth_solidsys
+  - ns_thoth_sonsun
+  - ns_thoth_spirdef
+  - ns_thoth_stabfnd
+  - ns_thoth_stagnation
+  - ns_thoth_statpeace
+  - ns_thoth_stormatt
+  - ns_thoth_subteng
+  - ns_thoth_sunhod
+  - ns_thoth_sysfail
+  - ns_thoth_totcol
+  - ns_thoth_transcr
+  - ns_thoth_transf
+  - ns_thoth_tranperf
+  - ns_thoth_truthdist
+  - ns_thoth_turntide
+  - ns_thoth_wasteff
+  - ns_thoth_weakness
+  - ns_thoth_willthw
+  - ns_thoth_t_tr
+  - ns_thoth_t_trans
+  - ns_thoth_t_vol
+  - ns_thoth_t_fix
+  - ns_thoth_t_5op
+  - ns_thoth_t_chem
+  - ns_thoth_t_form
+  - ns_thoth_t_mat
+  - ns_thoth_t_pot
+  - ns_thoth_t_bal
+  - ns_thoth_t_eq
+  - ns_thoth_t_syn
+  - ns_thoth_t_uni
+  - ns_thoth_t_law
+  - ns_thoth_t_max
+  - ns_thoth_t_wis
+  - ns_thoth_t_mot
+  - ns_thoth_t_des
+  - ns_thoth_t_joy
+  - ns_thoth_t_sacr
+  - ns_thoth_t_sacmar
+  - ns_thoth_t_divlov
+  - ns_thoth_t_divpow
+  - ns_thoth_t_divsex
+  - ns_thoth_t_solpha
+  - ns_thoth_t_sexwil
+  - ns_thoth_t_lusres
+  - ns_thoth_t_chao
+  - ns_thoth_t_cos
+  - ns_thoth_t_infcy
+  role: 主干
+  condition: null
+  summary: tarot_atu
+  metadata:
+    source_ref: Crowley Thoth
+    snippet_count: 319
+  factor_refs:
+  - tarot_primordial_chaos
+  - tarot_fool_1
+  - tarot_alchemical_putrefaction_stage_where_matter_must_rot_before_it_can_be_reborn
+  - tarot_logos
+  - tarot_adjustment_1
+- node_id: n_tbot_english_paraphrase_16
+  snippet_ids:
+  - ns_thoth_001
+  - ns_thoth_002
+  - ns_thoth_003
+  - ns_thoth_004
+  - ns_thoth_005
+  - ns_thoth_006
+  - ns_thoth_007
+  - ns_thoth_008
+  - ns_thoth_009
+  - ns_thoth_010
+  - ns_thoth_011
+  - ns_thoth_019
+  - ns_thoth_020
+  - ns_thoth_021
+  - ns_thoth_022
+  - ns_thoth_023
+  - ns_thoth_024
+  - ns_thoth_025
+  - ns_thoth_026
+  - ns_thoth_027
+  - ns_thoth_028
+  - ns_thoth_029
+  - ns_thoth_030
+  - ns_thoth_031
+  - ns_thoth_032
+  - ns_thoth_033
+  - ns_thoth_034
+  - ns_thoth_035
+  - ns_thoth_036
+  - ns_thoth_037
+  - ns_thoth_038
+  - ns_thoth_039
+  - ns_thoth_040
+  - ns_thoth_041
+  - ns_thoth_042
+  - ns_thoth_043
+  - ns_thoth_044
+  - ns_thoth_045
+  - ns_thoth_046
+  - ns_thoth_047
+  - ns_thoth_048
+  - ns_thoth_049
+  - ns_thoth_050
+  - ns_thoth_051
+  - ns_thoth_052
+  - ns_thoth_054
+  - ns_thoth_055
+  - ns_thoth_056
+  - ns_thoth_057
+  - ns_thoth_058
+  - ns_thoth_059
+  - ns_thoth_060
+  - ns_thoth_061
+  - ns_thoth_062
+  - ns_thoth_063
+  - ns_thoth_064
+  - ns_thoth_065
+  - ns_thoth_066
+  - ns_thoth_067
+  - ns_thoth_068
+  - ns_thoth_069
+  - ns_thoth_070
+  - ns_thoth_071
+  - ns_thoth_072
+  - ns_thoth_073
+  - ns_thoth_074
+  - ns_thoth_075
+  - ns_thoth_076
+  - ns_thoth_077
+  - ns_thoth_078
+  - ns_thoth_079
+  - ns_thoth_080
+  - ns_thoth_081
+  - ns_thoth_082
+  - ns_thoth_083
+  - ns_thoth_084
+  - ns_thoth_085
+  - ns_thoth_086
+  - ns_thoth_087
+  - ns_thoth_088
+  - ns_thoth_089
+  - ns_thoth_090
+  - ns_thoth_theory_001
+  - ns_thoth_theory_002
+  - ns_thoth_theory_003
+  - ns_thoth_theory_004
+  - ns_thoth_theory_005
+  - ns_thoth_theory_006
+  - ns_thoth_theory_007
+  - ns_thoth_theory_008
+  - ns_thoth_theory_009
+  - ns_thoth_theory_010
+  - ns_thoth_theory_011
+  - ns_thoth_theory_012
+  - ns_thoth_app_005
+  - ns_thoth_app_007
+  role: 主干
+  condition: null
+  summary: thoth_system
+  metadata:
+    source_ref: English Paraphrase
+    snippet_count: 96
+  factor_refs:
+  - tarot_death_in_thoth_system_represents_transformation_and_renewal_not_literal_physical_death
+- node_id: n_tbot_crowley_17
+  snippet_ids:
+  - ns_thoth_012
+  - ns_thoth_013
+  - ns_thoth_014
+  - ns_thoth_015
+  - ns_thoth_016
+  - ns_thoth_017
+  - ns_thoth_018
+  role: 条件分支
+  condition: null
+  summary: atu_combinations
+  metadata:
+    source_ref: Crowley
+    snippet_count: 7
+  factor_refs:
+  - astro_planet_mercury
+  - astro_planet_uranus
+  - astro_sign_capricorn
+  - astro_sign_libra
+  - astro_sign_sagittarius
+  - astro_sign_scorpio
+  - jung_collective_unconscious
+- node_id: n_tbot_osiris_horus_english_paraphras_18
+  snippet_ids:
+  - ns_thoth_053
+  role: 主干依赖
+  condition: null
+  summary: aeon_rhythm
+  metadata:
+    source_ref: Osiris→Horus). → English Paraphrase
+    snippet_count: 1
+  factor_refs:
+  - tarot_aeon_cycle
+- node_id: n_tbot_source_text_19
+  snippet_ids:
+  - ns_thoth_app_001
+  - ns_thoth_app_002
+  - ns_thoth_app_003
+  - ns_thoth_app_004
+  - ns_thoth_app_006
+  - ns_thoth_app_008
+  role: 主干
+  condition: null
+  summary: card_behaviour
+  metadata:
+    source_ref: Source Text
+    snippet_count: 6
+  factor_refs:
+  - essential_char
+  - house_spread
+  - sp_mat_context
+  - tree_spread
+- node_id: n_tbot_living_entities_20
+  snippet_ids:
+  - ns_thoth_app_009
+  role: 条件分支
+  condition: null
+  summary: living_cards
+  metadata:
+    source_ref: Living Entities
+    snippet_count: 1
+  factor_refs:
+  - essential_char
+  - house_spread
+  - sp_mat_context
+  - tree_spread
+- node_id: n_tbot_levels_21
+  snippet_ids:
+  - ns_thoth_app_010
+  role: 条件分支
+  condition: null
+  summary: experiential_path
+  metadata:
+    source_ref: Levels
+    snippet_count: 1
+  factor_refs:
+  - essential_char
+  - house_spread
+  - sp_mat_context
+  - tree_spread
+- node_id: n_tbot_development_further_developmen_22
+  snippet_ids:
+  - ns_thoth_app_011
+  role: 条件分支
+  condition: null
+  summary: five_operations
+  metadata:
+    source_ref: Development → Further Development → Penultimate → Final Result. →
+      Method
+    snippet_count: 1
+  factor_refs:
+  - essential_char
+  - house_spread
+  - sp_mat_context
+  - tree_spread
+- node_id: n_tbot_final_23
+  snippet_ids:
+  - ns_thoth_app_012
+  role: 条件分支
+  condition: null
+  summary: tree_final
+  metadata:
+    source_ref: Final
+    snippet_count: 1
+  factor_refs:
+  - essential_char
+  - house_spread
+  - sp_mat_context
+  - tree_spread
+- node_id: n_tbot_magus_24
+  snippet_ids:
+  - ns_thoth_app_013
+  role: 条件分支
+  condition: null
+  summary: magus_skill
+  metadata:
+    source_ref: Magus
+    snippet_count: 1
+  factor_refs:
+  - essential_char
+  - house_spread
+  - sp_mat_context
+  - tree_spread
+- node_id: n_tbot_dignity_25
+  snippet_ids:
+  - ns_thoth_app_014
+  role: 条件分支
+  condition: null
+  summary: dignity_system
+  metadata:
+    source_ref: Dignity
+    snippet_count: 1
+  factor_refs:
+  - tarot_death_in_thoth_system_represents_transformation_and_renewal_not_literal_physical_death
+- node_id: n_tbot_trumps_26
+  snippet_ids:
+  - ns_thoth_app_015
+  role: 条件分支
+  condition: null
+  summary: trump_path
+  metadata:
+    source_ref: Trumps
+    snippet_count: 1
+  factor_refs:
+  - essential_char
+  - house_spread
+  - sp_mat_context
+  - tree_spread
+- node_id: n_tbot_colors_27
+  snippet_ids:
+  - ns_thoth_app_016
+  role: 条件分支
+  condition: null
+  summary: color_scales
+  metadata:
+    source_ref: Colors
+    snippet_count: 1
+  factor_refs:
+  - essential_char
+  - house_spread
+  - sp_mat_context
+  - tree_spread
+- node_id: n_tbot_doctrine_28
+  snippet_ids:
+  - ns_thoth_disks_003
+  role: 条件分支
+  condition: null
+  summary: sol_terra_identity
+  metadata:
+    source_ref: Doctrine
+    snippet_count: 1
+  factor_refs:
+  - thoth_disks_ace
+  - doctrine_sol_terra
+- node_id: n_tbot_nature_29
+  snippet_ids:
+  - ns_thoth_swords_003
+  role: 条件分支
+  condition: null
+  summary: fire_water_conjunction
+  metadata:
+    source_ref: Nature
+    snippet_count: 1
+  factor_refs:
+  - thoth_swords_ace
+  - element_air
+- node_id: n_tbot_state_30
+  snippet_ids:
+  - ns_thoth_wands_003
+  role: 条件分支
+  condition: null
+  summary: primordial_force
+  metadata:
+    source_ref: State
+    snippet_count: 1
+  factor_refs:
+  - tarot_lust_represents_primal_creative_force_unashamed_and_unleashed
+edges:
+- from_node: n_tbot_symbolism_2
+  to_node: n_tbot_crowley_thoth_15
+  relation: leads_to
+  condition: When Knight of Cups expresses Fire of Water (passionate emotions)
+  metadata:
+    source_relation_id: rel_thoth_cups_knight
+    source_ref: 'Crowley #Thoth'
+    inferred_from: explicit_relation
+- from_node: n_tbot_visual_9
+  to_node: n_tbot_crowley_thoth_15
+  relation: leads_to
+  condition: When Knight of Cups expresses Fire of Water (passionate emotions)
+  metadata:
+    source_relation_id: rel_thoth_cups_knight
+    source_ref: 'Crowley #Thoth'
+    inferred_from: explicit_relation
+- from_node: n_tbot_core_4
+  to_node: n_tbot_crowley_thoth_15
+  relation: leads_to
+  condition: When Knight of Cups expresses Fire of Water (passionate emotions)
+  metadata:
+    source_relation_id: rel_thoth_cups_knight
+    source_ref: 'Crowley #Thoth'
+    inferred_from: explicit_relation
+- from_node: n_tbot_shadow_13
+  to_node: n_tbot_crowley_thoth_15
+  relation: leads_to
+  condition: When Queen of Cups expresses Water of Water (pure receptive emotion)
+  metadata:
+    source_relation_id: rel_thoth_cups_queen
+    source_ref: 'Crowley #Thoth'
+    inferred_from: explicit_relation
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_crowley_thoth_15
+  relation: leads_to
+  condition: When ATU II corresponds to Hebrew letter and Tree of Life path
+  metadata:
+    source_relation_id: rel_thoth_atu_2
+    source_ref: 'Crowley #ATUII'
+    inferred_from: explicit_relation
+- from_node: n_tbot_visual_9
+  to_node: n_tbot_crowley_17
+  relation: leads_to
+  condition: When Universe card ouroboros symbolizes cycle completion enabling new
+    beginning
+  metadata:
+    source_relation_id: rel_thoth_atu_21b
+    source_ref: 'Crowley #Universe'
+    inferred_from: explicit_relation
+- from_node: n_tbot_crowley_thoth_15
+  to_node: n_tbot_english_paraphrase_16
+  relation: leads_to
+  condition: When experiential learning bridges theoretical study to practical divination
+  metadata:
+    source_relation_id: rel_exp_div
+    source_ref: Thoth Appendix A
+    inferred_from: explicit_relation
+- from_node: n_tbot_crowley_thoth_15
+  to_node: n_tbot_source_text_19
+  relation: leads_to
+  condition: When astrological decans map to numbered Minor Arcana cards
+  metadata:
+    source_relation_id: rel_decan_pip
+    source_ref: Thoth Appendix B
+    inferred_from: explicit_relation
+- from_node: n_tbot_character_14
+  to_node: n_tbot_crowley_thoth_15
+  relation: leads_to
+  condition: When Queen of Disks expresses Water of Earth (nurturing material abundance)
+  metadata:
+    source_relation_id: rel_thoth_disks_queen
+    source_ref: 'Crowley #Thoth'
+    inferred_from: explicit_relation
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_crowley_thoth_15
+  relation: leads_to
+  condition: When Princess of Disks represents Earth of Earth at brink of spirit-matter
+    transfiguration
+  metadata:
+    source_relation_id: rel_princess_disks_earth
+    source_ref: Thoth Princess Disks
+    inferred_from: explicit_relation
+- from_node: n_tbot_crowley_thoth_15
+  to_node: n_tbot_warning_5
+  relation: leads_to
+  condition: When Princess of Swords avenges profanation through swift justice and
+    clarity
+  metadata:
+    source_relation_id: rel_princess_swords_avenge
+    source_ref: Thoth Princess Swords
+    inferred_from: explicit_relation
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_crowley_thoth_15
+  relation: leads_to
+  condition: When Mars in Leo provides brutal force to support wavering fire survival
+  metadata:
+    source_relation_id: rel_wands_7_mars
+    source_ref: Thoth Wands 7
+    inferred_from: explicit_relation
+- from_node: n_tbot_core_meaning_0
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_cups_ace
+    - thoth_cups_two
+- from_node: n_tbot_core_meaning_0
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_cups_ace
+- from_node: n_tbot_core_meaning_0
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_cups_two
+- from_node: n_tbot_symbolism_2
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_cups_ace
+- from_node: n_tbot_thelemic_principle_3
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_cups_two
+- from_node: n_tbot_visual_elements_1
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_paradox_6
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_number_8
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_visual_9
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_shadow_13
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_osiris_horus_english_paraphras_18
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_source_text_19
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_living_entities_20
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_magus_24
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_trumps_26
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_nature_29
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_state_30
+  to_node: n_tbot_visual_elements_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_symbolism_2
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_core_4
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_cups_five
+    - thoth_cups_knight
+    - thoth_disks_princess
+    - thoth_swords_ace
+    - thoth_wands_six
+- from_node: n_tbot_symbolism_2
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_paradox_6
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_number_8
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_symbolism_2
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_cups_five
+    - thoth_cups_knight
+    - thoth_disks_princess
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_wands_six
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_shadow_13
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_osiris_horus_english_paraphras_18
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_source_text_19
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_living_entities_20
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_magus_24
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_symbolism_2
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_nature_29
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_swords_ace
+- from_node: n_tbot_state_30
+  to_node: n_tbot_symbolism_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_thelemic_principle_3
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_paradox_6
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_number_8
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_thelemic_principle_3
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_shadow_13
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_osiris_horus_english_paraphras_18
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_source_text_19
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_living_entities_20
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_magus_24
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_thelemic_principle_3
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_nature_29
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_state_30
+  to_node: n_tbot_thelemic_principle_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_core_4
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_cups_seven
+    - thoth_cups_three
+- from_node: n_tbot_core_4
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_cups_three
+- from_node: n_tbot_core_4
+  to_node: n_tbot_degradation_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_cups_four
+    - thoth_cups_seven
+- from_node: n_tbot_core_4
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_cups_four
+- from_node: n_tbot_core_4
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_cups_eight
+    - thoth_cups_five
+    - thoth_cups_knight
+    - thoth_cups_nine
+    - thoth_cups_prince
+    - thoth_cups_princess
+    - thoth_cups_queen
+    - thoth_cups_six
+    - thoth_cups_ten
+    - thoth_disks_ace
+    - thoth_disks_eight
+    - thoth_disks_five
+    - thoth_disks_four
+    - thoth_disks_knight
+    - thoth_disks_nine
+    - thoth_disks_prince
+    - thoth_disks_princess
+    - thoth_disks_queen
+    - thoth_disks_seven
+    - thoth_disks_six
+    - thoth_disks_ten
+    - thoth_disks_three
+    - thoth_disks_two
+    - thoth_swords_eight
+    - thoth_swords_five
+    - thoth_swords_four
+    - thoth_swords_knight
+    - thoth_swords_nine
+    - thoth_swords_prince
+    - thoth_swords_princess
+    - thoth_swords_queen
+    - thoth_swords_seven
+    - thoth_swords_six
+    - thoth_swords_ten
+    - thoth_swords_three
+    - thoth_swords_two
+    - thoth_wands_ace
+    - thoth_wands_eight
+    - thoth_wands_five
+    - thoth_wands_four
+    - thoth_wands_knight
+    - thoth_wands_nine
+    - thoth_wands_prince
+    - thoth_wands_princess
+    - thoth_wands_queen
+    - thoth_wands_seven
+    - thoth_wands_ten
+    - thoth_wands_three
+    - thoth_wands_two
+- from_node: n_tbot_core_4
+  to_node: n_tbot_esoteric_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_cups_six
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_core_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_cups_eight
+    - thoth_cups_ten
+    - thoth_disks_eight
+    - thoth_disks_five
+    - thoth_disks_four
+    - thoth_disks_nine
+    - thoth_disks_seven
+    - thoth_disks_six
+    - thoth_disks_ten
+    - thoth_disks_three
+    - thoth_disks_two
+    - thoth_swords_eight
+    - thoth_swords_five
+    - thoth_swords_four
+    - thoth_swords_nine
+    - thoth_swords_seven
+    - thoth_swords_six
+    - thoth_swords_ten
+    - thoth_swords_three
+    - thoth_swords_two
+    - thoth_wands_eight
+    - thoth_wands_five
+    - thoth_wands_four
+    - thoth_wands_nine
+    - thoth_wands_seven
+    - thoth_wands_six
+    - thoth_wands_ten
+    - thoth_wands_three
+    - thoth_wands_two
+- from_node: n_tbot_core_4
+  to_node: n_tbot_geomantic_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_cups_nine
+- from_node: n_tbot_core_4
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_cups_queen
+    - thoth_swords_knight
+    - thoth_swords_queen
+    - thoth_wands_knight
+- from_node: n_tbot_character_14
+  to_node: n_tbot_core_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_cups_prince
+    - thoth_cups_princess
+    - thoth_disks_knight
+    - thoth_disks_prince
+    - thoth_disks_queen
+    - thoth_swords_prince
+    - thoth_swords_princess
+    - thoth_wands_prince
+    - thoth_wands_princess
+    - thoth_wands_queen
+- from_node: n_tbot_core_4
+  to_node: n_tbot_doctrine_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_disks_ace
+- from_node: n_tbot_core_4
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_swords_ace
+- from_node: n_tbot_core_4
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - thoth_wands_ace
+- from_node: n_tbot_paradox_6
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_cups_three
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_cups_seven
+- from_node: n_tbot_number_8
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_visual_9
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_shadow_13
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_osiris_horus_english_paraphras_18
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_source_text_19
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_living_entities_20
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_magus_24
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_trumps_26
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_nature_29
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_state_30
+  to_node: n_tbot_warning_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_number_8
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_paradox_6
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_paradox_6
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_osiris_horus_english_paraphras_18
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_paradox_6
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_living_entities_20
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_magus_24
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_paradox_6
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_nature_29
+  to_node: n_tbot_paradox_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_paradox_6
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_cups_four
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_esoteric_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_degradation_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_geomantic_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_degradation_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_english_paraphrase_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_degradation_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_living_entities_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_levels_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_development_further_developmen_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_final_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_magus_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_dignity_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_degradation_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_doctrine_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_degradation_7
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_number_8
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_number_8
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_number_8
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_number_8
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_living_entities_20
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_magus_24
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_number_8
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_nature_29
+  to_node: n_tbot_number_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_number_8
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_cups_six
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_cups_eight
+    - thoth_cups_ten
+    - thoth_disks_eight
+    - thoth_disks_five
+    - thoth_disks_four
+    - thoth_disks_nine
+    - thoth_disks_seven
+    - thoth_disks_six
+    - thoth_disks_ten
+    - thoth_disks_three
+    - thoth_disks_two
+    - thoth_swords_eight
+    - thoth_swords_five
+    - thoth_swords_four
+    - thoth_swords_nine
+    - thoth_swords_seven
+    - thoth_swords_six
+    - thoth_swords_ten
+    - thoth_swords_three
+    - thoth_swords_two
+    - thoth_wands_eight
+    - thoth_wands_five
+    - thoth_wands_four
+    - thoth_wands_nine
+    - thoth_wands_seven
+    - thoth_wands_ten
+    - thoth_wands_three
+    - thoth_wands_two
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_cups_nine
+- from_node: n_tbot_shadow_13
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_cups_queen
+    - thoth_swords_knight
+    - thoth_swords_queen
+    - thoth_wands_knight
+- from_node: n_tbot_character_14
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_cups_prince
+    - thoth_cups_princess
+    - thoth_disks_knight
+    - thoth_disks_prince
+    - thoth_disks_queen
+    - thoth_swords_prince
+    - thoth_swords_princess
+    - thoth_wands_prince
+    - thoth_wands_princess
+    - thoth_wands_queen
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_osiris_horus_english_paraphras_18
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_source_text_19
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_living_entities_20
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_magus_24
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_trumps_26
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_disks_ace
+- from_node: n_tbot_nature_29
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_state_30
+  to_node: n_tbot_visual_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - thoth_wands_ace
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_esoteric_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_geomantic_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_esoteric_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_esoteric_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_esoteric_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_living_entities_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_levels_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_esoteric_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_final_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_magus_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_esoteric_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_esoteric_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_esoteric_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_esoteric_10
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_geomantic_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_character_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_english_paraphrase_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_crowley_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_living_entities_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_levels_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_development_further_developmen_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_final_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_magus_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_dignity_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_colors_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_doctrine_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_astrological_11
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_geomantic_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_geomantic_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_geomantic_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_living_entities_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_levels_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_geomantic_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_geomantic_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_magus_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_geomantic_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_geomantic_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_geomantic_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_geomantic_12
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_osiris_horus_english_paraphras_18
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_shadow_13
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_living_entities_20
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_magus_24
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_shadow_13
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_nature_29
+  to_node: n_tbot_shadow_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_shadow_13
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_english_paraphrase_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_crowley_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_living_entities_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_levels_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_development_further_developmen_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_final_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_magus_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_dignity_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_colors_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_doctrine_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_character_14
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_english_paraphrase_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_aeon
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_living_entities_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_levels_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_english_paraphrase_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_final_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_magus_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_magus
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_english_paraphrase_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_dignity
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_trump
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_english_paraphrase_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_english_paraphrase_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - element_air
+- from_node: n_tbot_english_paraphrase_16
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_living_entities_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_levels_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_development_further_developmen_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_final_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_magus_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_dignity_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_crowley_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_doctrine_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_crowley_17
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_osiris_horus_english_paraphras_18
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_living_entities_20
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_magus_24
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_osiris_horus_english_paraphras_18
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_nature_29
+  to_node: n_tbot_osiris_horus_english_paraphras_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_osiris_horus_english_paraphras_18
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_living_entities_20
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_experience
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - tarot_divination
+- from_node: n_tbot_final_23
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_magus_24
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_source_text_19
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_nature_29
+  to_node: n_tbot_source_text_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_source_text_19
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_living_entities_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_living_entities_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_living_entities_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_living_entities_20
+  to_node: n_tbot_magus_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_living_entities_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_living_entities_20
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_living_entities_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_living_entities_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_living_entities_20
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_living_entities_20
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_levels_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_levels_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_magus_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_levels_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_levels_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_levels_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_levels_21
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_final_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_magus_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_dignity_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_development_further_developmen_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_doctrine_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_development_further_developmen_22
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_magus_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_final_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_final_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_final_23
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_final_23
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_magus_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_magus_24
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_magus_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_magus_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_magus_24
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_magus_24
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_dignity_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_doctrine_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_dignity_25
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_nature_29
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_state_30
+  to_node: n_tbot_trumps_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_doctrine_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_colors_27
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_nature_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_doctrine_28
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tbot_nature_29
+  to_node: n_tbot_state_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+narrative_order:
+- n_tbot_core_meaning_0
+- n_tbot_astrological_11
+- n_tbot_character_14
+- n_tbot_core_4
+- n_tbot_colors_27
+- n_tbot_crowley_thoth_15
+- n_tbot_english_paraphrase_16
+- n_tbot_source_text_19
+- n_tbot_crowley_17
+- n_tbot_degradation_7
+- n_tbot_development_further_developmen_22
+- n_tbot_dignity_25
+- n_tbot_doctrine_28
+- n_tbot_esoteric_10
+- n_tbot_final_23
+- n_tbot_geomantic_12
+- n_tbot_levels_21
+- n_tbot_living_entities_20
+- n_tbot_magus_24
+- n_tbot_nature_29
+- n_tbot_number_8
+- n_tbot_osiris_horus_english_paraphras_18
+- n_tbot_paradox_6
+- n_tbot_shadow_13
+- n_tbot_state_30
+- n_tbot_symbolism_2
+- n_tbot_thelemic_principle_3
+- n_tbot_trumps_26
+- n_tbot_visual_9
+- n_tbot_visual_elements_1
+- n_tbot_warning_5
+entry_nodes:
+- n_tbot_core_meaning_0
+terminal_nodes:
+- n_tbot_warning_5
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-12-04T19:17:50.495257'
+  source_files:
+  - data/schema_staging/snippets/the_book_of_thoth_snippets.yaml
+  - data/schema_staging/relations/the_book_of_thoth_relations.yaml
+  snippet_count: 605
+  relation_count: 178
+version: 1.0.0

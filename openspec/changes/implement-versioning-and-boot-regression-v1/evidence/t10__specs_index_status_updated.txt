@@ -1,0 +1,7 @@
+$ rg -n "^versioning-and-deviation-detection \|" -n openspec/SPECS_INDEX.md
+13:versioning-and-deviation-detection | 版本化与偏差检测 | P0 | system | 进行中 | Gate-0
+141:versioning-and-deviation-detection | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 身份隔离/安全/版本/生产默认值/可观测基线齐备；失败必须阻断晋级 | `openspec/specs/versioning-and-deviation-detection/`（spec/requirements/tasks/design/acceptance）
+
+$ rg -n "^bootability-and-regression-baseline \|" -n openspec/SPECS_INDEX.md
+14:bootability-and-regression-baseline | 启动性与回归基线 | P0 | system | 进行中 | Gate-1
+142:bootability-and-regression-baseline | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 证据链可审计；语义层契约稳定；质量门禁阈值明确；回归基线可执行 | `openspec/specs/bootability-and-regression-baseline/`（spec/requirements/tasks/design/acceptance）

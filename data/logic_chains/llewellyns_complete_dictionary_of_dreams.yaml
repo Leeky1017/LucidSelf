@@ -1,0 +1,176 @@
+chain_id: chain_lcdod
+book_id: llewellyns_complete_dictionary_of_dreams
+nodes:
+- node_id: n_lcdod_source_text_0
+  snippet_ids:
+  - ns_llewellyn_001
+  - ns_llewellyn_002
+  - ns_llewellyn_004
+  - ns_llewellyn_005
+  - ns_llewellyn_007
+  - ns_llewellyn_008
+  - ns_llewellyn_009
+  - ns_llewellyn_019
+  - ns_llewellyn_022
+  - ns_llewellyn_025
+  - ns_llewellyn_026
+  - ns_llewellyn_013
+  - ns_llewellyn_014
+  - ns_llewellyn_015
+  - ns_llewellyn_016
+  - ns_llewellyn_017
+  - ns_llewellyn_018
+  - ns_llewellyn_131
+  - ns_llewellyn_132
+  - ns_llewellyn_028
+  - ns_llewellyn_029
+  - ns_llewellyn_031
+  - ns_llewellyn_032
+  - ns_llewellyn_033
+  - ns_llewellyn_036
+  - ns_llewellyn_038
+  - ns_llewellyn_039
+  - ns_llewellyn_040
+  - ns_llewellyn_041
+  - ns_llewellyn_042
+  - ns_llewellyn_043
+  - ns_llewellyn_044
+  - ns_llewellyn_047
+  - ns_llewellyn_048
+  - ns_llewellyn_049
+  - ns_llewellyn_050
+  - ns_llewellyn_051
+  - ns_llewellyn_052
+  role: 主干
+  condition: null
+  summary: collective_unconscious
+  metadata:
+    source_ref: Source Text
+    snippet_count: 38
+  factor_refs:
+  - dream_window_to_unconscious
+- node_id: n_lcdod_english_paraphrase_1
+  snippet_ids:
+  - ns_llewellyn_003
+  - ns_llewellyn_053
+  - ns_llewellyn_054
+  - ns_llewellyn_055
+  - ns_llewellyn_006
+  - ns_llewellyn_056
+  - ns_llewellyn_057
+  - ns_llewellyn_058
+  - ns_llewellyn_059
+  - ns_llewellyn_060
+  - ns_llewellyn_061
+  - ns_llewellyn_062
+  - ns_llewellyn_063
+  - ns_llewellyn_020
+  - ns_llewellyn_064
+  - ns_llewellyn_065
+  - ns_llewellyn_066
+  - ns_llewellyn_067
+  - ns_llewellyn_021
+  - ns_llewellyn_068
+  - ns_llewellyn_069
+  - ns_llewellyn_070
+  - ns_llewellyn_071
+  - ns_llewellyn_072
+  - ns_llewellyn_073
+  - ns_llewellyn_023
+  - ns_llewellyn_024
+  - ns_llewellyn_074
+  - ns_llewellyn_075
+  - ns_llewellyn_076
+  - ns_llewellyn_027
+  - ns_llewellyn_077
+  - ns_llewellyn_078
+  - ns_llewellyn_079
+  - ns_llewellyn_080
+  - ns_llewellyn_081
+  - ns_llewellyn_082
+  - ns_llewellyn_083
+  - ns_llewellyn_084
+  - ns_llewellyn_085
+  - ns_llewellyn_086
+  - ns_llewellyn_087
+  - ns_llewellyn_088
+  - ns_llewellyn_089
+  - ns_llewellyn_090
+  - ns_llewellyn_133
+  - ns_llewellyn_091
+  - ns_llewellyn_092
+  - ns_llewellyn_093
+  - ns_llewellyn_094
+  - ns_llewellyn_030
+  - ns_llewellyn_095
+  - ns_llewellyn_096
+  - ns_llewellyn_097
+  - ns_llewellyn_098
+  - ns_llewellyn_099
+  - ns_llewellyn_100
+  - ns_llewellyn_034
+  - ns_llewellyn_035
+  - ns_llewellyn_101
+  - ns_llewellyn_102
+  - ns_llewellyn_103
+  - ns_llewellyn_037
+  - ns_llewellyn_104
+  - ns_llewellyn_105
+  - ns_llewellyn_106
+  - ns_llewellyn_107
+  - ns_llewellyn_108
+  - ns_llewellyn_109
+  - ns_llewellyn_110
+  - ns_llewellyn_111
+  - ns_llewellyn_112
+  - ns_llewellyn_113
+  - ns_llewellyn_114
+  - ns_llewellyn_115
+  - ns_llewellyn_116
+  - ns_llewellyn_117
+  - ns_llewellyn_118
+  - ns_llewellyn_119
+  - ns_llewellyn_120
+  - ns_llewellyn_121
+  - ns_llewellyn_122
+  - ns_llewellyn_123
+  - ns_llewellyn_124
+  - ns_llewellyn_125
+  - ns_llewellyn_126
+  - ns_llewellyn_127
+  - ns_llewellyn_128
+  - ns_llewellyn_129
+  - ns_llewellyn_130
+  role: 主干
+  condition: null
+  summary: universal_symbols
+  metadata:
+    source_ref: English Paraphrase
+    snippet_count: 90
+  factor_refs:
+  - dream_universal_symbols
+edges:
+- from_node: n_lcdod_source_text_0
+  to_node: n_lcdod_english_paraphrase_1
+  relation: leads_to
+  condition: When dreams access collective unconscious generating patterns
+  metadata:
+    source_relation_id: rel_lennox_collective_001
+    source_ref: 'Lennox #Ch1'
+    inferred_from: explicit_relation
+narrative_order:
+- n_lcdod_english_paraphrase_1
+- n_lcdod_source_text_0
+entry_nodes:
+- n_lcdod_source_text_0
+terminal_nodes:
+- n_lcdod_english_paraphrase_1
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-12-04T19:17:53.631746'
+  source_files:
+  - data/schema_staging/snippets/llewellyns_complete_dictionary_of_dreams_snippets.yaml
+  - data/schema_staging/relations/llewellyns_complete_dictionary_of_dreams_relations.yaml
+  snippet_count: 128
+  relation_count: 90
+version: 1.0.0

@@ -1,0 +1,185 @@
+# 跨体系中立因子 - 中立标签
+# Cross-system neutral factors - Neutral Tags
+
+# 中立标签用于实现东西方体系的语义对齐
+# Neutral tags for semantic alignment between Eastern and Western systems
+
+neutral_tags:
+  # 资源与财务
+  - id: neutral_resource_conflict
+    status: existing
+    display_zh: 资源冲突
+    display_en: Resource Conflict
+    description_zh: 资源竞争、财务压力、物质损失
+    description_en: Resource competition, financial pressure, material loss
+    category: neutral
+    mappings:
+      bazi: [bazi_bijie_duocai, bazi_caixing_beike]
+      astro: [astro_venus_saturn_square, astro_2h_8h_opposition]
+      tarot: [tarot_five_of_pentacles]
+
+  - id: neutral_resource_abundance
+    status: existing
+    display_zh: 资源丰盛
+    display_en: Resource Abundance
+    description_zh: 财运亨通、资源充裕、物质收获
+    description_en: Financial prosperity, abundant resources, material gain
+    category: neutral
+    mappings:
+      bazi: [bazi_caixing_deli, bazi_shishen_shengcai]
+      astro: [astro_jupiter_in_2h, astro_venus_jupiter_trine]
+      tarot: [tarot_ace_of_pentacles, tarot_ten_of_pentacles]
+
+  # 情绪与心理
+  - id: neutral_emotional_tension
+    status: existing
+    display_zh: 情绪张力
+    display_en: Emotional Tension
+    description_zh: 情绪波动、心理压力、内心冲突
+    description_en: Emotional fluctuation, psychological pressure, inner conflict
+    category: neutral
+    mappings:
+      bazi: [bazi_shangguan_jianguan, bazi_xiaoyin_duoshi]
+      astro: [astro_moon_saturn_square, astro_4h_afflicted]
+      dream: [dream_anxiety_level, dream_conflict_tension]
+      tarot: [tarot_nine_of_swords]
+
+  - id: neutral_emotional_harmony
+    status: existing
+    display_zh: 情绪和谐
+    display_en: Emotional Harmony
+    description_zh: 心理平静、情绪稳定、内心安宁
+    description_en: Psychological calm, emotional stability, inner peace
+    category: neutral
+    mappings:
+      bazi: [bazi_yinxing_huxhu, bazi_shishen_xiuxian]
+      astro: [astro_moon_venus_trine, astro_4h_benefic]
+      dream: [dream_resolution_sense]
+      tarot: [tarot_temperance, tarot_star]
+
+  # 权威与事业
+  - id: neutral_authority_challenge
+    status: existing
+    display_zh: 权威挑战
+    display_en: Authority Challenge
+    description_zh: 与权威的冲突、领导力挑战、职场压力
+    description_en: Conflict with authority, leadership challenges, workplace pressure
+    category: neutral
+    mappings:
+      bazi: [bazi_qisha_gongshen, bazi_guansha_hunza]
+      astro: [astro_sun_saturn_square, astro_10h_afflicted]
+      tarot: [tarot_five_of_wands, tarot_tower]
+
+  - id: neutral_career_support
+    status: existing
+    display_zh: 事业助力
+    display_en: Career Support
+    description_zh: 事业顺利、贵人相助、职业发展
+    description_en: Career success, helpful connections, professional development
+    category: neutral
+    mappings:
+      bazi: [bazi_guanyin_xiangsheng, bazi_shishen_shengcai]
+      astro: [astro_jupiter_in_10h, astro_sun_mc_trine]
+      ziwei: [ziwei_mingong_jixing]
+      tarot: [tarot_three_of_wands, tarot_world]
+
+  # 关系与社交
+  - id: neutral_relationship_harmony
+    status: existing
+    display_zh: 关系和谐
+    display_en: Relationship Harmony
+    description_zh: 人际和睦、感情顺利、社交融洽
+    description_en: Interpersonal harmony, smooth relationships, social ease
+    category: neutral
+    mappings:
+      bazi: [bazi_caiguan_xiangsheng, bazi_rizhi_hehua]
+      astro: [astro_venus_jupiter_conjunction, astro_7h_benefic]
+      tarot: [tarot_lovers, tarot_two_of_cups]
+
+  - id: neutral_relationship_tension
+    status: existing
+    display_zh: 关系张力
+    display_en: Relationship Tension
+    description_zh: 人际冲突、感情困扰、社交困难
+    description_en: Interpersonal conflict, relationship troubles, social difficulties
+    category: neutral
+    mappings:
+      bazi: [bazi_bijie_zhengcai, bazi_rizhi_chong]
+      astro: [astro_venus_mars_square, astro_7h_afflicted]
+      tarot: [tarot_three_of_swords, tarot_five_of_cups]
+
+  # 时机与节奏
+  - id: neutral_timing_fast
+    status: existing
+    display_zh: 时机快速
+    display_en: Timing Fast
+    description_zh: 事情发展迅速、行动力强、变化剧烈
+    description_en: Rapid development, strong action, dramatic change
+    category: neutral
+    mappings:
+      bazi: [bazi_yima_xingdong, bazi_chongdong_zhinian]
+      astro: [astro_mars_transit, astro_cardinal_strong]
+      tarot: [tarot_eight_of_wands, tarot_chariot]
+
+  - id: neutral_timing_slow
+    status: existing
+    display_zh: 时机缓慢
+    display_en: Timing Slow
+    description_zh: 事情发展缓慢、需要耐心、稳扎稳打
+    description_en: Slow development, patience needed, steady progress
+    category: neutral
+    mappings:
+      bazi: [bazi_muku_zhinian, bazi_tuzhong]
+      astro: [astro_saturn_transit, astro_fixed_strong]
+      tarot: [tarot_hanged_man, tarot_four_of_swords]
+
+  # 转化与成长
+  - id: neutral_transformation_opportunity
+    status: existing
+    display_zh: 转化契机
+    display_en: Transformation Opportunity
+    description_zh: 重大转变、突破契机、深层蜕变
+    description_en: Major transformation, breakthrough opportunity, deep metamorphosis
+    category: neutral
+    mappings:
+      bazi: [bazi_suiyun_binlin, bazi_sanhe_chengjiu]
+      astro: [astro_pluto_conjunction, astro_8h_activated]
+      dream: [dream_archetype_self, dream_symbol_death]
+      tarot: [tarot_death, tarot_judgement]
+
+  - id: neutral_growth_stagnation
+    status: existing
+    display_zh: 成长停滞
+    display_en: Growth Stagnation
+    description_zh: 发展受阻、停滞不前、需要突破
+    description_en: Development blocked, stagnation, breakthrough needed
+    category: neutral
+    mappings:
+      bazi: [bazi_yinxing_taiwang, bazi_bijie_taiqiang]
+      astro: [astro_saturn_return, astro_neptune_square]
+      tarot: [tarot_four_of_cups, tarot_eight_of_swords]
+
+  # 健康与活力
+  - id: neutral_vitality_high
+    status: existing
+    display_zh: 活力充沛
+    display_en: High Vitality
+    description_zh: 精力旺盛、健康良好、生命力强
+    description_en: Energetic, good health, strong vitality
+    category: neutral
+    mappings:
+      bazi: [bazi_rizhhu_deli, bazi_yongshen_youli]
+      astro: [astro_sun_well_aspected, astro_mars_dignified]
+      tarot: [tarot_sun, tarot_strength]
+
+  - id: neutral_vitality_low
+    status: existing
+    display_zh: 活力不足
+    display_en: Low Vitality
+    description_zh: 精力不济、健康隐患、生命力弱
+    description_en: Low energy, health concerns, weak vitality
+    category: neutral
+    mappings:
+      bazi: [bazi_rizhu_shili, bazi_yongshen_beike]
+      astro: [astro_sun_afflicted, astro_6h_malefic]
+      tarot: [tarot_four_of_swords, tarot_moon]

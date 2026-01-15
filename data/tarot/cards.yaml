@@ -1,0 +1,537 @@
+# Tarot Card Data
+# 78 cards: 22 Major Arcana + 56 Minor Arcana
+# Reference: Rider-Waite-Smith Tarot
+
+major_arcana:
+  - number: 0
+    name: "The Fool"
+    name_zh: "愚者"
+    element: "air"
+    keywords:
+      upright: ["new beginnings", "innocence", "spontaneity", "free spirit"]
+      reversed: ["recklessness", "risk-taking", "naivety", "foolishness"]
+
+  - number: 1
+    name: "The Magician"
+    name_zh: "魔术师"
+    element: "air"
+    keywords:
+      upright: ["willpower", "manifestation", "resourcefulness", "skill"]
+      reversed: ["manipulation", "trickery", "untapped talents", "deception"]
+
+  - number: 2
+    name: "The High Priestess"
+    name_zh: "女祭司"
+    element: "water"
+    keywords:
+      upright: ["intuition", "mystery", "inner knowledge", "subconscious"]
+      reversed: ["secrets", "withdrawal", "silence", "hidden agendas"]
+
+  - number: 3
+    name: "The Empress"
+    name_zh: "女皇"
+    element: "earth"
+    keywords:
+      upright: ["fertility", "nurturing", "abundance", "nature"]
+      reversed: ["dependence", "smothering", "emptiness", "creative block"]
+
+  - number: 4
+    name: "The Emperor"
+    name_zh: "皇帝"
+    element: "fire"
+    keywords:
+      upright: ["authority", "structure", "control", "fatherhood"]
+      reversed: ["tyranny", "rigidity", "domination", "inflexibility"]
+
+  - number: 5
+    name: "The Hierophant"
+    name_zh: "教皇"
+    element: "earth"
+    keywords:
+      upright: ["tradition", "conformity", "morality", "spiritual wisdom"]
+      reversed: ["rebellion", "subversiveness", "new approaches", "freedom"]
+
+  - number: 6
+    name: "The Lovers"
+    name_zh: "恋人"
+    element: "air"
+    keywords:
+      upright: ["love", "harmony", "relationships", "choices"]
+      reversed: ["disharmony", "imbalance", "misalignment", "bad choices"]
+
+  - number: 7
+    name: "The Chariot"
+    name_zh: "战车"
+    element: "water"
+    keywords:
+      upright: ["determination", "willpower", "success", "control"]
+      reversed: ["lack of direction", "aggression", "obstacles", "defeat"]
+
+  - number: 8
+    name: "Strength"
+    name_zh: "力量"
+    element: "fire"
+    keywords:
+      upright: ["courage", "patience", "compassion", "inner strength"]
+      reversed: ["self-doubt", "weakness", "insecurity", "raw emotion"]
+
+  - number: 9
+    name: "The Hermit"
+    name_zh: "隐士"
+    element: "earth"
+    keywords:
+      upright: ["introspection", "solitude", "guidance", "inner wisdom"]
+      reversed: ["isolation", "loneliness", "withdrawal", "lost"]
+
+  - number: 10
+    name: "Wheel of Fortune"
+    name_zh: "命运之轮"
+    element: "fire"
+    keywords:
+      upright: ["change", "cycles", "fate", "turning point"]
+      reversed: ["bad luck", "resistance to change", "breaking cycles"]
+
+  - number: 11
+    name: "Justice"
+    name_zh: "正义"
+    element: "air"
+    keywords:
+      upright: ["fairness", "truth", "law", "cause and effect"]
+      reversed: ["unfairness", "dishonesty", "lack of accountability"]
+
+  - number: 12
+    name: "The Hanged Man"
+    name_zh: "倒吊人"
+    element: "water"
+    keywords:
+      upright: ["pause", "surrender", "new perspective", "sacrifice"]
+      reversed: ["stalling", "resistance", "indecision", "delays"]
+
+  - number: 13
+    name: "Death"
+    name_zh: "死神"
+    element: "water"
+    keywords:
+      upright: ["endings", "transformation", "transition", "change"]
+      reversed: ["resistance to change", "stagnation", "decay", "fear"]
+
+  - number: 14
+    name: "Temperance"
+    name_zh: "节制"
+    element: "fire"
+    keywords:
+      upright: ["balance", "moderation", "patience", "purpose"]
+      reversed: ["imbalance", "excess", "lack of long-term vision"]
+
+  - number: 15
+    name: "The Devil"
+    name_zh: "恶魔"
+    element: "earth"
+    keywords:
+      upright: ["bondage", "materialism", "addiction", "shadow self"]
+      reversed: ["release", "freedom", "detachment", "breaking free"]
+
+  - number: 16
+    name: "The Tower"
+    name_zh: "塔"
+    element: "fire"
+    keywords:
+      upright: ["sudden change", "upheaval", "revelation", "awakening"]
+      reversed: ["avoidance", "fear of change", "delayed disaster"]
+
+  - number: 17
+    name: "The Star"
+    name_zh: "星星"
+    element: "air"
+    keywords:
+      upright: ["hope", "faith", "renewal", "inspiration"]
+      reversed: ["despair", "disconnection", "lack of faith", "discouragement"]
+
+  - number: 18
+    name: "The Moon"
+    name_zh: "月亮"
+    element: "water"
+    keywords:
+      upright: ["illusion", "intuition", "uncertainty", "subconscious"]
+      reversed: ["confusion", "fear", "misinterpretation", "clarity"]
+
+  - number: 19
+    name: "The Sun"
+    name_zh: "太阳"
+    element: "fire"
+    keywords:
+      upright: ["joy", "success", "vitality", "positivity"]
+      reversed: ["negativity", "depression", "sadness", "unrealistic expectations"]
+
+  - number: 20
+    name: "Judgement"
+    name_zh: "审判"
+    element: "fire"
+    keywords:
+      upright: ["reflection", "reckoning", "awakening", "rebirth"]
+      reversed: ["self-doubt", "refusal to learn", "self-loathing"]
+
+  - number: 21
+    name: "The World"
+    name_zh: "世界"
+    element: "earth"
+    keywords:
+      upright: ["completion", "achievement", "travel", "fulfillment"]
+      reversed: ["incompletion", "shortcuts", "delays", "emptiness"]
+
+minor_arcana:
+  wands:
+    element: "fire"
+    theme: "creativity, passion, action"
+    cards:
+      - rank: "Ace"
+        name: "Ace of Wands"
+        name_zh: "权杖王牌"
+        keywords:
+          upright: ["inspiration", "new opportunities", "growth", "potential"]
+          reversed: ["delays", "lack of motivation", "missed opportunity"]
+      - rank: 2
+        name: "2 of Wands"
+        name_zh: "权杖2"
+        keywords:
+          upright: ["planning", "decisions", "discovery", "progress"]
+          reversed: ["fear of unknown", "lack of planning", "bad planning"]
+      - rank: 3
+        name: "3 of Wands"
+        name_zh: "权杖3"
+        keywords:
+          upright: ["expansion", "foresight", "overseas opportunities"]
+          reversed: ["obstacles", "delays", "frustration"]
+      - rank: 4
+        name: "4 of Wands"
+        name_zh: "权杖4"
+        keywords:
+          upright: ["celebration", "harmony", "homecoming", "relaxation"]
+          reversed: ["conflict", "transition", "lack of support"]
+      - rank: 5
+        name: "5 of Wands"
+        name_zh: "权杖5"
+        keywords:
+          upright: ["competition", "conflict", "diversity", "disagreement"]
+          reversed: ["avoiding conflict", "respecting differences"]
+      - rank: 6
+        name: "6 of Wands"
+        name_zh: "权杖6"
+        keywords:
+          upright: ["victory", "success", "public recognition", "progress"]
+          reversed: ["excess pride", "lack of recognition", "punishment"]
+      - rank: 7
+        name: "7 of Wands"
+        name_zh: "权杖7"
+        keywords:
+          upright: ["challenge", "competition", "perseverance", "defense"]
+          reversed: ["giving up", "overwhelmed", "exhaustion"]
+      - rank: 8
+        name: "8 of Wands"
+        name_zh: "权杖8"
+        keywords:
+          upright: ["speed", "action", "movement", "quick decisions"]
+          reversed: ["delays", "frustration", "waiting"]
+      - rank: 9
+        name: "9 of Wands"
+        name_zh: "权杖9"
+        keywords:
+          upright: ["resilience", "courage", "persistence", "boundaries"]
+          reversed: ["exhaustion", "giving up", "overwhelmed"]
+      - rank: 10
+        name: "10 of Wands"
+        name_zh: "权杖10"
+        keywords:
+          upright: ["burden", "responsibility", "hard work", "stress"]
+          reversed: ["inability to delegate", "overstressed", "burnt out"]
+      - rank: "Page"
+        name: "Page of Wands"
+        name_zh: "权杖侍从"
+        keywords:
+          upright: ["exploration", "excitement", "freedom", "discovery"]
+          reversed: ["lack of direction", "procrastination", "hasty"]
+      - rank: "Knight"
+        name: "Knight of Wands"
+        name_zh: "权杖骑士"
+        keywords:
+          upright: ["energy", "passion", "adventure", "impulsiveness"]
+          reversed: ["haste", "scattered energy", "delays", "frustration"]
+      - rank: "Queen"
+        name: "Queen of Wands"
+        name_zh: "权杖王后"
+        keywords:
+          upright: ["courage", "confidence", "independence", "warmth"]
+          reversed: ["selfishness", "jealousy", "insecurity", "demanding"]
+      - rank: "King"
+        name: "King of Wands"
+        name_zh: "权杖国王"
+        keywords:
+          upright: ["leadership", "vision", "entrepreneur", "honor"]
+          reversed: ["impulsiveness", "haste", "ruthless", "high expectations"]
+
+  cups:
+    element: "water"
+    theme: "emotions, relationships, intuition"
+    cards:
+      - rank: "Ace"
+        name: "Ace of Cups"
+        name_zh: "圣杯王牌"
+        keywords:
+          upright: ["new love", "compassion", "creativity", "emotional fulfillment"]
+          reversed: ["emotional loss", "blocked creativity", "emptiness"]
+      - rank: 2
+        name: "2 of Cups"
+        name_zh: "圣杯2"
+        keywords:
+          upright: ["partnership", "unity", "love", "mutual attraction"]
+          reversed: ["imbalance", "broken communication", "tension"]
+      - rank: 3
+        name: "3 of Cups"
+        name_zh: "圣杯3"
+        keywords:
+          upright: ["celebration", "friendship", "creativity", "community"]
+          reversed: ["overindulgence", "gossip", "isolation"]
+      - rank: 4
+        name: "4 of Cups"
+        name_zh: "圣杯4"
+        keywords:
+          upright: ["contemplation", "apathy", "reevaluation", "discontent"]
+          reversed: ["awareness", "acceptance", "moving forward"]
+      - rank: 5
+        name: "5 of Cups"
+        name_zh: "圣杯5"
+        keywords:
+          upright: ["loss", "grief", "disappointment", "regret"]
+          reversed: ["acceptance", "moving on", "finding peace"]
+      - rank: 6
+        name: "6 of Cups"
+        name_zh: "圣杯6"
+        keywords:
+          upright: ["nostalgia", "memories", "innocence", "reunion"]
+          reversed: ["stuck in past", "naivety", "unrealistic"]
+      - rank: 7
+        name: "7 of Cups"
+        name_zh: "圣杯7"
+        keywords:
+          upright: ["choices", "fantasy", "illusion", "wishful thinking"]
+          reversed: ["clarity", "making choices", "alignment"]
+      - rank: 8
+        name: "8 of Cups"
+        name_zh: "圣杯8"
+        keywords:
+          upright: ["walking away", "disillusionment", "leaving behind"]
+          reversed: ["fear of change", "stagnation", "avoidance"]
+      - rank: 9
+        name: "9 of Cups"
+        name_zh: "圣杯9"
+        keywords:
+          upright: ["satisfaction", "emotional fulfillment", "wishes granted"]
+          reversed: ["dissatisfaction", "greed", "materialism"]
+      - rank: 10
+        name: "10 of Cups"
+        name_zh: "圣杯10"
+        keywords:
+          upright: ["harmony", "happiness", "alignment", "family"]
+          reversed: ["broken family", "disharmony", "misalignment"]
+      - rank: "Page"
+        name: "Page of Cups"
+        name_zh: "圣杯侍从"
+        keywords:
+          upright: ["creativity", "intuition", "curiosity", "possibility"]
+          reversed: ["emotional immaturity", "insecurity", "escapism"]
+      - rank: "Knight"
+        name: "Knight of Cups"
+        name_zh: "圣杯骑士"
+        keywords:
+          upright: ["romance", "charm", "imagination", "beauty"]
+          reversed: ["moodiness", "disappointment", "unrealistic"]
+      - rank: "Queen"
+        name: "Queen of Cups"
+        name_zh: "圣杯王后"
+        keywords:
+          upright: ["compassion", "calm", "comfort", "intuition"]
+          reversed: ["insecurity", "giving too much", "dependence"]
+      - rank: "King"
+        name: "King of Cups"
+        name_zh: "圣杯国王"
+        keywords:
+          upright: ["emotional balance", "diplomacy", "compassion"]
+          reversed: ["moodiness", "manipulation", "volatility"]
+
+  swords:
+    element: "air"
+    theme: "intellect, conflict, truth"
+    cards:
+      - rank: "Ace"
+        name: "Ace of Swords"
+        name_zh: "宝剑王牌"
+        keywords:
+          upright: ["clarity", "breakthrough", "new ideas", "truth"]
+          reversed: ["confusion", "chaos", "lack of clarity"]
+      - rank: 2
+        name: "2 of Swords"
+        name_zh: "宝剑2"
+        keywords:
+          upright: ["difficult decisions", "stalemate", "avoidance"]
+          reversed: ["indecision", "confusion", "information overload"]
+      - rank: 3
+        name: "3 of Swords"
+        name_zh: "宝剑3"
+        keywords:
+          upright: ["heartbreak", "grief", "sorrow", "painful truth"]
+          reversed: ["recovery", "forgiveness", "moving on"]
+      - rank: 4
+        name: "4 of Swords"
+        name_zh: "宝剑4"
+        keywords:
+          upright: ["rest", "relaxation", "meditation", "contemplation"]
+          reversed: ["restlessness", "burnout", "stagnation"]
+      - rank: 5
+        name: "5 of Swords"
+        name_zh: "宝剑5"
+        keywords:
+          upright: ["conflict", "defeat", "winning at all costs"]
+          reversed: ["reconciliation", "making amends", "past resentment"]
+      - rank: 6
+        name: "6 of Swords"
+        name_zh: "宝剑6"
+        keywords:
+          upright: ["transition", "moving on", "leaving behind"]
+          reversed: ["resistance to change", "unfinished business"]
+      - rank: 7
+        name: "7 of Swords"
+        name_zh: "宝剑7"
+        keywords:
+          upright: ["deception", "strategy", "resourcefulness"]
+          reversed: ["confession", "conscience", "coming clean"]
+      - rank: 8
+        name: "8 of Swords"
+        name_zh: "宝剑8"
+        keywords:
+          upright: ["restriction", "imprisonment", "self-victimization"]
+          reversed: ["freedom", "release", "taking control"]
+      - rank: 9
+        name: "9 of Swords"
+        name_zh: "宝剑9"
+        keywords:
+          upright: ["anxiety", "worry", "fear", "nightmares"]
+          reversed: ["hope", "reaching out", "recovery"]
+      - rank: 10
+        name: "10 of Swords"
+        name_zh: "宝剑10"
+        keywords:
+          upright: ["painful ending", "betrayal", "loss", "crisis"]
+          reversed: ["recovery", "regeneration", "resisting end"]
+      - rank: "Page"
+        name: "Page of Swords"
+        name_zh: "宝剑侍从"
+        keywords:
+          upright: ["curiosity", "restlessness", "mental energy"]
+          reversed: ["deception", "manipulation", "all talk"]
+      - rank: "Knight"
+        name: "Knight of Swords"
+        name_zh: "宝剑骑士"
+        keywords:
+          upright: ["ambition", "action", "drive", "determination"]
+          reversed: ["impatience", "impulsiveness", "burnout"]
+      - rank: "Queen"
+        name: "Queen of Swords"
+        name_zh: "宝剑王后"
+        keywords:
+          upright: ["independence", "unbiased judgment", "clear boundaries"]
+          reversed: ["cold-hearted", "cruel", "bitterness"]
+      - rank: "King"
+        name: "King of Swords"
+        name_zh: "宝剑国王"
+        keywords:
+          upright: ["mental clarity", "intellectual power", "authority"]
+          reversed: ["manipulation", "cruelty", "abuse of power"]
+
+  pentacles:
+    element: "earth"
+    theme: "material world, finances, career"
+    cards:
+      - rank: "Ace"
+        name: "Ace of Pentacles"
+        name_zh: "钱币王牌"
+        keywords:
+          upright: ["new opportunity", "prosperity", "abundance"]
+          reversed: ["lost opportunity", "lack of planning", "scarcity"]
+      - rank: 2
+        name: "2 of Pentacles"
+        name_zh: "钱币2"
+        keywords:
+          upright: ["balance", "adaptability", "time management"]
+          reversed: ["imbalance", "disorganization", "overwhelmed"]
+      - rank: 3
+        name: "3 of Pentacles"
+        name_zh: "钱币3"
+        keywords:
+          upright: ["teamwork", "collaboration", "learning", "implementation"]
+          reversed: ["disharmony", "misalignment", "working alone"]
+      - rank: 4
+        name: "4 of Pentacles"
+        name_zh: "钱币4"
+        keywords:
+          upright: ["security", "conservation", "frugality", "control"]
+          reversed: ["greed", "materialism", "self-protection"]
+      - rank: 5
+        name: "5 of Pentacles"
+        name_zh: "钱币5"
+        keywords:
+          upright: ["financial loss", "poverty", "isolation", "worry"]
+          reversed: ["recovery", "charity", "improvement"]
+      - rank: 6
+        name: "6 of Pentacles"
+        name_zh: "钱币6"
+        keywords:
+          upright: ["generosity", "charity", "giving", "receiving"]
+          reversed: ["debt", "selfishness", "one-sided charity"]
+      - rank: 7
+        name: "7 of Pentacles"
+        name_zh: "钱币7"
+        keywords:
+          upright: ["patience", "investment", "long-term view"]
+          reversed: ["impatience", "lack of reward", "frustration"]
+      - rank: 8
+        name: "8 of Pentacles"
+        name_zh: "钱币8"
+        keywords:
+          upright: ["apprenticeship", "skill development", "diligence"]
+          reversed: ["perfectionism", "misdirected activity", "lack of focus"]
+      - rank: 9
+        name: "9 of Pentacles"
+        name_zh: "钱币9"
+        keywords:
+          upright: ["abundance", "luxury", "self-sufficiency", "independence"]
+          reversed: ["over-investment", "hustling", "superficiality"]
+      - rank: 10
+        name: "10 of Pentacles"
+        name_zh: "钱币10"
+        keywords:
+          upright: ["wealth", "inheritance", "family", "establishment"]
+          reversed: ["financial failure", "loneliness", "loss"]
+      - rank: "Page"
+        name: "Page of Pentacles"
+        name_zh: "钱币侍从"
+        keywords:
+          upright: ["manifestation", "financial opportunity", "skill development"]
+          reversed: ["lack of progress", "procrastination", "learn from failure"]
+      - rank: "Knight"
+        name: "Knight of Pentacles"
+        name_zh: "钱币骑士"
+        keywords:
+          upright: ["hard work", "productivity", "routine", "conservatism"]
+          reversed: ["self-discipline", "boredom", "perfectionism"]
+      - rank: "Queen"
+        name: "Queen of Pentacles"
+        name_zh: "钱币王后"
+        keywords:
+          upright: ["nurturing", "practical", "providing", "security"]
+          reversed: ["financial independence", "self-care", "work-home conflict"]
+      - rank: "King"
+        name: "King of Pentacles"
+        name_zh: "钱币国王"
+        keywords:
+          upright: ["abundance", "prosperity", "security", "ambition"]
+          reversed: ["greed", "materialism", "indulgence"]

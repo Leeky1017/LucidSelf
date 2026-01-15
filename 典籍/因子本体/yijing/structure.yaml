@@ -1,0 +1,158 @@
+# 周易体系 - 结构类因子
+# Structure factors for YiJing system
+
+factors:
+  # 八卦
+  - id: yijing_trigram_qian
+    status: existing
+    display_zh: 乾卦
+    display_en: Qian Trigram
+    aliases_zh: [乾, 天]
+    aliases_en: [Heaven, Creative]
+    description_zh: 纯阳卦，代表天、刚健、父亲
+    description_en: Pure yang trigram, represents heaven, strength, father
+    category: structure
+    value_type: reference
+    applicable_systems: [yijing]
+
+  - id: yijing_trigram_kun
+    status: existing
+    display_zh: 坤卦
+    display_en: Kun Trigram
+    aliases_zh: [坤, 地]
+    aliases_en: [Earth, Receptive]
+    description_zh: 纯阴卦，代表地、柔顺、母亲
+    description_en: Pure yin trigram, represents earth, receptivity, mother
+    category: structure
+    value_type: reference
+    applicable_systems: [yijing]
+
+  - id: yijing_trigram_zhen
+    status: existing
+    display_zh: 震卦
+    display_en: Zhen Trigram
+    aliases_zh: [震, 雷]
+    aliases_en: [Thunder, Arousing]
+    description_zh: 代表雷、动、长子
+    description_en: Represents thunder, movement, eldest son
+    category: structure
+    value_type: reference
+    applicable_systems: [yijing]
+
+  - id: yijing_trigram_xun
+    status: existing
+    display_zh: 巽卦
+    display_en: Xun Trigram
+    aliases_zh: [巽, 风]
+    aliases_en: [Wind, Gentle]
+    description_zh: 代表风、入、长女
+    description_en: Represents wind, penetration, eldest daughter
+    category: structure
+    value_type: reference
+    applicable_systems: [yijing]
+
+  - id: yijing_trigram_kan
+    status: existing
+    display_zh: 坎卦
+    display_en: Kan Trigram
+    aliases_zh: [坎, 水]
+    aliases_en: [Water, Abysmal]
+    description_zh: 代表水、险、中子
+    description_en: Represents water, danger, middle son
+    category: structure
+    value_type: reference
+    applicable_systems: [yijing]
+
+  - id: yijing_trigram_li
+    status: existing
+    display_zh: 离卦
+    display_en: Li Trigram
+    aliases_zh: [离, 火]
+    aliases_en: [Fire, Clinging]
+    description_zh: 代表火、明、中女
+    description_en: Represents fire, clarity, middle daughter
+    category: structure
+    value_type: reference
+    applicable_systems: [yijing]
+
+  - id: yijing_trigram_gen
+    status: existing
+    display_zh: 艮卦
+    display_en: Gen Trigram
+    aliases_zh: [艮, 山]
+    aliases_en: [Mountain, Keeping Still]
+    description_zh: 代表山、止、少子
+    description_en: Represents mountain, stillness, youngest son
+    category: structure
+    value_type: reference
+    applicable_systems: [yijing]
+
+  - id: yijing_trigram_dui
+    status: existing
+    display_zh: 兑卦
+    display_en: Dui Trigram
+    aliases_zh: [兑, 泽]
+    aliases_en: [Lake, Joyous]
+    description_zh: 代表泽、悦、少女
+    description_en: Represents lake, joy, youngest daughter
+    category: structure
+    value_type: reference
+    applicable_systems: [yijing]
+
+  # 六十四卦（基础）
+  - id: yijing_hexagram
+    status: existing
+    display_zh: 卦象
+    display_en: Hexagram
+    description_zh: 六十四卦中的一卦
+    description_en: One of the 64 hexagrams
+    category: structure
+    value_type: reference
+    applicable_systems: [yijing]
+
+  - id: yijing_upper_trigram
+    status: existing
+    display_zh: 上卦
+    display_en: Upper Trigram
+    aliases_zh: [外卦]
+    aliases_en: [Outer Trigram]
+    description_zh: 重卦的上三爻
+    description_en: Upper three lines of hexagram
+    category: structure
+    value_type: reference
+    applicable_systems: [yijing]
+
+  - id: yijing_lower_trigram
+    status: existing
+    display_zh: 下卦
+    display_en: Lower Trigram
+    aliases_zh: [内卦]
+    aliases_en: [Inner Trigram]
+    description_zh: 重卦的下三爻
+    description_en: Lower three lines of hexagram
+    category: structure
+    value_type: reference
+    applicable_systems: [yijing]
+
+  # 爻位
+  - id: yijing_yao_position
+    status: existing
+    display_zh: 爻位
+    display_en: Line Position
+    description_zh: 六爻中的位置（初至上）
+    description_en: Position in six lines (first to top)
+    category: structure
+    value_type: enum
+    value_range: [初, 二, 三, 四, 五, 上]
+    applicable_systems: [yijing]
+
+  - id: yijing_yao_type
+    status: existing
+    display_zh: 爻性
+    display_en: Line Type
+    description_zh: 阴爻或阳爻
+    description_en: Yin or yang line
+    category: structure
+    value_type: enum
+    value_range: [阳, 阴]
+    applicable_systems: [yijing]

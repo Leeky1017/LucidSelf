@@ -1,0 +1,79 @@
+{
+  "contract_id": "abuse-and-rate-limits",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["user_id", "org_id", "engine_id", "version_id"],
+  "entities": [
+    {
+      "name": "RateLimitPolicy",
+      "description": "限流策略（最小字段集合）",
+      "fields": [
+        { "name": "policy_id", "type": "string", "required": true, "notes": "策略标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "策略版本标识（用于可复现与可审计）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "适用引擎标识" },
+        { "name": "scope", "type": "string", "required": true, "notes": "user/org/ip 等（枚举在规格层固定）" },
+        { "name": "limit", "type": "number", "required": true, "notes": "额度阈值（>=0）" },
+        { "name": "window", "type": "string", "required": true, "notes": "时间窗口（5s/1m/1h 等，若适用）" },
+        { "name": "action", "type": "string", "required": true, "notes": "throttle/challenge/ban/degrade 等（枚举在规格层固定）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "AbuseSignalEvidence",
+      "description": "滥用信号证据（最小字段集合）",
+      "fields": [
+        { "name": "evidence_id", "type": "string", "required": true, "notes": "证据标识（唯一）" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "org_id", "type": "string", "required": true, "notes": "组织/租户标识（隔离边界）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "检测口径版本标识" },
+        { "name": "signal_type", "type": "string", "required": true, "notes": "信号类型（枚举在规格层固定）" },
+        { "name": "score", "type": "number", "required": false, "notes": "风险分数（若适用）" },
+        { "name": "chain_id", "type": "string", "required": false, "notes": "关联证据链（若适用；对齐 citations-evidence-protocol 的 EvidenceChain.chain_id）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "EnforcementActionRecord",
+      "description": "封禁/挑战/降级动作记录（最小字段集合）",
+      "fields": [
+        { "name": "action_id", "type": "string", "required": true, "notes": "动作标识（唯一）" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "org_id", "type": "string", "required": true, "notes": "组织/租户标识（隔离边界）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "执行策略版本标识" },
+        { "name": "action_type", "type": "string", "required": true, "notes": "BAN/CHALLENGE/DEGRADE/THROTTLE（枚举在规格层固定）" },
+        { "name": "result", "type": "string", "required": true, "notes": "ALLOW/DENY/BLOCK（枚举在规格层固定）" },
+        { "name": "rejection_reason_code", "type": "string", "required": false, "notes": "拒绝/阻断原因代码（见 rejection_reasons）" },
+        { "name": "expires_at", "type": "string", "required": false, "notes": "过期时间（ISO-8601；若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ReviewRecord",
+      "description": "复核记录（最小字段集合）",
+      "fields": [
+        { "name": "review_id", "type": "string", "required": true, "notes": "复核标识（唯一）" },
+        { "name": "action_id", "type": "string", "required": true, "notes": "关联动作标识" },
+        { "name": "actor_type", "type": "string", "required": true, "notes": "system/user/service（枚举在规格层固定）" },
+        { "name": "actor_id", "type": "string", "required": false, "notes": "操作者标识（必须脱敏/最小化）" },
+        { "name": "decision", "type": "string", "required": true, "notes": "CONFIRM/REVERT（枚举在规格层固定）" },
+        { "name": "notes", "type": "string", "required": false, "notes": "备注（禁止敏感原文）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_USER_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_ORG_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_ENGINE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "POLICY_MISSING", "category": "validation", "retryable": false },
+    { "code": "RATE_LIMIT_EXCEEDED", "category": "gate", "retryable": false },
+    { "code": "ABUSE_DETECTED", "category": "gate", "retryable": false },
+    { "code": "CITATION_NOT_RESOLVABLE", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}

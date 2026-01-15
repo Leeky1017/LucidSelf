@@ -1,0 +1,180 @@
+book_id: learning_the_tarot
+source_file: 典籍/texts/Learning the Tarot/编辑/Tarot_Practice_Method_v2.1.md
+extracted_at: '2025-12-01T02:28:31.690677'
+relations:
+- relation_id: rel_ltt_001
+  relation_type: tarot_evolution
+  factor_a: tarot_origin_italy
+  factor_b: tarot_growth_tool
+  relation_nature: Historical development
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning L1
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371455'
+- relation_id: rel_ltt_002
+  relation_type: psych_archetype_relation
+  factor_a: inner_guide
+  factor_b: archetype
+  relation_nature: Inner Guide uses archetypes
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning L1.2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371512'
+- relation_id: rel_ltt_003
+  relation_type: mechanism
+  factor_a: projection
+  factor_b: synchronicity
+  relation_nature: Dual mechanism
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning L1.2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371517'
+- relation_id: rel_ltt_004
+  relation_type: narrative_sequence
+  factor_a: major_arcana
+  factor_b: fools_journey
+  relation_nature: 22 cards map journey
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371550'
+- relation_id: rel_ltt_005
+  relation_type: psych_archetype_relation
+  factor_a: archetype
+  factor_b: wholeness
+  relation_nature: Archetypes integrated = wholeness
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning L2
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371553'
+- relation_id: rel_ltt_006
+  relation_type: element_correspondence
+  factor_a: suit_wands
+  factor_b: element_fire
+  relation_nature: Wands = Fire
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371589'
+- relation_id: rel_ltt_007
+  relation_type: element_correspondence
+  factor_a: suit_cups
+  factor_b: element_water
+  relation_nature: Cups = Water
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371592'
+- relation_id: rel_ltt_008
+  relation_type: element_correspondence
+  factor_a: suit_swords
+  factor_b: element_air
+  relation_nature: Swords = Air
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371595'
+- relation_id: rel_ltt_009
+  relation_type: element_correspondence
+  factor_a: suit_pentacles
+  factor_b: element_earth
+  relation_nature: Pentacles = Earth
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning L3
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371598'
+- relation_id: rel_ltt_010
+  relation_type: card_meaning
+  factor_a: tarot_fool
+  factor_b: new_beginning
+  relation_nature: Fool signals beginnings
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning Fool
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371633'
+- relation_id: rel_ltt_011
+  relation_type: card_opposition
+  factor_a: tarot_fool
+  factor_b: tarot_hierophant
+  relation_nature: Fool vs convention
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning Fool
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371635'
+- relation_id: rel_ltt_012
+  relation_type: card_reinforcement
+  factor_a: tarot_fool
+  factor_b: tarot_star
+  relation_nature: Fool + Star = innocence/trust
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning Fool
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371638'
+- relation_id: rel_ltt_013
+  relation_type: card_opposition
+  factor_a: tarot_magician
+  factor_b: tarot_high_priestess
+  relation_nature: Active vs receptive
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning Magician
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371667'
+- relation_id: rel_ltt_014
+  relation_type: card_reinforcement
+  factor_a: tarot_magician
+  factor_b: tarot_chariot
+  relation_nature: Focus and will
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning Magician
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371669'
+- relation_id: rel_ltt_015
+  relation_type: card_polarity
+  factor_a: tarot_high_priestess
+  factor_b: tarot_magician
+  relation_nature: Feminine/Masculine
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning HP
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371696'
+- relation_id: rel_ltt_016
+  relation_type: card_reinforcement
+  factor_a: tarot_high_priestess
+  factor_b: tarot_hermit
+  relation_nature: Looking inward
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Bunning HP
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.371699'

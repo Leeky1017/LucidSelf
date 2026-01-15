@@ -1,0 +1,80 @@
+# Wealth Scenario Template
+# 财富场景模板配置
+
+scenario_id: scn_wealth
+domain: wealth
+
+keywords:
+  primary: ["财富", "金钱", "投资", "wealth", "money", "investment"]
+  synonyms: ["理财", "股票", "基金", "房产", "储蓄", "收入", "资产", "赚钱", "挣钱", "财运", "发财", "破财", "亏损", "盈利"]
+  negative: []
+  weight: 1.0
+
+decision_axes:
+  - axis_id: return_rate
+    label_zh: 收益率
+    label_en: Return Rate
+    description: 预期投资回报率
+    value_type: float
+    default_weight: 1.0
+  
+  - axis_id: risk_level
+    label_zh: 风险等级
+    label_en: Risk Level
+    description: 财务风险程度
+    value_type: float
+    default_weight: 1.0
+  
+  - axis_id: liquidity
+    label_zh: 流动性
+    label_en: Liquidity
+    description: 资金流动性和变现能力
+    value_type: float
+    default_weight: 0.8
+  
+  - axis_id: passive_income
+    label_zh: 被动收入
+    label_en: Passive Income
+    description: 被动收入潜力
+    value_type: float
+    default_weight: 0.9
+  
+  - axis_id: wealth_protection
+    label_zh: 财富保障
+    label_en: Wealth Protection
+    description: 财富保值能力
+    value_type: float
+    default_weight: 0.8
+  
+  - axis_id: growth_sustainability
+    label_zh: 增长持续性
+    label_en: Growth Sustainability
+    description: 财富增长的可持续性
+    value_type: float
+    default_weight: 0.7
+
+factor_include_patterns:
+  - "bazi_*_wealth_*"
+  - "ziwei_wealth_*"
+  - "astro_*_2nd_*"
+  - "astro_*_8th_*"
+
+factor_exclude_patterns:
+  - "*_health_*"
+  - "*_marriage_*"
+
+factor_always_include:
+  - "bazi_day_master"
+  - "astro_sun_sign"
+
+rule_categories:
+  - "wealth"
+  - "fortune"
+  - "guidance"
+
+related_scenarios:
+  - "scn_career"
+
+label_zh: 财富
+label_en: Wealth
+description: 财务规划、投资决策、理财建议等财富相关问题

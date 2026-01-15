@@ -1,0 +1,1282 @@
+book_id: llewellyns_complete_dictionary_of_dreams
+source_file: 典籍/texts/Llewellyns Complete Dictionary of Dreams/编辑/Llewellyn_Dreams_v2.1_Complete.md
+extracted_at: '2025-12-04T15:25:37.704203'
+snippets:
+- snippet_id: ns_llewellyn_001
+  trigger: collective_unconscious
+  factor_trigger: psych_collective_unconscious
+  role: 主干
+  snippet_text: The collective unconscious is the universal symbolic realm connecting
+    all humans, containing archetypal information shared by humanity.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670825'
+- snippet_id: ns_llewellyn_002
+  trigger: same_dreams
+  factor_trigger: dream_symbol_universal
+  role: 主干依赖
+  snippet_text: Lennox observes 'same dreams' worldwide—Swiss businessmen and African
+    natives dream similar themes, though cultural symbols differ.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670853'
+- snippet_id: ns_llewellyn_003
+  trigger: universal_symbols
+  factor_trigger: dream_symbol_universal
+  role: 总结
+  snippet_text: Universal symbols exist because humanity shares biological heritage,
+    developmental stages, emotional patterns, social structures.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670865'
+- snippet_id: ns_llewellyn_053
+  trigger: archetypal_patterns
+  factor_trigger: psych_archetype_base
+  role: 主干
+  snippet_text: Archetypal patterns are inherited not learned, forming the foundation
+    of universal symbols appearing across all cultures.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670875'
+- snippet_id: ns_llewellyn_054
+  trigger: personal_vs_collective
+  factor_trigger: psych_personal_collective
+  role: 条件分支
+  snippet_text: Personal unconscious contains individual memories, while collective
+    unconscious contains archetypal information shared by humanity.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670884'
+- snippet_id: ns_llewellyn_055
+  trigger: cross_cultural_validation
+  factor_trigger: dream_symbol_universal
+  role: 总结
+  snippet_text: 'Cross-cultural validation: same dreams worldwide validates universal
+    symbols—Swiss businessmen and African natives share themes despite cultural differences.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670893'
+- snippet_id: ns_llewellyn_004
+  trigger: character_aspects
+  factor_trigger: dream_character_aspects
+  role: 主干
+  snippet_text: Every person in dreams represents an aspect of your personality—a
+    character aspect, not literal others but self-parts externalized.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670915'
+- snippet_id: ns_llewellyn_005
+  trigger: 3_adjective
+  factor_trigger: dream_3adj_method
+  role: 主干依赖
+  snippet_text: '3-adjective technique: assign 3 spontaneous adjectives to dream person,
+    then apply to self to reveal your aspect.'
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670923'
+- snippet_id: ns_llewellyn_006
+  trigger: no_one_doing
+  factor_trigger: dream_character_aspect
+  role: 总结
+  snippet_text: 'Empowering insight: No one is ''doing something to you''—all parts
+    of yourself in dialogue.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670931'
+- snippet_id: ns_llewellyn_056
+  trigger: fractured_personality
+  factor_trigger: psych_inner_dialogue
+  role: 主干
+  snippet_text: All dream characters are fractured parts of total Self, projected
+    outward for examination—inner critic, rebel, nurturer, shadow.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670938'
+- snippet_id: ns_llewellyn_057
+  trigger: total_self
+  factor_trigger: total_self
+  role: 主干依赖
+  snippet_text: Dream figures represent fractured personality seeking integration
+    into total Self—wholeness through acknowledgment of all parts.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670947'
+- snippet_id: ns_llewellyn_058
+  trigger: personality_trait
+  factor_trigger: personality_trait
+  role: 条件分支
+  snippet_text: 3 spontaneous adjectives assigned to dream person describe a personality
+    trait within yourself—harsh, demanding = your inner critic.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670955'
+- snippet_id: ns_llewellyn_059
+  trigger: personality_aspect
+  factor_trigger: personality_aspect
+  role: 条件分支
+  snippet_text: Every personality aspect appears as dream character—the parts of self
+    we reject, embrace, or ignore manifest as dream figures.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670963'
+- snippet_id: ns_llewellyn_007
+  trigger: shadow_definition
+  factor_trigger: psych_archetype_shadow
+  role: 主干
+  snippet_text: Shadow contains dark, rejected, socially unacceptable aspects relegated
+    to unconscious—qualities incompatible with self-image.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670980'
+- snippet_id: ns_llewellyn_008
+  trigger: nightmare_invitation
+  factor_trigger: dream_nightmare_function
+  role: 主干依赖
+  snippet_text: Nightmares and dark dreams are shadow calling for integration—invitation
+    to growth, not punishment.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670988'
+- snippet_id: ns_llewellyn_009
+  trigger: unlived_potential
+  factor_trigger: psych_unlived_potential
+  role: 总结
+  snippet_text: 'Paradox: Shadow contains not only ''negative'' but unlived positive
+    potential—creativity, power, passion suppressed alongside rage.'
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.670997'
+- snippet_id: ns_llewellyn_060
+  trigger: shadow_invitation
+  factor_trigger: dream_nightmare_function
+  role: 主干
+  snippet_text: Dark dangerous dreams signal shadow's invitation for integration—not
+    punishment but call to acknowledge rejected aspects.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671005'
+- snippet_id: ns_llewellyn_061
+  trigger: rejected_aspects
+  factor_trigger: rejected_aspects
+  role: 条件分支
+  snippet_text: 'Shadow contains rejected aspects: murderous rage, shame, forbidden
+    desires—qualities pushed into unconscious as incompatible with self-image.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671014'
+- snippet_id: ns_llewellyn_062
+  trigger: shadow_factor
+  factor_trigger: shadow
+  role: 主干
+  snippet_text: Shadow is not evil but unintegrated—demands acknowledgment for wholeness;
+    paradoxically contains both negative and positive potential.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671022'
+- snippet_id: ns_llewellyn_063
+  trigger: shadow_avoidance
+  factor_trigger: shadow_avoidance
+  role: 条件分支
+  snippet_text: Shadow avoidance prolongs suffering—the rejected aspects grow stronger
+    when ignored, manifesting as nightmares demanding attention.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671030'
+- snippet_id: ns_llewellyn_019
+  trigger: doing_being
+  factor_trigger: psych_masculine_principle
+  role: 主干
+  snippet_text: Masculine and feminine principles are behavioral modalities, not gender.
+    Masculine = doing, action, decisiveness. Feminine = being, creativity, receptivity.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671046'
+- snippet_id: ns_llewellyn_020
+  trigger: balance_wholeness
+  factor_trigger: psych_feminine_principle
+  role: 总结
+  snippet_text: Wholeness requires balanced expression—over-masculine = burnout, over-feminine
+    = passivity.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671054'
+- snippet_id: ns_llewellyn_064
+  trigger: doing_modality
+  factor_trigger: psych_masculine_principle
+  role: 主干依赖
+  snippet_text: 'Masculine doing modality: action, decisiveness, linear thinking,
+    goal-orientation, Yang energy expressing through conscious will.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671062'
+- snippet_id: ns_llewellyn_065
+  trigger: being_modality
+  factor_trigger: psych_feminine_principle
+  role: 主干依赖
+  snippet_text: 'Feminine being modality: creativity, receptivity, circular thinking,
+    process-orientation, Yin energy expressing through allowing.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671070'
+- snippet_id: ns_llewellyn_066
+  trigger: animus_anima_yin_yang
+  factor_trigger: psych_archetype_animusanima
+  role: 条件分支
+  snippet_text: Jung's animus/anima parallels Eastern yin-yang—contra-gender aspects
+    requiring integration for wholeness regardless of biological sex.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671077'
+- snippet_id: ns_llewellyn_067
+  trigger: yin_yang_parallel
+  factor_trigger: psych_dynamic_balance
+  role: 条件分支
+  snippet_text: 'Yin-yang principle: both masculine (yang) and feminine (yin) exist
+    in all people—wholeness through dynamic balance not domination.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671085'
+- snippet_id: ns_llewellyn_021
+  trigger: key_archetypes
+  factor_trigger: psych_archetype_warrior
+  role: 主干
+  snippet_text: 'Key archetypes: Warrior (power/defense), Nurturer (love/care), Trickster
+    (chaos/transformation), Wise One (knowledge/guidance), Hero (quest/triumph).'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671101'
+- snippet_id: ns_llewellyn_022
+  trigger: archetype_activation
+  factor_trigger: dream_archetype_activation
+  role: 总结
+  snippet_text: Dreaming of archetypal figure activates that principle in psyche for
+    current life needs.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671109'
+- snippet_id: ns_llewellyn_068
+  trigger: archetype_nurturer
+  factor_trigger: psych_archetype_nurturer
+  role: 主干依赖
+  snippet_text: 'Nurturer archetype: love, care, compassion—activated when psyche
+    needs nurturing energy; pre-existing template for caregiving.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671117'
+- snippet_id: ns_llewellyn_069
+  trigger: archetype_trickster
+  factor_trigger: psych_archetype_trickster
+  role: 条件分支
+  snippet_text: 'Trickster archetype: chaos, transformation, disruption—activated
+    when psyche needs change; breaks patterns to enable renewal.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671124'
+- snippet_id: ns_llewellyn_070
+  trigger: power_defense
+  factor_trigger: psych_archetype_warrior
+  role: 主干依赖
+  snippet_text: Warrior embodies power and defense—protection, strength, combat energy
+    activated in contexts requiring assertive action.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671132'
+- snippet_id: ns_llewellyn_071
+  trigger: love_care
+  factor_trigger: psych_archetype_nurturer
+  role: 主干依赖
+  snippet_text: Nurturer embodies love and care—compassion, support, nurturing energy
+    activated in contexts requiring caregiving.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671140'
+- snippet_id: ns_llewellyn_072
+  trigger: chaos_transformation
+  factor_trigger: psych_archetype_trickster
+  role: 条件分支
+  snippet_text: Trickster embodies chaos and transformation—disruption, change, renewal
+    energy activated when patterns need breaking.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671147'
+- snippet_id: ns_llewellyn_073
+  trigger: archetypal_figure
+  factor_trigger: psych_archetype_base
+  role: 主干
+  snippet_text: Archetypal figures in dreams are universal energy patterns appearing
+    when psyche needs that principle for current life.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671154'
+- snippet_id: ns_llewellyn_023
+  trigger: universal_first
+  factor_trigger: dream_universal_meaning
+  role: 主干
+  snippet_text: Interpret symbol's universal meaning based on inherent function/essence/purpose
+    first, then personalize.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671170'
+- snippet_id: ns_llewellyn_024
+  trigger: two_step
+  factor_trigger: dream_univ_personal_seq
+  role: 总结
+  snippet_text: 'Two-step process: (1) Identify universal baseline (2) Add personal
+    associations. Universal = foundation; personal = elaboration.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671178'
+- snippet_id: ns_llewellyn_074
+  trigger: inherent_function
+  factor_trigger: dream_symbol_function
+  role: 主干
+  snippet_text: 'Inherent function: physical/biological role generates symbolic meaning
+    (abdomen = digestion yields emotions, gut feelings).'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671186'
+- snippet_id: ns_llewellyn_075
+  trigger: personal_association
+  factor_trigger: dream_univ_personal_seq
+  role: 条件分支
+  snippet_text: Personal associations layer on universal baseline—"Ocean = freedom
+    in my childhood" adds nuance without replacing universal foundation.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671193'
+- snippet_id: ns_llewellyn_076
+  trigger: objective_grounding
+  factor_trigger: dream_universal_meaning
+  role: 总结
+  snippet_text: 'Objective grounding: universal layer prevents purely subjective interpretation,
+    making dream dictionaries valuable for reliable baselines.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671203'
+- snippet_id: ns_llewellyn_025
+  trigger: inner_circle
+  factor_trigger: dream_inner_circle
+  role: 主干
+  snippet_text: Lennox's method works only from the perspective of self-reflection—all
+    dream elements as aspects of dreamer's consciousness.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671221'
+- snippet_id: ns_llewellyn_026
+  trigger: self_aspect_exploration
+  factor_trigger: dream_inner_circle
+  role: 主干依赖
+  snippet_text: 'Dream about difficult spouse = not spouse analysis but self-aspect
+    exploration: "What does this represent in my psyche?"'
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671229'
+- snippet_id: ns_llewellyn_027
+  trigger: empowering_principle
+  factor_trigger: psych_empowerment_focus
+  role: 总结
+  snippet_text: Inner circle keeps interpretation empowering—focused on what dreamer
+    can change (self)—rather than projecting responsibility outward.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671237'
+- snippet_id: ns_llewellyn_077
+  trigger: dream_element
+  factor_trigger: psych_projection_withdrawal
+  role: 主干
+  snippet_text: All dream elements (people, objects, settings) are aspects of dreamer's
+    consciousness—externalized for examination.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671244'
+- snippet_id: ns_llewellyn_013
+  trigger: abandonment_fear
+  factor_trigger: dream_symbol_abandonment
+  role: 主干
+  snippet_text: Abandonment dreams reflect fears around self-worth—primitive fear
+    rooted in infancy.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671259'
+- snippet_id: ns_llewellyn_014
+  trigger: who_abandons
+  factor_trigger: dream_character_aspect
+  role: 总结
+  snippet_text: Pay attention to WHO abandons—this reveals which self-aspect is withdrawing
+    support.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671265'
+- snippet_id: ns_llewellyn_078
+  trigger: self_worth_fear
+  factor_trigger: dream_symbol_abandonment
+  role: 主干
+  snippet_text: Abandonment reflects self-worth fears—primitive anxiety rooted in
+    infant dependency where being alone equals death.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671272'
+- snippet_id: ns_llewellyn_079
+  trigger: infant_dependency
+  factor_trigger: psych_support_withdrawal
+  role: 条件分支
+  snippet_text: 'Infant dependency: being left alone = death for infant; adult abandonment
+    fears rooted in this primitive survival anxiety.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671279'
+- snippet_id: ns_llewellyn_080
+  trigger: adult_fear
+  factor_trigger: dream_symbol_abandonment
+  role: 条件分支
+  snippet_text: Adult abandonment fear manifests primitive infant dependency—processed
+    through dreams preparing psyche for waking life.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671287'
+- snippet_id: ns_llewellyn_081
+  trigger: support_deficit
+  factor_trigger: psych_support_withdrawal
+  role: 总结
+  snippet_text: 'Support deficit: when self-aspect withdraws (nurturance, love, acceptance),
+    abandonment dreams reveal which internal support is lacking.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671294'
+- snippet_id: ns_llewellyn_015
+  trigger: abdomen_intuition
+  factor_trigger: dream_symbol_abdomen
+  role: 主干
+  snippet_text: Abdomen associated with emotions and gut feelings—dream featuring
+    abdomen indicates issue with trusting instincts.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671308'
+- snippet_id: ns_llewellyn_016
+  trigger: compromised_abdomen
+  factor_trigger: psych_gut_feelings
+  role: 总结
+  snippet_text: Compromised abdomen (pain, injury) = repressing gut feelings, not
+    trusting intuition.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671315'
+- snippet_id: ns_llewellyn_082
+  trigger: emotions_gut
+  factor_trigger: psych_gut_feelings
+  role: 主干
+  snippet_text: Abdomen is the body location for emotions and gut feelings—physical
+    site of visceral knowing and instinctive responses.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671322'
+- snippet_id: ns_llewellyn_083
+  trigger: repressed_intuition
+  factor_trigger: psych_gut_feelings
+  role: 条件分支
+  snippet_text: Compromised abdomen represents repressed intuition—pain, injury, disease
+    signals not trusting gut feelings.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671329'
+- snippet_id: ns_llewellyn_084
+  trigger: self_nourishment
+  factor_trigger: psych_self_nourishment
+  role: 总结
+  snippet_text: 'Self-nourishment theme: how well is life feeding you? Healthy abdomen
+    = good self-care; damaged = poor self-nourishment.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671336'
+- snippet_id: ns_llewellyn_085
+  trigger: healthy_abdomen
+  factor_trigger: dream_symbol_abdomen
+  role: 条件分支
+  snippet_text: Healthy abdomen indicates good self-nourishment and care—trusting
+    instincts, proper emotional processing.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671343'
+- snippet_id: ns_llewellyn_086
+  trigger: self_neglect
+  factor_trigger: psych_self_nourishment
+  role: 例外处理
+  snippet_text: Self-neglect shown through damaged abdomen—poor self-care, not nourishing
+    oneself properly, ignoring gut feelings.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671350'
+- snippet_id: ns_llewellyn_017
+  trigger: abortion_symbolic
+  factor_trigger: dream_symbol_abortion
+  role: 主干
+  snippet_text: Fetus = idea/project in gestation. Abortion = choice to eliminate
+    that possibility.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671363'
+- snippet_id: ns_llewellyn_018
+  trigger: responsibility_theme
+  factor_trigger: dream_symbolic_pregnancy
+  role: 总结
+  snippet_text: Choosing to eliminate an action course you're not prepared to take
+    responsibility for.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671370'
+- snippet_id: ns_llewellyn_087
+  trigger: fetus_symbol
+  factor_trigger: dream_symbolic_pregnancy
+  role: 主干
+  snippet_text: Fetus as symbol for idea or project in gestation phase—nascent potential
+    not yet fully developed.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671377'
+- snippet_id: ns_llewellyn_088
+  trigger: nascent_potential
+  factor_trigger: dream_symbolic_pregnancy
+  role: 主干依赖
+  snippet_text: 'Nascent potential: new idea, creative project, or life direction
+    in early gestation phase before actualization.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671384'
+- snippet_id: ns_llewellyn_089
+  trigger: termination_choice
+  factor_trigger: dream_symbol_abortion
+  role: 条件分支
+  snippet_text: 'Termination choice: conscious decision to eliminate action course
+    or creative project not prepared to take responsibility for.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671392'
+- snippet_id: ns_llewellyn_090
+  trigger: readiness_assessment
+  factor_trigger: psych_readiness_assess
+  role: 总结
+  snippet_text: 'Readiness assessment: abortion dreams reveal evaluation of capacity—am
+    I prepared for the responsibility this potential requires?'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671399'
+- snippet_id: ns_llewellyn_131
+  trigger: water_emotions
+  factor_trigger: dream_symbol_water
+  role: 主干
+  snippet_text: Water universally represents emotions and the unconscious—clarity
+    reflects emotional state (clear=clarity, murky=confusion).
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671413'
+- snippet_id: ns_llewellyn_132
+  trigger: water_depth
+  factor_trigger: dream_water_depth
+  role: 主干依赖
+  snippet_text: 'Depth matters: surface water = conscious emotions, deep water = unconscious
+    depths.'
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671420'
+- snippet_id: ns_llewellyn_133
+  trigger: water_variations
+  factor_trigger: dream_water_variations
+  role: 总结
+  snippet_text: Ocean = vast unconscious; River = life flow; Rain = emotional cleansing;
+    Flood = overwhelming emotions, loss of control.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671427'
+- snippet_id: ns_llewellyn_091
+  trigger: emotions_unconscious
+  factor_trigger: dream_symbol_water
+  role: 主干
+  snippet_text: Water universally represents emotions and the unconscious—the emotional
+    realm beneath conscious awareness.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671435'
+- snippet_id: ns_llewellyn_092
+  trigger: water_clarity
+  factor_trigger: dream_water_clarity
+  role: 条件分支
+  snippet_text: 'Water clarity reflects emotional state: clear water = emotional clarity
+    and understanding; murky water = confusion and uncertainty.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671442'
+- snippet_id: ns_llewellyn_093
+  trigger: specific_meanings
+  factor_trigger: dream_water_variations
+  role: 条件分支
+  snippet_text: 'Water variations carry specific meanings: ocean (vast unconscious),
+    river (life flow), rain (cleansing), flood (overwhelm).'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671450'
+- snippet_id: ns_llewellyn_094
+  trigger: consciousness_level
+  factor_trigger: dream_water_depth
+  role: 主干依赖
+  snippet_text: 'Water depth indicates consciousness level: surface = conscious emotions,
+    deep = unconscious depths requiring exploration.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671458'
+- snippet_id: ns_llewellyn_028
+  trigger: flying_transcendence
+  factor_trigger: dream_symbol_flying
+  role: 主干
+  snippet_text: Flying represents transcendence, freedom, gaining perspective—rising
+    above limitations, seeing from higher viewpoint.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671471'
+- snippet_id: ns_llewellyn_029
+  trigger: effortless_flight
+  factor_trigger: dream_flight_ease
+  role: 主干依赖
+  snippet_text: Effortless flight = spiritual freedom, transcendence achieved; struggling
+    flight = trying to transcend but obstacles remain.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671479'
+- snippet_id: ns_llewellyn_030
+  trigger: flight_height
+  factor_trigger: psych_elevated_perspective
+  role: 总结
+  snippet_text: Flight height matters—higher = more spiritual/abstract perspective.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671485'
+- snippet_id: ns_llewellyn_095
+  trigger: transcendence
+  factor_trigger: dream_symbol_flying
+  role: 主干
+  snippet_text: 'Transcendence: flying symbolizes rising above earthly limitations,
+    defying gravity, gaining elevated perspective.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671492'
+- snippet_id: ns_llewellyn_096
+  trigger: transcendence_quality
+  factor_trigger: transcendence_quality
+  role: 条件分支
+  snippet_text: 'Transcendence quality: effortless = achieved freedom; struggling
+    = obstacles remaining; indicates spiritual development level.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671500'
+- snippet_id: ns_llewellyn_031
+  trigger: falling_anxiety
+  factor_trigger: dream_symbol_falling
+  role: 主干
+  snippet_text: Falling represents loss of control, insecurity, fear of failure—common
+    anxiety dream.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671513'
+- snippet_id: ns_llewellyn_032
+  trigger: landing_outcome
+  factor_trigger: dream_landing_outcome
+  role: 总结
+  snippet_text: 'Landing outcome reveals survival expectation: soft landing = resilience;
+    crashing = catastrophe feared.'
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671520'
+- snippet_id: ns_llewellyn_097
+  trigger: loss_of_control
+  factor_trigger: psych_support_deficit
+  role: 主干
+  snippet_text: Falling represents loss of control—inability to manage life circumstances,
+    feeling unsupported.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671527'
+- snippet_id: ns_llewellyn_098
+  trigger: resilience_expectation
+  factor_trigger: dream_symbol_falling
+  role: 条件分支
+  snippet_text: 'Resilience expectation: landing safely = capacity to survive setback;
+    crashing = catastrophic outcome feared.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671534'
+- snippet_id: ns_llewellyn_099
+  trigger: overwhelm_state
+  factor_trigger: overwhelm_state
+  role: 条件分支
+  snippet_text: 'Overwhelm state: falling indicates feeling overwhelmed by circumstances,
+    lacking support or stability.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671541'
+- snippet_id: ns_llewellyn_100
+  trigger: disempowerment
+  factor_trigger: disempowerment
+  role: 例外处理
+  snippet_text: 'Disempowerment: falling represents powerlessness, inability to control
+    descent or outcome.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671548'
+- snippet_id: ns_llewellyn_033
+  trigger: death_transformation
+  factor_trigger: dream_symbol_death
+  role: 主干
+  snippet_text: Death represents transformation, endings, new beginnings—rarely literal
+    death prediction.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671561'
+- snippet_id: ns_llewellyn_034
+  trigger: ego_death
+  factor_trigger: psych_ego_death
+  role: 主干依赖
+  snippet_text: Death of self = ego death, major identity transformation, not physical
+    death.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671568'
+- snippet_id: ns_llewellyn_035
+  trigger: death_question
+  factor_trigger: dream_symbolic_death
+  role: 总结
+  snippet_text: 'Always ask: "What is ending to make room for what new?"'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671576'
+- snippet_id: ns_llewellyn_101
+  trigger: character_death
+  factor_trigger: dream_character_death
+  role: 条件分支
+  snippet_text: 'Character death: death of known person = that character aspect transforming;
+    use adjective method to identify aspect.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671584'
+- snippet_id: ns_llewellyn_102
+  trigger: identity_shift
+  factor_trigger: identity_shift
+  role: 主干依赖
+  snippet_text: 'Identity shift: death of self indicates major identity transformation—old
+    self dying to make room for new.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671592'
+- snippet_id: ns_llewellyn_103
+  trigger: aspect_transformation
+  factor_trigger: aspect_transformation
+  role: 条件分支
+  snippet_text: 'Aspect transformation: when known person dies, that character aspect
+    (identified by 3 adjectives) is transforming or ending.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671600'
+- snippet_id: ns_llewellyn_036
+  trigger: house_self
+  factor_trigger: dream_symbol_house
+  role: 主干
+  snippet_text: House symbolizes self and psyche structure—different rooms represent
+    different personality aspects.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671618'
+- snippet_id: ns_llewellyn_037
+  trigger: rooms_aspects
+  factor_trigger: dream_symbol_rooms
+  role: 主干依赖
+  snippet_text: Attic = higher consciousness/spirituality; Basement = unconscious/shadow;
+    Kitchen = nourishment; Bathroom = cleansing.
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671625'
+- snippet_id: ns_llewellyn_038
+  trigger: house_condition
+  factor_trigger: dream_house_condition
+  role: 总结
+  snippet_text: 'House condition reflects psyche state: well-maintained = healthy;
+    dilapidated = neglected; under construction = transformation.'
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671633'
+- snippet_id: ns_llewellyn_104
+  trigger: psyche_structure
+  factor_trigger: dream_symbol_house
+  role: 主干
+  snippet_text: 'Psyche structure: house as container for self, organized into rooms
+    representing different personality aspects.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671641'
+- snippet_id: ns_llewellyn_105
+  trigger: psyche_health
+  factor_trigger: dream_house_condition
+  role: 总结
+  snippet_text: 'Psyche health: house condition diagnoses self-care level—well-maintained
+    indicates healthy psyche, dilapidated indicates neglect.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671649'
+- snippet_id: ns_llewellyn_039
+  trigger: animals_instinct
+  factor_trigger: dream_symbol_animal
+  role: 主干
+  snippet_text: Animals represent instinctual energies and archetypal patterns—each
+    animal carries specific symbolic meaning.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671662'
+- snippet_id: ns_llewellyn_040
+  trigger: animal_behavior
+  factor_trigger: dream_animal_behavior
+  role: 总结
+  snippet_text: 'Animal behavior in dream shows how that instinctual energy expressing:
+    friendly = integrated, aggressive = feared/rejected.'
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671670'
+- snippet_id: ns_llewellyn_106
+  trigger: instinctual_energy
+  factor_trigger: dream_symbol_animal
+  role: 主干
+  snippet_text: 'Instinctual energy: animals represent primal life forces—each species
+    carrying specific archetypal patterns.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671677'
+- snippet_id: ns_llewellyn_107
+  trigger: animal_type
+  factor_trigger: dream_symbol_snake
+  role: 条件分支
+  snippet_text: 'Animal type differentiates specific instinct: snake (transformation),
+    bird (freedom), dog (loyalty), cat (independence).'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671686'
+- snippet_id: ns_llewellyn_108
+  trigger: integration_level
+  factor_trigger: dream_animal_behavior
+  role: 总结
+  snippet_text: 'Integration level: friendly animal = instinct integrated; aggressive
+    animal = instinct feared or rejected.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671693'
+- snippet_id: ns_llewellyn_109
+  trigger: specific_instinct
+  factor_trigger: dream_symbol_bear
+  role: 条件分支
+  snippet_text: 'Specific instinct: each animal species embodies particular primal
+    energy (bear = power, snake = transformation).'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671700'
+- snippet_id: ns_llewellyn_041
+  trigger: chase_shadow
+  factor_trigger: dream_symbol_chased
+  role: 主干
+  snippet_text: Being chased represents avoiding confrontation with shadow aspects—what
+    chases you = part of self you run from.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671714'
+- snippet_id: ns_llewellyn_042
+  trigger: face_pursuer
+  factor_trigger: psych_turning_to_face
+  role: 总结
+  snippet_text: Turning to face pursuer = shadow integration beginning; running endlessly
+    = continued avoidance.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671721'
+- snippet_id: ns_llewellyn_110
+  trigger: pursuer_identity
+  factor_trigger: dream_pursuer_identity
+  role: 主干依赖
+  snippet_text: 'Pursuer identity reveals what avoided: monster = feared shadow, authority
+    = internalized judgment, animal = rejected instinct.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671729'
+- snippet_id: ns_llewellyn_111
+  trigger: avoided_aspect
+  factor_trigger: dream_symbol_chased
+  role: 条件分支
+  snippet_text: 'Avoided aspect: what chases you = part of self rejected or feared,
+    demanding acknowledgment through pursuit.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671736'
+- snippet_id: ns_llewellyn_112
+  trigger: integration_moment
+  factor_trigger: dream_endless_chase
+  role: 总结
+  snippet_text: 'Integration moment: turning to face pursuer initiates shadow integration—confrontation
+    leads to wholeness.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671744'
+- snippet_id: ns_llewellyn_043
+  trigger: nakedness_vulnerability
+  factor_trigger: dream_symbol_nakedness
+  role: 主干
+  snippet_text: Nakedness represents vulnerability, authenticity vs fear of judgment—feeling
+    exposed or revealed.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671756'
+- snippet_id: ns_llewellyn_044
+  trigger: others_reactions
+  factor_trigger: dream_others_reactions
+  role: 总结
+  snippet_text: 'Others'' reactions key: don''t notice = self-judgment only; shame
+    = internalized judgment; accept = safe authenticity.'
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671764'
+- snippet_id: ns_llewellyn_113
+  trigger: vulnerability
+  factor_trigger: dream_symbol_nakedness
+  role: 主干
+  snippet_text: 'Vulnerability: nakedness reveals defenseless authentic state—exposed
+    without social masks or protection.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671770'
+- snippet_id: ns_llewellyn_114
+  trigger: authentic_emergence
+  factor_trigger: psych_authentic_emergence
+  role: 条件分支
+  snippet_text: 'Authentic emergence: positive vulnerability—dropping masks, true
+    self revealed, genuine expression emerging.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671777'
+- snippet_id: ns_llewellyn_115
+  trigger: positive_vulnerability
+  factor_trigger: psych_fear_judgment
+  role: 条件分支
+  snippet_text: 'Positive vulnerability: nakedness as authentic self emerging—growth
+    through accepting exposed state.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671784'
+- snippet_id: ns_llewellyn_116
+  trigger: projected_judgment
+  factor_trigger: projected_judgment
+  role: 总结
+  snippet_text: 'Projected judgment: others'' reactions mirror self-judgment—what
+    you fear others see = what you judge in yourself.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671791'
+- snippet_id: ns_llewellyn_117
+  trigger: self_revelation
+  factor_trigger: self_revelation
+  role: 主干依赖
+  snippet_text: 'Self-revelation: nakedness exposes true self for examination—maximum
+    insight through honest vulnerability.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671798'
+- snippet_id: ns_llewellyn_047
+  trigger: father_aspect
+  factor_trigger: father_figure
+  role: 主干
+  snippet_text: Father figure represents authority/structure character aspect—apply
+    3-adjective method to identify which operating.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671813'
+- snippet_id: ns_llewellyn_048
+  trigger: internalized_authority
+  factor_trigger: authority_structure
+  role: 总结
+  snippet_text: Rarely about actual father but about internalized authority and how
+    self provides structure/discipline.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671820'
+- snippet_id: ns_llewellyn_118
+  trigger: positive_father
+  factor_trigger: positive_father
+  role: 条件分支
+  snippet_text: 'Positive father: guidance, protection, empowerment, healthy boundaries—wise,
+    protective, encouraging aspects.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671828'
+- snippet_id: ns_llewellyn_119
+  trigger: negative_father
+  factor_trigger: negative_father
+  role: 条件分支
+  snippet_text: 'Negative father: rigid control, harsh judgment, oppressive authority—critical,
+    controlling, distant aspects.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671836'
+- snippet_id: ns_llewellyn_120
+  trigger: empowering_authority
+  factor_trigger: empowering_authority
+  role: 条件分支
+  snippet_text: 'Empowering authority: positive father provides guidance that enables
+    growth—supportive discipline and healthy boundaries.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671845'
+- snippet_id: ns_llewellyn_121
+  trigger: oppressive_authority
+  factor_trigger: oppressive_authority
+  role: 例外处理
+  snippet_text: 'Oppressive authority: negative father creates self-criticism patterns—control
+    that restricts rather than enables growth.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671853'
+- snippet_id: ns_llewellyn_049
+  trigger: fire_passion
+  factor_trigger: dream_symbol_fire
+  role: 主干
+  snippet_text: Fire represents passion, transformation, destruction/creation duality—controlled
+    = creative, uncontrolled = destructive.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671867'
+- snippet_id: ns_llewellyn_050
+  trigger: fire_purification
+  factor_trigger: dream_fire_purification
+  role: 总结
+  snippet_text: Fire purifies through burning away old—transformation through destruction
+    of unnecessary.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671876'
+- snippet_id: ns_llewellyn_122
+  trigger: controlled_fire
+  factor_trigger: dream_fire_controlled
+  role: 主干依赖
+  snippet_text: 'Controlled fire: creative passion, vital energy, focused transformation—life-giving
+    warmth and illumination.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671884'
+- snippet_id: ns_llewellyn_123
+  trigger: uncontrolled_fire
+  factor_trigger: dream_fire_uncontrolled
+  role: 条件分支
+  snippet_text: 'Uncontrolled fire: destructive rage, being consumed, wildfire of
+    emotions—loss of control and overwhelm.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671892'
+- snippet_id: ns_llewellyn_124
+  trigger: creative_energy
+  factor_trigger: dream_fire_controlled
+  role: 主干依赖
+  snippet_text: 'Creative energy: controlled fire indicates focused passion and vital
+    energy—transformation through creation.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671901'
+- snippet_id: ns_llewellyn_125
+  trigger: destructive_rage
+  factor_trigger: dream_fire_uncontrolled
+  role: 例外处理
+  snippet_text: 'Destructive rage: uncontrolled fire warns of consuming patterns—passion
+    expressed as destruction rather than creation.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671912'
+- snippet_id: ns_llewellyn_051
+  trigger: teeth_power
+  factor_trigger: dream_symbol_teeth
+  role: 主干
+  snippet_text: Teeth falling out represents loss of power/confidence—teeth = ability
+    to "bite" (assert), speak clearly, show strength.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671930'
+- snippet_id: ns_llewellyn_052
+  trigger: teeth_universal
+  factor_trigger: psych_comm_loss
+  role: 总结
+  snippet_text: One of most common anxiety dreams worldwide (cross-cultural)—indicates
+    powerlessness, communication difficulty.
+  source_ref: Source Text
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671938'
+- snippet_id: ns_llewellyn_126
+  trigger: ability_to_bite
+  factor_trigger: psych_ability_to_bite
+  role: 主干依赖
+  snippet_text: 'Ability to bite: teeth enable assertion, defense, attack—standing
+    one''s ground and expressing power.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671947'
+- snippet_id: ns_llewellyn_127
+  trigger: assertion_capacity
+  factor_trigger: psych_ability_to_bite
+  role: 主干依赖
+  snippet_text: 'Assertion capacity: teeth symbolize ability to defend, attack, assert
+    needs—social power and confidence.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671954'
+- snippet_id: ns_llewellyn_128
+  trigger: rotten_teeth
+  factor_trigger: dream_rotten_teeth
+  role: 条件分支
+  snippet_text: 'Rotten teeth: self-neglect before loss—ignored self-care leading
+    to deterioration of power/confidence.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671962'
+- snippet_id: ns_llewellyn_129
+  trigger: self_worth_fear
+  factor_trigger: dream_symbol_teeth
+  role: 条件分支
+  snippet_text: 'Self-worth fear: teeth falling connects to abandonment anxiety—loss
+    of social power triggering primitive fears.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671971'
+- snippet_id: ns_llewellyn_130
+  trigger: emotional_state
+  factor_trigger: psych_comm_loss
+  role: 总结
+  snippet_text: 'Emotional state: teeth dreams reveal current emotional condition—anxiety,
+    powerlessness, communication difficulty.'
+  source_ref: English Paraphrase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.671979'

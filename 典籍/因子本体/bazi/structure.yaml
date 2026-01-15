@@ -1,0 +1,215 @@
+# 八字体系 - 结构类因子
+# Structure factors for BaZi system
+
+factors:
+  # 日主结构
+  - id: day_master
+    status: existing
+    display_zh: 日主
+    display_en: Day Master
+    aliases_zh: [日干, 日元]
+    aliases_en: [Day Stem, DM]
+    description_zh: 日柱天干，命主本身的代表
+    description_en: Day stem, represents the self
+    category: structure
+    value_type: enum
+    value_range: [甲, 乙, 丙, 丁, 戊, 己, 庚, 辛, 壬, 癸]
+    applicable_systems: [bazi]
+
+  - id: year_stem
+    status: existing
+    display_zh: 年干
+    display_en: Year Stem
+    description_zh: 年柱天干
+    description_en: Year pillar heavenly stem
+    category: structure
+    value_type: enum
+    value_range: [甲, 乙, 丙, 丁, 戊, 己, 庚, 辛, 壬, 癸]
+    applicable_systems: [bazi]
+
+  - id: year_branch
+    status: existing
+    display_zh: 年支
+    display_en: Year Branch
+    description_zh: 年柱地支
+    description_en: Year pillar earthly branch
+    category: structure
+    value_type: enum
+    value_range: [子, 丑, 寅, 卯, 辰, 巳, 午, 未, 申, 酉, 戌, 亥]
+    applicable_systems: [bazi]
+
+  - id: month_stem
+    status: existing
+    display_zh: 月干
+    display_en: Month Stem
+    description_zh: 月柱天干
+    description_en: Month pillar heavenly stem
+    category: structure
+    value_type: enum
+    value_range: [甲, 乙, 丙, 丁, 戊, 己, 庚, 辛, 壬, 癸]
+    applicable_systems: [bazi]
+
+  - id: month_branch
+    status: existing
+    display_zh: 月支
+    display_en: Month Branch
+    aliases_zh: [月令]
+    aliases_en: [Month Command]
+    description_zh: 月柱地支，决定令气
+    description_en: Month pillar earthly branch, determines seasonal energy
+    category: structure
+    value_type: enum
+    value_range: [子, 丑, 寅, 卯, 辰, 巳, 午, 未, 申, 酉, 戌, 亥]
+    applicable_systems: [bazi]
+
+  - id: day_branch
+    status: existing
+    display_zh: 日支
+    display_en: Day Branch
+    description_zh: 日柱地支
+    description_en: Day pillar earthly branch
+    category: structure
+    value_type: enum
+    value_range: [子, 丑, 寅, 卯, 辰, 巳, 午, 未, 申, 酉, 戌, 亥]
+    applicable_systems: [bazi]
+
+  - id: hour_stem
+    status: existing
+    display_zh: 时干
+    display_en: Hour Stem
+    description_zh: 时柱天干
+    description_en: Hour pillar heavenly stem
+    category: structure
+    value_type: enum
+    value_range: [甲, 乙, 丙, 丁, 戊, 己, 庚, 辛, 壬, 癸]
+    applicable_systems: [bazi]
+
+  - id: hour_branch
+    status: existing
+    display_zh: 时支
+    display_en: Hour Branch
+    description_zh: 时柱地支
+    description_en: Hour pillar earthly branch
+    category: structure
+    value_type: enum
+    value_range: [子, 丑, 寅, 卯, 辰, 巳, 午, 未, 申, 酉, 戌, 亥]
+    applicable_systems: [bazi]
+
+  # 十神结构
+  - id: bazi_zhenguan
+    status: existing
+    display_zh: 正官
+    display_en: Direct Officer
+    aliases_zh: [官星]
+    aliases_en: [Officer Star]
+    description_zh: 克日主且与日主阴阳异性的十神
+    description_en: Ten God that controls Day Master with opposite polarity
+    category: structure
+    value_type: reference
+    applicable_systems: [bazi]
+
+  - id: bazi_qisha
+    status: existing
+    display_zh: 七杀
+    display_en: Seven Killings
+    aliases_zh: [偏官, 杀星]
+    aliases_en: [Indirect Officer, Killer Star]
+    description_zh: 克日主且与日主阴阳同性的十神
+    description_en: Ten God that controls Day Master with same polarity
+    category: structure
+    value_type: reference
+    applicable_systems: [bazi]
+
+  - id: bazi_zhengyin
+    status: existing
+    display_zh: 正印
+    display_en: Direct Resource
+    aliases_zh: [印星, 印绶]
+    aliases_en: [Resource Star, Seal]
+    description_zh: 生日主且与日主阴阳异性的十神
+    description_en: Ten God that supports Day Master with opposite polarity
+    category: structure
+    value_type: reference
+    applicable_systems: [bazi]
+
+  - id: bazi_pianyin
+    status: existing
+    display_zh: 偏印
+    display_en: Indirect Resource
+    aliases_zh: [枭印, 枭神]
+    aliases_en: [Owl Seal]
+    description_zh: 生日主且与日主阴阳同性的十神
+    description_en: Ten God that supports Day Master with same polarity
+    category: structure
+    value_type: reference
+    applicable_systems: [bazi]
+
+  - id: bazi_zhengcai
+    status: existing
+    display_zh: 正财
+    display_en: Direct Wealth
+    aliases_zh: [财星]
+    aliases_en: [Wealth Star]
+    description_zh: 被日主所克且与日主阴阳异性的十神
+    description_en: Ten God controlled by Day Master with opposite polarity
+    category: structure
+    value_type: reference
+    applicable_systems: [bazi]
+
+  - id: bazi_piancai
+    status: existing
+    display_zh: 偏财
+    display_en: Indirect Wealth
+    description_zh: 被日主所克且与日主阴阳同性的十神
+    description_en: Ten God controlled by Day Master with same polarity
+    category: structure
+    value_type: reference
+    applicable_systems: [bazi]
+
+  - id: bazi_shishen
+    status: existing
+    display_zh: 食神
+    display_en: Eating God
+    aliases_zh: [食]
+    aliases_en: [Food God]
+    description_zh: 日主所生且与日主阴阳同性的十神
+    description_en: Ten God produced by Day Master with same polarity
+    category: structure
+    value_type: reference
+    applicable_systems: [bazi]
+
+  - id: bazi_shangguan
+    status: existing
+    display_zh: 伤官
+    display_en: Hurting Officer
+    aliases_zh: [伤]
+    aliases_en: [Injury Officer]
+    description_zh: 日主所生且与日主阴阳异性的十神
+    description_en: Ten God produced by Day Master with opposite polarity
+    category: structure
+    value_type: reference
+    applicable_systems: [bazi]
+
+  - id: bazi_bijian
+    status: existing
+    display_zh: 比肩
+    display_en: Shoulder to Shoulder
+    aliases_zh: [比]
+    aliases_en: [Companion]
+    description_zh: 与日主相同的天干
+    description_en: Same stem as Day Master
+    category: structure
+    value_type: reference
+    applicable_systems: [bazi]
+
+  - id: bazi_jiecai
+    status: existing
+    display_zh: 劫财
+    display_en: Rob Wealth
+    aliases_zh: [劫]
+    aliases_en: [Robber]
+    description_zh: 与日主阴阳相反的同五行天干
+    description_en: Same element as Day Master with opposite polarity
+    category: structure
+    value_type: reference
+    applicable_systems: [bazi]

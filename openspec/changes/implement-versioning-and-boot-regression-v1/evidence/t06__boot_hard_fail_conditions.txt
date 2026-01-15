@@ -1,0 +1,29 @@
+$ PYTHONPATH=. .venv/bin/pytest backend/tests/gate1_boot_regression/test_bootability_checks.py -q
+...                                                                      [100%]
+=============================== warnings summary ===============================
+.venv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:149
+  /home/leeky/work/LucidSelf/.venv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_id" has conflict with protected namespace "model_".
+  
+  You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+    warnings.warn(
+
+.venv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:149
+  /home/leeky/work/LucidSelf/.venv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_used" has conflict with protected namespace "model_".
+  
+  You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+    warnings.warn(
+
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+  /home/leeky/work/LucidSelf/.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.5/migration/
+    warnings.warn(DEPRECATION_MESSAGE, DeprecationWarning)
+
+backend/tests/gate1_boot_regression/test_bootability_checks.py::test_run_boot_checks_detects_migration_mismatch
+  /home/leeky/work/LucidSelf/.venv/lib/python3.12/site-packages/dateutil/tz/tz.py:37: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+    EPOCH = datetime.datetime.utcfromtimestamp(0)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+3 passed, 8 warnings in 2.63s

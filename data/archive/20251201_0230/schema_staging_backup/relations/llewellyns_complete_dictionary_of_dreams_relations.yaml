@@ -1,0 +1,719 @@
+book_id: llewellyns_complete_dictionary_of_dreams
+source_file: 典籍/texts/Llewellyns Complete Dictionary of Dreams/编辑/Llewellyn_Dreams_v2.1_Complete.md
+extracted_at: '2025-12-01T02:28:33.098168'
+relations:
+- relation_id: rel_lennox_collective_001
+  relation_type: psych_archetype_relation
+  factor_a: collective_unconscious
+  factor_b: archetypal_patterns
+  relation_nature: Foundation-manifestation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch1'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635214'
+- relation_id: rel_lennox_collective_002
+  relation_type: dream_symbol_relation
+  factor_a: universal_symbols
+  factor_b: cross_cultural_themes
+  relation_nature: Symbolic correspondence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch1'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635231'
+- relation_id: rel_lennox_collective_003
+  relation_type: psych_archetype_relation
+  factor_a: personal_unconscious
+  factor_b: collective_unconscious
+  relation_nature: Part-whole hierarchy
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch1'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635235'
+- relation_id: rel_lennox_character_001
+  relation_type: psych_archetype_relation
+  factor_a: dream_figure
+  factor_b: self_aspect
+  relation_nature: Projection-identity
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch2'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635269'
+- relation_id: rel_lennox_character_002
+  relation_type: dream_symbol_relation
+  factor_a: adjective_set
+  factor_b: personality_trait
+  relation_nature: Diagnostic correspondence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch2'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635272'
+- relation_id: rel_lennox_character_003
+  relation_type: psych_archetype_relation
+  factor_a: fractured_personality
+  factor_b: total_self
+  relation_nature: Part-whole
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch2'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635275'
+- relation_id: rel_lennox_shadow_001
+  relation_type: psych_archetype_relation
+  factor_a: archetype_shadow
+  factor_b: rejected_aspects
+  relation_nature: Container-content
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch3'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635308'
+- relation_id: rel_lennox_shadow_002
+  relation_type: dream_symbol_relation
+  factor_a: nightmare
+  factor_b: shadow_invitation
+  relation_nature: Signal-message
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch3'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635311'
+- relation_id: rel_lennox_shadow_003
+  relation_type: psych_archetype_relation
+  factor_a: shadow
+  factor_b: unlived_potential
+  relation_nature: Paradox relation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch3'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635313'
+- relation_id: rel_lennox_masc_001
+  relation_type: psych_archetype_relation
+  factor_a: masculine_principle
+  factor_b: doing_modality
+  relation_nature: Concept-behavior
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch4'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635343'
+- relation_id: rel_lennox_masc_002
+  relation_type: psych_archetype_relation
+  factor_a: feminine_principle
+  factor_b: being_modality
+  relation_nature: Concept-behavior
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch4'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635346'
+- relation_id: rel_lennox_masc_003
+  relation_type: cross_system
+  factor_a: animus_anima
+  factor_b: yin_yang
+  relation_nature: Eastern-Western parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch4'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635348'
+- relation_id: rel_lennox_arch_001
+  relation_type: psych_archetype_relation
+  factor_a: archetype_warrior
+  factor_b: power_defense
+  relation_nature: Role-function
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch5'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635379'
+- relation_id: rel_lennox_arch_002
+  relation_type: psych_archetype_relation
+  factor_a: archetype_nurturer
+  factor_b: love_care
+  relation_nature: Role-function
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch5'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635381'
+- relation_id: rel_lennox_arch_003
+  relation_type: psych_archetype_relation
+  factor_a: archetype_trickster
+  factor_b: chaos_transformation
+  relation_nature: Role-function
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch5'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635384'
+- relation_id: rel_lennox_arch_004
+  relation_type: dream_symbol_relation
+  factor_a: archetypal_figure
+  factor_b: psyche_activation
+  relation_nature: Trigger-response
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch5'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635387'
+- relation_id: rel_lennox_univ_001
+  relation_type: dream_symbol_relation
+  factor_a: inherent_function
+  factor_b: universal_meaning
+  relation_nature: Source-derivation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch6'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635520'
+- relation_id: rel_lennox_univ_002
+  relation_type: dream_symbol_relation
+  factor_a: universal_baseline
+  factor_b: personal_association
+  relation_nature: Sequence-dependency
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch6'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635542'
+- relation_id: rel_lennox_univ_003
+  relation_type: cross_system
+  factor_a: objective_grounding
+  factor_b: cross_cultural_validation
+  relation_nature: Validation mechanism
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch6'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635546'
+- relation_id: rel_lennox_inner_001
+  relation_type: psych_archetype_relation
+  factor_a: dream_element
+  factor_b: self_aspect
+  relation_nature: Projection recognition
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch7'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635586'
+- relation_id: rel_lennox_inner_002
+  relation_type: psych_archetype_relation
+  factor_a: inner_work
+  factor_b: self_revelation
+  relation_nature: Priority relation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch7'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635589'
+- relation_id: rel_lennox_inner_003
+  relation_type: psych_archetype_relation
+  factor_a: outer_projection
+  factor_b: disempowerment
+  relation_nature: Causal relation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Ch7'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635591'
+- relation_id: rel_lennox_abandon_001
+  relation_type: psych_archetype_relation
+  factor_a: abandonment_dream
+  factor_b: self_worth_fear
+  relation_nature: Symptom-cause
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym8'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635627'
+- relation_id: rel_lennox_abandon_002
+  relation_type: dream_symbol_relation
+  factor_a: abandoner_figure
+  factor_b: self_aspect
+  relation_nature: Character-projection
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym8'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635630'
+- relation_id: rel_lennox_abandon_003
+  relation_type: psych_archetype_relation
+  factor_a: infant_dependency
+  factor_b: adult_abandonment_fear
+  relation_nature: Origin-manifestation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym8'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635632'
+- relation_id: rel_lennox_abdomen_001
+  relation_type: dream_symbol_relation
+  factor_a: abdomen_symbol
+  factor_b: emotions_gut
+  relation_nature: Body-function
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym9'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635662'
+- relation_id: rel_lennox_abdomen_002
+  relation_type: dream_symbol_relation
+  factor_a: compromised_abdomen
+  factor_b: repressed_intuition
+  relation_nature: Symptom-cause
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym9'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635667'
+- relation_id: rel_lennox_abdomen_003
+  relation_type: dream_symbol_relation
+  factor_a: healthy_abdomen
+  factor_b: self_nourishment
+  relation_nature: State-quality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym9'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635669'
+- relation_id: rel_lennox_abort_001
+  relation_type: dream_symbol_relation
+  factor_a: fetus_symbol
+  factor_b: nascent_potential
+  relation_nature: Metaphor-meaning
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym10'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635697'
+- relation_id: rel_lennox_abort_002
+  relation_type: dream_symbol_relation
+  factor_a: abortion_dream
+  factor_b: termination_choice
+  relation_nature: Action-consequence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym10'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635700'
+- relation_id: rel_lennox_abort_003
+  relation_type: psych_archetype_relation
+  factor_a: responsibility_avoidance
+  factor_b: readiness_assessment
+  relation_nature: Evaluation-decision
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym10'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635702'
+- relation_id: rel_lennox_water_001
+  relation_type: dream_symbol_relation
+  factor_a: water_symbol
+  factor_b: emotions_unconscious
+  relation_nature: Universal correspondence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym11'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635733'
+- relation_id: rel_lennox_water_002
+  relation_type: dream_symbol_relation
+  factor_a: water_clarity
+  factor_b: emotional_state
+  relation_nature: Quality-reflection
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym11'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635736'
+- relation_id: rel_lennox_water_003
+  relation_type: dream_symbol_relation
+  factor_a: water_depth
+  factor_b: consciousness_level
+  relation_nature: Depth-awareness
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym11'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635739'
+- relation_id: rel_lennox_water_004
+  relation_type: dream_symbol_relation
+  factor_a: water_variations
+  factor_b: specific_meanings
+  relation_nature: Form-function
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym11'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635745'
+- relation_id: rel_lennox_fly_001
+  relation_type: dream_symbol_relation
+  factor_a: flying_symbol
+  factor_b: transcendence
+  relation_nature: Action-meaning
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym12'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635774'
+- relation_id: rel_lennox_fly_002
+  relation_type: dream_symbol_relation
+  factor_a: flight_ease
+  factor_b: transcendence_quality
+  relation_nature: State-indicator
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym12'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635776'
+- relation_id: rel_lennox_fly_003
+  relation_type: dream_symbol_relation
+  factor_a: flight_height
+  factor_b: consciousness_level
+  relation_nature: Dimension-depth
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym12'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635779'
+- relation_id: rel_lennox_fall_001
+  relation_type: dream_symbol_relation
+  factor_a: falling_symbol
+  factor_b: loss_of_control
+  relation_nature: Action-meaning
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym13'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635807'
+- relation_id: rel_lennox_fall_002
+  relation_type: dream_symbol_relation
+  factor_a: landing_outcome
+  factor_b: resilience_expectation
+  relation_nature: Consequence-prediction
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym13'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635810'
+- relation_id: rel_lennox_fall_003
+  relation_type: dream_symbol_relation
+  factor_a: support_deficit
+  factor_b: overwhelm_state
+  relation_nature: Cause-symptom
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym13'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635814'
+- relation_id: rel_lennox_death_001
+  relation_type: dream_symbol_relation
+  factor_a: death_symbol
+  factor_b: transformation
+  relation_nature: Metaphor-meaning
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym14'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635843'
+- relation_id: rel_lennox_death_002
+  relation_type: psych_archetype_relation
+  factor_a: ego_death
+  factor_b: identity_shift
+  relation_nature: Death-rebirth
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym14'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635846'
+- relation_id: rel_lennox_death_003
+  relation_type: dream_symbol_relation
+  factor_a: character_death
+  factor_b: aspect_transformation
+  relation_nature: Character-projection
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym14'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635849'
+- relation_id: rel_lennox_house_001
+  relation_type: dream_symbol_relation
+  factor_a: house_symbol
+  factor_b: psyche_structure
+  relation_nature: Container-content
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym15'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635879'
+- relation_id: rel_lennox_house_002
+  relation_type: dream_symbol_relation
+  factor_a: room_type
+  factor_b: personality_aspect
+  relation_nature: Part-whole
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym15'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635881'
+- relation_id: rel_lennox_house_003
+  relation_type: dream_symbol_relation
+  factor_a: house_condition
+  factor_b: psyche_health
+  relation_nature: State-indicator
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym15'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635884'
+- relation_id: rel_lennox_animal_001
+  relation_type: dream_symbol_relation
+  factor_a: animal_symbol
+  factor_b: instinctual_energy
+  relation_nature: Creature-force
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym16'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635913'
+- relation_id: rel_lennox_animal_002
+  relation_type: dream_symbol_relation
+  factor_a: animal_type
+  factor_b: specific_instinct
+  relation_nature: Type-meaning
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym16'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635915'
+- relation_id: rel_lennox_animal_003
+  relation_type: dream_symbol_relation
+  factor_a: animal_behavior
+  factor_b: integration_level
+  relation_nature: Action-state
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym16'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635920'
+- relation_id: rel_lennox_chase_001
+  relation_type: dream_symbol_relation
+  factor_a: being_chased
+  factor_b: shadow_avoidance
+  relation_nature: Action-meaning
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym17'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635947'
+- relation_id: rel_lennox_chase_002
+  relation_type: dream_symbol_relation
+  factor_a: pursuer_identity
+  factor_b: avoided_aspect
+  relation_nature: Character-projection
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym17'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635950'
+- relation_id: rel_lennox_chase_003
+  relation_type: dream_symbol_relation
+  factor_a: turning_to_face
+  factor_b: integration_moment
+  relation_nature: Action-transformation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym17'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635953'
+- relation_id: rel_lennox_naked_001
+  relation_type: dream_symbol_relation
+  factor_a: nakedness_symbol
+  factor_b: vulnerability
+  relation_nature: State-meaning
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym18'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635981'
+- relation_id: rel_lennox_naked_002
+  relation_type: dream_symbol_relation
+  factor_a: authentic_emergence
+  factor_b: positive_vulnerability
+  relation_nature: Interpretation-direction
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym18'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635983'
+- relation_id: rel_lennox_naked_003
+  relation_type: dream_symbol_relation
+  factor_a: others_reactions
+  factor_b: projected_judgment
+  relation_nature: Mirror-reflection
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym18'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.635986'
+- relation_id: rel_lennox_father_001
+  relation_type: psych_archetype_relation
+  factor_a: father_figure
+  factor_b: authority_structure
+  relation_nature: Character-archetype
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym19'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.636020'
+- relation_id: rel_lennox_father_002
+  relation_type: psych_archetype_relation
+  factor_a: positive_father
+  factor_b: empowering_authority
+  relation_nature: Quality-direction
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym19'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.636023'
+- relation_id: rel_lennox_father_003
+  relation_type: psych_archetype_relation
+  factor_a: negative_father
+  factor_b: oppressive_authority
+  relation_nature: Quality-direction
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym19'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.636026'
+- relation_id: rel_lennox_fire_001
+  relation_type: dream_symbol_relation
+  factor_a: fire_symbol
+  factor_b: passion_transformation
+  relation_nature: Element-meaning
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym21'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.636052'
+- relation_id: rel_lennox_fire_002
+  relation_type: dream_symbol_relation
+  factor_a: controlled_fire
+  factor_b: creative_energy
+  relation_nature: State-quality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym21'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.636055'
+- relation_id: rel_lennox_fire_003
+  relation_type: dream_symbol_relation
+  factor_a: uncontrolled_fire
+  factor_b: destructive_rage
+  relation_nature: State-quality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym21'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.636058'
+- relation_id: rel_lennox_teeth_001
+  relation_type: dream_symbol_relation
+  factor_a: teeth_falling
+  factor_b: power_loss
+  relation_nature: Action-meaning
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym22'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.636085'
+- relation_id: rel_lennox_teeth_002
+  relation_type: dream_symbol_relation
+  factor_a: ability_to_bite
+  factor_b: assertion_capacity
+  relation_nature: Body-function
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym22'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.636088'
+- relation_id: rel_lennox_teeth_003
+  relation_type: dream_symbol_relation
+  factor_a: rotten_teeth
+  factor_b: self_neglect
+  relation_nature: State-cause
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Lennox #Sym22'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.636093'

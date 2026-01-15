@@ -1,0 +1,281 @@
+# Factor Ontology Schema - 因子本体定义规范
+# Version: 1.0
+# Created: 2024-12-04
+
+# ============================================================
+# Schema Definition
+# ============================================================
+
+schema:
+  version: "1.0"
+  description: |
+    定义因子(Factor)的完整结构规范。
+    所有因子必须符合此Schema才能入库。
+
+# ============================================================
+# Factor Definition
+# ============================================================
+
+factor:
+  # 必填字段
+  required:
+    - id           # 唯一标识符
+    - status       # 因子状态
+    - display_zh   # 中文显示名
+    - display_en   # 英文显示名
+    - category     # 因子分类
+    - value_type   # 取值类型
+    - applicable_systems  # 适用系统
+
+  # 可选字段
+  optional:
+    - aliases_zh        # 中文别名列表
+    - aliases_en        # 英文别名列表
+    - description_zh    # 中文描述
+    - description_en    # 英文描述
+    - value_range       # 取值范围
+    - neutral_tag       # 跨体系中立标签映射
+    - deprecated_by     # 废弃后的替代因子
+    - created_at        # 创建时间
+    - updated_at        # 更新时间
+
+# ============================================================
+# Field Specifications
+# ============================================================
+
+fields:
+  id:
+    type: string
+    description: |
+      因子唯一标识符。
+      格式: [system_]category_name
+      约束:
+        - 全小写字母
+        - 下划线分隔
+        - 纯英文（禁止中文、拼音、驼峰）
+        - 全局唯一
+    pattern: "^[a-z][a-z0-9_]*$"
+    examples:
+      - day_master
+      - bazi_zhenguan
+      - astro_venus_saturn_square
+      - dream_primary_pattern
+
+  status:
+    type: enum
+    description: 因子当前状态
+    values:
+      - existing     # 已正式入库，可被规则引用
+      - deprecated   # 已废弃，不再使用
+    # 注: new_candidate仅在精校文档中使用，不进入因子本体
+
+  display_zh:
+    type: string
+    description: 中文显示名称
+    constraints:
+      - 简洁明了
+      - 术语规范
+    examples:
+      - 日主
+      - 正官
+      - 太阳星座
+
+  display_en:
+    type: string
+    description: 英文显示名称
+    constraints:
+      - Title Case
+      - 专业术语
+    examples:
+      - Day Master
+      - Direct Officer
+      - Sun Sign
+
+  aliases_zh:
+    type: list[string]
+    description: 中文别名列表
+    examples:
+      - [日干, 日元]
+      - [官星]
+
+  aliases_en:
+    type: list[string]
+    description: 英文别名列表
+    examples:
+      - [Day Stem, DM]
+      - [Officer Star]
+
+  description_zh:
+    type: string
+    description: 中文详细描述
+    constraints:
+      - 50字以内
+      - 说明因子含义和用途
+
+  description_en:
+    type: string
+    description: 英文详细描述
+    constraints:
+      - Under 100 characters
+      - Explain meaning and usage
+
+  category:
+    type: enum
+    description: 因子分类
+    values:
+      - structure   # 结构类：静态结构元素
+      - state       # 状态类：动态属性
+      - relation    # 关系类：元素间关系
+      - temporal    # 时间类：时间维度
+      - energy      # 能量类：能量/情绪
+      - neutral     # 中立类：跨体系标签
+
+  value_type:
+    type: enum
+    description: 因子取值类型
+    values:
+      - boolean     # 布尔值: true/false
+      - numeric     # 数值: 通常0-1范围
+      - enum        # 枚举: 预定义字符串
+      - reference   # 引用: 其他因子ID
+      - string      # 字符串: 自由文本
+
+  value_range:
+    type: any
+    description: |
+      取值范围，根据value_type不同而变化:
+      - boolean: null (无需指定)
+      - numeric: [min, max] 如 [0, 1]
+      - enum: [value1, value2, ...] 如 [甲, 乙, 丙, ...]
+      - reference: null (引用其他因子)
+      - string: null (自由文本)
+
+  applicable_systems:
+    type: list[DivinationSystem]
+    description: 适用的术数系统
+    values:
+      - bazi     # 八字
+      - ziwei    # 紫微斗数
+      - astro    # 西方占星
+      - dream    # 梦境解析
+      - yijing   # 周易
+      - tarot    # 塔罗
+      - psych    # 心理学
+    constraints:
+      - 至少一个系统
+      - 通用因子可包含多个系统
+
+  neutral_tag:
+    type: string
+    description: |
+      跨体系中立标签映射。
+      用于将体系特定因子映射到统一的语义概念。
+    pattern: "^neutral_[a-z_]+$"
+    examples:
+      - neutral_resource_conflict
+      - neutral_emotional_tension
+
+  deprecated_by:
+    type: string
+    description: |
+      当因子废弃时，指向替代因子的ID。
+      仅当status=deprecated时使用。
+
+  created_at:
+    type: datetime
+    description: 因子创建时间
+    format: "YYYY-MM-DD"
+
+  updated_at:
+    type: datetime
+    description: 因子最后更新时间
+    format: "YYYY-MM-DD"
+
+# ============================================================
+# Validation Rules
+# ============================================================
+
+validation:
+  id_uniqueness:
+    description: 因子ID必须全局唯一
+    scope: global
+
+  id_format:
+    description: ID必须符合命名规范
+    pattern: "^[a-z][a-z0-9_]*$"
+    max_length: 64
+
+  system_prefix:
+    description: |
+      体系专属因子应使用对应前缀:
+      - bazi_ for 八字
+      - ziwei_ for 紫微
+      - astro_ for 占星
+      - dream_ for 梦境
+      - yijing_ for 周易
+      - tarot_ for 塔罗
+      通用因子可不使用前缀
+
+  bilingual_required:
+    description: 必须同时提供中英文display名称
+    fields: [display_zh, display_en]
+
+  deprecated_chain:
+    description: 废弃因子必须指定替代因子
+    condition: "status == 'deprecated' -> deprecated_by != null"
+
+# ============================================================
+# Example Factor Definitions
+# ============================================================
+
+examples:
+  # 八字结构类因子
+  - id: day_master
+    status: existing
+    display_zh: 日主
+    display_en: Day Master
+    aliases_zh: [日干, 日元]
+    aliases_en: [Day Stem, DM]
+    description_zh: 日柱天干，命主本身的代表
+    description_en: Day stem, represents the self
+    category: structure
+    value_type: enum
+    value_range: [甲, 乙, 丙, 丁, 戊, 己, 庚, 辛, 壬, 癸]
+    applicable_systems: [bazi]
+
+  # 占星关系类因子
+  - id: aspect_conjunction
+    status: existing
+    display_zh: 合相
+    display_en: Conjunction
+    aliases_zh: [合]
+    description_zh: 0度相位，能量融合
+    description_en: 0 degree aspect, energy fusion
+    category: relation
+    value_type: boolean
+    applicable_systems: [astro]
+    neutral_tag: neutral_energy_fusion
+
+  # 梦境能量类因子
+  - id: dream_anxiety_level
+    status: existing
+    display_zh: 焦虑程度
+    display_en: Anxiety Level
+    description_zh: 梦中焦虑情绪的强度
+    description_en: Intensity of anxiety in dream
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [dream]
+    neutral_tag: neutral_emotional_tension
+
+  # 跨体系中立因子
+  - id: neutral_resource_conflict
+    status: existing
+    display_zh: 资源冲突
+    display_en: Resource Conflict
+    description_zh: 资源竞争、财务压力、物质损失
+    description_en: Resource competition, financial pressure, material loss
+    category: neutral
+    value_type: boolean
+    applicable_systems: [bazi, astro, tarot]

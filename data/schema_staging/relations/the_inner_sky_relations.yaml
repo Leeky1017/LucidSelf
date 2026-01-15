@@ -1,0 +1,791 @@
+book_id: the_inner_sky
+source_file: 典籍/texts/The Inner Sky/编辑/Inner_Sky_Houses_v2.1_Part7.md, 典籍/texts/The
+  Inner Sky/编辑/Inner_Sky_Zodiac_v2.1_Part6_FINAL.md, 典籍/texts/The Inner Sky/编辑/Inner_Sky_Natal_v2.1_Part3.md,
+  典籍/texts/The Inner Sky/编辑/L1.md, 典籍/texts/The Inner Sky/编辑/Inner_Sky_Zodiac_v2.1_Part4.md,
+  典籍/texts/The Inner Sky/编辑/Inner_Sky_Aspects_v2.1.md, 典籍/texts/The Inner Sky/编辑/Inner_Sky_Zodiac_v2.1_Part5_COMPLETE.md,
+  典籍/texts/The Inner Sky/编辑/Inner_Sky_Natal_v2.1_Part2.md, 典籍/texts/The Inner Sky/编辑/L2.md,
+  典籍/texts/The Inner Sky/编辑/Inner_Sky_Natal_v2.1_Part1.md, 典籍/texts/The Inner Sky/编辑/Inner_Sky_Houses_v2.1_Part8_FINAL.md,
+  典籍/texts/The Inner Sky/编辑/Inner_Sky_Theory_v2.1.md
+extracted_at: '2025-12-04T14:27:43.007489'
+relations:
+- relation_id: rel_house_1
+  relation_type: concept
+  factor_a: astro_house_1
+  factor_b: astro_house_framework
+  relation_nature: Framework
+  condition_constraint: When house framework connects interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.881781'
+- relation_id: rel_house_2
+  relation_type: concept
+  factor_a: astro_house_2
+  factor_b: astro_house_framework
+  relation_nature: Framework
+  condition_constraint: When house framework connects interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.881814'
+- relation_id: rel_house_3
+  relation_type: concept
+  factor_a: astro_house_3
+  factor_b: astro_house_framework
+  relation_nature: Framework
+  condition_constraint: When house framework connects interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.881845'
+- relation_id: rel_house_4
+  relation_type: concept
+  factor_a: astro_house_4
+  factor_b: astro_house_framework
+  relation_nature: Framework
+  condition_constraint: When house framework connects interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.881874'
+- relation_id: rel_house_5
+  relation_type: concept
+  factor_a: astro_house_5
+  factor_b: astro_house_framework
+  relation_nature: Framework
+  condition_constraint: When house framework connects interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.881903'
+- relation_id: rel_house_6
+  relation_type: concept
+  factor_a: astro_house_6
+  factor_b: astro_house_framework
+  relation_nature: Framework
+  condition_constraint: When house framework connects interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.881935'
+- relation_id: rel_sign_3
+  relation_type: concept
+  factor_a: sign_gemini
+  factor_b: astro_zodiac_framework
+  relation_nature: Framework
+  condition_constraint: When house framework connects interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883192'
+- relation_id: rel_innersky_jupiter_001
+  relation_type: planet_sign
+  factor_a: planet_jupiter
+  factor_b: zodiac_sign
+  relation_nature: Jupiter placed in sign
+  condition_constraint: natal chart
+  effect_direction: When planet placed in natal chart
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.885500'
+- relation_id: rel_innersky_jupiter_002
+  relation_type: planet_planet
+  factor_a: planet_jupiter
+  factor_b: planet_saturn
+  relation_nature: 'Complementary: expansion vs structure'
+  condition_constraint: both natal
+  effect_direction: When both planets in natal chart complement
+  source_ref: beneficial
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.885508'
+- relation_id: rel_innersky_jupiter_003
+  relation_type: function_dependency
+  factor_a: jupiter_faith_function
+  factor_b: zodiac_sign
+  relation_nature: Sign prescribes expansion style
+  condition_constraint: sign position
+  effect_direction: When sign position prescribes function style
+  source_ref: beneficial
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.885516'
+- relation_id: rel_innersky_saturn_001
+  relation_type: planet_sign
+  factor_a: planet_saturn
+  factor_b: zodiac_sign
+  relation_nature: Saturn placed in sign
+  condition_constraint: natal chart
+  effect_direction: When planet placed in natal chart
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.885563'
+- relation_id: rel_innersky_saturn_002
+  relation_type: planet_planet
+  factor_a: planet_saturn
+  factor_b: planet_jupiter
+  relation_nature: 'Complementary: structure vs expansion'
+  condition_constraint: both natal
+  effect_direction: When both planets in natal chart complement
+  source_ref: beneficial
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.885567'
+- relation_id: rel_innersky_saturn_003
+  relation_type: transit_natal
+  factor_a: saturn_return
+  factor_b: natal_saturn
+  relation_nature: Saturn returns to natal position
+  condition_constraint: age 29-30
+  effect_direction: When Saturn returns to natal position at age 29-30
+  source_ref: restrictive
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.885570'
+- relation_id: rel_innersky_cancer_001
+  relation_type: sign_element
+  factor_a: sign_cancer
+  factor_b: element_water
+  relation_nature: Cardinal Water modality
+  condition_constraint: natal sign
+  effect_direction: When sign element modality expresses in natal
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888899'
+- relation_id: rel_innersky_cancer_002
+  relation_type: sign_planet
+  factor_a: sign_cancer
+  factor_b: planet_moon
+  relation_nature: Moon rules Cancer
+  condition_constraint: traditional rulership
+  effect_direction: When traditional ruler activates sign
+  source_ref: beneficial
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888904'
+- relation_id: rel_innersky_leo_001
+  relation_type: sign_element
+  factor_a: sign_leo
+  factor_b: element_fire
+  relation_nature: Fixed Fire modality
+  condition_constraint: natal sign
+  effect_direction: When sign element modality expresses in natal
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888942'
+- relation_id: rel_innersky_leo_002
+  relation_type: sign_planet
+  factor_a: sign_leo
+  factor_b: planet_sun
+  relation_nature: Sun rules Leo
+  condition_constraint: traditional rulership
+  effect_direction: When traditional ruler activates sign
+  source_ref: beneficial
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888945'
+- relation_id: rel_innersky_virgo_001
+  relation_type: sign_element
+  factor_a: sign_virgo
+  factor_b: element_earth
+  relation_nature: Mutable Earth modality
+  condition_constraint: natal sign
+  effect_direction: When sign element modality expresses in natal
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888982'
+- relation_id: rel_innersky_virgo_002
+  relation_type: sign_planet
+  factor_a: sign_virgo
+  factor_b: planet_mercury
+  relation_nature: Mercury rules Virgo
+  condition_constraint: traditional rulership
+  effect_direction: When traditional ruler activates sign
+  source_ref: beneficial
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888985'
+- relation_id: rel_forrest_conj_001
+  relation_type: aspect_fusion
+  factor_a: aspect_conjunction
+  factor_b: planetary_energy
+  relation_nature: Unified expression
+  condition_constraint: When planets within orb unify expression
+  effect_direction: intensifying
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.891181'
+- relation_id: rel_forrest_conj_002
+  relation_type: planetary_marriage
+  factor_a: aspect_conjunction
+  factor_b: planetary_energy
+  relation_nature: Fusion
+  condition_constraint: When planets at same degree fuse energies
+  effect_direction: blending
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.891196'
+- relation_id: rel_forrest_opp_001
+  relation_type: aspect_polarity
+  factor_a: aspect_opposition
+  factor_b: projection
+  relation_nature: Externalization
+  condition_constraint: When one pole denied leads to projection
+  effect_direction: polarizing
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.891242'
+- relation_id: rel_forrest_opp_002
+  relation_type: integration_path
+  factor_a: opposition
+  factor_b: balance
+  relation_nature: Owning both
+  condition_constraint: When both poles recognized leads to integration
+  effect_direction: integrating
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.891247'
+- relation_id: rel_forrest_sq_001
+  relation_type: aspect_friction
+  factor_a: aspect_square
+  factor_b: discord
+  relation_nature: Incompatibility
+  condition_constraint: When perpendicular energies create friction
+  effect_direction: challenging
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.891328'
+- relation_id: rel_forrest_sq_002
+  relation_type: growth_path
+  factor_a: square
+  factor_b: development
+  relation_nature: Struggle
+  condition_constraint: When unavoidable struggle strengthens growth
+  effect_direction: strengthening
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.891340'
+- relation_id: rel_forrest_tri_001
+  relation_type: aspect_harmony
+  factor_a: aspect_trine
+  factor_b: element
+  relation_nature: Natural flow
+  condition_constraint: When same element enables natural flow
+  effect_direction: supporting
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.891374'
+- relation_id: rel_forrest_tri_002
+  relation_type: activation_need
+  factor_a: trine
+  factor_b: awakening
+  relation_nature: Conscious effort
+  condition_constraint: When conscious effort awakens otherwise sleeping talent
+  effect_direction: realizing
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.891385'
+- relation_id: rel_forrest_sex_001
+  relation_type: aspect_excitation
+  factor_a: aspect_sextile
+  factor_b: stimulation
+  relation_nature: Mutual enlivenment
+  condition_constraint: When compatible elements mutually enliven
+  effect_direction: energizing
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.891418'
+- relation_id: rel_forrest_sex_002
+  relation_type: sustainment_need
+  factor_a: sextile
+  factor_b: direction
+  relation_nature: Channeling
+  condition_constraint: When channeling sustains otherwise fleeting stimulation
+  effect_direction: sustaining
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.891421'
+- relation_id: rel_innersky_libra_001
+  relation_type: sign_element
+  factor_a: sign_libra
+  factor_b: element_air
+  relation_nature: Cardinal Air modality
+  condition_constraint: natal sign
+  effect_direction: When sign element modality expresses in natal
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.893429'
+- relation_id: rel_innersky_libra_002
+  relation_type: sign_planet
+  factor_a: sign_libra
+  factor_b: planet_venus
+  relation_nature: Venus rules Libra
+  condition_constraint: traditional rulership
+  effect_direction: When traditional ruler activates sign
+  source_ref: beneficial
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.893436'
+- relation_id: rel_innersky_scorpio_001
+  relation_type: sign_element
+  factor_a: sign_scorpio
+  factor_b: element_water
+  relation_nature: Fixed Water modality
+  condition_constraint: natal sign
+  effect_direction: When sign element modality expresses in natal
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.893466'
+- relation_id: rel_innersky_scorpio_002
+  relation_type: sign_planet
+  factor_a: sign_scorpio
+  factor_b: planet_pluto
+  relation_nature: Pluto rules Scorpio (modern)
+  condition_constraint: When Pluto modern rulership activates Scorpio
+  effect_direction: transformative
+  source_ref: 'The Inner Sky #Scorpio'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.893472'
+- relation_id: rel_innersky_sagittarius_001
+  relation_type: sign_element
+  factor_a: sign_sagittarius
+  factor_b: element_fire
+  relation_nature: Mutable Fire modality
+  condition_constraint: natal sign
+  effect_direction: When sign element modality expresses in natal
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.893499'
+- relation_id: rel_innersky_sagittarius_002
+  relation_type: sign_planet
+  factor_a: sign_sagittarius
+  factor_b: planet_jupiter
+  relation_nature: Jupiter rules Sagittarius
+  condition_constraint: When Jupiter traditional rulership activates Sagittarius
+  effect_direction: expansive
+  source_ref: 'The Inner Sky #Sagittarius'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.893503'
+- relation_id: rel_innersky_capricorn_001
+  relation_type: sign_element
+  factor_a: sign_capricorn
+  factor_b: element_earth
+  relation_nature: Cardinal Earth modality
+  condition_constraint: natal sign
+  effect_direction: When sign element modality expresses in natal
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.893530'
+- relation_id: rel_innersky_capricorn_002
+  relation_type: sign_planet
+  factor_a: sign_capricorn
+  factor_b: planet_saturn
+  relation_nature: Saturn rules Capricorn
+  condition_constraint: When Saturn traditional rulership activates Capricorn
+  effect_direction: restrictive
+  source_ref: 'The Inner Sky #Capricorn'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.893533'
+- relation_id: rel_innersky_aquarius_001
+  relation_type: sign_element
+  factor_a: sign_aquarius
+  factor_b: element_air
+  relation_nature: Fixed Air modality
+  condition_constraint: natal sign
+  effect_direction: When sign element modality expresses in natal
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.893558'
+- relation_id: rel_innersky_aquarius_002
+  relation_type: sign_planet
+  factor_a: sign_aquarius
+  factor_b: planet_uranus
+  relation_nature: Uranus rules Aquarius (modern)
+  condition_constraint: When Uranus modern rulership activates Aquarius
+  effect_direction: revolutionary
+  source_ref: 'The Inner Sky #Aquarius'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.893561'
+- relation_id: rel_innersky_pisces_001
+  relation_type: sign_element
+  factor_a: sign_pisces
+  factor_b: element_water
+  relation_nature: Mutable Water modality
+  condition_constraint: natal sign
+  effect_direction: When sign element modality expresses in natal
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.893591'
+- relation_id: rel_innersky_pisces_002
+  relation_type: sign_planet
+  factor_a: sign_pisces
+  factor_b: planet_neptune
+  relation_nature: Neptune rules Pisces (modern)
+  condition_constraint: When Neptune modern rulership activates Pisces
+  effect_direction: dissolutive
+  source_ref: 'The Inner Sky #Pisces'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.893594'
+- relation_id: rel_innersky_mercury_001
+  relation_type: planet_sign
+  factor_a: planet_mercury
+  factor_b: zodiac_sign
+  relation_nature: Mercury placed in sign
+  condition_constraint: natal chart
+  effect_direction: When planet placed in natal chart
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.896273'
+- relation_id: rel_innersky_mercury_002
+  relation_type: function_modifier
+  factor_a: mercury_mind_function
+  factor_b: retrograde_state
+  relation_nature: Retrograde modifies expression
+  condition_constraint: Rx period
+  effect_direction: When retrograde period modifies expression
+  source_ref: mixed
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.896278'
+- relation_id: rel_innersky_mercury_003
+  relation_type: planet_planet
+  factor_a: planet_mercury
+  factor_b: planet_sun
+  relation_nature: Messenger of ego
+  condition_constraint: max 28 degrees
+  effect_direction: When Mercury stays within 28 degrees of Sun
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.896281'
+- relation_id: rel_innersky_venus_001
+  relation_type: planet_sign
+  factor_a: planet_venus
+  factor_b: zodiac_sign
+  relation_nature: Venus placed in sign
+  condition_constraint: natal chart
+  effect_direction: When planet placed in natal chart
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.896322'
+- relation_id: rel_innersky_venus_002
+  relation_type: planet_planet
+  factor_a: planet_venus
+  factor_b: planet_moon
+  relation_nature: 'Complementary: appreciation vs need'
+  condition_constraint: both natal
+  effect_direction: When both planets in natal chart interact
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.896327'
+- relation_id: rel_innersky_venus_003
+  relation_type: function_dependency
+  factor_a: venus_love_function
+  factor_b: zodiac_sign
+  relation_nature: Sign prescribes love style
+  condition_constraint: sign position
+  effect_direction: When sign position prescribes function style
+  source_ref: beneficial
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.896331'
+- relation_id: rel_innersky_mars_001
+  relation_type: planet_sign
+  factor_a: planet_mars
+  factor_b: zodiac_sign
+  relation_nature: Mars placed in sign
+  condition_constraint: natal chart
+  effect_direction: When planet placed in natal chart
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.896369'
+- relation_id: rel_innersky_mars_002
+  relation_type: planet_planet
+  factor_a: planet_mars
+  factor_b: planet_sun
+  relation_nature: Executor of ego will
+  condition_constraint: both natal
+  effect_direction: When both planets in natal chart complement
+  source_ref: beneficial
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.896373'
+- relation_id: rel_innersky_mars_003
+  relation_type: function_dependency
+  factor_a: mars_will_function
+  factor_b: zodiac_sign
+  relation_nature: Sign prescribes action style
+  condition_constraint: sign position
+  effect_direction: When sign position prescribes function style
+  source_ref: beneficial
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.896375'
+- relation_id: rel_innersky_sun_001
+  relation_type: planet_sign
+  factor_a: planet_sun
+  factor_b: zodiac_sign
+  relation_nature: Sun placed in sign
+  condition_constraint: natal chart
+  effect_direction: When planet placed in natal chart
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898098'
+- relation_id: rel_innersky_sun_002
+  relation_type: function_dependency
+  factor_a: sun_ego_function
+  factor_b: zodiac_sign
+  relation_nature: Sign prescribes feeding
+  condition_constraint: sign position
+  effect_direction: When sign position prescribes function style
+  source_ref: beneficial
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898103'
+- relation_id: rel_innersky_moon_001
+  relation_type: planet_sign
+  factor_a: planet_moon
+  factor_b: zodiac_sign
+  relation_nature: Moon placed in sign
+  condition_constraint: natal chart
+  effect_direction: When planet placed in natal chart
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898143'
+- relation_id: rel_innersky_moon_002
+  relation_type: planet_planet
+  factor_a: planet_moon
+  factor_b: planet_sun
+  relation_nature: Complementary polarity
+  condition_constraint: both natal
+  effect_direction: When both planets in natal chart interact
+  source_ref: neutral
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898146'
+- relation_id: rel_innersky_moon_003
+  relation_type: function_dependency
+  factor_a: moon_feeling_function
+  factor_b: zodiac_sign
+  relation_nature: Sign prescribes emotional needs
+  condition_constraint: sign position
+  effect_direction: When sign position prescribes function style
+  source_ref: beneficial
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898150'
+- relation_id: rel_house_7
+  relation_type: concept
+  factor_a: astro_house_7
+  factor_b: astro_house_framework
+  relation_nature: Framework
+  condition_constraint: When house framework connects interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.899873'
+- relation_id: rel_house_8
+  relation_type: concept
+  factor_a: astro_house_8
+  factor_b: astro_house_framework
+  relation_nature: Framework
+  condition_constraint: When house framework connects interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.899910'
+- relation_id: rel_house_9
+  relation_type: concept
+  factor_a: astro_house_9
+  factor_b: astro_house_framework
+  relation_nature: Framework
+  condition_constraint: When house framework connects interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.899945'
+- relation_id: rel_house_10
+  relation_type: concept
+  factor_a: astro_house_10
+  factor_b: astro_house_framework
+  relation_nature: Framework
+  condition_constraint: When house framework connects interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.899977'
+- relation_id: rel_house_11
+  relation_type: concept
+  factor_a: astro_house_11
+  factor_b: astro_house_framework
+  relation_nature: Framework
+  condition_constraint: When house framework connects interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.900007'
+- relation_id: rel_house_12
+  relation_type: concept
+  factor_a: astro_house_12
+  factor_b: astro_house_framework
+  relation_nature: Framework
+  condition_constraint: When house framework connects interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.900037'
+- relation_id: rel_inner_sky_001
+  relation_type: causal
+  factor_a: astro_planet AND astro_astro_sign AND astro_astro_house
+  factor_b: astro_chart_interpretation
+  relation_nature: Three symbols create depth
+  condition_constraint: When all three dimensions are considered together
+  effect_direction: BENEFICIAL
+  source_ref: 'Forrest #Ch1'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.909338'
+- relation_id: rel_inner_sky_002
+  relation_type: complementary
+  factor_a: astro_what_function AND astro_astro_how_style AND astro_astro_where_arena
+  factor_b: astro_complete_meaning
+  relation_nature: Question triad produces coherent reading
+  condition_constraint: When interpretation follows what/how-why/where sequence
+  effect_direction: BENEFICIAL
+  source_ref: 'Forrest #Ch1'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.909357'
+- relation_id: rel_inner_sky_symbol_001
+  relation_type: methodological
+  factor_a: symbol_reading_method
+  factor_b: wholeness_principle
+  relation_nature: Symbol reading requires holistic view
+  condition_constraint: Chart must be seen as interacting system
+  effect_direction: When chart viewed holistically enables symbol reading
+  source_ref: ENABLING
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.909414'
+- relation_id: rel_inner_sky_time_001
+  relation_type: data_quality
+  factor_a: birth_time_accuracy
+  factor_b: chart_resolution
+  relation_nature: Accurate time enables house-level reading
+  condition_constraint: Precise birth time required for houses
+  effect_direction: When precise birth time enables house-level reading
+  source_ref: ENABLING
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.909479'
+- relation_id: rel_inner_sky_season_001
+  relation_type: grounding
+  factor_a: seasonal_zodiac
+  factor_b: element_system
+  relation_nature: Seasons define zodiac not constellations
+  condition_constraint: Signs based on light cycles
+  effect_direction: When seasons based on light cycles define zodiac
+  source_ref: FOUNDATIONAL
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.909540'
+- relation_id: rel_inner_sky_bit_001
+  relation_type: exemplary
+  factor_a: planet_venus AND astro_sign_virgo AND astro_house_6
+  factor_b: concrete_bit
+  relation_nature: Venus-Virgo-6H as example combination
+  condition_constraint: Professional partnerships in work context
+  effect_direction: When Venus-Virgo-6H illustrates concrete interpretation
+  source_ref: ILLUSTRATIVE
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.909598'
+- relation_id: rel_inner_sky_nodes_001
+  relation_type: polar
+  factor_a: south_node_past
+  factor_b: north_node_future
+  relation_nature: Nodal axis links past imprint to growth direction
+  condition_constraint: Past patterns vs future development
+  effect_direction: When nodal axis links past to future direction
+  source_ref: DEVELOPMENTAL
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.909662'
+- relation_id: rel_inner_sky_guideline6_001
+  relation_type: methodological
+  factor_a: technique_limitation
+  factor_b: human_resolution
+  relation_nature: Know when to drop technique for human agency
+  condition_constraint: Guidelines serve insight, not endless elaboration
+  effect_direction: LIMITING
+  source_ref: 'Forrest #Ch10'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.909822'
+- relation_id: rel_inner_sky_example_001
+  relation_type: integrative
+  factor_a: chart_focalizers
+  factor_b: nodal_storyline
+  relation_nature: Remaining focalizers and nodes complete the picture
+  condition_constraint: When Mercury/Pluto plus nodal axis integration completes picture
+  effect_direction: SYNTHESIZING
+  source_ref: 'Forrest #Ch11'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.909990'
+- relation_id: rel_inner_sky_cosmos_001
+  relation_type: philosophical
+  factor_a: sky_map_reality
+  factor_b: psyche_cosmos_parallel
+  relation_nature: Chart is literal sky map and psychological map
+  condition_constraint: Two languages describe one reality
+  effect_direction: When sky map parallels psyche map
+  source_ref: FOUNDATIONAL
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.910076'

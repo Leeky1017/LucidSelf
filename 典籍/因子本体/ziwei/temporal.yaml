@@ -1,0 +1,77 @@
+# 紫微体系 - 时间类因子
+# Temporal factors for ZiWei system
+
+factors:
+  # 大限
+  - id: ziwei_daxian
+    status: existing
+    display_zh: 大限
+    display_en: Major Limit
+    description_zh: 十年运势周期
+    description_en: Ten-year fortune cycle
+    category: temporal
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_daxian_palace
+    status: existing
+    display_zh: 大限宫位
+    display_en: Major Limit Palace
+    description_zh: 当前大限所在宫位
+    description_en: Current major limit palace
+    category: temporal
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  # 小限
+  - id: ziwei_xiaoxian
+    status: existing
+    display_zh: 小限
+    display_en: Minor Limit
+    description_zh: 一年运势周期
+    description_en: One-year fortune cycle
+    category: temporal
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_xiaoxian_palace
+    status: existing
+    display_zh: 小限宫位
+    display_en: Minor Limit Palace
+    description_zh: 当前小限所在宫位
+    description_en: Current minor limit palace
+    category: temporal
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  # 流年四化
+  - id: ziwei_liunian_sihua
+    status: existing
+    display_zh: 流年四化
+    display_en: Annual Four Transformations
+    description_zh: 当年的四化飞入
+    description_en: Current year's four transformations
+    category: temporal
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  # 行运
+  - id: ziwei_current_decade
+    status: existing
+    display_zh: 当前十年
+    display_en: Current Decade
+    description_zh: 当前所处的大限阶段
+    description_en: Current major limit stage
+    category: temporal
+    value_type: numeric
+    applicable_systems: [ziwei]
+
+  - id: ziwei_current_year_palace
+    status: existing
+    display_zh: 流年宫
+    display_en: Annual Palace
+    description_zh: 当年流年所在的宫位
+    description_en: Current year's palace position
+    category: temporal
+    value_type: reference
+    applicable_systems: [ziwei]

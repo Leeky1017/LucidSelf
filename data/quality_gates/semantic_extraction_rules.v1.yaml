@@ -1,0 +1,20 @@
+version: 1
+ruleset_id: semantic_extraction_quality_rules.v1
+
+blocking:
+  enabled: true
+
+minimum_blocking_set:
+  description: Any ERROR-severity validation finding after exceptions MUST block.
+  error_types: []
+
+thresholds:
+  max_total_errors: 0
+  max_total_warnings: 50000
+
+reporting:
+  max_error_samples: 200
+  max_warning_samples: 200
+
+exceptions:
+  path: data/quality_gates/exceptions/semantic_extraction_exceptions.v1.yaml

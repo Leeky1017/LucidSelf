@@ -1,0 +1,121 @@
+# 梦境体系 - 结构类因子
+# Structure factors for Dream system
+
+factors:
+  # 梦境主模式
+  - id: dream_primary_pattern
+    status: existing
+    display_zh: 梦境主模式
+    display_en: Dream Primary Pattern
+    description_zh: 梦境的主要叙事模式
+    description_en: Main narrative pattern of the dream
+    category: structure
+    value_type: enum
+    value_range: [chase, falling, flying, water, death, teeth, naked, test, journey, transformation]
+    applicable_systems: [dream]
+
+  - id: dream_symbolic_motif
+    status: existing
+    display_zh: 象征主题
+    display_en: Symbolic Motif
+    description_zh: 梦境的核心象征主题
+    description_en: Core symbolic theme of the dream
+    category: structure
+    value_type: string
+    applicable_systems: [dream]
+
+  # 梦境场景
+  - id: dream_setting
+    status: existing
+    display_zh: 梦境场景
+    display_en: Dream Setting
+    description_zh: 梦境发生的主要场所
+    description_en: Main location where dream occurs
+    category: structure
+    value_type: enum
+    value_range: [home, school, work, nature, water, sky, underground, urban, unknown]
+    applicable_systems: [dream]
+
+  - id: dream_time_context
+    status: existing
+    display_zh: 时间背景
+    display_en: Time Context
+    description_zh: 梦中的时间设定
+    description_en: Time setting in the dream
+    category: structure
+    value_type: enum
+    value_range: [day, night, dawn, dusk, timeless]
+    applicable_systems: [dream]
+
+  # 梦中人物
+  - id: dream_protagonist
+    status: existing
+    display_zh: 梦中主角
+    display_en: Dream Protagonist
+    description_zh: 梦境中的主要人物
+    description_en: Main character in the dream
+    category: structure
+    value_type: enum
+    value_range: [self, known_person, stranger, animal, archetype, none]
+    applicable_systems: [dream]
+
+  - id: dream_figures
+    status: existing
+    display_zh: 梦中人物
+    display_en: Dream Figures
+    description_zh: 梦境中出现的重要人物
+    description_en: Important figures appearing in the dream
+    category: structure
+    value_type: string
+    applicable_systems: [dream]
+
+  # 梦象符号
+  - id: dream_symbol_water
+    status: existing
+    display_zh: 水象符号
+    display_en: Water Symbol
+    description_zh: 梦中出现水相关意象
+    description_en: Water-related imagery in dream
+    category: structure
+    value_type: boolean
+    applicable_systems: [dream]
+
+  - id: dream_symbol_fire
+    status: existing
+    display_zh: 火象符号
+    display_en: Fire Symbol
+    description_zh: 梦中出现火相关意象
+    description_en: Fire-related imagery in dream
+    category: structure
+    value_type: boolean
+    applicable_systems: [dream]
+
+  - id: dream_symbol_animal
+    status: existing
+    display_zh: 动物符号
+    display_en: Animal Symbol
+    description_zh: 梦中出现动物意象
+    description_en: Animal imagery in dream
+    category: structure
+    value_type: string
+    applicable_systems: [dream]
+
+  - id: dream_symbol_death
+    status: existing
+    display_zh: 死亡符号
+    display_en: Death Symbol
+    description_zh: 梦中出现死亡相关意象
+    description_en: Death-related imagery in dream
+    category: structure
+    value_type: boolean
+    applicable_systems: [dream]
+
+  - id: dream_symbol_vehicle
+    status: existing
+    display_zh: 载具符号
+    display_en: Vehicle Symbol
+    description_zh: 梦中出现交通工具
+    description_en: Vehicle/transportation in dream
+    category: structure
+    value_type: string
+    applicable_systems: [dream]

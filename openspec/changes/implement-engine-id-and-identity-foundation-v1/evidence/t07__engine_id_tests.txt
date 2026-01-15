@@ -1,0 +1,9 @@
+$ PYTHONPATH=. .venv/bin/pytest backend/tests/gate0/test_engine_id_governance.py -q
+.....                                                                    [100%]
+=============================== warnings summary ===============================
+backend/rules/__init__.py:27
+  /home/leeky/work/LucidSelf/backend/rules/__init__.py:27: DeprecationWarning: dimension.py 已弃用，请迁移到 backend.core.contracts.unified_dimensions 模块的 DimensionRegistry
+    from backend.rules.dimension import DimensionMapper, get_dimension_mapper
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+5 passed, 1 warning in 0.48s

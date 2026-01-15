@@ -1,0 +1,38 @@
+### strict policy
+version: 1
+policy_id: cross_book_conflict_gate_policy.blocking_demo
+scope:
+  cross_book_only: true
+blocking:
+  enabled: true
+severity_map:
+  direct_contradiction: HIGH
+  conditional_exception: LOW
+  scope_difference: LOW
+  cross_system_divergence: MEDIUM
+thresholds:
+  - name: direct_contradiction_max
+    match:
+      conflict_type: direct_contradiction
+      severity: HIGH
+    max_count: 0
+  - name: total_conflicts_max
+    match: {}
+    max_count: 0
+reporting:
+  max_conflicts: 5000
+exceptions:
+  path: data/knowledge_graph/exceptions/conflict_exceptions.v1.yaml
+
+### run (expected FAIL exit!=0)
+returncode 2
+--- stdout ---
+FAIL: artifacts/_tmp_conflict_blocking/conflict_report.json
+
+--- stderr ---
+
+
+### output report summary
+verdict fail
+direct_contradiction_max fail 153 0
+total_conflicts_max fail 655 0

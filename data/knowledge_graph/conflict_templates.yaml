@@ -1,0 +1,91 @@
+# Conflict Templates - 冲突消解模板配置
+# Feature: cross-book-knowledge-graph
+# Requirement Refs: Req 13.2
+
+templates:
+  # 权威性消解模板
+  - template_id: tpl_authority_resolution
+    conflict_type: direct_contradiction
+    resolution_strategy: authority_based
+    template_zh: |
+      关于{dimension}方面，{source_a}（权威性{score_a}）认为"{viewpoint_a}"，
+      而{source_b}（权威性{score_b}）则持"{viewpoint_b}"的观点。
+      综合权威性分析，建议以{winner}的论述为主要参考。
+    template_en: |
+      Regarding {dimension}, {source_a} (authority {score_a}) suggests "{viewpoint_a}",
+      while {source_b} (authority {score_b}) holds the view of "{viewpoint_b}".
+      Based on authority analysis, we recommend referring primarily to {winner}.
+    placeholders:
+      - dimension
+      - source_a
+      - score_a
+      - viewpoint_a
+      - source_b
+      - score_b
+      - viewpoint_b
+      - winner
+
+  # 条件消解模板
+  - template_id: tpl_condition_resolution
+    conflict_type: conditional_exception
+    resolution_strategy: condition_based
+    template_zh: |
+      在{dimension}领域，一般情况下"{general_rule}"，
+      但当{condition}时，则"{exception_rule}"。
+      您的情况属于{applicable_case}，因此{conclusion}。
+    template_en: |
+      In the area of {dimension}, generally "{general_rule}",
+      but when {condition}, then "{exception_rule}".
+      Your situation falls under {applicable_case}, therefore {conclusion}.
+    placeholders:
+      - dimension
+      - general_rule
+      - condition
+      - exception_rule
+      - applicable_case
+      - conclusion
+
+  # 综合消解模板
+  - template_id: tpl_synthesis_resolution
+    conflict_type: scope_difference
+    resolution_strategy: synthesis
+    template_zh: |
+      关于{dimension}，不同典籍从不同角度提供了见解：
+      {source_a}侧重于{focus_a}，认为"{viewpoint_a}"；
+      {source_b}侧重于{focus_b}，认为"{viewpoint_b}"。
+      综合来看，{synthesis}。
+    template_en: |
+      Regarding {dimension}, different texts offer insights from various angles:
+      {source_a} focuses on {focus_a}, suggesting "{viewpoint_a}";
+      {source_b} focuses on {focus_b}, suggesting "{viewpoint_b}".
+      In synthesis, {synthesis}.
+    placeholders:
+      - dimension
+      - source_a
+      - focus_a
+      - viewpoint_a
+      - source_b
+      - focus_b
+      - viewpoint_b
+      - synthesis
+
+  # 并列呈现模板
+  - template_id: tpl_present_both
+    conflict_type: cross_system_divergence
+    resolution_strategy: present_both
+    template_zh: |
+      在{dimension}方面，不同命理体系给出了不同的解读：
+      【{system_a}视角】{viewpoint_a}
+      【{system_b}视角】{viewpoint_b}
+      两种视角各有侧重，建议综合参考。
+    template_en: |
+      Regarding {dimension}, different divination systems offer different interpretations:
+      【{system_a} Perspective】{viewpoint_a}
+      【{system_b} Perspective】{viewpoint_b}
+      Each perspective has its focus; we recommend considering both.
+    placeholders:
+      - dimension
+      - system_a
+      - viewpoint_a
+      - system_b
+      - viewpoint_b

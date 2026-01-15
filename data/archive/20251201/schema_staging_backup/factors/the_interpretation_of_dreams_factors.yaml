@@ -1,0 +1,1206 @@
+book_id: the_interpretation_of_dreams
+source_file: 典籍/texts/The Interpretation of Dreams/编辑/L1.md, 典籍/texts/The Interpretation
+  of Dreams/编辑/Freud_Dreams_Ch7_Psychology_v2.1.md, 典籍/texts/The Interpretation of
+  Dreams/编辑/Freud_Dreams_Ch6_DreamWork_v2.1.md, 典籍/texts/The Interpretation of Dreams/编辑/Freud_Dreams_Ch5_Sources_v2.1.md,
+  典籍/texts/The Interpretation of Dreams/编辑/L2.md, 典籍/texts/The Interpretation of Dreams/编辑/Dream_Mechanisms_Freud_v2.1.md
+extracted_at: '2025-11-30T15:46:48.977750'
+factors:
+- factor_type: Function
+  factor_label: Guardian of Sleep
+  factor_id: guardian_of_sleep
+  factor_source: new_candidate
+  role_position: Dream Purpose
+  value_constraint: Primary
+  engine_id: dream_semantic
+  notes: Core theory
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.995915'
+- factor_type: Process
+  factor_label: Stimulus Incorporation
+  factor_id: stimulus_incorporation
+  factor_source: new_candidate
+  role_position: Mechanism
+  value_constraint: External→Internal
+  engine_id: dream_semantic
+  notes: Absorption
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.995923'
+- factor_type: Example
+  factor_label: Burning Child Dream
+  factor_id: burning_child
+  factor_source: new_candidate
+  role_position: Paradigm
+  value_constraint: Ch.VII opening
+  engine_id: dream_semantic
+  notes: Famous example
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.995928'
+- factor_type: Pattern
+  factor_label: Sleep Extension
+  factor_id: sleep_extension
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: Moment longer
+  engine_id: dream_semantic
+  notes: Protective result
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.995932'
+- factor_type: Process
+  factor_label: Regression
+  factor_id: regression
+  factor_source: new_candidate
+  role_position: Core Mechanism
+  value_constraint: Motor→Perceptual
+  engine_id: dream_semantic
+  notes: Metapsychology
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.995950'
+- factor_type: Model
+  factor_label: Topographical Model
+  factor_id: topographical_model
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Spatial
+  engine_id: dream_semantic
+  notes: First model
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.995954'
+- factor_type: Structure
+  factor_label: Perceptual End
+  factor_id: perceptual_end
+  factor_source: new_candidate
+  role_position: Apparatus Component
+  value_constraint: Input
+  engine_id: dream_semantic
+  notes: Destination
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.995958'
+- factor_type: Structure
+  factor_label: Motor End
+  factor_id: motor_end
+  factor_source: new_candidate
+  role_position: Apparatus Component
+  value_constraint: Output
+  engine_id: dream_semantic
+  notes: Origin
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.995963'
+- factor_type: Pattern
+  factor_label: Hallucinatory Satisfaction
+  factor_id: hallucinatory_satisfaction
+  factor_source: new_candidate
+  role_position: Wish Mode
+  value_constraint: Visual
+  engine_id: dream_semantic
+  notes: Product
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.995967'
+- factor_type: Mode
+  factor_label: Primary Process
+  factor_id: primary_process
+  factor_source: new_candidate
+  role_position: Unconscious
+  value_constraint: Free energy
+  engine_id: dream_semantic
+  notes: Dream-work mode
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.995984'
+- factor_type: Mode
+  factor_label: Secondary Process
+  factor_id: secondary_process
+  factor_source: new_candidate
+  role_position: Conscious
+  value_constraint: Bound energy
+  engine_id: dream_semantic
+  notes: Waking mode
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.995987'
+- factor_type: Principle
+  factor_label: Pleasure Principle
+  factor_id: pleasure_principle
+  factor_source: new_candidate
+  role_position: Primary Goal
+  value_constraint: Immediate discharge
+  engine_id: dream_semantic
+  notes: Foundational
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.995991'
+- factor_type: Principle
+  factor_label: Reality Principle
+  factor_id: reality_principle
+  factor_source: new_candidate
+  role_position: Secondary Goal
+  value_constraint: Delayed discharge
+  engine_id: dream_semantic
+  notes: Foundational
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.995995'
+- factor_type: Quality
+  factor_label: Free Energy
+  factor_id: free_energy
+  factor_source: new_candidate
+  role_position: Energy Type
+  value_constraint: Transferable
+  engine_id: dream_semantic
+  notes: Primary characteristic
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.995999'
+- factor_type: Quality
+  factor_label: Bound Energy
+  factor_id: bound_energy
+  factor_source: new_candidate
+  role_position: Energy Type
+  value_constraint: Stable
+  engine_id: dream_semantic
+  notes: Secondary characteristic
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.996003'
+- factor_type: Pattern
+  factor_label: Anxiety Dream
+  factor_id: anxiety_dream
+  factor_source: new_candidate
+  role_position: Dream Type
+  value_constraint: Causes waking
+  engine_id: dream_semantic
+  notes: Test case
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.996019'
+- factor_type: Mechanism
+  factor_label: Failed Guardian
+  factor_id: failed_guardian
+  factor_source: new_candidate
+  role_position: Function Failure
+  value_constraint: Overwhelmed
+  engine_id: dream_semantic
+  notes: Exception that proves
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.996024'
+- factor_type: Signal
+  factor_label: Anxiety Signal
+  factor_id: anxiety_signal
+  factor_source: new_candidate
+  role_position: Ego Function
+  value_constraint: Internal danger
+  engine_id: dream_semantic
+  notes: Defense mechanism
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.996029'
+- factor_type: Process
+  factor_label: Dream Abortion
+  factor_id: dream_abortion
+  factor_source: new_candidate
+  role_position: Termination
+  value_constraint: Forced waking
+  engine_id: dream_semantic
+  notes: Last resort
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.996033'
+- factor_type: System
+  factor_label: Unconscious
+  factor_id: system_ucs
+  factor_source: new_candidate
+  role_position: Foundation
+  value_constraint: Larger circle
+  engine_id: dream_semantic
+  notes: Real psychic
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.996045'
+- factor_type: System
+  factor_label: Consciousness
+  factor_id: system_cs
+  factor_source: new_candidate
+  role_position: Surface
+  value_constraint: Smaller circle
+  engine_id: dream_semantic
+  notes: Derivative
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.996049'
+- factor_type: Metaphor
+  factor_label: Larger Circle
+  factor_id: larger_circle
+  factor_source: new_candidate
+  role_position: Model
+  value_constraint: Containment
+  engine_id: dream_semantic
+  notes: Iconic
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.996053'
+- factor_type: Principle
+  factor_label: Real Psychic
+  factor_id: real_psychic
+  factor_source: new_candidate
+  role_position: Ontology
+  value_constraint: Ucs. primary
+  engine_id: dream_semantic
+  notes: Revolutionary
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.996057'
+- factor_type: Pattern
+  factor_label: Virtual Image
+  factor_id: virtual_image
+  factor_source: new_candidate
+  role_position: Perception Model
+  value_constraint: Constructed
+  engine_id: dream_semantic
+  notes: Telescope
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.996061'
+- factor_type: Structure
+  factor_label: Manifest Content
+  factor_id: manifest_content
+  factor_source: new_candidate
+  role_position: Dream Layer
+  value_constraint: Surface/remembered
+  engine_id: dream_semantic
+  notes: Freud core concept
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997852'
+- factor_type: Structure
+  factor_label: Latent Content
+  factor_id: latent_content
+  factor_source: new_candidate
+  role_position: Dream Layer
+  value_constraint: Hidden/unconscious
+  engine_id: dream_semantic
+  notes: Freud core concept
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997860'
+- factor_type: Process
+  factor_label: Dream-Work
+  factor_id: dream_work
+  factor_source: new_candidate
+  role_position: Transformation
+  value_constraint: Latent→Manifest
+  engine_id: dream_semantic
+  notes: Umbrella process
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997866'
+- factor_type: Pattern
+  factor_label: Rebus Principle
+  factor_id: rebus_principle
+  factor_source: new_candidate
+  role_position: Method
+  value_constraint: Sign-by-sign
+  engine_id: dream_semantic
+  notes: Interpretive key
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997870'
+- factor_type: Relational
+  factor_label: Two-Language Model
+  factor_id: two_language_model
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Thought↔Image
+  engine_id: dream_semantic
+  notes: Translation paradigm
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997874'
+- factor_type: Process
+  factor_label: Condensation
+  factor_id: condensation
+  factor_source: existing
+  role_position: Dream-Work Mechanism
+  value_constraint: Primary
+  engine_id: dream_semantic
+  notes: From L2.md
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997892'
+- factor_type: Structure
+  factor_label: Nodal Point
+  factor_id: nodal_point
+  factor_source: new_candidate
+  role_position: Convergence Site
+  value_constraint: Multiple chains
+  engine_id: dream_semantic
+  notes: Key interpretive marker
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997897'
+- factor_type: Pattern
+  factor_label: Disproportion Ratio
+  factor_id: disproportion_ratio
+  factor_source: new_candidate
+  role_position: Measure
+  value_constraint: 1:6-12
+  engine_id: dream_semantic
+  notes: Diagnostic
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997901'
+- factor_type: Structure
+  factor_label: Composite Figure
+  factor_id: composite_figure
+  factor_source: new_candidate
+  role_position: Dream Element
+  value_constraint: Multi-person
+  engine_id: dream_semantic
+  notes: Condensation product
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997905'
+- factor_type: Quality
+  factor_label: Indeterminability
+  factor_id: indeterminability
+  factor_source: new_candidate
+  role_position: Property
+  value_constraint: No limit
+  engine_id: dream_semantic
+  notes: Theoretical
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997909'
+- factor_type: Process
+  factor_label: Displacement
+  factor_id: displacement
+  factor_source: existing
+  role_position: Dream-Work Mechanism
+  value_constraint: Secondary
+  engine_id: dream_semantic
+  notes: From L2.md
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997923'
+- factor_type: Quality
+  factor_label: Psychic Intensity
+  factor_id: psychic_intensity
+  factor_source: new_candidate
+  role_position: Emotional Value
+  value_constraint: Shiftable
+  engine_id: dream_semantic
+  notes: What gets displaced
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997927'
+- factor_type: Pattern
+  factor_label: Emotional Disproportion
+  factor_id: emotional_disproportion
+  factor_source: new_candidate
+  role_position: Diagnostic Sign
+  value_constraint: Trivial=intense
+  engine_id: dream_semantic
+  notes: Signals displacement
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997931'
+- factor_type: Relational
+  factor_label: Displacement↔Censorship
+  factor_id: displacement_censorship
+  factor_source: new_candidate
+  role_position: Functional Link
+  value_constraint: Defense
+  engine_id: dream_semantic
+  notes: Serves repression
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997937'
+- factor_type: Constraint
+  factor_label: Visual Limitation
+  factor_id: visual_limitation
+  factor_source: new_candidate
+  role_position: Medium Property
+  value_constraint: Pictures not propositions
+  engine_id: dream_semantic
+  notes: Fundamental
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997952'
+- factor_type: Structure
+  factor_label: Logical Relations
+  factor_id: logical_relations
+  factor_source: new_candidate
+  role_position: Thought Component
+  value_constraint: Cannot be represented
+  engine_id: dream_semantic
+  notes: Lost in dreams
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997957'
+- factor_type: Structure
+  factor_label: Objective Content
+  factor_id: objective_content
+  factor_source: new_candidate
+  role_position: What Survives
+  value_constraint: Images/events
+  engine_id: dream_semantic
+  notes: What dreams show
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997961'
+- factor_type: Pattern
+  factor_label: Fragmentation
+  factor_id: fragmentation
+  factor_source: new_candidate
+  role_position: Process
+  value_constraint: Drifting ice
+  engine_id: dream_semantic
+  notes: Dream-work effect
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997965'
+- factor_type: Constraint
+  factor_label: Presentability
+  factor_id: presentability
+  factor_source: new_candidate
+  role_position: Medium Requirement
+  value_constraint: Visual only
+  engine_id: dream_semantic
+  notes: Representation limit
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997978'
+- factor_type: Process
+  factor_label: Abstract→Concrete
+  factor_id: abstract_concrete
+  factor_source: new_candidate
+  role_position: Transformation
+  value_constraint: Thought→Image
+  engine_id: dream_semantic
+  notes: Translation mechanism
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997982'
+- factor_type: Property
+  factor_label: Verbal Ambiguity
+  factor_id: verbal_ambiguity
+  factor_source: new_candidate
+  role_position: Linguistic Feature
+  value_constraint: Polysemy
+  engine_id: dream_semantic
+  notes: Enables condensation
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997988'
+- factor_type: Pattern
+  factor_label: Literalization
+  factor_id: literalization
+  factor_source: new_candidate
+  role_position: Tendency
+  value_constraint: Metaphor→Literal
+  engine_id: dream_semantic
+  notes: Dream characteristic
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.997991'
+- factor_type: Quality
+  factor_label: Affect
+  factor_id: affect
+  factor_source: new_candidate
+  role_position: Emotional Layer
+  value_constraint: Unchanged
+  engine_id: dream_semantic
+  notes: Stable element
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.998004'
+- factor_type: Structure
+  factor_label: Presentation Content
+  factor_id: presentation_content
+  factor_source: new_candidate
+  role_position: Ideational Layer
+  value_constraint: Transformed
+  engine_id: dream_semantic
+  notes: Subject to dream-work
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.998009'
+- factor_type: Pattern
+  factor_label: Affect-Content Dissociation
+  factor_id: affect_dissociation
+  factor_source: new_candidate
+  role_position: Separation
+  value_constraint: Defense
+  engine_id: dream_semantic
+  notes: Key mechanism
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.998012'
+- factor_type: Sign
+  factor_label: Incongruence
+  factor_id: incongruence
+  factor_source: new_candidate
+  role_position: Diagnostic
+  value_constraint: Mismatch
+  engine_id: dream_semantic
+  notes: Interpretation clue
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.998018'
+- factor_type: Process
+  factor_label: Secondary Elaboration
+  factor_id: secondary_elaboration
+  factor_source: new_candidate
+  role_position: Fourth Mechanism
+  value_constraint: Final stage
+  engine_id: dream_semantic
+  notes: Core concept
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.998034'
+- factor_type: Structure
+  factor_label: Interpolation
+  factor_id: interpolation
+  factor_source: new_candidate
+  role_position: Addition
+  value_constraint: Gap-filling
+  engine_id: dream_semantic
+  notes: '"As if" marker'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.998038'
+- factor_type: Pattern
+  factor_label: Façade
+  factor_id: facade
+  factor_source: new_candidate
+  role_position: Surface
+  value_constraint: False coherence
+  engine_id: dream_semantic
+  notes: Interpretation obstacle
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.998043'
+- factor_type: Pattern
+  factor_label: Pre-interpretation
+  factor_id: pre_interpretation
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Already processed
+  engine_id: dream_semantic
+  notes: Diagnostic
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.998048'
+- factor_type: Source
+  factor_label: Day Residue
+  factor_id: day_residue
+  factor_source: new_candidate
+  role_position: Primary Trigger
+  value_constraint: Past 24h
+  engine_id: dream_semantic
+  notes: Universal principle
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.000110'
+- factor_type: Pattern
+  factor_label: Value Inversion
+  factor_id: value_inversion
+  factor_source: new_candidate
+  role_position: Selection Rule
+  value_constraint: Trivial > Important
+  engine_id: dream_semantic
+  notes: Disguise aid
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.000118'
+- factor_type: Quality
+  factor_label: Indifferent Material
+  factor_id: indifferent_material
+  factor_source: new_candidate
+  role_position: Content Type
+  value_constraint: Low affect
+  engine_id: dream_semantic
+  notes: Vehicle function
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.000123'
+- factor_type: Pattern
+  factor_label: Association Chain
+  factor_id: association_chain
+  factor_source: new_candidate
+  role_position: Linking
+  value_constraint: Recent↔Remote
+  engine_id: dream_semantic
+  notes: Bridge mechanism
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.000128'
+- factor_type: Source
+  factor_label: Infantile Experience
+  factor_id: infantile_experience
+  factor_source: new_candidate
+  role_position: Dream Material
+  value_constraint: Early life
+  engine_id: dream_semantic
+  notes: Third peculiarity
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.000142'
+- factor_type: Pattern
+  factor_label: Perennial Dream
+  factor_id: perennial_dream
+  factor_source: new_candidate
+  role_position: Dream Type
+  value_constraint: Recurring
+  engine_id: dream_semantic
+  notes: Diagnostic
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.000147'
+- factor_type: Motor
+  factor_label: Childhood Wish
+  factor_id: childhood_wish
+  factor_source: new_candidate
+  role_position: Dream Driver
+  value_constraint: Persistent
+  engine_id: dream_semantic
+  notes: Core insight
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.000151'
+- factor_type: Principle
+  factor_label: Child Lives On
+  factor_id: child_lives_on
+  factor_source: new_candidate
+  role_position: Developmental
+  value_constraint: Continuity
+  engine_id: dream_semantic
+  notes: Theoretical
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.000155'
+- factor_type: Category
+  factor_label: Typical Dreams
+  factor_id: typical_dream
+  factor_source: new_candidate
+  role_position: Dream Type
+  value_constraint: Universal
+  engine_id: dream_semantic
+  notes: Cross-cultural
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.000168'
+- factor_type: Pattern
+  factor_label: Nakedness Dream
+  factor_id: nakedness_dream
+  factor_source: new_candidate
+  role_position: Specific Type
+  value_constraint: Exhibitionism/Shame
+  engine_id: dream_semantic
+  notes: Very common
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.000177'
+- factor_type: Pattern
+  factor_label: Death Dream
+  factor_id: death_dream
+  factor_source: new_candidate
+  role_position: Specific Type
+  value_constraint: Ambivalence
+  engine_id: dream_semantic
+  notes: Controversial
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.000184'
+- factor_type: Pattern
+  factor_label: Examination Dream
+  factor_id: examination_dream
+  factor_source: new_candidate
+  role_position: Specific Type
+  value_constraint: Reassurance
+  engine_id: dream_semantic
+  notes: Adaptive
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.000188'
+- factor_type: Pattern
+  factor_label: Falling/Flying Dream
+  factor_id: falling_flying_dream
+  factor_source: new_candidate
+  role_position: Specific Type
+  value_constraint: Childhood sensation
+  engine_id: dream_semantic
+  notes: Somatic origin
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.000192'
+- factor_type: '**Structure**'
+  factor_label: Dream as paradigm
+  factor_id: temp_3ab610ca
+  factor_source: new_candidate
+  role_position: Theoretical Model
+  value_constraint: Universal accessibility, minimal defense
+  engine_id: dream_semantic
+  notes: Ideal for studying unconscious
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002621'
+- factor_type: '**Relational**'
+  factor_label: Chain of psychic structures
+  factor_id: temp_e33e08a0
+  factor_source: new_candidate
+  role_position: Pathological Continuum
+  value_constraint: Dream→Phobia→Obsession→Delusion
+  engine_id: dream_semantic
+  notes: Increasing dysfunction
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002635'
+- factor_type: '**State**'
+  factor_label: Theoretical value
+  factor_id: temp_9f40a417
+  factor_source: new_candidate
+  role_position: Epistemological
+  value_constraint: High paradigmatic significance
+  engine_id: dream_semantic
+  notes: Vs practical significance
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002641'
+- factor_type: '**Functional**'
+  factor_label: Window to unconscious
+  factor_id: temp_a796d9ba
+  factor_source: new_candidate
+  role_position: Diagnostic
+  value_constraint: Reveals mechanisms
+  engine_id: dream_semantic
+  notes: Universal access point
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002646'
+- factor_type: '**Structure**'
+  factor_label: Manifest dream-content
+  factor_id: temp_47ad41bf
+  factor_source: new_candidate
+  role_position: Surface Layer
+  value_constraint: Consciously remembered narrative
+  engine_id: dream_semantic
+  notes: What's reported
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002669'
+- factor_type: '**Structure**'
+  factor_label: Latent dream-thoughts
+  factor_id: temp_34e924bf
+  factor_source: new_candidate
+  role_position: Deep Layer
+  value_constraint: Unconscious wishes and thoughts
+  engine_id: dream_semantic
+  notes: True meaning
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002674'
+- factor_type: '**Functional**'
+  factor_label: Dream-work
+  factor_id: temp_ab1f2e70
+  factor_source: new_candidate
+  role_position: Transformation Process
+  value_constraint: Disguise mechanisms
+  engine_id: dream_semantic
+  notes: Latent→Manifest
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002679'
+- factor_type: '**Relational**'
+  factor_label: Surface-depth structure
+  factor_id: temp_bb751060
+  factor_source: new_candidate
+  role_position: Two-layer Model
+  value_constraint: Appearance vs reality
+  engine_id: dream_semantic
+  notes: Core psychoanalytic principle
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002685'
+- factor_type: '**State**'
+  factor_label: Wish-fulfillment
+  factor_id: temp_be3ba7df
+  factor_source: new_candidate
+  role_position: Dream Function
+  value_constraint: Universal principle
+  engine_id: dream_semantic
+  notes: Every dream
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002698'
+- factor_type: '**State**'
+  factor_label: Unconscious wish
+  factor_id: temp_fc5b940a
+  factor_source: new_candidate
+  role_position: Motivating Force
+  value_constraint: Often infantile, forbidden
+  engine_id: dream_semantic
+  notes: Driving dream formation
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002703'
+- factor_type: '**Functional**'
+  factor_label: Hallucinatory satisfaction
+  factor_id: temp_17edab3c
+  factor_source: new_candidate
+  role_position: Mental Process
+  value_constraint: Imaginary fulfillment
+  engine_id: dream_semantic
+  notes: Prevents waking
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002707'
+- factor_type: '**Functional**'
+  factor_label: Sleep-protection
+  factor_id: temp_c3101e4c
+  factor_source: new_candidate
+  role_position: Defensive Function
+  value_constraint: Maintains sleep
+  engine_id: dream_semantic
+  notes: By satisfying wish mentally
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002712'
+- factor_type: '**Functional**'
+  factor_label: Condensation mechanism
+  factor_id: temp_cea0a0d2
+  factor_source: new_candidate
+  role_position: Dream-work Process
+  value_constraint: Many latent→One manifest
+  engine_id: dream_semantic
+  notes: Primary compression
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002729'
+- factor_type: '**Structure**'
+  factor_label: Composite figure
+  factor_id: temp_49dd8a11
+  factor_source: new_candidate
+  role_position: Condensation Type
+  value_constraint: Multiple persons in one
+  engine_id: dream_semantic
+  notes: Combines features
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002735'
+- factor_type: '**Structure**'
+  factor_label: Collective figure
+  factor_id: temp_573169eb
+  factor_source: new_candidate
+  role_position: Condensation Type
+  value_constraint: Category represented by one
+  engine_id: dream_semantic
+  notes: Type vs token
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002741'
+- factor_type: '**Functional**'
+  factor_label: Overdetermination
+  factor_id: temp_70def25b
+  factor_source: new_candidate
+  role_position: Multiple Causation
+  value_constraint: One element, many causes
+  engine_id: dream_semantic
+  notes: Convergence point
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002746'
+- factor_type: '**Relational**'
+  factor_label: Compression ratio
+  factor_id: temp_88e8e13d
+  factor_source: new_candidate
+  role_position: Quantitative
+  value_constraint: '1 page dream : 6-12 pages analysis'
+  engine_id: dream_semantic
+  notes: Measure of condensation
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002751'
+- factor_type: '**Functional**'
+  factor_label: Displacement mechanism
+  factor_id: temp_8824fd94
+  factor_source: new_candidate
+  role_position: Dream-work Process
+  value_constraint: Element + emphasis transfer
+  engine_id: dream_semantic
+  notes: Dual operation
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002765'
+- factor_type: '**Relational**'
+  factor_label: Element displacement
+  factor_id: temp_c30e0213
+  factor_source: new_candidate
+  role_position: Substitution
+  value_constraint: Important→Remote allusion
+  engine_id: dream_semantic
+  notes: Indirect representation
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002770'
+- factor_type: '**Relational**'
+  factor_label: Emphasis displacement
+  factor_id: temp_e9a700c7
+  factor_source: new_candidate
+  role_position: Intensity Transfer
+  value_constraint: Significant→Trivial
+  engine_id: dream_semantic
+  notes: Emotional misdirection
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002774'
+- factor_type: '**Functional**'
+  factor_label: Defensive misdirection
+  factor_id: temp_a5b59117
+  factor_source: new_candidate
+  role_position: Protection
+  value_constraint: Conceals true concerns
+  engine_id: dream_semantic
+  notes: Anxiety management
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002779'
+- factor_type: '**Functional**'
+  factor_label: Symbolization mechanism
+  factor_id: temp_732efd71
+  factor_source: new_candidate
+  role_position: Dream-work Process
+  value_constraint: Universal fixed meanings
+  engine_id: dream_semantic
+  notes: Vs individual associations
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002793'
+- factor_type: '**State**'
+  factor_label: Universal symbols
+  factor_id: temp_3f4c7ea8
+  factor_source: new_candidate
+  role_position: Representational Mode
+  value_constraint: Cross-cultural, archaic
+  engine_id: dream_semantic
+  notes: House/stairs/weapons/containers
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002797'
+- factor_type: '**State**'
+  factor_label: Archaic thinking
+  factor_id: temp_1ededc35
+  factor_source: new_candidate
+  role_position: Cognitive Mode
+  value_constraint: Pre-linguistic, primitive
+  engine_id: dream_semantic
+  notes: Collective heritage
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002803'
+- factor_type: '**Relational**'
+  factor_label: Sexual symbolism
+  factor_id: temp_71a7e486
+  factor_source: new_candidate
+  role_position: Primary Content
+  value_constraint: Body parts, sexual acts
+  engine_id: dream_semantic
+  notes: Most common symbols
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002809'
+- factor_type: '**Functional**'
+  factor_label: Free association method
+  factor_id: temp_6657699b
+  factor_source: new_candidate
+  role_position: Interpretive Technique
+  value_constraint: Uncensored reporting
+  engine_id: dream_semantic
+  notes: Core psychoanalytic method
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002821'
+- factor_type: '**State**'
+  factor_label: Passive observation
+  factor_id: temp_0f8c817c
+  factor_source: new_candidate
+  role_position: Mental State
+  value_constraint: Quiet, unreflecting
+  engine_id: dream_semantic
+  notes: Suspends conscious direction
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002826'
+- factor_type: '**Functional**'
+  factor_label: Censorship suspension
+  factor_id: temp_33b556e1
+  factor_source: new_candidate
+  role_position: Critical Process
+  value_constraint: Report everything
+  engine_id: dream_semantic
+  notes: No selection/judgment
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002831'
+- factor_type: '**Relational**'
+  factor_label: Associative pathways
+  factor_id: temp_783d6915
+  factor_source: new_candidate
+  role_position: Unconscious Organization
+  value_constraint: Follow connections back to latent
+  engine_id: dream_semantic
+  notes: Reverses dream-work
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002835'
+- factor_type: '**Functional**'
+  factor_label: Censorship mechanism
+  factor_id: temp_aeb89586
+  factor_source: new_candidate
+  role_position: Defensive Force
+  value_constraint: Examines/blocks content
+  engine_id: dream_semantic
+  notes: Between unconscious-conscious
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002850'
+- factor_type: '**State**'
+  factor_label: Censorship strength
+  factor_id: temp_298938d6
+  factor_source: new_candidate
+  role_position: Variable Intensity
+  value_constraint: Strict (waking) to Relaxed (sleep)
+  engine_id: dream_semantic
+  notes: Never fully absent
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002854'
+- factor_type: '**Relational**'
+  factor_label: Approval requirement
+  factor_id: temp_f6e835eb
+  factor_source: new_candidate
+  role_position: Selective Process
+  value_constraint: Pass/block/require-disguise
+  engine_id: dream_semantic
+  notes: Based on acceptability
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002862'
+- factor_type: '**Functional**'
+  factor_label: Disguise necessity
+  factor_id: temp_49192958
+  factor_source: new_candidate
+  role_position: Defensive Requirement
+  value_constraint: Unacceptable wishes must transform
+  engine_id: dream_semantic
+  notes: Drives dream-work
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002867'
+- factor_type: '**Structure**'
+  factor_label: Day residues
+  factor_id: temp_609485e5
+  factor_source: new_candidate
+  role_position: Recent Material
+  value_constraint: Previous 1-2 days
+  engine_id: dream_semantic
+  notes: Universal in dreams
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002879'
+- factor_type: '**Relational**'
+  factor_label: Connection function
+  factor_id: temp_1a0f5ce3
+  factor_source: new_candidate
+  role_position: Bridge
+  value_constraint: Unconscious wish → Preconscious residue
+  engine_id: dream_semantic
+  notes: Enables representation
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002885'
+- factor_type: '**State**'
+  factor_label: Preconscious content
+  factor_id: temp_08e133ea
+  factor_source: new_candidate
+  role_position: System Location
+  value_constraint: Between unconscious-conscious
+  engine_id: dream_semantic
+  notes: Readily accessible
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002889'
+- factor_type: '**Functional**'
+  factor_label: Regression mechanism
+  factor_id: temp_4c19b93d
+  factor_source: new_candidate
+  role_position: Backward Process
+  value_constraint: Three dimensions
+  engine_id: dream_semantic
+  notes: Topographical/temporal/formal
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002903'
+- factor_type: '**State**'
+  factor_label: Hallucinatory mode
+  factor_id: temp_b4dda9db
+  factor_source: new_candidate
+  role_position: Perceptual Experience
+  value_constraint: Images not thoughts
+  engine_id: dream_semantic
+  notes: Primitive wish-fulfillment
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002907'
+- factor_type: '**Temporal**'
+  factor_label: Temporal regression
+  factor_id: temp_5ca33251
+  factor_source: new_candidate
+  role_position: Age Movement
+  value_constraint: Present → Infantile
+  engine_id: dream_semantic
+  notes: Ancient wishes accessed
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002913'
+- factor_type: '**State**'
+  factor_label: Primary process
+  factor_id: temp_680b481c
+  factor_source: new_candidate
+  role_position: Unconscious Mode
+  value_constraint: Immediate, hallucinatory, illogical
+  engine_id: dream_semantic
+  notes: Primitive functioning
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002924'
+- factor_type: '**State**'
+  factor_label: Secondary process
+  factor_id: temp_27f14d2e
+  factor_source: new_candidate
+  role_position: Conscious Mode
+  value_constraint: Delayed, logical, verbal
+  engine_id: dream_semantic
+  notes: Mature functioning
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002928'
+- factor_type: '**Relational**'
+  factor_label: Process regression
+  factor_id: temp_8715729d
+  factor_source: new_candidate
+  role_position: Developmental
+  value_constraint: Secondary → Primary in dreams
+  engine_id: dream_semantic
+  notes: Temporary return
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:43.002933'

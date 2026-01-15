@@ -1,0 +1,134 @@
+# data/dream/emotions.yaml
+# Dream emotion keywords
+# Format: language -> emotion -> [keywords]
+
+zh:
+  fear:
+    - 害怕
+    - 恐惧
+    - 恐怖
+    - 吓
+    - 惊恐
+    - 可怕
+  joy:
+    - 高兴
+    - 快乐
+    - 开心
+    - 喜悦
+    - 欢乐
+    - 幸福
+  anxiety:
+    - 焦虑
+    - 紧张
+    - 担心
+    - 不安
+    - 忧虑
+  calm:
+    - 平静
+    - 安静
+    - 宁静
+    - 安详
+    - 祥和
+  anger:
+    - 愤怒
+    - 生气
+    - 发火
+    - 恼怒
+    - 气愤
+  sadness:
+    - 悲伤
+    - 难过
+    - 伤心
+    - 哭
+    - 流泪
+    - 悲痛
+  confusion:
+    - 困惑
+    - 迷惑
+    - 不解
+    - 茫然
+    - 糊涂
+  excitement:
+    - 兴奋
+    - 激动
+    - 振奋
+    - 热情
+  peace:
+    - 安宁
+    - 和平
+    - 安心
+    - 舒适
+    - 自在
+  surprise:
+    - 惊讶
+    - 吃惊
+    - 意外
+    - 惊奇
+
+en:
+  fear:
+    - fear
+    - afraid
+    - scared
+    - terrified
+    - frightened
+    - horror
+    - scary
+  joy:
+    - joy
+    - happy
+    - happiness
+    - joyful
+    - delighted
+    - pleased
+  anxiety:
+    - anxiety
+    - anxious
+    - worried
+    - nervous
+    - uneasy
+    - tense
+  calm:
+    - calm
+    - peaceful
+    - serene
+    - tranquil
+    - relaxed
+  anger:
+    - anger
+    - angry
+    - furious
+    - rage
+    - mad
+    - irritated
+  sadness:
+    - sad
+    - sadness
+    - crying
+    - tears
+    - grief
+    - sorrow
+    - depressed
+  confusion:
+    - confused
+    - confusion
+    - puzzled
+    - bewildered
+    - lost
+  excitement:
+    - excited
+    - excitement
+    - thrilled
+    - exhilarated
+  peace:
+    - peace
+    - peaceful
+    - comfortable
+    - content
+    - at ease
+  surprise:
+    - surprise
+    - surprised
+    - shocked
+    - astonished
+    - amazed

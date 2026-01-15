@@ -1,0 +1,666 @@
+book_id: christian_astrology,_vol._1_and_2
+source_file: 典籍/texts/Christian Astrology, vol. 1 and 2/编辑/Christian_Astrology_Horary_v2.1.md,
+  典籍/texts/Christian Astrology, vol. 1 and 2/编辑/Christian_Astrology_Nativities_v2.1.md,
+  典籍/texts/Christian Astrology, vol. 1 and 2/编辑/Christian_Astrology_Foundations_v2.1.md
+extracted_at: '2025-12-01T02:28:32.190953'
+relations:
+- relation_id: rel_lilly_1
+  relation_type: concept
+  factor_a: lilly_1
+  factor_b: system
+  relation_nature: Theoretical
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Source #lilly'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.462931'
+- relation_id: rel_lilly_2
+  relation_type: concept
+  factor_a: lilly_2
+  factor_b: system
+  relation_nature: Theoretical
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Source #lilly'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.462996'
+- relation_id: rel_lilly_3
+  relation_type: concept
+  factor_a: lilly_3
+  factor_b: system
+  relation_nature: Theoretical
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Source #lilly'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463025'
+- relation_id: rel_lilly_4
+  relation_type: concept
+  factor_a: lilly_4
+  factor_b: system
+  relation_nature: Theoretical
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Source #lilly'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463062'
+- relation_id: rel_lilly_5
+  relation_type: concept
+  factor_a: lilly_5
+  factor_b: system
+  relation_nature: Theoretical
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Source #lilly'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463093'
+- relation_id: rel_1st_001
+  relation_type: assessment
+  factor_a: L1_life_dignity
+  factor_b: L1_house_position
+  relation_nature: Life evaluation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology 1st House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463121'
+- relation_id: rel_1st_002
+  relation_type: guidance
+  factor_a: direction_indicator
+  factor_b: L1_life_dignity
+  relation_nature: Direction advice
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology 1st House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463124'
+- relation_id: rel_2nd_001
+  relation_type: assessment
+  factor_a: L2_wealth_dignity
+  factor_b: house_system_12
+  relation_nature: Wealth evaluation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology 2nd House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463145'
+- relation_id: rel_2nd_002
+  relation_type: recovery
+  factor_a: debt_recovery
+  factor_b: L2_wealth_dignity
+  relation_nature: Debt assessment
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology 2nd House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463148'
+- relation_id: rel_3rd_001
+  relation_type: relational
+  factor_a: sibling_harmony
+  factor_b: L1_querent
+  relation_nature: Family assessment
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology 3rd House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463167'
+- relation_id: rel_3rd_002
+  relation_type: safety
+  factor_a: short_journey_safety
+  factor_b: moon_void
+  relation_nature: Journey evaluation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology 3rd House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463174'
+- relation_id: rel_4th_001
+  relation_type: quality
+  factor_a: property_quality_4th
+  factor_b: house_system_12
+  relation_nature: Property evaluation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology 4th House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463195'
+- relation_id: rel_4th_002
+  relation_type: locational
+  factor_a: hidden_location
+  factor_b: house_system_12
+  relation_nature: Location derivation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology 4th House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463197'
+- relation_id: rel_5th_001
+  relation_type: categorical
+  factor_a: fertile_signs
+  factor_b: fertility_indicator
+  relation_nature: Sign → fertility
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology 5th House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463223'
+- relation_id: rel_5th_002
+  relation_type: categorical
+  factor_a: barren_signs
+  factor_b: fertility_indicator
+  relation_nature: Sign → infertility
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology 5th House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463226'
+- relation_id: rel_5th_003
+  relation_type: confirmatory
+  factor_a: pregnancy_indicator
+  factor_b: fertility_indicator
+  relation_nature: Aspect confirms
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology 5th House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463228'
+- relation_id: rel_lilly_marriage_001
+  relation_type: house_axis
+  factor_a: horary_1_7_axis
+  factor_b: L1_L7_application
+  relation_nature: Self-Other mapping
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Marriage
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463264'
+- relation_id: rel_lilly_marriage_002
+  relation_type: aspect_dynamic
+  factor_a: L1_L7_application
+  factor_b: mutual_reception
+  relation_nature: Application + reception
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Marriage
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463266'
+- relation_id: rel_lilly_marriage_003
+  relation_type: planet_state
+  factor_a: combust_state
+  factor_b: L1_L7_application
+  relation_nature: Combust weakens
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Marriage
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463271'
+- relation_id: rel_lilly_marriage_004
+  relation_type: facilitation
+  factor_a: translation_of_light
+  factor_b: L1_L7_application
+  relation_nature: Third party connects
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Marriage
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463274'
+- relation_id: rel_lilly_career_001
+  relation_type: house_system
+  factor_a: career_house_system
+  factor_b: horary_10th_employer
+  relation_nature: Multi-house career
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Career
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463303'
+- relation_id: rel_lilly_career_002
+  relation_type: aspect_dynamic
+  factor_a: L1_L10_application
+  factor_b: mutual_reception
+  relation_nature: Application + reception
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Career
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463307'
+- relation_id: rel_lilly_career_003
+  relation_type: placement
+  factor_a: L1_in_10th_dignified
+  factor_b: career_house_system
+  relation_nature: L1 in career house
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Career
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463309'
+- relation_id: rel_lilly_lost_001
+  relation_type: spatial_mapping
+  factor_a: horary_2nd_lost
+  factor_b: L2_house_position
+  relation_nature: Object → Location
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Lost Objects
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463345'
+- relation_id: rel_lilly_lost_002
+  relation_type: location_quality
+  factor_a: L2_house_position
+  factor_b: angular_cadent_state
+  relation_nature: Position → Findability
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Lost Objects
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463347'
+- relation_id: rel_lilly_lost_003
+  relation_type: place_descriptor
+  factor_a: L2_house_position
+  factor_b: elemental_place_type
+  relation_nature: Position + Element → Place
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Lost Objects
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463350'
+- relation_id: rel_lilly_lost_004
+  relation_type: temporal_movement
+  factor_a: moon_L2_separation
+  factor_b: L2_house_position
+  relation_nature: Moon → Movement
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Lost Objects
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463354'
+- relation_id: rel_lilly_health_001
+  relation_type: adversarial
+  factor_a: L1_L6_strength
+  factor_b: disease_trajectory
+  relation_nature: Patient vs Disease
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Health
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463388'
+- relation_id: rel_lilly_health_002
+  relation_type: support
+  factor_a: benefic_malefic_influence
+  factor_b: L1_L6_strength
+  relation_nature: Help/Harm
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Health
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463391'
+- relation_id: rel_lilly_health_003
+  relation_type: progression
+  factor_a: disease_trajectory
+  factor_b: L1_L6_strength
+  relation_nature: Direction
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Health
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463394'
+- relation_id: rel_lilly_health_004
+  relation_type: severe
+  factor_a: house_8_death
+  factor_b: L1_L6_strength
+  relation_nature: Death question
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Health
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463396'
+- relation_id: rel_lilly_legal_001
+  relation_type: adversarial
+  factor_a: L1_L7_strength
+  factor_b: legal_house_system
+  relation_nature: Querent vs Opponent
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Legal
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463428'
+- relation_id: rel_lilly_legal_002
+  relation_type: authority
+  factor_a: judge_inclination
+  factor_b: L1_L7_strength
+  relation_nature: Judge decides
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Legal
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463430'
+- relation_id: rel_lilly_legal_003
+  relation_type: outcome
+  factor_a: house_4_outcome
+  factor_b: L1_L7_strength
+  relation_nature: Final result
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Legal
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463433'
+- relation_id: rel_lilly_legal_004
+  relation_type: alternative
+  factor_a: settlement_indicator
+  factor_b: legal_house_system
+  relation_nature: Compromise
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Legal
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463437'
+- relation_id: rel_lilly_travel_001
+  relation_type: structural
+  factor_a: travel_house_system
+  factor_b: journey_quality
+  relation_nature: House → Quality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Travel
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463469'
+- relation_id: rel_lilly_travel_002
+  relation_type: descriptive
+  factor_a: elemental_terrain
+  factor_b: travel_house_system
+  relation_nature: Element → Terrain
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Travel
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463472'
+- relation_id: rel_lilly_travel_003
+  relation_type: safety
+  factor_a: travel_danger
+  factor_b: journey_quality
+  relation_nature: Malefic → Danger
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Travel
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463474'
+- relation_id: rel_lilly_travel_004
+  relation_type: cancellation
+  factor_a: moon_void_travel
+  factor_b: travel_house_system
+  relation_nature: Void → No journey
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Travel
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463477'
+- relation_id: rel_lilly_purchase_001
+  relation_type: structural
+  factor_a: purchase_house_system
+  factor_b: property_quality
+  relation_nature: House → Quality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Purchase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463510'
+- relation_id: rel_lilly_purchase_002
+  relation_type: negotiation
+  factor_a: buyer_seller_reception
+  factor_b: purchase_house_system
+  relation_nature: Reception → Deal
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Purchase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463513'
+- relation_id: rel_lilly_purchase_003
+  relation_type: valuation
+  factor_a: price_fairness
+  factor_b: property_quality
+  relation_nature: Price vs Quality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Purchase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463515'
+- relation_id: rel_lilly_purchase_004
+  relation_type: timing
+  factor_a: purchase_opportunity
+  factor_b: buyer_seller_reception
+  relation_nature: Timing → Success
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology II Purchase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463519'
+- relation_id: rel_ship_001
+  relation_type: dual
+  factor_a: ship_significator
+  factor_b: maritime_safety
+  relation_nature: Dual sig → safety
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology Ship
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463547'
+- relation_id: rel_ship_002
+  relation_type: threatening
+  factor_a: angular_malefic
+  factor_b: maritime_safety
+  relation_nature: Malefic → danger
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology Ship
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463550'
+- relation_id: rel_ship_003
+  relation_type: quality
+  factor_a: crew_quality_ship
+  factor_b: ship_significator
+  relation_nature: Crew affects voyage
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology Ship
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463552'
+- relation_id: rel_theft_001
+  relation_type: identificatory
+  factor_a: thief_significator
+  factor_b: peregrine_thief
+  relation_nature: L7 + peregrine = thief
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology Theft
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463577'
+- relation_id: rel_theft_002
+  relation_type: descriptive
+  factor_a: elemental_complexion
+  factor_b: thief_significator
+  relation_nature: Element → appearance
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology Theft
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463580'
+- relation_id: rel_theft_003
+  relation_type: predictive
+  factor_a: theft_recovery
+  factor_b: moon_void
+  relation_nature: Moon-L2 → recovery
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology Theft
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463583'
+- relation_id: rel_war_001
+  relation_type: adversarial
+  factor_a: war_structure
+  factor_b: victory_determination
+  relation_nature: Opposition → comparison
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology War
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463608'
+- relation_id: rel_war_002
+  relation_type: comparative
+  factor_a: victory_determination
+  factor_b: essential_dignity
+  relation_nature: Dignity → victory
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology War
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463614'
+- relation_id: rel_war_003
+  relation_type: mediating
+  factor_a: treaty_indicator
+  factor_b: war_structure
+  relation_nature: Moon → negotiation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Christian Astrology War
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.463618'
+- relation_id: rel_natal_001
+  relation_type: hyleg_anareta
+  factor_a: hyleg
+  factor_b: anareta
+  relation_nature: Life giver vs destroyer
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'CA III #Hyleg'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.466120'
+- relation_id: rel_natal_002
+  relation_type: direction_timing
+  factor_a: primary_direction
+  factor_b: significator
+  relation_nature: Movement produces events
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'CA III #Directions'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.466126'
+- relation_id: rel_natal_003
+  relation_type: house_topic
+  factor_a: lord_2nd
+  factor_b: wealth
+  relation_nature: L2 rules money
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'CA III #Wealth'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.466129'
+- relation_id: rel_natal_004
+  relation_type: house_topic
+  factor_a: lord_7th
+  factor_b: marriage
+  relation_nature: L7 rules spouse
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'CA III #Marriage'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.466132'
+- relation_id: rel_natal_005
+  relation_type: house_topic
+  factor_a: lord_10th
+  factor_b: career
+  relation_nature: L10 rules profession
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'CA III #Career'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.466137'
+- relation_id: rel_found_001
+  relation_type: planet_nature
+  factor_a: planet_jupiter
+  factor_b: benefic_planet
+  relation_nature: Jupiter = Benefic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: CA I
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467951'
+- relation_id: rel_found_002
+  relation_type: planet_nature
+  factor_a: planet_saturn
+  factor_b: malefic_planet
+  relation_nature: Saturn = Malefic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: CA I
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467956'
+- relation_id: rel_found_003
+  relation_type: node_axis
+  factor_a: north_node
+  factor_b: south_node
+  relation_nature: Polar axis
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: CA I
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467961'

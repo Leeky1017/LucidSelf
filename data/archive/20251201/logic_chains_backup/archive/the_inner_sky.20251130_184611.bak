@@ -1,0 +1,5697 @@
+chain_id: chain_tis
+book_id: the_inner_sky
+nodes:
+- node_id: n_tis_1h_0
+  snippet_ids:
+  - ns_innersky_h1_001
+  - ns_innersky_h1_002
+  - ns_innersky_h1_003
+  - ns_innersky_h1_004
+  - ns_innersky_h1_005
+  - ns_innersky_h1_006
+  role: 主干
+  condition: null
+  summary: house_1_general
+  metadata:
+    source_ref: 'The Inner Sky Ch.7 #1H'
+    snippet_count: 6
+- node_id: n_tis_2h_1
+  snippet_ids:
+  - ns_innersky_h2_001
+  - ns_innersky_h2_002
+  - ns_innersky_h2_003
+  - ns_innersky_h2_004
+  - ns_innersky_h2_005
+  role: 主干
+  condition: null
+  summary: house_2_general
+  metadata:
+    source_ref: 'The Inner Sky Ch.7 #2H'
+    snippet_count: 5
+- node_id: n_tis_3h_2
+  snippet_ids:
+  - ns_innersky_h3_001
+  - ns_innersky_h3_002
+  - ns_innersky_h3_003
+  - ns_innersky_h3_004
+  - ns_innersky_h3_005
+  role: 主干
+  condition: null
+  summary: house_3_general
+  metadata:
+    source_ref: 'The Inner Sky Ch.7 #3H'
+    snippet_count: 5
+- node_id: n_tis_4h_3
+  snippet_ids:
+  - ns_innersky_h4_001
+  - ns_innersky_h4_002
+  - ns_innersky_h4_003
+  - ns_innersky_h4_004
+  - ns_innersky_h4_005
+  role: 主干
+  condition: null
+  summary: house_4_general
+  metadata:
+    source_ref: 'The Inner Sky Ch.7 #4H'
+    snippet_count: 5
+- node_id: n_tis_5h_4
+  snippet_ids:
+  - ns_innersky_h5_001
+  - ns_innersky_h5_002
+  - ns_innersky_h5_003
+  - ns_innersky_h5_004
+  - ns_innersky_h5_005
+  role: 主干
+  condition: null
+  summary: house_5_general
+  metadata:
+    source_ref: 'The Inner Sky Ch.7 #5H'
+    snippet_count: 5
+- node_id: n_tis_6h_5
+  snippet_ids:
+  - ns_innersky_h6_001
+  - ns_innersky_h6_002
+  - ns_innersky_h6_003
+  - ns_innersky_h6_004
+  - ns_innersky_h6_005
+  role: 主干
+  condition: null
+  summary: house_6_general
+  metadata:
+    source_ref: 'The Inner Sky Ch.7 #6H'
+    snippet_count: 5
+- node_id: n_tis_aries_6
+  snippet_ids:
+  - ns_innersky_aries_001
+  - ns_innersky_aries_002
+  - ns_innersky_aries_003
+  - ns_innersky_aries_004
+  role: 主干
+  condition: null
+  summary: sign_aries
+  metadata:
+    source_ref: 'The Inner Sky Ch.4 #Aries'
+    snippet_count: 4
+- node_id: n_tis_taurus_7
+  snippet_ids:
+  - ns_innersky_taurus_001
+  - ns_innersky_taurus_002
+  - ns_innersky_taurus_003
+  - ns_innersky_taurus_004
+  role: 主干
+  condition: null
+  summary: sign_taurus
+  metadata:
+    source_ref: 'The Inner Sky Ch.4 #Taurus'
+    snippet_count: 4
+- node_id: n_tis_gemini_8
+  snippet_ids:
+  - ns_innersky_gemini_001
+  - ns_innersky_gemini_002
+  - ns_innersky_gemini_003
+  - ns_innersky_gemini_004
+  role: 主干
+  condition: null
+  summary: sign_gemini
+  metadata:
+    source_ref: 'The Inner Sky Ch.4 #Gemini'
+    snippet_count: 4
+- node_id: n_tis_jupiter_9
+  snippet_ids:
+  - ns_innersky_jupiter_001
+  - ns_innersky_jupiter_002
+  - ns_innersky_jupiter_003
+  - ns_innersky_jupiter_004
+  role: 主干
+  condition: null
+  summary: planet_jupiter
+  metadata:
+    source_ref: 'The Inner Sky Ch.6 #Jupiter'
+    snippet_count: 4
+- node_id: n_tis_source_text_10
+  snippet_ids:
+  - ns_forrest_021
+  - ns_forrest_022
+  - ns_forrest_025
+  - ns_forrest_026
+  - ns_forrest_029
+  - ns_forrest_033
+  - ns_forrest_034
+  - ns_forrest_035
+  - ns_forrest_037
+  - ns_forrest_038
+  - ns_forrest_asp_001
+  - ns_forrest_asp_003
+  - ns_forrest_asp_005
+  - ns_forrest_asp_007
+  - ns_forrest_asp_009
+  - ns_forrest_013
+  - ns_forrest_014
+  - ns_forrest_017
+  - ns_forrest_001
+  - ns_forrest_002
+  - ns_forrest_005
+  - ns_forrest_006
+  - ns_innersky_007
+  - ns_innersky_008
+  - ns_innersky_009
+  - ns_innersky_010
+  - ns_innersky_011
+  - ns_innersky_012
+  - ns_innersky_013
+  - ns_innersky_014
+  - ns_innersky_015
+  - ns_innersky_016
+  - ns_innersky_017
+  - ns_innersky_018
+  - ns_innersky_019
+  - ns_innersky_020
+  - ns_innersky_021
+  - ns_innersky_022
+  - ns_innersky_023
+  - ns_innersky_024
+  - ns_innersky_025
+  - ns_innersky_026
+  - ns_innersky_027
+  - ns_innersky_028
+  - ns_innersky_029
+  - ns_innersky_030
+  - ns_innersky_031
+  - ns_innersky_032
+  - ns_innersky_033
+  - ns_innersky_034
+  - ns_innersky_035
+  - ns_innersky_036
+  - ns_innersky_037
+  - ns_innersky_038
+  - ns_innersky_039
+  - ns_innersky_040
+  - ns_innersky_041
+  - ns_innersky_048
+  - ns_innersky_049
+  - ns_innersky_050
+  - ns_innersky_051
+  - ns_innersky_043
+  - ns_innersky_044
+  - ns_innersky_045
+  - ns_innersky_046
+  - ns_innersky_047
+  - ns_innersky_053
+  - ns_innersky_054
+  - ns_innersky_055
+  - ns_innersky_056
+  - ns_innersky_057
+  - ns_innersky_058
+  - ns_innersky_059
+  - ns_innersky_060
+  - ns_innersky_061
+  - ns_innersky_062
+  - ns_innersky_063
+  - ns_innersky_064
+  - ns_innersky_065
+  - ns_innersky_066
+  - ns_innersky_067
+  - ns_innersky_068
+  - ns_innersky_069
+  - ns_innersky_070
+  - ns_innersky_071
+  - ns_innersky_072
+  - ns_innersky_073
+  - ns_innersky_074
+  - ns_innersky_075
+  - ns_innersky_076
+  - ns_innersky_077
+  role: 主干
+  condition: null
+  summary: jupiter_faith
+  metadata:
+    source_ref: Source Text
+    snippet_count: 91
+- node_id: n_tis_english_paraphrase_11
+  snippet_ids:
+  - ns_forrest_023
+  - ns_forrest_024
+  - ns_forrest_027
+  - ns_forrest_028
+  - ns_forrest_030
+  - ns_forrest_031
+  - ns_forrest_032
+  - ns_forrest_036
+  - ns_forrest_039
+  - ns_forrest_040
+  - ns_forrest_asp_002
+  - ns_forrest_asp_004
+  - ns_forrest_asp_006
+  - ns_forrest_asp_008
+  - ns_forrest_asp_010
+  - ns_forrest_015
+  - ns_forrest_016
+  - ns_forrest_018
+  - ns_forrest_019
+  - ns_forrest_020
+  - ns_forrest_009
+  - ns_forrest_010
+  - ns_forrest_011
+  - ns_forrest_012
+  - ns_forrest_003
+  - ns_forrest_004
+  - ns_forrest_007
+  - ns_forrest_008
+  - ns_innersky_005
+  - ns_innersky_006
+  - ns_innersky_042
+  - ns_innersky_052
+  role: 主干
+  condition: null
+  summary: jupiter_think_big
+  metadata:
+    source_ref: English Paraphrase
+    snippet_count: 32
+- node_id: n_tis_saturn_12
+  snippet_ids:
+  - ns_innersky_saturn_001
+  - ns_innersky_saturn_002
+  - ns_innersky_saturn_003
+  - ns_innersky_saturn_004
+  role: 主干
+  condition: null
+  summary: planet_saturn
+  metadata:
+    source_ref: 'The Inner Sky Ch.6 #Saturn'
+    snippet_count: 4
+- node_id: n_tis_uranus_13
+  snippet_ids:
+  - ns_innersky_uranus_001
+  - ns_innersky_uranus_002
+  - ns_innersky_uranus_003
+  - ns_innersky_uranus_004
+  role: 主干
+  condition: null
+  summary: planet_uranus
+  metadata:
+    source_ref: 'The Inner Sky Ch.6 #Uranus'
+    snippet_count: 4
+- node_id: n_tis_neptune_14
+  snippet_ids:
+  - ns_innersky_neptune_001
+  - ns_innersky_neptune_002
+  - ns_innersky_neptune_003
+  - ns_innersky_neptune_004
+  role: 主干
+  condition: null
+  summary: planet_neptune
+  metadata:
+    source_ref: 'The Inner Sky Ch.6 #Neptune'
+    snippet_count: 4
+- node_id: n_tis_pluto_15
+  snippet_ids:
+  - ns_innersky_pluto_001
+  - ns_innersky_pluto_002
+  - ns_innersky_pluto_003
+  - ns_innersky_pluto_004
+  role: 主干
+  condition: null
+  summary: planet_pluto
+  metadata:
+    source_ref: 'The Inner Sky Ch.6 #Pluto'
+    snippet_count: 4
+- node_id: n_tis_cancer_16
+  snippet_ids:
+  - ns_innersky_cancer_001
+  - ns_innersky_cancer_002
+  - ns_innersky_cancer_003
+  - ns_innersky_cancer_004
+  role: 主干
+  condition: null
+  summary: sign_cancer
+  metadata:
+    source_ref: 'The Inner Sky Ch.4 #Cancer'
+    snippet_count: 4
+- node_id: n_tis_leo_17
+  snippet_ids:
+  - ns_innersky_leo_001
+  - ns_innersky_leo_002
+  - ns_innersky_leo_003
+  - ns_innersky_leo_004
+  role: 主干
+  condition: null
+  summary: sign_leo
+  metadata:
+    source_ref: 'The Inner Sky Ch.4 #Leo'
+    snippet_count: 4
+- node_id: n_tis_virgo_18
+  snippet_ids:
+  - ns_innersky_virgo_001
+  - ns_innersky_virgo_002
+  - ns_innersky_virgo_003
+  - ns_innersky_virgo_004
+  role: 主干
+  condition: null
+  summary: sign_virgo
+  metadata:
+    source_ref: 'The Inner Sky Ch.4 #Virgo'
+    snippet_count: 4
+- node_id: n_tis_libra_19
+  snippet_ids:
+  - ns_innersky_libra_001
+  - ns_innersky_libra_002
+  - ns_innersky_libra_003
+  - ns_innersky_libra_004
+  role: 主干
+  condition: null
+  summary: sign_libra
+  metadata:
+    source_ref: 'The Inner Sky Ch.4 #Libra'
+    snippet_count: 4
+- node_id: n_tis_scorpio_20
+  snippet_ids:
+  - ns_innersky_scorpio_001
+  - ns_innersky_scorpio_002
+  - ns_innersky_scorpio_003
+  - ns_innersky_scorpio_004
+  role: 主干
+  condition: null
+  summary: sign_scorpio
+  metadata:
+    source_ref: 'The Inner Sky Ch.4 #Scorpio'
+    snippet_count: 4
+- node_id: n_tis_sagittarius_21
+  snippet_ids:
+  - ns_innersky_sagittarius_001
+  - ns_innersky_sagittarius_002
+  - ns_innersky_sagittarius_003
+  - ns_innersky_sagittarius_004
+  role: 主干
+  condition: null
+  summary: sign_sagittarius
+  metadata:
+    source_ref: 'The Inner Sky Ch.4 #Sagittarius'
+    snippet_count: 4
+- node_id: n_tis_capricorn_22
+  snippet_ids:
+  - ns_innersky_capricorn_001
+  - ns_innersky_capricorn_002
+  - ns_innersky_capricorn_003
+  - ns_innersky_capricorn_004
+  role: 主干
+  condition: null
+  summary: sign_capricorn
+  metadata:
+    source_ref: 'The Inner Sky Ch.4 #Capricorn'
+    snippet_count: 4
+- node_id: n_tis_aquarius_23
+  snippet_ids:
+  - ns_innersky_aquarius_001
+  - ns_innersky_aquarius_002
+  - ns_innersky_aquarius_003
+  - ns_innersky_aquarius_004
+  role: 主干
+  condition: null
+  summary: sign_aquarius
+  metadata:
+    source_ref: 'The Inner Sky Ch.4 #Aquarius'
+    snippet_count: 4
+- node_id: n_tis_pisces_24
+  snippet_ids:
+  - ns_innersky_pisces_001
+  - ns_innersky_pisces_002
+  - ns_innersky_pisces_003
+  - ns_innersky_pisces_004
+  role: 主干
+  condition: null
+  summary: sign_pisces
+  metadata:
+    source_ref: 'The Inner Sky Ch.4 #Pisces'
+    snippet_count: 4
+- node_id: n_tis_mercury_25
+  snippet_ids:
+  - ns_innersky_mercury_001
+  - ns_innersky_mercury_002
+  - ns_innersky_mercury_003
+  - ns_innersky_mercury_004
+  role: 主干
+  condition: null
+  summary: planet_mercury
+  metadata:
+    source_ref: 'The Inner Sky Ch.6 #Mercury'
+    snippet_count: 4
+- node_id: n_tis_venus_26
+  snippet_ids:
+  - ns_innersky_venus_001
+  - ns_innersky_venus_002
+  - ns_innersky_venus_003
+  - ns_innersky_venus_004
+  role: 主干
+  condition: null
+  summary: planet_venus
+  metadata:
+    source_ref: 'The Inner Sky Ch.6 #Venus'
+    snippet_count: 4
+- node_id: n_tis_mars_27
+  snippet_ids:
+  - ns_innersky_mars_001
+  - ns_innersky_mars_002
+  - ns_innersky_mars_003
+  - ns_innersky_mars_004
+  role: 主干
+  condition: null
+  summary: planet_mars
+  metadata:
+    source_ref: 'The Inner Sky Ch.6 #Mars'
+    snippet_count: 4
+- node_id: n_tis_sun_28
+  snippet_ids:
+  - ns_innersky_sun_001
+  - ns_innersky_sun_002
+  - ns_innersky_sun_003
+  - ns_innersky_sun_004
+  role: 主干
+  condition: null
+  summary: planet_sun
+  metadata:
+    source_ref: 'The Inner Sky Ch.6 #Sun'
+    snippet_count: 4
+- node_id: n_tis_moon_29
+  snippet_ids:
+  - ns_innersky_moon_001
+  - ns_innersky_moon_002
+  - ns_innersky_moon_003
+  - ns_innersky_moon_004
+  role: 主干
+  condition: null
+  summary: planet_moon
+  metadata:
+    source_ref: 'The Inner Sky Ch.6 #Moon'
+    snippet_count: 4
+- node_id: n_tis_7h_30
+  snippet_ids:
+  - ns_innersky_h7_001
+  - ns_innersky_h7_002
+  - ns_innersky_h7_003
+  - ns_innersky_h7_004
+  - ns_innersky_h7_005
+  role: 主干
+  condition: null
+  summary: house_7_general
+  metadata:
+    source_ref: 'The Inner Sky Ch.7 #7H'
+    snippet_count: 5
+- node_id: n_tis_8h_31
+  snippet_ids:
+  - ns_innersky_h8_001
+  - ns_innersky_h8_002
+  - ns_innersky_h8_003
+  - ns_innersky_h8_004
+  - ns_innersky_h8_005
+  role: 主干
+  condition: null
+  summary: house_8_general
+  metadata:
+    source_ref: 'The Inner Sky Ch.7 #8H'
+    snippet_count: 5
+- node_id: n_tis_9h_32
+  snippet_ids:
+  - ns_innersky_h9_001
+  - ns_innersky_h9_002
+  - ns_innersky_h9_003
+  - ns_innersky_h9_004
+  - ns_innersky_h9_005
+  role: 主干
+  condition: null
+  summary: house_9_general
+  metadata:
+    source_ref: 'The Inner Sky Ch.7 #9H'
+    snippet_count: 5
+- node_id: n_tis_10h_33
+  snippet_ids:
+  - ns_innersky_h10_001
+  - ns_innersky_h10_002
+  - ns_innersky_h10_003
+  - ns_innersky_h10_004
+  - ns_innersky_h10_005
+  role: 主干
+  condition: null
+  summary: house_10_general
+  metadata:
+    source_ref: 'The Inner Sky Ch.7 #10H'
+    snippet_count: 5
+- node_id: n_tis_11h_34
+  snippet_ids:
+  - ns_innersky_h11_001
+  - ns_innersky_h11_002
+  - ns_innersky_h11_003
+  - ns_innersky_h11_004
+  - ns_innersky_h11_005
+  role: 主干
+  condition: null
+  summary: house_11_general
+  metadata:
+    source_ref: 'The Inner Sky Ch.7 #11H'
+    snippet_count: 5
+- node_id: n_tis_12h_35
+  snippet_ids:
+  - ns_innersky_h12_001
+  - ns_innersky_h12_002
+  - ns_innersky_h12_003
+  - ns_innersky_h12_004
+  - ns_innersky_h12_005
+  role: 主干
+  condition: null
+  summary: house_12_general
+  metadata:
+    source_ref: 'The Inner Sky Ch.7 #12H'
+    snippet_count: 5
+- node_id: n_tis_source_text_para_1_36
+  snippet_ids:
+  - ns_innersky_001
+  - ns_innersky_002
+  - ns_innersky_003
+  - ns_innersky_004
+  role: 主干
+  condition: null
+  summary: client_feels_trapped_by_chart
+  metadata:
+    source_ref: Source Text para 1
+    snippet_count: 4
+edges:
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_saturn_12
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_jupiter_002
+    source_ref: 'The Inner Sky #Jupiter'
+    inferred_from: explicit_relation
+- from_node: n_tis_saturn_12
+  to_node: n_tis_jupiter_9
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_saturn_002
+    source_ref: 'The Inner Sky #Saturn'
+    inferred_from: explicit_relation
+- from_node: n_tis_cancer_16
+  to_node: n_tis_moon_29
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_cancer_002
+    source_ref: 'The Inner Sky #Cancer'
+    inferred_from: explicit_relation
+- from_node: n_tis_leo_17
+  to_node: n_tis_sun_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_leo_002
+    source_ref: 'The Inner Sky #Leo'
+    inferred_from: explicit_relation
+- from_node: n_tis_virgo_18
+  to_node: n_tis_mercury_25
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_virgo_002
+    source_ref: 'The Inner Sky #Virgo'
+    inferred_from: explicit_relation
+- from_node: n_tis_libra_19
+  to_node: n_tis_venus_26
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_libra_002
+    source_ref: 'The Inner Sky #Libra'
+    inferred_from: explicit_relation
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_pluto_15
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_scorpio_002
+    source_ref: 'The Inner Sky #Scorpio'
+    inferred_from: explicit_relation
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_jupiter_9
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_sagittarius_002
+    source_ref: 'The Inner Sky #Sagittarius'
+    inferred_from: explicit_relation
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_jupiter_9
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_capricorn_002
+    source_ref: 'The Inner Sky #Capricorn'
+    inferred_from: explicit_relation
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_saturn_12
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_capricorn_002
+    source_ref: 'The Inner Sky #Capricorn'
+    inferred_from: explicit_relation
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_uranus_13
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_aquarius_002
+    source_ref: 'The Inner Sky #Aquarius'
+    inferred_from: explicit_relation
+- from_node: n_tis_pisces_24
+  to_node: n_tis_neptune_14
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_pisces_002
+    source_ref: 'The Inner Sky #Pisces'
+    inferred_from: explicit_relation
+- from_node: n_tis_mercury_25
+  to_node: n_tis_sun_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_mercury_003
+    source_ref: 'The Inner Sky #Mercury'
+    inferred_from: explicit_relation
+- from_node: n_tis_venus_26
+  to_node: n_tis_moon_29
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_venus_002
+    source_ref: 'The Inner Sky #Venus'
+    inferred_from: explicit_relation
+- from_node: n_tis_mars_27
+  to_node: n_tis_sun_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_mars_002
+    source_ref: 'The Inner Sky #Mars'
+    inferred_from: explicit_relation
+- from_node: n_tis_moon_29
+  to_node: n_tis_sun_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_innersky_moon_002
+    source_ref: 'The Inner Sky #Moon'
+    inferred_from: explicit_relation
+- from_node: n_tis_1h_0
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_1h_0
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_1h_0
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_1h_0
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_1h_0
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_aries_6
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_saturn_12
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_uranus_13
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_venus_26
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sun_28
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_1h_0
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_1h_0
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_1h_0
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_10h_33
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_11h_34
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_12h_35
+  to_node: n_tis_1h_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_2h_1
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_2h_1
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_2h_1
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_2h_1
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_aries_6
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_saturn_12
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_uranus_13
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_venus_26
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sun_28
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_2h_1
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_2h_1
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_2h_1
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_10h_33
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_11h_34
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_12h_35
+  to_node: n_tis_2h_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_3h_2
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_3h_2
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_3h_2
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_aries_6
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_saturn_12
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_uranus_13
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_venus_26
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sun_28
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_3h_2
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_3h_2
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_3h_2
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_10h_33
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_11h_34
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_12h_35
+  to_node: n_tis_3h_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_4h_3
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_4h_3
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_aries_6
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_taurus_7
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_gemini_8
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_saturn_12
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_uranus_13
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_neptune_14
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_pluto_15
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_cancer_16
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_leo_17
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_virgo_18
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_libra_19
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_pisces_24
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_mercury_25
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_venus_26
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_mars_27
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_sun_28
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_moon_29
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_4h_3
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_4h_3
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_4h_3
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_10h_33
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_11h_34
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_12h_35
+  to_node: n_tis_4h_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tis_5h_4
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_aries_6
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_saturn_12
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_uranus_13
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_venus_26
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sun_28
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_5h_4
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_5h_4
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_5h_4
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_10h_33
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_11h_34
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_12h_35
+  to_node: n_tis_5h_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_aries_6
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_saturn_12
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_uranus_13
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_venus_26
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sun_28
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_6h_5
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_6h_5
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_6h_5
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_10h_33
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_11h_34
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_12h_35
+  to_node: n_tis_6h_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_aries_6
+  to_node: n_tis_taurus_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_gemini_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_jupiter_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_cancer_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_leo_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_virgo_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_libra_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_scorpio_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_sagittarius_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_capricorn_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_aries_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_pisces_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_mercury_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_mars_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_moon_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aries_6
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_taurus_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_jupiter_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_taurus_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_taurus_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_virgo_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_taurus_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_taurus_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_taurus_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_taurus_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_taurus_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_taurus_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_mercury_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_mars_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_moon_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_taurus_7
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_jupiter_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_gemini_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_leo_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_virgo_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_libra_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_scorpio_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_sagittarius_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_gemini_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_gemini_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_pisces_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_mercury_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_mars_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_moon_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_gemini_8
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_jupiter_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_jupiter_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_jupiter_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_jupiter_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_jupiter_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_jupiter_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_jupiter_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_mercury_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_mars_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_moon_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_jupiter_9
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_saturn_12
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_saturn_12
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_saturn_12
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_saturn_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_saturn_12
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_saturn_12
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_saturn_12
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_saturn_12
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_saturn_12
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_saturn_12
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_uranus_13
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sun_28
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_uranus_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_uranus_13
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_uranus_13
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_uranus_13
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_uranus_13
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_uranus_13
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_uranus_13
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_neptune_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_neptune_14
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_pluto_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pluto_15
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_leo_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_virgo_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_libra_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_scorpio_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_sagittarius_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_capricorn_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_cancer_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_pisces_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_mercury_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_mars_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_cancer_16
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_virgo_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_libra_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_scorpio_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_sagittarius_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_leo_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_leo_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_pisces_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_mercury_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_mars_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_moon_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_leo_17
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_virgo_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_virgo_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_virgo_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_virgo_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_virgo_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_virgo_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_mars_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_moon_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_virgo_18
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_scorpio_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_sagittarius_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_libra_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_libra_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_pisces_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_mercury_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_mars_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_moon_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_libra_19
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_scorpio_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_scorpio_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_scorpio_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_scorpio_20
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_mercury_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_mars_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_moon_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_scorpio_20
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_sagittarius_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_sagittarius_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_sagittarius_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_mercury_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_mars_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_moon_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sagittarius_21
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_capricorn_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_pisces_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_mercury_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_mars_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_moon_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_capricorn_22
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_pisces_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_mercury_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_mars_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_moon_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_aquarius_23
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_mercury_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_mars_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_sun_28
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_moon_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_pisces_24
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_mercury_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_moon_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mercury_25
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sun_28
+  to_node: n_tis_venus_26
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_venus_26
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_venus_26
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_venus_26
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_venus_26
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_venus_26
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_venus_26
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_moon_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_mars_27
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sun_28
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sun_28
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sun_28
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sun_28
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sun_28
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_sun_28
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_10h_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_moon_29
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+- from_node: n_tis_7h_30
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_7h_30
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_10h_33
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_11h_34
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_12h_35
+  to_node: n_tis_7h_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_8h_31
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_10h_33
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_11h_34
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_12h_35
+  to_node: n_tis_8h_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_10h_33
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_11h_34
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_12h_35
+  to_node: n_tis_9h_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_10h_33
+  to_node: n_tis_11h_34
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_10h_33
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+- from_node: n_tis_11h_34
+  to_node: n_tis_12h_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - state_dysfunction
+    - state_success
+narrative_order:
+- n_tis_english_paraphrase_11
+- n_tis_source_text_10
+- n_tis_source_text_para_1_36
+- n_tis_aquarius_23
+- n_tis_aries_6
+- n_tis_cancer_16
+- n_tis_capricorn_22
+- n_tis_gemini_8
+- n_tis_leo_17
+- n_tis_libra_19
+- n_tis_pisces_24
+- n_tis_sagittarius_21
+- n_tis_scorpio_20
+- n_tis_taurus_7
+- n_tis_virgo_18
+- n_tis_jupiter_9
+- n_tis_mars_27
+- n_tis_mercury_25
+- n_tis_moon_29
+- n_tis_neptune_14
+- n_tis_pluto_15
+- n_tis_saturn_12
+- n_tis_sun_28
+- n_tis_uranus_13
+- n_tis_venus_26
+- n_tis_10h_33
+- n_tis_11h_34
+- n_tis_12h_35
+- n_tis_1h_0
+- n_tis_2h_1
+- n_tis_3h_2
+- n_tis_4h_3
+- n_tis_5h_4
+- n_tis_6h_5
+- n_tis_7h_30
+- n_tis_8h_31
+- n_tis_9h_32
+entry_nodes:
+- n_tis_source_text_10
+- n_tis_english_paraphrase_11
+- n_tis_aquarius_23
+- n_tis_source_text_para_1_36
+terminal_nodes:
+- n_tis_9h_32
+- n_tis_english_paraphrase_11
+- n_tis_source_text_10
+- n_tis_source_text_para_1_36
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-11-30T18:42:30.610163'
+  source_files:
+  - data/schema_staging/snippets/the_inner_sky_snippets.yaml
+  - data/schema_staging/relations/the_inner_sky_relations.yaml
+  snippet_count: 276
+  relation_count: 70
+version: 1.0.0

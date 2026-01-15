@@ -1,0 +1,523 @@
+chain_id: chain_the_collected_works
+book_id: the_collected_works
+system: psych
+nodes:
+- node_id: n_jung_001
+  role: 主干
+  snippet_ids:
+  - ns_jung_001
+  factor_refs:
+  - jung_collective_unconscious
+  - jung_universal
+  condition: collective_unconscious
+  conclusion: Beyond personal consciousness exists a second psychic system of collective,
+    universal, impersonal nature—identical in all individuals.
+  source_ref: Source Text
+- node_id: n_jung_002
+  role: 主干依赖
+  snippet_ids:
+  - ns_jung_002
+  factor_refs:
+  - jung_inherited
+  - jung_archetype
+  condition: inherited_not_learned
+  conclusion: This collective unconscious does not develop individually but is inherited;
+    it consists of pre-existent forms, the archetypes.
+  source_ref: Source Text
+- node_id: n_jung_003
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_003
+  factor_refs:
+  - jung_collective
+  - jung_personal
+  condition: deeper_than_personal
+  conclusion: The collective unconscious is deeper than personal unconscious—a universal
+    inherited stratum present at birth.
+  source_ref: English Paraphrase
+- node_id: n_jung_004
+  role: 总结
+  snippet_ids:
+  - ns_jung_004
+  factor_refs:
+  - jung_cross_cultural
+  - jung_symbol
+  condition: cross_cultural_parallels
+  conclusion: Explains why humans across all cultures produce similar myths, symbols,
+    dreams despite no contact.
+  source_ref: English Paraphrase
+- node_id: n_jung_005
+  role: 主干
+  snippet_ids:
+  - ns_jung_005
+  factor_refs:
+  - jung_transpersonal
+  - jung_species
+  condition: transpersonal_layer
+  conclusion: Unlike Freud's purely personal unconscious, Jung adds a transpersonal
+    layer—species-wide, not individual.
+  source_ref: English Paraphrase
+- node_id: n_jung_006
+  role: 主干依赖
+  snippet_ids:
+  - ns_jung_006
+  factor_refs:
+  - jung_psychic
+  - jung_unity
+  condition: psychic_unity
+  conclusion: Beneath cultural differences lies a shared symbolic substrate—the psychic
+    unity of humankind.
+  source_ref: English Paraphrase
+- node_id: n_jung_007
+  role: 主干
+  snippet_ids:
+  - ns_jung_007
+  factor_refs:
+  - jung_archetype
+  - jung_form
+  condition: archetype_form
+  conclusion: Archetypes are not determined as regards their content, but only as
+    regards their form—a possibility of representation given a priori.
+  source_ref: Source Text
+- node_id: n_jung_008
+  role: 主干依赖
+  snippet_ids:
+  - ns_jung_008
+  factor_refs:
+  - jung_crystal
+  - jung_preform
+  condition: crystal_analogy
+  conclusion: Form compared to axial system of crystal, preforming structure in mother
+    liquid though having no material existence.
+  source_ref: Source Text
+- node_id: n_jung_009
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_009
+  factor_refs:
+  - jung_empty
+  - jung_potential
+  condition: empty_formal
+  conclusion: The archetype in itself is empty and purely formal—nothing but a facultas
+    praeformandi.
+  source_ref: Source Text
+- node_id: n_jung_010
+  role: 总结
+  snippet_ids:
+  - ns_jung_010
+  factor_refs:
+  - jung_pattern
+  - jung_universal
+  condition: universal_pattern
+  conclusion: Archetype is pre-existent formal pattern—not fixed image but potential
+    for certain types of images.
+  source_ref: English Paraphrase
+- node_id: n_jung_011
+  role: 主干
+  snippet_ids:
+  - ns_jung_011
+  factor_refs:
+  - jung_numinous
+  - jung_archetype
+  condition: numinous_experience
+  conclusion: When archetype constellates powerfully, produces numinous experience—overwhelming,
+    fascinating, beyond personal control.
+  source_ref: English Paraphrase
+- node_id: n_jung_012
+  role: 主干
+  snippet_ids:
+  - ns_jung_012
+  factor_refs:
+  - jung_individuation
+  - jung_self_realization
+  condition: individuation_definition
+  conclusion: Individuation means becoming an 'in-dividual'—becoming one's own self,
+    self-realization.
+  source_ref: Source Text
+- node_id: n_jung_013
+  role: 主干依赖
+  snippet_ids:
+  - ns_jung_013
+  factor_refs:
+  - jung_persona
+  - jung_primordial
+  condition: false_wrappings
+  conclusion: The aim is to divest the self of false wrappings of persona and the
+    suggestive power of primordial images.
+  source_ref: Source Text
+- node_id: n_jung_014
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_014
+  factor_refs:
+  - jung_midlife
+  - jung_turn_inward
+  condition: midlife_crisis
+  conclusion: Mid-life crisis triggers inward turn when persona no longer satisfies
+    and unconscious demands attention.
+  source_ref: English Paraphrase
+- node_id: n_jung_015
+  role: 总结
+  snippet_ids:
+  - ns_jung_015
+  factor_refs:
+  - jung_ego
+  - jung_self
+  condition: ego_self_axis
+  conclusion: Goal is ego-Self axis—conscious ego relating appropriately to larger
+    Self, maintaining distinction while in dialogue.
+  source_ref: English Paraphrase
+- node_id: n_jung_016
+  role: 主干
+  snippet_ids:
+  - ns_jung_016
+  factor_refs:
+  - jung_individual
+  - jung_collective
+  condition: individuation_paradox
+  conclusion: Process makes you MORE individual (unique) yet MORE connected (to collective
+    unconscious, humanity).
+  source_ref: English Paraphrase
+- node_id: n_jung_017
+  role: 主干
+  snippet_ids:
+  - ns_jung_017
+  factor_refs:
+  - jung_shadow
+  - jung_moral
+  condition: shadow_moral
+  conclusion: The shadow is a moral problem that challenges the whole ego-personality,
+    for no one can become conscious of the shadow without considerable moral effort.
+  source_ref: Source Text
+- node_id: n_jung_018
+  role: 主干依赖
+  snippet_ids:
+  - ns_jung_018
+  factor_refs:
+  - jung_shadow
+  - jung_recognition
+  condition: shadow_recognition
+  conclusion: To become conscious of it involves recognizing the dark aspects of the
+    personality as present and real.
+  source_ref: Source Text
+- node_id: n_jung_019
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_019
+  factor_refs:
+  - jung_shadow
+  - jung_resistance
+  condition: shadow_resistance
+  conclusion: This act is the essential condition for any kind of self-knowledge,
+    and it therefore meets with considerable resistance.
+  source_ref: Source Text
+- node_id: n_jung_020
+  role: 总结
+  snippet_ids:
+  - ns_jung_020
+  factor_refs:
+  - jung_shadow
+  - jung_integration
+  condition: dark_brother
+  conclusion: Shadow is "dark brother"—rejected sibling seeking recognition and integration,
+    not annihilation.
+  source_ref: English Paraphrase
+- node_id: n_jung_021
+  role: 主干
+  snippet_ids:
+  - ns_jung_021
+  factor_refs:
+  - jung_anima
+  - jung_animus
+  condition: anima_animus
+  conclusion: Men carry within them an inner feminine (anima), women carry an inner
+    masculine (animus)—contrasexual archetypes inherited through collective unconscious.
+  source_ref: English Paraphrase
+- node_id: n_jung_022
+  role: 主干依赖
+  snippet_ids:
+  - ns_jung_022
+  factor_refs:
+  - jung_projection
+  - jung_love
+  condition: falling_in_love
+  conclusion: We fall in love with someone who carries our anima/animus projection—passionate
+    attraction = encountering own unconscious contrasexual side externalized.
+  source_ref: English Paraphrase
+- node_id: n_jung_023
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_023
+  factor_refs:
+  - jung_androgyny
+  - jung_integration
+  condition: psychological_androgyny
+  conclusion: Integration goal is psychological androgyny—healthy human is both masculine
+    and feminine, not one-sided.
+  source_ref: English Paraphrase
+- node_id: n_jung_024
+  role: 总结
+  snippet_ids:
+  - ns_jung_024
+  factor_refs:
+  - jung_projection
+  - jung_withdrawal
+  condition: projection_withdrawal
+  conclusion: When projection withdraws (infatuation fades), real relationship begins—or
+    relationship ends.
+  source_ref: English Paraphrase
+- node_id: n_jung_025
+  role: 主干
+  snippet_ids:
+  - ns_jung_025
+  factor_refs:
+  - jung_self
+  - jung_totality
+  condition: self_totality
+  conclusion: The self is not only the centre but also the whole circumference which
+    embraces both conscious and unconscious.
+  source_ref: Source Text
+- node_id: n_jung_026
+  role: 主干依赖
+  snippet_ids:
+  - ns_jung_026
+  factor_refs:
+  - jung_ego
+  - jung_subordinate
+  condition: ego_subordinate
+  conclusion: The ego is, by definition, subordinate to the self and is related to
+    it like a part to the whole.
+  source_ref: Source Text
+- node_id: n_jung_027
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_027
+  factor_refs:
+  - jung_mandala
+  - jung_self
+  condition: mandala_symbolism
+  conclusion: The Self appears in dreams as mandalas (circles, squares, quaternity),
+    God-images, trees, mountains, wise old man, divine child.
+  source_ref: English Paraphrase
+- node_id: n_jung_028
+  role: 总结
+  snippet_ids:
+  - ns_jung_028
+  factor_refs:
+  - jung_ego_self
+  - jung_axis
+  - jung_ego_self_axis
+  condition: ego_self_axis
+  conclusion: Individuation aims at ego-Self axis—conscious ego relating appropriately
+    to larger Self, servant not master.
+  source_ref: English Paraphrase
+- node_id: n_jung_029
+  role: 主干
+  snippet_ids:
+  - ns_jung_029
+  factor_refs:
+  - jung_extraversion
+  - jung_introversion
+  - jung_ei_axis
+  condition: fundamental_attitudes
+  conclusion: 'Two fundamental attitudes: extraversion (energy flows outward toward
+    objects) and introversion (energy flows inward toward subject).'
+  source_ref: Core
+- node_id: n_jung_030
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_030
+  factor_refs:
+  - jung_superior_attitude
+  - jung_inferior_attitude
+  condition: superior_inferior
+  conclusion: Everyone possesses both attitudes but one dominates as superior; the
+    inferior attitude operates unconsciously.
+  source_ref: Balance
+- node_id: n_jung_031
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_031
+  factor_refs:
+  - jung_libido
+  - jung_orientation
+  condition: energy_direction
+  conclusion: Psychic energy orientation determines personality's basic stance—outward
+    engagement or inward reflection.
+  source_ref: Function
+- node_id: n_jung_032
+  role: 主干
+  snippet_ids:
+  - ns_jung_032
+  factor_refs:
+  - jung_thinking
+  - jung_feeling
+  - jung_sensation
+  - jung_intuition
+  - jung_four_functions
+  condition: four_functions
+  conclusion: 'Four functions of consciousness: Thinking and Feeling are rational/judging;
+    Sensation and Intuition are irrational/perceiving.'
+  source_ref: Core
+- node_id: n_jung_033
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_033
+  factor_refs:
+  - jung_tf_axis
+  - jung_sn_axis
+  condition: opposite_pairs
+  conclusion: 'These form two pairs of opposites: Thinking↔Feeling (rational axis),
+    Sensation↔Intuition (irrational axis).'
+  source_ref: Structure
+- node_id: n_jung_034
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_034
+  factor_refs:
+  - jung_superior
+  - jung_inferior_function
+  - jung_function_hierarchy
+  condition: function_hierarchy
+  conclusion: 'Function hierarchy: Superior (most developed)'
+  source_ref: Auxiliary → Tertiary → Inferior (least developed, unconscious). → Development
+- node_id: n_jung_035
+  role: 主干
+  snippet_ids:
+  - ns_jung_035
+  factor_refs:
+  - jung_coniunctio
+  - jung_opposites
+  condition: coniunctio_union
+  conclusion: Coniunctio is the alchemical symbol for union of opposites—King and
+    Queen, Sol and Luna, conscious and unconscious.
+  source_ref: Core
+- node_id: n_jung_036
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_036
+  factor_refs:
+  - jung_ego
+  - jung_self_integration
+  condition: ego_self_integration
+  conclusion: Psychologically, it represents integration of ego with Self, union of
+    masculine and feminine within individual.
+  source_ref: Psychology
+- node_id: n_jung_037
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_037
+  factor_refs:
+  - jung_divine_child
+  - jung_individuation
+  condition: divine_child
+  conclusion: Union of Sol (consciousness) and Luna (unconscious) produces the Divine
+    Child—the individuated Self.
+  source_ref: Product
+- node_id: n_jung_038
+  role: 主干
+  snippet_ids:
+  - ns_jung_038
+  factor_refs:
+  - jung_synchronicity
+  - jung_acausal
+  condition: synchronicity_principle
+  conclusion: Synchronicity is the occurrence of two or more causally unrelated events
+    experienced as occurring together in a meaningful manner.
+  source_ref: Core
+- node_id: n_jung_039
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_039
+  factor_refs:
+  - jung_unus_mundus
+  - jung_psyche_matter
+  condition: unus_mundus
+  conclusion: It points to a deeper order connecting psyche and matter—the Unus Mundus
+    (one world) underlying both domains.
+  source_ref: Ontology
+- node_id: n_jung_040
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_040
+  factor_refs:
+  - jung_meaning
+  - jung_coincidence
+  - jung_meaningful_coincidence
+  condition: meaningful_coincidence
+  conclusion: Inner psychic event coincides with outer physical event, connected by
+    meaning not mechanism—foundation for divination theory.
+  source_ref: Application
+- node_id: n_jung_041
+  role: 主干
+  snippet_ids:
+  - ns_jung_041
+  factor_refs:
+  - jung_opus
+  - jung_transformation
+  - jung_opus_stages
+  condition: opus_stages
+  conclusion: 'The alchemical opus proceeds through distinct stages: nigredo (blackening),
+    albedo (whitening), and rubedo (reddening).'
+  source_ref: Core
+- node_id: n_jung_042
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_042
+  factor_refs:
+  - jung_nigredo
+  - jung_death
+  condition: nigredo_necessity
+  conclusion: Transformation requires nigredo—no rebirth without death of old form;
+    dissolution of old self precedes integration.
+  source_ref: Necessity
+- node_id: n_jung_043
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_043
+  factor_refs:
+  - jung_rubedo
+  - jung_individuation
+  - jung_albedo
+  condition: rubedo_completion
+  conclusion: These stages correspond psychologically to individuation—nigredo (shadow
+    work), albedo (purification), rubedo (final integration).
+  source_ref: Psychology
+- node_id: n_jung_044
+  role: 主干
+  snippet_ids:
+  - ns_jung_044
+  factor_refs:
+  - jung_transcendent
+  - jung_union
+  - jung_transcendent_function
+  condition: transcendent_function
+  conclusion: The transcendent function arises from union of conscious and unconscious
+    contents—a psychic process that creates a third thing, a symbol.
+  source_ref: Core
+- node_id: n_jung_045
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_045
+  factor_refs:
+  - jung_tension
+  - jung_opposites
+  - jung_opposites_union
+  - jung_active_imagination
+  condition: holding_tension
+  conclusion: It emerges when ego holds tension between opposites without choosing
+    either pole—allowing unconscious to contribute.
+  source_ref: Process
+- node_id: n_jung_046
+  role: 条件分支
+  snippet_ids:
+  - ns_jung_046
+  factor_refs:
+  - jung_symbol
+  - jung_transcendence
+  - jung_third_thing
+  condition: symbol_creation
+  conclusion: The symbol transcends both poles, creating new conscious position integrating
+    what seemed irreconcilable.
+  source_ref: Product
+edges: []

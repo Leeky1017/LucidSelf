@@ -1,0 +1,60 @@
+/home/leeky/work/LucidSelf
+
+AGENTS.md
+LLM灵芽api配置.md
+LLM调用及成本方案.md
+LS_SYSTEM_AUDIT_REPORT.md
+Playbook-TODO.md
+README.md
+backend
+coverage_matrix_report.json
+data
+docker
+docker-compose.yml
+docs
+frontend
+openspec
+requirements.txt
+scripts
+典籍
+
+openspec-local 0.1.0
+
+OPENSPEC DASHBOARD
+- specs: 26
+- requirements: 183
+- scenarios: 183
+- changes: 0
+- tasks: 0/0 (0%)
+
+SPECS (26)
+- abuse-and-rate-limits: requirements 6, scenarios 6, tasks 0/0 (0%)
+- billing-and-entitlements: requirements 7, scenarios 7, tasks 0/0 (0%)
+- bootability-and-regression-baseline: requirements 7, scenarios 7, tasks 0/0 (0%)
+- citations-evidence-protocol: requirements 7, scenarios 7, tasks 0/0 (0%)
+- commercial-readiness-gates: requirements 7, scenarios 7, tasks 0/0 (0%)
+- corpus-governance: requirements 8, scenarios 8, tasks 0/0 (0%)
+- corpus-release-pipeline: requirements 7, scenarios 7, tasks 0/0 (0%)
+- cross-book-consistency-conflicts: requirements 7, scenarios 7, tasks 0/0 (0%)
+- deployment-release: requirements 7, scenarios 7, tasks 0/0 (0%)
+- engine-id-governance: requirements 7, scenarios 7, tasks 0/0 (0%)
+- fusion-engine-explainability: requirements 8, scenarios 8, tasks 0/0 (0%)
+- geocoding-first-class: requirements 7, scenarios 7, tasks 0/0 (0%)
+- golden-sets-and-regression: requirements 7, scenarios 7, tasks 0/0 (0%)
+- identity-and-data-isolation: requirements 7, scenarios 7, tasks 0/0 (0%)
+- knowledge-graph-runtime-semanticquery: requirements 7, scenarios 7, tasks 0/0 (0%)
+- llm-narrative-layer: requirements 7, scenarios 7, tasks 0/0 (0%)
+- observability-slos: requirements 6, scenarios 6, tasks 0/0 (0%)
+- playbook-and-action-loop: requirements 8, scenarios 8, tasks 0/0 (0%)
+- production-defaults-no-mock: requirements 6, scenarios 6, tasks 0/0 (0%)
+- proofreading-workflow-qa: requirements 7, scenarios 7, tasks 0/0 (0%)
+- security-privacy-compliance: requirements 7, scenarios 7, tasks 0/0 (0%)
+- semantic-extraction-quality-gates: requirements 7, scenarios 7, tasks 0/0 (0%)
+- semantic-layer-core: requirements 8, scenarios 8, tasks 0/0 (0%)
+- seven-engine-pipeline-e2e: requirements 7, scenarios 7, tasks 0/0 (0%)
+- text-normalization-alignment: requirements 7, scenarios 7, tasks 0/0 (0%)
+- versioning-and-deviation-detection: requirements 7, scenarios 7, tasks 0/0 (0%)
+
+CHANGES (0)
+
+VALID

@@ -1,0 +1,672 @@
+book_id: waite_pictorial_key_to_the_tarot
+source_file: 典籍/texts/Waite Pictorial Key to the Tarot/编辑/Waite_Original_Symbolism.md,
+  典籍/texts/Waite Pictorial Key to the Tarot/编辑/Waite_Minor_Arcana_Pentacles.md, 典籍/texts/Waite
+  Pictorial Key to the Tarot/编辑/Waite_Major_Arcana_Complete.md, 典籍/texts/Waite Pictorial
+  Key to the Tarot/编辑/Waite_Minor_Arcana_Wands.md, 典籍/texts/Waite Pictorial Key to
+  the Tarot/编辑/Waite_Minor_Arcana_Swords.md, 典籍/texts/Waite Pictorial Key to the Tarot/编辑/Waite_Minor_Arcana_Cups.md
+extracted_at: '2025-12-01T02:28:32.530173'
+snippets:
+- snippet_id: ns_waite_001
+  trigger: magician_divine
+  factor_trigger: tarot_magician
+  role: 主干
+  snippet_text: This card signifies the divine motive in man, reflecting God—the will
+    in liberation through union with that which is above.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.509955'
+- snippet_id: ns_waite_002
+  trigger: as_above_so_below
+  factor_trigger: tarot_magician AND hermetic_axiom
+  role: 主干依赖
+  snippet_text: Right hand raised to heaven, left pointing to earth—this shows the
+    descent of grace, virtue, and light from things above to things below.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.509980'
+- snippet_id: ns_waite_003
+  trigger: infinity_symbol
+  factor_trigger: tarot_magician AND infinity_symbol
+  role: 主干依赖
+  snippet_text: The mysterious sign above his head is the Holy Spirit, the eternity
+    of attainment in the spirit.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.509988'
+- snippet_id: ns_waite_004
+  trigger: four_suits
+  factor_trigger: tarot_magician AND four_suits
+  role: 主干依赖
+  snippet_text: The four Tarot suits lie like counters before the adept—he adapts
+    them as he wills.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.509995'
+- snippet_id: ns_waite_005
+  trigger: fixation_thought
+  factor_trigger: tarot_magician AND fixation_thought
+  role: 总结
+  snippet_text: In a very high sense it is thought, in the fixation thereof—focused
+    consciousness manifesting reality.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510005'
+- snippet_id: ns_waite_006
+  trigger: high_priestess_highest
+  factor_trigger: tarot_high_priestess
+  role: 主干
+  snippet_text: There are some respects in which this card is the highest and holiest
+    of the Greater Arcana.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510025'
+- snippet_id: ns_waite_007
+  trigger: shekinah
+  factor_trigger: tarot_high_priestess AND shekinah
+  role: 主干依赖
+  snippet_text: Her truest and highest name in symbolism is Shekinah—the co-habiting
+    glory, the Divine Presence.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510036'
+- snippet_id: ns_waite_008
+  trigger: tora_scroll
+  factor_trigger: tarot_high_priestess AND tora_scroll
+  role: 主干依赖
+  snippet_text: The scroll is inscribed TORA, signifying the Greater Law, the Secret
+    Law, and the second sense of the Word.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510043'
+- snippet_id: ns_waite_009
+  trigger: implied_spoken
+  factor_trigger: tarot_high_priestess AND secret_knowledge
+  role: 主干依赖
+  snippet_text: It is partly covered by her mantle to show that some things are implied
+    and some spoken.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510049'
+- snippet_id: ns_waite_010
+  trigger: spiritual_bride
+  factor_trigger: tarot_high_priestess AND shekinah
+  role: 总结
+  snippet_text: The Shekinah is the Spiritual Bride of the just man; when he reads
+    the Law, she gives the Divine meaning.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510056'
+- snippet_id: ns_waite_011
+  trigger: universal_fecundity
+  factor_trigger: tarot_empress
+  role: 主干
+  snippet_text: She is above all things universal fecundity and the outer sense of
+    the Word.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510073'
+- snippet_id: ns_waite_012
+  trigger: inferior_eden
+  factor_trigger: tarot_empress AND earthly_paradise
+  role: 主干依赖
+  snippet_text: She is the inferior Garden of Eden, the Earthly Paradise, all that
+    is symbolized by the visible house of man.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510080'
+- snippet_id: ns_waite_013
+  trigger: not_regina
+  factor_trigger: tarot_empress
+  role: 主干依赖
+  snippet_text: She is not Regina coeli, but she is still refugium peccatorum, the
+    fruitful mother of thousands.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510086'
+- snippet_id: ns_waite_014
+  trigger: gateway_in
+  factor_trigger: tarot_empress AND incarnation
+  role: 总结
+  snippet_text: The Empress is "the door or gate" by which we enter this life—Gateway
+    In for incarnation.
+  source_ref: English Paraphrase
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510095'
+- snippet_id: ns_waite_015
+  trigger: executive_realization
+  factor_trigger: tarot_emperor
+  role: 主干
+  snippet_text: He is executive and realization, the power of this world, here clothed
+    with the highest of its natural attributes.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510111'
+- snippet_id: ns_waite_016
+  trigger: higher_kingship
+  factor_trigger: tarot_emperor AND intellectual_throne
+  role: 主干依赖
+  snippet_text: They signify the higher kingship, occupying the intellectual throne—lordship
+    of thought rather than of the animal world.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510118'
+- snippet_id: ns_waite_017
+  trigger: virile_power
+  factor_trigger: tarot_emperor AND tarot_empress
+  role: 主干依赖
+  snippet_text: He is the virile power, to which the Empress responds—he seeks to
+    remove the Veil of Isis; yet she remains virgo intacta.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510126'
+- snippet_id: ns_waite_018
+  trigger: strange_experience
+  factor_trigger: tarot_emperor AND tarot_empress
+  role: 总结
+  snippet_text: Both personalities are 'full of strange experience,' but theirs is
+    not consciously the wisdom which draws from a higher world.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510133'
+- snippet_id: ns_waite_019
+  trigger: hierophant_exoteric
+  factor_trigger: tarot_hierophant
+  role: 主干
+  snippet_text: The Hierophant is the ruling power of external religion, as the High
+    Priestess is the prevailing genius of the esoteric, withdrawn power.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510150'
+- snippet_id: ns_waite_020
+  trigger: power_of_keys
+  factor_trigger: tarot_hierophant AND exoteric_doctrine
+  role: 主干依赖
+  snippet_text: He is the power of the keys, exoteric orthodox doctrine, and the outer
+    side of the life which leads to the doctrine.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510166'
+- snippet_id: ns_waite_021
+  trigger: summa_theologiae
+  factor_trigger: tarot_hierophant
+  role: 主干依赖
+  snippet_text: He is the summa totius theologiae when it has passed into the utmost
+    rigidity of expression.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510173'
+- snippet_id: ns_waite_022
+  trigger: pontiff_danger
+  factor_trigger: tarot_hierophant AND shadow
+  role: 总结
+  snippet_text: The pontiff forgets the significance of this his symbolic state and
+    acts as if he contained within his proper measures all that his sign signifies.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510180'
+- snippet_id: ns_waite_023
+  trigger: lovers_innocence
+  factor_trigger: tarot_lovers
+  role: 主干
+  snippet_text: Youth, virginity, innocence and love before it is contaminated by
+    gross material desire.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510197'
+- snippet_id: ns_waite_024
+  trigger: lovers_sacred
+  factor_trigger: tarot_lovers AND sacred_love
+  role: 主干依赖
+  snippet_text: This is in all simplicity the card of human love, here exhibited as
+    part of the way, the truth and the life.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510224'
+- snippet_id: ns_waite_025
+  trigger: secret_law
+  factor_trigger: tarot_lovers AND providence
+  role: 主干依赖
+  snippet_text: She is rather the working of a Secret Law of Providence than a willing
+    and conscious temptress.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510233'
+- snippet_id: ns_waite_026
+  trigger: fortunate_fall
+  factor_trigger: tarot_lovers AND felix_culpa
+  role: 总结
+  snippet_text: It is through her imputed lapse that man shall arise ultimately, and
+    only by her can he complete himself.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510242'
+- snippet_id: ns_waite_027
+  trigger: chariot_triumph
+  factor_trigger: tarot_chariot
+  role: 主干
+  snippet_text: He is above all things triumph in the mind—conquest on all planes,
+    in science, in progress, in certain trials of initiation.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510261'
+- snippet_id: ns_waite_028
+  trigger: chariot_limitation
+  factor_trigger: tarot_chariot AND tarot_high_priestess
+  role: 主干依赖
+  snippet_text: If he came to the pillars of that Temple between which the High Priestess
+    is seated, he could not open the scroll called Tora.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510268'
+- snippet_id: ns_waite_029
+  trigger: logical_bondage
+  factor_trigger: tarot_chariot AND limitation
+  role: 主干依赖
+  snippet_text: The liberation which he effects may leave himself in the bondage of
+    the logical understanding.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510276'
+- snippet_id: ns_waite_030
+  trigger: nature_not_grace
+  factor_trigger: tarot_chariot AND nature_vs_grace
+  role: 总结
+  snippet_text: The sphinx's question is concerned with a Mystery of Nature and not
+    of the world of Grace, to which the charioteer could offer no answer.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510285'
+- snippet_id: ns_waite_031
+  trigger: strength_divine
+  factor_trigger: tarot_strength
+  role: 主干
+  snippet_text: Fortitude, in one of its most exalted aspects, is connected with the
+    Divine Mystery of Union.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510300'
+- snippet_id: ns_waite_032
+  trigger: chain_of_flowers
+  factor_trigger: tarot_strength AND divine_law
+  role: 主干依赖
+  snippet_text: The chain of flowers signifies the sweet yoke and the light burden
+    of Divine Law, when it has been taken into the heart of hearts.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510307'
+- snippet_id: ns_waite_033
+  trigger: strength_is_god
+  factor_trigger: tarot_strength AND divine_union
+  role: 主干依赖
+  snippet_text: The card concerns the confidence of those whose strength is God, who
+    have found their refuge in Him.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510315'
+- snippet_id: ns_waite_034
+  trigger: higher_nature
+  factor_trigger: tarot_strength AND liberation
+  role: 总结
+  snippet_text: The lion signifies the passions, and she who is called Strength is
+    the higher nature in its liberation.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510321'
+- snippet_id: ns_waite_035
+  trigger: hermit_attainment
+  factor_trigger: tarot_hermit
+  role: 主干
+  snippet_text: This is a card of attainment—the Hermit is not a wise man in search
+    of truth but has already reached the height.
+  source_ref: English Paraphrase
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510337'
+- snippet_id: ns_waite_036
+  trigger: where_i_am
+  factor_trigger: tarot_hermit AND guidance
+  role: 主干依赖
+  snippet_text: His beacon intimates that 'where I am, you also may be'—he is a guide
+    showing the achievable path.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510343'
+- snippet_id: ns_waite_037
+  trigger: not_isolation
+  factor_trigger: tarot_hermit
+  role: 主干依赖
+  snippet_text: The card is understood quite incorrectly when connected with occult
+    isolation as protection of personal magnetism.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510349'
+- snippet_id: ns_waite_038
+  trigger: mysteries_self_protect
+  factor_trigger: tarot_hermit AND divine_mysteries
+  role: 总结
+  snippet_text: The Divine Mysteries secure their own protection from those who are
+    unprepared—they are not artificially concealed.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510358'
+- snippet_id: ns_waite_039
+  trigger: denial_of_chance
+  factor_trigger: tarot_wheel
+  role: 主干
+  snippet_text: Behind the general notion expressed in the symbol there lies the denial
+    of chance and the fatality which is implied therein.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510373'
+- snippet_id: ns_waite_040
+  trigger: providence_through_all
+  factor_trigger: tarot_wheel AND providence
+  role: 主干依赖
+  snippet_text: The transliteration of TARO as ROTA is inscribed on the wheel, counterchanged
+    with the letters of the Divine Name—to show that Providence is implied through
+    all.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510381'
+- snippet_id: ns_waite_041
+  trigger: sphinx_equilibrium
+  factor_trigger: tarot_wheel AND sphinx
+  role: 主干依赖
+  snippet_text: The Sphinx is the equilibrium therein—stability amidst the perpetual
+    motion of a fluidic universe.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510387'
+- snippet_id: ns_waite_042
+  trigger: fatuous_interpretations
+  factor_trigger: tarot_wheel
+  role: 总结
+  snippet_text: The occult explanations of this card are of a singularly fatuous kind;
+    the findings of common fortune-telling are better on their own plane.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510453'
+- snippet_id: ns_waite_047
+  trigger: moral_vs_spiritual
+  factor_trigger: tarot_justice
+  role: 主干
+  snippet_text: The moral principle which deals unto every man according to his works
+    differs in its essence from the spiritual justice which is involved in the idea
+    of election.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510503'
+- snippet_id: ns_waite_048
+  trigger: election_mystery
+  factor_trigger: tarot_justice AND spiritual_election
+  role: 主干依赖
+  snippet_text: The operation of this is like the breathing of the Spirit where it
+    wills, and we have no canon of criticism or ground of explanation concerning it.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510516'
+- snippet_id: ns_waite_049
+  trigger: fairy_gifts
+  factor_trigger: tarot_justice AND grace
+  role: 主干依赖
+  snippet_text: 'It is analogous to the possession of the fairy gifts and the high
+    gifts and the gracious gifts of the poet: we have them or have not.'
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510526'
+- snippet_id: ns_waite_050
+  trigger: different_pillars
+  factor_trigger: tarot_justice AND tarot_high_priestess
+  role: 总结
+  snippet_text: The pillars of Justice open into one world and the pillars of the
+    High Priestess into another.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510535'
+- snippet_id: ns_waite_051
+  trigger: veiled_significance
+  factor_trigger: tarot_hanged_man
+  role: 主干
+  snippet_text: It is a card of profound significance, but all the significance is
+    veiled.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510552'
+- snippet_id: ns_waite_052
+  trigger: living_wood
+  factor_trigger: tarot_hanged_man AND sacrifice
+  role: 主干依赖
+  snippet_text: The tree of sacrifice is living wood, with leaves thereon—sacrifice
+    brings life, not death.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510560'
+- snippet_id: ns_waite_053
+  trigger: entrancement
+  factor_trigger: tarot_hanged_man AND mystical_ecstasy
+  role: 主干依赖
+  snippet_text: The face expresses deep entrancement, not suffering—mystical ecstasy,
+    not agony.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510566'
+- snippet_id: ns_waite_054
+  trigger: divine_universe
+  factor_trigger: tarot_hanged_man AND resurrection
+  role: 总结
+  snippet_text: It expresses the relation, in one of its aspects, between the Divine
+    and the Universe—after the sacred Mystery of Death there is a glorious Mystery
+    of Resurrection.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510576'
+- snippet_id: ns_waite_055
+  trigger: mystic_rose
+  factor_trigger: tarot_death
+  role: 主干
+  snippet_text: The mysterious horseman bears a black banner emblazoned with the Mystic
+    Rose, which signifies life—death carries the symbol of life.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510594'
+- snippet_id: ns_waite_056
+  trigger: sun_immortality
+  factor_trigger: tarot_death AND immortality
+  role: 主干依赖
+  snippet_text: Between two pillars on the verge of the horizon there shines the sun
+    of immortality—passage to eternal life, not annihilation.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510602'
+- snippet_id: ns_waite_057
+  trigger: mystical_death
+  factor_trigger: tarot_death AND consciousness_shift
+  role: 主干依赖
+  snippet_text: The exotic and almost unknown entrance, while still in this life,
+    into the state of mystical death is a change in the form of consciousness.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510609'
+- snippet_id: ns_waite_058
+  trigger: lower_to_higher
+  factor_trigger: tarot_death AND transformation
+  role: 总结
+  snippet_text: The veil or mask of life is perpetuated in change, transformation
+    and passage from lower to higher—behind it lies the whole world of ascent in the
+    spirit.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510620'
+- snippet_id: ns_waite_059
+  trigger: eternal_life_secret
+  factor_trigger: tarot_temperance
+  role: 主干
+  snippet_text: Hereof is some part of the Secret of Eternal Life, as it is possible
+    to man in his incarnation.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510636'
+- snippet_id: ns_waite_060
+  trigger: tempers_harmonises
+  factor_trigger: tarot_temperance AND harmonization
+  role: 主干依赖
+  snippet_text: When the rule of it obtains in our consciousness, it tempers, combines
+    and harmonises the psychic and material natures.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510643'
+- snippet_id: ns_waite_061
+  trigger: origin_destiny
+  factor_trigger: tarot_temperance AND self_knowledge
+  role: 主干依赖
+  snippet_text: Under that rule we know in our rational part something of whence we
+    came and whither we are going.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510649'
+- snippet_id: ns_waite_062
+  trigger: solar_realization
+  factor_trigger: tarot_temperance AND spirit
+  role: 总结
+  snippet_text: It is the analogy of solar light, realized in the third part of our
+    human triplicity—spirit after body and soul.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510656'
+- snippet_id: ns_waite_063
+  trigger: house_falsehood
+  factor_trigger: tarot_tower
+  role: 主干
+  snippet_text: I understand that the reference is to a House of Falsehood—false doctrine
+    structure that must fall.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510679'
+- snippet_id: ns_waite_064
+  trigger: materialized_word
+  factor_trigger: tarot_tower AND materialism
+  role: 主干依赖
+  snippet_text: It signifies the materialization of the spiritual word—divine truth
+    corrupted into rigid materialism.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510690'
+- snippet_id: ns_waite_065
+  trigger: two_figures
+  factor_trigger: tarot_tower AND destruction
+  role: 主干依赖
+  snippet_text: The one is the literal word made void and the other its false interpretation—both
+    destroyed.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510696'
+- snippet_id: ns_waite_066
+  trigger: lord_build
+  factor_trigger: tarot_tower AND divine_foundation
+  role: 总结
+  snippet_text: Except the Lord build the house, they labour in vain that build it—human
+    edifices without divine foundation fall.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510703'
+- snippet_id: ns_waite_067
+  trigger: binah_mother
+  factor_trigger: tarot_star
+  role: 主干
+  snippet_text: She is in reality the Great Mother in the Kabalistic Sephira Binah,
+    which is supernal Understanding.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510715'
+- snippet_id: ns_waite_068
+  trigger: waters_freely
+  factor_trigger: tarot_star AND grace
+  role: 主干依赖
+  snippet_text: The mottoes of this card are "Waters of Life freely" and "Gifts of
+    the Spirit"—grace poured without cost.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510722'
+- snippet_id: ns_waite_069
+  trigger: measured_influx
+  factor_trigger: tarot_star AND sephiroth
+  role: 主干依赖
+  snippet_text: She communicates to the Sephiroth that are below in the measure that
+    they can receive her influx.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510732'
+- snippet_id: ns_waite_070
+  trigger: truth_unveiled
+  factor_trigger: tarot_star AND truth
+  role: 总结
+  snippet_text: For the majority of prepared minds, the figure will appear as the
+    type of Truth unveiled, glorious in undying beauty.
+  source_ref: Source Text
+  source_book: waite_pictorial_key_to_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.510740'

@@ -1,0 +1,79 @@
+# 周易体系 - 关系类因子
+# Relational factors for YiJing system
+
+factors:
+  # 卦象关系
+  - id: yijing_host_guest
+    status: existing
+    display_zh: 主客关系
+    display_en: Host-Guest Relation
+    description_zh: 卦中主爻与客爻的关系
+    description_en: Relationship between host and guest lines
+    category: relation
+    value_type: reference
+    applicable_systems: [yijing]
+
+  - id: yijing_correlate_lines
+    status: existing
+    display_zh: 应爻
+    display_en: Correlate Lines
+    description_zh: 上下相应的两爻（初与四、二与五、三与上）
+    description_en: Corresponding lines (1st-4th, 2nd-5th, 3rd-6th)
+    category: relation
+    value_type: boolean
+    applicable_systems: [yijing]
+
+  - id: yijing_neighbor_lines
+    status: existing
+    display_zh: 比爻
+    display_en: Neighbor Lines
+    description_zh: 相邻两爻的关系
+    description_en: Relationship between adjacent lines
+    category: relation
+    value_type: reference
+    applicable_systems: [yijing]
+
+  # 互卦关系
+  - id: yijing_nuclear_hexagram
+    status: existing
+    display_zh: 互卦
+    display_en: Nuclear Hexagram
+    description_zh: 取二三四爻和三四五爻组成的卦
+    description_en: Hexagram formed from lines 2-3-4 and 3-4-5
+    category: relation
+    value_type: reference
+    applicable_systems: [yijing]
+
+  # 错综关系
+  - id: yijing_inverse_hexagram
+    status: existing
+    display_zh: 错卦
+    display_en: Inverse Hexagram
+    description_zh: 阴阳全部反转的卦
+    description_en: Hexagram with all lines inverted
+    category: relation
+    value_type: reference
+    applicable_systems: [yijing]
+
+  - id: yijing_reverse_hexagram
+    status: existing
+    display_zh: 综卦
+    display_en: Reverse Hexagram
+    aliases_zh: [倒卦]
+    description_zh: 上下颠倒的卦
+    description_en: Hexagram turned upside down
+    category: relation
+    value_type: reference
+    applicable_systems: [yijing]
+
+  # 变卦关系
+  - id: yijing_transformed_hexagram
+    status: existing
+    display_zh: 变卦
+    display_en: Transformed Hexagram
+    aliases_zh: [之卦]
+    description_zh: 动爻变化后得到的卦
+    description_en: Hexagram after moving lines change
+    category: relation
+    value_type: reference
+    applicable_systems: [yijing]

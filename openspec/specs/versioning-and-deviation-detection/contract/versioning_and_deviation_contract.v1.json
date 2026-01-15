@@ -1,0 +1,65 @@
+{
+  "contract_id": "versioning-and-deviation-detection",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["version_id", "engine_id"],
+  "entities": [
+    {
+      "name": "VersionManifest",
+      "description": "版本清单条目（版本化与追溯的最小字段集合）",
+      "fields": [
+        { "name": "version_id", "type": "string", "required": true, "notes": "不可变版本标识" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "关联引擎标识" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" },
+        { "name": "status", "type": "string", "required": true, "notes": "ACTIVE/DEPRECATED 等（受控词表）" },
+        { "name": "notes", "type": "string", "required": false, "notes": "最小摘要（可审计）" }
+      ]
+    },
+    {
+      "name": "CompatibilityStatement",
+      "description": "兼容性声明（版本之间的兼容关系）",
+      "fields": [
+        { "name": "from_version_id", "type": "string", "required": true, "notes": "来源版本" },
+        { "name": "to_version_id", "type": "string", "required": true, "notes": "目标版本" },
+        { "name": "compatible", "type": "boolean", "required": true, "notes": "是否兼容" },
+        { "name": "scope", "type": "string", "required": false, "notes": "兼容范围（受控词表）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "DeviationReport",
+      "description": "偏差报告（输出漂移/契约不一致的可审计报告）",
+      "fields": [
+        { "name": "report_id", "type": "string", "required": true, "notes": "报告标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "被评估版本" },
+        { "name": "baseline_version_id", "type": "string", "required": true, "notes": "基线版本" },
+        { "name": "deviation_type", "type": "string", "required": true, "notes": "偏差类型（受控词表）" },
+        { "name": "summary", "type": "string", "required": true, "notes": "最小摘要（可行动）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "BlockRecord",
+      "description": "阻断记录（门禁失败的最小可审计字段集合）",
+      "fields": [
+        { "name": "block_id", "type": "string", "required": true, "notes": "阻断标识" },
+        { "name": "gate", "type": "string", "required": true, "notes": "Gate-0/1/2/3 或资产门禁" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "reason", "type": "string", "required": true, "notes": "阻断原因摘要（可行动）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "INVALID_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_ENGINE_ID", "category": "client_error", "retryable": false },
+    { "code": "INVALID_ENGINE_ID", "category": "client_error", "retryable": false },
+    { "code": "BASELINE_NOT_FOUND", "category": "not_found", "retryable": false },
+    { "code": "INCOMPATIBLE_VERSION", "category": "conflict", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

@@ -1,0 +1,66 @@
+$ PYTHONPATH=. .venv/bin/python - <<'PY'
+import json
+import os
+import tempfile
+from fastapi import FastAPI
+from fastapi.testclient import TestClient
+
+from backend.api.middleware.request_logging import RequestLoggingMiddleware
+from backend.api.routes.health import router as health_router
+import backend.db.session as db_session
+
+os.environ['ENV'] = 'production'
+os.environ.pop('REDIS_URL', None)
+os.environ.pop('OPENAI_API_KEY', None)
+
+class FailingConn:
+    async def __aenter__(self):
+        raise RuntimeError('db down')
+    async def __aexit__(self, *args):
+        return False
+class FailingEngine:
+    def connect(self):
+        return FailingConn()
+
+db_session.engine = FailingEngine()
+
+with tempfile.TemporaryDirectory() as td:
+    os.environ['AUDIT_LOG_DIR'] = td
+    app = FastAPI()
+    app.add_middleware(RequestLoggingMiddleware)
+    app.include_router(health_router)
+    client = TestClient(app)
+    resp = client.get('/ready')
+    print('status', resp.status_code)
+    print(json.dumps(resp.json(), ensure_ascii=False, indent=2))
+    p = os.path.join(td, 'observability-slos.ndjson')
+    print('audit_path', p)
+    print('audit_first_line', open(p, encoding='utf-8').read().splitlines()[0])
+PY
+{"event": "readiness_check", "request_id": "req_8164f6e9b011", "user_id": null, "org_id": null, "engine_id": null, "version_id": null, "trace_id": "ded4df64522840b9a42de10d38d56eca", "ready": false, "checks": {"db": {"ok": false, "required": true, "error_type": "RuntimeError"}, "redis": {"ok": false, "required": true, "configured": false, "error_type": null}, "llm_provider": {"ok": false, "required": true, "configured": false}}}
+status 503
+{
+  "ready": false,
+  "timestamp": "2025-12-26T12:19:05.828436+00:00",
+  "checks": {
+    "db": {
+      "ok": false,
+      "required": true,
+      "error_type": "RuntimeError"
+    },
+    "redis": {
+      "ok": false,
+      "required": true,
+      "configured": false,
+      "error_type": null
+    },
+    "llm_provider": {
+      "ok": false,
+      "required": true,
+      "configured": false
+    }
+  },
+  "env": "production"
+}
+audit_path /tmp/tmpsi0rrc5e/observability-slos.ndjson
+audit_first_line {"audit_id": "aud_01f12515ffcc", "created_at": "2025-12-26T12:19:05.826906Z", "event_type": "SLO_BREACH", "result": "BLOCK", "rejection_reason_code": "DEPENDENCY_UNAVAILABLE", "capability": "observability-slos", "request_id": "req_8164f6e9b011", "trace_id": "ded4df64522840b9a42de10d38d56eca"}

@@ -1,0 +1,94 @@
+# 梦境体系 - 能量/情绪类因子
+# Energy/Emotion factors for Dream system
+
+factors:
+  # 能量状态
+  - id: dream_energy_level
+    status: existing
+    display_zh: 梦境能量
+    display_en: Dream Energy Level
+    description_zh: 梦境的整体能量水平
+    description_en: Overall energy level of the dream
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [dream]
+
+  - id: dream_libido_expression
+    status: existing
+    display_zh: 力比多表达
+    display_en: Libido Expression
+    description_zh: 梦中心理能量的表达程度
+    description_en: Expression of psychic energy in dream
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [dream]
+
+  # 情绪类型
+  - id: dream_anxiety_level
+    status: existing
+    display_zh: 焦虑程度
+    display_en: Anxiety Level
+    description_zh: 梦中焦虑情绪的强度
+    description_en: Intensity of anxiety in dream
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [dream]
+
+  - id: dream_fear_level
+    status: existing
+    display_zh: 恐惧程度
+    display_en: Fear Level
+    description_zh: 梦中恐惧情绪的强度
+    description_en: Intensity of fear in dream
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [dream]
+
+  - id: dream_joy_level
+    status: existing
+    display_zh: 喜悦程度
+    display_en: Joy Level
+    description_zh: 梦中喜悦情绪的强度
+    description_en: Intensity of joy in dream
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [dream]
+
+  - id: dream_desire_level
+    status: existing
+    display_zh: 欲望程度
+    display_en: Desire Level
+    description_zh: 梦中欲望情绪的强度
+    description_en: Intensity of desire in dream
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [dream]
+
+  # 心理张力
+  - id: dream_conflict_tension
+    status: existing
+    display_zh: 冲突张力
+    display_en: Conflict Tension
+    description_zh: 梦中冲突的紧张程度
+    description_en: Tension level of conflicts in dream
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [dream]
+
+  - id: dream_resolution_sense
+    status: existing
+    display_zh: 解决感
+    display_en: Resolution Sense
+    description_zh: 梦境结束时的解决感
+    description_en: Sense of resolution at dream's end
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [dream]
