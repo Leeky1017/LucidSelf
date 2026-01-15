@@ -1,0 +1,1037 @@
+book_id: christian_astrology,_vol._1_and_2
+source_file: 典籍/texts/Christian Astrology, vol. 1 and 2/编辑/Christian_Astrology_Horary_v2.1.md,
+  典籍/texts/Christian Astrology, vol. 1 and 2/编辑/Christian_Astrology_Nativities_v2.1.md,
+  典籍/texts/Christian Astrology, vol. 1 and 2/编辑/Christian_Astrology_Foundations_v2.1.md
+extracted_at: '2025-12-04T14:27:43.624327'
+relations:
+- relation_id: rel_lilly_horary_001
+  relation_type: definitional
+  factor_a: astro_horary AND astro_definition
+  factor_b: astro_question_answer
+  relation_nature: Horary requires exact question moment
+  condition_constraint: Chart cast when astrologer understands
+  effect_direction: ENABLING
+  source_ref: 'CA II #Horary'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.970969'
+- relation_id: rel_lilly_horary_002
+  relation_type: causal
+  factor_a: astro_chart AND astro_moment
+  factor_b: astro_judgment_validity
+  relation_nature: Chart moment determines answer
+  condition_constraint: When astrologer truly understands question
+  effect_direction: ENABLING
+  source_ref: 'CA II #Horary'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.970978'
+- relation_id: rel_lilly_horary_003
+  relation_type: conditional
+  factor_a: astro_radical AND astro_intention
+  factor_b: astro_chart_validity
+  relation_nature: Both time and intention matter
+  condition_constraint: When question is sincere and specific
+  effect_direction: VALIDATING
+  source_ref: 'CA II #Horary'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.970982'
+- relation_id: rel_lilly_horary_004
+  relation_type: semantic
+  factor_a: astro_synchronicity AND astro_inquiry
+  factor_b: astro_cosmic_mirror
+  relation_nature: Heaven mirrors situation
+  condition_constraint: When chart cast at inquiry moment
+  effect_direction: REFLECTING
+  source_ref: 'CA II #Horary'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.970985'
+- relation_id: rel_lilly_horary_005
+  relation_type: structural
+  factor_a: astro_question AND astro_answer
+  factor_b: astro_binary_outcome
+  relation_nature: One question yields one answer
+  condition_constraint: When question is properly formulated
+  effect_direction: DETERMINING
+  source_ref: 'CA II #Horary'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.970988'
+- relation_id: rel_lilly_horary_006
+  relation_type: analogous
+  factor_a: astro_horary AND bazi_liuyao
+  factor_b: astro_cross_system_parallel
+  relation_nature: East-West divination parallel
+  condition_constraint: When comparing question-based systems
+  effect_direction: ANALOGOUS
+  source_ref: 'CA II #Horary'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.970991'
+- relation_id: rel_lilly_sig_001
+  relation_type: assignment
+  factor_a: astro_querent AND astro_significator
+  factor_b: astro_ascendant_ruler
+  relation_nature: Querent is ASC ruler + Moon
+  condition_constraint: When ASC sign determined
+  effect_direction: DETERMINING
+  source_ref: 'CA II #Significators'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971034'
+- relation_id: rel_lilly_sig_002
+  relation_type: assignment
+  factor_a: astro_quesited AND astro_house_lord
+  factor_b: astro_matter_ruler
+  relation_nature: Quesited is house ruler
+  condition_constraint: When house for matter identified
+  effect_direction: DETERMINING
+  source_ref: 'CA II #Significators'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971038'
+- relation_id: rel_lilly_sig_003
+  relation_type: causal
+  factor_a: astro_applying AND astro_perfection
+  factor_b: astro_matter_completes
+  relation_nature: Applying aspect = YES
+  condition_constraint: When significators moving toward aspect
+  effect_direction: BENEFICIAL
+  source_ref: 'CA II #Significators'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971041'
+- relation_id: rel_lilly_sig_004
+  relation_type: conditional
+  factor_a: astro_reception AND astro_dignity
+  factor_b: astro_connection_strength
+  relation_nature: Reception shows welcome
+  condition_constraint: When planet in another's dignity
+  effect_direction: STRENGTHENING
+  source_ref: 'CA II #Significators'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971043'
+- relation_id: rel_lilly_house_001
+  relation_type: structural
+  factor_a: astro_houses AND astro_universe
+  factor_b: astro_life_division
+  relation_nature: Houses divide life areas
+  condition_constraint: When chart is properly calculated
+  effect_direction: ORGANIZING
+  source_ref: 'CA II #Houses'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971080'
+- relation_id: rel_lilly_house_002
+  relation_type: semantic
+  factor_a: astro_house AND astro_signification
+  factor_b: astro_matter_category
+  relation_nature: Each house governs domain
+  condition_constraint: When question classified to house
+  effect_direction: DETERMINING
+  source_ref: 'CA II #Houses'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971083'
+- relation_id: rel_lilly_house_003
+  relation_type: hierarchical
+  factor_a: astro_angular AND astro_strength
+  factor_b: astro_manifestation_power
+  relation_nature: Angular strongest
+  condition_constraint: When planet in houses 1/4/7/10
+  effect_direction: EMPOWERING
+  source_ref: 'CA II #Houses'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971086'
+- relation_id: rel_lilly_house_004
+  relation_type: derivational
+  factor_a: astro_derived AND astro_counting
+  factor_b: astro_related_matter
+  relation_nature: Count from house
+  condition_constraint: When seeking related person/thing
+  effect_direction: EXTENDING
+  source_ref: 'CA II #Houses'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971089'
+- relation_id: rel_lilly_aspect_001
+  relation_type: definitional
+  factor_a: astro_aspect AND astro_distance
+  factor_b: astro_planetary_relationship
+  relation_nature: Aspects define relationship
+  condition_constraint: When planets at specific angular distances
+  effect_direction: DEFINING
+  source_ref: 'CA II #Aspects'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971133'
+- relation_id: rel_lilly_aspect_002
+  relation_type: causal
+  factor_a: astro_aspect AND astro_perfection
+  factor_b: astro_matter_completes
+  relation_nature: Perfecting aspect = success
+  condition_constraint: When aspect completes without impediment
+  effect_direction: BENEFICIAL
+  source_ref: 'CA II #Aspects'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971136'
+- relation_id: rel_lilly_aspect_003
+  relation_type: blocking
+  factor_a: astro_frustration AND astro_impediment
+  factor_b: astro_matter_fails
+  relation_nature: Frustration blocks outcome
+  condition_constraint: When retrograde/combust before perfection
+  effect_direction: HARMFUL
+  source_ref: 'CA II #Aspects'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971139'
+- relation_id: rel_lilly_aspect_004
+  relation_type: temporal
+  factor_a: astro_applying AND astro_separating
+  factor_b: astro_yes_no_judgment
+  relation_nature: Applying=YES, Separating=NO
+  condition_constraint: When determining matter outcome
+  effect_direction: DETERMINISTIC
+  source_ref: 'CA II #Aspects'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971141'
+- relation_id: rel_lilly_dignity_001
+  relation_type: definitional
+  factor_a: astro_dignity AND astro_privilege
+  factor_b: astro_planetary_power
+  relation_nature: Dignity empowers planet
+  condition_constraint: When planet in dignified position
+  effect_direction: EMPOWERING
+  source_ref: 'CA II #Dignities'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971179'
+- relation_id: rel_lilly_dignity_002
+  relation_type: scoring
+  factor_a: astro_essential_dignity AND astro_score
+  factor_b: astro_power_level
+  relation_nature: Essential dignity scored
+  condition_constraint: When scoring essential dignity Domicile +5 Exalt +4 Trip +3
+    Term +2 Face +1
+  effect_direction: QUANTIFYING
+  source_ref: 'CA II #Dignities'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971182'
+- relation_id: rel_lilly_dignity_003
+  relation_type: weakening
+  factor_a: astro_debility AND astro_weakness
+  factor_b: astro_planetary_failure
+  relation_nature: Debility weakens planet
+  condition_constraint: When planet in debilitated position
+  effect_direction: WEAKENING
+  source_ref: 'CA II #Dignities'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971186'
+- relation_id: rel_lilly_dignity_004
+  relation_type: conditional
+  factor_a: astro_dignity AND astro_judgment
+  factor_b: astro_outcome_modifier
+  relation_nature: Dignity modifies judgment
+  condition_constraint: When even perfect aspects fail if planet too weak dignity
+    modifies judgment
+  effect_direction: MODULATING
+  source_ref: 'CA II #Dignities'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971189'
+- relation_id: rel_lilly_1A_001
+  relation_type: assessment
+  factor_a: L1_dignity
+  factor_b: astro_life_length
+  relation_nature: Dignity = longevity
+  condition_constraint: 'When L1 dignified and angular: long life'
+  effect_direction: DETERMINING
+  source_ref: Christian Astrology 1st House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971217'
+- relation_id: rel_lilly_1A_002
+  relation_type: guidance
+  factor_a: planet_strength
+  factor_b: astro_best_direction
+  relation_nature: Strongest planet = direction
+  condition_constraint: When seeking beneficial direction
+  effect_direction: DIRECTING
+  source_ref: Christian Astrology 1st House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971232'
+- relation_id: rel_lilly_2nd_001
+  relation_type: assessment
+  factor_a: L2_dignity
+  factor_b: astro_wealth_level
+  relation_nature: L2 dignity = wealth
+  condition_constraint: When L2 dignified and angular
+  effect_direction: DETERMINING
+  source_ref: Christian Astrology 2nd House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971262'
+- relation_id: rel_lilly_2nd_002
+  relation_type: causative
+  factor_a: planet_in_2nd
+  factor_b: astro_wealth_source
+  relation_nature: Planet in 2nd = means
+  condition_constraint: When planet aspects or occupies 2nd
+  effect_direction: DESCRIBING
+  source_ref: Christian Astrology 2nd House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971267'
+- relation_id: rel_lilly_3rd_001
+  relation_type: relational
+  factor_a: L3_L1_aspect
+  factor_b: astro_sibling_harmony
+  relation_nature: L3-L1 aspect = agreement
+  condition_constraint: When L3 in good aspect with L1
+  effect_direction: DETERMINING
+  source_ref: Christian Astrology 3rd House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971291'
+- relation_id: rel_lilly_3rd_002
+  relation_type: safety
+  factor_a: L3_Moon
+  factor_b: astro_journey_safety
+  relation_nature: L3+Moon unafflicted = safe
+  condition_constraint: When Moon and L3 free from affliction
+  effect_direction: BENEFICIAL
+  source_ref: Christian Astrology 3rd House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971294'
+- relation_id: rel_lilly_4th_001
+  relation_type: quality
+  factor_a: L4_dignity
+  factor_b: astro_property_quality
+  relation_nature: L4 dignity = quality
+  condition_constraint: When L4 well dignified
+  effect_direction: ASSESSING
+  source_ref: Christian Astrology 4th House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971315'
+- relation_id: rel_lilly_4th_002
+  relation_type: locational
+  factor_a: 4th_sign
+  factor_b: astro_hidden_location
+  relation_nature: 4th sign = place type
+  condition_constraint: When seeking hidden thing
+  effect_direction: DESCRIBING
+  source_ref: Christian Astrology 4th House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971318'
+- relation_id: rel_lilly_5th_001
+  relation_type: determinative
+  factor_a: L5_fertile_sign
+  factor_b: astro_fertility
+  relation_nature: Fertile signs = children
+  condition_constraint: When Cancer Scorpio Pisces fertile signs on 5th indicate children
+  effect_direction: BENEFICIAL
+  source_ref: Christian Astrology 5th House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971344'
+- relation_id: rel_lilly_5th_002
+  relation_type: confirmatory
+  factor_a: Moon_L5_aspect
+  factor_b: astro_pregnancy
+  relation_nature: Moon-L5 aspect = pregnant
+  condition_constraint: When Moon aspects L5 in fertile signs
+  effect_direction: CONFIRMING
+  source_ref: Christian Astrology 5th House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971347'
+- relation_id: rel_lilly_marriage_001
+  relation_type: structural
+  factor_a: horary_7th_house
+  factor_b: astro_marriage_axis
+  relation_nature: 7th house governs spouse
+  condition_constraint: When marriage question asked
+  effect_direction: DETERMINING
+  source_ref: Christian Astrology II Marriage
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971384'
+- relation_id: rel_lilly_marriage_002
+  relation_type: causal
+  factor_a: aspect_application AND reception
+  factor_b: astro_marriage_success
+  relation_nature: Application+reception=yes
+  condition_constraint: When L1 applies to L7 with mutual dignity
+  effect_direction: BENEFICIAL
+  source_ref: Christian Astrology II Marriage
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971387'
+- relation_id: rel_lilly_marriage_003
+  relation_type: facilitative
+  factor_a: translation_of_light
+  factor_b: astro_intermediary_union
+  relation_nature: Third planet connects
+  condition_constraint: When no direct L1-L7 aspect exists
+  effect_direction: ENABLING
+  source_ref: Christian Astrology II Marriage
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971390'
+- relation_id: rel_lilly_marriage_004
+  relation_type: blocking
+  factor_a: combust OR retrograde
+  factor_b: astro_party_weakness
+  relation_nature: Combust/retrograde weakens
+  condition_constraint: When L1 or L7 is combust/retrograde
+  effect_direction: HARMFUL
+  source_ref: Christian Astrology II Marriage
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971392'
+- relation_id: rel_lilly_career_001
+  relation_type: structural
+  factor_a: horary_10th_house
+  factor_b: astro_career_house
+  relation_nature: 10th = employer/status
+  condition_constraint: When career question asked
+  effect_direction: DETERMINING
+  source_ref: Christian Astrology II Career
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971422'
+- relation_id: rel_lilly_career_002
+  relation_type: causal
+  factor_a: L1_L10_aspect
+  factor_b: astro_employer_receptive
+  relation_nature: L1-L10 aspect with reception
+  condition_constraint: When L1 applies to L10
+  effect_direction: BENEFICIAL
+  source_ref: Christian Astrology II Career
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971425'
+- relation_id: rel_lilly_career_003
+  relation_type: strengthening
+  factor_a: L1_in_10th AND dignity
+  factor_b: astro_career_success
+  relation_nature: L1 dignified in 10th
+  condition_constraint: When L1 in 10th house dignified
+  effect_direction: BENEFICIAL
+  source_ref: Christian Astrology II Career
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.971429'
+- relation_id: rel_lilly_lost_001
+  relation_type: spatial_mapping
+  factor_a: horary_2nd_house
+  factor_b: L2_position
+  relation_nature: Object → Location
+  condition_constraint: When 2nd house context maps object to location spatially
+  effect_direction: structural
+  source_ref: Christian Astrology II Lost Objects
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972524'
+- relation_id: rel_lilly_lost_002
+  relation_type: location_quality
+  factor_a: L2_position
+  factor_b: angular
+  relation_nature: Position → Findability
+  condition_constraint: When house type angular succedent cadent predicts findability
+  effect_direction: predictive
+  source_ref: Christian Astrology II Lost Objects
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972534'
+- relation_id: rel_lilly_lost_003
+  relation_type: place_descriptor
+  factor_a: L2_position
+  factor_b: L2_dignity
+  relation_nature: Position + Element → Place
+  condition_constraint: When sign element describes place nature fire heat water damp
+  effect_direction: descriptive
+  source_ref: Christian Astrology II Lost Objects
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972537'
+- relation_id: rel_lilly_lost_004
+  relation_type: temporal_movement
+  factor_a: moon_separating_L2
+  factor_b: L2_position
+  relation_nature: Moon → Movement
+  condition_constraint: When Moon separating aspect indicates recent object movement
+  effect_direction: informative
+  source_ref: Christian Astrology II Lost Objects
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972539'
+- relation_id: rel_lilly_health_001
+  relation_type: structural
+  factor_a: horary_6th_house
+  factor_b: astro_disease_house
+  relation_nature: 6th house = disease
+  condition_constraint: When health question asked
+  effect_direction: DETERMINING
+  source_ref: Christian Astrology II Health
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972574'
+- relation_id: rel_lilly_health_002
+  relation_type: comparative
+  factor_a: L1_L6_strength
+  factor_b: astro_prognosis
+  relation_nature: L1 vs L6 strength
+  condition_constraint: When comparing L1 vs L6 strength L1 stronger recovery L6 stronger
+    prevails
+  effect_direction: PROGNOSTIC
+  source_ref: Christian Astrology II Health
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972577'
+- relation_id: rel_lilly_health_003
+  relation_type: supportive
+  factor_a: horary_7th_doctor
+  factor_b: astro_physician_help
+  relation_nature: 7th = doctor consulted
+  condition_constraint: When benefic aspects L1 from 7th
+  effect_direction: BENEFICIAL
+  source_ref: Christian Astrology II Health
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972580'
+- relation_id: rel_lilly_legal_001
+  relation_type: structural
+  factor_a: horary_7th_adversary
+  factor_b: astro_opponent
+  relation_nature: 7th = adversary
+  condition_constraint: When lawsuit question asked
+  effect_direction: DETERMINING
+  source_ref: Christian Astrology II Legal
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972611'
+- relation_id: rel_lilly_legal_002
+  relation_type: authority
+  factor_a: L10_inclination
+  factor_b: astro_judge_favor
+  relation_nature: L10 shows judge's lean
+  condition_constraint: When L10 inclines to L1 favors querent to L7 favors opponent
+  effect_direction: DECISIVE
+  source_ref: Christian Astrology II Legal
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972614'
+- relation_id: rel_lilly_legal_003
+  relation_type: comparative
+  factor_a: L1_L7_strength
+  factor_b: astro_lawsuit_victor
+  relation_nature: Stronger wins
+  condition_constraint: When comparing L1 vs L7 dignity
+  effect_direction: DETERMINING
+  source_ref: Christian Astrology II Legal
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972617'
+- relation_id: rel_lilly_travel_001
+  relation_type: structural
+  factor_a: horary_9th_house
+  factor_b: astro_long_journey
+  relation_nature: 9th = long voyage
+  condition_constraint: When travel question asked
+  effect_direction: DETERMINING
+  source_ref: Christian Astrology II Travel
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972649'
+- relation_id: rel_lilly_travel_002
+  relation_type: qualitative
+  factor_a: L9_condition
+  factor_b: astro_journey_favorability
+  relation_nature: L9 dignity = quality
+  condition_constraint: 'When L9 is dignified: favorable; afflicted: problems'
+  effect_direction: ASSESSING
+  source_ref: Christian Astrology II Travel
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972654'
+- relation_id: rel_lilly_travel_003
+  relation_type: descriptive
+  factor_a: sign_element_9th
+  factor_b: astro_terrain_type
+  relation_nature: Element → terrain
+  condition_constraint: When sign element describes terrain Fire hot Water sea Air
+    highlands Earth fertile
+  effect_direction: DESCRIBING
+  source_ref: Christian Astrology II Travel
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972657'
+- relation_id: rel_lilly_purchase_001
+  relation_type: structural
+  factor_a: horary_4th_property
+  factor_b: astro_item_purchased
+  relation_nature: 4th = property/thing
+  condition_constraint: When purchase question asked
+  effect_direction: DETERMINING
+  source_ref: Christian Astrology II Purchase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972687'
+- relation_id: rel_lilly_purchase_002
+  relation_type: qualitative
+  factor_a: L4_condition
+  factor_b: astro_property_quality
+  relation_nature: L4 dignity = quality
+  condition_constraint: 'When L4 dignified: sound; afflicted: problems'
+  effect_direction: ASSESSING
+  source_ref: Christian Astrology II Purchase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972691'
+- relation_id: rel_lilly_purchase_003
+  relation_type: negotiative
+  factor_a: L1_L7_reception
+  factor_b: astro_deal_success
+  relation_nature: Reception = agreement
+  condition_constraint: When L1 applies to L7 with reception
+  effect_direction: BENEFICIAL
+  source_ref: Christian Astrology II Purchase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972694'
+- relation_id: rel_lilly_ship_001
+  relation_type: causal
+  factor_a: L1_Moon_benefic
+  factor_b: astro_ship_safety
+  relation_nature: Benefic = safe voyage
+  condition_constraint: When L1/Moon joined to fortunate planets
+  effect_direction: BENEFICIAL
+  source_ref: Christian Astrology Ship
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972722'
+- relation_id: rel_lilly_ship_002
+  relation_type: threatening
+  factor_a: L1_Moon_malefic_angular
+  factor_b: astro_ship_danger
+  relation_nature: Malefic angular = danger
+  condition_constraint: When L1/Moon joined to infortune in angles
+  effect_direction: HARMFUL
+  source_ref: Christian Astrology Ship
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972725'
+- relation_id: rel_lilly_ship_003
+  relation_type: descriptive
+  factor_a: L1_nature
+  factor_b: astro_crew_quality
+  relation_nature: L1 nature describes crew
+  condition_constraint: When L1 is infortune = unreliable mariners
+  effect_direction: DESCRIBING
+  source_ref: Christian Astrology Ship
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972728'
+- relation_id: rel_lilly_theft_001
+  relation_type: structural
+  factor_a: L7_thief
+  factor_b: astro_thief_significator
+  relation_nature: L7 = thief
+  condition_constraint: When theft question asked
+  effect_direction: DETERMINING
+  source_ref: Christian Astrology Theft
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972753'
+- relation_id: rel_lilly_theft_002
+  relation_type: descriptive
+  factor_a: L7_sign_element
+  factor_b: astro_thief_appearance
+  relation_nature: Element = complexion
+  condition_constraint: When L7 sign element describes thief Fire ruddy Earth swarthy
+    Air fair Water pale
+  effect_direction: DESCRIBING
+  source_ref: Christian Astrology Theft
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972755'
+- relation_id: rel_lilly_theft_003
+  relation_type: predictive
+  factor_a: Moon_L2_apply
+  factor_b: astro_goods_recovery
+  relation_nature: Moon to L2 = recovery
+  condition_constraint: When Moon applies to L2 or its dispositor
+  effect_direction: BENEFICIAL
+  source_ref: Christian Astrology Theft
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972761'
+- relation_id: rel_lilly_war_001
+  relation_type: structural
+  factor_a: L1_L7_comparison
+  factor_b: astro_war_parties
+  relation_nature: 1st=us, 7th=enemy
+  condition_constraint: When war/battle question asked
+  effect_direction: DETERMINING
+  source_ref: Christian Astrology War
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972787'
+- relation_id: rel_lilly_war_002
+  relation_type: decisive
+  factor_a: dignity_comparison
+  factor_b: astro_victory_determination
+  relation_nature: Stronger dignity wins
+  condition_constraint: When comparing L1 vs L7 essential dignity
+  effect_direction: DETERMINING
+  source_ref: Christian Astrology War
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972789'
+- relation_id: rel_lilly_war_003
+  relation_type: mediating
+  factor_a: Moon_translating
+  factor_b: astro_treaty_possibility
+  relation_nature: Moon translation = peace
+  condition_constraint: When Moon translates light between L1/L7
+  effect_direction: ALTERNATIVE
+  source_ref: Christian Astrology War
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.972792'
+- relation_id: rel_lilly_rect_001
+  relation_type: causal
+  factor_a: astro_moon_position_birth
+  factor_b: astro_birth_time_correction
+  relation_nature: Moon position indicates conception ASC
+  condition_constraint: When Moon above/below horizon at birth
+  effect_direction: DETERMINING
+  source_ref: 'CA III #Rectification'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.975243'
+- relation_id: rel_lilly_rect_002
+  relation_type: methodological
+  factor_a: astro_life_event_timing
+  factor_b: astro_rectification_accuracy
+  relation_nature: Life events validate birth time
+  condition_constraint: When event dates are accurately known
+  effect_direction: VALIDATING
+  source_ref: 'CA III #Rectification'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.975251'
+- relation_id: rel_lilly_hyleg_001
+  relation_type: causal
+  factor_a: astro_hyleg_position
+  factor_b: astro_life_vitality
+  relation_nature: Hyleg sustains life
+  condition_constraint: When Hyleg is dignified and unafflicted
+  effect_direction: BENEFICIAL
+  source_ref: 'CA III #Hyleg'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.975276'
+- relation_id: rel_lilly_hyleg_002
+  relation_type: threatening
+  factor_a: astro_anareta_aspect
+  factor_b: astro_life_threat
+  relation_nature: Anareta threatens life
+  condition_constraint: When malefic directs to Hyleg
+  effect_direction: HARMFUL
+  source_ref: 'CA III #Hyleg'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.975280'
+- relation_id: rel_lilly_temp_001
+  relation_type: determinative
+  factor_a: astro_ascendant_sign AND astro_asc_lord
+  factor_b: astro_physical_appearance
+  relation_nature: ASC and Lord determine body
+  condition_constraint: When analyzing native's appearance
+  effect_direction: DESCRIBING
+  source_ref: 'CA III #Temperament'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.975303'
+- relation_id: rel_lilly_temp_002
+  relation_type: determinative
+  factor_a: astro_mercury AND astro_moon
+  factor_b: astro_mental_character
+  relation_nature: Mercury/Moon determine mind
+  condition_constraint: When analyzing native's character
+  effect_direction: DESCRIBING
+  source_ref: 'CA III #Temperament'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.975307'
+- relation_id: rel_lilly_wealth_001
+  relation_type: determinative
+  factor_a: astro_lord_2nd_dignity
+  factor_b: astro_wealth_level
+  relation_nature: L2 dignity determines wealth
+  condition_constraint: 'When L2 is dignified: wealth; debilitated: poverty'
+  effect_direction: DETERMINING
+  source_ref: 'CA III #Wealth'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.975325'
+- relation_id: rel_lilly_wealth_002
+  relation_type: categorical
+  factor_a: astro_planet_in_2nd
+  factor_b: astro_wealth_means
+  relation_nature: Planet in 2nd shows means
+  condition_constraint: When planet in 2nd categorizes wealth means Jupiter religion
+    Mercury trade
+  effect_direction: CATEGORIZING
+  source_ref: 'CA III #Wealth'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.975328'
+- relation_id: rel_lilly_child_001
+  relation_type: determinative
+  factor_a: astro_lord_5th_dignity
+  factor_b: astro_fertility
+  relation_nature: L5 dignity determines children
+  condition_constraint: 'When L5 dignified with benefics: children'
+  effect_direction: DETERMINING
+  source_ref: 'CA III #Children'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.975374'
+- relation_id: rel_lilly_child_002
+  relation_type: conditional
+  factor_a: astro_fruitful_sign_5th
+  factor_b: astro_child_number
+  relation_nature: Fruitful signs increase
+  condition_constraint: When Cancer Scorpio Pisces fruitful signs on 5th increase
+    child number
+  effect_direction: INCREASING
+  source_ref: 'CA III #Children'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.975378'
+- relation_id: rel_lilly_direct_001
+  relation_type: causal
+  factor_a: astro_asc_direction_to
+  factor_b: astro_life_event
+  relation_nature: Direction produces event
+  condition_constraint: When ASC directed to planet
+  effect_direction: TRIGGERING
+  source_ref: 'CA III #Directions'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.975424'
+- relation_id: rel_lilly_direct_002
+  relation_type: temporal
+  factor_a: astro_direction_degree_year
+  factor_b: astro_timing
+  relation_nature: 1° = 1 year
+  condition_constraint: When applying Ptolemy's timing key 1 degree equals 1 year
+  effect_direction: TIMING
+  source_ref: 'CA III #Directions'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.975427'
+- relation_id: rel_lilly_found_001
+  relation_type: causal
+  factor_a: astro_planet_jupiter AND astro_benefic
+  factor_b: astro_fortune_expansion
+  relation_nature: Jupiter brings fortune
+  condition_constraint: When Jupiter is dignified and unafflicted
+  effect_direction: BENEFICIAL
+  source_ref: 'CA I #Jupiter'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977260'
+- relation_id: rel_lilly_found_002
+  relation_type: causal
+  factor_a: astro_planet_saturn AND astro_malefic
+  factor_b: astro_limitation_structure
+  relation_nature: Saturn restricts and delays
+  condition_constraint: When Saturn is in angular houses or aspecting significator
+  effect_direction: HARMFUL
+  source_ref: 'CA I #Saturn'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977267'
+- relation_id: rel_lilly_found_003
+  relation_type: complementary
+  factor_a: astro_north_node AND astro_south_node
+  factor_b: astro_nodal_axis
+  relation_nature: Polar increase/decrease
+  condition_constraint: When nodes conjunct planets or angles
+  effect_direction: MIXED
+  source_ref: 'CA I #Nodes'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977271'
+- relation_id: rel_lilly_found_004
+  relation_type: semantic_category
+  factor_a: astro_planet_sun AND astro_luminary
+  factor_b: astro_vitality_identity
+  relation_nature: Heart of Heaven
+  condition_constraint: When Sun is chart significator
+  effect_direction: BENEFICIAL
+  source_ref: 'CA I #Sun'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977274'
+- relation_id: rel_lilly_sat_001
+  relation_type: causal
+  factor_a: astro_planet_saturn
+  factor_b: astro_limitation_delay
+  relation_nature: Saturn restricts
+  condition_constraint: When Saturn is angular or aspecting significator
+  effect_direction: HARMFUL
+  source_ref: 'CA I #Saturn'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977292'
+- relation_id: rel_lilly_jup_001
+  relation_type: causal
+  factor_a: astro_planet_jupiter
+  factor_b: astro_fortune_expansion
+  relation_nature: Jupiter expands
+  condition_constraint: When Jupiter is dignified and unafflicted
+  effect_direction: BENEFICIAL
+  source_ref: 'CA I #Jupiter'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977307'
+- relation_id: rel_lilly_mars_001
+  relation_type: causal
+  factor_a: astro_planet_mars
+  factor_b: astro_action_conflict
+  relation_nature: Mars activates
+  condition_constraint: When Mars aspects significators or is angular
+  effect_direction: HARMFUL
+  source_ref: 'CA I #Mars'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977321'
+- relation_id: rel_lilly_sun_001
+  relation_type: causal
+  factor_a: astro_planet_sun
+  factor_b: astro_vitality_authority
+  relation_nature: Sun vitalizes
+  condition_constraint: When Sun is angular and dignified
+  effect_direction: BENEFICIAL
+  source_ref: 'CA I #Sun'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977335'
+- relation_id: rel_lilly_venus_001
+  relation_type: causal
+  factor_a: astro_planet_venus
+  factor_b: astro_love_beauty
+  relation_nature: Venus attracts
+  condition_constraint: When Venus is dignified and aspects benefics
+  effect_direction: BENEFICIAL
+  source_ref: 'CA I #Venus'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977348'
+- relation_id: rel_lilly_merc_001
+  relation_type: conditional
+  factor_a: astro_planet_mercury
+  factor_b: astro_communication_intellect
+  relation_nature: Mercury adapts
+  condition_constraint: 'When Mercury aspects benefics: beneficial; when malefics:
+    harmful'
+  effect_direction: MIXED
+  source_ref: 'CA I #Mercury'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977361'
+- relation_id: rel_lilly_moon_001
+  relation_type: causal
+  factor_a: astro_planet_moon
+  factor_b: astro_emotions_public
+  relation_nature: Moon reflects
+  condition_constraint: When Moon is waxing and unafflicted
+  effect_direction: BENEFICIAL
+  source_ref: 'CA I #Moon'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977374'
+- relation_id: rel_lilly_sign_001
+  relation_type: causal
+  factor_a: astro_sign_fire_triplicity
+  factor_b: astro_hot_dry_active
+  relation_nature: Fire signs energize
+  condition_constraint: When planets occupy fire signs
+  effect_direction: ACTIVE
+  source_ref: 'CA I #Signs'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977397'
+- relation_id: rel_lilly_sign_002
+  relation_type: causal
+  factor_a: astro_sign_cardinal
+  factor_b: astro_initiation_leadership
+  relation_nature: Cardinal signs lead
+  condition_constraint: When significators in cardinal signs
+  effect_direction: INITIATING
+  source_ref: 'CA I #Signs'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977400'
+- relation_id: rel_lilly_dig_001
+  relation_type: causal
+  factor_a: astro_dignity_domicile
+  factor_b: astro_planetary_strength
+  relation_nature: Domicile empowers
+  condition_constraint: When planet is in sign it rules
+  effect_direction: STRENGTHENING
+  source_ref: 'CA I #Dignities'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977440'
+- relation_id: rel_lilly_dig_002
+  relation_type: causal
+  factor_a: astro_debility_detriment
+  factor_b: astro_planetary_weakness
+  relation_nature: Detriment weakens
+  condition_constraint: When planet is opposite its domicile
+  effect_direction: WEAKENING
+  source_ref: 'CA I #Dignities'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977443'
+- relation_id: rel_lilly_consid_001
+  relation_type: conditional
+  factor_a: astro_moon_void_of_course
+  factor_b: astro_matter_fails
+  relation_nature: Moon void negates
+  condition_constraint: When Moon makes no aspects before sign change
+  effect_direction: BLOCKING
+  source_ref: 'CA I #Considerations'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977464'
+- relation_id: rel_lilly_consid_002
+  relation_type: conditional
+  factor_a: astro_moon_via_combusta
+  factor_b: astro_judgment_unreliable
+  relation_nature: Via Combusta burns
+  condition_constraint: When Moon is between 15° Libra and 15° Scorpio
+  effect_direction: WARNING
+  source_ref: 'CA I #Considerations'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.977467'

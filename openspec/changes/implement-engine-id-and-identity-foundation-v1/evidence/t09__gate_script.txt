@@ -1,0 +1,77 @@
+$ ls -la scripts/gates/gate0_engine_id_identity.sh
+-rwxr-xr-x 1 leeky leeky 1755 Dec 26 19:20 scripts/gates/gate0_engine_id_identity.sh
+
+$ bash scripts/gates/gate0_engine_id_identity.sh --help
+Gate-0: Engine ID Governance + Identity/Data Isolation
+
+Usage:
+  bash scripts/gates/gate0_engine_id_identity.sh [--skip-openspec] [--skip-pytest]
+
+Runs:
+  - openspec validate --specs --strict --no-interactive
+  - pytest backend/tests/gate0
+
+Environment:
+  - Uses .venv/bin/{python,pytest} if present; otherwise falls back to python3/python.
+  - Sets PYTHONPATH=. to run tests from repo root.
+
+$ sed -n "1,120p" .github/workflows/gate0-foundation.yml
+# Gate-0 workflow: identity/data isolation + engine_id governance
+
+name: Gate-0 Foundation
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'backend/**'
+      - 'data/engines/registry.json'
+      - 'openspec/**'
+      - 'scripts/gates/gate0_engine_id_identity.sh'
+      - '.github/workflows/gate0-foundation.yml'
+  pull_request:
+    branches: [main, develop]
+    paths:
+      - 'backend/**'
+      - 'data/engines/registry.json'
+      - 'openspec/**'
+      - 'scripts/gates/gate0_engine_id_identity.sh'
+      - '.github/workflows/gate0-foundation.yml'
+  workflow_dispatch: {}
+
+env:
+  PYTHON_VERSION: '3.12'
+
+jobs:
+  gate0:
+    name: Gate-0 (Engine ID + Identity)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install OpenSpec CLI
+        run: |
+          npm install -g @fission-ai/openspec@0.17.2
+          openspec --version
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Gate-0 acceptance
+        run: |
+          bash scripts/gates/gate0_engine_id_identity.sh

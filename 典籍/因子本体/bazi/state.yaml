@@ -1,0 +1,175 @@
+# 八字体系 - 状态类因子
+# State factors for BaZi system
+
+factors:
+  # 日主强弱
+  - id: day_master_strength
+    status: existing
+    display_zh: 日主强度
+    display_en: Day Master Strength
+    description_zh: 日主的整体力量评估
+    description_en: Overall strength assessment of Day Master
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: bazi_deling
+    status: existing
+    display_zh: 得令
+    display_en: In Season
+    aliases_zh: [当令]
+    aliases_en: [Seasonal Support]
+    description_zh: 日主在月令得到生扶
+    description_en: Day Master receives support from month branch
+    category: state
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_shiling
+    status: existing
+    display_zh: 失令
+    display_en: Out of Season
+    aliases_zh: [不当令]
+    aliases_en: [No Seasonal Support]
+    description_zh: 日主在月令不得生扶
+    description_en: Day Master lacks support from month branch
+    category: state
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_dedi
+    status: existing
+    display_zh: 得地
+    display_en: Rooted
+    aliases_zh: [通根]
+    aliases_en: [Has Root]
+    description_zh: 天干在地支有根气
+    description_en: Stem has root in branches
+    category: state
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_shidi
+    status: existing
+    display_zh: 失地
+    display_en: Rootless
+    aliases_zh: [无根]
+    aliases_en: [No Root]
+    description_zh: 天干在地支无根气
+    description_en: Stem has no root in branches
+    category: state
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  # 五行强弱
+  - id: wood_strength
+    status: existing
+    display_zh: 木之力量
+    display_en: Wood Strength
+    description_zh: 木五行的整体力量
+    description_en: Overall strength of Wood element
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: fire_strength
+    status: existing
+    display_zh: 火之力量
+    display_en: Fire Strength
+    description_zh: 火五行的整体力量
+    description_en: Overall strength of Fire element
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: earth_strength
+    status: existing
+    display_zh: 土之力量
+    display_en: Earth Strength
+    description_zh: 土五行的整体力量
+    description_en: Overall strength of Earth element
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: metal_strength
+    status: existing
+    display_zh: 金之力量
+    display_en: Metal Strength
+    description_zh: 金五行的整体力量
+    description_en: Overall strength of Metal element
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: water_strength
+    status: existing
+    display_zh: 水之力量
+    display_en: Water Strength
+    description_zh: 水五行的整体力量
+    description_en: Overall strength of Water element
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  # 十神强弱
+  - id: wealth_star_strength
+    status: existing
+    display_zh: 财星强度
+    display_en: Wealth Star Strength
+    description_zh: 财星（正财+偏财）的整体力量
+    description_en: Overall strength of wealth stars
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: official_star_strength
+    status: existing
+    display_zh: 官星强度
+    display_en: Officer Star Strength
+    description_zh: 官星（正官+七杀）的整体力量
+    description_en: Overall strength of officer stars
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: resource_star_strength
+    status: existing
+    display_zh: 印星强度
+    display_en: Resource Star Strength
+    description_zh: 印星（正印+偏印）的整体力量
+    description_en: Overall strength of resource stars
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: output_star_strength
+    status: existing
+    display_zh: 食伤强度
+    display_en: Output Star Strength
+    description_zh: 食伤（食神+伤官）的整体力量
+    description_en: Overall strength of output stars
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: companion_star_strength
+    status: existing
+    display_zh: 比劫强度
+    display_en: Companion Star Strength
+    description_zh: 比劫（比肩+劫财）的整体力量
+    description_en: Overall strength of companion stars
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]

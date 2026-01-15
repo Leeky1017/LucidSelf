@@ -1,0 +1,64 @@
+{
+  "contract_id": "production-defaults-no-mock",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["version_id"],
+  "entities": [
+    {
+      "name": "ConfigValidationRule",
+      "description": "配置校验规则（禁止 mock/静默降级的最小规则字段集合）",
+      "fields": [
+        { "name": "rule_id", "type": "string", "required": true, "notes": "规则标识（唯一）" },
+        { "name": "environment", "type": "string", "required": true, "notes": "prod/staging/dev 等（受控词表）" },
+        { "name": "config_key", "type": "string", "required": true, "notes": "配置键（受控范围）" },
+        { "name": "condition", "type": "string", "required": true, "notes": "判定条件（可判定表达；不含实现）" },
+        { "name": "action", "type": "string", "required": true, "notes": "ALLOW/DENY/BLOCK" },
+        { "name": "reason_code", "type": "string", "required": true, "notes": "拒绝原因代码（见 rejection_reasons）" }
+      ]
+    },
+    {
+      "name": "EnvironmentIsolationConstraint",
+      "description": "环境隔离约束（生产/非生产隔离的最小字段集合）",
+      "fields": [
+        { "name": "constraint_id", "type": "string", "required": true, "notes": "约束标识（唯一）" },
+        { "name": "environment", "type": "string", "required": true, "notes": "环境（受控词表）" },
+        { "name": "policy", "type": "string", "required": true, "notes": "隔离策略摘要（可判定）" }
+      ]
+    },
+    {
+      "name": "StartupFailureRecord",
+      "description": "启动失败原因记录（用于阻断与审计）",
+      "fields": [
+        { "name": "failure_id", "type": "string", "required": true, "notes": "失败标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "environment", "type": "string", "required": false, "notes": "环境（若适用）" },
+        { "name": "reason_code", "type": "string", "required": true, "notes": "失败原因代码（见 rejection_reasons）" },
+        { "name": "summary", "type": "string", "required": true, "notes": "最小可行动摘要（禁止敏感原文）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "MockViolationAudit",
+      "description": "违规审计（检测到 mock/静默降级等）",
+      "fields": [
+        { "name": "audit_id", "type": "string", "required": true, "notes": "审计标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "environment", "type": "string", "required": false, "notes": "环境（若适用）" },
+        { "name": "violation_type", "type": "string", "required": true, "notes": "MOCK_DEFAULT/SILENT_DEGRADATION 等（受控词表）" },
+        { "name": "result", "type": "string", "required": true, "notes": "DENY/BLOCK" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "INVALID_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "INVALID_CONFIG", "category": "validation", "retryable": false },
+    { "code": "MOCK_DEFAULT_DETECTED", "category": "policy", "retryable": false },
+    { "code": "SILENT_DEGRADATION_DETECTED", "category": "policy", "retryable": false },
+    { "code": "ENVIRONMENT_MISMATCH", "category": "policy", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

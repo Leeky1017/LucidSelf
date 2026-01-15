@@ -1,0 +1,250 @@
+# 八字体系 - 关系类因子
+# Relational factors for BaZi system
+
+factors:
+  # 地支六合
+  - id: has_liuhe
+    status: existing
+    display_zh: 有六合
+    display_en: Has Six Harmony
+    description_zh: 地支存在六合关系
+    description_en: Earthly branches have six harmony relationship
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_zichou_he
+    status: existing
+    display_zh: 子丑合
+    display_en: Zi-Chou Combination
+    description_zh: 子丑合土
+    description_en: Zi and Chou combine to form Earth
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_yinhai_he
+    status: existing
+    display_zh: 寅亥合
+    display_en: Yin-Hai Combination
+    description_zh: 寅亥合木
+    description_en: Yin and Hai combine to form Wood
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_maoxu_he
+    status: existing
+    display_zh: 卯戌合
+    display_en: Mao-Xu Combination
+    description_zh: 卯戌合火
+    description_en: Mao and Xu combine to form Fire
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_chenyu_he
+    status: existing
+    display_zh: 辰酉合
+    display_en: Chen-You Combination
+    description_zh: 辰酉合金
+    description_en: Chen and You combine to form Metal
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_siwu_he
+    status: existing
+    display_zh: 巳午合
+    display_en: Si-Wu Combination
+    description_zh: 巳午合火 (争合)
+    description_en: Si and Wu combine to form Fire (contested)
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_weishen_he
+    status: existing
+    display_zh: 未申合
+    display_en: Wei-Shen Combination
+    description_zh: 未申合水 (争合)
+    description_en: Wei and Shen combine to form Water (contested)
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  # 地支三合
+  - id: has_sanhe
+    status: existing
+    display_zh: 有三合
+    display_en: Has Three Harmony
+    description_zh: 地支存在三合局
+    description_en: Earthly branches form three harmony
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_shenziachen_sanhe
+    status: existing
+    display_zh: 申子辰三合水局
+    display_en: Shen-Zi-Chen Water Bureau
+    description_zh: 申子辰合成水局
+    description_en: Shen, Zi, Chen form Water bureau
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_haimalwei_sanhe
+    status: existing
+    display_zh: 亥卯未三合木局
+    display_en: Hai-Mao-Wei Wood Bureau
+    description_zh: 亥卯未合成木局
+    description_en: Hai, Mao, Wei form Wood bureau
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_yinwuxu_sanhe
+    status: existing
+    display_zh: 寅午戌三合火局
+    display_en: Yin-Wu-Xu Fire Bureau
+    description_zh: 寅午戌合成火局
+    description_en: Yin, Wu, Xu form Fire bureau
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_siyouchou_sanhe
+    status: existing
+    display_zh: 巳酉丑三合金局
+    display_en: Si-You-Chou Metal Bureau
+    description_zh: 巳酉丑合成金局
+    description_en: Si, You, Chou form Metal bureau
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  # 地支冲
+  - id: has_chong
+    status: existing
+    display_zh: 有冲
+    display_en: Has Clash
+    description_zh: 地支存在相冲关系
+    description_en: Earthly branches have clash relationship
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_ziwu_chong
+    status: existing
+    display_zh: 子午冲
+    display_en: Zi-Wu Clash
+    description_zh: 子午相冲
+    description_en: Zi and Wu clash
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_chouwei_chong
+    status: existing
+    display_zh: 丑未冲
+    display_en: Chou-Wei Clash
+    description_zh: 丑未相冲
+    description_en: Chou and Wei clash
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_yinshen_chong
+    status: existing
+    display_zh: 寅申冲
+    display_en: Yin-Shen Clash
+    description_zh: 寅申相冲
+    description_en: Yin and Shen clash
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_maoyou_chong
+    status: existing
+    display_zh: 卯酉冲
+    display_en: Mao-You Clash
+    description_zh: 卯酉相冲
+    description_en: Mao and You clash
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_chenxu_chong
+    status: existing
+    display_zh: 辰戌冲
+    display_en: Chen-Xu Clash
+    description_zh: 辰戌相冲
+    description_en: Chen and Xu clash
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: bazi_sihai_chong
+    status: existing
+    display_zh: 巳亥冲
+    display_en: Si-Hai Clash
+    description_zh: 巳亥相冲
+    description_en: Si and Hai clash
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  # 地支刑
+  - id: has_xing
+    status: existing
+    display_zh: 有刑
+    display_en: Has Punishment
+    description_zh: 地支存在相刑关系
+    description_en: Earthly branches have punishment relationship
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  # 地支害
+  - id: has_hai
+    status: existing
+    display_zh: 有害
+    display_en: Has Harm
+    description_zh: 地支存在相害关系
+    description_en: Earthly branches have harm relationship
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  # 用神关系
+  - id: yongshen_type
+    status: existing
+    display_zh: 用神类型
+    display_en: Use God Type
+    description_zh: 命局用神的十神类型
+    description_en: Ten God type of the chart's use god
+    category: relation
+    value_type: enum
+    value_range: [官, 杀, 印, 枭, 财, 食, 伤, 比, 劫]
+    applicable_systems: [bazi]
+
+  - id: supports_usegod
+    status: existing
+    display_zh: 助用神
+    display_en: Supports Use God
+    description_zh: 当前元素对用神有利
+    description_en: Current element supports the use god
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]
+
+  - id: harms_usegod
+    status: existing
+    display_zh: 克用神
+    display_en: Harms Use God
+    description_zh: 当前元素对用神不利
+    description_en: Current element harms the use god
+    category: relation
+    value_type: boolean
+    applicable_systems: [bazi]

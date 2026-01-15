@@ -1,0 +1,645 @@
+book_id: the_interpretation_of_dreams
+source_file: 典籍/texts/The Interpretation of Dreams/编辑/L1.md, 典籍/texts/The Interpretation
+  of Dreams/编辑/Freud_Dreams_Ch7_Psychology_v2.1.md, 典籍/texts/The Interpretation of
+  Dreams/编辑/Freud_Dreams_Ch6_DreamWork_v2.1.md, 典籍/texts/The Interpretation of Dreams/编辑/Freud_Dreams_Ch5_Sources_v2.1.md,
+  典籍/texts/The Interpretation of Dreams/编辑/L2.md, 典籍/texts/The Interpretation of Dreams/编辑/Dream_Mechanisms_Freud_v2.1.md
+extracted_at: '2025-12-01T02:28:32.638032'
+relations:
+- relation_id: rel_freud_psy_001
+  relation_type: enables
+  factor_a: guardian_of_sleep
+  factor_b: sleep_extension
+  relation_nature: Function→Effect
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528603'
+- relation_id: rel_freud_psy_002
+  relation_type: uses
+  factor_a: guardian_of_sleep
+  factor_b: stimulus_incorporation
+  relation_nature: Function→Mechanism
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528611'
+- relation_id: rel_freud_psy_003
+  relation_type: exemplifies
+  factor_a: burning_child
+  factor_b: guardian_of_sleep
+  relation_nature: Instance→Concept
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528614'
+- relation_id: rel_freud_reg_001
+  relation_type: produces
+  factor_a: regression
+  factor_b: hallucinatory_satisfaction
+  relation_nature: Process→Product
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528656'
+- relation_id: rel_freud_reg_002
+  relation_type: reverses
+  factor_a: regression
+  factor_b: perceptual_end
+  relation_nature: Process→Direction
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528659'
+- relation_id: rel_freud_reg_003
+  relation_type: explains
+  factor_a: regression
+  factor_b: visual_quality
+  relation_nature: Mechanism→Phenomenon
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528665'
+- relation_id: rel_freud_proc_001
+  relation_type: governs
+  factor_a: pleasure_principle
+  factor_b: primary_process
+  relation_nature: Principle→Mode
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528704'
+- relation_id: rel_freud_proc_002
+  relation_type: governs
+  factor_a: reality_principle
+  factor_b: secondary_process
+  relation_nature: Principle→Mode
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528707'
+- relation_id: rel_freud_proc_003
+  relation_type: relaxes
+  factor_a: sleep
+  factor_b: secondary_process
+  relation_nature: State→Mode
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528710'
+- relation_id: rel_freud_anx_001
+  relation_type: produces
+  factor_a: threatening_wish
+  factor_b: anxiety_signal
+  relation_nature: Cause→Effect
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528742'
+- relation_id: rel_freud_anx_002
+  relation_type: causes
+  factor_a: anxiety_signal
+  factor_b: dream_abortion
+  relation_nature: Signal→Response
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528745'
+- relation_id: rel_freud_anx_003
+  relation_type: confirms
+  factor_a: anxiety_dream
+  factor_b: wish_fulfillment
+  relation_nature: Exception→Rule
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528750'
+- relation_id: rel_freud_ucs_001
+  relation_type: contains
+  factor_a: system_ucs
+  factor_b: system_cs
+  relation_nature: Larger→Smaller
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528786'
+- relation_id: rel_freud_ucs_002
+  relation_type: grounds
+  factor_a: system_ucs
+  factor_b: real_psychic
+  relation_nature: System→Ontology
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528791'
+- relation_id: rel_freud_ucs_003
+  relation_type: produces
+  factor_a: system_ucs
+  factor_b: system_cs
+  relation_nature: Foundation→Emergence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VII
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.528793'
+- relation_id: rel_freud_dw_001
+  relation_type: transforms
+  factor_a: dream_work
+  factor_b: manifest_content
+  relation_nature: Production
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531592'
+- relation_id: rel_freud_dw_002
+  relation_type: conceals
+  factor_a: manifest_content
+  factor_b: latent_content
+  relation_nature: Surface/Depth
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531600'
+- relation_id: rel_freud_dw_003
+  relation_type: decodes
+  factor_a: rebus_principle
+  factor_b: manifest_content
+  relation_nature: Methodology
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531604'
+- relation_id: rel_freud_cond_001
+  relation_type: produces
+  factor_a: condensation
+  factor_b: composite_figure
+  relation_nature: Mechanism→Product
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531643'
+- relation_id: rel_freud_cond_002
+  relation_type: creates
+  factor_a: condensation
+  factor_b: nodal_point
+  relation_nature: Mechanism→Structure
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531646'
+- relation_id: rel_freud_cond_003
+  relation_type: measures
+  factor_a: disproportion_ratio
+  factor_b: condensation
+  relation_nature: Diagnostic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531650'
+- relation_id: rel_freud_disp_001
+  relation_type: shifts
+  factor_a: displacement
+  factor_b: psychic_intensity
+  relation_nature: Mechanism→Quality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531686'
+- relation_id: rel_freud_disp_002
+  relation_type: serves
+  factor_a: displacement
+  factor_b: censorship
+  relation_nature: Function
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531690'
+- relation_id: rel_freud_disp_003
+  relation_type: produces
+  factor_a: displacement
+  factor_b: emotional_disproportion
+  relation_nature: Mechanism→Sign
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531694'
+- relation_id: rel_freud_rep_001
+  relation_type: constrains
+  factor_a: visual_limitation
+  factor_b: logical_relations
+  relation_nature: Medium→Content
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531730'
+- relation_id: rel_freud_rep_002
+  relation_type: destroys
+  factor_a: dream_work
+  factor_b: logical_relations
+  relation_nature: Process→Structure
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531733'
+- relation_id: rel_freud_rep_003
+  relation_type: preserves
+  factor_a: dream_work
+  factor_b: objective_content
+  relation_nature: Process→Content
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531735'
+- relation_id: rel_freud_pres_001
+  relation_type: requires
+  factor_a: presentability
+  factor_b: abstract_concrete
+  relation_nature: Constraint→Process
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531776'
+- relation_id: rel_freud_pres_002
+  relation_type: enables
+  factor_a: verbal_ambiguity
+  factor_b: condensation
+  relation_nature: Property→Process
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531779'
+- relation_id: rel_freud_pres_003
+  relation_type: serves
+  factor_a: abstract_concrete
+  factor_b: disguise
+  relation_nature: Process→Function
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531782'
+- relation_id: rel_freud_aff_001
+  relation_type: preserves
+  factor_a: dream_work
+  factor_b: affect
+  relation_nature: Transformation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531815'
+- relation_id: rel_freud_aff_002
+  relation_type: transforms
+  factor_a: dream_work
+  factor_b: presentation_content
+  relation_nature: Transformation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531818'
+- relation_id: rel_freud_aff_003
+  relation_type: produces
+  factor_a: affect_dissociation
+  factor_b: incongruence
+  relation_nature: Mechanism→Sign
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531821'
+- relation_id: rel_freud_sec_001
+  relation_type: creates
+  factor_a: secondary_elaboration
+  factor_b: facade
+  relation_nature: Mechanism→Product
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531855'
+- relation_id: rel_freud_sec_002
+  relation_type: adds
+  factor_a: secondary_elaboration
+  factor_b: interpolation
+  relation_nature: Mechanism→Content
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531858'
+- relation_id: rel_freud_sec_003
+  relation_type: conceals
+  factor_a: facade
+  factor_b: fragmentation
+  relation_nature: Surface→Depth
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.VI
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.531861'
+- relation_id: rel_freud_src_001
+  relation_type: triggers
+  factor_a: day_residue
+  factor_b: dream_formation
+  relation_nature: Source→Process
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.533982'
+- relation_id: rel_freud_src_002
+  relation_type: enables
+  factor_a: indifferent_material
+  factor_b: displacement
+  relation_nature: Content→Process
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.533994'
+- relation_id: rel_freud_src_003
+  relation_type: connects
+  factor_a: association_chain
+  factor_b: day_residue
+  relation_nature: Mechanism→Source
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.533998'
+- relation_id: rel_freud_inf_001
+  relation_type: preserves
+  factor_a: unconscious
+  factor_b: infantile_experience
+  relation_nature: Storage
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.534043'
+- relation_id: rel_freud_inf_002
+  relation_type: drives
+  factor_a: childhood_wish
+  factor_b: adult_dream
+  relation_nature: Motor
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.534055'
+- relation_id: rel_freud_inf_003
+  relation_type: demonstrates
+  factor_a: perennial_dream
+  factor_b: child_lives_on
+  relation_nature: Instance→Principle
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.534058'
+- relation_id: rel_freud_typ_001
+  relation_type: contains
+  factor_a: typical_dream
+  factor_b: nakedness_dream
+  relation_nature: Category→Instance
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.534103'
+- relation_id: rel_freud_typ_002
+  relation_type: reveals
+  factor_a: nakedness_dream
+  factor_b: exhibitionism
+  relation_nature: Dream→Wish
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.534106'
+- relation_id: rel_freud_typ_003
+  relation_type: reassures
+  factor_a: examination_dream
+  factor_b: ego
+  relation_nature: Dream→Function
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Freud Ch.V
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.534108'
+- relation_id: rel_freud_paradigm
+  relation_type: dream_mechanism
+  factor_a: paradigm
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.539130'
+- relation_id: rel_freud_manifest_latent
+  relation_type: dream_mechanism
+  factor_a: manifest_latent
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.539165'
+- relation_id: rel_freud_wish_fulfillment
+  relation_type: dream_mechanism
+  factor_a: wish_fulfillment
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.539193'
+- relation_id: rel_freud_condensation
+  relation_type: dream_mechanism
+  factor_a: condensation
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.539225'
+- relation_id: rel_freud_displacement
+  relation_type: dream_mechanism
+  factor_a: displacement
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.539253'
+- relation_id: rel_freud_symbolization
+  relation_type: dream_mechanism
+  factor_a: symbolization
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.539281'
+- relation_id: rel_freud_free_association
+  relation_type: dream_mechanism
+  factor_a: free_association
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.539313'
+- relation_id: rel_freud_censorship
+  relation_type: dream_mechanism
+  factor_a: censorship
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.539342'
+- relation_id: rel_freud_day_residues
+  relation_type: dream_mechanism
+  factor_a: day_residues
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.539362'
+- relation_id: rel_freud_regression
+  relation_type: dream_mechanism
+  factor_a: regression
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.539380'
+- relation_id: rel_freud_primary_secondary
+  relation_type: dream_mechanism
+  factor_a: primary_secondary
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.539399'
+- relation_id: rel_freud_typical_dreams
+  relation_type: dream_mechanism
+  factor_a: typical_dreams
+  factor_b: unconscious
+  relation_nature: Psychodynamic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.539412'
+- relation_id: rel_freud_anxiety
+  relation_type: dream_mechanism
+  factor_a: anxiety_dream
+  factor_b: censorship
+  relation_nature: Psychodynamic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Freud #Dreams'
+  source_book: the_interpretation_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.539438'

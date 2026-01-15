@@ -1,0 +1,404 @@
+# 占星体系 - 结构类因子
+# Structure factors for Astrology system
+
+factors:
+  # 行星
+  - id: planet_sun
+    status: existing
+    display_zh: 太阳
+    display_en: Sun
+    aliases_zh: [日]
+    description_zh: 太阳，代表自我、意志、生命力
+    description_en: Sun, represents self, will, vitality
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: planet_moon
+    status: existing
+    display_zh: 月亮
+    display_en: Moon
+    aliases_zh: [月]
+    description_zh: 月亮，代表情绪、潜意识、母性
+    description_en: Moon, represents emotions, subconscious, motherhood
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: planet_mercury
+    status: existing
+    display_zh: 水星
+    display_en: Mercury
+    description_zh: 水星，代表沟通、思维、学习
+    description_en: Mercury, represents communication, thinking, learning
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: planet_venus
+    status: existing
+    display_zh: 金星
+    display_en: Venus
+    description_zh: 金星，代表爱情、美、财富
+    description_en: Venus, represents love, beauty, wealth
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: planet_mars
+    status: existing
+    display_zh: 火星
+    display_en: Mars
+    description_zh: 火星，代表行动、欲望、竞争
+    description_en: Mars, represents action, desire, competition
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: planet_jupiter
+    status: existing
+    display_zh: 木星
+    display_en: Jupiter
+    description_zh: 木星，代表扩张、幸运、智慧
+    description_en: Jupiter, represents expansion, luck, wisdom
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: planet_saturn
+    status: existing
+    display_zh: 土星
+    display_en: Saturn
+    description_zh: 土星，代表限制、责任、结构
+    description_en: Saturn, represents limitation, responsibility, structure
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: planet_uranus
+    status: existing
+    display_zh: 天王星
+    display_en: Uranus
+    description_zh: 天王星，代表变革、创新、独立
+    description_en: Uranus, represents revolution, innovation, independence
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: planet_neptune
+    status: existing
+    display_zh: 海王星
+    display_en: Neptune
+    description_zh: 海王星，代表梦想、灵性、迷惑
+    description_en: Neptune, represents dreams, spirituality, illusion
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: planet_pluto
+    status: existing
+    display_zh: 冥王星
+    display_en: Pluto
+    description_zh: 冥王星，代表转化、深层力量、重生
+    description_en: Pluto, represents transformation, deep power, rebirth
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  # 十二星座
+  - id: sign_aries
+    status: existing
+    display_zh: 白羊座
+    display_en: Aries
+    description_zh: 火象基本星座
+    description_en: Cardinal Fire sign
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: sign_taurus
+    status: existing
+    display_zh: 金牛座
+    display_en: Taurus
+    description_zh: 土象固定星座
+    description_en: Fixed Earth sign
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: sign_gemini
+    status: existing
+    display_zh: 双子座
+    display_en: Gemini
+    description_zh: 风象变动星座
+    description_en: Mutable Air sign
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: sign_cancer
+    status: existing
+    display_zh: 巨蟹座
+    display_en: Cancer
+    description_zh: 水象基本星座
+    description_en: Cardinal Water sign
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: sign_leo
+    status: existing
+    display_zh: 狮子座
+    display_en: Leo
+    description_zh: 火象固定星座
+    description_en: Fixed Fire sign
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: sign_virgo
+    status: existing
+    display_zh: 处女座
+    display_en: Virgo
+    description_zh: 土象变动星座
+    description_en: Mutable Earth sign
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: sign_libra
+    status: existing
+    display_zh: 天秤座
+    display_en: Libra
+    description_zh: 风象基本星座
+    description_en: Cardinal Air sign
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: sign_scorpio
+    status: existing
+    display_zh: 天蝎座
+    display_en: Scorpio
+    description_zh: 水象固定星座
+    description_en: Fixed Water sign
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: sign_sagittarius
+    status: existing
+    display_zh: 射手座
+    display_en: Sagittarius
+    description_zh: 火象变动星座
+    description_en: Mutable Fire sign
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: sign_capricorn
+    status: existing
+    display_zh: 摩羯座
+    display_en: Capricorn
+    description_zh: 土象基本星座
+    description_en: Cardinal Earth sign
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: sign_aquarius
+    status: existing
+    display_zh: 水瓶座
+    display_en: Aquarius
+    description_zh: 风象固定星座
+    description_en: Fixed Air sign
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: sign_pisces
+    status: existing
+    display_zh: 双鱼座
+    display_en: Pisces
+    description_zh: 水象变动星座
+    description_en: Mutable Water sign
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  # 十二宫位
+  - id: house_1
+    status: existing
+    display_zh: 第一宫
+    display_en: First House
+    aliases_zh: [上升宫, 命宫]
+    aliases_en: [Ascendant House]
+    description_zh: 自我、外表、人格
+    description_en: Self, appearance, personality
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: house_2
+    status: existing
+    display_zh: 第二宫
+    display_en: Second House
+    aliases_zh: [财帛宫]
+    description_zh: 资源、价值观、财务
+    description_en: Resources, values, finances
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: house_3
+    status: existing
+    display_zh: 第三宫
+    display_en: Third House
+    aliases_zh: [兄弟宫]
+    description_zh: 沟通、短途旅行、兄弟姐妹
+    description_en: Communication, short trips, siblings
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: house_4
+    status: existing
+    display_zh: 第四宫
+    display_en: Fourth House
+    aliases_zh: [田宅宫, IC]
+    description_zh: 家庭、根源、私人生活
+    description_en: Home, roots, private life
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: house_5
+    status: existing
+    display_zh: 第五宫
+    display_en: Fifth House
+    aliases_zh: [子女宫]
+    description_zh: 创造力、娱乐、恋爱、子女
+    description_en: Creativity, pleasure, romance, children
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: house_6
+    status: existing
+    display_zh: 第六宫
+    display_en: Sixth House
+    aliases_zh: [奴仆宫]
+    description_zh: 健康、日常工作、服务
+    description_en: Health, daily work, service
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: house_7
+    status: existing
+    display_zh: 第七宫
+    display_en: Seventh House
+    aliases_zh: [夫妻宫, 下降点]
+    description_zh: 伴侣关系、合作、公开敌人
+    description_en: Partnerships, cooperation, open enemies
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: house_8
+    status: existing
+    display_zh: 第八宫
+    display_en: Eighth House
+    aliases_zh: [疾厄宫]
+    description_zh: 共享资源、转化、死亡与重生
+    description_en: Shared resources, transformation, death and rebirth
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: house_9
+    status: existing
+    display_zh: 第九宫
+    display_en: Ninth House
+    aliases_zh: [迁移宫]
+    description_zh: 高等教育、长途旅行、哲学
+    description_en: Higher education, long journeys, philosophy
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: house_10
+    status: existing
+    display_zh: 第十宫
+    display_en: Tenth House
+    aliases_zh: [官禄宫, MC, 中天]
+    description_zh: 事业、公众形象、成就
+    description_en: Career, public image, achievement
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: house_11
+    status: existing
+    display_zh: 第十一宫
+    display_en: Eleventh House
+    aliases_zh: [福德宫]
+    description_zh: 朋友、团体、希望与愿望
+    description_en: Friends, groups, hopes and wishes
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: house_12
+    status: existing
+    display_zh: 第十二宫
+    display_en: Twelfth House
+    aliases_zh: [玄秘宫]
+    description_zh: 隐藏的敌人、潜意识、灵性
+    description_en: Hidden enemies, subconscious, spirituality
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  # 敏感点
+  - id: ascendant
+    status: existing
+    display_zh: 上升点
+    display_en: Ascendant
+    aliases_zh: [ASC, 东升点]
+    description_zh: 出生时东方地平线的星座度数
+    description_en: Degree of zodiac rising on eastern horizon at birth
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: midheaven
+    status: existing
+    display_zh: 中天
+    display_en: Midheaven
+    aliases_zh: [MC, 天顶]
+    description_zh: 子午圈与黄道的南交点
+    description_en: Southern intersection of meridian and ecliptic
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: sun_sign
+    status: existing
+    display_zh: 太阳星座
+    display_en: Sun Sign
+    description_zh: 太阳所在的星座
+    description_en: Zodiac sign where Sun is located
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: moon_sign
+    status: existing
+    display_zh: 月亮星座
+    display_en: Moon Sign
+    description_zh: 月亮所在的星座
+    description_en: Zodiac sign where Moon is located
+    category: structure
+    value_type: reference
+    applicable_systems: [astro]

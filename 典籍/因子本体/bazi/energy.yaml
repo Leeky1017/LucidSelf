@@ -1,0 +1,149 @@
+# 八字体系 - 能量/情绪类因子
+# Energy/Emotion factors for BaZi system
+
+factors:
+  # 五行偏向
+  - id: wood_presence
+    status: existing
+    display_zh: 木气偏向
+    display_en: Wood Presence
+    description_zh: 命局中木五行的占比
+    description_en: Proportion of Wood element in chart
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: fire_presence
+    status: existing
+    display_zh: 火气偏向
+    display_en: Fire Presence
+    description_zh: 命局中火五行的占比
+    description_en: Proportion of Fire element in chart
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: earth_presence
+    status: existing
+    display_zh: 土气偏向
+    display_en: Earth Presence
+    description_zh: 命局中土五行的占比
+    description_en: Proportion of Earth element in chart
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: metal_presence
+    status: existing
+    display_zh: 金气偏向
+    display_en: Metal Presence
+    description_zh: 命局中金五行的占比
+    description_en: Proportion of Metal element in chart
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: water_presence
+    status: existing
+    display_zh: 水气偏向
+    display_en: Water Presence
+    description_zh: 命局中水五行的占比
+    description_en: Proportion of Water element in chart
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  # 燥湿寒暖
+  - id: dryness_index
+    status: existing
+    display_zh: 燥度指数
+    display_en: Dryness Index
+    description_zh: 命局的燥性程度
+    description_en: Dryness level of the chart
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: wetness_index
+    status: existing
+    display_zh: 湿度指数
+    display_en: Wetness Index
+    description_zh: 命局的湿性程度
+    description_en: Wetness level of the chart
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: warmth_index
+    status: existing
+    display_zh: 暖度指数
+    display_en: Warmth Index
+    description_zh: 命局的暖性程度
+    description_en: Warmth level of the chart
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: coldness_index
+    status: existing
+    display_zh: 寒度指数
+    display_en: Coldness Index
+    description_zh: 命局的寒性程度
+    description_en: Coldness level of the chart
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  # 和谐与冲突
+  - id: harmony_score
+    status: existing
+    display_zh: 和谐度
+    display_en: Harmony Score
+    description_zh: 命局整体和谐程度
+    description_en: Overall harmony level of chart
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: conflict_intensity
+    status: existing
+    display_zh: 冲突强度
+    display_en: Conflict Intensity
+    description_zh: 命局中冲突关系的强度
+    description_en: Intensity of conflicting relationships in chart
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: wealth_official_harmony
+    status: existing
+    display_zh: 财官和谐度
+    display_en: Wealth-Official Harmony
+    description_zh: 财星与官星的配合程度
+    description_en: Harmony between wealth and officer stars
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]
+
+  - id: resource_output_balance
+    status: existing
+    display_zh: 印食平衡度
+    display_en: Resource-Output Balance
+    description_zh: 印星与食伤的平衡程度
+    description_en: Balance between resource and output stars
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [bazi]

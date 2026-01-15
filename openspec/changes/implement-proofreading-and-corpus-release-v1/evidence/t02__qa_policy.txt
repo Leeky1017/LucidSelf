@@ -1,0 +1,15 @@
+SECTION data/proofreading_qa/qa_policy.v1.yaml
+version: 1
+policy_id: proofreading_qa_policy.v1
+
+sampling:
+  per_book: 5
+
+thresholds:
+  min_tasks_total: 1
+  max_rejected: 0
+  require_reviewed: false
+
+
+SECTION sha256
+225ce308a652442e23cec8cef0de17bc66d68080e7dc9eaa8d1fc58f84f2cf5e  data/proofreading_qa/qa_policy.v1.yaml

@@ -1,0 +1,12 @@
+SECTION openspec/SPECS_INDEX.md_status_lines
+22:corpus-release-pipeline | 语料发布流水线 | P1 | system | 已完成 | Gate-2
+57:- `seven-engine-pipeline-e2e`（P0）：依赖 `engine-id-governance`, `semantic-layer-core`, `corpus-release-pipeline`, `observability-slos`
+59:- `corpus-release-pipeline`（P1）：依赖 `corpus-governance`, `semantic-extraction-quality-gates`, `cross-book-consistency-conflicts`
+89:- seven-engine-pipeline-e2e: engine-id-governance, semantic-layer-core, corpus-release-pipeline, observability-slos
+92:- corpus-release-pipeline: corpus-governance, semantic-extraction-quality-gates, cross-book-consistency-conflicts
+
+32:proofreading-workflow-qa | 校对工作流与QA | 资产层 | system | 已完成 | 资产门禁
+73:- `proofreading-workflow-qa`（资产层）：依赖 `semantic-extraction-quality-gates`
+102:- proofreading-workflow-qa: semantic-extraction-quality-gates
+130:- proofreading-workflow-qa: 资产门禁
+160:proofreading-workflow-qa | `openspec validate --specs --strict --no-interactive` | 许可/血缘/QA/冲突处置可追溯；失败样本与例外审批可审计 | `openspec/specs/proofreading-workflow-qa/`（spec/requirements/tasks/design/acceptance）

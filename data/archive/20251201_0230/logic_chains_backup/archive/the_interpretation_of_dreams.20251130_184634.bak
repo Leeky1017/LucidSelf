@@ -1,0 +1,674 @@
+chain_id: chain_tiod
+book_id: the_interpretation_of_dreams
+nodes:
+- node_id: n_tiod_psychology_0
+  snippet_ids:
+  - ns_freud_psy_001
+  - ns_freud_psy_002
+  - ns_freud_psy_003
+  role: 主干
+  condition: null
+  summary: guardian_of_sleep
+  metadata:
+    source_ref: 'Freud Ch.VII #Psychology'
+    snippet_count: 3
+- node_id: n_tiod_regression_1
+  snippet_ids:
+  - ns_freud_psy_004
+  - ns_freud_psy_005
+  - ns_freud_psy_006
+  role: 主干
+  condition: null
+  summary: regression
+  metadata:
+    source_ref: 'Freud Ch.VII #Regression'
+    snippet_count: 3
+- node_id: n_tiod_processes_2
+  snippet_ids:
+  - ns_freud_psy_007
+  - ns_freud_psy_008
+  - ns_freud_psy_009
+  role: 主干
+  condition: null
+  summary: primary_process
+  metadata:
+    source_ref: 'Freud Ch.VII #Processes'
+    snippet_count: 3
+- node_id: n_tiod_anxietydream_3
+  snippet_ids:
+  - ns_freud_psy_010
+  - ns_freud_psy_011
+  - ns_freud_psy_012
+  role: 主干
+  condition: null
+  summary: anxiety_dream
+  metadata:
+    source_ref: 'Freud Ch.VII #AnxietyDream'
+    snippet_count: 3
+- node_id: n_tiod_unconscious_4
+  snippet_ids:
+  - ns_freud_psy_013
+  - ns_freud_psy_014
+  - ns_freud_psy_015
+  role: 主干
+  condition: null
+  summary: larger_circle
+  metadata:
+    source_ref: 'Freud Ch.VII #Unconscious'
+    snippet_count: 3
+- node_id: n_tiod_condensation_5
+  snippet_ids:
+  - ns_freud_dw_001
+  - ns_freud_dw_002
+  - ns_freud_dw_003
+  - ns_freud_dw_004
+  - ns_freud_dw_005
+  - ns_freud_dw_006
+  role: 主干
+  condition: null
+  summary: dream_interpretation_method
+  metadata:
+    source_ref: 'Freud Ch.VI #Condensation'
+    snippet_count: 6
+- node_id: n_tiod_displacement_6
+  snippet_ids:
+  - ns_freud_dw_007
+  - ns_freud_dw_008
+  - ns_freud_dw_009
+  role: 主干
+  condition: null
+  summary: displacement_mechanism
+  metadata:
+    source_ref: 'Freud Ch.VI #Displacement'
+    snippet_count: 3
+- node_id: n_tiod_representation_7
+  snippet_ids:
+  - ns_freud_dw_010
+  - ns_freud_dw_011
+  - ns_freud_dw_012
+  role: 主干
+  condition: null
+  summary: logical_relations
+  metadata:
+    source_ref: 'Freud Ch.VI #Representation'
+    snippet_count: 3
+- node_id: n_tiod_presentability_8
+  snippet_ids:
+  - ns_freud_dw_013
+  - ns_freud_dw_014
+  - ns_freud_dw_015
+  role: 主干
+  condition: null
+  summary: presentability
+  metadata:
+    source_ref: 'Freud Ch.VI #Presentability'
+    snippet_count: 3
+- node_id: n_tiod_affects_9
+  snippet_ids:
+  - ns_freud_dw_016
+  - ns_freud_dw_017
+  - ns_freud_dw_018
+  role: 主干
+  condition: null
+  summary: affect_reality
+  metadata:
+    source_ref: 'Freud Ch.VI #Affects'
+    snippet_count: 3
+- node_id: n_tiod_secondaryelaboration_10
+  snippet_ids:
+  - ns_freud_dw_019
+  - ns_freud_dw_020
+  - ns_freud_dw_021
+  role: 主干
+  condition: null
+  summary: secondary_elaboration
+  metadata:
+    source_ref: 'Freud Ch.VI #SecondaryElaboration'
+    snippet_count: 3
+- node_id: n_tiod_sources_11
+  snippet_ids:
+  - ns_freud_src_001
+  - ns_freud_src_002
+  - ns_freud_src_003
+  role: 主干
+  condition: null
+  summary: day_residue
+  metadata:
+    source_ref: 'Freud Ch.V #Sources'
+    snippet_count: 3
+- node_id: n_tiod_infantilesources_12
+  snippet_ids:
+  - ns_freud_src_007
+  - ns_freud_src_008
+  - ns_freud_src_009
+  role: 主干
+  condition: null
+  summary: infantile_source
+  metadata:
+    source_ref: 'Freud Ch.V #InfantileSources'
+    snippet_count: 3
+- node_id: n_tiod_typicaldreams_13
+  snippet_ids:
+  - ns_freud_src_004
+  - ns_freud_src_005
+  - ns_freud_src_006
+  role: 主干
+  condition: null
+  summary: typical_dreams
+  metadata:
+    source_ref: 'Freud Ch.V #TypicalDreams'
+    snippet_count: 3
+- node_id: n_tiod_source_text_14
+  snippet_ids:
+  - ns_freud_001
+  - ns_freud_002
+  - ns_freud_005
+  - ns_freud_006
+  - ns_freud_009
+  - ns_freud_010
+  - ns_freud_013
+  - ns_freud_014
+  - ns_freud_017
+  - ns_freud_018
+  - ns_freud_021
+  - ns_freud_022
+  - ns_freud_025
+  - ns_freud_026
+  - ns_freud_029
+  - ns_freud_030
+  role: 主干
+  condition: null
+  summary: first_link
+  metadata:
+    source_ref: Source Text
+    snippet_count: 16
+- node_id: n_tiod_english_paraphrase_15
+  snippet_ids:
+  - ns_freud_003
+  - ns_freud_004
+  - ns_freud_007
+  - ns_freud_008
+  - ns_freud_011
+  - ns_freud_012
+  - ns_freud_015
+  - ns_freud_016
+  - ns_freud_019
+  - ns_freud_020
+  - ns_freud_023
+  - ns_freud_024
+  - ns_freud_027
+  - ns_freud_028
+  - ns_freud_031
+  - ns_freud_032
+  role: 条件分支
+  condition: null
+  summary: universal_access
+  metadata:
+    source_ref: English Paraphrase
+    snippet_count: 16
+edges:
+- from_node: n_tiod_anxietydream_3
+  to_node: n_tiod_regression_1
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_anx_003
+    source_ref: Freud Ch.VII
+    inferred_from: explicit_relation
+- from_node: n_tiod_representation_7
+  to_node: n_tiod_condensation_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_dw_001
+    source_ref: Freud Ch.VI
+    inferred_from: explicit_relation
+- from_node: n_tiod_psychology_0
+  to_node: n_tiod_condensation_5
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_dw_001
+    source_ref: Freud Ch.VI
+    inferred_from: explicit_relation
+- from_node: n_tiod_sources_11
+  to_node: n_tiod_displacement_6
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_disp_002
+    source_ref: Freud Ch.VI
+    inferred_from: explicit_relation
+- from_node: n_tiod_affects_9
+  to_node: n_tiod_displacement_6
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_disp_002
+    source_ref: Freud Ch.VI
+    inferred_from: explicit_relation
+- from_node: n_tiod_condensation_5
+  to_node: n_tiod_affects_9
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_aff_001
+    source_ref: Freud Ch.VI
+    inferred_from: explicit_relation
+- from_node: n_tiod_representation_7
+  to_node: n_tiod_affects_9
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_aff_001
+    source_ref: Freud Ch.VI
+    inferred_from: explicit_relation
+- from_node: n_tiod_psychology_0
+  to_node: n_tiod_affects_9
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_aff_001
+    source_ref: Freud Ch.VI
+    inferred_from: explicit_relation
+- from_node: n_tiod_unconscious_4
+  to_node: n_tiod_infantilesources_12
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_inf_001
+    source_ref: Freud Ch.V
+    inferred_from: explicit_relation
+- from_node: n_tiod_regression_1
+  to_node: n_tiod_unconscious_4
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_wish_fulfillment
+    source_ref: 'Freud #Dreams'
+    inferred_from: explicit_relation
+- from_node: n_tiod_anxietydream_3
+  to_node: n_tiod_unconscious_4
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_wish_fulfillment
+    source_ref: 'Freud #Dreams'
+    inferred_from: explicit_relation
+- from_node: n_tiod_condensation_5
+  to_node: n_tiod_unconscious_4
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_condensation
+    source_ref: 'Freud #Dreams'
+    inferred_from: explicit_relation
+- from_node: n_tiod_presentability_8
+  to_node: n_tiod_unconscious_4
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_condensation
+    source_ref: 'Freud #Dreams'
+    inferred_from: explicit_relation
+- from_node: n_tiod_sources_11
+  to_node: n_tiod_unconscious_4
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_displacement
+    source_ref: 'Freud #Dreams'
+    inferred_from: explicit_relation
+- from_node: n_tiod_affects_9
+  to_node: n_tiod_unconscious_4
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_displacement
+    source_ref: 'Freud #Dreams'
+    inferred_from: explicit_relation
+- from_node: n_tiod_displacement_6
+  to_node: n_tiod_unconscious_4
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_displacement
+    source_ref: 'Freud #Dreams'
+    inferred_from: explicit_relation
+- from_node: n_tiod_anxietydream_3
+  to_node: n_tiod_displacement_6
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_freud_anxiety
+    source_ref: 'Freud #Dreams'
+    inferred_from: explicit_relation
+- from_node: n_tiod_psychology_0
+  to_node: n_tiod_regression_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_processes_2
+  to_node: n_tiod_psychology_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_anxietydream_3
+  to_node: n_tiod_psychology_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - guardian_of_sleep
+- from_node: n_tiod_displacement_6
+  to_node: n_tiod_psychology_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_representation_7
+  to_node: n_tiod_psychology_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - dream_work
+- from_node: n_tiod_presentability_8
+  to_node: n_tiod_psychology_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_sources_11
+  to_node: n_tiod_psychology_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_processes_2
+  to_node: n_tiod_regression_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_condensation_5
+  to_node: n_tiod_regression_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_displacement_6
+  to_node: n_tiod_regression_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_representation_7
+  to_node: n_tiod_regression_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_presentability_8
+  to_node: n_tiod_regression_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_affects_9
+  to_node: n_tiod_regression_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_sources_11
+  to_node: n_tiod_regression_1
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_anxietydream_3
+  to_node: n_tiod_processes_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_condensation_5
+  to_node: n_tiod_processes_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_displacement_6
+  to_node: n_tiod_processes_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_representation_7
+  to_node: n_tiod_processes_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_presentability_8
+  to_node: n_tiod_processes_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_affects_9
+  to_node: n_tiod_processes_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_sources_11
+  to_node: n_tiod_processes_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_condensation_5
+  to_node: n_tiod_anxietydream_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_representation_7
+  to_node: n_tiod_anxietydream_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_presentability_8
+  to_node: n_tiod_anxietydream_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_affects_9
+  to_node: n_tiod_anxietydream_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_sources_11
+  to_node: n_tiod_anxietydream_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_condensation_5
+  to_node: n_tiod_displacement_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_condensation_5
+  to_node: n_tiod_presentability_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - condensation
+- from_node: n_tiod_sources_11
+  to_node: n_tiod_condensation_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_displacement_6
+  to_node: n_tiod_representation_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_displacement_6
+  to_node: n_tiod_presentability_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_presentability_8
+  to_node: n_tiod_representation_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_sources_11
+  to_node: n_tiod_representation_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_affects_9
+  to_node: n_tiod_presentability_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_sources_11
+  to_node: n_tiod_presentability_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tiod_sources_11
+  to_node: n_tiod_affects_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - displacement
+narrative_order:
+- n_tiod_sources_11
+- n_tiod_typicaldreams_13
+- n_tiod_secondaryelaboration_10
+- n_tiod_source_text_14
+- n_tiod_english_paraphrase_15
+- n_tiod_infantilesources_12
+- n_tiod_affects_9
+- n_tiod_condensation_5
+- n_tiod_displacement_6
+- n_tiod_presentability_8
+- n_tiod_representation_7
+- n_tiod_anxietydream_3
+- n_tiod_processes_2
+- n_tiod_psychology_0
+- n_tiod_regression_1
+- n_tiod_unconscious_4
+entry_nodes:
+- n_tiod_secondaryelaboration_10
+- n_tiod_sources_11
+- n_tiod_typicaldreams_13
+- n_tiod_source_text_14
+terminal_nodes:
+- n_tiod_english_paraphrase_15
+- n_tiod_infantilesources_12
+- n_tiod_secondaryelaboration_10
+- n_tiod_source_text_14
+- n_tiod_typicaldreams_13
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-11-30T18:42:52.026040'
+  source_files:
+  - data/schema_staging/snippets/the_interpretation_of_dreams_snippets.yaml
+  - data/schema_staging/relations/the_interpretation_of_dreams_relations.yaml
+  snippet_count: 77
+  relation_count: 58
+version: 1.0.0

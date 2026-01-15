@@ -1,0 +1,71 @@
+{
+  "contract_id": "geocoding-first-class",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["version_id", "user_id"],
+  "entities": [
+    {
+      "name": "NormalizedGeoEntity",
+      "description": "标准化地理实体（最小字段集合）",
+      "fields": [
+        { "name": "geo_entity_id", "type": "string", "required": true, "notes": "地理实体标识（唯一）" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "地理编码版本标识（可复现/可审计）" },
+        { "name": "normalized_name", "type": "string", "required": true, "notes": "标准化名称（口径固定）" },
+        { "name": "latitude", "type": "number", "required": true, "notes": "纬度（WGS84）" },
+        { "name": "longitude", "type": "number", "required": true, "notes": "经度（WGS84）" },
+        { "name": "geocode_type", "type": "string", "required": true, "notes": "POINT/AREA（口径固定）" },
+        { "name": "admin_level", "type": "string", "required": false, "notes": "行政级别（若适用）" },
+        { "name": "provider", "type": "string", "required": false, "notes": "数据来源（若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "PrecisionConfidenceMetadata",
+      "description": "精度/置信度元数据（最小字段集合）",
+      "fields": [
+        { "name": "confidence_id", "type": "string", "required": true, "notes": "元数据标识（唯一）" },
+        { "name": "geo_entity_id", "type": "string", "required": true, "notes": "关联地理实体" },
+        { "name": "precision", "type": "string", "required": true, "notes": "ROOFTOP/STREET/CITY/REGION/COUNTRY/UNKNOWN（口径固定）" },
+        { "name": "confidence_score", "type": "number", "required": false, "notes": "置信度（0..1，若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "FallbackRecord",
+      "description": "回退记录（最小字段集合）",
+      "fields": [
+        { "name": "fallback_id", "type": "string", "required": true, "notes": "回退记录标识（唯一）" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "geo_entity_id", "type": "string", "required": false, "notes": "关联地理实体（若适用）" },
+        { "name": "strategy", "type": "string", "required": true, "notes": "NONE/COARSE/BLOCK/UNKNOWN（口径固定）" },
+        { "name": "reason_code", "type": "string", "required": false, "notes": "回退原因代码（若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "MetricsReport",
+      "description": "指标报表（最小字段集合）",
+      "fields": [
+        { "name": "report_id", "type": "string", "required": true, "notes": "报表标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "window_start", "type": "string", "required": true, "notes": "统计窗口开始（ISO-8601）" },
+        { "name": "window_end", "type": "string", "required": true, "notes": "统计窗口结束（ISO-8601）" },
+        { "name": "requests_total", "type": "number", "required": true, "notes": "请求总数" },
+        { "name": "success_rate", "type": "number", "required": false, "notes": "成功率（0..1，若适用）" },
+        { "name": "fallback_rate", "type": "number", "required": false, "notes": "回退率（0..1，若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_USER_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "OUTPUT_SCHEMA_INVALID", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

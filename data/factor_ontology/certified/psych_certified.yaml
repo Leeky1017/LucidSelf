@@ -1,0 +1,1940 @@
+system: psych
+certified_time: '2025-12-04T23:56:19.895440'
+total_certified: 205
+by_category:
+  structure:
+  - id: great_mother
+    status: existing
+    display_zh: Great Mother
+    display_en: '[Great Mother]'
+    description_zh: Comparative religion
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Derivative
+  - id: gods_as_factors
+    status: existing
+    display_zh: Gods as factors
+    display_en: '[Gods as factors]'
+    description_zh: Psychological reframing
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Makers
+  - id: nirdvandva
+    status: existing
+    display_zh: Nirdvandva
+    display_en: '[Nirdvandva]'
+    description_zh: Hindu
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Beyond opposites
+  - id: lucifer_archetype
+    status: existing
+    display_zh: Lucifer as archetype
+    display_en: '[Lucifer as archetype]'
+    description_zh: Alternative name
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Spirit
+  - id: rep_collective
+    status: existing
+    display_zh: Représentation collective
+    display_en: '[Représentation collective]'
+    description_zh: Durkheimian
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Universal
+  - id: empiricist_stance
+    status: existing
+    display_zh: Empiricist stance
+    display_en: '[Empiricist stance]'
+    description_zh: Jung's method
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Not metaphysical
+  - id: empirical_method
+    status: existing
+    display_zh: Empirical approach
+    display_en: '[Empirical approach]'
+    description_zh: Scientific
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Experience-based
+  - id: empirical_concept
+    status: existing
+    display_zh: Empirical concept
+    display_en: '[Empirical concept]'
+    description_zh: Scientific status
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Not theoretical
+  - id: crystal_analogy
+    status: existing
+    display_zh: Crystal axis
+    display_en: '[Crystal axis]'
+    description_zh: Key teaching
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Preforming
+  - id: facultas_praeformandi
+    status: existing
+    display_zh: Facultas praeformandi
+    display_en: '[Facultas praeformandi]'
+    description_zh: Technical term
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Empty form
+  - id: loving_mother
+    status: existing
+    display_zh: Loving mother
+    display_en: '[Loving mother]'
+    description_zh: Light
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Cherishing
+  - id: terrible_mother
+    status: existing
+    display_zh: Terrible mother
+    display_en: '[Terrible mother]'
+    description_zh: Dark
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Devouring
+  - id: sacred_dangerous
+    status: existing
+    display_zh: Sacred-dangerous
+    display_en: '[Sacred-dangerous]'
+    description_zh: Paradoxical quality
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Tribal lore
+  - id: cu_objectivity
+    status: existing
+    display_zh: CU Objectivity
+    display_en: '[CU Objectivity]'
+    description_zh: Not personal
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Transpersonal
+  - id: apriori_factor
+    status: existing
+    display_zh: A priori factor
+    display_en: '[A priori factor]'
+    description_zh: Spontaneous
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Cannot be made
+  - id: preexistent_meaning
+    status: existing
+    display_zh: Pre-existent meaning
+    display_en: '[Pre-existent meaning]'
+    description_zh: Spirit's gift
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: In chaos
+  - id: psychic_autonomy
+    status: existing
+    display_zh: Psychic autonomy
+    display_en: '[Psychic autonomy]'
+    description_zh: Irreducible
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Sui generis
+  - id: archetype_energy
+    status: existing
+    display_zh: Archetype specific energy
+    display_en: '[Archetype specific energy]'
+    description_zh: Instinctual
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Even if ignored
+  - id: fundamental_factor
+    status: existing
+    display_zh: Fundamental factor
+    display_en: '[Fundamental factor]'
+    description_zh: Universal
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Psychic core
+  - id: form_content_distinction
+    status: existing
+    display_zh: Form vs Content
+    display_en: '[Form vs Content]'
+    description_zh: Fundamental
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Inherited vs Acquired
+  - id: archetype_image_distinction
+    status: existing
+    display_zh: Archetype vs Image
+    display_en: '[Archetype vs Image]'
+    description_zh: Key methodology
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Unconscious vs Conscious
+  - id: mother_positive
+    status: existing
+    display_zh: Mother positive
+    display_en: '[Mother positive]'
+    description_zh: Cherishing
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Nurturing
+  - id: mother_negative
+    status: existing
+    display_zh: Mother negative
+    display_en: '[Mother negative]'
+    description_zh: Terrible
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Devouring
+  - id: mandala_mother
+    status: existing
+    display_zh: Mandala as mother
+    display_en: '[Mandala as mother]'
+    description_zh: Circle
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Container
+  - id: dark_lake
+    status: existing
+    display_zh: Dark lake
+    display_en: '[Dark lake]'
+    description_zh: Theologian's dream
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Dream image
+  - id: pearl_treasure
+    status: existing
+    display_zh: Pearl in well
+    display_en: '[Pearl in well]'
+    description_zh: Gnostic hymn
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Guarded
+  - id: water_symbol
+    status: existing
+    display_zh: Water
+    display_en: '[Water]'
+    description_zh: Dreams
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Unconscious
+  - id: two_magicians
+    status: existing
+    display_zh: Two Magicians
+    display_en: '[Two Magicians]'
+    description_zh: Same archetype
+    category: structure
+    value_type: enum
+    applicable_systems:
+    - psych
+    value_range: White/Black inverted
+  - id: old_king
+    status: existing
+    display_zh: Old King
+    display_en: '[Old King]'
+    description_zh: Ruling symbol
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Must die
+  - id: black_horse
+    status: existing
+    display_zh: Black Horse
+    display_en: '[Black Horse]'
+    description_zh: Platonic
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: From anima
+  - id: keys_paradise
+    status: existing
+    display_zh: Keys of Paradise
+    display_en: '[Keys of Paradise]'
+    description_zh: Goal
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Mandala
+  - id: kali
+    status: existing
+    display_zh: Kali
+    display_en: '[Kali]'
+    description_zh: Indian
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Paradoxical
+  - id: son_mother_complex
+    status: existing
+    display_zh: Son's mother-complex
+    display_en: '[Son''s mother-complex]'
+    description_zh: Clinical
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Anima-mixed
+  - id: differentiated_eros
+    status: existing
+    display_zh: Differentiated Eros
+    display_en: '[Differentiated Eros]'
+    description_zh: Gift
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Friendship capacity
+  - id: don_juanism
+    status: existing
+    display_zh: Don Juanism
+    display_en: '[Don Juanism]'
+    description_zh: Ambivalent
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Seeking mother
+  - id: anima_constellated
+    status: existing
+    display_zh: Anima constellated
+    display_en: '[Anima constellated]'
+    description_zh: Negative
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Moodiness
+  - id: daughter_type_a
+    status: existing
+    display_zh: Maternal hypertrophy
+    display_en: '[Maternal hypertrophy]'
+    description_zh: Demeter
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Over-maternal
+  - id: daughter_type_b
+    status: existing
+    display_zh: Overdeveloped Eros
+    display_en: '[Overdeveloped Eros]'
+    description_zh: Electra
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Father-bound
+  - id: daughter_type_c
+    status: existing
+    display_zh: Mother identity
+    display_en: '[Mother identity]'
+    description_zh: Persephone
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Shadow-existence
+  - id: daughter_type_d
+    status: existing
+    display_zh: Mother resistance
+    display_en: '[Mother resistance]'
+    description_zh: Negative
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Counter-identification
+  - id: mater_natura
+    status: existing
+    display_zh: Mater natura/spiritualis
+    display_en: '[Mater natura/spiritualis]'
+    description_zh: Archetypal mother
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Beyond personal
+  - id: psychic_hygiene
+    status: existing
+    display_zh: Psychic hygiene
+    display_en: '[Psychic hygiene]'
+    description_zh: Why archetypes matter
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Practical importance
+  - id: unc_compensation
+    status: existing
+    display_zh: Unconscious compensation
+    display_en: '[Unconscious compensation]'
+    description_zh: Core principle
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Relative to conscious
+  - id: anti_reductionism
+    status: existing
+    display_zh: Anti-reductionism
+    display_en: '[Anti-reductionism]'
+    description_zh: Core argument
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Against physiology-only
+  - id: psyche_totality
+    status: existing
+    display_zh: Psyche totality
+    display_en: '[Psyche totality]'
+    description_zh: Holism
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Whole picture
+  - id: religion_substitution
+    status: existing
+    display_zh: Religion substitution
+    display_en: '[Religion substitution]'
+    description_zh: No escape
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: One replaces another
+  - id: archetype_consciousness
+    status: existing
+    display_zh: Archetype consciousness
+    display_en: '[Archetype consciousness]'
+    description_zh: Health
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Stay connected to roots
+  - id: symbol_poverty
+    status: existing
+    display_zh: Symbol poverty
+    display_en: '[Symbol poverty]'
+    description_zh: Crisis
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Alarming
+  - id: cultural_discontent
+    status: existing
+    display_zh: Cultural discontent
+    display_en: '[Cultural discontent]'
+    description_zh: Unbehagen
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Archetype loss
+  - id: matricide_liberation
+    status: existing
+    display_zh: Matricide
+    display_en: '[Matricide]'
+    description_zh: First creative act
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: From unconsciousness
+  - id: emotion_fire
+    status: existing
+    display_zh: Emotion as fire
+    display_en: '[Emotion as fire]'
+    description_zh: Alchemical
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Creates consciousness
+  - id: psych_layer_relation
+    status: existing
+    display_zh: Personal-Collective layering
+    display_en: '[Personal-Collective layering]'
+    description_zh: Two-layer model
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Personal rests on Collective
+  - id: content_distinction
+    status: existing
+    display_zh: Complex-Archetype distinction
+    display_en: '[Complex-Archetype distinction]'
+    description_zh: Key differentiation
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Personal vs Universal
+  - id: anima_mother
+    status: existing
+    display_zh: Anima-Mother fusion
+    display_en: '[Anima-Mother fusion]'
+    description_zh: Son's psychology
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: In mother power
+  - id: conscious_elaboration
+    status: existing
+    display_zh: Conscious Elaboration
+    display_en: '[Conscious Elaboration]'
+    description_zh: Cultural processing
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Raw→Elaborated
+  - id: symbol_elaboration
+    status: existing
+    display_zh: Symbol elaboration
+    display_en: '[Symbol elaboration]'
+    description_zh: Assimilation
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Years of work
+  - id: iconoclasm
+    status: existing
+    display_zh: Iconoclasm
+    display_en: '[Iconoclasm]'
+    description_zh: Reformation
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Sacred images
+  - id: descent_to_water
+    status: existing
+    display_zh: Descent to water
+    display_en: '[Descent to water]'
+    description_zh: Required path
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Downward
+  - id: ordeal_fire
+    status: existing
+    display_zh: Ordeal by fire
+    display_en: '[Ordeal by fire]'
+    description_zh: Spiritual test
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Anima challenge
+  - id: projection_withdrawal
+    status: existing
+    display_zh: Withdrawal
+    display_en: '[Withdrawal]'
+    description_zh: Therapeutic
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Conscious recognition
+  - id: demythologization
+    status: existing
+    display_zh: Demythologization
+    display_en: '[Demythologization]'
+    description_zh: Child to adult
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Disappointment
+  - id: religious_container
+    status: existing
+    display_zh: Religious formula
+    display_en: '[Religious formula]'
+    description_zh: Protects from raw experience
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Archetypal holding
+  - id: dogma_container
+    status: existing
+    display_zh: Dogma
+    display_en: '[Dogma]'
+    description_zh: Religious function
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Transforms raw to abstract
+  - id: eternal_images
+    status: existing
+    display_zh: Eternal images
+    display_en: '[Eternal images]'
+    description_zh: Treasure-house contents
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Universal
+  - id: ego_dissolution
+    status: existing
+    display_zh: Ego dissolution
+    display_en: '[Ego dissolution]'
+    description_zh: Without container
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Heart "burst into pieces"
+  - id: spiritual_poverty
+    status: existing
+    display_zh: Spiritual poverty
+    display_en: '[Spiritual poverty]'
+    description_zh: Starting point
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Vow
+  - id: spirit_to_water
+    status: existing
+    display_zh: Spirit to water
+    display_en: '[Spirit to water]'
+    description_zh: Fire→Water
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Heraclitean
+  - id: intellect_usurpation
+    status: existing
+    display_zh: Intellect for spirit
+    display_en: '[Intellect for spirit]'
+    description_zh: Error
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: False replacement
+  - id: pneuma
+    status: existing
+    display_zh: Pneuma
+    display_en: '[Pneuma]'
+    description_zh: Breath of God
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Wind
+  - id: dragon_guardian
+    status: existing
+    display_zh: Dragon
+    display_en: '[Dragon]'
+    description_zh: Must be faced
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: In well
+  - id: possession
+    status: existing
+    display_zh: Possession
+    display_en: '[Possession]'
+    description_zh: Age-old danger
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Unconscious takes over
+  - id: rite_dogma_protection
+    status: existing
+    display_zh: Rite and dogma
+    display_en: '[Rite and dogma]'
+    description_zh: Consolidates consciousness
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Dams and walls
+  - id: barrier_collapse
+    status: existing
+    display_zh: Barrier collapse
+    display_en: '[Barrier collapse]'
+    description_zh: Symbol weakening
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Waters rise
+  - id: descent_sequence
+    status: existing
+    display_zh: Shadow→Anima
+    display_en: '[Shadow→Anima]'
+    description_zh: Individuation path
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: After shadow
+  - id: individuation_sequence
+    status: existing
+    display_zh: Individuation stages
+    display_en: '[Individuation stages]'
+    description_zh: Developmental
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Shadow→Anima→...
+  - id: anima_dark
+    status: existing
+    display_zh: Anima (dark)
+    display_en: '[Anima (dark)]'
+    description_zh: Succubus/witch
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Life-draining
+  - id: anima_light
+    status: existing
+    display_zh: Anima (light)
+    display_en: '[Anima (light)]'
+    description_zh: Psychopomp
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Life-giving
+  - id: three_archetypes
+    status: existing
+    display_zh: Three personified archetypes
+    display_en: '[Three personified archetypes]'
+    description_zh: Directly experienceable
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Shadow+Anima+WOM
+  - id: universal_parallels
+    status: existing
+    display_zh: Universal parallels
+    display_en: '[Universal parallels]'
+    description_zh: Validation
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Cross-cultural
+  - id: klaus_vision
+    status: existing
+    display_zh: Klaus vision
+    display_en: '[Klaus vision]'
+    description_zh: Heretical
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Father-Mother God
+  - id: po_kuei
+    status: existing
+    display_zh: P'o/Kuei
+    display_en: '[P''o/Kuei]'
+    description_zh: Chthonic
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Feminine soul
+  - id: anti_tabula_rasa
+    status: existing
+    display_zh: Anti-tabula rasa
+    display_en: '[Anti-tabula rasa]'
+    description_zh: Core argument
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Inherited aptitudes
+  - id: anthropomorphize
+    status: existing
+    display_zh: Anthropomorphizing
+    display_en: '[Anthropomorphizing]'
+    description_zh: Archetype action
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Mythologizing reality
+  - id: castration_reframed
+    status: existing
+    display_zh: Castration reframed
+    display_en: '[Castration reframed]'
+    description_zh: Jung vs Freud
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Not literal
+  - id: dual_birth
+    status: existing
+    display_zh: Dual birth
+    display_en: '[Dual birth]'
+    description_zh: Tradition
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Godparents
+  - id: midlife
+    status: existing
+    display_zh: Midlife
+    display_en: '[Midlife]'
+    description_zh: Different needs
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: ~35 years
+  - id: archetype_reconnection
+    status: existing
+    display_zh: Archetypal reconnection
+    display_en: '[Archetypal reconnection]'
+    description_zh: Vitality
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Post-midlife
+  - id: metaphor_dam
+    status: existing
+    display_zh: Dam
+    display_en: '[Dam]'
+    description_zh: Blown by Tower
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: Consciousness blocks
+  - id: archetype_hidden_identity
+    status: existing
+    display_zh: Hidden Identity
+    display_en: '[Hidden Identity]'
+    description_zh: Until call answered
+    category: structure
+    value_type: string
+    applicable_systems:
+    - psych
+    value_range: True self
+  auto_certified:
+  - id: animal_nature
+    status: existing
+    display_zh: Animal Nature
+    display_en: Animal Nature
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: archetype
+    status: existing
+    display_zh: Archetype
+    display_en: Archetype
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: archetype_adam_kadmon
+    status: existing
+    display_zh: Archetype Adam Kadmon
+    display_en: Archetype Adam Kadmon
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: archetype_father
+    status: existing
+    display_zh: Archetype Father
+    display_en: Archetype Father
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: archetype_great_mother
+    status: existing
+    display_zh: Archetype Great Mother
+    display_en: Archetype Great Mother
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: archetype_teacher
+    status: existing
+    display_zh: Archetype Teacher
+    display_en: Archetype Teacher
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: archetype_threshold_guardian
+    status: existing
+    display_zh: Archetype Threshold Guardian
+    display_en: Archetype Threshold Guardian
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: archetype_wise_old_man
+    status: existing
+    display_zh: Archetype Wise Old Man
+    display_en: Archetype Wise Old Man
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: freud_central_thesis
+    status: existing
+    display_zh: Freud Central Thesis
+    display_en: Freud Central Thesis
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: freud_dream_theory
+    status: existing
+    display_zh: Freud Dream Theory
+    display_en: Freud Dream Theory
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: freud_method
+    status: existing
+    display_zh: Freud Method
+    display_en: Freud Method
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: freud_technique
+    status: existing
+    display_zh: Freud Technique
+    display_en: Freud Technique
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_abandonment_motif
+    status: existing
+    display_zh: Jung Abandonment Motif
+    display_en: Jung Abandonment Motif
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_ambivalent_nature
+    status: existing
+    display_zh: Jung Ambivalent Nature
+    display_en: Jung Ambivalent Nature
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_anima
+    status: existing
+    display_zh: Jung Anima
+    display_en: Jung Anima
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_anima_animus_shadow
+    status: existing
+    display_zh: Jung Anima Animus Shadow
+    display_en: Jung Anima Animus Shadow
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_animal_helpers
+    status: existing
+    display_zh: Jung Animal Helpers
+    display_en: Jung Animal Helpers
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_archetypal_layers
+    status: existing
+    display_zh: Jung Archetypal Layers
+    display_en: Jung Archetypal Layers
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_archetype
+    status: existing
+    display_zh: Jung Archetype
+    display_en: Jung Archetype
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_archetype_identification
+    status: existing
+    display_zh: Jung Archetype Identification
+    display_en: Jung Archetype Identification
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_archetypes
+    status: existing
+    display_zh: Jung Archetypes
+    display_en: Jung Archetypes
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_castration_complex
+    status: existing
+    display_zh: Jung Castration Complex
+    display_en: Jung Castration Complex
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_child_archetype
+    status: existing
+    display_zh: Jung Child Archetype
+    display_en: Jung Child Archetype
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_child_polarity
+    status: existing
+    display_zh: Jung Child Polarity
+    display_en: Jung Child Polarity
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_child_symbol
+    status: existing
+    display_zh: Jung Child Symbol
+    display_en: Jung Child Symbol
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_chthonic_goddess
+    status: existing
+    display_zh: Jung Chthonic Goddess
+    display_en: Jung Chthonic Goddess
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_collective_unconscious
+    status: existing
+    display_zh: Jung Collective Unconscious
+    display_en: Jung Collective Unconscious
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_complete_feminine
+    status: existing
+    display_zh: Jung Complete Feminine
+    display_en: Jung Complete Feminine
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_consciousness
+    status: existing
+    display_zh: Jung Consciousness
+    display_en: Jung Consciousness
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_cross_cultural_presence
+    status: existing
+    display_zh: Jung Cross Cultural Presence
+    display_en: Jung Cross Cultural Presence
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_demeter_kore_hecate
+    status: existing
+    display_zh: Jung Demeter Kore Hecate
+    display_en: Jung Demeter Kore Hecate
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_depth_access
+    status: existing
+    display_zh: Jung Depth Access
+    display_en: Jung Depth Access
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_depth_sequence
+    status: existing
+    display_zh: Jung Depth Sequence
+    display_en: Jung Depth Sequence
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_development
+    status: existing
+    display_zh: Jung Development
+    display_en: Jung Development
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_ego_identification
+    status: existing
+    display_zh: Jung Ego Identification
+    display_en: Jung Ego Identification
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_ego_weakness
+    status: existing
+    display_zh: Jung Ego Weakness
+    display_en: Jung Ego Weakness
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_eleusinian_mysteries
+    status: existing
+    display_zh: Jung Eleusinian Mysteries
+    display_en: Jung Eleusinian Mysteries
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_emotion
+    status: existing
+    display_zh: Jung Emotion
+    display_en: Jung Emotion
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_fair_fight
+    status: existing
+    display_zh: Jung Fair Fight
+    display_en: Jung Fair Fight
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_fantasy
+    status: existing
+    display_zh: Jung Fantasy
+    display_en: Jung Fantasy
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_feminine_wholeness
+    status: existing
+    display_zh: Jung Feminine Wholeness
+    display_en: Jung Feminine Wholeness
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_function_theory
+    status: existing
+    display_zh: Jung Function Theory
+    display_en: Jung Function Theory
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_godparents
+    status: existing
+    display_zh: Jung Godparents
+    display_en: Jung Godparents
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_hermaphrodite_motif
+    status: existing
+    display_zh: Jung Hermaphrodite Motif
+    display_en: Jung Hermaphrodite Motif
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_inferior_traits
+    status: existing
+    display_zh: Jung Inferior Traits
+    display_en: Jung Inferior Traits
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_instinct_wisdom
+    status: existing
+    display_zh: Jung Instinct Wisdom
+    display_en: Jung Instinct Wisdom
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_anima
+    status: existing
+    display_zh: Jung Jung Anima
+    display_en: Jung Jung Anima
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_anima_animus
+    status: existing
+    display_zh: Jung Jung Anima Animus
+    display_en: Jung Jung Anima Animus
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_archetype
+    status: existing
+    display_zh: Jung Jung Archetype
+    display_en: Jung Jung Archetype
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_catharsis
+    status: existing
+    display_zh: Jung Jung Catharsis
+    display_en: Jung Jung Catharsis
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_collective_shadow
+    status: existing
+    display_zh: Jung Jung Collective Shadow
+    display_en: Jung Jung Collective Shadow
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_collective_unconscious
+    status: existing
+    display_zh: Jung Jung Collective Unconscious
+    display_en: Jung Jung Collective Unconscious
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_conscious_function
+    status: existing
+    display_zh: Jung Jung Conscious Function
+    display_en: Jung Jung Conscious Function
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_consciousness
+    status: existing
+    display_zh: Jung Jung Consciousness
+    display_en: Jung Jung Consciousness
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_enantiodromia
+    status: existing
+    display_zh: Jung Jung Enantiodromia
+    display_en: Jung Jung Enantiodromia
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_futurity
+    status: existing
+    display_zh: Jung Jung Futurity
+    display_en: Jung Jung Futurity
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_hero_bypass
+    status: existing
+    display_zh: Jung Jung Hero Bypass
+    display_en: Jung Jung Hero Bypass
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_imago_dei
+    status: existing
+    display_zh: Jung Jung Imago Dei
+    display_en: Jung Jung Imago Dei
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_inflation
+    status: existing
+    display_zh: Jung Jung Inflation
+    display_en: Jung Jung Inflation
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_invincibility_motif
+    status: existing
+    display_zh: Jung Jung Invincibility Motif
+    display_en: Jung Jung Invincibility Motif
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_life_death
+    status: existing
+    display_zh: Jung Jung Life Death
+    display_en: Jung Jung Life Death
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_meditation
+    status: existing
+    display_zh: Jung Jung Meditation
+    display_en: Jung Jung Meditation
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_mercurius
+    status: existing
+    display_zh: Jung Jung Mercurius
+    display_en: Jung Jung Mercurius
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_opposites_union
+    status: existing
+    display_zh: Jung Jung Opposites Union
+    display_en: Jung Jung Opposites Union
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_shiva_shakti
+    status: existing
+    display_zh: Jung Jung Shiva Shakti
+    display_en: Jung Jung Shiva Shakti
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_spirit
+    status: existing
+    display_zh: Jung Jung Spirit
+    display_en: Jung Jung Spirit
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_supraordinate_self
+    status: existing
+    display_zh: Jung Jung Supraordinate Self
+    display_en: Jung Jung Supraordinate Self
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_threefold_feminine
+    status: existing
+    display_zh: Jung Jung Threefold Feminine
+    display_en: Jung Jung Threefold Feminine
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_transcendent_function
+    status: existing
+    display_zh: Jung Jung Transcendent Function
+    display_en: Jung Jung Transcendent Function
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_unconscious
+    status: existing
+    display_zh: Jung Jung Unconscious
+    display_en: Jung Jung Unconscious
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_unconscious_spirit
+    status: existing
+    display_zh: Jung Jung Unconscious Spirit
+    display_en: Jung Jung Unconscious Spirit
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_universality
+    status: existing
+    display_zh: Jung Jung Universality
+    display_en: Jung Jung Universality
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_jung_yantra
+    status: existing
+    display_zh: Jung Jung Yantra
+    display_en: Jung Jung Yantra
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_kore_archetype
+    status: existing
+    display_zh: Jung Kore Archetype
+    display_en: Jung Kore Archetype
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_logos
+    status: existing
+    display_zh: Jung Logos
+    display_en: Jung Logos
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_male_soul_image
+    status: existing
+    display_zh: Jung Male Soul Image
+    display_en: Jung Male Soul Image
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_mandala_center
+    status: existing
+    display_zh: Jung Mandala Center
+    display_en: Jung Mandala Center
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_mandala_creation
+    status: existing
+    display_zh: Jung Mandala Creation
+    display_en: Jung Mandala Creation
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_method
+    status: existing
+    display_zh: Jung Method
+    display_en: Jung Method
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_mother_archetype
+    status: existing
+    display_zh: Jung Mother Archetype
+    display_en: Jung Mother Archetype
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_mother_complex
+    status: existing
+    display_zh: Jung Mother Complex
+    display_en: Jung Mother Complex
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_myth
+    status: existing
+    display_zh: Jung Myth
+    display_en: Jung Myth
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_new_beginning
+    status: existing
+    display_zh: Jung New Beginning
+    display_en: Jung New Beginning
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_preconscious_structure
+    status: existing
+    display_zh: Jung Preconscious Structure
+    display_en: Jung Preconscious Structure
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_projection
+    status: existing
+    display_zh: Jung Projection
+    display_en: Jung Projection
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_psyche
+    status: existing
+    display_zh: Jung Psyche
+    display_en: Jung Psyche
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_psychic_origin
+    status: existing
+    display_zh: Jung Psychic Origin
+    display_en: Jung Psychic Origin
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_psychic_wholeness
+    status: existing
+    display_zh: Jung Psychic Wholeness
+    display_en: Jung Psychic Wholeness
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_psychological_balance
+    status: existing
+    display_zh: Jung Psychological Balance
+    display_en: Jung Psychological Balance
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_puer_aeternus
+    status: existing
+    display_zh: Jung Puer Aeternus
+    display_en: Jung Puer Aeternus
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_rebirth_experience
+    status: existing
+    display_zh: Jung Rebirth Experience
+    display_en: Jung Rebirth Experience
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_religion
+    status: existing
+    display_zh: Jung Religion
+    display_en: Jung Religion
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_representation_collective
+    status: existing
+    display_zh: Jung Representation Collective
+    display_en: Jung Representation Collective
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_saviour_potential
+    status: existing
+    display_zh: Jung Saviour Potential
+    display_en: Jung Saviour Potential
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_self
+    status: existing
+    display_zh: Jung Self
+    display_en: Jung Self
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_self_emergence
+    status: existing
+    display_zh: Jung Self Emergence
+    display_en: Jung Self Emergence
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_shadow
+    status: existing
+    display_zh: Jung Shadow
+    display_en: Jung Shadow
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_shape_shifter
+    status: existing
+    display_zh: Jung Shape Shifter
+    display_en: Jung Shape Shifter
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_soul
+    status: existing
+    display_zh: Jung Soul
+    display_en: Jung Soul
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_soul_loss
+    status: existing
+    display_zh: Jung Soul Loss
+    display_en: Jung Soul Loss
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_spirit_archetype
+    status: existing
+    display_zh: Jung Spirit Archetype
+    display_en: Jung Spirit Archetype
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_spiritual_guidance
+    status: existing
+    display_zh: Jung Spiritual Guidance
+    display_en: Jung Spiritual Guidance
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_spiritual_poverty
+    status: existing
+    display_zh: Jung Spiritual Poverty
+    display_en: Jung Spiritual Poverty
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_syzygy
+    status: existing
+    display_zh: Jung Syzygy
+    display_en: Jung Syzygy
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_therapy
+    status: existing
+    display_zh: Jung Therapy
+    display_en: Jung Therapy
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_three_four
+    status: existing
+    display_zh: Jung Three Four
+    display_en: Jung Three Four
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_totality_symbol
+    status: existing
+    display_zh: Jung Totality Symbol
+    display_en: Jung Totality Symbol
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_transcendent_goal
+    status: existing
+    display_zh: Jung Transcendent Goal
+    display_en: Jung Transcendent Goal
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_water_symbolism
+    status: existing
+    display_zh: Jung Water Symbolism
+    display_en: Jung Water Symbolism
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_wholeness_expression
+    status: existing
+    display_zh: Jung Wholeness Expression
+    display_en: Jung Wholeness Expression
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: jung_wise_old_man
+    status: existing
+    display_zh: Jung Wise Old Man
+    display_en: Jung Wise Old Man
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: personal_mother
+    status: existing
+    display_zh: Personal Mother
+    display_en: Personal Mother
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: personal_responsibility
+    status: existing
+    display_zh: Personal Responsibility
+    display_en: Personal Responsibility
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: personality
+    status: existing
+    display_zh: Personality
+    display_en: Personality
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: personality_aspect
+    status: existing
+    display_zh: Personality Aspect
+    display_en: Personality Aspect
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych
+  - id: personality_trait
+    status: existing
+    display_zh: Personality Trait
+    display_en: Personality Trait
+    description_zh: 从精校文档提取的因子 (2025-12-04)
+    category: auto_certified
+    value_type: string
+    applicable_systems:
+    - psych

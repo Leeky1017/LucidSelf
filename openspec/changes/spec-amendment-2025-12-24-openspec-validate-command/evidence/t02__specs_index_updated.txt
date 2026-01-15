@@ -1,0 +1,32 @@
+$ rg -n "openspec validate --specs --strict --no-interactive" openspec/SPECS_INDEX.md
+38:- 完成：依赖清零 + 关键任务完成 + `openspec validate --specs --strict --no-interactive` 通过 + 验收产物齐备。
+77:- 本依赖图 MUST 无环；以 `openspec validate --specs --strict --no-interactive` 的校验结果为准。
+136:engine-id-governance | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 身份隔离/安全/版本/生产默认值/可观测基线齐备；失败必须阻断晋级 | `openspec/specs/engine-id-governance/`（spec/requirements/tasks/design/acceptance）
+137:identity-and-data-isolation | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 身份隔离/安全/版本/生产默认值/可观测基线齐备；失败必须阻断晋级 | `openspec/specs/identity-and-data-isolation/`（spec/requirements/tasks/design/acceptance）
+138:observability-slos | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 身份隔离/安全/版本/生产默认值/可观测基线齐备；失败必须阻断晋级 | `openspec/specs/observability-slos/`（spec/requirements/tasks/design/acceptance）
+139:production-defaults-no-mock | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 身份隔离/安全/版本/生产默认值/可观测基线齐备；失败必须阻断晋级 | `openspec/specs/production-defaults-no-mock/`（spec/requirements/tasks/design/acceptance）
+140:security-privacy-compliance | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 身份隔离/安全/版本/生产默认值/可观测基线齐备；失败必须阻断晋级 | `openspec/specs/security-privacy-compliance/`（spec/requirements/tasks/design/acceptance）
+141:versioning-and-deviation-detection | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 身份隔离/安全/版本/生产默认值/可观测基线齐备；失败必须阻断晋级 | `openspec/specs/versioning-and-deviation-detection/`（spec/requirements/tasks/design/acceptance）
+142:bootability-and-regression-baseline | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 证据链可审计；语义层契约稳定；质量门禁阈值明确；回归基线可执行 | `openspec/specs/bootability-and-regression-baseline/`（spec/requirements/tasks/design/acceptance）
+143:citations-evidence-protocol | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 证据链可审计；语义层契约稳定；质量门禁阈值明确；回归基线可执行 | `openspec/specs/citations-evidence-protocol/`（spec/requirements/tasks/design/acceptance）
+144:golden-sets-and-regression | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 证据链可审计；语义层契约稳定；质量门禁阈值明确；回归基线可执行 | `openspec/specs/golden-sets-and-regression/`（spec/requirements/tasks/design/acceptance）
+145:semantic-layer-core | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 证据链可审计；语义层契约稳定；质量门禁阈值明确；回归基线可执行 | `openspec/specs/semantic-layer-core/`（spec/requirements/tasks/design/acceptance）
+146:fusion-engine-explainability | `openspec validate --specs --strict --no-interactive` + `openspec list --changes` | 端到端契约/交接校验明确；发布/回滚口径齐备；关键路径可观测 | `openspec/specs/fusion-engine-explainability/`（spec/requirements/tasks/design/acceptance）
+147:seven-engine-pipeline-e2e | `openspec validate --specs --strict --no-interactive` + `openspec list --changes` | 端到端契约/交接校验明确；发布/回滚口径齐备；关键路径可观测 | `openspec/specs/seven-engine-pipeline-e2e/`（spec/requirements/tasks/design/acceptance）
+148:semantic-extraction-quality-gates | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 证据链可审计；语义层契约稳定；质量门禁阈值明确；回归基线可执行 | `openspec/specs/semantic-extraction-quality-gates/`（spec/requirements/tasks/design/acceptance）
+149:abuse-and-rate-limits | `openspec validate --specs --strict --no-interactive` + `openspec list --changes` | 端到端契约/交接校验明确；发布/回滚口径齐备；关键路径可观测 | `openspec/specs/abuse-and-rate-limits/`（spec/requirements/tasks/design/acceptance）
+150:corpus-release-pipeline | `openspec validate --specs --strict --no-interactive` + `openspec list --changes` | 端到端契约/交接校验明确；发布/回滚口径齐备；关键路径可观测 | `openspec/specs/corpus-release-pipeline/`（spec/requirements/tasks/design/acceptance）
+151:deployment-release | `openspec validate --specs --strict --no-interactive` + `openspec list --changes` | 端到端契约/交接校验明确；发布/回滚口径齐备；关键路径可观测 | `openspec/specs/deployment-release/`（spec/requirements/tasks/design/acceptance）
+152:knowledge-graph-runtime-semanticquery | `openspec validate --specs --strict --no-interactive` + `openspec list --changes` | 端到端契约/交接校验明确；发布/回滚口径齐备；关键路径可观测 | `openspec/specs/knowledge-graph-runtime-semanticquery/`（spec/requirements/tasks/design/acceptance）
+153:playbook-and-action-loop | `openspec validate --specs --strict --no-interactive` + `openspec list --changes` | 端到端契约/交接校验明确；发布/回滚口径齐备；关键路径可观测 | `openspec/specs/playbook-and-action-loop/`（spec/requirements/tasks/design/acceptance）
+154:billing-and-entitlements | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 权益/计费/审批链/支持体系齐备；对外发布记录可审计 | `openspec/specs/billing-and-entitlements/`（spec/requirements/tasks/design/acceptance）
+155:commercial-readiness-gates | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 权益/计费/审批链/支持体系齐备；对外发布记录可审计 | `openspec/specs/commercial-readiness-gates/`（spec/requirements/tasks/design/acceptance）
+156:llm-narrative-layer | `openspec validate --specs --strict --no-interactive` + `openspec list --changes` | 端到端契约/交接校验明确；发布/回滚口径齐备；关键路径可观测 | `openspec/specs/llm-narrative-layer/`（spec/requirements/tasks/design/acceptance）
+157:geocoding-first-class | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 权益/计费/审批链/支持体系齐备；对外发布记录可审计 | `openspec/specs/geocoding-first-class/`（spec/requirements/tasks/design/acceptance）
+158:corpus-governance | `openspec validate --specs --strict --no-interactive` | 许可/血缘/QA/冲突处置可追溯；失败样本与例外审批可审计 | `openspec/specs/corpus-governance/`（spec/requirements/tasks/design/acceptance）
+159:cross-book-consistency-conflicts | `openspec validate --specs --strict --no-interactive` | 许可/血缘/QA/冲突处置可追溯；失败样本与例外审批可审计 | `openspec/specs/cross-book-consistency-conflicts/`（spec/requirements/tasks/design/acceptance）
+160:proofreading-workflow-qa | `openspec validate --specs --strict --no-interactive` | 许可/血缘/QA/冲突处置可追溯；失败样本与例外审批可审计 | `openspec/specs/proofreading-workflow-qa/`（spec/requirements/tasks/design/acceptance）
+161:text-normalization-alignment | `openspec validate --specs --strict --no-interactive` | 许可/血缘/QA/冲突处置可追溯；失败样本与例外审批可审计 | `openspec/specs/text-normalization-alignment/`（spec/requirements/tasks/design/acceptance）
+171:- 相关 spec 的关键任务完成 + 依赖清零 + `openspec validate --specs --strict --no-interactive` 通过 + 验收产物齐备。
+
+$ rg -n "openspec validate --strict" openspec/SPECS_INDEX.md

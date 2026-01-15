@@ -1,0 +1,3 @@
+$ PYTHONPATH=. .venv/bin/pytest backend/tests/gate0_security_observability -q -k metrics
+.                                                                        [100%]
+1 passed, 3 deselected in 1.21s

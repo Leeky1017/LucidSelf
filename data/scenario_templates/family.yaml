@@ -1,0 +1,81 @@
+# Family Scenario Template
+# 家庭场景模板配置
+
+scenario_id: scn_family
+domain: family
+
+keywords:
+  primary: ["家庭", "亲人", "父母", "family", "parents", "children"]
+  synonyms: ["孩子", "子女", "养育", "教育", "家人", "亲戚", "兄弟", "姐妹", "祖辈", "家风", "传承", "赡养", "生育", "怀孕"]
+  negative: []
+  weight: 1.0
+
+decision_axes:
+  - axis_id: family_harmony
+    label_zh: 家庭和谐
+    label_en: Family Harmony
+    description: 家庭关系的和谐程度
+    value_type: float
+    default_weight: 1.0
+  
+  - axis_id: child_development
+    label_zh: 子女发展
+    label_en: Child Development
+    description: 子女成长和教育质量
+    value_type: float
+    default_weight: 0.9
+  
+  - axis_id: elder_care
+    label_zh: 长辈照护
+    label_en: Elder Care
+    description: 长辈照顾和尽孝程度
+    value_type: float
+    default_weight: 0.8
+  
+  - axis_id: family_security
+    label_zh: 家庭保障
+    label_en: Family Security
+    description: 家庭整体安全保障
+    value_type: float
+    default_weight: 0.9
+  
+  - axis_id: communication
+    label_zh: 沟通质量
+    label_en: Communication
+    description: 家庭成员间的沟通质量
+    value_type: float
+    default_weight: 0.7
+  
+  - axis_id: legacy
+    label_zh: 传承
+    label_en: Legacy
+    description: 家族传承和价值延续
+    value_type: float
+    default_weight: 0.6
+
+factor_include_patterns:
+  - "bazi_*_children_*"
+  - "bazi_*_parents_*"
+  - "ziwei_family_*"
+  - "astro_*_4th_*"
+  - "astro_moon_*"
+
+factor_exclude_patterns:
+  - "*_career_*"
+  - "*_wealth_*"
+
+factor_always_include:
+  - "bazi_day_master"
+  - "astro_moon_sign"
+
+rule_categories:
+  - "family"
+  - "children"
+  - "guidance"
+
+related_scenarios:
+  - "scn_relationship"
+
+label_zh: 家庭
+label_en: Family
+description: 家庭关系、子女教育、长辈照护等家庭相关问题

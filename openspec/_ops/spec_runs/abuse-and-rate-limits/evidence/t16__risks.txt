@@ -1,0 +1,37 @@
+$ rg -n "Top 风险" openspec/specs/abuse-and-rate-limits/design.md
+87:## Top 风险与缓解（写入门禁/证据/回退）
+
+$ rg -n "误报" openspec/specs/abuse-and-rate-limits/design.md
+78:- **Shadow**：仅记录滥用检测与限流判定，不影响对外行为，用于校准误报与阈值。
+79:- **Canary**：仅对小流量/白名单 `org_id` 或内部调用方生效，监控误报率、延迟与审计可用性。
+83:- 误报/封禁率异常上升 MUST 触发回滚或阻断。
+89:1) **误报导致正常用户被封禁**：阈值过严或信号不稳  
+
+$ openspec validate --specs --strict --no-interactive
+✓ spec/abuse-and-rate-limits
+✓ spec/billing-and-entitlements
+✓ spec/bootability-and-regression-baseline
+✓ spec/citations-evidence-protocol
+✓ spec/commercial-readiness-gates
+✓ spec/corpus-governance
+✓ spec/corpus-release-pipeline
+✓ spec/cross-book-consistency-conflicts
+✓ spec/deployment-release
+✓ spec/engine-id-governance
+✓ spec/fusion-engine-explainability
+✓ spec/geocoding-first-class
+✓ spec/golden-sets-and-regression
+✓ spec/identity-and-data-isolation
+✓ spec/knowledge-graph-runtime-semanticquery
+✓ spec/llm-narrative-layer
+✓ spec/observability-slos
+✓ spec/playbook-and-action-loop
+✓ spec/production-defaults-no-mock
+✓ spec/proofreading-workflow-qa
+✓ spec/security-privacy-compliance
+✓ spec/semantic-extraction-quality-gates
+✓ spec/semantic-layer-core
+✓ spec/seven-engine-pipeline-e2e
+✓ spec/text-normalization-alignment
+✓ spec/versioning-and-deviation-detection
+Totals: 26 passed, 0 failed (26 items)

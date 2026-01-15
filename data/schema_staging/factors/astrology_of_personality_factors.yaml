@@ -1,0 +1,2149 @@
+book_id: astrology_of_personality
+source_file: 典籍/texts/astrology of personality/编辑/Astrology_of_Personality_Complete_v2.1.md
+extracted_at: '2025-12-04T19:13:41.742687'
+factors:
+- factor_type: Structure
+  factor_label: Humanistic Astrology Origin
+  factor_id: astro_humanistic_origin
+  factor_source: new_candidate
+  role_position: Historical Frame
+  value_constraint: 1930s synthesis of Jung + Smuts + Jones
+  engine_id: astro_semantic
+  notes: Foundation of approach
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726273'
+- factor_type: Functional
+  factor_label: Depth-Psychology Integration
+  factor_id: astro_depth_integration
+  factor_source: new_candidate
+  role_position: Methodology
+  value_constraint: Astrology + analytical psychology
+  engine_id: astro_semantic
+  notes: Core Rudhyar innovation
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726305'
+- factor_type: Functional
+  factor_label: Holistic Framework
+  factor_id: astro_holistic_frame
+  factor_source: new_candidate
+  role_position: Philosophy
+  value_constraint: Whole person, not fragmented factors
+  engine_id: astro_semantic
+  notes: Smuts influence
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726313'
+- factor_type: State
+  factor_label: Rejection of Fortune-Telling
+  factor_id: astro_anti_fortune
+  factor_source: new_candidate
+  role_position: Orientation
+  value_constraint: Prediction rejected for self-knowledge
+  engine_id: astro_semantic
+  notes: Paradigm shift
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726319'
+- factor_type: Structure
+  factor_label: Sun-Sign Limitation
+  factor_id: astro_sun_sign_limit
+  factor_source: new_candidate
+  role_position: Critique Target
+  value_constraint: Oversimplification of chart
+  engine_id: astro_semantic
+  notes: What Rudhyar rejects
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726341'
+- factor_type: Functional
+  factor_label: Multi-Level Psychology
+  factor_id: astro_psych_levels
+  factor_source: new_candidate
+  role_position: Interpretive Depth
+  value_constraint: Old textbook → Social → Depth
+  engine_id: astro_semantic
+  notes: Hierarchy of approaches
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726346'
+- factor_type: Functional
+  factor_label: Eastern-Western Synthesis
+  factor_id: astro_east_west
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Oriental + Occidental integration
+  engine_id: astro_semantic
+  notes: Rudhyar's innovation
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726350'
+- factor_type: Structure
+  factor_label: Tropical Zodiac System
+  factor_id: astro_tropical_system
+  factor_source: existing
+  role_position: Zodiac Frame
+  value_constraint: Equinox-based, seasonal
+  engine_id: astro_calculator
+  notes: Western standard
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726367'
+- factor_type: Structure
+  factor_label: Sidereal Zodiac System
+  factor_id: astro_sidereal_system
+  factor_source: existing
+  role_position: Zodiac Frame
+  value_constraint: Constellation-based
+  engine_id: astro_calculator
+  notes: Vedic, Fagan
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726372'
+- factor_type: Relational
+  factor_label: Precession Effect
+  factor_id: astro_precession_effect
+  factor_source: existing
+  role_position: System Difference
+  value_constraint: ~1° per 72 years divergence
+  engine_id: astro_calculator
+  notes: Causes tropical-sidereal gap
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726377'
+- factor_type: State
+  factor_label: Philosophical Orientation
+  factor_id: astro_philosophy_orient
+  factor_source: new_candidate
+  role_position: Paradigm Choice
+  value_constraint: Empirical vs Symbolic
+  engine_id: astro_semantic
+  notes: Determines zodiac choice
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726381'
+- factor_type: Structure
+  factor_label: Humanistic Astrology Movement
+  factor_id: astro_humanistic_movement
+  factor_source: new_candidate
+  role_position: Paradigm Frame
+  value_constraint: I.C.H.A. 1969, Maslow alignment
+  engine_id: astro_semantic
+  notes: Rudhyar's foundation
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726394'
+- factor_type: Functional
+  factor_label: Non-Judgmental Interpretation
+  factor_id: astro_non_judgmental_interp
+  factor_source: new_candidate
+  role_position: Methodology
+  value_constraint: No inherent good/bad in factors
+  engine_id: astro_semantic
+  notes: Core humanistic principle
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726399'
+- factor_type: Functional
+  factor_label: Chart as Coded Instructions
+  factor_id: astro_chart_code
+  factor_source: new_candidate
+  role_position: Chart Function
+  value_constraint: Blueprint for self-actualization
+  engine_id: astro_semantic
+  notes: Replaces fate-prediction
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726403'
+- factor_type: State
+  factor_label: Self-Actualization Goal
+  factor_id: psych_self_actual_goal
+  factor_source: existing
+  role_position: Purpose
+  value_constraint: Fulfillment of birth-potential
+  engine_id: psych_semantic
+  notes: Maslow integration
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726408'
+- factor_type: Structure
+  factor_label: Personality as Organic Whole
+  factor_id: astro_personality_organic
+  factor_source: new_candidate
+  role_position: Definition Frame
+  value_constraint: Body + psyche integration
+  engine_id: astro_semantic
+  notes: Smuts/Jung alignment
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726423'
+- factor_type: Functional
+  factor_label: Microcosm Concept
+  factor_id: astro_microcosm_function
+  factor_source: new_candidate
+  role_position: Cosmic Connection
+  value_constraint: Human reflects universe
+  engine_id: astro_semantic
+  notes: Hermetic tradition
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726428'
+- factor_type: Functional
+  factor_label: Alchemy Transformation
+  factor_id: astro_alchemy_transform
+  factor_source: new_candidate
+  role_position: Process Goal
+  value_constraint: Chaos → Cosmos
+  engine_id: astro_semantic
+  notes: Core Rudhyar phrase
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726433'
+- factor_type: State
+  factor_label: Integration Level
+  factor_id: astro_integration_level
+  factor_source: new_candidate
+  role_position: Development Stage
+  value_constraint: '{chaotic, developing, integrated}'
+  engine_id: astro_semantic
+  notes: Progress measure
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726437'
+- factor_type: Structure
+  factor_label: Algebra of Life Framework
+  factor_id: astro_algebra_framework
+  factor_source: new_candidate
+  role_position: System Definition
+  value_constraint: Symbolic integration of elements
+  engine_id: astro_semantic
+  notes: Core Rudhyar concept
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726450'
+- factor_type: Functional
+  factor_label: Formal Cause Operation
+  factor_id: astro_formal_operation
+  factor_source: new_candidate
+  role_position: Epistemology
+  value_constraint: Pattern/meaning not mechanism
+  engine_id: astro_semantic
+  notes: Aristotelian distinction
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726454'
+- factor_type: Functional
+  factor_label: Quality vs Quantity
+  factor_id: astro_quality_focus
+  factor_source: new_candidate
+  role_position: Content Type
+  value_constraint: Life-qualities not measurements
+  engine_id: astro_semantic
+  notes: Distinguishes from science
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726458'
+- factor_type: State
+  factor_label: Epistemological Domain
+  factor_id: astro_epistemic_domain
+  factor_source: new_candidate
+  role_position: Knowledge Type
+  value_constraint: Symbolic-formal not empirical-material
+  engine_id: astro_semantic
+  notes: Clarifies astrology's nature
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726462'
+- factor_type: Structure
+  factor_label: Historical Evolution Framework
+  factor_id: astro_historical_evolution
+  factor_source: new_candidate
+  role_position: Meta-Framework
+  value_constraint: Astrology evolves with human consciousness
+  engine_id: astro_semantic
+  notes: Rudhyar's methodology
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726474'
+- factor_type: Functional
+  factor_label: Integration Criterion
+  factor_id: astro_integration_criterion
+  factor_source: new_candidate
+  role_position: Evaluative Standard
+  value_constraint: Integrative = authentic; disintegrative = perversion
+  engine_id: astro_semantic
+  notes: Core test
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726478'
+- factor_type: State
+  factor_label: Ptolemaic vs Archaic
+  factor_id: astro_ptolemaic_archaic
+  factor_source: new_candidate
+  role_position: Historical Contrast
+  value_constraint: Intellectual vs vital
+  engine_id: astro_semantic
+  notes: Key distinction
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726482'
+- factor_type: Structure
+  factor_label: Animistic Stage
+  factor_id: astro_animistic_stage
+  factor_source: new_candidate
+  role_position: Historical Phase
+  value_constraint: First stage of astrological consciousness
+  engine_id: astro_semantic
+  notes: Pre-vitalistic
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726496'
+- factor_type: Functional
+  factor_label: Participation Mystique
+  factor_id: astro_participation
+  factor_source: new_candidate
+  role_position: Psychological Mechanism
+  value_constraint: Subject-object fusion
+  engine_id: astro_semantic
+  notes: Levy-Bruhl
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726501'
+- factor_type: Functional
+  factor_label: Projection Mechanism
+  factor_id: astro_projection
+  factor_source: new_candidate
+  role_position: Attribution Process
+  value_constraint: Inner → outer entities
+  engine_id: astro_semantic
+  notes: Psychology link
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726506'
+- factor_type: State
+  factor_label: Fear-Dominated Consciousness
+  factor_id: astro_fear_state
+  factor_source: new_candidate
+  role_position: Psychic Condition
+  value_constraint: Survival orientation
+  engine_id: astro_semantic
+  notes: Jungle mentality
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726510'
+- factor_type: Structure
+  factor_label: Vitalistic Stage
+  factor_id: astro_vitalistic_stage
+  factor_source: new_candidate
+  role_position: Historical Phase
+  value_constraint: Second stage, agricultural
+  engine_id: astro_semantic
+  notes: Post-animistic
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726522'
+- factor_type: Functional
+  factor_label: Law of Analogy
+  factor_id: astro_analogy_function
+  factor_source: new_candidate
+  role_position: Correspondence
+  value_constraint: Micro-macro mapping
+  engine_id: astro_semantic
+  notes: Occult foundation
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726526'
+- factor_type: Functional
+  factor_label: Periodicity Focus
+  factor_id: astro_periodicity_focus
+  factor_source: new_candidate
+  role_position: Study Object
+  value_constraint: Life-cycle patterns
+  engine_id: astro_semantic
+  notes: Replaces spirit-worship
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726531'
+- factor_type: State
+  factor_label: Collective Focus
+  factor_id: astro_collective_state
+  factor_source: new_candidate
+  role_position: Subject Scope
+  value_constraint: State/community not individual
+  engine_id: astro_semantic
+  notes: Pre-individual astrology
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726648'
+- factor_type: Structure
+  factor_label: Heavenly Order Framework
+  factor_id: astro_heavenly_order
+  factor_source: new_candidate
+  role_position: Security Basis
+  value_constraint: Archetypal cosmic laws
+  engine_id: astro_semantic
+  notes: Anti-chaos
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726664'
+- factor_type: Functional
+  factor_label: Emperor Mediation
+  factor_id: astro_emperor_mediate
+  factor_source: new_candidate
+  role_position: Cosmic Connection
+  value_constraint: Heaven-Earth bridge
+  engine_id: astro_semantic
+  notes: Chinese model
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726669'
+- factor_type: Functional
+  factor_label: Calendar System
+  factor_id: astro_calendar_system
+  factor_source: new_candidate
+  role_position: Timing Tool
+  value_constraint: Agricultural + ritual
+  engine_id: astro_semantic
+  notes: Practical application
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726673'
+- factor_type: Functional
+  factor_label: Musical Tuning
+  factor_id: astro_musical_tuning
+  factor_source: new_candidate
+  role_position: Harmonic Alignment
+  value_constraint: State-cosmos resonance
+  engine_id: astro_semantic
+  notes: Pythagorean parallel
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726678'
+- factor_type: Structure
+  factor_label: Axial Age Transformation
+  factor_id: astro_axial_transform
+  factor_source: new_candidate
+  role_position: Historical Shift
+  value_constraint: 6th century B.C.
+  engine_id: astro_semantic
+  notes: Consciousness change
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726692'
+- factor_type: Functional
+  factor_label: Body-Psyche Transition
+  factor_id: astro_body_psyche_func
+  factor_source: new_candidate
+  role_position: Focus Shift
+  value_constraint: Physiological → psychological
+  engine_id: astro_semantic
+  notes: Foundation change
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726697'
+- factor_type: Functional
+  factor_label: Psychological Alchemy
+  factor_id: astro_psych_alchemy_func
+  factor_source: new_candidate
+  role_position: Inner Cultivation
+  value_constraint: Domesticating desires
+  engine_id: astro_semantic
+  notes: Post-vitalistic
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726701'
+- factor_type: State
+  factor_label: Individual Consciousness
+  factor_id: astro_individual_consc
+  factor_source: new_candidate
+  role_position: New Subject
+  value_constraint: Self-aware free being
+  engine_id: astro_semantic
+  notes: Astrology's new client
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726706'
+- factor_type: Structure
+  factor_label: Algebra of Life Definition
+  factor_id: astro_algebra_def
+  factor_source: new_candidate
+  role_position: Essential Nature
+  value_constraint: Symbolic integration system
+  engine_id: astro_semantic
+  notes: Core concept
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726719'
+- factor_type: Functional
+  factor_label: Correspondence Operation
+  factor_id: astro_correspond_op
+  factor_source: new_candidate
+  role_position: Mapping Method
+  value_constraint: Cosmic-earthly symbolic link
+  engine_id: astro_semantic
+  notes: Chaldean foundation
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726723'
+- factor_type: State
+  factor_label: Symbolic vs Literal Mode
+  factor_id: astro_symbolic_mode
+  factor_source: new_candidate
+  role_position: Interpretation Type
+  value_constraint: Symbol as effective
+  engine_id: astro_semantic
+  notes: Epistemological
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726727'
+- factor_type: Relational
+  factor_label: Astrology-Astronomy Split
+  factor_id: astro_split
+  factor_source: new_candidate
+  role_position: Historical Divergence
+  value_constraint: 6th century B.C. onwards
+  engine_id: astro_semantic
+  notes: Disciplinary
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726732'
+- factor_type: Structure
+  factor_label: Greek Intellectualism Impact
+  factor_id: astro_greek_impact
+  factor_source: new_candidate
+  role_position: Historical Cause
+  value_constraint: Mind → mere intellect
+  engine_id: astro_semantic
+  notes: Degeneration source
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726747'
+- factor_type: Functional
+  factor_label: Fortune-Telling Mode
+  factor_id: astro_fortune_mode
+  factor_source: new_candidate
+  role_position: Practice Type
+  value_constraint: Fear-driven individual prediction
+  engine_id: astro_semantic
+  notes: Surface degeneration
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726751'
+- factor_type: Functional
+  factor_label: Alchemy Survival
+  factor_id: astro_alchemy_survive
+  factor_source: new_candidate
+  role_position: Depth Preservation
+  value_constraint: Psychological cultivation
+  engine_id: astro_semantic
+  notes: Hidden continuation
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726756'
+- factor_type: State
+  factor_label: Abstract Order
+  factor_id: astro_abstract_order
+  factor_source: new_candidate
+  role_position: Order Type
+  value_constraint: Idea-based not nature-based
+  engine_id: astro_semantic
+  notes: Greek innovation
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726760'
+- factor_type: Structure
+  factor_label: Psychological Animism
+  factor_id: astro_psych_animism
+  factor_source: new_candidate
+  role_position: Consciousness Pattern
+  value_constraint: Mental-level archaic pattern
+  engine_id: astro_semantic
+  notes: Post-Christian
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726772'
+- factor_type: Functional
+  factor_label: Church-Astrology Function
+  factor_id: astro_church_function
+  factor_source: new_candidate
+  role_position: Institutional Role
+  value_constraint: Liturgical cosmic ordering
+  engine_id: astro_semantic
+  notes: Successor
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726777'
+- factor_type: Functional
+  factor_label: Kabbalistic Revival
+  factor_id: astro_kabbalistic_revival
+  factor_source: new_candidate
+  role_position: Historical Movement
+  value_constraint: 11th century Arabic transmission
+  engine_id: astro_semantic
+  notes: Medieval
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726781'
+- factor_type: State
+  factor_label: Psychological Jungle
+  factor_id: astro_psych_jungle_state
+  factor_source: new_candidate
+  role_position: Mental Environment
+  value_constraint: Incubi, succubi, sin-products
+  engine_id: astro_semantic
+  notes: Post-repression
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726786'
+- factor_type: Structure
+  factor_label: Psychological Vitalism
+  factor_id: astro_psych_vital_struct
+  factor_source: new_candidate
+  role_position: Approach Type
+  value_constraint: Working with life-substance
+  engine_id: astro_semantic
+  notes: Alchemical
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726798'
+- factor_type: Functional
+  factor_label: Non-Coercive Astrology
+  factor_id: astro_non_coercive
+  factor_source: new_candidate
+  role_position: Practice Mode
+  value_constraint: Incline not compel
+  engine_id: astro_semantic
+  notes: Paracelsian
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726802'
+- factor_type: Functional
+  factor_label: Rebirth Mandate
+  factor_id: astro_rebirth
+  factor_source: new_candidate
+  role_position: Historical Task
+  value_constraint: Modern integration need
+  engine_id: astro_semantic
+  notes: Contemporary
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726807'
+- factor_type: State
+  factor_label: Mutual Freedom
+  factor_id: astro_mutual_freedom
+  factor_source: new_candidate
+  role_position: Star-Human Relation
+  value_constraint: Both free
+  engine_id: astro_semantic
+  notes: Core humanistic
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726811'
+- factor_type: Structure
+  factor_label: Three Epochs Framework
+  factor_id: astro_three_epochs_struct
+  factor_source: new_candidate
+  role_position: Historical Frame
+  value_constraint: Animistic-mechanical-mathematical
+  engine_id: astro_semantic
+  notes: Jeans source
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726823'
+- factor_type: Functional
+  factor_label: Mechanism-Vitalism Parallel
+  factor_id: astro_mech_vital_func
+  factor_source: new_candidate
+  role_position: Structural Equivalence
+  value_constraint: Push/pull = yang/yin
+  engine_id: astro_semantic
+  notes: Anthropomorphic
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726828'
+- factor_type: Functional
+  factor_label: Mathematical Placement
+  factor_id: astro_math_placement
+  factor_source: new_candidate
+  role_position: Category Assignment
+  value_constraint: Form not content
+  engine_id: astro_semantic
+  notes: Capital distinction
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726832'
+- factor_type: State
+  factor_label: Post-Anthropomorphic
+  factor_id: astro_post_anthropo
+  factor_source: new_candidate
+  role_position: Cognitive Level
+  value_constraint: Beyond projection
+  engine_id: astro_semantic
+  notes: Mathematical stage
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726836'
+- factor_type: Structure
+  factor_label: Al-Jebr Function
+  factor_id: astro_aljebr_struct
+  factor_source: new_candidate
+  role_position: Operation Type
+  value_constraint: Binding to whole
+  engine_id: astro_semantic
+  notes: Etymology
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726852'
+- factor_type: Functional
+  factor_label: Pure Correlation
+  factor_id: astro_pure_corr
+  factor_source: new_candidate
+  role_position: Mathematical Parallel
+  value_constraint: Russell definition
+  engine_id: astro_semantic
+  notes: Philosophical
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726857'
+- factor_type: Functional
+  factor_label: Quality Algebra
+  factor_id: astro_quality_alg
+  factor_source: new_candidate
+  role_position: Content Type
+  value_constraint: Qualities not quantities
+  engine_id: astro_semantic
+  notes: Rudhyar innovation
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726861'
+- factor_type: State
+  factor_label: Life-Quality Domain
+  factor_id: astro_life_qual_domain
+  factor_source: new_candidate
+  role_position: Operational Realm
+  value_constraint: Psychological/super-psychological
+  engine_id: astro_semantic
+  notes: Inner planes
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726866'
+- factor_type: Structure
+  factor_label: Induction Failure
+  factor_id: astro_induct_struct
+  factor_source: new_candidate
+  role_position: Criterion
+  value_constraint: Never false
+  engine_id: astro_semantic
+  notes: Russell
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726876'
+- factor_type: Functional
+  factor_label: Ray Insufficiency
+  factor_id: astro_ray_func
+  factor_source: new_candidate
+  role_position: Limitation
+  value_constraint: Structure unexplained
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726881'
+- factor_type: State
+  factor_label: Non-Empirical
+  factor_id: astro_non_emp
+  factor_source: new_candidate
+  role_position: Category
+  value_constraint: Different domain
+  engine_id: astro_semantic
+  notes: Fundamental
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726885'
+- factor_type: Structure
+  factor_label: Individual-Collective Dialectic
+  factor_id: astro_ind_coll_struct
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Interpenetration
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726896'
+- factor_type: Functional
+  factor_label: Group Context Requirement
+  factor_id: astro_group_req
+  factor_source: new_candidate
+  role_position: Interpretation Rule
+  value_constraint: Must know group
+  engine_id: astro_semantic
+  notes: Practical
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726900'
+- factor_type: State
+  factor_label: Tendency-Expression Split
+  factor_id: astro_tend_expr_state
+  factor_source: new_candidate
+  role_position: Chart Function
+  value_constraint: Shows tendency only
+  engine_id: astro_semantic
+  notes: Limitation
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726904'
+- factor_type: Structure
+  factor_label: Math Parallel
+  factor_id: astro_math_par_struct
+  factor_source: new_candidate
+  role_position: Epistemological
+  value_constraint: Formal system
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726915'
+- factor_type: Functional
+  factor_label: Order Investment
+  factor_id: astro_order_invest
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Coherence-giving
+  engine_id: astro_semantic
+  notes: Practical
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726920'
+- factor_type: State
+  factor_label: Content-Free
+  factor_id: astro_content_free
+  factor_source: new_candidate
+  role_position: Nature
+  value_constraint: No substance alone
+  engine_id: astro_semantic
+  notes: Fundamental
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726924'
+- factor_type: Structure
+  factor_label: Measuring System
+  factor_id: astro_measure_sys
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Not influence
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726934'
+- factor_type: Functional
+  factor_label: Order Juxtaposition
+  factor_id: astro_order_jux
+  factor_source: new_candidate
+  role_position: Operation
+  value_constraint: Brings coherence
+  engine_id: astro_semantic
+  notes: Method
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726939'
+- factor_type: State
+  factor_label: Pure Symbol
+  factor_id: astro_pure_sym_state
+  factor_source: new_candidate
+  role_position: Planet Nature
+  value_constraint: No concrete meaning
+  engine_id: astro_semantic
+  notes: Fundamental
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726943'
+- factor_type: Structure
+  factor_label: Holism Philosophy
+  factor_id: astro_holism_struct
+  factor_source: new_candidate
+  role_position: Metaphysics
+  value_constraint: Whole > parts
+  engine_id: astro_semantic
+  notes: Smuts
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726956'
+- factor_type: Functional
+  factor_label: Creative Emergence
+  factor_id: astro_emergence
+  factor_source: new_candidate
+  role_position: Process
+  value_constraint: Multiple → whole
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726961'
+- factor_type: State
+  factor_label: Inherent Freedom
+  factor_id: astro_freedom
+  factor_source: new_candidate
+  role_position: Ontological
+  value_constraint: In nature
+  engine_id: astro_semantic
+  notes: Fundamental
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726965'
+- factor_type: Structure
+  factor_label: Holistic Logic
+  factor_id: astro_hol_logic_struct
+  factor_source: new_candidate
+  role_position: Epistemology
+  value_constraint: vs intellectual
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.726976'
+- factor_type: Functional
+  factor_label: Operative Wholes
+  factor_id: astro_oper_wholes
+  factor_source: new_candidate
+  role_position: Subject Matter
+  value_constraint: Moment of emergence
+  engine_id: astro_semantic
+  notes: Method
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727084'
+- factor_type: State
+  factor_label: Time-Rooted
+  factor_id: astro_time_rooted
+  factor_source: new_candidate
+  role_position: Foundation
+  value_constraint: Mystery domain
+  engine_id: astro_semantic
+  notes: Fundamental
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727106'
+- factor_type: Structure
+  factor_label: Time-Wholeness Identity
+  factor_id: astro_time_whole_struct
+  factor_source: new_candidate
+  role_position: Ontology
+  value_constraint: Real time
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727180'
+- factor_type: Functional
+  factor_label: Cyclology
+  factor_id: astro_cyclology_func
+  factor_source: new_candidate
+  role_position: Method
+  value_constraint: Analyzes time
+  engine_id: astro_semantic
+  notes: Science
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727193'
+- factor_type: State
+  factor_label: Chronos Principle
+  factor_id: astro_chronos_state
+  factor_source: new_candidate
+  role_position: Mythological
+  value_constraint: Maker of souls
+  engine_id: astro_semantic
+  notes: Symbolic
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727198'
+- factor_type: Structure
+  factor_label: Time Polarity
+  factor_id: astro_time_polarity
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Negative vs Positive
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727214'
+- factor_type: Functional
+  factor_label: Whole-Making Power
+  factor_id: astro_whole_power
+  factor_source: new_candidate
+  role_position: Creative Process
+  value_constraint: Eternal birthing
+  engine_id: astro_semantic
+  notes: Method
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727219'
+- factor_type: State
+  factor_label: Moment Acceptance
+  factor_id: astro_moment_accept
+  factor_source: new_candidate
+  role_position: Living Mode
+  value_constraint: Every moment = birth
+  engine_id: astro_semantic
+  notes: Practical
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727223'
+- factor_type: Structure
+  factor_label: Intuition Faculty
+  factor_id: astro_intuition_struct
+  factor_source: new_candidate
+  role_position: Epistemology
+  value_constraint: Holistic perception
+  engine_id: astro_semantic
+  notes: Jung
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727235'
+- factor_type: Functional
+  factor_label: Symbol Formation
+  factor_id: astro_symbol_form
+  factor_source: new_candidate
+  role_position: Process
+  value_constraint: Inner+outer identity
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727239'
+- factor_type: State
+  factor_label: Order-Celestial Identity
+  factor_id: astro_order_celest
+  factor_source: new_candidate
+  role_position: Foundation
+  value_constraint: Astrology's basis
+  engine_id: astro_semantic
+  notes: Fundamental
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727244'
+- factor_type: Structure
+  factor_label: Symbol Definition
+  factor_id: astro_symbol_def
+  factor_source: new_candidate
+  role_position: Core Concept
+  value_constraint: Whole-quality
+  engine_id: astro_semantic
+  notes: Foundation
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727260'
+- factor_type: Functional
+  factor_label: Birth Identity
+  factor_id: astro_birth_id
+  factor_source: new_candidate
+  role_position: Core Principle
+  value_constraint: Triple identity
+  engine_id: astro_semantic
+  notes: Fundamental
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727265'
+- factor_type: Structure
+  factor_label: Language Function
+  factor_id: astro_lang_struct
+  factor_source: new_candidate
+  role_position: Communication
+  value_constraint: Bridges
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727275'
+- factor_type: Functional
+  factor_label: Functional Coherency
+  factor_id: astro_func_coh
+  factor_source: new_candidate
+  role_position: Logic Principle
+  value_constraint: Consistency
+  engine_id: astro_semantic
+  notes: Method
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727280'
+- factor_type: Structure
+  factor_label: Dual Symbolism
+  factor_id: astro_dual_sym
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Geo vs Helio
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727293'
+- factor_type: Functional
+  factor_label: No Mixing
+  factor_id: astro_no_mix
+  factor_source: new_candidate
+  role_position: Method Rule
+  value_constraint: Consistency
+  engine_id: astro_semantic
+  notes: Critical
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727299'
+- factor_type: Structure
+  factor_label: Synchronistic Principle
+  factor_id: astro_sync_struct
+  factor_source: new_candidate
+  role_position: Foundation
+  value_constraint: Jung
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727309'
+- factor_type: Functional
+  factor_label: Time-Quality
+  factor_id: astro_time_qual
+  factor_source: new_candidate
+  role_position: Mechanism
+  value_constraint: Moment-born
+  engine_id: astro_semantic
+  notes: Method
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727313'
+- factor_type: Structure
+  factor_label: Three Psychologies
+  factor_id: astro_three_psych
+  factor_source: new_candidate
+  role_position: Classification
+  value_constraint: Types
+  engine_id: astro_semantic
+  notes: Framework
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727322'
+- factor_type: Functional
+  factor_label: Purposeful Wholeness
+  factor_id: astro_purpose_whole
+  factor_source: new_candidate
+  role_position: Goal
+  value_constraint: Make whole
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727328'
+- factor_type: Structure
+  factor_label: Collective Unconscious
+  factor_id: astro_coll_uncons_struct
+  factor_source: new_candidate
+  role_position: Psychic Realm
+  value_constraint: Primordial
+  engine_id: astro_semantic
+  notes: Jung
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727401'
+- factor_type: State
+  factor_label: Positive Matrix
+  factor_id: astro_pos_matrix
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Source of conscious
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727415'
+- factor_type: Structure
+  factor_label: Individuation Process
+  factor_id: astro_indiv_process
+  factor_source: new_candidate
+  role_position: Goal
+  value_constraint: Making whole
+  engine_id: astro_semantic
+  notes: Jung
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727435'
+- factor_type: Functional
+  factor_label: Self-Realization
+  factor_id: astro_self_real
+  factor_source: new_candidate
+  role_position: Outcome
+  value_constraint: Ego→Self
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727440'
+- factor_type: Structure
+  factor_label: Ethics-Esthetics Contrast
+  factor_id: astro_eth_esth_struct
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Balance vs divide
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727452'
+- factor_type: Functional
+  factor_label: Esthetical Astrology
+  factor_id: astro_esth_astro
+  factor_source: new_candidate
+  role_position: Method
+  value_constraint: No evil planets
+  engine_id: astro_semantic
+  notes: Practical
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727457'
+- factor_type: Structure
+  factor_label: Mandala-Zodiac
+  factor_id: astro_mandala_zodiac
+  factor_source: new_candidate
+  role_position: Symbol
+  value_constraint: 4-fold
+  engine_id: astro_semantic
+  notes: Jung
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727467'
+- factor_type: Functional
+  factor_label: Chart-Individuation
+  factor_id: astro_chart_indiv
+  factor_source: new_candidate
+  role_position: Blueprint
+  value_constraint: Self-realization
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727472'
+- factor_type: Structure
+  factor_label: Cyclic Formula
+  factor_id: astro_cyclic_struct
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Begin-middle-end
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727480'
+- factor_type: Structure
+  factor_label: Two Formulas
+  factor_id: astro_two_formulas
+  factor_source: new_candidate
+  role_position: Comparison
+  value_constraint: AUM vs TAO
+  engine_id: astro_semantic
+  notes: Framework
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727487'
+- factor_type: Structure
+  factor_label: New Formula
+  factor_id: astro_new_form_struct
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: End emphasis
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727497'
+- factor_type: Functional
+  factor_label: Astrology-Yi King
+  factor_id: astro_yi_king_role
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: New civilization
+  engine_id: astro_semantic
+  notes: Vision
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727501'
+- factor_type: Structure
+  factor_label: Triple Principle
+  factor_id: astro_triple_princ
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Indiv-Coll-Creative
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727510'
+- factor_type: Functional
+  factor_label: Creative Synthesis
+  factor_id: astro_creative_synth
+  factor_source: new_candidate
+  role_position: Resolution
+  value_constraint: Not motion
+  engine_id: astro_semantic
+  notes: Key
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727514'
+- factor_type: Structure
+  factor_label: Dual Formulas
+  factor_id: astro_dual_form
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Substance/Spirit
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727522'
+- factor_type: Structure
+  factor_label: Signature Concept
+  factor_id: astro_signature_concept
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Symbol-to-reality
+  engine_id: astro_semantic
+  notes: Key concept
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727530'
+- factor_type: Structure
+  factor_label: Two Motion Types
+  factor_id: astro_two_motions
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Subjective/Objective
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727540'
+- factor_type: Functional
+  factor_label: Two Pillars
+  factor_id: astro_pillars
+  factor_source: new_candidate
+  role_position: Foundation
+  value_constraint: Rotation/Revolution
+  engine_id: astro_semantic
+  notes: Key
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727544'
+- factor_type: Temporal
+  factor_label: Day-Year Cycles
+  factor_id: astro_day_year
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Individual/Collective
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727552'
+- factor_type: Temporal
+  factor_label: Polar Cycle
+  factor_id: astro_polar_cycle
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: ~25,868 years
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727561'
+- factor_type: Functional
+  factor_label: Creative Factor
+  factor_id: astro_creative_factor
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Archetypal outpouring
+  engine_id: astro_semantic
+  notes: Key
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727565'
+- factor_type: Structure
+  factor_label: Houses-Zodiac
+  factor_id: astro_houses_zodiac
+  factor_source: existing
+  role_position: Framework
+  value_constraint: Individual/Collective
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727574'
+- factor_type: Structure
+  factor_label: Two Axes
+  factor_id: astro_chart_axes
+  factor_source: existing
+  role_position: Framework
+  value_constraint: Horizon/Meridian
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727578'
+- factor_type: Structure
+  factor_label: Three Types
+  factor_id: astro_three_types
+  factor_source: new_candidate
+  role_position: Classification
+  value_constraint: Individual/Collective/Occult
+  engine_id: astro_semantic
+  notes: Framework
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727586'
+- factor_type: Functional
+  factor_label: Natal Function
+  factor_id: astro_natal_func
+  factor_source: existing
+  role_position: Application
+  value_constraint: Individual birth
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727594'
+- factor_type: Functional
+  factor_label: Horary Function
+  factor_id: astro_horary_func
+  factor_source: existing
+  role_position: Application
+  value_constraint: Individual situation
+  engine_id: astro_semantic
+  notes: Support
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727599'
+- factor_type: Functional
+  factor_label: Mundane Function
+  factor_id: astro_mundane_func
+  factor_source: existing
+  role_position: Application
+  value_constraint: Collective/Nations
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727606'
+- factor_type: Structure
+  factor_label: Occult Structure
+  factor_id: astro_occult_struct
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Creative-spiritual
+  engine_id: astro_semantic
+  notes: Advanced
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727615'
+- factor_type: Energy
+  factor_label: Seven Rays
+  factor_id: astro_rays
+  factor_source: new_candidate
+  role_position: Energy
+  value_constraint: Cosmic creative
+  engine_id: astro_semantic
+  notes: Esoteric
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727619'
+- factor_type: Structure
+  factor_label: Harmonic Framework
+  factor_id: astro_harmonic_frame
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Integration focus
+  engine_id: astro_semantic
+  notes: Methodology
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727628'
+- factor_type: Structure
+  factor_label: Three Elements
+  factor_id: astro_elements_struct
+  factor_source: existing
+  role_position: Framework
+  value_constraint: Houses/Signs/Planets
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727632'
+- factor_type: Structure
+  factor_label: Houses Framework
+  factor_id: houses_framework
+  factor_source: existing
+  role_position: Framework
+  value_constraint: Generic individual
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727640'
+- factor_type: Functional
+  factor_label: Four Functions
+  factor_id: jung_four_functions
+  factor_source: new_candidate
+  role_position: Psychological
+  value_constraint: Intuition/Feeling/Sensation/Thinking
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727649'
+- factor_type: Structure
+  factor_label: Two Axes Functions
+  factor_id: axes_functions
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Awareness/Experience
+  engine_id: astro_semantic
+  notes: Key
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727653'
+- factor_type: Structure
+  factor_label: Three House Types
+  factor_id: house_types
+  factor_source: existing
+  role_position: Classification
+  value_constraint: Angular/Succedent/Cadent
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727661'
+- factor_type: Temporal
+  factor_label: 28-Year Cycle
+  factor_id: astro_cycle_28
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Individuation day
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727672'
+- factor_type: Temporal
+  factor_label: Three Births
+  factor_id: astro_three_births
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: 0-28-56-84
+  engine_id: astro_semantic
+  notes: Key
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727676'
+- factor_type: Temporal
+  factor_label: Seven-Year Cycles
+  factor_id: astro_cycles_7
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: 0-7-14-21-28
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727686'
+- factor_type: Relational
+  factor_label: Individual-Universal
+  factor_id: astro_indiv_univ
+  factor_source: new_candidate
+  role_position: Paradox
+  value_constraint: Most individual = most universal
+  engine_id: astro_semantic
+  notes: Key
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727691'
+- factor_type: Structure
+  factor_label: Zodiac-Houses Dualism
+  factor_id: astro_zodiac_houses
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Collective/Individual
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727698'
+- factor_type: Structure
+  factor_label: Zodiac as Aura
+  factor_id: astro_zodiac_aura
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Earth's magnetic field
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727705'
+- factor_type: Structure
+  factor_label: Four Elements
+  factor_id: astro_four_elements
+  factor_source: existing
+  role_position: Framework
+  value_constraint: Fire/Air/Water/Earth
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727713'
+- factor_type: Structure
+  factor_label: Cardinal Signs
+  factor_id: astro_cardinal
+  factor_source: existing
+  role_position: Classification
+  value_constraint: Equinoxes/Solstices
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727718'
+- factor_type: Structure
+  factor_label: Sign Modalities
+  factor_id: astro_modalities
+  factor_source: existing
+  role_position: Classification
+  value_constraint: Cardinal/Fixed/Mutable
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727728'
+- factor_type: Energy
+  factor_label: Avataric Gates
+  factor_id: astro_avataric
+  factor_source: new_candidate
+  role_position: Energy
+  value_constraint: 15° Fixed signs
+  engine_id: astro_semantic
+  notes: Esoteric
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727733'
+- factor_type: Structure
+  factor_label: Zodiac Dual View
+  factor_id: astro_zodiac_dual
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Collective/Individual
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727741'
+- factor_type: Structure
+  factor_label: Four Synthesis
+  factor_id: astro_four_synthesis
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Zodiac/Houses/Planets/Degrees
+  engine_id: astro_semantic
+  notes: Key
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727746'
+- factor_type: Planet
+  factor_label: Sun
+  factor_id: astro_sun
+  factor_source: existing
+  role_position: Integrator
+  value_constraint: Power of Self
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727755'
+- factor_type: Concept
+  factor_label: Personality
+  factor_id: astro_personality
+  factor_source: existing
+  role_position: Definition
+  value_constraint: Behavior synthesis
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727759'
+- factor_type: Planet Pair
+  factor_label: Saturn-Moon
+  factor_id: astro_saturn_moon
+  factor_source: new_candidate
+  role_position: Being
+  value_constraint: Ego/Energy
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727770'
+- factor_type: Planet Pair
+  factor_label: Jupiter-Mercury
+  factor_id: astro_jupiter_mercury
+  factor_source: new_candidate
+  role_position: Maintaining
+  value_constraint: Compensation/Intelligence
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727774'
+- factor_type: Planet Pair
+  factor_label: Mars-Venus
+  factor_id: astro_mars_venus
+  factor_source: new_candidate
+  role_position: Reproducing
+  value_constraint: Outgoing/Returning
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727779'
+- factor_type: Motion
+  factor_label: Retrograde
+  factor_id: astro_retrograde
+  factor_source: existing
+  role_position: Direction
+  value_constraint: Inward energy
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727788'
+- factor_type: Concept
+  factor_label: Personal Unconscious
+  factor_id: astro_personal_uncon
+  factor_source: existing
+  role_position: Layer
+  value_constraint: Repressed
+  engine_id: astro_semantic
+  notes: Jungian
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727792'
+- factor_type: Planet
+  factor_label: Uranus
+  factor_id: astro_uranus
+  factor_source: existing
+  role_position: Projective
+  value_constraint: Image-forming
+  engine_id: astro_semantic
+  notes: Outer
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727803'
+- factor_type: Planet
+  factor_label: Neptune
+  factor_id: astro_neptune
+  factor_source: existing
+  role_position: Dissolving
+  value_constraint: Universalizing
+  engine_id: astro_semantic
+  notes: Outer
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727807'
+- factor_type: Planet
+  factor_label: Pluto
+  factor_id: astro_pluto
+  factor_source: existing
+  role_position: Regenerating
+  value_constraint: Second birth
+  engine_id: astro_semantic
+  notes: Outer
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727811'
+- factor_type: Cycle
+  factor_label: Higher Moons
+  factor_id: astro_higher_moons
+  factor_source: new_candidate
+  role_position: Linking
+  value_constraint: 28d/40mo/11.2y/28y
+  engine_id: astro_semantic
+  notes: Esoteric
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727821'
+- factor_type: Cycle
+  factor_label: 84-Year Temple
+  factor_id: astro_84_temple
+  factor_source: new_candidate
+  role_position: Integration
+  value_constraint: 3×28 years
+  engine_id: astro_semantic
+  notes: Esoteric
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727825'
+- factor_type: Point
+  factor_label: Planetary Nodes
+  factor_id: astro_planetary_nodes
+  factor_source: new_candidate
+  role_position: Axis
+  value_constraint: Integration/Disintegration
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727833'
+- factor_type: Point
+  factor_label: Moon's Nodes
+  factor_id: astro_lunar_nodes
+  factor_source: existing
+  role_position: Fate Axis
+  value_constraint: Destiny/Will
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727840'
+- factor_type: Point
+  factor_label: Part of Fortune
+  factor_id: astro_part_fortune
+  factor_source: existing
+  role_position: Expression
+  value_constraint: ASC+Moon-Sun
+  engine_id: astro_semantic
+  notes: Arabian
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727847'
+- factor_type: System
+  factor_label: Astrological Parts
+  factor_id: astro_parts
+  factor_source: new_candidate
+  role_position: Calculation
+  value_constraint: Distance + Angle
+  engine_id: astro_semantic
+  notes: Arabian
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727855'
+- factor_type: Element
+  factor_label: Zodiacal Degree
+  factor_id: astro_degree
+  factor_source: existing
+  role_position: Synthesis
+  value_constraint: Orbital + Axial
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727863'
+- factor_type: System
+  factor_label: Sabian Symbols
+  factor_id: astro_sabian
+  factor_source: existing
+  role_position: Symbolism
+  value_constraint: 360 images
+  engine_id: astro_semantic
+  notes: Key
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727867'
+- factor_type: Division
+  factor_label: Span
+  factor_id: astro_span
+  factor_source: new_candidate
+  role_position: Structure
+  value_constraint: 15 degrees
+  engine_id: astro_semantic
+  notes: Key
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727880'
+- factor_type: Concept
+  factor_label: Form
+  factor_id: astro_form
+  factor_source: new_candidate
+  role_position: Abstract
+  value_constraint: Pattern
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727889'
+- factor_type: Concept
+  factor_label: Body
+  factor_id: astro_body
+  factor_source: new_candidate
+  role_position: Concrete
+  value_constraint: Substance
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727893'
+- factor_type: Aspect
+  factor_label: Conjunction
+  factor_id: astro_conjunction
+  factor_source: existing
+  role_position: Accent
+  value_constraint: 0°
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727904'
+- factor_type: Aspect
+  factor_label: Opposition
+  factor_id: astro_opposition
+  factor_source: existing
+  role_position: Counter-accent
+  value_constraint: 180°
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727914'
+- factor_type: Aspect
+  factor_label: Trine
+  factor_id: astro_trine
+  factor_source: existing
+  role_position: Vision
+  value_constraint: 120°
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727927'
+- factor_type: Aspect
+  factor_label: Square
+  factor_id: astro_square
+  factor_source: existing
+  role_position: Incarnation
+  value_constraint: 90°
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727931'
+- factor_type: Aspect
+  factor_label: Quintile
+  factor_id: astro_quintile
+  factor_source: existing
+  role_position: Genius
+  value_constraint: 72°
+  engine_id: astro_semantic
+  notes: Key
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727936'
+- factor_type: Pattern
+  factor_label: Focal Determinators
+  factor_id: astro_focal
+  factor_source: new_candidate
+  role_position: Significance
+  value_constraint: Key centers
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727945'
+- factor_type: Pattern
+  factor_label: Singleton
+  factor_id: astro_singleton
+  factor_source: new_candidate
+  role_position: Isolated
+  value_constraint: One vs many
+  engine_id: astro_semantic
+  notes: Key
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727949'
+- factor_type: Concept
+  factor_label: Selfhood
+  factor_id: astro_selfhood
+  factor_source: existing
+  role_position: Space/Being
+  value_constraint: Radical chart
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727958'
+- factor_type: Concept
+  factor_label: Destiny
+  factor_id: astro_destiny
+  factor_source: existing
+  role_position: Time/Becoming
+  value_constraint: Progressions
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727963'
+- factor_type: Chart
+  factor_label: Birth-chart
+  factor_id: astro_birth_chart
+  factor_source: existing
+  role_position: Potentiality
+  value_constraint: Blueprint
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727970'
+- factor_type: Cycle
+  factor_label: Primary Directions
+  factor_id: astro_primary
+  factor_source: existing
+  role_position: Individual
+  value_constraint: 4min=1yr
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727980'
+- factor_type: Cycle
+  factor_label: Secondary Progressions
+  factor_id: astro_secondary
+  factor_source: existing
+  role_position: Collective
+  value_constraint: 1day=1yr
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727985'
+- factor_type: Cycle
+  factor_label: Transits
+  factor_id: astro_transits
+  factor_source: existing
+  role_position: Personality
+  value_constraint: 1yr=1yr
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.727989'
+- factor_type: Progression
+  factor_label: Progressed Sun
+  factor_id: astro_prog_sun
+  factor_source: existing
+  role_position: Integration
+  value_constraint: 1°/year
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.728000'
+- factor_type: Progression
+  factor_label: Progressed Moon
+  factor_id: astro_prog_moon
+  factor_source: existing
+  role_position: Events
+  value_constraint: 13°/year
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.728004'
+- factor_type: Method
+  factor_label: Transit-to-Radical
+  factor_id: astro_transit_rad
+  factor_source: new_candidate
+  role_position: Individual
+  value_constraint: Personal destiny
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.728014'
+- factor_type: Method
+  factor_label: Transit-to-Transit
+  factor_id: astro_transit_trans
+  factor_source: new_candidate
+  role_position: Collective
+  value_constraint: World conditions
+  engine_id: astro_semantic
+  notes: Secondary
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.728018'
+- factor_type: Principle
+  factor_label: Individual Interpretation
+  factor_id: astro_interp_indiv
+  factor_source: new_candidate
+  role_position: Method
+  value_constraint: Personal
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.728026'
+- factor_type: Principle
+  factor_label: Freedom Coefficient
+  factor_id: astro_freedom
+  factor_source: new_candidate
+  role_position: Philosophy
+  value_constraint: Indeterminacy
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.728033'
+- factor_type: Concept
+  factor_label: Life-interpretation
+  factor_id: astro_life_interp
+  factor_source: new_candidate
+  role_position: Goal
+  value_constraint: Form + significance
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.728041'
+- factor_type: Goal
+  factor_label: More Wholeness
+  factor_id: astro_wholeness
+  factor_source: new_candidate
+  role_position: Purpose
+  value_constraint: Universal
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.728050'
+- factor_type: Goal
+  factor_label: Living Civilization
+  factor_id: astro_living_civ
+  factor_source: new_candidate
+  role_position: Collective
+  value_constraint: Humanity
+  engine_id: astro_semantic
+  notes: Core
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.728055'
+- factor_type: Viewpoint
+  factor_label: Psychology
+  factor_id: astro_psych
+  factor_source: existing
+  role_position: Process
+  value_constraint: Becoming
+  engine_id: astro_semantic
+  notes: Compare
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.728064'
+- factor_type: Viewpoint
+  factor_label: Astrology
+  factor_id: astro_view
+  factor_source: existing
+  role_position: Potential
+  value_constraint: Being
+  engine_id: astro_semantic
+  notes: Compare
+  source_book: astrology_of_personality
+  source_chapter: null
+  extracted_at: '2025-12-04T19:13:41.728068'

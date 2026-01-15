@@ -1,0 +1,442 @@
+book_id: the_astrological_houses
+source_file: 典籍/texts/The Astrological Houses/编辑/House_Philosophy_12Houses.md, 典籍/texts/The
+  Astrological Houses/编辑/House_Philosophy_12Houses_v2.1.md
+extracted_at: '2025-12-04T14:27:44.967313'
+relations:
+- relation_id: rel_houses_001
+  relation_type: causal
+  factor_a: astro_locality_centered AND astro_astro_archaic_system
+  factor_b: astro_tribal_consciousness
+  relation_nature: Horizon defines awareness
+  condition_constraint: When individual is bounded by visible local horizon
+  effect_direction: NEUTRAL
+  source_ref: Rudhyar Ch1
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182337'
+- relation_id: rel_houses_002
+  relation_type: causal
+  factor_a: astro_globe_centered AND astro_astro_modern_system
+  factor_b: astro_individual_consciousness
+  relation_nature: Rational horizon transcends locality
+  condition_constraint: When consciousness evolves beyond tribal bounds
+  effect_direction: BENEFICIAL
+  source_ref: Rudhyar Ch1
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182346'
+- relation_id: rel_houses_003
+  relation_type: causal
+  factor_a: astro_eight_watches AND astro_astro_clockwise
+  factor_b: astro_vitalistic_system
+  relation_nature: Solar path defines time
+  condition_constraint: When following Sun's apparent daily motion
+  effect_direction: NEUTRAL
+  source_ref: Rudhyar Ch2
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182380'
+- relation_id: rel_houses_004
+  relation_type: complementary
+  factor_a: astro_solar_life_force AND astro_astro_agricultural_rhythm
+  factor_b: astro_archaic_time
+  relation_nature: Bio-solar cycles structure day
+  condition_constraint: When consciousness is tied to natural rhythms
+  effect_direction: BENEFICIAL
+  source_ref: Rudhyar Ch2
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182383'
+- relation_id: rel_House_Philosophy_12H_3
+  relation_type: concept
+  factor_a: House_Philosophy_12H_3
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: When framework connects concept to system interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182412'
+- relation_id: rel_House_Philosophy_12H_4
+  relation_type: concept
+  factor_a: House_Philosophy_12H_4
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: When framework connects concept to system interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182436'
+- relation_id: rel_House_Philosophy_12H_5
+  relation_type: concept
+  factor_a: House_Philosophy_12H_5
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: When framework connects concept to system interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182457'
+- relation_id: rel_House_Philosophy_12H_6
+  relation_type: concept
+  factor_a: House_Philosophy_12H_6
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: When framework connects concept to system interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182478'
+- relation_id: rel_House_Philosophy_12H_7
+  relation_type: concept
+  factor_a: House_Philosophy_12H_7
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: When framework connects concept to system interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182501'
+- relation_id: rel_house1_001
+  relation_type: causal
+  factor_a: astro_house_1 AND astro_astro_ascendant
+  factor_b: astro_self_identity
+  relation_nature: Incarnation point defines identity
+  condition_constraint: When Ascendant is activated by transit
+  effect_direction: BENEFICIAL
+  source_ref: Rudhyar Ch1
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182522'
+- relation_id: rel_house1_002
+  relation_type: complementary
+  factor_a: astro_house_1 AND astro_astro_aries
+  factor_b: astro_personal_initiative
+  relation_nature: Angular house acts like Aries
+  condition_constraint: When cardinal energy is expressed
+  effect_direction: BENEFICIAL
+  source_ref: Rudhyar Ch1
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182525'
+- relation_id: rel_house_2_body
+  relation_type: possession
+  factor_a: house_2
+  factor_b: physical_body
+  relation_nature: Primary ownership
+  condition_constraint: When physical body at birth establishes primary ownership
+    foundation
+  effect_direction: Foundation→Expression
+  source_ref: House 2 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182551'
+- relation_id: rel_house_2_use
+  relation_type: function
+  factor_a: house_2
+  factor_b: individuality
+  relation_nature: Purposeful dedication
+  condition_constraint: When active management dedicates resources for individuality
+    actualization
+  effect_direction: Resources→Actualization
+  source_ref: House 2 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182554'
+- relation_id: rel_house_3_env
+  relation_type: adaptation
+  factor_a: house_3
+  factor_b: environment
+  relation_nature: Intelligence development
+  condition_constraint: When early life environment shapes intelligence development
+    adaptation
+  effect_direction: Stimulus→Response
+  source_ref: House 3 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182575'
+- relation_id: rel_house_3_mind
+  relation_type: function
+  factor_a: house_3
+  factor_b: nervous_system
+  relation_nature: Empirical knowing
+  condition_constraint: When practical need drives nervous system empirical knowing
+    function
+  effect_direction: Data→Technique
+  source_ref: House 3 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182578'
+- relation_id: rel_house_4_center
+  relation_type: integration
+  factor_a: house_4
+  factor_b: personality
+  relation_nature: Centeredness
+  condition_constraint: When stable foundation enables personality centeredness integration
+  effect_direction: Scattered→Unified
+  source_ref: House 4 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182599'
+- relation_id: rel_house_4_ic
+  relation_type: structure
+  factor_a: ic
+  factor_b: collective_unconscious
+  relation_nature: Deepest point
+  condition_constraint: When birth roots connect IC to collective unconscious deepest
+    point
+  effect_direction: Archetype→Individual
+  source_ref: House 4 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182602'
+- relation_id: rel_house_5_create
+  relation_type: expression
+  factor_a: house_5
+  factor_b: personality
+  relation_nature: Creative release
+  condition_constraint: When integration complete enables house 5 creative personality
+    expression
+  effect_direction: Inner→Outer
+  source_ref: House 5 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182623'
+- relation_id: rel_house_5_purity
+  relation_type: test
+  factor_a: house_5
+  factor_b: dharma
+  relation_nature: Purity of motive
+  condition_constraint: When ego transcendence tests purity of motive in dharma pursuit
+  effect_direction: Desire→Destiny
+  source_ref: House 5 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182626'
+- relation_id: rel_house_6_crisis
+  relation_type: transformation
+  factor_a: house_6
+  factor_b: inadequacy
+  relation_nature: Growth catalyst
+  condition_constraint: When recognition of lack catalyzes house 6 crisis transformation
+    growth
+  effect_direction: Defeat→Growth
+  source_ref: House 6 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182647'
+- relation_id: rel_house_6_service
+  relation_type: healing
+  factor_a: house_6
+  factor_b: discipleship
+  relation_nature: Ego transcendence
+  condition_constraint: When master guidance enables house 6 service healing ego transcendence
+  effect_direction: Self→Service
+  source_ref: House 6 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182650'
+- relation_id: rel_house_7_partner
+  relation_type: participation
+  factor_a: house_7
+  factor_b: other_selves
+  relation_nature: Self-discovery
+  condition_constraint: When functional cooperation enables house 7 self-discovery
+    through others
+  effect_direction: I→We
+  source_ref: House 7 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182670'
+- relation_id: rel_house_7_transform
+  relation_type: dynamics
+  factor_a: descendant
+  factor_b: transformation
+  relation_nature: Most dynamic
+  condition_constraint: When purpose beyond partners drives descendant dynamic transformation
+  effect_direction: Relating→Becoming
+  source_ref: House 7 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182673'
+- relation_id: rel_house_8_trust
+  relation_type: foundation
+  factor_a: house_8
+  factor_b: partnership
+  relation_nature: Shared resources
+  condition_constraint: When trust established enables house 8 shared partnership
+    resources
+  effect_direction: Individual→Collective
+  source_ref: House 8 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182692'
+- relation_id: rel_house_8_death
+  relation_type: transformation
+  factor_a: house_8
+  factor_b: ego
+  relation_nature: Death-rebirth
+  condition_constraint: When surrender enables house 8 ego death-rebirth transformation
+  effect_direction: Ego→Rebirth
+  source_ref: House 8 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182695'
+- relation_id: rel_house_9_meaning
+  relation_type: understanding
+  factor_a: house_9
+  factor_b: society
+  relation_nature: Holistic framework
+  condition_constraint: When cultural context provides house 9 holistic meaning framework
+  effect_direction: Parts→Whole
+  source_ref: House 9 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182713'
+- relation_id: rel_house_9_symbol
+  relation_type: interpretation
+  factor_a: house_9
+  factor_b: communication
+  relation_nature: Symbol decoding
+  condition_constraint: When background knowledge enables house 9 symbol interpretation
+    decoding
+  effect_direction: Sign→Meaning
+  source_ref: House 9 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182716'
+- relation_id: rel_house_10_achieve
+  relation_type: actualization
+  factor_a: house_10
+  factor_b: first_house
+  relation_nature: Potential fulfillment
+  condition_constraint: When social integration enables house 10 potential fulfillment
+    actualization
+  effect_direction: Potential→Actual
+  source_ref: House 10 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182736'
+- relation_id: rel_house_10_mc
+  relation_type: culmination
+  factor_a: mc
+  factor_b: individual
+  relation_nature: Transfiguration
+  condition_constraint: When ascending and descending meet MC culminates individual
+    transfiguration
+  effect_direction: Heaven→Earth
+  source_ref: House 10 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182739'
+- relation_id: rel_house_11_collective
+  relation_type: channel
+  factor_a: house_11
+  factor_b: whole
+  relation_nature: Creation through
+  condition_constraint: When social integration channels house 11 collective creation
+    through individual
+  effect_direction: Collective→Individual
+  source_ref: House 11 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182758'
+- relation_id: rel_house_11_reform
+  relation_type: transformation
+  factor_a: house_11
+  factor_b: society
+  relation_nature: Future seeds
+  condition_constraint: When shared purpose enables house 11 society transformation
+    future seeds
+  effect_direction: Present→Future
+  source_ref: House 11 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182761'
+- relation_id: rel_house_12_karma
+  relation_type: confrontation
+  factor_a: house_12
+  factor_b: past
+  relation_nature: Cycle completion
+  condition_constraint: When accumulated results confront house 12 past for cycle
+    completion
+  effect_direction: Memory→Present
+  source_ref: House 12 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182781'
+- relation_id: rel_house_12_seed
+  relation_type: rebirth
+  factor_a: house_12
+  factor_b: ascendant
+  relation_nature: Preparation
+  condition_constraint: When letting go prepares house 12 rebirth toward new ascendant
+  effect_direction: Old→New
+  source_ref: House 12 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182784'
+- relation_id: rel_House_Philosophy_12H_20
+  relation_type: concept
+  factor_a: House_Philosophy_12H_20
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: When framework connects concept to system interpretation
+  effect_direction: connecting
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182805'
+- relation_id: rel_cycle_28
+  relation_type: development
+  factor_a: cycle_28
+  factor_b: consciousness
+  relation_nature: Three-level progression
+  condition_constraint: When age-based progression develops consciousness through
+    three levels
+  effect_direction: Physical→Mental→Spiritual
+  source_ref: Three-Level Cycle
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182877'
+- relation_id: rel_point_self
+  relation_type: progression
+  factor_a: point_of_self
+  factor_b: natal_planets
+  relation_nature: Consciousness catalyst
+  condition_constraint: When 7-year rhythm progresses point of self contacting natal
+    planets
+  effect_direction: Contact→Change
+  source_ref: Three-Level Cycle
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182880'
+- relation_id: rel_holistic
+  relation_type: methodology
+  factor_a: methodology_holistic
+  factor_b: chart_interpretation
+  relation_nature: Whole→Parts
+  condition_constraint: When context-first approach applies holistic whole to parts
+    methodology
+  effect_direction: Form→Meaning
+  source_ref: Epilogue
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182902'
+- relation_id: rel_space_time
+  relation_type: ontology
+  factor_a: space
+  factor_b: time
+  relation_nature: Potential→Actual
+  condition_constraint: When consciousness development actualizes space-time potential
+    to actual
+  effect_direction: Archetype→Experience
+  source_ref: Epilogue
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.182905'

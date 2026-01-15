@@ -1,0 +1,37 @@
+[
+  {
+    "check_id": "versioning_config",
+    "name": "Versioning config (version_id/corpus_release_id)",
+    "required": true,
+    "status": "PASS",
+    "reason_code": null
+  },
+  {
+    "check_id": "db_connectivity",
+    "name": "Database connectivity",
+    "required": false,
+    "status": "SKIP",
+    "reason_code": null
+  },
+  {
+    "check_id": "db_migrations",
+    "name": "Database migrations (alembic head)",
+    "required": false,
+    "status": "PASS",
+    "reason_code": null
+  },
+  {
+    "check_id": "redis_connectivity",
+    "name": "Redis connectivity",
+    "required": false,
+    "status": "PASS",
+    "reason_code": null
+  },
+  {
+    "check_id": "llm_provider_config",
+    "name": "LLM provider config",
+    "required": false,
+    "status": "SKIP",
+    "reason_code": null
+  }
+]

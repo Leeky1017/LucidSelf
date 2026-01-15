@@ -1,0 +1,62 @@
+### bash scripts/gates/gate1_cross_book_conflicts_and_quality.sh
+$ openspec validate --specs --strict --no-interactive
+✓ spec/abuse-and-rate-limits
+✓ spec/billing-and-entitlements
+✓ spec/bootability-and-regression-baseline
+✓ spec/citations-evidence-protocol
+✓ spec/commercial-readiness-gates
+✓ spec/corpus-governance
+✓ spec/corpus-release-pipeline
+✓ spec/cross-book-consistency-conflicts
+✓ spec/deployment-release
+✓ spec/engine-id-governance
+✓ spec/fusion-engine-explainability
+✓ spec/geocoding-first-class
+✓ spec/golden-sets-and-regression
+✓ spec/identity-and-data-isolation
+✓ spec/knowledge-graph-runtime-semanticquery
+✓ spec/llm-narrative-layer
+✓ spec/observability-slos
+✓ spec/playbook-and-action-loop
+✓ spec/production-defaults-no-mock
+✓ spec/proofreading-workflow-qa
+✓ spec/security-privacy-compliance
+✓ spec/semantic-extraction-quality-gates
+✓ spec/semantic-layer-core
+✓ spec/seven-engine-pipeline-e2e
+✓ spec/text-normalization-alignment
+✓ spec/versioning-and-deviation-detection
+Totals: 26 passed, 0 failed (26 items)
+$ .venv/bin/python scripts/cross_book_consistency_conflicts/run_conflict_gate.py --output-dir artifacts/cross_book_conflicts
+OK: artifacts/cross_book_conflicts/conflict_report.json
+$ .venv/bin/python scripts/semantic_extraction_quality_gates/run_quality_gate.py --output-dir artifacts/semantic_extraction_quality --parallel 1
+OK: artifacts/semantic_extraction_quality/quality_report.json
+
+### openspec validate --specs --strict --no-interactive
+✓ spec/abuse-and-rate-limits
+✓ spec/billing-and-entitlements
+✓ spec/bootability-and-regression-baseline
+✓ spec/citations-evidence-protocol
+✓ spec/commercial-readiness-gates
+✓ spec/corpus-governance
+✓ spec/corpus-release-pipeline
+✓ spec/cross-book-consistency-conflicts
+✓ spec/deployment-release
+✓ spec/engine-id-governance
+✓ spec/fusion-engine-explainability
+✓ spec/geocoding-first-class
+✓ spec/golden-sets-and-regression
+✓ spec/identity-and-data-isolation
+✓ spec/knowledge-graph-runtime-semanticquery
+✓ spec/llm-narrative-layer
+✓ spec/observability-slos
+✓ spec/playbook-and-action-loop
+✓ spec/production-defaults-no-mock
+✓ spec/proofreading-workflow-qa
+✓ spec/security-privacy-compliance
+✓ spec/semantic-extraction-quality-gates
+✓ spec/semantic-layer-core
+✓ spec/seven-engine-pipeline-e2e
+✓ spec/text-normalization-alignment
+✓ spec/versioning-and-deviation-detection
+Totals: 26 passed, 0 failed (26 items)

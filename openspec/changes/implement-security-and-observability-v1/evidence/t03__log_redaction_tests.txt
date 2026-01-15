@@ -1,0 +1,19 @@
+$ PYTHONPATH=. .venv/bin/python - <<'PY'
+import logging
+from backend.core.observability.context import bind_context, reset_context
+from backend.core.observability.tracing import bind_trace_id, reset_trace_id
+from backend.core.observability.logging import log_event
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger('redaction_demo')
+trace_token = bind_trace_id('trace_redact_123')
+ctx_tokens = bind_context(request_id='req_redact_123', user_id='user_test')
+try:
+    payload = log_event(logger, logging.INFO, 'redaction_demo', email='alice@example.com', token='sk-abc123', password='secret123')
+    print('payload', payload)
+finally:
+    reset_context(ctx_tokens)
+    reset_trace_id(trace_token)
+PY
+INFO:redaction_demo:{"event": "redaction_demo", "request_id": "req_redact_123", "user_id": "user_test", "org_id": null, "engine_id": null, "version_id": null, "trace_id": "trace_redact_123", "email": "***REDACTED***", "token": "***REDACTED***", "password": "***REDACTED***"}
+payload {'event': 'redaction_demo', 'request_id': 'req_redact_123', 'user_id': 'user_test', 'org_id': None, 'engine_id': None, 'version_id': None, 'trace_id': 'trace_redact_123', 'email': '***REDACTED***', 'token': '***REDACTED***', 'password': '***REDACTED***'}

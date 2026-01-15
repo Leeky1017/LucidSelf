@@ -1,0 +1,1544 @@
+chain_id: chain_the_astrological_houses
+book_id: the_astrological_houses
+nodes:
+- node_id: n_the_astrological_houses_source_text_1
+  snippet_ids:
+  - ns_houses_001
+  role: 主干
+  condition: null
+  summary: locality_centered
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_astrological_houses_source_text_2
+  snippet_ids:
+  - ns_houses_002
+  role: 主干依赖
+  condition: null
+  summary: globe_centered
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_astrological_houses_source_text_3
+  snippet_ids:
+  - ns_houses_004
+  role: 主干
+  condition: null
+  summary: eight_watches
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_astrological_houses_source_text_4
+  snippet_ids:
+  - ns_houses_005
+  role: 主干依赖
+  condition: null
+  summary: vitalistic_system
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_astrological_houses_source_text_5
+  snippet_ids:
+  - ns_rudhyar_007
+  role: 主干
+  condition: null
+  summary: counterclockwise
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_astrological_houses_source_text_6
+  snippet_ids:
+  - ns_rudhyar_008
+  role: 主干依赖
+  condition: null
+  summary: psychomental
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_astrological_houses_source_text_7
+  snippet_ids:
+  - ns_rudhyar_009
+  role: 条件分支
+  condition: null
+  summary: consciousness_unfolds
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_astrological_houses_source_text_8
+  snippet_ids:
+  - ns_rudhyar_011
+  role: 主干
+  condition: null
+  summary: cross_of_matter
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_astrological_houses_source_text_9
+  snippet_ids:
+  - ns_rudhyar_012
+  role: 主干依赖
+  condition: null
+  summary: horizon_axis
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_astrological_houses_source_text_10
+  snippet_ids:
+  - ns_rudhyar_013
+  role: 条件分支
+  condition: null
+  summary: meridian_axis
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_the_astrological_houses_english_paraphrase_11
+  snippet_ids:
+  - ns_houses_003
+  role: 条件分支
+  condition: null
+  summary: consciousness_evolution
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_astrological_houses_english_paraphrase_12
+  snippet_ids:
+  - ns_houses_006
+  role: 条件分支
+  condition: null
+  summary: clockwise_solar
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_astrological_houses_english_paraphrase_13
+  snippet_ids:
+  - ns_rudhyar_010
+  role: 总结
+  condition: null
+  summary: twelve_arenas
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_astrological_houses_english_paraphrase_14
+  snippet_ids:
+  - ns_rudhyar_014
+  role: 总结
+  condition: null
+  summary: four_orientations
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_astrological_houses_english_paraphrase_15
+  snippet_ids:
+  - ns_houses_007
+  role: 主干
+  condition: null
+  summary: zodiac_celestial
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_astrological_houses_english_paraphrase_16
+  snippet_ids:
+  - ns_houses_008
+  role: 主干依赖
+  condition: null
+  summary: houses_terrestrial
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_astrological_houses_english_paraphrase_17
+  snippet_ids:
+  - ns_houses_009
+  role: 条件分支
+  condition: null
+  summary: sky_earth_polarity
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_astrological_houses_english_paraphrase_18
+  snippet_ids:
+  - ns_houses_010
+  role: 总结
+  condition: null
+  summary: how_vs_where
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_the_astrological_houses_the_astrological_hou_19
+  snippet_ids:
+  - ns_rudhyar_zodiac_001
+  - ns_rudhyar_zodiac_002
+  - ns_rudhyar_zodiac_003
+  role: 主干
+  condition: null
+  summary: sidereal_tropical
+  metadata:
+    cluster_level: L1
+    source_ref: The Astrological Houses Zodiac
+    snippet_count: 3
+- node_id: n_the_astrological_houses_the_astrological_hou_20
+  snippet_ids:
+  - ns_rudhyar_theology_001
+  - ns_rudhyar_theology_002
+  - ns_rudhyar_theology_003
+  role: 主干
+  condition: null
+  summary: monotheistic_astrology
+  metadata:
+    cluster_level: L1
+    source_ref: The Astrological Houses Theology
+    snippet_count: 3
+- node_id: n_the_astrological_houses_the_astrological_hou_21
+  snippet_ids:
+  - ns_rudhyar_h1_001
+  - ns_rudhyar_h1_002
+  - ns_rudhyar_h1_003
+  role: 主干
+  condition: null
+  summary: house_1
+  metadata:
+    cluster_level: L1
+    source_ref: The Astrological Houses H1
+    snippet_count: 3
+- node_id: n_the_astrological_houses_house_2_source_22
+  snippet_ids:
+  - ns_houses_011
+  role: 总结
+  condition: null
+  summary: house_2 AND spiritual
+  metadata:
+    cluster_level: L1
+    source_ref: House 2 Source
+    snippet_count: 1
+- node_id: n_the_astrological_houses_house_3_source_23
+  snippet_ids:
+  - ns_houses_012
+  - ns_houses_013
+  role: 主干
+  condition: null
+  summary: house_3
+  metadata:
+    cluster_level: L1
+    source_ref: House 3 Source
+    snippet_count: 2
+- node_id: n_the_astrological_houses_house_4_source_24
+  snippet_ids:
+  - ns_houses_014
+  - ns_houses_015
+  role: 主干
+  condition: null
+  summary: house_4
+  metadata:
+    cluster_level: L1
+    source_ref: House 4 Source
+    snippet_count: 2
+- node_id: n_the_astrological_houses_house_5_source_25
+  snippet_ids:
+  - ns_houses_016
+  - ns_houses_017
+  role: 主干
+  condition: null
+  summary: house_5
+  metadata:
+    cluster_level: L1
+    source_ref: House 5 Source
+    snippet_count: 2
+- node_id: n_the_astrological_houses_house_6_source_26
+  snippet_ids:
+  - ns_houses_018
+  - ns_houses_019
+  role: 主干
+  condition: null
+  summary: house_6
+  metadata:
+    cluster_level: L1
+    source_ref: House 6 Source
+    snippet_count: 2
+- node_id: n_the_astrological_houses_house_7_source_27
+  snippet_ids:
+  - ns_houses_020
+  - ns_houses_021
+  role: 主干
+  condition: null
+  summary: house_7
+  metadata:
+    cluster_level: L1
+    source_ref: House 7 Source
+    snippet_count: 2
+- node_id: n_the_astrological_houses_house_8_source_28
+  snippet_ids:
+  - ns_houses_022
+  - ns_houses_023
+  role: 主干
+  condition: null
+  summary: house_8
+  metadata:
+    cluster_level: L1
+    source_ref: House 8 Source
+    snippet_count: 2
+- node_id: n_the_astrological_houses_house_9_source_29
+  snippet_ids:
+  - ns_houses_024
+  - ns_houses_025
+  role: 主干
+  condition: null
+  summary: house_9
+  metadata:
+    cluster_level: L1
+    source_ref: House 9 Source
+    snippet_count: 2
+- node_id: n_the_astrological_houses_house_10_source_30
+  snippet_ids:
+  - ns_houses_026
+  - ns_houses_027
+  role: 主干
+  condition: null
+  summary: house_10
+  metadata:
+    cluster_level: L1
+    source_ref: House 10 Source
+    snippet_count: 2
+- node_id: n_the_astrological_houses_house_11_source_31
+  snippet_ids:
+  - ns_houses_028
+  - ns_houses_029
+  role: 主干
+  condition: null
+  summary: house_11
+  metadata:
+    cluster_level: L1
+    source_ref: House 11 Source
+    snippet_count: 2
+- node_id: n_the_astrological_houses_house_12_source_32
+  snippet_ids:
+  - ns_houses_030
+  - ns_houses_031
+  role: 主干
+  condition: null
+  summary: house_12
+  metadata:
+    cluster_level: L1
+    source_ref: House 12 Source
+    snippet_count: 2
+- node_id: n_the_astrological_houses_the_astrological_hou_33
+  snippet_ids:
+  - ns_rudhyar_asc_001
+  - ns_rudhyar_asc_002
+  - ns_rudhyar_asc_003
+  - ns_rudhyar_asc_004
+  - ns_rudhyar_asc_005
+  role: 主干
+  condition: null
+  summary: house_classification
+  metadata:
+    cluster_level: L1
+    source_ref: The Astrological Houses Classification
+    snippet_count: 5
+- node_id: n_the_astrological_houses_polarity_principle_34
+  snippet_ids:
+  - ns_houses_032
+  - ns_houses_033
+  role: 主干
+  condition: null
+  summary: polarity_principle
+  metadata:
+    cluster_level: L1
+    source_ref: Polarity Principle
+    snippet_count: 2
+- node_id: n_the_astrological_houses_three_level_cycle_35
+  snippet_ids:
+  - ns_houses_034
+  - ns_houses_035
+  role: 主干
+  condition: null
+  summary: three_level_cycle
+  metadata:
+    cluster_level: L1
+    source_ref: Three-Level Cycle
+    snippet_count: 2
+- node_id: n_the_astrological_houses_epilogue_36
+  snippet_ids:
+  - ns_houses_036
+  - ns_houses_037
+  role: 主干
+  condition: null
+  summary: methodology
+  metadata:
+    cluster_level: L1
+    source_ref: Epilogue
+    snippet_count: 2
+edges:
+- from_node: n_the_astrological_houses_house_2_source_22
+  to_node: n_the_astrological_houses_house_4_source_24
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_house_2_body
+    source_ref: House 2 Source
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_5_source_25
+  to_node: n_the_astrological_houses_house_4_source_24
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_house_5_create
+    source_ref: House 5 Source
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_7_source_27
+  to_node: n_the_astrological_houses_house_11_source_31
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_house_7_transform
+    source_ref: House 7 Source
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_polarity_principle_34
+  to_node: n_the_astrological_houses_house_11_source_31
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_house_7_transform
+    source_ref: House 7 Source
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_9_source_29
+  to_node: n_the_astrological_houses_house_4_source_24
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_house_9_symbol
+    source_ref: House 9 Source
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_polarity_principle_34
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_house_12_seed
+    source_ref: House 12 Source
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_three_level_cycle_35
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_house_12_seed
+    source_ref: House 12 Source
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_12_source_32
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_house_12_seed
+    source_ref: House 12 Source
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_12_source_32
+  to_node: n_the_astrological_houses_polarity_principle_34
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_house_12_seed
+    source_ref: House 12 Source
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_12_source_32
+  to_node: n_the_astrological_houses_three_level_cycle_35
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_house_12_seed
+    source_ref: House 12 Source
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_4_source_24
+  to_node: n_the_astrological_houses_house_9_source_29
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_holistic
+    source_ref: Epilogue
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_1
+  to_node: n_the_astrological_houses_source_text_2
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_88
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_2
+  to_node: n_the_astrological_houses_english_paraphrase_11
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_89
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_english_paraphrase_11
+  to_node: n_the_astrological_houses_source_text_3
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_90
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_3
+  to_node: n_the_astrological_houses_source_text_4
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_91
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_3
+  to_node: n_the_astrological_houses_house_4_source_24
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_91
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_4
+  to_node: n_the_astrological_houses_english_paraphrase_12
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_92
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_4_source_24
+  to_node: n_the_astrological_houses_english_paraphrase_12
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_92
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_english_paraphrase_12
+  to_node: n_the_astrological_houses_source_text_5
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_93
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_5
+  to_node: n_the_astrological_houses_source_text_6
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_94
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_6
+  to_node: n_the_astrological_houses_source_text_7
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_95
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_7
+  to_node: n_the_astrological_houses_english_paraphrase_13
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_96
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_english_paraphrase_13
+  to_node: n_the_astrological_houses_source_text_8
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_97
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_8
+  to_node: n_the_astrological_houses_source_text_9
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_98
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_8
+  to_node: n_the_astrological_houses_polarity_principle_34
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_98
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_9
+  to_node: n_the_astrological_houses_source_text_10
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_99
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_9
+  to_node: n_the_astrological_houses_polarity_principle_34
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_99
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_polarity_principle_34
+  to_node: n_the_astrological_houses_source_text_10
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_99
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_10
+  to_node: n_the_astrological_houses_english_paraphrase_14
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_100
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_polarity_principle_34
+  to_node: n_the_astrological_houses_english_paraphrase_14
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_100
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_english_paraphrase_14
+  to_node: n_the_astrological_houses_english_paraphrase_15
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_101
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_english_paraphrase_15
+  to_node: n_the_astrological_houses_source_text_9
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_102
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_english_paraphrase_15
+  to_node: n_the_astrological_houses_english_paraphrase_16
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_102
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_9
+  to_node: n_the_astrological_houses_english_paraphrase_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_103
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_english_paraphrase_16
+  to_node: n_the_astrological_houses_english_paraphrase_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_103
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_english_paraphrase_17
+  to_node: n_the_astrological_houses_source_text_9
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_104
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_english_paraphrase_17
+  to_node: n_the_astrological_houses_english_paraphrase_18
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_104
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_source_text_9
+  to_node: n_the_astrological_houses_the_astrological_hou_19
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_105
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_english_paraphrase_18
+  to_node: n_the_astrological_houses_the_astrological_hou_19
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_105
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_19
+  to_node: n_the_astrological_houses_house_4_source_24
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_106
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_4_source_24
+  to_node: n_the_astrological_houses_the_astrological_hou_19
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_107
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_19
+  to_node: n_the_astrological_houses_the_astrological_hou_20
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_108
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_19
+  to_node: n_the_astrological_houses_house_4_source_24
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_108
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_20
+  to_node: n_the_astrological_houses_house_4_source_24
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_109
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_4_source_24
+  to_node: n_the_astrological_houses_the_astrological_hou_20
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_109
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_4_source_24
+  to_node: n_the_astrological_houses_the_astrological_hou_20
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_110
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_20
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_111
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_20
+  to_node: n_the_astrological_houses_house_10_source_30
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_111
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_20
+  to_node: n_the_astrological_houses_house_11_source_31
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_111
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_20
+  to_node: n_the_astrological_houses_house_12_source_32
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_111
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_10_source_30
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_112
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_11_source_31
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_112
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_12_source_32
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_112
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_the_astrological_hou_33
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_113
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_house_2_source_22
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_114
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_house_12_source_32
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_114
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_33
+  to_node: n_the_astrological_houses_house_2_source_22
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_114
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_33
+  to_node: n_the_astrological_houses_house_12_source_32
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_114
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_2_source_22
+  to_node: n_the_astrological_houses_house_3_source_23
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_115
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_12_source_32
+  to_node: n_the_astrological_houses_house_3_source_23
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_115
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_3_source_23
+  to_node: n_the_astrological_houses_house_4_source_24
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_117
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_4_source_24
+  to_node: n_the_astrological_houses_house_5_source_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_119
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_5_source_25
+  to_node: n_the_astrological_houses_house_6_source_26
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_121
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_6_source_26
+  to_node: n_the_astrological_houses_house_7_source_27
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_123
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_6_source_26
+  to_node: n_the_astrological_houses_polarity_principle_34
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_123
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_7_source_27
+  to_node: n_the_astrological_houses_house_4_source_24
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_124
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_polarity_principle_34
+  to_node: n_the_astrological_houses_house_4_source_24
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_124
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_polarity_principle_34
+  to_node: n_the_astrological_houses_house_7_source_27
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_124
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_4_source_24
+  to_node: n_the_astrological_houses_house_8_source_28
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_125
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_7_source_27
+  to_node: n_the_astrological_houses_house_8_source_28
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_125
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_8_source_28
+  to_node: n_the_astrological_houses_house_9_source_29
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_127
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_9_source_29
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_129
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_9_source_29
+  to_node: n_the_astrological_houses_house_10_source_30
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_129
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_house_10_source_30
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_130
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_10_source_30
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_130
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_house_11_source_31
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_131
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_10_source_30
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_131
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_10_source_30
+  to_node: n_the_astrological_houses_house_11_source_31
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_131
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_house_11_source_31
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_132
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_11_source_31
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_132
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_house_12_source_32
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_133
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_11_source_31
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_133
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_11_source_31
+  to_node: n_the_astrological_houses_house_12_source_32
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_133
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_house_2_source_22
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_134
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_house_12_source_32
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_134
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_12_source_32
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_134
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_12_source_32
+  to_node: n_the_astrological_houses_house_2_source_22
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_134
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_the_astrological_hou_33
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_135
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_2_source_22
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_135
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_2_source_22
+  to_node: n_the_astrological_houses_the_astrological_hou_33
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_135
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_12_source_32
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_135
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_12_source_32
+  to_node: n_the_astrological_houses_the_astrological_hou_33
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_135
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_the_astrological_hou_33
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_136
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_33
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_136
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_the_astrological_hou_33
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_137
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_33
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_140
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_33
+  to_node: n_the_astrological_houses_house_7_source_27
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_140
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_33
+  to_node: n_the_astrological_houses_polarity_principle_34
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_140
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_polarity_principle_34
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_141
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_7_source_27
+  to_node: n_the_astrological_houses_polarity_principle_34
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_141
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_polarity_principle_34
+  to_node: n_the_astrological_houses_three_level_cycle_35
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_142
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_three_level_cycle_35
+  to_node: n_the_astrological_houses_the_astrological_hou_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_143
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_three_level_cycle_35
+  to_node: n_the_astrological_houses_polarity_principle_34
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_143
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_house_9_source_29
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_144
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_epilogue_36
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_144
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_polarity_principle_34
+  to_node: n_the_astrological_houses_house_9_source_29
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_144
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_polarity_principle_34
+  to_node: n_the_astrological_houses_epilogue_36
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_144
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_three_level_cycle_35
+  to_node: n_the_astrological_houses_house_9_source_29
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_144
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_three_level_cycle_35
+  to_node: n_the_astrological_houses_epilogue_36
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_144
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_house_9_source_29
+  to_node: n_the_astrological_houses_epilogue_36
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_145
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_the_astrological_houses_english_paraphrase_11
+  to_node: n_the_astrological_houses_english_paraphrase_12
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_astrological_houses_english_paraphrase_12
+  to_node: n_the_astrological_houses_english_paraphrase_13
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_astrological_houses_english_paraphrase_13
+  to_node: n_the_astrological_houses_english_paraphrase_14
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_astrological_houses_english_paraphrase_18
+  to_node: n_the_astrological_houses_epilogue_36
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_astrological_houses_epilogue_36
+  to_node: n_the_astrological_houses_house_10_source_30
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_astrological_houses_house_9_source_29
+  to_node: n_the_astrological_houses_polarity_principle_34
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_astrological_houses_polarity_principle_34
+  to_node: n_the_astrological_houses_source_text_1
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_astrological_houses_source_text_2
+  to_node: n_the_astrological_houses_source_text_3
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_astrological_houses_source_text_4
+  to_node: n_the_astrological_houses_source_text_5
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_astrological_houses_source_text_7
+  to_node: n_the_astrological_houses_source_text_8
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_astrological_houses_source_text_10
+  to_node: n_the_astrological_houses_the_astrological_hou_33
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_astrological_houses_the_astrological_hou_21
+  to_node: n_the_astrological_houses_the_astrological_hou_20
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_astrological_houses_the_astrological_hou_20
+  to_node: n_the_astrological_houses_the_astrological_hou_19
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_the_astrological_houses_the_astrological_hou_19
+  to_node: n_the_astrological_houses_three_level_cycle_35
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+narrative_order:
+- n_the_astrological_houses_source_text_1
+- n_the_astrological_houses_source_text_2
+- n_the_astrological_houses_source_text_3
+- n_the_astrological_houses_source_text_4
+- n_the_astrological_houses_source_text_5
+- n_the_astrological_houses_source_text_6
+- n_the_astrological_houses_source_text_7
+- n_the_astrological_houses_source_text_8
+- n_the_astrological_houses_source_text_9
+- n_the_astrological_houses_source_text_10
+- n_the_astrological_houses_english_paraphrase_11
+- n_the_astrological_houses_english_paraphrase_12
+- n_the_astrological_houses_english_paraphrase_13
+- n_the_astrological_houses_english_paraphrase_14
+- n_the_astrological_houses_english_paraphrase_15
+- n_the_astrological_houses_english_paraphrase_16
+- n_the_astrological_houses_english_paraphrase_17
+- n_the_astrological_houses_english_paraphrase_18
+- n_the_astrological_houses_the_astrological_hou_19
+- n_the_astrological_houses_the_astrological_hou_20
+- n_the_astrological_houses_the_astrological_hou_21
+- n_the_astrological_houses_house_2_source_22
+- n_the_astrological_houses_house_3_source_23
+- n_the_astrological_houses_house_4_source_24
+- n_the_astrological_houses_house_5_source_25
+- n_the_astrological_houses_house_6_source_26
+- n_the_astrological_houses_house_7_source_27
+- n_the_astrological_houses_house_8_source_28
+- n_the_astrological_houses_house_9_source_29
+- n_the_astrological_houses_house_10_source_30
+- n_the_astrological_houses_house_11_source_31
+- n_the_astrological_houses_house_12_source_32
+- n_the_astrological_houses_the_astrological_hou_33
+- n_the_astrological_houses_polarity_principle_34
+- n_the_astrological_houses_three_level_cycle_35
+- n_the_astrological_houses_epilogue_36
+entry_nodes:
+- n_the_astrological_houses_source_text_1
+- n_the_astrological_houses_source_text_3
+- n_the_astrological_houses_source_text_5
+- n_the_astrological_houses_source_text_8
+- n_the_astrological_houses_english_paraphrase_15
+- n_the_astrological_houses_the_astrological_hou_19
+- n_the_astrological_houses_the_astrological_hou_20
+- n_the_astrological_houses_the_astrological_hou_21
+- n_the_astrological_houses_house_3_source_23
+- n_the_astrological_houses_house_4_source_24
+- n_the_astrological_houses_house_5_source_25
+- n_the_astrological_houses_house_6_source_26
+- n_the_astrological_houses_house_7_source_27
+- n_the_astrological_houses_house_8_source_28
+- n_the_astrological_houses_house_9_source_29
+- n_the_astrological_houses_house_10_source_30
+- n_the_astrological_houses_house_11_source_31
+- n_the_astrological_houses_house_12_source_32
+- n_the_astrological_houses_the_astrological_hou_33
+- n_the_astrological_houses_polarity_principle_34
+- n_the_astrological_houses_three_level_cycle_35
+- n_the_astrological_houses_epilogue_36
+terminal_nodes:
+- n_the_astrological_houses_epilogue_36
+metadata:
+  version: 2.0.0
+  extracted_at: 2025-11-30 22:13:06.747430
+  source_files: []
+  snippet_count: 59
+  relation_count: 145
+version: 1.0.0

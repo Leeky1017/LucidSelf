@@ -1,0 +1,69 @@
+book_id: 梦林玄解
+source_file: 典籍/中文典籍/梦林玄解/编辑/卷之四_人物部一_L1L2.md
+extracted_at: '2025-11-30T22:00:11.836565'
+evidence_chains:
+- evidence_id: evi_mlxj_v4_d01
+  original_anchor: 「非平人所当能，当此者必帝王之种」
+  involved_factors:
+  - dream_deng_diwang
+  - dreamer_identity
+  reasoning_steps: 登帝位+身份→分化应验
+  conclusion_direction: 身份决定应验
+  confidence: 高
+  can_generate_rule: true
+  target_rule_id: rule_deng_diwang
+  source_book: 梦林玄解
+  source_chapter: null
+  extracted_at: '2025-11-30T22:00:11.830471'
+- evidence_id: evi_mlxj_v4_d02
+  original_anchor: 「身居王位者，大为不祥」
+  involved_factors:
+  - dream_deng_diwang
+  - already_in_position
+  reasoning_steps: 已居位+梦此→反向
+  conclusion_direction: 反向法则
+  confidence: 高
+  can_generate_rule: true
+  target_rule_id: rule_deng_diwang_reverse
+  source_book: 梦林玄解
+  source_chapter: null
+  extracted_at: '2025-11-30T22:00:11.830479'
+- evidence_id: evi_mlxj_v4_s01
+  original_anchor: 「或神灵降感，或思虑潜通」
+  involved_factors:
+  - dream_jian_shengxian
+  - source_type
+  reasoning_steps: 梦圣贤→双重来源
+  conclusion_direction: 来源分类
+  confidence: 高
+  can_generate_rule: true
+  target_rule_id: rule_jian_shengxian
+  source_book: 梦林玄解
+  source_chapter: null
+  extracted_at: '2025-11-30T22:00:11.830484'
+- evidence_id: evi_mlxj_v4_s02
+  original_anchor: 「因人而论，因事而推」
+  involved_factors:
+  - dreamer_identity
+  - time_situation
+  reasoning_steps: 人品+时势→占断
+  conclusion_direction: 四要素法
+  confidence: 高
+  can_generate_rule: true
+  target_rule_id: rule_jiemeng_siyaosu
+  source_book: 梦林玄解
+  source_chapter: null
+  extracted_at: '2025-11-30T22:00:11.830487'
+- evidence_id: evi_mlxj_v4_j01
+  original_anchor: 「善者吉，恶者凶」
+  involved_factors:
+  - dream_jian_guren
+  - guren_moral
+  reasoning_steps: 古人道德→梦者吉凶
+  conclusion_direction: 道德映射
+  confidence: 高
+  can_generate_rule: true
+  target_rule_id: rule_guren_moral
+  source_book: 梦林玄解
+  source_chapter: null
+  extracted_at: '2025-11-30T22:00:11.830491'

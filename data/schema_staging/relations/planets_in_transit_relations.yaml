@@ -1,0 +1,1510 @@
+book_id: planets_in_transit
+source_file: 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch01-03_Theory_Extended.md, 典籍/texts/Planets
+  in Transit/编辑/PIT_v2.1_Ch11_Uranus.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch04_Sun.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch13_Pluto.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch01-03_Theory.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch07_Venus.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch12_Neptune.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch06_Mercury.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch08_Mars.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch05_Moon.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch09_Jupiter.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch10_Saturn.md
+extracted_at: '2025-12-04T14:27:43.950288'
+relations:
+- relation_id: rel_transit_concept_001
+  relation_type: cross_system
+  factor_a: astro_transit_mechanism
+  factor_b: eastern_liunian
+  relation_nature: East-West parallel
+  condition_constraint: When Western transit activation parallels Chinese Liunian
+    flow-year triggering
+  effect_direction: resonating
+  source_ref: Hand Ch1
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.979970'
+- relation_id: rel_saturn_cycle_001
+  relation_type: cross_system
+  factor_a: astro_saturn_cycle
+  factor_b: eastern_dayun
+  relation_nature: East-West parallel
+  condition_constraint: When Saturn 29.5-year cycle parallels Chinese Dayun 30-year
+    maturation cycle
+  effect_direction: resonating
+  source_ref: Hand Ch2
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.980003'
+- relation_id: rel_jupiter_cycle_001
+  relation_type: cross_system
+  factor_a: astro_jupiter_cycle
+  factor_b: eastern_taisui
+  relation_nature: East-West parallel
+  condition_constraint: When Jupiter 12-year cycle parallels Chinese Taisui/Jupiter
+    year cycle
+  effect_direction: resonating
+  source_ref: Hand Ch3
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.980031'
+- relation_id: rel_uranus_opp_001
+  relation_type: cross_system
+  factor_a: astro_uranus_opposition
+  factor_b: eastern_zhongnian_daxian
+  relation_nature: East-West parallel
+  condition_constraint: When Uranus opposition (~age 42) parallels Chinese 中年大限 mid-life
+    limit transition
+  effect_direction: resonating
+  source_ref: Hand Ch4
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.980140'
+- relation_id: rel_uranus_opp_002
+  relation_type: psych_archetype_relation
+  factor_a: astro_uranus_opposition
+  factor_b: psych_individuation_crisis
+  relation_nature: Psychology parallel
+  condition_constraint: When mid-life awakening corresponds to Jungian individuation
+    crisis
+  effect_direction: defining
+  source_ref: Hand Ch4
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.980145'
+- relation_id: rel_retrograde_001
+  relation_type: cross_system
+  factor_a: astro_retrograde_cycle
+  factor_b: eastern_fanfu_fuyin
+  relation_nature: East-West parallel
+  condition_constraint: When retrograde triple-pass pattern parallels Chinese 反复/伏吟
+    repetition principle
+  effect_direction: resonating
+  source_ref: Hand Ch5
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.980181'
+- relation_id: rel_orb_001
+  relation_type: cross_system
+  factor_a: astro_orb_range
+  factor_b: eastern_yingqi
+  relation_nature: East-West parallel
+  condition_constraint: When Western orb timing parallels Chinese 应期 response period
+    concept
+  effect_direction: resonating
+  source_ref: Hand Ch6
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.980212'
+- relation_id: rel_natal_context_001
+  relation_type: cross_system
+  factor_a: astro_natal_context_principle
+  factor_b: eastern_mingju_dise
+  relation_nature: East-West parallel
+  condition_constraint: When natal chart foundation parallels Chinese 命局底色 base pattern
+    concept
+  effect_direction: resonating
+  source_ref: Hand Ch7
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.980239'
+- relation_id: rel_aspect_types_001
+  relation_type: cross_system
+  factor_a: astro_aspect_square
+  factor_b: eastern_xingchong
+  relation_nature: East-West parallel
+  condition_constraint: When Western square/opposition aspects parallel Chinese 刑冲
+    challenging aspects
+  effect_direction: resonating
+  source_ref: Hand Ch8
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.980271'
+- relation_id: rel_duration_001
+  relation_type: cross_system
+  factor_a: astro_transit_duration
+  factor_b: eastern_dayun_liunian
+  relation_nature: East-West parallel
+  condition_constraint: When transit duration hierarchy parallels Chinese 大运/流年/流月/流日
+    time layers
+  effect_direction: resonating
+  source_ref: Hand Ch9
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.980298'
+- relation_id: rel_intentions_001
+  relation_type: cross_system
+  factor_a: astro_original_intentions
+  factor_b: eastern_yeli_xianhua
+  relation_nature: East-West parallel
+  condition_constraint: When transit-as-intention framework parallels Buddhist 业力显化
+    karma manifestation
+  effect_direction: resonating
+  source_ref: Hand Ch10
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.980337'
+- relation_id: rel_intentions_002
+  relation_type: psych_archetype_relation
+  factor_a: astro_character_destiny
+  factor_b: psych_unconscious_patterns
+  relation_nature: Psychology parallel
+  condition_constraint: When character-as-destiny corresponds to Jungian unconscious
+    pattern activation
+  effect_direction: defining
+  source_ref: Hand Ch10
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.980344'
+- relation_id: rel_pit_ur001
+  relation_type: causal
+  factor_a: astro_transit_uranus AND astro_house_11
+  factor_b: astro_group_revolution
+  relation_nature: Uranus in domicile
+  condition_constraint: When transit Uranus enters natural domicile (11H) revolutionizing
+    group associations and future goals
+  effect_direction: BENEFICIAL
+  source_ref: PIT Ch11 Uranus-11H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.025975'
+- relation_id: rel_pit_ur002
+  relation_type: causal
+  factor_a: astro_transit_uranus AND astro_house_1
+  factor_b: astro_identity_awakening
+  relation_nature: Self-revolution
+  condition_constraint: When transit Uranus enters 1st house demanding radical self-reinvention
+    and identity awakening
+  effect_direction: MIXED
+  source_ref: PIT Ch11 Uranus-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.025985'
+- relation_id: rel_pit_ur003
+  relation_type: causal
+  factor_a: astro_transit_uranus AND astro_house_7
+  factor_b: astro_relationship_disruption
+  relation_nature: Partnership shock
+  condition_constraint: When transit Uranus enters 7th house disrupting partnership
+    patterns and demanding relationship freedom
+  effect_direction: MIXED
+  source_ref: PIT Ch11 Uranus-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.025990'
+- relation_id: rel_pit_ur004
+  relation_type: conditional
+  factor_a: astro_transit_uranus AND astro_aspect_opposition
+  factor_b: astro_midlife_crisis
+  relation_nature: Major life upheaval
+  condition_constraint: When Uranus opposes natal Uranus (~age 42) triggering midlife
+    authenticity crisis and liberation demand
+  effect_direction: MIXED
+  source_ref: PIT Ch11 Uranus☍Uranus
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.025993'
+- relation_id: rel_pit_001
+  relation_type: planet_house
+  factor_a: astro_transit_sun
+  factor_b: astro_house_1
+  relation_nature: Sun transits 1H
+  condition_constraint: When transit Sun enters 1st house for annual self-renewal
+    period
+  effect_direction: beneficial
+  source_ref: PIT Ch4 Sun-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.029473'
+- relation_id: rel_pit_002
+  relation_type: house_axis
+  factor_a: house_1
+  factor_b: house_7
+  relation_nature: 1H/7H polarity
+  condition_constraint: When self-focus (1H) creates tension with partnership needs
+    (7H)
+  effect_direction: restrictive
+  source_ref: PIT Ch4 Sun-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.029479'
+- relation_id: rel_pit_003
+  relation_type: temporal_cycle
+  factor_a: transit_sun
+  factor_b: annual_cycle
+  relation_nature: Annual return
+  condition_constraint: When Sun returns to Ascendant marking new annual vitality
+    cycle
+  effect_direction: neutral
+  source_ref: PIT Ch4 Sun-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.029483'
+- relation_id: rel_pit_004
+  relation_type: planet_house
+  factor_a: astro_transit_sun
+  factor_b: astro_house_2
+  relation_nature: Sun transits 2H
+  condition_constraint: When transit Sun illuminates values, resources and self-worth
+  effect_direction: beneficial
+  source_ref: PIT Ch4 Sun-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.029523'
+- relation_id: rel_pit_005
+  relation_type: house_axis
+  factor_a: house_2
+  factor_b: house_8
+  relation_nature: 2H/8H polarity
+  condition_constraint: When personal resources (2H) interact with shared resources
+    (8H)
+  effect_direction: mixed
+  source_ref: PIT Ch4 Sun-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.029527'
+- relation_id: rel_pit_006
+  relation_type: psychological
+  factor_a: sun_2h
+  factor_b: value_system
+  relation_nature: Illumination
+  condition_constraint: When Sun transit brings conscious awareness to value system
+  effect_direction: beneficial
+  source_ref: PIT Ch4 Sun-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.029530'
+- relation_id: rel_pit_007
+  relation_type: planet_house
+  factor_a: astro_transit_sun
+  factor_b: astro_house_3
+  relation_nature: Sun transits 3H
+  condition_constraint: When transit Sun energizes communication and mental activities
+  effect_direction: beneficial
+  source_ref: PIT Ch4 Sun-3H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.029584'
+- relation_id: rel_pit_008
+  relation_type: planet_sign
+  factor_a: transit_sun
+  factor_b: mercury_domain
+  relation_nature: Sun in Mercury's house
+  condition_constraint: When Sun activates Mercury-ruled house for learning and exchange
+  effect_direction: beneficial
+  source_ref: PIT Ch4 Sun-3H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.029588'
+- relation_id: rel_pit_009
+  relation_type: planet_house
+  factor_a: astro_transit_sun
+  factor_b: astro_house_4
+  relation_nature: Sun transits 4H
+  condition_constraint: When transit Sun illuminates home, family and inner psychological
+    foundations
+  effect_direction: introspective
+  source_ref: PIT Ch4 Sun-4H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.029618'
+- relation_id: rel_pit_010
+  relation_type: psychological
+  factor_a: sun_4h
+  factor_b: past_patterns
+  relation_nature: Illumination
+  condition_constraint: When Sun transit brings awareness to past conditioning and
+    family patterns
+  effect_direction: revealing
+  source_ref: PIT Ch4 Sun-4H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.029622'
+- relation_id: rel_pit_011
+  relation_type: planet_house
+  factor_a: astro_transit_sun
+  factor_b: astro_house_5
+  relation_nature: Sun transits 5H
+  condition_constraint: When transit Sun enters natural domicile activating creativity
+    and self-expression
+  effect_direction: highly beneficial
+  source_ref: PIT Ch4 Sun-5H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.029653'
+- relation_id: rel_pit_012
+  relation_type: natural_rulership
+  factor_a: sun
+  factor_b: house_5
+  relation_nature: Sun rules 5H naturally
+  condition_constraint: When Sun transits its natural 5th house domain enhancing creative
+    vitality
+  effect_direction: dignified
+  source_ref: PIT Ch4 Sun-5H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.029655'
+- relation_id: rel_pit_013
+  relation_type: planet_house
+  factor_a: astro_transit_sun
+  factor_b: astro_house_6
+  relation_nature: Sun transits 6H
+  condition_constraint: When transit Sun enters 6th house shifting focus to work,
+    health and service
+  effect_direction: challenging
+  source_ref: PIT Ch4 Sun-6H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.029689'
+- relation_id: rel_pit_014
+  relation_type: house_contrast
+  factor_a: house_5
+  factor_b: house_6
+  relation_nature: 5H joy vs 6H duty
+  condition_constraint: When Sun moves from creative joy (5H) to mundane responsibilities
+    (6H)
+  effect_direction: contrasting
+  source_ref: PIT Ch4 Sun-6H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.029695'
+- relation_id: rel_pit_pl001
+  relation_type: causal
+  factor_a: astro_transit_pluto AND astro_house_8
+  factor_b: astro_deep_transformation
+  relation_nature: Pluto in domicile
+  condition_constraint: When transit Pluto enters natural domicile (8H) enabling profound
+    death-rebirth transformation
+  effect_direction: BENEFICIAL
+  source_ref: PIT Ch13 Pluto-8H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.031799'
+- relation_id: rel_pit_pl002
+  relation_type: causal
+  factor_a: astro_transit_pluto AND astro_house_1
+  factor_b: astro_identity_transformation
+  relation_nature: Self-regeneration
+  condition_constraint: When transit Pluto enters 1st house demanding total identity
+    transformation and self-regeneration
+  effect_direction: MIXED
+  source_ref: PIT Ch13 Pluto-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.031837'
+- relation_id: rel_pit_pl003
+  relation_type: causal
+  factor_a: astro_transit_pluto AND astro_house_7
+  factor_b: astro_relationship_power
+  relation_nature: Partnership transformation
+  condition_constraint: When transit Pluto enters 7th house transforming partnerships
+    through power dynamics and depth work
+  effect_direction: MIXED
+  source_ref: PIT Ch13 Pluto-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.031847'
+- relation_id: rel_pit_pl004
+  relation_type: conditional
+  factor_a: astro_transit_pluto AND astro_aspect_square
+  factor_b: astro_power_crisis
+  relation_nature: Transformation pressure
+  condition_constraint: When Pluto square aspect creates intense transformation pressure
+    or power confrontations
+  effect_direction: HARMFUL
+  source_ref: PIT Ch13 Pluto Aspects
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.031850'
+- relation_id: rel_pit_015
+  relation_type: cross_system
+  factor_a: astro_transit_to_natal
+  factor_b: eastern_geren_ming
+  relation_nature: East-West parallel
+  condition_constraint: When transiting planet aspects natal planet for individual
+    activation
+  effect_direction: resonating
+  source_ref: Hand Ch8
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036463'
+- relation_id: rel_pit_016
+  relation_type: cross_system
+  factor_a: astro_transit_to_transit
+  factor_b: eastern_shidai_yun
+  relation_nature: East-West parallel
+  condition_constraint: When two transiting planets aspect each other creating collective
+    atmosphere
+  effect_direction: resonating
+  source_ref: Hand Ch8
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036465'
+- relation_id: rel_pit_017
+  relation_type: cross_system
+  factor_a: astro_natal_context_principle
+  factor_b: eastern_mingju_dise
+  relation_nature: East-West parallel
+  condition_constraint: When natal chart provides interpretive baseline that filters
+    all transit meanings
+  effect_direction: resonating
+  source_ref: Hand Ch9
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036491'
+- relation_id: rel_pit_018
+  relation_type: psych_archetype_relation
+  factor_a: astro_interpretive_lens
+  factor_b: psych_personality_filter
+  relation_nature: Psychology parallel
+  condition_constraint: When personality structure modifies how transit energy is
+    experienced
+  effect_direction: defining
+  source_ref: Hand Ch9
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036494'
+- relation_id: rel_pit_019
+  relation_type: cross_system
+  factor_a: astro_saturn_cycle
+  factor_b: eastern_dayun
+  relation_nature: East-West parallel
+  condition_constraint: When Saturn 29.5-year cycle parallels Chinese Dayun 30-year
+    maturation cycle
+  effect_direction: resonating
+  source_ref: Hand Ch10
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036522'
+- relation_id: rel_pit_020
+  relation_type: psych_archetype_relation
+  factor_a: astro_maturation_cycle
+  factor_b: psych_ego_development
+  relation_nature: Psychology parallel
+  condition_constraint: When Saturn cycle phases correspond to ego-strength developmental
+    stages
+  effect_direction: defining
+  source_ref: Hand Ch10
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036526'
+- relation_id: rel_pit_021
+  relation_type: cross_system
+  factor_a: astro_saturn_return
+  factor_b: eastern_dayun_zhuanhuan
+  relation_nature: East-West parallel
+  condition_constraint: When Saturn return (ages 29-30, 58-60) parallels Chinese Dayun
+    transition
+  effect_direction: resonating
+  source_ref: Hand Ch11
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036552'
+- relation_id: rel_pit_022
+  relation_type: psych_archetype_relation
+  factor_a: astro_reality_testing
+  factor_b: psych_authenticity_crisis
+  relation_nature: Psychology parallel
+  condition_constraint: When Saturn return forces confrontation with authentic vs
+    false life structures
+  effect_direction: defining
+  source_ref: Hand Ch11
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036557'
+- relation_id: rel_pit_023
+  relation_type: cross_system
+  factor_a: astro_four_quarters
+  factor_b: eastern_xiaoyun
+  relation_nature: East-West parallel
+  condition_constraint: When Saturn 7-year quarters parallel Chinese Xiaoyun developmental
+    phases
+  effect_direction: resonating
+  source_ref: Hand Ch12
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036585'
+- relation_id: rel_pit_024
+  relation_type: psych_archetype_relation
+  factor_a: astro_crisis_quarter
+  factor_b: psych_childhood_development
+  relation_nature: Psychology parallel
+  condition_constraint: When first Saturn quarter (0-7.4 years) corresponds to childhood
+    limitation learning
+  effect_direction: defining
+  source_ref: Hand Ch12
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036588'
+- relation_id: rel_pit_025
+  relation_type: cross_system
+  factor_a: astro_jupiter_cycle
+  factor_b: eastern_12nian
+  relation_nature: East-West parallel
+  condition_constraint: When Jupiter 12-year cycle parallels Chinese Tai Sui annual
+    cycle themes
+  effect_direction: resonating
+  source_ref: Hand Ch13
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036614'
+- relation_id: rel_pit_026
+  relation_type: psych_archetype_relation
+  factor_a: astro_expansion_phase
+  factor_b: psych_growth_opportunity
+  relation_nature: Psychology parallel
+  condition_constraint: When Jupiter transit creates psychological growth and expansion
+    opportunity
+  effect_direction: defining
+  source_ref: Hand Ch13
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036617'
+- relation_id: rel_pit_027
+  relation_type: cross_system
+  factor_a: astro_jupiter_return
+  factor_b: eastern_12nian_zhuanhuan
+  relation_nature: East-West parallel
+  condition_constraint: When Jupiter return (ages 12, 24, 36, 48, 60, 72) initiates
+    new growth phase
+  effect_direction: resonating
+  source_ref: Hand Ch14
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036643'
+- relation_id: rel_pit_028
+  relation_type: psych_archetype_relation
+  factor_a: astro_opportunity_initiation
+  factor_b: psych_growth_readiness
+  relation_nature: Psychology parallel
+  condition_constraint: When Jupiter return coincides with psychological readiness
+    for new opportunities
+  effect_direction: defining
+  source_ref: Hand Ch14
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036646'
+- relation_id: rel_pit_029
+  relation_type: cross_system
+  factor_a: astro_uranus_cycle
+  factor_b: eastern_84nian
+  relation_nature: East-West parallel
+  condition_constraint: When Uranus 84-year cycle marks liberation and individuation
+    process
+  effect_direction: resonating
+  source_ref: Hand Ch15
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036672'
+- relation_id: rel_pit_030
+  relation_type: psych_archetype_relation
+  factor_a: astro_authenticity_breakthrough
+  factor_b: psych_individuation_crisis
+  relation_nature: Psychology parallel
+  condition_constraint: When Uranus opposition (~age 42) triggers mid-life authenticity
+    crisis
+  effect_direction: defining
+  source_ref: Hand Ch15
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.036677'
+- relation_id: rel_pit_ve001
+  relation_type: planet_house
+  factor_a: astro_transit_venus
+  factor_b: astro_house_1
+  relation_nature: Personal charm
+  condition_constraint: When transit Venus enters 1st house enhancing personal attractiveness
+    and social grace
+  effect_direction: attractive
+  source_ref: PIT Ch7 Venus-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.038751'
+- relation_id: rel_pit_ve002
+  relation_type: planet_house
+  factor_a: astro_transit_venus
+  factor_b: astro_house_2
+  relation_nature: Value focus
+  condition_constraint: When transit Venus enters natural domicile (2H) emphasizing
+    values and material comfort
+  effect_direction: enhanced
+  source_ref: PIT Ch7 Venus-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.038756'
+- relation_id: rel_pit_ve003
+  relation_type: planet_house
+  factor_a: astro_transit_venus
+  factor_b: astro_house_5
+  relation_nature: Romance
+  condition_constraint: When transit Venus enters 5th house stimulating romance, creativity
+    and pleasurable pursuits
+  effect_direction: pleasurable
+  source_ref: PIT Ch7 Venus-5H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.038760'
+- relation_id: rel_pit_ve004
+  relation_type: planet_house
+  factor_a: astro_transit_venus
+  factor_b: astro_house_7
+  relation_nature: Partnership
+  condition_constraint: When transit Venus enters natural domicile (7H) enhancing
+    partnership harmony and negotiations
+  effect_direction: relational
+  source_ref: PIT Ch7 Venus-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.038763'
+- relation_id: rel_pit_ve005
+  relation_type: planet_house
+  factor_a: astro_transit_venus
+  factor_b: astro_house_8
+  relation_nature: Deep intimacy
+  condition_constraint: When transit Venus enters 8th house deepening intimate bonds
+    and shared resource matters
+  effect_direction: transformative
+  source_ref: PIT Ch7 Venus-8H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.038766'
+- relation_id: rel_pit_ne001
+  relation_type: causal
+  factor_a: astro_transit_neptune AND astro_house_12
+  factor_b: astro_spiritual_peak
+  relation_nature: Neptune in domicile
+  condition_constraint: When transit Neptune enters natural domicile (12H) maximizing
+    spiritual sensitivity and transcendence
+  effect_direction: BENEFICIAL
+  source_ref: PIT Ch12 Neptune-12H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.040322'
+- relation_id: rel_pit_ne002
+  relation_type: causal
+  factor_a: astro_transit_neptune AND astro_house_7
+  factor_b: astro_relationship_idealization
+  relation_nature: Partnership illusion
+  condition_constraint: When transit Neptune enters 7th house creating partnership
+    idealization or boundary confusion
+  effect_direction: MIXED
+  source_ref: PIT Ch12 Neptune-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.040327'
+- relation_id: rel_pit_ne003
+  relation_type: causal
+  factor_a: astro_transit_neptune AND astro_house_1
+  factor_b: astro_identity_dissolution
+  relation_nature: Self-boundary dissolves
+  condition_constraint: When transit Neptune enters 1st house dissolving ego boundaries
+    and creating identity confusion
+  effect_direction: MIXED
+  source_ref: PIT Ch12 Neptune-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.040331'
+- relation_id: rel_pit_ne004
+  relation_type: conditional
+  factor_a: astro_transit_neptune AND astro_aspect_square
+  factor_b: astro_confusion_risk
+  relation_nature: Reality check needed
+  condition_constraint: When Neptune square aspect creates confusion, deception risk,
+    or escapist tendencies
+  effect_direction: HARMFUL
+  source_ref: PIT Ch12 Neptune Aspects
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.040334'
+- relation_id: rel_pit_me001
+  relation_type: planet_house
+  factor_a: astro_transit_mercury
+  factor_b: astro_house_1
+  relation_nature: Self-expression
+  condition_constraint: When transit Mercury enters 1st house enhancing verbal self-expression
+    and mental activity
+  effect_direction: expressive
+  source_ref: PIT Ch6 Mercury-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.042429'
+- relation_id: rel_pit_me002
+  relation_type: planet_house
+  factor_a: astro_transit_mercury
+  factor_b: astro_house_2
+  relation_nature: Value thinking
+  condition_constraint: When transit Mercury enters 2nd house focusing mental energy
+    on values and resources
+  effect_direction: analytical
+  source_ref: PIT Ch6 Mercury-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.042436'
+- relation_id: rel_pit_me003
+  relation_type: planet_house
+  factor_a: astro_transit_mercury
+  factor_b: astro_house_3
+  relation_nature: Mercury's home
+  condition_constraint: When transit Mercury enters natural domicile intensifying
+    all communication activities
+  effect_direction: intensified
+  source_ref: PIT Ch6 Mercury-3H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.042440'
+- relation_id: rel_pit_me004
+  relation_type: planet_house
+  factor_a: astro_transit_mercury
+  factor_b: astro_house_4
+  relation_nature: Domestic reflection
+  condition_constraint: When transit Mercury enters 4th house turning mind inward
+    for domestic and family reflection
+  effect_direction: introspective
+  source_ref: PIT Ch6 Mercury-4H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.042445'
+- relation_id: rel_pit_me005
+  relation_type: planet_house
+  factor_a: astro_transit_mercury
+  factor_b: astro_house_5
+  relation_nature: Creative thinking
+  condition_constraint: When transit Mercury enters 5th house stimulating creative
+    and playful mental expression
+  effect_direction: playful
+  source_ref: PIT Ch6 Mercury-5H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.042449'
+- relation_id: rel_pit_me006
+  relation_type: planet_house
+  factor_a: astro_transit_mercury
+  factor_b: astro_house_6
+  relation_nature: Work analysis
+  condition_constraint: When transit Mercury enters 6th house focusing on practical
+    work details and health analysis
+  effect_direction: practical
+  source_ref: PIT Ch6 Mercury-6H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.042453'
+- relation_id: rel_pit_me007
+  relation_type: planet_house
+  factor_a: astro_transit_mercury
+  factor_b: astro_house_7
+  relation_nature: Partner communication
+  condition_constraint: When transit Mercury enters 7th house emphasizing negotiation
+    and partner discussions
+  effect_direction: relational
+  source_ref: PIT Ch6 Mercury-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.042456'
+- relation_id: rel_pit_me008
+  relation_type: planet_house
+  factor_a: astro_transit_mercury
+  factor_b: astro_house_8
+  relation_nature: Deep research
+  condition_constraint: When transit Mercury enters 8th house enabling penetrating
+    research and uncovering secrets
+  effect_direction: penetrating
+  source_ref: PIT Ch6 Mercury-8H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.042460'
+- relation_id: rel_pit_me009
+  relation_type: planet_house
+  factor_a: astro_transit_mercury
+  factor_b: astro_house_9
+  relation_nature: Philosophical
+  condition_constraint: When transit Mercury enters 9th house expanding mind toward
+    philosophy and higher learning
+  effect_direction: expansive
+  source_ref: PIT Ch6 Mercury-9H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.042463'
+- relation_id: rel_pit_me010
+  relation_type: planet_house
+  factor_a: astro_transit_mercury
+  factor_b: astro_house_10
+  relation_nature: Career speech
+  condition_constraint: When transit Mercury enters 10th house enhancing professional
+    communication and public speaking
+  effect_direction: professional
+  source_ref: PIT Ch6 Mercury-10H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.042465'
+- relation_id: rel_pit_me011
+  relation_type: planet_house
+  factor_a: astro_transit_mercury
+  factor_b: astro_house_11
+  relation_nature: Group discussion
+  condition_constraint: When transit Mercury enters 11th house facilitating group
+    discussions and social networking
+  effect_direction: social
+  source_ref: PIT Ch6 Mercury-11H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.042468'
+- relation_id: rel_pit_me012
+  relation_type: planet_house
+  factor_a: astro_transit_mercury
+  factor_b: astro_house_12
+  relation_nature: Private thinking
+  condition_constraint: When transit Mercury enters 12th house favoring solitary research
+    and hidden communications
+  effect_direction: hidden
+  source_ref: PIT Ch6 Mercury-12H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.042470'
+- relation_id: rel_pit_ma001
+  relation_type: planet_house
+  factor_a: astro_transit_mars
+  factor_b: astro_house_1
+  relation_nature: Personal energy
+  condition_constraint: When transit Mars enters 1st house boosting personal energy
+    and assertive action
+  effect_direction: assertive
+  source_ref: PIT Ch8 Mars-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.043963'
+- relation_id: rel_pit_ma002
+  relation_type: planet_house
+  factor_a: astro_transit_mars
+  factor_b: astro_house_7
+  relation_nature: Partner conflict
+  condition_constraint: When transit Mars enters 7th house potentially triggering
+    partnership conflicts or competition
+  effect_direction: confrontational
+  source_ref: PIT Ch8 Mars-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.043968'
+- relation_id: rel_pit_ma003
+  relation_type: planet_house
+  factor_a: astro_transit_mars
+  factor_b: astro_house_8
+  relation_nature: Power action
+  condition_constraint: When transit Mars enters natural domicile (8H) intensifying
+    power dynamics and transformative action
+  effect_direction: transformative
+  source_ref: PIT Ch8 Mars-8H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.043972'
+- relation_id: rel_pit_ma004
+  relation_type: planet_house
+  factor_a: astro_transit_mars
+  factor_b: astro_house_10
+  relation_nature: Career drive
+  condition_constraint: When transit Mars enters 10th house energizing career ambition
+    and professional action
+  effect_direction: ambitious
+  source_ref: PIT Ch8 Mars-10H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.043976'
+- relation_id: rel_pit_m001
+  relation_type: planet_house
+  factor_a: astro_transit_moon
+  factor_b: astro_house_1
+  relation_nature: Moon transits 1H
+  condition_constraint: When transit Moon enters 1st house heightening emotional self-awareness
+    and sensitivity
+  effect_direction: emotional_focus
+  source_ref: PIT Ch5 Moon-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047538'
+- relation_id: rel_pit_m002
+  relation_type: sensitivity
+  factor_a: transit_moon
+  factor_b: state_emotional_sensitivity
+  relation_nature: Sensor activation
+  condition_constraint: When Moon in 1H amplifies receptivity to environment and others'
+    moods
+  effect_direction: amplifying
+  source_ref: PIT Ch5 Moon-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047544'
+- relation_id: rel_pit_m003
+  relation_type: exchange
+  factor_a: state_moon_1h_giving
+  factor_b: state_moon_1h_demanding
+  relation_nature: Nurturing balance
+  condition_constraint: When feeling emotionally inadequate shifts balance between
+    giving and demanding
+  effect_direction: variable
+  source_ref: PIT Ch5 Moon-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047548'
+- relation_id: rel_pit_m004
+  relation_type: planet_house
+  factor_a: astro_transit_moon
+  factor_b: astro_house_2
+  relation_nature: Moon transits 2H
+  condition_constraint: When transit Moon enters 2nd house activating emotional attachment
+    to possessions and values
+  effect_direction: possessive_focus
+  source_ref: PIT Ch5 Moon-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047575'
+- relation_id: rel_pit_m005
+  relation_type: identification
+  factor_a: transit_moon
+  factor_b: value_system
+  relation_nature: Emotional fusion
+  condition_constraint: When Moon in 2H creates emotional identification with material
+    security
+  effect_direction: intensifying
+  source_ref: PIT Ch5 Moon-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047579'
+- relation_id: rel_pit_m006
+  relation_type: caution
+  factor_a: transit_moon
+  factor_b: spending_decision
+  relation_nature: Unconscious influence
+  condition_constraint: When unconscious emotional needs influence spending decisions
+    during Moon 2H
+  effect_direction: restrictive
+  source_ref: PIT Ch5 Moon-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047581'
+- relation_id: rel_pit_m007
+  relation_type: planet_house
+  factor_a: astro_transit_moon
+  factor_b: astro_house_3
+  relation_nature: Moon transits 3H
+  condition_constraint: When transit Moon enters 3rd house coloring communication
+    with emotional subjectivity
+  effect_direction: subjective_comm
+  source_ref: PIT Ch5 Moon-3H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047605'
+- relation_id: rel_pit_m008
+  relation_type: enhancement
+  factor_a: transit_moon
+  factor_b: casual_conversation
+  relation_nature: Depth added
+  condition_constraint: When Moon in 3H adds emotional depth to normally superficial
+    exchanges
+  effect_direction: deepening
+  source_ref: PIT Ch5 Moon-3H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047609'
+- relation_id: rel_pit_m009
+  relation_type: caution
+  factor_a: state_automatic_reactions
+  factor_b: impression
+  relation_nature: Unconscious impact
+  condition_constraint: When automatic emotional reactions during Moon 3H create unintended
+    impressions
+  effect_direction: negative
+  source_ref: PIT Ch5 Moon-3H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047611'
+- relation_id: rel_pit_m010
+  relation_type: planet_house
+  factor_a: astro_transit_moon
+  factor_b: astro_house_4
+  relation_nature: Moon transits 4H
+  condition_constraint: When transit Moon enters 4th house (natural domicile) deepening
+    introspection
+  effect_direction: introspective
+  source_ref: PIT Ch5 Moon-4H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047635'
+- relation_id: rel_pit_m011
+  relation_type: awareness
+  factor_a: transit_moon
+  factor_b: past_conditioning
+  relation_nature: Recognition trigger
+  condition_constraint: When Moon in 4H brings childhood conditioning patterns to
+    conscious awareness
+  effect_direction: illuminating
+  source_ref: PIT Ch5 Moon-4H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047638'
+- relation_id: rel_pit_m012
+  relation_type: paradox
+  factor_a: holding_tight
+  factor_b: losing
+  relation_nature: Inverse relationship
+  condition_constraint: When fear-based clinging during Moon 4H paradoxically accelerates
+    loss
+  effect_direction: cautionary
+  source_ref: PIT Ch5 Moon-4H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047643'
+- relation_id: rel_pit_m013
+  relation_type: planet_house
+  factor_a: astro_transit_moon
+  factor_b: astro_house_5
+  relation_nature: Moon transits 5H
+  condition_constraint: When transit Moon enters 5th house seeking emotional expression
+    through creativity and love
+  effect_direction: expressive
+  source_ref: PIT Ch5 Moon-5H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047667'
+- relation_id: rel_pit_m014
+  relation_type: intensification
+  factor_a: transit_moon
+  factor_b: love_relationship
+  relation_nature: Emotional depth
+  condition_constraint: When Moon in 5H intensifies emotional depth in romantic connections
+  effect_direction: enhancing
+  source_ref: PIT Ch5 Moon-5H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047669'
+- relation_id: rel_pit_m015
+  relation_type: caution
+  factor_a: protective_instinct
+  factor_b: individual_responsibility
+  relation_nature: Balance needed
+  condition_constraint: When protective instinct toward children must balance with
+    their independence
+  effect_direction: limiting
+  source_ref: PIT Ch5 Moon-5H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047672'
+- relation_id: rel_pit_m016
+  relation_type: planet_house
+  factor_a: astro_transit_moon
+  factor_b: astro_house_6
+  relation_nature: Moon transits 6H
+  condition_constraint: When transit Moon enters 6th house creating tension between
+    emotional needs and duty
+  effect_direction: contradictory
+  source_ref: PIT Ch5 Moon-6H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047696'
+- relation_id: rel_pit_m017
+  relation_type: conflict
+  factor_a: moon_needs
+  factor_b: sixth_house_denial
+  relation_nature: Personal vs service
+  condition_constraint: When Moon emotional needs conflict with 6th house self-denial
+    requirement
+  effect_direction: tension
+  source_ref: PIT Ch5 Moon-6H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047699'
+- relation_id: rel_pit_m018
+  relation_type: outlet
+  factor_a: emotional_repression
+  factor_b: hypercriticism
+  relation_nature: Displaced expression
+  condition_constraint: When repressed emotions during Moon 6H emerge as hypercriticism
+    or martyrdom
+  effect_direction: negative
+  source_ref: PIT Ch5 Moon-6H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047702'
+- relation_id: rel_pit_m019
+  relation_type: planet_house
+  factor_a: astro_transit_moon
+  factor_b: astro_house_7
+  relation_nature: Moon transits 7H
+  condition_constraint: When transit Moon enters 7th house focusing emotional needs
+    on partnerships
+  effect_direction: relational
+  source_ref: PIT Ch5 Moon-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047725'
+- relation_id: rel_pit_m020
+  relation_type: vulnerability
+  factor_a: transit_moon
+  factor_b: opponent_manipulation
+  relation_nature: Emotional exposure
+  condition_constraint: When emotional openness in Moon 7H creates vulnerability to
+    manipulation
+  effect_direction: risk
+  source_ref: PIT Ch5 Moon-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047728'
+- relation_id: rel_pit_m021
+  relation_type: insight
+  factor_a: confrontation
+  factor_b: unconscious_self
+  relation_nature: Mirror function
+  condition_constraint: When others mirror unconscious aspects of self during Moon
+    7H confrontations
+  effect_direction: revealing
+  source_ref: PIT Ch5 Moon-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047731'
+- relation_id: rel_pit_m022
+  relation_type: planet_house
+  factor_a: astro_transit_moon
+  factor_b: astro_house_8
+  relation_nature: Moon transits 8H
+  condition_constraint: When transit Moon enters 8th house intensifying emotional
+    depth and power dynamics
+  effect_direction: intensifying
+  source_ref: PIT Ch5 Moon-8H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047775'
+- relation_id: rel_pit_m023
+  relation_type: attraction
+  factor_a: transit_moon
+  factor_b: powerful_people
+  relation_nature: Draw to intensity
+  condition_constraint: When Moon in 8H creates magnetic attraction to powerful or
+    intense individuals
+  effect_direction: magnetic
+  source_ref: PIT Ch5 Moon-8H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047781'
+- relation_id: rel_pit_m024
+  relation_type: warning
+  factor_a: attachment
+  factor_b: trouble
+  relation_nature: Recognition needed
+  condition_constraint: When emotional attachments formed during Moon 8H may lead
+    to complications
+  effect_direction: cautionary
+  source_ref: PIT Ch5 Moon-8H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047787'
+- relation_id: rel_pit_m025
+  relation_type: planet_house
+  factor_a: astro_transit_moon
+  factor_b: astro_house_9
+  relation_nature: Moon transits 9H
+  condition_constraint: When transit Moon enters 9th house creating restless desire
+    for broader horizons
+  effect_direction: expansive_restless
+  source_ref: PIT Ch5 Moon-9H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047831'
+- relation_id: rel_pit_m026
+  relation_type: contradiction
+  factor_a: moon_familiar
+  factor_b: ninth_house_foreign
+  relation_nature: Security vs adventure
+  condition_constraint: When Moon's need for security conflicts with 9th house urge
+    for the unfamiliar
+  effect_direction: tension
+  source_ref: PIT Ch5 Moon-9H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047835'
+- relation_id: rel_pit_m027
+  relation_type: recommendation
+  factor_a: mental_journey
+  factor_b: physical_travel
+  relation_nature: Better choice
+  condition_constraint: When mental or philosophical exploration is preferred over
+    physical travel during Moon 9H
+  effect_direction: preferred
+  source_ref: PIT Ch5 Moon-9H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047838'
+- relation_id: rel_pit_m028
+  relation_type: planet_house
+  factor_a: astro_transit_moon
+  factor_b: astro_house_10
+  relation_nature: Moon transits 10H
+  condition_constraint: When transit Moon enters 10th house bringing emotions into
+    public and career sphere
+  effect_direction: public_emotional
+  source_ref: PIT Ch5 Moon-10H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047865'
+- relation_id: rel_pit_m029
+  relation_type: exposure
+  factor_a: private_life
+  factor_b: public_display
+  relation_nature: Boundary breach
+  condition_constraint: When private emotional life becomes visible in professional
+    sphere during Moon 10H
+  effect_direction: revealing
+  source_ref: PIT Ch5 Moon-10H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047868'
+- relation_id: rel_pit_m030
+  relation_type: advantage
+  factor_a: emotional_sensitivity
+  factor_b: career_success
+  relation_nature: PR benefit
+  condition_constraint: When emotional sensitivity enhances public relations and career
+    during Moon 10H
+  effect_direction: beneficial
+  source_ref: PIT Ch5 Moon-10H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047871'
+- relation_id: rel_pit_m031
+  relation_type: planet_house
+  factor_a: astro_transit_moon
+  factor_b: astro_house_11
+  relation_nature: Moon transits 11H
+  condition_constraint: When transit Moon enters 11th house emphasizing emotional
+    bonds with friends and groups
+  effect_direction: social_emotional
+  source_ref: PIT Ch5 Moon-11H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047895'
+- relation_id: rel_pit_m032
+  relation_type: deepening
+  factor_a: transit_moon
+  factor_b: friendship
+  relation_nature: Emotional contact
+  condition_constraint: When Moon in 11H deepens emotional quality of friendship connections
+  effect_direction: enhancing
+  source_ref: PIT Ch5 Moon-11H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047902'
+- relation_id: rel_pit_m033
+  relation_type: examination
+  factor_a: transit_moon
+  factor_b: life_goals
+  relation_nature: Authenticity check
+  condition_constraint: When Moon in 11H prompts examination of whether life goals
+    reflect authentic self
+  effect_direction: questioning
+  source_ref: PIT Ch5 Moon-11H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047904'
+- relation_id: rel_pit_m034
+  relation_type: planet_house
+  factor_a: astro_transit_moon
+  factor_b: astro_house_12
+  relation_nature: Moon transits 12H
+  condition_constraint: When transit Moon enters 12th house prompting emotional withdrawal
+    and introspection
+  effect_direction: withdrawal
+  source_ref: PIT Ch5 Moon-12H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047930'
+- relation_id: rel_pit_m035
+  relation_type: hidden_dynamic
+  factor_a: hidden_feelings
+  factor_b: self_control
+  relation_nature: What's hidden controls
+  condition_constraint: When hidden emotions during Moon 12H gain unconscious control
+    over behavior
+  effect_direction: unconscious
+  source_ref: PIT Ch5 Moon-12H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047935'
+- relation_id: rel_pit_m036
+  relation_type: opportunity
+  factor_a: transit_moon
+  factor_b: spiritual_practice
+  relation_nature: Excellent timing
+  condition_constraint: When Moon 12H creates ideal conditions for spiritual discipline
+    and meditation
+  effect_direction: beneficial
+  source_ref: PIT Ch5 Moon-12H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.047938'
+- relation_id: rel_pit_ma005
+  relation_type: aspect_tension
+  factor_a: transit_moon
+  factor_b: natal_mars
+  relation_nature: Emotion-action interaction
+  condition_constraint: When Moon aspects natal Mars
+  effect_direction: assertive
+  source_ref: PIT Ch5 Moon-Mars
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.048092'
+- relation_id: rel_pit_ma006
+  relation_type: aspect_harmony
+  factor_a: transit_moon
+  factor_b: natal_jupiter
+  relation_nature: Emotion-expansion interaction
+  condition_constraint: When Moon aspects natal Jupiter
+  effect_direction: expansive
+  source_ref: PIT Ch5 Moon-Jupiter
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.048097'
+- relation_id: rel_pit_ma007
+  relation_type: aspect_tension
+  factor_a: transit_moon
+  factor_b: natal_saturn
+  relation_nature: Emotion-restriction interaction
+  condition_constraint: When Moon aspects natal Saturn
+  effect_direction: limiting
+  source_ref: PIT Ch5 Moon-Saturn
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.048100'
+- relation_id: rel_pit_ma008
+  relation_type: aspect_disruptive
+  factor_a: transit_moon
+  factor_b: natal_uranus
+  relation_nature: Emotion-disruption interaction
+  condition_constraint: When Moon aspects natal Uranus
+  effect_direction: unpredictable
+  source_ref: PIT Ch5 Moon-Uranus
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.048102'
+- relation_id: rel_pit_ma009
+  relation_type: aspect_dissolving
+  factor_a: transit_moon
+  factor_b: natal_neptune
+  relation_nature: Emotion-imagination interaction
+  condition_constraint: When Moon aspects natal Neptune
+  effect_direction: diffusing
+  source_ref: PIT Ch5 Moon-Neptune
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.048105'
+- relation_id: rel_pit_ma010
+  relation_type: aspect_transformative
+  factor_a: transit_moon
+  factor_b: natal_pluto
+  relation_nature: Emotion-power interaction
+  condition_constraint: When Moon aspects natal Pluto
+  effect_direction: intense
+  source_ref: PIT Ch5 Moon-Pluto
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.048107'
+- relation_id: rel_pit_ju001
+  relation_type: causal
+  factor_a: astro_transit_jupiter AND astro_house_9
+  factor_b: astro_philosophy_expansion
+  relation_nature: Jupiter in domicile house
+  condition_constraint: When transit Jupiter enters natural domicile (9H) expanding
+    philosophical horizons and higher learning
+  effect_direction: BENEFICIAL
+  source_ref: PIT Ch9 Jupiter-9H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.050208'
+- relation_id: rel_pit_ju002
+  relation_type: causal
+  factor_a: astro_transit_jupiter AND astro_house_12
+  factor_b: astro_spiritual_growth
+  relation_nature: Hidden blessing
+  condition_constraint: When transit Jupiter enters 12th house bringing hidden blessings
+    and spiritual growth
+  effect_direction: BENEFICIAL
+  source_ref: PIT Ch9 Jupiter-12H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.050214'
+- relation_id: rel_pit_ju003
+  relation_type: causal
+  factor_a: astro_transit_jupiter AND astro_house_10
+  factor_b: astro_career_expansion
+  relation_nature: Professional advancement
+  condition_constraint: When transit Jupiter enters 10th house creating professional
+    advancement opportunities
+  effect_direction: BENEFICIAL
+  source_ref: PIT Ch9 Jupiter-10H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.050218'
+- relation_id: rel_pit_ju004
+  relation_type: conditional
+  factor_a: astro_transit_jupiter AND astro_aspect_square
+  factor_b: astro_overexpansion
+  relation_nature: Excess risk
+  condition_constraint: When Jupiter square aspect creates risk of overexpansion or
+    excessive optimism
+  effect_direction: MIXED
+  source_ref: PIT Ch9 Jupiter Aspects
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.050222'
+- relation_id: rel_pit_sa001
+  relation_type: causal
+  factor_a: transit_saturn AND astro_house_10
+  factor_b: astro_career_test
+  relation_nature: Career restructuring
+  condition_constraint: When Saturn transits 10th house demanding career responsibility
+    and professional restructuring
+  effect_direction: MIXED
+  source_ref: PIT Ch10 Saturn-10H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.051776'
+- relation_id: rel_pit_sa002
+  relation_type: causal
+  factor_a: transit_saturn AND astro_house_7
+  factor_b: astro_relationship_test
+  relation_nature: Partnership demands
+  condition_constraint: When Saturn transits 7th house testing partnership commitment
+    and relationship maturity
+  effect_direction: MIXED
+  source_ref: PIT Ch10 Saturn-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.051781'
+- relation_id: rel_pit_sa003
+  relation_type: causal
+  factor_a: transit_saturn AND astro_house_4
+  factor_b: astro_foundation_test
+  relation_nature: Home and inner work
+  condition_constraint: When Saturn transits 4th house demanding inner foundation
+    work and home restructuring
+  effect_direction: MIXED
+  source_ref: PIT Ch10 Saturn-4H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.051785'
+- relation_id: rel_pit_sa004
+  relation_type: causal
+  factor_a: transit_saturn AND astro_house_1
+  factor_b: astro_identity_restructure
+  relation_nature: Internal growth begins
+  condition_constraint: When Saturn transits 1st house initiating new identity restructuring
+    and maturation cycle
+  effect_direction: BENEFICIAL
+  source_ref: PIT Ch10 Saturn-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.051788'
+- relation_id: rel_pit_sa005
+  relation_type: conditional
+  factor_a: transit_saturn AND astro_house_12
+  factor_b: astro_clearing_phase
+  relation_nature: Cycle ending
+  condition_constraint: When Saturn transits 12th house completing old cycle and clearing
+    accumulated karma
+  effect_direction: RESTRICTIVE
+  source_ref: PIT Ch10 Saturn-12H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.051791'

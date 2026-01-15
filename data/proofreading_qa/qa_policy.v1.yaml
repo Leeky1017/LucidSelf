@@ -1,0 +1,11 @@
+version: 1
+policy_id: proofreading_qa_policy.v1
+
+sampling:
+  per_book: 5
+
+thresholds:
+  min_tasks_total: 1
+  max_rejected: 0
+  require_reviewed: false
+

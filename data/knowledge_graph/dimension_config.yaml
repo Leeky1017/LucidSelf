@@ -1,0 +1,141 @@
+# Dimension Configuration - 维度与体系映射配置
+# Feature: cross-book-knowledge-graph
+# Requirement Refs: Req 14.3
+
+# 体系允许的维度映射
+system_dimensions:
+  bazi:
+    dimensions:
+      - 事业
+      - 健康
+      - 婚姻
+      - 财富
+      - 性格
+      - 运势
+      - 通用
+    subdimensions:
+      - 流年运势
+      - 本命特质
+      - 大运趋势
+      - 日主分析
+
+  ziwei:
+    dimensions:
+      - 事业
+      - 健康
+      - 婚姻
+      - 财富
+      - 性格
+      - 运势
+      - 通用
+    subdimensions:
+      - 命宫特质
+      - 流年运程
+      - 十二宫分析
+
+  astro:
+    dimensions:
+      - 事业
+      - 健康
+      - 婚姻
+      - 财富
+      - 性格
+      - 运势
+      - 通用
+    subdimensions:
+      - 本命盘
+      - 行运
+      - 推运
+      - 相位影响
+
+  tarot:
+    dimensions:
+      - 指引
+      - 运势
+      - 通用
+    subdimensions:
+      - 当下指引
+      - 过去影响
+      - 未来趋势
+      - 建议行动
+
+  dream:
+    dimensions:
+      - 预兆
+      - 潜意识
+      - 指引
+      - 通用
+    subdimensions:
+      - 预兆解读
+      - 潜意识分析
+      - 符号意义
+
+  yijing:
+    dimensions:
+      - 事业
+      - 健康
+      - 婚姻
+      - 财富
+      - 指引
+      - 通用
+    subdimensions:
+      - 卦象解读
+      - 爻辞分析
+      - 变卦指引
+
+  psychology:
+    dimensions:
+      - 性格
+      - 潜意识
+      - 通用
+    subdimensions:
+      - 人格分析
+      - 行为模式
+      - 潜意识探索
+
+  cross_system:
+    dimensions:
+      - 事业
+      - 健康
+      - 婚姻
+      - 财富
+      - 性格
+      - 运势
+      - 预兆
+      - 指引
+      - 潜意识
+      - 通用
+    subdimensions: []
+
+# 维度中英文映射
+dimension_labels:
+  事业:
+    en: Career
+    description: 事业发展、职业选择、工作表现
+  健康:
+    en: Health
+    description: 身体健康、疾病预防、养生建议
+  婚姻:
+    en: Marriage
+    description: 感情运势、婚姻关系、伴侣缘分
+  财富:
+    en: Wealth
+    description: 财运、投资、理财
+  性格:
+    en: Personality
+    description: 性格特质、心理特征、行为模式
+  运势:
+    en: Fortune
+    description: 流年运势、时运变化
+  预兆:
+    en: Omen
+    description: 梦境预兆、征兆解读
+  指引:
+    en: Guidance
+    description: 当下指引、行动建议
+  潜意识:
+    en: Unconscious
+    description: 潜意识分析、内心世界
+  通用:
+    en: General
+    description: 通用概念、综合分析

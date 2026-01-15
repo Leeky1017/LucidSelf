@@ -1,0 +1,2032 @@
+chain_id: chain_christian_astrology,_vol._1_and_2
+book_id: christian_astrology,_vol._1_and_2
+nodes:
+- node_id: n_christian_astrology_vol_1_and__ca_i_planets_1
+  snippet_ids:
+  - ns_lilly_found_001
+  role: 主干
+  condition: null
+  summary: planet_system
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA I #Planets'
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__ca_i_nodes_2
+  snippet_ids:
+  - ns_lilly_found_002
+  role: 主干依赖
+  condition: null
+  summary: node_meaning
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA I #Nodes'
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__ca_i_saturn_3
+  snippet_ids:
+  - ns_lilly_sat_001
+  role: 主干
+  condition: null
+  summary: saturn_nature
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA I #Saturn'
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__ca_i_jupiter_4
+  snippet_ids:
+  - ns_lilly_jup_001
+  role: 主干
+  condition: null
+  summary: jupiter_nature
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA I #Jupiter'
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__ca_i_mars_5
+  snippet_ids:
+  - ns_lilly_mars_001
+  role: 主干
+  condition: null
+  summary: mars_nature
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA I #Mars'
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__ca_i_sun_6
+  snippet_ids:
+  - ns_lilly_sun_001
+  role: 主干
+  condition: null
+  summary: sun_nature
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA I #Sun'
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__ca_i_venus_7
+  snippet_ids:
+  - ns_lilly_venus_001
+  role: 主干
+  condition: null
+  summary: venus_nature
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA I #Venus'
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__ca_i_mercury_8
+  snippet_ids:
+  - ns_lilly_merc_001
+  role: 主干
+  condition: null
+  summary: mercury_nature
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA I #Mercury'
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__ca_i_moon_9
+  snippet_ids:
+  - ns_lilly_moon_001
+  role: 主干
+  condition: null
+  summary: moon_nature
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA I #Moon'
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__ca_i_signs_10
+  snippet_ids:
+  - ns_lilly_sign_001
+  - ns_lilly_sign_002
+  role: 主干
+  condition: null
+  summary: element_fire
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA I #Signs'
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__ca_i_houses_11
+  snippet_ids:
+  - ns_lilly_house_001
+  - ns_lilly_house_002
+  role: 主干
+  condition: null
+  summary: angular_house
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA I #Houses'
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__ca_i_dignities_12
+  snippet_ids:
+  - ns_lilly_dig_001
+  - ns_lilly_dig_002
+  role: 主干
+  condition: null
+  summary: domicile
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA I #Dignities'
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__ca_i_considerations_13
+  snippet_ids:
+  - ns_lilly_consid_001
+  - ns_lilly_consid_002
+  role: 主干
+  condition: null
+  summary: void_of_course
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA I #Considerations'
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__source_text_14
+  snippet_ids:
+  - ns_lilly_001
+  role: 主干
+  condition: null
+  summary: horary_definition
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__source_text_15
+  snippet_ids:
+  - ns_lilly_002
+  role: 主干依赖
+  condition: null
+  summary: chart_moment
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__source_text_16
+  snippet_ids:
+  - ns_lilly_003
+  role: 条件分支
+  condition: null
+  summary: radicall_intention
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__source_text_17
+  snippet_ids:
+  - ns_lilly_007
+  role: 主干
+  condition: null
+  summary: querent_significator
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__source_text_18
+  snippet_ids:
+  - ns_lilly_008
+  role: 主干依赖
+  condition: null
+  summary: quesited_significator
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__source_text_19
+  snippet_ids:
+  - ns_lilly_011
+  role: 主干
+  condition: null
+  summary: twelve_houses
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__source_text_20
+  snippet_ids:
+  - ns_lilly_012
+  role: 主干依赖
+  condition: null
+  summary: house_meanings
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__source_text_21
+  snippet_ids:
+  - ns_lilly_015
+  role: 主干
+  condition: null
+  summary: aspects_behold
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__source_text_22
+  snippet_ids:
+  - ns_lilly_016
+  role: 主干依赖
+  condition: null
+  summary: aspect_perfects
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__source_text_23
+  snippet_ids:
+  - ns_lilly_017
+  role: 条件分支
+  condition: null
+  summary: frustration
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__source_text_24
+  snippet_ids:
+  - ns_lilly_019
+  role: 主干
+  condition: null
+  summary: dignities_definition
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__source_text_25
+  snippet_ids:
+  - ns_lilly_020
+  role: 主干依赖
+  condition: null
+  summary: domicile_exaltation
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__english_paraphrase_26
+  snippet_ids:
+  - ns_lilly_004
+  role: 总结
+  condition: null
+  summary: synchronicity
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__english_paraphrase_27
+  snippet_ids:
+  - ns_lilly_005
+  role: 主干
+  condition: null
+  summary: one_question_one_answer
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__english_paraphrase_28
+  snippet_ids:
+  - ns_lilly_006
+  role: 主干依赖
+  condition: null
+  summary: liuyao_parallel
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__english_paraphrase_29
+  snippet_ids:
+  - ns_lilly_009
+  role: 条件分支
+  condition: null
+  summary: applying_aspect
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__english_paraphrase_30
+  snippet_ids:
+  - ns_lilly_010
+  role: 总结
+  condition: null
+  summary: reception
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__english_paraphrase_31
+  snippet_ids:
+  - ns_lilly_013
+  role: 条件分支
+  condition: null
+  summary: angular_power
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__english_paraphrase_32
+  snippet_ids:
+  - ns_lilly_014
+  role: 总结
+  condition: null
+  summary: derived_houses
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__english_paraphrase_33
+  snippet_ids:
+  - ns_lilly_018
+  role: 总结
+  condition: null
+  summary: applying_separating
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__english_paraphrase_34
+  snippet_ids:
+  - ns_lilly_021
+  role: 条件分支
+  condition: null
+  summary: debility_peregrine
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__english_paraphrase_35
+  snippet_ids:
+  - ns_lilly_022
+  role: 总结
+  condition: null
+  summary: dignity_judgment
+  metadata:
+    cluster_level: L2
+    source_ref: English Paraphrase
+    snippet_count: 1
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__36
+  snippet_ids:
+  - ns_lilly_1A_001
+  - ns_lilly_1A_002
+  role: 主干
+  condition: null
+  summary: longevity_judgment
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology 1st House
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__37
+  snippet_ids:
+  - ns_lilly_2nd_001
+  - ns_lilly_2nd_002
+  role: 主干
+  condition: null
+  summary: wealth_judgment
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology 2nd House
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__38
+  snippet_ids:
+  - ns_lilly_3rd_001
+  - ns_lilly_3rd_002
+  role: 主干
+  condition: null
+  summary: sibling_harmony
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology 3rd House
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__39
+  snippet_ids:
+  - ns_lilly_4th_001
+  - ns_lilly_4th_002
+  role: 主干
+  condition: null
+  summary: property_quality
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology 4th House
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__40
+  snippet_ids:
+  - ns_lilly_5th_001
+  - ns_lilly_5th_002
+  role: 主干
+  condition: null
+  summary: fertility_judgment
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology 5th House
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__41
+  snippet_ids:
+  - ns_lilly_023
+  - ns_lilly_024
+  - ns_lilly_025
+  - ns_lilly_026
+  role: 主干
+  condition: null
+  summary: horary_marriage
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology Marriage
+    snippet_count: 4
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__42
+  snippet_ids:
+  - ns_lilly_027
+  - ns_lilly_028
+  - ns_lilly_029
+  role: 主干
+  condition: null
+  summary: horary_career
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology Career
+    snippet_count: 3
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__43
+  snippet_ids:
+  - ns_lilly_030
+  - ns_lilly_031
+  - ns_lilly_032
+  role: 主干
+  condition: null
+  summary: horary_lost_object
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology Lost Objects
+    snippet_count: 3
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__44
+  snippet_ids:
+  - ns_lilly_033
+  - ns_lilly_034
+  - ns_lilly_035
+  role: 主干
+  condition: null
+  summary: horary_health
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology Health
+    snippet_count: 3
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__45
+  snippet_ids:
+  - ns_lilly_036
+  - ns_lilly_037
+  - ns_lilly_038
+  role: 主干
+  condition: null
+  summary: horary_legal
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology Legal
+    snippet_count: 3
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__46
+  snippet_ids:
+  - ns_lilly_039
+  - ns_lilly_040
+  - ns_lilly_041
+  role: 主干
+  condition: null
+  summary: horary_travel
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology Travel
+    snippet_count: 3
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__47
+  snippet_ids:
+  - ns_lilly_042
+  - ns_lilly_043
+  - ns_lilly_044
+  role: 主干
+  condition: null
+  summary: horary_purchase
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology Purchase
+    snippet_count: 3
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__48
+  snippet_ids:
+  - ns_lilly_ship_001
+  - ns_lilly_ship_002
+  - ns_lilly_ship_003
+  role: 主干
+  condition: null
+  summary: ship_safety
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology Ship
+    snippet_count: 3
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__49
+  snippet_ids:
+  - ns_lilly_theft_001
+  - ns_lilly_theft_002
+  - ns_lilly_theft_003
+  role: 主干
+  condition: null
+  summary: thief_significator
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology Theft
+    snippet_count: 3
+- node_id: n_christian_astrology_vol_1_and__christian_astrology__50
+  snippet_ids:
+  - ns_lilly_war_001
+  - ns_lilly_war_002
+  - ns_lilly_war_003
+  role: 主干
+  condition: null
+  summary: war_structure
+  metadata:
+    cluster_level: L1
+    source_ref: Christian Astrology War
+    snippet_count: 3
+- node_id: n_christian_astrology_vol_1_and__ca_iii_rectification_51
+  snippet_ids:
+  - ns_lilly_rect_001
+  - ns_lilly_rect_002
+  role: 主干
+  condition: null
+  summary: trutine
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA III #Rectification'
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__ca_iii_hyleg_52
+  snippet_ids:
+  - ns_lilly_hyleg_001
+  - ns_lilly_hyleg_002
+  role: 主干
+  condition: null
+  summary: hyleg
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA III #Hyleg'
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  snippet_ids:
+  - ns_lilly_temp_001
+  - ns_lilly_temp_002
+  role: 主干
+  condition: null
+  summary: appearance
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA III #Temperament'
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__ca_iii_wealth_54
+  snippet_ids:
+  - ns_lilly_wealth_001
+  - ns_lilly_wealth_002
+  role: 主干
+  condition: null
+  summary: wealth
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA III #Wealth'
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__ca_iii_marriage_55
+  snippet_ids:
+  - ns_lilly_marriage_001
+  - ns_lilly_marriage_002
+  role: 主干
+  condition: null
+  summary: marriage
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA III #Marriage'
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__ca_iii_children_56
+  snippet_ids:
+  - ns_lilly_child_001
+  - ns_lilly_child_002
+  role: 主干
+  condition: null
+  summary: children
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA III #Children'
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__ca_iii_career_57
+  snippet_ids:
+  - ns_lilly_career_001
+  - ns_lilly_career_002
+  role: 主干
+  condition: null
+  summary: honor
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA III #Career'
+    snippet_count: 2
+- node_id: n_christian_astrology_vol_1_and__ca_iii_directions_58
+  snippet_ids:
+  - ns_lilly_direct_001
+  - ns_lilly_direct_002
+  role: 主干
+  condition: null
+  summary: direction
+  metadata:
+    cluster_level: L1
+    source_ref: 'CA III #Directions'
+    snippet_count: 2
+edges:
+- from_node: n_christian_astrology_vol_1_and__ca_i_planets_1
+  to_node: n_christian_astrology_vol_1_and__ca_i_nodes_2
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_151
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_nodes_2
+  to_node: n_christian_astrology_vol_1_and__ca_i_saturn_3
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_152
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_saturn_3
+  to_node: n_christian_astrology_vol_1_and__ca_i_jupiter_4
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_153
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_jupiter_4
+  to_node: n_christian_astrology_vol_1_and__ca_i_mars_5
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_154
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_mars_5
+  to_node: n_christian_astrology_vol_1_and__ca_i_sun_6
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_155
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_sun_6
+  to_node: n_christian_astrology_vol_1_and__ca_i_venus_7
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_156
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_venus_7
+  to_node: n_christian_astrology_vol_1_and__ca_i_mercury_8
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_157
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_venus_7
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_157
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_mercury_8
+  to_node: n_christian_astrology_vol_1_and__ca_i_moon_9
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_158
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_mercury_8
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_158
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__ca_i_moon_9
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_158
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_moon_9
+  to_node: n_christian_astrology_vol_1_and__ca_i_signs_10
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_159
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__ca_i_signs_10
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_159
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_signs_10
+  to_node: n_christian_astrology_vol_1_and__ca_i_houses_11
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_161
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_houses_11
+  to_node: n_christian_astrology_vol_1_and__ca_i_dignities_12
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_163
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_houses_11
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_163
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  to_node: n_christian_astrology_vol_1_and__ca_i_dignities_12
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_164
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_dignities_12
+  to_node: n_christian_astrology_vol_1_and__ca_i_considerations_13
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_165
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_dignities_12
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_165
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_considerations_13
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__41
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_166
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_considerations_13
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_166
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__ca_i_considerations_13
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_166
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__41
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_166
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_considerations_13
+  to_node: n_christian_astrology_vol_1_and__source_text_14
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_167
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__41
+  to_node: n_christian_astrology_vol_1_and__source_text_14
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_167
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__source_text_14
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_167
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__source_text_14
+  to_node: n_christian_astrology_vol_1_and__source_text_15
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_168
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__source_text_15
+  to_node: n_christian_astrology_vol_1_and__source_text_16
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_169
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__source_text_16
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_26
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_170
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_26
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_27
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_171
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_27
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_28
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_172
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_28
+  to_node: n_christian_astrology_vol_1_and__source_text_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_173
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__source_text_17
+  to_node: n_christian_astrology_vol_1_and__source_text_18
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_174
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__source_text_18
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_29
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_175
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_29
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_30
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_176
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_29
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__41
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_176
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_30
+  to_node: n_christian_astrology_vol_1_and__source_text_19
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_177
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__41
+  to_node: n_christian_astrology_vol_1_and__source_text_19
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_177
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__source_text_19
+  to_node: n_christian_astrology_vol_1_and__source_text_14
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_178
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__source_text_19
+  to_node: n_christian_astrology_vol_1_and__source_text_20
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_178
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__source_text_14
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_31
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_179
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__source_text_20
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_31
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_179
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_31
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_32
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_180
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_32
+  to_node: n_christian_astrology_vol_1_and__source_text_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_181
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__source_text_21
+  to_node: n_christian_astrology_vol_1_and__source_text_22
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_182
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__source_text_22
+  to_node: n_christian_astrology_vol_1_and__source_text_23
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_183
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__source_text_23
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_33
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_184
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_33
+  to_node: n_christian_astrology_vol_1_and__source_text_24
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_185
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__source_text_24
+  to_node: n_christian_astrology_vol_1_and__source_text_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_186
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__source_text_25
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_34
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_187
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_34
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_35
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_188
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_34
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_188
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_35
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__36
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_189
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_35
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_189
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__36
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_189
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__36
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_190
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__36
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__37
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_191
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__36
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_191
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__37
+  to_node: n_christian_astrology_vol_1_and__ca_iii_wealth_54
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_192
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__37
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_192
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  to_node: n_christian_astrology_vol_1_and__ca_iii_wealth_54
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_192
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__37
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__38
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_193
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_wealth_54
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__38
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_193
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__38
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_194
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__38
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__39
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_195
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__38
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_195
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__39
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_195
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_195
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__39
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_196
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__39
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__40
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_197
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__40
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_198
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__43
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_208
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__44
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__45
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_212
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__46
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_218
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__47
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__41
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_220
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__41
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__48
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_221
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__41
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_221
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__47
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__48
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_221
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__47
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_221
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__48
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_222
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__48
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_222
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__48
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__48
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__49
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_224
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__49
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_226
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__49
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__50
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_227
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__50
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_227
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__50
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_228
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__50
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_229
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_229
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__50
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_229
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__50
+  to_node: n_christian_astrology_vol_1_and__ca_iii_rectification_51
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_230
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__50
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_230
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__ca_iii_rectification_51
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_230
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__ca_iii_rectification_51
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_231
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_rectification_51
+  to_node: n_christian_astrology_vol_1_and__ca_iii_hyleg_52
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_hyleg_52
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_236
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__ca_iii_wealth_54
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_236
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__37
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_237
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  to_node: n_christian_astrology_vol_1_and__ca_iii_wealth_54
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_237
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_wealth_54
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__37
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_237
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__37
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_238
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__37
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_238
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__37
+  to_node: n_christian_astrology_vol_1_and__ca_iii_marriage_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_238
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_wealth_54
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_238
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_wealth_54
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_238
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_wealth_54
+  to_node: n_christian_astrology_vol_1_and__ca_iii_marriage_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_238
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  to_node: n_christian_astrology_vol_1_and__ca_iii_marriage_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_239
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_239
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  to_node: n_christian_astrology_vol_1_and__ca_iii_marriage_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_239
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_marriage_55
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_239
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  to_node: n_christian_astrology_vol_1_and__ca_iii_children_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_240
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_marriage_55
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_240
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_marriage_55
+  to_node: n_christian_astrology_vol_1_and__ca_iii_children_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_240
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  to_node: n_christian_astrology_vol_1_and__ca_iii_children_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_241
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_children_56
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_242
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_children_56
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_242
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_iii_children_56
+  to_node: n_christian_astrology_vol_1_and__ca_iii_career_57
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_242
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_christian_astrology_vol_1_and__ca_i_considerations_13
+  to_node: n_christian_astrology_vol_1_and__ca_i_dignities_12
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_i_dignities_12
+  to_node: n_christian_astrology_vol_1_and__ca_i_houses_11
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_i_houses_11
+  to_node: n_christian_astrology_vol_1_and__ca_i_jupiter_4
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_i_mars_5
+  to_node: n_christian_astrology_vol_1_and__ca_i_mercury_8
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_i_moon_9
+  to_node: n_christian_astrology_vol_1_and__ca_i_nodes_2
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_i_nodes_2
+  to_node: n_christian_astrology_vol_1_and__ca_i_planets_1
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_i_planets_1
+  to_node: n_christian_astrology_vol_1_and__ca_i_saturn_3
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_i_saturn_3
+  to_node: n_christian_astrology_vol_1_and__ca_i_signs_10
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_i_signs_10
+  to_node: n_christian_astrology_vol_1_and__ca_i_sun_6
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_i_venus_7
+  to_node: n_christian_astrology_vol_1_and__ca_iii_career_57
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_iii_career_57
+  to_node: n_christian_astrology_vol_1_and__ca_iii_children_56
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_iii_children_56
+  to_node: n_christian_astrology_vol_1_and__ca_iii_directions_58
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_iii_directions_58
+  to_node: n_christian_astrology_vol_1_and__ca_iii_hyleg_52
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_iii_hyleg_52
+  to_node: n_christian_astrology_vol_1_and__ca_iii_marriage_55
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_iii_marriage_55
+  to_node: n_christian_astrology_vol_1_and__ca_iii_rectification_51
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_iii_rectification_51
+  to_node: n_christian_astrology_vol_1_and__ca_iii_temperament_53
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__ca_iii_wealth_54
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__36
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__40
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__42
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__44
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__45
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__43
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__43
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__41
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__41
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__47
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__49
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__46
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__46
+  to_node: n_christian_astrology_vol_1_and__christian_astrology__50
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__christian_astrology__50
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_26
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_28
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_29
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_30
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_31
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_32
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_33
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_33
+  to_node: n_christian_astrology_vol_1_and__english_paraphrase_34
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__english_paraphrase_35
+  to_node: n_christian_astrology_vol_1_and__source_text_14
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__source_text_16
+  to_node: n_christian_astrology_vol_1_and__source_text_17
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__source_text_18
+  to_node: n_christian_astrology_vol_1_and__source_text_19
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__source_text_20
+  to_node: n_christian_astrology_vol_1_and__source_text_21
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_christian_astrology_vol_1_and__source_text_23
+  to_node: n_christian_astrology_vol_1_and__source_text_24
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+narrative_order:
+- n_christian_astrology_vol_1_and__ca_i_planets_1
+- n_christian_astrology_vol_1_and__ca_i_nodes_2
+- n_christian_astrology_vol_1_and__ca_i_saturn_3
+- n_christian_astrology_vol_1_and__ca_i_jupiter_4
+- n_christian_astrology_vol_1_and__ca_i_mars_5
+- n_christian_astrology_vol_1_and__ca_i_sun_6
+- n_christian_astrology_vol_1_and__ca_i_venus_7
+- n_christian_astrology_vol_1_and__ca_i_mercury_8
+- n_christian_astrology_vol_1_and__ca_i_moon_9
+- n_christian_astrology_vol_1_and__ca_i_signs_10
+- n_christian_astrology_vol_1_and__ca_i_houses_11
+- n_christian_astrology_vol_1_and__ca_i_dignities_12
+- n_christian_astrology_vol_1_and__ca_i_considerations_13
+- n_christian_astrology_vol_1_and__source_text_14
+- n_christian_astrology_vol_1_and__source_text_15
+- n_christian_astrology_vol_1_and__source_text_16
+- n_christian_astrology_vol_1_and__source_text_17
+- n_christian_astrology_vol_1_and__source_text_18
+- n_christian_astrology_vol_1_and__source_text_19
+- n_christian_astrology_vol_1_and__source_text_20
+- n_christian_astrology_vol_1_and__source_text_21
+- n_christian_astrology_vol_1_and__source_text_22
+- n_christian_astrology_vol_1_and__source_text_23
+- n_christian_astrology_vol_1_and__source_text_24
+- n_christian_astrology_vol_1_and__source_text_25
+- n_christian_astrology_vol_1_and__english_paraphrase_26
+- n_christian_astrology_vol_1_and__english_paraphrase_27
+- n_christian_astrology_vol_1_and__english_paraphrase_28
+- n_christian_astrology_vol_1_and__english_paraphrase_29
+- n_christian_astrology_vol_1_and__english_paraphrase_30
+- n_christian_astrology_vol_1_and__english_paraphrase_31
+- n_christian_astrology_vol_1_and__english_paraphrase_32
+- n_christian_astrology_vol_1_and__english_paraphrase_33
+- n_christian_astrology_vol_1_and__english_paraphrase_34
+- n_christian_astrology_vol_1_and__english_paraphrase_35
+- n_christian_astrology_vol_1_and__christian_astrology__36
+- n_christian_astrology_vol_1_and__christian_astrology__37
+- n_christian_astrology_vol_1_and__christian_astrology__38
+- n_christian_astrology_vol_1_and__christian_astrology__39
+- n_christian_astrology_vol_1_and__christian_astrology__40
+- n_christian_astrology_vol_1_and__christian_astrology__41
+- n_christian_astrology_vol_1_and__christian_astrology__42
+- n_christian_astrology_vol_1_and__christian_astrology__43
+- n_christian_astrology_vol_1_and__christian_astrology__44
+- n_christian_astrology_vol_1_and__christian_astrology__45
+- n_christian_astrology_vol_1_and__christian_astrology__46
+- n_christian_astrology_vol_1_and__christian_astrology__47
+- n_christian_astrology_vol_1_and__christian_astrology__48
+- n_christian_astrology_vol_1_and__christian_astrology__49
+- n_christian_astrology_vol_1_and__christian_astrology__50
+- n_christian_astrology_vol_1_and__ca_iii_rectification_51
+- n_christian_astrology_vol_1_and__ca_iii_hyleg_52
+- n_christian_astrology_vol_1_and__ca_iii_temperament_53
+- n_christian_astrology_vol_1_and__ca_iii_wealth_54
+- n_christian_astrology_vol_1_and__ca_iii_marriage_55
+- n_christian_astrology_vol_1_and__ca_iii_children_56
+- n_christian_astrology_vol_1_and__ca_iii_career_57
+- n_christian_astrology_vol_1_and__ca_iii_directions_58
+entry_nodes:
+- n_christian_astrology_vol_1_and__ca_i_planets_1
+- n_christian_astrology_vol_1_and__ca_i_sun_6
+- n_christian_astrology_vol_1_and__ca_i_moon_9
+- n_christian_astrology_vol_1_and__ca_i_saturn_3
+- n_christian_astrology_vol_1_and__ca_i_jupiter_4
+- n_christian_astrology_vol_1_and__ca_i_mars_5
+- n_christian_astrology_vol_1_and__ca_i_venus_7
+- n_christian_astrology_vol_1_and__ca_i_mercury_8
+- n_christian_astrology_vol_1_and__ca_i_signs_10
+- n_christian_astrology_vol_1_and__ca_i_houses_11
+- n_christian_astrology_vol_1_and__ca_i_dignities_12
+- n_christian_astrology_vol_1_and__ca_i_considerations_13
+- n_christian_astrology_vol_1_and__source_text_14
+- n_christian_astrology_vol_1_and__source_text_17
+- n_christian_astrology_vol_1_and__source_text_19
+- n_christian_astrology_vol_1_and__source_text_21
+- n_christian_astrology_vol_1_and__source_text_24
+- n_christian_astrology_vol_1_and__english_paraphrase_27
+- n_christian_astrology_vol_1_and__christian_astrology__36
+- n_christian_astrology_vol_1_and__christian_astrology__37
+- n_christian_astrology_vol_1_and__christian_astrology__38
+- n_christian_astrology_vol_1_and__christian_astrology__39
+- n_christian_astrology_vol_1_and__christian_astrology__40
+- n_christian_astrology_vol_1_and__christian_astrology__41
+- n_christian_astrology_vol_1_and__christian_astrology__42
+- n_christian_astrology_vol_1_and__christian_astrology__43
+- n_christian_astrology_vol_1_and__christian_astrology__44
+- n_christian_astrology_vol_1_and__christian_astrology__45
+- n_christian_astrology_vol_1_and__christian_astrology__46
+- n_christian_astrology_vol_1_and__christian_astrology__47
+- n_christian_astrology_vol_1_and__christian_astrology__48
+- n_christian_astrology_vol_1_and__christian_astrology__49
+- n_christian_astrology_vol_1_and__christian_astrology__50
+- n_christian_astrology_vol_1_and__ca_iii_rectification_51
+- n_christian_astrology_vol_1_and__ca_iii_hyleg_52
+- n_christian_astrology_vol_1_and__ca_iii_temperament_53
+- n_christian_astrology_vol_1_and__ca_iii_wealth_54
+- n_christian_astrology_vol_1_and__ca_iii_marriage_55
+- n_christian_astrology_vol_1_and__ca_iii_children_56
+- n_christian_astrology_vol_1_and__ca_iii_career_57
+- n_christian_astrology_vol_1_and__ca_iii_directions_58
+terminal_nodes:
+- n_christian_astrology_vol_1_and__ca_iii_directions_58
+metadata:
+  version: 2.0.0
+  extracted_at: 2025-11-30 22:12:41.438690
+  source_files: []
+  snippet_count: 96
+  relation_count: 245
+version: 1.0.0

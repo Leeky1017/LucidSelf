@@ -1,0 +1,59 @@
+{
+  "contract_id": "citations-evidence-protocol",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["corpus_release_id", "version_id", "user_id"],
+  "entities": [
+    {
+      "name": "CitationAnchor",
+      "description": "citation_anchor（引用锚点，最小字段集合）",
+      "fields": [
+        { "name": "anchor_id", "type": "string", "required": true, "notes": "锚点标识（唯一）" },
+        { "name": "asset_id", "type": "string", "required": true, "notes": "来源资产标识（可解析）" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识" },
+        { "name": "l1_anchor", "type": "string", "required": true, "notes": "内容锚点（可定位到原文位置）" }
+      ]
+    },
+    {
+      "name": "EvidenceChain",
+      "description": "evidence_chain（证据链，最小字段集合）",
+      "fields": [
+        { "name": "chain_id", "type": "string", "required": true, "notes": "证据链标识（唯一）" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "关联语料发布版本" },
+        { "name": "citation_anchors", "type": "array<object>", "required": true, "notes": "引用锚点列表（最小字段集合）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ProvenanceRecord",
+      "description": "provenance 记录（溯源记录，最小字段集合）",
+      "fields": [
+        { "name": "provenance_id", "type": "string", "required": true, "notes": "溯源标识（唯一）" },
+        { "name": "chain_id", "type": "string", "required": true, "notes": "关联证据链" },
+        { "name": "engine_id", "type": "string", "required": false, "notes": "关联引擎（若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "AuditExportBundle",
+      "description": "审计导出包（最小字段集合）",
+      "fields": [
+        { "name": "bundle_id", "type": "string", "required": true, "notes": "导出包标识（唯一）" },
+        { "name": "chain_id", "type": "string", "required": true, "notes": "关联证据链" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_CORPUS_RELEASE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_USER_ID", "category": "client_error", "retryable": false },
+    { "code": "CITATION_NOT_RESOLVABLE", "category": "validation", "retryable": false },
+    { "code": "EVIDENCE_CHAIN_INVALID", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

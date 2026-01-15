@@ -1,0 +1,780 @@
+book_id: the_inner_sky
+source_file: 典籍/texts/The Inner Sky/编辑/Inner_Sky_Houses_v2.1_Part7.md, 典籍/texts/The
+  Inner Sky/编辑/Inner_Sky_Zodiac_v2.1_Part6_FINAL.md, 典籍/texts/The Inner Sky/编辑/Inner_Sky_Natal_v2.1_Part3.md,
+  典籍/texts/The Inner Sky/编辑/L1.md, 典籍/texts/The Inner Sky/编辑/Inner_Sky_Zodiac_v2.1_Part4.md,
+  典籍/texts/The Inner Sky/编辑/Inner_Sky_Aspects_v2.1.md, 典籍/texts/The Inner Sky/编辑/Inner_Sky_Zodiac_v2.1_Part5_COMPLETE.md,
+  典籍/texts/The Inner Sky/编辑/Inner_Sky_Natal_v2.1_Part2.md, 典籍/texts/The Inner Sky/编辑/L2.md,
+  典籍/texts/The Inner Sky/编辑/Inner_Sky_Natal_v2.1_Part1.md, 典籍/texts/The Inner Sky/编辑/Inner_Sky_Houses_v2.1_Part8_FINAL.md,
+  典籍/texts/The Inner Sky/编辑/Inner_Sky_Theory_v2.1.md
+extracted_at: '2025-12-01T02:28:31.949495'
+relations:
+- relation_id: rel_Inner_Sky_Houses_Par_1
+  relation_type: concept
+  factor_a: Inner_Sky_Houses_Par_1
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.395778'
+- relation_id: rel_Inner_Sky_Houses_Par_2
+  relation_type: concept
+  factor_a: Inner_Sky_Houses_Par_2
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.395812'
+- relation_id: rel_Inner_Sky_Houses_Par_3
+  relation_type: concept
+  factor_a: Inner_Sky_Houses_Par_3
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.395842'
+- relation_id: rel_Inner_Sky_Houses_Par_4
+  relation_type: concept
+  factor_a: Inner_Sky_Houses_Par_4
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.395870'
+- relation_id: rel_Inner_Sky_Houses_Par_5
+  relation_type: concept
+  factor_a: Inner_Sky_Houses_Par_5
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.395900'
+- relation_id: rel_Inner_Sky_Houses_Par_6
+  relation_type: concept
+  factor_a: Inner_Sky_Houses_Par_6
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.395928'
+- relation_id: rel_Inner_Sky_Zodiac_Par_3
+  relation_type: concept
+  factor_a: Inner_Sky_Zodiac_Par_3
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.397609'
+- relation_id: rel_innersky_jupiter_001
+  relation_type: planet_sign
+  factor_a: planet_jupiter
+  factor_b: zodiac_sign
+  relation_nature: Jupiter placed in sign
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Jupiter'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.400236'
+- relation_id: rel_innersky_jupiter_002
+  relation_type: planet_planet
+  factor_a: planet_jupiter
+  factor_b: planet_saturn
+  relation_nature: 'Complementary: expansion vs structure'
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Jupiter'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.400250'
+- relation_id: rel_innersky_jupiter_003
+  relation_type: function_dependency
+  factor_a: jupiter_faith_function
+  factor_b: zodiac_sign
+  relation_nature: Sign prescribes expansion style
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Jupiter'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.400254'
+- relation_id: rel_innersky_saturn_001
+  relation_type: planet_sign
+  factor_a: planet_saturn
+  factor_b: zodiac_sign
+  relation_nature: Saturn placed in sign
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Saturn'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.400300'
+- relation_id: rel_innersky_saturn_002
+  relation_type: planet_planet
+  factor_a: planet_saturn
+  factor_b: planet_jupiter
+  relation_nature: 'Complementary: structure vs expansion'
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Saturn'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.400303'
+- relation_id: rel_innersky_saturn_003
+  relation_type: transit_natal
+  factor_a: saturn_return
+  factor_b: natal_saturn
+  relation_nature: Saturn returns to natal position
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Saturn'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.400306'
+- relation_id: rel_innersky_cancer_001
+  relation_type: sign_element
+  factor_a: sign_cancer
+  factor_b: element_water
+  relation_nature: Cardinal Water modality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Cancer'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.405363'
+- relation_id: rel_innersky_cancer_002
+  relation_type: sign_planet
+  factor_a: sign_cancer
+  factor_b: planet_moon
+  relation_nature: Moon rules Cancer
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Cancer'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.405369'
+- relation_id: rel_innersky_leo_001
+  relation_type: sign_element
+  factor_a: sign_leo
+  factor_b: element_fire
+  relation_nature: Fixed Fire modality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Leo'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.405405'
+- relation_id: rel_innersky_leo_002
+  relation_type: sign_planet
+  factor_a: sign_leo
+  factor_b: planet_sun
+  relation_nature: Sun rules Leo
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Leo'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.405408'
+- relation_id: rel_innersky_virgo_001
+  relation_type: sign_element
+  factor_a: sign_virgo
+  factor_b: element_earth
+  relation_nature: Mutable Earth modality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Virgo'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.405441'
+- relation_id: rel_innersky_virgo_002
+  relation_type: sign_planet
+  factor_a: sign_virgo
+  factor_b: planet_mercury
+  relation_nature: Mercury rules Virgo
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Virgo'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.405444'
+- relation_id: rel_forrest_conj_001
+  relation_type: aspect_fusion
+  factor_a: aspect_conjunction
+  factor_b: planetary_energy
+  relation_nature: Unified expression
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.407887'
+- relation_id: rel_forrest_conj_002
+  relation_type: planetary_marriage
+  factor_a: planet_a
+  factor_b: planet_b
+  relation_nature: Fusion
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.407893'
+- relation_id: rel_forrest_opp_001
+  relation_type: aspect_polarity
+  factor_a: aspect_opposition
+  factor_b: projection
+  relation_nature: Externalization
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.407922'
+- relation_id: rel_forrest_opp_002
+  relation_type: integration_path
+  factor_a: opposition
+  factor_b: balance
+  relation_nature: Owning both
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.407925'
+- relation_id: rel_forrest_sq_001
+  relation_type: aspect_friction
+  factor_a: aspect_square
+  factor_b: discord
+  relation_nature: Incompatibility
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.407951'
+- relation_id: rel_forrest_sq_002
+  relation_type: growth_path
+  factor_a: square
+  factor_b: development
+  relation_nature: Struggle
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.407956'
+- relation_id: rel_forrest_tri_001
+  relation_type: aspect_harmony
+  factor_a: aspect_trine
+  factor_b: element
+  relation_nature: Natural flow
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.407981'
+- relation_id: rel_forrest_tri_002
+  relation_type: activation_need
+  factor_a: trine
+  factor_b: awakening
+  relation_nature: Conscious effort
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.407984'
+- relation_id: rel_forrest_sex_001
+  relation_type: aspect_excitation
+  factor_a: aspect_sextile
+  factor_b: stimulation
+  relation_nature: Mutual enlivenment
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.408008'
+- relation_id: rel_forrest_sex_002
+  relation_type: sustainment_need
+  factor_a: sextile
+  factor_b: direction
+  relation_nature: Channeling
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.408011'
+- relation_id: rel_innersky_libra_001
+  relation_type: sign_element
+  factor_a: sign_libra
+  factor_b: element_air
+  relation_nature: Cardinal Air modality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Libra'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.410310'
+- relation_id: rel_innersky_libra_002
+  relation_type: sign_planet
+  factor_a: sign_libra
+  factor_b: planet_venus
+  relation_nature: Venus rules Libra
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Libra'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.410318'
+- relation_id: rel_innersky_scorpio_001
+  relation_type: sign_element
+  factor_a: sign_scorpio
+  factor_b: element_water
+  relation_nature: Fixed Water modality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Scorpio'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.410349'
+- relation_id: rel_innersky_scorpio_002
+  relation_type: sign_planet
+  factor_a: sign_scorpio
+  factor_b: planet_pluto
+  relation_nature: Pluto rules Scorpio (modern)
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Scorpio'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.410352'
+- relation_id: rel_innersky_sagittarius_001
+  relation_type: sign_element
+  factor_a: sign_sagittarius
+  factor_b: element_fire
+  relation_nature: Mutable Fire modality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Sagittarius'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.410378'
+- relation_id: rel_innersky_sagittarius_002
+  relation_type: sign_planet
+  factor_a: sign_sagittarius
+  factor_b: planet_jupiter
+  relation_nature: Jupiter rules Sagittarius
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Sagittarius'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.410380'
+- relation_id: rel_innersky_capricorn_001
+  relation_type: sign_element
+  factor_a: sign_capricorn
+  factor_b: element_earth
+  relation_nature: Cardinal Earth modality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Capricorn'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.410406'
+- relation_id: rel_innersky_capricorn_002
+  relation_type: sign_planet
+  factor_a: sign_capricorn
+  factor_b: planet_saturn
+  relation_nature: Saturn rules Capricorn
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Capricorn'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.410410'
+- relation_id: rel_innersky_aquarius_001
+  relation_type: sign_element
+  factor_a: sign_aquarius
+  factor_b: element_air
+  relation_nature: Fixed Air modality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Aquarius'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.410435'
+- relation_id: rel_innersky_aquarius_002
+  relation_type: sign_planet
+  factor_a: sign_aquarius
+  factor_b: planet_uranus
+  relation_nature: Uranus rules Aquarius (modern)
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Aquarius'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.410438'
+- relation_id: rel_innersky_pisces_001
+  relation_type: sign_element
+  factor_a: sign_pisces
+  factor_b: element_water
+  relation_nature: Mutable Water modality
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Pisces'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.410464'
+- relation_id: rel_innersky_pisces_002
+  relation_type: sign_planet
+  factor_a: sign_pisces
+  factor_b: planet_neptune
+  relation_nature: Neptune rules Pisces (modern)
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Pisces'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.410467'
+- relation_id: rel_innersky_mercury_001
+  relation_type: planet_sign
+  factor_a: planet_mercury
+  factor_b: zodiac_sign
+  relation_nature: Mercury placed in sign
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Mercury'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.412846'
+- relation_id: rel_innersky_mercury_002
+  relation_type: function_modifier
+  factor_a: mercury_mind_function
+  factor_b: retrograde_state
+  relation_nature: Retrograde modifies expression
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Mercury'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.412852'
+- relation_id: rel_innersky_mercury_003
+  relation_type: planet_planet
+  factor_a: planet_mercury
+  factor_b: planet_sun
+  relation_nature: Messenger of ego
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Mercury'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.412855'
+- relation_id: rel_innersky_venus_001
+  relation_type: planet_sign
+  factor_a: planet_venus
+  factor_b: zodiac_sign
+  relation_nature: Venus placed in sign
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Venus'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.412896'
+- relation_id: rel_innersky_venus_002
+  relation_type: planet_planet
+  factor_a: planet_venus
+  factor_b: planet_moon
+  relation_nature: 'Complementary: appreciation vs need'
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Venus'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.412899'
+- relation_id: rel_innersky_venus_003
+  relation_type: function_dependency
+  factor_a: venus_love_function
+  factor_b: zodiac_sign
+  relation_nature: Sign prescribes love style
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Venus'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.412902'
+- relation_id: rel_innersky_mars_001
+  relation_type: planet_sign
+  factor_a: planet_mars
+  factor_b: zodiac_sign
+  relation_nature: Mars placed in sign
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Mars'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.412940'
+- relation_id: rel_innersky_mars_002
+  relation_type: planet_planet
+  factor_a: planet_mars
+  factor_b: planet_sun
+  relation_nature: Executor of ego will
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Mars'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.412943'
+- relation_id: rel_innersky_mars_003
+  relation_type: function_dependency
+  factor_a: mars_will_function
+  factor_b: zodiac_sign
+  relation_nature: Sign prescribes action style
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Mars'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.412946'
+- relation_id: rel_innersky_sun_001
+  relation_type: planet_sign
+  factor_a: planet_sun
+  factor_b: zodiac_sign
+  relation_nature: Sun placed in sign
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Sun'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.415327'
+- relation_id: rel_innersky_sun_002
+  relation_type: function_dependency
+  factor_a: sun_ego_function
+  factor_b: zodiac_sign
+  relation_nature: Sign prescribes feeding
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Sun'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.415332'
+- relation_id: rel_innersky_moon_001
+  relation_type: planet_sign
+  factor_a: planet_moon
+  factor_b: zodiac_sign
+  relation_nature: Moon placed in sign
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Moon'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.415369'
+- relation_id: rel_innersky_moon_002
+  relation_type: planet_planet
+  factor_a: planet_moon
+  factor_b: planet_sun
+  relation_nature: Complementary polarity
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Moon'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.415372'
+- relation_id: rel_innersky_moon_003
+  relation_type: function_dependency
+  factor_a: moon_feeling_function
+  factor_b: zodiac_sign
+  relation_nature: Sign prescribes emotional needs
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'The Inner Sky #Moon'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.415374'
+- relation_id: rel_Inner_Sky_Houses_Par_7
+  relation_type: concept
+  factor_a: Inner_Sky_Houses_Par_7
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.417552'
+- relation_id: rel_Inner_Sky_Houses_Par_8
+  relation_type: concept
+  factor_a: Inner_Sky_Houses_Par_8
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.417589'
+- relation_id: rel_Inner_Sky_Houses_Par_9
+  relation_type: concept
+  factor_a: Inner_Sky_Houses_Par_9
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.417648'
+- relation_id: rel_Inner_Sky_Houses_Par_10
+  relation_type: concept
+  factor_a: Inner_Sky_Houses_Par_10
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.417696'
+- relation_id: rel_Inner_Sky_Houses_Par_11
+  relation_type: concept
+  factor_a: Inner_Sky_Houses_Par_11
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.417729'
+- relation_id: rel_Inner_Sky_Houses_Par_12
+  relation_type: concept
+  factor_a: Inner_Sky_Houses_Par_12
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.417762'
+- relation_id: rel_Inner_Sky_Theor_8
+  relation_type: concept
+  factor_a: Inner_Sky_Theor_8
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.428677'
+- relation_id: rel_Inner_Sky_Theor_7
+  relation_type: concept
+  factor_a: Inner_Sky_Theor_7
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.428734'
+- relation_id: rel_Inner_Sky_Theor_6
+  relation_type: concept
+  factor_a: Inner_Sky_Theor_6
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.428794'
+- relation_id: rel_Inner_Sky_Theor_5
+  relation_type: concept
+  factor_a: Inner_Sky_Theor_5
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.428847'
+- relation_id: rel_Inner_Sky_Theor_4
+  relation_type: concept
+  factor_a: Inner_Sky_Theor_4
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.428901'
+- relation_id: rel_Inner_Sky_Theor_3
+  relation_type: concept
+  factor_a: Inner_Sky_Theor_3
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.428960'
+- relation_id: rel_Inner_Sky_Theor_2
+  relation_type: concept
+  factor_a: Inner_Sky_Theor_2
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.429106'
+- relation_id: rel_Inner_Sky_Theor_1
+  relation_type: concept
+  factor_a: Inner_Sky_Theor_1
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.429291'
+- relation_id: rel_Inner_Sky_Theor_0
+  relation_type: concept
+  factor_a: Inner_Sky_Theor_0
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.429374'

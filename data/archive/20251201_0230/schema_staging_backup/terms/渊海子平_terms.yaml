@@ -1,0 +1,2156 @@
+book_id: 渊海子平
+source_file: 典籍/中文典籍/渊海子平/编辑/渊海子平_L1L2_v2_完整精校.md, 典籍/中文典籍/渊海子平/编辑/渊海子平_完整规范化_上卷.md,
+  典籍/中文典籍/渊海子平/编辑/渊海子平_完整规范化_下卷.md, 典籍/中文典籍/渊海子平/编辑/渊海子平_完整规范化_中卷.md
+extracted_at: '2025-12-01T02:28:21.080142'
+terms:
+- term_zh: 节气
+  term_en: Solar Term
+  definition_zh: 二十四节气，划分一年时间的天文-农历节点
+  definition_en: One of 24 divisions of the solar year marking seasonal transitions
+  factor_id: solar_term
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 司令
+  term_en: Governing Qi
+  definition_zh: 某节气期间主持气机、力量最旺的天干五行
+  definition_en: The Heavenly Stem/Element holding dominant power during a solar term
+    period
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 提纲
+  term_en: Guiding Principle
+  definition_zh: 主宰一季格局的纲领性五行力量
+  definition_en: The pivotal Five-Element force governing a season's overall structure
+  factor_id: month_command
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 暗藏
+  term_en: Hidden Storage
+  definition_zh: 天干地支在节气中暗中主事之气，不显于表
+  definition_en: The concealed governing qi within stems/branches during solar terms
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 得令
+  term_en: Receiving Command
+  definition_zh: 天干五行处于当令旺盛的时节，力量增强
+  definition_en: A Stem/Element receiving seasonal power and strength during its commanding
+    period
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 杂气
+  term_en: Mixed Qi
+  definition_zh: 辰戌丑未四墓库支中兼含多种天干之气
+  definition_en: Multiple Heavenly Stems coexisting within the four tomb branches
+    (Chen, Xu, Chou, Wei)
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 人元
+  term_en: Human Element
+  definition_zh: 地支中所藏的天干，代表人事层面的隐藏力量
+  definition_en: Heavenly Stems hidden within Earthly Branches representing human-level
+    forces
+  factor_id: earthly_branch_hidden_stems
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 地支藏干
+  term_en: Hidden Stems in Branches
+  definition_zh: 地支中所藏的天干，构成命局的深层结构
+  definition_en: Heavenly Stems concealed within Earthly Branches forming deep structural
+    layer
+  factor_id: earthly_branch_hidden_stems
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 有根/无根
+  term_en: Rooted/Rootless
+  definition_zh: 天干在地支中有/无对应藏干，决定力量强弱
+  definition_en: Stem having/lacking corresponding hidden counterpart in Branches,
+    determining power
+  factor_id: stem_rooted
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 纯气
+  term_en: Pure Qi
+  definition_zh: 子卯酉三支，各藏单一天干，力量专一
+  definition_en: Zi, Mao, You branches containing single Stem with concentrated power
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 主气/中气/余气
+  term_en: Primary/Middle/Residual Qi
+  definition_zh: 支中藏干的力量等级，主气最强，余气最弱
+  definition_en: 'Power hierarchy of hidden Stems: primary strongest, residual weakest'
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 透干
+  term_en: Stem Transparency
+  definition_zh: 地支藏干透出到天干，由隐转显发挥作用
+  definition_en: Hidden Stem emerging to Heavenly Stem level, shifting from concealed
+    to manifest
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 库
+  term_en: Storage/Tomb
+  definition_zh: 辰戌丑未四支，既能藏纳又能墓绝相应五行
+  definition_en: Chen, Xu, Chou, Wei as storage-tombs containing and potentially entombing
+    elements
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 生克制化
+  term_en: Generation-Control-Regulation-Transformation
+  definition_zh: 五行相生、相克、制约、转化的四种作用方式
+  definition_en: 'Four modes of interaction: generating, controlling, regulating,
+    transforming'
+  factor_id: five_element_generation
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 中和
+  term_en: Harmony/Balance
+  definition_zh: 五行力量达到平衡状态，不过旺不过弱
+  definition_en: Elements achieving balanced state, neither excessive nor deficient
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 旺者宜制
+  term_en: Strong Need Control
+  definition_zh: 五行过旺需要克制或泄耗方能平衡
+  definition_en: Excessive element requires control or draining to achieve balance
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 物极必反
+  term_en: Extremes Reverse
+  definition_zh: 五行力量发展到极端必然转向反面
+  definition_en: Element force reaching extreme inevitably reverses direction
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 过犹不及
+  term_en: Excess Equals Deficiency
+  definition_zh: 过度和不足同样有害，中庸为贵
+  definition_en: Excess and deficiency both harmful; moderation is precious
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 日干为主
+  term_en: Day Stem as Primary
+  definition_zh: 以出生日天干作为命主本人的代表
+  definition_en: Taking birth-day Heavenly Stem as fate owner's representation
+  factor_id: day_stem
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 十神
+  term_en: Ten Gods
+  definition_zh: 根据日干与他干生克关系定义的十种命理关系
+  definition_en: Ten fate relationships defined by Day Stem interactions
+  factor_id: ten_gods
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 正官
+  term_en: Direct Officer
+  definition_zh: 克我且阴阳相异者，代表权力、女命丈夫
+  definition_en: Controls me with opposite polarity, authority, husband
+  factor_id: ten_gods
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 七杀
+  term_en: Seven Killings
+  definition_zh: 克我且阴阳相同者，代表压力、挑战
+  definition_en: Controls me with same polarity, pressure, challenges
+  factor_id: ten_gods
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 正财
+  term_en: Direct Wealth
+  definition_zh: 我克且阴阳相异者，代表财富、男命妻子
+  definition_en: I control with opposite polarity, wealth, wife
+  factor_id: ten_gods
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 正印
+  term_en: Direct Seal
+  definition_zh: 生我且阴阳相异者，代表母亲、学历
+  definition_en: Generates me with opposite polarity, mother, education
+  factor_id: ten_gods
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 食神
+  term_en: Eating God
+  definition_zh: 我生且阴阳相异者，代表才艺、子女
+  definition_en: I generate with opposite polarity, talents, children
+  factor_id: ten_gods
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 月令/提纲
+  term_en: Month Command
+  definition_zh: 月支当令之气，四柱中最重要节点
+  definition_en: Commanding qi of Month Branch, most crucial node
+  factor_id: month_command
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 用神
+  term_en: Use God
+  definition_zh: 命局所需的调节平衡之神
+  definition_en: The deity needed to balance fate structure
+  factor_id: use_god
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 太岁
+  term_en: Tai Sui/Annual Sovereign
+  definition_zh: 流年天干地支，如君王般重要
+  definition_en: Year's stem-branch, important as sovereign
+  factor_id: tai_sui
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 犯太岁
+  term_en: Offending Tai Sui
+  definition_zh: 日干克太岁，为下犯上
+  definition_en: Day Stem controlling Tai Sui, inferior offending superior
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 五行有救
+  term_en: Five-Element Rescue
+  definition_zh: 命中有克日干之神救太岁
+  definition_en: Natal chart containing element rescuing Tai Sui
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 征太岁
+  term_en: Battle Tai Sui
+  definition_zh: 日干支与太岁冲克如战斗
+  definition_en: Day Pillar clashing/controlling Tai Sui like warfare
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 晦
+  term_en: Dimness
+  definition_zh: 日干支合太岁主晦气不顺
+  definition_en: Day Pillar combining Tai Sui brings obscurity
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 大运
+  term_en: Major Cycle
+  definition_zh: 十年一运的人生阶段
+  definition_en: Ten-year life phase cycles
+  factor_id: major_cycle
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 接木
+  term_en: Grafting
+  definition_zh: 运程转换的关键节点
+  definition_en: Critical nodes of cycle transitions
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 转角接木
+  term_en: Corner-Turning Graft
+  definition_zh: 四墓库之间的转换最凶
+  definition_en: Transitions between four tomb-storages most inauspicious
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 脏腑
+  term_en: Internal Organs
+  definition_zh: 五脏六腑，天干对应
+  definition_en: Five organs six viscera, corresponded by Stems
+  factor_id: stem_organ_mapping
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 肢体
+  term_en: Limbs/Body Parts
+  definition_zh: 外部身体部位
+  definition_en: External body parts
+  factor_id: stem_body_mapping
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 五行失衡
+  term_en: Five-Element Imbalance
+  definition_zh: 五行过旺或不及致病
+  definition_en: Elements excessively strong or weak causing illness
+  factor_id: five_element_imbalance
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 五行性情
+  term_en: Five-Element Temperament
+  definition_zh: 五行对应五德与性格
+  definition_en: Five Elements corresponding to five virtues and personalities
+  factor_id: element_temperament
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 仁义礼智信
+  term_en: Five Virtues
+  definition_zh: 儒家五常德性
+  definition_en: Confucian five cardinal virtues
+  factor_id: five_virtues
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 木主仁
+  term_en: Wood Governs Benevolence
+  definition_zh: 木旺者慈悲仁爱
+  definition_en: Wood-prosperous individuals compassionate and benevolent
+  factor_id: element_temperament
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 伤官
+  term_en: Injuring Officer
+  definition_zh: 我生且阴阳相同者，克制官星
+  definition_en: What-I-generate with same polarity, injuring Officer Star
+  factor_id: injuring_officer
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 伤官伤尽
+  term_en: Injuring Completely
+  definition_zh: 命中官星被伤官完全克制无余
+  definition_en: Officer Star completely controlled by Injuring Officer
+  factor_id: pattern_injuring_officer_complete_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 伤官见官
+  term_en: Injuring Meets Officer
+  definition_zh: 伤官格遇官星，为祸百端
+  definition_en: Injuring Officer pattern meeting Officer Star, calamities
+  factor_id: pattern_injuring_meets_officer_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 伤官格
+  term_en: Injuring Officer Pattern
+  definition_zh: 以伤官为用神的格局
+  definition_en: Pattern using Injuring Officer as Use-God
+  factor_id: pattern_injuring_officer_pattern_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 伤官伤尽
+  term_en: Injuring Officer Exhausted
+  definition_zh: 伤官将官星完全制伏，原局无官可伤
+  definition_en: Injuring Officer fully subdues Officer Star, no Officer left to harm
+  factor_id: pattern_io_exhausted_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 伤官用财
+  term_en: IO Using Wealth
+  definition_zh: 伤官生财格，以财为用神
+  definition_en: Injuring Officer generating Wealth pattern, Wealth as useful spirit
+  factor_id: pattern_io_wealth
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 伤官见官
+  term_en: IO Seeing Officer
+  definition_zh: 伤官与官星同见，需印星通关
+  definition_en: Injuring Officer and Officer together, needs Seal bridging
+  factor_id: pattern_io_officer
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 四柱有病
+  term_en: Four Pillars Has Illness
+  definition_zh: 命局有缺陷需要化解
+  definition_en: Natal structure has defect needing resolution
+  factor_id: pattern_illness_medicine
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 倒食/枭神
+  term_en: Reversed Eating/Owl God
+  definition_zh: 偏印克食神，夺食之意
+  definition_en: Indirect Seal controlling Eating God, seizing food
+  factor_id: pattern_reversed_eating_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 食神生财
+  term_en: Eating Generates Wealth
+  definition_zh: 食神生财星为吉配
+  definition_en: Eating God generating Wealth Star as auspicious
+  factor_id: relation_eating_generates_wealth_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 身弱不任财
+  term_en: Weak Self Cannot Bear Wealth
+  definition_zh: 日主太弱无法驾驭财星
+  definition_en: Day Master too weak cannot control Wealth Star
+  factor_id: state_weak_self_cannot_bear_wealth_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 财多生官
+  term_en: Wealth Generates Officer
+  definition_zh: 财星多则生官星
+  definition_en: Abundant Wealth generates Officer Star
+  factor_id: relation_wealth_generates_officer_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 偏财
+  term_en: Indirect Wealth
+  definition_zh: 我克且阴阳相同者，众人之财
+  definition_en: What-I-control same polarity, public wealth
+  factor_id: indirect_wealth
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 劫财分夺
+  term_en: Rob Wealth Seizing
+  definition_zh: 比劫夺取财星
+  definition_en: Parallel/Rob seizing Wealth Star
+  factor_id: relation_rob_wealth_seizing_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 月令提纲
+  term_en: Month Command Guiding Principle
+  definition_zh: 月支为命局之提纲，定格局旺衰
+  definition_en: Month Branch as fate structure's guiding principle
+  factor_id: month_command
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 官杀混杂
+  term_en: Mixed Officer-Killing
+  definition_zh: 正官与七杀同见，混乱不清
+  definition_en: Direct Officer and Seven Killing appearing together
+  factor_id: pattern_mixed_officer_killing
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 中和之气
+  term_en: Harmonious-Balanced Energy
+  definition_zh: 不偏不倚的平衡状态
+  definition_en: Balanced state without bias
+  factor_id: balance
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 偏官
+  term_en: Partial Officer
+  definition_zh: 七杀有制化为偏官
+  definition_en: Seven Killing with control transforms to Partial Officer
+  factor_id: partial_officer
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 贪合忘杀
+  term_en: Greedy Combining Forgetting Killing
+  definition_zh: 干合化解七杀
+  definition_en: Stem combination resolves Seven Killing
+  factor_id: pattern_combine_forget_killing
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 刃杀相配
+  term_en: Blade-Killing Pairing
+  definition_zh: 阳刃与七杀配合成大贵格
+  definition_en: Yang Blade and Seven Killing pairing for great nobility
+  factor_id: pattern_blade_killing_pairing
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 偏官/七杀
+  term_en: Indirect Officer/Seven Killings
+  definition_zh: 克我且阴阳相同者，需制伏
+  definition_en: What-controls-me same polarity, requires control
+  factor_id: seven_killings
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 食神制杀
+  term_en: Eating God Controlling Killing
+  definition_zh: 食神克制七杀为权
+  definition_en: Eating God controlling Seven Killings brings authority
+  factor_id: method_eating_controls_killing_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 贪合忘杀
+  term_en: Greedy Combine Forgets Killing
+  definition_zh: 合杀之神贪合而忘克身
+  definition_en: Combining deity greedily combines forgetting to control Self
+  factor_id: pattern_greedy_combine_forgets_killing_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 杀印相生
+  term_en: Killing-Seal Mutual Generation
+  definition_zh: 七杀生印，印生身，化杀为权
+  definition_en: Seven Killings generates Seal, Seal generates Self, transforming
+    killing to authority
+  factor_id: relation_killing_seal_generation_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 印绶/正印
+  term_en: Seal/Direct Seal
+  definition_zh: 生我且阴阳相异者，代表母亲学历
+  definition_en: What-generates-me opposite polarity, mother/education
+  factor_id: direct_seal
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 财破印
+  term_en: Wealth Breaking Seal
+  definition_zh: 财星克印绶为大忌
+  definition_en: Wealth Star controlling Seal as great taboo
+  factor_id: wealth_breaking_seal
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 倒食/枭神/偏印
+  term_en: Reversed Eating/Owl God/Indirect Seal
+  definition_zh: 生我且阴阳相同者，克食神
+  definition_en: What-generates-me same polarity, controlling Eating God
+  factor_id: indirect_seal
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 夺食
+  term_en: Seizing Food
+  definition_zh: 偏印克食神之意
+  definition_en: Indirect Seal controlling Eating God
+  factor_id: seizing_food
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 劫财
+  term_en: Rob Wealth
+  definition_zh: 与日主同类阴阳相异者
+  definition_en: Same element as Day Master with opposite polarity
+  factor_id: rob_wealth
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 败财
+  term_en: Defeat Wealth
+  definition_zh: 阳日主见阴同类，主克妻
+  definition_en: Yang Day Master seeing Yin same-element, indicates harming wife
+  factor_id: defeat_wealth_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 逆刃
+  term_en: Reverse Blade
+  definition_zh: 劫财的别名
+  definition_en: Alternative name for Rob Wealth
+  factor_id: rob_wealth
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 日刃
+  term_en: Day Blade
+  definition_zh: 戊午丙午壬子三日坐禄刃
+  definition_en: Wu-Wu Bing-Wu Ren-Zi sitting Salary-Blade
+  factor_id: day_blade
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 三刑自刑魁罡全
+  term_en: Three Punishments Self-Punishment Kuigang Complete
+  definition_zh: 凶神全聚发迹疆场
+  definition_en: Fierce spirits gather for battlefield rise
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 日贵
+  term_en: Day Noble
+  definition_zh: 丁酉丁亥癸巳癸卯四日
+  definition_en: Ding-You Ding-Hai Gui-Si Gui-Mao four days
+  factor_id: day_noble
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 昼夜贵
+  term_en: Day-Night Nobility
+  definition_zh: 须分白天黑天的贵人
+  definition_en: Must divide daytime-nighttime Noble Person
+  factor_id: pattern_day_night_noble_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 日德
+  term_en: Day Virtue
+  definition_zh: 甲寅戊辰丙辰庚辰壬戌五日
+  definition_en: Jia-Yin Wu-Chen Bing-Chen Geng-Chen Ren-Xu five days
+  factor_id: day_virtue
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 运至魁罡
+  term_en: Fortune Arrives Kuigang
+  definition_zh: 运程遇魁罡主凶
+  definition_en: Fortune-running meets Kuigang indicates inauspicious
+  factor_id: pattern_fortune_arrives_kuigang_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 魁罡
+  term_en: Kuigang
+  definition_zh: 庚辰庚戌壬辰戊戌四日
+  definition_en: Geng-Chen Geng-Xu Ren-Chen Wu-Xu four days
+  factor_id: kuigang
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 魁罡重叠
+  term_en: Kuigang Overlapping
+  definition_zh: 魁罡日多次出现主贵极
+  definition_en: Kuigang days multiply appear indicates extreme nobility
+  factor_id: pattern_kuigang_overlapping_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 金神
+  term_en: Metal Spirit
+  definition_zh: 癸酉己巳乙丑三时破败之神
+  definition_en: Gui-You Ji-Si Yi-Chou three hours destruction spirit
+  factor_id: metal_spirit
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 入火乡
+  term_en: Enter Fire Region
+  definition_zh: 运行火运制伏金神
+  definition_en: Fortune-running Fire controls Metal Spirit
+  factor_id: method_fire_luck_controls_metal_spirit_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 刚断明敏
+  term_en: Decisive-Astute
+  definition_zh: 性格刚决果断明智敏捷
+  definition_en: Nature decisive-resolute intelligent-agile
+  factor_id: trait_decisive_astute_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 六亲
+  term_en: Six Relatives
+  definition_zh: 父母兄弟妻子六种亲属关系
+  definition_en: Father-mother-siblings-wife-children six kinship relations
+  factor_id: six_relatives
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 正印为母
+  term_en: Proper Seal As Mother
+  definition_zh: 正印代表生母
+  definition_en: Proper Seal represents birth mother
+  factor_id: seal_as_mother
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 偏财为父
+  term_en: Indirect Wealth As Father
+  definition_zh: 偏财代表父亲
+  definition_en: Indirect Wealth represents father
+  factor_id: wealth_as_father
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 克父
+  term_en: Harms Father
+  definition_zh: 命局不利父亲
+  definition_en: Fate structure disadvantageous to father
+  factor_id: ''
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 克母
+  term_en: Harms Mother
+  definition_zh: 命局不利母亲
+  definition_en: Fate structure disadvantageous to mother
+  factor_id: pattern_harm_mother_proposal
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 比肩
+  term_en: Parallel
+  definition_zh: 与日主同类阴阳相同者，代表兄姊
+  definition_en: Same element and polarity as Day Master, represents elder siblings
+  factor_id: parallel
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 兄弟姊妹
+  term_en: Siblings
+  definition_zh: 以比劫代表的六亲
+  definition_en: Six Relations represented by Parallel and Rob Wealth
+  factor_id: sibling
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 阴命
+  term_en: Yin Fate
+  definition_zh: 女命，以夫星子星为主的命理判断
+  definition_en: Women's fate, centered on Husband-Children Stars
+  factor_id: yin_fate
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 夫荣子旺
+  term_en: Husband Prospers Children Flourish
+  definition_zh: 官杀旺食伤旺，主女命富贵荣华
+  definition_en: Officer-Killing vigorous, Food-Harm vigorous, indicates women's wealth-nobility
+  factor_id: husband_children_prosperity_decline
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 夫衰身旺
+  term_en: Husband Declines Body Vigorous
+  definition_zh: 官杀衰而日主旺，主廉洁之人
+  definition_en: Officer-Killing weak, Day Master strong, indicates chastity
+  factor_id: husband_weak_body_strong_chaste
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 鬼旺身衰
+  term_en: Ghost Prosperous Body Weak
+  definition_zh: 七杀旺而日主衰，主孤寒之妇
+  definition_en: Seven Killings vigorous, Day Master weak, indicates solitary-cold
+    woman
+  factor_id: ghost_strong_body_weak_solitary
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 合贵神
+  term_en: Combine Noble Spirit
+  definition_zh: 日主与贵人合化，女命主淫贱
+  definition_en: Day Master combines with Noble Person, women indicates promiscuity
+  factor_id: combine_noble_promiscuity
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 女命总断歌
+  term_en: Women's Fate General Judgment Song
+  definition_zh: 女命判断的全面歌诀总结
+  definition_en: Comprehensive verse summary for women's fate judgment
+  factor_id: women_judgment_song
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 合多主淫
+  term_en: Multiple Combinations Bring Promiscuity
+  definition_zh: 合神过多主淫乱不贞
+  definition_en: Excessive Combine Spirits indicate promiscuity-unchastity
+  factor_id: multiple_combines_promiscuity
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 印多损子
+  term_en: Abundant Seal Harms Children
+  definition_zh: 印绶过多主损害子息
+  definition_en: Excessive Seal indicates harm to children
+  factor_id: abundant_seal_harms_children
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 辰戌相见淫贱
+  term_en: Chen-Xu Meeting Promiscuity-Baseness
+  definition_zh: 辰戌相冲主女命淫贱
+  definition_en: Chen-Xu clash indicates women's promiscuity-baseness
+  factor_id: chen_xu_clash_promiscuity
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 驿马贵人风尘
+  term_en: Post Horse Noble Person Fallen
+  definition_zh: 驿马带贵人主终落风尘
+  definition_en: Post Horse with Noble Person indicates eventual fallen status
+  factor_id: post_horse_noble_fallen
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 官得令
+  term_en: Officer Commands Season
+  definition_zh: 官星得时令之气主女命安荣
+  definition_en: Officer Star gains seasonal qi indicates women's peace and glory
+  factor_id: officer_season
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 天月二德
+  term_en: Heaven-Moon Two Virtues
+  definition_zh: 天德月德神煞女命遇之主大贵
+  definition_en: Heaven Virtue-Month Virtue spirits indicates great nobility
+  factor_id: two_virtues_seal_nobility
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 倒食
+  term_en: Inverted Food
+  definition_zh: 偏印克食神主减福
+  definition_en: Indirect Seal restrains Food God indicates reduced fortune
+  factor_id: inverted_food
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 两国之封
+  term_en: Two States' Enfeoffment
+  definition_zh: 极高的贵妇封号
+  definition_en: Extremely high noble lady enfeoffment
+  factor_id: two_states_enfeoffment
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 官杀无制伏
+  term_en: Officer-Killing Without Control
+  definition_zh: 官杀过旺无制化主为妓为尼
+  definition_en: Officer-Killing excessively vigorous without control indicates prostitute
+    or nun
+  factor_id: officer_killing_no_control
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 滚浪桃花
+  term_en: Rolling-Wave Peach Flower
+  definition_zh: 桃花咸池淫乱之象
+  definition_en: Peach Flower-Salty Pond promiscuity imagery
+  factor_id: rolling_wave_peach
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 伤官桃花
+  term_en: Harm Officer Peach Flower
+  definition_zh: 伤官配桃花主妓女命克子息
+  definition_en: Harm Officer with Peach Flower indicates prostitute fate harms children
+  factor_id: harm_officer_peach_prostitute
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 咸池遇马
+  term_en: Salty Pond Meets Horse
+  definition_zh: 咸池配驿马主多淫妨夫破家
+  definition_en: Salty Pond with Post Horse indicates promiscuity-harms husband-breaks
+    family
+  factor_id: salty_pond_horse_promiscuity
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 辰戌全
+  term_en: Chen-Xu Complete
+  definition_zh: 辰戌皆现主淫乱破家伤夫克子夭寿残疾
+  definition_en: Chen-Xu both present indicates promiscuity-breaks family-harms husband-children
+  factor_id: chen_xu_complete_chaos
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 贵人荣神
+  term_en: Noble Person Glory Spirit
+  definition_zh: 贵人配荣神主富贵贞洁
+  definition_en: Noble Person with Glory Spirit indicates wealth-nobility-chastity
+  factor_id: noble_glory_chastity
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 女命贵格
+  term_en: Women's Fate Noble Patterns
+  definition_zh: 女命富贵荣华的标准格局配置
+  definition_en: Standard pattern configurations for women's wealth-nobility-glory
+  factor_id: nineteen_women_noble_patterns
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 正气官星
+  term_en: Proper Qi Officer Star
+  definition_zh: 官星纯正无杂主贵
+  definition_en: Officer Star pure and correct indicates nobility
+  factor_id: proper_qi_officer
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 独杀有制
+  term_en: Solitary Killing Controlled
+  definition_zh: 独一七杀有制化主贵
+  definition_en: Solitary Seven Killings with control indicates nobility
+  factor_id: solitary_killing_controlled
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 杀化印绶
+  term_en: Killing Transforms Seal
+  definition_zh: 七杀化为印绶主大贵
+  definition_en: Seven Killings transforms into Seal indicates great nobility
+  factor_id: killing_transforms_seal
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 三奇合局
+  term_en: Three Oddities Combined Bureau
+  definition_zh: 三奇（甲戊庚等）合局主贵
+  definition_en: Three Oddities (Jia-Wu-Geng etc.) combined bureau indicates nobility
+  factor_id: three_oddities_combined
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 女命贱格
+  term_en: Women's Fate Base Patterns
+  definition_zh: 女命贫贱淫乱的标准格局配置
+  definition_en: Standard pattern configurations for women's poverty-baseness-promiscuity
+  factor_id: eighteen_women_base_patterns
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 官杀混杂
+  term_en: Officer-Killing Mixed
+  definition_zh: 官星杀星并见无制主贱
+  definition_en: Officer Star-Killing Star both present without control indicates
+    baseness
+  factor_id: officer_killing_mixed
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 伤官见官
+  term_en: Harm Officer Meets Officer
+  definition_zh: 伤官遇正官主克夫贱
+  definition_en: Harm Officer meets Proper Officer indicates harms husband-baseness
+  factor_id: harm_officer_meets_officer
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 贪财坏印
+  term_en: Greedy Wealth Damages Seal
+  definition_zh: 财星破印绶主贱
+  definition_en: Wealth Star damages Seal indicates baseness
+  factor_id: greedy_wealth_damages_seal
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 倒插桃花
+  term_en: Inverted-Insert Peach Flower
+  definition_zh: 桃花倒插主淫乱
+  definition_en: Peach Flower inverted-insert indicates promiscuity
+  factor_id: inverted_peach_flower
+  status: new_candidate
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 看命入式
+  term_en: Method of Fate Analysis
+  definition_zh: 论命的入门程式与步骤
+  definition_en: The standard procedure/formula for analyzing fate
+  factor_id: fate_analysis_method
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 根苗花果
+  term_en: Root, Sprout, Flower, Fruit
+  definition_zh: 年月日时四柱的象义比喻
+  definition_en: Metaphor for Year, Month, Day, Hour pillars
+  factor_id: four_pillars_metaphor
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 得令
+  term_en: Commanding Season
+  definition_zh: 日主生于旺相之月
+  definition_en: Day Master born in a prosperous month
+  factor_id: commanding_season
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 身衰财旺
+  term_en: Weak Self Prosperous Wealth
+  definition_zh: 日主弱而财星旺，主富屋贫人
+  definition_en: Day Master weak while Wealth star is prosperous, implying poor man
+    in rich house
+  factor_id: self_wealth_balance
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 神趣八法
+  term_en: Eight Methods of Spiritual Interest
+  definition_zh: 八种特殊格局判断法
+  definition_en: Eight special methods for judging unique fate patterns
+  factor_id: eight_methods_pattern
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 类象
+  term_en: Category Image
+  definition_zh: 一方秀气聚于一类（如春木）
+  definition_en: One category of Qi gathering (e.g., Spring Wood)
+  factor_id: category_image
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 从象
+  term_en: Following Image
+  definition_zh: 日主无根弃命从旺神
+  definition_en: Rootless Day Master abandoning life to follow the prosperous god
+  factor_id: following_image
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 化象
+  term_en: Transformation Image
+  definition_zh: 天干合化成功成格
+  definition_en: Heavenly Stems combining and transforming successfully
+  factor_id: transformation_image
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 照象
+  term_en: Reflection Image
+  definition_zh: 相生五行互为照应
+  definition_en: Mutually generating elements reflecting each other
+  factor_id: reflection_image
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 鬼象
+  term_en: Ghost Image
+  definition_zh: 满盘七杀，身弱从杀
+  definition_en: Full plate of Seven Killings, weak Self following Killing
+  factor_id: ghost_image
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 伤官见官
+  term_en: Injuring Officer Meeting Officer
+  definition_zh: 伤官克制正官，主祸患百端
+  definition_en: Injuring Officer controlling Direct Officer, causing hundred disasters
+  factor_id: injuring_officer_meets_officer
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 财官印食
+  term_en: Wealth, Officer, Seal, Food
+  definition_zh: 四吉神，代表正统福德
+  definition_en: Four Auspicious Gods representing orthodox fortune
+  factor_id: auspicious_four
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 杀伤劫刃
+  term_en: Killing, Injury, Robbery, Blade
+  definition_zh: 四凶神，代表激进刑伤
+  definition_en: Four Inauspicious Gods representing aggression and injury
+  factor_id: inauspicious_four
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 倒食
+  term_en: Overturning Food
+  definition_zh: 偏印克食神，主贫乏灾病
+  definition_en: Indirect Seal controlling Eating God, implying poverty/illness
+  factor_id: overturning_food
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 金水双清
+  term_en: Metal-Water Double Clear
+  definition_zh: 金水相生气清，主智/道
+  definition_en: Metal and Water mutually generating with clear Qi, implying wisdom/Daoism
+  factor_id: metal_water_clear
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 当兴
+  term_en: Natural Prosperity
+  definition_zh: 原局身旺用神得力，一生富贵
+  definition_en: Natal chart naturally balanced, lifelong prosperity
+  factor_id: natural_prosperity
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 崛起
+  term_en: Rising Up
+  definition_zh: 身弱遇扶身运，白手起家
+  definition_en: Weak Self meeting assisting luck, rising from nothing
+  factor_id: rising_up
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 枯苗得雨
+  term_en: Withered Sprout Getting Rain
+  definition_zh: 久困之后逢好运，勃然而兴
+  definition_en: Meeting good luck after long hardship, sudden revival
+  factor_id: withered_sprout_rain
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 源清流洁
+  term_en: Source Clear Stream Clean
+  definition_zh: 格局纯粹无破，运程顺遂
+  definition_en: Pure pattern without breakage, smooth luck cycles
+  factor_id: source_clear
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 纯杀为用
+  term_en: Pure Killing Usage
+  definition_zh: 以七杀为用神，需制伏
+  definition_en: Using Seven Killings as Use-God, requiring control
+  factor_id: pure_killing_usage
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 党杀
+  term_en: Partisan to Killing
+  definition_zh: 财星生助七杀，增加凶性
+  definition_en: Wealth generating Killing, increasing malevolence
+  factor_id: wealth_supports_killing
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 官化为鬼
+  term_en: Officer Transforms to Ghost
+  definition_zh: 官杀混杂或官多变杀，由吉变凶
+  definition_en: Officer/Killing mixed turning auspicious to inauspicious
+  factor_id: officer_transforms_ghost
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 财神脱局
+  term_en: Wealth God Escaping Pattern
+  definition_zh: 财星受克或失令，格局败坏
+  definition_en: Wealth Star controlled or losing command, breaking pattern
+  factor_id: wealth_escaping_pattern
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 逢官看财
+  term_en: Meeting Officer Check Wealth
+  definition_zh: 见官星需看有无财星相生
+  definition_en: Seeing Officer requires checking Wealth for generation
+  factor_id: officer_wealth_generation
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 逢杀看印
+  term_en: Meeting Killing Check Seal
+  definition_zh: 见杀星需看有无印绶化解
+  definition_en: Seeing Killing requires checking Seal for transformation
+  factor_id: killing_seal_transformation
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 六格
+  term_en: Six Patterns
+  definition_zh: 子平法六种基本格局
+  definition_en: Six fundamental patterns in Ziping method
+  factor_id: six_patterns
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 杀生印
+  term_en: Killing Generates Seal
+  definition_zh: 七杀生印绶，印绶生身，化凶为吉
+  definition_en: Seven Killings generating Seal, Seal generating Self
+  factor_id: killing_generating_seal
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 财生杀
+  term_en: Wealth Generates Killing
+  definition_zh: 财星生助七杀，助纣为虐
+  definition_en: Wealth generating Killings, increasing danger
+  factor_id: wealth_generates_killing
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 官喜露
+  term_en: Officer Likes Exposure
+  definition_zh: 正官透出天干显贵气
+  definition_en: Direct Officer exposed in Stems showing nobility
+  factor_id: officer_exposed
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 财要藏
+  term_en: Wealth Wants Hiding
+  definition_zh: 财星宜藏于地支免劫
+  definition_en: Wealth Star hidden in Branches to avoid Robbery
+  factor_id: wealth_hidden
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 调候
+  term_en: Climate Adjustment
+  definition_zh: 寒暖燥湿需水火既济
+  definition_en: Cold/Warm/Dry/Wet needing Water/Fire balance
+  factor_id: climate_adjustment
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 紫袍金带
+  term_en: Purple Robe Gold Belt
+  definition_zh: 高官显贵的服饰代称
+  definition_en: Attire of high-ranking officials
+  factor_id: high_rank_symbol
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 过房
+  term_en: Adoption/Changing House
+  definition_zh: 过继给他人抚养
+  definition_en: Being adopted by others
+  factor_id: adoption
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 偷生
+  term_en: Secret Birth
+  definition_zh: 非婚生子女
+  definition_en: Illegitimate birth
+  factor_id: illegitimate_birth
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 母明父暗
+  term_en: Mother Clear Father Obscure
+  definition_zh: 印星透出，财星伏藏或缺失
+  definition_en: Seal exposed, Wealth hidden/missing
+  factor_id: mother_clear_father_obscure
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 顶双灵
+  term_en: Double Spirit Crown
+  definition_zh: 头顶有两个发旋
+  definition_en: Two hair whorls on the crown
+  factor_id: double_crown
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 心镜歌
+  term_en: Heart Mirror Ode
+  definition_zh: 如镜照心的命理歌诀
+  definition_en: An ode that reflects fate principles like a mirror in the heart
+  factor_id: heart_mirror_ode
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 福元
+  term_en: Fortune Source
+  definition_zh: 命局福气之源，多指财官或月令
+  definition_en: Source of fortune, often referring to Wealth/Officer or Month Command
+  factor_id: fortune_source
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 寿元
+  term_en: Longevity Element
+  definition_zh: 主寿命之神，通常指食神或日主气数
+  definition_en: Spirit ruling lifespan, usually Eating God or Day Master's Qi
+  factor_id: longevity_element
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 飞天禄马
+  term_en: Flying Sky Salary Horse
+  definition_zh: 柱中无官，用冲合之法暗取官星
+  definition_en: Pattern extracting hidden Officer star via clashing without overt
+    Officer
+  factor_id: flying_sky_salary_horse
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 阳刃见杀
+  term_en: Yang Blade Meeting Killing
+  definition_zh: 羊刃与七杀配合，主武贵
+  definition_en: Yang Blade combined with Seven Killings, implying military nobility
+  factor_id: yang_blade_wields_killing
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 妖祥
+  term_en: Auspicious & Inauspicious
+  definition_zh: 吉凶祸福之总称
+  definition_en: General term for fortune and misfortune
+  factor_id: auspicious_inauspicious
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 拱格
+  term_en: Embracing Pattern
+  definition_zh: 拱禄拱贵等虚拱格局
+  definition_en: Patterns embracing hidden Salary or Nobility
+  factor_id: embracing_pattern
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 魁罡
+  term_en: Kui Gang
+  definition_zh: 庚辰庚戌壬辰壬戌四日
+  definition_en: 'Four special days: Geng-Chen, Geng-Xu, Ren-Chen, Ren-Xu'
+  factor_id: kui_gang_pattern
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 贪合忘杀
+  term_en: Greedy Combination Forgetting Killing
+  definition_zh: 合神化解七杀之凶性
+  definition_en: Combination neutralizing Seven Killings' malevolence
+  factor_id: greedy_combination
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 络绎赋
+  term_en: Continuous Ode
+  definition_zh: 论述命理脉络的赋文
+  definition_en: Ode discussing the continuous threads of fate principles
+  factor_id: continuous_ode
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 财党杀
+  term_en: Wealth Partisan to Killing
+  definition_zh: 财星生助七杀克身
+  definition_en: Wealth generating Killings to attack Self
+  factor_id: wealth_partisan_killing
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 纯阳纯阴
+  term_en: Pure Yang / Pure Yin
+  definition_zh: 八字全阳或全阴，主孤寡
+  definition_en: Eight Characters all Yang or all Yin, implying solitude
+  factor_id: pure_yin_yang
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 马入妻宫
+  term_en: Horse Entering Wife Palace
+  definition_zh: 日支坐驿马，主妻能干或妻家远
+  definition_en: Day Branch sitting on Post Horse, implying capable wife or distant
+    marriage
+  factor_id: horse_wife_palace
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 相心赋
+  term_en: Ode on Physiognomy and Mind
+  definition_zh: 论述心性与外貌的赋文
+  definition_en: Ode discussing character and physical appearance
+  factor_id: physiognomy_mind_ode
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 恺悌
+  term_en: Benevolent and Brotherly
+  definition_zh: 和乐平易，形容官星心性
+  definition_en: Harmonious and easy-going, describing Officer star
+  factor_id: benevolent_brotherly
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 佛口蛇心
+  term_en: Buddha's Mouth Snake's Heart
+  definition_zh: 口甜心毒，形容五阴会局或阴煞重
+  definition_en: Sweet words but malicious heart, describing Yin patterns
+  factor_id: buddha_mouth_snake_heart
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 始勤终惰
+  term_en: Diligent Start Lazy Finish
+  definition_zh: 做事虎头蛇尾，形容枭印心性
+  definition_en: Starting well but finishing poorly, describing Owl star
+  factor_id: start_diligent_end_lazy
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 玄机赋
+  term_en: Ode on Mysterious Principles
+  definition_zh: 论述命理玄妙机制的赋文
+  definition_en: Ode discussing mysterious fate principles
+  factor_id: mysterious_principles_ode
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 有格不正
+  term_en: Pattern Not Proper
+  definition_zh: 格局存在但配置不当
+  definition_en: Pattern exists but configuration improper
+  factor_id: improper_pattern
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 假杀为权
+  term_en: Borrowed Killing as Authority
+  definition_zh: 七杀有制化为权贵
+  definition_en: Killing controlled transforms to authority
+  factor_id: borrowed_killing_authority
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 伤官伤尽
+  term_en: Injury Injures Fully
+  definition_zh: 四柱无官星，伤官独旺
+  definition_en: No Officer in pillars, Injury alone prosperous
+  factor_id: injury_fully
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 中和
+  term_en: Central Harmony
+  definition_zh: 五行平衡，不偏不倚
+  definition_en: Five Elements balanced, neither excessive nor deficient
+  factor_id: central_harmony
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 过房入舍
+  term_en: Adoption / House Transfer
+  definition_zh: 通过年、月宫位变化和父母星被取代推断过继寄养
+  definition_en: Adoption or fosterage inferred from shifts in year/month palaces
+    and parental stars
+  factor_id: adoption_follow_mother
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 随母从夫
+  term_en: Following Mother and Stepfather
+  definition_zh: 偏财空、印旺，多随母改姓或随继父生活
+  definition_en: Following mother and stepfather when Indirect Wealth is void and
+    Seal strong
+  factor_id: follow_mother_stepfather
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 借宫所生
+  term_en: Born in Borrowed Palace
+  definition_zh: 出生宫非亲生之宫，多为寄人篱下
+  definition_en: Birth in a "borrowed" branch, living under others' roof
+  factor_id: borrowed_palace_birth
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 桃花带杀
+  term_en: Peach Blossom with Killing
+  definition_zh: 桃花与七杀同现，主酒色纵欲、婚恋混乱
+  definition_en: Peach Blossom plus Seven Killings, indicating lust and chaotic relationships
+  factor_id: peach_blossom_killing
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 天月二德
+  term_en: Heavenly & Monthly Virtues
+  definition_zh: 能解凶厄的两大吉煞
+  definition_en: Two benevolent stars that mitigate misfortune
+  factor_id: heavenly_monthly_virtues
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 消息
+  term_en: Waxing–Waning Phases
+  definition_zh: 五行由生旺至衰死的进退变化过程
+  definition_en: The waxing and waning phases from birth to decline and death of the
+    Five Elements
+  factor_id: waxing_waning_phases
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 阳生阴死
+  term_en: Yang Birth, Yin Death
+  definition_zh: 阳在某地得生而阴在此地为死的状态对比
+  definition_en: Positions where Yang thrives while Yin dies
+  factor_id: yang_birth_yin_death
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 身杀两停
+  term_en: Balanced Self and Killing
+  definition_zh: 日主与七杀力量相当、彼此制衡的状态
+  definition_en: State where Day Master and Seven Killings are mutually balanced
+  factor_id: self_killing_balanced
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 五行太甚
+  term_en: Excessive Five Elements
+  definition_zh: 某一五行力量过强以致失衡
+  definition_en: Any single element becoming overly strong and unbalanced
+  factor_id: excessive_elements
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 中和之气
+  term_en: Central Harmony Qi
+  definition_zh: 五行不偏不倚、寒热温凉皆得其中的整体气象
+  definition_en: Overall balanced Qi where the Five Elements are neither excessive
+    nor deficient
+  factor_id: central_harmony_qi
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 造微
+  term_en: Subtle Principles
+  definition_zh: 深入细微探究精微之理
+  definition_en: Deeply penetrate subtle principles
+  factor_id: subtle_principles
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 两仪
+  term_en: Two Forms
+  definition_zh: 天地阴阳
+  definition_en: Heaven-Earth Yin-Yang
+  factor_id: two_forms
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 三才
+  term_en: Three Powers
+  definition_zh: 天地人
+  definition_en: Heaven-Earth-Human
+  factor_id: three_powers
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 格清局正
+  term_en: Clear Pattern Proper Structure
+  definition_zh: 格局清纯局势端正
+  definition_en: Pattern pure structure proper
+  factor_id: clear_pattern_proper
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 匀配均调
+  term_en: Evenly Matched Harmoniously Balanced
+  definition_zh: 五行配比均匀调和
+  definition_en: Five Elements evenly proportioned balanced
+  factor_id: evenly_matched
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 人鉴论
+  term_en: Treatise on Reading People
+  definition_zh: 通过四柱与运限综合判断人的贵贱、性情与命运的总论
+  definition_en: A general treatise on assessing a person's status, character, and
+    fate via Four Pillars and luck
+  factor_id: reading_people_treatise
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 禄马同乡
+  term_en: Salary and Horse Co-Located
+  definition_zh: 禄位与驿马同地，会合而主腾达迁升
+  definition_en: Co-location of salary star and Post Horse, indicating promotion and
+    mobility
+  factor_id: salary_horse_co_located
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 杀印重旺
+  term_en: Strong Killing and Seal
+  definition_zh: 七杀与印绶俱旺、有制化，为入科名、立功名之象
+  definition_en: Strong Killing and Seal with proper control, indicating academic
+    or official success
+  factor_id: killing_seal_strong
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 劫财夺马
+  term_en: Rob Wealth Robs Horse
+  definition_zh: 劫财星夺禄马，主破财、失势与贫困
+  definition_en: Rob Wealth star seizing salary/horse, indicating loss of wealth and
+    status
+  factor_id: rob_wealth_robs_horse
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 学堂华盖
+  term_en: Study Hall & Canopy
+  definition_zh: 学堂主聪明好学，华盖主孤高清雅，多主学术或宗教倾向
+  definition_en: Study Hall indicates learning talent; Canopy indicates solitary,
+    refined temperament
+  factor_id: study_hall_canopy
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 孤鸾烟花
+  term_en: Solitary Phoenix & Flower Alley
+  definition_zh: 孤鸾、烟花等神煞，多主婚姻不齐、情欲牵缠
+  definition_en: Stars indicating unstable marriage and entanglement in romance/pleasure
+  factor_id: solitary_phoenix_flower
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 纯粹格局
+  term_en: Pure Pattern
+  definition_zh: 五行相生有情、财官印食分明、不杂战的清纯格局
+  definition_en: A clear chart where the Five Elements cooperate and key stars are
+    well-ordered
+  factor_id: pure_pattern
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 战争格局
+  term_en: Warring Pattern
+  definition_zh: 刑冲克害、凶神杂战、格局反复被破坏的结构
+  definition_en: A conflicted pattern dominated by clashes, punishments, and destructive
+    stars
+  factor_id: warring_pattern
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 福神
+  term_en: Auspicious Deities
+  definition_zh: 财、官、印、食、贵人、禄马等带来富贵福泽之星
+  definition_en: Benefic stars such as Wealth, Officer, Seal, Food God, Nobles, and
+    Horses bringing fortune
+  factor_id: auspicious_deities
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 祸神
+  term_en: Malefic Deities
+  definition_zh: 劫刃、七杀四凶、大耗官符等带来破败祸患之星
+  definition_en: Malefic stars like Rob Wealth, Blades, harsh Killings, Loss, and
+    lawsuit indicators
+  factor_id: malefic_deities
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 有情/无情
+  term_en: Harmonious vs Ruthless Qi
+  definition_zh: 干支相生相扶为有情，刑冲破害为无情
+  definition_en: Harmonious mutual support vs ruthless clashes among stems and branches
+  factor_id: harmonious_ruthless
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 生死诀
+  term_en: Life–Death Key
+  definition_zh: 五行在不同运限中的生旺衰死判法
+  definition_en: Key for judging Five-Element life, peak, decline, and death across
+    luck cycles
+  factor_id: life_death_key
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 官杀混杂
+  term_en: Mixed Officer–Killing
+  definition_zh: 正官与七杀并见、互相牵制而难以纯用的结构
+  definition_en: Configuration where Proper Officer and Seven Killings coexist and
+    conflict
+  factor_id: mixed_officer_killing
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 财多身弱
+  term_en: Excess Wealth on Weak Body
+  definition_zh: 日主弱而财星过多、常压身之象
+  definition_en: Weak Day Master overloaded by abundant Wealth stars
+  factor_id: excess_wealth_weak_body
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 印被财破
+  term_en: Seal Destroyed by Wealth
+  definition_zh: 印绶被财星克制，以至失去护身作用
+  definition_en: Seal stars weakened or destroyed by Wealth, losing their protective
+    function
+  factor_id: seal_destroyed_wealth
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 伤官见官
+  term_en: Injuring Officer Meets Officer
+  definition_zh: 伤官星再遇正官，主刑戮官非等大祸
+  definition_en: Pattern where Injuring Officer meets Direct Officer, indicating major
+    legal or status crises
+  factor_id: injury_meets_officer
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 挈要捷驰玄妙诀
+  term_en: Essential Rapid Secrets Ode
+  definition_zh: 围绕日主财官格局的速断总诀
+  definition_en: An ode of rapid rules around the Day Master's Wealth–Officer structures
+  factor_id: rapid_secrets_ode
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 官杀两停
+  term_en: Balanced Officer–Killing
+  definition_zh: 官与七杀力量相当、互制互成的状态
+  definition_en: State where Proper Officer and Seven Killings are balanced and mutually
+    shaped
+  factor_id: balanced_officer_killing
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 弃命从格
+  term_en: Abandoning Self to Follow Pattern
+  definition_zh: 身弱无根而从财/从官/从杀的格局
+  definition_en: Patterns where a weak Day Master follows Wealth, Officer, or Killing
+  factor_id: abandon_follow_pattern
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 阳刃/金神
+  term_en: Yang Blade / Metal God
+  definition_zh: 强势攻伐之星，与杀印、火土关系密切
+  definition_en: Aggressive stars often needing control by Seal or Fire/Earth
+  factor_id: yang_blade_metal_god
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 桃花滚浪
+  term_en: Raging Peach Blossom
+  definition_zh: 桃花极旺、风流酒色之象
+  definition_en: Overabundant Peach Blossom indicating a life of sensual entanglements
+  factor_id: raging_peach_blossom
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 渊源集说
+  term_en: Collected Sayings from Sources
+  definition_zh: 汇总财官印杀阳刃等核心神煞吉凶法则的警句集
+  definition_en: Compendium of aphoristic rules on Wealth/Officer/Seal/Killing/Blade
+  factor_id: collected_sayings
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 天月二德
+  term_en: Heaven–Moon Virtues
+  definition_zh: 天德月德神煞，逢凶化吉遇难成祥之星
+  definition_en: Virtue stars that neutralize danger and turn disasters into blessings
+  factor_id: heaven_moon_virtues
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 杀化为印
+  term_en: Killing Transforms to Seal
+  definition_zh: 七杀被印绶制化生身变凶为贵
+  definition_en: Killing controlled by Seal transforms from danger into rank
+  factor_id: killing_transforms_seal
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 三偏三正
+  term_en: Three Indirect Three Direct
+  definition_zh: 三偏财或三正官等配置可至一品高官
+  definition_en: Three Indirect or Direct configurations for top rank
+  factor_id: three_indirect_direct
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 用神选择
+  term_en: Use God Selection
+  definition_zh: '"有福用彼无时用身"——根据吉凶格局选取用神'
+  definition_en: 'Selecting use god: use benefic stars when present, use body when
+    not'
+  factor_id: use_god_selection
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 科甲
+  term_en: Examination Honors
+  definition_zh: 科举功名，包括进士榜眼状元等功名等级
+  definition_en: Imperial examination degrees including jinshi/bangyan/zhuangyuan
+  factor_id: examination_honors
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 魁罡岁驾
+  term_en: Kuigang-Year Post
+  definition_zh: 魁罡格配岁驾神煞，主学问与功名
+  definition_en: Kuigang pattern with Year Post spirit, indicates learning and honors
+  factor_id: kuigang_year_post
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 从魁印
+  term_en: Congkui-Seal
+  definition_zh: 从魁星配印绶，主文昌功名
+  definition_en: Congkui Star with Seal, indicates literary honors
+  factor_id: congkui_seal
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 木火通明
+  term_en: Wood-Fire Illumination
+  definition_zh: 木火相生调和，主文采与科名
+  definition_en: Wood-Fire mutual generation and harmony, indicates literary talent
+  factor_id: wood_fire_illumination
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 杀印相生成魁
+  term_en: Killing-Seal Mutual Generation as Kui
+  definition_zh: 七杀配印绶化煞为权，成就魁星功名
+  definition_en: Seven Killings with Seal transforms danger into rank as Kui Star
+  factor_id: killing_seal_kui
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 四言独步
+  term_en: Four-Character Ode
+  definition_zh: 以四言格式总括子平命理核心法则的口诀集
+  definition_en: Compendium of Zi Ping core principles in four-character verse
+  factor_id: four_character_ode
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 四生四墓四败
+  term_en: Four Sheng-Mu-Bai Bureaus
+  definition_zh: 寅申巳亥为四生、辰戌丑未为四墓、子午卯酉为四败
+  definition_en: Four Sheng/Four Mu/Four Bai地支configurations with distinct characteristics
+  factor_id: four_sheng_mu_bai
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 进气退气
+  term_en: Advancing-Retreating Qi
+  definition_zh: 五行在时令中的旺衰进退状态
+  definition_en: Waxing-waning states of Five Elements in seasonal timing
+  factor_id: advancing_retreating_qi
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 天元一气
+  term_en: Heaven Element Unity
+  definition_zh: 四柱天干同类一气，主位列三公
+  definition_en: Four Pillars' Heavenly Stems unified in one element, indicates ministerial
+    rank
+  factor_id: heaven_element_unity
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 弃命从杀
+  term_en: Abandon Self Follow Killing
+  definition_zh: 日主极弱无根，放弃自身顺从七杀之势
+  definition_en: Day Master extremely weak rootless, abandons self to follow Seven
+    Killings势
+  factor_id: abandon_follow_killing
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 弃命从财
+  term_en: Abandon Self Follow Wealth
+  definition_zh: 日主极弱无根，放弃自身顺从财星之势
+  definition_en: Day Master extremely weak rootless, abandons self to follow Wealth势
+  factor_id: abandon_follow_wealth
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 从格
+  term_en: Following Pattern
+  definition_zh: 日主极弱顺从外势（财官杀）的特殊格局
+  definition_en: Special pattern where weak Day Master follows external势(Wealth/Officer/Killing)
+  factor_id: following_pattern
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 会财会杀
+  term_en: Convene Wealth/Killing
+  definition_zh: 三合六合使财或杀成势聚集
+  definition_en: Three-Harmony or Six-Harmony making Wealth or Killing converge into势
+  factor_id: convene_wealth_killing
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 根气破格
+  term_en: Root-Qi Breaks Pattern
+  definition_zh: 从格中若有一点根气反破格致凶
+  definition_en: In Following Pattern, even slight root-qi breaks pattern causing
+    disaster
+  factor_id: root_qi_breaks
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 五言独步
+  term_en: Five-Character Ode
+  definition_zh: 以五言格式总结子平命理核心速断法则的口诀集
+  definition_en: Compendium of Zi Ping quick-judgment rules in five-character verse
+  factor_id: five_character_ode
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 有病方为贵
+  term_en: Having Illness Brings Nobility
+  definition_zh: 格局有病反需去病才成贵格
+  definition_en: Patterns with flaws require removing flaws to achieve nobility
+  factor_id: illness_brings_nobility
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 有杀只论杀
+  term_en: Having Killing Only Discuss Killing
+  definition_zh: 命中有七杀则以杀为第一要务
+  definition_en: When Seven Killings present, make it first priority
+  factor_id: killing_first_principle
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 十二长生死地
+  term_en: Twelve Longevity Death Locations
+  definition_zh: 十天干在十二地支的生旺死绝位置
+  definition_en: Ten Stems' birth-vigor-death-extinction positions in Twelve Branches
+  factor_id: twelve_longevity_death
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 时上格
+  term_en: Hour-Position Patterns
+  definition_zh: 以时柱为格局核心的特殊格局（如时上偏财、时上胞胎）
+  definition_en: Special patterns centered on Hour Pillar (e.g. Hour Indirect Wealth,
+    Hour Embryo)
+  factor_id: hour_position_patterns
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 五行无正形
+  term_en: Five Elements No Fixed Form
+  definition_zh: 五行状态灵活变化，无固定生克模式
+  definition_en: Five Elements' states flexibly change, no fixed generation-restraint
+    patterns
+  factor_id: five_elements_no_fixed
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 死木活木
+  term_en: Dead-Live Wood
+  definition_zh: 木的生死状态决定其生克效果
+  definition_en: Wood's dead-alive state determines its generation-restraint effects
+  factor_id: dead_live_wood
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 五行寒温
+  term_en: Five Elements Cold-Warm
+  definition_zh: 五行气候调候，寒则不流不发不生不烈不镕
+  definition_en: 'Five Elements climate调候: cold则no flow/germinate/grow/blaze/melt'
+  factor_id: five_elements_cold_warm
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 五行中和
+  term_en: Five Elements Harmony
+  definition_zh: 五行平衡不太过不不及的理想状态
+  definition_en: Five Elements balanced state, neither excess nor deficiency
+  factor_id: five_elements_harmony
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 固本胜固用
+  term_en: Fixing Foundation Over Use
+  definition_zh: 强调根本（日主身强）胜于枝叶（用神配置）
+  definition_en: Emphasizes foundation (Day Master strength) over branches (Use God
+    configuration)
+  factor_id: fix_foundation_use
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 珞琭子消息赋
+  term_en: Luo-Lu-Zi Message Rhapsody
+  definition_zh: 唐代珞琭子命理总论赋文，子平法理论源头
+  definition_en: Tang dynasty Luo-Lu-Zi命理treatise, theoretical source for Zi Ping
+    method
+  factor_id: luoluzi_rhapsody
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 折除三日为年
+  term_en: Fold-Reduce Three Days as Year
+  definition_zh: 运程推算法：一年24气72候，三日为一年
+  definition_en: 'Fortune calculation: one year 24 terms 72 periods, three days as
+    one year'
+  factor_id: fold_reduce_calculation
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 五行绝处禄马
+  term_en: Five Elements Extinction Salary-Horse
+  definition_zh: 五行临绝地反而建贵，绝处有禄马
+  definition_en: Five Elements at extinction地反而build nobility, extinction处has salary-horse
+  factor_id: extinction_salary_horse
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 将星扶德天乙加临
+  term_en: General Star Assists Virtue Tianyi Arrives
+  definition_zh: 吉神助力的贵格配置
+  definition_en: Auspicious spirits assist的nobility configuration
+  factor_id: general_star_tianyi
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 未解曲通妙须神悟
+  term_en: Not Yet Grasped Flexible-Connection Wonderfulness Requires Divine Understanding
+  definition_zh: 命理灵活运用需神悟不可机械
+  definition_en: 命理flexible application requires divine understanding, not mechanical
+  factor_id: divine_understanding
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 八字撮要法
+  term_en: Eight Characters Essential Summary Method
+  definition_zh: 用神取用与忌讳的核心口诀总结
+  definition_en: Core formula summary of use-god selection and taboos
+  factor_id: essential_summary
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 用神不可伤破劫冲
+  term_en: Use-God Cannot Be Harmed-Broken-Robbed-Clashed
+  definition_zh: 用神保护第一要务
+  definition_en: Use-god protection as first priority
+  factor_id: use_god_protection
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 七杀须制不可太过
+  term_en: Seven Killings Must Control Not Excessive
+  definition_zh: 七杀需制伏但制过反凶
+  definition_en: Seven Killings need control but excessive control反fierce
+  factor_id: killing_control
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 伤官须静
+  term_en: Injury Officer Must Be Quiet
+  definition_zh: 伤官不宜动旺需静养
+  definition_en: Injury Officer not宜vigorous需quiet cultivation
+  factor_id: injury_quiet
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 子平万法宗
+  term_en: Zi Ping Ten Thousand Methods Patriarch
+  definition_zh: 子平法核心宗旨
+  definition_en: Zi Ping method core tenet
+  factor_id: ziping_core
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 格局生死
+  term_en: Pattern Life-Death
+  definition_zh: 各格局在岁运冲破下的生死判断
+  definition_en: Each pattern's life-death judgment when clashed and broken by year-fortune
+    cycles
+  factor_id: pattern_life_death
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 印绶见财行财运死绝
+  term_en: Seal Meets Wealth Travels Wealth Fortune Death-Extinction
+  definition_zh: 印绶格最忌财运且死绝
+  definition_en: Seal pattern most fears Wealth fortune combined with death-extinction
+    phases
+  factor_id: seal_wealth_death
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 岁运相并
+  term_en: Year-Fortune Mutually Join
+  definition_zh: 流年与大运同时冲克
+  definition_en: Fleeting year and major fortune cycles simultaneously clash and restrain
+  factor_id: year_fortune_join
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 填实
+  term_en: Filled-Solid
+  definition_zh: 拱禄拱贵格被填实破格
+  definition_en: Arched-Salary-Noble pattern broken when the gap is filled
+  factor_id: filled_solid
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 一不可拘二须敢断
+  term_en: Not Rigidly Constrained Must Dare Judge
+  definition_zh: 判断原则：不拘泥须果断
+  definition_en: 'Judgment principle: not rigidly bound but must judge decisively'
+  factor_id: dare_judge
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 会要命书说
+  term_en: 'Essentials of Fate Calculation Texts: A Statement'
+  definition_zh: 全书编纂说明与传承脉络总结
+  definition_en: Full book compilation explanation and transmission lineage summary
+  factor_id: essentials_statement
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 穷尽天地精微
+  term_en: Exhausted Heaven-Earth Subtle Essences
+  definition_zh: 先贤已彻底阐明命理精微之理
+  definition_en: Predecessors have thoroughly expounded all subtle essences of fate
+    calculation principles
+  factor_id: exhausted_essences
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 渊海渊源
+  term_en: Yuanhai and Yuanyuan
+  definition_zh: 两部命理经典书名
+  definition_en: Two classical fate calculation texts
+  factor_id: yuanhai_yuanyuan
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 删繁去简
+  term_en: Eliminate Redundancies Retain Essentials
+  definition_zh: 编纂原则：删除繁复保留精要
+  definition_en: 'Compilation principle: eliminate redundancies and retain essentials'
+  factor_id: eliminate_retain
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null
+- term_zh: 永为矜式
+  term_en: Eternally Serve as Exemplar
+  definition_zh: 永久作为典范模式
+  definition_en: Eternally serve as an exemplar model
+  factor_id: eternal_exemplar
+  status: existing
+  source_book: 渊海子平
+  source_chapter: null

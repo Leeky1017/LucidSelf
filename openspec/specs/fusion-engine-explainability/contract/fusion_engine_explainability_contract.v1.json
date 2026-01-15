@@ -1,0 +1,62 @@
+{
+  "contract_id": "fusion-engine-explainability",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["engine_id", "version_id", "corpus_release_id"],
+  "entities": [
+    {
+      "name": "ExplanationRecord",
+      "description": "融合决策解释记录（最小字段集合）",
+      "fields": [
+        { "name": "explanation_id", "type": "string", "required": true, "notes": "解释记录标识（唯一）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "融合引擎版本标识（用于可复现与可审计）" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布标识（用于可复现回放）" },
+        { "name": "user_id", "type": "string", "required": false, "notes": "用户标识（若适用；隔离边界）" },
+        { "name": "decision_id", "type": "string", "required": true, "notes": "融合决策标识（可用于回放定位）" },
+        { "name": "narrative_output_id", "type": "string", "required": false, "notes": "关联叙述输出标识（若适用）" },
+        { "name": "playback_input_set_id", "type": "string", "required": true, "notes": "回放输入集标识（用于可复现回放）" },
+        { "name": "confidence_score", "type": "number", "required": false, "notes": "置信度（0..1，若适用）" },
+        { "name": "uncertainty", "type": "object", "required": false, "notes": "不确定性/来源说明（结构化，若适用）" },
+        { "name": "evidence_alignments", "type": "array<object>", "required": false, "notes": "证据对齐引用集合（若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "EvidenceAlignment",
+      "description": "证据对齐引用（最小字段集合）",
+      "fields": [
+        { "name": "alignment_id", "type": "string", "required": true, "notes": "对齐标识（唯一）" },
+        { "name": "explanation_id", "type": "string", "required": true, "notes": "关联解释记录" },
+        { "name": "chain_id", "type": "string", "required": true, "notes": "关联证据链（对齐 citations-evidence-protocol 的 EvidenceChain.chain_id）" },
+        { "name": "anchor_ids", "type": "array<string>", "required": false, "notes": "引用锚点集合（若适用）" },
+        { "name": "score", "type": "number", "required": false, "notes": "对齐评分（若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "PlaybackInputSet",
+      "description": "可复现回放输入集（最小字段集合）",
+      "fields": [
+        { "name": "playback_input_set_id", "type": "string", "required": true, "notes": "回放输入集标识（唯一）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "融合引擎版本标识" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布标识" },
+        { "name": "user_id", "type": "string", "required": false, "notes": "用户标识（若适用）" },
+        { "name": "input_items", "type": "array<object>", "required": true, "notes": "回放输入项集合（结构化引用/快照，最小化）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_ENGINE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_CORPUS_RELEASE_ID", "category": "client_error", "retryable": false },
+    { "code": "OUTPUT_SCHEMA_INVALID", "category": "validation", "retryable": false },
+    { "code": "CITATION_NOT_RESOLVABLE", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

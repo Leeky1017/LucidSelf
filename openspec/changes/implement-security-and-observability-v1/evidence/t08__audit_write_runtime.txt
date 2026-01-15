@@ -1,0 +1,23 @@
+$ PYTHONPATH=. .venv/bin/python - <<'PY'
+import os
+import tempfile
+
+from backend.core.audit import create_audit_event, write_audit_event
+from backend.core.observability.context import bind_context, reset_context
+from backend.core.observability.tracing import bind_trace_id, reset_trace_id
+
+with tempfile.TemporaryDirectory() as td:
+    os.environ['AUDIT_LOG_DIR'] = td
+    trace_token = bind_trace_id('trace_audit_demo')
+    ctx_tokens = bind_context(request_id='req_audit_demo', user_id='user_demo', org_id='org_demo', engine_id='cross-system-fusion', version_id='1.2.3')
+    try:
+        ev = create_audit_event(event_type='ACCESS_CONTROL', result='DENY', capability='security-privacy-compliance', rejection_reason_code='UNAUTHORIZED', summary='demo deny event')
+        path = write_audit_event(ev)
+        print('path', path)
+        print('first_line', open(path, encoding='utf-8').read().splitlines()[0])
+    finally:
+        reset_context(ctx_tokens)
+        reset_trace_id(trace_token)
+PY
+path /tmp/tmpvw9m9sn5/security-privacy-compliance.ndjson
+first_line {"audit_id": "aud_e6247d7c4ddc", "created_at": "2025-12-26T12:19:38.513967Z", "event_type": "ACCESS_CONTROL", "result": "DENY", "rejection_reason_code": "UNAUTHORIZED", "user_id": "user_demo", "org_id": "org_demo", "version_id": "1.2.3", "request_id": "req_audit_demo", "trace_id": "trace_audit_demo", "summary": "demo deny event"}

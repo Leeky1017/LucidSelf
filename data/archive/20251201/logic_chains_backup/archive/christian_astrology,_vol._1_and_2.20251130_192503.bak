@@ -1,0 +1,584 @@
+chain_id: chain_cav1a2
+book_id: christian_astrology,_vol._1_and_2
+nodes:
+- node_id: n_cav1a2_source_text_0
+  snippet_ids:
+  - ns_lilly_001
+  - ns_lilly_002
+  - ns_lilly_003
+  - ns_lilly_007
+  - ns_lilly_008
+  - ns_lilly_011
+  - ns_lilly_012
+  - ns_lilly_015
+  - ns_lilly_016
+  - ns_lilly_017
+  - ns_lilly_019
+  - ns_lilly_020
+  role: 主干
+  condition: null
+  summary: horary_definition
+  metadata:
+    source_ref: Source Text
+    snippet_count: 12
+- node_id: n_cav1a2_english_paraphrase_1
+  snippet_ids:
+  - ns_lilly_004
+  - ns_lilly_005
+  - ns_lilly_006
+  - ns_lilly_009
+  - ns_lilly_010
+  - ns_lilly_013
+  - ns_lilly_014
+  - ns_lilly_018
+  - ns_lilly_021
+  - ns_lilly_022
+  role: 主干
+  condition: null
+  summary: synchronicity
+  metadata:
+    source_ref: English Paraphrase
+    snippet_count: 10
+- node_id: n_cav1a2_christian_astrology_1st_house_2
+  snippet_ids:
+  - ns_lilly_1A_001
+  - ns_lilly_1A_002
+  role: 主干
+  condition: null
+  summary: longevity_judgment
+  metadata:
+    source_ref: Christian Astrology 1st House
+    snippet_count: 2
+- node_id: n_cav1a2_christian_astrology_2nd_house_3
+  snippet_ids:
+  - ns_lilly_2nd_001
+  - ns_lilly_2nd_002
+  role: 主干
+  condition: null
+  summary: wealth_judgment
+  metadata:
+    source_ref: Christian Astrology 2nd House
+    snippet_count: 2
+- node_id: n_cav1a2_christian_astrology_3rd_house_4
+  snippet_ids:
+  - ns_lilly_3rd_001
+  - ns_lilly_3rd_002
+  role: 主干
+  condition: null
+  summary: sibling_harmony
+  metadata:
+    source_ref: Christian Astrology 3rd House
+    snippet_count: 2
+- node_id: n_cav1a2_christian_astrology_4th_house_5
+  snippet_ids:
+  - ns_lilly_4th_001
+  - ns_lilly_4th_002
+  role: 主干
+  condition: null
+  summary: property_quality
+  metadata:
+    source_ref: Christian Astrology 4th House
+    snippet_count: 2
+- node_id: n_cav1a2_christian_astrology_5th_house_6
+  snippet_ids:
+  - ns_lilly_5th_001
+  - ns_lilly_5th_002
+  role: 主干
+  condition: null
+  summary: fertility_judgment
+  metadata:
+    source_ref: Christian Astrology 5th House
+    snippet_count: 2
+- node_id: n_cav1a2_christian_astrology_marriage_7
+  snippet_ids:
+  - ns_lilly_023
+  - ns_lilly_024
+  - ns_lilly_025
+  - ns_lilly_026
+  role: 主干
+  condition: null
+  summary: horary_marriage
+  metadata:
+    source_ref: Christian Astrology Marriage
+    snippet_count: 4
+- node_id: n_cav1a2_christian_astrology_career_8
+  snippet_ids:
+  - ns_lilly_027
+  - ns_lilly_028
+  - ns_lilly_029
+  role: 主干
+  condition: null
+  summary: horary_career
+  metadata:
+    source_ref: Christian Astrology Career
+    snippet_count: 3
+- node_id: n_cav1a2_christian_astrology_lost_objec_9
+  snippet_ids:
+  - ns_lilly_030
+  - ns_lilly_031
+  - ns_lilly_032
+  role: 主干
+  condition: null
+  summary: horary_lost_object
+  metadata:
+    source_ref: Christian Astrology Lost Objects
+    snippet_count: 3
+- node_id: n_cav1a2_christian_astrology_health_10
+  snippet_ids:
+  - ns_lilly_033
+  - ns_lilly_034
+  - ns_lilly_035
+  role: 主干
+  condition: null
+  summary: horary_health
+  metadata:
+    source_ref: Christian Astrology Health
+    snippet_count: 3
+- node_id: n_cav1a2_christian_astrology_legal_11
+  snippet_ids:
+  - ns_lilly_036
+  - ns_lilly_037
+  - ns_lilly_038
+  role: 主干
+  condition: null
+  summary: horary_legal
+  metadata:
+    source_ref: Christian Astrology Legal
+    snippet_count: 3
+- node_id: n_cav1a2_christian_astrology_travel_12
+  snippet_ids:
+  - ns_lilly_039
+  - ns_lilly_040
+  - ns_lilly_041
+  role: 主干
+  condition: null
+  summary: horary_travel
+  metadata:
+    source_ref: Christian Astrology Travel
+    snippet_count: 3
+- node_id: n_cav1a2_christian_astrology_purchase_13
+  snippet_ids:
+  - ns_lilly_042
+  - ns_lilly_043
+  - ns_lilly_044
+  role: 主干
+  condition: null
+  summary: horary_purchase
+  metadata:
+    source_ref: Christian Astrology Purchase
+    snippet_count: 3
+- node_id: n_cav1a2_christian_astrology_ship_14
+  snippet_ids:
+  - ns_lilly_ship_001
+  - ns_lilly_ship_002
+  - ns_lilly_ship_003
+  role: 主干
+  condition: null
+  summary: ship_safety
+  metadata:
+    source_ref: Christian Astrology Ship
+    snippet_count: 3
+- node_id: n_cav1a2_christian_astrology_theft_15
+  snippet_ids:
+  - ns_lilly_theft_001
+  - ns_lilly_theft_002
+  - ns_lilly_theft_003
+  role: 主干
+  condition: null
+  summary: thief_significator
+  metadata:
+    source_ref: Christian Astrology Theft
+    snippet_count: 3
+- node_id: n_cav1a2_christian_astrology_war_16
+  snippet_ids:
+  - ns_lilly_war_001
+  - ns_lilly_war_002
+  - ns_lilly_war_003
+  role: 主干
+  condition: null
+  summary: war_structure
+  metadata:
+    source_ref: Christian Astrology War
+    snippet_count: 3
+- node_id: n_cav1a2_rectification_17
+  snippet_ids:
+  - ns_lilly_rect_001
+  - ns_lilly_rect_002
+  role: 主干
+  condition: null
+  summary: trutine
+  metadata:
+    source_ref: 'CA III #Rectification'
+    snippet_count: 2
+- node_id: n_cav1a2_hyleg_18
+  snippet_ids:
+  - ns_lilly_hyleg_001
+  - ns_lilly_hyleg_002
+  role: 主干
+  condition: null
+  summary: hyleg
+  metadata:
+    source_ref: 'CA III #Hyleg'
+    snippet_count: 2
+- node_id: n_cav1a2_temperament_19
+  snippet_ids:
+  - ns_lilly_temp_001
+  - ns_lilly_temp_002
+  role: 主干
+  condition: null
+  summary: appearance
+  metadata:
+    source_ref: 'CA III #Temperament'
+    snippet_count: 2
+- node_id: n_cav1a2_wealth_20
+  snippet_ids:
+  - ns_lilly_wealth_001
+  - ns_lilly_wealth_002
+  role: 主干
+  condition: null
+  summary: wealth
+  metadata:
+    source_ref: 'CA III #Wealth'
+    snippet_count: 2
+- node_id: n_cav1a2_marriage_21
+  snippet_ids:
+  - ns_lilly_marriage_001
+  - ns_lilly_marriage_002
+  role: 主干
+  condition: null
+  summary: marriage
+  metadata:
+    source_ref: 'CA III #Marriage'
+    snippet_count: 2
+- node_id: n_cav1a2_children_22
+  snippet_ids:
+  - ns_lilly_child_001
+  - ns_lilly_child_002
+  role: 主干
+  condition: null
+  summary: children
+  metadata:
+    source_ref: 'CA III #Children'
+    snippet_count: 2
+- node_id: n_cav1a2_career_23
+  snippet_ids:
+  - ns_lilly_career_001
+  - ns_lilly_career_002
+  role: 主干
+  condition: null
+  summary: honor
+  metadata:
+    source_ref: 'CA III #Career'
+    snippet_count: 2
+- node_id: n_cav1a2_directions_24
+  snippet_ids:
+  - ns_lilly_direct_001
+  - ns_lilly_direct_002
+  role: 主干
+  condition: null
+  summary: direction
+  metadata:
+    source_ref: 'CA III #Directions'
+    snippet_count: 2
+- node_id: n_cav1a2_planets_25
+  snippet_ids:
+  - ns_lilly_found_001
+  role: 主干
+  condition: null
+  summary: planet_system
+  metadata:
+    source_ref: 'CA I #Planets'
+    snippet_count: 1
+- node_id: n_cav1a2_nodes_26
+  snippet_ids:
+  - ns_lilly_found_002
+  role: 主干依赖
+  condition: null
+  summary: node_meaning
+  metadata:
+    source_ref: 'CA I #Nodes'
+    snippet_count: 1
+- node_id: n_cav1a2_saturn_27
+  snippet_ids:
+  - ns_lilly_sat_001
+  role: 主干
+  condition: null
+  summary: saturn_nature
+  metadata:
+    source_ref: 'CA I #Saturn'
+    snippet_count: 1
+- node_id: n_cav1a2_jupiter_28
+  snippet_ids:
+  - ns_lilly_jup_001
+  role: 主干
+  condition: null
+  summary: jupiter_nature
+  metadata:
+    source_ref: 'CA I #Jupiter'
+    snippet_count: 1
+- node_id: n_cav1a2_mars_29
+  snippet_ids:
+  - ns_lilly_mars_001
+  role: 主干
+  condition: null
+  summary: mars_nature
+  metadata:
+    source_ref: 'CA I #Mars'
+    snippet_count: 1
+- node_id: n_cav1a2_sun_30
+  snippet_ids:
+  - ns_lilly_sun_001
+  role: 主干
+  condition: null
+  summary: sun_nature
+  metadata:
+    source_ref: 'CA I #Sun'
+    snippet_count: 1
+- node_id: n_cav1a2_venus_31
+  snippet_ids:
+  - ns_lilly_venus_001
+  role: 主干
+  condition: null
+  summary: venus_nature
+  metadata:
+    source_ref: 'CA I #Venus'
+    snippet_count: 1
+- node_id: n_cav1a2_mercury_32
+  snippet_ids:
+  - ns_lilly_merc_001
+  role: 主干
+  condition: null
+  summary: mercury_nature
+  metadata:
+    source_ref: 'CA I #Mercury'
+    snippet_count: 1
+- node_id: n_cav1a2_moon_33
+  snippet_ids:
+  - ns_lilly_moon_001
+  role: 主干
+  condition: null
+  summary: moon_nature
+  metadata:
+    source_ref: 'CA I #Moon'
+    snippet_count: 1
+- node_id: n_cav1a2_signs_34
+  snippet_ids:
+  - ns_lilly_sign_001
+  - ns_lilly_sign_002
+  role: 主干
+  condition: null
+  summary: element_fire
+  metadata:
+    source_ref: 'CA I #Signs'
+    snippet_count: 2
+- node_id: n_cav1a2_houses_35
+  snippet_ids:
+  - ns_lilly_house_001
+  - ns_lilly_house_002
+  role: 主干
+  condition: null
+  summary: angular_house
+  metadata:
+    source_ref: 'CA I #Houses'
+    snippet_count: 2
+- node_id: n_cav1a2_dignities_36
+  snippet_ids:
+  - ns_lilly_dig_001
+  - ns_lilly_dig_002
+  role: 主干
+  condition: null
+  summary: domicile
+  metadata:
+    source_ref: 'CA I #Dignities'
+    snippet_count: 2
+- node_id: n_cav1a2_considerations_37
+  snippet_ids:
+  - ns_lilly_consid_001
+  - ns_lilly_consid_002
+  role: 主干
+  condition: null
+  summary: void_of_course
+  metadata:
+    source_ref: 'CA I #Considerations'
+    snippet_count: 2
+edges:
+- from_node: n_cav1a2_wealth_20
+  to_node: n_cav1a2_christian_astrology_2nd_house_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - planet_in_2nd
+- from_node: n_cav1a2_christian_astrology_career_8
+  to_node: n_cav1a2_christian_astrology_marriage_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_cav1a2_temperament_19
+  to_node: n_cav1a2_christian_astrology_marriage_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_cav1a2_marriage_21
+  to_node: n_cav1a2_christian_astrology_marriage_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_cav1a2_nodes_26
+  to_node: n_cav1a2_christian_astrology_marriage_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_cav1a2_temperament_19
+  to_node: n_cav1a2_christian_astrology_career_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_cav1a2_marriage_21
+  to_node: n_cav1a2_christian_astrology_career_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_cav1a2_marriage_21
+  to_node: n_cav1a2_temperament_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+narrative_order:
+- n_cav1a2_considerations_37
+- n_cav1a2_dignities_36
+- n_cav1a2_houses_35
+- n_cav1a2_jupiter_28
+- n_cav1a2_mars_29
+- n_cav1a2_mercury_32
+- n_cav1a2_moon_33
+- n_cav1a2_planets_25
+- n_cav1a2_saturn_27
+- n_cav1a2_signs_34
+- n_cav1a2_sun_30
+- n_cav1a2_venus_31
+- n_cav1a2_career_23
+- n_cav1a2_children_22
+- n_cav1a2_directions_24
+- n_cav1a2_hyleg_18
+- n_cav1a2_marriage_21
+- n_cav1a2_rectification_17
+- n_cav1a2_temperament_19
+- n_cav1a2_wealth_20
+- n_cav1a2_christian_astrology_1st_house_2
+- n_cav1a2_christian_astrology_2nd_house_3
+- n_cav1a2_christian_astrology_3rd_house_4
+- n_cav1a2_christian_astrology_4th_house_5
+- n_cav1a2_christian_astrology_5th_house_6
+- n_cav1a2_christian_astrology_career_8
+- n_cav1a2_christian_astrology_health_10
+- n_cav1a2_christian_astrology_legal_11
+- n_cav1a2_christian_astrology_lost_objec_9
+- n_cav1a2_christian_astrology_purchase_13
+- n_cav1a2_christian_astrology_ship_14
+- n_cav1a2_christian_astrology_theft_15
+- n_cav1a2_christian_astrology_travel_12
+- n_cav1a2_christian_astrology_war_16
+- n_cav1a2_english_paraphrase_1
+- n_cav1a2_source_text_0
+- n_cav1a2_nodes_26
+- n_cav1a2_christian_astrology_marriage_7
+entry_nodes:
+- n_cav1a2_source_text_0
+- n_cav1a2_english_paraphrase_1
+- n_cav1a2_christian_astrology_1st_house_2
+- n_cav1a2_christian_astrology_3rd_house_4
+- n_cav1a2_christian_astrology_4th_house_5
+- n_cav1a2_christian_astrology_5th_house_6
+- n_cav1a2_christian_astrology_lost_objec_9
+- n_cav1a2_christian_astrology_health_10
+- n_cav1a2_christian_astrology_legal_11
+- n_cav1a2_christian_astrology_travel_12
+- n_cav1a2_christian_astrology_purchase_13
+- n_cav1a2_christian_astrology_ship_14
+- n_cav1a2_christian_astrology_theft_15
+- n_cav1a2_christian_astrology_war_16
+- n_cav1a2_rectification_17
+- n_cav1a2_hyleg_18
+- n_cav1a2_wealth_20
+- n_cav1a2_marriage_21
+- n_cav1a2_children_22
+- n_cav1a2_career_23
+- n_cav1a2_directions_24
+- n_cav1a2_planets_25
+- n_cav1a2_saturn_27
+- n_cav1a2_jupiter_28
+- n_cav1a2_mars_29
+- n_cav1a2_sun_30
+- n_cav1a2_venus_31
+- n_cav1a2_mercury_32
+- n_cav1a2_moon_33
+- n_cav1a2_signs_34
+- n_cav1a2_houses_35
+- n_cav1a2_dignities_36
+- n_cav1a2_considerations_37
+terminal_nodes:
+- n_cav1a2_career_23
+- n_cav1a2_children_22
+- n_cav1a2_christian_astrology_1st_house_2
+- n_cav1a2_christian_astrology_2nd_house_3
+- n_cav1a2_christian_astrology_3rd_house_4
+- n_cav1a2_christian_astrology_4th_house_5
+- n_cav1a2_christian_astrology_5th_house_6
+- n_cav1a2_christian_astrology_health_10
+- n_cav1a2_christian_astrology_legal_11
+- n_cav1a2_christian_astrology_lost_objec_9
+- n_cav1a2_christian_astrology_marriage_7
+- n_cav1a2_christian_astrology_purchase_13
+- n_cav1a2_christian_astrology_ship_14
+- n_cav1a2_christian_astrology_theft_15
+- n_cav1a2_christian_astrology_travel_12
+- n_cav1a2_christian_astrology_war_16
+- n_cav1a2_considerations_37
+- n_cav1a2_dignities_36
+- n_cav1a2_directions_24
+- n_cav1a2_english_paraphrase_1
+- n_cav1a2_houses_35
+- n_cav1a2_hyleg_18
+- n_cav1a2_jupiter_28
+- n_cav1a2_mars_29
+- n_cav1a2_mercury_32
+- n_cav1a2_moon_33
+- n_cav1a2_planets_25
+- n_cav1a2_rectification_17
+- n_cav1a2_saturn_27
+- n_cav1a2_signs_34
+- n_cav1a2_source_text_0
+- n_cav1a2_sun_30
+- n_cav1a2_venus_31
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-11-30T18:46:33.423515'
+  source_files:
+  - data/schema_staging/snippets/christian_astrology,_vol._1_and_2_snippets.yaml
+  - data/schema_staging/relations/christian_astrology,_vol._1_and_2_relations.yaml
+  snippet_count: 96
+  relation_count: 60
+version: 1.0.0

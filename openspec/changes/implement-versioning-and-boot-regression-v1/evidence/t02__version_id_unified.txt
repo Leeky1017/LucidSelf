@@ -1,0 +1,7 @@
+$ PYTHONPATH=. .venv/bin/python -c "from backend.core.versioning.ids import resolve_version_id, resolve_corpus_release_id; print(resolve_version_id()); print(resolve_corpus_release_id())"
+ver_b23a6a8439c0
+cr_b23a6a8439c0
+
+$ PYTHONPATH=. .venv/bin/pytest backend/tests/gate0_versioning_deviation -q
+.........                                                                [100%]
+9 passed in 0.26s

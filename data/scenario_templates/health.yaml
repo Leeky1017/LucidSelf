@@ -1,0 +1,79 @@
+# Health Scenario Template
+# 健康场景模板配置
+
+scenario_id: scn_health
+domain: health
+
+keywords:
+  primary: ["健康", "身体", "疾病", "health", "body", "illness"]
+  synonyms: ["养生", "锻炼", "运动", "睡眠", "饮食", "检查", "手术", "康复", "心理", "压力", "焦虑", "抑郁", "医院", "体检"]
+  negative: []
+  weight: 1.0
+
+decision_axes:
+  - axis_id: physical_health
+    label_zh: 身体健康
+    label_en: Physical Health
+    description: 身体健康水平
+    value_type: float
+    default_weight: 1.0
+  
+  - axis_id: mental_health
+    label_zh: 心理健康
+    label_en: Mental Health
+    description: 心理健康状态
+    value_type: float
+    default_weight: 1.0
+  
+  - axis_id: energy_level
+    label_zh: 精力水平
+    label_en: Energy Level
+    description: 日常精力充沛程度
+    value_type: float
+    default_weight: 0.9
+  
+  - axis_id: recovery_speed
+    label_zh: 恢复能力
+    label_en: Recovery Speed
+    description: 身体恢复和自愈能力
+    value_type: float
+    default_weight: 0.8
+  
+  - axis_id: longevity
+    label_zh: 长寿趋势
+    label_en: Longevity
+    description: 长期健康趋势
+    value_type: float
+    default_weight: 0.7
+  
+  - axis_id: prevention
+    label_zh: 预防能力
+    label_en: Prevention
+    description: 疾病预防和早期发现能力
+    value_type: float
+    default_weight: 0.8
+
+factor_include_patterns:
+  - "bazi_*_health_*"
+  - "ziwei_health_*"
+  - "astro_*_6th_*"
+  - "astro_*_12th_*"
+
+factor_exclude_patterns:
+  - "*_career_*"
+  - "*_wealth_*"
+
+factor_always_include:
+  - "bazi_day_master"
+  - "astro_sun_sign"
+
+rule_categories:
+  - "health"
+  - "guidance"
+
+related_scenarios:
+  - "scn_spiritual"
+
+label_zh: 健康
+label_en: Health
+description: 身体健康、心理健康、养生保健等健康相关问题

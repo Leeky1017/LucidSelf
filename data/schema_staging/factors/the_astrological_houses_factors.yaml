@@ -1,0 +1,731 @@
+book_id: the_astrological_houses
+source_file: 典籍/texts/The Astrological Houses/编辑/House_Philosophy_12Houses.md, 典籍/texts/The
+  Astrological Houses/编辑/House_Philosophy_12Houses_v2.1.md
+extracted_at: '2025-12-04T14:27:44.934357'
+factors:
+- factor_type: '**Structure**'
+  factor_label: Locality-centered house system
+  factor_id: temp_4890bdbe
+  factor_source: new_candidate
+  role_position: Coordinate System
+  value_constraint: Topocentric, visible horizon
+  engine_id: astro_semantic
+  notes: Archaic tribal astrology
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179716'
+- factor_type: '**Structure**'
+  factor_label: Globe-centered house system
+  factor_id: temp_058a653c
+  factor_source: new_candidate
+  role_position: Coordinate System
+  value_constraint: Geocentric, rational horizon
+  engine_id: astro_semantic
+  notes: Modern individual astrology
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179727'
+- factor_type: '**Boundary**'
+  factor_label: Topocentric horizon
+  factor_id: temp_3273c706
+  factor_source: new_candidate
+  role_position: Reference Plane
+  value_constraint: Local observer's visible horizon
+  engine_id: astro_semantic
+  notes: Place-specific
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179733'
+- factor_type: '**Boundary**'
+  factor_label: Geocentric horizon
+  factor_id: temp_2981636c
+  factor_source: new_candidate
+  role_position: Reference Plane
+  value_constraint: Mathematical plane through Earth center
+  engine_id: astro_semantic
+  notes: Universal portable
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179739'
+- factor_type: '**State**'
+  factor_label: Tribal consciousness
+  factor_id: temp_7dcaa36b
+  factor_source: new_candidate
+  role_position: Consciousness Mode
+  value_constraint: Collective, place-bound, soil-rooted
+  engine_id: astro_semantic
+  notes: Archaic paradigm
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179744'
+- factor_type: '**State**'
+  factor_label: Individual consciousness
+  factor_id: temp_5bbd6b9c
+  factor_source: new_candidate
+  role_position: Consciousness Mode
+  value_constraint: Mobile, self-aware, geography-transcendent
+  engine_id: astro_semantic
+  notes: Modern paradigm
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179750'
+- factor_type: '**Relational**'
+  factor_label: Paradigm shift (tribal→individual)
+  factor_id: temp_4ecd25de
+  factor_source: new_candidate
+  role_position: Evolution Pattern
+  value_constraint: Consciousness evolution
+  engine_id: astro_semantic
+  notes: Historical transition
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179755'
+- factor_type: '**Structure**'
+  factor_label: Eight-watch system
+  factor_id: temp_3013c9cf
+  factor_source: new_candidate
+  role_position: House Division
+  value_constraint: 8 sectors, ~3 hours each
+  engine_id: astro_semantic
+  notes: Archaic system
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179776'
+- factor_type: '**Temporal**'
+  factor_label: Clockwise sequence
+  factor_id: temp_ad5bb44c
+  factor_source: new_candidate
+  role_position: Directional Flow
+  value_constraint: Follows Sun's motion
+  engine_id: astro_semantic
+  notes: Sunrise→noon→sunset→midnight
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179781'
+- factor_type: '**State**'
+  factor_label: Vitalistic consciousness
+  factor_id: temp_78565a0c
+  factor_source: new_candidate
+  role_position: Worldview
+  value_constraint: Life-force as primary reality
+  engine_id: astro_semantic
+  notes: Solar-dominated
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179786'
+- factor_type: '**Relational**'
+  factor_label: Solar position markers
+  factor_id: temp_f8c69ba4
+  factor_source: new_candidate
+  role_position: Reference Points
+  value_constraint: Sunrise/Noon/Sunset/Midnight
+  engine_id: astro_semantic
+  notes: Four cardinal solar moments
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179792'
+- factor_type: '**Functional**'
+  factor_label: Agricultural rhythm
+  factor_id: temp_0bfd53a7
+  factor_source: new_candidate
+  role_position: Life Pattern
+  value_constraint: Work-rest cycles tied to Sun
+  engine_id: astro_semantic
+  notes: Collective biological rhythm
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179796'
+- factor_type: '**Boundary**'
+  factor_label: Watch duration
+  factor_id: temp_2a5f5f1b
+  factor_source: new_candidate
+  role_position: Time Unit
+  value_constraint: ~3 hours
+  engine_id: astro_semantic
+  notes: Variable by season
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179801'
+- factor_type: '**Structure**'
+  factor_label: Twelve-house system
+  factor_id: house_system_12
+  factor_source: existing
+  role_position: House Division
+  value_constraint: 12 sectors, 30° each
+  engine_id: astro_semantic
+  notes: Modern standard
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179839'
+- factor_type: '**Temporal**'
+  factor_label: Counterclockwise sequence
+  factor_id: temp_bf561b20
+  factor_source: new_candidate
+  role_position: Directional Flow
+  value_constraint: Opposes Sun, follows Earth rotation
+  engine_id: astro_semantic
+  notes: Asc→MC→Desc→IC
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179847'
+- factor_type: '**State**'
+  factor_label: Psychomental consciousness
+  factor_id: temp_a9ae1f22
+  factor_source: new_candidate
+  role_position: Worldview
+  value_constraint: Mind/psychology as primary
+  engine_id: astro_semantic
+  notes: Transcends vitalistic
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179851'
+- factor_type: '**Structure**'
+  factor_label: Four Angles
+  factor_id: angles_cardinal_cross
+  factor_source: existing
+  role_position: Reference Points
+  value_constraint: Asc/MC/Desc/IC
+  engine_id: astro_semantic
+  notes: Cardinal cross
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179856'
+- factor_type: '**Relational**'
+  factor_label: Individual-centered framework
+  factor_id: temp_4e2a6448
+  factor_source: new_candidate
+  role_position: Paradigm
+  value_constraint: Person's journey vs Sun's motion
+  engine_id: astro_semantic
+  notes: Humanistic astrology
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179861'
+- factor_type: '**Functional**'
+  factor_label: Psychological life arenas
+  factor_id: temp_e94af308
+  factor_source: new_candidate
+  role_position: Life Mapping
+  value_constraint: 12 distinct psychological domains
+  engine_id: astro_semantic
+  notes: Detailed differentiation
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179866'
+- factor_type: '**Boundary**'
+  factor_label: Horizon axis
+  factor_id: temp_007294ae
+  factor_source: new_candidate
+  role_position: Polarity
+  value_constraint: Asc-Desc
+  engine_id: astro_semantic
+  notes: Self-Other
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179887'
+- factor_type: '**Boundary**'
+  factor_label: Meridian axis
+  factor_id: temp_f154fd70
+  factor_source: new_candidate
+  role_position: Polarity
+  value_constraint: MC-IC
+  engine_id: astro_semantic
+  notes: Achievement-Foundation
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179892'
+- factor_type: '**State**'
+  factor_label: Maximum power positions
+  factor_id: temp_532605ec
+  factor_source: new_candidate
+  role_position: Influence Level
+  value_constraint: Highest chart power
+  engine_id: astro_semantic
+  notes: Most significant points
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179897'
+- factor_type: '**Structure**'
+  factor_label: Zodiac system
+  factor_id: zodiac_tropical
+  factor_source: existing
+  role_position: Celestial Frame
+  value_constraint: 12 signs, orbital
+  engine_id: astro_semantic
+  notes: Spatial-cosmic
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179912'
+- factor_type: '**Structure**'
+  factor_label: House system
+  factor_id: house_system_12
+  factor_source: existing
+  role_position: Terrestrial Frame
+  value_constraint: 12 houses, rotational
+  engine_id: astro_semantic
+  notes: Temporal-local
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179916'
+- factor_type: '**Relational**'
+  factor_label: Sky-Earth polarity
+  factor_id: temp_0cf30efe
+  factor_source: new_candidate
+  role_position: Dual Framework
+  value_constraint: Zodiac (heaven) vs Houses (earth)
+  engine_id: astro_semantic
+  notes: Essential distinction
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179921'
+- factor_type: '**Temporal**'
+  factor_label: Yearly cycle
+  factor_id: temp_4741dc40
+  factor_source: new_candidate
+  role_position: Zodiac Motion
+  value_constraint: Earth's orbit around Sun
+  engine_id: astro_semantic
+  notes: 365.25 days
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179926'
+- factor_type: '**Temporal**'
+  factor_label: Daily cycle
+  factor_id: temp_6bd7d698
+  factor_source: new_candidate
+  role_position: House Motion
+  value_constraint: Earth's rotation
+  engine_id: astro_semantic
+  notes: 24 hours
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179931'
+- factor_type: '**Structure**'
+  factor_label: Sidereal zodiac
+  factor_id: zodiac_sidereal
+  factor_source: existing
+  role_position: Zodiac System
+  value_constraint: Constellation-based
+  engine_id: astro_semantic
+  notes: Pantheistic
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179947'
+- factor_type: '**Structure**'
+  factor_label: Tropical zodiac
+  factor_id: zodiac_tropical
+  factor_source: existing
+  role_position: Zodiac System
+  value_constraint: Equinox-based
+  engine_id: astro_semantic
+  notes: Monotheistic
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179952'
+- factor_type: '**Temporal**'
+  factor_label: Precession drift
+  factor_id: temp_b2320256
+  factor_source: new_candidate
+  role_position: Astronomical
+  value_constraint: ~23° current difference
+  engine_id: astro_semantic
+  notes: Increases ~1° per 72 years
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179957'
+- factor_type: '**State**'
+  factor_label: Pantheistic cosmology
+  factor_id: temp_4f2d081d
+  factor_source: new_candidate
+  role_position: Worldview
+  value_constraint: Multiple divine hierarchies
+  engine_id: astro_semantic
+  notes: Galactic-centered
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179962'
+- factor_type: '**State**'
+  factor_label: Monotheistic cosmology
+  factor_id: temp_b281b5d0
+  factor_source: new_candidate
+  role_position: Worldview
+  value_constraint: Single divine center (Sun)
+  engine_id: astro_semantic
+  notes: Solar-centered
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179968'
+- factor_type: '**State**'
+  factor_label: Monotheistic theology
+  factor_id: temp_64462865
+  factor_source: new_candidate
+  role_position: Cosmology
+  value_constraint: Sun as one God
+  engine_id: astro_semantic
+  notes: Tropical zodiac foundation
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179981'
+- factor_type: '**State**'
+  factor_label: Pantheistic theology
+  factor_id: temp_5c72cf83
+  factor_source: new_candidate
+  role_position: Cosmology
+  value_constraint: Twelve constellations as hierarchies
+  engine_id: astro_semantic
+  notes: Sidereal zodiac foundation
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179986'
+- factor_type: '**Relational**'
+  factor_label: Individual-divine dialogue
+  factor_id: temp_4f6f53a2
+  factor_source: new_candidate
+  role_position: Spiritual Path
+  value_constraint: Personal soul relationship with unity
+  engine_id: astro_semantic
+  notes: Humanistic/modern
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179991'
+- factor_type: '**Relational**'
+  factor_label: Collective-hierarchy participation
+  factor_id: temp_31547192
+  factor_source: new_candidate
+  role_position: Spiritual Path
+  value_constraint: Human absorption in cosmic powers
+  engine_id: astro_semantic
+  notes: Archaic/tribal
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.179996'
+- factor_type: Structure
+  factor_label: Second House
+  factor_id: house_2
+  factor_source: existing
+  role_position: Succedent House
+  value_constraint: Resources/Values
+  engine_id: astro_calculator
+  notes: Earth house
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180007'
+- factor_type: State
+  factor_label: Resource management
+  factor_id: temp_048a4f85
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Use of possessions
+  engine_id: astro_semantic
+  notes: Key theme
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180012'
+- factor_type: Relational
+  factor_label: Body-as-possession
+  factor_id: temp_c639bd24
+  factor_source: new_candidate
+  role_position: Primary ownership
+  value_constraint: Physical vehicle
+  engine_id: astro_semantic
+  notes: Foundation
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180018'
+- factor_type: Structure
+  factor_label: Third House
+  factor_id: house_3
+  factor_source: existing
+  role_position: Cadent House
+  value_constraint: Communication/Mind
+  engine_id: astro_calculator
+  notes: Air house
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180027'
+- factor_type: State
+  factor_label: Practical intelligence
+  factor_id: temp_8310f5ed
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Empirical knowing
+  engine_id: astro_semantic
+  notes: Specialist mind
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180033'
+- factor_type: Structure
+  factor_label: Fourth House
+  factor_id: house_4
+  factor_source: existing
+  role_position: Angular House
+  value_constraint: Foundation/IC
+  engine_id: astro_calculator
+  notes: Water house
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180043'
+- factor_type: Boundary
+  factor_label: Imum Coeli
+  factor_id: ic
+  factor_source: existing
+  role_position: Angle
+  value_constraint: Nadir point
+  engine_id: astro_calculator
+  notes: Deepest point
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180048'
+- factor_type: State
+  factor_label: Centeredness
+  factor_id: temp_e0c75ee8
+  factor_source: new_candidate
+  role_position: Psychological
+  value_constraint: Integration state
+  engine_id: astro_semantic
+  notes: Key concept
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180053'
+- factor_type: Structure
+  factor_label: Fifth House
+  factor_id: house_5
+  factor_source: existing
+  role_position: Succedent House
+  value_constraint: Creativity/Expression
+  engine_id: astro_calculator
+  notes: Fire house
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180062'
+- factor_type: State
+  factor_label: Creative release
+  factor_id: temp_3c4ec92e
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Power exteriorization
+  engine_id: astro_semantic
+  notes: Solar quality
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180066'
+- factor_type: Structure
+  factor_label: Sixth House
+  factor_id: house_6
+  factor_source: existing
+  role_position: Cadent House
+  value_constraint: Service/Health
+  engine_id: astro_calculator
+  notes: Earth house
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180075'
+- factor_type: State
+  factor_label: Transformation
+  factor_id: temp_7793401b
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Crisis resolution
+  engine_id: astro_semantic
+  notes: Key theme
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180080'
+- factor_type: Structure
+  factor_label: Seventh House
+  factor_id: house_7
+  factor_source: existing
+  role_position: Angular House
+  value_constraint: Partnership/DSC
+  engine_id: astro_calculator
+  notes: Air house
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180088'
+- factor_type: Boundary
+  factor_label: Descendant
+  factor_id: descendant
+  factor_source: existing
+  role_position: Angle
+  value_constraint: Western horizon
+  engine_id: astro_calculator
+  notes: Relatedness principle
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180093'
+- factor_type: Structure
+  factor_label: Eighth House
+  factor_id: house_8
+  factor_source: existing
+  role_position: Succedent House
+  value_constraint: Transformation
+  engine_id: astro_calculator
+  notes: Water house
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180101'
+- factor_type: State
+  factor_label: Regeneration
+  factor_id: temp_93fb94ed
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Death-rebirth cycle
+  engine_id: astro_semantic
+  notes: Plutonian
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180121'
+- factor_type: Structure
+  factor_label: Ninth House
+  factor_id: house_9
+  factor_source: existing
+  role_position: Cadent House
+  value_constraint: Philosophy/Law
+  engine_id: astro_calculator
+  notes: Fire house
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180131'
+- factor_type: State
+  factor_label: Understanding
+  factor_id: temp_aa6a8343
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Holistic meaning
+  engine_id: astro_semantic
+  notes: Jupiterian
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180135'
+- factor_type: Structure
+  factor_label: Tenth House
+  factor_id: house_10
+  factor_source: existing
+  role_position: Angular House
+  value_constraint: Career/MC
+  engine_id: astro_calculator
+  notes: Earth house
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180144'
+- factor_type: Boundary
+  factor_label: Medium Coeli
+  factor_id: mc
+  factor_source: existing
+  role_position: Angle
+  value_constraint: Zenith point
+  engine_id: astro_calculator
+  notes: Solar factor
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180148'
+- factor_type: Structure
+  factor_label: Eleventh House
+  factor_id: house_11
+  factor_source: existing
+  role_position: Succedent House
+  value_constraint: Community/Vision
+  engine_id: astro_calculator
+  notes: Air house
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180157'
+- factor_type: State
+  factor_label: Collective vision
+  factor_id: temp_fc47e950
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Future seeds
+  engine_id: astro_semantic
+  notes: Uranian
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180162'
+- factor_type: Structure
+  factor_label: Twelfth House
+  factor_id: house_12
+  factor_source: existing
+  role_position: Cadent House
+  value_constraint: Endings/Transcendence
+  engine_id: astro_calculator
+  notes: Water house
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180170'
+- factor_type: State
+  factor_label: Karmic confrontation
+  factor_id: temp_724bcf8e
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Cycle completion
+  engine_id: astro_semantic
+  notes: Neptunian
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180176'
+- factor_type: Structure
+  factor_label: 28-year cycle
+  factor_id: cycle_28
+  factor_source: new_candidate
+  role_position: Life Phase
+  value_constraint: 0-28, 28-56, 56-84
+  engine_id: astro_calculator
+  notes: Uranian
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180188'
+- factor_type: Process
+  factor_label: Point of Self
+  factor_id: point_of_self
+  factor_source: new_candidate
+  role_position: Progression
+  value_constraint: Counterclockwise
+  engine_id: astro_semantic
+  notes: 7-year contacts
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180192'
+- factor_type: State
+  factor_label: Three births
+  factor_id: temp_3a7adbf9
+  factor_source: new_candidate
+  role_position: Development
+  value_constraint: Physical→Mental→Spiritual
+  engine_id: astro_semantic
+  notes: Dialectical
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180197'
+- factor_type: Structure
+  factor_label: Holistic approach
+  factor_id: methodology_holistic
+  factor_source: new_candidate
+  role_position: Interpretation
+  value_constraint: Whole→parts
+  engine_id: astro_semantic
+  notes: Person-centered
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180210'
+- factor_type: Process
+  factor_label: Space-time relation
+  factor_id: temp_8c4508df
+  factor_source: new_candidate
+  role_position: Ontology
+  value_constraint: Potential→Actual
+  engine_id: astro_semantic
+  notes: Existential
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180215'
+- factor_type: State
+  factor_label: Chart as word
+  factor_id: temp_4cbfe6f8
+  factor_source: new_candidate
+  role_position: Hermeneutic
+  value_constraint: Meaning-bearing form
+  engine_id: astro_semantic
+  notes: Symbolic
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.180220'

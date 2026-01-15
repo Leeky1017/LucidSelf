@@ -1,0 +1,8 @@
+$ rg -n "openspec validate --specs --strict --no-interactive" openspec/QUALITY_GATES.md
+7:- 命令：`openspec validate --specs --strict --no-interactive`
+13:- 命令：`openspec validate --specs --strict --no-interactive` + `openspec list --specs`
+19:- 命令：`openspec validate --specs --strict --no-interactive` + `openspec list --changes`
+25:- 命令：`openspec validate --specs --strict --no-interactive`
+31:- 命令：`openspec validate --specs --strict --no-interactive`（资产层附加验证按各 spec `acceptance.md`）。
+
+$ rg -n "openspec validate --strict" openspec/QUALITY_GATES.md

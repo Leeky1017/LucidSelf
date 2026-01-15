@@ -1,0 +1,106 @@
+# 紫微体系 - 关系类因子
+# Relational factors for ZiWei system
+
+factors:
+  # 星曜组合
+  - id: ziwei_sha_po_lang
+    status: existing
+    display_zh: 杀破狼
+    display_en: Sha Po Lang Combination
+    description_zh: 七杀、破军、贪狼三星组合
+    description_en: Combination of Qi Sha, Po Jun, Tan Lang
+    category: relation
+    value_type: boolean
+    applicable_systems: [ziwei]
+
+  - id: ziwei_jixing_jiahui
+    status: existing
+    display_zh: 吉星加会
+    display_en: Auspicious Stars Joining
+    description_zh: 有吉星在三方四正会照
+    description_en: Auspicious stars in trine or square
+    category: relation
+    value_type: boolean
+    applicable_systems: [ziwei]
+
+  - id: ziwei_xiongxing_chong
+    status: existing
+    display_zh: 凶星冲
+    display_en: Malefic Stars Clashing
+    description_zh: 有凶星冲照命宫
+    description_en: Malefic stars clashing with life palace
+    category: relation
+    value_type: boolean
+    applicable_systems: [ziwei]
+
+  - id: ziwei_sanfang_sizheng
+    status: existing
+    display_zh: 三方四正
+    display_en: Trine and Square
+    description_zh: 命宫与三方四正宫位的关系
+    description_en: Relationship between life palace and trine/square palaces
+    category: relation
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_duigong
+    status: existing
+    display_zh: 对宫
+    display_en: Opposite Palace
+    description_zh: 宫位正对面的宫位
+    description_en: Palace directly opposite
+    category: relation
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  # 六煞关系
+  - id: ziwei_has_liusha
+    status: existing
+    display_zh: 有六煞
+    display_en: Has Six Malefics
+    description_zh: 宫位有六煞星入驻
+    description_en: Palace has six malefic stars
+    category: relation
+    value_type: boolean
+    applicable_systems: [ziwei]
+
+  - id: ziwei_qinyang_huoxing
+    status: existing
+    display_zh: 擎羊火星
+    display_en: Qing Yang Huo Xing
+    description_zh: 擎羊、火星同宫
+    description_en: Qing Yang and Fire Star in same palace
+    category: relation
+    value_type: boolean
+    applicable_systems: [ziwei]
+
+  - id: ziwei_tuoluo_lingxing
+    status: existing
+    display_zh: 陀罗铃星
+    display_en: Tuo Luo Ling Xing
+    description_zh: 陀罗、铃星同宫
+    description_en: Tuo Luo and Bell Star in same palace
+    category: relation
+    value_type: boolean
+    applicable_systems: [ziwei]
+
+  # 守护关系
+  - id: ziwei_ming_shen
+    status: existing
+    display_zh: 命身关系
+    display_en: Life-Body Relationship
+    description_zh: 命宫与身宫的关系
+    description_en: Relationship between life palace and body palace
+    category: relation
+    value_type: reference
+    applicable_systems: [ziwei]
+
+  - id: ziwei_fuxing_jiahui
+    status: existing
+    display_zh: 辅星加会
+    display_en: Assistant Stars Joining
+    description_zh: 左辅右弼等辅星加会
+    description_en: Left and Right assistants joining
+    category: relation
+    value_type: boolean
+    applicable_systems: [ziwei]

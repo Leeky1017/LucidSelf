@@ -1,0 +1,11 @@
+$ .venv/bin/python -c 'import json; json.load(open(openspec/specs/bootability-and-regression-baseline/contract/bootability_and_regression_baseline_contract.v1.json)); print(OK)'
+OK
+
+$ openspec validate --strict
+Nothing to validate. Try one of:
+  openspec validate --all
+  openspec validate --changes
+  openspec validate --specs
+  openspec validate <item-name>
+Or run in an interactive terminal.
+

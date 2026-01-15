@@ -1,0 +1,122 @@
+### sha256
+6f7da6bdf0e9b8a9047b22226fde637b897fb32b231a4c135f3c62bed99bc68a  data/knowledge_graph/conflict_gate_policy.v1.yaml
+
+### data/knowledge_graph/conflict_gate_policy.v1.yaml
+version: 1
+policy_id: cross_book_conflict_gate_policy.v1
+
+scope:
+  cross_book_only: true
+
+blocking:
+  enabled: true
+
+severity_map:
+  direct_contradiction: HIGH
+  conditional_exception: LOW
+  scope_difference: LOW
+  cross_system_divergence: MEDIUM
+
+thresholds:
+  - name: direct_contradiction_max
+    match:
+      conflict_type: direct_contradiction
+      severity: HIGH
+    max_count: 153
+  - name: cross_system_divergence_max
+    match:
+      conflict_type: cross_system_divergence
+      severity: MEDIUM
+    max_count: 502
+  - name: conditional_exception_max
+    match:
+      conflict_type: conditional_exception
+      severity: LOW
+    max_count: 0
+  - name: scope_difference_max
+    match:
+      conflict_type: scope_difference
+      severity: LOW
+    max_count: 0
+  - name: total_conflicts_max
+    match: {}
+    max_count: 655
+
+reporting:
+  max_conflicts: 5000
+  max_examples_per_bucket: 20
+
+exceptions:
+  path: data/knowledge_graph/exceptions/conflict_exceptions.v1.yaml
+
+### artifacts/cross_book_conflicts/conflict_report.json summary
+{
+  "total_conflicts": 655,
+  "suppressed_by_exceptions": 0,
+  "effective_conflicts": 655,
+  "counts_by_type": {
+    "cross_system_divergence": 502,
+    "direct_contradiction": 153
+  },
+  "counts_by_severity": {
+    "HIGH": 153,
+    "MEDIUM": 502
+  },
+  "counts_by_type_severity": {
+    "cross_system_divergence/MEDIUM": 502,
+    "direct_contradiction/HIGH": 153
+  },
+  "counts_by_dimension": {
+    "通用": 655
+  },
+  "thresholds": [
+    {
+      "name": "direct_contradiction_max",
+      "match": {
+        "conflict_type": "direct_contradiction",
+        "severity": "HIGH"
+      },
+      "count": 153,
+      "max_count": 153,
+      "status": "pass"
+    },
+    {
+      "name": "cross_system_divergence_max",
+      "match": {
+        "conflict_type": "cross_system_divergence",
+        "severity": "MEDIUM"
+      },
+      "count": 502,
+      "max_count": 502,
+      "status": "pass"
+    },
+    {
+      "name": "conditional_exception_max",
+      "match": {
+        "conflict_type": "conditional_exception",
+        "severity": "LOW"
+      },
+      "count": 0,
+      "max_count": 0,
+      "status": "pass"
+    },
+    {
+      "name": "scope_difference_max",
+      "match": {
+        "conflict_type": "scope_difference",
+        "severity": "LOW"
+      },
+      "count": 0,
+      "max_count": 0,
+      "status": "pass"
+    },
+    {
+      "name": "total_conflicts_max",
+      "match": {},
+      "count": 655,
+      "max_count": 655,
+      "status": "pass"
+    }
+  ],
+  "verdict": "pass"
+}

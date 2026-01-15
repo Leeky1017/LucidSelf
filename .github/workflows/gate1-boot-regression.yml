@@ -1,0 +1,68 @@
+# Gate-1 workflow: bootability + regression baseline
+
+name: Gate-1 Bootability + Regression Baseline
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'backend/**'
+      - 'data/**'
+      - 'openspec/**'
+      - 'scripts/gates/gate1_boot_regression.sh'
+      - '.github/workflows/gate1-boot-regression.yml'
+  pull_request:
+    branches: [main, develop]
+    paths:
+      - 'backend/**'
+      - 'data/**'
+      - 'openspec/**'
+      - 'scripts/gates/gate1_boot_regression.sh'
+      - '.github/workflows/gate1-boot-regression.yml'
+  workflow_dispatch: {}
+
+env:
+  PYTHON_VERSION: '3.12'
+
+jobs:
+  gate1:
+    name: Gate-1 (Bootability + Regression)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install OpenSpec CLI
+        run: |
+          npm install -g @fission-ai/openspec@0.17.2
+          openspec --version
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Gate-1 acceptance
+        run: |
+          bash scripts/gates/gate1_boot_regression.sh
+
+      - name: Upload Gate-1 artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gate1-boot-regression-artifacts
+          path: artifacts/
+          retention-days: 30
+

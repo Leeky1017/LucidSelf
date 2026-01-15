@@ -1,0 +1,74 @@
+{
+  "contract_id": "proofreading-workflow-qa",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["corpus_release_id", "version_id"],
+  "entities": [
+    {
+      "name": "ProofreadingTask",
+      "description": "校对任务（最小字段集合）",
+      "fields": [
+        { "name": "task_id", "type": "string", "required": true, "notes": "任务标识（唯一）" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识（可追溯）" },
+        { "name": "scope", "type": "object", "required": true, "notes": "校对范围（结构化）" },
+        { "name": "assignee_id", "type": "string", "required": false, "notes": "指派标识（脱敏/最小化）" },
+        { "name": "status", "type": "string", "required": true, "notes": "OPEN/IN_REVIEW/DONE（口径固定）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "DefectRecord",
+      "description": "缺陷记录（最小字段集合）",
+      "fields": [
+        { "name": "defect_id", "type": "string", "required": true, "notes": "缺陷标识（唯一）" },
+        { "name": "task_id", "type": "string", "required": true, "notes": "关联校对任务" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "severity", "type": "string", "required": true, "notes": "P0/P1/P2（口径固定）" },
+        { "name": "category", "type": "string", "required": true, "notes": "缺陷类别（口径固定）" },
+        { "name": "chain_id", "type": "string", "required": false, "notes": "证据链标识（若适用）" },
+        { "name": "status", "type": "string", "required": true, "notes": "OPEN/FIXED/WONTFIX（口径固定）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ApprovalRecord",
+      "description": "批准记录（最小字段集合）",
+      "fields": [
+        { "name": "approval_id", "type": "string", "required": true, "notes": "批准标识（唯一）" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "approver_role", "type": "string", "required": true, "notes": "批准角色（口径固定）" },
+        { "name": "approver_id", "type": "string", "required": false, "notes": "批准人标识（脱敏/最小化）" },
+        { "name": "decision", "type": "string", "required": true, "notes": "APPROVE/REJECT（口径固定）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "QAMetricsReport",
+      "description": "QA 指标报表（最小字段集合）",
+      "fields": [
+        { "name": "report_id", "type": "string", "required": true, "notes": "报表标识（唯一）" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "window_start", "type": "string", "required": true, "notes": "统计窗口开始（ISO-8601）" },
+        { "name": "window_end", "type": "string", "required": true, "notes": "统计窗口结束（ISO-8601）" },
+        { "name": "defects_total", "type": "number", "required": true, "notes": "缺陷总数" },
+        { "name": "p0_defects_total", "type": "number", "required": false, "notes": "P0 缺陷数（若适用）" },
+        { "name": "approval_rate", "type": "number", "required": false, "notes": "批准率（0..1，若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_CORPUS_RELEASE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "OUTPUT_SCHEMA_INVALID", "category": "validation", "retryable": false },
+    { "code": "CITATION_NOT_RESOLVABLE", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

@@ -1,0 +1,57 @@
+# Aggregation Rules - 概念聚合规则配置
+# Feature: cross-book-knowledge-graph
+# Requirement Refs: Req 11.5
+
+# 全局默认规则
+global_rule:
+  rule_id: rule_global_default
+  name: 全局默认聚合规则
+  description: 适用于所有未特殊指定的聚合场景
+  
+  # 聚合策略
+  aggregation_strategy: merge_all
+  label_selection_strategy: highest_authority
+  
+  # 阈值配置
+  min_similarity_score: 0.7
+  min_factor_overlap: 0.5
+  
+  # 冲突处理
+  allow_conflicting_summaries: true
+  record_conflicts: true
+  
+  # 体系专属覆盖
+  system_overrides:
+    # 塔罗牌体系：因为解读更主观，使用most_common策略
+    tarot:
+      label_selection_strategy: most_common
+    # 解梦体系：保留更多来源
+    dream:
+      aggregation_strategy: merge_all
+      min_similarity_score: 0.6
+
+# 维度专属规则
+dimension_rules:
+  # 事业维度：要求更高的一致性
+  事业:
+    rule_id: rule_career
+    name: 事业维度聚合规则
+    aggregation_strategy: same_system_merge
+    label_selection_strategy: highest_authority
+    min_similarity_score: 0.8
+    min_factor_overlap: 0.6
+    allow_conflicting_summaries: false
+    record_conflicts: true
+    system_overrides: {}
+  
+  # 健康维度：较严格
+  健康:
+    rule_id: rule_health
+    name: 健康维度聚合规则
+    aggregation_strategy: highest_authority_only
+    label_selection_strategy: highest_authority
+    min_similarity_score: 0.85
+    min_factor_overlap: 0.7
+    allow_conflicting_summaries: false
+    record_conflicts: true
+    system_overrides: {}

@@ -1,0 +1,2631 @@
+chain_id: chain_aop
+book_id: astrology_of_personality
+nodes:
+- node_id: n_aop_source_text_0
+  snippet_ids:
+  - ns_rudhyar_hcc_001
+  - ns_rudhyar_hcc_002
+  - ns_rudhyar_hcc_005
+  - ns_rudhyar_hcc_006
+  - ns_rudhyar_hcc_009
+  - ns_rudhyar_hcc_014
+  - ns_rudhyar_hcc_016
+  - ns_rudhyar_hcc_017
+  - ns_rudhyar_hcc_021
+  - ns_rudhyar_hcc_022
+  - ns_rudhyar_hcc_025
+  - ns_rudhyar_hcc_026
+  - ns_rudhyar_hcc_029
+  - ns_rudhyar_hcc_033
+  - ns_rudhyar_hcc_034
+  - ns_rudhyar_hcc_035
+  - ns_rudhyar_hcc_037
+  - ns_rudhyar_hcc_038
+  - ns_rudhyar_hcc_039
+  - ns_rudhyar_hcc_041
+  - ns_rudhyar_hcc_042
+  - ns_rudhyar_hcc_045
+  - ns_rudhyar_hcc_046
+  - ns_rudhyar_hcc_047
+  - ns_rudhyar_hcc_049
+  - ns_rudhyar_hcc_050
+  - ns_rudhyar_hcc_051
+  - ns_rudhyar_hcc_052
+  - ns_rudhyar_hcc_053
+  - ns_rudhyar_hcc_055
+  - ns_rudhyar_hcc_056
+  - ns_rudhyar_hcc_057
+  - ns_rudhyar_hcc_058
+  - ns_rudhyar_hcc_059
+  - ns_rudhyar_hcc_061
+  - ns_rudhyar_hcc_062
+  - ns_rudhyar_hcc_063
+  - ns_rudhyar_hcc_064
+  - ns_rudhyar_hcc_067
+  - ns_rudhyar_hcc_068
+  - ns_rudhyar_hcc_070
+  - ns_rudhyar_hcc_071
+  - ns_rudhyar_hcc_072
+  role: 主干
+  condition: null
+  summary: humanistic_paradigm
+  metadata:
+    source_ref: Source Text
+    snippet_count: 43
+- node_id: n_aop_english_paraphrase_1
+  snippet_ids:
+  - ns_rudhyar_hcc_003
+  - ns_rudhyar_hcc_004
+  - ns_rudhyar_hcc_007
+  - ns_rudhyar_hcc_008
+  - ns_rudhyar_hcc_010
+  - ns_rudhyar_hcc_011
+  - ns_rudhyar_hcc_012
+  - ns_rudhyar_hcc_013
+  - ns_rudhyar_hcc_015
+  - ns_rudhyar_hcc_018
+  - ns_rudhyar_hcc_019
+  - ns_rudhyar_hcc_020
+  - ns_rudhyar_hcc_023
+  - ns_rudhyar_hcc_024
+  - ns_rudhyar_hcc_027
+  - ns_rudhyar_hcc_028
+  - ns_rudhyar_hcc_030
+  - ns_rudhyar_hcc_031
+  - ns_rudhyar_hcc_032
+  - ns_rudhyar_hcc_036
+  - ns_rudhyar_hcc_040
+  - ns_rudhyar_hcc_043
+  - ns_rudhyar_hcc_044
+  - ns_rudhyar_hcc_048
+  - ns_rudhyar_hcc_054
+  - ns_rudhyar_hcc_060
+  - ns_rudhyar_hcc_065
+  - ns_rudhyar_hcc_066
+  - ns_rudhyar_hcc_069
+  role: 主干
+  condition: null
+  summary: chart_function
+  metadata:
+    source_ref: English Paraphrase
+    snippet_count: 29
+- node_id: n_aop_source_text_l89_98_2
+  snippet_ids:
+  - ns_aop_001
+  role: 主干
+  condition: null
+  summary: historical_context
+  metadata:
+    source_ref: Source Text L89-98
+    snippet_count: 1
+- node_id: n_aop_source_text_l99_106_3
+  snippet_ids:
+  - ns_aop_002
+  role: 主干依赖
+  condition: null
+  summary: intellectual_formation
+  metadata:
+    source_ref: Source Text L99-106
+    snippet_count: 1
+- node_id: n_aop_source_text_l103_106_4
+  snippet_ids:
+  - ns_aop_003
+  role: 条件分支
+  condition: null
+  summary: reformulation
+  metadata:
+    source_ref: Source Text L103-106
+    snippet_count: 1
+- node_id: n_aop_source_text_l103_104_5
+  snippet_ids:
+  - ns_aop_004
+  role: 总结
+  condition: null
+  summary: depth_psychology_connection
+  metadata:
+    source_ref: Source Text L103-104
+    snippet_count: 1
+- node_id: n_aop_source_text_l117_124_6
+  snippet_ids:
+  - ns_aop_005
+  role: 主干
+  condition: null
+  summary: sun_sign_critique
+  metadata:
+    source_ref: Source Text L117-124
+    snippet_count: 1
+- node_id: n_aop_source_text_l126_134_7
+  snippet_ids:
+  - ns_aop_006
+  role: 主干依赖
+  condition: null
+  summary: multi_level_psychology
+  metadata:
+    source_ref: Source Text L126-134
+    snippet_count: 1
+- node_id: n_aop_source_text_l131_134_8
+  snippet_ids:
+  - ns_aop_007
+  role: 总结
+  condition: null
+  summary: rudhyar_synthesis
+  metadata:
+    source_ref: Source Text L131-134
+    snippet_count: 1
+- node_id: n_aop_source_text_l180_191_9
+  snippet_ids:
+  - ns_aop_008
+  role: 主干
+  condition: null
+  summary: tropical_sidereal_debate
+  metadata:
+    source_ref: Source Text L180-191
+    snippet_count: 1
+- node_id: n_aop_source_text_l196_200_10
+  snippet_ids:
+  - ns_aop_009
+  role: 主干依赖
+  condition: null
+  summary: philosophical_stake
+  metadata:
+    source_ref: Source Text L196-200
+    snippet_count: 1
+- node_id: n_aop_source_text_l199_200_11
+  snippet_ids:
+  - ns_aop_010
+  role: 条件分支
+  condition: null
+  summary: fagan_approach
+  metadata:
+    source_ref: Source Text L199-200
+    snippet_count: 1
+- node_id: n_aop_source_text_l222_232_12
+  snippet_ids:
+  - ns_aop_011
+  role: 主干
+  condition: null
+  summary: icha_founding
+  metadata:
+    source_ref: Source Text L222-232
+    snippet_count: 1
+- node_id: n_aop_source_text_l236_238_13
+  snippet_ids:
+  - ns_aop_012
+  role: 主干依赖
+  condition: null
+  summary: no_good_bad
+  metadata:
+    source_ref: Source Text L236-238
+    snippet_count: 1
+- node_id: n_aop_source_text_l238_242_14
+  snippet_ids:
+  - ns_aop_013
+  role: 条件分支
+  condition: null
+  summary: coded_instructions
+  metadata:
+    source_ref: Source Text L238-242
+    snippet_count: 1
+- node_id: n_aop_source_text_l244_246_15
+  snippet_ids:
+  - ns_aop_014
+  role: 总结
+  condition: null
+  summary: symbolic_language
+  metadata:
+    source_ref: Source Text L244-246
+    snippet_count: 1
+- node_id: n_aop_source_text_l373_376_16
+  snippet_ids:
+  - ns_aop_015
+  role: 主干
+  condition: null
+  summary: personality_definition
+  metadata:
+    source_ref: Source Text L373-376
+    snippet_count: 1
+- node_id: n_aop_source_text_l375_377_17
+  snippet_ids:
+  - ns_aop_016
+  role: 主干依赖
+  condition: null
+  summary: microcosm
+  metadata:
+    source_ref: Source Text L375-377
+    snippet_count: 1
+- node_id: n_aop_source_text_l382_383_18
+  snippet_ids:
+  - ns_aop_017
+  role: 总结
+  condition: null
+  summary: alchemy_personality
+  metadata:
+    source_ref: Source Text L382-383
+    snippet_count: 1
+- node_id: n_aop_source_text_l417_429_19
+  snippet_ids:
+  - ns_aop_018
+  role: 主干
+  condition: null
+  summary: algebra_of_life
+  metadata:
+    source_ref: Source Text L417-429
+    snippet_count: 1
+- node_id: n_aop_source_text_l435_437_20
+  snippet_ids:
+  - ns_aop_019
+  role: 主干依赖
+  condition: null
+  summary: formal_causes
+  metadata:
+    source_ref: Source Text L435-437
+    snippet_count: 1
+- node_id: n_aop_source_text_l411_415_21
+  snippet_ids:
+  - ns_aop_020
+  role: 条件分支
+  condition: null
+  summary: symbolic_logic
+  metadata:
+    source_ref: Source Text L411-415
+    snippet_count: 1
+- node_id: n_aop_source_text_l427_429_22
+  snippet_ids:
+  - ns_aop_021
+  role: 总结
+  condition: null
+  summary: quality_not_quantity
+  metadata:
+    source_ref: Source Text L427-429
+    snippet_count: 1
+- node_id: n_aop_source_text_l568_572_23
+  snippet_ids:
+  - ns_aop_022
+  role: 主干
+  condition: null
+  summary: history_definition
+  metadata:
+    source_ref: Source Text L568-572
+    snippet_count: 1
+- node_id: n_aop_source_text_l584_587_24
+  snippet_ids:
+  - ns_aop_023
+  role: 主干依赖
+  condition: null
+  summary: index_philosophy
+  metadata:
+    source_ref: Source Text L584-587
+    snippet_count: 1
+- node_id: n_aop_source_text_l657_666_25
+  snippet_ids:
+  - ns_aop_024
+  role: 条件分支
+  condition: null
+  summary: ptolemy_critique
+  metadata:
+    source_ref: Source Text L657-666
+    snippet_count: 1
+- node_id: n_aop_source_text_l693_694_26
+  snippet_ids:
+  - ns_aop_025
+  role: 总结
+  condition: null
+  summary: integration_criterion
+  metadata:
+    source_ref: Source Text L693-694
+    snippet_count: 1
+- node_id: n_aop_source_text_l698_707_27
+  snippet_ids:
+  - ns_aop_026
+  role: 主干
+  condition: null
+  summary: participation_mystique
+  metadata:
+    source_ref: Source Text L698-707
+    snippet_count: 1
+- node_id: n_aop_source_text_l751_759_28
+  snippet_ids:
+  - ns_aop_027
+  role: 主干依赖
+  condition: null
+  summary: sun_moon_primal
+  metadata:
+    source_ref: Source Text L751-759
+    snippet_count: 1
+- node_id: n_aop_source_text_l779_786_29
+  snippet_ids:
+  - ns_aop_028
+  role: 总结
+  condition: null
+  summary: life_quality
+  metadata:
+    source_ref: Source Text L779-786
+    snippet_count: 1
+- node_id: n_aop_source_text_l797_806_30
+  snippet_ids:
+  - ns_aop_029
+  role: 主干
+  condition: null
+  summary: vitalism_definition
+  metadata:
+    source_ref: Source Text L797-806
+    snippet_count: 1
+- node_id: n_aop_source_text_l854_857_31
+  snippet_ids:
+  - ns_aop_030
+  role: 主干依赖
+  condition: null
+  summary: periodicity_study
+  metadata:
+    source_ref: Source Text L854-857
+    snippet_count: 1
+- node_id: n_aop_source_text_l871_881_32
+  snippet_ids:
+  - ns_aop_031
+  role: 条件分支
+  condition: null
+  summary: law_of_analogy
+  metadata:
+    source_ref: Source Text L871-881
+    snippet_count: 1
+- node_id: n_aop_source_text_l893_904_33
+  snippet_ids:
+  - ns_aop_032
+  role: 总结
+  condition: null
+  summary: yang_yin
+  metadata:
+    source_ref: Source Text L893-904
+    snippet_count: 1
+- node_id: n_aop_source_text_l912_918_34
+  snippet_ids:
+  - ns_aop_033
+  role: 主干
+  condition: null
+  summary: heavenly_order
+  metadata:
+    source_ref: Source Text L912-918
+    snippet_count: 1
+- node_id: n_aop_source_text_l920_927_35
+  snippet_ids:
+  - ns_aop_034
+  role: 主干依赖
+  condition: null
+  summary: calendar_ethics
+  metadata:
+    source_ref: Source Text L920-927
+    snippet_count: 1
+- node_id: n_aop_source_text_l928_948_36
+  snippet_ids:
+  - ns_aop_035
+  role: 条件分支
+  condition: null
+  summary: emperor_mediator
+  metadata:
+    source_ref: Source Text L928-948
+    snippet_count: 1
+- node_id: n_aop_source_text_l932_937_37
+  snippet_ids:
+  - ns_aop_036
+  role: 总结
+  condition: null
+  summary: harmony_spheres
+  metadata:
+    source_ref: Source Text L932-937
+    snippet_count: 1
+- node_id: n_aop_source_text_l995_1001_38
+  snippet_ids:
+  - ns_aop_037
+  role: 主干
+  condition: null
+  summary: sixth_century_change
+  metadata:
+    source_ref: Source Text L995-1001
+    snippet_count: 1
+- node_id: n_aop_source_text_l1012_1016_39
+  snippet_ids:
+  - ns_aop_038
+  role: 主干依赖
+  condition: null
+  summary: body_psyche_shift
+  metadata:
+    source_ref: Source Text L1012-1016
+    snippet_count: 1
+- node_id: n_aop_source_text_l1048_1051_40
+  snippet_ids:
+  - ns_aop_039
+  role: 条件分支
+  condition: null
+  summary: alchemy_psychology
+  metadata:
+    source_ref: Source Text L1048-1051
+    snippet_count: 1
+- node_id: n_aop_source_text_l992_993_41
+  snippet_ids:
+  - ns_aop_040
+  role: 总结
+  condition: null
+  summary: new_astrology_needed
+  metadata:
+    source_ref: Source Text L992-993
+    snippet_count: 1
+- node_id: n_aop_source_text_l1075_1077_42
+  snippet_ids:
+  - ns_aop_041
+  role: 主干
+  condition: null
+  summary: algebra_life_definition
+  metadata:
+    source_ref: Source Text L1075-1077
+    snippet_count: 1
+- node_id: n_aop_source_text_l1072_1075_43
+  snippet_ids:
+  - ns_aop_042
+  role: 主干依赖
+  condition: null
+  summary: symbol_effectiveness
+  metadata:
+    source_ref: Source Text L1072-1075
+    snippet_count: 1
+- node_id: n_aop_source_text_l1089_1094_44
+  snippet_ids:
+  - ns_aop_043
+  role: 条件分支
+  condition: null
+  summary: astronomy_separation
+  metadata:
+    source_ref: Source Text L1089-1094
+    snippet_count: 1
+- node_id: n_aop_source_text_l1079_1087_45
+  snippet_ids:
+  - ns_aop_044
+  role: 总结
+  condition: null
+  summary: correspondence_basis
+  metadata:
+    source_ref: Source Text L1079-1087
+    snippet_count: 1
+- node_id: n_aop_source_text_l1126_1132_46
+  snippet_ids:
+  - ns_aop_045
+  role: 主干
+  condition: null
+  summary: greek_failure
+  metadata:
+    source_ref: Source Text L1126-1132
+    snippet_count: 1
+- node_id: n_aop_source_text_l1144_1148_47
+  snippet_ids:
+  - ns_aop_046
+  role: 主干依赖
+  condition: null
+  summary: fortune_telling
+  metadata:
+    source_ref: Source Text L1144-1148
+    snippet_count: 1
+- node_id: n_aop_source_text_l1216_1225_48
+  snippet_ids:
+  - ns_aop_047
+  role: 条件分支
+  condition: null
+  summary: greek_logic_kills
+  metadata:
+    source_ref: Source Text L1216-1225
+    snippet_count: 1
+- node_id: n_aop_source_text_l1222_1229_49
+  snippet_ids:
+  - ns_aop_048
+  role: 总结
+  condition: null
+  summary: ideological_revolution
+  metadata:
+    source_ref: Source Text L1222-1229
+    snippet_count: 1
+- node_id: n_aop_source_text_l1273_1276_50
+  snippet_ids:
+  - ns_aop_049
+  role: 主干
+  condition: null
+  summary: psychological_jungle
+  metadata:
+    source_ref: Source Text L1273-1276
+    snippet_count: 1
+- node_id: n_aop_source_text_l1280_1290_51
+  snippet_ids:
+  - ns_aop_050
+  role: 主干依赖
+  condition: null
+  summary: church_as_astrology
+  metadata:
+    source_ref: Source Text L1280-1290
+    snippet_count: 1
+- node_id: n_aop_source_text_l1300_1308_52
+  snippet_ids:
+  - ns_aop_051
+  role: 条件分支
+  condition: null
+  summary: kabbalistic_revival
+  metadata:
+    source_ref: Source Text L1300-1308
+    snippet_count: 1
+- node_id: n_aop_source_text_l1291_1296_53
+  snippet_ids:
+  - ns_aop_052
+  role: 总结
+  condition: null
+  summary: four_elements
+  metadata:
+    source_ref: Source Text L1291-1296
+    snippet_count: 1
+- node_id: n_aop_source_text_l1406_1414_54
+  snippet_ids:
+  - ns_aop_053
+  role: 主干
+  condition: null
+  summary: psychological_vitalism
+  metadata:
+    source_ref: Source Text L1406-1414
+    snippet_count: 1
+- node_id: n_aop_source_text_l1454_1461_55
+  snippet_ids:
+  - ns_aop_054
+  role: 主干依赖
+  condition: null
+  summary: paracelsus_freedom
+  metadata:
+    source_ref: Source Text L1454-1461
+    snippet_count: 1
+- node_id: n_aop_source_text_l1526_1530_56
+  snippet_ids:
+  - ns_aop_055
+  role: 条件分支
+  condition: null
+  summary: astrology_rebirth
+  metadata:
+    source_ref: Source Text L1526-1530
+    snippet_count: 1
+- node_id: n_aop_source_text_l1535_1537_57
+  snippet_ids:
+  - ns_aop_056
+  role: 总结
+  condition: null
+  summary: algebra_definition
+  metadata:
+    source_ref: Source Text L1535-1537
+    snippet_count: 1
+- node_id: n_aop_source_text_l1574_1577_l1645_1_58
+  snippet_ids:
+  - ns_aop_057
+  role: 主干
+  condition: null
+  summary: three_epochs
+  metadata:
+    source_ref: Source Text L1574-1577, L1645-1647
+    snippet_count: 1
+- node_id: n_aop_source_text_l1647_1656_59
+  snippet_ids:
+  - ns_aop_058
+  role: 主干依赖
+  condition: null
+  summary: mechanism_vitalism
+  metadata:
+    source_ref: Source Text L1647-1656
+    snippet_count: 1
+- node_id: n_aop_source_text_l1658_1669_60
+  snippet_ids:
+  - ns_aop_059
+  role: 条件分支
+  condition: null
+  summary: mathematical_stage
+  metadata:
+    source_ref: Source Text L1658-1669
+    snippet_count: 1
+- node_id: n_aop_source_text_l1727_1729_61
+  snippet_ids:
+  - ns_aop_060
+  role: 总结
+  condition: null
+  summary: astrology_mathematical
+  metadata:
+    source_ref: Source Text L1727-1729
+    snippet_count: 1
+- node_id: n_aop_source_text_l1731_1735_62
+  snippet_ids:
+  - ns_aop_061
+  role: 主干
+  condition: null
+  summary: al_jebr_etymology
+  metadata:
+    source_ref: Source Text L1731-1735
+    snippet_count: 1
+- node_id: n_aop_source_text_l1741_1746_63
+  snippet_ids:
+  - ns_aop_062
+  role: 主干依赖
+  condition: null
+  summary: pure_correlation
+  metadata:
+    source_ref: Source Text L1741-1746
+    snippet_count: 1
+- node_id: n_aop_source_text_l1750_1754_64
+  snippet_ids:
+  - ns_aop_063
+  role: 条件分支
+  condition: null
+  summary: qualities_not_quantities
+  metadata:
+    source_ref: Source Text L1750-1754
+    snippet_count: 1
+- node_id: n_aop_source_text_l1754_1757_65
+  snippet_ids:
+  - ns_aop_064
+  role: 总结
+  condition: null
+  summary: psychological_qualities
+  metadata:
+    source_ref: Source Text L1754-1757
+    snippet_count: 1
+- node_id: n_aop_l1776_1783_66
+  snippet_ids:
+  - ns_aop_065
+  role: 主干
+  condition: null
+  summary: induction_fail
+  metadata:
+    source_ref: L1776-1783
+    snippet_count: 1
+- node_id: n_aop_l1809_1817_67
+  snippet_ids:
+  - ns_aop_066
+  role: 主干依赖
+  condition: null
+  summary: ray_insufficiency
+  metadata:
+    source_ref: L1809-1817
+    snippet_count: 1
+- node_id: n_aop_l1821_1828_68
+  snippet_ids:
+  - ns_aop_067
+  role: 条件分支
+  condition: null
+  summary: horary_natal
+  metadata:
+    source_ref: L1821-1828
+    snippet_count: 1
+- node_id: n_aop_l1835_1837_69
+  snippet_ids:
+  - ns_aop_068
+  role: 总结
+  condition: null
+  summary: diff_philosophy
+  metadata:
+    source_ref: L1835-1837
+    snippet_count: 1
+- node_id: n_aop_l1890_1896_70
+  snippet_ids:
+  - ns_aop_069
+  role: 主干
+  condition: null
+  summary: interpenetration
+  metadata:
+    source_ref: L1890-1896
+    snippet_count: 1
+- node_id: n_aop_l1900_1904_71
+  snippet_ids:
+  - ns_aop_070
+  role: 主干依赖
+  condition: null
+  summary: group_context
+  metadata:
+    source_ref: L1900-1904
+    snippet_count: 1
+- node_id: n_aop_l1906_1910_72
+  snippet_ids:
+  - ns_aop_071
+  role: 条件分支
+  condition: null
+  summary: coolie_nobleman
+  metadata:
+    source_ref: L1906-1910
+    snippet_count: 1
+- node_id: n_aop_l1911_1914_73
+  snippet_ids:
+  - ns_aop_072
+  role: 总结
+  condition: null
+  summary: tendency_expression
+  metadata:
+    source_ref: L1911-1914
+    snippet_count: 1
+- node_id: n_aop_l2026_2031_74
+  snippet_ids:
+  - ns_aop_073
+  role: 主干
+  condition: null
+  summary: math_parallel
+  metadata:
+    source_ref: L2026-2031
+    snippet_count: 1
+- node_id: n_aop_l2049_2052_75
+  snippet_ids:
+  - ns_aop_074
+  role: 主干依赖
+  condition: null
+  summary: no_content
+  metadata:
+    source_ref: L2049-2052
+    snippet_count: 1
+- node_id: n_aop_l2036_2039_76
+  snippet_ids:
+  - ns_aop_075
+  role: 条件分支
+  condition: null
+  summary: operational_symbols
+  metadata:
+    source_ref: L2036-2039
+    snippet_count: 1
+- node_id: n_aop_l2053_2058_77
+  snippet_ids:
+  - ns_aop_076
+  role: 总结
+  condition: null
+  summary: invests_order
+  metadata:
+    source_ref: L2053-2058
+    snippet_count: 1
+- node_id: n_aop_l2067_2072_78
+  snippet_ids:
+  - ns_aop_077
+  role: 主干
+  condition: null
+  summary: measuring_device
+  metadata:
+    source_ref: L2067-2072
+    snippet_count: 1
+- node_id: n_aop_l2098_2102_79
+  snippet_ids:
+  - ns_aop_078
+  role: 主干依赖
+  condition: null
+  summary: yardstick_clock
+  metadata:
+    source_ref: L2098-2102
+    snippet_count: 1
+- node_id: n_aop_l2105_2107_80
+  snippet_ids:
+  - ns_aop_079
+  role: 条件分支
+  condition: null
+  summary: pure_symbols
+  metadata:
+    source_ref: L2105-2107
+    snippet_count: 1
+- node_id: n_aop_l2100_2103_81
+  snippet_ids:
+  - ns_aop_080
+  role: 总结
+  condition: null
+  summary: needs_content
+  metadata:
+    source_ref: L2100-2103
+    snippet_count: 1
+- node_id: n_aop_l2191_2201_82
+  snippet_ids:
+  - ns_aop_081
+  role: 主干
+  condition: null
+  summary: holism_defined
+  metadata:
+    source_ref: L2191-2201
+    snippet_count: 1
+- node_id: n_aop_l2239_2244_83
+  snippet_ids:
+  - ns_aop_082
+  role: 主干依赖
+  condition: null
+  summary: whole_creative
+  metadata:
+    source_ref: L2239-2244
+    snippet_count: 1
+- node_id: n_aop_emergent_whole_is_real_process_84
+  snippet_ids:
+  - ns_aop_083
+  role: 条件分支
+  condition: null
+  summary: holistic_causation
+  metadata:
+    source_ref: emergent whole) is real process; freedom inherent. → L2251-2255
+    snippet_count: 1
+- node_id: n_aop_l2226_2237_85
+  snippet_ids:
+  - ns_aop_084
+  role: 总结
+  condition: null
+  summary: evolution_wholes
+  metadata:
+    source_ref: L2226-2237
+    snippet_count: 1
+- node_id: n_aop_l2318_2322_86
+  snippet_ids:
+  - ns_aop_085
+  role: 主干
+  condition: null
+  summary: holistic_logic
+  metadata:
+    source_ref: L2318-2322
+    snippet_count: 1
+- node_id: n_aop_l2351_2360_87
+  snippet_ids:
+  - ns_aop_086
+  role: 主干依赖
+  condition: null
+  summary: parts_organs
+  metadata:
+    source_ref: L2351-2360
+    snippet_count: 1
+- node_id: n_aop_l2368_2373_88
+  snippet_ids:
+  - ns_aop_087
+  role: 条件分支
+  condition: null
+  summary: operative_wholes
+  metadata:
+    source_ref: L2368-2373
+    snippet_count: 1
+- node_id: n_aop_l2396_2398_89
+  snippet_ids:
+  - ns_aop_088
+  role: 总结
+  condition: null
+  summary: time_mystery
+  metadata:
+    source_ref: L2396-2398
+    snippet_count: 1
+- node_id: n_aop_l2414_2422_90
+  snippet_ids:
+  - ns_aop_089
+  role: 主干
+  condition: null
+  summary: time_real
+  metadata:
+    source_ref: L2414-2422
+    snippet_count: 1
+- node_id: n_aop_l2456_2468_91
+  snippet_ids:
+  - ns_aop_090
+  role: 主干依赖
+  condition: null
+  summary: cyclology
+  metadata:
+    source_ref: L2456-2468
+    snippet_count: 1
+- node_id: n_aop_l2472_2478_92
+  snippet_ids:
+  - ns_aop_091
+  role: 条件分支
+  condition: null
+  summary: time_matrix
+  metadata:
+    source_ref: L2472-2478
+    snippet_count: 1
+- node_id: n_aop_l2480_2489_93
+  snippet_ids:
+  - ns_aop_092
+  role: 总结
+  condition: null
+  summary: chronos_saturn
+  metadata:
+    source_ref: L2480-2489
+    snippet_count: 1
+- node_id: n_aop_l2633_2643_94
+  snippet_ids:
+  - ns_aop_093
+  role: 主干
+  condition: null
+  summary: negative_time
+  metadata:
+    source_ref: L2633-2643
+    snippet_count: 1
+- node_id: n_aop_l2647_2655_95
+  snippet_ids:
+  - ns_aop_094
+  role: 主干依赖
+  condition: null
+  summary: positive_time
+  metadata:
+    source_ref: L2647-2655
+    snippet_count: 1
+- node_id: n_aop_l2657_2663_96
+  snippet_ids:
+  - ns_aop_095
+  role: 条件分支
+  condition: null
+  summary: live_fully
+  metadata:
+    source_ref: L2657-2663
+    snippet_count: 1
+- node_id: n_aop_l2668_2676_97
+  snippet_ids:
+  - ns_aop_096
+  role: 总结
+  condition: null
+  summary: death_transform
+  metadata:
+    source_ref: L2668-2676
+    snippet_count: 1
+- node_id: n_aop_l2701_2721_98
+  snippet_ids:
+  - ns_aop_097
+  role: 主干
+  condition: null
+  summary: intuition_defined
+  metadata:
+    source_ref: L2701-2721
+    snippet_count: 1
+- node_id: n_aop_l2713_2717_99
+  snippet_ids:
+  - ns_aop_098
+  role: 主干依赖
+  condition: null
+  summary: jung_intuition
+  metadata:
+    source_ref: L2713-2717
+    snippet_count: 1
+- node_id: n_aop_l2746_2752_100
+  snippet_ids:
+  - ns_aop_099
+  role: 条件分支
+  condition: null
+  summary: astrology_foundation
+  metadata:
+    source_ref: L2746-2752
+    snippet_count: 1
+- node_id: n_aop_l2750_2753_101
+  snippet_ids:
+  - ns_aop_100
+  role: 总结
+  condition: null
+  summary: symbols_basis
+  metadata:
+    source_ref: L2750-2753
+    snippet_count: 1
+- node_id: n_aop_l2755_2763_102
+  snippet_ids:
+  - ns_aop_101
+  role: 主干
+  condition: null
+  summary: symbols_defined
+  metadata:
+    source_ref: L2755-2763
+    snippet_count: 1
+- node_id: n_aop_l2871_2876_103
+  snippet_ids:
+  - ns_aop_102
+  role: 主干依赖
+  condition: null
+  summary: intuition_symbol
+  metadata:
+    source_ref: L2871-2876
+    snippet_count: 1
+- node_id: n_aop_l2881_2884_104
+  snippet_ids:
+  - ns_aop_103
+  role: 条件分支
+  condition: null
+  summary: moment_cosmic_symbol
+  metadata:
+    source_ref: L2881-2884
+    snippet_count: 1
+- node_id: n_aop_l2897_2902_105
+  snippet_ids:
+  - ns_aop_104
+  role: 总结
+  condition: null
+  summary: birth_identity
+  metadata:
+    source_ref: L2897-2902
+    snippet_count: 1
+- node_id: n_aop_l2974_2982_106
+  snippet_ids:
+  - ns_aop_105
+  role: 主干
+  condition: null
+  summary: astrology_language
+  metadata:
+    source_ref: L2974-2982
+    snippet_count: 1
+- node_id: n_aop_l3065_3080_107
+  snippet_ids:
+  - ns_aop_106
+  role: 主干依赖
+  condition: null
+  summary: functional_coherency
+  metadata:
+    source_ref: L3065-3080
+    snippet_count: 1
+- node_id: n_aop_l3082_3108_108
+  snippet_ids:
+  - ns_aop_107
+  role: 主干
+  condition: null
+  summary: geocentric_basis
+  metadata:
+    source_ref: L3082-3108
+    snippet_count: 1
+- node_id: n_aop_l3171_3203_109
+  snippet_ids:
+  - ns_aop_108
+  role: 主干依赖
+  condition: null
+  summary: heliocentric_basis
+  metadata:
+    source_ref: L3171-3203
+    snippet_count: 1
+- node_id: n_aop_l3136_3141_110
+  snippet_ids:
+  - ns_aop_109
+  role: 条件分支
+  condition: null
+  summary: no_mixing
+  metadata:
+    source_ref: L3136-3141
+    snippet_count: 1
+- node_id: n_aop_l3235_3245_111
+  snippet_ids:
+  - ns_aop_110
+  role: 总结
+  condition: null
+  summary: few_possess
+  metadata:
+    source_ref: L3235-3245
+    snippet_count: 1
+- node_id: n_aop_l3305_3322_112
+  snippet_ids:
+  - ns_aop_111
+  role: 主干
+  condition: null
+  summary: synchronistic
+  metadata:
+    source_ref: L3305-3322
+    snippet_count: 1
+- node_id: n_aop_l3400_3416_113
+  snippet_ids:
+  - ns_aop_112
+  role: 总结
+  condition: null
+  summary: astrology_synchronism
+  metadata:
+    source_ref: L3400-3416
+    snippet_count: 1
+- node_id: n_aop_l3536_3548_114
+  snippet_ids:
+  - ns_aop_113
+  role: 主干
+  condition: null
+  summary: three_types
+  metadata:
+    source_ref: L3536-3548
+    snippet_count: 1
+- node_id: n_aop_l3654_3656_115
+  snippet_ids:
+  - ns_aop_114
+  role: 总结
+  condition: null
+  summary: purposeful_healing
+  metadata:
+    source_ref: L3654-3656
+    snippet_count: 1
+- node_id: n_aop_l3706_3724_116
+  snippet_ids:
+  - ns_aop_115
+  role: 主干
+  condition: null
+  summary: collective_unconscious
+  metadata:
+    source_ref: L3706-3724
+    snippet_count: 1
+- node_id: n_aop_l3776_3785_117
+  snippet_ids:
+  - ns_aop_116
+  role: 总结
+  condition: null
+  summary: jung_vs_freud
+  metadata:
+    source_ref: L3776-3785
+    snippet_count: 1
+- node_id: n_aop_self_never_final_l3839_3841_118
+  snippet_ids:
+  - ns_aop_117
+  role: 主干
+  condition: null
+  summary: individuation_def
+  metadata:
+    source_ref: Self, never final. → L3839-3841
+    snippet_count: 1
+- node_id: n_aop_l3851_3873_119
+  snippet_ids:
+  - ns_aop_118
+  role: 总结
+  condition: null
+  summary: vs_individualism
+  metadata:
+    source_ref: L3851-3873
+    snippet_count: 1
+- node_id: n_aop_l3949_4095_120
+  snippet_ids:
+  - ns_aop_119
+  role: 主干
+  condition: null
+  summary: ethics_esthetics
+  metadata:
+    source_ref: L3949-4095
+    snippet_count: 1
+- node_id: n_aop_l4109_4111_121
+  snippet_ids:
+  - ns_aop_120
+  role: 总结
+  condition: null
+  summary: new_astrology
+  metadata:
+    source_ref: L4109-4111
+    snippet_count: 1
+- node_id: n_aop_l4276_4284_122
+  snippet_ids:
+  - ns_aop_121
+  role: 主干
+  condition: null
+  summary: mandala_zodiac
+  metadata:
+    source_ref: L4276-4284
+    snippet_count: 1
+- node_id: n_aop_l4284_4288_123
+  snippet_ids:
+  - ns_aop_122
+  role: 总结
+  condition: null
+  summary: chart_blueprint
+  metadata:
+    source_ref: L4284-4288
+    snippet_count: 1
+- node_id: n_aop_l4327_4343_124
+  snippet_ids:
+  - ns_aop_123
+  role: 主干
+  condition: null
+  summary: cyclic_formula
+  metadata:
+    source_ref: L4327-4343
+    snippet_count: 1
+- node_id: n_aop_l4385_4394_125
+  snippet_ids:
+  - ns_aop_124
+  role: 总结
+  condition: null
+  summary: beginning_monad
+  metadata:
+    source_ref: L4385-4394
+    snippet_count: 1
+- node_id: n_aop_l4471_4524_126
+  snippet_ids:
+  - ns_aop_125
+  role: 主干
+  condition: null
+  summary: hindu_aum
+  metadata:
+    source_ref: L4471-4524
+    snippet_count: 1
+- node_id: n_aop_l4542_4612_127
+  snippet_ids:
+  - ns_aop_126
+  role: 主干依赖
+  condition: null
+  summary: chinese_tao
+  metadata:
+    source_ref: L4542-4612
+    snippet_count: 1
+- node_id: n_aop_l4614_4627_128
+  snippet_ids:
+  - ns_aop_127
+  role: 主干
+  condition: null
+  summary: new_formula
+  metadata:
+    source_ref: L4614-4627
+    snippet_count: 1
+- node_id: n_aop_l4635_4674_129
+  snippet_ids:
+  - ns_aop_128
+  role: 总结
+  condition: null
+  summary: holism_astrology
+  metadata:
+    source_ref: L4635-4674
+    snippet_count: 1
+- node_id: n_aop_l4676_4691_130
+  snippet_ids:
+  - ns_aop_129
+  role: 主干
+  condition: null
+  summary: indiv_coll
+  metadata:
+    source_ref: L4676-4691
+    snippet_count: 1
+- node_id: n_aop_l4741_4744_131
+  snippet_ids:
+  - ns_aop_130
+  role: 总结
+  condition: null
+  summary: creative_third
+  metadata:
+    source_ref: L4741-4744
+    snippet_count: 1
+- node_id: n_aop_indiv_coll_vs_spirit_indiv_cre_132
+  snippet_ids:
+  - ns_aop_131
+  role: 主干
+  condition: null
+  summary: ariadne_formula
+  metadata:
+    source_ref: indiv→coll) vs spirit (indiv→creative→higher). → L4943-4949
+    snippet_count: 1
+- node_id: n_aop_l4951_4965_133
+  snippet_ids:
+  - ns_aop_132
+  role: 总结
+  condition: null
+  summary: parallel_symbols
+  metadata:
+    source_ref: L4951-4965
+    snippet_count: 1
+- node_id: n_aop_l5834_5839_134
+  snippet_ids:
+  - ns_aop_133
+  role: 主干
+  condition: null
+  summary: signature
+  metadata:
+    source_ref: L5834-5839
+    snippet_count: 1
+- node_id: n_aop_l5862_5864_135
+  snippet_ids:
+  - ns_aop_134
+  role: 总结
+  condition: null
+  summary: birth_chart_signature
+  metadata:
+    source_ref: L5862-5864
+    snippet_count: 1
+- node_id: n_aop_l5933_5939_136
+  snippet_ids:
+  - ns_aop_135
+  role: 主干
+  condition: null
+  summary: subjective_motion
+  metadata:
+    source_ref: L5933-5939
+    snippet_count: 1
+- node_id: n_aop_l5941_5949_137
+  snippet_ids:
+  - ns_aop_136
+  role: 主干依赖
+  condition: null
+  summary: objective_motion
+  metadata:
+    source_ref: L5941-5949
+    snippet_count: 1
+- node_id: n_aop_l5953_5956_138
+  snippet_ids:
+  - ns_aop_137
+  role: 总结
+  condition: null
+  summary: two_pillars
+  metadata:
+    source_ref: L5953-5956
+    snippet_count: 1
+- node_id: n_aop_l6043_6045_139
+  snippet_ids:
+  - ns_aop_138
+  role: 主干
+  condition: null
+  summary: day_individual
+  metadata:
+    source_ref: L6043-6045
+    snippet_count: 1
+- node_id: n_aop_l6022_6028_140
+  snippet_ids:
+  - ns_aop_139
+  role: 主干依赖
+  condition: null
+  summary: year_collective
+  metadata:
+    source_ref: L6022-6028
+    snippet_count: 1
+- node_id: n_aop_l6049_6088_141
+  snippet_ids:
+  - ns_aop_140
+  role: 主干
+  condition: null
+  summary: polar_cycle
+  metadata:
+    source_ref: L6049-6088
+    snippet_count: 1
+- node_id: n_aop_l6512_6521_142
+  snippet_ids:
+  - ns_aop_141
+  role: 总结
+  condition: null
+  summary: creative_factor
+  metadata:
+    source_ref: L6512-6521
+    snippet_count: 1
+- node_id: n_aop_l6154_6160_143
+  snippet_ids:
+  - ns_aop_142
+  role: 主干
+  condition: null
+  summary: houses_dial
+  metadata:
+    source_ref: L6154-6160
+    snippet_count: 1
+- node_id: n_aop_l6250_6258_144
+  snippet_ids:
+  - ns_aop_143
+  role: 主干依赖
+  condition: null
+  summary: zodiac_lifeforce
+  metadata:
+    source_ref: L6250-6258
+    snippet_count: 1
+- node_id: n_aop_l6212_6224_145
+  snippet_ids:
+  - ns_aop_144
+  role: 总结
+  condition: null
+  summary: two_axes
+  metadata:
+    source_ref: L6212-6224
+    snippet_count: 1
+- node_id: n_aop_l6603_6612_146
+  snippet_ids:
+  - ns_aop_145
+  role: 主干
+  condition: null
+  summary: three_types
+  metadata:
+    source_ref: L6603-6612
+    snippet_count: 1
+- node_id: n_aop_l6614_6622_147
+  snippet_ids:
+  - ns_aop_146
+  role: 总结
+  condition: null
+  summary: own_technique
+  metadata:
+    source_ref: L6614-6622
+    snippet_count: 1
+- node_id: n_aop_l6657_6674_148
+  snippet_ids:
+  - ns_aop_147
+  role: 主干
+  condition: null
+  summary: natal_astrology
+  metadata:
+    source_ref: L6657-6674
+    snippet_count: 1
+- node_id: n_aop_l6676_6687_149
+  snippet_ids:
+  - ns_aop_148
+  role: 总结
+  condition: null
+  summary: psychological_basis
+  metadata:
+    source_ref: L6676-6687
+    snippet_count: 1
+- node_id: n_aop_l6700_6713_150
+  snippet_ids:
+  - ns_aop_149
+  role: 主干
+  condition: null
+  summary: mundane_astrology
+  metadata:
+    source_ref: L6700-6713
+    snippet_count: 1
+- node_id: n_aop_l6749_6760_151
+  snippet_ids:
+  - ns_aop_150
+  role: 主干依赖
+  condition: null
+  summary: sun_emphasis
+  metadata:
+    source_ref: L6749-6760
+    snippet_count: 1
+- node_id: n_aop_l6798_6810_152
+  snippet_ids:
+  - ns_aop_151
+  role: 主干
+  condition: null
+  summary: occult_astrology
+  metadata:
+    source_ref: L6798-6810
+    snippet_count: 1
+- node_id: n_aop_l6843_6874_153
+  snippet_ids:
+  - ns_aop_152
+  role: 主干依赖
+  condition: null
+  summary: involution_evolution
+  metadata:
+    source_ref: L6843-6874
+    snippet_count: 1
+- node_id: n_aop_l6968_6987_154
+  snippet_ids:
+  - ns_aop_153
+  role: 主干
+  condition: null
+  summary: harmonic_astrology
+  metadata:
+    source_ref: L6968-6987
+    snippet_count: 1
+- node_id: n_aop_l7030_7056_155
+  snippet_ids:
+  - ns_aop_154
+  role: 总结
+  condition: null
+  summary: three_elements
+  metadata:
+    source_ref: L7030-7056
+    snippet_count: 1
+- node_id: n_aop_l7117_7123_156
+  snippet_ids:
+  - ns_aop_155
+  role: 主干
+  condition: null
+  summary: houses_framework
+  metadata:
+    source_ref: L7117-7123
+    snippet_count: 1
+- node_id: n_aop_l7135_7141_157
+  snippet_ids:
+  - ns_aop_156
+  role: 总结
+  condition: null
+  summary: individuality_defined
+  metadata:
+    source_ref: L7135-7141
+    snippet_count: 1
+- node_id: n_aop_l7172_7175_158
+  snippet_ids:
+  - ns_aop_157
+  role: 主干
+  condition: null
+  summary: four_functions
+  metadata:
+    source_ref: L7172-7175
+    snippet_count: 1
+- node_id: n_aop_l7203_7257_159
+  snippet_ids:
+  - ns_aop_158
+  role: 主干依赖
+  condition: null
+  summary: horizontal_vertical
+  metadata:
+    source_ref: L7203-7257
+    snippet_count: 1
+- node_id: n_aop_l7297_7323_160
+  snippet_ids:
+  - ns_aop_159
+  role: 主干
+  condition: null
+  summary: angular_succedent_cadent
+  metadata:
+    source_ref: L7297-7323
+    snippet_count: 1
+- node_id: n_aop_l7349_7355_161
+  snippet_ids:
+  - ns_aop_160
+  role: 总结
+  condition: null
+  summary: twelfth_house
+  metadata:
+    source_ref: L7349-7355
+    snippet_count: 1
+- node_id: n_aop_l7571_7576_162
+  snippet_ids:
+  - ns_aop_161
+  role: 主干
+  condition: null
+  summary: 28_year_cycle
+  metadata:
+    source_ref: L7571-7576
+    snippet_count: 1
+- node_id: n_aop_l7643_7670_163
+  snippet_ids:
+  - ns_aop_162
+  role: 主干依赖
+  condition: null
+  summary: three_births
+  metadata:
+    source_ref: L7643-7670
+    snippet_count: 1
+- node_id: n_aop_l7710_7756_164
+  snippet_ids:
+  - ns_aop_163
+  role: 主干
+  condition: null
+  summary: seven_year_cycles
+  metadata:
+    source_ref: L7710-7756
+    snippet_count: 1
+- node_id: n_aop_l7837_7842_165
+  snippet_ids:
+  - ns_aop_164
+  role: 总结
+  condition: null
+  summary: most_individual_universal
+  metadata:
+    source_ref: L7837-7842
+    snippet_count: 1
+- node_id: n_aop_l7917_7946_166
+  snippet_ids:
+  - ns_aop_165
+  role: 主干
+  condition: null
+  summary: zodiac_revaluation
+  metadata:
+    source_ref: L7917-7946
+    snippet_count: 1
+- node_id: n_aop_l7966_7970_167
+  snippet_ids:
+  - ns_aop_166
+  role: 总结
+  condition: null
+  summary: houses_basic
+  metadata:
+    source_ref: L7966-7970
+    snippet_count: 1
+- node_id: n_aop_l8013_8028_168
+  snippet_ids:
+  - ns_aop_167
+  role: 主干
+  condition: null
+  summary: zodiac_aura
+  metadata:
+    source_ref: L8013-8028
+    snippet_count: 1
+- node_id: n_aop_l8160_8166_169
+  snippet_ids:
+  - ns_aop_168
+  role: 总结
+  condition: null
+  summary: twelve_gates
+  metadata:
+    source_ref: L8160-8166
+    snippet_count: 1
+- node_id: n_aop_l8277_8286_170
+  snippet_ids:
+  - ns_aop_169
+  role: 主干
+  condition: null
+  summary: four_elements
+  metadata:
+    source_ref: L8277-8286
+    snippet_count: 1
+- node_id: n_aop_l8305_8316_171
+  snippet_ids:
+  - ns_aop_170
+  role: 主干依赖
+  condition: null
+  summary: aries_libra
+  metadata:
+    source_ref: L8305-8316
+    snippet_count: 1
+- node_id: n_aop_l8477_8491_172
+  snippet_ids:
+  - ns_aop_171
+  role: 主干
+  condition: null
+  summary: cardinal_fixed_mutable
+  metadata:
+    source_ref: L8477-8491
+    snippet_count: 1
+- node_id: n_aop_l8408_8418_173
+  snippet_ids:
+  - ns_aop_172
+  role: 总结
+  condition: null
+  summary: avataric_gates
+  metadata:
+    source_ref: L8408-8418
+    snippet_count: 1
+- node_id: n_aop_l8569_8594_174
+  snippet_ids:
+  - ns_aop_173
+  role: 主干
+  condition: null
+  summary: zodiac_dual
+  metadata:
+    source_ref: L8569-8594
+    snippet_count: 1
+- node_id: n_aop_l8624_8630_175
+  snippet_ids:
+  - ns_aop_174
+  role: 总结
+  condition: null
+  summary: four_synthesis
+  metadata:
+    source_ref: L8624-8630
+    snippet_count: 1
+- node_id: n_aop_l8648_8666_176
+  snippet_ids:
+  - ns_aop_175
+  role: 主干
+  condition: null
+  summary: personality_def
+  metadata:
+    source_ref: L8648-8666
+    snippet_count: 1
+- node_id: n_aop_l8811_8823_177
+  snippet_ids:
+  - ns_aop_176
+  role: 总结
+  condition: null
+  summary: sun_integrator
+  metadata:
+    source_ref: L8811-8823
+    snippet_count: 1
+- node_id: n_aop_l8909_8932_178
+  snippet_ids:
+  - ns_aop_177
+  role: 主干
+  condition: null
+  summary: saturn_moon
+  metadata:
+    source_ref: L8909-8932
+    snippet_count: 1
+- node_id: n_aop_l8934_8987_179
+  snippet_ids:
+  - ns_aop_178
+  role: 主干
+  condition: null
+  summary: jupiter_mercury
+  metadata:
+    source_ref: L8934-8987
+    snippet_count: 1
+- node_id: n_aop_l8996_9028_180
+  snippet_ids:
+  - ns_aop_179
+  role: 主干
+  condition: null
+  summary: mars_venus
+  metadata:
+    source_ref: L8996-9028
+    snippet_count: 1
+- node_id: n_aop_l9139_9148_181
+  snippet_ids:
+  - ns_aop_180
+  role: 主干
+  condition: null
+  summary: retrograde_meaning
+  metadata:
+    source_ref: L9139-9148
+    snippet_count: 1
+- node_id: n_aop_l9171_9194_182
+  snippet_ids:
+  - ns_aop_181
+  role: 主干依赖
+  condition: null
+  summary: saturn_retrograde
+  metadata:
+    source_ref: L9171-9194
+    snippet_count: 1
+- node_id: n_aop_l9343_9357_183
+  snippet_ids:
+  - ns_aop_182
+  role: 主干
+  condition: null
+  summary: uranus_function
+  metadata:
+    source_ref: L9343-9357
+    snippet_count: 1
+- node_id: n_aop_l9359_9389_184
+  snippet_ids:
+  - ns_aop_183
+  role: 主干
+  condition: null
+  summary: neptune_function
+  metadata:
+    source_ref: L9359-9389
+    snippet_count: 1
+- node_id: n_aop_l9391_9425_185
+  snippet_ids:
+  - ns_aop_184
+  role: 主干
+  condition: null
+  summary: pluto_function
+  metadata:
+    source_ref: L9391-9425
+    snippet_count: 1
+- node_id: n_aop_l9725_9768_186
+  snippet_ids:
+  - ns_aop_185
+  role: 主干
+  condition: null
+  summary: higher_moons
+  metadata:
+    source_ref: L9725-9768
+    snippet_count: 1
+- node_id: n_aop_l9803_9811_187
+  snippet_ids:
+  - ns_aop_186
+  role: 总结
+  condition: null
+  summary: fourth_moon
+  metadata:
+    source_ref: L9803-9811
+    snippet_count: 1
+- node_id: n_aop_l9879_9947_188
+  snippet_ids:
+  - ns_aop_187
+  role: 主干
+  condition: null
+  summary: planetary_nodes
+  metadata:
+    source_ref: L9879-9947
+    snippet_count: 1
+- node_id: n_aop_l9949_9980_189
+  snippet_ids:
+  - ns_aop_188
+  role: 主干依赖
+  condition: null
+  summary: uranus_nodes
+  metadata:
+    source_ref: L9949-9980
+    snippet_count: 1
+- node_id: n_aop_l10075_10097_190
+  snippet_ids:
+  - ns_aop_189
+  role: 主干
+  condition: null
+  summary: moon_nodes
+  metadata:
+    source_ref: L10075-10097
+    snippet_count: 1
+- node_id: n_aop_l10169_10197_191
+  snippet_ids:
+  - ns_aop_190
+  role: 总结
+  condition: null
+  summary: south_node
+  metadata:
+    source_ref: L10169-10197
+    snippet_count: 1
+- node_id: n_aop_l10351_10366_192
+  snippet_ids:
+  - ns_aop_191
+  role: 主干
+  condition: null
+  summary: part_fortune
+  metadata:
+    source_ref: L10351-10366
+    snippet_count: 1
+- node_id: n_aop_l10368_10386_193
+  snippet_ids:
+  - ns_aop_192
+  role: 总结
+  condition: null
+  summary: fortune_meaning
+  metadata:
+    source_ref: L10368-10386
+    snippet_count: 1
+- node_id: n_aop_l10423_10432_194
+  snippet_ids:
+  - ns_aop_193
+  role: 主干
+  condition: null
+  summary: parts_theory
+  metadata:
+    source_ref: L10423-10432
+    snippet_count: 1
+- node_id: n_aop_l10464_10478_195
+  snippet_ids:
+  - ns_aop_194
+  role: 总结
+  condition: null
+  summary: parts_algebra
+  metadata:
+    source_ref: L10464-10478
+    snippet_count: 1
+- node_id: n_aop_l10504_10529_196
+  snippet_ids:
+  - ns_aop_195
+  role: 主干
+  condition: null
+  summary: degree_synthesis
+  metadata:
+    source_ref: L10504-10529
+    snippet_count: 1
+- node_id: n_aop_l10531_10548_197
+  snippet_ids:
+  - ns_aop_196
+  role: 总结
+  condition: null
+  summary: degree_creative
+  metadata:
+    source_ref: L10531-10548
+    snippet_count: 1
+- node_id: n_aop_l10601_10636_198
+  snippet_ids:
+  - ns_aop_197
+  role: 主干
+  condition: null
+  summary: sabian_origin
+  metadata:
+    source_ref: L10601-10636
+    snippet_count: 1
+- node_id: n_aop_l10661_10703_199
+  snippet_ids:
+  - ns_aop_198
+  role: 主干依赖
+  condition: null
+  summary: span_structure
+  metadata:
+    source_ref: L10661-10703
+    snippet_count: 1
+- node_id: n_aop_l12413_12462_200
+  snippet_ids:
+  - ns_aop_199
+  role: 主干
+  condition: null
+  summary: form_definition
+  metadata:
+    source_ref: L12413-12462
+    snippet_count: 1
+- node_id: n_aop_l12464_12471_201
+  snippet_ids:
+  - ns_aop_200
+  role: 总结
+  condition: null
+  summary: basic_trinity
+  metadata:
+    source_ref: L12464-12471
+    snippet_count: 1
+- node_id: n_aop_l12916_12965_202
+  snippet_ids:
+  - ns_aop_201
+  role: 主干
+  condition: null
+  summary: conjunction_meaning
+  metadata:
+    source_ref: L12916-12965
+    snippet_count: 1
+- node_id: n_aop_l12967_12994_203
+  snippet_ids:
+  - ns_aop_202
+  role: 主干
+  condition: null
+  summary: opposition_meaning
+  metadata:
+    source_ref: L12967-12994
+    snippet_count: 1
+- node_id: n_aop_l13006_13041_204
+  snippet_ids:
+  - ns_aop_203
+  role: 主干
+  condition: null
+  summary: aspect_series
+  metadata:
+    source_ref: L13006-13041
+    snippet_count: 1
+- node_id: n_aop_l13043_13058_205
+  snippet_ids:
+  - ns_aop_204
+  role: 主干依赖
+  condition: null
+  summary: quintile_series
+  metadata:
+    source_ref: L13043-13058
+    snippet_count: 1
+- node_id: n_aop_l13108_13117_206
+  snippet_ids:
+  - ns_aop_205
+  role: 主干
+  condition: null
+  summary: focal_determinators
+  metadata:
+    source_ref: L13108-13117
+    snippet_count: 1
+- node_id: n_aop_l13185_13196_207
+  snippet_ids:
+  - ns_aop_206
+  role: 主干依赖
+  condition: null
+  summary: singleton
+  metadata:
+    source_ref: L13185-13196
+    snippet_count: 1
+- node_id: n_aop_l13489_13510_208
+  snippet_ids:
+  - ns_aop_207
+  role: 主干
+  condition: null
+  summary: know_fulfill
+  metadata:
+    source_ref: L13489-13510
+    snippet_count: 1
+- node_id: n_aop_l13609_13611_209
+  snippet_ids:
+  - ns_aop_208
+  role: 总结
+  condition: null
+  summary: selfhood_destiny
+  metadata:
+    source_ref: L13609-13611
+    snippet_count: 1
+- node_id: n_aop_l13583_13594_210
+  snippet_ids:
+  - ns_aop_209
+  role: 主干
+  condition: null
+  summary: birth_chart_nature
+  metadata:
+    source_ref: L13583-13594
+    snippet_count: 1
+- node_id: n_aop_l13687_13695_211
+  snippet_ids:
+  - ns_aop_210
+  role: 总结
+  condition: null
+  summary: form_contents
+  metadata:
+    source_ref: L13687-13695
+    snippet_count: 1
+- node_id: n_aop_l14230_14237_212
+  snippet_ids:
+  - ns_aop_211
+  role: 主干
+  condition: null
+  summary: three_cycles
+  metadata:
+    source_ref: L14230-14237
+    snippet_count: 1
+- node_id: n_aop_l14292_14308_213
+  snippet_ids:
+  - ns_aop_212
+  role: 总结
+  condition: null
+  summary: progression_types
+  metadata:
+    source_ref: L14292-14308
+    snippet_count: 1
+- node_id: n_aop_l14357_14391_214
+  snippet_ids:
+  - ns_aop_213
+  role: 主干
+  condition: null
+  summary: secondary_prog
+  metadata:
+    source_ref: L14357-14391
+    snippet_count: 1
+- node_id: n_aop_l14408_14414_215
+  snippet_ids:
+  - ns_aop_214
+  role: 主干依赖
+  condition: null
+  summary: progressed_moon
+  metadata:
+    source_ref: L14408-14414
+    snippet_count: 1
+- node_id: n_aop_l14621_14657_216
+  snippet_ids:
+  - ns_aop_215
+  role: 主干
+  condition: null
+  summary: transits_nature
+  metadata:
+    source_ref: L14621-14657
+    snippet_count: 1
+- node_id: n_aop_l14680_14686_217
+  snippet_ids:
+  - ns_aop_216
+  role: 主干依赖
+  condition: null
+  summary: transit_example
+  metadata:
+    source_ref: L14680-14686
+    snippet_count: 1
+- node_id: n_aop_l15170_15190_218
+  snippet_ids:
+  - ns_aop_217
+  role: 主干
+  condition: null
+  summary: individual_interp
+  metadata:
+    source_ref: L15170-15190
+    snippet_count: 1
+- node_id: n_aop_l15206_15210_219
+  snippet_ids:
+  - ns_aop_218
+  role: 主干依赖
+  condition: null
+  summary: interp_methods
+  metadata:
+    source_ref: L15206-15210
+    snippet_count: 1
+- node_id: n_aop_l15835_15860_220
+  snippet_ids:
+  - ns_aop_219
+  role: 主干
+  condition: null
+  summary: freedom_inaccuracy
+  metadata:
+    source_ref: L15835-15860
+    snippet_count: 1
+- node_id: n_aop_l15862_15869_221
+  snippet_ids:
+  - ns_aop_220
+  role: 总结
+  condition: null
+  summary: masters_freedom
+  metadata:
+    source_ref: L15862-15869
+    snippet_count: 1
+- node_id: n_aop_l15848_15852_222
+  snippet_ids:
+  - ns_aop_221
+  role: 主干
+  condition: null
+  summary: astro_science
+  metadata:
+    source_ref: L15848-15852
+    snippet_count: 1
+- node_id: n_aop_l15862_15870_223
+  snippet_ids:
+  - ns_aop_222
+  role: 总结
+  condition: null
+  summary: life_interpretation
+  metadata:
+    source_ref: L15862-15870
+    snippet_count: 1
+- node_id: n_aop_l15906_15919_224
+  snippet_ids:
+  - ns_aop_223
+  role: 主干
+  condition: null
+  summary: astro_purpose
+  metadata:
+    source_ref: L15906-15919
+    snippet_count: 1
+- node_id: n_aop_l15943_15948_225
+  snippet_ids:
+  - ns_aop_224
+  role: 总结
+  condition: null
+  summary: personality_integration
+  metadata:
+    source_ref: L15943-15948
+    snippet_count: 1
+- node_id: n_aop_l15967_15973_226
+  snippet_ids:
+  - ns_aop_225
+  role: 主干
+  condition: null
+  summary: astro_psych_diff
+  metadata:
+    source_ref: L15967-15973
+    snippet_count: 1
+- node_id: n_aop_self_l15976_15984_227
+  snippet_ids:
+  - ns_aop_226
+  role: 总结
+  condition: null
+  summary: begin_end_same
+  metadata:
+    source_ref: Self. → L15976-15984
+    snippet_count: 1
+edges:
+- from_node: n_aop_english_paraphrase_1
+  to_node: n_aop_source_text_0
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_hcc_006
+    source_ref: Rudhyar Ch2
+    inferred_from: explicit_relation
+- from_node: n_aop_source_text_0
+  to_node: n_aop_english_paraphrase_1
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_hcc_013
+    source_ref: Rudhyar Ch5
+    inferred_from: explicit_relation
+- from_node: n_aop_source_text_0
+  to_node: n_aop_source_text_l99_106_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_aop_source_text_0
+  to_node: n_aop_source_text_l180_191_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_aop_source_text_0
+  to_node: n_aop_source_text_l920_927_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_aop_english_paraphrase_1
+  to_node: n_aop_source_text_l99_106_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_aop_english_paraphrase_1
+  to_node: n_aop_source_text_l180_191_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_aop_english_paraphrase_1
+  to_node: n_aop_source_text_l920_927_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_aop_source_text_l180_191_9
+  to_node: n_aop_source_text_l99_106_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_aop_source_text_l920_927_35
+  to_node: n_aop_source_text_l99_106_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_aop_l2191_2201_82
+  to_node: n_aop_source_text_l99_106_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - astro_holism
+- from_node: n_aop_source_text_l180_191_9
+  to_node: n_aop_source_text_l920_927_35
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_aop_source_text_l1075_1077_42
+  to_node: n_aop_source_text_l417_429_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - astro_algebra_life
+- from_node: n_aop_source_text_l1750_1754_64
+  to_node: n_aop_source_text_l427_429_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - astro_qualities
+narrative_order:
+- n_aop_l10075_10097_190
+- n_aop_l10351_10366_192
+- n_aop_l10423_10432_194
+- n_aop_l10504_10529_196
+- n_aop_l10601_10636_198
+- n_aop_l12413_12462_200
+- n_aop_l12916_12965_202
+- n_aop_l12967_12994_203
+- n_aop_l13006_13041_204
+- n_aop_l13108_13117_206
+- n_aop_l13489_13510_208
+- n_aop_l13583_13594_210
+- n_aop_l14230_14237_212
+- n_aop_l14357_14391_214
+- n_aop_l14621_14657_216
+- n_aop_l15170_15190_218
+- n_aop_l15835_15860_220
+- n_aop_l15848_15852_222
+- n_aop_l15906_15919_224
+- n_aop_l15967_15973_226
+- n_aop_l1776_1783_66
+- n_aop_l1890_1896_70
+- n_aop_l2026_2031_74
+- n_aop_l2067_2072_78
+- n_aop_l2191_2201_82
+- n_aop_l2318_2322_86
+- n_aop_l2414_2422_90
+- n_aop_l2633_2643_94
+- n_aop_l2701_2721_98
+- n_aop_l2755_2763_102
+- n_aop_l2974_2982_106
+- n_aop_l3082_3108_108
+- n_aop_l3305_3322_112
+- n_aop_l3536_3548_114
+- n_aop_l3706_3724_116
+- n_aop_l3949_4095_120
+- n_aop_l4276_4284_122
+- n_aop_l4327_4343_124
+- n_aop_l4471_4524_126
+- n_aop_l4614_4627_128
+- n_aop_l4676_4691_130
+- n_aop_l5834_5839_134
+- n_aop_l5933_5939_136
+- n_aop_l6043_6045_139
+- n_aop_l6049_6088_141
+- n_aop_l6154_6160_143
+- n_aop_l6603_6612_146
+- n_aop_l6657_6674_148
+- n_aop_l6700_6713_150
+- n_aop_l6798_6810_152
+- n_aop_l6968_6987_154
+- n_aop_l7117_7123_156
+- n_aop_l7172_7175_158
+- n_aop_l7297_7323_160
+- n_aop_l7571_7576_162
+- n_aop_l7710_7756_164
+- n_aop_l7917_7946_166
+- n_aop_l8013_8028_168
+- n_aop_l8277_8286_170
+- n_aop_l8477_8491_172
+- n_aop_l8569_8594_174
+- n_aop_l8648_8666_176
+- n_aop_l8909_8932_178
+- n_aop_l8934_8987_179
+- n_aop_l8996_9028_180
+- n_aop_l9139_9148_181
+- n_aop_l9343_9357_183
+- n_aop_l9359_9389_184
+- n_aop_l9391_9425_185
+- n_aop_l9725_9768_186
+- n_aop_l9879_9947_188
+- n_aop_self_never_final_l3839_3841_118
+- n_aop_source_text_l1075_1077_42
+- n_aop_source_text_l1126_1132_46
+- n_aop_source_text_l117_124_6
+- n_aop_source_text_l1273_1276_50
+- n_aop_source_text_l1406_1414_54
+- n_aop_source_text_l1574_1577_l1645_1_58
+- n_aop_source_text_l1731_1735_62
+- n_aop_source_text_l222_232_12
+- n_aop_source_text_l373_376_16
+- n_aop_source_text_l417_429_19
+- n_aop_source_text_l568_572_23
+- n_aop_source_text_l698_707_27
+- n_aop_source_text_l797_806_30
+- n_aop_source_text_l89_98_2
+- n_aop_source_text_l912_918_34
+- n_aop_source_text_l995_1001_38
+- n_aop_indiv_coll_vs_spirit_indiv_cre_132
+- n_aop_l10169_10197_191
+- n_aop_l10368_10386_193
+- n_aop_l10464_10478_195
+- n_aop_l10531_10548_197
+- n_aop_l10661_10703_199
+- n_aop_l12464_12471_201
+- n_aop_l13043_13058_205
+- n_aop_l13185_13196_207
+- n_aop_l13609_13611_209
+- n_aop_l13687_13695_211
+- n_aop_l14292_14308_213
+- n_aop_l14408_14414_215
+- n_aop_l14680_14686_217
+- n_aop_l15206_15210_219
+- n_aop_l15862_15869_221
+- n_aop_l15862_15870_223
+- n_aop_l15943_15948_225
+- n_aop_l1809_1817_67
+- n_aop_l1821_1828_68
+- n_aop_l1835_1837_69
+- n_aop_l1900_1904_71
+- n_aop_l1906_1910_72
+- n_aop_l1911_1914_73
+- n_aop_l2036_2039_76
+- n_aop_l2049_2052_75
+- n_aop_l2053_2058_77
+- n_aop_l2098_2102_79
+- n_aop_l2100_2103_81
+- n_aop_l2105_2107_80
+- n_aop_l2226_2237_85
+- n_aop_l2239_2244_83
+- n_aop_l2351_2360_87
+- n_aop_l2368_2373_88
+- n_aop_l2396_2398_89
+- n_aop_l2456_2468_91
+- n_aop_l2472_2478_92
+- n_aop_l2480_2489_93
+- n_aop_l2647_2655_95
+- n_aop_l2657_2663_96
+- n_aop_l2668_2676_97
+- n_aop_l2713_2717_99
+- n_aop_l2746_2752_100
+- n_aop_l2750_2753_101
+- n_aop_l2871_2876_103
+- n_aop_l2881_2884_104
+- n_aop_l2897_2902_105
+- n_aop_l3065_3080_107
+- n_aop_l3136_3141_110
+- n_aop_l3171_3203_109
+- n_aop_l3235_3245_111
+- n_aop_l3400_3416_113
+- n_aop_l3654_3656_115
+- n_aop_l3776_3785_117
+- n_aop_l3851_3873_119
+- n_aop_l4109_4111_121
+- n_aop_l4284_4288_123
+- n_aop_l4385_4394_125
+- n_aop_l4542_4612_127
+- n_aop_l4635_4674_129
+- n_aop_l4741_4744_131
+- n_aop_l4951_4965_133
+- n_aop_l5862_5864_135
+- n_aop_l5941_5949_137
+- n_aop_l5953_5956_138
+- n_aop_l6022_6028_140
+- n_aop_l6212_6224_145
+- n_aop_l6250_6258_144
+- n_aop_l6512_6521_142
+- n_aop_l6614_6622_147
+- n_aop_l6676_6687_149
+- n_aop_l6749_6760_151
+- n_aop_l6843_6874_153
+- n_aop_l7030_7056_155
+- n_aop_l7135_7141_157
+- n_aop_l7203_7257_159
+- n_aop_l7349_7355_161
+- n_aop_l7643_7670_163
+- n_aop_l7837_7842_165
+- n_aop_l7966_7970_167
+- n_aop_l8160_8166_169
+- n_aop_l8305_8316_171
+- n_aop_l8408_8418_173
+- n_aop_l8624_8630_175
+- n_aop_l8811_8823_177
+- n_aop_l9171_9194_182
+- n_aop_l9803_9811_187
+- n_aop_l9949_9980_189
+- n_aop_self_l15976_15984_227
+- n_aop_source_text_l1012_1016_39
+- n_aop_source_text_l103_104_5
+- n_aop_source_text_l103_106_4
+- n_aop_source_text_l1048_1051_40
+- n_aop_source_text_l1072_1075_43
+- n_aop_source_text_l1079_1087_45
+- n_aop_source_text_l1089_1094_44
+- n_aop_source_text_l1144_1148_47
+- n_aop_source_text_l1216_1225_48
+- n_aop_source_text_l1222_1229_49
+- n_aop_source_text_l126_134_7
+- n_aop_source_text_l1280_1290_51
+- n_aop_source_text_l1291_1296_53
+- n_aop_source_text_l1300_1308_52
+- n_aop_source_text_l131_134_8
+- n_aop_source_text_l1454_1461_55
+- n_aop_source_text_l1526_1530_56
+- n_aop_source_text_l1535_1537_57
+- n_aop_source_text_l1647_1656_59
+- n_aop_source_text_l1658_1669_60
+- n_aop_source_text_l1727_1729_61
+- n_aop_source_text_l1741_1746_63
+- n_aop_source_text_l1750_1754_64
+- n_aop_source_text_l1754_1757_65
+- n_aop_source_text_l196_200_10
+- n_aop_source_text_l199_200_11
+- n_aop_source_text_l236_238_13
+- n_aop_source_text_l238_242_14
+- n_aop_source_text_l244_246_15
+- n_aop_source_text_l375_377_17
+- n_aop_source_text_l382_383_18
+- n_aop_source_text_l411_415_21
+- n_aop_source_text_l427_429_22
+- n_aop_source_text_l435_437_20
+- n_aop_source_text_l584_587_24
+- n_aop_source_text_l657_666_25
+- n_aop_source_text_l693_694_26
+- n_aop_source_text_l751_759_28
+- n_aop_source_text_l779_786_29
+- n_aop_source_text_l854_857_31
+- n_aop_source_text_l871_881_32
+- n_aop_source_text_l893_904_33
+- n_aop_source_text_l928_948_36
+- n_aop_source_text_l932_937_37
+- n_aop_source_text_l992_993_41
+- n_aop_emergent_whole_is_real_process_84
+- n_aop_english_paraphrase_1
+- n_aop_source_text_0
+- n_aop_source_text_l180_191_9
+- n_aop_source_text_l920_927_35
+- n_aop_source_text_l99_106_3
+entry_nodes:
+- n_aop_source_text_l89_98_2
+- n_aop_source_text_l117_124_6
+- n_aop_source_text_l222_232_12
+- n_aop_source_text_l373_376_16
+- n_aop_source_text_l568_572_23
+- n_aop_source_text_l698_707_27
+- n_aop_source_text_l797_806_30
+- n_aop_source_text_l912_918_34
+- n_aop_source_text_l995_1001_38
+- n_aop_source_text_l1075_1077_42
+- n_aop_source_text_l1126_1132_46
+- n_aop_source_text_l1273_1276_50
+- n_aop_source_text_l1406_1414_54
+- n_aop_source_text_l1574_1577_l1645_1_58
+- n_aop_source_text_l1731_1735_62
+- n_aop_l1776_1783_66
+- n_aop_l1890_1896_70
+- n_aop_l2026_2031_74
+- n_aop_l2067_2072_78
+- n_aop_l2191_2201_82
+- n_aop_l2318_2322_86
+- n_aop_l2414_2422_90
+- n_aop_l2633_2643_94
+- n_aop_l2701_2721_98
+- n_aop_l2755_2763_102
+- n_aop_l2974_2982_106
+- n_aop_l3082_3108_108
+- n_aop_l3305_3322_112
+- n_aop_l3536_3548_114
+- n_aop_l3706_3724_116
+- n_aop_self_never_final_l3839_3841_118
+- n_aop_l3949_4095_120
+- n_aop_l4276_4284_122
+- n_aop_l4327_4343_124
+- n_aop_l4471_4524_126
+- n_aop_l4614_4627_128
+- n_aop_l4676_4691_130
+- n_aop_indiv_coll_vs_spirit_indiv_cre_132
+- n_aop_l5834_5839_134
+- n_aop_l5933_5939_136
+- n_aop_l6043_6045_139
+- n_aop_l6049_6088_141
+- n_aop_l6154_6160_143
+- n_aop_l6603_6612_146
+- n_aop_l6657_6674_148
+- n_aop_l6700_6713_150
+- n_aop_l6798_6810_152
+- n_aop_l6968_6987_154
+- n_aop_l7117_7123_156
+- n_aop_l7172_7175_158
+- n_aop_l7297_7323_160
+- n_aop_l7571_7576_162
+- n_aop_l7710_7756_164
+- n_aop_l7917_7946_166
+- n_aop_l8013_8028_168
+- n_aop_l8277_8286_170
+- n_aop_l8477_8491_172
+- n_aop_l8569_8594_174
+- n_aop_l8648_8666_176
+- n_aop_l8909_8932_178
+- n_aop_l8934_8987_179
+- n_aop_l8996_9028_180
+- n_aop_l9139_9148_181
+- n_aop_l9343_9357_183
+- n_aop_l9359_9389_184
+- n_aop_l9391_9425_185
+- n_aop_l9725_9768_186
+- n_aop_l9879_9947_188
+- n_aop_l10075_10097_190
+- n_aop_l10351_10366_192
+- n_aop_l10423_10432_194
+- n_aop_l10504_10529_196
+- n_aop_l10601_10636_198
+- n_aop_l12413_12462_200
+- n_aop_l12916_12965_202
+- n_aop_l12967_12994_203
+- n_aop_l13006_13041_204
+- n_aop_l13108_13117_206
+- n_aop_l13489_13510_208
+- n_aop_l13583_13594_210
+- n_aop_l14230_14237_212
+- n_aop_l14357_14391_214
+- n_aop_l14621_14657_216
+- n_aop_l15170_15190_218
+- n_aop_l15835_15860_220
+- n_aop_l15848_15852_222
+- n_aop_l15906_15919_224
+- n_aop_l15967_15973_226
+terminal_nodes:
+- n_aop_source_text_l103_104_5
+- n_aop_source_text_l131_134_8
+- n_aop_source_text_l244_246_15
+- n_aop_source_text_l382_383_18
+- n_aop_source_text_l427_429_22
+- n_aop_source_text_l693_694_26
+- n_aop_source_text_l779_786_29
+- n_aop_source_text_l893_904_33
+- n_aop_source_text_l932_937_37
+- n_aop_source_text_l992_993_41
+- n_aop_source_text_l1079_1087_45
+- n_aop_source_text_l1222_1229_49
+- n_aop_source_text_l1291_1296_53
+- n_aop_source_text_l1535_1537_57
+- n_aop_source_text_l1727_1729_61
+- n_aop_source_text_l1754_1757_65
+- n_aop_l1835_1837_69
+- n_aop_l1911_1914_73
+- n_aop_l2053_2058_77
+- n_aop_l2100_2103_81
+- n_aop_l2226_2237_85
+- n_aop_l2396_2398_89
+- n_aop_l2480_2489_93
+- n_aop_l2668_2676_97
+- n_aop_l2750_2753_101
+- n_aop_l2897_2902_105
+- n_aop_l3235_3245_111
+- n_aop_l3400_3416_113
+- n_aop_l3654_3656_115
+- n_aop_l3776_3785_117
+- n_aop_l3851_3873_119
+- n_aop_l4109_4111_121
+- n_aop_l4284_4288_123
+- n_aop_l4385_4394_125
+- n_aop_l4635_4674_129
+- n_aop_l4741_4744_131
+- n_aop_l4951_4965_133
+- n_aop_l5862_5864_135
+- n_aop_l5953_5956_138
+- n_aop_l6512_6521_142
+- n_aop_l6212_6224_145
+- n_aop_l6614_6622_147
+- n_aop_l6676_6687_149
+- n_aop_l7030_7056_155
+- n_aop_l7135_7141_157
+- n_aop_l7349_7355_161
+- n_aop_l7837_7842_165
+- n_aop_l7966_7970_167
+- n_aop_l8160_8166_169
+- n_aop_l8408_8418_173
+- n_aop_l8624_8630_175
+- n_aop_l8811_8823_177
+- n_aop_l9803_9811_187
+- n_aop_l10169_10197_191
+- n_aop_l10368_10386_193
+- n_aop_l10464_10478_195
+- n_aop_l10531_10548_197
+- n_aop_l12464_12471_201
+- n_aop_l13609_13611_209
+- n_aop_l13687_13695_211
+- n_aop_l14292_14308_213
+- n_aop_l15862_15869_221
+- n_aop_l15862_15870_223
+- n_aop_l15943_15948_225
+- n_aop_self_l15976_15984_227
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-11-30T18:46:33.039378'
+  source_files:
+  - data/schema_staging/snippets/astrology_of_personality_snippets.yaml
+  - data/schema_staging/relations/astrology_of_personality_relations.yaml
+  snippet_count: 298
+  relation_count: 117
+version: 1.0.0

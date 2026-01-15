@@ -1,0 +1,2046 @@
+book_id: the_book_of_thoth
+source_file: 典籍/texts/The book of Thoth/编辑/Minor_Arcana_Cups.md, 典籍/texts/The book
+  of Thoth/编辑/Major_Arcana_Thoth.md, 典籍/texts/The book of Thoth/编辑/Theory_of_Tarot.md,
+  典籍/texts/The book of Thoth/编辑/Appendices_Thoth.md, 典籍/texts/The book of Thoth/编辑/Minor_Arcana_Disks.md,
+  典籍/texts/The book of Thoth/编辑/Minor_Arcana_Swords.md, 典籍/texts/The book of Thoth/编辑/Minor_Arcana_Wands.md
+extracted_at: '2025-12-04T14:27:44.603213'
+relations:
+- relation_id: rel_cups_ace_001
+  relation_type: causal
+  factor_a: tarot_cups_ace AND tarot_water_essence
+  factor_b: tarot_divine_love
+  relation_nature: Primordial water births love
+  condition_constraint: When Ace of Cups channels primordial water essence into divine
+    love manifestation
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.119939'
+- relation_id: rel_cups_ace_002
+  relation_type: complementary
+  factor_a: tarot_holy_grail AND tarot_binah_sea
+  factor_b: tarot_life_source
+  relation_nature: Cup receives divine grace
+  condition_constraint: When Holy Grail symbolism connects to Binah's Great Sea as
+    life source
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.119952'
+- relation_id: rel_cups_two_001
+  relation_type: causal
+  factor_a: tarot_cups_two AND tarot_love
+  factor_b: tarot_unity
+  relation_nature: Love recovers unity from division
+  condition_constraint: When Two of Cups (Venus in Cancer) manifests love recovering
+    unity from division
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.119981'
+- relation_id: rel_cups_two_002
+  relation_type: complementary
+  factor_a: tarot_lovers AND tarot_will
+  factor_b: tarot_thelemic_love
+  relation_nature: Love under Will creates harmony
+  condition_constraint: When Thelemic Love under Will creates harmonious desire aligned
+    with True Will
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.119985'
+- relation_id: rel_cups_three_001
+  relation_type: causal
+  factor_a: tarot_cups_three AND tarot_abundance
+  factor_b: tarot_joy
+  relation_nature: Fulfillment of Will in Love
+  condition_constraint: When Mercury in Cancer activates fertility
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120012'
+- relation_id: rel_cups_three_002
+  relation_type: conditional
+  factor_a: tarot_abundance AND tarot_distrust
+  factor_b: tarot_binding_pleasure
+  relation_nature: Enjoyed but distrusted
+  condition_constraint: When material pleasures may become attachment
+  effect_direction: MIXED
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120017'
+- relation_id: rel_cups_four_001
+  relation_type: causal
+  factor_a: tarot_cups_four AND tarot_luxury
+  factor_b: tarot_stagnation
+  relation_nature: Pleasure losing purity
+  condition_constraint: When Moon in Cancer becomes indulgent
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120043'
+- relation_id: rel_cups_four_002
+  relation_type: inhibitory
+  factor_a: tarot_limitation AND tarot_pleasure
+  factor_b: tarot_decay_seeds
+  relation_nature: Four = dead stop
+  condition_constraint: When stability becomes rigidity
+  effect_direction: RESTRICTIVE
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120046'
+- relation_id: rel_cups_five_001
+  relation_type: causal
+  factor_a: tarot_cups_five AND tarot_disappointment
+  factor_b: tarot_frustrated_pleasure
+  relation_nature: Geburah creates antipathy with Water
+  condition_constraint: When Mars in Scorpio activates putrefaction
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120071'
+- relation_id: rel_cups_five_002
+  relation_type: inhibitory
+  factor_a: tarot_inverted_pentagram AND tarot_matter
+  factor_b: tarot_spirit_defeat
+  relation_nature: Matter triumphs over spirit
+  condition_constraint: When expectations are dashed
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120074'
+- relation_id: rel_cups_six_001
+  relation_type: causal
+  factor_a: tarot_cups_six AND tarot_pleasure
+  factor_b: tarot_emotional_harmony
+  relation_nature: Tiphareth creates beauty in Water
+  condition_constraint: When Sun in Scorpio transforms through putrefaction
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120098'
+- relation_id: rel_cups_six_002
+  relation_type: complementary
+  factor_a: tarot_dancing_lotuses AND tarot_sexual_will
+  factor_b: tarot_fertile_joy
+  relation_nature: Natural forces flow without strain
+  condition_constraint: When sacramental pleasure is honored
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120101'
+- relation_id: rel_cups_seven_001
+  relation_type: causal
+  factor_a: tarot_cups_seven AND tarot_debauch
+  factor_b: tarot_corrupted_pleasure
+  relation_nature: Netzach imbalances Water
+  condition_constraint: When Venus in Scorpio brings external splendor with internal
+    rot
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120124'
+- relation_id: rel_cups_seven_002
+  relation_type: complementary
+  factor_a: tarot_tiger_lilies AND tarot_green_slime
+  factor_b: tarot_profaned_sacrament
+  relation_nature: Poison replaces nourishment
+  condition_constraint: When pleasure is profaned into addiction
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120127'
+- relation_id: rel_cups_eight_001
+  relation_type: causal
+  factor_a: tarot_cups_eight AND tarot_indolence
+  factor_b: tarot_emotional_exhaustion
+  relation_nature: Hod overwhelmed by Saturn
+  condition_constraint: When Saturn in Pisces deadens all flow
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120151'
+- relation_id: rel_cups_eight_002
+  relation_type: complementary
+  factor_a: tarot_stagnant_pools AND tarot_broken_cups
+  factor_b: tarot_apathy
+  relation_nature: Vessels cannot hold life
+  condition_constraint: When emotional resources are depleted
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120156'
+- relation_id: rel_cups_nine_001
+  relation_type: causal
+  factor_a: tarot_cups_nine AND tarot_happiness
+  factor_b: tarot_emotional_fulfillment
+  relation_nature: Yesod restores stability
+  condition_constraint: When Jupiter in Pisces brings pure benediction
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120183'
+- relation_id: rel_cups_nine_002
+  relation_type: complementary
+  factor_a: tarot_nine_cups AND tarot_laetitia
+  factor_b: tarot_perfected_joy
+  relation_nature: All vessels overflow
+  condition_constraint: When emotional work culminates in contentment
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120186'
+- relation_id: rel_cups_ten_001
+  relation_type: causal
+  factor_a: tarot_cups_ten AND tarot_satiety
+  factor_b: tarot_over_fullness
+  relation_nature: Malkuth completes Water's work
+  condition_constraint: When Mars in Pisces stirs saturated field
+  effect_direction: MIXED
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120211'
+- relation_id: rel_cups_ten_002
+  relation_type: conditional
+  factor_a: tarot_tilted_cups AND tarot_tree_layout
+  factor_b: tarot_disturbance_due
+  relation_nature: Perfection tips toward change
+  condition_constraint: When success has nothing more to add
+  effect_direction: RESTRICTIVE
+  source_ref: 'Crowley #Cups'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120215'
+- relation_id: rel_thoth_cups_knight
+  relation_type: card_element
+  factor_a: thoth_cups_knight
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: When Knight of Cups expresses Fire of Water (passionate emotions)
+  effect_direction: expressing
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120237'
+- relation_id: rel_thoth_cups_queen
+  relation_type: card_element
+  factor_a: thoth_cups_queen
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: When Queen of Cups expresses Water of Water (pure receptive
+    emotion)
+  effect_direction: expressing
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120261'
+- relation_id: rel_prince_cups_air
+  relation_type: elemental
+  factor_a: air_of_water
+  factor_b: volatilization
+  relation_nature: Steam/Catalyst
+  condition_constraint: When Prince of Cups expresses Air of Water (intellectual emotions,
+    strategy)
+  effect_direction: Feeling→Strategy
+  source_ref: Thoth Prince Cups
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120300'
+- relation_id: rel_prince_cups_secret
+  relation_type: strategy
+  factor_a: subtle_power
+  factor_b: transformation
+  relation_nature: Hidden agenda
+  condition_constraint: When Prince of Cups channels subtle power through hidden agenda
+    for transformation
+  effect_direction: Plan→Outcome
+  source_ref: Thoth Prince Cups
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120303'
+- relation_id: rel_princess_cups_earth
+  relation_type: elemental
+  factor_a: earth_of_water
+  factor_b: crystallization
+  relation_nature: Form-giving
+  condition_constraint: When Princess of Cups expresses Earth of Water (crystallized
+    emotions, form)
+  effect_direction: Fluid→Solid
+  source_ref: Thoth Princess Cups
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120330'
+- relation_id: rel_princess_cups_create
+  relation_type: substantiation
+  factor_a: imagination
+  factor_b: form
+  relation_nature: Embodiment
+  condition_constraint: When Princess of Cups embodies imaginative vision into manifest
+    form
+  effect_direction: Vision→Reality
+  source_ref: Thoth Princess Cups
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.120334'
+- relation_id: rel_thoth_intro_001
+  relation_type: definitional
+  factor_a: tarot_thoth AND tarot_qabalistic
+  factor_b: tarot_esoteric_system
+  relation_nature: Thoth is Qabalistic-magical
+  condition_constraint: When Thoth deck is used as Qabalistic-magical interpretation
+    system
+  effect_direction: DEFINING
+  source_ref: 'Crowley #Introduction'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.131951'
+- relation_id: rel_thoth_intro_002
+  relation_type: structural
+  factor_a: tarot_atu AND tarot_tree_of_life
+  factor_b: tarot_path_system
+  relation_nature: 22 Atu = 22 paths
+  condition_constraint: When 22 Atu cards are mapped to 22 paths connecting Sephiroth
+  effect_direction: ORGANIZING
+  source_ref: 'Crowley #Introduction'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.131964'
+- relation_id: rel_thoth_intro_003
+  relation_type: philosophical
+  factor_a: tarot_thelema AND tarot_true_will
+  factor_b: tarot_self_actualization
+  relation_nature: Thelema guides interpretation
+  condition_constraint: When Thelemic philosophy guides card interpretation toward
+    True Will discovery
+  effect_direction: DIRECTING
+  source_ref: 'Crowley #Introduction'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.131968'
+- relation_id: rel_thoth_intro_004
+  relation_type: doctrinal
+  factor_a: tarot_thelema AND tarot_law
+  factor_b: tarot_maxim
+  relation_nature: Law of Thelema colors all
+  condition_constraint: When "Do what thou wilt" maxim provides foundational interpretive
+    principle
+  effect_direction: FOUNDATIONAL
+  source_ref: 'Crowley #Introduction'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.131971'
+- relation_id: rel_thoth_fool_001
+  relation_type: causal
+  factor_a: tarot_fool AND tarot_chaos
+  factor_b: tarot_primordial_potential
+  relation_nature: Chaos births potential
+  condition_constraint: When Fool card represents primordial chaos birthing infinite
+    potential
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Fool'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132012'
+- relation_id: rel_thoth_fool_002
+  relation_type: complementary
+  factor_a: tarot_zero AND tarot_potential
+  factor_b: tarot_manifestation
+  relation_nature: Zero contains infinity
+  condition_constraint: When Zero archetype contains infinite potential for new manifestation
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Fool'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132015'
+- relation_id: rel_thoth_fool_003
+  relation_type: causal
+  factor_a: tarot_madness AND tarot_wisdom
+  factor_b: tarot_transcendence
+  relation_nature: Holy madness yields wisdom
+  condition_constraint: When divine madness transcends rational limits to yield higher
+    wisdom
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Fool'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132019'
+- relation_id: rel_thoth_fool_004
+  relation_type: semantic_category
+  factor_a: tarot_thoth_fool AND tarot_rws_fool
+  factor_b: tarot_fool_archetype
+  relation_nature: Same archetype different systems
+  condition_constraint: When Thoth and RWS Fool are compared as same archetype in
+    different systems
+  effect_direction: NEUTRAL
+  source_ref: 'Crowley #Fool'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132021'
+- relation_id: rel_thoth_adj_001
+  relation_type: causal
+  factor_a: tarot_adjustment AND tarot_balance
+  factor_b: tarot_cosmic_equilibrium
+  relation_nature: Dynamic balance maintains order
+  condition_constraint: When Adjustment card indicates need for dynamic balance and
+    cosmic equilibrium
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Adjustment'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132062'
+- relation_id: rel_thoth_adj_002
+  relation_type: complementary
+  factor_a: tarot_karma AND tarot_equilibrium
+  factor_b: tarot_natural_consequence
+  relation_nature: Actions produce equal reactions
+  condition_constraint: When karmic law manifests as natural consequences of past
+    actions
+  effect_direction: NEUTRAL
+  source_ref: 'Crowley #Adjustment'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132066'
+- relation_id: rel_thoth_adj_003
+  relation_type: causal
+  factor_a: tarot_lovers AND tarot_will
+  factor_b: tarot_thelemic_balance
+  relation_nature: Love balanced by will creates harmony
+  condition_constraint: When love under will creates Thelemic balance and authentic
+    harmony
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Adjustment'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132068'
+- relation_id: rel_thoth_adj_004
+  relation_type: semantic_category
+  factor_a: tarot_adjustment
+  factor_b: tarot_justice_rws
+  relation_nature: Same archetype renamed
+  condition_constraint: When Adjustment (Thoth) and Justice (RWS) are recognized as
+    same archetype
+  effect_direction: NEUTRAL
+  source_ref: 'Crowley #Adjustment'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132071'
+- relation_id: rel_thoth_lust_001
+  relation_type: causal
+  factor_a: tarot_lust AND tarot_sacred
+  factor_b: tarot_divine_sexuality
+  relation_nature: Primal force as sacred
+  condition_constraint: When Lust card sanctifies primal creative force as divine
+    sexuality
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Lust'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132108'
+- relation_id: rel_thoth_lust_002
+  relation_type: complementary
+  factor_a: tarot_babalon AND tarot_beast
+  factor_b: tarot_sacred_union
+  relation_nature: Feminine directs masculine
+  condition_constraint: When Babalon (feminine consciousness) directs Beast (primal
+    masculine)
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Lust'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132111'
+- relation_id: rel_thoth_lust_003
+  relation_type: causal
+  factor_a: tarot_desire AND tarot_true_will
+  factor_b: tarot_divine_power
+  relation_nature: Desire aligned with Will is sacred
+  condition_constraint: When authentic desire aligns with True Will becoming sacred
+    power
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Lust'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132113'
+- relation_id: rel_thoth_lust_004
+  relation_type: semantic_category
+  factor_a: tarot_lust
+  factor_b: tarot_strength_rws
+  relation_nature: Same archetype renamed
+  condition_constraint: When Lust (Thoth) and Strength (RWS) are recognized as same
+    archetype
+  effect_direction: NEUTRAL
+  source_ref: 'Crowley #Lust'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132116'
+- relation_id: rel_thoth_death_001
+  relation_type: causal
+  factor_a: tarot_death AND tarot_transformation
+  factor_b: tarot_renewal
+  relation_nature: Death enables rebirth
+  condition_constraint: When Death card indicates old forms dying to enable transformative
+    renewal
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Death'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132159'
+- relation_id: rel_thoth_death_002
+  relation_type: causal
+  factor_a: tarot_putrefaction AND tarot_rebirth
+  factor_b: tarot_higher_form
+  relation_nature: Decay precedes regeneration
+  condition_constraint: When alchemical putrefaction (Nigredo) precedes regeneration
+    into higher form
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Death'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132162'
+- relation_id: rel_thoth_death_003
+  relation_type: conditional
+  factor_a: tarot_scorpio AND tarot_transformation
+  factor_b: tarot_transcendence
+  relation_nature: Scorpion becomes eagle
+  condition_constraint: When Scorpio energy transmutes from lowest (scorpion) to highest
+    (eagle) form
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Death'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132166'
+- relation_id: rel_thoth_death_004
+  relation_type: causal
+  factor_a: tarot_ego_death AND tarot_true_will
+  factor_b: tarot_authentic_self
+  relation_nature: Old identity dies for new
+  condition_constraint: When ego death dissolves false identity revealing authentic
+    True Will self
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Death'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132169'
+- relation_id: rel_thoth_art_001
+  relation_type: causal
+  factor_a: tarot_art AND tarot_alchemy
+  factor_b: tarot_transcendent_creation
+  relation_nature: Creative synthesis produces higher form
+  condition_constraint: When Art card indicates alchemical synthesis producing transcendent
+    creation
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Art'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132207'
+- relation_id: rel_thoth_art_002
+  relation_type: complementary
+  factor_a: tarot_solve AND tarot_coagula
+  factor_b: tarot_philosophers_stone
+  relation_nature: Dissolve then recombine
+  condition_constraint: When Solve et Coagula process dissolves and recombines toward
+    Philosopher's Stone
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Art'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132210'
+- relation_id: rel_thoth_art_003
+  relation_type: complementary
+  factor_a: tarot_androgyne AND tarot_union
+  factor_b: tarot_sacred_marriage
+  relation_nature: Masculine/feminine united
+  condition_constraint: When androgynous figure represents sacred marriage of masculine
+    and feminine
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Art'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132213'
+- relation_id: rel_thoth_art_004
+  relation_type: causal
+  factor_a: tarot_art AND tarot_will
+  factor_b: tarot_manifest_form
+  relation_nature: Will applied skillfully creates
+  condition_constraint: When skillful will application transforms vision into manifest
+    form
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Art'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132216'
+- relation_id: rel_thoth_devil_001
+  relation_type: causal
+  factor_a: tarot_devil AND tarot_creative_energy
+  factor_b: tarot_material_manifestation
+  relation_nature: Primal force creates
+  condition_constraint: When Devil card channels primal creative energy into material
+    manifestation
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Devil'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132252'
+- relation_id: rel_thoth_devil_002
+  relation_type: complementary
+  factor_a: tarot_pan AND tarot_baphomet
+  factor_b: tarot_nature_deity
+  relation_nature: Nature worship
+  condition_constraint: When Pan/Baphomet symbolism honors sexuality and nature as
+    divine force
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Devil'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132255'
+- relation_id: rel_thoth_devil_003
+  relation_type: conditional
+  factor_a: tarot_chains AND tarot_self_bondage
+  factor_b: tarot_false_imprisonment
+  relation_nature: Self-imposed through shame
+  condition_constraint: When natural desires are suppressed by guilt
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Devil'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132257'
+- relation_id: rel_thoth_devil_004
+  relation_type: causal
+  factor_a: tarot_materialism AND tarot_true_will
+  factor_b: tarot_sacred_success
+  relation_nature: Material aligned with spirit
+  condition_constraint: When worldly ambition serves authentic purpose
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Devil'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132260'
+- relation_id: rel_thoth_aeon_001
+  relation_type: causal
+  factor_a: tarot_aeon AND tarot_paradigm
+  factor_b: tarot_collective_evolution
+  relation_nature: Age shifts transform consciousness
+  condition_constraint: When old worldview has exhausted its purpose
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Aeon'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132298'
+- relation_id: rel_thoth_aeon_002
+  relation_type: complementary
+  factor_a: tarot_new_age AND tarot_evolution
+  factor_b: tarot_consciousness_leap
+  relation_nature: Evolution transcends individual
+  condition_constraint: When participating in species-level shift
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Aeon'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132301'
+- relation_id: rel_thoth_aeon_003
+  relation_type: semantic_category
+  factor_a: tarot_nuit AND tarot_hadit AND tarot_horus
+  factor_b: tarot_thelemic_trinity
+  relation_nature: Three cosmic principles
+  condition_constraint: When understanding Thelemic cosmology
+  effect_direction: NEUTRAL
+  source_ref: 'Crowley #Aeon'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132304'
+- relation_id: rel_thoth_aeon_004
+  relation_type: causal
+  factor_a: tarot_aeon AND tarot_horus
+  factor_b: tarot_new_cosmic_era
+  relation_nature: Child god replaces dying god
+  condition_constraint: When Osiris age gives way to Horus age
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Aeon'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132307'
+- relation_id: rel_thoth_magus_001
+  relation_type: causal
+  factor_a: tarot_magus AND tarot_illusion
+  factor_b: tarot_manifested_reality
+  relation_nature: Word creates world
+  condition_constraint: When conscious will is focused and trained
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Magus'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132344'
+- relation_id: rel_thoth_magus_002
+  relation_type: complementary
+  factor_a: tarot_tools AND tarot_mastery
+  factor_b: tarot_effortless_control
+  relation_nature: Skill transcends force
+  condition_constraint: When elemental forces are understood
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Magus'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132347'
+- relation_id: rel_thoth_magus_003
+  relation_type: complementary
+  factor_a: tarot_caduceus AND tarot_reconciliation
+  factor_b: tarot_opposites_balanced
+  relation_nature: Active/passive united
+  condition_constraint: When opposites are consciously integrated
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Magus'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132350'
+- relation_id: rel_thoth_magus_004
+  relation_type: inhibitory
+  factor_a: tarot_ape AND tarot_mimicry
+  factor_b: tarot_truth_distortion
+  relation_nature: Mimicry without understanding
+  condition_constraint: When words imitate without comprehension
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Magus'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132353'
+- relation_id: rel_thoth_atu_2
+  relation_type: qabalah_path
+  factor_a: atu_2
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: When ATU II corresponds to Hebrew letter and Tree of Life
+    path
+  effect_direction: connecting
+  source_ref: 'Crowley #ATUII'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132383'
+- relation_id: rel_thoth_atu_3
+  relation_type: qabalah_path
+  factor_a: atu_3
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: When ATU III corresponds to Hebrew letter and Tree of Life
+    path
+  effect_direction: connecting
+  source_ref: 'Crowley #ATUIII'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132413'
+- relation_id: rel_thoth_atu_4
+  relation_type: qabalah_path
+  factor_a: atu_4
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: When ATU IV corresponds to Hebrew letter and Tree of Life
+    path
+  effect_direction: connecting
+  source_ref: 'Crowley #ATUIV'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132441'
+- relation_id: rel_thoth_atu_10
+  relation_type: qabalah_path
+  factor_a: atu_10
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: When ATU X (Fortune) corresponds to Hebrew Kaph and wheel
+    cycle
+  effect_direction: connecting
+  source_ref: 'Crowley #ATUX'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132467'
+- relation_id: rel_thoth_atu_5
+  relation_type: qabalah_path
+  factor_a: atu_5
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: When ATU V corresponds to Hebrew letter and Tree of Life path
+  effect_direction: connecting
+  source_ref: 'Crowley #ATUV'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132497'
+- relation_id: rel_thoth_atu_9
+  relation_type: qabalah_path
+  factor_a: atu_9
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: When ATU IX corresponds to Hebrew Yod and solitary wisdom
+    path
+  effect_direction: connecting
+  source_ref: 'Crowley #ATUIX'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132524'
+- relation_id: rel_thoth_atu_6
+  relation_type: qabalah_path
+  factor_a: atu_6
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: When ATU VI corresponds to Hebrew Zayin and lovers' choice
+    path
+  effect_direction: connecting
+  source_ref: 'Crowley #ATUVI'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132555'
+- relation_id: rel_thoth_atu_7
+  relation_type: qabalah_path
+  factor_a: atu_7
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: When ATU VII corresponds to Hebrew Cheth and victory chariot
+    path
+  effect_direction: connecting
+  source_ref: 'Crowley #ATUVII'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132581'
+- relation_id: rel_thoth_atu_12
+  relation_type: qabalah_path
+  factor_a: atu_12
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: When ATU XII corresponds to Hebrew Mem and suspension/sacrifice
+    path
+  effect_direction: connecting
+  source_ref: 'Crowley #ATUXII'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132609'
+- relation_id: rel_thoth_atu_16
+  relation_type: qabalah_path
+  factor_a: atu_16
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: When ATU XVI corresponds to Hebrew Peh and destruction/liberation
+    path
+  effect_direction: connecting
+  source_ref: 'Crowley #ATUXVI'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132636'
+- relation_id: rel_thoth_atu_17
+  relation_type: qabalah_path
+  factor_a: atu_17
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: When ATU XVII corresponds to Hebrew Tzaddi and meditation/hope
+    path
+  effect_direction: connecting
+  source_ref: 'Crowley #ATUXVII'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132662'
+- relation_id: rel_thoth_atu_18
+  relation_type: qabalah_path
+  factor_a: atu_18
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: When ATU XVIII corresponds to Hebrew Qoph and illusion/evolution
+    path
+  effect_direction: connecting
+  source_ref: 'Crowley #ATUXVIII'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132690'
+- relation_id: rel_thoth_atu_19
+  relation_type: qabalah_path
+  factor_a: atu_19
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: When ATU XIX corresponds to Hebrew Resh and solar consciousness
+    path
+  effect_direction: connecting
+  source_ref: 'Crowley #ATUXIX'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132715'
+- relation_id: rel_thoth_atu_21
+  relation_type: completion_path
+  factor_a: card_atu_21
+  factor_b: letter_tau
+  relation_nature: Final path Yesod-Malkuth
+  condition_constraint: When ATU XXI corresponds to Tau completing final Yesod-Malkuth
+    path
+  effect_direction: completing
+  source_ref: 'Crowley #Universe'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132744'
+- relation_id: rel_thoth_atu_21b
+  relation_type: eternal_return
+  factor_a: symbol_ouroboros
+  factor_b: card_atu_21
+  relation_nature: Cycle complete
+  condition_constraint: When Universe card ouroboros symbolizes cycle completion enabling
+    new beginning
+  effect_direction: cycling
+  source_ref: 'Crowley #Universe'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.132747'
+- relation_id: rel_theory_001
+  relation_type: semantic_category
+  factor_a: tarot_78 AND tree_of_life
+  factor_b: tarot_cosmic_structure
+  relation_nature: Structural correspondence
+  condition_constraint: When 78-card tarot structure maps onto Qabalistic Tree of
+    Life cosmology
+  effect_direction: NEUTRAL
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.135934'
+- relation_id: rel_theory_002
+  relation_type: complementary
+  factor_a: major_arcana AND hebrew_letters
+  factor_b: tarot_path_system
+  relation_nature: 22 Atu = 22 paths = 22 letters
+  condition_constraint: When 22 Major Arcana correspond to 22 Hebrew letters and Tree
+    paths
+  effect_direction: NEUTRAL
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.135942'
+- relation_id: rel_naples_001
+  relation_type: causal
+  factor_a: tarot_naples AND tarot_creation
+  factor_b: tarot_manifestation
+  relation_nature: Nothing births Something
+  condition_constraint: When Naples Arrangement illustrates cosmogonic process from
+    Nothing to Something
+  effect_direction: BENEFICIAL
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.135975'
+- relation_id: rel_naples_002
+  relation_type: conditional
+  factor_a: tarot_sephiroth AND tarot_manifestation
+  factor_b: tarot_reality
+  relation_nature: 10 stages of creation
+  condition_constraint: When tracing 10-fold Sephirothic emanation from Kether to
+    Malkuth
+  effect_direction: NEUTRAL
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.135979'
+- relation_id: rel_yhvh_suits
+  relation_type: mapping
+  factor_a: yhvh
+  factor_b: four_suits
+  relation_nature: Correspondence
+  condition_constraint: When YHVH Tetragrammaton letters map to four tarot suits
+  effect_direction: Letter→Suit
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136013'
+- relation_id: rel_yhvh_court
+  relation_type: mapping
+  factor_a: yhvh
+  factor_b: court_cards
+  relation_nature: Correspondence
+  condition_constraint: When YHVH letters correspond to Knight-Queen-Prince-Princess
+    court family
+  effect_direction: Letter→Figure
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136017'
+- relation_id: rel_elem_suit
+  relation_type: mapping
+  factor_a: four_elements
+  factor_b: four_suits
+  relation_nature: Correspondence
+  condition_constraint: When four classical elements (Fire-Water-Air-Earth) map to
+    tarot suits
+  effect_direction: Element→Suit
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136047'
+- relation_id: rel_mother_earth
+  relation_type: crystallization
+  factor_a: mother_letters
+  factor_b: element_earth
+  relation_nature: Manifestation
+  condition_constraint: When three mother letters crystallize into sensible Earth
+    element
+  effect_direction: Spirit→Matter
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136051'
+- relation_id: rel_atu_letter
+  relation_type: correspondence
+  factor_a: major_arcana
+  factor_b: hebrew_letters
+  relation_nature: 1:1 mapping
+  condition_constraint: When each Atu corresponds to specific Hebrew letter attribution
+  effect_direction: Card→Letter
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136078'
+- relation_id: rel_letter_path
+  relation_type: mapping
+  factor_a: hebrew_letters
+  factor_b: paths_22
+  relation_nature: Attribution
+  condition_constraint: When Hebrew letters are attributed to 22 paths per Sepher
+    Yetzirah
+  effect_direction: Letter→Path
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136082'
+- relation_id: rel_linear_circular
+  relation_type: synthesis
+  factor_a: hebrew_linear
+  factor_b: pagan_circular
+  relation_nature: Complementary
+  condition_constraint: When tarot synthesizes Hebrew linear time with pagan cyclical
+    time
+  effect_direction: Both→Wheel
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136109'
+- relation_id: rel_daughter_cycle
+  relation_type: transformation
+  factor_a: daughter_rise
+  factor_b: mother
+  relation_nature: Renewal
+  condition_constraint: When Princess rises to become new Queen completing eternal
+    cycle
+  effect_direction: Princess→Queen
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136112'
+- relation_id: rel_exp_div
+  relation_type: method
+  factor_a: exp_learning
+  factor_b: divination_method
+  relation_nature: Implementation
+  condition_constraint: When experiential learning bridges theoretical study to practical
+    divination
+  effect_direction: Study→Practice
+  source_ref: Thoth Appendix A
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.137453'
+- relation_id: rel_behav_inter
+  relation_type: manifestation
+  factor_a: card_behaviour
+  factor_b: card_interplay
+  relation_nature: Observable
+  condition_constraint: When card behavior and interplay manifest observable patterns
+    in reading
+  effect_direction: Character→Pattern
+  source_ref: Thoth Appendix A
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.137460'
+- relation_id: rel_ops_prog
+  relation_type: sequence
+  factor_a: five_ops
+  factor_b: depth
+  relation_nature: Progressive
+  condition_constraint: When five operations progress sequentially from surface to
+    depth interpretation
+  effect_direction: Surface→Deep
+  source_ref: Thoth Appendix A
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.137494'
+- relation_id: rel_yhvh_domain
+  relation_type: mapping
+  factor_a: yhvh_spread
+  factor_b: question_type
+  relation_nature: Correspondence
+  condition_constraint: When YHVH spread maps question domains to Tetragrammaton letters
+  effect_direction: Stack→Meaning
+  source_ref: Thoth Appendix A
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.137498'
+- relation_id: rel_dig_meaning
+  relation_type: modification
+  factor_a: dignity_system
+  factor_b: card_meaning
+  relation_nature: Polarity
+  condition_constraint: When dignity system modifies card meaning based on surrounding
+    context
+  effect_direction: Positive↔Negative
+  source_ref: Thoth Appendix A
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.137526'
+- relation_id: rel_context_interp
+  relation_type: selection
+  factor_a: sp_mat_context
+  factor_b: interpretation
+  relation_nature: Application
+  condition_constraint: When spiritual vs material context determines interpretation
+    register
+  effect_direction: Abstract↔Practical
+  source_ref: Thoth Appendix A
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.137529'
+- relation_id: rel_777_tarot
+  relation_type: reference
+  factor_a: 777_tables
+  factor_b: tarot_cards
+  relation_nature: Master key
+  condition_constraint: When Liber 777 tables provide master correspondence key for
+    each card
+  effect_direction: Table→Meaning
+  source_ref: Thoth Appendix B
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.137559'
+- relation_id: rel_decan_pip
+  relation_type: mapping
+  factor_a: decan_card_map
+  factor_b: tarot_small_cards
+  relation_nature: Astrological
+  condition_constraint: When astrological decans map to numbered Minor Arcana cards
+  effect_direction: Decan→Card
+  source_ref: Thoth Appendix B
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.137563'
+- relation_id: rel_disks_ace_001
+  relation_type: causal
+  factor_a: tarot_disks_ace AND tarot_earth_essence
+  factor_b: tarot_material_manifestation
+  relation_nature: Earth root births matter
+  condition_constraint: When material opportunity arises
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141074'
+- relation_id: rel_disks_ace_002
+  relation_type: complementary
+  factor_a: tarot_living_earth AND tarot_sol_terra
+  factor_b: tarot_sacred_matter
+  relation_nature: Sun and Earth share divinity
+  condition_constraint: When embodiment is embraced
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141090'
+- relation_id: rel_disks_two_001
+  relation_type: causal
+  factor_a: tarot_disks_two AND tarot_change
+  factor_b: tarot_dynamic_stability
+  relation_nature: Change supports stability
+  condition_constraint: When Jupiter in Capricorn expands within limits
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141125'
+- relation_id: rel_disks_two_002
+  relation_type: complementary
+  factor_a: tarot_ouroboros AND tarot_yang_yin
+  factor_b: tarot_infinite_cycle
+  relation_nature: Opposites form unity
+  condition_constraint: When 0=2 equation is realized
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141128'
+- relation_id: rel_disks_three_001
+  relation_type: causal
+  factor_a: tarot_disks_three AND tarot_work
+  factor_b: tarot_material_construction
+  relation_nature: Binah establishes form
+  condition_constraint: When Mars in Capricorn brings disciplined effort
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141160'
+- relation_id: rel_disks_three_002
+  relation_type: complementary
+  factor_a: tarot_pyramid AND tarot_three_wheels
+  factor_b: tarot_stable_foundation
+  relation_nature: Alchemical triad grounds structure
+  condition_constraint: When Mercury/Sulphur/Salt are balanced
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141163'
+- relation_id: rel_disks_four_001
+  relation_type: causal
+  factor_a: tarot_disks_four AND tarot_power
+  factor_b: tarot_established_authority
+  relation_nature: Chesed creates stable structure
+  condition_constraint: When Sun in Capricorn brings institutional order
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141192'
+- relation_id: rel_disks_four_002
+  relation_type: conditional
+  factor_a: tarot_fortress AND tarot_square_disks
+  factor_b: tarot_dead_center
+  relation_nature: Defense requires vigilance
+  condition_constraint: When stability becomes rigidity
+  effect_direction: MIXED
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141200'
+- relation_id: rel_disks_five_001
+  relation_type: causal
+  factor_a: tarot_disks_five AND tarot_worry
+  factor_b: tarot_material_anxiety
+  relation_nature: Geburah disrupts Earth
+  condition_constraint: When Mercury in Taurus creates mental strain
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141229'
+- relation_id: rel_disks_five_002
+  relation_type: complementary
+  factor_a: tarot_inverted_pentagram AND tarot_five_tattvas
+  factor_b: tarot_barely_holding
+  relation_nature: Instability partially stabilized
+  condition_constraint: When elemental forces prevent total collapse
+  effect_direction: RESTRICTIVE
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141233'
+- relation_id: rel_disks_six_001
+  relation_type: causal
+  factor_a: tarot_disks_six AND tarot_success
+  factor_b: tarot_material_harmony
+  relation_nature: Tiphareth creates beauty
+  condition_constraint: When Moon in Taurus brings exalted nurture
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141262'
+- relation_id: rel_disks_six_002
+  relation_type: conditional
+  factor_a: tarot_hexagram AND tarot_rose_cross
+  factor_b: tarot_transient_perfection
+  relation_nature: Spiritual center in matter
+  condition_constraint: When harmony is realized but impermanent
+  effect_direction: MIXED
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141265'
+- relation_id: rel_disks_seven_001
+  relation_type: causal
+  factor_a: tarot_disks_seven AND tarot_failure
+  factor_b: tarot_blighted_growth
+  relation_nature: Netzach weakens with Saturn
+  condition_constraint: When Saturn in Taurus crushes growth
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141292'
+- relation_id: rel_disks_seven_002
+  relation_type: complementary
+  factor_a: tarot_rubeus AND tarot_leaden_disks
+  factor_b: tarot_wasted_effort
+  relation_nature: Ugly pattern shows decay
+  condition_constraint: When effort bears no fruit
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141295'
+- relation_id: rel_disks_eight_001
+  relation_type: causal
+  factor_a: tarot_disks_eight AND tarot_prudence
+  factor_b: tarot_intelligent_cultivation
+  relation_nature: Hod brings Mercury's help
+  condition_constraint: When Sun in Virgo applies intelligence to matter
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141321'
+- relation_id: rel_disks_eight_002
+  relation_type: complementary
+  factor_a: tarot_populus AND tarot_turn_of_tide
+  factor_b: tarot_renewal_seed
+  relation_nature: After failure comes learning
+  condition_constraint: When nadir becomes seed of new cycle
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141324'
+- relation_id: rel_disks_nine_001
+  relation_type: causal
+  factor_a: tarot_disks_nine AND tarot_gain
+  factor_b: tarot_material_multiplication
+  relation_nature: Yesod restores balance
+  condition_constraint: When Venus in Virgo brings good fortune
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141351'
+- relation_id: rel_disks_nine_002
+  relation_type: conditional
+  factor_a: tarot_triangle_hexagon AND tarot_degraded_essence
+  factor_b: tarot_quantity_vs_quality
+  relation_nature: Multiplication dilutes magic
+  condition_constraint: When increase becomes mere accumulation
+  effect_direction: MIXED
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141356'
+- relation_id: rel_disks_ten_001
+  relation_type: causal
+  factor_a: tarot_disks_ten AND tarot_wealth
+  factor_b: tarot_final_solidification
+  relation_nature: Malkuth completes cycle
+  condition_constraint: When Mercury in Virgo brings analytical completion
+  effect_direction: MIXED
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141386'
+- relation_id: rel_disks_ten_002
+  relation_type: conditional
+  factor_a: tarot_tree_of_life AND tarot_sun_at_hod
+  factor_b: tarot_regeneration_seed
+  relation_nature: End contains new beginning
+  condition_constraint: When inert wealth is re-purposed
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141389'
+- relation_id: rel_disks_knight_001
+  relation_type: causal
+  factor_a: tarot_disks_knight AND tarot_fire_of_earth
+  factor_b: tarot_patient_labor
+  relation_nature: Slow growth produces results
+  condition_constraint: When hard work is applied patiently
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141417'
+- relation_id: rel_disks_knight_002
+  relation_type: conditional
+  factor_a: tarot_flail AND tarot_shire_horse
+  factor_b: tarot_agricultural_work
+  relation_nature: Steady effort yields harvest
+  condition_constraint: When instinct guides labor
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Disks'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141420'
+- relation_id: rel_thoth_disks_queen
+  relation_type: card_element
+  factor_a: thoth_disks_queen
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: When Queen of Disks expresses Water of Earth (nurturing material
+    abundance)
+  effect_direction: expressing
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141445'
+- relation_id: rel_prince_disks_air
+  relation_type: elemental
+  factor_a: air_of_earth
+  factor_b: intelligibility
+  relation_nature: Organized matter
+  condition_constraint: When Prince of Disks expresses Air of Earth (intelligent management
+    of material)
+  effect_direction: Chaos→Order
+  source_ref: Thoth Prince Disks
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141476'
+- relation_id: rel_prince_disks_manage
+  relation_type: function
+  factor_a: planning
+  factor_b: earth
+  relation_nature: Practical control
+  condition_constraint: When Prince of Disks applies planning and design to material
+    harvest
+  effect_direction: Design→Harvest
+  source_ref: Thoth Prince Disks
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141479'
+- relation_id: rel_princess_disks_earth
+  relation_type: elemental
+  factor_a: earth_of_earth
+  factor_b: transfiguration
+  relation_nature: Brink of change
+  condition_constraint: When Princess of Disks represents Earth of Earth at brink
+    of spirit-matter transfiguration
+  effect_direction: Matter→Spirit
+  source_ref: Thoth Princess Disks
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141513'
+- relation_id: rel_princess_disks_kether
+  relation_type: transcendence
+  factor_a: diamond
+  factor_b: darkness
+  relation_nature: Highest in lowest
+  condition_constraint: When Princess of Disks embodies Kether in Malkuth (highest
+    in lowest)
+  effect_direction: Malkuth→Kether
+  source_ref: Thoth Princess Disks
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.141516'
+- relation_id: rel_swords_ace_001
+  relation_type: causal
+  factor_a: tarot_swords_ace AND tarot_air_essence
+  factor_b: tarot_primordial_intellect
+  relation_nature: Air root births mind
+  condition_constraint: When discrimination is needed
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145106'
+- relation_id: rel_swords_ace_002
+  relation_type: complementary
+  factor_a: tarot_ruach AND tarot_vau
+  factor_b: tarot_integrating_mind
+  relation_nature: Mind integrates consciousness
+  condition_constraint: When rational faculty is engaged
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145115'
+- relation_id: rel_swords_two_001
+  relation_type: causal
+  factor_a: tarot_swords_two AND tarot_peace
+  factor_b: tarot_mental_balance
+  relation_nature: Chokmah creates ideal Air
+  condition_constraint: When Moon in Libra brings emotional stability
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145146'
+- relation_id: rel_swords_two_002
+  relation_type: complementary
+  factor_a: tarot_blue_rose AND tarot_crossed_swords
+  factor_b: tarot_harmonious_truce
+  relation_nature: Opposites held in balance
+  condition_constraint: When conflict is temporarily resolved
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145150'
+- relation_id: rel_swords_three_001
+  relation_type: causal
+  factor_a: tarot_swords_three AND tarot_sorrow
+  factor_b: tarot_mental_anguish
+  relation_nature: Binah as dark sea brings pain
+  condition_constraint: When Saturn in Libra restricts harmony
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145197'
+- relation_id: rel_swords_three_002
+  relation_type: causal
+  factor_a: tarot_destroyed_rose AND tarot_great_sword
+  factor_b: tarot_heartbreak
+  relation_nature: Truth shatters beauty
+  condition_constraint: When harsh reality must be faced
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145203'
+- relation_id: rel_swords_four_001
+  relation_type: causal
+  factor_a: tarot_swords_four AND tarot_truce
+  factor_b: tarot_mental_refuge
+  relation_nature: Chesed creates ordered rest
+  condition_constraint: When Jupiter in Libra brings legal harmony
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145232'
+- relation_id: rel_swords_four_002
+  relation_type: conditional
+  factor_a: tarot_dogma AND tarot_convention
+  factor_b: tarot_static_peace
+  relation_nature: Refuge is arbitrary
+  condition_constraint: When structure replaces true resolution
+  effect_direction: MIXED
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145236'
+- relation_id: rel_swords_five_001
+  relation_type: causal
+  factor_a: tarot_swords_five AND tarot_defeat
+  factor_b: tarot_mental_collapse
+  relation_nature: Geburah disrupts but Venus weakens
+  condition_constraint: When Venus in Aquarius enfeebles will
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145267'
+- relation_id: rel_swords_five_002
+  relation_type: causal
+  factor_a: tarot_inverted_pentagram AND tarot_broken_swords
+  factor_b: tarot_self_sabotage
+  relation_nature: Matter dominates spirit
+  condition_constraint: When sentiment overrides reason
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145270'
+- relation_id: rel_swords_six_001
+  relation_type: causal
+  factor_a: tarot_swords_six AND tarot_science
+  factor_b: tarot_balanced_intellect
+  relation_nature: Tiphareth creates harmony in Air
+  condition_constraint: When Mercury in Aquarius brings clarity
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145299'
+- relation_id: rel_swords_six_002
+  relation_type: complementary
+  factor_a: tarot_rosy_cross AND tarot_hexagram
+  factor_b: tarot_scientific_truth
+  relation_nature: Heart and mind unite
+  condition_constraint: When disciplined inquiry is applied
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145303'
+- relation_id: rel_swords_seven_001
+  relation_type: causal
+  factor_a: tarot_swords_seven AND tarot_futility
+  factor_b: tarot_wasted_effort
+  relation_nature: Netzach modifies but Moon brings passivity
+  condition_constraint: When Moon in Aquarius causes vacillation
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145328'
+- relation_id: rel_swords_seven_002
+  relation_type: conditional
+  factor_a: tarot_appeasement AND tarot_weakness
+  factor_b: tarot_invited_defeat
+  relation_nature: Many feeble vs one strong
+  condition_constraint: When compromise invites aggression
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145331'
+- relation_id: rel_swords_eight_001
+  relation_type: causal
+  factor_a: tarot_swords_eight AND tarot_interference
+  factor_b: tarot_shortened_force
+  relation_nature: Hod lacks persistence
+  condition_constraint: When Jupiter in Gemini scatters focus
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145357'
+- relation_id: rel_swords_eight_002
+  relation_type: conditional
+  factor_a: tarot_two_long_swords AND tarot_six_exotic_blades
+  factor_b: tarot_will_thwarted
+  relation_nature: Foreign forces interrupt
+  condition_constraint: When accidental interference crosses main will
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145360'
+- relation_id: rel_swords_nine_001
+  relation_type: causal
+  factor_a: tarot_swords_nine AND tarot_cruelty
+  factor_b: tarot_mental_torture
+  relation_nature: Yesod degrades into torment
+  condition_constraint: When Mars in Gemini brings intellectual aggression
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145386'
+- relation_id: rel_swords_nine_002
+  relation_type: complementary
+  factor_a: tarot_rusty_swords AND tarot_poison_blood
+  factor_b: tarot_obsessive_anxiety
+  relation_nature: Damaged thoughts wound psyche
+  condition_constraint: When heartless passions dominate mind
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145389'
+- relation_id: rel_swords_ten_001
+  relation_type: causal
+  factor_a: tarot_swords_ten AND tarot_ruin
+  factor_b: tarot_total_collapse
+  relation_nature: Malkuth brings culmination of degeneration
+  condition_constraint: When Sun in Gemini scatters beyond coherence
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145420'
+- relation_id: rel_swords_ten_002
+  relation_type: complementary
+  factor_a: tarot_shattered_swords AND tarot_reason_mad
+  factor_b: tarot_system_failure
+  relation_nature: Logic destroys its own structure
+  condition_constraint: When thinking operates without reality anchor
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145424'
+- relation_id: rel_swords_knight_001
+  relation_type: causal
+  factor_a: tarot_swords_knight AND tarot_fire_of_air
+  factor_b: tarot_storm_attack
+  relation_nature: Fire animates Air into tempest
+  condition_constraint: When inspiration demands immediate action
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145450'
+- relation_id: rel_swords_knight_002
+  relation_type: conditional
+  factor_a: tarot_maddened_steed AND tarot_chimaera
+  factor_b: tarot_empty_aggression
+  relation_nature: Attack without purpose
+  condition_constraint: When action precedes reflection completely
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Swords'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145453'
+- relation_id: rel_thoth_swords_queen
+  relation_type: card_element
+  factor_a: thoth_swords_queen
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: When Queen of Swords expresses Water of Air (receptive intellect,
+    perception)
+  effect_direction: expressing
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145481'
+- relation_id: rel_prince_swords_air
+  relation_type: elemental
+  factor_a: air_of_air
+  factor_b: pure_intellect
+  relation_nature: Self-reflection
+  condition_constraint: When Prince of Swords expresses Air of Air (pure abstract
+    intellect)
+  effect_direction: Mind→Mind
+  source_ref: Thoth Prince Swords
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145511'
+- relation_id: rel_prince_swords_volatile
+  relation_type: instability
+  factor_a: creation
+  factor_b: destruction
+  relation_nature: Equal ease
+  condition_constraint: When Prince of Swords creates and destroys with equal volatile
+    ease
+  effect_direction: Build→Break
+  source_ref: Thoth Prince Swords
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145514'
+- relation_id: rel_princess_swords_earth
+  relation_type: elemental
+  factor_a: earth_of_air
+  factor_b: fixation
+  relation_nature: Materialization
+  condition_constraint: When Princess of Swords expresses Earth of Air (ideas materialized
+    into action)
+  effect_direction: Idea→Action
+  source_ref: Thoth Princess Swords
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145544'
+- relation_id: rel_princess_swords_avenge
+  relation_type: justice
+  factor_a: clarity
+  factor_b: state_profanation
+  relation_nature: Redress
+  condition_constraint: When Princess of Swords avenges profanation through swift
+    justice and clarity
+  effect_direction: Wrong→Right
+  source_ref: Thoth Princess Swords
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.145547'
+- relation_id: rel_wands_ace_001
+  relation_type: causal
+  factor_a: tarot_wands_ace AND tarot_fire_essence
+  factor_b: tarot_primordial_force
+  relation_nature: Fire root births energy
+  condition_constraint: When spiritual will is ignited
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.148796'
+- relation_id: rel_wands_ace_002
+  relation_type: complementary
+  factor_a: tarot_solar_phallic AND tarot_yods
+  factor_b: tarot_creative_seed
+  relation_nature: Divine sparks manifest
+  condition_constraint: When Tree of Life pattern activates
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.148804'
+- relation_id: rel_wands_two_001
+  relation_type: causal
+  factor_a: tarot_wands_two AND tarot_dominion
+  factor_b: tarot_exalted_will
+  relation_nature: Pure Will establishes authority
+  condition_constraint: When Mars in Aries is activated
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.148832'
+- relation_id: rel_wands_two_002
+  relation_type: causal
+  factor_a: tarot_dorje AND tarot_destruction
+  factor_b: tarot_creation_first_step
+  relation_nature: Destruction enables creation
+  condition_constraint: When initiating new ventures
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.148836'
+- relation_id: rel_wands_three_001
+  relation_type: causal
+  factor_a: tarot_wands_three AND tarot_virtue
+  factor_b: tarot_established_energy
+  relation_nature: Will transmitted to form
+  condition_constraint: When Sun in Aries is exalted
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.148861'
+- relation_id: rel_wands_three_002
+  relation_type: complementary
+  factor_a: tarot_binah_fire AND tarot_mother
+  factor_b: tarot_manifestation
+  relation_nature: Mother receives and shapes Will
+  condition_constraint: When creative process is orderly
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.148865'
+- relation_id: rel_wands_four_001
+  relation_type: causal
+  factor_a: tarot_wands_four AND tarot_completion
+  factor_b: tarot_solid_system
+  relation_nature: Will becomes Order/Law
+  condition_constraint: When Venus in Aries brings tact
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.148889'
+- relation_id: rel_wands_four_002
+  relation_type: conditional
+  factor_a: tarot_completion AND tarot_limitation
+  factor_b: tarot_seeds_of_disorder
+  relation_nature: Completion contains decay
+  condition_constraint: When system becomes too rigid
+  effect_direction: MIXED
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.148904'
+- relation_id: rel_wands_five_001
+  relation_type: causal
+  factor_a: tarot_wands_five AND tarot_strife
+  factor_b: tarot_volcanic_energy
+  relation_nature: Geburah fire creates conflict
+  condition_constraint: When Saturn in Leo restricts fire
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.148928'
+- relation_id: rel_wands_five_002
+  relation_type: conditional
+  factor_a: tarot_strife AND tarot_hierarchy
+  factor_b: tarot_controlled_conflict
+  relation_nature: Authority mitigates disaster
+  condition_constraint: When adept hierarchy is present
+  effect_direction: MIXED
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.148931'
+- relation_id: rel_wands_six_001
+  relation_type: causal
+  factor_a: tarot_wands_six AND tarot_victory
+  factor_b: tarot_balanced_energy
+  relation_nature: Tiphareth creates harmony
+  condition_constraint: When Jupiter in Leo brings benediction
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.148956'
+- relation_id: rel_wands_six_002
+  relation_type: complementary
+  factor_a: tarot_son_sun AND tarot_synthesis
+  factor_b: tarot_self_supporting
+  relation_nature: Father-Mother union produces child
+  condition_constraint: When strife of Five is resolved
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.148959'
+- relation_id: rel_wands_7_courage
+  relation_type: desperation
+  factor_a: valour
+  factor_b: disorder
+  relation_nature: Individual response
+  condition_constraint: When Seven of Wands courage arises from desperate disorder
+    requiring bravery
+  effect_direction: Chaos→Bravery
+  source_ref: Thoth Wands 7
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.148987'
+- relation_id: rel_wands_7_mars
+  relation_type: energy
+  factor_a: planet_mars_leo
+  factor_b: wavering_fire
+  relation_nature: Brutal support
+  condition_constraint: When Mars in Leo provides brutal force to support wavering
+    fire survival
+  effect_direction: Force→Survival
+  source_ref: Thoth Wands 7
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.148990'
+- relation_id: rel_wands_eight_001
+  relation_type: causal
+  factor_a: tarot_wands_eight AND tarot_swiftness
+  factor_b: tarot_subtilized_energy
+  relation_nature: Hod transforms Fire into Light
+  condition_constraint: When Mercury in Sagittarius brings message of Will
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.149014'
+- relation_id: rel_wands_eight_002
+  relation_type: complementary
+  factor_a: tarot_electrical_rays AND tarot_rainbow
+  factor_b: tarot_high_velocity
+  relation_nature: Energy becomes intelligible form
+  condition_constraint: When fire transcends crude flame
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.149017'
+- relation_id: rel_wands_nine_001
+  relation_type: causal
+  factor_a: tarot_wands_nine AND tarot_strength
+  factor_b: tarot_resilient_defense
+  relation_nature: Yesod restores balance
+  condition_constraint: When Moon in Sagittarius creates Change is Stability
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.149041'
+- relation_id: rel_wands_nine_002
+  relation_type: complementary
+  factor_a: tarot_arrows AND tarot_directed_flames
+  factor_b: tarot_fullest_development
+  relation_nature: Force reaches peak
+  condition_constraint: When energy is directed before solidification
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.149045'
+- relation_id: rel_wands_ten_001
+  relation_type: causal
+  factor_a: tarot_wands_ten AND tarot_oppression
+  factor_b: tarot_blind_force
+  relation_nature: Malkuth detaches from spirit
+  condition_constraint: When Saturn in Sagittarius creates maximum antipathy
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.149070'
+- relation_id: rel_wands_ten_002
+  relation_type: complementary
+  factor_a: tarot_bars_claws AND tarot_lust_result
+  factor_b: tarot_self_devouring
+  relation_nature: Will becomes burden
+  condition_constraint: When force loses spiritual source
+  effect_direction: HARMFUL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.149073'
+- relation_id: rel_wands_knight_001
+  relation_type: causal
+  factor_a: tarot_wands_knight AND tarot_fire_of_fire
+  factor_b: tarot_fiery_impulse
+  relation_nature: Double Fire creates pure intensity
+  condition_constraint: When swift action is needed
+  effect_direction: BENEFICIAL
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.149119'
+- relation_id: rel_wands_knight_002
+  relation_type: conditional
+  factor_a: tarot_black_horse AND tarot_torch
+  factor_b: tarot_lightning_attack
+  relation_nature: Impetuous charge
+  condition_constraint: When ill-dignified becomes cruel and bigoted
+  effect_direction: MIXED
+  source_ref: 'Crowley #Wands'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.149128'
+- relation_id: rel_thoth_wands_queen
+  relation_type: card_element
+  factor_a: thoth_wands_queen
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: When Queen of Wands expresses Water of Fire (adaptable passion,
+    magnetic charm)
+  effect_direction: expressing
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.149152'
+- relation_id: rel_prince_wands_air
+  relation_type: elemental
+  factor_a: air_of_fire
+  factor_b: expansion
+  relation_nature: Volatilization
+  condition_constraint: When Prince of Wands expresses Air of Fire (intellectual will,
+    expansive action)
+  effect_direction: Intellect→Action
+  source_ref: Thoth Prince Wands
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.149184'
+- relation_id: rel_prince_wands_drama
+  relation_type: expression
+  factor_a: dramatic_energy
+  factor_b: statement
+  relation_nature: Vigorous assertion
+  condition_constraint: When Prince of Wands channels dramatic energy into vigorous
+    noble assertion
+  effect_direction: Will→Impact
+  source_ref: Thoth Prince Wands
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.149187'
+- relation_id: rel_princess_wands_earth
+  relation_type: elemental
+  factor_a: earth_of_fire
+  factor_b: fuel
+  relation_nature: Combustion
+  condition_constraint: When Princess of Wands expresses Earth of Fire (fuel for combustion,
+    material ignition)
+  effect_direction: Substance→Ignition
+  source_ref: Thoth Princess Wands
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.149213'
+- relation_id: rel_princess_wands_passion
+  relation_type: attraction
+  factor_a: chemical_force
+  factor_b: combination
+  relation_nature: Irresistible
+  condition_constraint: When Princess of Wands channels irresistible chemical attraction
+    into passionate reaction
+  effect_direction: Potential→Reaction
+  source_ref: Thoth Princess Wands
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.149216'

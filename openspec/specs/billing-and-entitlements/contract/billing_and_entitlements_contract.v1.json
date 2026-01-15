@@ -1,0 +1,87 @@
+{
+  "contract_id": "billing-and-entitlements",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["user_id", "org_id", "version_id"],
+  "entities": [
+    {
+      "name": "EntitlementDefinition",
+      "description": "权益定义（最小字段集合）",
+      "fields": [
+        { "name": "entitlement_id", "type": "string", "required": true, "notes": "权益定义标识（唯一）" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "org_id", "type": "string", "required": true, "notes": "组织/租户标识（隔离边界）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识（用于可复现与可审计）" },
+        { "name": "plan_id", "type": "string", "required": false, "notes": "关联套餐/计划标识（若适用）" },
+        { "name": "product_id", "type": "string", "required": false, "notes": "关联产品标识（若适用）" },
+        { "name": "status", "type": "string", "required": true, "notes": "active/suspended/expired 等（枚举在规格层固定）" },
+        { "name": "limits", "type": "object", "required": false, "notes": "权益额度/限制（最小化；禁止敏感支付信息）" },
+        { "name": "effective_from", "type": "string", "required": true, "notes": "生效时间（ISO-8601）" },
+        { "name": "effective_to", "type": "string", "required": false, "notes": "失效时间（ISO-8601；若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "UsageEvent",
+      "description": "用量事件（最小字段集合）",
+      "fields": [
+        { "name": "usage_event_id", "type": "string", "required": true, "notes": "事件标识（唯一）" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "org_id", "type": "string", "required": true, "notes": "组织/租户标识（隔离边界）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "计量口径版本标识" },
+        { "name": "event_type", "type": "string", "required": true, "notes": "事件类型（枚举在规格层固定）" },
+        { "name": "quantity", "type": "number", "required": true, "notes": "数量（>=0）" },
+        { "name": "unit", "type": "string", "required": true, "notes": "单位（例如 tokens/requests/bytes 等；口径固定）" },
+        { "name": "occurred_at", "type": "string", "required": true, "notes": "发生时间（ISO-8601）" },
+        { "name": "idempotency_key", "type": "string", "required": false, "notes": "幂等键（若适用，用于去重）" },
+        { "name": "source_request_id", "type": "string", "required": false, "notes": "源请求标识（若适用）" }
+      ]
+    },
+    {
+      "name": "BillingRecord",
+      "description": "计费记录/账单记录（最小字段集合）",
+      "fields": [
+        { "name": "billing_record_id", "type": "string", "required": true, "notes": "计费记录标识（唯一）" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "org_id", "type": "string", "required": true, "notes": "组织/租户标识（隔离边界）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "计费规则版本标识（用于可复现与可审计）" },
+        { "name": "period_start", "type": "string", "required": true, "notes": "计费周期开始（ISO-8601）" },
+        { "name": "period_end", "type": "string", "required": true, "notes": "计费周期结束（ISO-8601）" },
+        { "name": "currency", "type": "string", "required": true, "notes": "币种（ISO-4217 代码）" },
+        { "name": "amount", "type": "number", "required": true, "notes": "金额（>=0；口径固定）" },
+        { "name": "status", "type": "string", "required": true, "notes": "pending/issued/paid/void 等（枚举在规格层固定）" },
+        { "name": "line_items", "type": "array<object>", "required": false, "notes": "明细行（最小化；禁止敏感支付信息）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "DisputeEvidenceChain",
+      "description": "争议证据链（最小字段集合）",
+      "fields": [
+        { "name": "dispute_id", "type": "string", "required": true, "notes": "争议标识（唯一）" },
+        { "name": "billing_record_id", "type": "string", "required": true, "notes": "关联计费记录" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "org_id", "type": "string", "required": true, "notes": "组织/租户标识（隔离边界）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "争议处理/证据口径版本标识" },
+        { "name": "chain_id", "type": "string", "required": true, "notes": "关联证据链（对齐 citations-evidence-protocol 的 EvidenceChain.chain_id）" },
+        { "name": "status", "type": "string", "required": true, "notes": "open/resolved 等（枚举在规格层固定）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_USER_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_ORG_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "ENTITLEMENT_NOT_FOUND", "category": "not_found", "retryable": false },
+    { "code": "ENTITLEMENT_INSUFFICIENT", "category": "billing", "retryable": false },
+    { "code": "USAGE_EVENT_INVALID", "category": "validation", "retryable": false },
+    { "code": "USAGE_EVENT_DUPLICATE", "category": "conflict", "retryable": false },
+    { "code": "BILLING_RECORD_CONFLICT", "category": "conflict", "retryable": false },
+    { "code": "DISPUTE_EVIDENCE_MISSING", "category": "validation", "retryable": false },
+    { "code": "CITATION_NOT_RESOLVABLE", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}

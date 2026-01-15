@@ -1,0 +1,4 @@
+$ PYTHONPATH=. .venv/bin/python - <<PY
+engine_count 8
+engine_ids ['astro-calculator', 'bazi-calculator', 'cross-system-fusion', 'dream-extractor', 'psych-analyzer', 'tarot-interpreter', 'yijing-calculator', 'ziwei-calculator']
+missing_dependencies {}

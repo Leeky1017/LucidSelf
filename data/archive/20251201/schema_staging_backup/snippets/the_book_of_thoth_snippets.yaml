@@ -1,0 +1,1109 @@
+book_id: the_book_of_thoth
+extracted_at: '2025-11-30T15:46:49.227752'
+snippets:
+- extracted_at: '2025-11-30T15:46:43.031192'
+  factor_trigger: thoth_system AND qabalah
+  role: 主干
+  snippet_id: ns_thoth_001
+  snippet_text: The Thoth Tarot represents a Qabalistic-magical interpretation deeply
+    rooted in Western esoteric tradition, emphasizing initiatory transformation.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: thoth_system
+- extracted_at: '2025-11-30T15:46:43.031205'
+  factor_trigger: thoth_atu AND tree_of_life AND sephiroth
+  role: 主干依赖
+  snippet_id: ns_thoth_002
+  snippet_text: The 22 Major Arcana (called "Atu") correspond to the 22 paths connecting
+    the 10 Sephiroth on the Qabalistic Tree of Life.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: 22_atu
+- extracted_at: '2025-11-30T15:46:43.031212'
+  factor_trigger: thelema AND true_will
+  role: 主干依赖
+  snippet_id: ns_thoth_003
+  snippet_text: Crowley's system integrates Thelema—the philosophy centered on discovering
+    and fulfilling one's True Will.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: true_will
+- extracted_at: '2025-11-30T15:46:43.031219'
+  factor_trigger: thelema AND true_will
+  role: 总结
+  snippet_id: ns_thoth_004
+  snippet_text: '"Do what thou wilt shall be the whole of the Law. Love is the law,
+    love under will."—the key Thelemic maxim coloring all interpretations.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: thelemic_maxim
+- extracted_at: '2025-11-30T15:46:43.031232'
+  factor_trigger: thoth_atu_fool
+  role: 主干
+  snippet_id: ns_thoth_005
+  snippet_text: The Fool represents primordial creative chaos—the first stirring of
+    divine consciousness before it takes form.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: fool_chaos
+- extracted_at: '2025-11-30T15:46:43.031240'
+  factor_trigger: thoth_atu_fool AND number_zero
+  role: 主干依赖
+  snippet_id: ns_thoth_006
+  snippet_text: The Fool is zero pregnant with infinite possibility—not absence but
+    potential before manifestation.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: zero_infinite
+- extracted_at: '2025-11-30T15:46:43.031247'
+  factor_trigger: thoth_atu_fool
+  role: 主干依赖
+  snippet_id: ns_thoth_007
+  snippet_text: This is holy madness—abandoning rationality to access higher wisdom,
+    the divine spark seeking expression.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: holy_madness
+- extracted_at: '2025-11-30T15:46:43.031253'
+  factor_trigger: thoth_atu_fool AND tarot_major_fool
+  role: 总结
+  snippet_id: ns_thoth_008
+  snippet_text: RWS Fool = innocent beginning; Thoth Fool = primal chaos, divine madness,
+    creative destruction.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: fool_vs_rws
+- extracted_at: '2025-11-30T15:46:43.031267'
+  factor_trigger: thoth_atu_adjustment
+  role: 主干
+  snippet_id: ns_thoth_009
+  snippet_text: Adjustment emphasizes dynamic balance rather than static judgment—the
+    universe constantly adjusts forces to maintain order.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: adjustment_dynamic
+- extracted_at: '2025-11-30T15:46:43.031273'
+  factor_trigger: thoth_atu_adjustment AND karma
+  role: 主干依赖
+  snippet_id: ns_thoth_010
+  snippet_text: 'This is Karma as physics, not morality: every action creates equal
+    and opposite reaction—cosmic equilibrium beyond good/evil.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: karma_physics
+- extracted_at: '2025-11-30T15:46:43.031280'
+  factor_trigger: thoth_atu_adjustment AND thelema
+  role: 总结
+  snippet_id: ns_thoth_011
+  snippet_text: '"Love is the law, love under will"—love (expansive force) balanced
+    by will (directive force) creates natural equilibrium.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: love_under_will
+- extracted_at: '2025-11-30T15:46:43.031293'
+  factor_trigger: thoth_atu_lust
+  role: 主干
+  snippet_id: ns_thoth_012
+  snippet_text: Lust represents primal creative force unashamed and unleashed—the
+    divine energy of life itself, deliberately renamed to reclaim sexuality as sacred.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: lust_sacred
+- extracted_at: '2025-11-30T15:46:43.031301'
+  factor_trigger: thoth_atu_lust AND babalon AND beast
+  role: 主干依赖
+  snippet_id: ns_thoth_013
+  snippet_text: Babalon riding the Beast—feminine divine power directing masculine
+    solar force, control through union not suppression.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: babalon_beast
+- extracted_at: '2025-11-30T15:46:43.031308'
+  factor_trigger: thoth_atu_lust AND true_will
+  role: 总结
+  snippet_id: ns_thoth_014
+  snippet_text: '"There is no law beyond Do what thou wilt"—when desire aligns with
+    True Will, it becomes divine force.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: desire_divine
+- extracted_at: '2025-11-30T15:46:43.031322'
+  factor_trigger: thoth_atu_death
+  role: 主干
+  snippet_id: ns_thoth_015
+  snippet_text: Death in Thoth system represents transformation and renewal, not literal
+    physical death.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: death_transformation
+- extracted_at: '2025-11-30T15:46:43.031328'
+  factor_trigger: thoth_atu_death AND alchemy
+  role: 主干依赖
+  snippet_id: ns_thoth_016
+  snippet_text: This is the alchemical putrefaction stage where matter must rot before
+    it can be reborn in higher form.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: putrefaction
+- extracted_at: '2025-11-30T15:46:43.031333'
+  factor_trigger: thoth_atu_death AND zodiac_scorpio
+  role: 主干依赖
+  snippet_id: ns_thoth_017
+  snippet_text: The three forms of Scorpio (scorpion
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: snake→eagle) represent progressive transformation stages. → Source Text
+  trigger: scorpio_forms
+- extracted_at: '2025-11-30T15:46:43.031340'
+  factor_trigger: thoth_atu_death AND true_will
+  role: 总结
+  snippet_id: ns_thoth_018
+  snippet_text: Death represents ego death necessary to discover True Will—the old
+    identity must die for authentic self to emerge.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: ego_death
+- extracted_at: '2025-11-30T15:46:43.031354'
+  factor_trigger: thoth_atu_art
+  role: 主干
+  snippet_id: ns_thoth_019
+  snippet_text: Art replaces Temperance to emphasize alchemical creation over moral
+    moderation—balance through creative synthesis, not restraint.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: art_alchemy
+- extracted_at: '2025-11-30T15:46:43.031361'
+  factor_trigger: thoth_atu_art AND alchemy
+  role: 主干依赖
+  snippet_id: ns_thoth_020
+  snippet_text: Solve et coagula (dissolve and recombine)—the deliberate, skillful
+    uniting of opposites to create the Philosopher's Stone.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: solve_et_coagula
+- extracted_at: '2025-11-30T15:46:43.031367'
+  factor_trigger: thoth_atu_art AND symbol_androgyne
+  role: 主干依赖
+  snippet_id: ns_thoth_021
+  snippet_text: The androgynous figure represents union of masculine/feminine, sun/moon,
+    active/passive—opposites married in alchemical wedding.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: androgyne
+- extracted_at: '2025-11-30T15:46:43.031373'
+  factor_trigger: thoth_atu_art AND true_will
+  role: 总结
+  snippet_id: ns_thoth_022
+  snippet_text: Art is the practical application of Will—taking raw materials of life
+    and consciously crafting them into meaningful form.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: art_will
+- extracted_at: '2025-11-30T15:46:43.031387'
+  factor_trigger: thoth_atu_devil
+  role: 主干
+  snippet_id: ns_thoth_023
+  snippet_text: The Devil represents creative energy in its most material, primal
+    form—not evil but raw power earthed and manifest.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: devil_sacred
+- extracted_at: '2025-11-30T15:46:43.031394'
+  factor_trigger: thoth_atu_devil AND pan AND baphomet
+  role: 主干依赖
+  snippet_id: ns_thoth_024
+  snippet_text: Crowley's Devil is Pan, Baphomet, the Goat of Mendes—the god of nature,
+    sexuality, and material creativity.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: pan_baphomet
+- extracted_at: '2025-11-30T15:46:43.031400'
+  factor_trigger: thoth_atu_devil
+  role: 条件分支
+  snippet_id: ns_thoth_025
+  snippet_text: Chains present but loose—we bind ourselves through fear and shame,
+    not actual constraint.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: loose_chains
+- extracted_at: '2025-11-30T15:46:43.031406'
+  factor_trigger: thoth_atu_devil AND true_will
+  role: 总结
+  snippet_id: ns_thoth_026
+  snippet_text: When sexuality, ambition, material success are aligned with True Will,
+    they become divine creative force.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: sacred_materialism
+- extracted_at: '2025-11-30T15:46:43.031418'
+  factor_trigger: thoth_atu_aeon
+  role: 主干
+  snippet_id: ns_thoth_027
+  snippet_text: The Aeon represents paradigm shifts—not just personal transformation
+    but collective consciousness evolution.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: aeon_paradigm
+- extracted_at: '2025-11-30T15:46:43.031424'
+  factor_trigger: thoth_atu_aeon
+  role: 主干依赖
+  snippet_id: ns_thoth_028
+  snippet_text: The old age dies, the new age is born—participating in evolutionary
+    leap beyond individual growth.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: new_age_dawning
+- extracted_at: '2025-11-30T15:46:43.031430'
+  factor_trigger: thoth_atu_aeon AND nuit AND hadit AND horus
+  role: 主干依赖
+  snippet_id: ns_thoth_029
+  snippet_text: Nuit (infinite space), Hadit (infinitesimal point), Horus (crowned
+    child)—the Thelemic trinity announcing new cosmic era.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: nuit_hadit_horus
+- extracted_at: '2025-11-30T15:46:43.031438'
+  factor_trigger: thoth_atu_aeon AND tarot_major_judgement AND horus
+  role: 总结
+  snippet_id: ns_thoth_030
+  snippet_text: Where RW Judgement depicts Christian Last Judgment, Aeon shows the
+    birth of new cosmic era—Crowley's Aeon of Horus replacing Aeon of Osiris.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: aeon_vs_judgement
+- extracted_at: '2025-11-30T15:46:43.031451'
+  factor_trigger: thoth_atu_magus
+  role: 主干
+  snippet_id: ns_thoth_031
+  snippet_text: The Magus is titled 'The Lord of Illusion' because he creates the
+    manifested world through the Word (Logos), yet this creation is itself an illusion.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: magus_lord_illusion
+- extracted_at: '2025-11-30T15:46:43.031459'
+  factor_trigger: thoth_atu_magus AND element_wand AND element_cup AND element_sword
+    AND element_disk
+  role: 主干依赖
+  snippet_id: ns_thoth_032
+  snippet_text: The four elemental weapons float freely—signifying effortless mastery
+    rather than forceful grasping.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: floating_tools
+- extracted_at: '2025-11-30T15:46:43.031466'
+  factor_trigger: thoth_atu_magus AND symbol_caduceus
+  role: 主干依赖
+  snippet_id: ns_thoth_033
+  snippet_text: The Caduceus with twin serpents represents the reconciliation of opposites—active
+    and passive, life and death, healing and poison.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: caduceus
+- extracted_at: '2025-11-30T15:46:43.031473'
+  factor_trigger: thoth_atu_magus
+  role: 例外处理
+  snippet_id: ns_thoth_034
+  snippet_text: 'The Ape beneath serves as a warning: words can either transmit truth
+    or distort it through mimicry without understanding.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: cynocephalus_ape
+- extracted_at: '2025-11-30T15:46:43.031485'
+  factor_trigger: thoth_atu_priestess
+  role: 主干
+  snippet_id: ns_thoth_035
+  snippet_text: The Priestess is clothed in the Veil of Light—a luminous veil that
+    paradoxically hides Spirit behind its very brilliance.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: priestess_veil_light
+- extracted_at: '2025-11-30T15:46:43.031492'
+  factor_trigger: thoth_atu_priestess AND hebrew_gimel
+  role: 主干依赖
+  snippet_id: ns_thoth_036
+  snippet_text: Gimel, the Camel, symbolizes the soul's vehicle across the spiritual
+    Abyss—able to cross barren desert without external support.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: gimel_camel_abyss
+- extracted_at: '2025-11-30T15:46:43.031498'
+  factor_trigger: thoth_atu_priestess AND sephira_kether AND sephira_tiphareth
+  role: 主干依赖
+  snippet_id: ns_thoth_037
+  snippet_text: The High Priestess forms a direct bridge from Kether to Tiphareth—pure
+    intuition linking highest divinity with the human heart.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: priestess_intuitive_bridge
+- extracted_at: '2025-11-30T15:46:43.031506'
+  factor_trigger: thoth_atu_priestess AND thoth_atu_empress
+  role: 总结
+  snippet_id: ns_thoth_038
+  snippet_text: As Eternal Virgin (Isis/Artemis), she embodies self-sufficient spiritual
+    purity, distinct from the Empress's fertile motherhood.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: eternal_virgin
+- extracted_at: '2025-11-30T15:46:43.031517'
+  factor_trigger: thoth_atu_empress AND hebrew_daleth
+  role: 主干
+  snippet_id: ns_thoth_039
+  snippet_text: Daleth, the Door, marks the gateway where formless spirit enters matter—the
+    Empress as portal of manifestation.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: empress_door_manifestation
+- extracted_at: '2025-11-30T15:46:43.031523'
+  factor_trigger: thoth_atu_empress AND planet_venus
+  role: 主干依赖
+  snippet_id: ns_thoth_040
+  snippet_text: The Empress is Venus in full maternal power—creative love that conceives,
+    nurtures, and beautifies the world.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: empress_venus_mother
+- extracted_at: '2025-11-30T15:46:43.031531'
+  factor_trigger: thoth_atu_empress AND symbol_pelican
+  role: 主干依赖
+  snippet_id: ns_thoth_041
+  snippet_text: The pelican feeding her young with her own blood symbolizes self‑sacrificing
+    maternal love and continuity of life.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: pelican_maternal_love
+- extracted_at: '2025-11-30T15:46:43.031537'
+  factor_trigger: thoth_atu_empress AND thoth_atu_emperor AND alchemy_salt AND alchemy_sulphur
+  role: 总结
+  snippet_id: ns_thoth_042
+  snippet_text: Alchemically, the Empress is Salt—the passive, stable substance that
+    must be energized by the Emperor’s Sulphur to sustain cosmic balance.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: alchemical_salt
+- extracted_at: '2025-11-30T15:46:43.031550'
+  factor_trigger: thoth_atu_emperor AND alchemy_sulphur
+  role: 主干
+  snippet_id: ns_thoth_043
+  snippet_text: The Emperor embodies alchemical Sulphur—active fiery principle energizing
+    the Empress's Salt into ordered creation.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: emperor_sulphur_fire
+- extracted_at: '2025-11-30T15:46:43.031556'
+  factor_trigger: thoth_atu_emperor AND zodiac_aries AND planet_mars
+  role: 主干依赖
+  snippet_id: ns_thoth_044
+  snippet_text: 'Attributed to Aries, ruled by Mars with the Sun exalted, he concentrates
+    warrior‑king energy: decisive, initiating, commanding.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: aries_warrior_king
+- extracted_at: '2025-11-30T15:46:43.031562'
+  factor_trigger: thoth_atu_emperor AND alchemy
+  role: 主干依赖
+  snippet_id: ns_thoth_045
+  snippet_text: The Red Eagle is the alchemical Red Tincture—solar gold, perfected
+    yang power, paired with the Empress's White Eagle.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: red_eagle_tincture
+- extracted_at: '2025-11-30T15:46:43.031570'
+  factor_trigger: thoth_atu_emperor
+  role: 例外处理
+  snippet_id: ns_thoth_046
+  snippet_text: Emperor power is sudden and violent but impermanent—if imposed too
+    long, it burns out and destroys what it sought to order.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: swift_impermanent_power
+- extracted_at: '2025-11-30T15:46:43.031582'
+  factor_trigger: thoth_atu_fortune
+  role: 主干
+  snippet_id: ns_thoth_047
+  snippet_text: Three creatures on the wheel—Hermanubis ascending (creation), Sphinx
+    stable (preservation), Typhon descending (destruction)—represent the eternal cycle
+    of manifestation.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: fortune_three_creatures
+- extracted_at: '2025-11-30T15:46:43.031588'
+  factor_trigger: thoth_atu_fortune AND planet_jupiter
+  role: 主干依赖
+  snippet_id: ns_thoth_048
+  snippet_text: Jupiter's influence brings expansion and opportunity, but also reminds
+    us that all fortune is impermanent.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: fortune_jupiter
+- extracted_at: '2025-11-30T15:46:43.031594'
+  factor_trigger: thoth_atu_fortune
+  role: 主干依赖
+  snippet_id: ns_thoth_049
+  snippet_text: The letters spell multiple words (ROTA/wheel, TARO, TORA/law, ORAT/speaks)—interconnected
+    meanings revealing cosmic unity.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: rota_taro
+- extracted_at: '2025-11-30T15:46:43.031601'
+  factor_trigger: thoth_atu_fortune AND karma
+  role: 总结
+  snippet_id: ns_thoth_050
+  snippet_text: This is karma as physics, not morality—natural law where what rises
+    must fall, what falls must rise.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: karma_physics_fortune
+- extracted_at: '2025-11-30T15:46:43.031613'
+  factor_trigger: thoth_atu_hierophant
+  role: 主干
+  snippet_id: ns_thoth_051
+  snippet_text: The Hierophant bridges macrocosm and microcosm—the central magical
+    operation, uniting divine and human through established initiatory rites.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: hierophant_bridge
+- extracted_at: '2025-11-30T15:46:43.031619'
+  factor_trigger: thoth_atu_hierophant AND hebrew_vau
+  role: 主干依赖
+  snippet_id: ns_thoth_052
+  snippet_text: Vau (Nail) is the fastening principle that secures spiritual truths
+    to earthly transmission—the fixed connection between realms.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: vau_nail
+- extracted_at: '2025-11-30T15:46:43.031625'
+  factor_trigger: the_book_o_aeon
+  role: 主干依赖
+  snippet_id: ns_thoth_053
+  snippet_text: The Hierophant moves only at intervals of 2,000 years—his rhythm marks
+    epochal shifts (Isis
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: Osiris→Horus). → English Paraphrase
+  trigger: aeon_rhythm
+- extracted_at: '2025-11-30T15:46:43.031632'
+  factor_trigger: the_book_o_scarlet
+  role: 总结
+  snippet_id: ns_thoth_054
+  snippet_text: The Scarlet Woman stands armed with a sword—Venus in the New Aeon,
+    no longer passive but militant.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: scarlet_woman_sword
+- extracted_at: '2025-11-30T15:46:43.031643'
+  factor_trigger: thoth_atu_hermit
+  role: 主干
+  snippet_id: ns_thoth_055
+  snippet_text: The Hermit carries the Lamp of Truth protected beneath his mantle—wisdom
+    that can only be discovered through introspection.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: hermit_inner_light
+- extracted_at: '2025-11-30T15:46:43.031649'
+  factor_trigger: thoth_atu_hermit AND hebrew_yod
+  role: 主干依赖
+  snippet_id: ns_thoth_056
+  snippet_text: Yod (smallest Hebrew letter) symbolizes the seed point of creation,
+    the primal spark from which all emerges.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: yod_seed
+- extracted_at: '2025-11-30T15:46:43.031656'
+  factor_trigger: thoth_atu_hermit AND zodiac_virgo
+  role: 主干依赖
+  snippet_id: ns_thoth_057
+  snippet_text: 'Virgo''s analytical nature is expressed through careful discrimination:
+    sorting truth from illusion through patient examination.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: virgo_discrimination
+- extracted_at: '2025-11-30T15:46:43.031662'
+  factor_trigger: the_book_o_cerberus
+  role: 总结
+  snippet_id: ns_thoth_058
+  snippet_text: The three-headed dog Cerberus guards the threshold between conscious
+    and unconscious realms—the Ancient One has crossed within.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: cerberus_threshold
+- extracted_at: '2025-11-30T15:46:43.031674'
+  factor_trigger: the_book_o_lovers
+  role: 主干
+  snippet_id: ns_thoth_059
+  snippet_text: The Lovers shows the Royal Marriage—sacred union of opposites beneath
+    an Arch of Swords, not romantic choice.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: lovers_royal_marriage
+- extracted_at: '2025-11-30T15:46:43.031682'
+  factor_trigger: the_book_o_zain
+  role: 主干依赖
+  snippet_id: ns_thoth_060
+  snippet_text: The Sword (Zain) divides to analyze—division is the prerequisite for
+    conscious reunion at a higher level.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: zain_sword_analysis
+- extracted_at: '2025-11-30T15:46:43.031688'
+  factor_trigger: the_book_o_solve
+  role: 主干依赖
+  snippet_id: ns_thoth_061
+  snippet_text: 'Solve et Coagula: this card and ATU XIV Art together compose the
+    comprehensive alchemical maxim.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: solve_coagula_lovers
+- extracted_at: '2025-11-30T15:46:43.031694'
+  factor_trigger: the_book_o_orphic
+  role: 总结
+  snippet_id: ns_thoth_062
+  snippet_text: The Orphic Egg entwined by a serpent represents the potential for
+    new creation emerging from the marriage of opposites.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: orphic_egg
+- extracted_at: '2025-11-30T15:46:43.031709'
+  factor_trigger: the_book_o_chariot
+  role: 主干
+  snippet_id: ns_thoth_063
+  snippet_text: Victory is by the force of character alone—the Charioteer stands motionless
+    yet triumphant, the universe moves in obedience to his will.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: chariot_will_victory
+- extracted_at: '2025-11-30T15:46:43.031715'
+  factor_trigger: the_book_o_no
+  role: 主干依赖
+  snippet_id: ns_thoth_064
+  snippet_text: There are no reins—control through alignment with cosmic will, not
+    external manipulation.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: no_reins
+- extracted_at: '2025-11-30T15:46:43.031720'
+  factor_trigger: the_book_o_holy
+  role: 主干依赖
+  snippet_id: ns_thoth_065
+  snippet_text: The Charioteer carries the Holy Grail—the ego as sacred vessel containing
+    divine essence.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: holy_grail_chariot
+- extracted_at: '2025-11-30T15:46:43.031726'
+  factor_trigger: the_book_o_cheth
+  role: 总结
+  snippet_id: ns_thoth_066
+  snippet_text: 'Cheth (Fence) represents protective enclosure: the ego as necessary
+    vessel that contains and carries the divine blood.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: cheth_fence
+- extracted_at: '2025-11-30T15:46:43.031738'
+  factor_trigger: the_book_o_hanged
+  role: 主干
+  snippet_id: ns_thoth_067
+  snippet_text: The Hanged Man is the card of the Dying God—Osiris, Christ, Attis—the
+    divine principle that descends, is torn apart, and rises transformed.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: hanged_man_dying_god
+- extracted_at: '2025-11-30T15:46:43.031747'
+  factor_trigger: the_book_o_voluntary
+  role: 主干依赖
+  snippet_id: ns_thoth_068
+  snippet_text: This is not passive suffering but active redemption through sacrifice—the
+    necessary death that precedes rebirth.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: voluntary_sacrifice
+- extracted_at: '2025-11-30T15:46:43.031753'
+  factor_trigger: the_book_o_mem
+  role: 主干依赖
+  snippet_id: ns_thoth_069
+  snippet_text: 'Mem (Water) is the medium of transformation: baptism where the initiate
+    voluntarily descends into the waters of manifestation to be reborn.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: mem_water_baptism
+- extracted_at: '2025-11-30T15:46:43.031760'
+  factor_trigger: the_book_o_perspective
+  role: 总结
+  snippet_id: ns_thoth_070
+  snippet_text: 'Hanging upside-down represents a complete reversal of perspective:
+    the ego must die for the higher self to emerge.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: perspective_reversal
+- extracted_at: '2025-11-30T15:46:43.031772'
+  factor_trigger: the_book_o_tower
+  role: 主干
+  snippet_id: ns_thoth_071
+  snippet_text: The Tower represents sudden and necessary destruction of false structures—not
+    random disaster but purposeful purging of what has become solidified and blocks
+    evolution.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: tower_necessary_destruction
+- extracted_at: '2025-11-30T15:46:43.031778'
+  factor_trigger: the_book_o_eye
+  role: 主干依赖
+  snippet_id: ns_thoth_072
+  snippet_text: The Eye of Shiva opens to annihilate illusion—sudden awakening that
+    sees through and destroys all false forms.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: eye_of_shiva
+- extracted_at: '2025-11-30T15:46:43.031784'
+  factor_trigger: the_book_o_peh
+  role: 主干依赖
+  snippet_id: ns_thoth_073
+  snippet_text: Peh (Mouth) speaks the word of truth that shatters—revelation that
+    cannot be denied, demolishing comfortable lies.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: peh_mouth_truth
+- extracted_at: '2025-11-30T15:46:43.031790'
+  factor_trigger: the_book_o_dove
+  role: 总结
+  snippet_id: ns_thoth_074
+  snippet_text: Dove (spirit) and Serpent (force) escape upward, liberated when the
+    prison of form collapses.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: dove_serpent_freed
+- extracted_at: '2025-11-30T15:46:43.031801'
+  factor_trigger: the_book_o_star
+  role: 主干
+  snippet_id: ns_thoth_075
+  snippet_text: The Star represents hope, inspiration, and connection to cosmic order—trust
+    that the universe is fundamentally benevolent and ordered.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: star_hope_renewal
+- extracted_at: '2025-11-30T15:46:43.031808'
+  factor_trigger: the_book_o_nuit
+  role: 主干依赖
+  snippet_id: ns_thoth_076
+  snippet_text: 'Nuit pours from two cups: one stream flows upon herself (eternal
+    renewal), the other upon the earth (spirit crystallizing into form).'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: nuit_dual_pouring
+- extracted_at: '2025-11-30T15:46:43.031816'
+  factor_trigger: the_book_o_heh
+  role: 主干依赖
+  snippet_id: ns_thoth_077
+  snippet_text: Heh (Window) symbolizes the opening through which divine light enters
+    consciousness—cool starlight that guides without burning.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: heh_window
+- extracted_at: '2025-11-30T15:46:43.031823'
+  factor_trigger: the_book_o_seven
+  role: 总结
+  snippet_id: ns_thoth_078
+  snippet_text: The seven-pointed star of Venus dominates the sky, representing spiritual
+    love and the sacred feminine aspect of illumination.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: seven_pointed_star
+- extracted_at: '2025-11-30T15:46:43.031836'
+  factor_trigger: the_book_o_moon
+  role: 主干
+  snippet_id: ns_thoth_079
+  snippet_text: The Moon represents confrontation with the unconscious and the Dark
+    Night of the Soul—the dangerous threshold where consciousness navigates illusion,
+    fear, and shadow.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: moon_dark_threshold
+- extracted_at: '2025-11-30T15:46:43.031842'
+  factor_trigger: the_book_o_anubis
+  role: 主干依赖
+  snippet_id: ns_thoth_080
+  snippet_text: Anubis in jackal form guards the gate—the psychopomp who guides souls
+    through death's realm toward transformation.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: anubis_guardian
+- extracted_at: '2025-11-30T15:46:43.031850'
+  factor_trigger: the_book_o_kephra
+  role: 主干依赖
+  snippet_id: ns_thoth_081
+  snippet_text: The scarab beetle Kephra carries the hidden sun through the underworld,
+    representing the journey of consciousness through darkness toward rebirth.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: kephra_sun
+- extracted_at: '2025-11-30T15:46:43.031859'
+  factor_trigger: the_book_o_evolutionary
+  role: 总结
+  snippet_id: ns_thoth_082
+  snippet_text: 'This path shows biological evolution: from fish (water/unconscious)
+    to jackal (land/instinct) to ibis (air/spirit)—consciousness ascending.'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: evolutionary_path
+- extracted_at: '2025-11-30T15:46:43.031885'
+  factor_trigger: the_book_o_sun
+  role: 主干
+  snippet_id: ns_thoth_083
+  snippet_text: The Sun represents liberation, joy, and conscious success—the radiant
+    achievement of the Great Work, revealing simple truth without shadow.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: sun_liberation
+- extracted_at: '2025-11-30T15:46:43.031892'
+  factor_trigger: the_book_o_heru
+  role: 主干依赖
+  snippet_id: ns_thoth_084
+  snippet_text: Two children (Heru-Ra-Ha, the twin gods) dance freely, no longer bound
+    by the duality that constrained earlier stages.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: heru_ra_ha
+- extracted_at: '2025-11-30T15:46:43.031900'
+  factor_trigger: the_book_o_broken
+  role: 主干依赖
+  snippet_id: ns_thoth_085
+  snippet_text: The broken wall signifies barriers transcended—limitations overcome,
+    consciousness freed from confinement.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: broken_wall
+- extracted_at: '2025-11-30T15:46:43.031920'
+  factor_trigger: the_book_o_recovered
+  role: 总结
+  snippet_id: ns_thoth_086
+  snippet_text: This is recovered innocence—not the naive innocence of the Fool but
+    the earned simplicity that comes after completing the journey.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: recovered_innocence
+- extracted_at: '2025-11-30T15:46:43.031932'
+  factor_trigger: the_book_o_universe
+  role: 主干
+  snippet_id: ns_thoth_087
+  snippet_text: The Universe represents total completion and cosmic synthesis—the
+    successful conclusion of the Great Work, spirit perfectly manifested in matter.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: universe_completion
+- extracted_at: '2025-11-30T15:46:43.031938'
+  factor_trigger: the_book_o_four
+  role: 主干依赖
+  snippet_id: ns_thoth_088
+  snippet_text: The Four Kerubim (Bull, Lion, Eagle, Man) form a perfect mandala,
+    showing all elements harmoniously integrated.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: four_kerubim
+- extracted_at: '2025-11-30T15:46:43.031944'
+  factor_trigger: the_book_o_saturn
+  role: 主干依赖
+  snippet_id: ns_thoth_089
+  snippet_text: Saturn here transcends limitation—it is the structure that enables
+    perfection, the form that allows spirit to fully manifest.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: saturn_redeemed
+- extracted_at: '2025-11-30T15:46:43.031951'
+  factor_trigger: the_book_o_ouroboros
+  role: 总结
+  snippet_id: ns_thoth_090
+  snippet_text: The Ouroboros serpent creates the boundary—the cycle of manifestation
+    complete, transformation eating its own tail to begin again.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: ouroboros_cycle
+- extracted_at: '2025-11-30T15:46:43.036331'
+  factor_trigger: the_book_o_tarot
+  role: 主干
+  snippet_id: ns_thoth_theory_001
+  snippet_text: The Tarot is a pack of seventy-eight cards whose structure mirrors
+    the Qabalistic Tree of Life and the Holy Name.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: tarot_structure
+- extracted_at: '2025-11-30T15:46:43.036345'
+  factor_trigger: the_book_o_22
+  role: 主干依赖
+  snippet_id: ns_thoth_theory_002
+  snippet_text: The 22 Major Arcana correspond to the 22 paths connecting the 10 Sephiroth
+    and to the 22 Hebrew letters.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: 22_paths
+- extracted_at: '2025-11-30T15:46:43.036358'
+  factor_trigger: the_book_o_naples
+  role: 主干
+  snippet_id: ns_thoth_theory_003
+  snippet_text: The Naples Arrangement explains how Something emerges from Nothing
+    through geometric and logical necessity.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: naples_arrangement
+- extracted_at: '2025-11-30T15:46:43.036365'
+  factor_trigger: the_book_o_zero
+  role: 主干依赖
+  snippet_id: ns_thoth_theory_004
+  snippet_text: From the Point (1) through Line (2), Triangle (3), Solid (4), Motion
+    (5), to Self-consciousness (6) and Reality (10).
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: zero_to_ten
+- extracted_at: '2025-11-30T15:46:43.036377'
+  factor_trigger: the_book_o_tetragrammaton
+  role: 主干
+  snippet_id: ns_thoth_theory_005
+  snippet_text: 'YHVH is the creative formula: Father (Yod/Fire), Mother (Heh/Water),
+    Son (Vav/Air), Daughter (Heh-final/Earth).'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: tetragrammaton
+- extracted_at: '2025-11-30T15:46:43.036385'
+  factor_trigger: the_book_o_four
+  role: 主干依赖
+  snippet_id: ns_thoth_theory_006
+  snippet_text: The Tarot has four court cards because the Tetragrammaton requires
+    Father, Mother, Son, AND Daughter.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: four_court
+- extracted_at: '2025-11-30T15:46:43.036397'
+  factor_trigger: the_book_o_four
+  role: 主干
+  snippet_id: ns_thoth_theory_007
+  snippet_text: 'The Four Elements are modes of energy: Fire (activity), Water (receptivity),
+    Air (mediation), Earth (crystallization).'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: four_elements
+- extracted_at: '2025-11-30T15:46:43.036403'
+  factor_trigger: the_book_o_mother
+  role: 主干依赖
+  snippet_id: ns_thoth_theory_008
+  snippet_text: The Three Mother Letters (Shin, Mem, Aleph) represent the primary
+    spiritual elements that crystallize into Earth.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: mother_letters
+- extracted_at: '2025-11-30T15:46:43.036417'
+  factor_trigger: the_book_o_22
+  role: 主干
+  snippet_id: ns_thoth_theory_009
+  snippet_text: The 22 Major Arcana correspond to the 22 Hebrew letters and 22 paths
+    on the Tree of Life.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: 22_atu
+- extracted_at: '2025-11-30T15:46:43.036422'
+  factor_trigger: the_book_o_path
+  role: 主干依赖
+  snippet_id: ns_thoth_theory_010
+  snippet_text: Each Atu represents a grade of understanding or test in the initiatory
+    journey across the Tree.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: path_initiation
+- extracted_at: '2025-11-30T15:46:43.036432'
+  factor_trigger: the_book_o_hebrew
+  role: 主干
+  snippet_id: ns_thoth_theory_011
+  snippet_text: Hebrew system is linear (Beginning
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: End); Pagan system is circular (eternal wheel around Zero). → English
+    Paraphrase
+  trigger: hebrew_pagan
+- extracted_at: '2025-11-30T15:46:43.036438'
+  factor_trigger: the_book_o_daughter
+  role: 主干依赖
+  snippet_id: ns_thoth_theory_012
+  snippet_text: The Daughter rises to the throne of the Mother, renewing the cycle—the
+    secret of the Wheel of Fortune.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: daughter_rise
+- extracted_at: '2025-11-30T15:46:43.037607'
+  factor_trigger: the_book_o_card
+  role: 主干
+  snippet_id: ns_thoth_app_001
+  snippet_text: The student cannot reach true appreciation of the cards without observing
+    their behaviour over a long period through experience.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: Source Text
+  trigger: card_behaviour
+- extracted_at: '2025-11-30T15:46:43.037617'
+  factor_trigger: the_book_o_divination
+  role: 主干依赖
+  snippet_id: ns_thoth_app_002
+  snippet_text: The practical every-day commonplace way to learn the Tarot is divination.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: Source Text
+  trigger: divination_method
+- extracted_at: '2025-11-30T15:46:43.037631'
+  factor_trigger: the_book_o_significator
+  role: 主干
+  snippet_id: ns_thoth_app_003
+  snippet_text: Choose a Significator based on knowledge of the Querent's character
+    rather than physical characteristics.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: Source Text
+  trigger: significator
+- extracted_at: '2025-11-30T15:46:43.037639'
+  factor_trigger: the_book_o_yhvh
+  role: 主干依赖
+  snippet_id: ns_thoth_app_004
+  snippet_text: The four stacks represent YHVH—Yod for work, Heh for love, Vav for
+    trouble, Heh-final for money.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: Source Text
+  trigger: yhvh_stacks
+- extracted_at: '2025-11-30T15:46:43.037652'
+  factor_trigger: the_book_o_trump
+  role: 主干
+  snippet_id: ns_thoth_app_005
+  snippet_text: Each Trump has an essential character plus dignified and ill-dignified
+    expressions depending on context.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: trump_use
+- extracted_at: '2025-11-30T15:46:43.037659'
+  factor_trigger: the_book_o_fool
+  role: 主干依赖
+  snippet_id: ns_thoth_app_006
+  snippet_text: The Fool's essential meaning is an original, subtle, sudden impulse
+    or impact from a completely strange quarter.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: Source Text
+  trigger: fool_essential
+- extracted_at: '2025-11-30T15:46:43.037672'
+  factor_trigger: the_book_o_777
+  role: 主干
+  snippet_id: ns_thoth_app_007
+  snippet_text: Liber DCCLXXVII (777) provides the master key to all Tarot correspondences
+    through its 32-row Key Scale.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: 777_tables
+- extracted_at: '2025-11-30T15:46:43.037678'
+  factor_trigger: the_book_o_decan
+  role: 主干依赖
+  snippet_id: ns_thoth_app_008
+  snippet_text: The 36 small cards (2-10 of each suit) correspond to the 36 zodiacal
+    decans as shown in 777.
+  source_book: the_book_of_thoth
+  source_chapter: null
+  source_ref: Source Text
+  trigger: decan_cards
+source_file: 典籍/texts/The book of Thoth/编辑/Minor_Arcana_Cups.md, 典籍/texts/The book
+  of Thoth/编辑/Major_Arcana_Thoth.md, 典籍/texts/The book of Thoth/编辑/Theory_of_Tarot.md,
+  典籍/texts/The book of Thoth/编辑/Appendices_Thoth.md, 典籍/texts/The book of Thoth/编辑/Minor_Arcana_Disks.md,
+  典籍/texts/The book of Thoth/编辑/Minor_Arcana_Swords.md, 典籍/texts/The book of Thoth/编辑/Minor_Arcana_Wands.md

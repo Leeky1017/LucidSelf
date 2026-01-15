@@ -1,0 +1,50 @@
+# 塔罗体系 - 时间类因子
+# Temporal factors for Tarot system
+
+factors:
+  # 时间指示
+  - id: tarot_timing_indication
+    status: existing
+    display_zh: 时间指示
+    display_en: Timing Indication
+    description_zh: 牌所暗示的时间范围
+    description_en: Time range indicated by the card
+    category: temporal
+    value_type: enum
+    value_range: [immediate, weeks, months, seasons, years]
+    applicable_systems: [tarot]
+
+  - id: tarot_seasonal_timing
+    status: existing
+    display_zh: 季节时机
+    display_en: Seasonal Timing
+    description_zh: 牌对应的季节
+    description_en: Season corresponding to the card
+    category: temporal
+    value_type: enum
+    value_range: [spring, summer, autumn, winter]
+    applicable_systems: [tarot]
+
+  # 周期阶段
+  - id: tarot_cycle_phase
+    status: existing
+    display_zh: 周期阶段
+    display_en: Cycle Phase
+    description_zh: 在生命/事件周期中的阶段
+    description_en: Phase in life/event cycle
+    category: temporal
+    value_type: enum
+    value_range: [beginning, growth, peak, decline, ending, rebirth]
+    applicable_systems: [tarot]
+
+  # 紧迫程度
+  - id: tarot_urgency
+    status: existing
+    display_zh: 紧迫程度
+    display_en: Urgency Level
+    description_zh: 牌所示事项的紧迫程度
+    description_en: Urgency level of matters shown by card
+    category: temporal
+    value_type: enum
+    value_range: [immediate, soon, moderate, distant, timeless]
+    applicable_systems: [tarot]

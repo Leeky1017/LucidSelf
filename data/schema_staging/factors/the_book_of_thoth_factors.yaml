@@ -1,0 +1,2978 @@
+book_id: the_book_of_thoth
+source_file: 典籍/texts/The book of Thoth/编辑/Minor_Arcana_Cups.md, 典籍/texts/The book
+  of Thoth/编辑/Major_Arcana_Thoth.md, 典籍/texts/The book of Thoth/编辑/Theory_of_Tarot.md,
+  典籍/texts/The book of Thoth/编辑/Appendices_Thoth.md, 典籍/texts/The book of Thoth/编辑/Minor_Arcana_Disks.md,
+  典籍/texts/The book of Thoth/编辑/Minor_Arcana_Swords.md, 典籍/texts/The book of Thoth/编辑/Minor_Arcana_Wands.md
+extracted_at: '2025-12-04T14:27:44.403484'
+factors:
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_0
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '0'
+  engine_id: tarot_semantic
+  notes: The Fool
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122727'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_aleph
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 1, "Ox"/Breath
+  engine_id: tarot_semantic
+  notes: Path Kether-Chokmah
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122738'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_11
+  factor_source: existing
+  role_position: Path
+  value_constraint: Kether-Chokmah
+  engine_id: tarot_semantic
+  notes: Highest path
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122745'
+- factor_type: Energy
+  factor_label: Elemental Nature
+  factor_id: element_air
+  factor_source: existing
+  role_position: Element
+  value_constraint: Air
+  engine_id: tarot_semantic
+  notes: Primordial breath
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122750'
+- factor_type: State
+  factor_label: Primordial State
+  factor_id: temp_4fa8f6e9
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Pre-manifestation
+  engine_id: tarot_semantic
+  notes: Undifferentiated potential
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122773'
+- factor_type: Relational
+  factor_label: Chaos as Creative Source
+  factor_id: temp_5ecc1511
+  factor_source: new_candidate
+  role_position: Relation
+  value_constraint: Chaos→Creation
+  engine_id: tarot_semantic
+  notes: Holy madness births cycles
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122780'
+- factor_type: Relation ID
+  factor_label: Relation Type
+  factor_id: temp_67901352
+  factor_source: Factor B
+  role_position: Relation Nature
+  value_constraint: Condition Constraint
+  engine_id: Effect Direction
+  notes: source_ref
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122787'
+- factor_type: rel_thoth_fool_001
+  factor_label: causal
+  factor_id: temp_bb19f3e1
+  factor_source: tarot_primordial_potential
+  role_position: Chaos births potential
+  value_constraint: When Fool card represents primordial chaos birthing infinite potential
+  engine_id: BENEFICIAL
+  notes: 'Crowley #Fool'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122793'
+- factor_type: rel_thoth_fool_002
+  factor_label: complementary
+  factor_id: temp_907fac77
+  factor_source: tarot_manifestation
+  role_position: Zero contains infinity
+  value_constraint: When Zero archetype contains infinite potential for new manifestation
+  engine_id: BENEFICIAL
+  notes: 'Crowley #Fool'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122799'
+- factor_type: rel_thoth_fool_004
+  factor_label: semantic_category
+  factor_id: temp_2ba411c8
+  factor_source: tarot_fool_archetype
+  role_position: Same archetype different systems
+  value_constraint: When Thoth and RWS Fool are compared as same archetype in different
+    systems
+  engine_id: NEUTRAL
+  notes: 'Crowley #Fool'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122813'
+- factor_type: Evidence ID
+  factor_label: l1_anchor
+  factor_id: involved_factors
+  factor_source: confidence
+  role_position: reasoning_path
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122821'
+- factor_type: evi_thoth_fool_001
+  factor_label: '"zero pregnant with infinite possibility"'
+  factor_id: tarot_fool
+  factor_source: HIGH
+  role_position: 'Direct Crowley statement: Fool = 0 = infinite potential before manifestation'
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122828'
+- factor_type: evi_thoth_fool_002
+  factor_label: '"primordial creative chaos—the first stirring of divine consciousness"'
+  factor_id: tarot_fool
+  factor_source: HIGH
+  role_position: Explicit description of Fool's cosmic function
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122834'
+- factor_type: evi_thoth_fool_003
+  factor_label: '"holy madness—abandoning rationality to access higher wisdom"'
+  factor_id: tarot_madness
+  factor_source: HIGH
+  role_position: Direct statement linking madness to transcendent wisdom
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122839'
+- factor_type: mapping_id
+  factor_label: source_system
+  factor_id: source_factor
+  factor_source: target_system
+  role_position: target_factor
+  value_constraint: mapping_type
+  engine_id: notes
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122845'
+- factor_type: map_thoth_fool_001
+  factor_label: tarot
+  factor_id: tarot_fool
+  factor_source: astro
+  role_position: astro_planet_uranus
+  value_constraint: analogous
+  engine_id: Both represent sudden breakthrough and chaos
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122850'
+- factor_type: map_thoth_fool_002
+  factor_label: tarot
+  factor_id: tarot_primordial_chaos
+  factor_source: jung
+  role_position: jung_collective_unconscious
+  value_constraint: related
+  engine_id: Both represent undifferentiated potential
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122855'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_8
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '8'
+  engine_id: ''
+  notes: Adjustment
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122907'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_lamed
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 30, "Ox-goad"
+  engine_id: ''
+  notes: Path Geburah-Tiphareth
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122913'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_22
+  factor_source: existing
+  role_position: Path
+  value_constraint: Geburah-Tiphareth
+  engine_id: ''
+  notes: Path of equilibrium through tension
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122919'
+- factor_type: Energy
+  factor_label: Zodiacal Nature
+  factor_id: sign_libra
+  factor_source: existing
+  role_position: Zodiac
+  value_constraint: Libra
+  engine_id: ''
+  notes: Air sign of balance and harmony
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122925'
+- factor_type: State
+  factor_label: Equilibrium State
+  factor_id: temp_b2e8eddd
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Dynamic Balance
+  engine_id: ''
+  notes: Maintained via constant micro-adjustments
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122931'
+- factor_type: Relational
+  factor_label: Karma as Natural Law
+  factor_id: temp_c757964d
+  factor_source: new_candidate
+  role_position: Relation
+  value_constraint: Action↔Reaction
+  engine_id: ''
+  notes: Neutral cause-effect beyond morality
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122938'
+- factor_type: rel_thoth_adj_004
+  factor_label: semantic_category
+  factor_id: tarot_adjustment
+  factor_source: tarot_justice_rws
+  role_position: Same archetype renamed
+  value_constraint: When Adjustment (Thoth) and Justice (RWS) are recognized as same
+    archetype
+  engine_id: ''
+  notes: NEUTRAL
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122968'
+- factor_type: evi_thoth_adj_001
+  factor_label: '"Adjustment emphasizes dynamic balance rather than static judgment"'
+  factor_id: tarot_adjustment
+  factor_source: HIGH
+  role_position: Direct statement distinguishing Thoth from RWS interpretation
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122981'
+- factor_type: evi_thoth_adj_002
+  factor_label: '"Karma as physics, not morality: every action creates equal and opposite
+    reaction"'
+  factor_id: tarot_karma
+  factor_source: HIGH
+  role_position: Crowley's explicit redefinition of karma as natural law
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122988'
+- factor_type: evi_thoth_adj_003
+  factor_label: '"Love is the law, love under will"'
+  factor_id: tarot_love
+  factor_source: HIGH
+  role_position: Core Thelemic maxim directly quoted
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.122993'
+- factor_type: map_thoth_adj_001
+  factor_label: tarot
+  factor_id: tarot_adjustment
+  factor_source: astro
+  role_position: astro_sign_libra
+  value_constraint: equivalent
+  engine_id: ''
+  notes: Both represent balance and equilibrium
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123002'
+- factor_type: map_thoth_adj_002
+  factor_label: tarot
+  factor_id: tarot_karma
+  factor_source: jung
+  role_position: jung_process_individuation
+  value_constraint: related
+  engine_id: ''
+  notes: Both involve consequences of choices
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123006'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_11
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '11'
+  engine_id: ''
+  notes: Lust
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123051'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_teth
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 9, "Serpent"
+  engine_id: ''
+  notes: Path Chesed-Geburah
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123056'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_19
+  factor_source: existing
+  role_position: Path
+  value_constraint: Chesed-Geburah
+  engine_id: ''
+  notes: Path uniting mercy and severity
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123062'
+- factor_type: Energy
+  factor_label: Zodiacal Nature
+  factor_id: sign_leo
+  factor_source: existing
+  role_position: Zodiac
+  value_constraint: Leo
+  engine_id: ''
+  notes: Fixed fire, creative will, solar force
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123067'
+- factor_type: State
+  factor_label: Ecstatic Union State
+  factor_id: temp_a8873039
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Ecstatic Integration
+  engine_id: ''
+  notes: Spirit and instinct unified joyfully
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123073'
+- factor_type: Relational
+  factor_label: Sacred Sexuality Relation
+  factor_id: temp_6fc33fa7
+  factor_source: new_candidate
+  role_position: Relation
+  value_constraint: Desire↔True Will
+  engine_id: ''
+  notes: Desire becomes divine when authentic
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123080'
+- factor_type: rel_thoth_lust_004
+  factor_label: semantic_category
+  factor_id: tarot_lust
+  factor_source: tarot_strength_rws
+  role_position: Same archetype renamed
+  value_constraint: When Lust (Thoth) and Strength (RWS) are recognized as same archetype
+  engine_id: ''
+  notes: NEUTRAL
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123112'
+- factor_type: evi_thoth_lust_001
+  factor_label: '"Lust represents primal creative force unashamed and unleashed"'
+  factor_id: tarot_lust
+  factor_source: HIGH
+  role_position: Direct statement of card's core meaning
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123124'
+- factor_type: evi_thoth_lust_002
+  factor_label: '"Babalon riding the Beast—feminine divine power directing masculine
+    solar force"'
+  factor_id: tarot_babalon
+  factor_source: HIGH
+  role_position: Explicit description of sacred union symbolism
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123129'
+- factor_type: evi_thoth_lust_003
+  factor_label: '"when desire aligns with True Will, it becomes divine force"'
+  factor_id: tarot_desire
+  factor_source: HIGH
+  role_position: Thelemic principle applied to Lust
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123134'
+- factor_type: map_thoth_lust_001
+  factor_label: tarot
+  factor_id: tarot_lust
+  factor_source: astro
+  role_position: astro_sign_leo
+  value_constraint: equivalent
+  engine_id: ''
+  notes: Both represent creative solar force
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123144'
+- factor_type: map_thoth_lust_002
+  factor_label: tarot
+  factor_id: tarot_kundalini
+  factor_source: jung
+  role_position: jung_archetype_anima
+  value_constraint: related
+  engine_id: ''
+  notes: Both involve integration of primal energy
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123150'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_13
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '13'
+  engine_id: ''
+  notes: Death
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123194'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_nun
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 50, "Fish"
+  engine_id: ''
+  notes: Path Tiphareth-Netzach
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123200'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_24
+  factor_source: existing
+  role_position: Path
+  value_constraint: Tiphareth-Netzach
+  engine_id: ''
+  notes: Death-transformation path
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123204'
+- factor_type: Energy
+  factor_label: Zodiacal Nature
+  factor_id: sign_scorpio
+  factor_source: existing
+  role_position: Zodiac
+  value_constraint: Scorpio
+  engine_id: ''
+  notes: Fixed water, death-rebirth, intensity
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123209'
+- factor_type: State
+  factor_label: Transformation State
+  factor_id: temp_72c86a83
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Total Dissolution
+  engine_id: ''
+  notes: Old forms broken down completely
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123215'
+- factor_type: Relational
+  factor_label: Death-Rebirth Cycle
+  factor_id: temp_73bd96ac
+  factor_source: new_candidate
+  role_position: Relation
+  value_constraint: Death↔Rebirth
+  engine_id: ''
+  notes: Destruction clears space for new life
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123220'
+- factor_type: rel_thoth_death_003
+  factor_label: conditional
+  factor_id: temp_715387e1
+  factor_source: tarot_transcendence
+  role_position: Scorpion becomes eagle
+  value_constraint: When Scorpio energy transmutes from lowest (scorpion) to highest
+    (eagle) form
+  engine_id: ''
+  notes: BENEFICIAL
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123248'
+- factor_type: evi_thoth_death_001
+  factor_label: '"Death in Thoth system represents transformation and renewal, not
+    literal physical death"'
+  factor_id: tarot_death
+  factor_source: HIGH
+  role_position: Crowley's explicit distinction from literal death
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123263'
+- factor_type: evi_thoth_death_002
+  factor_label: '"alchemical putrefaction stage where matter must rot before it can
+    be reborn"'
+  factor_id: tarot_putrefaction
+  factor_source: HIGH
+  role_position: Alchemical framework directly stated
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123269'
+- factor_type: evi_thoth_death_003
+  factor_label: '"The three forms of Scorpio (scorpion→snake→eagle) represent progressive
+    transformation stages"'
+  factor_id: tarot_scorpio
+  factor_source: HIGH
+  role_position: Explicit transformation sequence
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123274'
+- factor_type: map_thoth_death_001
+  factor_label: tarot
+  factor_id: tarot_death
+  factor_source: astro
+  role_position: astro_sign_scorpio
+  value_constraint: equivalent
+  engine_id: ''
+  notes: Both represent death-rebirth transformation
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123284'
+- factor_type: map_thoth_death_002
+  factor_label: tarot
+  factor_id: tarot_ego_death
+  factor_source: jung
+  role_position: jung_process_individuation
+  value_constraint: related
+  engine_id: ''
+  notes: Both involve dissolution of false self
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123290'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_14
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '14'
+  engine_id: ''
+  notes: Art
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123331'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_samekh
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 60, "Prop/Support"
+  engine_id: ''
+  notes: Path Tiphareth-Yesod
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123336'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_25
+  factor_source: existing
+  role_position: Path
+  value_constraint: Tiphareth-Yesod
+  engine_id: ''
+  notes: Brings beauty into foundation
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123341'
+- factor_type: Energy
+  factor_label: Zodiacal Nature
+  factor_id: sign_sagittarius
+  factor_source: existing
+  role_position: Zodiac
+  value_constraint: Sagittarius
+  engine_id: ''
+  notes: Mutable fire, directed vision
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123345'
+- factor_type: State
+  factor_label: Alchemical Synthesis State
+  factor_id: temp_e2929cfa
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Opposites United
+  engine_id: ''
+  notes: Created through solve et coagula
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123351'
+- factor_type: Relational
+  factor_label: Great Work Process
+  factor_id: temp_941e70af
+  factor_source: new_candidate
+  role_position: Relation
+  value_constraint: Opposites→Stone
+  engine_id: ''
+  notes: Creative union produces Philosopher's Stone
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123358'
+- factor_type: evi_thoth_art_001
+  factor_label: '"Art replaces Temperance to emphasize alchemical creation over moral
+    moderation"'
+  factor_id: tarot_art
+  factor_source: HIGH
+  role_position: Crowley's explicit renaming rationale
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123399'
+- factor_type: evi_thoth_art_002
+  factor_label: '"Solve et coagula (dissolve and recombine)—the deliberate, skillful
+    uniting of opposites"'
+  factor_id: tarot_solve
+  factor_source: HIGH
+  role_position: Core alchemical formula directly stated
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123405'
+- factor_type: evi_thoth_art_003
+  factor_label: '"androgynous figure represents union of masculine/feminine, sun/moon,
+    active/passive"'
+  factor_id: tarot_androgyne
+  factor_source: HIGH
+  role_position: Visual symbolism explicitly interpreted
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123410'
+- factor_type: map_thoth_art_001
+  factor_label: tarot
+  factor_id: tarot_art
+  factor_source: astro
+  role_position: astro_sign_sagittarius
+  value_constraint: equivalent
+  engine_id: ''
+  notes: Both represent directed creative vision
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123419'
+- factor_type: map_thoth_art_002
+  factor_label: tarot
+  factor_id: tarot_alchemical_wedding
+  factor_source: jung
+  role_position: jung_archetype_self
+  value_constraint: related
+  engine_id: ''
+  notes: Both represent integration of opposites
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123425'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_15
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '15'
+  engine_id: ''
+  notes: The Devil
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123469'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_ayin
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 70, "Eye"
+  engine_id: ''
+  notes: Path Tiphareth-Hod
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123475'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_26
+  factor_source: existing
+  role_position: Path
+  value_constraint: Tiphareth-Hod
+  engine_id: ''
+  notes: Perception of beauty in form
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123481'
+- factor_type: Energy
+  factor_label: Zodiacal Nature
+  factor_id: sign_capricorn
+  factor_source: existing
+  role_position: Zodiac
+  value_constraint: Capricorn
+  engine_id: ''
+  notes: Cardinal earth, ambition, structure
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123486'
+- factor_type: State
+  factor_label: Sacred Material State
+  factor_id: temp_0284c65b
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Earthed Creative Power
+  engine_id: ''
+  notes: Matter experienced as divine
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123491'
+- factor_type: Relational
+  factor_label: Desire-Shame Relation
+  factor_id: temp_e8cfb724
+  factor_source: new_candidate
+  role_position: Relation
+  value_constraint: Desire↔Shame
+  engine_id: ''
+  notes: Shame distorts natural energy into bondage
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123496'
+- factor_type: evi_thoth_devil_001
+  factor_label: '"The Devil represents creative energy in its most material, primal
+    form"'
+  factor_id: tarot_devil
+  factor_source: HIGH
+  role_position: Direct statement of card's meaning
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123539'
+- factor_type: evi_thoth_devil_002
+  factor_label: '"Crowley''s Devil is Pan, Baphomet, the Goat of Mendes"'
+  factor_id: tarot_pan
+  factor_source: HIGH
+  role_position: Explicit deity identification
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123544'
+- factor_type: evi_thoth_devil_003
+  factor_label: '"Chains present but loose—we bind ourselves through fear and shame"'
+  factor_id: tarot_chains
+  factor_source: HIGH
+  role_position: Key interpretive insight
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123549'
+- factor_type: map_thoth_devil_001
+  factor_label: tarot
+  factor_id: tarot_devil
+  factor_source: astro
+  role_position: astro_sign_capricorn
+  value_constraint: equivalent
+  engine_id: ''
+  notes: Both represent material manifestation
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123558'
+- factor_type: map_thoth_devil_002
+  factor_label: tarot
+  factor_id: tarot_sacred_materialism
+  factor_source: jung
+  role_position: jung_archetype_shadow
+  value_constraint: related
+  engine_id: ''
+  notes: Both involve integration of rejected aspects
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123562'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_20
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '20'
+  engine_id: ''
+  notes: The Aeon
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123604'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_shin
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 300, "Tooth/Fire"
+  engine_id: ''
+  notes: Path Hod-Malkuth
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123609'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_31
+  factor_source: existing
+  role_position: Path
+  value_constraint: Hod-Malkuth
+  engine_id: ''
+  notes: Fire of spirit entering the world
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123614'
+- factor_type: Energy
+  factor_label: Elemental Nature
+  factor_id: element_fire
+  factor_source: existing
+  role_position: Element
+  value_constraint: Fire
+  engine_id: ''
+  notes: Spiritual fire of renewal and judgment
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123619'
+- factor_type: State
+  factor_label: Aeonic Transition State
+  factor_id: temp_5bafa359
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Old→New Aeon
+  engine_id: ''
+  notes: Paradigm shift of age
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123625'
+- factor_type: Relational
+  factor_label: Collective Evolution Relation
+  factor_id: temp_5cd63d66
+  factor_source: new_candidate
+  role_position: Relation
+  value_constraint: Humanity↔Aeon
+  engine_id: ''
+  notes: Species-level consciousness shift
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123630'
+- factor_type: evi_thoth_aeon_001
+  factor_label: '"The Aeon represents paradigm shifts—not just personal transformation
+    but collective consciousness evolution"'
+  factor_id: tarot_aeon
+  factor_source: HIGH
+  role_position: Core card meaning directly stated
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123670'
+- factor_type: evi_thoth_aeon_002
+  factor_label: '"The old age dies, the new age is born"'
+  factor_id: tarot_new_age
+  factor_source: HIGH
+  role_position: Central Aeon concept
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123677'
+- factor_type: evi_thoth_aeon_003
+  factor_label: '"Nuit (infinite space), Hadit (infinitesimal point), Horus (crowned
+    child)"'
+  factor_id: tarot_nuit
+  factor_source: HIGH
+  role_position: Thelemic trinity explicitly named
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123683'
+- factor_type: map_thoth_aeon_001
+  factor_label: tarot
+  factor_id: tarot_aeon
+  factor_source: astro
+  role_position: astro_age_aquarius
+  value_constraint: analogous
+  engine_id: ''
+  notes: Both represent collective paradigm shifts
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123694'
+- factor_type: map_thoth_aeon_002
+  factor_label: tarot
+  factor_id: tarot_collective_evolution
+  factor_source: jung
+  role_position: jung_collective_unconscious
+  value_constraint: related
+  engine_id: ''
+  notes: Both involve species-level consciousness
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123699'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_1
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '1'
+  engine_id: ''
+  notes: The Magus
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123742'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_beth
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 2, "House"
+  engine_id: ''
+  notes: Mercury correspondence
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123747'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_12
+  factor_source: existing
+  role_position: Path
+  value_constraint: Kether-Binah
+  engine_id: ''
+  notes: 12th Path
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123752'
+- factor_type: Energy
+  factor_label: Planetary Nature
+  factor_id: planet_mercury
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Mercury
+  engine_id: ''
+  notes: Communication/intellect
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123757'
+- factor_type: State
+  factor_label: Consciousness State
+  factor_id: temp_c6637a01
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Focused Will
+  engine_id: ''
+  notes: Active manifestation
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123762'
+- factor_type: Relational
+  factor_label: Elemental Mastery
+  factor_id: temp_f3585531
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: 4 Elements
+  engine_id: ''
+  notes: Wand/Cup/Sword/Disk
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123770'
+- factor_type: rel_thoth_magus_004
+  factor_label: inhibitory
+  factor_id: temp_db5c541c
+  factor_source: tarot_truth_distortion
+  role_position: Mimicry without understanding
+  value_constraint: When words imitate without comprehension
+  engine_id: ''
+  notes: HARMFUL
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123801'
+- factor_type: evi_thoth_magus_001
+  factor_label: '"The Magus is titled ''The Lord of Illusion'' because he creates
+    the manifested world through the Word"'
+  factor_id: tarot_magus
+  factor_source: HIGH
+  role_position: Direct title explanation
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123886'
+- factor_type: evi_thoth_magus_002
+  factor_label: '"The four elemental weapons float freely—signifying effortless mastery"'
+  factor_id: tarot_tools
+  factor_source: HIGH
+  role_position: Key visual symbolism interpreted
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123906'
+- factor_type: evi_thoth_magus_003
+  factor_label: '"The Ape beneath serves as a warning: words can either transmit truth
+    or distort it"'
+  factor_id: tarot_ape
+  factor_source: HIGH
+  role_position: Explicit warning stated
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123912'
+- factor_type: map_thoth_magus_001
+  factor_label: tarot
+  factor_id: tarot_magus
+  factor_source: astro
+  role_position: astro_planet_mercury
+  value_constraint: equivalent
+  engine_id: ''
+  notes: Both represent communication and intellect
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123925'
+- factor_type: map_thoth_magus_002
+  factor_label: tarot
+  factor_id: tarot_logos
+  factor_source: jung
+  role_position: jung_archetype_self
+  value_constraint: related
+  engine_id: ''
+  notes: Both represent conscious organizing principle
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123930'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_2
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '2'
+  engine_id: ''
+  notes: The High Priestess
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123975'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_gimel
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 3, "Camel"
+  engine_id: ''
+  notes: Moon correspondence
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123982'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_13
+  factor_source: existing
+  role_position: Path
+  value_constraint: Kether-Tiphareth
+  engine_id: ''
+  notes: 13th Path, crosses Abyss
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.123990'
+- factor_type: Energy
+  factor_label: Planetary Nature
+  factor_id: planet_moon
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Moon
+  engine_id: ''
+  notes: Intuition/subconscious
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124073'
+- factor_type: State
+  factor_label: Psychological State
+  factor_id: temp_a565923a
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Receptive Silence
+  engine_id: ''
+  notes: Subconscious knowing
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124097'
+- factor_type: Boundary
+  factor_label: Threshold Guardian
+  factor_id: temp_01e56842
+  factor_source: new_candidate
+  role_position: Role
+  value_constraint: Abyss Crossing
+  engine_id: ''
+  notes: Gateway to Supernals
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124104'
+- factor_type: rel_thoth_atu_2
+  factor_label: qabalah_path
+  factor_id: atu_2
+  factor_source: qabalah
+  role_position: Hebrew letter
+  value_constraint: When ATU II corresponds to Hebrew letter and Tree of Life path
+  engine_id: ''
+  notes: connecting
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124121'
+- factor_type: Evidence ID
+  factor_label: Source Anchor
+  factor_id: temp_a6699e6e
+  factor_source: Reasoning Step
+  role_position: Conclusion Direction
+  value_constraint: Confidence
+  engine_id: ''
+  notes: Can Generate Rule
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124128'
+- factor_type: evi_thoth_atu_2
+  factor_label: '"Thoth ATU II"'
+  factor_id: atu_2
+  factor_source: Symbol -> meaning
+  role_position: Archetype
+  value_constraint: High
+  engine_id: ''
+  notes: 'Yes'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124133'
+- factor_type: Concept ID
+  factor_label: Common Semantics
+  factor_id: temp_61e59a40
+  factor_source: Astrology Correspondence
+  role_position: Dream Correspondence
+  value_constraint: Psychology Correspondence
+  engine_id: ''
+  notes: Notes
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124140'
+- factor_type: concept_atu_2
+  factor_label: ATU II archetype
+  factor_id: temp_48c549ba
+  factor_source: zodiac
+  role_position: archetype_dream
+  value_constraint: archetype
+  engine_id: ''
+  notes: Thoth system
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124145'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_3
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '3'
+  engine_id: ''
+  notes: The Empress
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124186'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_daleth
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 4, "Door"
+  engine_id: ''
+  notes: Venus correspondence
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124192'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_14
+  factor_source: existing
+  role_position: Path
+  value_constraint: Chokmah-Binah
+  engine_id: ''
+  notes: 14th Path, Supernal
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124196'
+- factor_type: Energy
+  factor_label: Planetary Nature
+  factor_id: planet_venus
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Venus
+  engine_id: ''
+  notes: Love/beauty/fertility
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124201'
+- factor_type: Energy
+  factor_label: Alchemical Principle
+  factor_id: element_salt
+  factor_source: existing
+  role_position: Alchemy
+  value_constraint: Salt
+  engine_id: ''
+  notes: Passive matter
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124205'
+- factor_type: State
+  factor_label: Creative State
+  factor_id: temp_029a55f4
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Active Nurturing
+  engine_id: ''
+  notes: Maternal creation
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124212'
+- factor_type: rel_thoth_atu_3
+  factor_label: qabalah_path
+  factor_id: atu_3
+  factor_source: qabalah
+  role_position: Hebrew letter
+  value_constraint: When ATU III corresponds to Hebrew letter and Tree of Life path
+  engine_id: ''
+  notes: connecting
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124224'
+- factor_type: evi_thoth_atu_3
+  factor_label: '"Thoth ATU III"'
+  factor_id: atu_3
+  factor_source: Symbol -> meaning
+  role_position: Archetype
+  value_constraint: High
+  engine_id: ''
+  notes: 'Yes'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124235'
+- factor_type: concept_atu_3
+  factor_label: ATU III archetype
+  factor_id: temp_ec3dd042
+  factor_source: zodiac
+  role_position: archetype_dream
+  value_constraint: archetype
+  engine_id: ''
+  notes: Thoth system
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124248'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_4
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '4'
+  engine_id: ''
+  notes: The Emperor
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124278'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_tzaddi
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 90, Aries
+  engine_id: ''
+  notes: Crowley's attribution
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124283'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_15
+  factor_source: existing
+  role_position: Path
+  value_constraint: Chokmah-Tiphareth
+  engine_id: ''
+  notes: 15th Path
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124290'
+- factor_type: Energy
+  factor_label: Zodiacal Nature
+  factor_id: sign_aries
+  factor_source: existing
+  role_position: Zodiac
+  value_constraint: Aries
+  engine_id: ''
+  notes: Warrior/initiation
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124297'
+- factor_type: Energy
+  factor_label: Alchemical Principle
+  factor_id: element_sulphur
+  factor_source: existing
+  role_position: Alchemy
+  value_constraint: Sulphur
+  engine_id: ''
+  notes: Active fire
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124301'
+- factor_type: State
+  factor_label: Authority State
+  factor_id: temp_4d441474
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Commanding Will
+  engine_id: ''
+  notes: Paternal power
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124307'
+- factor_type: rel_thoth_atu_4
+  factor_label: qabalah_path
+  factor_id: atu_4
+  factor_source: qabalah
+  role_position: Hebrew letter
+  value_constraint: When ATU IV corresponds to Hebrew letter and Tree of Life path
+  engine_id: ''
+  notes: connecting
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124317'
+- factor_type: evi_thoth_atu_4
+  factor_label: '"Thoth ATU IV"'
+  factor_id: atu_4
+  factor_source: Symbol -> meaning
+  role_position: Archetype
+  value_constraint: High
+  engine_id: ''
+  notes: 'Yes'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124327'
+- factor_type: concept_atu_4
+  factor_label: ATU IV archetype
+  factor_id: temp_b1d16b5d
+  factor_source: zodiac
+  role_position: archetype_dream
+  value_constraint: archetype
+  engine_id: ''
+  notes: Thoth system
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124339'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_10
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '10'
+  engine_id: ''
+  notes: Fortune
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124369'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_kaph
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 20, "Palm"
+  engine_id: ''
+  notes: Jupiter correspondence
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124375'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_21
+  factor_source: existing
+  role_position: Path
+  value_constraint: Chesed-Netzach
+  engine_id: ''
+  notes: 21st Path
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124380'
+- factor_type: Energy
+  factor_label: Planetary Nature
+  factor_id: planet_jupiter
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Jupiter
+  engine_id: ''
+  notes: Expansion/fortune
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124384'
+- factor_type: Temporal
+  factor_label: Cycle Pattern
+  factor_id: temp_3def1cb7
+  factor_source: new_candidate
+  role_position: Pattern
+  value_constraint: 3-Phase Cycle
+  engine_id: ''
+  notes: Creation-Preservation-Destruction
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124390'
+- factor_type: Relational
+  factor_label: Karmic Law
+  factor_id: temp_444eeb41
+  factor_source: new_candidate
+  role_position: Law
+  value_constraint: Natural Cause-Effect
+  engine_id: ''
+  notes: Not moral judgment
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124397'
+- factor_type: rel_thoth_atu_10
+  factor_label: qabalah_path
+  factor_id: atu_10
+  factor_source: qabalah
+  role_position: Hebrew letter
+  value_constraint: When ATU X (Fortune) corresponds to Hebrew Kaph and wheel cycle
+  engine_id: ''
+  notes: connecting
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124407'
+- factor_type: evi_thoth_atu_10
+  factor_label: '"Thoth ATU X"'
+  factor_id: atu_10
+  factor_source: Symbol -> meaning
+  role_position: Archetype
+  value_constraint: High
+  engine_id: ''
+  notes: 'Yes'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124419'
+- factor_type: concept_atu_10
+  factor_label: ATU X archetype
+  factor_id: temp_28a8c33f
+  factor_source: zodiac
+  role_position: archetype_dream
+  value_constraint: archetype
+  engine_id: ''
+  notes: Thoth system
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124431'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_5
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '5'
+  engine_id: ''
+  notes: The Hierophant
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124505'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_vau
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 6, "Nail"
+  engine_id: ''
+  notes: Taurus correspondence
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124511'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_16
+  factor_source: existing
+  role_position: Path
+  value_constraint: Chokmah-Chesed
+  engine_id: ''
+  notes: 16th Path
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124516'
+- factor_type: Energy
+  factor_label: Zodiacal Nature
+  factor_id: sign_taurus
+  factor_source: existing
+  role_position: Zodiac
+  value_constraint: Taurus
+  engine_id: ''
+  notes: Bull Kerub/Earth
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124520'
+- factor_type: Temporal
+  factor_label: Aeon Cycle
+  factor_id: temp_2a972844
+  factor_source: new_candidate
+  role_position: Cycle
+  value_constraint: 2,000 years
+  engine_id: ''
+  notes: Hierophantic rhythm
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124526'
+- factor_type: Relational
+  factor_label: Microcosm-Macrocosm Union
+  factor_id: temp_8515949d
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Bridge
+  engine_id: ''
+  notes: Central magical work
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124531'
+- factor_type: rel_thoth_atu_5
+  factor_label: qabalah_path
+  factor_id: atu_5
+  factor_source: qabalah
+  role_position: Hebrew letter
+  value_constraint: When ATU V corresponds to Hebrew letter and Tree of Life path
+  engine_id: ''
+  notes: connecting
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124541'
+- factor_type: evi_thoth_atu_5
+  factor_label: '"Thoth ATU V"'
+  factor_id: atu_5
+  factor_source: Symbol -> meaning
+  role_position: Archetype
+  value_constraint: High
+  engine_id: ''
+  notes: 'Yes'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124557'
+- factor_type: concept_atu_5
+  factor_label: ATU V archetype
+  factor_id: temp_01b3d4b1
+  factor_source: zodiac
+  role_position: archetype_dream
+  value_constraint: archetype
+  engine_id: ''
+  notes: Thoth system
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124568'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_9
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '9'
+  engine_id: ''
+  notes: The Hermit
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124596'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_yod
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 10, "Hand"
+  engine_id: ''
+  notes: Virgo correspondence
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124601'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_20
+  factor_source: existing
+  role_position: Path
+  value_constraint: Chesed-Tiphareth
+  engine_id: ''
+  notes: 20th Path
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124607'
+- factor_type: Energy
+  factor_label: Zodiacal Nature
+  factor_id: sign_virgo
+  factor_source: existing
+  role_position: Zodiac
+  value_constraint: Virgo
+  engine_id: ''
+  notes: Mutable Earth
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124611'
+- factor_type: Boundary
+  factor_label: Threshold Guardian
+  factor_id: archetype_cerberus
+  factor_source: existing
+  role_position: Guardian
+  value_constraint: Cerberus
+  engine_id: ''
+  notes: Conscious-unconscious border
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124622'
+- factor_type: rel_thoth_atu_9
+  factor_label: qabalah_path
+  factor_id: atu_9
+  factor_source: qabalah
+  role_position: Hebrew letter
+  value_constraint: When ATU IX corresponds to Hebrew Yod and solitary wisdom path
+  engine_id: ''
+  notes: connecting
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124633'
+- factor_type: evi_thoth_atu_9
+  factor_label: '"Thoth ATU IX"'
+  factor_id: atu_9
+  factor_source: Symbol -> meaning
+  role_position: Archetype
+  value_constraint: High
+  engine_id: ''
+  notes: 'Yes'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124643'
+- factor_type: concept_atu_9
+  factor_label: ATU IX archetype
+  factor_id: temp_e4b0e878
+  factor_source: zodiac
+  role_position: archetype_dream
+  value_constraint: archetype
+  engine_id: ''
+  notes: Thoth system
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124653'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_6
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '6'
+  engine_id: ''
+  notes: The Lovers/Brothers
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124682'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_zain
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 7, "Sword"
+  engine_id: ''
+  notes: Gemini correspondence
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124687'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_17
+  factor_source: existing
+  role_position: Path
+  value_constraint: Binah-Tiphareth
+  engine_id: ''
+  notes: 17th Path
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124691'
+- factor_type: Energy
+  factor_label: Zodiacal Nature
+  factor_id: sign_gemini
+  factor_source: existing
+  role_position: Zodiac
+  value_constraint: Gemini
+  engine_id: ''
+  notes: The Twins/Mercury
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124696'
+- factor_type: Process
+  factor_label: Alchemical Operation
+  factor_id: temp_a45717e9
+  factor_source: new_candidate
+  role_position: Process
+  value_constraint: Solve et Coagula
+  engine_id: ''
+  notes: Dissolve & Coagulate
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124701'
+- factor_type: Relational
+  factor_label: Sacred Union
+  factor_id: temp_7e20d277
+  factor_source: new_candidate
+  role_position: Function
+  value_constraint: Royal Marriage
+  engine_id: ''
+  notes: Coniunctio Oppositorum
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124707'
+- factor_type: rel_thoth_atu_6
+  factor_label: qabalah_path
+  factor_id: atu_6
+  factor_source: qabalah
+  role_position: Hebrew letter
+  value_constraint: When ATU VI corresponds to Hebrew Zayin and lovers' choice path
+  engine_id: ''
+  notes: connecting
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124717'
+- factor_type: evi_thoth_atu_6
+  factor_label: '"Thoth ATU VI"'
+  factor_id: atu_6
+  factor_source: Symbol -> meaning
+  role_position: Archetype
+  value_constraint: High
+  engine_id: ''
+  notes: 'Yes'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124730'
+- factor_type: concept_atu_6
+  factor_label: ATU VI archetype
+  factor_id: temp_67ecefef
+  factor_source: zodiac
+  role_position: archetype_dream
+  value_constraint: archetype
+  engine_id: ''
+  notes: Thoth system
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124740'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_7
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '7'
+  engine_id: ''
+  notes: The Chariot
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124767'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_cheth
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 8, "Fence"
+  engine_id: ''
+  notes: Cancer correspondence
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124772'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_18
+  factor_source: existing
+  role_position: Path
+  value_constraint: Binah-Geburah
+  engine_id: ''
+  notes: 18th Path
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124777'
+- factor_type: Energy
+  factor_label: Zodiacal Nature
+  factor_id: sign_cancer
+  factor_source: existing
+  role_position: Zodiac
+  value_constraint: Cancer
+  engine_id: ''
+  notes: Cardinal Water
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124782'
+- factor_type: Relational
+  factor_label: Sacred Vessel
+  factor_id: temp_7f2735d2
+  factor_source: new_candidate
+  role_position: Container
+  value_constraint: Holy Grail
+  engine_id: ''
+  notes: Ego holding divine
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124789'
+- factor_type: State
+  factor_label: Victory State
+  factor_id: temp_47d17c9a
+  factor_source: new_candidate
+  role_position: Achievement
+  value_constraint: Through Will
+  engine_id: ''
+  notes: Not force
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124795'
+- factor_type: rel_thoth_atu_7
+  factor_label: qabalah_path
+  factor_id: atu_7
+  factor_source: qabalah
+  role_position: Hebrew letter
+  value_constraint: When ATU VII corresponds to Hebrew Cheth and victory chariot path
+  engine_id: ''
+  notes: connecting
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124807'
+- factor_type: evi_thoth_atu_7
+  factor_label: '"Thoth ATU VII"'
+  factor_id: atu_7
+  factor_source: Symbol -> meaning
+  role_position: Archetype
+  value_constraint: High
+  engine_id: ''
+  notes: 'Yes'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124817'
+- factor_type: concept_atu_7
+  factor_label: ATU VII archetype
+  factor_id: temp_5bc1dceb
+  factor_source: zodiac
+  role_position: archetype_dream
+  value_constraint: archetype
+  engine_id: ''
+  notes: Thoth system
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124829'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_12
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '12'
+  engine_id: ''
+  notes: The Hanged Man
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124858'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_mem
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 40, "Water"
+  engine_id: ''
+  notes: Water element
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124865'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_23
+  factor_source: existing
+  role_position: Path
+  value_constraint: Geburah-Hod
+  engine_id: ''
+  notes: 23rd Path
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124870'
+- factor_type: Element
+  factor_label: Water Nature
+  factor_id: element_water
+  factor_source: existing
+  role_position: Element
+  value_constraint: Water
+  engine_id: ''
+  notes: Dissolution/baptism
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124874'
+- factor_type: State
+  factor_label: Sacrifice State
+  factor_id: temp_4dced42c
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Voluntary Surrender
+  engine_id: ''
+  notes: Ego death
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124880'
+- factor_type: Mythological
+  factor_label: Dying God
+  factor_id: archetype_dying_god
+  factor_source: existing
+  role_position: Mythology
+  value_constraint: Osiris/Christ/Attis
+  engine_id: ''
+  notes: Death-rebirth cycle
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124885'
+- factor_type: rel_thoth_atu_12
+  factor_label: qabalah_path
+  factor_id: atu_12
+  factor_source: qabalah
+  role_position: Hebrew letter
+  value_constraint: When ATU XII corresponds to Hebrew Mem and suspension/sacrifice
+    path
+  engine_id: ''
+  notes: connecting
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124896'
+- factor_type: evi_thoth_atu_12
+  factor_label: '"Thoth ATU XII"'
+  factor_id: atu_12
+  factor_source: Symbol -> meaning
+  role_position: Archetype
+  value_constraint: High
+  engine_id: ''
+  notes: 'Yes'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124907'
+- factor_type: concept_atu_12
+  factor_label: ATU XII archetype
+  factor_id: temp_64a107ef
+  factor_source: zodiac
+  role_position: archetype_dream
+  value_constraint: archetype
+  engine_id: ''
+  notes: Thoth system
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124919'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_16
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '16'
+  engine_id: ''
+  notes: The Tower
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124948'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_peh
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 80, "Mouth"
+  engine_id: ''
+  notes: Word of truth
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124953'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_27
+  factor_source: existing
+  role_position: Path
+  value_constraint: Netzach-Hod
+  engine_id: ''
+  notes: 27th Path
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124958'
+- factor_type: Energy
+  factor_label: Planetary Nature
+  factor_id: planet_mars
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Mars
+  engine_id: ''
+  notes: Destruction/war
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124964'
+- factor_type: Process
+  factor_label: Destruction Process
+  factor_id: temp_0d918346
+  factor_source: new_candidate
+  role_position: Process
+  value_constraint: Sudden Demolition
+  engine_id: ''
+  notes: Necessary purging
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124969'
+- factor_type: Mythological
+  factor_label: Shiva's Eye
+  factor_id: deity_shiva
+  factor_source: existing
+  role_position: Deity
+  value_constraint: Third Eye
+  engine_id: ''
+  notes: Destroyer aspect
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124974'
+- factor_type: rel_thoth_atu_16
+  factor_label: qabalah_path
+  factor_id: atu_16
+  factor_source: qabalah
+  role_position: Hebrew letter
+  value_constraint: When ATU XVI corresponds to Hebrew Peh and destruction/liberation
+    path
+  engine_id: ''
+  notes: connecting
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124984'
+- factor_type: evi_thoth_atu_16
+  factor_label: '"Thoth ATU XVI"'
+  factor_id: atu_16
+  factor_source: Symbol -> meaning
+  role_position: Archetype
+  value_constraint: High
+  engine_id: ''
+  notes: 'Yes'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.124997'
+- factor_type: concept_atu_16
+  factor_label: ATU XVI archetype
+  factor_id: temp_9269a21f
+  factor_source: zodiac
+  role_position: archetype_dream
+  value_constraint: archetype
+  engine_id: ''
+  notes: Thoth system
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125009'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_17
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '17'
+  engine_id: ''
+  notes: The Star
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125036'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_heh_2
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 5, "Window"
+  engine_id: ''
+  notes: Second Heh
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125041'
+- factor_type: Energy
+  factor_label: Zodiacal Nature
+  factor_id: sign_aquarius
+  factor_source: existing
+  role_position: Zodiac
+  value_constraint: Aquarius
+  engine_id: ''
+  notes: Water-bearer/Air
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125051'
+- factor_type: Deity
+  factor_label: Star Goddess
+  factor_id: deity_nuit
+  factor_source: existing
+  role_position: Goddess
+  value_constraint: Nuit
+  engine_id: ''
+  notes: Infinite space
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125055'
+- factor_type: State
+  factor_label: Hope State
+  factor_id: temp_350c253c
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Cosmic Trust
+  engine_id: ''
+  notes: Renewal/inspiration
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125061'
+- factor_type: rel_thoth_atu_17
+  factor_label: qabalah_path
+  factor_id: atu_17
+  factor_source: qabalah
+  role_position: Hebrew letter
+  value_constraint: When ATU XVII corresponds to Hebrew Tzaddi and meditation/hope
+    path
+  engine_id: ''
+  notes: connecting
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125075'
+- factor_type: evi_thoth_atu_17
+  factor_label: '"Thoth ATU XVII"'
+  factor_id: atu_17
+  factor_source: Symbol -> meaning
+  role_position: Archetype
+  value_constraint: High
+  engine_id: ''
+  notes: 'Yes'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125087'
+- factor_type: concept_atu_17
+  factor_label: ATU XVII archetype
+  factor_id: temp_375f8645
+  factor_source: zodiac
+  role_position: archetype_dream
+  value_constraint: archetype
+  engine_id: ''
+  notes: Thoth system
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125098'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_18
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '18'
+  engine_id: ''
+  notes: The Moon
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125126'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_qoph
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 100, "Back of Head"
+  engine_id: ''
+  notes: Unconscious
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125131'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_29
+  factor_source: existing
+  role_position: Path
+  value_constraint: Netzach-Malkuth
+  engine_id: ''
+  notes: 29th Path
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125137'
+- factor_type: Energy
+  factor_label: Zodiacal Nature
+  factor_id: sign_pisces
+  factor_source: existing
+  role_position: Zodiac
+  value_constraint: Pisces
+  engine_id: ''
+  notes: Dissolution/water
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125142'
+- factor_type: Deity
+  factor_label: Psychopomp
+  factor_id: deity_anubis
+  factor_source: existing
+  role_position: Guardian
+  value_constraint: Anubis
+  engine_id: ''
+  notes: Death guide
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125146'
+- factor_type: Process
+  factor_label: Evolutionary Ascent
+  factor_id: temp_1740f64d
+  factor_source: new_candidate
+  role_position: Evolution
+  value_constraint: Water-Land-Air
+  engine_id: ''
+  notes: Consciousness rising
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125153'
+- factor_type: rel_thoth_atu_18
+  factor_label: qabalah_path
+  factor_id: atu_18
+  factor_source: qabalah
+  role_position: Hebrew letter
+  value_constraint: When ATU XVIII corresponds to Hebrew Qoph and illusion/evolution
+    path
+  engine_id: ''
+  notes: connecting
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125163'
+- factor_type: evi_thoth_atu_18
+  factor_label: '"Thoth ATU XVIII"'
+  factor_id: atu_18
+  factor_source: Symbol -> meaning
+  role_position: Archetype
+  value_constraint: High
+  engine_id: ''
+  notes: 'Yes'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125173'
+- factor_type: concept_atu_18
+  factor_label: ATU XVIII archetype
+  factor_id: temp_5047fea9
+  factor_source: zodiac
+  role_position: archetype_dream
+  value_constraint: archetype
+  engine_id: ''
+  notes: Thoth system
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125185'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_19
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '19'
+  engine_id: ''
+  notes: The Sun
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125213'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_resh
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 200, "Head"
+  engine_id: ''
+  notes: Consciousness
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125218'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_30
+  factor_source: existing
+  role_position: Path
+  value_constraint: Hod-Yesod
+  engine_id: ''
+  notes: 30th Path
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125222'
+- factor_type: Energy
+  factor_label: Solar Nature
+  factor_id: planet_sun
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Sun
+  engine_id: ''
+  notes: Life/consciousness
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125228'
+- factor_type: Deity
+  factor_label: Twin Gods
+  factor_id: deity_heru_ra_ha
+  factor_source: existing
+  role_position: Thelemic Gods
+  value_constraint: Heru-Ra-Ha
+  engine_id: ''
+  notes: Active/passive reconciled
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125233'
+- factor_type: State
+  factor_label: Liberation State
+  factor_id: temp_75f2daf1
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Freed from Duality
+  engine_id: ''
+  notes: Joy/success
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125239'
+- factor_type: rel_thoth_atu_19
+  factor_label: qabalah_path
+  factor_id: atu_19
+  factor_source: qabalah
+  role_position: Hebrew letter
+  value_constraint: When ATU XIX corresponds to Hebrew Resh and solar consciousness
+    path
+  engine_id: ''
+  notes: connecting
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125260'
+- factor_type: evi_thoth_atu_19
+  factor_label: '"Thoth ATU XIX"'
+  factor_id: atu_19
+  factor_source: Symbol -> meaning
+  role_position: Archetype
+  value_constraint: High
+  engine_id: ''
+  notes: 'Yes'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125273'
+- factor_type: concept_atu_19
+  factor_label: ATU XIX archetype
+  factor_id: temp_84641804
+  factor_source: zodiac
+  role_position: archetype_dream
+  value_constraint: archetype
+  engine_id: ''
+  notes: Thoth system
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125284'
+- factor_type: Structure
+  factor_label: Major Arcana Card
+  factor_id: card_atu_21
+  factor_source: existing
+  role_position: Archetype
+  value_constraint: '21'
+  engine_id: tarot_semantic
+  notes: The Universe
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125320'
+- factor_type: Structure
+  factor_label: Hebrew Letter
+  factor_id: letter_tau
+  factor_source: existing
+  role_position: Qabalah
+  value_constraint: 400, "Cross"
+  engine_id: tarot_semantic
+  notes: Final seal
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125327'
+- factor_type: Structure
+  factor_label: Tree of Life Path
+  factor_id: path_32
+  factor_source: existing
+  role_position: Path
+  value_constraint: Yesod-Malkuth
+  engine_id: tarot_semantic
+  notes: 32nd/final Path
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125334'
+- factor_type: Energy
+  factor_label: Planetary Nature
+  factor_id: planet_saturn
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Saturn
+  engine_id: tarot_semantic
+  notes: Structure/completion
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125339'
+- factor_type: Process
+  factor_label: Eternal Cycle
+  factor_id: symbol_ouroboros
+  factor_source: existing
+  role_position: Cycle
+  value_constraint: Ouroboros
+  engine_id: tarot_semantic
+  notes: End=Beginning
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125344'
+- factor_type: State
+  factor_label: Completion State
+  factor_id: temp_237abcbd
+  factor_source: new_candidate
+  role_position: State
+  value_constraint: Total Integration
+  engine_id: tarot_semantic
+  notes: Perfect manifestation
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125350'
+- factor_type: rel_thoth_atu_21
+  factor_label: completion_path
+  factor_id: card_atu_21
+  factor_source: letter_tau
+  role_position: Final path Yesod-Malkuth
+  value_constraint: When ATU XXI corresponds to Tau completing final Yesod-Malkuth
+    path
+  engine_id: completing
+  notes: 'Crowley #Universe'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125361'
+- factor_type: rel_thoth_atu_21b
+  factor_label: eternal_return
+  factor_id: symbol_ouroboros
+  factor_source: card_atu_21
+  role_position: Cycle complete
+  value_constraint: When Universe card ouroboros symbolizes cycle completion enabling
+    new beginning
+  engine_id: cycling
+  notes: 'Crowley #Universe'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125366'
+- factor_type: evi_thoth_atu_21
+  factor_label: '"Saturn here is not limitation but structure, completion"'
+  factor_id: planet_saturn
+  factor_source: Saturn redeemed -> structure enables
+  role_position: Universe = perfect completion
+  value_constraint: High
+  engine_id: 'Yes'
+  notes: rule_thoth_universe
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125382'
+- factor_type: concept_cosmic_completion
+  factor_label: Total integration, perfect manifestation
+  factor_id: temp_30079c51
+  factor_source: planet_saturn, sign_earth
+  role_position: completion_dream, mandala_dream
+  value_constraint: individuation, wholeness
+  engine_id: Four Kerubim balanced
+  notes: ''
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.125398'
+- factor_type: Structure
+  factor_label: 78-card system
+  factor_id: tarot_78
+  factor_source: existing
+  role_position: Complete set
+  value_constraint: 22+40+16
+  engine_id: tarot_calculator
+  notes: Universal
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134770'
+- factor_type: Component
+  factor_label: Major Arcana
+  factor_id: major_arcana
+  factor_source: existing
+  role_position: 22 Trumps
+  value_constraint: Paths/Letters
+  engine_id: tarot_calculator
+  notes: Atu
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134779'
+- factor_type: Component
+  factor_label: Minor Arcana
+  factor_id: minor_arcana
+  factor_source: existing
+  role_position: 56 cards
+  value_constraint: Sephiroth×4
+  engine_id: tarot_calculator
+  notes: Suits
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134788'
+- factor_type: Framework
+  factor_label: Tree of Life
+  factor_id: tree_of_life
+  factor_source: existing
+  role_position: Qabalistic map
+  value_constraint: 10+22
+  engine_id: qabalah_engine
+  notes: Foundation
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134794'
+- factor_type: Concept
+  factor_label: Three Veils
+  factor_id: ain_veils
+  factor_source: new_candidate
+  role_position: Pre-manifestation
+  value_constraint: 0/00/000
+  engine_id: qabalah_engine
+  notes: Negative existence
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134813'
+- factor_type: Structure
+  factor_label: 10 Sephiroth
+  factor_id: sephiroth_10
+  factor_source: existing
+  role_position: Tree nodes
+  value_constraint: 1-10
+  engine_id: qabalah_engine
+  notes: Emanations
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134818'
+- factor_type: Process
+  factor_label: Naples Arrangement
+  factor_id: naples_arrangement
+  factor_source: new_candidate
+  role_position: Creation sequence
+  value_constraint: 0→10
+  engine_id: qabalah_engine
+  notes: Crowley term
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134823'
+- factor_type: Relation
+  factor_label: Dimensional emergence
+  factor_id: dim_emerge
+  factor_source: new_candidate
+  role_position: Point→Solid
+  value_constraint: Geometric
+  engine_id: qabalah_engine
+  notes: Logical necessity
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134828'
+- factor_type: Formula
+  factor_label: Tetragrammaton
+  factor_id: yhvh
+  factor_source: existing
+  role_position: Creative formula
+  value_constraint: 4-letter
+  engine_id: qabalah_engine
+  notes: Divine Name
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134847'
+- factor_type: Letter
+  factor_label: Yod
+  factor_id: yod
+  factor_source: existing
+  role_position: Father/Fire
+  value_constraint: Active
+  engine_id: qabalah_engine
+  notes: י
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134852'
+- factor_type: Letter
+  factor_label: Heh
+  factor_id: heh
+  factor_source: existing
+  role_position: Mother/Water
+  value_constraint: Receptive
+  engine_id: qabalah_engine
+  notes: ה
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134857'
+- factor_type: Letter
+  factor_label: Vav
+  factor_id: vav
+  factor_source: existing
+  role_position: Son/Air
+  value_constraint: Mediating
+  engine_id: qabalah_engine
+  notes: ו
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134861'
+- factor_type: Letter
+  factor_label: Heh-final
+  factor_id: heh_final
+  factor_source: existing
+  role_position: Daughter/Earth
+  value_constraint: Manifest
+  engine_id: qabalah_engine
+  notes: ה
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134866'
+- factor_type: Element
+  factor_label: Fire
+  factor_id: element_fire
+  factor_source: existing
+  role_position: Active
+  value_constraint: Shin/Sulphur
+  engine_id: tarot_calculator
+  notes: Wands
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134885'
+- factor_type: Element
+  factor_label: Water
+  factor_id: element_water
+  factor_source: existing
+  role_position: Receptive
+  value_constraint: Mem/Salt
+  engine_id: tarot_calculator
+  notes: Cups
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134890'
+- factor_type: Element
+  factor_label: Air
+  factor_id: element_air
+  factor_source: existing
+  role_position: Mediating
+  value_constraint: Aleph/Mercury
+  engine_id: tarot_calculator
+  notes: Swords
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134894'
+- factor_type: Element
+  factor_label: Earth
+  factor_id: element_earth
+  factor_source: existing
+  role_position: Crystallizing
+  value_constraint: Tau
+  engine_id: tarot_calculator
+  notes: Disks
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134899'
+- factor_type: Group
+  factor_label: Three Mother Letters
+  factor_id: mother_letters
+  factor_source: existing
+  role_position: Primary
+  value_constraint: ש מ א
+  engine_id: qabalah_engine
+  notes: Spiritual
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134903'
+- factor_type: Structure
+  factor_label: 22 Paths
+  factor_id: paths_22
+  factor_source: existing
+  role_position: Tree connections
+  value_constraint: Sephirah-to-Sephirah
+  engine_id: qabalah_engine
+  notes: Lines
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134923'
+- factor_type: Mapping
+  factor_label: Letter-Path
+  factor_id: letter_path_map
+  factor_source: existing
+  role_position: Correspondence
+  value_constraint: 22=22
+  engine_id: qabalah_engine
+  notes: א-ת
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134928'
+- factor_type: Class
+  factor_label: Three Mothers
+  factor_id: mothers_3
+  factor_source: existing
+  role_position: Elements
+  value_constraint: א מ ש
+  engine_id: qabalah_engine
+  notes: Fire/Water/Air
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134934'
+- factor_type: Class
+  factor_label: Seven Doubles
+  factor_id: doubles_7
+  factor_source: existing
+  role_position: Planets
+  value_constraint: ב ג ד כ פ ר ת
+  engine_id: qabalah_engine
+  notes: 7 planets
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134938'
+- factor_type: Class
+  factor_label: Twelve Singles
+  factor_id: singles_12
+  factor_source: existing
+  role_position: Zodiac
+  value_constraint: Remaining
+  engine_id: qabalah_engine
+  notes: 12 signs
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134943'
+- factor_type: Model
+  factor_label: Hebrew System
+  factor_id: hebrew_linear
+  factor_source: new_candidate
+  role_position: Linear
+  value_constraint: Beginning→End
+  engine_id: qabalah_engine
+  notes: Causal
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134960'
+- factor_type: Model
+  factor_label: Pagan System
+  factor_id: pagan_circular
+  factor_source: new_candidate
+  role_position: Circular
+  value_constraint: Eternal wheel
+  engine_id: qabalah_engine
+  notes: Cyclic
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134964'
+- factor_type: Process
+  factor_label: Daughter Rising
+  factor_id: daughter_rise
+  factor_source: new_candidate
+  role_position: Renewal
+  value_constraint: Princess→Queen
+  engine_id: qabalah_engine
+  notes: Key secret
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134969'
+- factor_type: Principle
+  factor_label: Zero Axis
+  factor_id: zero_axis
+  factor_source: new_candidate
+  role_position: Center
+  value_constraint: Motionless
+  engine_id: qabalah_engine
+  notes: 0=∞
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.134974'
+- factor_type: Method
+  factor_label: Divination
+  factor_id: divination_method
+  factor_source: existing
+  role_position: Learning path
+  value_constraint: Practical
+  engine_id: tarot_calculator
+  notes: Primary
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136723'
+- factor_type: Concept
+  factor_label: Card Behaviour
+  factor_id: card_behaviour
+  factor_source: new_candidate
+  role_position: Observable
+  value_constraint: Interactive
+  engine_id: tarot_semantic
+  notes: Key insight
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136732'
+- factor_type: Process
+  factor_label: Experiential Learning
+  factor_id: exp_learning
+  factor_source: new_candidate
+  role_position: Pedagogy
+  value_constraint: Time-based
+  engine_id: tarot_semantic
+  notes: Crowley emphasis
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136738'
+- factor_type: Relation
+  factor_label: Card Interplay
+  factor_id: card_interplay
+  factor_source: new_candidate
+  role_position: Reading dynamics
+  value_constraint: Contextual
+  engine_id: tarot_semantic
+  notes: Essential
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136748'
+- factor_type: Method
+  factor_label: Five Operations
+  factor_id: five_ops
+  factor_source: new_candidate
+  role_position: Divination structure
+  value_constraint: Sequential
+  engine_id: tarot_calculator
+  notes: Golden Dawn
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136822'
+- factor_type: Spread
+  factor_label: YHVH Stacks
+  factor_id: yhvh_spread
+  factor_source: new_candidate
+  role_position: Operation I
+  value_constraint: 4 piles
+  engine_id: tarot_calculator
+  notes: Domain
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136832'
+- factor_type: Spread
+  factor_label: House Spread
+  factor_id: house_spread
+  factor_source: new_candidate
+  role_position: Operation II
+  value_constraint: 12 piles
+  engine_id: tarot_calculator
+  notes: Development
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136838'
+- factor_type: Spread
+  factor_label: Tree Spread
+  factor_id: tree_spread
+  factor_source: new_candidate
+  role_position: Operation V
+  value_constraint: 10 piles
+  engine_id: tarot_calculator
+  notes: Final
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136843'
+- factor_type: Technique
+  factor_label: Counting
+  factor_id: counting_tech
+  factor_source: new_candidate
+  role_position: Narrative
+  value_constraint: K/Q/Pr=4, etc.
+  engine_id: tarot_calculator
+  notes: Golden Dawn
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136848'
+- factor_type: System
+  factor_label: Dignity
+  factor_id: dignity_system
+  factor_source: existing
+  role_position: Card evaluation
+  value_constraint: Dignified/Ill-dignified
+  engine_id: tarot_calculator
+  notes: Positional
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136867'
+- factor_type: Concept
+  factor_label: Essential Character
+  factor_id: essential_char
+  factor_source: new_candidate
+  role_position: Core meaning
+  value_constraint: Irreducible
+  engine_id: tarot_semantic
+  notes: Key
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136875'
+- factor_type: Context
+  factor_label: Spiritual/Material
+  factor_id: sp_mat_context
+  factor_source: new_candidate
+  role_position: Interpretation domain
+  value_constraint: Abstract/Practical
+  engine_id: tarot_semantic
+  notes: Dual
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136879'
+- factor_type: System
+  factor_label: 777 Tables
+  factor_id: temp_086b09c9
+  factor_source: existing
+  role_position: Master reference
+  value_constraint: 32 rows
+  engine_id: qabalah_engine
+  notes: Crowley
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136914'
+- factor_type: Structure
+  factor_label: Key Scale
+  factor_id: key_scale
+  factor_source: existing
+  role_position: Framework
+  value_constraint: 10+22
+  engine_id: qabalah_engine
+  notes: Standard
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136922'
+- factor_type: Mapping
+  factor_label: Decan-Card
+  factor_id: decan_card_map
+  factor_source: existing
+  role_position: Correspondence
+  value_constraint: 36=36
+  engine_id: tarot_calculator
+  notes: Small cards
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136926'
+- factor_type: System
+  factor_label: Four Color Scales
+  factor_id: four_scales
+  factor_source: existing
+  role_position: World correspondences
+  value_constraint: K/Q/Pr/Ps
+  engine_id: qabalah_engine
+  notes: Atziluth-Assiah
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.136931'

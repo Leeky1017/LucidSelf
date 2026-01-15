@@ -1,0 +1,1220 @@
+book_id: planets_in_transit
+source_file: 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch01-03_Theory_Extended.md, 典籍/texts/Planets
+  in Transit/编辑/PIT_v2.1_Ch11_Uranus.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch04_Sun.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch13_Pluto.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch01-03_Theory.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch07_Venus.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch12_Neptune.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch06_Mercury.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch08_Mars.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch05_Moon.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch09_Jupiter.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch10_Saturn.md
+extracted_at: '2025-11-30T15:46:48.735776'
+factors:
+- factor_type: '**Functional**'
+  factor_label: Transit mechanism
+  factor_id: temp_c873a002
+  factor_source: new_candidate
+  role_position: Activation System
+  value_constraint: Moving → Natal aspect
+  engine_id: astro_semantic
+  notes: Core predictive
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956782'
+- factor_type: '**Temporal**'
+  factor_label: Saturn cycle
+  factor_id: transit_saturn_cycle
+  factor_source: existing
+  role_position: 29.5-Year Maturation
+  value_constraint: Structure/responsibility
+  engine_id: astro_semantic
+  notes: Primary life cycle
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956802'
+- factor_type: '**Temporal**'
+  factor_label: Saturn return
+  factor_id: transit_saturn_return
+  factor_source: existing
+  role_position: Ages 29-30, 58-60
+  value_constraint: Major restructuring
+  engine_id: astro_semantic
+  notes: Reality confrontation
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956808'
+- factor_type: '**Temporal**'
+  factor_label: Saturn quarters
+  factor_id: temp_7cb0090e
+  factor_source: new_candidate
+  role_position: 7-Year Phases
+  value_constraint: Crisis/Action/Establish/Transition
+  engine_id: astro_semantic
+  notes: Developmental stages
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956820'
+- factor_type: '**Relational**'
+  factor_label: Saturn↔大运 parallel
+  factor_id: temp_d5c90b5f
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: 29.5y ≈ 30y
+  engine_id: astro_semantic
+  notes: Precise correlation
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956825'
+- factor_type: '**Temporal**'
+  factor_label: Jupiter cycle
+  factor_id: transit_jupiter_cycle
+  factor_source: existing
+  role_position: 12-Year Expansion
+  value_constraint: Opportunity/growth
+  engine_id: astro_semantic
+  notes: Complement to Saturn
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956840'
+- factor_type: '**Temporal**'
+  factor_label: Jupiter return
+  factor_id: transit_jupiter_return
+  factor_source: existing
+  role_position: Every 12 Years
+  value_constraint: Fresh growth cycle
+  engine_id: astro_semantic
+  notes: Generally positive
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956844'
+- factor_type: '**Functional**'
+  factor_label: Opportunity windows
+  factor_id: temp_fb44181d
+  factor_source: new_candidate
+  role_position: Growth Timing
+  value_constraint: Natural expansion periods
+  engine_id: astro_semantic
+  notes: When to grow
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956849'
+- factor_type: '**Relational**'
+  factor_label: Jupiter↔太岁 parallel
+  factor_id: temp_c0c39e3d
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: 12y = 12y
+  engine_id: astro_semantic
+  notes: Precise correlation
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956854'
+- factor_type: '**Temporal**'
+  factor_label: Uranus opposition
+  factor_id: transit_uranus_opposition
+  factor_source: existing
+  role_position: Age 40-44
+  value_constraint: Mid-life crisis
+  engine_id: astro_semantic
+  notes: 180° aspect
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956872'
+- factor_type: '**Functional**'
+  factor_label: Mid-life awakening
+  factor_id: temp_c9934b68
+  factor_source: new_candidate
+  role_position: Authenticity Crisis
+  value_constraint: Liberation demand
+  engine_id: astro_semantic
+  notes: Revolutionary
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956877'
+- factor_type: '**State**'
+  factor_label: False structure collapse
+  factor_id: temp_7fff3257
+  factor_source: new_candidate
+  role_position: Breakdown/Breakthrough
+  value_constraint: Inauthentic must transform
+  engine_id: astro_semantic
+  notes: Positive or catastrophic
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956884'
+- factor_type: '**Relational**'
+  factor_label: Uranus Opposition↔中年大限
+  factor_id: temp_afef1cde
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: Age ~42 in both
+  engine_id: astro_semantic
+  notes: Mandate awakening
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956890'
+- factor_type: '**Temporal**'
+  factor_label: Retrograde pattern
+  factor_id: transit_retrograde
+  factor_source: existing
+  role_position: Triple-Pass
+  value_constraint: Direct-Retro-Direct
+  engine_id: astro_semantic
+  notes: Integration cycle
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956905'
+- factor_type: '**Functional**'
+  factor_label: Progressive integration
+  factor_id: temp_dfa7569b
+  factor_source: new_candidate
+  role_position: Gradual Process
+  value_constraint: Prevents overwhelm
+  engine_id: astro_semantic
+  notes: Three stages
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956909'
+- factor_type: '**Temporal**'
+  factor_label: Station point
+  factor_id: transit_station
+  factor_source: existing
+  role_position: Direction Change
+  value_constraint: Maximum intensity
+  engine_id: astro_semantic
+  notes: Breakthrough/breakdown
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956914'
+- factor_type: '**Relational**'
+  factor_label: Retrograde↔反复伏吟
+  factor_id: temp_165d71cd
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: Repetition principle
+  engine_id: astro_semantic
+  notes: Hidden recurrence
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956918'
+- factor_type: '**Boundary**'
+  factor_label: Orb
+  factor_id: transit_orb
+  factor_source: existing
+  role_position: Effective Range
+  value_constraint: 1-8° variable
+  engine_id: astro_semantic
+  notes: Timing parameter
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956977'
+- factor_type: '**Relational**'
+  factor_label: Natal context dominance
+  factor_id: temp_3de2a0a3
+  factor_source: new_candidate
+  role_position: Foundation Principle
+  value_constraint: Natal > Transit
+  engine_id: astro_semantic
+  notes: Pattern hierar
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.956989'
+- factor_type: '**Relational**'
+  factor_label: Conjunction
+  factor_id: aspect_conjunction
+  factor_source: existing
+  role_position: 0° Fusion
+  value_constraint: Maximum intensity
+  engine_id: astro_semantic
+  notes: Beginning/mer
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.957000'
+- factor_type: '**Temporal**'
+  factor_label: Transit duration
+  factor_id: temp_cc1bbf99
+  factor_source: new_candidate
+  role_position: Speed Correlation
+  value_constraint: Fast=brief, slow=long
+  engine_id: astro_semantic
+  notes: Ho
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.957009'
+- factor_type: Structure
+  factor_label: Transiting Sun
+  factor_id: transit_sun
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Current position
+  engine_id: astro_calculator
+  notes: Energy source
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960372'
+- factor_type: Structure
+  factor_label: First House
+  factor_id: house_1
+  factor_source: existing
+  role_position: House
+  value_constraint: Ascendant-based
+  engine_id: astro_calculator
+  notes: Self/personality
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960380'
+- factor_type: Temporal
+  factor_label: Transit Duration
+  factor_id: transit_duration_sun_house
+  factor_source: existing
+  role_position: Parameter
+  value_constraint: ~30 days
+  engine_id: astro_calculator
+  notes: Monthly cycle
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960385'
+- factor_type: State
+  factor_label: Enhanced Forcefulness
+  factor_id: state_sun_1h_forceful
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: High
+  engine_id: astro_semantic
+  notes: Transit effect
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960389'
+- factor_type: State
+  factor_label: Reduced Sensitivity
+  factor_id: state_sun_1h_insensitive
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: Moderate
+  engine_id: astro_semantic
+  notes: Side effect
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960393'
+- factor_type: Relational
+  factor_label: 1H-7H Axis Tension
+  factor_id: axis_1_7_tension
+  factor_source: new_candidate
+  role_position: Pattern
+  value_constraint: Conditional
+  engine_id: astro_rule_engine
+  notes: Partnership stress
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960397'
+- factor_type: Structure
+  factor_label: Second House
+  factor_id: house_2
+  factor_source: existing
+  role_position: House
+  value_constraint: Post-Ascendant
+  engine_id: astro_calculator
+  notes: Values house
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960411'
+- factor_type: State
+  factor_label: Value Reflection
+  factor_id: state_sun_2h_values
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: Enhanced
+  engine_id: astro_semantic
+  notes: Transit effect
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960415'
+- factor_type: State
+  factor_label: Resource Examination
+  factor_id: state_sun_2h_resources
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: Active
+  engine_id: astro_semantic
+  notes: Transit effect
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960419'
+- factor_type: Boundary
+  factor_label: Possession-freedom Balance
+  factor_id: boundary_possession_freedom
+  factor_source: new_candidate
+  role_position: Threshold
+  value_constraint: Variable
+  engine_id: astro_rule_engine
+  notes: Psychological
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960424'
+- factor_type: Structure
+  factor_label: Third House
+  factor_id: house_3
+  factor_source: existing
+  role_position: House
+  value_constraint: Communication
+  engine_id: astro_calculator
+  notes: Mercury's house
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960439'
+- factor_type: State
+  factor_label: Accelerated Tempo
+  factor_id: state_sun_3h_tempo
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: Increased
+  engine_id: astro_semantic
+  notes: Transit effect
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960445'
+- factor_type: State
+  factor_label: Mental Clarity
+  factor_id: state_sun_3h_clarity
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: Enhanced
+  engine_id: astro_semantic
+  notes: Transit effect
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960449'
+- factor_type: State
+  factor_label: Restlessness
+  factor_id: state_sun_3h_restless
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: Present
+  engine_id: astro_semantic
+  notes: Side effect
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960453'
+- factor_type: Structure
+  factor_label: Fourth House
+  factor_id: house_4
+  factor_source: existing
+  role_position: House
+  value_constraint: IC-based
+  engine_id: astro_calculator
+  notes: Roots house
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960464'
+- factor_type: State
+  factor_label: Inward Focus
+  factor_id: state_sun_4h_inward
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: Deep
+  engine_id: astro_semantic
+  notes: Transit effect
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960468'
+- factor_type: State
+  factor_label: Past Resurgence
+  factor_id: state_sun_4h_past
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: Active
+  engine_id: astro_semantic
+  notes: Memory activation
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960472'
+- factor_type: Relational
+  factor_label: 4H-10H Axis
+  factor_id: axis_4_10
+  factor_source: existing
+  role_position: Pattern
+  value_constraint: Polarity
+  engine_id: astro_calculator
+  notes: Private/public
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960477'
+- factor_type: Structure
+  factor_label: Fifth House
+  factor_id: house_5
+  factor_source: existing
+  role_position: House
+  value_constraint: Leo's house
+  engine_id: astro_calculator
+  notes: Creativity
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960489'
+- factor_type: State
+  factor_label: Maximum Joy
+  factor_id: state_sun_5h_joy
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: High
+  engine_id: astro_semantic
+  notes: Sun's home
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960493'
+- factor_type: State
+  factor_label: Free Expression
+  factor_id: state_sun_5h_expression
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: Uninhibited
+  engine_id: astro_semantic
+  notes: Authentic
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960499'
+- factor_type: Boundary
+  factor_label: Obligation Balance
+  factor_id: boundary_joy_duty
+  factor_source: new_candidate
+  role_position: Threshold
+  value_constraint: Variable
+  engine_id: astro_rule_engine
+  notes: May resist
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960503'
+- factor_type: Structure
+  factor_label: Sixth House
+  factor_id: house_6
+  factor_source: existing
+  role_position: House
+  value_constraint: Virgo's house
+  engine_id: astro_calculator
+  notes: Service
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960517'
+- factor_type: State
+  factor_label: Efficiency Focus
+  factor_id: state_sun_6h_efficiency
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: High
+  engine_id: astro_semantic
+  notes: Refinement
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960521'
+- factor_type: State
+  factor_label: Ego Test
+  factor_id: state_sun_6h_ego_test
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: Active
+  engine_id: astro_semantic
+  notes: Subordination
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960525'
+- factor_type: State
+  factor_label: Health Awareness
+  factor_id: state_sun_6h_health
+  factor_source: new_candidate
+  role_position: Effect
+  value_constraint: Increased
+  engine_id: astro_semantic
+  notes: Body focus
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.960529'
+- factor_type: Functional
+  factor_label: Transit Mechanism
+  factor_id: astro_transit_mechanism
+  factor_source: new_candidate
+  role_position: Activation System
+  value_constraint: Moving → Natal aspect
+  engine_id: astro_semantic
+  notes: Core predictive function
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965186'
+- factor_type: Temporal
+  factor_label: Timing Principle
+  factor_id: astro_timing_principle
+  factor_source: new_candidate
+  role_position: When Function
+  value_constraint: Shows manifestation periods
+  engine_id: astro_semantic
+  notes: Dynamic vs natal static
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965194'
+- factor_type: Relational
+  factor_label: Transit-to-Natal
+  factor_id: astro_transit_to_natal
+  factor_source: new_candidate
+  role_position: Personal Activation
+  value_constraint: Individual experience
+  engine_id: astro_semantic
+  notes: Vs transit-to-transit
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965199'
+- factor_type: Relational
+  factor_label: Transit-to-Transit
+  factor_id: astro_transit_to_transit
+  factor_source: new_candidate
+  role_position: Collective Atmosphere
+  value_constraint: Generation-wide influence
+  engine_id: astro_semantic
+  notes: Cosmic weather
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965203'
+- factor_type: Philosophical
+  factor_label: Original Intentions
+  factor_id: astro_original_intentions
+  factor_source: new_candidate
+  role_position: Intention Source
+  value_constraint: Pre-birth/childhood
+  engine_id: astro_semantic
+  notes: Soul curriculum
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965272'
+- factor_type: Functional
+  factor_label: Character-Destiny Link
+  factor_id: astro_character_destiny
+  factor_source: new_candidate
+  role_position: Causation Model
+  value_constraint: Character → circumstances
+  engine_id: astro_semantic
+  notes: Empowerment shift
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965278'
+- factor_type: Process
+  factor_label: Consciousness-Raising
+  factor_id: astro_consciousness_raising
+  factor_source: new_candidate
+  role_position: Awareness Function
+  value_constraint: Recognize own patterns
+  engine_id: astro_semantic
+  notes: Responsibility return
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965282'
+- factor_type: Relation ID
+  factor_label: Relation Type
+  factor_id: temp_67901352
+  factor_source: Factor B
+  role_position: Relation Nature
+  value_constraint: Condition Constraint
+  engine_id: Effect Direction
+  notes: source_ref
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965297'
+- factor_type: rel_pit_003
+  factor_label: cross_system
+  factor_id: astro_original_intentions
+  factor_source: eastern_yuanfen
+  role_position: East-West parallel
+  value_constraint: Soul intention
+  engine_id: resonating
+  notes: Hand Ch2
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965303'
+- factor_type: rel_pit_004
+  factor_label: psych_archetype_relation
+  factor_id: astro_character_destiny
+  factor_source: psych_self_actualization
+  role_position: Psychology parallel
+  value_constraint: Self-actualization
+  engine_id: defining
+  notes: Hand Ch2
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965307'
+- factor_type: Evidence ID
+  factor_label: Source Anchor
+  factor_id: temp_a6699e6e
+  factor_source: Reasoning Step
+  role_position: Conclusion Direction
+  value_constraint: Confidence
+  engine_id: Can Generate Rule
+  notes: Target Rule ID
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965312'
+- factor_type: evi_pit_003
+  factor_label: '"Character is destiny"'
+  factor_id: astro_character_destiny
+  factor_source: Character forms → Intentions set → Transits manifest
+  role_position: Character creates destiny
+  value_constraint: High
+  engine_id: ✅
+  notes: rule_character_destiny
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965318'
+- factor_type: evi_pit_004
+  factor_label: '"Consciousness-raising"'
+  factor_id: astro_consciousness_raising
+  factor_source: Recognition → Responsibility → Empowerment
+  role_position: Consciousness shift
+  value_constraint: High
+  engine_id: ✅
+  notes: rule_consciousness_raising
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965322'
+- factor_type: Concept ID
+  factor_label: Common Semantics
+  factor_id: temp_61e59a40
+  factor_source: Astrology Correspondence
+  role_position: Dream Correspondence
+  value_constraint: Psychology Correspondence
+  engine_id: Notes
+  notes: ''
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965328'
+- factor_type: concept_original_intentions
+  factor_label: Soul's pre-birth curriculum
+  factor_id: temp_5afa28f5
+  factor_source: Original intentions
+  role_position: soul_journey_dream
+  value_constraint: Jungian Self intention
+  engine_id: Deeper purpose
+  notes: ''
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965337'
+- factor_type: concept_character_destiny
+  factor_label: Character creates circumstances
+  factor_id: temp_09a55335
+  factor_source: Character-destiny link
+  role_position: self_creation_dream
+  value_constraint: Self-actualization
+  engine_id: Empowerment model
+  notes: ''
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965343'
+- factor_type: English Term
+  factor_label: Chinese Term
+  factor_id: temp_64097f95
+  factor_source: Chinese Definition
+  role_position: factor_id
+  value_constraint: status
+  engine_id: ''
+  notes: ''
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965349'
+- factor_type: Psychological Orientation
+  factor_label: 心理取向
+  factor_id: temp_c5c43f0d
+  factor_source: 关注内在成长而非外部事件
+  role_position: astro_psychological_orientation
+  value_constraint: new_candidate
+  engine_id: ''
+  notes: ''
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965355'
+- factor_type: Growth Invitation
+  factor_label: 成长邀请
+  factor_id: temp_61c18580
+  factor_source: 行运作为发展机会
+  role_position: astro_growth_invitation
+  value_constraint: new_candidate
+  engine_id: ''
+  notes: ''
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965360'
+- factor_type: Active Participation
+  factor_label: 主动参与
+  factor_id: temp_2a4aa76c
+  factor_source: 有意识地与行运能量互动
+  role_position: astro_active_participation
+  value_constraint: new_candidate
+  engine_id: ''
+  notes: ''
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965365'
+- factor_type: Developmental Opportunity
+  factor_label: 发展机会
+  factor_id: temp_04435868
+  factor_source: 困难行运作为成熟支持
+  role_position: astro_developmental_opportunity
+  value_constraint: new_candidate
+  engine_id: ''
+  notes: ''
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965370'
+- factor_type: Paradigm
+  factor_label: Psychological Orientation
+  factor_id: astro_psychological_orientation
+  factor_source: new_candidate
+  role_position: Interpretive Framework
+  value_constraint: Growth vs events
+  engine_id: astro_semantic
+  notes: Modern approach
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965376'
+- factor_type: Functional
+  factor_label: Growth Invitation
+  factor_id: astro_growth_invitation
+  factor_source: new_candidate
+  role_position: Transit Function
+  value_constraint: Opportunity not threat
+  engine_id: astro_semantic
+  notes: Reframes difficulty
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965381'
+- factor_type: Process
+  factor_label: Active Participation
+  factor_id: astro_active_participation
+  factor_source: new_candidate
+  role_position: Engagement Mode
+  value_constraint: Conscious cooperation
+  engine_id: astro_semantic
+  notes: Empowerment shift
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965386'
+- factor_type: Technical
+  factor_label: Orb Range
+  factor_id: astro_orb_range
+  factor_source: new_candidate
+  role_position: Boundary Parameter
+  value_constraint: 1-3° outer, wider inner
+  engine_id: astro_calculator
+  notes: Defines effective period
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965403'
+- factor_type: Temporal
+  factor_label: Transit Duration
+  factor_id: astro_transit_duration
+  factor_source: new_candidate
+  role_position: Time Window
+  value_constraint: Approach-exact-departure
+  engine_id: astro_calculator
+  notes: Months of influence
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965407'
+- factor_type: Functional
+  factor_label: Intensity Mapping
+  factor_id: astro_intensity_mapping
+  factor_source: new_candidate
+  role_position: Pressure Curve
+  value_constraint: Building → peak → fading
+  engine_id: astro_semantic
+  notes: Three-phase structure
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965411'
+- factor_type: Temporal
+  factor_label: Station Point
+  factor_id: astro_station_point
+  factor_source: new_candidate
+  role_position: Peak Moment
+  value_constraint: Retrograde turning point
+  engine_id: astro_calculator
+  notes: Maximum intensity
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965423'
+- factor_type: Functional
+  factor_label: Crisis Catalyst
+  factor_id: astro_crisis_moment
+  factor_source: new_candidate
+  role_position: Activation Function
+  value_constraint: Breakthrough/breakdown
+  engine_id: astro_semantic
+  notes: Turning point trigger
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965427'
+- factor_type: Cyclical
+  factor_label: Retrograde Pattern
+  factor_id: astro_retrograde_cycle
+  factor_source: new_candidate
+  role_position: Cycle Structure
+  value_constraint: Three-pass integration
+  engine_id: astro_semantic
+  notes: Deepening through repetition
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965431'
+- factor_type: Cyclical
+  factor_label: Retrograde Motion
+  factor_id: astro_retrograde_motion
+  factor_source: new_candidate
+  role_position: Cycle Pattern
+  value_constraint: Backward movement
+  engine_id: astro_calculator
+  notes: Three-pass structure
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965444'
+- factor_type: Functional
+  factor_label: Triple-Pass Pattern
+  factor_id: astro_triple_pass_pattern
+  factor_source: new_candidate
+  role_position: Repetition Mechanism
+  value_constraint: Forward-retrograde-forward
+  engine_id: astro_semantic
+  notes: Deepens integration
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965449'
+- factor_type: Process
+  factor_label: Deeper Integration
+  factor_id: astro_deeper_integration
+  factor_source: new_candidate
+  role_position: Integration Function
+  value_constraint: Cyclical review
+  engine_id: astro_semantic
+  notes: Prevents superficial resolution
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965453'
+- factor_type: Structural
+  factor_label: Multiple Pass Pattern
+  factor_id: astro_multiple_pass_pattern
+  factor_source: new_candidate
+  role_position: Cycle Structure
+  value_constraint: Three phases
+  engine_id: astro_semantic
+  notes: Progressive deepening
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965466'
+- factor_type: Temporal
+  factor_label: Gradual Adjustment
+  factor_id: astro_gradual_adjustment
+  factor_source: new_candidate
+  role_position: Time Frame
+  value_constraint: 6–12+ months
+  engine_id: astro_calculator
+  notes: Respects integration
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965470'
+- factor_type: Process
+  factor_label: Integration Rhythm
+  factor_id: astro_integration_rhythm
+  factor_source: new_candidate
+  role_position: Pacing Function
+  value_constraint: Phased work
+  engine_id: astro_semantic
+  notes: Psychological respect
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965474'
+- factor_type: Scope
+  factor_label: Personal vs Collective
+  factor_id: astro_personal_vs_collective
+  factor_source: new_candidate
+  role_position: Interpretive Frame
+  value_constraint: Scope distinction
+  engine_id: astro_semantic
+  notes: Clarifies focus
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965493'
+- factor_type: Foundational
+  factor_label: Natal Aspect
+  factor_id: astro_natal_aspect
+  factor_source: new_candidate
+  role_position: Permanent Filter
+  value_constraint: Baseline pattern
+  engine_id: astro_semantic
+  notes: Interpretive lens
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965504'
+- factor_type: Principle
+  factor_label: Natal Context Principle
+  factor_id: astro_natal_context_principle
+  factor_source: new_candidate
+  role_position: Interpretive Framework
+  value_constraint: Filters all transits
+  engine_id: astro_semantic
+  notes: Core principle
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965509'
+- factor_type: Functional
+  factor_label: Interpretive Lens
+  factor_id: astro_interpretive_lens
+  factor_source: new_candidate
+  role_position: Meaning Filter
+  value_constraint: Modifies transit meaning
+  engine_id: astro_semantic
+  notes: Context shapes meaning
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965512'
+- factor_type: Temporal
+  factor_label: Saturn Cycle
+  factor_id: astro_saturn_cycle
+  factor_source: new_candidate
+  role_position: Maturation Timeline
+  value_constraint: 29.5 years
+  engine_id: astro_calculator
+  notes: Fundamental cycle
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965524'
+- factor_type: Structural
+  factor_label: Four Quarters
+  factor_id: astro_four_quarters
+  factor_source: new_candidate
+  role_position: Developmental Phases
+  value_constraint: 7-year stages
+  engine_id: astro_semantic
+  notes: Crisis-Action-Establishment-Transition
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965528'
+- factor_type: Milestone
+  factor_label: Saturn Return
+  factor_id: astro_saturn_return
+  factor_source: new_candidate
+  role_position: Reality Testing Point
+  value_constraint: Ages 29-30, 58-60
+  engine_id: astro_calculator
+  notes: Major restructuring
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965532'
+- factor_type: Functional
+  factor_label: Reality Testing
+  factor_id: astro_reality_testing
+  factor_source: new_candidate
+  role_position: Confrontation Function
+  value_constraint: Illusion vs authentic
+  engine_id: astro_semantic
+  notes: Demands foundation
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965537'
+- factor_type: Temporal
+  factor_label: First Return
+  factor_id: astro_first_return
+  factor_source: new_candidate
+  role_position: Youth Ending
+  value_constraint: Ages 29-30
+  engine_id: astro_calculator
+  notes: Adult responsibility
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965554'
+- factor_type: Temporal
+  factor_label: Second Return
+  factor_id: astro_second_return
+  factor_source: new_candidate
+  role_position: Legacy Point
+  value_constraint: Ages 58-60
+  engine_id: astro_calculator
+  notes: Elder wisdom
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965559'
+- factor_type: Developmental
+  factor_label: Crisis Quarter
+  factor_id: astro_crisis_quarter
+  factor_source: new_candidate
+  role_position: First Phase
+  value_constraint: Ages 0-7.4
+  engine_id: astro_semantic
+  notes: Limitation introduction
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965581'
+- factor_type: Developmental
+  factor_label: Action Quarter
+  factor_id: astro_action_quarter
+  factor_source: new_candidate
+  role_position: Second Phase
+  value_constraint: Ages 7.4-14.8
+  engine_id: astro_semantic
+  notes: Competence building
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965585'
+- factor_type: Developmental
+  factor_label: Establishment Quarter
+  factor_id: astro_establishment_quarter
+  factor_source: new_candidate
+  role_position: Third Phase
+  value_constraint: Ages 14.8-22.2
+  engine_id: astro_semantic
+  notes: Achievement consolidation
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965590'
+- factor_type: Developmental
+  factor_label: Transition Quarter
+  factor_id: astro_transition_quarter
+  factor_source: new_candidate
+  role_position: Fourth Phase
+  value_constraint: Ages 22.2-29.5
+  engine_id: astro_semantic
+  notes: Renewal preparation
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965594'
+- factor_type: Temporal
+  factor_label: Jupiter Cycle
+  factor_id: astro_jupiter_cycle
+  factor_source: new_candidate
+  role_position: Expansion Timeline
+  value_constraint: 12 years
+  engine_id: astro_calculator
+  notes: Growth cycle
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965609'
+- factor_type: Functional
+  factor_label: Expansion Phase
+  factor_id: astro_expansion_phase
+  factor_source: new_candidate
+  role_position: Growth Function
+  value_constraint: New ventures
+  engine_id: astro_semantic
+  notes: Opportunity creation
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965614'
+- factor_type: Functional
+  factor_label: Consolidation Phase
+  factor_id: astro_consolidation_phase
+  factor_source: new_candidate
+  role_position: Integration Function
+  value_constraint: Stabilizing gains
+  engine_id: astro_semantic
+  notes: Integration support
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965618'
+- factor_type: Temporal
+  factor_label: Opportunity Windows
+  factor_id: astro_opportunity_windows
+  factor_source: new_candidate
+  role_position: Fortune Timing
+  value_constraint: Ages 12,24,36,48,60,72
+  engine_id: astro_calculator
+  notes: Natural growth times
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965623'
+- factor_type: Milestone
+  factor_label: Jupiter Return
+  factor_id: astro_jupiter_return
+  factor_source: new_candidate
+  role_position: Cycle Completion
+  value_constraint: 12-year return
+  engine_id: astro_calculator
+  notes: New growth phase
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965635'
+- factor_type: Temporal
+  factor_label: Opportunity Initiation
+  factor_id: astro_opportunity_initiation
+  factor_source: new_candidate
+  role_position: Phase Beginning
+  value_constraint: New cycle start
+  engine_id: astro_semantic
+  notes: Fortune window
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965640'
+- factor_type: Temporal
+  factor_label: Predictable Ages
+  factor_id: astro_predictable_ages
+  factor_source: new_candidate
+  role_position: Fortune Timing
+  value_constraint: 12,24,36,48,60,72
+  engine_id: astro_calculator
+  notes: Opportunity markers
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965644'
+- factor_type: Functional
+  factor_label: Growth Phase
+  factor_id: astro_growth_phase
+  factor_source: new_candidate
+  role_position: Expansion Function
+  value_constraint: New opportunities
+  engine_id: astro_semantic
+  notes: Expansion support
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965648'
+- factor_type: Temporal
+  factor_label: Uranus Cycle
+  factor_id: astro_uranus_cycle
+  factor_source: new_candidate
+  role_position: Liberation Timeline
+  value_constraint: 84 years
+  engine_id: astro_calculator
+  notes: Individuation cycle
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965660'
+- factor_type: Functional
+  factor_label: Liberation Principle
+  factor_id: astro_liberation_principle
+  factor_source: new_candidate
+  role_position: Change Function
+  value_constraint: Revolutionary disruption
+  engine_id: astro_semantic
+  notes: Freedom support
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965664'
+- factor_type: Milestone
+  factor_label: Uranus Opposition
+  factor_id: astro_uranus_opposition
+  factor_source: new_candidate
+  role_position: Awakening Point
+  value_constraint: Age ~42
+  engine_id: astro_calculator
+  notes: Mid-life crisis
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965668'
+- factor_type: Process
+  factor_label: Authenticity Breakthrough
+  factor_id: astro_authenticity_breakthrough
+  factor_source: new_candidate
+  role_position: Liberation Function
+  value_constraint: Breaking free
+  engine_id: astro_semantic
+  notes: Authentic expression
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965672'
+- factor_type: Process
+  factor_label: Individuation Process
+  factor_id: astro_individuation_process
+  factor_source: new_candidate
+  role_position: Self-becoming
+  value_constraint: True self emergence
+  engine_id: astro_semantic
+  notes: Jungian individuation
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.965676'

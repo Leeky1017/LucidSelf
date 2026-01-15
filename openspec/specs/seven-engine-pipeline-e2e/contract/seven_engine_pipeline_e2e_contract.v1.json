@@ -1,0 +1,78 @@
+{
+  "contract_id": "seven-engine-pipeline-e2e",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["engine_id", "version_id", "corpus_release_id"],
+  "entities": [
+    {
+      "name": "StageContract",
+      "description": "阶段契约（最小字段集合）",
+      "fields": [
+        { "name": "stage_id", "type": "string", "required": true, "notes": "阶段标识（唯一）" },
+        { "name": "stage_name", "type": "string", "required": true, "notes": "阶段名称（口径固定）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识（可复现）" },
+        { "name": "input_schema_version", "type": "string", "required": true, "notes": "输入 schema 版本" },
+        { "name": "output_schema_version", "type": "string", "required": true, "notes": "输出 schema 版本" },
+        { "name": "required_inputs", "type": "array<object>", "required": true, "notes": "必需输入字段集合（结构化）" },
+        { "name": "required_outputs", "type": "array<object>", "required": true, "notes": "必需输出字段集合（结构化）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "HandoffValidationRecord",
+      "description": "交接校验记录（最小字段集合）",
+      "fields": [
+        { "name": "handoff_id", "type": "string", "required": true, "notes": "交接记录标识（唯一）" },
+        { "name": "run_id", "type": "string", "required": true, "notes": "E2E 执行标识" },
+        { "name": "from_stage_id", "type": "string", "required": true, "notes": "上游阶段标识" },
+        { "name": "to_stage_id", "type": "string", "required": true, "notes": "下游阶段标识" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布标识" },
+        { "name": "user_id", "type": "string", "required": false, "notes": "用户标识（若适用）" },
+        { "name": "result", "type": "string", "required": true, "notes": "PASS/BLOCK/ERROR" },
+        { "name": "rejection_reason_code", "type": "string", "required": false, "notes": "拒绝/阻断原因代码（见 rejection_reasons）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "E2ETraceLink",
+      "description": "E2E Trace 关联（最小字段集合）",
+      "fields": [
+        { "name": "trace_id", "type": "string", "required": true, "notes": "Trace 标识（唯一/可定位）" },
+        { "name": "run_id", "type": "string", "required": true, "notes": "E2E 执行标识" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布标识" },
+        { "name": "stage_spans", "type": "array<object>", "required": false, "notes": "阶段 span 元数据（若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "FailureRecoveryRecord",
+      "description": "失败恢复记录（最小字段集合）",
+      "fields": [
+        { "name": "recovery_id", "type": "string", "required": true, "notes": "恢复记录标识（唯一）" },
+        { "name": "run_id", "type": "string", "required": true, "notes": "E2E 执行标识" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布标识" },
+        { "name": "failed_stage_id", "type": "string", "required": true, "notes": "失败阶段标识" },
+        { "name": "action", "type": "string", "required": true, "notes": "恢复动作（RETRY/ROLLBACK/DEGRADE/ABORT 等口径固定）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_ENGINE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_CORPUS_RELEASE_ID", "category": "client_error", "retryable": false },
+    { "code": "OUTPUT_SCHEMA_INVALID", "category": "validation", "retryable": false },
+    { "code": "CITATION_NOT_RESOLVABLE", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

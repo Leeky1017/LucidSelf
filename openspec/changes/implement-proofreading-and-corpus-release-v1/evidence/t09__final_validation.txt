@@ -1,0 +1,53 @@
+SECTION openspec_validate_change
+Change 'implement-proofreading-and-corpus-release-v1' is valid
+
+SECTION openspec_validate_specs
+✓ spec/abuse-and-rate-limits
+✓ spec/billing-and-entitlements
+✓ spec/bootability-and-regression-baseline
+✓ spec/citations-evidence-protocol
+✓ spec/commercial-readiness-gates
+✓ spec/corpus-governance
+✓ spec/corpus-release-pipeline
+✓ spec/cross-book-consistency-conflicts
+✓ spec/deployment-release
+✓ spec/engine-id-governance
+✓ spec/fusion-engine-explainability
+✓ spec/geocoding-first-class
+✓ spec/golden-sets-and-regression
+✓ spec/identity-and-data-isolation
+✓ spec/knowledge-graph-runtime-semanticquery
+✓ spec/llm-narrative-layer
+✓ spec/observability-slos
+✓ spec/playbook-and-action-loop
+✓ spec/production-defaults-no-mock
+✓ spec/proofreading-workflow-qa
+✓ spec/security-privacy-compliance
+✓ spec/semantic-extraction-quality-gates
+✓ spec/semantic-layer-core
+✓ spec/seven-engine-pipeline-e2e
+✓ spec/text-normalization-alignment
+✓ spec/versioning-and-deviation-detection
+Totals: 26 passed, 0 failed (26 items)
+
+SECTION gate2_run_skip_openspec
+$ bash scripts/gates/asset_gate_corpus.sh --skip-openspec
+$ .venv/bin/python scripts/corpus_governance/generate_manifest.py --input data/governance/corpus_manifest.v1.yaml --output artifacts/corpus_governance/corpus_manifest.compiled.json
+artifacts/corpus_governance/corpus_manifest.compiled.json
+$ .venv/bin/python scripts/corpus_governance/validate_manifest.py artifacts/corpus_governance/corpus_manifest.compiled.json --strict
+OK
+$ .venv/bin/python scripts/text_normalization_alignment/run_pipeline.py --output-dir artifacts/text_normalization_alignment
+artifacts/text_normalization_alignment
+$ bash scripts/gates/gate1_cross_book_conflicts_and_quality.sh --skip-openspec
+$ .venv/bin/python scripts/cross_book_consistency_conflicts/run_conflict_gate.py --output-dir artifacts/cross_book_conflicts
+OK: artifacts/cross_book_conflicts/conflict_report.json
+$ .venv/bin/python scripts/semantic_extraction_quality_gates/run_quality_gate.py --output-dir artifacts/semantic_extraction_quality --parallel 1
+OK: artifacts/semantic_extraction_quality/quality_report.json
+$ .venv/bin/python scripts/proofreading_qa/run_workflow.py run --policy data/proofreading_qa/qa_policy.v1.yaml --output-dir artifacts/proofreading_qa
+OK: artifacts/proofreading_qa/qa_report.json
+$ .venv/bin/python scripts/corpus_release_pipeline/release.py publish --artifact-root artifacts --release-root artifacts/corpus_releases --force
+artifacts/corpus_releases/cr_b23a6a8439c0
+$ .venv/bin/python scripts/corpus_release_pipeline/release.py validate --release-root artifacts/corpus_releases --corpus-release-id cr_b23a6a8439c0
+OK
+$ .venv/bin/python scripts/corpus_release_pipeline/release.py rollback --release-root artifacts/corpus_releases --to cr_b23a6a8439c0 --reason gate2_smoke_rollback
+OK

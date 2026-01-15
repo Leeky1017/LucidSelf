@@ -1,0 +1,2138 @@
+book_id: tetrabiblos
+source_file: 典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_II_v2.1.md, 典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_IV_v2.1.md,
+  典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_I_v2.1.md, 典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_III_v2.1.md
+extracted_at: '2025-12-04T19:08:29.418232'
+snippets:
+- snippet_id: ns_tetra_ii001
+  trigger: mundane_natal_division
+  factor_trigger: astro_mundane_astrology AND mundane_astrology AND natal_astrology
+  role: 主干
+  snippet_text: Astrology divides into Universal (nations/cities) and Particular (individuals);
+    general takes precedence over particular.
+  source_ref: Source Text II.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373577'
+- snippet_id: ns_tetra_ii015
+  trigger: general_precedence
+  factor_trigger: astro_mundane AND astro_hierarchy AND general_precedence
+  role: 条件分支
+  snippet_text: General causes are greater and more compulsory than particular—extended
+    potencies control limited ones.
+  source_ref: Precedence
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373592'
+- snippet_id: ns_tetra_ii016
+  trigger: mundane_scope
+  factor_trigger: astro_mundane AND astro_collective
+  role: 条件分支
+  snippet_text: Mundane concerns wars, pestilence, famine, earthquakes affecting entire
+    countries or seasonal weather affecting cities.
+  source_ref: Scope
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373601'
+- snippet_id: ns_tetra_ii002
+  trigger: climatic_astrology
+  factor_trigger: astro_geographic_latitude
+  role: 主干
+  snippet_text: National peculiarities derive from latitude—southern peoples are hot-tempered,
+    northern cold-natured, temperate zones civilized.
+  source_ref: Source Text II.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373614'
+- snippet_id: ns_tetra_ii017
+  trigger: solar_lunar_quarter
+  factor_trigger: astro_quarter AND astro_sun_moon
+  role: 条件分支
+  snippet_text: Eastern peoples are more courageous (Sun's nature); western peoples
+    milder, more feminine (Moon's nature).
+  source_ref: Quarter
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373621'
+- snippet_id: ns_tetra_ii018
+  trigger: temperate_zone
+  factor_trigger: astro_climate AND astro_civilization
+  role: 条件分支
+  snippet_text: Nations in temperate zones enjoy well-balanced atmosphere—proportionate
+    stature, civilized habits, good disposition.
+  source_ref: Balance
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373628'
+- snippet_id: ns_tetra_ii_nt01
+  trigger: national_temperament
+  factor_trigger: national_temperament
+  role: 主干
+  snippet_text: 'National temperament varies by latitude: southern peoples hot-tempered
+    and fierce, northern peoples cold and wild, temperate zones civilized and balanced.'
+  source_ref: Source Text II.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373635'
+- snippet_id: ns_tetra_ii003
+  trigger: regional_triplicities
+  factor_trigger: astro_triplicity_region
+  role: 主干
+  snippet_text: World regions are assigned to triplicities—their characteristics derive
+    from ruling planets.
+  source_ref: Source Text II.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373646'
+- snippet_id: ns_tetra_ii004
+  trigger: europe_fire
+  factor_trigger: astro_triplicity_fire AND astro_region_europe
+  role: 条件分支
+  snippet_text: 'Europe belongs to Fire triplicity (Jupiter/Mars): inhabitants are
+    warlike, lovers of freedom, imperious.'
+  source_ref: Source Text II.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373653'
+- snippet_id: ns_tetra_ii_010
+  trigger: fixed_star_region
+  factor_trigger: astro_fixed_star AND astro_region
+  role: 主干
+  snippet_text: Fixed stars on zodiacal pole lines share familiarity with connected
+    regions.
+  source_ref: Source Text II.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373663'
+- snippet_id: ns_tetra_ii_srl
+  trigger: star_region_line
+  factor_trigger: star_region_line
+  role: 条件分支
+  snippet_text: A line from zodiacal pole through a region's zodiacal degree connects
+    fixed stars to that region's fate.
+  source_ref: Source Text II.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373669'
+- snippet_id: ns_tetra_ii_rf
+  trigger: region_fate
+  factor_trigger: region_fate
+  role: 主干
+  snippet_text: Region's fate is determined by familiarity with zodiacal degrees,
+    fixed stars, and eclipse positions.
+  source_ref: Source Text II.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373676'
+- snippet_id: ns_tetra_ii005
+  trigger: eclipse_methodology
+  factor_trigger: astro_eclipse_solar OR astro_eclipse_lunar
+  role: 主干
+  snippet_text: 'Eclipse timing: solar effects in years, lunar in months; duration
+    equals eclipse hours.'
+  source_ref: Source Text II.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373685'
+- snippet_id: ns_tetra_ii019
+  trigger: solar_eclipse_timing
+  factor_trigger: astro_eclipse_solar AND astro_timing
+  role: 条件分支
+  snippet_text: Solar eclipse effects begin as many years before as the eclipse happens
+    hours after the Sun has risen.
+  source_ref: Solar Rule
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373692'
+- snippet_id: ns_tetra_ii020
+  trigger: eclipse_region
+  factor_trigger: astro_eclipse AND astro_region
+  role: 条件分支
+  snippet_text: First determine which countries have familiarity with the eclipse
+    zodiacal degree—those regions will be affected.
+  source_ref: Region
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373698'
+- snippet_id: ns_tetra_ii_ed
+  trigger: effect_duration
+  factor_trigger: effect_duration
+  role: 主干
+  snippet_text: 'Effect duration equals eclipse duration in equinoctial hours: solar
+    eclipse hours = years, lunar eclipse hours = months.'
+  source_ref: Source Text II.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373704'
+- snippet_id: ns_tetra_ii006
+  trigger: eclipse_regions
+  factor_trigger: astro_eclipse_affected_region
+  role: 条件分支
+  snippet_text: Regions affected by eclipse are those in familiarity with the eclipse
+    sign through dignities.
+  source_ref: Source Text II.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373714'
+- snippet_id: ns_tetra_ii_zf
+  trigger: zodiacal_familiarity
+  factor_trigger: zodiacal_familiarity
+  role: 条件分支
+  snippet_text: 'Zodiacal familiarity connects regions to eclipse through dignities:
+    domicile, exaltation, triplicity, or terms rulership.'
+  source_ref: Source Text II.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373720'
+- snippet_id: ns_tetra_ii_er
+  trigger: eclipse_region
+  factor_trigger: eclipse_region
+  role: 主干
+  snippet_text: Eclipse region is determined by zodiacal familiarity—the closer the
+    dignity connection, the more intense the effect.
+  source_ref: Source Text II.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373726'
+- snippet_id: ns_tetra_ii_011
+  trigger: eclipse_timing
+  factor_trigger: astro_eclipse_duration
+  role: 主干
+  snippet_text: Eclipse duration in hours equals years (solar) or months (lunar) of
+    effect.
+  source_ref: Source Text II.7
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373736'
+- snippet_id: ns_tetra_ii_024
+  trigger: angular_commencement
+  factor_trigger: astro_eclipse AND astro_angle
+  role: 条件分支
+  snippet_text: Eclipse near ASC = effects begin in first 4 months; near MC = second
+    4 months; near DESC = last 4 months.
+  source_ref: Commencement
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373742'
+- snippet_id: ns_tetra_ii_025
+  trigger: transit_intensification
+  factor_trigger: astro_transit AND astro_eclipse_degree
+  role: 条件分支
+  snippet_text: Planetary transits to the eclipse degree intensify or modify the predicted
+    effects.
+  source_ref: Intensification
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373748'
+- snippet_id: ns_tetra_ii_012
+  trigger: genus_affected
+  factor_trigger: astro_sign_shape
+  role: 主干
+  snippet_text: Sign shape (human, quadrupedal, marine) determines the genus affected
+    by eclipse.
+  source_ref: Source Text II.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373757'
+- snippet_id: ns_tetra_ii_026
+  trigger: human_signs
+  factor_trigger: astro_sign_human AND astro_eclipse
+  role: 条件分支
+  snippet_text: Human-shaped signs (Gemini, Virgo, Aquarius) indicate effects will
+    fall upon the human race.
+  source_ref: Humans
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373764'
+- snippet_id: ns_tetra_ii_027
+  trigger: terrestrial_signs
+  factor_trigger: astro_sign_terrestrial AND astro_eclipse
+  role: 条件分支
+  snippet_text: Tropical signs = atmospheric changes; Northern signs = earthquakes;
+    Southern signs = floods.
+  source_ref: Elements
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373770'
+- snippet_id: ns_tetra_ii_ga
+  trigger: genus_affected
+  factor_trigger: genus_affected
+  role: 主干
+  snippet_text: 'Genus affected by eclipse: human-shaped signs affect humans, quadrupedal
+    signs affect cattle, marine signs affect sea creatures.'
+  source_ref: Source Text II.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373776'
+- snippet_id: ns_tetra_ii007
+  trigger: eclipse_effect_nature
+  factor_trigger: astro_planet_eclipse_ruler
+  role: 主干
+  snippet_text: 'Eclipse effects depend on ruling planet: Saturn=destruction, Jupiter=prosperity,
+    Mars=war, Venus=fertility, Mercury=sedition.'
+  source_ref: Source Text II.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373785'
+- snippet_id: ns_tetra_ii021
+  trigger: saturn_mundane
+  factor_trigger: astro_saturn AND astro_mundane
+  role: 条件分支
+  snippet_text: Saturn causes destruction by cold, long illnesses, consumption, decay,
+    poverty, and exile.
+  source_ref: Saturn
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373790'
+- snippet_id: ns_tetra_ii022
+  trigger: mars_mundane
+  factor_trigger: astro_mars AND astro_mundane
+  role: 条件分支
+  snippet_text: Mars causes wars, seditions, drought, fevers, sudden deaths, and murders.
+  source_ref: Mars
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373795'
+- snippet_id: ns_tetra_ii_sm
+  trigger: saturn_mundane
+  factor_trigger: saturn_mundane
+  role: 条件分支
+  snippet_text: 'Saturn mundane effects: destruction by cold, long illnesses, consumption,
+    decay, poverty, exile, and death of the elderly.'
+  source_ref: Source Text II.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373801'
+- snippet_id: ns_tetra_ii_ee
+  trigger: eclipse_effect
+  factor_trigger: eclipse_effect
+  role: 主干
+  snippet_text: 'Eclipse effect nature determined by ruling planet: Saturn=destruction,
+    Jupiter=prosperity, Mars=war, Venus=fertility, Mercury=sedition.'
+  source_ref: Source Text II.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373807'
+- snippet_id: ns_tetra_ii_013
+  trigger: eclipse_colour
+  factor_trigger: astro_eclipse_colour
+  role: 主干
+  snippet_text: 'Eclipse colours indicate planetary nature: black=Saturn, white=Jupiter,
+    red=Mars.'
+  source_ref: Source Text II.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373816'
+- snippet_id: ns_tetra_ii008
+  trigger: aries_ingress
+  factor_trigger: astro_sun_ingress_aries
+  role: 主干
+  snippet_text: The new moon preceding Sun's Aries entry indicates the year's general
+    atmospheric constitution.
+  source_ref: Source Text II.11
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373824'
+- snippet_id: ns_tetra_ii_014
+  trigger: sign_weather
+  factor_trigger: astro_sign_weather_quality
+  role: 主干
+  snippet_text: Each sign has weather-producing qualities—Aries brings thunder and
+    hail, Leo is hot and stifling.
+  source_ref: Source Text II.12
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373833'
+- snippet_id: ns_tetra_ii_we
+  trigger: weather_effect
+  factor_trigger: weather_effect
+  role: 主干
+  snippet_text: 'Weather effect produced by Moon''s sign position: thunder, hail,
+    rain, heat, storms, or temperate conditions according to sign''s nature.'
+  source_ref: Source Text II.12
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373839'
+- snippet_id: ns_tetra_ii009
+  trigger: monthly_weather
+  factor_trigger: astro_lunation_monthly
+  role: 条件分支
+  snippet_text: Monthly atmospheric constitutions predicted from each new and full
+    moon—angular planets and aspects examined.
+  source_ref: Source Text II.13
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373848'
+- snippet_id: ns_tetra_ii_mw
+  trigger: monthly_weather
+  factor_trigger: monthly_weather
+  role: 主干
+  snippet_text: 'Monthly weather pattern determined by lunation: angular planets,
+    aspects to Moon, sign quality, and fixed stars at new/full moon.'
+  source_ref: Source Text II.13
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373854'
+- snippet_id: ns_tetra_ii010
+  trigger: meteors_comets
+  factor_trigger: astro_comet_mundane
+  role: 条件分支
+  snippet_text: Comets indicate wars, drought, and mortality; their nature depends
+    on color and appearing sign.
+  source_ref: Source Text II.14
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373862'
+- snippet_id: ns_tetra_ii_me
+  trigger: mundane_event
+  factor_trigger: mundane_event
+  role: 主干
+  snippet_text: 'Mundane events indicated by comets and meteors: wars, drought, mortality,
+    winds—supplementing eclipse predictions.'
+  source_ref: Source Text II.14
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373868'
+- snippet_id: ns_tetra_iv001
+  trigger: fortune_wealth
+  factor_trigger: astro_part_of_fortune AND pars_fortunae AND benefic_ruler AND malefic_ruler
+    AND wealth_outcome
+  role: 主干
+  snippet_text: Material fortune is judged from the Part of Fortune, its rulers, and
+    the Moon's configurations.
+  source_ref: Source Text IV.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376024'
+- snippet_id: ns_tetra_iv002
+  trigger: wealth_source
+  factor_trigger: astro_planet_ruler_fortune
+  role: 条件分支
+  snippet_text: The ruling planet of Part of Fortune determines the source of wealth—Saturn
+    agriculture, Jupiter trusts, Mars military.
+  source_ref: Source Text IV.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376035'
+- snippet_id: ns_tetra_iv003
+  trigger: rank_dignity
+  factor_trigger: astro_luminary_angular AND house_angular
+  role: 主干
+  snippet_text: Rank is determined by the luminaries' angular position and their planetary
+    attendants.
+  source_ref: Source Text IV.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376047'
+- snippet_id: ns_tetra_iv004
+  trigger: royal_nativity
+  factor_trigger: astro_doryphory_complete
+  role: 条件分支
+  snippet_text: 'Royal nativity: both luminaries in masculine signs, angular, attended
+    by all five planets in dignity.'
+  source_ref: Source Text IV.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376054'
+- snippet_id: ns_tetra_iv_sm
+  trigger: sun_moon
+  factor_trigger: sun_moon
+  role: 主干
+  snippet_text: Sun and Moon together (luminaries) are primary rank indicators—their
+    angular position and planetary attendants determine eminence.
+  source_ref: Source Text IV.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376060'
+- snippet_id: ns_tetra_iv_ro
+  trigger: rank_outcome
+  factor_trigger: rank_outcome
+  role: 主干
+  snippet_text: Rank outcome ranges from kingship (full doryphory) through nobility
+    (partial) to common status (none).
+  source_ref: Source Text IV.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376067'
+- snippet_id: ns_tetra_iv005
+  trigger: profession
+  factor_trigger: astro_planet_ruler_mc
+  role: 主干
+  snippet_text: Profession is determined by the planet ruling the mid-heaven—each
+    planet governs specific trades.
+  source_ref: Source Text IV.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376078'
+- snippet_id: ns_tetra_iv006
+  trigger: mercury_professions
+  factor_trigger: astro_planet_mercury AND astro_house_10
+  role: 条件分支
+  snippet_text: 'Mercury ruling MC: scribes, astronomers, accountants, teachers, interpreters.'
+  source_ref: Source Text IV.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376084'
+- snippet_id: ns_tetra_iv_pt
+  trigger: profession_type
+  factor_trigger: profession_type
+  role: 主干
+  snippet_text: 'Profession type determined by MC ruler: Saturn=agriculture/building,
+    Jupiter=law/religion, Mars=military/surgery, Venus=art/music, Mercury=writing/commerce.'
+  source_ref: Source Text IV.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376090'
+- snippet_id: ns_tetra_iv_010
+  trigger: employment_quality
+  factor_trigger: astro_planet_profession
+  role: 主干
+  snippet_text: Employment quality determined by oriental planet or MC ruler—Mercury
+    for writing, Venus for arts, Mars for manual work.
+  source_ref: Source Text IV.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376101'
+- snippet_id: ns_tetra_iv_eq
+  trigger: employment_quality
+  factor_trigger: employment_quality
+  role: 主干
+  snippet_text: 'Employment quality: the specific nature of profession determined
+    by oriental planet or MC position—honorable if benefic, dishonorable if malefic.'
+  source_ref: Source Text IV.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376107'
+- snippet_id: ns_tetra_iv007
+  trigger: marriage_men
+  factor_trigger: astro_moon_venus
+  role: 主干
+  snippet_text: For men, marriage is judged from Moon and Venus—their configuration
+    shows marital harmony.
+  source_ref: Source Text IV.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376116'
+- snippet_id: ns_tetra_iv008
+  trigger: marriage_women
+  factor_trigger: astro_sun_mars
+  role: 条件分支
+  snippet_text: For women, marriage is judged from Sun and Mars—their configuration
+    shows husband's character.
+  source_ref: Source Text IV.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376121'
+- snippet_id: ns_tetra_iv018
+  trigger: marriage_number
+  factor_trigger: astro_sign_fixed AND astro_sign_bicorporeal
+  role: 条件分支
+  snippet_text: Fixed signs = one spouse; bicorporeal or tropical signs = multiple
+    marriages.
+  source_ref: Number
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376127'
+- snippet_id: ns_tetra_iv019
+  trigger: spouse_character
+  factor_trigger: astro_saturn AND astro_jupiter AND astro_mars
+  role: 条件分支
+  snippet_text: Saturn aspect = elderly spouse; Jupiter = wealthy/noble; Mars = bold/violent.
+  source_ref: Character
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376132'
+- snippet_id: ns_tetra_iv_sf
+  trigger: spouse_female
+  factor_trigger: spouse_female
+  role: 主干
+  snippet_text: 'Wife characteristics (for male natives) judged from Moon and Venus:
+    their sign, aspects, and planetary configurations describe her nature.'
+  source_ref: Source Text IV.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376139'
+- snippet_id: ns_tetra_iv_sm2
+  trigger: spouse_male
+  factor_trigger: spouse_male
+  role: 主干
+  snippet_text: 'Husband characteristics (for female natives) judged from Sun and
+    Mars: their sign, aspects, and planetary configurations describe his nature.'
+  source_ref: Source Text IV.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376145'
+- snippet_id: ns_tetra_iv009
+  trigger: children_givers
+  factor_trigger: astro_planet_fertile
+  role: 主干
+  snippet_text: Moon, Jupiter, and Venus are child-giving planets; Sun, Saturn, Mars
+    deny or limit offspring.
+  source_ref: Source Text IV.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376155'
+- snippet_id: ns_tetra_iv010
+  trigger: prolific_signs
+  factor_trigger: astro_sign_prolific
+  role: 条件分支
+  snippet_text: Prolific signs (Pisces, Cancer, Scorpio) indicate twins or multiple
+    children.
+  source_ref: Source Text IV.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376160'
+- snippet_id: ns_tetra_iv020
+  trigger: children_health
+  factor_trigger: astro_benefic AND astro_malefic
+  role: 条件分支
+  snippet_text: Benefics ruling children places = healthy, long-lived; malefics elevated
+    = sickly or die young.
+  source_ref: Health
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376166'
+- snippet_id: ns_tetra_iv_co
+  trigger: children_outcome
+  factor_trigger: children_outcome
+  role: 主干
+  snippet_text: 'Children outcome: many/healthy if fertile planets (Moon/Jupiter/Venus)
+    in 11th/MC; few/sickly if barren planets (Sun/Saturn/Mars).'
+  source_ref: Source Text IV.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376172'
+- snippet_id: ns_tetra_iv_pb
+  trigger: planet_barren
+  factor_trigger: planet_barren
+  role: 条件分支
+  snippet_text: Barren planets (Sun, Saturn, Mars) deny children or grant few—especially
+    when in MC or 11th house.
+  source_ref: Source Text IV.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376177'
+- snippet_id: ns_tetra_iv011
+  trigger: synastry_friendship
+  factor_trigger: astro_chart_comparison
+  role: 主干
+  snippet_text: Friendships are judged by comparing the Sun, Moon, ASC, and Part of
+    Fortune between two nativities.
+  source_ref: Source Text IV.7
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376187'
+- snippet_id: ns_tetra_iv021
+  trigger: lasting_bond
+  factor_trigger: astro_same_sign AND astro_counterchange
+  role: 条件分支
+  snippet_text: Same signs or counterchanged positions create fixed and indissoluble
+    friendship; ASCs within 17° = strong bond.
+  source_ref: Bond
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376193'
+- snippet_id: ns_tetra_iv022
+  trigger: three_friendships
+  factor_trigger: astro_luminaries AND astro_fortune AND astro_asc
+  role: 条件分支
+  snippet_text: 'Three types of friendship: spontaneous (from luminaries), profit-based
+    (from Fortune), emotional (from ASC).'
+  source_ref: Types
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376199'
+- snippet_id: ns_tetra_iv012
+  trigger: travel_indicated
+  factor_trigger: astro_moon_cadent
+  role: 主干
+  snippet_text: Travel is indicated when Moon is cadent from angles or Part of Fortune
+    is in travel-producing signs.
+  source_ref: Source Text IV.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376209'
+- snippet_id: ns_tetra_iv023
+  trigger: travel_safety
+  factor_trigger: astro_benefic AND astro_malefic
+  role: 条件分支
+  snippet_text: Benefics supervising = honorable, profitable, safe return; malefics
+    = perilous, fruitless, difficult return.
+  source_ref: Safety
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376215'
+- snippet_id: ns_tetra_iv024
+  trigger: travel_danger
+  factor_trigger: astro_saturn AND astro_mars AND astro_sign
+  role: 条件分支
+  snippet_text: Saturn/Mars in watery signs = shipwreck; in fixed = precipices; in
+    human = robbery; in terrestrial = wild beasts.
+  source_ref: Dangers
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376220'
+- snippet_id: ns_tetra_iv_to
+  trigger: travel_outcome
+  factor_trigger: travel_outcome
+  role: 主干
+  snippet_text: 'Travel outcome: safe and profitable if benefics supervise; dangerous
+    and fruitless if malefics supervise.'
+  source_ref: Source Text IV.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376226'
+- snippet_id: ns_tetra_iv_bs
+  trigger: benefic_supervise
+  factor_trigger: benefic_supervise
+  role: 条件分支
+  snippet_text: Benefic supervision (Jupiter/Venus aspecting travel indicators) produces
+    honorable, profitable journeys with safe return.
+  source_ref: Source Text IV.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376232'
+- snippet_id: ns_tetra_iv013
+  trigger: death_manner
+  factor_trigger: astro_planet_anaeretic
+  role: 主干
+  snippet_text: The manner of death is determined by the planet ruling the anæretic
+    place—each planet produces distinctive death types.
+  source_ref: Source Text IV.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376243'
+- snippet_id: ns_tetra_iv014
+  trigger: saturn_death
+  factor_trigger: astro_planet_saturn AND astro_place_anaeretic
+  role: 条件分支
+  snippet_text: 'Saturn in anæretic position: natural death by cold diseases; violent
+    by suffocation, hanging, drowning.'
+  source_ref: Source Text IV.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376249'
+- snippet_id: ns_tetra_iv015
+  trigger: mars_death
+  factor_trigger: astro_planet_mars AND astro_place_anaeretic
+  role: 条件分支
+  snippet_text: 'Mars in anæretic position: natural death by fevers; violent by slaughter,
+    war, fire, decapitation.'
+  source_ref: Source Text IV.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376255'
+- snippet_id: ns_tetra_iv025
+  trigger: algol_decapitation
+  factor_trigger: astro_mars AND astro_algol
+  role: 条件分支
+  snippet_text: Mars near Gorgon (Algol) indicates death by decapitation; both malefics
+    in anæretic = body unburied.
+  source_ref: Source Text IV.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376262'
+- snippet_id: ns_tetra_iv_dt
+  trigger: death_type
+  factor_trigger: death_type
+  role: 主干
+  snippet_text: 'Death type determined by anæretic ruler: Saturn=cold/suffocation,
+    Mars=hot/violence, Jupiter=lung/judicial, Venus=poison, Mercury=madness.'
+  source_ref: Source Text IV.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376268'
+- snippet_id: ns_tetra_iv_dm
+  trigger: dual_malefic
+  factor_trigger: dual_malefic
+  role: 条件分支
+  snippet_text: Both malefics (Saturn and Mars) in anæretic position intensify to
+    violent death with body unburied.
+  source_ref: Source Text IV.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376274'
+- snippet_id: ns_tetra_iv_020
+  trigger: time_division
+  factor_trigger: astro_planet_age
+  role: 主干
+  snippet_text: Seven ages of life correspond to seven planets—Moon for infancy, Mercury
+    for childhood, through Saturn for old age.
+  source_ref: Source Text IV.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376285'
+- snippet_id: ns_tetra_iv_ls
+  trigger: life_stage
+  factor_trigger: life_stage
+  role: 主干
+  snippet_text: 'Life stage governed by planetary period: Moon=0-4, Mercury=4-14,
+    Venus=14-22, Sun=22-41, Mars=41-56, Jupiter=56-68, Saturn=68+.'
+  source_ref: Source Text IV.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.376292'
+- snippet_id: ns_tetra_i001
+  trigger: two_studies_foundation
+  factor_trigger: astro_astro_astronomy AND astro_astrology AND astro_prognostication
+  role: 主干
+  snippet_text: 'Two studies are preliminary to astronomical prognostication: astronomy
+    (celestial positions) and astrology (their effects).'
+  source_ref: Source Text I.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379138'
+- snippet_id: ns_tetra_i002
+  trigger: astronomy_priority
+  factor_trigger: astro_absolute_certainty AND astro_conjecture AND astro_astro_conjecture
+  role: 主干依赖
+  snippet_text: The first study is first alike in order and in power—astronomy provides
+    the mathematical foundation.
+  source_ref: Source Text I.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379150'
+- snippet_id: ns_tetra_i003
+  trigger: natural_properties
+  factor_trigger: astro_material_variability AND astro_native_constitution
+  role: 主干
+  snippet_text: Planets create changes through their natural properties, not divine
+    will or magical sympathy.
+  source_ref: Source Text I.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379161'
+- snippet_id: ns_tetra_i004
+  trigger: no_infallible_rules
+  factor_trigger: astro_astro_ambient AND astro_terrestrial_effect AND ambient_configuration
+  role: 条件分支
+  snippet_text: No positive or infallible rules can be set forth due to the material
+    quality of objects acted upon.
+  source_ref: Source Text I.1
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379167'
+- snippet_id: ns_tetra_i005
+  trigger: conjectural_nature
+  factor_trigger: astro_astro_moisture AND astro_seasonal_variation
+  role: 总结
+  snippet_text: Astrology is conjectural because the causal chain has many stages,
+    each introducing variability.
+  source_ref: English Paraphrase
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379174'
+- snippet_id: ns_tetra_i006
+  trigger: aethereal_power
+  factor_trigger: astro_astro_regulation AND astro_tidal_effects
+  role: 主干
+  snippet_text: A certain power derived from the æthereal nature is diffused over
+    and pervades the whole atmosphere of the earth.
+  source_ref: Source Text I.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379188'
+- snippet_id: ns_tetra_i007
+  trigger: causal_chain
+  factor_trigger: astro_astro_natal_moment AND annual_weather AND natal_moment
+  role: 主干依赖
+  snippet_text: Fire and air are encompassed and altered by the æther's motions; these
+    in turn encompass all inferior matter.
+  source_ref: Source Text I.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379195'
+- snippet_id: ns_tetra_i008
+  trigger: sun_regulation
+  factor_trigger: ascendant AND aspect_type
+  role: 条件分支
+  snippet_text: The Sun contributes to the regulation of all earthly things by the
+    revolution of seasons and by daily changes in heat, moisture, dryness and cold.
+  source_ref: Source Text I.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379202'
+- snippet_id: ns_tetra_i009
+  trigger: moon_moisture
+  factor_trigger: aspect_formation AND aspect_application
+  role: 条件分支
+  snippet_text: The Moon dispenses much influence; rivers, tides, plants and animals
+    sympathize and vary with her waxing and waning.
+  source_ref: Source Text I.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379207'
+- snippet_id: ns_tetra_i010
+  trigger: impregnation_imprint
+  factor_trigger: aspect_inconjunct AND behavior
+  role: 总结
+  snippet_text: The impregnation and growth of seeds are framed and moulded by the
+    quality existing in the Ambient at the time of such impregnation.
+  source_ref: Source Text I.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379214'
+- snippet_id: ns_tetra_i011
+  trigger: prescience_utility
+  factor_trigger: astro_epistemology
+  role: 主干
+  snippet_text: Prescience by astronomy is possible under certain adaptation and will
+    afford premonition as far as the Ambient enables.
+  source_ref: Source Text I.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379226'
+- snippet_id: ns_tetra_i012
+  trigger: non_determinism
+  factor_trigger: astro_fate
+  role: 主干
+  snippet_text: It must not be imagined that all things happen as though ordained
+    by divine decree or some indissoluble supernal cause.
+  source_ref: Source Text I.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379232'
+- snippet_id: ns_tetra_i013
+  trigger: general_vs_particular
+  factor_trigger: astro_mundane_vs_natal AND mundane_vs_natal
+  role: 条件分支
+  snippet_text: Man is subject to events from his own nature and also to others arising
+    from general causes—pestilences, inundations, conflagrations.
+  source_ref: Source Text I.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379239'
+- snippet_id: ns_tetra_i014
+  trigger: qualified_determinism
+  factor_trigger: astro_fate
+  role: 条件分支
+  snippet_text: Events indicated by a minor cause may be prevented when some opposing
+    agency is found; but if no opposition exists, they must be fulfilled.
+  source_ref: Source Text I.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379245'
+- snippet_id: ns_tetra_i015
+  trigger: psychological_preparation
+  factor_trigger: astro_prescience_utility
+  role: 总结
+  snippet_text: Events foreknown will not overwhelm the mind with terror; the mind
+    will preserve equable calmness by having been previously prepared.
+  source_ref: Source Text I.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379252'
+- snippet_id: ns_tetra_i016
+  trigger: medical_mathematics
+  factor_trigger: astro_medicine
+  role: 总结
+  snippet_text: The Egyptians combined medical art with astronomical prognostication,
+    using astronomy to point out temperament and medicine to provide remedies.
+  source_ref: Source Text I.3
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379258'
+- snippet_id: ns_tetra_i017
+  trigger: sun_quality
+  factor_trigger: planet_sun AND quality_hot
+  role: 主干
+  snippet_text: The Sun produces heat and moderate dryness; his approach to the zenith
+    creates greater heat.
+  source_ref: Source Text I.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379270'
+- snippet_id: ns_tetra_i018
+  trigger: moon_quality
+  factor_trigger: planet_quality AND planet_nature AND planet_moon
+  role: 主干
+  snippet_text: The Moon principally generates moisture; her proximity to earth renders
+    her capable of exciting damp vapours.
+  source_ref: Source Text I.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379276'
+- snippet_id: ns_tetra_i019
+  trigger: saturn_quality
+  factor_trigger: planet_saturn AND quality_cold
+  role: 主干
+  snippet_text: Saturn produces cold and dryness, for he is most remote from the Sun's
+    heat and earth's vapours.
+  source_ref: Source Text I.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379282'
+- snippet_id: ns_tetra_i020
+  trigger: mars_quality
+  factor_trigger: planet_mars AND quality_dry
+  role: 主干
+  snippet_text: Mars chiefly causes dryness and is strongly heating by his fiery nature,
+    indicated by his colour.
+  source_ref: Source Text I.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379289'
+- snippet_id: ns_tetra_i021
+  trigger: jupiter_quality
+  factor_trigger: planet_power AND planet_strength AND planet_jupiter
+  role: 主干
+  snippet_text: Jupiter has a temperate influence, promoting both warmth and moisture;
+    he produces fertilizing breezes.
+  source_ref: Source Text I.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379295'
+- snippet_id: ns_tetra_i022
+  trigger: venus_quality
+  factor_trigger: planet_gender AND planet_feminine AND planet_venus
+  role: 主干
+  snippet_text: Venus produces moisture by the magnitude of her light and by appropriating
+    moist vapours of the earth.
+  source_ref: Source Text I.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379301'
+- snippet_id: ns_tetra_i023
+  trigger: mercury_quality
+  factor_trigger: planet_diurnal AND planet_nocturnal AND planet_mercury
+  role: 主干
+  snippet_text: Mercury produces dryness and moisture alternately with equal vigour,
+    operating rapid changes.
+  source_ref: Source Text I.4
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379307'
+- snippet_id: ns_tetra_i024
+  trigger: benefic_malefic_basis
+  factor_trigger: planet_benefic AND life_promotion
+  role: 主干
+  snippet_text: Heat and moisture are nutritive; cold and dryness are destructive—this
+    determines benefic vs malefic.
+  source_ref: Source Text I.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379317'
+- snippet_id: ns_tetra_i025
+  trigger: benefic_planets
+  factor_trigger: planet_malefic AND life_harm
+  role: 主干依赖
+  snippet_text: Jupiter and Venus are benefic because heat and moisture predominate
+    in their temperate quality.
+  source_ref: Source Text I.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379324'
+- snippet_id: ns_tetra_i026
+  trigger: malefic_planets
+  factor_trigger: harmony_discord AND equal_power
+  role: 主干依赖
+  snippet_text: 'Saturn and Mars are malefic: Saturn from excess of cold, Mars from
+    excess of dryness.'
+  source_ref: Source Text I.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379330'
+- snippet_id: ns_tetra_i027
+  trigger: planet_gender
+  factor_trigger: sign_gender AND planet_oriental AND planet_masculine
+  role: 主干
+  snippet_text: Moon and Venus are feminine since their qualities are principally
+    moist; Sun, Saturn, Jupiter, Mars are masculine.
+  source_ref: Source Text I.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379340'
+- snippet_id: ns_tetra_i028
+  trigger: mercury_dual
+  factor_trigger: planet_position_sun AND lunar_phase
+  role: 条件分支
+  snippet_text: Mercury is common to both genders, producing dryness at certain times
+    and moisture at others.
+  source_ref: Source Text I.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379346'
+- snippet_id: ns_tetra_i029
+  trigger: matutine_vespertine
+  factor_trigger: no_relationship AND season_quality
+  role: 条件分支
+  snippet_text: Matutine and preceding the Sun = masculine; vespertine and following
+    the Sun = feminine.
+  source_ref: Source Text I.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379352'
+- snippet_id: ns_tetra_i030
+  trigger: sect_doctrine
+  factor_trigger: astro_planet_sect
+  role: 主干
+  snippet_text: Day is masculine and hot; night is feminine and moist—planets are
+    assigned accordingly.
+  source_ref: Source Text I.7
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379361'
+- snippet_id: ns_tetra_i031
+  trigger: malefic_mitigation
+  factor_trigger: astro_planet_saturn OR astro_planet_mars
+  role: 主干
+  snippet_text: 'Malefics are assigned contrarily: Saturn''s cold to day''s heat,
+    Mars''s dryness to night''s moisture—to mitigate harm.'
+  source_ref: Source Text I.7
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379368'
+- snippet_id: ns_tetra_i032
+  trigger: moon_phase_quality
+  factor_trigger: astro_planet_moon AND astro_lunar_phase
+  role: 主干
+  snippet_text: Moon from new to first quarter produces moisture; first quarter to
+    full, heat; full to third quarter, dryness; third quarter to new, cold.
+  source_ref: Source Text I.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379378'
+- snippet_id: ns_tetra_i033
+  trigger: planet_phase_quality
+  factor_trigger: astro_planet_superior AND astro_sun_position
+  role: 主干
+  snippet_text: 'Superior planets: emergence to first station = moisture; to opposition
+    = heat; to second station = dryness; to occultation = cold.'
+  source_ref: Source Text I.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379385'
+- snippet_id: ns_tetra_i034
+  trigger: fixed_star_nature
+  factor_trigger: fixed_star AND astro_planet_qualities
+  role: 主干
+  snippet_text: Fixed stars have respective influences analogous to the planets—each
+    star assigned planetary nature.
+  source_ref: Source Text I.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379394'
+- snippet_id: ns_tetra_i035
+  trigger: regulus_nature
+  factor_trigger: astro_ambient_configuration AND concurrent_causes
+  role: 条件分支
+  snippet_text: Regulus, the bright one in the heart of Leo, agrees with Mars and
+    Jupiter.
+  source_ref: Source Text I.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379400'
+- snippet_id: ns_tetra_i036
+  trigger: spica_nature
+  factor_trigger: house_angle AND tropical_zodiac
+  role: 条件分支
+  snippet_text: Spica Virginis is like Venus and partly Mars.
+  source_ref: Source Text I.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379405'
+- snippet_id: ns_tetra_i070
+  trigger: northern_stars
+  factor_trigger: fixed_star_north AND sign_triplicity
+  role: 主干
+  snippet_text: Northern constellations have influences analogous to planets—Draco
+    like Saturn-Mars, Arcturus like Mars-Jupiter.
+  source_ref: Source Text I.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379415'
+- snippet_id: ns_tetra_i071
+  trigger: southern_stars
+  factor_trigger: fixed_star_south AND sign_meaning AND star_sirius
+  role: 主干
+  snippet_text: Southern constellations have influences analogous to planets—Sirius
+    like Jupiter-Mars, Fomalhaut like Venus-Mercury.
+  source_ref: Source Text I.11
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379425'
+- snippet_id: ns_tetra_i072
+  trigger: star_power
+  factor_trigger: sign_modality AND sign_antiscia
+  role: 条件分支
+  snippet_text: Fixed stars emit no rays but gain power through ecliptic proximity,
+    paran, and configuration.
+  source_ref: Footnote I.11
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379431'
+- snippet_id: ns_tetra_i037
+  trigger: seasonal_quality
+  factor_trigger: astro_season_quality
+  role: 主干
+  snippet_text: Spring is moist, summer hot, autumn dry, winter cold—corresponding
+    to the four zodiacal quadrants.
+  source_ref: Source Text I.12
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379440'
+- snippet_id: ns_tetra_i038
+  trigger: aries_beginning
+  factor_trigger: astro_sign_aries
+  role: 主干依赖
+  snippet_text: Aries commences at the vernal equinox because spring's moisture forms
+    the primary beginning, analogous to animal life.
+  source_ref: Source Text I.12
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379447'
+- snippet_id: ns_tetra_i039
+  trigger: tropical_zodiac
+  factor_trigger: astro_tropical_signs
+  role: 总结
+  snippet_text: Signs are defined by tropical points (equinoxes/solstices), not by
+    fixed star positions.
+  source_ref: Footnote I.12
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379452'
+- snippet_id: ns_tetra_i040
+  trigger: angle_quality
+  factor_trigger: astro_house_angle AND angle_quality
+  role: 主干
+  snippet_text: 'The four angles have distinct qualities: Ascendant is dry, Midheaven
+    hot, Descendant moist, IC cold.'
+  source_ref: Source Text I.13
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379461'
+- snippet_id: ns_tetra_i041
+  trigger: quality_interaction
+  factor_trigger: astro_planet_angle_interaction
+  role: 条件分支
+  snippet_text: Stars are more efficacious when their quality matches the angle's;
+    less so when contrary qualities are mixed.
+  source_ref: Source Text I.13
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379468'
+- snippet_id: ns_tetra_i042
+  trigger: sign_modality
+  factor_trigger: astro_sign_modality
+  role: 主干
+  snippet_text: Signs are tropical, equinoctial, fixed, or bicorporeal based on relationship
+    to seasonal turning points.
+  source_ref: Source Text I.14
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379478'
+- snippet_id: ns_tetra_i043
+  trigger: fixed_signs
+  factor_trigger: astro_sign_fixed
+  role: 条件分支
+  snippet_text: Fixed signs follow tropical/equinoctial; the season is then firmly
+    established.
+  source_ref: Source Text I.14
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379483'
+- snippet_id: ns_tetra_i073
+  trigger: sign_gender
+  factor_trigger: astro_sign_masculine OR astro_sign_feminine
+  role: 主干
+  snippet_text: Signs are alternately masculine and feminine, starting from masculine
+    Aries.
+  source_ref: Source Text I.15
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379492'
+- snippet_id: ns_tetra_i044
+  trigger: aspect_definition
+  factor_trigger: astro_aspect_type
+  role: 主干
+  snippet_text: 'Aspects are determined by geometric division: opposition (180°),
+    trine (120°), square (90°), sextile (60°).'
+  source_ref: Source Text I.16
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379501'
+- snippet_id: ns_tetra_i045
+  trigger: harmonious_aspects
+  factor_trigger: astro_aspect_trine OR astro_aspect_sextile
+  role: 条件分支
+  snippet_text: Trine and sextile are harmonious because they connect signs of the
+    same gender.
+  source_ref: Source Text I.16
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379507'
+- snippet_id: ns_tetra_i046
+  trigger: discordant_aspects
+  factor_trigger: astro_aspect_square OR astro_aspect_opposition
+  role: 条件分支
+  snippet_text: Opposition and square are discordant because they connect signs of
+    different genders.
+  source_ref: Source Text I.16
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379514'
+- snippet_id: ns_tetra_i074
+  trigger: commanding_obeying
+  factor_trigger: astro_sign_commanding AND sign_command_obey
+  role: 主干
+  snippet_text: Summer signs command, winter signs obey—based on day/night length.
+  source_ref: Source Text I.17
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379522'
+- snippet_id: ns_tetra_i075
+  trigger: signs_beholding
+  factor_trigger: astro_sign_antiscia
+  role: 主干
+  snippet_text: Signs equidistant from tropical points behold each other and have
+    equal power.
+  source_ref: Source Text I.18
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379530'
+- snippet_id: ns_tetra_i076
+  trigger: inconjunct
+  factor_trigger: astro_aspect_inconjunct
+  role: 主干
+  snippet_text: Signs one or five signs apart are inconjunct—no familiarity exists.
+  source_ref: Source Text I.19
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379538'
+- snippet_id: ns_tetra_i047
+  trigger: domicile_system
+  factor_trigger: planet_domicile AND planet_dignity_multiple
+  role: 主干
+  snippet_text: Planets have particular familiarity with certain signs designated
+    as their houses (domiciles).
+  source_ref: Source Text I.20
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379547'
+- snippet_id: ns_tetra_i048
+  trigger: luminary_houses
+  factor_trigger: sign_commanding AND sign_obeying
+  role: 主干依赖
+  snippet_text: Leo for the Sun and Cancer for the Moon—the most northerly signs causing
+    warmth.
+  source_ref: Source Text I.20
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379553'
+- snippet_id: ns_tetra_i049
+  trigger: saturn_houses
+  factor_trigger: planet_exaltation AND terms_egyptian
+  role: 条件分支
+  snippet_text: Saturn occupies Aquarius and Capricorn, opposite the luminaries, cold
+    and wintry.
+  source_ref: Source Text I.20
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379558'
+- snippet_id: ns_tetra_i050
+  trigger: triplicity_system
+  factor_trigger: astro_sign_triplicity
+  role: 主干
+  snippet_text: The zodiac is divided into four triplicities based on equilateral
+    triangles, each with day and night lords.
+  source_ref: Source Text I.21
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379568'
+- snippet_id: ns_tetra_i051
+  trigger: fire_triplicity
+  factor_trigger: astro_sign_aries OR astro_sign_leo OR astro_sign_sagittarius
+  role: 条件分支
+  snippet_text: 'Fire triplicity (Aries, Leo, Sagittarius): Sun rules by day, Jupiter
+    by night.'
+  source_ref: Source Text I.21
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379573'
+- snippet_id: ns_tetra_i052
+  trigger: exaltation_system
+  factor_trigger: astro_planet_exaltation
+  role: 主干
+  snippet_text: Each planet has an exaltation where its influence is maximized, and
+    a fall where it is weakened.
+  source_ref: Source Text I.22
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379583'
+- snippet_id: ns_tetra_i053
+  trigger: sun_exaltation
+  factor_trigger: astro_planet_sun AND astro_sign_aries
+  role: 条件分支
+  snippet_text: 'Sun''s exaltation in Aries: entering the northern semicircle, days
+    lengthen, heating nature increases.'
+  source_ref: Source Text I.22
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379589'
+- snippet_id: ns_tetra_i054
+  trigger: egyptian_terms
+  factor_trigger: terms_ptolemaic
+  role: 主干
+  snippet_text: Egyptian terms divide each sign into five segments with irregular
+    planetary allocations totaling 360°.
+  source_ref: Source Text I.23
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379599'
+- snippet_id: ns_tetra_i055
+  trigger: ptolemaic_terms
+  factor_trigger: astro_terms_ptolemaic
+  role: 主干
+  snippet_text: Ptolemaic terms allocate degrees based on dignity count—benefics 7°,
+    malefics 5°, Mercury 6°.
+  source_ref: Source Text I.24
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379607'
+- snippet_id: ns_tetra_i056
+  trigger: tropical_zodiac_defense
+  factor_trigger: astro_tropical_signs
+  role: 主干
+  snippet_text: The beginnings of the signs are to be taken from the equinoctial and
+    tropical points—their natures derive from these origins.
+  source_ref: Source Text I.25
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379616'
+- snippet_id: ns_tetra_i057
+  trigger: precession_addressed
+  factor_trigger: astro_epistemology
+  role: 总结
+  snippet_text: If other beginnings were allowed, sign natures would be excluded from
+    prognostication or error would be unavoidable.
+  source_ref: Source Text I.25
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379622'
+- snippet_id: ns_tetra_i058
+  trigger: planetary_face
+  factor_trigger: astro_planet_dignity_face AND planet_dignity_face
+  role: 条件分支
+  snippet_text: A planet is in its face when its aspect to the luminaries mirrors
+    its houses' aspect to their houses.
+  source_ref: Source Text I.26
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379631'
+- snippet_id: ns_tetra_i059
+  trigger: chariot_throne
+  factor_trigger: astro_planet_dignity_multiple
+  role: 主干
+  snippet_text: A planet in its chariot holds two or more dignities simultaneously,
+    greatly augmenting its influence.
+  source_ref: Source Text I.26
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379637'
+- snippet_id: ns_tetra_i060
+  trigger: application_separation
+  factor_trigger: astro_aspect_application AND aspect_separation
+  role: 主干
+  snippet_text: The preceding planet applies; the following separates—application
+    forms aspect, separation dissolves it.
+  source_ref: Source Text I.27
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379646'
+- snippet_id: ns_tetra_i061
+  trigger: planetary_strength
+  factor_trigger: astro_planet_strength AND house_angular
+  role: 主干
+  snippet_text: Planets are strongest when oriental, swift, direct, and angular; weakest
+    when occidental, slow, retrograde, and cadent.
+  source_ref: Source Text I.27
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.379653'
+- snippet_id: ns_ptolemy_iii_001
+  trigger: genethliacal
+  factor_trigger: astro_genethliacal AND astro_nativity AND genethliacal AND prenatal_postnatal
+    AND mundane_natal AND natal_chart AND complete_analysis
+  role: 主干
+  snippet_text: Genethliacal astrology consists of prenatal (conception) and postnatal
+    (birth) considerations.
+  source_ref: Source Text
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383193'
+- snippet_id: ns_ptolemy_iii_002
+  trigger: individual_destiny
+  factor_trigger: astro_individual AND astro_cosmic
+  role: 主干依赖
+  snippet_text: Individual destiny operates within the larger cosmic framework of
+    mundane influences.
+  source_ref: English Paraphrase
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383204'
+- snippet_id: ns_ptolemy_iii_027
+  trigger: nativity_doctrine
+  factor_trigger: astro_nativity AND astro_method
+  role: 条件分支
+  snippet_text: The doctrine of nativities consists of rules for prenatal consideration
+    and rules for postnatal casting of nativity figure.
+  source_ref: Method
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383213'
+- snippet_id: ns_tetra_iii_010
+  trigger: conception_birth
+  factor_trigger: astro_chart_origin
+  role: 主干
+  snippet_text: Conception is the natural origin, birth is the practical origin—both
+    are cosmically valid.
+  source_ref: Source Text III.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383224'
+- snippet_id: ns_ptolemy_iii_028
+  trigger: seed_quality
+  factor_trigger: astro_conception AND astro_ambient
+  role: 条件分支
+  snippet_text: The seed receives its due quality from the Ambient at conception—the
+    initial stellar imprint.
+  source_ref: Seed
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383230'
+- snippet_id: ns_ptolemy_iii_029
+  trigger: sympathetic_timing
+  factor_trigger: astro_conception AND astro_birth
+  role: 条件分支
+  snippet_text: Nature times birth to correspond with conception positions through
+    sympathetic correspondence.
+  source_ref: Connection
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383236'
+- snippet_id: ns_tetra_iii_cb
+  trigger: chart_birth
+  factor_trigger: chart_birth
+  role: 主干
+  snippet_text: Birth chart serves as practical origin when conception time is unknown—the
+    moment of manifestation with senses and movement.
+  source_ref: Source Text III.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383242'
+- snippet_id: ns_tetra_iii_cc
+  trigger: chart_conception
+  factor_trigger: chart_conception
+  role: 条件分支
+  snippet_text: Conception chart is the natural origin—the seed receives its initial
+    quality from the cosmic ambient at this moment.
+  source_ref: Source Text III.2
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383249'
+- snippet_id: ns_ptolemy_iii_003
+  trigger: ascendant
+  factor_trigger: astro_ascendant AND astro_anchor
+  role: 主干
+  snippet_text: The horoscopic point is the anchor of the chart; its exact degree
+    determines the validity of the whole nativity.
+  source_ref: Source Text
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383258'
+- snippet_id: ns_ptolemy_iii_004
+  trigger: accuracy
+  factor_trigger: astro_accuracy AND astro_validity
+  role: 主干依赖
+  snippet_text: A few degrees of error can significantly alter house cusps and planetary
+    positions.
+  source_ref: English Paraphrase
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383263'
+- snippet_id: ns_tetra_iii_hf
+  trigger: house_framework
+  factor_trigger: house_framework
+  role: 主干
+  snippet_text: House framework is established by the Ascendant degree—all twelve
+    houses derive their positions from this primary anchor.
+  source_ref: Ptolemy III
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383271'
+- snippet_id: ns_tetra_iii_dc
+  trigger: degree_calc
+  factor_trigger: degree_calc
+  role: 条件分支
+  snippet_text: Degree calculation accuracy is essential—errors cascade through entire
+    interpretation since all positions are relative.
+  source_ref: Ptolemy III
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383277'
+- snippet_id: ns_tetra_iii_int
+  trigger: interpretation
+  factor_trigger: interpretation
+  role: 主干
+  snippet_text: Interpretation validity depends on accurate degree calculations—the
+    entire nativity's meaning flows from correct foundational positions.
+  source_ref: Ptolemy III
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383283'
+- snippet_id: ns_ptolemy_iii_005
+  trigger: distribution
+  factor_trigger: astro_distribution AND astro_fourfold
+  role: 主干
+  snippet_text: 'The distribution of inquiry follows a fourfold division: mind, body,
+    wealth, and honours.'
+  source_ref: Source Text
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383293'
+- snippet_id: ns_ptolemy_iii_006
+  trigger: methodology
+  factor_trigger: astro_methodology AND astro_significator
+  role: 主干依赖
+  snippet_text: Each topic has its own planetary significators, proceeding in regular
+    order for comprehensive analysis.
+  source_ref: English Paraphrase
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383299'
+- snippet_id: ns_tetra_iii_fd
+  trigger: fourfold_div
+  factor_trigger: fourfold_div
+  role: 主干
+  snippet_text: 'Fourfold division of natal inquiry: (1) Mind, (2) Body, (3) Wealth,
+    (4) Honours—systematically covering all major life domains.'
+  source_ref: Ptolemy III
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383305'
+- snippet_id: ns_tetra_iii_si
+  trigger: systematic_inquiry
+  factor_trigger: systematic_inquiry
+  role: 条件分支
+  snippet_text: Systematic inquiry proceeds in regular order through each topic, determining
+    significators before interpretation.
+  source_ref: Ptolemy III
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383311'
+- snippet_id: ns_tetra_iii_ts
+  trigger: topic_sig
+  factor_trigger: topic_sig
+  role: 条件分支
+  snippet_text: Topic significators assign specific planets as rulers for each life
+    domain—identified before interpretation begins.
+  source_ref: Ptolemy III
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383317'
+- snippet_id: ns_ptolemy_iii_007
+  trigger: mind_quality
+  factor_trigger: astro_mind AND astro_mercury_moon
+  role: 主干
+  snippet_text: The quality of mind is determined by Mercury (reason) and Moon (soul),
+    their positions, signs, and aspects.
+  source_ref: Source Text
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383328'
+- snippet_id: ns_ptolemy_iii_008
+  trigger: dual_significator
+  factor_trigger: astro_mercury AND astro_moon
+  role: 主干依赖
+  snippet_text: Mercury shows intellectual capacity while Moon shows emotional temperament—together
+    revealing complete mental constitution.
+  source_ref: English Paraphrase
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383335'
+- snippet_id: ns_tetra_iii_mr
+  trigger: mercury_reason
+  factor_trigger: mercury_reason
+  role: 条件分支
+  snippet_text: 'Mercury as reason significator: shows intellectual capacity, logical
+    ability, communication skills, and rational nature.'
+  source_ref: Ptolemy III
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383341'
+- snippet_id: ns_tetra_iii_ms
+  trigger: moon_soul
+  factor_trigger: moon_soul
+  role: 条件分支
+  snippet_text: 'Moon as soul significator: shows emotional temperament, instinctual
+    responses, and psychic receptivity.'
+  source_ref: Ptolemy III
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383347'
+- snippet_id: ns_tetra_iii_bm
+  trigger: benefic_malefic
+  factor_trigger: benefic_malefic
+  role: 条件分支
+  snippet_text: 'Benefic/malefic aspects modify mind quality: Jupiter/Venus enhance,
+    Saturn/Mars disturb mental constitution.'
+  source_ref: Ptolemy III
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383353'
+- snippet_id: ns_tetra_iii_mq
+  trigger: mind_quality
+  factor_trigger: mind_quality
+  role: 主干
+  snippet_text: Mind quality is the resultant mental constitution from Mercury-Moon
+    positions modified by benefic/malefic aspects.
+  source_ref: Ptolemy III
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383359'
+- snippet_id: ns_tetra_iii_mmm
+  trigger: mercury_moon_mind
+  factor_trigger: mercury_moon_mind
+  role: 主干
+  snippet_text: 'Mercury-Moon mind complex: dual significators jointly ruling mental
+    faculties—reason (Mercury) and soul (Moon).'
+  source_ref: Ptolemy III
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383365'
+- snippet_id: ns_ptolemy_iii_009
+  trigger: mental_disease
+  factor_trigger: astro_mental_disease AND astro_affliction
+  role: 主干
+  snippet_text: Mental diseases arise when Mercury and Moon are afflicted by malefics
+    without benefic support.
+  source_ref: Source Text
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383376'
+- snippet_id: ns_ptolemy_iii_010
+  trigger: saturn_affliction
+  factor_trigger: astro_saturn AND astro_mars_affliction
+  role: 条件分支
+  snippet_text: Saturn affliction produces melancholy; Mars produces epilepsy; both
+    produce mania.
+  source_ref: Source Text
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383381'
+- snippet_id: ns_tetra_iii_sc
+  trigger: saturn_cold
+  factor_trigger: saturn_cold
+  role: 条件分支
+  snippet_text: Saturn's cold nature afflicting Mercury-Moon produces melancholy—contracted,
+    depressive, cold mental states.
+  source_ref: Ptolemy III
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383387'
+- snippet_id: ns_tetra_iii_mh
+  trigger: mars_hot
+  factor_trigger: mars_hot
+  role: 条件分支
+  snippet_text: Mars's hot nature afflicting Mercury-Moon produces epilepsy—explosive,
+    eruptive, unstable mental states.
+  source_ref: Ptolemy III
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383394'
+- snippet_id: ns_tetra_iii011
+  trigger: parent_significators
+  factor_trigger: astro_sun_father OR astro_moon_mother
+  role: 主干
+  snippet_text: Sun and Saturn signify the father; Moon and Venus signify the mother.
+  source_ref: Source Text III.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383403'
+- snippet_id: ns_tetra_iii012
+  trigger: doryphory_fortune
+  factor_trigger: astro_planet_attendants
+  role: 条件分支
+  snippet_text: The doryphory (attendant planets) of the luminaries indicates parental
+    fortune and status.
+  source_ref: Source Text III.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383409'
+- snippet_id: ns_ptolemy_iii_030
+  trigger: father_longevity
+  factor_trigger: astro_sun_saturn AND astro_mars
+  role: 条件分支
+  snippet_text: Jupiter/Venus aspecting Sun/Saturn indicates father's long life; Mars
+    elevated = sudden death.
+  source_ref: Longevity
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383414'
+- snippet_id: ns_tetra_iii_ff
+  trigger: father_fortune
+  factor_trigger: father_fortune
+  role: 主干
+  snippet_text: 'Father''s fortune determined by planets attending Sun/Saturn: benefics
+    = eminence, malefics = humble condition.'
+  source_ref: Source Text III.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383422'
+- snippet_id: ns_tetra_iii_mf
+  trigger: mother_fortune
+  factor_trigger: mother_fortune
+  role: 主干
+  snippet_text: 'Mother''s fortune determined by planets attending Moon/Venus: benefics
+    = prosperity, malefics = obscurity.'
+  source_ref: Source Text III.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383428'
+- snippet_id: ns_tetra_iii_fs
+  trigger: father_sig
+  factor_trigger: father_sig
+  role: 条件分支
+  snippet_text: Father significators are Sun (diurnal) and Saturn (nocturnal)—examined
+    for paternal fortune and longevity.
+  source_ref: Source Text III.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383435'
+- snippet_id: ns_tetra_iii_mothersig
+  trigger: mother_sig
+  factor_trigger: mother_sig
+  role: 条件分支
+  snippet_text: Mother significators are Moon (diurnal) and Venus (nocturnal)—examined
+    for maternal fortune and longevity.
+  source_ref: Source Text III.5
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383441'
+- snippet_id: ns_tetra_iii013
+  trigger: siblings_place
+  factor_trigger: astro_house_maternal
+  role: 主干
+  snippet_text: Brothers and sisters are judged from the maternal place—mid-heaven
+    or Venus/Moon by sect.
+  source_ref: Source Text III.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383452'
+- snippet_id: ns_ptolemy_iii_031
+  trigger: sibling_number
+  factor_trigger: astro_benefic AND astro_malefic
+  role: 条件分支
+  snippet_text: Benefics configurated with maternal place = many siblings; malefics
+    elevated = few siblings.
+  source_ref: Number
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383458'
+- snippet_id: ns_ptolemy_iii_032
+  trigger: sibling_gender
+  factor_trigger: astro_masculine AND astro_feminine
+  role: 条件分支
+  snippet_text: Masculine stars indicate brothers, feminine stars indicate sisters;
+    oriental = elder, occidental = younger.
+  source_ref: Gender
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383465'
+- snippet_id: ns_tetra_iii_sn
+  trigger: sibling_number
+  factor_trigger: sibling_number
+  role: 主干
+  snippet_text: 'Sibling number determined by benefics/malefics at maternal place:
+    benefics = many, malefics = few, bicorporeal signs = twins.'
+  source_ref: Source Text III.6
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383471'
+- snippet_id: ns_tetra_iii014
+  trigger: sex_determination
+  factor_trigger: astro_planet_masculine OR astro_planet_feminine
+  role: 主干
+  snippet_text: Sex is determined by the masculine or feminine constitution of Sun,
+    Moon, Ascendant and their rulers.
+  source_ref: Source Text III.7
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383481'
+- snippet_id: ns_ptolemy_iii_033
+  trigger: oriental_masculine
+  factor_trigger: astro_oriental AND astro_masculine
+  role: 条件分支
+  snippet_text: When planets are in the east (oriental) they are masculinely disposed;
+    when in the west, femininely.
+  source_ref: Position
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383487'
+- snippet_id: ns_ptolemy_iii_034
+  trigger: majority_rule
+  factor_trigger: astro_majority AND astro_sex
+  role: 条件分支
+  snippet_text: The majority of masculine or feminine indicators among Sun, Moon,
+    Ascendant determines the native's sex.
+  source_ref: Method
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383495'
+- snippet_id: ns_tetra_iii_ns
+  trigger: native_sex
+  factor_trigger: native_sex
+  role: 主干
+  snippet_text: Native's sex determined by majority of masculine/feminine indicators
+    at Sun, Moon, Ascendant and their rulers.
+  source_ref: Source Text III.7
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383501'
+- snippet_id: ns_tetra_iii015
+  trigger: twins_multiples
+  factor_trigger: astro_sign_bicorporeal
+  role: 主干
+  snippet_text: Twins and multiples occur when luminaries and ascendant are in bicorporeal
+    signs.
+  source_ref: Source Text III.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383510'
+- snippet_id: ns_tetra_iii_bn
+  trigger: birth_number
+  factor_trigger: birth_number
+  role: 主干
+  snippet_text: Birth number (singleton, twins, triplets) determined by bicorporeal
+    sign presence at Sun, Moon, Ascendant.
+  source_ref: Source Text III.8
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383516'
+- snippet_id: ns_tetra_iii_020
+  trigger: monstrous_birth
+  factor_trigger: astro_birth_defect
+  role: 主干
+  snippet_text: Monstrous births occur when luminaries are cadent from ASC while malefics
+    occupy angles.
+  source_ref: Source Text III.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383527'
+- snippet_id: ns_ptolemy_iii_035
+  trigger: bestial_signs
+  factor_trigger: astro_sign_bestial AND astro_birth
+  role: 条件分支
+  snippet_text: If luminaries in bestial signs with malefics angular without benefic
+    support, the birth will not be human.
+  source_ref: Severity
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383533'
+- snippet_id: ns_ptolemy_iii_036
+  trigger: benefic_mitigation
+  factor_trigger: astro_benefic AND astro_birth_defect
+  role: 条件分支
+  snippet_text: Jupiter/Venus support mitigates to veiled defects; Mercury alone =
+    deaf and dumb but clever.
+  source_ref: Mitigation
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383539'
+- snippet_id: ns_tetra_iii_lp
+  trigger: luminary_position
+  factor_trigger: luminary_position
+  role: 条件分支
+  snippet_text: Luminary position (angular, succedent, cadent) determines birth normalcy—cadent
+    luminaries with angular malefics indicate defect risk.
+  source_ref: Source Text III.9
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383547'
+- snippet_id: ns_tetra_iii_021
+  trigger: not_reared
+  factor_trigger: astro_infant_mortality
+  role: 主干
+  snippet_text: Children not reared when malefics configure with angular luminaries
+    without benefic intervention.
+  source_ref: Source Text III.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383556'
+- snippet_id: ns_tetra_iii_lum
+  trigger: luminary
+  factor_trigger: luminary
+  role: 主干
+  snippet_text: Luminaries (Sun and Moon) are the lights of the chart—their angular
+    position and malefic configurations determine infant viability.
+  source_ref: Source Text III.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383563'
+- snippet_id: ns_tetra_iii_mp
+  trigger: malefic_planet
+  factor_trigger: malefic_planet
+  role: 条件分支
+  snippet_text: 'Malefic planets (Saturn and Mars) in hostile configuration with luminaries:
+    Mars threatens Sun, Saturn threatens Moon.'
+  source_ref: Source Text III.10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383569'
+- snippet_id: ns_tetra_iii022
+  trigger: duration_intro
+  factor_trigger: astro_lifespan
+  role: 主干
+  snippet_text: Duration of life is the most essential natal inquiry, taking precedence
+    over all other predictions.
+  source_ref: Source Text III.11
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383578'
+- snippet_id: ns_ptolemy_iii_037
+  trigger: prorogation_system
+  factor_trigger: astro_prorogation AND astro_lifespan
+  role: 条件分支
+  snippet_text: Life duration is regulated by prorogatory places (where life-giver
+    found), their rulers, and anæretic places (life-ending degrees).
+  source_ref: System
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383585'
+- snippet_id: ns_tetra_iii_li
+  trigger: lifespan_inquiry
+  factor_trigger: lifespan_inquiry
+  role: 主干
+  snippet_text: Lifespan inquiry is the most essential natal question—survival must
+    be established before other matters can be predicted.
+  source_ref: Source Text III.11
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383593'
+- snippet_id: ns_tetra_iii_oi
+  trigger: other_inquiries
+  factor_trigger: other_inquiries
+  role: 条件分支
+  snippet_text: Other inquiries (fortune, marriage, children, profession) depend on
+    lifespan—they presuppose the native will survive to experience them.
+  source_ref: Source Text III.11
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383599'
+- snippet_id: ns_tetra_iii023
+  trigger: prorogatory_places
+  factor_trigger: astro_house_prorogatory
+  role: 主干
+  snippet_text: 'Five prorogatory places: ASC, 11th, MC, 9th, 7th—MC is most powerful.'
+  source_ref: Source Text III.12
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383610'
+- snippet_id: ns_tetra_iii_pr
+  trigger: priority
+  factor_trigger: priority
+  role: 条件分支
+  snippet_text: 'Priority hierarchy of prorogatory places: MC is most potent, followed
+    by ASC, 11th (Good Dæmon), 7th, and 9th.'
+  source_ref: Source Text III.12
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383616'
+- snippet_id: ns_tetra_iii024
+  trigger: prorogator_selection
+  factor_trigger: astro_prorogator
+  role: 主干
+  snippet_text: 'Four prorogator candidates: Sun, Moon, ASC, Part of Fortune—selection
+    follows sect rules.'
+  source_ref: Source Text III.13
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383625'
+- snippet_id: ns_tetra_iii025
+  trigger: prorogation_modes
+  factor_trigger: astro_direction_mode
+  role: 主干
+  snippet_text: 'Two modes of prorogation: direct (oriental) and converse (occidental)—DSC
+    is primary anæretic.'
+  source_ref: Source Text III.14
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383634'
+- snippet_id: ns_tetra_iii_pp
+  trigger: prorogator_position
+  factor_trigger: prorogator_position
+  role: 条件分支
+  snippet_text: 'Prorogator position (oriental or occidental) determines direction
+    mode: oriental directs forward only, occidental directs both ways.'
+  source_ref: Source Text III.14
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383642'
+- snippet_id: ns_tetra_iii026
+  trigger: prorogation_example
+  factor_trigger: astro_calculation_method
+  role: 主干
+  snippet_text: Ptolemy provides worked examples for prorogation calculation at each
+    angular position.
+  source_ref: Source Text III.15
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383650'
+- snippet_id: ns_tetra_iii_pc
+  trigger: prorogation_calc
+  factor_trigger: prorogation_calc
+  role: 主干
+  snippet_text: 'Prorogation calculation: multiply times of ascension between degrees
+    by horary magnitude to determine years of life.'
+  source_ref: Source Text III.15
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383656'
+- snippet_id: ns_tetra_iii018
+  trigger: body_form
+  factor_trigger: astro_planet_ruler_asc
+  role: 主干
+  snippet_text: Physical form is determined by planets ruling the ascendant—each planet
+    produces distinctive features.
+  source_ref: Source Text III.16
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383665'
+- snippet_id: ns_tetra_iii_bf
+  trigger: body_form
+  factor_trigger: body_form
+  role: 主干
+  snippet_text: Body form includes complexion, stature, hair, eyes—determined by ASC
+    ruler's nature and oriental/occidental position.
+  source_ref: Source Text III.16
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383672'
+- snippet_id: ns_tetra_iii019
+  trigger: bodily_disease
+  factor_trigger: astro_malefic_angular
+  role: 主干
+  snippet_text: Bodily diseases arise when malefics occupy or aspect the horizon angles.
+  source_ref: Source Text III.17
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383681'
+- snippet_id: ns_tetra_iii020
+  trigger: body_rulership
+  factor_trigger: astro_planet_body_part
+  role: 条件分支
+  snippet_text: Each planet rules specific body parts—Saturn bones, Mars blood, Mercury
+    speech, etc.
+  source_ref: Source Text III.17
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383686'
+- snippet_id: ns_tetra_iii_ba
+  trigger: bodily_affliction
+  factor_trigger: bodily_affliction
+  role: 主干
+  snippet_text: Bodily affliction (disease, injury, defect) indicated by malefics
+    on or aspecting horizon angles—severity depends on malefic nature.
+  source_ref: Source Text III.17
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.383692'

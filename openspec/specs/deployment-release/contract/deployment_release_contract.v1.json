@@ -1,0 +1,70 @@
+{
+  "contract_id": "deployment-release",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["version_id"],
+  "entities": [
+    {
+      "name": "ReleaseArtifactManifest",
+      "description": "发布产物清单（最小字段集合）",
+      "fields": [
+        { "name": "manifest_id", "type": "string", "required": true, "notes": "清单标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "发布版本标识（用于可复现与可审计）" },
+        { "name": "engine_id", "type": "string", "required": false, "notes": "引擎标识（若适用）" },
+        { "name": "corpus_release_id", "type": "string", "required": false, "notes": "语料发布版本标识（若适用）" },
+        { "name": "artifacts", "type": "array<object>", "required": true, "notes": "产物集合（最小化；例如镜像/包/迁移脚本摘要）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "PromotionRecord",
+      "description": "环境晋级记录（最小字段集合）",
+      "fields": [
+        { "name": "promotion_id", "type": "string", "required": true, "notes": "晋级标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "晋级版本标识" },
+        { "name": "from_env", "type": "string", "required": true, "notes": "来源环境（dev/staging/prod 等，枚举在规格层固定）" },
+        { "name": "to_env", "type": "string", "required": true, "notes": "目标环境（dev/staging/prod 等，枚举在规格层固定）" },
+        { "name": "result", "type": "string", "required": true, "notes": "PASS/BLOCK（枚举在规格层固定）" },
+        { "name": "rejection_reason_code", "type": "string", "required": false, "notes": "拒绝/阻断原因代码（见 rejection_reasons）" },
+        { "name": "actor_type", "type": "string", "required": false, "notes": "system/user/service（若适用）" },
+        { "name": "actor_id", "type": "string", "required": false, "notes": "操作者标识（必须脱敏/最小化）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ReleaseVerificationReport",
+      "description": "发布验证报告（最小字段集合）",
+      "fields": [
+        { "name": "report_id", "type": "string", "required": true, "notes": "报告标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "被验证版本标识" },
+        { "name": "environment_id", "type": "string", "required": true, "notes": "验证环境标识" },
+        { "name": "overall_pass", "type": "boolean", "required": true, "notes": "整体是否通过发布验证" },
+        { "name": "checks", "type": "array<object>", "required": false, "notes": "检查项集合（最小化；例如健康检查/回归摘要）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "RollbackRecord",
+      "description": "回滚记录（最小字段集合）",
+      "fields": [
+        { "name": "rollback_id", "type": "string", "required": true, "notes": "回滚标识（唯一）" },
+        { "name": "target_version_id", "type": "string", "required": true, "notes": "被回滚版本标识" },
+        { "name": "rollback_to_version_id", "type": "string", "required": true, "notes": "回滚到的版本标识" },
+        { "name": "environment_id", "type": "string", "required": true, "notes": "回滚环境标识" },
+        { "name": "reason", "type": "string", "required": false, "notes": "回滚原因摘要（禁止敏感原文）" },
+        { "name": "result", "type": "string", "required": true, "notes": "PASS/BLOCK（枚举在规格层固定）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "RELEASE_MANIFEST_MISSING", "category": "validation", "retryable": false },
+    { "code": "PROMOTION_BLOCKED", "category": "gate", "retryable": false },
+    { "code": "VERIFICATION_FAILED", "category": "gate", "retryable": false },
+    { "code": "ROLLBACK_FAILED", "category": "gate", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}

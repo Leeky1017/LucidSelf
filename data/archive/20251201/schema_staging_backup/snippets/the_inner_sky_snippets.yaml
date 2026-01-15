@@ -1,0 +1,2875 @@
+book_id: the_inner_sky
+extracted_at: '2025-11-30T22:15:00.000000'
+snippets:
+- extracted_at: '2025-11-30 22:05:52.369954'
+  factor_trigger: the_inne_conjunction
+  role: 主干
+  snippet_id: ns_forrest_asp_001
+  snippet_text: The conjunction occurs when two planets fuse at the same degree, intensifying
+    both principles into unified expression.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: conjunction
+- extracted_at: '2025-11-30 22:05:52.369980'
+  factor_trigger: the_inne_fusion
+  role: 主干依赖
+  snippet_id: ns_forrest_asp_002
+  snippet_text: Planets in conjunction cannot act independently—every expression of
+    one automatically involves the other.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: fusion
+- extracted_at: '2025-11-30 22:05:52.370000'
+  factor_trigger: the_inne_opposition
+  role: 主干
+  snippet_id: ns_forrest_asp_003
+  snippet_text: The opposition produces tension with two planets pulling in opposite
+    directions, often leading to projection onto others.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: opposition
+- extracted_at: '2025-11-30 22:05:52.370008'
+  factor_trigger: the_inne_projection
+  role: 主干依赖
+  snippet_id: ns_forrest_asp_004
+  snippet_text: We tend to project one end of the opposition onto other people, denying
+    that quality in ourselves.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: projection
+- extracted_at: '2025-11-30 22:05:52.370023'
+  factor_trigger: the_inne_square
+  role: 主干
+  snippet_id: ns_forrest_asp_005
+  snippet_text: The square represents built-in discord between natural enemies—planets
+    with nothing in common.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: square
+- extracted_at: '2025-11-30 22:05:52.370030'
+  factor_trigger: the_inne_friction
+  role: 主干依赖
+  snippet_id: ns_forrest_asp_006
+  snippet_text: Unlike opposition's projection, square friction is non-negotiable
+    and must be worked through internally.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: friction
+- extracted_at: '2025-11-30 22:05:52.370045'
+  factor_trigger: the_inne_trine
+  role: 主干
+  snippet_id: ns_forrest_asp_007
+  snippet_text: The trine represents unlimited potential—an alliance with no friction—but
+    that lack of friction can allow planets to fall asleep.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: trine
+- extracted_at: '2025-11-30 22:05:52.370052'
+  factor_trigger: the_inne_awakening
+  role: 主干依赖
+  snippet_id: ns_forrest_asp_008
+  snippet_text: Trines must be consciously awakened through will and self-discipline
+    to realize their potential.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: awakening
+- extracted_at: '2025-11-30 22:05:52.370066'
+  factor_trigger: the_inne_sextile
+  role: 主干
+  snippet_id: ns_forrest_asp_009
+  snippet_text: 'The sextile produces excitation—like teenagers falling in love: magic,
+    humor, high energy, but little stability.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: sextile
+- extracted_at: '2025-11-30 22:05:52.370073'
+  factor_trigger: the_inne_excitation
+  role: 主干依赖
+  snippet_id: ns_forrest_asp_010
+  snippet_text: Sextile enthusiasm can flare up and subside before much comes of it—the
+    challenge is sustainment.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: excitation
+- extracted_at: '2025-11-30 22:05:52.370091'
+  factor_trigger: house_1
+  role: 主干
+  snippet_id: ns_innersky_h1_001
+  snippet_text: Life requires that we have a personality—and a personality is always
+    a role we play, always less than what we truly are. A personality is always a
+    mask.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #1H'
+  trigger: house_1_general
+- extracted_at: '2025-11-30 22:05:52.370098'
+  factor_trigger: house_1
+  role: 主干依赖
+  snippet_id: ns_innersky_h1_002
+  snippet_text: The first house symbolizes our optimal mask, the outer expression
+    that best serves our inner needs.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #1H'
+  trigger: house_1_function
+- extracted_at: '2025-11-30 22:05:52.370106'
+  factor_trigger: house_1 AND state_success
+  role: 条件分支
+  snippet_id: ns_innersky_h1_003
+  snippet_text: The more sensitively we respond to it, the stronger and more centered
+    we feel. It gives a sense of autonomy, of self-knowledge, of authority over one's
+    own life.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #1H'
+  trigger: house_1_mastery
+- extracted_at: '2025-11-30 22:05:52.370113'
+  factor_trigger: house_1
+  role: 主干依赖
+  snippet_id: ns_innersky_h1_004
+  snippet_text: If we define sanity as the ability to generate a reasonable, purposeful
+    pattern of action, then the ascendant is the antidote to madness.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #1H'
+  trigger: house_1_sanity
+- extracted_at: '2025-11-30 22:05:52.370120'
+  factor_trigger: house_1 AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_h1_005
+  snippet_text: A person with unresolved first-house problems—whose identity and direction
+    are unfocused—often expresses his fear as a tyranny over other people.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #1H'
+  trigger: house_1_dysfunction
+- extracted_at: '2025-11-30 22:05:52.370128'
+  factor_trigger: house_1
+  role: 总结
+  snippet_id: ns_innersky_h1_006
+  snippet_text: We all have social identities, "personalities." And we need them.
+    Without them we could only stare wide-eyed out into space. Those masks are created
+    at the ascendant.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #1H'
+  trigger: house_1_necessity
+- extracted_at: '2025-11-30 22:05:52.370142'
+  factor_trigger: house_2
+  role: 主干
+  snippet_id: ns_innersky_h2_001
+  snippet_text: Second-house influences create a crisis of self-respect. And the way
+    we choose to resolve that insecurity becomes a key life theme.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #2H'
+  trigger: house_2_general
+- extracted_at: '2025-11-30 22:05:52.370151'
+  factor_trigger: house_2 AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_h2_002
+  snippet_text: If we respond negatively, a compulsive kind of materialism warps our
+    consciousness. We seek to alleviate our self-doubts through the manipulation of
+    physical circumstances.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #2H'
+  trigger: house_2_dysfunction
+- extracted_at: '2025-11-30 22:05:52.370159'
+  factor_trigger: house_2 AND state_success
+  role: 条件分支
+  snippet_id: ns_innersky_h2_003
+  snippet_text: A successful navigation of second-house terrain always involves proving
+    oneself to oneself. We compensate for inner doubts through disciplined effort
+    and concrete accomplishment.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #2H'
+  trigger: house_2_mastery
+- extracted_at: '2025-11-30 22:05:52.370166'
+  factor_trigger: house_2
+  role: 主干依赖
+  snippet_id: ns_innersky_h2_004
+  snippet_text: Properly harnessed, personal insecurity can drive a person to reach
+    toward the limits of growth. A busy second house can be the weakest possible astrological
+    structure or the most resilient.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #2H'
+  trigger: house_2_potential
+- extracted_at: '2025-11-30 22:05:52.370172'
+  factor_trigger: house_2
+  role: 总结
+  snippet_id: ns_innersky_h2_005
+  snippet_text: How we evaluate our own worth is the real issue. Money is just a red
+    herring.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #2H'
+  trigger: house_2_money
+- extracted_at: '2025-11-30 22:05:52.370187'
+  factor_trigger: house_3
+  role: 主干
+  snippet_id: ns_innersky_h3_001
+  snippet_text: 'Let''s call the third house the House of Perception, remembering
+    always that perception flows two ways: we gather information from the world and
+    then we echo it back again.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #3H'
+  trigger: house_3_general
+- extracted_at: '2025-11-30 22:05:52.370194'
+  factor_trigger: house_3
+  role: 主干依赖
+  snippet_id: ns_innersky_h3_002
+  snippet_text: There is a physical world around us. And within the neurons and synapses
+    of the brain we create a second world modeled on the first. That second world
+    is the one we truly inhabit.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #3H'
+  trigger: house_3_second_world
+- extracted_at: '2025-11-30 22:05:52.370202'
+  factor_trigger: house_3 AND state_success
+  role: 条件分支
+  snippet_id: ns_innersky_h3_003
+  snippet_text: Those who have mastered that delicate art are masters of the third-house
+    terrain. More than most of us, they see truth—the truth that is never in us, but
+    always among us.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #3H'
+  trigger: house_3_mastery
+- extracted_at: '2025-11-30 22:05:52.370209'
+  factor_trigger: house_3 AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_h3_004
+  snippet_text: Those whose passage through the third house has been a failure must
+    live in a universe in which dreams, nightmares, and reality are forever shifting
+    into one another.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #3H'
+  trigger: house_3_dysfunction
+- extracted_at: '2025-11-30 22:05:52.370218'
+  factor_trigger: house_3
+  role: 总结
+  snippet_id: ns_innersky_h3_005
+  snippet_text: To perceive clearly, the two worlds must be aligned. We can straighten
+    out the distortions only by comparing notes with other perceivers.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #3H'
+  trigger: house_3_clarity
+- extracted_at: '2025-11-30 22:05:52.370232'
+  factor_trigger: house_4
+  role: 主干
+  snippet_id: ns_innersky_h4_001
+  snippet_text: The fourth house is the most subjective of the twelve. The arena it
+    represents is a secret one. No one outside ourselves can see it.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #4H'
+  trigger: house_4_general
+- extracted_at: '2025-11-30 22:05:52.370239'
+  factor_trigger: house_4
+  role: 主干依赖
+  snippet_id: ns_innersky_h4_002
+  snippet_text: The contents of the fourth house are utterly isolated from the outer
+    world. They exist only in the mind. "Reality" is irrelevant to them. They grow
+    and develop with a logic all their own.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #4H'
+  trigger: house_4_contents
+- extracted_at: '2025-11-30 22:05:52.370247'
+  factor_trigger: house_4 AND archetype_hero
+  role: 条件分支
+  snippet_id: ns_innersky_h4_003
+  snippet_text: The Hero—a set of grandiose, imaginary self-images. Although they
+    are always embarrassingly unrealistic, those images inspire us and help us understand
+    what we really want.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #4H'
+  trigger: house_4_hero
+- extracted_at: '2025-11-30 22:05:52.370254'
+  factor_trigger: house_4 AND archetype_shadow
+  role: 条件分支
+  snippet_id: ns_innersky_h4_004
+  snippet_text: The Shadow draws a picture of the fear we are afraid to feel. Decode
+    it, face it, and we establish balance between the inner self and the personality
+    we present to those around us.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #4H'
+  trigger: house_4_shadow
+- extracted_at: '2025-11-30 22:05:52.370262'
+  factor_trigger: house_4
+  role: 总结
+  snippet_id: ns_innersky_h4_005
+  snippet_text: The fourth house describes our attitudes toward the haven we create
+    from the noise of the world. That haven must be created if we are to touch the
+    nadir. But homemaking is the means, not the end.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #4H'
+  trigger: house_4_home
+- extracted_at: '2025-11-30 22:05:52.370275'
+  factor_trigger: house_5
+  role: 主干
+  snippet_id: ns_innersky_h5_001
+  snippet_text: Joy—how deeply we need it! Its absence is as fatal as a ten-year fast
+    or a month without oxygen. Without that sparkle, we wither.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #5H'
+  trigger: house_5_general
+- extracted_at: '2025-11-30 22:05:52.370282'
+  factor_trigger: house_5
+  role: 主干依赖
+  snippet_id: ns_innersky_h5_002
+  snippet_text: In the face of all that hellishness, there is only one force between
+    us and despair. That force is pleasure. At some undeniable, immediate level, pleasure
+    is what keeps us in the world.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #5H'
+  trigger: house_5_pleasure
+- extracted_at: '2025-11-30 22:05:52.370290'
+  factor_trigger: house_5 AND creative_expression
+  role: 条件分支
+  snippet_id: ns_innersky_h5_003
+  snippet_text: Imagine how good Michelangelo felt when he first stood back and admired
+    his Sistine Chapel. Creativity is a joy. Meditation is a joy. "Falling in love"
+    with a grizzled sea captain ninety years old is a joy.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #5H'
+  trigger: house_5_creativity
+- extracted_at: '2025-11-30 22:05:52.370297'
+  factor_trigger: house_5 AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_h5_004
+  snippet_text: An unsuccessful passage through the fifth house invariably involves
+    getting hung up on a single pleasure, forgetting that there are so many others.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #5H'
+  trigger: house_5_addiction
+- extracted_at: '2025-11-30 22:05:52.370305'
+  factor_trigger: house_5 AND state_success
+  role: 总结
+  snippet_id: ns_innersky_h5_005
+  snippet_text: Learn to enjoy all of them. Develop the skills and habits they require.
+    Guard against asking too much of any single one. Do all that, and even when you
+    die they won't be able to wipe away your smile.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #5H'
+  trigger: house_5_mastery
+- extracted_at: '2025-11-30 22:05:52.370319'
+  factor_trigger: house_6
+  role: 主干
+  snippet_id: ns_innersky_h6_001
+  snippet_text: 'Now, we ourselves are the servant. But not in any degrading sense.
+    In this house we recognize an elemental human need: the desire to exercise competence
+    and to be recognized for it.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #6H'
+  trigger: house_6_general
+- extracted_at: '2025-11-30 22:05:52.370326'
+  factor_trigger: house_6
+  role: 主干依赖
+  snippet_id: ns_innersky_h6_002
+  snippet_text: If we fail to discover that special skill within ourselves, or if
+    we fail to develop it to its limits, there is an emptiness in our lives. Something
+    basic is missing.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #6H'
+  trigger: house_6_competence
+- extracted_at: '2025-11-30 22:05:52.370334'
+  factor_trigger: house_6 AND state_success
+  role: 条件分支
+  snippet_id: ns_innersky_h6_003
+  snippet_text: We have demonstrated a personal skill in such a way that it helped
+    another person. And whenever we do that, we feel a characteristic satisfaction.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #6H'
+  trigger: house_6_service
+- extracted_at: '2025-11-30 22:05:52.370342'
+  factor_trigger: house_6 AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_h6_004
+  snippet_text: If we fail to find meaningful work, we fall into drudgery—working
+    just for survival, feeling like a slave. We become the wage slave or the drudge,
+    praying for the weekend.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #6H'
+  trigger: house_6_drudgery
+- extracted_at: '2025-11-30 22:05:52.370349'
+  factor_trigger: house_6 AND state_dysfunction
+  role: 总结
+  snippet_id: ns_innersky_h6_005
+  snippet_text: Soon we find ourselves living in a world populated with bosses. We
+    lack inner direction in our labors. Outer direction quickly takes up the slack.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #6H'
+  trigger: house_6_bosses
+- extracted_at: '2025-11-30 22:05:52.370365'
+  factor_trigger: house_7
+  role: 主干
+  snippet_id: ns_innersky_h7_001
+  snippet_text: Identification—putting yourself in the other person's shoes—is the
+    cornerstone of all dramatic art and the basis of any intimate relationship. If
+    the mind fails to set up that elemental I-equal-you equation, no human being will
+    ever touch us.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #7H'
+  trigger: house_7_general
+- extracted_at: '2025-11-30 22:05:52.370373'
+  factor_trigger: house_7
+  role: 主干依赖
+  snippet_id: ns_innersky_h7_002
+  snippet_text: To identify with them—to love them—we must temporarily set aside our
+    own point of view. We must look at life through their eyes. A perilous process.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #7H'
+  trigger: house_7_challenge
+- extracted_at: '2025-11-30 22:05:52.370380'
+  factor_trigger: house_7 AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_h7_003
+  snippet_text: If we cannot manage it, we make no lasting intimate contacts. We may
+    be married. We may have friends. But our isolation is perfect—our universe is
+    populated only with strangers.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #7H'
+  trigger: house_7_isolation
+- extracted_at: '2025-11-30 22:05:52.370387'
+  factor_trigger: house_7 AND state_success
+  role: 条件分支
+  snippet_id: ns_innersky_h7_004
+  snippet_text: 'A successful passage requires: Equality (interdependency, no boss),
+    Open-endedness (commitment to the person, not convenience), and Magic (special
+    rapport that blasts through ego walls).'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #7H'
+  trigger: house_7_success
+- extracted_at: '2025-11-30 22:05:52.370411'
+  factor_trigger: house_7 AND state_dysfunction
+  role: 总结
+  snippet_id: ns_innersky_h7_005
+  snippet_text: Perhaps we cannot get our personality back again. We may become lost
+    in the relationship, so swayed by the other person's world view that we lose track
+    of our own identity. We become a shadow cast by another person.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #7H'
+  trigger: house_7_loss_of_self
+- extracted_at: '2025-11-30 22:05:52.370426'
+  factor_trigger: house_8
+  role: 主干
+  snippet_id: ns_innersky_h8_001
+  snippet_text: Sex, death, and the occult—in each we confront one of the basic givens
+    of human life. In each we confront needs and issues that release intense and disruptive
+    emotional energies into consciousness. In each we meet an instinct.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #8H'
+  trigger: house_8_general
+- extracted_at: '2025-11-30 22:05:52.370433'
+  factor_trigger: house_8
+  role: 主干依赖
+  snippet_id: ns_innersky_h8_002
+  snippet_text: Once evoked, those feelings are virtually unstoppable. We have pulled
+    the cork in the dam separating ego from instinct.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #8H'
+  trigger: house_8_instinct
+- extracted_at: '2025-11-30 22:05:52.370440'
+  factor_trigger: house_8 AND state_success
+  role: 条件分支
+  snippet_id: ns_innersky_h8_003
+  snippet_text: A successful passage depends on accepting the reality of feelings
+    arising beyond personality—accepting illogical feelings that may violate our accustomed
+    description of the world.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #8H'
+  trigger: house_8_mastery
+- extracted_at: '2025-11-30 22:05:52.370447'
+  factor_trigger: house_8
+  role: 条件分支
+  snippet_id: ns_innersky_h8_004
+  snippet_text: Flow with the sexual force. Accept death. Integrate it. Learn from
+    it instead of hiding from it. Grope within yourself for something immortal. Try
+    to feel your 'soul.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #8H'
+  trigger: house_8_transformation
+- extracted_at: '2025-11-30 22:05:52.370455'
+  factor_trigger: house_8 AND state_dysfunction
+  role: 总结
+  snippet_id: ns_innersky_h8_005
+  snippet_text: Fail, and those same instincts snag you. They make you moody and bitter,
+    full of heaviness. You may have a beautiful mate or a million lovers—still, you
+    are unsatisfied.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #8H'
+  trigger: house_8_failure
+- extracted_at: '2025-11-30 22:05:52.370467'
+  factor_trigger: house_9
+  role: 主干
+  snippet_id: ns_innersky_h9_001
+  snippet_text: All our views of reality are conditioned by an unspoken model of the
+    world—and that model is always arbitrary and limiting.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #9H'
+  trigger: house_9_general
+- extracted_at: '2025-11-30 22:05:52.370475'
+  factor_trigger: house_9 AND state_success
+  role: 主干依赖
+  snippet_id: ns_innersky_h9_002
+  snippet_text: Suddenly you have two ways of looking at the world. Stereo consciousness.
+    You can think like an American. And you can think like an Amazonian. Both work.
+    One reality. Two models.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #9H'
+  trigger: house_9_stereo
+- extracted_at: '2025-11-30 22:05:52.370482'
+  factor_trigger: house_9 AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_h9_003
+  snippet_text: An unsuccessful navigation invariably involves mistaking a model of
+    reality for reality itself. We live in a world we have outgrown—and it no longer
+    engages or challenges our intelligence.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #9H'
+  trigger: house_9_failure
+- extracted_at: '2025-11-30 22:05:52.370489'
+  factor_trigger: house_9 AND state_success
+  role: 条件分支
+  snippet_id: ns_innersky_h9_004
+  snippet_text: We must learn to take chances. We must make leaps of faith—intellectually,
+    emotionally, physically. We must intentionally move to break up our routines of
+    behavior and thought.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #9H'
+  trigger: house_9_mastery
+- extracted_at: '2025-11-30 22:05:52.370497'
+  factor_trigger: house_9
+  role: 总结
+  snippet_id: ns_innersky_h9_005
+  snippet_text: We must make room in our lives for the inexplicable. Room for the
+    miraculous. Navigate its terrain gracefully and your daily life lies right on
+    the cutting edge of your growth.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #9H'
+  trigger: house_9_miraculous
+- extracted_at: '2025-11-30 22:05:52.370511'
+  factor_trigger: house_10
+  role: 主干
+  snippet_id: ns_innersky_h10_001
+  snippet_text: The midheaven represents how we look to people who do not know us.
+    They see us, not as people, but as embodiments of various functions in society.
+    Depersonalized. Representative of a class. They see our status.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #10H'
+  trigger: house_10_general
+- extracted_at: '2025-11-30 22:05:52.370518'
+  factor_trigger: house_10 AND state_success
+  role: 主干依赖
+  snippet_id: ns_innersky_h10_002
+  snippet_text: To navigate tenth-house terrain successfully, we must find our destiny.
+    We must find a social role that is in harmony with our inner nature. We must figure
+    out a way to get paid for being ourselves.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #10H'
+  trigger: house_10_destiny
+- extracted_at: '2025-11-30 22:05:52.370526'
+  factor_trigger: house_10 AND state_success
+  role: 条件分支
+  snippet_id: ns_innersky_h10_003
+  snippet_text: If we succeed, we are at home in the world. Our work, our status,
+    our public identity—all reflect what is going on inside us. We bring the full
+    force of our being to bear upon our public role.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #10H'
+  trigger: house_10_success
+- extracted_at: '2025-11-30 22:05:52.370534'
+  factor_trigger: house_10 AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_h10_004
+  snippet_text: We may become wealthy. We may be glamorous. We may have influence.
+    But these facts do not reflect who we are. They only describe a part we have been
+    given to play. We feel like an impostor.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #10H'
+  trigger: house_10_impostor
+- extracted_at: '2025-11-30 22:05:52.370542'
+  factor_trigger: house_10 AND state_success
+  role: 总结
+  snippet_id: ns_innersky_h10_005
+  snippet_text: No one else could play our part. That part, whatever it may be, is
+    rooted in our individuality. Knowing that, we feel absolutely secure in our public
+    identity. No one can steal it from us because no one else could do it.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #10H'
+  trigger: house_10_authenticity
+- extracted_at: '2025-11-30 22:05:52.370556'
+  factor_trigger: house_11
+  role: 主干
+  snippet_id: ns_innersky_h11_001
+  snippet_text: Direction. That is the essence of eleventh-house terrain. Where are
+    you going? What are you becoming? What are the hopes and dreams and aspirations
+    that give meaning to your daily life?
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #11H'
+  trigger: house_11_general
+- extracted_at: '2025-11-30 22:05:52.370564'
+  factor_trigger: house_11
+  role: 主干依赖
+  snippet_id: ns_innersky_h11_002
+  snippet_text: The future is only a fantasy. Of itself, it can have no relevance
+    to us. But an awareness of the future exists for all of us in the present tense.
+    And coping with that awareness is essential to the development of our individuality.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #11H'
+  trigger: house_11_future
+- extracted_at: '2025-11-30 22:05:52.370571'
+  factor_trigger: house_11 AND state_success
+  role: 条件分支
+  snippet_id: ns_innersky_h11_003
+  snippet_text: We must make a commitment to become a certain kind of person, to have
+    certain experiences, to attain particular goals. We must adopt a life strategy.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #11H'
+  trigger: house_11_commitment
+- extracted_at: '2025-11-30 22:05:52.370579'
+  factor_trigger: house_11
+  role: 条件分支
+  snippet_id: ns_innersky_h11_004
+  snippet_text: How do we choose those people? We choose them because they reflect
+    our goals. By embodying the future we want for ourselves, those people help stabilize
+    our own intentions. For us, they symbolize the future.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #11H'
+  trigger: house_11_friends
+- extracted_at: '2025-11-30 22:05:52.370587'
+  factor_trigger: house_11 AND state_dysfunction
+  role: 总结
+  snippet_id: ns_innersky_h11_005
+  snippet_text: If we fail, we drift. And if we drift, we become desperate. Without
+    goals, there can be no meaningful action. So we act, and our actions are tentative,
+    sporadic, uncertain. Full of false starts and empty gestures.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #11H'
+  trigger: house_11_failure
+- extracted_at: '2025-11-30 22:05:52.370601'
+  factor_trigger: house_12
+  role: 主干
+  snippet_id: ns_innersky_h12_001
+  snippet_text: Whenever trouble strikes, each of us has a built-in escape route.
+    We can move our attention away from the dramas of personality. We can focus it
+    on a peaceful place deep within us, a place that is always there, waiting.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #12H'
+  trigger: house_12_general
+- extracted_at: '2025-11-30 22:05:52.370609'
+  factor_trigger: house_12 AND state_success
+  role: 主干依赖
+  snippet_id: ns_innersky_h12_002
+  snippet_text: We can call that escape route meditation. We can call it prayer or
+    contemplation. And the peace we find we can call God or 'our center' or just relaxation.
+    There is no house in which words are less significant.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #12H'
+  trigger: house_12_meditation
+- extracted_at: '2025-11-30 22:05:52.370618'
+  factor_trigger: house_12 AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_h12_003
+  snippet_text: Instead of seeking peace, we seek numbness. Instead of retreating
+    temporarily into our depths, we seek to obliterate consciousness altogether. The
+    alcoholic and the drug abuser are both failed twelfth-house navigators.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #12H'
+  trigger: house_12_escapism
+- extracted_at: '2025-11-30 22:05:52.370626'
+  factor_trigger: house_12
+  role: 条件分支
+  snippet_id: ns_innersky_h12_004
+  snippet_text: We can gracefully let go of a set of dying circumstances, knowing
+    that when the dust settles, we can begin again. Such letting go is never easy.
+    Those dying circumstances are dear to us. They are the foundation of our identity
+    in the world.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #12H'
+  trigger: house_12_letting_go
+- extracted_at: '2025-11-30 22:05:52.370634'
+  factor_trigger: house_12 AND state_success
+  role: 总结
+  snippet_id: ns_innersky_h12_005
+  snippet_text: Our identity in the world is a transitory phenomenon. Only consciousness
+    itself is eternal. Nothing else matters. Grasp that, and the House of Troubles
+    is troubled no longer. It is the House of Wisdom.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.7 #12H'
+  trigger: house_12_wisdom
+- extracted_at: '2025-11-30 22:05:52.370649'
+  factor_trigger: planet_sun
+  role: 主干
+  snippet_id: ns_innersky_sun_001
+  snippet_text: 'The sun is the gravitational center of the human personality—the
+    focal point of all varied functions that coexist in each person: our sense of
+    identity, of being a distinct person with certain ways of feeling and seeing.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Sun'
+  trigger: planet_sun
+- extracted_at: '2025-11-30 22:05:52.370657'
+  factor_trigger: planet_sun
+  role: 主干依赖
+  snippet_id: ns_innersky_sun_002
+  snippet_text: 'The sun organizes the nine remaining planetary functions through
+    its psychological ''gravity'': ego. It creates identity by implanting unconscious
+    assumptions about what matters.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Sun'
+  trigger: planet_sun AND function
+- extracted_at: '2025-11-30 22:05:52.370663'
+  factor_trigger: planet_sun
+  role: 条件分支
+  snippet_id: ns_innersky_sun_003
+  snippet_text: Sun's sign reveals experiences that nourish ego—like a vitamin prescription.
+    Sun in Aries needs conquests, Sun in Cancer needs emotional connections.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Sun'
+  trigger: planet_sun AND feeding
+- extracted_at: '2025-11-30 22:05:52.370670'
+  factor_trigger: planet_sun AND state_dysfunction
+  role: 总结
+  snippet_id: ns_innersky_sun_004
+  snippet_text: 'Dysfunction: egocentrism (confusing one''s center for the center),
+    tyranny, rigidity, vanity. When the Sun is starved, identity weakens.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Sun'
+  trigger: planet_sun AND shadow
+- extracted_at: '2025-11-30 22:05:52.370682'
+  factor_trigger: the_inne_sun_gravity
+  role: 主干
+  snippet_id: ns_forrest_001
+  snippet_text: The sun is the gravitational center of the human personality—the focal
+    point of all the varied functions that coexist in each person.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: sun_gravity
+- extracted_at: '2025-11-30 22:05:52.370691'
+  factor_trigger: the_inne_sun_organizes
+  role: 主干依赖
+  snippet_id: ns_forrest_002
+  snippet_text: 'The sun organizes the nine remaining planetary functions through
+    its psychological ''gravity'': ego.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: sun_organizes
+- extracted_at: '2025-11-30 22:05:52.370699'
+  factor_trigger: the_inne_sun_feeding
+  role: 条件分支
+  snippet_id: ns_forrest_003
+  snippet_text: Sun's sign reveals experiences that nourish ego—Aries needs conquests,
+    Cancer needs emotional connections.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: sun_feeding
+- extracted_at: '2025-11-30 22:05:52.370707'
+  factor_trigger: the_inne_sun_shadow
+  role: 总结
+  snippet_id: ns_forrest_004
+  snippet_text: Dysfunction of Sun = egocentrism, tyranny, rigidity, vanity—the shadow
+    side of undeveloped solar energy.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: sun_shadow
+- extracted_at: '2025-11-30 22:05:52.370718'
+  factor_trigger: planet_moon
+  role: 主干
+  snippet_id: ns_innersky_moon_001
+  snippet_text: The moon symbolizes feelings. Its most striking quality is variability—always
+    changing, always passing through phases. Luna symbolizes the part of consciousness
+    that reacts and responds.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Moon'
+  trigger: planet_moon
+- extracted_at: '2025-11-30 22:05:52.370725'
+  factor_trigger: planet_moon
+  role: 主干依赖
+  snippet_id: ns_innersky_moon_002
+  snippet_text: The Moon represents the mood of the psyche—the way life feels. Where
+    Sun creates fixed ego, Moon creates fluid soul. It generates happiness and emotional
+    fulfillment.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Moon'
+  trigger: planet_moon AND function
+- extracted_at: '2025-11-30 22:05:52.370732'
+  factor_trigger: planet_moon
+  role: 条件分支
+  snippet_id: ns_innersky_moon_003
+  snippet_text: Moon's sign reveals emotional needs. Moon in Leo needs applause and
+    recognition, Moon in Scorpio needs emotional intensity and depth.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Moon'
+  trigger: planet_moon AND feeding
+- extracted_at: '2025-11-30 22:05:52.370739'
+  factor_trigger: planet_moon AND state_dysfunction
+  role: 总结
+  snippet_id: ns_innersky_moon_004
+  snippet_text: 'Dysfunction: self-indulgence, moodiness, timidity, indecision, fantasy-escape.
+    Moon without healthy outlets becomes overwhelmed by feeling.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Moon'
+  trigger: planet_moon AND shadow
+- extracted_at: '2025-11-30 22:05:52.370750'
+  factor_trigger: the_inne_moon_variabilit
+  role: 主干
+  snippet_id: ns_forrest_005
+  snippet_text: The moon's most striking quality is variability—always changing, always
+    passing through phases.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: moon_variability
+- extracted_at: '2025-11-30 22:05:52.370758'
+  factor_trigger: the_inne_moon_feeling
+  role: 主干依赖
+  snippet_id: ns_forrest_006
+  snippet_text: Luna symbolizes the part of consciousness that reacts and responds,
+    that is sensitive to its surroundings.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: moon_feeling
+- extracted_at: '2025-11-30 22:05:52.370765'
+  factor_trigger: the_inne_moon_soul
+  role: 条件分支
+  snippet_id: ns_forrest_007
+  snippet_text: Where Sun creates fixed ego, Moon creates fluid soul—emotional, responsive,
+    subjective consciousness.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: moon_soul
+- extracted_at: '2025-11-30 22:05:52.370772'
+  factor_trigger: the_inne_moon_feeding
+  role: 总结
+  snippet_id: ns_forrest_008
+  snippet_text: Moon's sign reveals emotional needs—Leo needs applause, Scorpio needs
+    intensity, Cancer needs safety.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: moon_feeding
+- extracted_at: '2025-11-30 22:05:52.370784'
+  factor_trigger: planet_mercury
+  role: 主干
+  snippet_id: ns_innersky_mercury_001
+  snippet_text: Mercury is the planet in charge of the library we keep in our heads.
+    Its function is to think, to know, to deduce, to reason. This is the planet of
+    the mind, of the linear, logical functions.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Mercury'
+  trigger: planet_mercury
+- extracted_at: '2025-11-30 22:05:52.370791'
+  factor_trigger: planet_mercury
+  role: 主干依赖
+  snippet_id: ns_innersky_mercury_002
+  snippet_text: No planet is closer to the sun than Mercury, and no planet moves with
+    more alacrity. It symbolizes the rapid-fire nature of thought—intelligence, communication,
+    perception, and learning.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Mercury'
+  trigger: planet_mercury AND function
+- extracted_at: '2025-11-30 22:05:52.370798'
+  factor_trigger: planet_mercury
+  role: 条件分支
+  snippet_id: ns_innersky_mercury_003
+  snippet_text: Mercury is messenger of gods—translating divine will into language.
+    Psychologically, it translates unconscious feeling into conscious thought.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Mercury'
+  trigger: planet_mercury AND messenger
+- extracted_at: '2025-11-30 22:05:52.370804'
+  factor_trigger: planet_mercury AND state_dysfunction
+  role: 总结
+  snippet_id: ns_innersky_mercury_004
+  snippet_text: 'Dysfunction: nervousness, rationalization, worry, hyperactivity,
+    chattering, intellectualism—mind running without purpose.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Mercury'
+  trigger: planet_mercury AND shadow
+- extracted_at: '2025-11-30 22:05:52.370816'
+  factor_trigger: the_inne_mercury_library
+  role: 主干
+  snippet_id: ns_forrest_013
+  snippet_text: Mercury is the planet in charge of the library we keep in our heads—its
+    function is to think, to know, to deduce, to reason.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: mercury_library
+- extracted_at: '2025-11-30 22:05:52.370824'
+  factor_trigger: the_inne_mercury_fastest
+  role: 主干依赖
+  snippet_id: ns_forrest_014
+  snippet_text: No planet moves with more alacrity—this is the planet of the mind,
+    of the linear, logical functions.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: mercury_fastest
+- extracted_at: '2025-11-30 22:05:52.370831'
+  factor_trigger: the_inne_mercury_messeng
+  role: 条件分支
+  snippet_id: ns_forrest_015
+  snippet_text: In mythology, Mercury is messenger of gods—translating unconscious/feeling
+    into conscious/thought.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: mercury_messenger
+- extracted_at: '2025-11-30 22:05:52.370838'
+  factor_trigger: the_inne_mercury_retrogr
+  role: 总结
+  snippet_id: ns_forrest_016
+  snippet_text: When retrograde, mind turns inward—thinking becomes innovative but
+    expression becomes difficult.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: mercury_retrograde
+- extracted_at: '2025-11-30 22:05:52.370849'
+  factor_trigger: planet_venus
+  role: 主干
+  snippet_id: ns_innersky_venus_001
+  snippet_text: Venus is the planet of love, beauty, and values—the function that
+    creates relationships and appreciates aesthetics. It represents the capacity to
+    connect not from neediness but from appreciation.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Venus'
+  trigger: planet_venus
+- extracted_at: '2025-11-30 22:05:52.370856'
+  factor_trigger: planet_venus
+  role: 主干依赖
+  snippet_id: ns_innersky_venus_002
+  snippet_text: Venus governs what we find beautiful, valuable, and worthy of love.
+    It forms our aesthetic sense and relationship style—how we attract and what attracts
+    us.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Venus'
+  trigger: planet_venus AND function
+- extracted_at: '2025-11-30 22:05:52.370863'
+  factor_trigger: planet_venus
+  role: 条件分支
+  snippet_id: ns_innersky_venus_003
+  snippet_text: 'Venus vs Moon: Venus appreciates (active connection), Moon needs
+    (passive reception). Venus says "how beautiful!" Moon says "I need this to be
+    happy."'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Venus'
+  trigger: planet_venus AND contrast
+- extracted_at: '2025-11-30 22:05:52.370870'
+  factor_trigger: planet_venus AND state_dysfunction
+  role: 总结
+  snippet_id: ns_innersky_venus_004
+  snippet_text: 'Dysfunction: superficiality (appearance over substance), conflict-avoidance
+    (peace at any cost), vanity (love of being loved rather than loving).'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Venus'
+  trigger: planet_venus AND shadow
+- extracted_at: '2025-11-30 22:05:52.370882'
+  factor_trigger: the_inne_venus_love
+  role: 主干
+  snippet_id: ns_forrest_017
+  snippet_text: Venus symbolizes the urge to unite with that which is outside oneself—love,
+    not emotional neediness, but genuine attraction and appreciation.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: venus_love
+- extracted_at: '2025-11-30 22:05:52.370890'
+  factor_trigger: the_inne_venus_vs_moon
+  role: 主干依赖
+  snippet_id: ns_forrest_018
+  snippet_text: Moon = emotional need, "I need you"; Venus = appreciation, "I value
+    you"—Moon seeks security, Venus seeks beauty.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: venus_vs_moon
+- extracted_at: '2025-11-30 22:05:52.370897'
+  factor_trigger: the_inne_venus_aesthetic
+  role: 条件分支
+  snippet_id: ns_forrest_019
+  snippet_text: Venus governs aesthetic sense—recognition of beauty, art, harmony
+    in all forms.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: venus_aesthetic
+- extracted_at: '2025-11-30 22:05:52.370904'
+  factor_trigger: the_inne_venus_shadow
+  role: 总结
+  snippet_id: ns_forrest_020
+  snippet_text: Venus dysfunction = vanity, superficiality, people-pleasing, avoidance
+    of conflict—beauty without depth.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: venus_shadow
+- extracted_at: '2025-11-30 22:05:52.370914'
+  factor_trigger: planet_mars
+  role: 主干
+  snippet_id: ns_innersky_mars_001
+  snippet_text: Mars is the warrior of the birthchart—the planet of action, courage,
+    will, and desire. It enables decisive action and overcoming obstacles through
+    directed force.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Mars'
+  trigger: planet_mars
+- extracted_at: '2025-11-30 22:05:52.370921'
+  factor_trigger: planet_mars
+  role: 主干依赖
+  snippet_id: ns_innersky_mars_002
+  snippet_text: Mars is the soldier to the Sun's general—it executes the will. Without
+    Mars, we know what we want but cannot act. With Mars, desire becomes deed.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Mars'
+  trigger: planet_mars AND function
+- extracted_at: '2025-11-30 22:05:52.370928'
+  factor_trigger: planet_mars
+  role: 条件分支
+  snippet_id: ns_innersky_mars_003
+  snippet_text: Mars governs sexuality as assertive desire (vs Venus's receptive attraction).
+    It represents the aggressive, penetrating aspect of sexual energy.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Mars'
+  trigger: planet_mars AND sexuality
+- extracted_at: '2025-11-30 22:05:52.370934'
+  factor_trigger: planet_mars AND state_dysfunction
+  role: 总结
+  snippet_id: ns_innersky_mars_004
+  snippet_text: 'Dysfunction: aggression (uncontrolled anger), recklessness (action
+    without thought), violence (force without purpose), cowardice (Mars denied).'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Mars'
+  trigger: planet_mars AND shadow
+- extracted_at: '2025-11-30 22:05:52.370945'
+  factor_trigger: the_inne_mars_warrior
+  role: 主干
+  snippet_id: ns_forrest_009
+  snippet_text: Mars is the warrior—our capacity for assertive action, for overcoming
+    obstacles, for courage under fire.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: mars_warrior
+- extracted_at: '2025-11-30 22:05:52.370952'
+  factor_trigger: the_inne_mars_vs_sun
+  role: 主干依赖
+  snippet_id: ns_forrest_010
+  snippet_text: Sun is the general; Mars is the soldier executing—Sun determines purpose,
+    Mars delivers the action.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: mars_vs_sun
+- extracted_at: '2025-11-30 22:05:52.370960'
+  factor_trigger: the_inne_mars_feeding
+  role: 条件分支
+  snippet_id: ns_forrest_011
+  snippet_text: Mars by sign reveals how to channel warrior energy—Capricorn needs
+    disciplined challenges, Pisces needs spiritual battles.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: mars_feeding
+- extracted_at: '2025-11-30 22:05:52.370967'
+  factor_trigger: the_inne_mars_shadow
+  role: 总结
+  snippet_id: ns_forrest_012
+  snippet_text: Mars dysfunction = aggression, violence, impulsiveness, anger—warrior
+    energy without wisdom or restraint.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: mars_shadow
+- extracted_at: '2025-11-30 22:05:52.370980'
+  factor_trigger: planet_jupiter
+  role: 主干
+  snippet_id: ns_innersky_jupiter_001
+  snippet_text: Jupiter is the Great Benefic—the planet of faith, expansion, and wisdom.
+    It's the largest planet yet moves with surprising speed, symbolizing magnitude
+    and momentum.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Jupiter'
+  trigger: planet_jupiter
+- extracted_at: '2025-11-30 22:05:52.370987'
+  factor_trigger: planet_jupiter
+  role: 主干依赖
+  snippet_id: ns_innersky_jupiter_002
+  snippet_text: 'Jupiter represents the antidote to fear—optimism, faith, and the
+    belief that life has meaning. Its strategy is to seek: travel, learn, teach, expand.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Jupiter'
+  trigger: planet_jupiter AND function
+- extracted_at: '2025-11-30 22:05:52.370994'
+  factor_trigger: planet_jupiter AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_jupiter_003
+  snippet_text: 'Dysfunction: excess (too much of good thing), arrogance (inflate
+    ego with faith), dogmatism (believe without questioning), overconfidence, bloat.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Jupiter'
+  trigger: planet_jupiter AND shadow
+- extracted_at: '2025-11-30 22:05:52.371001'
+  factor_trigger: planet_jupiter AND planet_saturn
+  role: 总结
+  snippet_id: ns_innersky_jupiter_004
+  snippet_text: Jupiter works best when balanced with Saturn—Jupiter provides vision,
+    Saturn provides structure. Together they create sustainable growth without explosion
+    or collapse.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Jupiter'
+  trigger: planet_jupiter AND balance
+- extracted_at: '2025-11-30 22:05:52.371015'
+  factor_trigger: the_inne_jupiter_faith
+  role: 主干
+  snippet_id: ns_forrest_021
+  snippet_text: Jupiter is the planet of faith. Not necessarily religious faith—although
+    that's one possibility. More fundamentally, Jupiter represents our capacity to
+    believe that life has meaning, that the future holds promise, that we are part
+    of something larger than ourselves.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: jupiter_faith
+- extracted_at: '2025-11-30 22:05:52.371023'
+  factor_trigger: the_inne_jupiter_benefic
+  role: 主干依赖
+  snippet_id: ns_forrest_022
+  snippet_text: 'The Great Benefic: that is Jupiter''s ancient title. Wherever Jupiter
+    stands in the birthchart, we find natural luck, ease, opportunity.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: jupiter_benefic
+- extracted_at: '2025-11-30 22:05:52.371031'
+  factor_trigger: the_inne_jupiter_think_b
+  role: 条件分支
+  snippet_id: ns_forrest_023
+  snippet_text: Jupiter sees broad views and long-term patterns—antidote to fear,
+    asking not "Can I do this?" but "What if I tried?"
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: jupiter_think_big
+- extracted_at: '2025-11-30 22:05:52.371038'
+  factor_trigger: the_inne_jupiter_shadow
+  role: 总结
+  snippet_id: ns_forrest_024
+  snippet_text: Jupiter's shadow is excess and arrogance—"more is better" overindulgence,
+    grandiosity, and dogmatism when expansion ignores reality.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: jupiter_shadow
+- extracted_at: '2025-11-30 22:05:52.371052'
+  factor_trigger: planet_saturn
+  role: 主干
+  snippet_id: ns_innersky_saturn_001
+  snippet_text: Saturn is the Great Malefic—the planet of discipline, limitation,
+    and time. Its 29.5 year orbit symbolizes patience, sustained effort, and the long
+    game.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Saturn'
+  trigger: planet_saturn
+- extracted_at: '2025-11-30 22:05:52.371059'
+  factor_trigger: planet_saturn
+  role: 主干依赖
+  snippet_id: ns_innersky_saturn_002
+  snippet_text: Saturn strips away the false and unsustainable, leaving only what
+    is real. Its gifts—mastery, maturity, authority—come only through work, never
+    for free.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Saturn'
+  trigger: planet_saturn AND function
+- extracted_at: '2025-11-30 22:05:52.371066'
+  factor_trigger: planet_saturn AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_saturn_003
+  snippet_text: 'Dysfunction: fear (paralysis before difficulty), harshness (cruel
+    taskmaster), depression (crushed by limitation), rigidity (refusing to adapt).'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Saturn'
+  trigger: planet_saturn AND shadow
+- extracted_at: '2025-11-30 22:05:52.371073'
+  factor_trigger: planet_saturn AND transit_return
+  role: 总结
+  snippet_id: ns_innersky_saturn_004
+  snippet_text: 'Saturn Return (age 29-30): "Are you living your true life? Doing
+    your real work? Or coasting on potential?" Strips away the false, reveals the
+    real. Challenging but clarifying.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Saturn'
+  trigger: planet_saturn AND return
+- extracted_at: '2025-11-30 22:05:52.371085'
+  factor_trigger: the_inne_saturn_reality
+  role: 主干
+  snippet_id: ns_forrest_025
+  snippet_text: 'Saturn is the planet of reality—cold, hard, inescapable reality:
+    limitation, responsibility, aging, death, failure, hard work, delayed gratification.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: saturn_reality
+- extracted_at: '2025-11-30 22:05:52.371093'
+  factor_trigger: the_inne_saturn_malefic
+  role: 主干依赖
+  snippet_id: ns_forrest_026
+  snippet_text: 'The Great Malefic: wherever Saturn stands in the birthchart, we find
+    challenges, obstacles, areas of life where nothing comes easily.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: saturn_malefic
+- extracted_at: '2025-11-30 22:05:52.371101'
+  factor_trigger: the_inne_saturn_pay_dues
+  role: 条件分支
+  snippet_id: ns_forrest_027
+  snippet_text: Saturn says "grow up," "face consequences," "work for what you want"—no
+    shortcuts; anything worth having takes time and effort.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: saturn_pay_dues
+- extracted_at: '2025-11-30 22:05:52.371109'
+  factor_trigger: the_inne_saturn_return
+  role: 总结
+  snippet_id: ns_forrest_028
+  snippet_text: The Saturn Return at 29–30 strips away false structures and asks whether
+    you are living authentically or just coasting on potential.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: saturn_return
+- extracted_at: '2025-11-30 22:05:52.371121'
+  factor_trigger: planet_uranus
+  role: 主干
+  snippet_id: ns_innersky_uranus_001
+  snippet_text: Uranus is the planet of individuality, rebellion, and freedom beyond
+    Saturn's structures. It belongs to the "invisible planets"—requiring conscious
+    work for constructive expression.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Uranus'
+  trigger: planet_uranus
+- extracted_at: '2025-11-30 22:05:52.371128'
+  factor_trigger: planet_uranus
+  role: 主干依赖
+  snippet_id: ns_innersky_uranus_002
+  snippet_text: Uranus questions authority, breaks dead rules, transcends cultural
+    programming. It develops individuality distinct from personality masks.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Uranus'
+  trigger: planet_uranus AND function
+- extracted_at: '2025-11-30 22:05:52.371134'
+  factor_trigger: planet_uranus AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_uranus_003
+  snippet_text: 'Shadow: contrariness (opposing just to oppose), unreliability, egoic
+    rebellion that harms relationships—rebellion without purpose.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Uranus'
+  trigger: planet_uranus AND shadow
+- extracted_at: '2025-11-30 22:05:52.371141'
+  factor_trigger: planet_uranus
+  role: 总结
+  snippet_id: ns_innersky_uranus_004
+  snippet_text: Chart position shows where essence and culture are in ongoing tension—where
+    being true to self requires breaking free from collective programming.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Uranus'
+  trigger: planet_uranus AND chart
+- extracted_at: '2025-11-30 22:05:52.371153'
+  factor_trigger: the_inne_uranus_invisibl
+  role: 主干
+  snippet_id: ns_forrest_029
+  snippet_text: Uranus, Neptune, and Pluto represent only possibilities—no positive
+    manifestation of their functions can ever be triggered automatically; without
+    conscious work we see only their shadows.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: uranus_invisible_planet
+- extracted_at: '2025-11-30 22:05:52.371161'
+  factor_trigger: the_inne_uranus_individu
+  role: 主干依赖
+  snippet_id: ns_forrest_030
+  snippet_text: Uranus is the planet of individuality and freedom—the inner outlaw
+    that refuses to be flattened by culture, rules, or "Miss Manners."
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: uranus_individuality
+- extracted_at: '2025-11-30 22:05:52.371170'
+  factor_trigger: the_inne_uranus_question
+  role: 条件分支
+  snippet_id: ns_forrest_031
+  snippet_text: Positively, Uranus develops individuality and the capacity to question
+    authority and transcend cultural programming, breaking dead rules in order to
+    be true to oneself.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: uranus_question_authority
+- extracted_at: '2025-11-30 22:05:52.371178'
+  factor_trigger: the_inne_uranus_shadow
+  role: 总结
+  snippet_id: ns_forrest_032
+  snippet_text: Shadow Uranus shows up as contrariness for its own sake—stubbornness,
+    unreliability, and rebellion that ignores other people’s feelings and serves only
+    ego.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: uranus_shadow
+- extracted_at: '2025-11-30 22:05:52.371188'
+  factor_trigger: planet_neptune
+  role: 主干
+  snippet_id: ns_innersky_neptune_001
+  snippet_text: Neptune represents consciousness-beyond-ego—the function that decentralizes
+    the sense of "I" and opens awareness to a larger field. It orients the mind toward
+    myth rather than concrete viewpoints.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Neptune'
+  trigger: planet_neptune
+- extracted_at: '2025-11-30 22:05:52.371195'
+  factor_trigger: planet_neptune
+  role: 主干依赖
+  snippet_id: ns_innersky_neptune_002
+  snippet_text: Neptune generates compassion, mystical experience, artistic inspiration,
+    and the sense that all identities are ultimately mistaken. It sees the blank screen
+    behind all masks.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Neptune'
+  trigger: planet_neptune AND function
+- extracted_at: '2025-11-30 22:05:52.371202'
+  factor_trigger: planet_neptune AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_neptune_003
+  snippet_text: 'Shadow: confusion (unable to distinguish fantasy from reality), escapism
+    (addiction, avoidance), glamorous delusion (wishful thinking), loss of structure.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Neptune'
+  trigger: planet_neptune AND shadow
+- extracted_at: '2025-11-30 22:05:52.371210'
+  factor_trigger: planet_neptune
+  role: 总结
+  snippet_id: ns_innersky_neptune_004
+  snippet_text: Chart position marks an exposed nerve—the area of greatest visionary
+    sensitivity but also greatest vulnerability to disorder and escape, needing both
+    openness and grounding.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Neptune'
+  trigger: planet_neptune AND chart
+- extracted_at: '2025-11-30 22:05:52.371221'
+  factor_trigger: the_inne_neptune_pure_co
+  role: 主干
+  snippet_id: ns_forrest_033
+  snippet_text: Neptune is the planet of consciousness itself—not the contents of
+    consciousness, but just consciousness, the blank slate that simply watches.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: neptune_pure_consciousness
+- extracted_at: '2025-11-30 22:05:52.371230'
+  factor_trigger: the_inne_neptune_mythic_
+  role: 主干依赖
+  snippet_id: ns_forrest_034
+  snippet_text: 'The mind under Neptune organizes itself around myth: we enter the
+    theater of the world and play a part, while something in us stands apart and never
+    forgets it is only a play.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: neptune_mythic_self_image
+- extracted_at: '2025-11-30 22:05:52.371239'
+  factor_trigger: the_inne_neptune_exposed
+  role: 条件分支
+  snippet_id: ns_forrest_035
+  snippet_text: Wherever Neptune lies in the birthchart we find an exposed nerve—an
+    extraordinarily sensitive, visionary place that refuses to accept the limitations
+    of the "real world."
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: neptune_exposed_nerve
+- extracted_at: '2025-11-30 22:05:52.371248'
+  factor_trigger: the_inne_neptune_shadow
+  role: 总结
+  snippet_id: ns_forrest_036
+  snippet_text: Neptune’s shadow appears as confusion, drifting, escapism, addiction,
+    and glamorous delusions when expanded awareness is not grounded in structure.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: neptune_shadow
+- extracted_at: '2025-11-30 22:05:52.371259'
+  factor_trigger: planet_pluto
+  role: 主干
+  snippet_id: ns_innersky_pluto_001
+  snippet_text: Pluto represents destiny, power, and existential transformation. It
+    takes us to the icy edge of the solar system where sun and earth shrink to insignificance,
+    confronting us with life's apparent futility.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Pluto'
+  trigger: planet_pluto
+- extracted_at: '2025-11-30 22:05:52.371268'
+  factor_trigger: planet_pluto
+  role: 主干依赖
+  snippet_id: ns_innersky_pluto_002
+  snippet_text: From this precipice, we either fall into nihilism or make a leap into
+    transpersonal meaning. Pluto demands we realize a deeper destiny, see through
+    narrow ego pursuits, and discern truth that truly matters.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Pluto'
+  trigger: planet_pluto AND function
+- extracted_at: '2025-11-30 22:05:52.371275'
+  factor_trigger: planet_pluto AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_pluto_003
+  snippet_text: 'Shadow: megalomania (inflated sense of mission), abuse of power (ruthless
+    "ends justify means"), nihilism and despair (refuse transformative work), destructive
+    obsession.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Pluto'
+  trigger: planet_pluto AND shadow
+- extracted_at: '2025-11-30 22:05:52.371282'
+  factor_trigger: planet_pluto
+  role: 总结
+  snippet_id: ns_innersky_pluto_004
+  snippet_text: Chart position marks arenas where power, death-rebirth, and collective
+    forces concentrate—where we are tempted to manipulate and dominate, or to surrender
+    to a transpersonal calling.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.6 #Pluto'
+  trigger: planet_pluto AND chart
+- extracted_at: '2025-11-30 22:05:52.371294'
+  factor_trigger: the_inne_pluto_face_futi
+  role: 主干
+  snippet_id: ns_forrest_037
+  snippet_text: To face Pluto is to face the elemental futility of life—seeing the
+    sun as nothing special, the earth as a dust mote, and ourselves as microbes scratching
+    out a moment’s existence.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: pluto_face_futility
+- extracted_at: '2025-11-30 22:05:52.371303'
+  factor_trigger: the_inne_pluto_leap_beyo
+  role: 主干依赖
+  snippet_id: ns_forrest_038
+  snippet_text: Confronted with Pluto’s brutal truth, we must leap beyond the melodramas
+    of personality and identify with something larger and more timeless—leave our
+    stamp on eternity, change the world.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: pluto_leap_beyond_personality
+- extracted_at: '2025-11-30 22:05:52.371312'
+  factor_trigger: the_inne_pluto_mission
+  role: 条件分支
+  snippet_id: ns_forrest_039
+  snippet_text: Pluto is the planet of vast dreams and world‑shaping visions—driven
+    by emptiness, it rips through safe routines and thrusts a sense of mission and
+    destiny into consciousness.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: pluto_mission
+- extracted_at: '2025-11-30 22:05:52.371320'
+  factor_trigger: the_inne_pluto_shadow_po
+  role: 总结
+  snippet_id: ns_forrest_040
+  snippet_text: Pluto’s shadow shows as megalomania, hunger for power, violence, and
+    "ends justify the means" thinking—or collapse into nihilism when we feel futility
+    but refuse transformation.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: pluto_shadow_power
+- extracted_at: '2025-11-30 22:05:52.371332'
+  factor_trigger: the_inne_client_feels_tr
+  role: 主干
+  snippet_id: ns_innersky_001
+  snippet_text: People change—the assumption that they do not is a lie running through
+    most astrological writing.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text para 1
+  trigger: client_feels_trapped_by_chart
+- extracted_at: '2025-11-30 22:05:52.371340'
+  factor_trigger: the_inne_fatalistic_sun_
+  role: 主干依赖
+  snippet_id: ns_innersky_002
+  snippet_text: '"Scorpios are sexy but untrustworthy; Capricorns are industrious"—these
+    labels freeze personality into machinery.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text para 1
+  trigger: fatalistic_sun_sign_cliche
+- extracted_at: '2025-11-30 22:05:52.371347'
+  factor_trigger: the_inne_difficult_aspec
+  role: 条件分支
+  snippet_id: ns_innersky_003
+  snippet_text: There is an indeterminacy, a wild card in life—this is the keystone
+    of any positive, evolutionary approach.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text para 1
+  trigger: difficult_aspect_reading
+- extracted_at: '2025-11-30 22:05:52.371356'
+  factor_trigger: the_inne_heavy_saturn_pl
+  role: 条件分支
+  snippet_id: ns_innersky_004
+  snippet_text: There may be an Everest of inertia within us, but astrology must speak
+    to that single atom of mutability.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text para 1
+  trigger: heavy_saturn_placement
+- extracted_at: '2025-11-30 22:05:52.371363'
+  factor_trigger: the_inne_growth_oriented
+  role: 条件分支
+  snippet_id: ns_innersky_005
+  snippet_text: Astrology must address the life in us, not the stasis—the living core
+    that can still respond creatively.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: growth_oriented_reading
+- extracted_at: '2025-11-30 22:05:52.371370'
+  factor_trigger: the_inne_client_self_dou
+  role: 总结
+  snippet_id: ns_innersky_006
+  snippet_text: A chart shows powerful habits, but there is always at least one point
+    where conscious choice can enter.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: client_self_doubt
+- extracted_at: '2025-11-30 22:05:52.371386'
+  factor_trigger: the_inne_explaining_rule
+  role: 主干
+  snippet_id: ns_innersky_007
+  snippet_text: Rulership is not about dominance—it would be more accurate to say
+    the planet and sign "like each other."
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: explaining_rulership
+- extracted_at: '2025-11-30 22:05:52.371393'
+  factor_trigger: the_inne_planet_in_own_s
+  role: 主干依赖
+  snippet_id: ns_innersky_008
+  snippet_text: When a planet lies in its own sign, we are presented with a very clear
+    expression of both.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: planet_in_own_sign
+- extracted_at: '2025-11-30 22:05:52.371400'
+  factor_trigger: the_inne_planet_in_fall
+  role: 条件分支
+  snippet_id: ns_innersky_009
+  snippet_text: In its fall, both planet and sign must bend a great deal to achieve
+    any common ground for expression.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: planet_in_fall
+- extracted_at: '2025-11-30 22:05:52.371408'
+  factor_trigger: the_inne_weighting_chart
+  role: 总结
+  snippet_id: ns_innersky_010
+  snippet_text: Rulerships help us gauge the relative strengths of all the phrases—which
+    bits are most influential.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: weighting_chart_factors
+- extracted_at: '2025-11-30 22:05:52.371415'
+  factor_trigger: the_inne_mars_in_aries
+  role: 主干
+  snippet_id: ns_innersky_011
+  snippet_text: Fiery Mars loves being in Aries, the sign of the Warrior—and has trouble
+    relating to gentle Libra.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: mars_in_aries
+- extracted_at: '2025-11-30 22:05:52.371423'
+  factor_trigger: the_inne_outer_planet_ru
+  role: 主干依赖
+  snippet_id: ns_innersky_012
+  snippet_text: The old rulerships work; no need to do away with them. Yet Uranus,
+    Neptune, Pluto also have obvious links to certain signs.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: outer_planet_rulership
+- extracted_at: '2025-11-30 22:05:52.371438'
+  factor_trigger: the_inne_explaining_aspe
+  role: 主干
+  snippet_id: ns_innersky_013
+  snippet_text: Aspects are the laws of grammar that govern how planets must be hooked
+    together into coherent sentences.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: explaining_aspects
+- extracted_at: '2025-11-30 22:05:52.371445'
+  factor_trigger: the_inne_conjunction_rea
+  role: 主干依赖
+  snippet_id: ns_innersky_014
+  snippet_text: In a conjunction, two functions are grafted together—fusion is the
+    essence; two bits become one.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: conjunction_reading
+- extracted_at: '2025-11-30 22:05:52.371453'
+  factor_trigger: the_inne_opposition_read
+  role: 条件分支
+  snippet_id: ns_innersky_015
+  snippet_text: Opposition produces enormous tension, but that tension can add profound
+    depth and resiliency to the chart.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: opposition_reading
+- extracted_at: '2025-11-30 22:05:52.371460'
+  factor_trigger: the_inne_square_reading
+  role: 总结
+  snippet_id: ns_innersky_016
+  snippet_text: Squares produce relentless developmental pressure—don't look for ways
+    to resolve them; you won't find them.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: square_reading
+- extracted_at: '2025-11-30 22:05:52.371467'
+  factor_trigger: the_inne_trine_reading
+  role: 主干
+  snippet_id: ns_innersky_017
+  snippet_text: Trines represent areas with almost unlimited potential for growth—but
+    we must awaken them.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: trine_reading
+- extracted_at: '2025-11-30 22:05:52.371474'
+  factor_trigger: the_inne_sextile_reading
+  role: 主干依赖
+  snippet_id: ns_innersky_018
+  snippet_text: Sextiles produce excitation and liveliness, but their Achilles' heel
+    is slowness to recognize fundamental weaknesses.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: sextile_reading
+- extracted_at: '2025-11-30 22:05:52.371488'
+  factor_trigger: the_inne_client_seeks_pr
+  role: 主干
+  snippet_id: ns_innersky_019
+  snippet_text: Astrological forces present us not with answers but with questions—the
+    answers we give are our own.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: client_seeks_prediction
+- extracted_at: '2025-11-30 22:05:52.371494'
+  factor_trigger: the_inne_chart_reading_p
+  role: 主干依赖
+  snippet_id: ns_innersky_020
+  snippet_text: Astrology supplies the terrain; how we navigate it is our own business.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: chart_reading_purpose
+- extracted_at: '2025-11-30 22:05:52.371502'
+  factor_trigger: the_inne_optimal_life_gu
+  role: 条件分支
+  snippet_id: ns_innersky_021
+  snippet_text: Astrology can vividly portray the happiest life available to us—a
+    map of optimal possibilities.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: optimal_life_guidance
+- extracted_at: '2025-11-30 22:05:52.371509'
+  factor_trigger: the_inne_talent_inventor
+  role: 总结
+  snippet_id: ns_innersky_022
+  snippet_text: Astrology tells us what tools we have available for the job and how
+    best to employ them.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: talent_inventory
+- extracted_at: '2025-11-30 22:05:52.371516'
+  factor_trigger: the_inne_warning_signs
+  role: 主干
+  snippet_id: ns_innersky_023
+  snippet_text: Astrology warns us in advance about how our lives look when we are
+    getting off the mark.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: warning_signs
+- extracted_at: '2025-11-30 22:05:52.371524'
+  factor_trigger: the_inne_responsibility_
+  role: 主干依赖
+  snippet_id: ns_innersky_024
+  snippet_text: Those astrologers trying to determine behavior from birthcharts have
+    been barking up the wrong tree.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: responsibility_reminder
+- extracted_at: '2025-11-30 22:05:52.371536'
+  factor_trigger: the_inne_good_bad_chart_
+  role: 主干
+  snippet_id: ns_innersky_025
+  snippet_text: Astrological symbols are neutral—there are no good ones, no bad ones.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: good_bad_chart_question
+- extracted_at: '2025-11-30 22:05:52.371543'
+  factor_trigger: the_inne_client_blames_c
+  role: 主干依赖
+  snippet_id: ns_innersky_026
+  snippet_text: Individuals are responsible for the way they embody their birthcharts.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: client_blames_chart
+- extracted_at: '2025-11-30 22:05:52.371551'
+  factor_trigger: the_inne_predicting_beha
+  role: 条件分支
+  snippet_id: ns_innersky_027
+  snippet_text: No astrologer can determine a person's level of response from the
+    birthchart alone.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: predicting_behavior
+- extracted_at: '2025-11-30 22:05:52.371558'
+  factor_trigger: the_inne_growth_blueprin
+  role: 总结
+  snippet_id: ns_innersky_028
+  snippet_text: The birthchart is a blueprint for the happiest, most fulfilling, most
+    spiritually creative path of growth.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: growth_blueprint
+- extracted_at: '2025-11-30 22:05:52.371565'
+  factor_trigger: the_inne_client_feels_an
+  role: 主干
+  snippet_id: ns_innersky_029
+  snippet_text: Deviations from the ideal growth pattern are usually accompanied by
+    aimlessness, emptiness, and anxiety.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: client_feels_anxious
+- extracted_at: '2025-11-30 22:05:52.371572'
+  factor_trigger: the_inne_metaphysical_de
+  role: 主干依赖
+  snippet_id: ns_innersky_030
+  snippet_text: Nothing in the system matters except the intensification of a person's
+    self-awareness.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: metaphysical_debate
+- extracted_at: '2025-11-30 22:05:52.371580'
+  factor_trigger: the_inne_astrology_neces
+  role: 条件分支
+  snippet_id: ns_innersky_031
+  snippet_text: Nothing can be learned from a birthchart that could not be learned
+    someplace else.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: astrology_necessity_question
+- extracted_at: '2025-11-30 22:05:52.371587'
+  factor_trigger: the_inne_alternative_gro
+  role: 总结
+  snippet_id: ns_innersky_032
+  snippet_text: Go into psychotherapy, meditate in a monastery, fall in love—any of
+    those might do the same thing.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: alternative_growth_path
+- extracted_at: '2025-11-30 22:05:52.371594'
+  factor_trigger: the_inne_speed_advantage
+  role: 主干
+  snippet_id: ns_innersky_033
+  snippet_text: Astrology's principal advantage is speed—it compresses years of trial
+    and error into concentrated insight.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: speed_advantage
+- extracted_at: '2025-11-30 22:05:52.371601'
+  factor_trigger: the_inne_insight_integra
+  role: 主干依赖
+  snippet_id: ns_innersky_034
+  snippet_text: All that fine information can go in one ear and out the other.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: insight_integration
+- extracted_at: '2025-11-30 22:05:52.371608'
+  factor_trigger: the_inne_responsibility_
+  role: 条件分支
+  snippet_id: ns_innersky_035
+  snippet_text: Astrology does not change people any more than psychotherapy changes
+    people—people change themselves.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: responsibility_for_change
+- extracted_at: '2025-11-30 22:05:52.371616'
+  factor_trigger: the_inne_realistic_expec
+  role: 总结
+  snippet_id: ns_innersky_036
+  snippet_text: Astrology is just one more path to self-knowledge, with certain advantages
+    and disadvantages.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: realistic_expectations
+- extracted_at: '2025-11-30 22:05:52.371623'
+  factor_trigger: the_inne_peace_seeking
+  role: 主干
+  snippet_id: ns_innersky_037
+  snippet_text: Peace is the objective—but it arises only when we align outer personality
+    with inner essence.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: peace_seeking
+- extracted_at: '2025-11-30 22:05:52.371630'
+  factor_trigger: the_inne_hedonistic_astr
+  role: 主干依赖
+  snippet_id: ns_innersky_038
+  snippet_text: 'Astrology is hedonistic: all that matters to it is happiness and
+    the relief of suffering.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: hedonistic_astrology
+- extracted_at: '2025-11-30 22:05:52.371637'
+  factor_trigger: the_inne_mirror_metaphor
+  role: 条件分支
+  snippet_id: ns_innersky_039
+  snippet_text: A mirror reflecting life, astrology observes but does not interpret—it
+    simply shows us who we are.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: mirror_metaphor
+- extracted_at: '2025-11-30 22:05:52.371644'
+  factor_trigger: the_inne_releasing_scrip
+  role: 总结
+  snippet_id: ns_innersky_040
+  snippet_text: We must let go of those social scripts that upset us and grow toward
+    our true nature.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: releasing_scripts
+- extracted_at: '2025-11-30 22:05:52.371652'
+  factor_trigger: the_inne_witnessing_self
+  role: 主干
+  snippet_id: ns_innersky_041
+  snippet_text: Through astrology we stand outside our personalities and witness the
+    central core around which all minutiae orbit.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: witnessing_self
+- extracted_at: '2025-11-30 22:05:52.371659'
+  factor_trigger: the_inne_self_reminder
+  role: 主干依赖
+  snippet_id: ns_innersky_042
+  snippet_text: Astrology helps us feel better by reminding us of who we are beneath
+    the roles and programming.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: self_reminder
+- extracted_at: '2025-11-30 22:05:52.371673'
+  factor_trigger: the_inne_interpretive_me
+  role: 主干
+  snippet_id: ns_innersky_048
+  snippet_text: Always look first to the planet (the what), then use the sign (how
+    and why), finally look at the house (where).
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: interpretive_method
+- extracted_at: '2025-11-30 22:05:52.371680'
+  factor_trigger: the_inne_planet_sign_com
+  role: 主干依赖
+  snippet_id: ns_innersky_049
+  snippet_text: An aggressive planet in a sign of courage produces an assertive personality—but
+    we need the house to see where it manifests.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: planet_sign_combo
+- extracted_at: '2025-11-30 22:05:52.371687'
+  factor_trigger: the_inne_house_release
+  role: 条件分支
+  snippet_id: ns_innersky_050
+  snippet_text: The house tells us precisely which department of life the battle is
+    taking place.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: house_release
+- extracted_at: '2025-11-30 22:05:52.371694'
+  factor_trigger: the_inne_reading_sequenc
+  role: 总结
+  snippet_id: ns_innersky_051
+  snippet_text: Unlocking the interactions of signs, planets, and houses is the key
+    to unlocking the secrets of the birthchart.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: reading_sequence
+- extracted_at: '2025-11-30 22:05:52.371702'
+  factor_trigger: the_inne_where_question
+  role: 主干
+  snippet_id: ns_innersky_052
+  snippet_text: Without the house, we only know energy exists; with the house, we
+    see where it expresses and where work is needed.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: English Paraphrase
+  trigger: where_question
+- extracted_at: '2025-11-30 22:05:52.371715'
+  factor_trigger: the_inne_symbol_system_i
+  role: 主干
+  snippet_id: ns_innersky_043
+  snippet_text: Signs, houses, and planets form astrology's holy trinity—each answers
+    a distinct set of questions.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: symbol_system_intro
+- extracted_at: '2025-11-30 22:05:52.371727'
+  factor_trigger: the_inne_sign_definition
+  role: 主干依赖
+  snippet_id: ns_innersky_044
+  snippet_text: Signs are identity—the psychological framework of needs, fears, attitudes,
+    and biases with which we attack life.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: sign_definition
+- extracted_at: '2025-11-30 22:05:52.371735'
+  factor_trigger: the_inne_house_definitio
+  role: 条件分支
+  snippet_id: ns_innersky_045
+  snippet_text: Houses indicate problems and issues—they represent tasks we must face
+    in specific arenas of life.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: house_definition
+- extracted_at: '2025-11-30 22:05:52.371742'
+  factor_trigger: the_inne_planet_definiti
+  role: 总结
+  snippet_id: ns_innersky_046
+  snippet_text: Planets represent the actual structure of the mind—each symbolizes
+    a particular psychological function.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: planet_definition
+- extracted_at: '2025-11-30 22:05:52.371750'
+  factor_trigger: the_inne_three_dimension
+  role: 主干
+  snippet_id: ns_innersky_047
+  snippet_text: Without all three systems, astrology could not exist; lacking one,
+    it could have breadth and height, but no depth.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: three_dimensions
+- extracted_at: '2025-11-30 22:05:52.371763'
+  factor_trigger: the_inne_cookbook_astrol
+  role: 主干
+  snippet_id: ns_innersky_053
+  snippet_text: Phrase-book astrology produces fast results but bad ones—there is
+    no life in them.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: cookbook_astrology
+- extracted_at: '2025-11-30 22:05:52.371770'
+  factor_trigger: the_inne_learning_astrol
+  role: 主干依赖
+  snippet_id: ns_innersky_054
+  snippet_text: Learning the language is not hard; as languages go, astrology is an
+    easy one—only 34 words.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: learning_astrology
+- extracted_at: '2025-11-30 22:05:52.371778'
+  factor_trigger: the_inne_holistic_readin
+  role: 条件分支
+  snippet_id: ns_innersky_055
+  snippet_text: We must learn to grasp the birthchart as a whole, just as a doctor
+    sees the body as an interacting system.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: holistic_reading
+- extracted_at: '2025-11-30 22:05:52.371786'
+  factor_trigger: the_inne_creative_interp
+  role: 总结
+  snippet_id: ns_innersky_056
+  snippet_text: Interpretation is not mechanical; creativity, inspiration, and intuition
+    are the vital spark at the core.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: creative_interpretation
+- extracted_at: '2025-11-30 22:05:52.371792'
+  factor_trigger: the_inne_symbol_reading
+  role: 主干
+  snippet_id: ns_innersky_057
+  snippet_text: To use the birthchart you must learn a lost art—you must become a
+    symbol reader.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: symbol_reading
+- extracted_at: '2025-11-30 22:05:52.371806'
+  factor_trigger: the_inne_chart_definitio
+  role: 主干
+  snippet_id: ns_innersky_058
+  snippet_text: A birthchart is a unique arrangement of signs, houses, and planets—a
+    particular combination representing the individual.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: chart_definition
+- extracted_at: '2025-11-30 22:05:52.371814'
+  factor_trigger: the_inne_vocabulary_size
+  role: 主干依赖
+  snippet_id: ns_innersky_059
+  snippet_text: Only about three dozen words in astrology's vocabulary, but grammar
+    and syntax combine them in nearly endless ways.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: vocabulary_size
+- extracted_at: '2025-11-30 22:05:52.371821'
+  factor_trigger: the_inne_physical_chart
+  role: 条件分支
+  snippet_id: ns_innersky_060
+  snippet_text: Physically, a birthchart is simply a map showing how the celestial
+    bodies were arranged at the moment of birth.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: physical_chart
+- extracted_at: '2025-11-30 22:05:52.371828'
+  factor_trigger: the_inne_nature_basis
+  role: 总结
+  snippet_id: ns_innersky_061
+  snippet_text: Astrology's symbolism does not arise from personal theories—it is
+    rooted in nature, just as we are.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: nature_basis
+- extracted_at: '2025-11-30 22:05:52.371836'
+  factor_trigger: the_inne_beyond_culture
+  role: 主干
+  snippet_id: ns_innersky_062
+  snippet_text: The chart stands beyond personal prejudices, beyond the mythologies
+    of any culture—its foundation is far more primal.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: beyond_culture
+- extracted_at: '2025-11-30 22:05:52.371849'
+  factor_trigger: the_inne_birth_time_impo
+  role: 主干
+  snippet_id: ns_innersky_063
+  snippet_text: Time of birth is a critical factor—it completely alters the shape
+    of the birthchart.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: birth_time_importance
+- extracted_at: '2025-11-30 22:05:52.371857'
+  factor_trigger: the_inne_sign_vs_house
+  role: 主干依赖
+  snippet_id: ns_innersky_064
+  snippet_text: The sun's sign position is not affected by time of day, but house
+    position changes dramatically in hours.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: sign_vs_house
+- extracted_at: '2025-11-30 22:05:52.371864'
+  factor_trigger: the_inne_houses_horizon
+  role: 条件分支
+  snippet_id: ns_innersky_065
+  snippet_text: Houses are linked to the local horizon, while signs are linked to
+    space itself—a good way to keep them separated.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: houses_horizon
+- extracted_at: '2025-11-30 22:05:52.371872'
+  factor_trigger: the_inne_chart_resolutio
+  role: 总结
+  snippet_id: ns_innersky_066
+  snippet_text: The date establishes signs to planets; we need the exact time to add
+    the crucial element of houses.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: chart_resolution
+- extracted_at: '2025-11-30 22:05:52.371879'
+  factor_trigger: the_inne_same_sign_diffe
+  role: 主干
+  snippet_id: ns_innersky_067
+  snippet_text: Same Libra sun could lie in the sixth house or fourth house depending
+    on birth time.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: same_sign_different_house
+- extracted_at: '2025-11-30 22:05:52.371892'
+  factor_trigger: the_inne_prime_symbol
+  role: 主干
+  snippet_id: ns_innersky_068
+  snippet_text: The sky is astrology's prime symbol—the bedrock from which the entire
+    language of the birthchart arises.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: prime_symbol
+- extracted_at: '2025-11-30 22:05:52.371899'
+  factor_trigger: the_inne_poetry_of_astro
+  role: 主干依赖
+  snippet_id: ns_innersky_069
+  snippet_text: Astrology is the poetry of astronomy—it pursues meaning rather than
+    structure.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: poetry_of_astronomy
+- extracted_at: '2025-11-30 22:05:52.371906'
+  factor_trigger: the_inne_universal_sky
+  role: 条件分支
+  snippet_id: ns_innersky_070
+  snippet_text: We all stand beneath the same sky—like breathing, like death, it binds
+    us together and reminds us of our common humanity.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: universal_sky
+- extracted_at: '2025-11-30 22:05:52.371914'
+  factor_trigger: the_inne_meaning_vs_form
+  role: 总结
+  snippet_id: ns_innersky_071
+  snippet_text: Astronomers seek to know the form of the heavens; astrologers pursue
+    their meaning.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: meaning_vs_form
+- extracted_at: '2025-11-30 22:05:52.371921'
+  factor_trigger: the_inne_infinity_symbol
+  role: 主干
+  snippet_id: ns_innersky_072
+  snippet_text: The sky represents infinity and perfection, timelessness and universality.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: infinity_symbol
+- extracted_at: '2025-11-30 22:05:52.371928'
+  factor_trigger: the_inne_awe_response
+  role: 主干依赖
+  snippet_id: ns_innersky_073
+  snippet_text: The emotional response of awe is a legitimate starting point for symbolic
+    interpretation.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: awe_response
+- extracted_at: '2025-11-30 22:05:52.371935'
+  factor_trigger: the_inne_common_humanity
+  role: 条件分支
+  snippet_id: ns_innersky_074
+  snippet_text: A shared sky underpins the idea of common humanity across cultures.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: common_humanity
+- extracted_at: '2025-11-30 22:05:52.371942'
+  factor_trigger: the_inne_cultural_metaph
+  role: 总结
+  snippet_id: ns_innersky_075
+  snippet_text: Different cultural metaphors arise from the shared prime symbol of
+    the sky.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: cultural_metaphors
+- extracted_at: '2025-11-30 22:05:52.371949'
+  factor_trigger: the_inne_universal_parti
+  role: 主干
+  snippet_id: ns_innersky_076
+  snippet_text: Content calibration must respect both the universal and the particular.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: universal_particular
+- extracted_at: '2025-11-30 22:05:52.371956'
+  factor_trigger: the_inne_sky_as_referenc
+  role: 主干依赖
+  snippet_id: ns_innersky_077
+  snippet_text: The sky serves as a reference point beyond any particular culture
+    or personality.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: Source Text
+  trigger: sky_as_reference
+- extracted_at: '2025-11-30 22:05:52.372102'
+  factor_trigger: sign_cancer
+  role: 主干
+  snippet_id: ns_innersky_cancer_001
+  snippet_text: The Crab. A creature with a hard shell protecting a soft interior.
+    Cancer has come into the world to create sanctuary—to build a place of safety,
+    nurturing, and belonging.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Cancer'
+  trigger: sign_cancer
+- extracted_at: '2025-11-30 22:05:52.372111'
+  factor_trigger: sign_cancer
+  role: 主干依赖
+  snippet_id: ns_innersky_cancer_002
+  snippet_text: 'The endpoint is emotional home: a felt sense of ''this is where I
+    belong.'' Cancer''s gift is nurturing capacity—instinctive caretaking that creates
+    safe spaces.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Cancer'
+  trigger: sign_cancer AND strength
+- extracted_at: '2025-11-30 22:05:52.372118'
+  factor_trigger: sign_cancer AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_cancer_003
+  snippet_text: 'Shadow: security needs become controlling (smothering), lunar emotional
+    fluctuations without explanation (moodiness), nostalgia prevents adaptation to
+    present.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Cancer'
+  trigger: sign_cancer AND shadow
+- extracted_at: '2025-11-30 22:05:52.372127'
+  factor_trigger: sign_cancer
+  role: 总结
+  snippet_id: ns_innersky_cancer_004
+  snippet_text: 'Evolutionary challenge: nurture without smothering, protect without
+    controlling, remember without clinging. Show vulnerable interior, be emotionally
+    courageous beneath protective shell.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Cancer'
+  trigger: sign_cancer AND challenge
+- extracted_at: '2025-11-30 22:05:52.372143'
+  factor_trigger: sign_leo
+  role: 主干
+  snippet_id: ns_innersky_leo_001
+  snippet_text: The Lion. Regal, confident, living boldly and warmly from the heart.
+    Leo has come to shine—to radiate inner light through creative self-expression
+    and generous celebration of life.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Leo'
+  trigger: sign_leo
+- extracted_at: '2025-11-30 22:05:52.372151'
+  factor_trigger: sign_leo
+  role: 主干依赖
+  snippet_id: ns_innersky_leo_002
+  snippet_text: Leo's gift is solar radiance—life-giving warmth that uplifts, encourages,
+    and celebrates. Deep belief in own value that is magnetic.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Leo'
+  trigger: sign_leo AND strength
+- extracted_at: '2025-11-30 22:05:52.372158'
+  factor_trigger: sign_leo AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_leo_003
+  snippet_text: 'Shadow: desperate need for recognition (vanity), confusion of confidence
+    with superiority (arrogance), everything becomes theatrical production (drama).'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Leo'
+  trigger: sign_leo AND shadow
+- extracted_at: '2025-11-30 22:05:52.372166'
+  factor_trigger: sign_leo
+  role: 总结
+  snippet_id: ns_innersky_leo_004
+  snippet_text: 'Evolutionary challenge: shine WITH others, not instead of them. Celebrate
+    everyone''s uniqueness. ''I am special, AND so are you. There is room for all
+    under the sun.'''
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Leo'
+  trigger: sign_leo AND challenge
+- extracted_at: '2025-11-30 22:05:52.372181'
+  factor_trigger: sign_virgo
+  role: 主干
+  snippet_id: ns_innersky_virgo_001
+  snippet_text: The Virgin. Not asexual, but self-complete—choosing to serve from
+    fullness, not lack. Virgo brings practical precision, humble craftsmanship, and
+    refinement to whatever it touches.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Virgo'
+  trigger: sign_virgo
+- extracted_at: '2025-11-30 22:05:52.372189'
+  factor_trigger: sign_virgo
+  role: 主干依赖
+  snippet_id: ns_innersky_virgo_002
+  snippet_text: 'Virgo''s gift is precision and dedication—eye for improvement, impulse
+    to fix what''s broken, satisfaction in a job well done. Highest expression: service
+    with skill and grace.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Virgo'
+  trigger: sign_virgo AND strength
+- extracted_at: '2025-11-30 22:05:52.372197'
+  factor_trigger: sign_virgo AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_virgo_003
+  snippet_text: 'Shadow: harsh inner critic attacks self and others (perfectionism),
+    analysis paralysis from impossible standards, anxiety, endless nitpicking that
+    poisons relationships.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Virgo'
+  trigger: sign_virgo AND shadow
+- extracted_at: '2025-11-30 22:05:52.372204'
+  factor_trigger: sign_virgo
+  role: 总结
+  snippet_id: ns_innersky_virgo_004
+  snippet_text: 'Evolutionary challenge: learn ''good enough is good enough''—let
+    perfection guide, not punish. Know when to refine and when to release.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Virgo'
+  trigger: sign_virgo AND challenge
+- extracted_at: '2025-11-30 22:05:52.372216'
+  factor_trigger: sign_libra
+  role: 主干
+  snippet_id: ns_innersky_libra_001
+  snippet_text: The Scales. Libra has come to learn the art of partnership—not just
+    romantic, but harmonious mutually beneficial relationships where both parties
+    grow.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Libra'
+  trigger: sign_libra
+- extracted_at: '2025-11-30 22:05:52.372222'
+  factor_trigger: sign_libra
+  role: 主干依赖
+  snippet_id: ns_innersky_libra_002
+  snippet_text: 'The endpoint is creative collaboration: two autonomous individuals
+    enhancing each other while remaining themselves. Mirroring, diplomacy, grace,
+    fairness.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Libra'
+  trigger: sign_libra AND strength
+- extracted_at: '2025-11-30 22:05:52.372229'
+  factor_trigger: sign_libra AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_libra_003
+  snippet_text: 'Shadow: codependency (lose self in other), indecisiveness (paralyzed
+    by options), passive aggression (smile while undermining).'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Libra'
+  trigger: sign_libra AND shadow
+- extracted_at: '2025-11-30 22:05:52.372236'
+  factor_trigger: sign_libra
+  role: 总结
+  snippet_id: ns_innersky_libra_004
+  snippet_text: True partnership requires two whole people, not two halves. The challenge
+    is to be fully oneself while being fully present with another.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Libra'
+  trigger: sign_libra AND challenge
+- extracted_at: '2025-11-30 22:05:52.372248'
+  factor_trigger: sign_scorpio
+  role: 主干
+  snippet_id: ns_innersky_scorpio_001
+  snippet_text: The Scorpion/Eagle/Phoenix. Scorpio has come to master transformation—learning
+    nothing lasts forever, all forms dissolve, in dissolution lies renewal seed.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Scorpio'
+  trigger: sign_scorpio
+- extracted_at: '2025-11-30 22:05:52.372254'
+  factor_trigger: sign_scorpio
+  role: 主干依赖
+  snippet_id: ns_innersky_scorpio_002
+  snippet_text: 'The endpoint is regeneration: capacity to die psychologically and
+    be reborn, again and again. Penetration, courage into darkness, magnetic intensity.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Scorpio'
+  trigger: sign_scorpio AND strength
+- extracted_at: '2025-11-30 22:05:52.372261'
+  factor_trigger: sign_scorpio AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_scorpio_003
+  snippet_text: 'Shadow: vengefulness (strike back when hurt), obsession (fixated
+    on wound), control (manipulate from distrust).'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Scorpio'
+  trigger: sign_scorpio AND shadow
+- extracted_at: '2025-11-30 22:05:52.372267'
+  factor_trigger: sign_scorpio
+  role: 总结
+  snippet_id: ns_innersky_scorpio_004
+  snippet_text: Transform without destroying; use intensity for healing not harm.
+    Rise from ashes as Phoenix rather than strike as Scorpion.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Scorpio'
+  trigger: sign_scorpio AND challenge
+- extracted_at: '2025-11-30 22:05:52.372278'
+  factor_trigger: sign_sagittarius
+  role: 主干
+  snippet_id: ns_innersky_sagittarius_001
+  snippet_text: The Archer (Centaur). Sagittarius has come to discover meaning—not
+    just information but larger patterns, philosophical frameworks, truth giving life
+    purpose.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Sagittarius'
+  trigger: sign_sagittarius
+- extracted_at: '2025-11-30 22:05:52.372285'
+  factor_trigger: sign_sagittarius
+  role: 主干依赖
+  snippet_id: ns_innersky_sagittarius_002
+  snippet_text: 'The endpoint is wisdom: understanding, context, meaning beyond facts.
+    Expansion, teaching, faith, optimism, vision seeing possibilities.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Sagittarius'
+  trigger: sign_sagittarius AND strength
+- extracted_at: '2025-11-30 22:05:52.372292'
+  factor_trigger: sign_sagittarius AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_sagittarius_003
+  snippet_text: 'Shadow: dogmatism (arrogant certainty that one''s beliefs are absolute),
+    restlessness (perpetual tourist), recklessness (risks without considering consequences).'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Sagittarius'
+  trigger: sign_sagittarius AND shadow
+- extracted_at: '2025-11-30 22:05:52.372299'
+  factor_trigger: sign_sagittarius
+  role: 总结
+  snippet_id: ns_innersky_sagittarius_004
+  snippet_text: Truth is journey not destination; remain student while teaching. The
+    challenge is to hold strong convictions with humility.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Sagittarius'
+  trigger: sign_sagittarius AND challenge
+- extracted_at: '2025-11-30 22:05:52.372310'
+  factor_trigger: sign_capricorn
+  role: 主干
+  snippet_id: ns_innersky_capricorn_001
+  snippet_text: The Mountain Goat. Capricorn has come to achieve mastery—build something
+    enduring, earn recognition through accomplishment, reach top through merit.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Capricorn'
+  trigger: sign_capricorn
+- extracted_at: '2025-11-30 22:05:52.372468'
+  factor_trigger: sign_capricorn
+  role: 主干依赖
+  snippet_id: ns_innersky_capricorn_002
+  snippet_text: 'The endpoint is integrity: satisfaction of work well done, goals
+    honestly achieved. Systematic building, discipline, patience, realism, natural
+    authority.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Capricorn'
+  trigger: sign_capricorn AND strength
+- extracted_at: '2025-11-30 22:05:52.372476'
+  factor_trigger: sign_capricorn AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_capricorn_003
+  snippet_text: 'Shadow: emotional coldness (forget feelings amid duty), workaholism
+    (all duty no joy), status anxiety (desperate recognition-seeking).'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Capricorn'
+  trigger: sign_capricorn AND shadow
+- extracted_at: '2025-11-30 22:05:52.372482'
+  factor_trigger: sign_capricorn
+  role: 总结
+  snippet_id: ns_innersky_capricorn_004
+  snippet_text: Summit not the point—the climb is. Find meaning in work itself, not
+    just in arrival at the goal.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Capricorn'
+  trigger: sign_capricorn AND challenge
+- extracted_at: '2025-11-30 22:05:52.372494'
+  factor_trigger: sign_aquarius
+  role: 主干
+  snippet_id: ns_innersky_aquarius_001
+  snippet_text: The Water-Bearer (knowledge carrier). Aquarius has come to achieve
+    freedom—psychological liberation from tribal conditioning, autonomy to be completely
+    oneself.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Aquarius'
+  trigger: sign_aquarius
+- extracted_at: '2025-11-30 22:05:52.372501'
+  factor_trigger: sign_aquarius
+  role: 主干依赖
+  snippet_id: ns_innersky_aquarius_002
+  snippet_text: 'The endpoint is individuation: so fully oneself cannot be reduced
+    to any category. Genius, rebellion, objectivity, originality creating new paradigms.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Aquarius'
+  trigger: sign_aquarius AND strength
+- extracted_at: '2025-11-30 22:05:52.372507'
+  factor_trigger: sign_aquarius AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_aquarius_003
+  snippet_text: 'Shadow: perverse eccentricity (artificial quirks for quirks'' sake),
+    alienation (cold, unreachable), arrogance (contempt for "unenlightened" masses).'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Aquarius'
+  trigger: sign_aquarius AND shadow
+- extracted_at: '2025-11-30 22:05:52.372514'
+  factor_trigger: sign_aquarius
+  role: 总结
+  snippet_id: ns_innersky_aquarius_004
+  snippet_text: True freedom includes freedom to connect; warmth without losing independence.
+    The challenge is to be different while still belonging.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Aquarius'
+  trigger: sign_aquarius AND challenge
+- extracted_at: '2025-11-30 22:05:52.372526'
+  factor_trigger: sign_pisces
+  role: 主干
+  snippet_id: ns_innersky_pisces_001
+  snippet_text: 'Two Fishes in opposite directions—but the Ocean itself: the infinite,
+    boundless, source of all life. Pisces has come to experience transcendence—realize
+    world is construct of consciousness.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Pisces'
+  trigger: sign_pisces
+- extracted_at: '2025-11-30 22:05:52.372533'
+  factor_trigger: sign_pisces
+  role: 主干依赖
+  snippet_id: ns_innersky_pisces_002
+  snippet_text: 'The endpoint is reorientation: recognizing life is dream, we are
+    dreamers. Letting go, meditation, creativity, compassion, imagination, fluidity.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Pisces'
+  trigger: sign_pisces AND strength
+- extracted_at: '2025-11-30 22:05:52.372539'
+  factor_trigger: sign_pisces AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_pisces_003
+  snippet_text: 'Shadow: escapism (escape through drugs/alcohol/fantasy), victimhood
+    (passive, helpless, waiting for rescue), deception (blur boundaries, lose own
+    truth).'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Pisces'
+  trigger: sign_pisces AND shadow
+- extracted_at: '2025-11-30 22:05:52.372545'
+  factor_trigger: sign_pisces
+  role: 总结
+  snippet_id: ns_innersky_pisces_004
+  snippet_text: Transcendence doesn't mean checking out; engage with life while seeing
+    through it. The challenge is grounded mysticism.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Pisces'
+  trigger: sign_pisces AND challenge
+- extracted_at: '2025-11-30 22:05:52.372561'
+  factor_trigger: sign_aries
+  role: 主干
+  snippet_id: ns_innersky_aries_001
+  snippet_text: 'Aries is a newborn tumbling into physical existence. Every cell screaming:
+    ''Am I going to make it?'' Fear of annihilation: the basic Arian experience.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Aries'
+  trigger: sign_aries
+- extracted_at: '2025-11-30 22:05:52.372568'
+  factor_trigger: sign_aries
+  role: 主干依赖
+  snippet_id: ns_innersky_aries_002
+  snippet_text: 'The endpoint is fearlessness—not from stupidity but real courage:
+    to be terrified and still step forward. Speed, spontaneity, and willingness to
+    burn bridges.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Aries'
+  trigger: sign_aries AND strength
+- extracted_at: '2025-11-30 22:05:52.372575'
+  factor_trigger: sign_aries AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_aries_003
+  snippet_text: 'Shadow: chronic fear (pathetic self-defeating terror when refusing
+    to fight), wrong war (lashing out randomly), flight (obsessive caution avoiding
+    all risks).'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Aries'
+  trigger: sign_aries AND shadow
+- extracted_at: '2025-11-30 22:05:52.372582'
+  factor_trigger: sign_aries
+  role: 总结
+  snippet_id: ns_innersky_aries_004
+  snippet_text: 'The heart of Arian strategy is standing alone. Fight the RIGHT war:
+    defend authentic self, not random conflicts. Become true warrior maintaining clarity.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Aries'
+  trigger: sign_aries AND challenge
+- extracted_at: '2025-11-30 22:05:52.372595'
+  factor_trigger: sign_taurus
+  role: 主干
+  snippet_id: ns_innersky_taurus_001
+  snippet_text: The Bull. Ancient, immovable as the mountain, still as a forest at
+    evening. Taurus has come to build essence into form—creating sacred physical space
+    through patience and craft.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Taurus'
+  trigger: sign_taurus
+- extracted_at: '2025-11-30 22:05:52.372602'
+  factor_trigger: sign_taurus
+  role: 主干依赖
+  snippet_id: ns_innersky_taurus_002
+  snippet_text: 'The endpoint is embodied peace: finding Spirit through the five senses.
+    Stability, practicality, sensual awareness, creative manifestation. Natural timing—the
+    great oak grows slowly.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Taurus'
+  trigger: sign_taurus AND strength
+- extracted_at: '2025-11-30 22:05:52.372610'
+  factor_trigger: sign_taurus AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_taurus_003
+  snippet_text: 'Shadow: stagnation (clinging to dead job, loveless marriage, outdated
+    self-image), possessiveness/materialism (confuse security with soul), stubbornness
+    (refuse to change when world changes).'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Taurus'
+  trigger: sign_taurus AND shadow
+- extracted_at: '2025-11-30 22:05:52.372616'
+  factor_trigger: sign_taurus
+  role: 总结
+  snippet_id: ns_innersky_taurus_004
+  snippet_text: Build sacred physical space without clinging to structures no longer
+    serving. Security is soul, not possessions. Let go when necessary.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Taurus'
+  trigger: sign_taurus AND challenge
+- extracted_at: '2025-11-30 22:05:52.372629'
+  factor_trigger: sign_gemini
+  role: 主干
+  snippet_id: ns_innersky_gemini_001
+  snippet_text: The Twins. Gemini has come into the world to witness—experiencing
+    life from multiple perspectives, tasting all life has to offer without clinging
+    to any single viewpoint.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Gemini'
+  trigger: sign_gemini
+- extracted_at: '2025-11-30 22:05:52.372636'
+  factor_trigger: sign_gemini
+  role: 主干依赖
+  snippet_id: ns_innersky_gemini_002
+  snippet_text: The endpoint is conscious duality—ability to hold multiple perspectives
+    simultaneously. Adaptability, quick intelligence, communication, curiosity as
+    insatiable thirst.
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Gemini'
+  trigger: sign_gemini AND strength
+- extracted_at: '2025-11-30 22:05:52.372643'
+  factor_trigger: sign_gemini AND state_dysfunction
+  role: 条件分支
+  snippet_id: ns_innersky_gemini_003
+  snippet_text: 'Shadow: scattered (flitting without depth, never committing—"all
+    tactics no strategy"), superficial (jack of all trades), inconsistent (change
+    mind so often no one takes seriously), nervous exhaustion.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Gemini'
+  trigger: sign_gemini AND shadow
+- extracted_at: '2025-11-30 22:05:52.372651'
+  factor_trigger: sign_gemini
+  role: 总结
+  snippet_id: ns_innersky_gemini_004
+  snippet_text: '''The horse needs a rider.'' Harness natural versatility toward coherent
+    end. Not giving up variety, but finding thread connecting all diverse interests.
+    Go deep while remaining curious.'
+  source_book: the_inner_sky
+  source_chapter: null
+  source_ref: 'The Inner Sky Ch.4 #Gemini'
+  trigger: sign_gemini AND challenge
+source_file: /home/leeky/work/LucidSelf/典籍/texts/The Inner Sky/编辑/Inner_Sky_Aspects_v2.1.md,
+  /home/leeky/work/LucidSelf/典籍/texts/The Inner Sky/编辑/Inner_Sky_Houses_v2.1_Part7.md,
+  /home/leeky/work/LucidSelf/典籍/texts/The Inner Sky/编辑/Inner_Sky_Houses_v2.1_Part8_FINAL.md,
+  /home/leeky/work/LucidSelf/典籍/texts/The Inner Sky/编辑/Inner_Sky_Natal_v2.1_Part1.md,
+  /home/leeky/work/LucidSelf/典籍/texts/The Inner Sky/编辑/Inner_Sky_Natal_v2.1_Part2.md,
+  /home/leeky/work/LucidSelf/典籍/texts/The Inner Sky/编辑/Inner_Sky_Natal_v2.1_Part3.md,
+  /home/leeky/work/LucidSelf/典籍/texts/The Inner Sky/编辑/Inner_Sky_Theory_v2.1.md, /home/leeky/work/LucidSelf/典籍/texts/The
+  Inner Sky/编辑/Inner_Sky_Zodiac_v2.1_Part4.md, /home/leeky/work/LucidSelf/典籍/texts/The
+  Inner Sky/编辑/Inner_Sky_Zodiac_v2.1_Part5_COMPLETE.md, /home/leeky/work/LucidSelf/典籍/texts/The
+  Inner Sky/编辑/Inner_Sky_Zodiac_v2.1_Part6_FINAL.md, /home/leeky/work/LucidSelf/典籍/texts/The
+  Inner Sky/编辑/L1.md, /home/leeky/work/LucidSelf/典籍/texts/The Inner Sky/编辑/L2.md,
+  /home/leeky/work/LucidSelf/典籍/texts/The Inner Sky/编辑/README.md

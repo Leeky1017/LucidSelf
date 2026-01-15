@@ -1,0 +1,99 @@
+{
+  "contract_id": "semantic-extraction-quality-gates",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["version_id", "corpus_release_id", "engine_id", "user_id", "org_id"],
+  "entities": [
+    {
+      "name": "QualityMetricDefinition",
+      "description": "质量指标口径定义（最小字段集合）",
+      "fields": [
+        { "name": "metric_id", "type": "string", "required": true, "notes": "指标定义标识（唯一）" },
+        { "name": "metric_name", "type": "string", "required": true, "notes": "指标名称（口径固定；与 metrics/阈值配置一致）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识（用于可复现与可审计）" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识（若适用）" },
+        { "name": "engine_id", "type": "string", "required": false, "notes": "适用引擎标识（若适用）" },
+        { "name": "unit", "type": "string", "required": true, "notes": "单位（例如 ratio/count/ms；口径固定）" },
+        { "name": "aggregation", "type": "string", "required": true, "notes": "聚合口径（例如 mean/p95；口径固定）" },
+        { "name": "direction", "type": "string", "required": true, "notes": "指标方向（higher_is_better/lower_is_better；枚举在规格层固定）" },
+        { "name": "description", "type": "string", "required": false, "notes": "描述摘要（禁止敏感原文）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "QualityThresholdConfig",
+      "description": "质量阈值配置（最小字段集合）",
+      "fields": [
+        { "name": "threshold_id", "type": "string", "required": true, "notes": "阈值配置标识（唯一）" },
+        { "name": "metric_name", "type": "string", "required": true, "notes": "指标名称（与 QualityMetricDefinition.metric_name 一致）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "阈值配置版本标识" },
+        { "name": "engine_id", "type": "string", "required": false, "notes": "适用引擎（若适用）" },
+        { "name": "comparator", "type": "string", "required": true, "notes": ">=, >, <=, < 等（枚举在规格层固定）" },
+        { "name": "threshold_value", "type": "number", "required": true, "notes": "阈值数值（单位与口径在规格层固定）" },
+        { "name": "slo_window", "type": "string", "required": false, "notes": "SLO 评估窗口（例如 5m/1h/1d；若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "QualityGateRunResult",
+      "description": "门禁运行结果（最小字段集合）",
+      "fields": [
+        { "name": "gate_run_id", "type": "string", "required": true, "notes": "门禁运行标识（唯一）" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "org_id", "type": "string", "required": true, "notes": "组织/租户标识（隔离边界）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识（若适用）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识（若适用）" },
+        { "name": "overall_pass", "type": "boolean", "required": true, "notes": "整体是否通过门禁阈值" },
+        { "name": "result", "type": "string", "required": true, "notes": "PASS/BLOCK/DEGRADED（枚举在规格层固定）" },
+        { "name": "rejection_reason_code", "type": "string", "required": false, "notes": "阻断/拒绝原因代码（见 rejection_reasons）" },
+        { "name": "failures", "type": "array<object>", "required": false, "notes": "失败明细（最小化；禁止敏感原文）" },
+        { "name": "started_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" },
+        { "name": "finished_at", "type": "string", "required": false, "notes": "ISO-8601 时间戳（若适用）" }
+      ]
+    },
+    {
+      "name": "FailureSample",
+      "description": "失败样本清单项（最小字段集合）",
+      "fields": [
+        { "name": "sample_id", "type": "string", "required": true, "notes": "样本标识（唯一）" },
+        { "name": "gate_run_id", "type": "string", "required": true, "notes": "关联门禁运行" },
+        { "name": "metric_name", "type": "string", "required": true, "notes": "关联指标名称（口径固定）" },
+        { "name": "severity", "type": "string", "required": true, "notes": "low/medium/high 等（枚举在规格层固定）" },
+        { "name": "reference_id", "type": "string", "required": false, "notes": "可解析引用标识（例如 citation_anchor_id / corpus_asset_id；若适用）" },
+        { "name": "chain_id", "type": "string", "required": false, "notes": "关联证据链（若适用；对齐 citations-evidence-protocol 的 EvidenceChain.chain_id）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "RecheckRecord",
+      "description": "复检记录（最小字段集合）",
+      "fields": [
+        { "name": "recheck_id", "type": "string", "required": true, "notes": "复检记录标识（唯一）" },
+        { "name": "original_gate_run_id", "type": "string", "required": true, "notes": "原门禁运行标识" },
+        { "name": "recheck_gate_run_id", "type": "string", "required": false, "notes": "复检门禁运行标识（若适用）" },
+        { "name": "actor_type", "type": "string", "required": true, "notes": "system/user/service（枚举在规格层固定）" },
+        { "name": "actor_id", "type": "string", "required": false, "notes": "复检操作者标识（必须脱敏/最小化）" },
+        { "name": "decision", "type": "string", "required": true, "notes": "PASS/BLOCK（枚举在规格层固定）" },
+        { "name": "notes", "type": "string", "required": false, "notes": "复检备注（禁止敏感原文）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_CORPUS_RELEASE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_ENGINE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_USER_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_ORG_ID", "category": "client_error", "retryable": false },
+    { "code": "METRIC_DEFINITION_INVALID", "category": "validation", "retryable": false },
+    { "code": "THRESHOLD_CONFIG_INVALID", "category": "validation", "retryable": false },
+    { "code": "METRIC_DATA_MISSING", "category": "validation", "retryable": false },
+    { "code": "QUALITY_GATE_FAILED", "category": "gate", "retryable": false },
+    { "code": "RECHECK_REQUIRED", "category": "gate", "retryable": false },
+    { "code": "CITATION_NOT_RESOLVABLE", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}

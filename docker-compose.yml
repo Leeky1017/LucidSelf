@@ -1,0 +1,154 @@
+﻿version: '3.8'
+
+services:
+  # PostgreSQL + TimescaleDB 数据库
+  postgres:
+    image: timescale/timescaledb:latest-pg16
+    container_name: lucidself_postgres
+    environment:
+      POSTGRES_DB: lucidself
+      POSTGRES_USER: lucidself
+      POSTGRES_PASSWORD: lucidself_dev_password
+      POSTGRES_INITDB_ARGS: "--encoding=UTF-8 --lc-collate=C --lc-ctype=C"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts/init-postgres.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lucidself"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # MongoDB 数据库
+  mongodb:
+    image: mongo:7-jammy
+    container_name: lucidself_mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: lucidself
+      MONGO_INITDB_ROOT_PASSWORD: lucidself_dev_password
+      MONGO_INITDB_DATABASE: lucidself
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+      - ./scripts/init-mongodb.js:/docker-entrypoint-initdb.d/init.js
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/lucidself --quiet
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis 缓存
+  redis:
+    image: redis:7-alpine
+    container_name: lucidself_redis
+    command: redis-server --requirepass lucidself_dev_password --appendonly yes
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # LucidSelf Backend API
+  backend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.backend
+    container_name: lucidself_backend
+    environment:
+      - PYTHONPATH=/app
+      - DATABASE_URL=postgresql://lucidself:lucidself_dev_password@postgres:5432/lucidself
+      - MONGODB_URL=mongodb://lucidself:lucidself_dev_password@mongodb:27017/lucidself
+      - REDIS_URL=redis://:lucidself_dev_password@redis:6379/0
+      - CORS_ORIGINS=http://localhost:3000,http://frontend:3000
+      - DEBUG=false
+      - ENABLE_AUTH=false
+      - ENABLE_RATE_LIMIT=true
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app/backend:ro
+      - ./data:/app/data:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # LucidSelf Frontend
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.frontend
+    container_name: lucidself_frontend
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+      - NODE_ENV=production
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # MongoDB 管理界面（可选）
+  mongo-express:
+    image: mongo-express:latest
+    container_name: lucidself_mongo_express
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: lucidself
+      ME_CONFIG_MONGODB_ADMINPASSWORD: lucidself_dev_password
+      ME_CONFIG_MONGODB_URL: mongodb://lucidself:lucidself_dev_password@mongodb:27017/
+      ME_CONFIG_BASICAUTH_USERNAME: admin
+      ME_CONFIG_BASICAUTH_PASSWORD: admin
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mongodb
+    profiles:
+      - tools
+
+  # pgAdmin（可选）
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: lucidself_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@lucidself.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      - postgres
+    profiles:
+      - tools
+
+volumes:
+  postgres_data:
+    driver: local
+  mongodb_data:
+    driver: local
+  redis_data:
+    driver: local
+  pgadmin_data:
+    driver: local
+
+networks:
+  default:
+    name: lucidself_network

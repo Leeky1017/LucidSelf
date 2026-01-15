@@ -1,0 +1,1622 @@
+book_id: tetrabiblos
+source_file: 典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_II_v2.1.md, 典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_IV_v2.1.md,
+  典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_I_v2.1.md, 典籍/texts/Tetrabiblos/编辑/Tetrabiblos_Book_III_v2.1.md
+extracted_at: '2025-12-04T19:08:29.385800'
+factors:
+- factor_type: Branch
+  factor_label: Mundane
+  factor_id: mundane_astrology
+  factor_source: new_candidate
+  role_position: Primary
+  value_constraint: Nations/cities
+  engine_id: astrology_classical
+  notes: Universal
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.372918'
+- factor_type: Branch
+  factor_label: Natal
+  factor_id: natal_astrology
+  factor_source: existing
+  role_position: Secondary
+  value_constraint: Individuals
+  engine_id: astrology_classical
+  notes: Particular
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.372943'
+- factor_type: Hierarchy
+  factor_label: General precedence
+  factor_id: general_precedence
+  factor_source: new_candidate
+  role_position: Ordering
+  value_constraint: Macro over micro
+  engine_id: astrology_classical
+  notes: Causation
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.372951'
+- factor_type: Geography
+  factor_label: Latitude
+  factor_id: geographic_latitude
+  factor_source: new_candidate
+  role_position: Primary
+  value_constraint: Distance from equator
+  engine_id: astrology_classical
+  notes: Climate
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.372970'
+- factor_type: Temperament
+  factor_label: Southern
+  factor_id: temperament_south
+  factor_source: new_candidate
+  role_position: Hot/Dry
+  value_constraint: Dark, fierce
+  engine_id: astrology_classical
+  notes: Equatorial
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.372975'
+- factor_type: Temperament
+  factor_label: Northern
+  factor_id: temperament_north
+  factor_source: new_candidate
+  role_position: Cold/Moist
+  value_constraint: Fair, wild
+  engine_id: astrology_classical
+  notes: Polar
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.372979'
+- factor_type: Region
+  factor_label: Europe (Fire)
+  factor_id: region_europe
+  factor_source: new_candidate
+  role_position: NW Quadrant
+  value_constraint: Jupiter/Mars
+  engine_id: astrology_classical
+  notes: Warlike
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.372992'
+- factor_type: Region
+  factor_label: Asia (Earth)
+  factor_id: region_asia
+  factor_source: new_candidate
+  role_position: SE Quadrant
+  value_constraint: Venus/Saturn
+  engine_id: astrology_classical
+  notes: Religious
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.372996'
+- factor_type: Region
+  factor_label: N. Asia (Air)
+  factor_id: region_nasia
+  factor_source: new_candidate
+  role_position: NE Quadrant
+  value_constraint: Saturn/Jupiter
+  engine_id: astrology_classical
+  notes: Learned
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373001'
+- factor_type: Region
+  factor_label: Libya (Water)
+  factor_id: region_libya
+  factor_source: new_candidate
+  role_position: SW Quadrant
+  value_constraint: Mars/Venus
+  engine_id: astrology_classical
+  notes: Magical
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373005'
+- factor_type: Connection
+  factor_label: Star-region line
+  factor_id: star_region_line
+  factor_source: new_candidate
+  role_position: Linking
+  value_constraint: Zodiacal pole
+  engine_id: astrology_classical
+  notes: Mundane
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373014'
+- factor_type: Chart
+  factor_label: City foundation
+  factor_id: city_foundation
+  factor_source: new_candidate
+  role_position: Sympathetic
+  value_constraint: ASC/Sun/Moon
+  engine_id: astrology_classical
+  notes: Inception
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373019'
+- factor_type: Event
+  factor_label: Solar eclipse
+  factor_id: eclipse_solar
+  factor_source: existing
+  role_position: Primary
+  value_constraint: Hours = years
+  engine_id: astrology_classical
+  notes: Mundane
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373029'
+- factor_type: Event
+  factor_label: Lunar eclipse
+  factor_id: eclipse_lunar
+  factor_source: existing
+  role_position: Secondary
+  value_constraint: Hours = months
+  engine_id: astrology_classical
+  notes: Mundane
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373033'
+- factor_type: Calculation
+  factor_label: Timing rule
+  factor_id: eclipse_timing
+  factor_source: new_candidate
+  role_position: Conversion
+  value_constraint: Duration formula
+  engine_id: astrology_classical
+  notes: Methodology
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373037'
+- factor_type: Connection
+  factor_label: Familiarity
+  factor_id: zodiacal_familiarity
+  factor_source: new_candidate
+  role_position: Linking
+  value_constraint: Dignity-based
+  engine_id: astrology_classical
+  notes: Regional
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373045'
+- factor_type: Timing
+  factor_label: Eclipse duration
+  factor_id: eclipse_duration
+  factor_source: new_candidate
+  role_position: Calculating
+  value_constraint: Hours=Years/Months
+  engine_id: astrology_classical
+  notes: Mundane
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373052'
+- factor_type: Classification
+  factor_label: Sign shape
+  factor_id: sign_shape
+  factor_source: existing
+  role_position: Categorizing
+  value_constraint: Human/Animal/Marine
+  engine_id: astrology_classical
+  notes: Genus
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373059'
+- factor_type: Effect
+  factor_label: Saturn mundane
+  factor_id: saturn_mundane
+  factor_source: new_candidate
+  role_position: Destructive
+  value_constraint: Cold, illness, exile
+  engine_id: astrology_classical
+  notes: Malefic
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373071'
+- factor_type: Effect
+  factor_label: Jupiter mundane
+  factor_id: jupiter_mundane
+  factor_source: new_candidate
+  role_position: Prosperous
+  value_constraint: Peace, abundance
+  engine_id: astrology_classical
+  notes: Benefic
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373075'
+- factor_type: Effect
+  factor_label: Mars mundane
+  factor_id: mars_mundane
+  factor_source: new_candidate
+  role_position: Warlike
+  value_constraint: War, drought, fever
+  engine_id: astrology_classical
+  notes: Malefic
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373079'
+- factor_type: Effect
+  factor_label: Venus mundane
+  factor_id: venus_mundane
+  factor_source: new_candidate
+  role_position: Fertile
+  value_constraint: Pleasure, marriage
+  engine_id: astrology_classical
+  notes: Benefic
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373083'
+- factor_type: Effect
+  factor_label: Mercury mundane
+  factor_id: mercury_mundane
+  factor_source: new_candidate
+  role_position: Disruptive
+  value_constraint: Sedition, commerce
+  engine_id: astrology_classical
+  notes: Variable
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373087'
+- factor_type: Indicator
+  factor_label: Eclipse colour
+  factor_id: eclipse_colour
+  factor_source: new_candidate
+  role_position: Modifying
+  value_constraint: Planet analogy
+  engine_id: astrology_classical
+  notes: Visual
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373096'
+- factor_type: Phenomenon
+  factor_label: Comet
+  factor_id: comet
+  factor_source: new_candidate
+  role_position: Indicating
+  value_constraint: Mars-Mercury
+  engine_id: astrology_classical
+  notes: Portent
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373100'
+- factor_type: Event
+  factor_label: Aries ingress
+  factor_id: sun_ingress_aries
+  factor_source: new_candidate
+  role_position: Primary
+  value_constraint: Vernal equinox
+  engine_id: astrology_classical
+  notes: New year
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373109'
+- factor_type: Event
+  factor_label: Preceding lunation
+  factor_id: lunation_preceding
+  factor_source: new_candidate
+  role_position: Indicator
+  value_constraint: Year's weather
+  engine_id: astrology_classical
+  notes: Annual
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373113'
+- factor_type: Quality
+  factor_label: Sign weather
+  factor_id: sign_weather_quality
+  factor_source: new_candidate
+  role_position: Producing
+  value_constraint: Hot/Cold/Moist/Dry
+  engine_id: astrology_classical
+  notes: Atmospheric
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373120'
+- factor_type: Event
+  factor_label: New moon
+  factor_id: lunation_new
+  factor_source: existing
+  role_position: Monthly start
+  value_constraint: Weather indicator
+  engine_id: astrology_classical
+  notes: Cycle
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373128'
+- factor_type: Event
+  factor_label: Full moon
+  factor_id: lunation_full
+  factor_source: existing
+  role_position: Mid-month
+  value_constraint: Weather modifier
+  engine_id: astrology_classical
+  notes: Cycle
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373132'
+- factor_type: Phenomenon
+  factor_label: Comet
+  factor_id: comet_mundane
+  factor_source: new_candidate
+  role_position: Indicator
+  value_constraint: War, drought
+  engine_id: astrology_classical
+  notes: Portent
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373141'
+- factor_type: Phenomenon
+  factor_label: Meteor
+  factor_id: meteor_mundane
+  factor_source: new_candidate
+  role_position: Indicator
+  value_constraint: Wind direction
+  engine_id: astrology_classical
+  notes: Atmospheric
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.373145'
+- factor_type: Significator
+  factor_label: Part of Fortune
+  factor_id: pars_fortunae
+  factor_source: existing
+  role_position: Primary
+  value_constraint: Fortune indicator
+  engine_id: astrology_classical
+  notes: Ptolemaic lot
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375640'
+- factor_type: Condition
+  factor_label: Benefic ruler
+  factor_id: benefic_ruler
+  factor_source: existing
+  role_position: Enhancing
+  value_constraint: Prosperity
+  engine_id: astrology_classical
+  notes: Jupiter/Venus
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375646'
+- factor_type: Condition
+  factor_label: Malefic ruler
+  factor_id: malefic_ruler
+  factor_source: existing
+  role_position: Diminishing
+  value_constraint: Poverty
+  engine_id: astrology_classical
+  notes: Saturn/Mars
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375651'
+- factor_type: Position
+  factor_label: Angular
+  factor_id: house_angular
+  factor_source: existing
+  role_position: Amplifying
+  value_constraint: Prominence
+  engine_id: astrology_classical
+  notes: 1/4/7/10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375655'
+- factor_type: Significator
+  factor_label: Luminaries
+  factor_id: sun_moon
+  factor_source: existing
+  role_position: Primary
+  value_constraint: Rank indicators
+  engine_id: astrology_classical
+  notes: Sun+Moon
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375668'
+- factor_type: Condition
+  factor_label: Full doryphory
+  factor_id: doryphory_complete
+  factor_source: new_candidate
+  role_position: Royal
+  value_constraint: All 5 planets
+  engine_id: astrology_classical
+  notes: Kingship
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375672'
+- factor_type: Quality
+  factor_label: Masculine signs
+  factor_id: sign_masculine
+  factor_source: existing
+  role_position: Enhancing
+  value_constraint: Active rank
+  engine_id: astrology_classical
+  notes: Fire/Air
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375680'
+- factor_type: Significator
+  factor_label: MC ruler
+  factor_id: planet_ruler_mc
+  factor_source: existing
+  role_position: Primary
+  value_constraint: Profession type
+  engine_id: astrology_classical
+  notes: 10th house
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375695'
+- factor_type: Profession
+  factor_label: Saturn trades
+  factor_id: saturn_profession
+  factor_source: new_candidate
+  role_position: Category
+  value_constraint: Agriculture/Building
+  engine_id: astrology_classical
+  notes: Cold/Structure
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375699'
+- factor_type: Profession
+  factor_label: Jupiter trades
+  factor_id: jupiter_profession
+  factor_source: new_candidate
+  role_position: Category
+  value_constraint: Law/Religion
+  engine_id: astrology_classical
+  notes: Expansion
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375703'
+- factor_type: Profession
+  factor_label: Mars trades
+  factor_id: mars_profession
+  factor_source: new_candidate
+  role_position: Category
+  value_constraint: Military/Surgery
+  engine_id: astrology_classical
+  notes: Action/Cutting
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375707'
+- factor_type: Profession
+  factor_label: Venus trades
+  factor_id: venus_profession
+  factor_source: new_candidate
+  role_position: Category
+  value_constraint: Art/Music
+  engine_id: astrology_classical
+  notes: Beauty/Pleasure
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375711'
+- factor_type: Profession
+  factor_label: Mercury trades
+  factor_id: mercury_profession
+  factor_source: new_candidate
+  role_position: Category
+  value_constraint: Writing/Commerce
+  engine_id: astrology_classical
+  notes: Communication
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375715'
+- factor_type: Indicator
+  factor_label: Employment quality
+  factor_id: employment_quality
+  factor_source: new_candidate
+  role_position: Determining
+  value_constraint: Oriental/MC
+  engine_id: astrology_classical
+  notes: Profession
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375723'
+- factor_type: Significator
+  factor_label: Moon-Venus (men)
+  factor_id: moon_venus
+  factor_source: existing
+  role_position: Primary
+  value_constraint: Wife indicator
+  engine_id: astrology_classical
+  notes: Male natives
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375733'
+- factor_type: Significator
+  factor_label: Sun-Mars (women)
+  factor_id: sun_mars
+  factor_source: existing
+  role_position: Primary
+  value_constraint: Husband indicator
+  engine_id: astrology_classical
+  notes: Female natives
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375737'
+- factor_type: Condition
+  factor_label: Fixed signs
+  factor_id: sign_fixed
+  factor_source: existing
+  role_position: Stabilizing
+  value_constraint: One spouse
+  engine_id: astrology_classical
+  notes: Fidelity
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375741'
+- factor_type: Condition
+  factor_label: Bicorporeal signs
+  factor_id: sign_bicorporeal
+  factor_source: existing
+  role_position: Multiplying
+  value_constraint: Multiple spouses
+  engine_id: astrology_classical
+  notes: Plurality
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375745'
+- factor_type: Significator
+  factor_label: Child-givers
+  factor_id: planet_fertile
+  factor_source: new_candidate
+  role_position: Granting
+  value_constraint: Moon/Jupiter/Venus
+  engine_id: astrology_classical
+  notes: Fertility
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375758'
+- factor_type: Significator
+  factor_label: Child-deniers
+  factor_id: planet_barren
+  factor_source: new_candidate
+  role_position: Denying
+  value_constraint: Sun/Saturn/Mars
+  engine_id: astrology_classical
+  notes: Barrenness
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375762'
+- factor_type: Sign
+  factor_label: Prolific
+  factor_id: sign_prolific
+  factor_source: new_candidate
+  role_position: Multiplying
+  value_constraint: Pisces/Cancer/Scorpio
+  engine_id: astrology_classical
+  notes: Watery
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375765'
+- factor_type: House
+  factor_label: 11th house
+  factor_id: house_11
+  factor_source: existing
+  role_position: Children place
+  value_constraint: Good Dæmon
+  engine_id: astrology_classical
+  notes: Offspring
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375770'
+- factor_type: Technique
+  factor_label: Synastry
+  factor_id: synastry
+  factor_source: new_candidate
+  role_position: Comparison
+  value_constraint: Chart to chart
+  engine_id: astrology_classical
+  notes: Relationships
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375781'
+- factor_type: Relation
+  factor_label: Same sign
+  factor_id: same_sign
+  factor_source: new_candidate
+  role_position: Bonding
+  value_constraint: Friendship
+  engine_id: astrology_classical
+  notes: Compatibility
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375784'
+- factor_type: Relation
+  factor_label: Inconjunct
+  factor_id: inconjunct
+  factor_source: existing
+  role_position: Severing
+  value_constraint: Enmity
+  engine_id: astrology_classical
+  notes: Discord
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375788'
+- factor_type: Relation
+  factor_label: Counterchange
+  factor_id: counterchange
+  factor_source: new_candidate
+  role_position: Deep bond
+  value_constraint: Exchange
+  engine_id: astrology_classical
+  notes: Mutual
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375792'
+- factor_type: Indicator
+  factor_label: Moon cadent
+  factor_id: moon_cadent
+  factor_source: existing
+  role_position: Primary
+  value_constraint: Travel trigger
+  engine_id: astrology_classical
+  notes: Journeys
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375802'
+- factor_type: Condition
+  factor_label: Benefic supervision
+  factor_id: benefic_supervise
+  factor_source: existing
+  role_position: Protective
+  value_constraint: Safe travel
+  engine_id: astrology_classical
+  notes: Protection
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375806'
+- factor_type: Condition
+  factor_label: Malefic supervision
+  factor_id: malefic_supervise
+  factor_source: existing
+  role_position: Dangerous
+  value_constraint: Perilous travel
+  engine_id: astrology_classical
+  notes: Danger
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375809'
+- factor_type: Sign
+  factor_label: Watery
+  factor_id: sign_watery
+  factor_source: existing
+  role_position: Danger type
+  value_constraint: Shipwreck
+  engine_id: astrology_classical
+  notes: Drowning
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375813'
+- factor_type: Significator
+  factor_label: Anæretic ruler
+  factor_id: planet_anaeretic
+  factor_source: existing
+  role_position: Primary
+  value_constraint: Death type
+  engine_id: astrology_classical
+  notes: Directions
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375826'
+- factor_type: Death Type
+  factor_label: Saturn death
+  factor_id: saturn_death
+  factor_source: new_candidate
+  role_position: Cold/Suffocation
+  value_constraint: Lingering/Hanging
+  engine_id: astrology_classical
+  notes: Cold
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375830'
+- factor_type: Death Type
+  factor_label: Mars death
+  factor_id: mars_death
+  factor_source: new_candidate
+  role_position: Hot/Violent
+  value_constraint: Fever/War
+  engine_id: astrology_classical
+  notes: Hot
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375834'
+- factor_type: Death Type
+  factor_label: Jupiter death
+  factor_id: jupiter_death
+  factor_source: new_candidate
+  role_position: Respiratory/Legal
+  value_constraint: Lung/Judicial
+  engine_id: astrology_classical
+  notes: Expansion
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375838'
+- factor_type: Condition
+  factor_label: Both malefics
+  factor_id: dual_malefic
+  factor_source: existing
+  role_position: Violent
+  value_constraint: Unburied
+  engine_id: astrology_classical
+  notes: Extreme
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375842'
+- factor_type: Timing
+  factor_label: Planetary age
+  factor_id: planet_age
+  factor_source: new_candidate
+  role_position: Governing
+  value_constraint: Moon-Saturn sequence
+  engine_id: astrology_classical
+  notes: Life stages
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375850'
+- factor_type: Prorogation
+  factor_label: Multiple lords
+  factor_id: prorogation_multiple
+  factor_source: new_candidate
+  role_position: Determining
+  value_constraint: ASC/Fortune/Moon/Sun/MC
+  engine_id: astrology_classical
+  notes: Life domains
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.375854'
+- factor_type: Structure
+  factor_label: Epistemological hierarchy
+  factor_id: astro_epistemology
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: astronomy > astrology
+  engine_id: astro_semantic
+  notes: Foundation
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378555'
+- factor_type: State
+  factor_label: Natural properties
+  factor_id: planet_quality
+  factor_source: existing
+  role_position: Planet attribute
+  value_constraint: hot/cold/moist/dry
+  engine_id: astro_calculator
+  notes: Elemental
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378562'
+- factor_type: Boundary
+  factor_label: Infallibility limitation
+  factor_id: astro_conjecture
+  factor_source: new_candidate
+  role_position: Epistemic
+  value_constraint: No absolute certainty
+  engine_id: astro_semantic
+  notes: Material variability
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378567'
+- factor_type: Structure
+  factor_label: The Ambient
+  factor_id: ambient_configuration
+  factor_source: new_candidate
+  role_position: Environment
+  value_constraint: Total configuration
+  engine_id: astro_calculator
+  notes: Central concept
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378580'
+- factor_type: State
+  factor_label: Sun quality
+  factor_id: planet_sun
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Heat, dryness
+  engine_id: astro_calculator
+  notes: Primary luminary
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378584'
+- factor_type: State
+  factor_label: Moon quality
+  factor_id: planet_moon
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Moisture
+  engine_id: astro_calculator
+  notes: Secondary luminary
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378588'
+- factor_type: Temporal
+  factor_label: Impregnation moment
+  factor_id: natal_moment
+  factor_source: existing
+  role_position: Timing
+  value_constraint: Conception/birth
+  engine_id: astro_calculator
+  notes: Natal basis
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378592'
+- factor_type: Boundary
+  factor_label: Qualified determinism
+  factor_id: astro_fate
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Some inevitable, some modifiable
+  engine_id: astro_semantic
+  notes: Key concept
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378604'
+- factor_type: Structure
+  factor_label: General vs particular causes
+  factor_id: mundane_vs_natal
+  factor_source: new_candidate
+  role_position: Category
+  value_constraint: General=masses, particular=individual
+  engine_id: astro_semantic
+  notes: Important distinction
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378608'
+- factor_type: Relational
+  factor_label: Concurrent causes
+  factor_id: concurrent_causes
+  factor_source: new_candidate
+  role_position: Modifier
+  value_constraint: Species, place, nurture, customs
+  engine_id: astro_semantic
+  notes: Modifies celestial
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378612'
+- factor_type: State
+  factor_label: Saturn quality
+  factor_id: planet_saturn
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Cold, dry
+  engine_id: astro_calculator
+  notes: Greater malefic
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378635'
+- factor_type: State
+  factor_label: Mars quality
+  factor_id: planet_mars
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Dry, very hot
+  engine_id: astro_calculator
+  notes: Lesser malefic
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378639'
+- factor_type: State
+  factor_label: Jupiter quality
+  factor_id: planet_jupiter
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Warm, moist (temperate)
+  engine_id: astro_calculator
+  notes: Greater benefic
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378643'
+- factor_type: State
+  factor_label: Venus quality
+  factor_id: planet_venus
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Moist, warm (temperate)
+  engine_id: astro_calculator
+  notes: Lesser benefic
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378647'
+- factor_type: State
+  factor_label: Mercury quality
+  factor_id: planet_mercury
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Variable (moist/dry)
+  engine_id: astro_calculator
+  notes: Neutral
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378652'
+- factor_type: State
+  factor_label: Benefic status
+  factor_id: planet_benefic
+  factor_source: existing
+  role_position: Classification
+  value_constraint: Jupiter, Venus, Moon
+  engine_id: astro_calculator
+  notes: Life-promoting
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378662'
+- factor_type: State
+  factor_label: Malefic status
+  factor_id: planet_malefic
+  factor_source: existing
+  role_position: Classification
+  value_constraint: Saturn, Mars
+  engine_id: astro_calculator
+  notes: Life-harming
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378666'
+- factor_type: Quality
+  factor_label: Masculine
+  factor_id: planet_masculine
+  factor_source: existing
+  role_position: Gender
+  value_constraint: Sun/Saturn/Jupiter/Mars
+  engine_id: astro_calculator
+  notes: Yang
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378676'
+- factor_type: Quality
+  factor_label: Feminine
+  factor_id: planet_feminine
+  factor_source: existing
+  role_position: Gender
+  value_constraint: Moon/Venus
+  engine_id: astro_calculator
+  notes: Yin
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378680'
+- factor_type: Classification
+  factor_label: Diurnal sect
+  factor_id: planet_diurnal
+  factor_source: existing
+  role_position: Sect
+  value_constraint: Sun/Jupiter/Saturn
+  engine_id: astro_calculator
+  notes: Day
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378688'
+- factor_type: Classification
+  factor_label: Nocturnal sect
+  factor_id: planet_nocturnal
+  factor_source: existing
+  role_position: Sect
+  value_constraint: Moon/Venus/Mars
+  engine_id: astro_calculator
+  notes: Night
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378692'
+- factor_type: Phase
+  factor_label: Lunar phase
+  factor_id: lunar_phase
+  factor_source: existing
+  role_position: Modifying
+  value_constraint: Elemental quality
+  engine_id: astrology_classical
+  notes: Cycle
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378699'
+- factor_type: Star
+  factor_label: Fixed star
+  factor_id: fixed_star
+  factor_source: existing
+  role_position: Analogous
+  value_constraint: Planetary nature
+  engine_id: astrology_classical
+  notes: Paran
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378742'
+- factor_type: Star
+  factor_label: Northern star
+  factor_id: fixed_star_north
+  factor_source: new_candidate
+  role_position: Analogous
+  value_constraint: Planetary nature
+  engine_id: astrology_classical
+  notes: Paran
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378749'
+- factor_type: Star
+  factor_label: Southern star
+  factor_id: fixed_star_south
+  factor_source: new_candidate
+  role_position: Analogous
+  value_constraint: Planetary nature
+  engine_id: astrology_classical
+  notes: Paran
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378757'
+- factor_type: Star
+  factor_label: Sirius
+  factor_id: star_sirius
+  factor_source: new_candidate
+  role_position: Primary
+  value_constraint: Jupiter-Mars
+  engine_id: astrology_classical
+  notes: Royal
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378761'
+- factor_type: Framework
+  factor_label: Tropical zodiac
+  factor_id: tropical_zodiac
+  factor_source: new_candidate
+  role_position: Defining
+  value_constraint: Equinox-based
+  engine_id: astrology_classical
+  notes: Foundational
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378768'
+- factor_type: Position
+  factor_label: Angular
+  factor_id: house_angle
+  factor_source: existing
+  role_position: Modifying
+  value_constraint: Elemental quality
+  engine_id: astrology_classical
+  notes: 1/4/7/10
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378774'
+- factor_type: Classification
+  factor_label: Sign modality
+  factor_id: sign_modality
+  factor_source: existing
+  role_position: Categorizing
+  value_constraint: 3 modes
+  engine_id: astrology_classical
+  notes: Quadruplicity
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378781'
+- factor_type: Quality
+  factor_label: Sign gender
+  factor_id: sign_gender
+  factor_source: existing
+  role_position: Classifying
+  value_constraint: M/F alternating
+  engine_id: astrology_classical
+  notes: Polarity
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378787'
+- factor_type: Aspect
+  factor_label: Major aspects
+  factor_id: aspect_type
+  factor_source: existing
+  role_position: Relating
+  value_constraint: 4 types
+  engine_id: astrology_classical
+  notes: Ptolemaic
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378793'
+- factor_type: Relationship
+  factor_label: Commanding/Obeying
+  factor_id: sign_command_obey
+  factor_source: new_candidate
+  role_position: Relating
+  value_constraint: Summer/Winter
+  engine_id: astrology_classical
+  notes: Hierarchy
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378800'
+- factor_type: Relationship
+  factor_label: Antiscia
+  factor_id: sign_antiscia
+  factor_source: new_candidate
+  role_position: Relating
+  value_constraint: Solstice distance
+  engine_id: astrology_classical
+  notes: Mirror
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378806'
+- factor_type: Aspect
+  factor_label: Inconjunct
+  factor_id: aspect_inconjunct
+  factor_source: new_candidate
+  role_position: Non-relating
+  value_constraint: 30°/150°
+  engine_id: astrology_classical
+  notes: Aversion
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378814'
+- factor_type: Dignity
+  factor_label: Domicile
+  factor_id: planet_domicile
+  factor_source: existing
+  role_position: Primary
+  value_constraint: Home sign
+  engine_id: astrology_classical
+  notes: Essential
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378821'
+- factor_type: Dignity
+  factor_label: Triplicity
+  factor_id: sign_triplicity
+  factor_source: existing
+  role_position: Secondary
+  value_constraint: Day/Night lord
+  engine_id: astrology_classical
+  notes: Elemental
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378827'
+- factor_type: Dignity
+  factor_label: Exaltation
+  factor_id: planet_exaltation
+  factor_source: existing
+  role_position: Secondary
+  value_constraint: Peak influence
+  engine_id: astrology_classical
+  notes: Essential
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378833'
+- factor_type: Dignity
+  factor_label: Egyptian Terms
+  factor_id: terms_egyptian
+  factor_source: existing
+  role_position: Minor
+  value_constraint: Irregular
+  engine_id: astrology_classical
+  notes: Traditional
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378839'
+- factor_type: Dignity
+  factor_label: Ptolemaic Terms
+  factor_id: terms_ptolemaic
+  factor_source: existing
+  role_position: Minor
+  value_constraint: Dignity-based
+  engine_id: astrology_classical
+  notes: Reformed
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378845'
+- factor_type: Dignity
+  factor_label: Face
+  factor_id: planet_dignity_face
+  factor_source: new_candidate
+  role_position: Minor
+  value_constraint: Aspect-based
+  engine_id: astrology_classical
+  notes: Decanate
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378860'
+- factor_type: Dignity
+  factor_label: Chariot
+  factor_id: planet_dignity_multiple
+  factor_source: new_candidate
+  role_position: Cumulative
+  value_constraint: Multiple dignities
+  engine_id: astrology_classical
+  notes: Strength
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378863'
+- factor_type: Motion
+  factor_label: Application
+  factor_id: aspect_application
+  factor_source: existing
+  role_position: Forming
+  value_constraint: Faster to slower
+  engine_id: astrology_classical
+  notes: Dynamic
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378874'
+- factor_type: Motion
+  factor_label: Separation
+  factor_id: aspect_separation
+  factor_source: existing
+  role_position: Dissolving
+  value_constraint: Faster from slower
+  engine_id: astrology_classical
+  notes: Dynamic
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378878'
+- factor_type: Strength
+  factor_label: Oriental
+  factor_id: planet_oriental
+  factor_source: existing
+  role_position: Enhancing
+  value_constraint: Before Sun
+  engine_id: astrology_classical
+  notes: Power
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.378881'
+- factor_type: Structure
+  factor_label: Genethliacal astrology
+  factor_id: genethliacal
+  factor_source: new_candidate
+  role_position: Branch
+  value_constraint: Individual destiny
+  engine_id: astrology_classical
+  notes: Natal focus
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382780'
+- factor_type: Process
+  factor_label: Dual temporal consideration
+  factor_id: prenatal_postnatal
+  factor_source: new_candidate
+  role_position: Method
+  value_constraint: Conception + Birth
+  engine_id: astrology_classical
+  notes: Complete analysis
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382788'
+- factor_type: Relational
+  factor_label: Universal-particular
+  factor_id: mundane_natal
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: Hierarchy
+  engine_id: astrology_classical
+  notes: Integration
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382793'
+- factor_type: Origin
+  factor_label: Conception
+  factor_id: chart_conception
+  factor_source: new_candidate
+  role_position: Primary
+  value_constraint: Seed quality
+  engine_id: astrology_classical
+  notes: Natural
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382804'
+- factor_type: Origin
+  factor_label: Birth
+  factor_id: chart_birth
+  factor_source: existing
+  role_position: Practical
+  value_constraint: Manifestation
+  engine_id: astrology_classical
+  notes: Effective
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382808'
+- factor_type: Structure
+  factor_label: Ascendant
+  factor_id: ascendant
+  factor_source: existing
+  role_position: Primary Angle
+  value_constraint: Exact degree
+  engine_id: astrology_classical
+  notes: Chart anchor
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382818'
+- factor_type: Process
+  factor_label: Degree calculation
+  factor_id: degree_calc
+  factor_source: new_candidate
+  role_position: Method
+  value_constraint: Precision required
+  engine_id: astrology_classical
+  notes: Accuracy
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382823'
+- factor_type: Relational
+  factor_label: House framework
+  factor_id: house_framework
+  factor_source: new_candidate
+  role_position: Structure
+  value_constraint: Based on ASC
+  engine_id: astrology_classical
+  notes: Foundation
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382827'
+- factor_type: Structure
+  factor_label: Fourfold division
+  factor_id: fourfold_div
+  factor_source: new_candidate
+  role_position: Framework
+  value_constraint: 4 topics
+  engine_id: astrology_classical
+  notes: Method
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382836'
+- factor_type: Process
+  factor_label: Systematic inquiry
+  factor_id: systematic_inquiry
+  factor_source: new_candidate
+  role_position: Method
+  value_constraint: Sequential order
+  engine_id: astrology_classical
+  notes: Completeness
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382840'
+- factor_type: Relational
+  factor_label: Topic-significator
+  factor_id: topic_sig
+  factor_source: new_candidate
+  role_position: Mapping
+  value_constraint: Each topic -> planets
+  engine_id: astrology_classical
+  notes: Interpretation
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382843'
+- factor_type: Structure
+  factor_label: Mercury-Moon dual
+  factor_id: mercury_moon_mind
+  factor_source: new_candidate
+  role_position: Significators
+  value_constraint: Joint rulership
+  engine_id: astrology_classical
+  notes: Mind analysis
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382853'
+- factor_type: Energy
+  factor_label: Rational capacity
+  factor_id: mercury_reason
+  factor_source: existing
+  role_position: Function
+  value_constraint: Intellectual
+  engine_id: astrology_classical
+  notes: Mercury
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382857'
+- factor_type: Energy
+  factor_label: Soul temperament
+  factor_id: moon_soul
+  factor_source: existing
+  role_position: Function
+  value_constraint: Emotional
+  engine_id: astrology_classical
+  notes: Moon
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382861'
+- factor_type: State
+  factor_label: Mental affliction
+  factor_id: mental_affliction
+  factor_source: new_candidate
+  role_position: Pathology
+  value_constraint: Malefic influence
+  engine_id: astrology_classical
+  notes: Disease
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382871'
+- factor_type: Energy
+  factor_label: Saturn coldness
+  factor_id: saturn_cold
+  factor_source: existing
+  role_position: Afflicting
+  value_constraint: Melancholy
+  engine_id: astrology_classical
+  notes: Contraction
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382875'
+- factor_type: Energy
+  factor_label: Mars heat
+  factor_id: mars_hot
+  factor_source: existing
+  role_position: Afflicting
+  value_constraint: Epilepsy
+  engine_id: astrology_classical
+  notes: Eruption
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382879'
+- factor_type: Significator
+  factor_label: Sun-Saturn
+  factor_id: father_sig
+  factor_source: new_candidate
+  role_position: Father
+  value_constraint: Luminary + Malefic
+  engine_id: astrology_classical
+  notes: Paternal
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382887'
+- factor_type: Significator
+  factor_label: Moon-Venus
+  factor_id: mother_sig
+  factor_source: new_candidate
+  role_position: Mother
+  value_constraint: Luminary + Benefic
+  engine_id: astrology_classical
+  notes: Maternal
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382891'
+- factor_type: House
+  factor_label: Maternal place
+  factor_id: house_maternal
+  factor_source: new_candidate
+  role_position: Siblings
+  value_constraint: MC or Venus/Moon
+  engine_id: astrology_classical
+  notes: Sect-based
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382898'
+- factor_type: Sign
+  factor_label: Bicorporeal
+  factor_id: sign_bicorporeal
+  factor_source: existing
+  role_position: Multiplying
+  value_constraint: Gemini/Virgo/Sag/Pisces
+  engine_id: astrology_classical
+  notes: Twins
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382916'
+- factor_type: Indicator
+  factor_label: Monstrous birth
+  factor_id: birth_defect
+  factor_source: new_candidate
+  role_position: Warning
+  value_constraint: Luminary cadent
+  engine_id: astrology_classical
+  notes: Abnormal
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382923'
+- factor_type: Indicator
+  factor_label: Infant mortality
+  factor_id: infant_mortality
+  factor_source: new_candidate
+  role_position: Warning
+  value_constraint: Malefic-luminary
+  engine_id: astrology_classical
+  notes: Early death
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382930'
+- factor_type: Inquiry
+  factor_label: Duration of life
+  factor_id: lifespan_inquiry
+  factor_source: existing
+  role_position: Primary
+  value_constraint: Precedence
+  engine_id: astrology_classical
+  notes: Essential
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382936'
+- factor_type: Place
+  factor_label: Prorogatory
+  factor_id: house_prorogatory
+  factor_source: existing
+  role_position: Life-giver
+  value_constraint: 5 positions
+  engine_id: astrology_classical
+  notes: Directions
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382943'
+- factor_type: Point
+  factor_label: Prorogator
+  factor_id: prorogator
+  factor_source: existing
+  role_position: Life-giver
+  value_constraint: Sun/Moon/ASC/Fortune
+  engine_id: astrology_classical
+  notes: Hyleg
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382952'
+- factor_type: Point
+  factor_label: Part of Fortune
+  factor_id: part_fortune
+  factor_source: existing
+  role_position: Lunar ASC
+  value_constraint: Sun-Moon distance
+  engine_id: astrology_classical
+  notes: Lot
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382955'
+- factor_type: Technique
+  factor_label: Direct prorogation
+  factor_id: prorogation_direct
+  factor_source: existing
+  role_position: Oriental
+  value_constraint: Succeeding signs
+  engine_id: astrology_classical
+  notes: Projection
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382966'
+- factor_type: Technique
+  factor_label: Converse prorogation
+  factor_id: prorogation_converse
+  factor_source: existing
+  role_position: Occidental
+  value_constraint: Preceding signs
+  engine_id: astrology_classical
+  notes: Horary
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382970'
+- factor_type: Point
+  factor_label: Anæretic
+  factor_id: anaeretic
+  factor_source: existing
+  role_position: Life-ender
+  value_constraint: DSC/Malefics
+  engine_id: astrology_classical
+  notes: Killing
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382974'
+- factor_type: Technique
+  factor_label: Prorogation calculation
+  factor_id: prorogation_calc
+  factor_source: existing
+  role_position: Method
+  value_constraint: Horary magnitude
+  engine_id: astrology_classical
+  notes: Exemplification
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382981'
+- factor_type: Significator
+  factor_label: ASC ruler
+  factor_id: planet_ruler_asc
+  factor_source: existing
+  role_position: Primary
+  value_constraint: Body type
+  engine_id: astrology_classical
+  notes: Constitution
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382987'
+- factor_type: Condition
+  factor_label: Angular malefic
+  factor_id: malefic_angular
+  factor_source: new_candidate
+  role_position: Afflicting
+  value_constraint: Disease/injury
+  engine_id: astrology_classical
+  notes: Pathology
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382995'
+- factor_type: Rulership
+  factor_label: Body parts
+  factor_id: planet_body_part
+  factor_source: new_candidate
+  role_position: Correspondence
+  value_constraint: Specific organs
+  engine_id: astrology_classical
+  notes: Medical
+  source_book: tetrabiblos
+  source_chapter: null
+  extracted_at: '2025-12-04T19:08:29.382999'

@@ -1,0 +1,23 @@
+$ sed -n "1,120p" openspec/changes/implement-versioning-and-boot-regression-v1/evidence/artifacts_t03/versioning/version_manifest.json
+[
+  {
+    "version_id": "ver_d9d5dacd8168",
+    "engine_id": "bazi-calculator",
+    "created_at": "2025-12-26T14:03:41.968843Z",
+    "status": "BASELINE",
+    "notes": "baseline summary for drift regression"
+  },
+  {
+    "version_id": "ver_b23a6a8439c0",
+    "engine_id": "bazi-calculator",
+    "created_at": "2025-12-26T14:03:41.968867Z",
+    "status": "ACTIVE",
+    "notes": "corpus_release_id=cr_b23a6a8439c0"
+  }
+]
+
+$ PYTHONPATH=. .venv/bin/python -c '<validate manifest json>'
+entries= 2
+keys= ['created_at', 'engine_id', 'notes', 'status', 'version_id']
+version_ids= ['ver_d9d5dacd8168', 'ver_b23a6a8439c0']
+engine_ids= ['bazi-calculator']

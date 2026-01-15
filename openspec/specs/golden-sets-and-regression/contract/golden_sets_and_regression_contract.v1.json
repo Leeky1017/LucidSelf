@@ -1,0 +1,90 @@
+{
+  "contract_id": "golden-sets-and-regression",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["version_id", "corpus_release_id", "engine_id"],
+  "entities": [
+    {
+      "name": "GoldenSetDefinition",
+      "description": "golden set 定义（清单项，最小字段集合）",
+      "fields": [
+        { "name": "golden_set_id", "type": "string", "required": true, "notes": "golden set 标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "评测定义版本标识（用于可复现与可审计）" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "关联语料发布版本" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "关联引擎标识（若适用）" },
+        { "name": "name", "type": "string", "required": true, "notes": "名称（可审计）" },
+        { "name": "description", "type": "string", "required": false, "notes": "描述摘要（禁止敏感原文）" },
+        { "name": "sample_count", "type": "number", "required": false, "notes": "样本量（若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "CoverageReport",
+      "description": "覆盖率报告（最小字段集合）",
+      "fields": [
+        { "name": "coverage_report_id", "type": "string", "required": true, "notes": "报告标识（唯一）" },
+        { "name": "golden_set_id", "type": "string", "required": true, "notes": "关联 golden set" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "关联语料发布版本" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "关联引擎标识（若适用）" },
+        { "name": "coverage_ratio", "type": "number", "required": true, "notes": "覆盖率（0..1）" },
+        { "name": "metrics", "type": "object", "required": false, "notes": "可审计的最小指标明细（禁止敏感原文）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "RegressionThreshold",
+      "description": "回归阈值定义（最小字段集合）",
+      "fields": [
+        { "name": "threshold_id", "type": "string", "required": true, "notes": "阈值标识（唯一）" },
+        { "name": "golden_set_id", "type": "string", "required": true, "notes": "关联 golden set" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "阈值定义版本" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "适用引擎（若适用）" },
+        { "name": "metric_name", "type": "string", "required": true, "notes": "指标名（与评测口径一致）" },
+        { "name": "comparator", "type": "string", "required": true, "notes": ">=, >, <=, < 等（枚举在规格层固定）" },
+        { "name": "threshold_value", "type": "number", "required": true, "notes": "阈值数值（单位与口径在规格层固定）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "RegressionRunResult",
+      "description": "回归运行结果（最小字段集合）",
+      "fields": [
+        { "name": "run_id", "type": "string", "required": true, "notes": "运行标识（唯一）" },
+        { "name": "golden_set_id", "type": "string", "required": true, "notes": "关联 golden set" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "关联语料发布版本" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "关联引擎标识（若适用）" },
+        { "name": "overall_pass", "type": "boolean", "required": true, "notes": "整体是否通过阈值门禁" },
+        { "name": "started_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" },
+        { "name": "finished_at", "type": "string", "required": false, "notes": "ISO-8601 时间戳（若适用）" },
+        { "name": "failures", "type": "array<object>", "required": false, "notes": "失败明细（最小化；禁止敏感原文）" }
+      ]
+    },
+    {
+      "name": "DriftAlert",
+      "description": "漂移告警（最小字段集合）",
+      "fields": [
+        { "name": "alert_id", "type": "string", "required": true, "notes": "告警标识（唯一）" },
+        { "name": "golden_set_id", "type": "string", "required": true, "notes": "关联 golden set" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "关联语料发布版本" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "关联引擎标识（若适用）" },
+        { "name": "drift_type", "type": "string", "required": true, "notes": "漂移类型（枚举在规格层固定）" },
+        { "name": "severity", "type": "string", "required": true, "notes": "low/medium/high 等（枚举在规格层固定）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_CORPUS_RELEASE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_ENGINE_ID", "category": "client_error", "retryable": false },
+    { "code": "INVALID_GOLDEN_SET_ID", "category": "client_error", "retryable": false },
+    { "code": "THRESHOLD_INVALID", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

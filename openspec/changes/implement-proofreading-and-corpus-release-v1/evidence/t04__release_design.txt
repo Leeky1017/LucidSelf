@@ -1,0 +1,226 @@
+SECTION release_artifact_layout
+artifacts/corpus_releases/cr_b23a6a8439c0/hashes.json
+artifacts/corpus_releases/cr_b23a6a8439c0/release_manifest.json
+artifacts/corpus_releases/cr_b23a6a8439c0/reports/alignment_report.json
+artifacts/corpus_releases/cr_b23a6a8439c0/reports/alignment_report.md
+artifacts/corpus_releases/cr_b23a6a8439c0/reports/conflict_report.json
+artifacts/corpus_releases/cr_b23a6a8439c0/reports/conflict_report.md
+artifacts/corpus_releases/cr_b23a6a8439c0/reports/corpus_manifest.compiled.json
+artifacts/corpus_releases/cr_b23a6a8439c0/reports/normalization_summary.json
+artifacts/corpus_releases/cr_b23a6a8439c0/reports/normalized_entries.jsonl
+artifacts/corpus_releases/cr_b23a6a8439c0/reports/qa_queue.json
+artifacts/corpus_releases/cr_b23a6a8439c0/reports/qa_report.json
+artifacts/corpus_releases/cr_b23a6a8439c0/reports/qa_report.md
+artifacts/corpus_releases/cr_b23a6a8439c0/reports/quality_report.json
+artifacts/corpus_releases/cr_b23a6a8439c0/reports/quality_report.md
+artifacts/corpus_releases/cr_b23a6a8439c0/rollback_record.json
+
+SECTION artifacts/corpus_releases/active_release.json
+{
+  "active_release_version": "1.0",
+  "active_corpus_release_id": "cr_b23a6a8439c0",
+  "updated_at": "2025-12-26T17:06:12.782013+00:00",
+  "rollback_from": "cr_b23a6a8439c0",
+  "rollback_reason": "gate2_smoke_rollback"
+}
+
+SECTION artifacts/corpus_releases/release_registry.ndjson
+{"event": "PUBLISH", "created_at": "2025-12-26T17:02:29.665075+00:00", "version_id": "ver_b23a6a8439c0", "corpus_release_id": "cr_b23a6a8439c0", "package_digest_sha256": "489e5fef4e006770ec4681a70a54d1fef994a6cafd351e6035eb0ba73482c862", "release_dir": "artifacts/corpus_releases/cr_b23a6a8439c0"}
+{"event": "PUBLISH", "created_at": "2025-12-26T17:06:12.351913+00:00", "version_id": "ver_b23a6a8439c0", "corpus_release_id": "cr_b23a6a8439c0", "package_digest_sha256": "807713ccf2d72af5d2ef54fdddf12a7e03cef784f20de3a7e89a327d4bf27902", "release_dir": "artifacts/corpus_releases/cr_b23a6a8439c0"}
+
+SECTION artifacts/corpus_releases/cr_b23a6a8439c0/release_manifest.json
+{
+  "release_manifest_version": "1.0",
+  "version_id": "ver_b23a6a8439c0",
+  "corpus_release_id": "cr_b23a6a8439c0",
+  "created_at": "2025-12-26T17:06:12.351680+00:00",
+  "package_digest_sha256": "807713ccf2d72af5d2ef54fdddf12a7e03cef784f20de3a7e89a327d4bf27902",
+  "hashes_path": "hashes.json",
+  "artifacts": [
+    {
+      "artifact_id": "corpus_manifest",
+      "source_path": "artifacts/corpus_governance/corpus_manifest.compiled.json",
+      "path": "reports/corpus_manifest.compiled.json",
+      "sha256": "9f8300d2fa8491249a67e319d9e99d694c5b59183033429b277d0e00cc8840c5",
+      "bytes": 3763
+    },
+    {
+      "artifact_id": "normalized_entries",
+      "source_path": "artifacts/text_normalization_alignment/normalized_entries.jsonl",
+      "path": "reports/normalized_entries.jsonl",
+      "sha256": "48e87894dae073e95d0099c44c03b2f2dc82252c5016dcb40b2a11c232dd9e48",
+      "bytes": 227634
+    },
+    {
+      "artifact_id": "normalization_summary",
+      "source_path": "artifacts/text_normalization_alignment/normalization_summary.json",
+      "path": "reports/normalization_summary.json",
+      "sha256": "5993429d89878bd9dbf726959ffc058d56701db62f56aecb881c5fb6459b69b0",
+      "bytes": 369
+    },
+    {
+      "artifact_id": "alignment_report_json",
+      "source_path": "artifacts/text_normalization_alignment/alignment_report.json",
+      "path": "reports/alignment_report.json",
+      "sha256": "94e2bd675edbfbcd2f055beb771dd38e950fb0f60d17b214bd8ca7459f266463",
+      "bytes": 10867
+    },
+    {
+      "artifact_id": "alignment_report_md",
+      "source_path": "artifacts/text_normalization_alignment/alignment_report.md",
+      "path": "reports/alignment_report.md",
+      "sha256": "d0a331c1ee16fa95d6f5369ed62c17dc2e81030ddeca084dd90f99db538cb03c",
+      "bytes": 4182
+    },
+    {
+      "artifact_id": "conflict_report_json",
+      "source_path": "artifacts/cross_book_conflicts/conflict_report.json",
+      "path": "reports/conflict_report.json",
+      "sha256": "644e3d01e305deb046473fef15c1a3df9e57b98913a381749c17e4adb0d2aea8",
+      "bytes": 785418
+    },
+    {
+      "artifact_id": "conflict_report_md",
+      "source_path": "artifacts/cross_book_conflicts/conflict_report.md",
+      "path": "reports/conflict_report.md",
+      "sha256": "fdb935f65967227eebbb34c5a1ffc45e8dfba4b85579e46ed03ef8e40c53c17f",
+      "bytes": 808
+    },
+    {
+      "artifact_id": "quality_report_json",
+      "source_path": "artifacts/semantic_extraction_quality/quality_report.json",
+      "path": "reports/quality_report.json",
+      "sha256": "bd1991cd8110799bdf3056b91669f165f578b56fb8a68d0e94df0dfc6137c032",
+      "bytes": 65197
+    },
+    {
+      "artifact_id": "quality_report_md",
+      "source_path": "artifacts/semantic_extraction_quality/quality_report.md",
+      "path": "reports/quality_report.md",
+      "sha256": "5c2af771a6294465b6d8d81263a708c12d6b445195ca27997a3a4123529a1606",
+      "bytes": 611
+    },
+    {
+      "artifact_id": "qa_queue",
+      "source_path": "artifacts/proofreading_qa/qa_queue.json",
+      "path": "reports/qa_queue.json",
+      "sha256": "e77b486ef9d6cc41a4e7a03ec19dce5c9cea7289ddd6814d8aa2aeb77a1a9b24",
+      "bytes": 9689
+    },
+    {
+      "artifact_id": "qa_report_json",
+      "source_path": "artifacts/proofreading_qa/qa_report.json",
+      "path": "reports/qa_report.json",
+      "sha256": "2cd4b2486e8a6c719370ddc56ec641837a6fc1bdb1fa6dc178763ddb21e495d1",
+      "bytes": 817
+    },
+    {
+      "artifact_id": "qa_report_md",
+      "source_path": "artifacts/proofreading_qa/qa_report.md",
+      "path": "reports/qa_report.md",
+      "sha256": "adf4e506fd365f5ed69d1620ceeecc6f27f9aae178167dc808fa20998d44f42f",
+      "bytes": 413
+    }
+  ]
+}
+
+SECTION artifacts/corpus_releases/cr_b23a6a8439c0/hashes.json
+{
+  "hashes_version": "1.0",
+  "items": [
+    {
+      "artifact_id": "corpus_manifest",
+      "source_path": "artifacts/corpus_governance/corpus_manifest.compiled.json",
+      "path": "reports/corpus_manifest.compiled.json",
+      "sha256": "9f8300d2fa8491249a67e319d9e99d694c5b59183033429b277d0e00cc8840c5",
+      "bytes": 3763
+    },
+    {
+      "artifact_id": "normalized_entries",
+      "source_path": "artifacts/text_normalization_alignment/normalized_entries.jsonl",
+      "path": "reports/normalized_entries.jsonl",
+      "sha256": "48e87894dae073e95d0099c44c03b2f2dc82252c5016dcb40b2a11c232dd9e48",
+      "bytes": 227634
+    },
+    {
+      "artifact_id": "normalization_summary",
+      "source_path": "artifacts/text_normalization_alignment/normalization_summary.json",
+      "path": "reports/normalization_summary.json",
+      "sha256": "5993429d89878bd9dbf726959ffc058d56701db62f56aecb881c5fb6459b69b0",
+      "bytes": 369
+    },
+    {
+      "artifact_id": "alignment_report_json",
+      "source_path": "artifacts/text_normalization_alignment/alignment_report.json",
+      "path": "reports/alignment_report.json",
+      "sha256": "94e2bd675edbfbcd2f055beb771dd38e950fb0f60d17b214bd8ca7459f266463",
+      "bytes": 10867
+    },
+    {
+      "artifact_id": "alignment_report_md",
+      "source_path": "artifacts/text_normalization_alignment/alignment_report.md",
+      "path": "reports/alignment_report.md",
+      "sha256": "d0a331c1ee16fa95d6f5369ed62c17dc2e81030ddeca084dd90f99db538cb03c",
+      "bytes": 4182
+    },
+    {
+      "artifact_id": "conflict_report_json",
+      "source_path": "artifacts/cross_book_conflicts/conflict_report.json",
+      "path": "reports/conflict_report.json",
+      "sha256": "644e3d01e305deb046473fef15c1a3df9e57b98913a381749c17e4adb0d2aea8",
+      "bytes": 785418
+    },
+    {
+      "artifact_id": "conflict_report_md",
+      "source_path": "artifacts/cross_book_conflicts/conflict_report.md",
+      "path": "reports/conflict_report.md",
+      "sha256": "fdb935f65967227eebbb34c5a1ffc45e8dfba4b85579e46ed03ef8e40c53c17f",
+      "bytes": 808
+    },
+    {
+      "artifact_id": "quality_report_json",
+      "source_path": "artifacts/semantic_extraction_quality/quality_report.json",
+      "path": "reports/quality_report.json",
+      "sha256": "bd1991cd8110799bdf3056b91669f165f578b56fb8a68d0e94df0dfc6137c032",
+      "bytes": 65197
+    },
+    {
+      "artifact_id": "quality_report_md",
+      "source_path": "artifacts/semantic_extraction_quality/quality_report.md",
+      "path": "reports/quality_report.md",
+      "sha256": "5c2af771a6294465b6d8d81263a708c12d6b445195ca27997a3a4123529a1606",
+      "bytes": 611
+    },
+    {
+      "artifact_id": "qa_queue",
+      "source_path": "artifacts/proofreading_qa/qa_queue.json",
+      "path": "reports/qa_queue.json",
+      "sha256": "e77b486ef9d6cc41a4e7a03ec19dce5c9cea7289ddd6814d8aa2aeb77a1a9b24",
+      "bytes": 9689
+    },
+    {
+      "artifact_id": "qa_report_json",
+      "source_path": "artifacts/proofreading_qa/qa_report.json",
+      "path": "reports/qa_report.json",
+      "sha256": "2cd4b2486e8a6c719370ddc56ec641837a6fc1bdb1fa6dc178763ddb21e495d1",
+      "bytes": 817
+    },
+    {
+      "artifact_id": "qa_report_md",
+      "source_path": "artifacts/proofreading_qa/qa_report.md",
+      "path": "reports/qa_report.md",
+      "sha256": "adf4e506fd365f5ed69d1620ceeecc6f27f9aae178167dc808fa20998d44f42f",
+      "bytes": 413
+    }
+  ]
+}
+
+SECTION artifacts/corpus_releases/cr_b23a6a8439c0/rollback_record.json
+{
+  "rollback_version": "1.0",
+  "created_at": "2025-12-26T17:06:12.782149+00:00",
+  "from_corpus_release_id": "cr_b23a6a8439c0",
+  "to_corpus_release_id": "cr_b23a6a8439c0",
+  "reason": "gate2_smoke_rollback",
+  "version_id": "ver_b23a6a8439c0"
+}

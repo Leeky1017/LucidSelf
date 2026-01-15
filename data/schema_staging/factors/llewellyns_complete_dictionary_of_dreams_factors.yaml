@@ -1,0 +1,862 @@
+book_id: llewellyns_complete_dictionary_of_dreams
+source_file: 典籍/texts/Llewellyns Complete Dictionary of Dreams/编辑/Llewellyn_Dreams_v2.1_Complete.md
+extracted_at: '2025-12-04T15:25:37.679544'
+factors:
+- factor_type: Structure
+  factor_label: Collective Unconscious
+  factor_id: psych_collective_unconscious
+  factor_source: new_candidate
+  role_position: Psychological Layer
+  value_constraint: Universal symbolic realm
+  engine_id: dream_semantic
+  notes: Jung foundational concept
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669087'
+- factor_type: Relational
+  factor_label: Personal vs Collective
+  factor_id: psych_personal_collective
+  factor_source: new_candidate
+  role_position: Distinction
+  value_constraint: Personal memories vs archetypal patterns
+  engine_id: dream_semantic
+  notes: Key differentiation
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669155'
+- factor_type: Functional
+  factor_label: Universal Symbols
+  factor_id: dream_symbol_universal
+  factor_source: new_candidate
+  role_position: Cross-cultural elements
+  value_constraint: Water, snake, flight, death
+  engine_id: dream_semantic
+  notes: Enable dream dictionaries
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669165'
+- factor_type: Structure
+  factor_label: Character Aspects
+  factor_id: dream_character_aspects
+  factor_source: new_candidate
+  role_position: Interpretive Framework
+  value_constraint: All dream people = self-parts
+  engine_id: dream_semantic
+  notes: Lennox core technique
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669193'
+- factor_type: Functional
+  factor_label: 3-Adjective Method
+  factor_id: dream_3adj_method
+  factor_source: new_candidate
+  role_position: Technique
+  value_constraint: Adjective assignment reveals aspect
+  engine_id: dream_semantic
+  notes: Practical tool
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669199'
+- factor_type: Relational
+  factor_label: Inner Dialogue
+  factor_id: psych_inner_dialogue
+  factor_source: new_candidate
+  role_position: Self-communication
+  value_constraint: Interactions between aspects
+  engine_id: dream_semantic
+  notes: Empowering perspective
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669205'
+- factor_type: Structure
+  factor_label: Shadow
+  factor_id: psych_archetype_shadow
+  factor_source: existing
+  role_position: Jung archetype
+  value_constraint: Dark/rejected aspects
+  engine_id: dream_semantic
+  notes: Core Jungian concept
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669221'
+- factor_type: Functional
+  factor_label: Nightmare Function
+  factor_id: dream_nightmare_function
+  factor_source: new_candidate
+  role_position: Integration invitation
+  value_constraint: Growth opportunity not punishment
+  engine_id: dream_semantic
+  notes: Reframes dark dreams
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669226'
+- factor_type: State
+  factor_label: Unlived Potential
+  factor_id: psych_unlived_potential
+  factor_source: new_candidate
+  role_position: Shadow paradox
+  value_constraint: Both negative and positive
+  engine_id: dream_semantic
+  notes: Transformative insight
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669231'
+- factor_type: Structure
+  factor_label: Masculine Principle
+  factor_id: psych_masculine_principle
+  factor_source: new_candidate
+  role_position: Behavioral modality
+  value_constraint: Doing/action/linear/Yang
+  engine_id: dream_semantic
+  notes: Not gender
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669247'
+- factor_type: Structure
+  factor_label: Feminine Principle
+  factor_id: psych_feminine_principle
+  factor_source: new_candidate
+  role_position: Behavioral modality
+  value_constraint: Being/receptive/circular/Yin
+  engine_id: dream_semantic
+  notes: Not gender
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669252'
+- factor_type: Relational
+  factor_label: Animus/Anima
+  factor_id: psych_archetype_animusanima
+  factor_source: existing
+  role_position: Jung archetypes
+  value_constraint: Contra-gender aspects
+  engine_id: dream_semantic
+  notes: Integration needed
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669258'
+- factor_type: State
+  factor_label: Dynamic Balance
+  factor_id: psych_dynamic_balance
+  factor_source: new_candidate
+  role_position: Integration goal
+  value_constraint: Harmonious interplay
+  engine_id: dream_semantic
+  notes: Wholeness indicator
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669262'
+- factor_type: Structure
+  factor_label: Archetype
+  factor_id: psych_archetype_base
+  factor_source: existing
+  role_position: Universal pattern
+  value_constraint: Pre-existing templates
+  engine_id: dream_semantic
+  notes: Jung foundational
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669280'
+- factor_type: Functional
+  factor_label: Warrior Archetype
+  factor_id: psych_archetype_warrior
+  factor_source: new_candidate
+  role_position: Power/defense
+  value_constraint: Strength, protection
+  engine_id: dream_semantic
+  notes: Combat/protection
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669285'
+- factor_type: Functional
+  factor_label: Nurturer Archetype
+  factor_id: psych_archetype_nurturer
+  factor_source: new_candidate
+  role_position: Love/care
+  value_constraint: Compassion, support
+  engine_id: dream_semantic
+  notes: Care/support
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669290'
+- factor_type: Functional
+  factor_label: Trickster Archetype
+  factor_id: psych_archetype_trickster
+  factor_source: new_candidate
+  role_position: Chaos/transformation
+  value_constraint: Change agent
+  engine_id: dream_semantic
+  notes: Disruption/renewal
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669295'
+- factor_type: State
+  factor_label: Activation
+  factor_id: dream_archetype_activation
+  factor_source: new_candidate
+  role_position: Dream function
+  value_constraint: Calls principle when needed
+  engine_id: dream_semantic
+  notes: Practical application
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669300'
+- factor_type: Structure
+  factor_label: Universal Meaning
+  factor_id: dream_universal_meaning
+  factor_source: new_candidate
+  role_position: Interpretive Method
+  value_constraint: Inherent function first
+  engine_id: dream_semantic
+  notes: Lennox approach
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669318'
+- factor_type: Functional
+  factor_label: Symbol Function
+  factor_id: dream_symbol_function
+  factor_source: new_candidate
+  role_position: Meaning Source
+  value_constraint: Physical/cross-cultural/biological
+  engine_id: dream_semantic
+  notes: Three sources
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669323'
+- factor_type: Relational
+  factor_label: Universal-Personal Sequence
+  factor_id: dream_univ_personal_seq
+  factor_source: new_candidate
+  role_position: Process Order
+  value_constraint: Universal baseline → personal layer
+  engine_id: dream_semantic
+  notes: Two-step method
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669328'
+- factor_type: Structure
+  factor_label: Inner Circle
+  factor_id: dream_inner_circle
+  factor_source: new_candidate
+  role_position: Interpretive Framework
+  value_constraint: Self-reflection only
+  engine_id: dream_semantic
+  notes: Lennox methodology
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669340'
+- factor_type: Functional
+  factor_label: Empowerment Focus
+  factor_id: psych_empowerment_focus
+  factor_source: new_candidate
+  role_position: Interpretation Goal
+  value_constraint: What dreamer can change
+  engine_id: dream_semantic
+  notes: Prevents victim stance
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669345'
+- factor_type: Relational
+  factor_label: Projection Withdrawal
+  factor_id: psych_projection_withdrawal
+  factor_source: new_candidate
+  role_position: Jung technique
+  value_constraint: Recognize as self-aspects
+  engine_id: dream_semantic
+  notes: Integration method
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669350'
+- factor_type: Structure
+  factor_label: Abandonment Theme
+  factor_id: dream_symbol_abandonment
+  factor_source: new_candidate
+  role_position: Dream Symbol
+  value_constraint: Self-worth fears
+  engine_id: dream_semantic
+  notes: Primitive anxiety
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669362'
+- factor_type: Relational
+  factor_label: Character Aspect
+  factor_id: dream_character_aspect
+  factor_source: new_candidate
+  role_position: Interpretation Method
+  value_constraint: Who abandons = which self-aspect
+  engine_id: dream_semantic
+  notes: Lennox technique
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669367'
+- factor_type: State
+  factor_label: Support Withdrawal
+  factor_id: psych_support_withdrawal
+  factor_source: new_candidate
+  role_position: Psychological State
+  value_constraint: Nurturance/love/acceptance unavailable
+  engine_id: dream_semantic
+  notes: Integration need
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669372'
+- factor_type: Structure
+  factor_label: Abdomen
+  factor_id: dream_symbol_abdomen
+  factor_source: new_candidate
+  role_position: Body Symbol
+  value_constraint: Emotions/intuition center
+  engine_id: dream_semantic
+  notes: Universal meaning
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669385'
+- factor_type: Functional
+  factor_label: Gut Feelings
+  factor_id: psych_gut_feelings
+  factor_source: new_candidate
+  role_position: Intuition
+  value_constraint: Trusting vs repressing instincts
+  engine_id: dream_semantic
+  notes: Self-trust indicator
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669390'
+- factor_type: State
+  factor_label: Self-Nourishment
+  factor_id: psych_self_nourishment
+  factor_source: new_candidate
+  role_position: Self-care Quality
+  value_constraint: Feeding/caring for self
+  engine_id: dream_semantic
+  notes: Health indicator
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669394'
+- factor_type: Structure
+  factor_label: Abortion
+  factor_id: dream_symbol_abortion
+  factor_source: new_candidate
+  role_position: Dream Symbol
+  value_constraint: Eliminating potential
+  engine_id: dream_semantic
+  notes: Choice/responsibility
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669407'
+- factor_type: Relational
+  factor_label: Symbolic Pregnancy
+  factor_id: dream_symbolic_pregnancy
+  factor_source: new_candidate
+  role_position: Metaphor
+  value_constraint: Fetus = nascent project/idea
+  engine_id: dream_semantic
+  notes: Gestation phase
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669412'
+- factor_type: State
+  factor_label: Readiness Assessment
+  factor_id: psych_readiness_assess
+  factor_source: new_candidate
+  role_position: Psychological Evaluation
+  value_constraint: Am I prepared for this?
+  engine_id: dream_semantic
+  notes: Self-knowledge
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669417'
+- factor_type: Structure
+  factor_label: Water
+  factor_id: dream_symbol_water
+  factor_source: existing
+  role_position: Universal Symbol
+  value_constraint: Emotions/unconscious
+  engine_id: dream_semantic
+  notes: Cross-cultural
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669582'
+- factor_type: Functional
+  factor_label: Water Clarity
+  factor_id: dream_water_clarity
+  factor_source: new_candidate
+  role_position: State Indicator
+  value_constraint: Clear=clarity, murky=confusion
+  engine_id: dream_semantic
+  notes: Emotional state
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669589'
+- factor_type: State
+  factor_label: Water Depth
+  factor_id: dream_water_depth
+  factor_source: new_candidate
+  role_position: Consciousness Level
+  value_constraint: Surface=conscious, deep=unconscious
+  engine_id: dream_semantic
+  notes: Jung concept
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669594'
+- factor_type: State
+  factor_label: Water Variations
+  factor_id: dream_water_variations
+  factor_source: new_candidate
+  role_position: Specific Meanings
+  value_constraint: Ocean/river/rain/flood/still
+  engine_id: dream_semantic
+  notes: Context-dependent
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669599'
+- factor_type: Structure
+  factor_label: Flying
+  factor_id: dream_symbol_flying
+  factor_source: new_candidate
+  role_position: Dream Symbol
+  value_constraint: Transcendence/freedom
+  engine_id: dream_semantic
+  notes: Universal dream
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669613'
+- factor_type: State
+  factor_label: Flight Ease
+  factor_id: dream_flight_ease
+  factor_source: new_candidate
+  role_position: Transcendence Indicator
+  value_constraint: Effortless=achieved, struggling=obstacles
+  engine_id: dream_semantic
+  notes: Process quality
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669618'
+- factor_type: Functional
+  factor_label: Elevated Perspective
+  factor_id: psych_elevated_perspective
+  factor_source: new_candidate
+  role_position: Viewpoint Shift
+  value_constraint: Higher=spiritual/abstract
+  engine_id: dream_semantic
+  notes: Consciousness level
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669623'
+- factor_type: Structure
+  factor_label: Falling
+  factor_id: dream_symbol_falling
+  factor_source: new_candidate
+  role_position: Anxiety Dream
+  value_constraint: Loss of control/insecurity
+  engine_id: dream_semantic
+  notes: Common stress response
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669635'
+- factor_type: State
+  factor_label: Landing Outcome
+  factor_id: dream_landing_outcome
+  factor_source: new_candidate
+  role_position: Resilience Indicator
+  value_constraint: Soft=resilience, crash=catastrophe, none=unresolved
+  engine_id: dream_semantic
+  notes: Expectation reveal
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669641'
+- factor_type: State
+  factor_label: Support Deficit
+  factor_id: psych_support_deficit
+  factor_source: new_candidate
+  role_position: Psychological State
+  value_constraint: Feeling unsupported/overwhelmed
+  engine_id: dream_semantic
+  notes: Anxiety source
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669645'
+- factor_type: Structure
+  factor_label: Death
+  factor_id: dream_symbol_death
+  factor_source: existing
+  role_position: Universal Symbol
+  value_constraint: Transformation/endings
+  engine_id: dream_semantic
+  notes: Cross-cultural
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669660'
+- factor_type: Functional
+  factor_label: Symbolic Death
+  factor_id: dream_symbolic_death
+  factor_source: new_candidate
+  role_position: Metaphor
+  value_constraint: Old dying for new
+  engine_id: dream_semantic
+  notes: Positive reframe
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669665'
+- factor_type: State
+  factor_label: Ego Death
+  factor_id: psych_ego_death
+  factor_source: new_candidate
+  role_position: Identity Shift
+  value_constraint: Major transformation
+  engine_id: dream_semantic
+  notes: Jung concept
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669670'
+- factor_type: Relational
+  factor_label: Character Death
+  factor_id: dream_character_death
+  factor_source: new_candidate
+  role_position: Aspect Transformation
+  value_constraint: Apply adjective method
+  engine_id: dream_semantic
+  notes: Lennox technique
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669674'
+- factor_type: Structure
+  factor_label: House
+  factor_id: dream_symbol_house
+  factor_source: existing
+  role_position: Universal Symbol
+  value_constraint: Self/psyche structure
+  engine_id: dream_semantic
+  notes: Jung/Lennox
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669691'
+- factor_type: Functional
+  factor_label: Attic
+  factor_id: dream_symbol_attic
+  factor_source: new_candidate
+  role_position: Room Type
+  value_constraint: Higher consciousness/spirituality
+  engine_id: dream_semantic
+  notes: Vertical axis
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669697'
+- factor_type: Functional
+  factor_label: Basement
+  factor_id: dream_symbol_basement
+  factor_source: new_candidate
+  role_position: Room Type
+  value_constraint: Unconscious/shadow
+  engine_id: dream_semantic
+  notes: Vertical axis
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669701'
+- factor_type: Functional
+  factor_label: Bedroom/Kitchen/Bathroom
+  factor_id: dream_symbol_rooms
+  factor_source: new_candidate
+  role_position: Room Types
+  value_constraint: Intimacy/nourishment/cleansing
+  engine_id: dream_semantic
+  notes: Horizontal aspects
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669707'
+- factor_type: State
+  factor_label: House Condition
+  factor_id: dream_house_condition
+  factor_source: new_candidate
+  role_position: Psyche Health
+  value_constraint: Maintained/dilapidated/construction
+  engine_id: dream_semantic
+  notes: Self-care indicator
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669711'
+- factor_type: Structure
+  factor_label: Animals
+  factor_id: dream_symbol_animal
+  factor_source: existing
+  role_position: Instinctual Energy
+  value_constraint: Archetypal patterns
+  engine_id: dream_semantic
+  notes: Universal
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669727'
+- factor_type: Functional
+  factor_label: Snake
+  factor_id: dream_symbol_snake
+  factor_source: existing
+  role_position: Transformation
+  value_constraint: Kundalini/sexuality/healing
+  engine_id: dream_semantic
+  notes: Dual (sacred/feared)
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669732'
+- factor_type: Functional
+  factor_label: Bird
+  factor_id: dream_symbol_bird
+  factor_source: existing
+  role_position: Transcendence
+  value_constraint: Freedom/spirituality/soul
+  engine_id: dream_semantic
+  notes: Vertical movement
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669737'
+- factor_type: Functional
+  factor_label: Dog/Cat
+  factor_id: dream_symbol_dogcat
+  factor_source: new_candidate
+  role_position: Relationship
+  value_constraint: Loyalty vs independence
+  engine_id: dream_semantic
+  notes: Domesticated
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669742'
+- factor_type: Functional
+  factor_label: Bear
+  factor_id: dream_symbol_bear
+  factor_source: new_candidate
+  role_position: Power
+  value_constraint: Mother protection/strength
+  engine_id: dream_semantic
+  notes: Wild
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669747'
+- factor_type: State
+  factor_label: Animal Behavior
+  factor_id: dream_animal_behavior
+  factor_source: new_candidate
+  role_position: Integration Indicator
+  value_constraint: Friendly=integrated, aggressive=feared
+  engine_id: dream_semantic
+  notes: Relationship quality
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669752'
+- factor_type: Structure
+  factor_label: Being Chased
+  factor_id: dream_symbol_chased
+  factor_source: new_candidate
+  role_position: Anxiety Dream
+  value_constraint: Shadow avoidance
+  engine_id: dream_semantic
+  notes: Common pattern
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669766'
+- factor_type: Relational
+  factor_label: Pursuer Identity
+  factor_id: dream_pursuer_identity
+  factor_source: new_candidate
+  role_position: Shadow Type
+  value_constraint: Monster/authority/animal
+  engine_id: dream_semantic
+  notes: Reveals avoidance
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669771'
+- factor_type: State
+  factor_label: Turning to Face
+  factor_id: psych_turning_to_face
+  factor_source: new_candidate
+  role_position: Integration Moment
+  value_constraint: Confrontation begins
+  engine_id: dream_semantic
+  notes: Transformation point
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669775'
+- factor_type: State
+  factor_label: Endless Chase
+  factor_id: dream_endless_chase
+  factor_source: new_candidate
+  role_position: Avoidance Pattern
+  value_constraint: Continued running
+  engine_id: dream_semantic
+  notes: Unresolved
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669780'
+- factor_type: Structure
+  factor_label: Nakedness
+  factor_id: dream_symbol_nakedness
+  factor_source: new_candidate
+  role_position: Dream Symbol
+  value_constraint: Vulnerability/authenticity
+  engine_id: dream_semantic
+  notes: Dual meaning
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669794'
+- factor_type: State
+  factor_label: Authentic Emergence
+  factor_id: psych_authentic_emergence
+  factor_source: new_candidate
+  role_position: Positive Interpretation
+  value_constraint: Dropping masks
+  engine_id: dream_semantic
+  notes: Growth
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669820'
+- factor_type: State
+  factor_label: Fear of Judgment
+  factor_id: psych_fear_judgment
+  factor_source: new_candidate
+  role_position: Negative Interpretation
+  value_constraint: Shame/exposure anxiety
+  engine_id: dream_semantic
+  notes: Self-judgment
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669826'
+- factor_type: Relational
+  factor_label: Others' Reactions
+  factor_id: dream_others_reactions
+  factor_source: new_candidate
+  role_position: Projection Mirror
+  value_constraint: Notice/accept/shame responses
+  engine_id: dream_semantic
+  notes: Reveals self-view
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669831'
+- factor_type: Structure
+  factor_label: Father Figure
+  factor_id: psych_archetype_father
+  factor_source: existing
+  role_position: Father/King Archetype
+  value_constraint: Dual nature
+  engine_id: dream_semantic
+  notes: Jung archetype
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669844'
+- factor_type: State
+  factor_label: Positive Father
+  factor_id: psych_positive_father
+  factor_source: new_candidate
+  role_position: Empowering Aspect
+  value_constraint: Guidance/protection/boundaries
+  engine_id: dream_semantic
+  notes: Healthy discipline
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669849'
+- factor_type: State
+  factor_label: Negative Father
+  factor_id: psych_negative_father
+  factor_source: new_candidate
+  role_position: Oppressive Aspect
+  value_constraint: Control/judgment/criticism
+  engine_id: dream_semantic
+  notes: Self-oppression
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669853'
+- factor_type: Functional
+  factor_label: Internalized Authority
+  factor_id: psych_internalized_authority
+  factor_source: new_candidate
+  role_position: Structure Quality
+  value_constraint: How self disciplines
+  engine_id: dream_semantic
+  notes: Character aspect
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669858'
+- factor_type: Structure
+  factor_label: Fire
+  factor_id: dream_symbol_fire
+  factor_source: existing
+  role_position: Universal Symbol
+  value_constraint: Passion/transformation
+  engine_id: dream_semantic
+  notes: Cross-cultural
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669870'
+- factor_type: State
+  factor_label: Controlled Fire
+  factor_id: dream_fire_controlled
+  factor_source: new_candidate
+  role_position: Creative Energy
+  value_constraint: Focused passion/transformation
+  engine_id: dream_semantic
+  notes: Life-giving
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669875'
+- factor_type: State
+  factor_label: Uncontrolled Fire
+  factor_id: dream_fire_uncontrolled
+  factor_source: new_candidate
+  role_position: Destructive Energy
+  value_constraint: Rage/overwhelm/consuming
+  engine_id: dream_semantic
+  notes: Destructive
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669880'
+- factor_type: Functional
+  factor_label: Purification
+  factor_id: dream_fire_purification
+  factor_source: new_candidate
+  role_position: Transformation Function
+  value_constraint: Burning away old
+  engine_id: dream_semantic
+  notes: Alchemy concept
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669885'
+- factor_type: Structure
+  factor_label: Teeth Falling Out
+  factor_id: dream_symbol_teeth
+  factor_source: new_candidate
+  role_position: Anxiety Dream
+  value_constraint: Power/communication loss
+  engine_id: dream_semantic
+  notes: Universal dream
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669897'
+- factor_type: Functional
+  factor_label: Ability to Bite
+  factor_id: psych_ability_to_bite
+  factor_source: new_candidate
+  role_position: Assertion
+  value_constraint: Defend/attack/stand ground
+  engine_id: dream_semantic
+  notes: Social power
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669921'
+- factor_type: State
+  factor_label: Communication Loss
+  factor_id: psych_comm_loss
+  factor_source: new_candidate
+  role_position: Powerlessness
+  value_constraint: Unable to express needs
+  engine_id: dream_semantic
+  notes: Social anxiety
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669927'
+- factor_type: State
+  factor_label: Rotten Teeth
+  factor_id: dream_rotten_teeth
+  factor_source: new_candidate
+  role_position: Self-neglect
+  value_constraint: Ignored self-care before loss
+  engine_id: dream_semantic
+  notes: Warning sign
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.669932'

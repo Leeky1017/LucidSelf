@@ -1,0 +1,42 @@
+$ PYTHONPATH=. .venv/bin/python - <<'PY'
+from fastapi import FastAPI
+from fastapi.testclient import TestClient
+from backend.api.middleware.metrics import MetricsMiddleware
+from backend.api.middleware.request_logging import RequestLoggingMiddleware
+from backend.api.routes.metrics import router as metrics_router
+
+app = FastAPI()
+app.add_middleware(RequestLoggingMiddleware)
+app.add_middleware(MetricsMiddleware)
+app.include_router(metrics_router)
+
+@app.get('/ping')
+async def ping():
+    return {'ok': True}
+
+client = TestClient(app)
+client.get('/ping')
+text = client.get('/metrics').text
+for line in text.splitlines():
+    if line.startswith('ls_requests_total') or line.startswith('ls_request_duration_ms') or line.startswith('# HELP ls_requests_total') or line.startswith('# HELP ls_request_duration_ms'):
+        print(line)
+PY
+# HELP ls_requests_total Total HTTP requests
+ls_requests_total{endpoint="/ping",method="GET",result="success"} 1.0
+# HELP ls_request_duration_ms HTTP request duration in milliseconds
+ls_request_duration_ms_bucket{endpoint="/ping",le="5.0",method="GET",result="success"} 1.0
+ls_request_duration_ms_bucket{endpoint="/ping",le="10.0",method="GET",result="success"} 1.0
+ls_request_duration_ms_bucket{endpoint="/ping",le="25.0",method="GET",result="success"} 1.0
+ls_request_duration_ms_bucket{endpoint="/ping",le="50.0",method="GET",result="success"} 1.0
+ls_request_duration_ms_bucket{endpoint="/ping",le="100.0",method="GET",result="success"} 1.0
+ls_request_duration_ms_bucket{endpoint="/ping",le="200.0",method="GET",result="success"} 1.0
+ls_request_duration_ms_bucket{endpoint="/ping",le="500.0",method="GET",result="success"} 1.0
+ls_request_duration_ms_bucket{endpoint="/ping",le="1000.0",method="GET",result="success"} 1.0
+ls_request_duration_ms_bucket{endpoint="/ping",le="2500.0",method="GET",result="success"} 1.0
+ls_request_duration_ms_bucket{endpoint="/ping",le="5000.0",method="GET",result="success"} 1.0
+ls_request_duration_ms_bucket{endpoint="/ping",le="10000.0",method="GET",result="success"} 1.0
+ls_request_duration_ms_bucket{endpoint="/ping",le="+Inf",method="GET",result="success"} 1.0
+ls_request_duration_ms_count{endpoint="/ping",method="GET",result="success"} 1.0
+ls_request_duration_ms_sum{endpoint="/ping",method="GET",result="success"} 1.3012790004722774
+# HELP ls_request_duration_ms_created HTTP request duration in milliseconds
+ls_request_duration_ms_created{endpoint="/ping",method="GET",result="success"} 1.766751494402417e+09

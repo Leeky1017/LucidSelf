@@ -1,0 +1,67 @@
+{
+  "contract_id": "knowledge-graph-runtime-semanticquery",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["user_id", "engine_id", "version_id"],
+  "entities": [
+    {
+      "name": "SemanticQueryRequest",
+      "description": "运行时语义查询请求（最小字段集合）",
+      "fields": [
+        { "name": "query_id", "type": "string", "required": true, "notes": "查询标识（唯一）" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识（用于可复现与可审计）" },
+        { "name": "query_key", "type": "string", "required": true, "notes": "查询键（规范化后；禁止敏感原文）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "SemanticQueryResponse",
+      "description": "运行时语义查询响应（最小字段集合）",
+      "fields": [
+        { "name": "response_id", "type": "string", "required": true, "notes": "响应标识（唯一）" },
+        { "name": "query_id", "type": "string", "required": true, "notes": "关联查询标识" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "results", "type": "array<object>", "required": true, "notes": "结果集合（最小化；禁止敏感原文）" },
+        { "name": "latency_ms", "type": "number", "required": false, "notes": "端到端延迟（ms；若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ConsistencyDeclaration",
+      "description": "结果一致性声明（最小字段集合）",
+      "fields": [
+        { "name": "declaration_id", "type": "string", "required": true, "notes": "声明标识（唯一）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "声明适用版本标识" },
+        { "name": "equivalence_scope", "type": "string", "required": true, "notes": "等价范围摘要（口径固定；禁止实现细节）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "LatencySLO",
+      "description": "延迟 SLO 定义（最小字段集合）",
+      "fields": [
+        { "name": "slo_id", "type": "string", "required": true, "notes": "SLO 标识（唯一）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "SLO 适用版本标识" },
+        { "name": "p95_ms", "type": "number", "required": true, "notes": "p95 延迟阈值（ms）" },
+        { "name": "p99_ms", "type": "number", "required": false, "notes": "p99 延迟阈值（ms；若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_USER_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_ENGINE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "QUERY_INVALID", "category": "client_error", "retryable": false },
+    { "code": "DRIFT_DETECTED", "category": "gate", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}

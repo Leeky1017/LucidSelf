@@ -1,0 +1,33 @@
+# Selector Configuration - 概念选择器配置
+# Feature: cross-book-knowledge-graph
+# Requirement Refs: Req 12.3
+
+# 各体系的默认配额
+default_quotas:
+  bazi: 15        # 八字 - 最大配额
+  astro: 10       # 西方占星
+  ziwei: 8        # 紫微斗数
+  tarot: 5        # 塔罗牌
+  dream: 5        # 解梦
+  yijing: 4       # 周易
+  psychology: 3   # 心理学
+  cross_system: 5 # 跨体系
+
+# 总数限制
+total_max_concepts: 50
+
+# 权威性阈值
+min_authority_score: 0.3
+
+# 是否包含有冲突的概念
+include_conflicted: true
+
+# 选择性能目标 (毫秒)
+selection_timeout_ms: 50.0
+
+# 配额分配策略
+quota_allocation:
+  # 未指定配额时使用default_quotas
+  fallback_to_default: true
+  # 配额不足时不重新分配
+  redistribute_unused: false

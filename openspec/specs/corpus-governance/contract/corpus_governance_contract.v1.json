@@ -1,0 +1,64 @@
+{
+  "contract_id": "corpus-governance",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["asset_id", "corpus_release_id", "version_id"],
+  "entities": [
+    {
+      "name": "AssetRegistration",
+      "description": "资产登记（最小字段集合）",
+      "fields": [
+        { "name": "asset_id", "type": "string", "required": true, "notes": "资产标识（唯一）" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "不可变版本标识（用于可复现/可审计）" },
+        { "name": "name", "type": "string", "required": true, "notes": "资产名称" },
+        { "name": "source", "type": "string", "required": true, "notes": "来源摘要（可追溯）" },
+        { "name": "license_id", "type": "string", "required": true, "notes": "许可标识（引用 LicenseConstraint）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "LicenseConstraint",
+      "description": "许可与使用约束（最小字段集合）",
+      "fields": [
+        { "name": "license_id", "type": "string", "required": true, "notes": "许可标识（唯一）" },
+        { "name": "allowed_use", "type": "array<string>", "required": true, "notes": "允许用途（受控词表）" },
+        { "name": "restrictions", "type": "array<string>", "required": false, "notes": "限制条款（受控词表或摘要）" },
+        { "name": "attribution_required", "type": "boolean", "required": true, "notes": "是否需要署名/引用" }
+      ]
+    },
+    {
+      "name": "LineageRecord",
+      "description": "版本与血缘记录（最小字段集合）",
+      "fields": [
+        { "name": "asset_id", "type": "string", "required": true, "notes": "资产标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "发布版本标识" },
+        { "name": "derived_from", "type": "array<string>", "required": false, "notes": "上游资产 asset_id 列表（若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "RetirementRecord",
+      "description": "退役记录（最小字段集合）",
+      "fields": [
+        { "name": "retirement_id", "type": "string", "required": true, "notes": "退役标识（唯一）" },
+        { "name": "asset_id", "type": "string", "required": true, "notes": "被退役资产" },
+        { "name": "effective_version_id", "type": "string", "required": true, "notes": "生效版本标识" },
+        { "name": "reason", "type": "string", "required": true, "notes": "退役原因（可审计摘要）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_ASSET_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_CORPUS_RELEASE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "LICENSE_VIOLATION", "category": "policy", "retryable": false },
+    { "code": "LINEAGE_NOT_RESOLVABLE", "category": "validation", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

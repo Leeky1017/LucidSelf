@@ -1,0 +1,29 @@
+$ rg -n "Depends\(get_current_user\)|CROSS_TENANT_ACCESS|org_id" backend/api/routes/dream.py backend/api/services/dream_service.py
+backend/api/routes/dream.py:351:    user: UserInfo = Depends(get_current_user),
+backend/api/routes/dream.py:357:        org_id=user.org_id,
+backend/api/routes/dream.py:393:    user: UserInfo = Depends(get_current_user),
+backend/api/routes/dream.py:401:                "code": "CROSS_TENANT_ACCESS",
+backend/api/routes/dream.py:409:        org_id=user.org_id,
+backend/api/routes/dream.py:447:    user: UserInfo = Depends(get_current_user),
+backend/api/routes/dream.py:451:    dream = await dream_service.get_dream(dream_id, user.user_id, user.org_id)
+backend/api/routes/dream.py:480:    user: UserInfo = Depends(get_current_user),
+backend/api/routes/dream.py:484:    deleted = await dream_service.delete_dream(dream_id, user.user_id, user.org_id)
+backend/api/services/dream_service.py:29:        org_id: str,
+backend/api/services/dream_service.py:44:            org_id=org_id,
+backend/api/services/dream_service.py:61:        logger.info("Created dream %s for user_id=%s org_id=%s", dream.id, user_id, org_id)
+backend/api/services/dream_service.py:64:    async def get_dream(self, dream_id: str, user_id: str, org_id: str) -> Optional[DreamRecord]:
+backend/api/services/dream_service.py:83:                "Dream access denied: dream_id=%s requester_user_id=%s requester_org_id=%s",
+backend/api/services/dream_service.py:86:                org_id,
+backend/api/services/dream_service.py:89:        if dream.org_id is not None and dream.org_id != org_id:
+backend/api/services/dream_service.py:91:                "Dream cross-tenant access blocked: dream_id=%s user_id=%s attempted_org_id=%s actual_org_id=%s",
+backend/api/services/dream_service.py:94:                org_id,
+backend/api/services/dream_service.py:95:                dream.org_id,
+backend/api/services/dream_service.py:104:        org_id: str,
+backend/api/services/dream_service.py:113:                or_(DreamRecord.org_id == org_id, DreamRecord.org_id.is_(None)),
+backend/api/services/dream_service.py:123:                or_(DreamRecord.org_id == org_id, DreamRecord.org_id.is_(None)),
+backend/api/services/dream_service.py:137:        org_id: str,
+backend/api/services/dream_service.py:141:        dream = await self.get_dream(dream_id, user_id, org_id)
+backend/api/services/dream_service.py:155:    async def delete_dream(self, dream_id: str, user_id: str, org_id: str) -> bool:
+backend/api/services/dream_service.py:157:        dream = await self.get_dream(dream_id, user_id, org_id)
+backend/api/services/dream_service.py:164:    async def increment_generate_count(self, dream_id: str, user_id: str, org_id: str) -> Optional[int]:
+backend/api/services/dream_service.py:166:        dream = await self.get_dream(dream_id, user_id, org_id)

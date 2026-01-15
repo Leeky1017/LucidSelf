@@ -1,0 +1,4 @@
+$ rg -n "openspec validate --strict" openspec/specs/*/tasks.md
+
+$ rg -n "openspec validate --specs --strict --no-interactive" openspec/specs/*/tasks.md | wc -l
+26

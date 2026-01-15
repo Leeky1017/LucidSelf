@@ -1,0 +1,94 @@
+# 梦境体系 - 状态类因子
+# State factors for Dream system
+
+factors:
+  # 情绪效价
+  - id: dream_mood_valence
+    status: existing
+    display_zh: 情绪效价
+    display_en: Mood Valence
+    description_zh: 梦境的整体情绪倾向
+    description_en: Overall emotional tone of the dream
+    category: state
+    value_type: enum
+    value_range: [pleasant, neutral, unpleasant, mixed]
+    applicable_systems: [dream]
+
+  - id: dream_emotional_intensity
+    status: existing
+    display_zh: 情绪强度
+    display_en: Emotional Intensity
+    description_zh: 梦中情绪的强烈程度
+    description_en: Intensity of emotions in the dream
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [dream]
+
+  # 清晰度
+  - id: dream_recall_completeness
+    status: existing
+    display_zh: 回忆完整度
+    display_en: Recall Completeness
+    description_zh: 梦境记忆的完整程度
+    description_en: Completeness of dream memory
+    category: state
+    value_type: enum
+    value_range: [complete, partial, fragmentary]
+    applicable_systems: [dream]
+
+  - id: dream_vividness
+    status: existing
+    display_zh: 生动程度
+    display_en: Vividness
+    description_zh: 梦境画面的清晰生动程度
+    description_en: Clarity and vividness of dream imagery
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [dream]
+
+  # 场景状态
+  - id: dream_scene_brightness
+    status: existing
+    display_zh: 场景亮度
+    display_en: Scene Brightness
+    description_zh: 梦境场景的明暗程度
+    description_en: Light/dark level of dream scene
+    category: state
+    value_type: enum
+    value_range: [bright, normal, dim, dark]
+    applicable_systems: [dream]
+
+  - id: dream_atmosphere
+    status: existing
+    display_zh: 梦境氛围
+    display_en: Dream Atmosphere
+    description_zh: 梦境的整体氛围
+    description_en: Overall atmosphere of the dream
+    category: state
+    value_type: enum
+    value_range: [peaceful, tense, mysterious, chaotic, surreal]
+    applicable_systems: [dream]
+
+  # 觉醒状态
+  - id: dream_lucidity_level
+    status: existing
+    display_zh: 清醒程度
+    display_en: Lucidity Level
+    description_zh: 梦中觉知到自己在做梦的程度
+    description_en: Degree of awareness that one is dreaming
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [dream]
+
+  - id: dream_control_ability
+    status: existing
+    display_zh: 控制能力
+    display_en: Control Ability
+    description_zh: 能否在梦中控制情节发展
+    description_en: Ability to control dream events
+    category: state
+    value_type: boolean
+    applicable_systems: [dream]

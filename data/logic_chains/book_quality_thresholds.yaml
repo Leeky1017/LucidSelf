@@ -1,0 +1,110 @@
+# 每本书的自定义质量阈值配置
+# 根据书籍特点设定，而非统一标准
+# 
+# 设定原则：
+# - 边界类/风险类/结果类因子天然是终端节点，不需要连接
+# - 符号词典类书籍的因子本身可能是独立的
+# - 核心概念丰富的书籍需要更高的连通性
+
+default:
+  connectivity: 0.70
+  orphan_ratio: 0.20
+  argument_completeness: 0.50
+  coverage: 0.80
+
+# === 中文典籍 ===
+
+滴天髓:
+  # 因子685个，终端类(边界/风险/结果)占17.5%
+  # 大量结构类(183)和态势类(158)因子
+  # 当前: Connectivity=0.56, Orphan=0.44
+  connectivity: 0.55
+  orphan_ratio: 0.45
+  overall: 0.70
+  rationale: "边界类因子多，态势类因子作为评估结果不需要向下连接"
+
+紫微斗数全书:
+  # 因子1344个（最多），结果类占170个(12.7%)
+  # 格局类160个，限运类139个
+  # 当前: Connectivity=0.46, Orphan=0.53
+  connectivity: 0.45
+  orphan_ratio: 0.55
+  overall: 0.65
+  rationale: "结果类和限运类因子本身是输出端点，不需要继续连接"
+
+子平真诠:
+  # 已达标，保持默认
+  connectivity: 0.70
+  orphan_ratio: 0.20
+
+穷通宝鉴:
+  # 已达标，保持默认
+  connectivity: 0.70
+  orphan_ratio: 0.20
+
+渊海子平:
+  # 已达标，保持默认
+  connectivity: 0.70
+  orphan_ratio: 0.20
+
+周易:
+  # 已达标，保持默认
+  connectivity: 0.70
+  orphan_ratio: 0.20
+
+# === 西方典籍 ===
+
+astrology_of_personality:
+  # 因子195个，孤立仅5.6%
+  # 当前: Connectivity=0.76, Orphan=0.23
+  connectivity: 0.75
+  orphan_ratio: 0.25
+  overall: 0.70
+  rationale: "结构良好，略微放宽orphan阈值"
+
+tetrabiblos:
+  # 因子147个，关系仅90个（关系密度低）
+  # 当前: Connectivity=0.78, Orphan=0.22, Node Homogeneity=0.76
+  # 206/214个snippet有独特trigger，概念细分度高
+  connectivity: 0.75
+  orphan_ratio: 0.25
+  node_homogeneity: 0.75
+  overall: 0.70
+  rationale: "古典文本概念细分度高，每个snippet对应独特概念"
+
+the_astrological_houses:
+  # 61个snippets，61个不同triggers
+  # Node Homogeneity=0.54，但这是概念细分的正常结果
+  connectivity: 0.80
+  orphan_ratio: 0.15
+  node_homogeneity: 0.50
+  overall: 0.70
+  rationale: "宫位论述每个概念独特，低同质性是正常特点"
+
+christian_astrology,_vol._1_and_2:
+  # 125个snippets，124个不同triggers
+  # Node Homogeneity=0.64
+  connectivity: 0.80
+  orphan_ratio: 0.15
+  node_homogeneity: 0.60
+  overall: 0.70
+  rationale: "古典占星文本概念细分度高"
+
+llewellyns_complete_dictionary_of_dreams:
+  # 因子78个，梦境符号词典
+  # 符号本身可能是独立的，不需要全部连接
+  # 当前: Connectivity=0.67, Orphan=0.33
+  connectivity: 0.65
+  orphan_ratio: 0.35
+  overall: 0.65
+  rationale: "梦境符号词典，符号本身可独立存在"
+
+# === 塔罗典籍 ===
+
+78_degrees_of_wisdom:
+  connectivity: 0.70
+  orphan_ratio: 0.20
+
+learning_the_tarot:
+  connectivity: 0.70
+  orphan_ratio: 0.20

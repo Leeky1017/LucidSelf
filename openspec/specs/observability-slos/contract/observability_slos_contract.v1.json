@@ -1,0 +1,76 @@
+{
+  "contract_id": "observability-slos",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["request_id", "trace_id", "version_id", "engine_id", "user_id"],
+  "entities": [
+    {
+      "name": "MetricDefinition",
+      "description": "指标定义（名称/类型/单位/标签/聚合口径的最小字段集合）",
+      "fields": [
+        { "name": "metric_name", "type": "string", "required": true, "notes": "指标名（受控命名规范）" },
+        { "name": "metric_type", "type": "string", "required": true, "notes": "counter/gauge/histogram/summary" },
+        { "name": "unit", "type": "string", "required": true, "notes": "单位（如 ms, bytes, 1）" },
+        { "name": "required_labels", "type": "array<string>", "required": true, "notes": "必选标签（最小集合）" },
+        { "name": "optional_labels", "type": "array<string>", "required": false, "notes": "可选标签（需约束基数）" },
+        { "name": "aggregation", "type": "string", "required": true, "notes": "聚合口径（p95/总量/窗口等）" },
+        { "name": "description", "type": "string", "required": true, "notes": "指标语义" }
+      ]
+    },
+    {
+      "name": "LogFieldSchema",
+      "description": "结构化日志字段规范（字段名/类型/必填性/脱敏规则）",
+      "fields": [
+        { "name": "schema_id", "type": "string", "required": true, "notes": "schema 标识（版本化）" },
+        { "name": "schema_version", "type": "string", "required": true, "notes": "schema 版本" },
+        { "name": "fields", "type": "array<object>", "required": true, "notes": "字段定义列表（字段名/类型/必填/脱敏）" }
+      ]
+    },
+    {
+      "name": "TracePropagationSpec",
+      "description": "trace 传播规范（最小字段集合）",
+      "fields": [
+        { "name": "trace_id", "type": "string", "required": true, "notes": "链路追踪标识" },
+        { "name": "request_id", "type": "string", "required": true, "notes": "请求关联标识" },
+        { "name": "parent_span_id", "type": "string", "required": false, "notes": "父 span（若适用）" },
+        { "name": "span_id", "type": "string", "required": false, "notes": "当前 span（若适用）" }
+      ]
+    },
+    {
+      "name": "SLODefinition",
+      "description": "SLO 定义（服务/指标/阈值/窗口/目标）",
+      "fields": [
+        { "name": "slo_id", "type": "string", "required": true, "notes": "SLO 标识" },
+        { "name": "service", "type": "string", "required": true, "notes": "服务/能力名称" },
+        { "name": "indicator", "type": "string", "required": true, "notes": "指标口径（成功率/延迟等）" },
+        { "name": "threshold", "type": "string", "required": true, "notes": "阈值（可判定表达）" },
+        { "name": "window", "type": "string", "required": true, "notes": "时间窗口（如 30d）" },
+        { "name": "target", "type": "string", "required": true, "notes": "目标（如 99.9%）" }
+      ]
+    },
+    {
+      "name": "AlertRule",
+      "description": "告警规则（最小字段集合）",
+      "fields": [
+        { "name": "rule_id", "type": "string", "required": true, "notes": "规则标识" },
+        { "name": "severity", "type": "string", "required": true, "notes": "严重级别（P0/P1/P2 等）" },
+        { "name": "slo_id", "type": "string", "required": false, "notes": "关联 SLO（若适用）" },
+        { "name": "summary", "type": "string", "required": true, "notes": "告警摘要（可行动）" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_REQUEST_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_TRACE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_ENGINE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_USER_ID", "category": "client_error", "retryable": false },
+    { "code": "INVALID_METRIC_NAME", "category": "validation", "retryable": false },
+    { "code": "INVALID_LABEL_SCHEMA", "category": "validation", "retryable": false },
+    { "code": "HIGH_CARDINALITY_LABEL", "category": "validation", "retryable": false },
+    { "code": "INVALID_SLO_DEFINITION", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

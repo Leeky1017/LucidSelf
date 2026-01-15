@@ -1,0 +1,83 @@
+# Spiritual Scenario Template
+# 心灵场景模板配置
+
+scenario_id: scn_spiritual
+domain: spiritual
+
+keywords:
+  primary: ["心灵", "精神", "修行", "spiritual", "soul", "meditation"]
+  synonyms: ["冥想", "禅修", "内心", "觉醒", "开悟", "正念", "信仰", "宗教", "哲学", "意义", "使命", "命运", "轮回", "因果"]
+  negative: []
+  weight: 1.0
+
+decision_axes:
+  - axis_id: inner_peace
+    label_zh: 内心平静
+    label_en: Inner Peace
+    description: 内心平静和安宁程度
+    value_type: float
+    default_weight: 1.0
+  
+  - axis_id: self_awareness
+    label_zh: 自我觉察
+    label_en: Self Awareness
+    description: 自我认知和觉察能力
+    value_type: float
+    default_weight: 1.0
+  
+  - axis_id: purpose_clarity
+    label_zh: 目的清晰
+    label_en: Purpose Clarity
+    description: 人生目的和意义的清晰度
+    value_type: float
+    default_weight: 0.9
+  
+  - axis_id: spiritual_growth
+    label_zh: 灵性成长
+    label_en: Spiritual Growth
+    description: 灵性和精神层面的成长
+    value_type: float
+    default_weight: 0.9
+  
+  - axis_id: wisdom
+    label_zh: 智慧
+    label_en: Wisdom
+    description: 人生智慧和洞察力
+    value_type: float
+    default_weight: 0.8
+  
+  - axis_id: connection
+    label_zh: 连接感
+    label_en: Connection
+    description: 与自然/宇宙/他人的连接感
+    value_type: float
+    default_weight: 0.7
+
+factor_include_patterns:
+  - "bazi_*_spirit_*"
+  - "ziwei_spiritual_*"
+  - "astro_*_9th_*"
+  - "astro_*_12th_*"
+  - "astro_jupiter_*"
+  - "astro_neptune_*"
+
+factor_exclude_patterns:
+  - "*_career_*"
+  - "*_wealth_*"
+
+factor_always_include:
+  - "bazi_day_master"
+  - "astro_sun_sign"
+
+rule_categories:
+  - "spiritual"
+  - "wisdom"
+  - "guidance"
+
+related_scenarios:
+  - "scn_health"
+  - "scn_creativity"
+
+label_zh: 心灵
+label_en: Spiritual
+description: 人生意义、心灵成长、修行开悟等心灵相关问题

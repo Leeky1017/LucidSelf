@@ -1,0 +1,1736 @@
+chain_id: chain_t
+book_id: tetrabiblos
+nodes:
+- node_id: n_t_source_text_ii_1_0
+  snippet_ids:
+  - ns_tetra_ii001
+  role: 主干
+  condition: null
+  summary: mundane_natal_division
+  metadata:
+    source_ref: Source Text II.1
+    snippet_count: 1
+- node_id: n_t_source_text_ii_2_1
+  snippet_ids:
+  - ns_tetra_ii002
+  role: 主干
+  condition: null
+  summary: climatic_astrology
+  metadata:
+    source_ref: Source Text II.2
+    snippet_count: 1
+- node_id: n_t_source_text_ii_3_2
+  snippet_ids:
+  - ns_tetra_ii003
+  - ns_tetra_ii004
+  role: 主干
+  condition: null
+  summary: regional_triplicities
+  metadata:
+    source_ref: Source Text II.3
+    snippet_count: 2
+- node_id: n_t_source_text_ii_4_3
+  snippet_ids:
+  - ns_tetra_ii_010
+  role: 主干
+  condition: null
+  summary: fixed_star_region
+  metadata:
+    source_ref: Source Text II.4
+    snippet_count: 1
+- node_id: n_t_source_text_ii_5_4
+  snippet_ids:
+  - ns_tetra_ii005
+  role: 主干
+  condition: null
+  summary: eclipse_methodology
+  metadata:
+    source_ref: Source Text II.5
+    snippet_count: 1
+- node_id: n_t_source_text_ii_6_5
+  snippet_ids:
+  - ns_tetra_ii006
+  role: 条件分支
+  condition: null
+  summary: eclipse_regions
+  metadata:
+    source_ref: Source Text II.6
+    snippet_count: 1
+- node_id: n_t_source_text_ii_7_6
+  snippet_ids:
+  - ns_tetra_ii_011
+  role: 主干
+  condition: null
+  summary: eclipse_timing
+  metadata:
+    source_ref: Source Text II.7
+    snippet_count: 1
+- node_id: n_t_source_text_ii_8_7
+  snippet_ids:
+  - ns_tetra_ii_012
+  role: 主干
+  condition: null
+  summary: genus_affected
+  metadata:
+    source_ref: Source Text II.8
+    snippet_count: 1
+- node_id: n_t_source_text_ii_9_8
+  snippet_ids:
+  - ns_tetra_ii007
+  role: 主干
+  condition: null
+  summary: eclipse_effect_nature
+  metadata:
+    source_ref: Source Text II.9
+    snippet_count: 1
+- node_id: n_t_source_text_ii_10_9
+  snippet_ids:
+  - ns_tetra_ii_013
+  role: 主干
+  condition: null
+  summary: eclipse_colour
+  metadata:
+    source_ref: Source Text II.10
+    snippet_count: 1
+- node_id: n_t_source_text_ii_11_10
+  snippet_ids:
+  - ns_tetra_ii008
+  role: 主干
+  condition: null
+  summary: aries_ingress
+  metadata:
+    source_ref: Source Text II.11
+    snippet_count: 1
+- node_id: n_t_source_text_ii_12_11
+  snippet_ids:
+  - ns_tetra_ii_014
+  role: 主干
+  condition: null
+  summary: sign_weather
+  metadata:
+    source_ref: Source Text II.12
+    snippet_count: 1
+- node_id: n_t_source_text_ii_13_12
+  snippet_ids:
+  - ns_tetra_ii009
+  role: 条件分支
+  condition: null
+  summary: monthly_weather
+  metadata:
+    source_ref: Source Text II.13
+    snippet_count: 1
+- node_id: n_t_source_text_ii_14_13
+  snippet_ids:
+  - ns_tetra_ii010
+  role: 条件分支
+  condition: null
+  summary: meteors_comets
+  metadata:
+    source_ref: Source Text II.14
+    snippet_count: 1
+- node_id: n_t_source_text_iv_1_14
+  snippet_ids:
+  - ns_tetra_iv001
+  - ns_tetra_iv002
+  role: 主干
+  condition: null
+  summary: fortune_wealth
+  metadata:
+    source_ref: Source Text IV.1
+    snippet_count: 2
+- node_id: n_t_source_text_iv_2_15
+  snippet_ids:
+  - ns_tetra_iv003
+  - ns_tetra_iv004
+  role: 主干
+  condition: null
+  summary: rank_dignity
+  metadata:
+    source_ref: Source Text IV.2
+    snippet_count: 2
+- node_id: n_t_source_text_iv_3_16
+  snippet_ids:
+  - ns_tetra_iv005
+  - ns_tetra_iv006
+  role: 主干
+  condition: null
+  summary: profession
+  metadata:
+    source_ref: Source Text IV.3
+    snippet_count: 2
+- node_id: n_t_source_text_iv_4_17
+  snippet_ids:
+  - ns_tetra_iv_010
+  role: 主干
+  condition: null
+  summary: employment_quality
+  metadata:
+    source_ref: Source Text IV.4
+    snippet_count: 1
+- node_id: n_t_source_text_iv_5_18
+  snippet_ids:
+  - ns_tetra_iv007
+  - ns_tetra_iv008
+  role: 主干
+  condition: null
+  summary: marriage_men
+  metadata:
+    source_ref: Source Text IV.5
+    snippet_count: 2
+- node_id: n_t_source_text_iv_6_19
+  snippet_ids:
+  - ns_tetra_iv009
+  - ns_tetra_iv010
+  role: 主干
+  condition: null
+  summary: children_givers
+  metadata:
+    source_ref: Source Text IV.6
+    snippet_count: 2
+- node_id: n_t_source_text_iv_7_20
+  snippet_ids:
+  - ns_tetra_iv011
+  role: 主干
+  condition: null
+  summary: synastry_friendship
+  metadata:
+    source_ref: Source Text IV.7
+    snippet_count: 1
+- node_id: n_t_source_text_iv_8_21
+  snippet_ids:
+  - ns_tetra_iv012
+  role: 主干
+  condition: null
+  summary: travel_indicated
+  metadata:
+    source_ref: Source Text IV.8
+    snippet_count: 1
+- node_id: n_t_source_text_iv_9_22
+  snippet_ids:
+  - ns_tetra_iv013
+  - ns_tetra_iv014
+  - ns_tetra_iv015
+  role: 主干
+  condition: null
+  summary: death_manner
+  metadata:
+    source_ref: Source Text IV.9
+    snippet_count: 3
+- node_id: n_t_source_text_iv_10_23
+  snippet_ids:
+  - ns_tetra_iv_020
+  role: 主干
+  condition: null
+  summary: time_division
+  metadata:
+    source_ref: Source Text IV.10
+    snippet_count: 1
+- node_id: n_t_source_text_i_1_24
+  snippet_ids:
+  - ns_tetra_i001
+  - ns_tetra_i002
+  - ns_tetra_i003
+  - ns_tetra_i004
+  role: 主干
+  condition: null
+  summary: two_studies_foundation
+  metadata:
+    source_ref: Source Text I.1
+    snippet_count: 4
+- node_id: n_t_english_paraphrase_25
+  snippet_ids:
+  - ns_tetra_i005
+  - ns_ptolemy_iii_002
+  - ns_ptolemy_iii_004
+  - ns_ptolemy_iii_006
+  - ns_ptolemy_iii_008
+  role: 主干依赖
+  condition: null
+  summary: conjectural_nature
+  metadata:
+    source_ref: English Paraphrase
+    snippet_count: 5
+- node_id: n_t_source_text_i_2_26
+  snippet_ids:
+  - ns_tetra_i006
+  - ns_tetra_i007
+  - ns_tetra_i008
+  - ns_tetra_i009
+  - ns_tetra_i010
+  role: 主干
+  condition: null
+  summary: aethereal_power
+  metadata:
+    source_ref: Source Text I.2
+    snippet_count: 5
+- node_id: n_t_source_text_i_3_27
+  snippet_ids:
+  - ns_tetra_i011
+  - ns_tetra_i012
+  - ns_tetra_i013
+  - ns_tetra_i014
+  - ns_tetra_i015
+  - ns_tetra_i016
+  role: 主干
+  condition: null
+  summary: prescience_utility
+  metadata:
+    source_ref: Source Text I.3
+    snippet_count: 6
+- node_id: n_t_source_text_i_4_28
+  snippet_ids:
+  - ns_tetra_i017
+  - ns_tetra_i018
+  - ns_tetra_i019
+  - ns_tetra_i020
+  - ns_tetra_i021
+  - ns_tetra_i022
+  - ns_tetra_i023
+  role: 主干
+  condition: null
+  summary: sun_quality
+  metadata:
+    source_ref: Source Text I.4
+    snippet_count: 7
+- node_id: n_t_source_text_i_5_29
+  snippet_ids:
+  - ns_tetra_i024
+  - ns_tetra_i025
+  - ns_tetra_i026
+  role: 主干
+  condition: null
+  summary: benefic_malefic_basis
+  metadata:
+    source_ref: Source Text I.5
+    snippet_count: 3
+- node_id: n_t_source_text_i_6_30
+  snippet_ids:
+  - ns_tetra_i027
+  - ns_tetra_i028
+  - ns_tetra_i029
+  role: 主干
+  condition: null
+  summary: planet_gender
+  metadata:
+    source_ref: Source Text I.6
+    snippet_count: 3
+- node_id: n_t_source_text_i_7_31
+  snippet_ids:
+  - ns_tetra_i030
+  - ns_tetra_i031
+  role: 主干
+  condition: null
+  summary: sect_doctrine
+  metadata:
+    source_ref: Source Text I.7
+    snippet_count: 2
+- node_id: n_t_source_text_i_8_32
+  snippet_ids:
+  - ns_tetra_i032
+  - ns_tetra_i033
+  role: 主干
+  condition: null
+  summary: moon_phase_quality
+  metadata:
+    source_ref: Source Text I.8
+    snippet_count: 2
+- node_id: n_t_source_text_i_9_33
+  snippet_ids:
+  - ns_tetra_i034
+  - ns_tetra_i035
+  - ns_tetra_i036
+  role: 主干
+  condition: null
+  summary: fixed_star_nature
+  metadata:
+    source_ref: Source Text I.9
+    snippet_count: 3
+- node_id: n_t_source_text_i_10_34
+  snippet_ids:
+  - ns_tetra_i070
+  role: 主干
+  condition: null
+  summary: northern_stars
+  metadata:
+    source_ref: Source Text I.10
+    snippet_count: 1
+- node_id: n_t_source_text_i_11_35
+  snippet_ids:
+  - ns_tetra_i071
+  role: 主干
+  condition: null
+  summary: southern_stars
+  metadata:
+    source_ref: Source Text I.11
+    snippet_count: 1
+- node_id: n_t_footnote_i_11_36
+  snippet_ids:
+  - ns_tetra_i072
+  role: 条件分支
+  condition: null
+  summary: star_power
+  metadata:
+    source_ref: Footnote I.11
+    snippet_count: 1
+- node_id: n_t_source_text_i_12_37
+  snippet_ids:
+  - ns_tetra_i037
+  - ns_tetra_i038
+  role: 主干
+  condition: null
+  summary: seasonal_quality
+  metadata:
+    source_ref: Source Text I.12
+    snippet_count: 2
+- node_id: n_t_footnote_i_12_38
+  snippet_ids:
+  - ns_tetra_i039
+  role: 总结
+  condition: null
+  summary: tropical_zodiac
+  metadata:
+    source_ref: Footnote I.12
+    snippet_count: 1
+- node_id: n_t_source_text_i_13_39
+  snippet_ids:
+  - ns_tetra_i040
+  - ns_tetra_i041
+  role: 主干
+  condition: null
+  summary: angle_quality
+  metadata:
+    source_ref: Source Text I.13
+    snippet_count: 2
+- node_id: n_t_source_text_i_14_40
+  snippet_ids:
+  - ns_tetra_i042
+  - ns_tetra_i043
+  role: 主干
+  condition: null
+  summary: sign_modality
+  metadata:
+    source_ref: Source Text I.14
+    snippet_count: 2
+- node_id: n_t_source_text_i_15_41
+  snippet_ids:
+  - ns_tetra_i073
+  role: 主干
+  condition: null
+  summary: sign_gender
+  metadata:
+    source_ref: Source Text I.15
+    snippet_count: 1
+- node_id: n_t_source_text_i_16_42
+  snippet_ids:
+  - ns_tetra_i044
+  - ns_tetra_i045
+  - ns_tetra_i046
+  role: 主干
+  condition: null
+  summary: aspect_definition
+  metadata:
+    source_ref: Source Text I.16
+    snippet_count: 3
+- node_id: n_t_source_text_i_17_43
+  snippet_ids:
+  - ns_tetra_i074
+  role: 主干
+  condition: null
+  summary: commanding_obeying
+  metadata:
+    source_ref: Source Text I.17
+    snippet_count: 1
+- node_id: n_t_source_text_i_18_44
+  snippet_ids:
+  - ns_tetra_i075
+  role: 主干
+  condition: null
+  summary: signs_beholding
+  metadata:
+    source_ref: Source Text I.18
+    snippet_count: 1
+- node_id: n_t_source_text_i_19_45
+  snippet_ids:
+  - ns_tetra_i076
+  role: 主干
+  condition: null
+  summary: inconjunct
+  metadata:
+    source_ref: Source Text I.19
+    snippet_count: 1
+- node_id: n_t_source_text_i_20_46
+  snippet_ids:
+  - ns_tetra_i047
+  - ns_tetra_i048
+  - ns_tetra_i049
+  role: 主干
+  condition: null
+  summary: domicile_system
+  metadata:
+    source_ref: Source Text I.20
+    snippet_count: 3
+- node_id: n_t_source_text_i_21_47
+  snippet_ids:
+  - ns_tetra_i050
+  - ns_tetra_i051
+  role: 主干
+  condition: null
+  summary: triplicity_system
+  metadata:
+    source_ref: Source Text I.21
+    snippet_count: 2
+- node_id: n_t_source_text_i_22_48
+  snippet_ids:
+  - ns_tetra_i052
+  - ns_tetra_i053
+  role: 主干
+  condition: null
+  summary: exaltation_system
+  metadata:
+    source_ref: Source Text I.22
+    snippet_count: 2
+- node_id: n_t_source_text_i_23_49
+  snippet_ids:
+  - ns_tetra_i054
+  role: 主干
+  condition: null
+  summary: egyptian_terms
+  metadata:
+    source_ref: Source Text I.23
+    snippet_count: 1
+- node_id: n_t_source_text_i_24_50
+  snippet_ids:
+  - ns_tetra_i055
+  role: 主干
+  condition: null
+  summary: ptolemaic_terms
+  metadata:
+    source_ref: Source Text I.24
+    snippet_count: 1
+- node_id: n_t_source_text_i_25_51
+  snippet_ids:
+  - ns_tetra_i056
+  - ns_tetra_i057
+  role: 主干
+  condition: null
+  summary: tropical_zodiac_defense
+  metadata:
+    source_ref: Source Text I.25
+    snippet_count: 2
+- node_id: n_t_source_text_i_26_52
+  snippet_ids:
+  - ns_tetra_i058
+  - ns_tetra_i059
+  role: 主干
+  condition: null
+  summary: planetary_face
+  metadata:
+    source_ref: Source Text I.26
+    snippet_count: 2
+- node_id: n_t_source_text_i_27_53
+  snippet_ids:
+  - ns_tetra_i060
+  - ns_tetra_i061
+  role: 主干
+  condition: null
+  summary: application_separation
+  metadata:
+    source_ref: Source Text I.27
+    snippet_count: 2
+- node_id: n_t_source_text_54
+  snippet_ids:
+  - ns_ptolemy_iii_001
+  - ns_ptolemy_iii_003
+  - ns_ptolemy_iii_005
+  - ns_ptolemy_iii_007
+  - ns_ptolemy_iii_009
+  - ns_ptolemy_iii_010
+  role: 主干
+  condition: null
+  summary: genethliacal
+  metadata:
+    source_ref: Source Text
+    snippet_count: 6
+- node_id: n_t_source_text_iii_2_55
+  snippet_ids:
+  - ns_tetra_iii_010
+  role: 主干
+  condition: null
+  summary: conception_birth
+  metadata:
+    source_ref: Source Text III.2
+    snippet_count: 1
+- node_id: n_t_source_text_iii_5_56
+  snippet_ids:
+  - ns_tetra_iii011
+  - ns_tetra_iii012
+  role: 主干
+  condition: null
+  summary: parent_significators
+  metadata:
+    source_ref: Source Text III.5
+    snippet_count: 2
+- node_id: n_t_source_text_iii_6_57
+  snippet_ids:
+  - ns_tetra_iii013
+  role: 主干
+  condition: null
+  summary: siblings_place
+  metadata:
+    source_ref: Source Text III.6
+    snippet_count: 1
+- node_id: n_t_source_text_iii_7_58
+  snippet_ids:
+  - ns_tetra_iii014
+  role: 主干
+  condition: null
+  summary: sex_determination
+  metadata:
+    source_ref: Source Text III.7
+    snippet_count: 1
+- node_id: n_t_source_text_iii_8_59
+  snippet_ids:
+  - ns_tetra_iii015
+  role: 主干
+  condition: null
+  summary: twins_multiples
+  metadata:
+    source_ref: Source Text III.8
+    snippet_count: 1
+- node_id: n_t_source_text_iii_9_60
+  snippet_ids:
+  - ns_tetra_iii_020
+  role: 主干
+  condition: null
+  summary: monstrous_birth
+  metadata:
+    source_ref: Source Text III.9
+    snippet_count: 1
+- node_id: n_t_source_text_iii_10_61
+  snippet_ids:
+  - ns_tetra_iii_021
+  role: 主干
+  condition: null
+  summary: not_reared
+  metadata:
+    source_ref: Source Text III.10
+    snippet_count: 1
+- node_id: n_t_source_text_iii_11_62
+  snippet_ids:
+  - ns_tetra_iii022
+  role: 主干
+  condition: null
+  summary: duration_intro
+  metadata:
+    source_ref: Source Text III.11
+    snippet_count: 1
+- node_id: n_t_source_text_iii_12_63
+  snippet_ids:
+  - ns_tetra_iii023
+  role: 主干
+  condition: null
+  summary: prorogatory_places
+  metadata:
+    source_ref: Source Text III.12
+    snippet_count: 1
+- node_id: n_t_source_text_iii_13_64
+  snippet_ids:
+  - ns_tetra_iii024
+  role: 主干
+  condition: null
+  summary: prorogator_selection
+  metadata:
+    source_ref: Source Text III.13
+    snippet_count: 1
+- node_id: n_t_source_text_iii_14_65
+  snippet_ids:
+  - ns_tetra_iii025
+  role: 主干
+  condition: null
+  summary: prorogation_modes
+  metadata:
+    source_ref: Source Text III.14
+    snippet_count: 1
+- node_id: n_t_source_text_iii_15_66
+  snippet_ids:
+  - ns_tetra_iii026
+  role: 主干
+  condition: null
+  summary: prorogation_example
+  metadata:
+    source_ref: Source Text III.15
+    snippet_count: 1
+- node_id: n_t_source_text_iii_16_67
+  snippet_ids:
+  - ns_tetra_iii018
+  role: 主干
+  condition: null
+  summary: body_form
+  metadata:
+    source_ref: Source Text III.16
+    snippet_count: 1
+- node_id: n_t_source_text_iii_17_68
+  snippet_ids:
+  - ns_tetra_iii019
+  - ns_tetra_iii020
+  role: 主干
+  condition: null
+  summary: bodily_disease
+  metadata:
+    source_ref: Source Text III.17
+    snippet_count: 2
+edges:
+- from_node: n_t_source_text_i_2_26
+  to_node: n_t_source_text_i_4_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_004
+    source_ref: Ptolemy I.4
+    inferred_from: explicit_relation
+- from_node: n_t_source_text_i_20_46
+  to_node: n_t_source_text_i_4_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_004
+    source_ref: Ptolemy I.4
+    inferred_from: explicit_relation
+- from_node: n_t_source_text_i_22_48
+  to_node: n_t_source_text_i_4_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_004
+    source_ref: Ptolemy I.4
+    inferred_from: explicit_relation
+- from_node: n_t_source_text_iv_9_22
+  to_node: n_t_source_text_i_4_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_005
+    source_ref: Ptolemy I.4
+    inferred_from: explicit_relation
+- from_node: n_t_source_text_i_7_31
+  to_node: n_t_source_text_i_4_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_005
+    source_ref: Ptolemy I.4
+    inferred_from: explicit_relation
+- from_node: n_t_source_text_i_5_29
+  to_node: n_t_source_text_i_4_28
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_005
+    source_ref: Ptolemy I.4
+    inferred_from: explicit_relation
+- from_node: n_t_source_text_i_20_46
+  to_node: n_t_source_text_i_27_53
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_018
+    source_ref: Ptolemy I.20
+    inferred_from: explicit_relation
+- from_node: n_t_source_text_i_21_47
+  to_node: n_t_source_text_i_27_53
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_019
+    source_ref: Ptolemy I.21
+    inferred_from: explicit_relation
+- from_node: n_t_source_text_i_22_48
+  to_node: n_t_source_text_i_27_53
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_020
+    source_ref: Ptolemy I.22
+    inferred_from: explicit_relation
+- from_node: n_t_source_text_i_23_49
+  to_node: n_t_source_text_i_27_53
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_021a
+    source_ref: Ptolemy I.23
+    inferred_from: explicit_relation
+- from_node: n_t_source_text_i_24_50
+  to_node: n_t_source_text_i_27_53
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_021b
+    source_ref: Ptolemy I.24
+    inferred_from: explicit_relation
+- from_node: n_t_source_text_i_26_52
+  to_node: n_t_source_text_i_27_53
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_023
+    source_ref: Ptolemy I.26
+    inferred_from: explicit_relation
+- from_node: n_t_source_text_ii_3_2
+  to_node: n_t_source_text_ii_4_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_ii_3_2
+  to_node: n_t_source_text_iv_3_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_ii_3_2
+  to_node: n_t_source_text_iv_9_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_i_4_28
+  to_node: n_t_source_text_ii_3_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_i_8_32
+  to_node: n_t_source_text_ii_3_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_i_20_46
+  to_node: n_t_source_text_ii_3_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_i_22_48
+  to_node: n_t_source_text_ii_3_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_ii_4_3
+  to_node: n_t_source_text_iv_3_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_ii_4_3
+  to_node: n_t_source_text_iv_9_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_i_4_28
+  to_node: n_t_source_text_ii_4_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_i_8_32
+  to_node: n_t_source_text_ii_4_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_i_9_33
+  to_node: n_t_source_text_ii_4_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - fixed_star
+- from_node: n_t_footnote_i_11_36
+  to_node: n_t_source_text_ii_4_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - fixed_star
+- from_node: n_t_source_text_i_20_46
+  to_node: n_t_source_text_ii_4_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_i_22_48
+  to_node: n_t_source_text_ii_4_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_i_5_29
+  to_node: n_t_source_text_ii_5_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_7_31
+  to_node: n_t_source_text_ii_5_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_15_41
+  to_node: n_t_source_text_ii_5_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_16_42
+  to_node: n_t_source_text_ii_5_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_17_43
+  to_node: n_t_source_text_ii_5_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_20_46
+  to_node: n_t_source_text_ii_5_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_21_47
+  to_node: n_t_source_text_ii_5_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_27_53
+  to_node: n_t_source_text_ii_5_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_ii_5_4
+  to_node: n_t_source_text_iii_5_56
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_ii_5_4
+  to_node: n_t_source_text_iii_7_58
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_iv_3_16
+  to_node: n_t_source_text_iv_9_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_i_4_28
+  to_node: n_t_source_text_iv_3_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - planet_mercury
+- from_node: n_t_source_text_i_6_30
+  to_node: n_t_source_text_iv_3_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - planet_mercury
+- from_node: n_t_source_text_i_8_32
+  to_node: n_t_source_text_iv_3_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_i_20_46
+  to_node: n_t_source_text_iv_3_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_i_22_48
+  to_node: n_t_source_text_iv_3_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_i_5_29
+  to_node: n_t_source_text_iv_9_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - planet_mars
+    - planet_saturn
+- from_node: n_t_source_text_i_7_31
+  to_node: n_t_source_text_iv_9_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - planet_mars
+    - planet_saturn
+- from_node: n_t_source_text_i_8_32
+  to_node: n_t_source_text_iv_9_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_source_text_i_20_46
+  to_node: n_t_source_text_iv_9_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - planet_saturn
+- from_node: n_t_source_text_i_22_48
+  to_node: n_t_source_text_iv_9_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_english_paraphrase_25
+  to_node: n_t_source_text_i_1_24
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - astro_epistemology
+- from_node: n_t_source_text_i_1_24
+  to_node: n_t_source_text_i_3_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - astro_epistemology
+- from_node: n_t_source_text_i_1_24
+  to_node: n_t_source_text_i_25_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - astro_epistemology
+- from_node: n_t_english_paraphrase_25
+  to_node: n_t_source_text_i_3_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - astro_epistemology
+- from_node: n_t_english_paraphrase_25
+  to_node: n_t_source_text_i_25_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - astro_epistemology
+- from_node: n_t_source_text_i_2_26
+  to_node: n_t_source_text_i_8_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - planet_moon
+- from_node: n_t_source_text_i_2_26
+  to_node: n_t_source_text_i_20_46
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - planet_moon
+    - planet_sun
+- from_node: n_t_source_text_i_2_26
+  to_node: n_t_source_text_i_22_48
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - planet_sun
+- from_node: n_t_source_text_i_25_51
+  to_node: n_t_source_text_i_3_27
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - astro_epistemology
+- from_node: n_t_source_text_i_4_28
+  to_node: n_t_source_text_i_6_30
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - planet_mercury
+- from_node: n_t_source_text_i_4_28
+  to_node: n_t_source_text_i_8_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - planet_moon
+- from_node: n_t_source_text_i_5_29
+  to_node: n_t_source_text_i_7_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+    - planet_mars
+    - planet_saturn
+- from_node: n_t_source_text_i_15_41
+  to_node: n_t_source_text_i_5_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_16_42
+  to_node: n_t_source_text_i_5_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_17_43
+  to_node: n_t_source_text_i_5_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_20_46
+  to_node: n_t_source_text_i_5_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+    - planet_saturn
+- from_node: n_t_source_text_i_21_47
+  to_node: n_t_source_text_i_5_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_27_53
+  to_node: n_t_source_text_i_5_29
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_5_29
+  to_node: n_t_source_text_iii_5_56
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_5_29
+  to_node: n_t_source_text_iii_7_58
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_15_41
+  to_node: n_t_source_text_i_7_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_16_42
+  to_node: n_t_source_text_i_7_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_17_43
+  to_node: n_t_source_text_i_7_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_20_46
+  to_node: n_t_source_text_i_7_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+    - planet_saturn
+- from_node: n_t_source_text_i_21_47
+  to_node: n_t_source_text_i_7_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_27_53
+  to_node: n_t_source_text_i_7_31
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_7_31
+  to_node: n_t_source_text_iii_5_56
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_7_31
+  to_node: n_t_source_text_iii_7_58
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_20_46
+  to_node: n_t_source_text_i_8_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - planet_moon
+- from_node: n_t_source_text_i_22_48
+  to_node: n_t_source_text_i_8_32
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_t_footnote_i_11_36
+  to_node: n_t_source_text_i_9_33
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - fixed_star
+- from_node: n_t_source_text_i_12_37
+  to_node: n_t_source_text_i_21_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - sign_aries
+- from_node: n_t_source_text_i_12_37
+  to_node: n_t_source_text_i_22_48
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - sign_aries
+- from_node: n_t_footnote_i_12_38
+  to_node: n_t_source_text_i_25_51
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - tropical_signs
+- from_node: n_t_source_text_i_15_41
+  to_node: n_t_source_text_i_16_42
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_15_41
+  to_node: n_t_source_text_i_17_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_15_41
+  to_node: n_t_source_text_i_20_46
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_15_41
+  to_node: n_t_source_text_i_21_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_15_41
+  to_node: n_t_source_text_i_27_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_15_41
+  to_node: n_t_source_text_iii_5_56
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_15_41
+  to_node: n_t_source_text_iii_7_58
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_16_42
+  to_node: n_t_source_text_i_17_43
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_16_42
+  to_node: n_t_source_text_i_20_46
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_16_42
+  to_node: n_t_source_text_i_21_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_16_42
+  to_node: n_t_source_text_i_27_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_16_42
+  to_node: n_t_source_text_iii_5_56
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_16_42
+  to_node: n_t_source_text_iii_7_58
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_17_43
+  to_node: n_t_source_text_i_20_46
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_17_43
+  to_node: n_t_source_text_i_21_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_17_43
+  to_node: n_t_source_text_i_27_53
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_17_43
+  to_node: n_t_source_text_iii_5_56
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_17_43
+  to_node: n_t_source_text_iii_7_58
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_20_46
+  to_node: n_t_source_text_i_21_47
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_20_46
+  to_node: n_t_source_text_i_22_48
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - planet_sun
+- from_node: n_t_source_text_i_20_46
+  to_node: n_t_source_text_iii_5_56
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_20_46
+  to_node: n_t_source_text_iii_7_58
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_21_47
+  to_node: n_t_source_text_i_22_48
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - sign_aries
+- from_node: n_t_source_text_i_21_47
+  to_node: n_t_source_text_iii_5_56
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_21_47
+  to_node: n_t_source_text_iii_7_58
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_27_53
+  to_node: n_t_source_text_iii_5_56
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_i_27_53
+  to_node: n_t_source_text_iii_7_58
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+- from_node: n_t_source_text_iii_5_56
+  to_node: n_t_source_text_iii_7_58
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - or
+narrative_order:
+- n_t_source_text_54
+- n_t_source_text_i_10_34
+- n_t_source_text_i_11_35
+- n_t_source_text_i_12_37
+- n_t_source_text_i_13_39
+- n_t_source_text_i_14_40
+- n_t_source_text_i_15_41
+- n_t_source_text_i_16_42
+- n_t_source_text_i_17_43
+- n_t_source_text_i_18_44
+- n_t_source_text_i_19_45
+- n_t_source_text_i_2_26
+- n_t_source_text_i_20_46
+- n_t_source_text_i_21_47
+- n_t_source_text_i_22_48
+- n_t_source_text_i_23_49
+- n_t_source_text_i_24_50
+- n_t_source_text_i_26_52
+- n_t_source_text_i_27_53
+- n_t_source_text_i_5_29
+- n_t_source_text_i_7_31
+- n_t_source_text_ii_1_0
+- n_t_source_text_ii_10_9
+- n_t_source_text_ii_11_10
+- n_t_source_text_ii_12_11
+- n_t_source_text_ii_2_1
+- n_t_source_text_ii_5_4
+- n_t_source_text_ii_7_6
+- n_t_source_text_ii_8_7
+- n_t_source_text_ii_9_8
+- n_t_source_text_iii_10_61
+- n_t_source_text_iii_11_62
+- n_t_source_text_iii_12_63
+- n_t_source_text_iii_13_64
+- n_t_source_text_iii_14_65
+- n_t_source_text_iii_15_66
+- n_t_source_text_iii_16_67
+- n_t_source_text_iii_17_68
+- n_t_source_text_iii_2_55
+- n_t_source_text_iii_5_56
+- n_t_source_text_iii_6_57
+- n_t_source_text_iii_7_58
+- n_t_source_text_iii_8_59
+- n_t_source_text_iii_9_60
+- n_t_source_text_iv_1_14
+- n_t_source_text_iv_10_23
+- n_t_source_text_iv_2_15
+- n_t_source_text_iv_4_17
+- n_t_source_text_iv_5_18
+- n_t_source_text_iv_6_19
+- n_t_source_text_iv_7_20
+- n_t_source_text_iv_8_21
+- n_t_english_paraphrase_25
+- n_t_source_text_i_1_24
+- n_t_footnote_i_11_36
+- n_t_source_text_i_9_33
+- n_t_footnote_i_12_38
+- n_t_source_text_i_25_51
+- n_t_source_text_i_3_27
+- n_t_source_text_ii_13_12
+- n_t_source_text_ii_14_13
+- n_t_source_text_ii_6_5
+- n_t_source_text_i_4_28
+- n_t_source_text_i_6_30
+- n_t_source_text_i_8_32
+- n_t_source_text_ii_3_2
+- n_t_source_text_ii_4_3
+- n_t_source_text_iv_3_16
+- n_t_source_text_iv_9_22
+entry_nodes:
+- n_t_source_text_ii_1_0
+- n_t_source_text_ii_2_1
+- n_t_source_text_ii_7_6
+- n_t_source_text_ii_8_7
+- n_t_source_text_ii_9_8
+- n_t_source_text_ii_10_9
+- n_t_source_text_ii_11_10
+- n_t_source_text_ii_12_11
+- n_t_source_text_iv_1_14
+- n_t_source_text_iv_2_15
+- n_t_source_text_iv_4_17
+- n_t_source_text_iv_5_18
+- n_t_source_text_iv_6_19
+- n_t_source_text_iv_7_20
+- n_t_source_text_iv_8_21
+- n_t_source_text_iv_10_23
+- n_t_source_text_i_2_26
+- n_t_source_text_i_10_34
+- n_t_source_text_i_11_35
+- n_t_source_text_i_12_37
+- n_t_source_text_i_13_39
+- n_t_source_text_i_14_40
+- n_t_source_text_i_15_41
+- n_t_source_text_i_18_44
+- n_t_source_text_i_19_45
+- n_t_source_text_i_23_49
+- n_t_source_text_i_24_50
+- n_t_source_text_i_26_52
+- n_t_source_text_54
+- n_t_source_text_iii_2_55
+- n_t_source_text_iii_6_57
+- n_t_source_text_iii_8_59
+- n_t_source_text_iii_9_60
+- n_t_source_text_iii_10_61
+- n_t_source_text_iii_11_62
+- n_t_source_text_iii_12_63
+- n_t_source_text_iii_13_64
+- n_t_source_text_iii_14_65
+- n_t_source_text_iii_15_66
+- n_t_source_text_iii_16_67
+- n_t_source_text_iii_17_68
+terminal_nodes:
+- n_t_source_text_ii_1_0
+- n_t_source_text_ii_2_1
+- n_t_source_text_ii_6_5
+- n_t_source_text_ii_7_6
+- n_t_source_text_ii_8_7
+- n_t_source_text_ii_9_8
+- n_t_source_text_ii_10_9
+- n_t_source_text_ii_11_10
+- n_t_source_text_ii_12_11
+- n_t_source_text_ii_13_12
+- n_t_source_text_ii_14_13
+- n_t_source_text_iv_1_14
+- n_t_source_text_iv_2_15
+- n_t_source_text_iv_4_17
+- n_t_source_text_iv_5_18
+- n_t_source_text_iv_6_19
+- n_t_source_text_iv_7_20
+- n_t_source_text_iv_8_21
+- n_t_source_text_iv_10_23
+- n_t_source_text_i_3_27
+- n_t_source_text_i_10_34
+- n_t_source_text_i_11_35
+- n_t_source_text_i_13_39
+- n_t_source_text_i_14_40
+- n_t_source_text_i_18_44
+- n_t_source_text_i_19_45
+- n_t_source_text_54
+- n_t_source_text_iii_2_55
+- n_t_source_text_iii_6_57
+- n_t_source_text_iii_7_58
+- n_t_source_text_iii_8_59
+- n_t_source_text_iii_9_60
+- n_t_source_text_iii_10_61
+- n_t_source_text_iii_11_62
+- n_t_source_text_iii_12_63
+- n_t_source_text_iii_13_64
+- n_t_source_text_iii_14_65
+- n_t_source_text_iii_15_66
+- n_t_source_text_iii_16_67
+- n_t_source_text_iii_17_68
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-11-30T18:46:33.284464'
+  source_files:
+  - data/schema_staging/snippets/tetrabiblos_snippets.yaml
+  - data/schema_staging/relations/tetrabiblos_relations.yaml
+  snippet_count: 126
+  relation_count: 87
+version: 1.0.0

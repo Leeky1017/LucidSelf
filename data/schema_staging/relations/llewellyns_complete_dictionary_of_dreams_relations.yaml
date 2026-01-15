@@ -1,0 +1,1022 @@
+book_id: llewellyns_complete_dictionary_of_dreams
+source_file: 典籍/texts/Llewellyns Complete Dictionary of Dreams/编辑/Llewellyn_Dreams_v2.1_Complete.md
+extracted_at: '2025-12-04T15:25:37.742666'
+relations:
+- relation_id: rel_lennox_collective_001
+  relation_type: thematic_link
+  factor_a: psych_collective_unconscious
+  factor_b: psych_archetype_base
+  relation_nature: Foundation-manifestation
+  condition_constraint: When dreams access collective unconscious generating patterns
+  effect_direction: generative
+  source_ref: 'Lennox #Ch1'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.674896'
+- relation_id: rel_lennox_collective_002
+  relation_type: thematic_link
+  factor_a: dream_symbol_universal
+  factor_b: psych_archetype_base
+  relation_nature: Symbolic correspondence
+  condition_constraint: When same archetypes appear in different cultural dress
+  effect_direction: validating
+  source_ref: 'Lennox #Ch1'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.674921'
+- relation_id: rel_lennox_collective_003
+  relation_type: thematic_link
+  factor_a: psych_personal_collective
+  factor_b: psych_collective_unconscious
+  relation_nature: Part-whole hierarchy
+  condition_constraint: When personal unconscious nests within collective structure
+  effect_direction: structural
+  source_ref: 'Lennox #Ch1'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.674927'
+- relation_id: rel_lennox_character_001
+  relation_type: thematic_link
+  factor_a: dream_character_aspects
+  factor_b: dream_character_aspect
+  relation_nature: Projection-identity
+  condition_constraint: When all dream figures reveal aspects of self
+  effect_direction: revealing
+  source_ref: 'Lennox #Ch2'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.674970'
+- relation_id: rel_lennox_character_002
+  relation_type: thematic_link
+  factor_a: dream_3adj_method
+  factor_b: dream_character_aspect
+  relation_nature: Diagnostic correspondence
+  condition_constraint: When 3 spontaneous adjectives identify trait projection
+  effect_direction: identifying
+  source_ref: 'Lennox #Ch2'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.674974'
+- relation_id: rel_lennox_character_003
+  relation_type: thematic_link
+  factor_a: psych_inner_dialogue
+  factor_b: dream_character_aspects
+  relation_nature: Part-whole
+  condition_constraint: When dream characters represent fractured personality seeking
+    integration
+  effect_direction: integrative
+  source_ref: 'Lennox #Ch2'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.674977'
+- relation_id: rel_lennox_shadow_001
+  relation_type: thematic_link
+  factor_a: psych_archetype_shadow
+  factor_b: dream_nightmare_function
+  relation_nature: Container-content
+  condition_constraint: When unconscious relegation conceals rejected shadow aspects
+  effect_direction: concealing
+  source_ref: 'Lennox #Ch3'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675070'
+- relation_id: rel_lennox_shadow_002
+  relation_type: thematic_link
+  factor_a: dream_nightmare_function
+  factor_b: psych_archetype_shadow
+  relation_nature: Signal-message
+  condition_constraint: When dark dangerous dreams signal shadow's invitation for
+    integration
+  effect_direction: integrative
+  source_ref: 'Lennox #Ch3'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675073'
+- relation_id: rel_lennox_shadow_003
+  relation_type: thematic_link
+  factor_a: psych_archetype_shadow
+  factor_b: psych_unlived_potential
+  relation_nature: Paradox relation
+  condition_constraint: When shadow paradoxically contains both negative and positive
+    potential
+  effect_direction: transformative
+  source_ref: 'Lennox #Ch3'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675076'
+- relation_id: rel_lennox_masc_001
+  relation_type: psych_archetype_relation
+  factor_a: masculine_principle
+  factor_b: doing_modality
+  relation_nature: Concept-behavior
+  condition_constraint: When action decisiveness expresses masculine doing modality
+  effect_direction: yang_expression
+  source_ref: 'Lennox #Ch4'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675112'
+- relation_id: rel_lennox_masc_002
+  relation_type: psych_archetype_relation
+  factor_a: feminine_principle
+  factor_b: being_modality
+  relation_nature: Concept-behavior
+  condition_constraint: When receptivity creativity expresses feminine being modality
+  effect_direction: yin_expression
+  source_ref: 'Lennox #Ch4'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675119'
+- relation_id: rel_lennox_masc_003
+  relation_type: cross_system
+  factor_a: animus_anima
+  factor_b: yin_yang
+  relation_nature: Eastern-Western parallel
+  condition_constraint: When both Eastern-Western systems parallel
+  effect_direction: integrative
+  source_ref: 'Lennox #Ch4'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675122'
+- relation_id: rel_lennox_arch_001
+  relation_type: psych_archetype_relation
+  factor_a: archetype_warrior
+  factor_b: power_defense
+  relation_nature: Role-function
+  condition_constraint: When combat protection contexts activate warrior archetype
+  effect_direction: empowering
+  source_ref: 'Lennox #Ch5'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675159'
+- relation_id: rel_lennox_arch_002
+  relation_type: psych_archetype_relation
+  factor_a: archetype_nurturer
+  factor_b: love_care
+  relation_nature: Role-function
+  condition_constraint: When compassion contexts activate nurturer archetype
+  effect_direction: nurturing
+  source_ref: 'Lennox #Ch5'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675163'
+- relation_id: rel_lennox_arch_003
+  relation_type: psych_archetype_relation
+  factor_a: archetype_trickster
+  factor_b: chaos_transformation
+  relation_nature: Role-function
+  condition_constraint: When change disruption contexts activate trickster archetype
+  effect_direction: transformative
+  source_ref: 'Lennox #Ch5'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675166'
+- relation_id: rel_lennox_arch_004
+  relation_type: dream_symbol_relation
+  factor_a: archetypal_figure
+  factor_b: psyche_activation
+  relation_nature: Trigger-response
+  condition_constraint: When current life needs activate archetypal figures
+  effect_direction: activating
+  source_ref: 'Lennox #Ch5'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675169'
+- relation_id: rel_lennox_univ_001
+  relation_type: thematic_link
+  factor_a: dream_symbol_function
+  factor_b: dream_universal_meaning
+  relation_nature: Source-derivation
+  condition_constraint: When physical biological role grounds universal symbol meaning
+  effect_direction: grounding
+  source_ref: 'Lennox #Ch6'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675207'
+- relation_id: rel_lennox_univ_002
+  relation_type: thematic_link
+  factor_a: dream_universal_meaning
+  factor_b: dream_univ_personal_seq
+  relation_nature: Sequence-dependency
+  condition_constraint: When universal meaning establishes baseline before personal
+  effect_direction: layering
+  source_ref: 'Lennox #Ch6'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675211'
+- relation_id: rel_lennox_univ_003
+  relation_type: thematic_link
+  factor_a: dream_symbol_function
+  factor_b: psych_gut_feelings
+  relation_nature: Function-instance
+  condition_constraint: Inherent function applied to specific symbol abdomen gut feelings
+  effect_direction: grounding
+  source_ref: 'Lennox #Ch6'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675214'
+- relation_id: rel_lennox_inner_001
+  relation_type: psych_archetype_relation
+  factor_a: dream_element
+  factor_b: self_aspect
+  relation_nature: Projection recognition
+  condition_constraint: When all dream content reveals self-aspects through projection
+  effect_direction: revealing
+  source_ref: 'Lennox #Ch7'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675290'
+- relation_id: rel_lennox_inner_002
+  relation_type: psych_archetype_relation
+  factor_a: inner_work
+  factor_b: self_revelation
+  relation_nature: Priority relation
+  condition_constraint: When inner work prioritized for maximum self-revelation insight
+  effect_direction: enlightening
+  source_ref: 'Lennox #Ch7'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675294'
+- relation_id: rel_lennox_inner_003
+  relation_type: psych_archetype_relation
+  factor_a: outer_projection
+  factor_b: disempowerment
+  relation_nature: Causal relation
+  condition_constraint: When outer projection and blaming others leads to disempowerment
+  effect_direction: debilitating
+  source_ref: 'Lennox #Ch7'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675297'
+- relation_id: rel_lennox_cluster_001
+  relation_type: thematic_link
+  factor_a: psych_collective_unconscious
+  factor_b: dream_symbol_universal
+  relation_nature: Framework-Symbol bridge
+  condition_constraint: Collective unconscious manifests through universal dream symbols
+  effect_direction: generative
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675300'
+- relation_id: rel_lennox_cluster_002
+  relation_type: thematic_link
+  factor_a: psych_archetype_shadow
+  factor_b: dream_nightmare_function
+  relation_nature: Shadow-Nightmare connection
+  condition_constraint: Shadow archetype manifests in nightmare experiences
+  effect_direction: manifestation
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675303'
+- relation_id: rel_lennox_cluster_003
+  relation_type: thematic_link
+  factor_a: psych_archetype_shadow
+  factor_b: dream_symbol_chased
+  relation_nature: Shadow-Chase connection
+  condition_constraint: Being chased represents shadow pursuit for integration
+  effect_direction: manifestation
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675306'
+- relation_id: rel_lennox_cluster_004
+  relation_type: thematic_link
+  factor_a: psych_ego_death
+  factor_b: dream_symbol_death
+  relation_nature: Transformation-Death link
+  condition_constraint: Death in dreams symbolizes transformation, not literal death
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675309'
+- relation_id: rel_lennox_cluster_005
+  relation_type: thematic_link
+  factor_a: dream_fire_purification
+  factor_b: dream_symbol_fire
+  relation_nature: Transformation-Fire link
+  condition_constraint: Fire symbols represent transformative passion and destruction
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675312'
+- relation_id: rel_lennox_cluster_006
+  relation_type: thematic_link
+  factor_a: dream_water_depth
+  factor_b: dream_symbol_water
+  relation_nature: Emotion-Water link
+  condition_constraint: Water universally represents emotional states and unconscious
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675315'
+- relation_id: rel_lennox_cluster_007
+  relation_type: thematic_link
+  factor_a: psych_elevated_perspective
+  factor_b: dream_symbol_flying
+  relation_nature: Power-Flying link
+  condition_constraint: Flying represents freedom, transcendence, and personal power
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675319'
+- relation_id: rel_lennox_cluster_008
+  relation_type: thematic_link
+  factor_a: psych_support_deficit
+  factor_b: dream_symbol_falling
+  relation_nature: Power-Falling link
+  condition_constraint: Falling represents loss of control, anxiety, and surrender
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675322'
+- relation_id: rel_lennox_cluster_009
+  relation_type: thematic_link
+  factor_a: psych_comm_loss
+  factor_b: dream_symbol_teeth
+  relation_nature: Self-worth-Teeth link
+  condition_constraint: Teeth falling symbolizes self-image anxiety and powerlessness
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675325'
+- relation_id: rel_lennox_cluster_010
+  relation_type: thematic_link
+  factor_a: psych_fear_judgment
+  factor_b: dream_symbol_nakedness
+  relation_nature: Self-worth-Nakedness link
+  condition_constraint: Nakedness represents vulnerability and exposure anxiety
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675328'
+- relation_id: rel_lennox_cluster_011
+  relation_type: thematic_link
+  factor_a: dream_symbol_basement
+  factor_b: dream_symbol_house
+  relation_nature: Unconscious-House link
+  condition_constraint: House represents psyche structure; basement = unconscious
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675331'
+- relation_id: rel_lennox_cluster_012
+  relation_type: thematic_link
+  factor_a: dream_animal_behavior
+  factor_b: dream_symbol_animal
+  relation_nature: Animal-Instinct link
+  condition_constraint: Animals represent instinctual energies and primal forces
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675334'
+- relation_id: rel_lennox_cluster_013
+  relation_type: thematic_link
+  factor_a: dream_water_clarity
+  factor_b: dream_symbol_water
+  relation_nature: Water clarity-emotion
+  condition_constraint: Water clarity indicates emotional clarity in dreamer
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675337'
+- relation_id: rel_lennox_cluster_014
+  relation_type: thematic_link
+  factor_a: dream_fire_controlled
+  factor_b: dream_fire_uncontrolled
+  relation_nature: Fire control spectrum
+  condition_constraint: Controlled vs uncontrolled fire indicates passion mastery
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675340'
+- relation_id: rel_lennox_cluster_015
+  relation_type: thematic_link
+  factor_a: dream_symbol_attic
+  factor_b: dream_symbol_house
+  relation_nature: Attic-House structure
+  condition_constraint: Attic represents higher consciousness within psyche house
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675343'
+- relation_id: rel_lennox_cluster_016
+  relation_type: thematic_link
+  factor_a: dream_flight_ease
+  factor_b: dream_symbol_flying
+  relation_nature: Flight ease-freedom
+  condition_constraint: Ease of flight indicates degree of personal freedom felt
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675345'
+- relation_id: rel_lennox_cluster_017
+  relation_type: thematic_link
+  factor_a: psych_archetype_nurturer
+  factor_b: psych_archetype_base
+  relation_nature: Nurturer-Archetype link
+  condition_constraint: Nurturer is one of the base archetypal energies
+  effect_direction: archetypal
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675348'
+- relation_id: rel_lennox_cluster_018
+  relation_type: thematic_link
+  factor_a: psych_archetype_animusanima
+  factor_b: psych_masculine_principle
+  relation_nature: Anima/Animus-Gender link
+  condition_constraint: Anima/Animus connects to masculine/feminine integration
+  effect_direction: archetypal
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675351'
+- relation_id: rel_lennox_cluster_019
+  relation_type: thematic_link
+  factor_a: psych_archetype_animusanima
+  factor_b: psych_feminine_principle
+  relation_nature: Anima/Animus-Feminine link
+  condition_constraint: Anima/Animus connects to feminine principle integration
+  effect_direction: archetypal
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675354'
+- relation_id: rel_lennox_cluster_020
+  relation_type: thematic_link
+  factor_a: dream_pursuer_identity
+  factor_b: dream_symbol_chased
+  relation_nature: Pursuer-Chase link
+  condition_constraint: Identity of pursuer reveals nature of shadow aspect
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675357'
+- relation_id: rel_lennox_cluster_021
+  relation_type: thematic_link
+  factor_a: dream_landing_outcome
+  factor_b: dream_symbol_falling
+  relation_nature: Landing-Falling link
+  condition_constraint: Landing outcome indicates resolution of control issues
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675360'
+- relation_id: rel_lennox_cluster_022
+  relation_type: thematic_link
+  factor_a: dream_character_death
+  factor_b: dream_symbolic_death
+  relation_nature: Character death-transformation
+  condition_constraint: Death of character indicates aspect undergoing transformation
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675363'
+- relation_id: rel_lennox_cluster_023
+  relation_type: thematic_link
+  factor_a: dream_symbol_snake
+  factor_b: dream_symbol_animal
+  relation_nature: Snake-Animal link
+  condition_constraint: Snake is key animal symbol representing transformation
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675366'
+- relation_id: rel_lennox_cluster_024
+  relation_type: thematic_link
+  factor_a: dream_house_condition
+  factor_b: dream_symbol_house
+  relation_nature: House condition-psyche state
+  condition_constraint: House condition reflects current psyche state
+  effect_direction: symbolic
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675369'
+- relation_id: rel_lennox_cluster_025
+  relation_type: thematic_link
+  factor_a: psych_turning_to_face
+  factor_b: dream_endless_chase
+  relation_nature: Facing-Chase resolution
+  condition_constraint: Turning to face pursuer ends the endless chase pattern
+  effect_direction: transformative
+  source_ref: Lennox CrossRef
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675371'
+- relation_id: rel_lennox_abandon_001
+  relation_type: psych_archetype_relation
+  factor_a: abandonment_dream
+  factor_b: self_worth_fear
+  relation_nature: Symptom-cause
+  condition_constraint: When abandonment dream reveals self-worth fears and value
+    threats
+  effect_direction: revealing
+  source_ref: 'Lennox #Sym8'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675409'
+- relation_id: rel_lennox_abandon_002
+  relation_type: dream_symbol_relation
+  factor_a: abandoner_figure
+  factor_b: self_aspect
+  relation_nature: Character-projection
+  condition_constraint: When abandoner figure identifies which self-aspect feels rejected
+  effect_direction: identifying
+  source_ref: 'Lennox #Sym8'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675412'
+- relation_id: rel_lennox_abandon_003
+  relation_type: psych_archetype_relation
+  factor_a: infant_dependency
+  factor_b: adult_abandonment_fear
+  relation_nature: Origin-manifestation
+  condition_constraint: When infant dependency patterns manifest as adult abandonment
+    fears
+  effect_direction: causal
+  source_ref: 'Lennox #Sym8'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675415'
+- relation_id: rel_lennox_abdomen_001
+  relation_type: dream_symbol_relation
+  factor_a: abdomen_symbol
+  factor_b: emotions_gut
+  relation_nature: Body-function
+  condition_constraint: When abdomen physical location reveals emotional and gut feeling
+    states
+  effect_direction: revealing
+  source_ref: 'Lennox #Sym9'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675447'
+- relation_id: rel_lennox_abdomen_002
+  relation_type: dream_symbol_relation
+  factor_a: compromised_abdomen
+  factor_b: repressed_intuition
+  relation_nature: Symptom-cause
+  condition_constraint: When abdomen pain or injury indicates repressed intuition
+  effect_direction: diagnostic
+  source_ref: 'Lennox #Sym9'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675450'
+- relation_id: rel_lennox_abdomen_003
+  relation_type: dream_symbol_relation
+  factor_a: healthy_abdomen
+  factor_b: self_nourishment
+  relation_nature: State-quality
+  condition_constraint: When healthy abdomen indicates good self-nourishment and care
+  effect_direction: beneficial
+  source_ref: 'Lennox #Sym9'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675453'
+- relation_id: rel_lennox_abort_001
+  relation_type: dream_symbol_relation
+  factor_a: fetus_symbol
+  factor_b: nascent_potential
+  relation_nature: Metaphor-meaning
+  condition_constraint: When fetus in dream symbolizes idea or project in gestation
+    phase
+  effect_direction: symbolic
+  source_ref: 'Lennox #Sym10'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675485'
+- relation_id: rel_lennox_abort_002
+  relation_type: dream_symbol_relation
+  factor_a: abortion_dream
+  factor_b: termination_choice
+  relation_nature: Action-consequence
+  condition_constraint: When abortion dream indicates conscious decision to terminate
+    nascent potential
+  effect_direction: eliminating
+  source_ref: 'Lennox #Sym10'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675488'
+- relation_id: rel_lennox_abort_003
+  relation_type: psych_archetype_relation
+  factor_a: responsibility_avoidance
+  factor_b: readiness_assessment
+  relation_nature: Evaluation-decision
+  condition_constraint: When dream reveals not prepared for responsibility being avoided
+  effect_direction: revealing
+  source_ref: 'Lennox #Sym10'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675491'
+- relation_id: rel_lennox_water_001
+  relation_type: dream_symbol_relation
+  factor_a: water_symbol
+  factor_b: emotions_unconscious
+  relation_nature: Universal correspondence
+  condition_constraint: When water cross-culturally reveals emotions and unconscious
+    content
+  effect_direction: revealing
+  source_ref: 'Lennox #Sym11'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675525'
+- relation_id: rel_lennox_water_002
+  relation_type: dream_symbol_relation
+  factor_a: water_clarity
+  factor_b: emotional_state
+  relation_nature: Quality-reflection
+  condition_constraint: When water clarity reflects emotional state clear vs murky
+  effect_direction: diagnostic
+  source_ref: 'Lennox #Sym11'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675529'
+- relation_id: rel_lennox_water_003
+  relation_type: dream_symbol_relation
+  factor_a: water_depth
+  factor_b: consciousness_level
+  relation_nature: Depth-awareness
+  condition_constraint: When water depth indicates consciousness level surface vs
+    deep
+  effect_direction: indicating
+  source_ref: 'Lennox #Sym11'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675532'
+- relation_id: rel_lennox_water_004
+  relation_type: dream_symbol_relation
+  factor_a: water_variations
+  factor_b: specific_meanings
+  relation_nature: Form-function
+  condition_constraint: When water form ocean river or flood contextualizes specific
+    meaning
+  effect_direction: contextual
+  source_ref: 'Lennox #Sym11'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675535'
+- relation_id: rel_lennox_fly_001
+  relation_type: dream_symbol_relation
+  factor_a: flying_symbol
+  factor_b: transcendence
+  relation_nature: Action-meaning
+  condition_constraint: When flying defies gravity symbolizing transcendence and freedom
+  effect_direction: liberating
+  source_ref: 'Lennox #Sym12'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675567'
+- relation_id: rel_lennox_fly_002
+  relation_type: dream_symbol_relation
+  factor_a: flight_ease
+  factor_b: transcendence_quality
+  relation_nature: State-indicator
+  condition_constraint: When flight ease effortless vs struggling diagnoses transcendence
+    quality
+  effect_direction: diagnostic
+  source_ref: 'Lennox #Sym12'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675570'
+- relation_id: rel_lennox_fly_003
+  relation_type: dream_symbol_relation
+  factor_a: flight_height
+  factor_b: consciousness_level
+  relation_nature: Dimension-depth
+  condition_constraint: When flight height indicates consciousness level higher equals
+    spiritual
+  effect_direction: elevating
+  source_ref: 'Lennox #Sym12'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675573'
+- relation_id: rel_lennox_fall_001
+  relation_type: dream_symbol_relation
+  factor_a: falling_symbol
+  factor_b: loss_of_control
+  relation_nature: Action-meaning
+  condition_constraint: When falling gravity pulling reveals loss of control anxiety
+  effect_direction: anxiety-revealing
+  source_ref: 'Lennox #Sym13'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675603'
+- relation_id: rel_lennox_fall_002
+  relation_type: dream_symbol_relation
+  factor_a: landing_outcome
+  factor_b: resilience_expectation
+  relation_nature: Consequence-prediction
+  condition_constraint: When landing outcome safe vs crash predicts resilience expectation
+  effect_direction: prognostic
+  source_ref: 'Lennox #Sym13'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675607'
+- relation_id: rel_lennox_fall_003
+  relation_type: dream_symbol_relation
+  factor_a: support_deficit
+  factor_b: overwhelm_state
+  relation_nature: Cause-symptom
+  condition_constraint: When support deficit indicates feeling unsupported overwhelm
+    state
+  effect_direction: diagnostic
+  source_ref: 'Lennox #Sym13'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675610'
+- relation_id: rel_lennox_death_001
+  relation_type: dream_symbol_relation
+  factor_a: death_symbol
+  factor_b: transformation
+  relation_nature: Metaphor-meaning
+  condition_constraint: When death in dream rarely literal but symbolizes transformation
+  effect_direction: transformative
+  source_ref: 'Lennox #Sym14'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675642'
+- relation_id: rel_lennox_death_002
+  relation_type: psych_archetype_relation
+  factor_a: ego_death
+  factor_b: identity_shift
+  relation_nature: Death-rebirth
+  condition_constraint: When self dies in dream indicating ego death and identity
+    shift
+  effect_direction: regenerative
+  source_ref: 'Lennox #Sym14'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675645'
+- relation_id: rel_lennox_death_003
+  relation_type: dream_symbol_relation
+  factor_a: character_death
+  factor_b: aspect_transformation
+  relation_nature: Character-projection
+  condition_constraint: When known person dies revealing that character aspect transforming
+  effect_direction: revealing
+  source_ref: 'Lennox #Sym14'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675648'
+- relation_id: rel_lennox_house_001
+  relation_type: dream_symbol_relation
+  factor_a: house_symbol
+  factor_b: psyche_structure
+  relation_nature: Container-content
+  condition_constraint: When house as universal symbol maps psyche structure
+  effect_direction: mapping
+  source_ref: 'Lennox #Sym15'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675679'
+- relation_id: rel_lennox_house_002
+  relation_type: dream_symbol_relation
+  factor_a: room_type
+  factor_b: personality_aspect
+  relation_nature: Part-whole
+  condition_constraint: When room type attic basement etc differentiates personality
+    aspect
+  effect_direction: differentiating
+  source_ref: 'Lennox #Sym15'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675683'
+- relation_id: rel_lennox_house_003
+  relation_type: dream_symbol_relation
+  factor_a: house_condition
+  factor_b: psyche_health
+  relation_nature: State-indicator
+  condition_constraint: When house condition maintained vs dilapidated diagnoses psyche
+    health
+  effect_direction: diagnostic
+  source_ref: 'Lennox #Sym15'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675686'
+- relation_id: rel_lennox_animal_001
+  relation_type: dream_symbol_relation
+  factor_a: animal_symbol
+  factor_b: instinctual_energy
+  relation_nature: Creature-force
+  condition_constraint: When animal symbol embodies archetypal instinctual energy
+    pattern
+  effect_direction: embodying
+  source_ref: 'Lennox #Sym16'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675718'
+- relation_id: rel_lennox_animal_002
+  relation_type: dream_symbol_relation
+  factor_a: animal_type
+  factor_b: specific_instinct
+  relation_nature: Type-meaning
+  condition_constraint: When animal type snake bird dog etc differentiates specific
+    instinct
+  effect_direction: differentiating
+  source_ref: 'Lennox #Sym16'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675721'
+- relation_id: rel_lennox_animal_003
+  relation_type: dream_symbol_relation
+  factor_a: animal_behavior
+  factor_b: integration_level
+  relation_nature: Action-state
+  condition_constraint: When animal behavior friendly vs aggressive diagnoses integration
+    level
+  effect_direction: diagnostic
+  source_ref: 'Lennox #Sym16'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675724'
+- relation_id: rel_lennox_chase_001
+  relation_type: dream_symbol_relation
+  factor_a: being_chased
+  factor_b: shadow_avoidance
+  relation_nature: Action-meaning
+  condition_constraint: When being chased running from reveals shadow avoidance anxiety
+  effect_direction: anxiety-revealing
+  source_ref: 'Lennox #Sym17'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675754'
+- relation_id: rel_lennox_chase_002
+  relation_type: dream_symbol_relation
+  factor_a: pursuer_identity
+  factor_b: avoided_aspect
+  relation_nature: Character-projection
+  condition_constraint: When pursuer identity monster authority animal diagnoses avoided
+    aspect
+  effect_direction: diagnostic
+  source_ref: 'Lennox #Sym17'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675758'
+- relation_id: rel_lennox_chase_003
+  relation_type: dream_symbol_relation
+  factor_a: turning_to_face
+  factor_b: integration_moment
+  relation_nature: Action-transformation
+  condition_constraint: When turning to face pursuer initiates integration moment
+  effect_direction: transformative
+  source_ref: 'Lennox #Sym17'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675762'
+- relation_id: rel_lennox_naked_001
+  relation_type: dream_symbol_relation
+  factor_a: nakedness_symbol
+  factor_b: vulnerability
+  relation_nature: State-meaning
+  condition_constraint: When nakedness exposed unprotected reveals vulnerability state
+  effect_direction: revealing
+  source_ref: 'Lennox #Sym18'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675791'
+- relation_id: rel_lennox_naked_002
+  relation_type: dream_symbol_relation
+  factor_a: authentic_emergence
+  factor_b: positive_vulnerability
+  relation_nature: Interpretation-direction
+  condition_constraint: When authentic emergence dropping masks indicates positive
+    vulnerability
+  effect_direction: liberating
+  source_ref: 'Lennox #Sym18'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675794'
+- relation_id: rel_lennox_naked_003
+  relation_type: dream_symbol_relation
+  factor_a: others_reactions
+  factor_b: projected_judgment
+  relation_nature: Mirror-reflection
+  condition_constraint: When others reactions notice accept shame diagnoses projected
+    judgment
+  effect_direction: diagnostic
+  source_ref: 'Lennox #Sym18'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675797'
+- relation_id: rel_lennox_father_001
+  relation_type: psych_archetype_relation
+  factor_a: father_figure
+  factor_b: authority_structure
+  relation_nature: Character-archetype
+  condition_constraint: When dream father figure reveals internalized authority structure
+  effect_direction: revealing
+  source_ref: 'Lennox #Sym19'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675831'
+- relation_id: rel_lennox_father_002
+  relation_type: psych_archetype_relation
+  factor_a: positive_father
+  factor_b: empowering_authority
+  relation_nature: Quality-direction
+  condition_constraint: When positive father wise protective encouraging indicates
+    empowering authority
+  effect_direction: beneficial
+  source_ref: 'Lennox #Sym19'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675834'
+- relation_id: rel_lennox_father_003
+  relation_type: psych_archetype_relation
+  factor_a: negative_father
+  factor_b: oppressive_authority
+  relation_nature: Quality-direction
+  condition_constraint: When negative father critical controlling distant diagnoses
+    oppressive authority
+  effect_direction: diagnostic
+  source_ref: 'Lennox #Sym19'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675837'
+- relation_id: rel_lennox_fire_001
+  relation_type: dream_symbol_relation
+  factor_a: fire_symbol
+  factor_b: passion_transformation
+  relation_nature: Element-meaning
+  condition_constraint: When fire cross-culturally reveals passion and transformation
+    energy
+  effect_direction: revealing
+  source_ref: 'Lennox #Sym21'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675868'
+- relation_id: rel_lennox_fire_002
+  relation_type: dream_symbol_relation
+  factor_a: controlled_fire
+  factor_b: creative_energy
+  relation_nature: State-quality
+  condition_constraint: When fire controlled focused contained indicates creative
+    energy
+  effect_direction: beneficial
+  source_ref: 'Lennox #Sym21'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675872'
+- relation_id: rel_lennox_fire_003
+  relation_type: dream_symbol_relation
+  factor_a: uncontrolled_fire
+  factor_b: destructive_rage
+  relation_nature: State-quality
+  condition_constraint: When fire uncontrolled wild consuming warns of destructive
+    rage
+  effect_direction: warning
+  source_ref: 'Lennox #Sym21'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675874'
+- relation_id: rel_lennox_teeth_001
+  relation_type: dream_symbol_relation
+  factor_a: teeth_falling
+  factor_b: power_loss
+  relation_nature: Action-meaning
+  condition_constraint: When teeth falling universal anxiety reveals power loss
+  effect_direction: revealing
+  source_ref: 'Lennox #Sym22'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675906'
+- relation_id: rel_lennox_teeth_002
+  relation_type: dream_symbol_relation
+  factor_a: ability_to_bite
+  factor_b: assertion_capacity
+  relation_nature: Body-function
+  condition_constraint: When ability to bite diagnoses assertion capacity social power
+  effect_direction: diagnostic
+  source_ref: 'Lennox #Sym22'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675909'
+- relation_id: rel_lennox_teeth_003
+  relation_type: dream_symbol_relation
+  factor_a: rotten_teeth
+  factor_b: self_neglect
+  relation_nature: State-cause
+  condition_constraint: When rotten teeth before falling warns of self neglect
+  effect_direction: warning
+  source_ref: 'Lennox #Sym22'
+  source_book: llewellyns_complete_dictionary_of_dreams
+  source_chapter: null
+  extracted_at: '2025-12-04T15:25:37.675912'

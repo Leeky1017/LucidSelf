@@ -1,0 +1,75 @@
+# 八卦 (Eight Trigrams) Data
+# 
+# Each trigram has:
+# - name_zh: Chinese name
+# - name_pinyin: Pinyin romanization
+# - lines: Three line values (0=yin, 1=yang), from bottom to top
+# - element: Associated natural element
+# - nature: English nature name
+# - direction: Associated direction
+# - family: Family member association
+
+trigrams:
+  乾:
+    name_pinyin: qian
+    lines: [1, 1, 1]
+    element: 天
+    nature: heaven
+    direction: 西北
+    family: 父
+    
+  坤:
+    name_pinyin: kun
+    lines: [0, 0, 0]
+    element: 地
+    nature: earth
+    direction: 西南
+    family: 母
+    
+  震:
+    name_pinyin: zhen
+    lines: [0, 0, 1]
+    element: 雷
+    nature: thunder
+    direction: 东
+    family: 长男
+    
+  巽:
+    name_pinyin: xun
+    lines: [1, 1, 0]
+    element: 风
+    nature: wind
+    direction: 东南
+    family: 长女
+    
+  坎:
+    name_pinyin: kan
+    lines: [0, 1, 0]
+    element: 水
+    nature: water
+    direction: 北
+    family: 中男
+    
+  离:
+    name_pinyin: li
+    lines: [1, 0, 1]
+    element: 火
+    nature: fire
+    direction: 南
+    family: 中女
+    
+  艮:
+    name_pinyin: gen
+    lines: [1, 0, 0]
+    element: 山
+    nature: mountain
+    direction: 东北
+    family: 少男
+    
+  兑:
+    name_pinyin: dui
+    lines: [0, 1, 1]
+    element: 泽
+    nature: lake
+    direction: 西
+    family: 少女

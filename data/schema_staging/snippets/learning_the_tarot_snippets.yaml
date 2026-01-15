@@ -1,0 +1,1749 @@
+book_id: learning_the_tarot
+source_file: 典籍/texts/Learning the Tarot/编辑/Tarot_Practice_Method_v2.1.md
+extracted_at: '2025-12-04T14:27:42.620497'
+snippets:
+- snippet_id: ns_ltt_001
+  trigger: tarot_origin
+  factor_trigger: tarot_origin_italy AND tarot_78_system AND mystery AND tarot_system
+  role: 主干
+  snippet_text: The origin of the tarot is a mystery—cards were used in Italy in the
+    fifteenth century as a popular card game.
+  source_ref: L308-310
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.825878'
+- snippet_id: ns_ltt_002
+  trigger: occult_rediscovery
+  factor_trigger: tarot_occult AND occult
+  role: 主干依赖
+  snippet_text: Later scholars recognized that the images on the cards were more powerful
+    than a simple game would suggest—connecting them to Egyptian mysteries, Hermetic
+    philosophy, the Kabbalah.
+  source_ref: L312-316
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.825896'
+- snippet_id: ns_ltt_003
+  trigger: personal_growth
+  factor_trigger: tarot_growth_tool
+  role: 总结
+  snippet_text: The cards can make a real difference in the way you perceive and deal
+    with the challenges in your life.
+  source_ref: L306-307
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.825905'
+- snippet_id: ns_ltt_004
+  trigger: unconscious_definition
+  factor_trigger: tarot_unconscious AND unconscious
+  role: 主干
+  snippet_text: The unconscious is that deep level of memory and awareness that resides
+    within each of us, but outside our everyday experience.
+  source_ref: L346-348
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.825922'
+- snippet_id: ns_ltt_005
+  trigger: jung_creative
+  factor_trigger: archetype
+  role: 主干依赖
+  snippet_text: Carl Jung emphasized the positive, creative aspect of the unconscious—a
+    collective component with archetypes as consistent, directing patterns.
+  source_ref: L351-353
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.825931'
+- snippet_id: ns_ltt_006
+  trigger: inner_guide_def
+  factor_trigger: inner_guide
+  role: 主干
+  snippet_text: The Inner Guide is that part of ourselves aware of the divine source
+    of meaning—a wise advisor who knows us well.
+  source_ref: L434-438
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.825939'
+- snippet_id: ns_ltt_007
+  trigger: projection_mechanism
+  factor_trigger: projection
+  role: 条件分支
+  snippet_text: Projection is why tarot cards are valuable—their intriguing pictures
+    effectively tap the unconscious.
+  source_ref: L374-375
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.825946'
+- snippet_id: ns_ltt_008
+  trigger: synchronicity_def
+  factor_trigger: synchronicity AND intuition
+  role: 条件分支
+  snippet_text: Cards drawn are not truly random—they are selected through synchronicity,
+    meaningful coincidence connecting inner and outer.
+  source_ref: L462-464
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.825954'
+- snippet_id: ns_ltt_009
+  trigger: arcana_meaning
+  factor_trigger: tarot_arcana_definition AND arcana
+  role: 主干
+  snippet_text: Arcana means "profound secret"—tarot cards are a collection of the
+    secrets that underlie and explain our universe.
+  source_ref: L474-476
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.825971'
+- snippet_id: ns_ltt_010
+  trigger: major_arcana_heart
+  factor_trigger: major_arcana
+  role: 主干
+  snippet_text: The 22 cards of the major arcana are the heart of the deck—each symbolizes
+    a universal aspect of human experience.
+  source_ref: L477-478
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.825980'
+- snippet_id: ns_ltt_011
+  trigger: fools_journey
+  factor_trigger: fools_journey
+  role: 主干依赖
+  snippet_text: The Fool's Journey shows stages of inner growth—each card stands for
+    some quality we must incorporate before we can realize wholeness.
+  source_ref: L495-498
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.825989'
+- snippet_id: ns_ltt_012
+  trigger: wholeness_goal
+  factor_trigger: wholeness
+  role: 总结
+  snippet_text: Each card represents a quality or experience we must incorporate before
+    we can realize our wholeness—the goal of the Fool's Journey.
+  source_ref: L497-498
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826002'
+- snippet_id: ns_ltt_013
+  trigger: new_beginning
+  factor_trigger: new_beginning
+  role: 条件分支
+  snippet_text: The Fool (Card 0) represents new beginning—the earliest awareness
+    of potential before the journey of inner growth.
+  source_ref: L500-502
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826008'
+- snippet_id: ns_ltt_023
+  trigger: fool_card
+  factor_trigger: tarot_fool
+  role: 条件分支
+  snippet_text: The Fool (Card 0) is the protagonist of the Fool's Journey—representing
+    innocence, potential, and the beginning of all experience.
+  source_ref: L499-502
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826016'
+- snippet_id: ns_ltt_014
+  trigger: minor_practical
+  factor_trigger: tarot_minor_arcana AND minor_arcana
+  role: 主干
+  snippet_text: The minor arcana brings universal themes into the practical arena—showing
+    how they operate in daily events.
+  source_ref: L532-534
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826033'
+- snippet_id: ns_ltt_015
+  trigger: wands_fire
+  factor_trigger: suit_wands
+  role: 主干依赖
+  snippet_text: Wands are the suit of creativity, action, and movement—associated
+    with Fire, yang energy flowing outward.
+  source_ref: L538-543
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826043'
+- snippet_id: ns_ltt_016
+  trigger: cups_water
+  factor_trigger: suit_cups
+  role: 主干依赖
+  snippet_text: Cups are the suit of emotions and spiritual experience—associated
+    with Water, yin energy flowing inward.
+  source_ref: L544-549
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826049'
+- snippet_id: ns_ltt_017
+  trigger: swords_air
+  factor_trigger: suit_swords
+  role: 条件分支
+  snippet_text: Swords are the suit of intellect and reason—but also associated with
+    disharmony and unhappiness when intellect serves ego.
+  source_ref: L550-556
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826056'
+- snippet_id: ns_ltt_018
+  trigger: pentacles_earth
+  factor_trigger: suit_pentacles
+  role: 主干依赖
+  snippet_text: Pentacles are the suit of practicality and material concerns—associated
+    with Earth, concrete reality.
+  source_ref: L557-561
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826063'
+- snippet_id: ns_ltt_019
+  trigger: element_fire
+  factor_trigger: element_fire
+  role: 条件分支
+  snippet_text: 'Fire element (Wands): creativity, action, enthusiasm, adventure,
+    risk-taking, confidence—a flickering flame symbolizing will and passion.'
+  source_ref: L538-543
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826071'
+- snippet_id: ns_ltt_020
+  trigger: element_water
+  factor_trigger: element_water
+  role: 条件分支
+  snippet_text: 'Water element (Cups): emotions, spiritual experience, inner states,
+    feelings, relationships—energy flowing inward.'
+  source_ref: L544-549
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826077'
+- snippet_id: ns_ltt_021
+  trigger: element_air
+  factor_trigger: element_air
+  role: 条件分支
+  snippet_text: 'Air element (Swords): intellect, thought, reason, justice, truth,
+    ethics—but also conflict and disharmony potential.'
+  source_ref: L550-556
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826084'
+- snippet_id: ns_ltt_022
+  trigger: element_earth
+  factor_trigger: element_earth
+  role: 条件分支
+  snippet_text: 'Earth element (Pentacles): practicality, security, material concerns—concrete
+    requirements of working with matter.'
+  source_ref: L557-561
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826091'
+- snippet_id: ns_ltt_024
+  trigger: magician_action
+  factor_trigger: tarot_magician AND tarot_action AND conscious_awareness
+  role: 主干依赖
+  snippet_text: This card is a signal to act and act now, provided you understand
+    exactly what you want and are committed to getting it.
+  source_ref: L3587-3588
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826171'
+- snippet_id: ns_ltt_025
+  trigger: magician_channel
+  factor_trigger: tarot_magician AND tarot_power AND power
+  role: 条件分支
+  snippet_text: He acts as a lightning rod—one arm extended up into the Divine for
+    inspiration, the other pointing toward Earth to ground this potent energy.
+  source_ref: L3575-3577
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826179'
+- snippet_id: ns_ltt_026
+  trigger: magician_focus
+  factor_trigger: tarot_magician AND tarot_concentration AND concentration
+  role: 总结
+  snippet_text: The Magician can focus with single-minded determination—as long as
+    he remembers the divine source of his power, he remains the perfect conduit for
+    miracles.
+  source_ref: L3583-3585
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826187'
+- snippet_id: ns_ltt_027
+  trigger: high_priestess_card
+  factor_trigger: tarot_high_priestess AND nonaction
+  role: 主干
+  snippet_text: The High Priestess is the guardian of the unconscious—she sits in
+    front of the thin veil of unawareness which is all that separates us from our
+    inner landscape.
+  source_ref: L3639-3641
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826201'
+- snippet_id: ns_ltt_028
+  trigger: high_priestess_balance
+  factor_trigger: tarot_high_priestess AND tarot_tarot_magician
+  role: 主干依赖
+  snippet_text: The High Priestess is the feminine principle that balances the masculine
+    force of the Magician.
+  source_ref: L3643-3644
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826210'
+- snippet_id: ns_ltt_029
+  trigger: high_priestess_deeper
+  factor_trigger: tarot_high_priestess AND tarot_intuition AND unconscious_awareness
+  role: 总结
+  snippet_text: The High Priestess poses a challenge to go deeper—to look beyond the
+    obvious, surface situation to what is hidden and obscure.
+  source_ref: L3649-3651
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826218'
+- snippet_id: ns_ltt_030
+  trigger: empress_card
+  factor_trigger: tarot_empress AND nurturing
+  role: 主干
+  snippet_text: The Empress represents the fertile, life-giving Mother who reigns
+    over the bounty of nature and the rhythms of the Earth.
+  source_ref: L3700-3702
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826235'
+- snippet_id: ns_ltt_031
+  trigger: empress_feminine
+  factor_trigger: tarot_empress AND tarot_tarot_high_priestess
+  role: 主干依赖
+  snippet_text: The Empress and the High Priestess are the two halves of the female
+    archetype—High Priestess is mysterious unknown, Empress is fertile creativity.
+  source_ref: L3698-3700
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826242'
+- snippet_id: ns_ltt_032
+  trigger: empress_abundance
+  factor_trigger: tarot_empress AND tarot_abundance AND abundance
+  role: 总结
+  snippet_text: The Empress represents lavish abundance—riches that go with a generous
+    and open spirit.
+  source_ref: L3712-3715
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826250'
+- snippet_id: ns_ltt_033
+  trigger: emperor_card
+  factor_trigger: tarot_emperor AND structure
+  role: 主干
+  snippet_text: The Emperor represents structure, order, and regulation—forces to
+    balance the free-flowing, lavish abundance of the Empress.
+  source_ref: L3774-3775
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826262'
+- snippet_id: ns_ltt_034
+  trigger: emperor_balance
+  factor_trigger: tarot_emperor AND tarot_tarot_empress AND authority
+  role: 主干依赖
+  snippet_text: Emperor and Empress form a polarity pair—Empress is nurturing abundance,
+    Emperor is structured authority.
+  source_ref: L3774-3776
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826269'
+- snippet_id: ns_ltt_035
+  trigger: emperor_context
+  factor_trigger: tarot_emperor AND tarot_situation
+  role: 条件分支
+  snippet_text: In chaotic situations, Emperor indicates need for organization; in
+    over-controlled situations, he suggests confining constraints.
+  source_ref: L3777-3780
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826276'
+- snippet_id: ns_ltt_036
+  trigger: hierophant_card
+  factor_trigger: tarot_hierophant AND conformity AND group_identity
+  role: 主干
+  snippet_text: The Hierophant represents structured groups with rules and assigned
+    roles—churches, schools, companies, societies.
+  source_ref: L3838-3840
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826289'
+- snippet_id: ns_ltt_037
+  trigger: hierophant_belief
+  factor_trigger: tarot_hierophant AND tarot_belief
+  role: 主干依赖
+  snippet_text: Such environments emphasize belief systems—facts, rules, procedures,
+    and ritual. Members are rewarded for following conventions.
+  source_ref: L3840-3842
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826296'
+- snippet_id: ns_ltt_038
+  trigger: hierophant_tension
+  factor_trigger: tarot_hierophant AND tarot_conflict
+  role: 条件分支
+  snippet_text: The Hierophant can show you are struggling with a force that is not
+    innovative, free-spirited, or individual—groups can be enriching or stifling.
+  source_ref: L3847-3849
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826304'
+- snippet_id: ns_ltt_039
+  trigger: lovers_card
+  factor_trigger: tarot_lovers
+  role: 主干
+  snippet_text: The Lovers represents the attractive force that draws any two entities
+    together.
+  source_ref: L3909-3911
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826312'
+- snippet_id: ns_ltt_040
+  trigger: lovers_values
+  factor_trigger: tarot_lovers AND tarot_decision
+  role: 主干依赖
+  snippet_text: The Lovers can indicate a moral or ethical crossroads.
+  source_ref: L3916-3917
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826320'
+- snippet_id: ns_ltt_041
+  trigger: chariot_card
+  factor_trigger: tarot_chariot
+  role: 主干
+  snippet_text: The Chariot represents victories possible through willpower and self-mastery.
+  source_ref: L3976-3979
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826327'
+- snippet_id: ns_ltt_042
+  trigger: chariot_control
+  factor_trigger: tarot_chariot AND tarot_control
+  role: 主干依赖
+  snippet_text: Hard control is firm and direct, backed by strong will.
+  source_ref: L3985-3987
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826333'
+- snippet_id: ns_ltt_043
+  trigger: strength_card
+  factor_trigger: tarot_strength
+  role: 主干
+  snippet_text: Card 8 represents inner strength—perseverance, courage, resolve.
+  source_ref: L4039-4042
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826339'
+- snippet_id: ns_ltt_044
+  trigger: strength_soft
+  factor_trigger: tarot_strength AND tarot_tarot_chariot
+  role: 主干依赖
+  snippet_text: Chariot controls through authority; Strength is more subtle, even
+    loving.
+  source_ref: L4048-4051
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826346'
+- snippet_id: ns_ltt_045
+  trigger: hermit_card
+  factor_trigger: tarot_hermit AND tarot_introspection
+  role: 主干
+  snippet_text: The Hermit withdraws from external distractions to seek answers within;
+    his lantern illuminates not outward paths but inner truth—guidance comes from
+    self-knowledge, not external authorities.
+  source_ref: L4103-4106
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826355'
+- snippet_id: ns_ltt_046
+  trigger: hermit_solitude
+  factor_trigger: tarot_hermit AND tarot_solitude
+  role: 主干依赖
+  snippet_text: 'The Hermit''s solitude is purposeful, not escapist: he withdraws
+    temporarily to gain perspective that crowds obscure, then returns with wisdom
+    to share (the raised lantern).'
+  source_ref: L4114-4116
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826363'
+- snippet_id: ns_ltt_047
+  trigger: wheel_card
+  factor_trigger: tarot_wheel
+  role: 主干
+  snippet_text: The Wheel is one of few cards without a human focal point—above the
+    realm of man.
+  source_ref: L4171-4175
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826392'
+- snippet_id: ns_ltt_048
+  trigger: wheel_movement
+  factor_trigger: tarot_wheel AND tarot_change
+  role: 主干依赖
+  snippet_text: When the Wheel arrives, life speeds up—caught in a cyclone.
+  source_ref: L4184-4186
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826407'
+- snippet_id: ns_ltt_049
+  trigger: justice_card
+  factor_trigger: tarot_justice AND tarot_karma
+  role: 主干
+  snippet_text: 'Justice embodies cosmic law: every action generates consequences
+    that return to the actor; the sword cuts through illusion while the scales weigh
+    deeds with perfect impartiality—no external judge is needed.'
+  source_ref: L4238-4243
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826420'
+- snippet_id: ns_ltt_050
+  trigger: justice_responsibility
+  factor_trigger: tarot_justice AND tarot_decision
+  role: 主干依赖
+  snippet_text: 'Justice demands honest self-assessment: what have you contributed
+    to your current situation? The card calls for taking responsibility rather than
+    blaming external circumstances.'
+  source_ref: L4250-4252
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826429'
+- snippet_id: ns_ltt_051
+  trigger: hanged_man_card
+  factor_trigger: tarot_hanged_man
+  role: 主干
+  snippet_text: The Hanged Man symbolizes paradox—truths hidden in opposites.
+  source_ref: L4312-4317
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826437'
+- snippet_id: ns_ltt_052
+  trigger: hanged_man_paradox
+  factor_trigger: tarot_hanged_man AND tarot_paradox
+  role: 主干依赖
+  snippet_text: We control by letting go, win by surrendering, move forward by standing
+    still.
+  source_ref: L4318-4323
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826443'
+- snippet_id: ns_ltt_053
+  trigger: death_card
+  factor_trigger: tarot_death AND tarot_transition
+  role: 主干
+  snippet_text: 'Death initiates necessary endings that clear space for new growth:
+    what is exhausted, outworn, or no longer serving must be released; resistance
+    to this natural cycle creates stagnation and suffering.'
+  source_ref: L4379-4382
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826453'
+- snippet_id: ns_ltt_054
+  trigger: death_transformation
+  factor_trigger: tarot_death AND tarot_transformation
+  role: 主干依赖
+  snippet_text: 'Death''s transformation is not cosmetic but fundamental: the caterpillar
+    does not get wings added—it dissolves entirely before the butterfly emerges; ego-death
+    precedes spiritual rebirth.'
+  source_ref: L4388-4390
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826462'
+- snippet_id: ns_ltt_055
+  trigger: temperance_card
+  factor_trigger: tarot_temperance AND tarot_balance
+  role: 主干
+  snippet_text: 'Temperance achieves equilibrium not through rigidity but through
+    continuous dynamic adjustment: the angel pours water between cups without spilling—mastery
+    of opposing forces through patient skill, not suppression.'
+  source_ref: L4443-4450
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826474'
+- snippet_id: ns_ltt_056
+  trigger: temperance_balance
+  factor_trigger: tarot_temperance AND tarot_integration
+  role: 主干依赖
+  snippet_text: 'Temperance''s synthesis creates something new from apparent opposites:
+    fire and water, conscious and unconscious, spirit and matter combine into unified
+    whole greater than its parts.'
+  source_ref: L4452-4454
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826483'
+- snippet_id: ns_ltt_057
+  trigger: devil_card
+  factor_trigger: tarot_devil AND tarot_bondage
+  role: 主干
+  snippet_text: 'The Devil represents self-imposed bondage: the chains around the
+    figures'' necks are loose enough to remove, but they don''t notice—addiction,
+    obsession, and materialism feel like external forces but are maintained by our
+    own collusion.'
+  source_ref: L4515-4520
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826496'
+- snippet_id: ns_ltt_058
+  trigger: devil_shadow
+  factor_trigger: tarot_devil AND tarot_shadow
+  role: 主干依赖
+  snippet_text: 'The Devil is the shadow confrontation: denied desires, rejected impulses,
+    and disowned aspects of self accumulate power in the unconscious; acknowledgment
+    (not indulgence) begins liberation.'
+  source_ref: L4521-4529
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826504'
+- snippet_id: ns_ltt_059
+  trigger: tower_card
+  factor_trigger: tarot_tower AND tarot_upheaval
+  role: 主干
+  snippet_text: 'The Tower shatters structures built on false foundations: the lightning
+    strikes what was already unstable; the fall is not punishment but liberation from
+    prisons we didn''t know we inhabited—revelation through destruction.'
+  source_ref: L4574-4576
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826514'
+- snippet_id: ns_ltt_060
+  trigger: tower_wakeup
+  factor_trigger: tarot_tower AND tarot_revelation
+  role: 主干依赖
+  snippet_text: 'The Tower''s crisis forces confrontation with denied truths: what
+    we refused to see is made undeniable; the ego''s defenses collapse, and authentic
+    reality breaks through—painful but ultimately freeing.'
+  source_ref: L4579-4582
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826522'
+- snippet_id: ns_ltt_061
+  trigger: star_card
+  factor_trigger: tarot_star AND tarot_hope
+  role: 主干
+  snippet_text: 'The Star appears after Tower''s devastation to signal that destruction
+    was not the end: the naked woman pours water freely, unashamed and undefended,
+    having nothing left to hide—vulnerability becomes strength when all pretense has
+    been stripped away.'
+  source_ref: L4643-4644
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826533'
+- snippet_id: ns_ltt_062
+  trigger: star_healing
+  factor_trigger: tarot_star AND tarot_inspiration
+  role: 主干依赖
+  snippet_text: 'The Star''s hope is not naive optimism but calm certainty born of
+    having survived the worst: the stars above are distant but their light reaches
+    us—connection to something greater than personal suffering restores meaning.'
+  source_ref: L4645-4646
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826544'
+- snippet_id: ns_ltt_063
+  trigger: moon_card
+  factor_trigger: tarot_moon AND tarot_shadow
+  role: 主干
+  snippet_text: 'The Moon illuminates what daylight consciousness cannot see: the
+    realm of shadow, intuition, and the collective unconscious; its light reveals
+    hidden fears and buried memories that shape behavior from below awareness.'
+  source_ref: L4711-4712
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826554'
+- snippet_id: ns_ltt_064
+  trigger: moon_illusion
+  factor_trigger: tarot_moon AND tarot_illusion
+  role: 主干依赖
+  snippet_text: 'The Moon warns against mistaking subjective projections for objective
+    reality: fears may be unfounded, suspicions may be paranoia—distinguish between
+    genuine intuition and anxiety-driven fantasy.'
+  source_ref: L4717-4718
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826562'
+- snippet_id: ns_ltt_065
+  trigger: sun_card
+  factor_trigger: tarot_sun AND tarot_vitality
+  role: 主干
+  snippet_text: 'The Sun represents ego-consciousness at its healthiest: the clear
+    light of day dispels Moon''s shadows; confidence flows from genuine self-knowledge
+    rather than denial; energy is abundant because nothing is being repressed.'
+  source_ref: L4774-4775
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826572'
+- snippet_id: ns_ltt_066
+  trigger: sun_success
+  factor_trigger: tarot_sun AND tarot_greatness
+  role: 主干依赖
+  snippet_text: 'The Sun signals that conditions favor authentic self-expression:
+    inner light aligns with outer circumstance; what you genuinely are can now shine
+    without obstruction or apology.'
+  source_ref: L4780-4781
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826580'
+- snippet_id: ns_ltt_067
+  trigger: judgement_card
+  factor_trigger: tarot_judgement AND tarot_rebirth
+  role: 主干
+  snippet_text: 'Judgement represents the psychological resurrection that follows
+    deep self-confrontation: guilts are acknowledged and released, the dead past is
+    integrated rather than repressed, a new self emerges purified by honest reckoning.'
+  source_ref: L4841-4842
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826589'
+- snippet_id: ns_ltt_068
+  trigger: judgement_calling
+  factor_trigger: tarot_judgement AND tarot_calling
+  role: 主干依赖
+  snippet_text: 'Judgement signals an inner summons to purpose: not external obligation
+    but the soul''s own demand for meaningful direction—the call cannot be ignored
+    without consequences to psychic wholeness.'
+  source_ref: L4843-4844
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826598'
+- snippet_id: ns_ltt_069
+  trigger: world_card
+  factor_trigger: tarot_world
+  role: 主干
+  snippet_text: The World represents wholeness—everything working together in harmony.
+  source_ref: L4905-4906
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826615'
+- snippet_id: ns_ltt_070
+  trigger: world_fulfillment
+  factor_trigger: tarot_world AND tarot_success
+  role: 主干依赖
+  snippet_text: A very positive sign you are in position to realize your heart's desire.
+  source_ref: L4910-4911
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826621'
+- snippet_id: ns_ltt_071
+  trigger: ace_wands
+  factor_trigger: tarot_ace_wands
+  role: 主干
+  snippet_text: Ace of Wands shows a seed of bold enthusiasm has been planted.
+  source_ref: L5030-5031
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826630'
+- snippet_id: ns_ltt_072
+  trigger: ace_wands_action
+  factor_trigger: tarot_ace_wands AND tarot_action
+  role: 主干依赖
+  snippet_text: Be daring and brave—sometimes you have to risk to get what you want.
+  source_ref: L5036-5037
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826636'
+- snippet_id: ns_ltt_073
+  trigger: two_wands
+  factor_trigger: tarot_two_wands
+  role: 主干
+  snippet_text: Two of Wands represents personal power—commanding attention.
+  source_ref: L5044-5050
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826656'
+- snippet_id: ns_ltt_074
+  trigger: three_wands
+  factor_trigger: tarot_three_wands
+  role: 主干
+  snippet_text: Three of Wands represents exploration and foresight—looking ahead.
+  source_ref: L5101-5110
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.826670'
+- snippet_id: ns_ltt_075
+  trigger: four_wands
+  factor_trigger: tarot_four_wands AND tarot_celebration
+  role: 主干
+  snippet_text: 'Four of Wands marks the completion of a foundation: the bower of
+    celebration indicates that initial structure is in place—now joy can be expressed
+    because security has been established; community gathers to honor what has been
+    built.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.827219'
+- snippet_id: ns_ltt_076
+  trigger: five_wands
+  factor_trigger: tarot_five_wands AND tarot_conflict
+  role: 主干
+  snippet_text: 'Five of Wands shows creative friction: the clash is more sparring
+    than warfare—each combatant tests ideas against others; competition sharpens skills
+    when not taken personally, though it can degenerate into petty hassle if ego dominates.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.827762'
+- snippet_id: ns_ltt_077
+  trigger: six_wands
+  factor_trigger: tarot_six_wands AND tarot_victory
+  role: 主干
+  snippet_text: 'Six of Wands depicts the victory parade: public recognition of achievement,
+    riding high with wreath of success; the moment when effort receives external validation—enjoy
+    it, but remember that acclaim is temporary and not the goal itself.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.828329'
+- snippet_id: ns_ltt_078
+  trigger: seven_wands
+  factor_trigger: tarot_seven_wands
+  role: 主干
+  snippet_text: Seven of Wands represents standing your ground against opposition.
+  source_ref: L5329-5340
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.828338'
+- snippet_id: ns_ltt_079
+  trigger: eight_wands
+  factor_trigger: tarot_eight_wands
+  role: 主干
+  snippet_text: Eight of Wands represents quick action and swift developments.
+  source_ref: L5386-5395
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.828347'
+- snippet_id: ns_ltt_080
+  trigger: nine_wands
+  factor_trigger: tarot_nine_wands
+  role: 主干
+  snippet_text: Nine of Wands represents perseverance despite being wounded.
+  source_ref: L5443-5455
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.828353'
+- snippet_id: ns_ltt_081
+  trigger: ten_wands
+  factor_trigger: tarot_ten_wands AND tarot_burden
+  role: 主干
+  snippet_text: 'Ten of Wands shows creative energy pushed to exhaustion: carrying
+    all ten wands alone because you don''t trust others or can''t say no; the burden
+    is real but often self-imposed—consider which responsibilities truly require your
+    personal attention.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.828924'
+- snippet_id: ns_ltt_082
+  trigger: ace_cups
+  factor_trigger: tarot_ace_cups
+  role: 主干
+  snippet_text: Ace of Cups represents possibility in area of deep feelings and love.
+  source_ref: L5557-5565
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.828932'
+- snippet_id: ns_ltt_083
+  trigger: two_cups
+  factor_trigger: tarot_two_cups AND tarot_partnership
+  role: 主干
+  snippet_text: 'Two of Cups shows two people exchanging cups in mutual recognition:
+    the alchemy of genuine connection where each sees and values the other; partnership
+    formed not from need but from appreciation—the foundation of healthy relationship.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.829483'
+- snippet_id: ns_ltt_084
+  trigger: three_cups
+  factor_trigger: tarot_three_cups
+  role: 主干
+  snippet_text: Three of Cups represents friendship and community celebration.
+  source_ref: L5676-5685
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.829495'
+- snippet_id: ns_ltt_085
+  trigger: four_cups
+  factor_trigger: tarot_four_cups
+  role: 主干
+  snippet_text: Four of Cups represents self-absorption and contemplative withdrawal.
+  source_ref: L5733-5745
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.829502'
+- snippet_id: ns_ltt_086
+  trigger: five_cups
+  factor_trigger: tarot_five_cups AND tarot_grief
+  role: 主干
+  snippet_text: 'Five of Cups shows the figure mourning three spilled cups while two
+    full ones stand behind unnoticed: grief naturally focuses on loss, but recovery
+    begins when attention shifts to what remains; the card does not deny pain but
+    suggests perspective.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.830124'
+- snippet_id: ns_ltt_087
+  trigger: six_cups
+  factor_trigger: tarot_six_cups AND tarot_memory
+  role: 主干
+  snippet_text: 'Six of Cups evokes childhood''s emotional simplicity: the larger
+    figure offering a cup to the smaller recalls innocent generosity before calculation
+    entered relationships; nostalgia can heal or trap depending on whether memory
+    inspires or replaces present living.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.830715'
+- snippet_id: ns_ltt_088
+  trigger: seven_cups
+  factor_trigger: tarot_seven_cups
+  role: 主干
+  snippet_text: Seven of Cups represents wishful thinking and scattered options.
+  source_ref: L5904-5915
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.830722'
+- snippet_id: ns_ltt_089
+  trigger: eight_cups
+  factor_trigger: tarot_eight_cups
+  role: 主干
+  snippet_text: Eight of Cups represents moving on to seek deeper meaning.
+  source_ref: L5961-5970
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.830730'
+- snippet_id: ns_ltt_090
+  trigger: nine_cups
+  factor_trigger: tarot_nine_cups AND tarot_satisfaction
+  role: 主干
+  snippet_text: 'Nine of Cups shows the satisfied figure before displayed cups: the
+    ''wish card'' indicates emotional desires coming true; genuine contentment rather
+    than craving—though its shadow asks whether the wish was truly worth wanting.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.831251'
+- snippet_id: ns_ltt_091
+  trigger: ten_cups
+  factor_trigger: tarot_ten_cups AND tarot_fulfillment
+  role: 主干
+  snippet_text: 'Ten of Cups depicts the family beneath the rainbow of cups: emotional
+    completion achieved through connection to others; lasting joy is found not in
+    personal gratification but in bonds that create meaning—the heart''s ultimate
+    home.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.831793'
+- snippet_id: ns_ltt_092
+  trigger: ace_swords
+  factor_trigger: tarot_ace_swords
+  role: 主干
+  snippet_text: Ace of Swords represents mental clarity and cutting to truth.
+  source_ref: L6132-6140
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.831800'
+- snippet_id: ns_ltt_093
+  trigger: two_swords
+  factor_trigger: tarot_two_swords AND tarot_denial
+  role: 主干
+  snippet_text: 'Two of Swords shows the blindfolded figure holding crossed swords:
+    refusing to see or choose, maintaining tense stalemate through willful denial;
+    the temporary peace of avoidance that prevents both conflict and resolution.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.832624'
+- snippet_id: ns_ltt_094
+  trigger: three_swords
+  factor_trigger: tarot_three_swords
+  role: 主干
+  snippet_text: Three of Swords represents heartbreak and painful truth.
+  source_ref: L6251-6260
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.832651'
+- snippet_id: ns_ltt_095
+  trigger: four_swords
+  factor_trigger: tarot_four_swords AND tarot_rest
+  role: 主干
+  snippet_text: 'Four of Swords depicts the knight in repose within the sanctuary:
+    necessary withdrawal from mental battle to recover strength; not defeat but strategic
+    retreat—the mind requires periods of stillness to integrate what combat has taught.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.833641'
+- snippet_id: ns_ltt_096
+  trigger: five_swords
+  factor_trigger: tarot_five_swords
+  role: 主干
+  snippet_text: Five of Swords represents hollow victory through self-interest.
+  source_ref: L6365-6375
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.833678'
+- snippet_id: ns_ltt_097
+  trigger: six_swords
+  factor_trigger: tarot_six_swords AND tarot_transition
+  role: 主干
+  snippet_text: 'Six of Swords shows the ferryman guiding passengers from choppy to
+    calm waters: transition away from difficulty through mental clarity; the journey
+    is somber because what''s left behind was painful, but direction is unmistakably
+    toward relief.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.834639'
+- snippet_id: ns_ltt_098
+  trigger: seven_swords
+  factor_trigger: tarot_seven_swords
+  role: 主干
+  snippet_text: Seven of Swords represents acting alone or stealthily.
+  source_ref: L6479-6490
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.834674'
+- snippet_id: ns_ltt_099
+  trigger: eight_swords
+  factor_trigger: tarot_eight_swords
+  role: 主干
+  snippet_text: Eight of Swords represents feeling trapped and restricted.
+  source_ref: L6536-6545
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.834706'
+- snippet_id: ns_ltt_100
+  trigger: nine_swords
+  factor_trigger: tarot_nine_swords AND tarot_anxiety
+  role: 主干
+  snippet_text: 'Nine of Swords shows the figure sitting up in bed with hands covering
+    face: the nightmare of anxious thoughts that torture in darkness; often the fear
+    is worse than reality warrants—the swords hang above but do not touch.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.835558'
+- snippet_id: ns_ltt_101
+  trigger: ten_swords
+  factor_trigger: tarot_ten_swords
+  role: 主干
+  snippet_text: Ten of Swords represents hitting rock bottom—darkest before dawn.
+  source_ref: L6650-6660
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.835573'
+- snippet_id: ns_ltt_102
+  trigger: ace_pentacles
+  factor_trigger: tarot_ace_pentacles
+  role: 主干
+  snippet_text: Ace of Pentacles represents material opportunity and prosperity.
+  source_ref: L6707-6715
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.835598'
+- snippet_id: ns_ltt_103
+  trigger: two_pentacles
+  factor_trigger: tarot_two_pentacles
+  role: 主干
+  snippet_text: Two of Pentacles represents juggling and flexibility.
+  source_ref: L6769-6780
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.835612'
+- snippet_id: ns_ltt_104
+  trigger: three_pentacles
+  factor_trigger: tarot_three_pentacles
+  role: 主干
+  snippet_text: Three of Pentacles represents teamwork and competent planning.
+  source_ref: L6826-6835
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.835626'
+- snippet_id: ns_ltt_105
+  trigger: four_pentacles
+  factor_trigger: tarot_four_pentacles
+  role: 主干
+  snippet_text: Four of Pentacles represents possessiveness and blocked change.
+  source_ref: L6883-6895
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.835640'
+- snippet_id: ns_ltt_106
+  trigger: five_pentacles
+  factor_trigger: tarot_five_pentacles
+  role: 主干
+  snippet_text: Five of Pentacles represents hard times and material difficulty.
+  source_ref: L6940-6950
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.835664'
+- snippet_id: ns_ltt_107
+  trigger: six_pentacles
+  factor_trigger: tarot_six_pentacles
+  role: 主干
+  snippet_text: Six of Pentacles represents sharing resources and generosity.
+  source_ref: L6997-7005
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.835678'
+- snippet_id: ns_ltt_108
+  trigger: seven_pentacles
+  factor_trigger: tarot_seven_pentacles
+  role: 主干
+  snippet_text: Seven of Pentacles represents assessment and evaluating progress.
+  source_ref: L7054-7065
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.835691'
+- snippet_id: ns_ltt_109
+  trigger: eight_pentacles
+  factor_trigger: tarot_eight_pentacles
+  role: 主干
+  snippet_text: Eight of Pentacles represents diligent skill development.
+  source_ref: L7111-7120
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.835704'
+- snippet_id: ns_ltt_110
+  trigger: nine_pentacles
+  factor_trigger: tarot_nine_pentacles
+  role: 主干
+  snippet_text: Nine of Pentacles represents self-reliance and enjoying success.
+  source_ref: L7168-7175
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.835717'
+- snippet_id: ns_ltt_111
+  trigger: ten_pentacles
+  factor_trigger: tarot_ten_pentacles
+  role: 主干
+  snippet_text: Ten of Pentacles represents affluence and family legacy.
+  source_ref: L7225-7235
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.835730'
+- snippet_id: ns_ltt_112
+  trigger: page_wands
+  factor_trigger: tarot_page_wands AND tarot_enthusiasm
+  role: 主干
+  snippet_text: 'Page of Wands embodies creative potential in its raw, unformed state:
+    enthusiasm without discipline, vision without experience; the spark that may become
+    a fire or fizzle out depending on whether passion finds proper channels for expression.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.836760'
+- snippet_id: ns_ltt_113
+  trigger: knight_wands
+  factor_trigger: tarot_knight_wands AND tarot_action
+  role: 主干
+  snippet_text: 'Knight of Wands charges forward with infectious confidence: action
+    precedes thought, charm opens doors that planning cannot; the danger lies in scattering
+    energy across too many adventures, leaving none completed.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.837574'
+- snippet_id: ns_ltt_114
+  trigger: queen_wands
+  factor_trigger: tarot_queen_wands AND tarot_mastery
+  role: 主干
+  snippet_text: 'Queen of Wands wields creative fire with mature skill: she inspires
+    without consuming, leads without dominating; her warmth draws others in while
+    her self-possession maintains healthy boundaries—passion refined by experience.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.838407'
+- snippet_id: ns_ltt_115
+  trigger: king_wands
+  factor_trigger: tarot_king_wands AND tarot_leadership
+  role: 主干
+  snippet_text: 'King of Wands commands through vision rather than authority: his
+    charisma ignites others'' enthusiasm; he sees possibilities where others see obstacles—entrepreneurial
+    energy that transforms creative impulse into tangible achievement.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.839264'
+- snippet_id: ns_ltt_116
+  trigger: page_cups
+  factor_trigger: tarot_page_cups AND tarot_intuition
+  role: 主干
+  snippet_text: 'Page of Cups gazes at the fish emerging from the cup with wonder
+    rather than fear: openness to emotional and psychic impressions, willingness to
+    receive messages from the unconscious; the beginning of intuitive development
+    before defenses harden.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.840480'
+- snippet_id: ns_ltt_117
+  trigger: knight_cups
+  factor_trigger: tarot_knight_cups AND tarot_romance
+  role: 主干
+  snippet_text: 'Knight of Cups follows the heart''s calling with poetic sensitivity:
+    the romantic quester seeking beauty, meaning, and emotional connection; his danger
+    is losing himself in fantasy, preferring the dream to the sometimes disappointing
+    reality of actual relationship.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.841547'
+- snippet_id: ns_ltt_118
+  trigger: queen_cups
+  factor_trigger: tarot_queen_cups AND tarot_psychic
+  role: 主干
+  snippet_text: 'Queen of Cups holds the covered cup of the unconscious with reverence:
+    she senses what words cannot express, reads the emotional undercurrents others
+    miss; her mastery is receptive rather than active—knowing when to absorb and when
+    to reflect back.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.842582'
+- snippet_id: ns_ltt_119
+  trigger: king_cups
+  factor_trigger: tarot_king_cups AND tarot_wisdom
+  role: 主干
+  snippet_text: 'King of Cups navigates emotional currents without being swept away:
+    he feels deeply but responds wisely; his throne floats on turbulent waters yet
+    remains stable—the integration of emotional depth with mature judgment that makes
+    genuine compassion possible.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.843555'
+- snippet_id: ns_ltt_120
+  trigger: page_swords
+  factor_trigger: tarot_page_swords AND tarot_truth
+  role: 主干
+  snippet_text: 'Page of Swords wields intellect with the enthusiasm of discovery:
+    curious, vigilant, sometimes tactlessly honest; the mind beginning to differentiate
+    truth from falsehood, developing critical faculties that may wound before learning
+    restraint.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.844982'
+- snippet_id: ns_ltt_121
+  trigger: knight_swords
+  factor_trigger: tarot_knight_swords AND tarot_action
+  role: 主干
+  snippet_text: 'Knight of Swords charges into intellectual battle with fierce directness:
+    words as weapons, arguments as conquest; effective against confusion but potentially
+    destructive to relationship—truth without mercy can be more harmful than diplomatic
+    silence.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.845982'
+- snippet_id: ns_ltt_122
+  trigger: queen_swords
+  factor_trigger: tarot_queen_swords AND tarot_discernment
+  role: 主干
+  snippet_text: 'Queen of Swords has earned her clarity through loss: experience has
+    taught her what matters and what is pretense; her incisive perception cuts through
+    sentimentality, offering truth even when it hurts—the wisdom of one who will not
+    be fooled again.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.847000'
+- snippet_id: ns_ltt_123
+  trigger: king_swords
+  factor_trigger: tarot_king_swords AND tarot_justice
+  role: 主干
+  snippet_text: 'King of Swords embodies mind in service of justice: analytical power
+    governed by ethical principle; his judgments are impartial because personal feeling
+    has been subordinated to higher law—intellect deployed for collective good rather
+    than individual advantage.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.848048'
+- snippet_id: ns_ltt_124
+  trigger: page_pentacles
+  factor_trigger: tarot_page_pentacles AND tarot_study
+  role: 主干
+  snippet_text: 'Page of Pentacles studies the coin with focused attention: the apprentice
+    learning practical skills through patient application; he represents the beginning
+    stages of material mastery—careful, methodical, willing to start at the bottom
+    and learn properly.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.849246'
+- snippet_id: ns_ltt_125
+  trigger: knight_pentacles
+  factor_trigger: tarot_knight_pentacles AND tarot_persistence
+  role: 主干
+  snippet_text: 'Knight of Pentacles alone among knights sits motionless on his horse:
+    progress through steady persistence rather than dramatic action; the tortoise
+    who beats the hare—his apparent slowness masks deep reliability and eventual success
+    through sheer endurance.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.850886'
+- snippet_id: ns_ltt_126
+  trigger: queen_pentacles
+  factor_trigger: tarot_queen_pentacles AND tarot_abundance
+  role: 主干
+  snippet_text: 'Queen of Pentacles creates abundance through generous nurturing:
+    her garden flourishes because she tends it faithfully; material success as expression
+    of care for physical reality—home, body, earth, and all that requires patient
+    cultivation.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.851876'
+- snippet_id: ns_ltt_127
+  trigger: king_pentacles
+  factor_trigger: tarot_king_pentacles AND tarot_prosperity
+  role: 主干
+  snippet_text: 'King of Pentacles has built empire through patient accumulation:
+    wealth as crystallized competence, success as proof of reliable judgment; his
+    authority comes from demonstrated results rather than inherited position or theoretical
+    knowledge.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.852836'
+- snippet_id: ns_ltt_128
+  trigger: spread_position
+  factor_trigger: tarot_spread
+  role: 主干
+  snippet_text: Each position has unique meaning that colors card interpretation.
+  source_ref: L616-618
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.852896'
+- snippet_id: ns_ltt_129
+  trigger: celtic_cross
+  factor_trigger: tarot_celtic_cross
+  role: 主干
+  snippet_text: Celtic Cross is most popular spread with strong accumulated energy.
+  source_ref: L638-642
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.852914'
+- snippet_id: ns_ltt_130
+  trigger: daily_reading
+  factor_trigger: tarot_daily_reading
+  role: 主干
+  snippet_text: Daily Reading heightens awareness of one approach for 24 hours.
+  source_ref: L648-651
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.852930'
+- snippet_id: ns_ltt_131
+  trigger: color_coding
+  factor_trigger: tarot_journal
+  role: 主干
+  snippet_text: 'Color coding: Wands=Red(Fire), Cups=Blue(Water), Swords=Yellow(Air),
+    Pentacles=Green(Earth), Major=Purple.'
+  source_ref: L702-708
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.852951'
+- snippet_id: ns_ltt_132
+  trigger: five_qualities
+  factor_trigger: tarot_environment
+  role: 主干
+  snippet_text: 'Five inner qualities: Open, Calm, Focused, Alert, Respectful.'
+  source_ref: L726-744
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.852971'
+- snippet_id: ns_ltt_133
+  trigger: tarot_spot
+  factor_trigger: tarot_space AND tarot_ritual
+  role: 主干
+  snippet_text: 'Designate a consistent physical location for tarot practice: repeated
+    use builds associative energy; the mind shifts into receptive mode upon entering
+    the space, just as sleep comes easier in a bed used only for sleeping.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.853731'
+- snippet_id: ns_ltt_134
+  trigger: question_principles
+  factor_trigger: tarot_question
+  role: 主干
+  snippet_text: 'Six principles: Responsibility, Open, Detail, Self-focus, Neutral,
+    Positive.'
+  source_ref: L801-902
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.853783'
+- snippet_id: ns_ltt_135
+  trigger: question_starters
+  factor_trigger: tarot_question
+  role: 主干
+  snippet_text: 'Good starters: "What do I need to understand...", "How can I improve..."'
+  source_ref: L830-836
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.853792'
+- snippet_id: ns_ltt_136
+  trigger: reading_procedure
+  factor_trigger: tarot_reading
+  role: 主干
+  snippet_text: Complete 10-step reading procedure from mood to gratitude.
+  source_ref: L909-1098
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.853802'
+- snippet_id: ns_ltt_137
+  trigger: story_creation
+  factor_trigger: tarot_story
+  role: 主干依赖
+  snippet_text: Creating the story - speak spontaneously, let it arise freely.
+  source_ref: L1019-1034
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.853810'
+- snippet_id: ns_ltt_138
+  trigger: other_reading
+  factor_trigger: tarot_other_reading
+  role: 主干
+  snippet_text: Other Reading is about someone, not for them. Test with 3 questions.
+  source_ref: L1099-1127
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.853819'
+- snippet_id: ns_ltt_139
+  trigger: open_reading
+  factor_trigger: tarot_open_reading
+  role: 主干
+  snippet_text: Open Reading offers higher guidance embracing larger patterns.
+  source_ref: L1150-1159
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.853827'
+- snippet_id: ns_ltt_140
+  trigger: four_sources
+  factor_trigger: tarot_interpretation
+  role: 主干
+  snippet_text: 'Four sources: unique response, convention, position, question.'
+  source_ref: L1211-1223
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.853835'
+- snippet_id: ns_ltt_141
+  trigger: aha_reaction
+  factor_trigger: tarot_intuition AND tarot_confirmation
+  role: 主干依赖
+  snippet_text: The 'aha' reaction—sudden recognition, physical sensation of rightness—signals
+    that conscious interpretation has connected with deeper knowing; this felt sense
+    is the primary confirmation mechanism in intuitive reading.
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.854321'
+- snippet_id: ns_ltt_142
+  trigger: major_minor_weight
+  factor_trigger: tarot_arcana_weight
+  role: 主干
+  snippet_text: Major = deep, strong, long-term; Minor = daily ups and downs.
+  source_ref: L1280-1287
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.854329'
+- snippet_id: ns_ltt_143
+  trigger: aces_portals
+  factor_trigger: tarot_aces
+  role: 主干
+  snippet_text: Aces are portals between major and minor arcanas, allowing powerful
+    forces in.
+  source_ref: L1355-1358
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.854338'
+- snippet_id: ns_ltt_144
+  trigger: aces_gifts
+  factor_trigger: tarot_aces AND tarot_potential
+  role: 主干
+  snippet_text: 'Each Ace presents a gift from the mysterious source: the hand emerging
+    from clouds offers raw elemental potential; whether Fire, Water, Air, or Earth,
+    the gift is both opportunity and responsibility—potential requires cultivation.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.854849'
+- snippet_id: ns_ltt_145
+  trigger: court_card_system
+  factor_trigger: tarot_court_cards
+  role: 主干
+  snippet_text: 16 court cards = personality types, combination of suit + rank.
+  source_ref: L1380-1383
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.854858'
+- snippet_id: ns_ltt_146
+  trigger: court_interpretation
+  factor_trigger: tarot_court_cards
+  role: 主干依赖
+  snippet_text: 'Court card can be: side of you, another person, or general atmosphere.'
+  source_ref: L1437-1474
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.854864'
+- snippet_id: ns_ltt_147
+  trigger: law_opposition
+  factor_trigger: tarot_pairs AND tarot_polarity
+  role: 主干
+  snippet_text: 'Law of Opposition: every quality contains and implies its shadow;
+    strength implies vulnerability, giving implies receiving; when one card appears,
+    consider what its polar opposite would mean—often both are operating.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.855339'
+- snippet_id: ns_ltt_148
+  trigger: pair_types
+  factor_trigger: tarot_pairs
+  role: 主干依赖
+  snippet_text: 'Three types: permanent, court/ace, occasional. Plus reinforcing pairs.'
+  source_ref: L1515-1569
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.855349'
+- snippet_id: ns_ltt_149
+  trigger: position_pairs
+  factor_trigger: tarot_celtic_cross
+  role: 主干
+  snippet_text: 'Six position pairings in Celtic Cross: 1-2, 3-5, 4-6, 7-8, 5-10,
+    9.'
+  source_ref: L1575-1790
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.855358'
+- snippet_id: ns_ltt_150
+  trigger: reversed_theory
+  factor_trigger: tarot_reversed
+  role: 主干
+  snippet_text: Reversed = energy not fully developed, in early stages, or losing
+    power.
+  source_ref: L1805-1809
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.855365'
+- snippet_id: ns_ltt_151
+  trigger: reversed_proportion
+  factor_trigger: tarot_reversed
+  role: 主干
+  snippet_text: Many reversed cards = low energy, undefined situation, change likely.
+  source_ref: L1862-1867
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.855376'
+- snippet_id: ns_ltt_152
+  trigger: story_creation
+  factor_trigger: tarot_story
+  role: 主干
+  snippet_text: Story gathers strength when spoken aloud, arises freely from within.
+  source_ref: L1026-1034
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.855383'
+- snippet_id: ns_ltt_153
+  trigger: final_thoughts
+  factor_trigger: tarot_philosophy
+  role: 主干
+  snippet_text: Tarot is mirror reflecting consciousness; trust your Inner Guide.
+  source_ref: L2000-2005
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.855391'
+- snippet_id: ns_ltt_154
+  trigger: position_1
+  factor_trigger: tarot_celtic_1 AND tarot_core
+  role: 主干
+  snippet_text: 'Position 1 represents the heart of the matter: the central issue
+    around which all other factors orbit; this card is the reading''s nucleus—other
+    positions illuminate, qualify, or challenge what it reveals.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.855849'
+- snippet_id: ns_ltt_155
+  trigger: position_2
+  factor_trigger: tarot_celtic_2
+  role: 主干
+  snippet_text: Position 2 = opposing/crossing factor, that which crosses you.
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.856052'
+- snippet_id: ns_ltt_156
+  trigger: position_3
+  factor_trigger: tarot_celtic_3 AND tarot_unconscious
+  role: 主干
+  snippet_text: 'Position 3 reveals what lies beneath: the root cause, unconscious
+    influence, or foundation you may not consciously recognize; this card often holds
+    the key insight because it shows what you cannot or will not see.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.856542'
+- snippet_id: ns_ltt_157
+  trigger: position_4
+  factor_trigger: tarot_celtic_4 AND tarot_past
+  role: 主干
+  snippet_text: 'Position 4 shows what is passing away: the receding influence, completed
+    phase, or quality whose time has ended; this card indicates what to release rather
+    than cling to—its energy is moving out of your life.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.857028'
+- snippet_id: ns_ltt_158
+  trigger: position_5
+  factor_trigger: tarot_celtic_5
+  role: 主干
+  snippet_text: Position 5 = attitudes/beliefs, conscious influence, alternate future.
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.857196'
+- snippet_id: ns_ltt_159
+  trigger: position_6
+  factor_trigger: tarot_celtic_6
+  role: 主干
+  snippet_text: Position 6 = future, approaching influence, quality to embrace.
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.857356'
+- snippet_id: ns_ltt_160
+  trigger: position_7
+  factor_trigger: tarot_celtic_7 AND tarot_self
+  role: 主干
+  snippet_text: 'Position 7 reflects who you are being: your self-image, the face
+    you present, the role you''ve assumed in this situation; compare with Position
+    1 to see if you''re aligned with reality or playing a part.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.857817'
+- snippet_id: ns_ltt_161
+  trigger: position_8
+  factor_trigger: tarot_celtic_8 AND tarot_environment
+  role: 主干
+  snippet_text: 'Position 8 shows the outside environment: how others see you, the
+    context you operate in, forces beyond your control; compare with Position 7 to
+    see the gap between self-perception and external reality.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.858272'
+- snippet_id: ns_ltt_162
+  trigger: position_9
+  factor_trigger: tarot_celtic_9 AND tarot_guidance
+  role: 主干
+  snippet_text: 'Position 9 is the wildcard: sometimes hopes and fears, sometimes
+    guidance, sometimes the overlooked factor that changes everything; this position
+    requires intuition to interpret because its role shifts reading by reading.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.858761'
+- snippet_id: ns_ltt_163
+  trigger: position_10
+  factor_trigger: tarot_celtic_10
+  role: 主干
+  snippet_text: Position 10 = projected outcome if energies continue as they are.
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.858928'
+- snippet_id: ns_ltt_164
+  trigger: fools_journey
+  factor_trigger: tarot_major_arcana
+  role: 主干
+  snippet_text: Major Arcana = stages of inner development from 0 (awareness) to 21
+    (fulfillment).
+  source_ref: Appendix A
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.858941'
+- snippet_id: ns_ltt_165
+  trigger: suit_qualities
+  factor_trigger: tarot_suits AND tarot_polarity
+  role: 主干
+  snippet_text: 'Each suit contains both light and shadow: Wands can be creative or
+    destructive, Cups nurturing or drowning, Swords clarifying or cutting, Pentacles
+    stable or stagnant—context and surrounding cards determine which pole manifests.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.859448'
+- snippet_id: ns_ltt_166
+  trigger: suit_pairs
+  factor_trigger: tarot_suit_pairs
+  role: 主干
+  snippet_text: 'Suit pairs create dynamic tensions: Wands/Cups = outer/inner, etc.'
+  source_ref: Appendix C
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.859456'
+- snippet_id: ns_ltt_167
+  trigger: rank_pairs
+  factor_trigger: tarot_court_pairs
+  role: 主干
+  snippet_text: 'Court rank pairs create dynamics: King/Queen = masculine/feminine,
+    etc.'
+  source_ref: Appendix D
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.859466'
+- snippet_id: ns_ltt_168
+  trigger: jill_reading_1
+  factor_trigger: tarot_sample_reading
+  role: 主干
+  snippet_text: Jill's first reading shows balance needed between fantasy (Cups) and
+    reality (Pentacles).
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.859688'
+- snippet_id: ns_ltt_169
+  trigger: jill_reading_2
+  factor_trigger: tarot_sample_reading
+  role: 主干
+  snippet_text: Jill's second reading shows repeat cards tracking energy shifts; Five
+    of Cups moved deeper.
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.859954'
+- snippet_id: ns_ltt_170
+  trigger: jill_reading_3
+  factor_trigger: tarot_sample_reading
+  role: 主干
+  snippet_text: 'Jill''s third reading: four repeat cards track energy evolution;
+    no Cups = love lessons through challenges.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.860213'
+- snippet_id: ns_ltt_171
+  trigger: jill_lessons
+  factor_trigger: tarot_interpretation
+  role: 主干
+  snippet_text: 'Jill''s tale teaches: track repeat cards, note position shifts, absent
+    suits are significant.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.860440'
+- snippet_id: ns_ltt_172
+  trigger: exercises
+  factor_trigger: tarot_practice
+  role: 主干
+  snippet_text: 'Exercises reinforce each lesson: belief assessment, card study, spread
+    practice, interpretation.'
+  source_ref: ''
+  source_book: learning_the_tarot
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.860673'

@@ -1,0 +1,328 @@
+# Factor Ontology - 因子本体定义
+# 定义因子命名空间和停用词
+
+namespaces:
+  # 时间类 (流年/大运/过境等) - GAP-02 新增
+  temporal_:
+    patterns:
+      - "流年"
+      - "大运"
+      - "大限"
+      - "过境"
+      - "transit"
+      - "liunian"
+      - "dayun"
+      - "daxian"
+      - "liuyue"
+      - "solar_return"
+    examples:
+      - "bazi_liunian_stem"
+      - "bazi_liunian_branch"
+      - "bazi_dayun_index"
+      - "bazi_liuyue_stem"
+      - "astro_transit_saturn_house"
+      - "astro_transit_jupiter_sign"
+      - "astro_solar_return_asc"
+      - "ziwei_daxian_palace"
+      - "ziwei_liunian_star"
+  
+  # 星曜类 (紫微/占星)
+  star_:
+    patterns:
+      - "星"
+      - "star"
+      - "planet"
+      - "曜"
+    examples:
+
+      - "ziwei"
+      - "taiyang"
+      - "taiyin"
+      - "mars"
+      - "saturn"
+      - "jupiter"
+      - "紫微"
+      - "太阳"
+      - "太阴"
+      - "天机"
+      - "天府"
+  
+  # 宫位类
+  palace_:
+    patterns:
+      - "宫"
+      - "palace"
+      - "house"
+    examples:
+      - "life"
+      - "命宫"
+      - "siblings"
+      - "兄弟宫"
+      - "1st"
+      - "10th"
+      - "career"
+      - "事业宫"
+  
+  # 状态类 (庙旺/得令等)
+  state_:
+    patterns:
+      - "旺"
+      - "陷"
+      - "庙"
+      - "exalted"
+      - "debilitated"
+      - "得令"
+      - "失令"
+      - "得地"
+      - "失地"
+    examples:
+      - "miaowang"
+      - "luoxian"
+      - "dignified"
+      - "afflicted"
+  
+  # 星组类
+  group_:
+    patterns:
+      - "组"
+      - "group"
+      - "六煞"
+      - "四化"
+      - "杀破狼"
+    examples:
+      - "liusha"
+      - "sihua"
+      - "shaPOlang"
+  
+  # 效应类
+  effect_:
+    patterns:
+      - "效"
+      - "effect"
+      - "吉"
+      - "凶"
+      - "福"
+      - "祸"
+    examples:
+      - "beneficial"
+      - "malefic"
+      - "lucky"
+      - "unlucky"
+  
+  # 星座类 (占星)
+  sign_:
+    patterns:
+      - "sign"
+      - "座"
+    examples:
+      - "aries"
+      - "taurus"
+      - "gemini"
+      - "cancer"
+      - "leo"
+      - "virgo"
+      - "libra"
+      - "scorpio"
+      - "sagittarius"
+      - "capricorn"
+      - "aquarius"
+      - "pisces"
+      - "白羊"
+      - "金牛"
+      - "双子"
+      - "巨蟹"
+  
+  # 相位类 (占星)
+  aspect_:
+    patterns:
+      - "aspect"
+      - "相位"
+      - "合"
+      - "冲"
+      - "刑"
+      - "拱"
+    examples:
+      - "conjunction"
+      - "opposition"
+      - "trine"
+      - "square"
+      - "sextile"
+  
+  # 塔罗牌类
+  card_:
+    patterns:
+      - "card"
+      - "牌"
+      - "arcana"
+      - "tarot"
+    examples:
+      - "fool"
+      - "magician"
+      - "high_priestess"
+      - "empress"
+      - "emperor"
+      - "愚者"
+      - "魔术师"
+      - "女祭司"
+      - "皇后"
+      - "皇帝"
+  
+  # 符号类 (解梦/象征)
+  symbol_:
+    patterns:
+      - "symbol"
+      - "象征"
+      - "符号"
+      - "意象"
+    examples:
+      - "water"
+      - "fire"
+      - "earth"
+      - "air"
+      - "水"
+      - "火"
+      - "土"
+      - "风"
+  
+  # 八字类
+  bazi_:
+    patterns:
+      - "干"
+      - "支"
+      - "神"
+      - "格局"
+      - "用神"
+    examples:
+      - "jiamu"
+      - "yimu"
+      - "bingmu"
+      - "天干"
+      - "地支"
+      - "十神"
+      - "正官"
+      - "偏财"
+  
+  # 卦象类 (周易)
+  gua_:
+    patterns:
+      - "卦"
+      - "爻"
+      - "hexagram"
+      - "trigram"
+    examples:
+      - "qian"
+      - "kun"
+      - "zhen"
+      - "xun"
+      - "乾"
+      - "坤"
+      - "震"
+      - "巽"
+  
+  # 性别/条件类
+  gender_:
+    patterns:
+      - "gender"
+      - "性别"
+      - "男"
+      - "女"
+    examples:
+      - "male"
+      - "female"
+      - "男命"
+      - "女命"
+
+stopwords:
+  english:
+    - "and"
+    - "or"
+    - "not"
+    - "if"
+    - "then"
+    - "but"
+    - "nor"
+    - "yet"
+    - "so"
+    - "the"
+    - "a"
+    - "an"
+    - "in"
+    - "on"
+    - "of"
+    - "to"
+    - "for"
+    - "with"
+    - "at"
+    - "by"
+    - "from"
+    - "into"
+    - "through"
+    - "as"
+    - "is"
+    - "are"
+    - "was"
+    - "were"
+    - "be"
+    - "been"
+    - "being"
+    - "have"
+    - "has"
+    - "had"
+    - "do"
+    - "does"
+    - "did"
+    - "will"
+    - "would"
+    - "could"
+    - "should"
+    - "may"
+    - "might"
+    - "must"
+    - "shall"
+    - "it"
+    - "its"
+    - "this"
+    - "that"
+    - "these"
+    - "those"
+    - "when"
+    - "where"
+    - "which"
+    - "who"
+    - "whom"
+    - "whose"
+    - "what"
+    - "how"
+  
+  chinese:
+    - "和"
+    - "或"
+    - "如果"
+    - "则"
+    - "不"
+    - "的"
+    - "是"
+    - "在"
+    - "有"
+    - "为"
+    - "与"
+    - "及"
+    - "而"
+    - "但"
+    - "却"
+    - "若"
+    - "虽"
+    - "因"
+    - "故"
+    - "所以"
+    - "以及"
+    - "并且"
+    - "或者"
+    - "之"
+    - "者"
+    - "也"
+    - "这"
+    - "那"
+    - "其"
+    - "此"
+    - "彼"

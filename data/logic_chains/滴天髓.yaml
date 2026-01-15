@@ -1,0 +1,6445 @@
+chain_id: chain_滴天髓
+book_id: 滴天髓
+nodes:
+- node_id: n_滴天髓_第1条_0
+  snippet_ids:
+  - ns_dts_001
+  - ns_dts_002
+  - ns_dts_003
+  - ns_dts_097
+  - ns_dts_098
+  role: 主干
+  condition: null
+  summary: 论命起手
+  metadata:
+    source_ref: 《滴天髓·通天论》#第1条
+    snippet_count: 5
+  factor_refs:
+  - calendar_precision_boundary
+  - dizai_shengong
+  - sanyuan_frame
+- node_id: n_滴天髓_第2条_1
+  snippet_ids:
+  - ns_dts_004
+  - ns_dts_005
+  - ns_dts_006
+  - ns_dts_099
+  - ns_dts_100
+  role: 主干
+  condition: null
+  summary: 五行偏枯
+  metadata:
+    source_ref: 《滴天髓·通天论》#第2条
+    snippet_count: 5
+  factor_refs:
+  - bias_boundary
+  - hede_alignment
+  - jijian_hub_flow
+  - wuxing_bias_pattern
+- node_id: n_滴天髓_2_2
+  snippet_ids:
+  - ns_dts_101
+  - ns_dts_102
+  - ns_dts_3939
+  role: 主干
+  condition: null
+  summary: 偏全风险
+  metadata:
+    source_ref: 《滴天髓》通天论#2
+    snippet_count: 3
+  factor_refs:
+  - bias_boundary
+  - bias_risk_level
+  - earth_layout
+  - sancai_alignment
+  - shun_bei_pattern
+- node_id: n_滴天髓_第3条_3
+  snippet_ids:
+  - ns_dts_007
+  - ns_dts_008
+  - ns_dts_009
+  role: 主干
+  condition: null
+  summary: 日主得令得地
+  metadata:
+    source_ref: 《滴天髓·通天论》#第3条
+    snippet_count: 3
+  factor_refs:
+  - bazi_condition_factor_36
+- node_id: n_滴天髓_3_4
+  snippet_ids:
+  - ns_dts_103
+  - ns_dts_104
+  - ns_dts_105
+  - ns_dts_106
+  - ns_dts_107
+  - ns_dts_108
+  - ns_dts_109
+  role: 主干
+  condition: null
+  summary: 逆势风险
+  metadata:
+    source_ref: 《滴天髓》通天论#3
+    snippet_count: 7
+  factor_refs:
+  - bei_path_risk
+  - branch_cluster
+  - ganzhi_pairing_map
+  - ji_trigger_conditions
+  - jin_tui_cycle
+  - pivot_window_level
+  - shun_bei_boundary
+  - shun_bei_tendency
+  - shun_path_support
+  - tiangan_polarity_axis
+- node_id: n_滴天髓_第4条_5
+  snippet_ids:
+  - ns_dts_010
+  - ns_dts_011
+  - ns_dts_012
+  role: 主干
+  condition: null
+  summary: 命主不识机
+  metadata:
+    source_ref: 《滴天髓·通天论》#第4条
+    snippet_count: 3
+  factor_refs:
+  - mechanism_pivot
+- node_id: n_滴天髓_第5条_6
+  snippet_ids:
+  - ns_dts_013
+  - ns_dts_014
+  - ns_dts_015
+  role: 主干
+  condition: null
+  summary: 进退判断
+  metadata:
+    source_ref: 《滴天髓·通天论》#第5条
+    snippet_count: 3
+  factor_refs:
+  - jin_tui_phase
+- node_id: n_滴天髓_第6条_7
+  snippet_ids:
+  - ns_dts_016
+  - ns_dts_017
+  - ns_dts_018
+  role: 主干
+  condition: null
+  summary: 干支配合
+  metadata:
+    source_ref: 《滴天髓·通天论》#第6条
+    snippet_count: 3
+  factor_refs:
+  - gan_reveal_state
+  - ganzhi_pairing_map
+  - qingyi_relation
+- node_id: n_滴天髓_第7条_8
+  snippet_ids:
+  - ns_dts_019
+  - ns_dts_020
+  - ns_dts_021
+  - ns_dts_110
+  role: 主干
+  condition: null
+  summary: 阴阳定位
+  metadata:
+    source_ref: 《滴天髓·通天论》#第7条
+    snippet_count: 4
+  factor_refs:
+  - tiangan_polarity_axis
+  - yinyang_adjustment
+- node_id: n_滴天髓_第8条_9
+  snippet_ids:
+  - ns_dts_022
+  - ns_dts_023
+  - ns_dts_024
+  - ns_dts_111
+  - ns_dts_112
+  role: 主干
+  condition: null
+  summary: 阳干抗势
+  metadata:
+    source_ref: 《滴天髓·通天论》#第8条
+    snippet_count: 5
+  factor_refs:
+  - cong_validity
+  - qi_vs_shi_ratio
+- node_id: n_滴天髓_阳支_10
+  snippet_ids:
+  - ns_dts_055
+  - ns_dts_056
+  - ns_dts_057
+  - ns_dts_133
+  - ns_dts_134
+  role: 主干
+  condition: null
+  summary: 阳支被岁运冲动
+  metadata:
+    source_ref: 《滴天髓·地支论》#阳支
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_阴支_11
+  snippet_ids:
+  - ns_dts_058
+  - ns_dts_059
+  - ns_dts_060
+  - ns_dts_135
+  - ns_dts_136
+  role: 主干
+  condition: null
+  summary: 命局阴支偏多
+  metadata:
+    source_ref: 《滴天髓·地支论》#阴支
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_生方库败_12
+  snippet_ids:
+  - ns_dts_061
+  - ns_dts_062
+  - ns_dts_063
+  - ns_dts_137
+  - ns_dts_138
+  role: 主干
+  condition: null
+  summary: 地支落生方逢冲
+  metadata:
+    source_ref: 《滴天髓·地支论》#生方库败
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_生库败_13
+  snippet_ids:
+  - ns_dts_300
+  - ns_dts_301
+  - ns_dts_302
+  - ns_dts_303
+  - ns_dts_304
+  - ns_dts_3903
+  role: 主干
+  condition: null
+  summary: 冲规则边界
+  metadata:
+    source_ref: 《滴天髓》地支论#生库败
+    snippet_count: 6
+  factor_refs:
+  - clash_boundary
+  - clash_effect_mode
+  - defeat_adjudication
+  - root_stability_index
+  - vault_opening_state
+- node_id: n_滴天髓_支神冲刑害_14
+  snippet_ids:
+  - ns_dts_064
+  - ns_dts_065
+  - ns_dts_066
+  - ns_dts_139
+  role: 主干
+  condition: null
+  summary: 两支形成明确相冲
+  metadata:
+    source_ref: 《滴天髓·地支论》#支神冲刑害
+    snippet_count: 4
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_支神冲刑害_15
+  snippet_ids:
+  - ns_dts_140
+  role: 总结
+  condition: null
+  summary: 冲刑害优先序
+  metadata:
+    source_ref: 刑→害之序判定，冲为首重，刑害次之。 → 《滴天髓·地支论》#支神冲刑害
+    snippet_count: 1
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_暗冲暗会_16
+  snippet_ids:
+  - ns_dts_070
+  - ns_dts_071
+  - ns_dts_072
+  - ns_dts_141
+  - ns_dts_142
+  role: 主干
+  condition: null
+  summary: 命局存在三合三会暗局
+  metadata:
+    source_ref: 《滴天髓·地支论》#暗冲暗会
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_旺冲衰衰者拔_17
+  snippet_ids:
+  - ns_dts_067
+  - ns_dts_068
+  - ns_dts_069
+  - ns_dts_143
+  - ns_dts_144
+  role: 主干
+  condition: null
+  summary: 旺方冲击衰方
+  metadata:
+    source_ref: 《滴天髓·地支论》#旺冲衰衰者拔
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_地全三物_18
+  snippet_ids:
+  - ns_dts_079
+  - ns_dts_080
+  - ns_dts_081
+  - ns_dts_149
+  - ns_dts_150
+  role: 主干
+  condition: null
+  summary: 地支形成寅卯辰等三物纯全
+  metadata:
+    source_ref: 《滴天髓·天地承载》#地全三物
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_阳乘阳位_19
+  snippet_ids:
+  - ns_dts_082
+  - ns_dts_083
+  - ns_dts_084
+  - ns_dts_151
+  - ns_dts_152
+  role: 主干
+  condition: null
+  summary: 命局形成阳乘阳位
+  metadata:
+    source_ref: 《滴天髓·行运论》#阳乘阳位
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_阳乘阳位_20
+  snippet_ids:
+  - ns_dts_153
+  - ns_dts_154
+  - ns_dts_155
+  - ns_dts_156
+  - ns_dts_157
+  role: 主干
+  condition: null
+  summary: 阳乘阳位
+  metadata:
+    source_ref: 《滴天髓·地支论》#阳乘阳位
+    snippet_count: 5
+  factor_refs:
+  - root_protection_strategy
+- node_id: n_滴天髓_阴乘阴位阴气盛_21
+  snippet_ids:
+  - ns_dts_085
+  - ns_dts_086
+  - ns_dts_087
+  role: 主干
+  condition: null
+  summary: 命局形成阴乘阴位且阴气极盛
+  metadata:
+    source_ref: 《滴天髓·地支论》#阴乘阴位阴气盛
+    snippet_count: 3
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_地生天者天衰怕冲_22
+  snippet_ids:
+  - ns_dts_088
+  - ns_dts_089
+  - ns_dts_090
+  role: 主干
+  condition: null
+  summary: 命局地生天且天干自衰
+  metadata:
+    source_ref: 《滴天髓·地支论》#地生天者天衰怕冲
+    snippet_count: 3
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_天合地者地旺喜静_23
+  snippet_ids:
+  - ns_dts_091
+  - ns_dts_092
+  - ns_dts_093
+  - ns_dts_158
+  role: 主干
+  condition: null
+  summary: 命局形成天合地且地支旺盛
+  metadata:
+    source_ref: 《滴天髓·地支论》#天合地者地旺喜静
+    snippet_count: 4
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_上下贵乎情协_24
+  snippet_ids:
+  - ns_dts_094
+  - ns_dts_095
+  - ns_dts_096
+  - ns_dts_159
+  - ns_dts_160
+  role: 主干
+  condition: null
+  summary: 干支之间无明显生克亦无冲害刑破
+  metadata:
+    source_ref: 《滴天髓·地支论》#上下贵乎情协
+    snippet_count: 5
+  factor_refs:
+  - qingxie_indicator
+- node_id: n_滴天髓_左右贵乎志同_25
+  snippet_ids:
+  - ns_dts_161
+  - ns_dts_162
+  - ns_dts_163
+  - ns_dts_164
+  - ns_dts_165
+  role: 主干
+  condition: null
+  summary: 左右之配不同气但志向一致
+  metadata:
+    source_ref: 《滴天髓·地支论》#左右贵乎志同
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_始终有序_26
+  snippet_ids:
+  - ns_dts_166
+  - ns_dts_167
+  - ns_dts_168
+  - ns_dts_169
+  - ns_dts_170
+  role: 主干
+  condition: null
+  summary: 年月日时首尾呼应无反悖
+  metadata:
+    source_ref: 《滴天髓·地支论》#始终有序
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_两气成象_27
+  snippet_ids:
+  - ns_dts_171
+  - ns_dts_172
+  - ns_dts_173
+  - ns_dts_174
+  - ns_dts_175
+  role: 主干
+  condition: null
+  summary: 两气配合已成稳定之象
+  metadata:
+    source_ref: 《滴天髓·象论》#两气成象
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_五气成形_28
+  snippet_ids:
+  - ns_dts_176
+  - ns_dts_177
+  - ns_dts_178
+  - ns_dts_179
+  - ns_dts_180
+  role: 主干
+  condition: null
+  summary: 五气聚合配全且无过缺
+  metadata:
+    source_ref: 《滴天髓·象论》#五气成形
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_独象喜行化地_29
+  snippet_ids:
+  - ns_dts_181
+  - ns_dts_182
+  - ns_dts_183
+  - ns_dts_184
+  - ns_dts_185
+  role: 主干
+  condition: null
+  summary: 独象成立且化神昌旺
+  metadata:
+    source_ref: 《滴天髓·象论》#独象喜行化地
+    snippet_count: 5
+  factor_refs:
+  - transformation
+- node_id: n_滴天髓_全象喜行财地_30
+  snippet_ids:
+  - ns_dts_186
+  - ns_dts_187
+  - ns_dts_188
+  - ns_dts_189
+  - ns_dts_190
+  role: 主干
+  condition: null
+  summary: 全象已成且财星得地
+  metadata:
+    source_ref: 《滴天髓·象论》#全象喜行财地
+    snippet_count: 5
+  factor_refs:
+  - bazi_condition_factor_36
+- node_id: n_滴天髓_形全形缺_31
+  snippet_ids:
+  - ns_dts_191
+  - ns_dts_192
+  - ns_dts_193
+  - ns_dts_194
+  - ns_dts_195
+  role: 主干
+  condition: null
+  summary: 形全且有馀需损
+  metadata:
+    source_ref: 《滴天髓·象论》#形全形缺
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_方局分辨_32
+  snippet_ids:
+  - ns_dts_196
+  - ns_dts_197
+  - ns_dts_198
+  - ns_dts_199
+  - ns_dts_200
+  role: 主干
+  condition: null
+  summary: 命局成方或成局且结构纯粹
+  metadata:
+    source_ref: 《滴天髓·方局论》#方局分辨
+    snippet_count: 5
+  factor_refs:
+  - bazi_structure_factor_13
+- node_id: n_滴天髓_局混方_33
+  snippet_ids:
+  - ns_dts_201
+  - ns_dts_202
+  - ns_dts_203
+  - ns_dts_204
+  - ns_dts_205
+  role: 主干
+  condition: null
+  summary: 局混方而成结构
+  metadata:
+    source_ref: 《滴天髓·方局论》#局混方
+    snippet_count: 5
+  factor_refs:
+  - bing_intensity
+  - bing_xin_relation
+- node_id: n_滴天髓_方局一齐来_34
+  snippet_ids:
+  - ns_dts_206
+  - ns_dts_207
+  - ns_dts_208
+  - ns_dts_209
+  - ns_dts_210
+  role: 主干
+  condition: null
+  summary: 方局一齐来且干头顺序无反复
+  metadata:
+    source_ref: 《滴天髓·方局论》#方局一齐来
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_成方干透_35
+  snippet_ids:
+  - ns_dts_211
+  - ns_dts_212
+  - ns_dts_213
+  - ns_dts_214
+  - ns_dts_215
+  role: 主干
+  condition: null
+  summary: 成方且元神干透
+  metadata:
+    source_ref: 《滴天髓·方局论》#成方干透
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_成局干透_36
+  snippet_ids:
+  - ns_dts_216
+  - ns_dts_217
+  - ns_dts_218
+  - ns_dts_219
+  - ns_dts_220
+  role: 主干
+  condition: null
+  summary: 成局且官星干透
+  metadata:
+    source_ref: 《滴天髓·方局论》#成局干透
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_导论_37
+  snippet_ids:
+  - ns_dts_221
+  - ns_dts_222
+  - ns_dts_223
+  - ns_dts_224
+  - ns_dts_225
+  role: 主干
+  condition: null
+  summary: 格局论总纲
+  metadata:
+    source_ref: 《滴天髓·格局论》#导论
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_财官印绶_38
+  snippet_ids:
+  - ns_dts_226
+  - ns_dts_227
+  - ns_dts_228
+  - ns_dts_229
+  - ns_dts_230
+  role: 主干
+  condition: null
+  summary: 月令用事之神透干
+  metadata:
+    source_ref: 《滴天髓·格局论》#财官印绶
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_遥系杂气_39
+  snippet_ids:
+  - ns_dts_231
+  - ns_dts_232
+  - ns_dts_233
+  - ns_dts_234
+  - ns_dts_235
+  role: 主干
+  condition: null
+  summary: 遥系关系存在
+  metadata:
+    source_ref: 《滴天髓·格局论》#遥系杂气
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_官煞可否混_40
+  snippet_ids:
+  - ns_dts_236
+  - ns_dts_237
+  - ns_dts_238
+  - ns_dts_239
+  - ns_dts_240
+  role: 主干
+  condition: null
+  summary: 官煞同见而势有主从
+  metadata:
+    source_ref: 《滴天髓·官煞相混》#官煞可否混
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_可见不可见_41
+  snippet_ids:
+  - ns_dts_241
+  - ns_dts_242
+  - ns_dts_243
+  - ns_dts_244
+  - ns_dts_245
+  role: 主干
+  condition: null
+  summary: 身弱伤旺有印
+  metadata:
+    source_ref: 《滴天髓·伤官见官》#可见不可见
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_真从_42
+  snippet_ids:
+  - ns_dts_246
+  - ns_dts_247
+  - ns_dts_248
+  - ns_dts_249
+  - ns_dts_250
+  role: 主干
+  condition: null
+  summary: 日主孤弱无根且一方独强
+  metadata:
+    source_ref: 《滴天髓·从化论》#真从
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_真化_43
+  snippet_ids:
+  - ns_dts_251
+  - ns_dts_252
+  - ns_dts_253
+  - ns_dts_254
+  - ns_dts_255
+  role: 主干
+  condition: null
+  summary: 合局专一且通月令
+  metadata:
+    source_ref: 《滴天髓·从化论》#真化
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_假从_44
+  snippet_ids:
+  - ns_dts_256
+  - ns_dts_257
+  - ns_dts_258
+  - ns_dts_259
+  - ns_dts_260
+  role: 主干
+  condition: null
+  summary: 身弱财官强而中有所助
+  metadata:
+    source_ref: 《滴天髓·从化论》#假从
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_假化_45
+  snippet_ids:
+  - ns_dts_261
+  - ns_dts_262
+  - ns_dts_263
+  - ns_dts_264
+  - ns_dts_265
+  role: 主干
+  condition: null
+  summary: 合神虚弱而有暗扶日主
+  metadata:
+    source_ref: 《滴天髓·从化论》#假化
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_休咎系运_46
+  snippet_ids:
+  - ns_dts_266
+  - ns_dts_267
+  role: 主干
+  condition: null
+  summary: 运岁交接
+  metadata:
+    source_ref: 《滴天髓·岁运论》#休咎系运
+    snippet_count: 2
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_休哎系运_47
+  snippet_ids:
+  - ns_dts_268
+  - ns_dts_269
+  - ns_dts_270
+  role: 条件分支
+  condition: null
+  summary: 运岁和好
+  metadata:
+    source_ref: 《滴天髓·岁运论》#休哎系运
+    snippet_count: 3
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_何谓战_48
+  snippet_ids:
+  - ns_dts_271
+  - ns_dts_272
+  - ns_dts_273
+  - ns_dts_274
+  - ns_dts_275
+  role: 主干
+  condition: null
+  summary: 运岁相克成战
+  metadata:
+    source_ref: 《滴天髓·岁运论》#何谓战
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_何谓冲_49
+  snippet_ids:
+  - ns_dts_276
+  - ns_dts_277
+  - ns_dts_278
+  - ns_dts_279
+  - ns_dts_280
+  role: 主干
+  condition: null
+  summary: 运岁地支相冲
+  metadata:
+    source_ref: 《滴天髓·岁运论》#何谓冲
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_何谓和_50
+  snippet_ids:
+  - ns_dts_281
+  - ns_dts_282
+  - ns_dts_283
+  - ns_dts_284
+  - ns_dts_285
+  role: 主干
+  condition: null
+  summary: 运岁相合
+  metadata:
+    source_ref: 《滴天髓·岁运论》#何谓和
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_何谓好_51
+  snippet_ids:
+  - ns_dts_286
+  - ns_dts_287
+  - ns_dts_288
+  - ns_dts_289
+  - ns_dts_290
+  role: 主干
+  condition: null
+  summary: 运岁同类相助
+  metadata:
+    source_ref: 《滴天髓·岁运论》#何谓好
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_体用_52
+  snippet_ids:
+  - ns_dts_291
+  - ns_dts_292
+  - ns_dts_293
+  - ns_dts_294
+  - ns_dts_295
+  role: 主干
+  condition: null
+  summary: 论命取体用
+  metadata:
+    source_ref: 《滴天髓·体用论》#体用
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_精神_53
+  snippet_ids:
+  - ns_dts_296
+  - ns_dts_297
+  - ns_dts_298
+  - ns_dts_299
+  role: 主干
+  condition: null
+  summary: 论命精神配比
+  metadata:
+    source_ref: 《滴天髓·精神论》#精神
+    snippet_count: 4
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_衰旺_54
+  snippet_ids:
+  - ns_dts_305
+  role: 总结
+  condition: null
+  summary: 衰旺总则
+  metadata:
+    source_ref: 《滴天髓·衰旺论》#衰旺
+    snippet_count: 1
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_中和_55
+  snippet_ids:
+  - ns_dts_306
+  - ns_dts_307
+  - ns_dts_308
+  - ns_dts_309
+  - ns_dts_310
+  role: 主干
+  condition: null
+  summary: 论命中和
+  metadata:
+    source_ref: 《滴天髓·中和论》#中和
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_刚柔_56
+  snippet_ids:
+  - ns_dts_311
+  - ns_dts_312
+  - ns_dts_313
+  - ns_dts_314
+  - ns_dts_315
+  role: 主干
+  condition: null
+  summary: 刚柔不一
+  metadata:
+    source_ref: 《滴天髓·刚柔论》#刚柔
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_顺逆_57
+  snippet_ids:
+  - ns_dts_316
+  - ns_dts_317
+  - ns_dts_318
+  - ns_dts_319
+  - ns_dts_320
+  role: 主干
+  condition: null
+  summary: 顺逆不齐
+  metadata:
+    source_ref: 《滴天髓·顺逆论》#顺逆
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_寒暖_58
+  snippet_ids:
+  - ns_dts_321
+  - ns_dts_322
+  - ns_dts_323
+  - ns_dts_324
+  - ns_dts_325
+  role: 主干
+  condition: null
+  summary: 论命寒暖
+  metadata:
+    source_ref: 《滴天髓·寒暖论》#寒暖
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_燥湿_59
+  snippet_ids:
+  - ns_dts_326
+  - ns_dts_327
+  - ns_dts_328
+  - ns_dts_329
+  - ns_dts_330
+  role: 主干
+  condition: null
+  summary: 论命燥湿
+  metadata:
+    source_ref: 《滴天髓·燥湿论》#燥湿
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_月令_60
+  snippet_ids:
+  - ns_dts_331
+  - ns_dts_332
+  - ns_dts_333
+  - ns_dts_334
+  - ns_dts_335
+  role: 主干
+  condition: null
+  summary: 论命月令
+  metadata:
+    source_ref: 《滴天髓·月令论》#月令
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_生时_61
+  snippet_ids:
+  - ns_dts_336
+  - ns_dts_337
+  - ns_dts_338
+  - ns_dts_339
+  - ns_dts_340
+  role: 主干
+  condition: null
+  summary: 论命生时
+  metadata:
+    source_ref: 《滴天髓·生时论》#生时
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_源流_62
+  snippet_ids:
+  - ns_dts_341
+  - ns_dts_342
+  - ns_dts_343
+  - ns_dts_344
+  - ns_dts_345
+  role: 主干
+  condition: null
+  summary: 论命源流
+  metadata:
+    source_ref: 《滴天髓·源流论》#源流
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_通隔_63
+  snippet_ids:
+  - ns_dts_346
+  - ns_dts_347
+  - ns_dts_348
+  - ns_dts_349
+  - ns_dts_350
+  role: 主干
+  condition: null
+  summary: 论命通隔
+  metadata:
+    source_ref: 《滴天髓·通隔论》#通隔
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_清浊_64
+  snippet_ids:
+  - ns_dts_351
+  - ns_dts_352
+  - ns_dts_353
+  - ns_dts_354
+  - ns_dts_355
+  - ns_dts_356
+  - ns_dts_357
+  - ns_dts_358
+  - ns_dts_359
+  - ns_dts_360
+  role: 主干
+  condition: null
+  summary: 论命清浊
+  metadata:
+    source_ref: 《滴天髓·清浊论》#清浊
+    snippet_count: 10
+  factor_refs:
+  - clarity_turbidity
+- node_id: n_滴天髓_真假_65
+  snippet_ids:
+  - ns_dts_361
+  - ns_dts_362
+  - ns_dts_363
+  - ns_dts_364
+  - ns_dts_365
+  - ns_dts_366
+  - ns_dts_367
+  - ns_dts_368
+  - ns_dts_369
+  - ns_dts_370
+  role: 主干
+  condition: null
+  summary: 论命真假
+  metadata:
+    source_ref: 《滴天髓·真假论》#真假
+    snippet_count: 10
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_隐显_66
+  snippet_ids:
+  - ns_dts_371
+  - ns_dts_372
+  - ns_dts_373
+  - ns_dts_374
+  - ns_dts_375
+  role: 主干
+  condition: null
+  summary: 论命隐显
+  metadata:
+    source_ref: 《滴天髓·隐显论》#隐显
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_众寡_67
+  snippet_ids:
+  - ns_dts_376
+  - ns_dts_377
+  - ns_dts_378
+  - ns_dts_379
+  - ns_dts_380
+  role: 主干
+  condition: null
+  summary: 论命众寡
+  metadata:
+    source_ref: 《滴天髓·众寡论》#众寡
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_奋郁_68
+  snippet_ids:
+  - ns_dts_381
+  - ns_dts_382
+  - ns_dts_383
+  - ns_dts_384
+  - ns_dts_385
+  role: 主干
+  condition: null
+  summary: 论命奋郁
+  metadata:
+    source_ref: 《滴天髓·奋郁论》#奋郁
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_恩怨_69
+  snippet_ids:
+  - ns_dts_386
+  - ns_dts_387
+  - ns_dts_388
+  - ns_dts_389
+  - ns_dts_390
+  role: 主干
+  condition: null
+  summary: 论命恩怨
+  metadata:
+    source_ref: 《滴天髓·恩怨论》#恩怨
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_顺反_70
+  snippet_ids:
+  - ns_dts_391
+  - ns_dts_392
+  - ns_dts_393
+  - ns_dts_394
+  role: 主干
+  condition: null
+  summary: 论命顺反
+  metadata:
+    source_ref: 《滴天髓·顺反论》#顺反
+    snippet_count: 4
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_顺反_71
+  snippet_ids:
+  - ns_dts_395
+  role: 总结
+  condition: null
+  summary: 顺用总则
+  metadata:
+    source_ref: 所生再生成用. → 《滴天髓·顺反论》#顺反
+    snippet_count: 1
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_反取_72
+  snippet_ids:
+  - ns_dts_396
+  - ns_dts_397
+  - ns_dts_398
+  - ns_dts_399
+  - ns_dts_400
+  role: 主干
+  condition: null
+  summary: 论命反取
+  metadata:
+    source_ref: 《滴天髓·顺反论》#反取
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_战合_73
+  snippet_ids:
+  - ns_dts_401
+  - ns_dts_402
+  - ns_dts_403
+  - ns_dts_404
+  - ns_dts_405
+  role: 主干
+  condition: null
+  summary: 论命战合
+  metadata:
+    source_ref: 《滴天髓·战合论》#战合
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_合_74
+  snippet_ids:
+  - ns_dts_406
+  - ns_dts_407
+  - ns_dts_408
+  - ns_dts_409
+  - ns_dts_410
+  role: 主干
+  condition: null
+  summary: 论命合宜
+  metadata:
+    source_ref: 《滴天髓·战合论》#合
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_震兑_75
+  snippet_ids:
+  - ns_dts_411
+  - ns_dts_412
+  - ns_dts_413
+  - ns_dts_414
+  - ns_dts_415
+  role: 主干
+  condition: null
+  summary: 论命震兑
+  metadata:
+    source_ref: 《滴天髓·震兑论》#震兑
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_坎离_76
+  snippet_ids:
+  - ns_dts_416
+  - ns_dts_417
+  - ns_dts_418
+  - ns_dts_419
+  - ns_dts_420
+  role: 主干
+  condition: null
+  summary: 论命坎离
+  metadata:
+    source_ref: 《滴天髓·坎离论》#坎离
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_君臣_77
+  snippet_ids:
+  - ns_dts_421
+  - ns_dts_422
+  - ns_dts_423
+  - ns_dts_424
+  - ns_dts_425
+  - ns_dts_426
+  - ns_dts_427
+  - ns_dts_428
+  - ns_dts_429
+  - ns_dts_430
+  role: 主干
+  condition: null
+  summary: 论命君臣
+  metadata:
+    source_ref: 《滴天髓·君臣论》#君臣
+    snippet_count: 10
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_母子_78
+  snippet_ids:
+  - ns_dts_431
+  - ns_dts_432
+  - ns_dts_433
+  - ns_dts_434
+  - ns_dts_435
+  - ns_dts_436
+  - ns_dts_437
+  - ns_dts_438
+  - ns_dts_439
+  - ns_dts_440
+  role: 主干
+  condition: null
+  summary: 论命母子
+  metadata:
+    source_ref: 《滴天髓·母子论》#母子
+    snippet_count: 10
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_才德_79
+  snippet_ids:
+  - ns_dts_441
+  - ns_dts_442
+  - ns_dts_443
+  - ns_dts_444
+  - ns_dts_445
+  role: 主干
+  condition: null
+  summary: 论命才德
+  metadata:
+    source_ref: 《滴天髓·才德论》#才德
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_性情_80
+  snippet_ids:
+  - ns_dts_446
+  - ns_dts_447
+  - ns_dts_448
+  - ns_dts_449
+  - ns_dts_450
+  role: 主干
+  condition: null
+  summary: 论命性情
+  metadata:
+    source_ref: 《滴天髓·性情论》#性情
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_五行和_81
+  snippet_ids:
+  - ns_dts_486
+  - ns_dts_487
+  - ns_dts_488
+  - ns_dts_489
+  - ns_dts_490
+  role: 主干
+  condition: null
+  summary: 五行和局
+  metadata:
+    source_ref: 《滴天髓·疾病论》#五行和
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_疾病_82
+  snippet_ids:
+  - ns_dts_451
+  - ns_dts_452
+  - ns_dts_453
+  - ns_dts_454
+  - ns_dts_455
+  role: 主干
+  condition: null
+  summary: 论命疾病
+  metadata:
+    source_ref: 《滴天髓·疾病论》#疾病
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_诸症_83
+  snippet_ids:
+  - ns_dts_456
+  - ns_dts_457
+  - ns_dts_458
+  - ns_dts_459
+  - ns_dts_460
+  role: 主干
+  condition: null
+  summary: 论命诸症
+  metadata:
+    source_ref: 《滴天髓·疾病论》#诸症
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_闲神_84
+  snippet_ids:
+  - ns_dts_461
+  - ns_dts_462
+  - ns_dts_463
+  - ns_dts_464
+  - ns_dts_465
+  role: 主干
+  condition: null
+  summary: 论命闲神
+  metadata:
+    source_ref: 《滴天髓·闲神论》#闲神
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_绊神_85
+  snippet_ids:
+  - ns_dts_467
+  - ns_dts_468
+  - ns_dts_469
+  - ns_dts_470
+  role: 主干依赖
+  condition: null
+  summary: 有情反无情
+  metadata:
+    source_ref: 《滴天髓·绊神论》#绊神
+    snippet_count: 4
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_六亲_86
+  snippet_ids:
+  - ns_dts_471
+  - ns_dts_472
+  - ns_dts_473
+  - ns_dts_474
+  - ns_dts_475
+  role: 主干
+  condition: null
+  summary: 论命六亲
+  metadata:
+    source_ref: 《滴天髓·六亲论》#六亲
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_科第_87
+  snippet_ids:
+  - ns_dts_491
+  - ns_dts_492
+  - ns_dts_493
+  - ns_dts_494
+  - ns_dts_495
+  role: 主干
+  condition: null
+  summary: 科第元机
+  metadata:
+    source_ref: 《滴天髓·出身论》#科第
+    snippet_count: 5
+  factor_refs:
+  - mechanism_pivot
+- node_id: n_滴天髓_清静_88
+  snippet_ids:
+  - ns_dts_496
+  - ns_dts_497
+  - ns_dts_498
+  - ns_dts_499
+  - ns_dts_500
+  role: 主干
+  condition: null
+  summary: 清静黄榜
+  metadata:
+    source_ref: 《滴天髓·出身论》#清静
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_秀才_89
+  snippet_ids:
+  - ns_dts_501
+  - ns_dts_502
+  - ns_dts_503
+  - ns_dts_504
+  - ns_dts_505
+  role: 主干
+  condition: null
+  summary: 秀才之命
+  metadata:
+    source_ref: 《滴天髓·出身论》#秀才
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_出身_90
+  snippet_ids:
+  - ns_dts_476
+  - ns_dts_477
+  - ns_dts_478
+  - ns_dts_479
+  - ns_dts_480
+  role: 主干
+  condition: null
+  summary: 论命出身
+  metadata:
+    source_ref: 《滴天髓·出身论》#出身
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_台阁_91
+  snippet_ids:
+  - ns_dts_506
+  - ns_dts_507
+  - ns_dts_508
+  - ns_dts_509
+  - ns_dts_510
+  role: 主干
+  condition: null
+  summary: 台阁勋劳
+  metadata:
+    source_ref: 《滴天髓·地位论》#台阁
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_地位_92
+  snippet_ids:
+  - ns_dts_481
+  - ns_dts_482
+  - ns_dts_483
+  - ns_dts_484
+  - ns_dts_485
+  role: 主干
+  condition: null
+  summary: 论命地位
+  metadata:
+    source_ref: 《滴天髓·地位论》#地位
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_分藩_93
+  snippet_ids:
+  - ns_dts_511
+  - ns_dts_512
+  - ns_dts_513
+  - ns_dts_514
+  - ns_dts_515
+  role: 主干
+  condition: null
+  summary: 分藩司牧
+  metadata:
+    source_ref: 《滴天髓·地位论》#分藩
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_贵_94
+  snippet_ids:
+  - ns_dts_516
+  - ns_dts_517
+  - ns_dts_518
+  - ns_dts_519
+  - ns_dts_520
+  role: 主干
+  condition: null
+  summary: 官星有理会
+  metadata:
+    source_ref: 《滴天髓·贵论》#贵
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_贱_95
+  snippet_ids:
+  - ns_dts_521
+  - ns_dts_522
+  - ns_dts_523
+  - ns_dts_524
+  - ns_dts_525
+  role: 主干
+  condition: null
+  summary: 官星不见
+  metadata:
+    source_ref: 《滴天髓·贵论》#贱
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_富_96
+  snippet_ids:
+  - ns_dts_526
+  - ns_dts_527
+  - ns_dts_528
+  - ns_dts_529
+  - ns_dts_530
+  role: 主干
+  condition: null
+  summary: 财气通门户
+  metadata:
+    source_ref: 《滴天髓·贵论》#富
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_寿_97
+  snippet_ids:
+  - ns_dts_546
+  - ns_dts_547
+  - ns_dts_548
+  - ns_dts_549
+  - ns_dts_550
+  role: 主干
+  condition: null
+  summary: 性定元气厚
+  metadata:
+    source_ref: 《滴天髓·贵论》#寿
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_夭_98
+  snippet_ids:
+  - ns_dts_551
+  - ns_dts_552
+  - ns_dts_553
+  - ns_dts_554
+  - ns_dts_555
+  role: 主干
+  condition: null
+  summary: 气浊神枯
+  metadata:
+    source_ref: 《滴天髓·贵论》#夭
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_贞元_99
+  snippet_ids:
+  - ns_dts_556
+  - ns_dts_557
+  - ns_dts_558
+  - ns_dts_559
+  - ns_dts_560
+  role: 主干
+  condition: null
+  summary: 贞元往复
+  metadata:
+    source_ref: 《滴天髓·贞元论》#贞元
+    snippet_count: 5
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_滴天髓_100
+  snippet_ids:
+  - ns_dts_2001
+  - ns_dts_2002
+  - ns_dts_2003
+  - ns_dts_2004
+  - ns_dts_2005
+  - ns_dts_2006
+  - ns_dts_2007
+  - ns_dts_2008
+  - ns_dts_2009
+  - ns_dts_2010
+  - ns_dts_2011
+  - ns_dts_2012
+  - ns_dts_2013
+  - ns_dts_2014
+  - ns_dts_2015
+  - ns_dts_2016
+  - ns_dts_2017
+  - ns_dts_2018
+  - ns_dts_2019
+  - ns_dts_2020
+  - ns_dts_2021
+  - ns_dts_2022
+  - ns_dts_2023
+  - ns_dts_2024
+  - ns_dts_2025
+  - ns_dts_2026
+  - ns_dts_2027
+  - ns_dts_2028
+  - ns_dts_2029
+  - ns_dts_2030
+  - ns_dts_2031
+  - ns_dts_2032
+  - ns_dts_2033
+  - ns_dts_2034
+  - ns_dts_2035
+  - ns_dts_2036
+  - ns_dts_2037
+  - ns_dts_2038
+  - ns_dts_2039
+  - ns_dts_2040
+  - ns_dts_2041
+  - ns_dts_2042
+  - ns_dts_2043
+  - ns_dts_2044
+  - ns_dts_2045
+  - ns_dts_2046
+  - ns_dts_2047
+  - ns_dts_2048
+  - ns_dts_2049
+  - ns_dts_2050
+  - ns_dts_2051
+  - ns_dts_2052
+  - ns_dts_2053
+  - ns_dts_2054
+  - ns_dts_2055
+  - ns_dts_2056
+  - ns_dts_2057
+  - ns_dts_2058
+  - ns_dts_2059
+  - ns_dts_2060
+  - ns_dts_2061
+  - ns_dts_2062
+  - ns_dts_2063
+  - ns_dts_2064
+  - ns_dts_2065
+  - ns_dts_2066
+  - ns_dts_2067
+  - ns_dts_2068
+  - ns_dts_2069
+  - ns_dts_2070
+  - ns_dts_2071
+  - ns_dts_2072
+  - ns_dts_2073
+  - ns_dts_2074
+  - ns_dts_2075
+  - ns_dts_2076
+  - ns_dts_2077
+  - ns_dts_2078
+  - ns_dts_2079
+  - ns_dts_2080
+  - ns_dts_2081
+  - ns_dts_2082
+  - ns_dts_2083
+  - ns_dts_2084
+  - ns_dts_2085
+  - ns_dts_2086
+  - ns_dts_2087
+  - ns_dts_2088
+  - ns_dts_2089
+  - ns_dts_2090
+  - ns_dts_2091
+  - ns_dts_2092
+  - ns_dts_2093
+  - ns_dts_2094
+  - ns_dts_2095
+  - ns_dts_2096
+  - ns_dts_2097
+  - ns_dts_2098
+  - ns_dts_2099
+  - ns_dts_2100
+  - ns_dts_2101
+  - ns_dts_2102
+  - ns_dts_2103
+  - ns_dts_2104
+  - ns_dts_2105
+  - ns_dts_2106
+  - ns_dts_2107
+  - ns_dts_2108
+  - ns_dts_2109
+  - ns_dts_2110
+  - ns_dts_2111
+  - ns_dts_2112
+  - ns_dts_2113
+  - ns_dts_2114
+  - ns_dts_2115
+  - ns_dts_2116
+  - ns_dts_2117
+  - ns_dts_2118
+  - ns_dts_2119
+  - ns_dts_2120
+  - ns_dts_2121
+  - ns_dts_2122
+  - ns_dts_2123
+  - ns_dts_2124
+  - ns_dts_2125
+  - ns_dts_2126
+  - ns_dts_2127
+  - ns_dts_2128
+  - ns_dts_2129
+  - ns_dts_2130
+  - ns_dts_2131
+  - ns_dts_2132
+  - ns_dts_2133
+  - ns_dts_2134
+  - ns_dts_2135
+  - ns_dts_2136
+  - ns_dts_2137
+  - ns_dts_2138
+  - ns_dts_2139
+  - ns_dts_2140
+  - ns_dts_2141
+  - ns_dts_2142
+  - ns_dts_2143
+  - ns_dts_2144
+  - ns_dts_2145
+  - ns_dts_2146
+  - ns_dts_2147
+  - ns_dts_2148
+  - ns_dts_2149
+  - ns_dts_2150
+  - ns_dts_2151
+  - ns_dts_2152
+  - ns_dts_2153
+  - ns_dts_2154
+  - ns_dts_2155
+  - ns_dts_2156
+  - ns_dts_2157
+  - ns_dts_2158
+  - ns_dts_2159
+  - ns_dts_2160
+  - ns_dts_2161
+  - ns_dts_2162
+  - ns_dts_2163
+  - ns_dts_2164
+  - ns_dts_2165
+  - ns_dts_2166
+  - ns_dts_2167
+  - ns_dts_2168
+  - ns_dts_2169
+  - ns_dts_2170
+  - ns_dts_2171
+  - ns_dts_2172
+  - ns_dts_2173
+  - ns_dts_2174
+  - ns_dts_2175
+  - ns_dts_2176
+  - ns_dts_2177
+  - ns_dts_2178
+  - ns_dts_2179
+  - ns_dts_2180
+  - ns_dts_2181
+  - ns_dts_2182
+  - ns_dts_2183
+  - ns_dts_2184
+  - ns_dts_2185
+  - ns_dts_2186
+  - ns_dts_2187
+  - ns_dts_2188
+  - ns_dts_2189
+  - ns_dts_2190
+  - ns_dts_2191
+  - ns_dts_2192
+  - ns_dts_2193
+  - ns_dts_2194
+  - ns_dts_2195
+  - ns_dts_2196
+  - ns_dts_2197
+  - ns_dts_2198
+  - ns_dts_2199
+  - ns_dts_2200
+  - ns_dts_2201
+  - ns_dts_2202
+  - ns_dts_2203
+  - ns_dts_2204
+  - ns_dts_2205
+  - ns_dts_2206
+  - ns_dts_2207
+  - ns_dts_2208
+  - ns_dts_2209
+  - ns_dts_2210
+  - ns_dts_2211
+  - ns_dts_2212
+  - ns_dts_2213
+  - ns_dts_2214
+  - ns_dts_2215
+  - ns_dts_2216
+  - ns_dts_2217
+  - ns_dts_2218
+  - ns_dts_2219
+  - ns_dts_2220
+  - ns_dts_2221
+  - ns_dts_2222
+  - ns_dts_2223
+  - ns_dts_2224
+  - ns_dts_2225
+  - ns_dts_2226
+  - ns_dts_2227
+  - ns_dts_2228
+  - ns_dts_2229
+  - ns_dts_2230
+  - ns_dts_2231
+  - ns_dts_2232
+  - ns_dts_2233
+  - ns_dts_2234
+  - ns_dts_2235
+  - ns_dts_2236
+  - ns_dts_2237
+  - ns_dts_2238
+  - ns_dts_2239
+  - ns_dts_2240
+  - ns_dts_2241
+  - ns_dts_2242
+  - ns_dts_2243
+  - ns_dts_2244
+  - ns_dts_2245
+  - ns_dts_2246
+  - ns_dts_2247
+  - ns_dts_2248
+  - ns_dts_2249
+  - ns_dts_2250
+  - ns_dts_2251
+  - ns_dts_2252
+  - ns_dts_2253
+  - ns_dts_2254
+  - ns_dts_2255
+  - ns_dts_2256
+  - ns_dts_2257
+  - ns_dts_2258
+  - ns_dts_2259
+  - ns_dts_2260
+  - ns_dts_2261
+  - ns_dts_2262
+  - ns_dts_2263
+  - ns_dts_2264
+  - ns_dts_2265
+  - ns_dts_2266
+  - ns_dts_2267
+  - ns_dts_2268
+  - ns_dts_2269
+  - ns_dts_2270
+  - ns_dts_2271
+  - ns_dts_2272
+  - ns_dts_2273
+  - ns_dts_2274
+  - ns_dts_2275
+  - ns_dts_2276
+  - ns_dts_2277
+  - ns_dts_2278
+  - ns_dts_2279
+  - ns_dts_2280
+  - ns_dts_2281
+  - ns_dts_2282
+  - ns_dts_2283
+  - ns_dts_2284
+  - ns_dts_2285
+  - ns_dts_2286
+  - ns_dts_2287
+  - ns_dts_2288
+  - ns_dts_2289
+  - ns_dts_2290
+  - ns_dts_2291
+  - ns_dts_2292
+  - ns_dts_2293
+  - ns_dts_2294
+  - ns_dts_2295
+  - ns_dts_2296
+  - ns_dts_2297
+  - ns_dts_2298
+  - ns_dts_2299
+  - ns_dts_2300
+  - ns_dts_2301
+  - ns_dts_2302
+  - ns_dts_2303
+  - ns_dts_2304
+  - ns_dts_2305
+  - ns_dts_2306
+  - ns_dts_2307
+  - ns_dts_2308
+  - ns_dts_2309
+  - ns_dts_2310
+  - ns_dts_2311
+  - ns_dts_2312
+  - ns_dts_2313
+  - ns_dts_2314
+  - ns_dts_2315
+  - ns_dts_2316
+  - ns_dts_2317
+  - ns_dts_2318
+  - ns_dts_2319
+  - ns_dts_2320
+  - ns_dts_2321
+  - ns_dts_2322
+  - ns_dts_2323
+  - ns_dts_2324
+  - ns_dts_2325
+  - ns_dts_2326
+  - ns_dts_2327
+  - ns_dts_2328
+  - ns_dts_2329
+  - ns_dts_2330
+  - ns_dts_2331
+  - ns_dts_2332
+  - ns_dts_2333
+  - ns_dts_2334
+  - ns_dts_2335
+  - ns_dts_2336
+  - ns_dts_2337
+  - ns_dts_2338
+  - ns_dts_2339
+  - ns_dts_2340
+  - ns_dts_2341
+  - ns_dts_2342
+  - ns_dts_2343
+  - ns_dts_2344
+  - ns_dts_2345
+  - ns_dts_2346
+  - ns_dts_2347
+  - ns_dts_2348
+  - ns_dts_2349
+  - ns_dts_2350
+  - ns_dts_2351
+  - ns_dts_2352
+  - ns_dts_2353
+  - ns_dts_2354
+  - ns_dts_2355
+  - ns_dts_2356
+  - ns_dts_2357
+  - ns_dts_2358
+  - ns_dts_2359
+  - ns_dts_2360
+  - ns_dts_2361
+  - ns_dts_2362
+  - ns_dts_2363
+  - ns_dts_2364
+  - ns_dts_2365
+  - ns_dts_2366
+  - ns_dts_2367
+  - ns_dts_2368
+  - ns_dts_2369
+  - ns_dts_2370
+  - ns_dts_2371
+  - ns_dts_2372
+  - ns_dts_2373
+  - ns_dts_2374
+  - ns_dts_2375
+  - ns_dts_2376
+  - ns_dts_2377
+  - ns_dts_2378
+  - ns_dts_2379
+  - ns_dts_2380
+  - ns_dts_2381
+  - ns_dts_2382
+  - ns_dts_2383
+  - ns_dts_2384
+  - ns_dts_2385
+  - ns_dts_2386
+  - ns_dts_2387
+  - ns_dts_2388
+  - ns_dts_2389
+  - ns_dts_2390
+  - ns_dts_2391
+  - ns_dts_2392
+  - ns_dts_2393
+  - ns_dts_2394
+  - ns_dts_2395
+  - ns_dts_2396
+  - ns_dts_2397
+  - ns_dts_2398
+  - ns_dts_2399
+  - ns_dts_2400
+  - ns_dts_2401
+  - ns_dts_2402
+  - ns_dts_2403
+  - ns_dts_2404
+  - ns_dts_2405
+  - ns_dts_2406
+  - ns_dts_2407
+  - ns_dts_2408
+  - ns_dts_2409
+  - ns_dts_2410
+  - ns_dts_2411
+  - ns_dts_2412
+  - ns_dts_2413
+  - ns_dts_2414
+  - ns_dts_2415
+  - ns_dts_2416
+  - ns_dts_2417
+  - ns_dts_2418
+  - ns_dts_2419
+  - ns_dts_2420
+  - ns_dts_2421
+  - ns_dts_2422
+  - ns_dts_2423
+  - ns_dts_2424
+  - ns_dts_2425
+  - ns_dts_2426
+  - ns_dts_2427
+  - ns_dts_2428
+  - ns_dts_2429
+  - ns_dts_2430
+  - ns_dts_2431
+  - ns_dts_2432
+  - ns_dts_2433
+  - ns_dts_2434
+  - ns_dts_2435
+  - ns_dts_2436
+  - ns_dts_2437
+  - ns_dts_2438
+  - ns_dts_2439
+  - ns_dts_2440
+  - ns_dts_2441
+  - ns_dts_2442
+  - ns_dts_2443
+  - ns_dts_2444
+  - ns_dts_2445
+  - ns_dts_2446
+  - ns_dts_2447
+  - ns_dts_2448
+  - ns_dts_2449
+  - ns_dts_2450
+  - ns_dts_2451
+  - ns_dts_2452
+  - ns_dts_2453
+  - ns_dts_2454
+  - ns_dts_2455
+  - ns_dts_2456
+  - ns_dts_2457
+  - ns_dts_2458
+  - ns_dts_2459
+  - ns_dts_2460
+  - ns_dts_2461
+  - ns_dts_2462
+  - ns_dts_2463
+  - ns_dts_2464
+  - ns_dts_2465
+  - ns_dts_2466
+  - ns_dts_2467
+  - ns_dts_2468
+  - ns_dts_2469
+  - ns_dts_2470
+  - ns_dts_2471
+  - ns_dts_2472
+  - ns_dts_2473
+  - ns_dts_2474
+  - ns_dts_2475
+  - ns_dts_2476
+  - ns_dts_2477
+  - ns_dts_2478
+  - ns_dts_2479
+  - ns_dts_2480
+  - ns_dts_2481
+  - ns_dts_2482
+  - ns_dts_2483
+  - ns_dts_2484
+  - ns_dts_2485
+  - ns_dts_2486
+  - ns_dts_2487
+  - ns_dts_2488
+  - ns_dts_2489
+  - ns_dts_2490
+  - ns_dts_2491
+  - ns_dts_2492
+  - ns_dts_2493
+  - ns_dts_2494
+  - ns_dts_2495
+  - ns_dts_2496
+  - ns_dts_2497
+  - ns_dts_2498
+  - ns_dts_2499
+  - ns_dts_2500
+  - ns_dts_2501
+  - ns_dts_2502
+  - ns_dts_2503
+  - ns_dts_2504
+  - ns_dts_2505
+  - ns_dts_2506
+  - ns_dts_2507
+  - ns_dts_2508
+  - ns_dts_2509
+  - ns_dts_2510
+  - ns_dts_2511
+  - ns_dts_2512
+  - ns_dts_2513
+  - ns_dts_2514
+  - ns_dts_2515
+  - ns_dts_2516
+  - ns_dts_2517
+  - ns_dts_2518
+  - ns_dts_2519
+  - ns_dts_2520
+  - ns_dts_2521
+  - ns_dts_2522
+  - ns_dts_2523
+  - ns_dts_2524
+  - ns_dts_2525
+  - ns_dts_2526
+  - ns_dts_2527
+  - ns_dts_2528
+  - ns_dts_2529
+  - ns_dts_2530
+  - ns_dts_2531
+  - ns_dts_2532
+  - ns_dts_2533
+  - ns_dts_2534
+  - ns_dts_2535
+  - ns_dts_2536
+  - ns_dts_2537
+  - ns_dts_2538
+  - ns_dts_2539
+  - ns_dts_2540
+  - ns_dts_2541
+  - ns_dts_2542
+  - ns_dts_2543
+  - ns_dts_2544
+  - ns_dts_2545
+  - ns_dts_2546
+  - ns_dts_2547
+  - ns_dts_2548
+  - ns_dts_2549
+  - ns_dts_2550
+  - ns_dts_2551
+  - ns_dts_2552
+  - ns_dts_2553
+  - ns_dts_2554
+  - ns_dts_2555
+  - ns_dts_2556
+  - ns_dts_2557
+  - ns_dts_2558
+  - ns_dts_2559
+  - ns_dts_2560
+  - ns_dts_2561
+  - ns_dts_2562
+  - ns_dts_2563
+  - ns_dts_2564
+  - ns_dts_2565
+  - ns_dts_2566
+  - ns_dts_2567
+  - ns_dts_2568
+  - ns_dts_2569
+  - ns_dts_2570
+  - ns_dts_2571
+  - ns_dts_2572
+  - ns_dts_2573
+  - ns_dts_2574
+  - ns_dts_2575
+  - ns_dts_2576
+  - ns_dts_2577
+  - ns_dts_2578
+  - ns_dts_2579
+  - ns_dts_2580
+  - ns_dts_2581
+  - ns_dts_2582
+  - ns_dts_2583
+  - ns_dts_2584
+  - ns_dts_2585
+  - ns_dts_2586
+  - ns_dts_2587
+  - ns_dts_2588
+  - ns_dts_2589
+  - ns_dts_2590
+  - ns_dts_2591
+  - ns_dts_2592
+  - ns_dts_2593
+  - ns_dts_2594
+  - ns_dts_2595
+  - ns_dts_2596
+  - ns_dts_2597
+  - ns_dts_2598
+  - ns_dts_2599
+  - ns_dts_2600
+  - ns_dts_2601
+  - ns_dts_2602
+  - ns_dts_2603
+  - ns_dts_2604
+  - ns_dts_2605
+  - ns_dts_2606
+  - ns_dts_2607
+  - ns_dts_2608
+  - ns_dts_2609
+  - ns_dts_2610
+  - ns_dts_2611
+  - ns_dts_2612
+  - ns_dts_2613
+  - ns_dts_2614
+  - ns_dts_2615
+  - ns_dts_2616
+  - ns_dts_2617
+  - ns_dts_2618
+  - ns_dts_2619
+  - ns_dts_2620
+  - ns_dts_2621
+  - ns_dts_2622
+  - ns_dts_2623
+  - ns_dts_2624
+  - ns_dts_2625
+  - ns_dts_2626
+  - ns_dts_2627
+  - ns_dts_2628
+  - ns_dts_2629
+  - ns_dts_2630
+  - ns_dts_2631
+  - ns_dts_2632
+  - ns_dts_2633
+  - ns_dts_2634
+  - ns_dts_2635
+  - ns_dts_2636
+  - ns_dts_2637
+  - ns_dts_2638
+  - ns_dts_2639
+  - ns_dts_2640
+  - ns_dts_2641
+  - ns_dts_2642
+  - ns_dts_2643
+  - ns_dts_2644
+  - ns_dts_2645
+  - ns_dts_2646
+  - ns_dts_2647
+  - ns_dts_2648
+  - ns_dts_2649
+  - ns_dts_2650
+  - ns_dts_2651
+  - ns_dts_2652
+  - ns_dts_2653
+  - ns_dts_2654
+  - ns_dts_2655
+  - ns_dts_2656
+  - ns_dts_2657
+  - ns_dts_2658
+  - ns_dts_2659
+  - ns_dts_2660
+  - ns_dts_2661
+  - ns_dts_2662
+  - ns_dts_2663
+  - ns_dts_2664
+  - ns_dts_2665
+  - ns_dts_2666
+  - ns_dts_2667
+  - ns_dts_2668
+  - ns_dts_2669
+  - ns_dts_2670
+  - ns_dts_2671
+  - ns_dts_2672
+  - ns_dts_2673
+  - ns_dts_2674
+  - ns_dts_2675
+  - ns_dts_2676
+  - ns_dts_2677
+  - ns_dts_2678
+  - ns_dts_2679
+  - ns_dts_2680
+  - ns_dts_2681
+  - ns_dts_2682
+  - ns_dts_2683
+  - ns_dts_2684
+  - ns_dts_2685
+  - ns_dts_2686
+  - ns_dts_2687
+  - ns_dts_2688
+  - ns_dts_2689
+  - ns_dts_2690
+  - ns_dts_2691
+  - ns_dts_2692
+  - ns_dts_2693
+  - ns_dts_2694
+  - ns_dts_2695
+  - ns_dts_2696
+  - ns_dts_2697
+  - ns_dts_2698
+  - ns_dts_2699
+  - ns_dts_2700
+  - ns_dts_2701
+  - ns_dts_2702
+  - ns_dts_2703
+  - ns_dts_2704
+  - ns_dts_2705
+  - ns_dts_2706
+  - ns_dts_2707
+  - ns_dts_2708
+  - ns_dts_2709
+  - ns_dts_2710
+  - ns_dts_2711
+  - ns_dts_2712
+  - ns_dts_2713
+  - ns_dts_2714
+  - ns_dts_2715
+  - ns_dts_2716
+  - ns_dts_2717
+  - ns_dts_2718
+  - ns_dts_2719
+  - ns_dts_2720
+  - ns_dts_2721
+  - ns_dts_2722
+  - ns_dts_2723
+  - ns_dts_2724
+  - ns_dts_2725
+  - ns_dts_2726
+  - ns_dts_2727
+  - ns_dts_2728
+  - ns_dts_2729
+  - ns_dts_2730
+  - ns_dts_2731
+  - ns_dts_2732
+  - ns_dts_2733
+  - ns_dts_2734
+  - ns_dts_2735
+  - ns_dts_2736
+  - ns_dts_2737
+  - ns_dts_2738
+  - ns_dts_2739
+  - ns_dts_2740
+  - ns_dts_2741
+  - ns_dts_2742
+  - ns_dts_2743
+  - ns_dts_2744
+  - ns_dts_2745
+  - ns_dts_2746
+  - ns_dts_2747
+  - ns_dts_2748
+  - ns_dts_2749
+  - ns_dts_2750
+  - ns_dts_2751
+  - ns_dts_2752
+  - ns_dts_2753
+  - ns_dts_2754
+  - ns_dts_2755
+  - ns_dts_2756
+  - ns_dts_2757
+  - ns_dts_2758
+  - ns_dts_2759
+  - ns_dts_2760
+  - ns_dts_2761
+  - ns_dts_2762
+  - ns_dts_2763
+  - ns_dts_2764
+  - ns_dts_2765
+  - ns_dts_2766
+  - ns_dts_2767
+  - ns_dts_2768
+  - ns_dts_2769
+  - ns_dts_2770
+  - ns_dts_2771
+  - ns_dts_2772
+  - ns_dts_2773
+  - ns_dts_2774
+  - ns_dts_2775
+  - ns_dts_2776
+  - ns_dts_2777
+  - ns_dts_2778
+  - ns_dts_2779
+  - ns_dts_2780
+  - ns_dts_2781
+  - ns_dts_2782
+  - ns_dts_2783
+  - ns_dts_2784
+  - ns_dts_2785
+  - ns_dts_2786
+  - ns_dts_2787
+  - ns_dts_2788
+  - ns_dts_2789
+  - ns_dts_2790
+  - ns_dts_2791
+  - ns_dts_2792
+  - ns_dts_2793
+  - ns_dts_2794
+  - ns_dts_2795
+  - ns_dts_2796
+  - ns_dts_2797
+  - ns_dts_2798
+  - ns_dts_2799
+  - ns_dts_2800
+  - ns_dts_2801
+  - ns_dts_2802
+  - ns_dts_2803
+  - ns_dts_2804
+  - ns_dts_2805
+  - ns_dts_2806
+  - ns_dts_2807
+  - ns_dts_2808
+  - ns_dts_2809
+  - ns_dts_2810
+  - ns_dts_2811
+  - ns_dts_2812
+  - ns_dts_2813
+  - ns_dts_2814
+  - ns_dts_2815
+  - ns_dts_2816
+  - ns_dts_2817
+  - ns_dts_2818
+  - ns_dts_2819
+  - ns_dts_2820
+  - ns_dts_2821
+  - ns_dts_2822
+  - ns_dts_2823
+  - ns_dts_2824
+  - ns_dts_2825
+  - ns_dts_2826
+  - ns_dts_2827
+  - ns_dts_2828
+  - ns_dts_2829
+  - ns_dts_2830
+  - ns_dts_2831
+  - ns_dts_2832
+  - ns_dts_2833
+  - ns_dts_2834
+  - ns_dts_2835
+  - ns_dts_2836
+  - ns_dts_2837
+  - ns_dts_2838
+  - ns_dts_2839
+  - ns_dts_2840
+  - ns_dts_2841
+  - ns_dts_2842
+  - ns_dts_2843
+  - ns_dts_2844
+  - ns_dts_2845
+  - ns_dts_2846
+  - ns_dts_2847
+  - ns_dts_2848
+  - ns_dts_2849
+  - ns_dts_2850
+  - ns_dts_2851
+  - ns_dts_2852
+  - ns_dts_2853
+  - ns_dts_2854
+  - ns_dts_2855
+  - ns_dts_2856
+  - ns_dts_2857
+  - ns_dts_2858
+  - ns_dts_2859
+  - ns_dts_2860
+  - ns_dts_2861
+  - ns_dts_2862
+  - ns_dts_2863
+  - ns_dts_2864
+  - ns_dts_2865
+  - ns_dts_2866
+  - ns_dts_2867
+  - ns_dts_2868
+  - ns_dts_2869
+  - ns_dts_2870
+  - ns_dts_2871
+  - ns_dts_2872
+  - ns_dts_2873
+  - ns_dts_2874
+  - ns_dts_2875
+  - ns_dts_2876
+  - ns_dts_2877
+  - ns_dts_2878
+  - ns_dts_2879
+  - ns_dts_2880
+  - ns_dts_2881
+  - ns_dts_2882
+  - ns_dts_2883
+  - ns_dts_2884
+  - ns_dts_2885
+  - ns_dts_2886
+  - ns_dts_2887
+  - ns_dts_2888
+  - ns_dts_2889
+  - ns_dts_2890
+  - ns_dts_2891
+  - ns_dts_2892
+  - ns_dts_2893
+  - ns_dts_2894
+  - ns_dts_2895
+  - ns_dts_2896
+  - ns_dts_2897
+  - ns_dts_2898
+  - ns_dts_2899
+  - ns_dts_2900
+  - ns_dts_2901
+  - ns_dts_2902
+  - ns_dts_2903
+  - ns_dts_2904
+  - ns_dts_2905
+  - ns_dts_2906
+  - ns_dts_2907
+  - ns_dts_2908
+  - ns_dts_2909
+  - ns_dts_2910
+  - ns_dts_2911
+  - ns_dts_2912
+  - ns_dts_2913
+  - ns_dts_2914
+  - ns_dts_2915
+  - ns_dts_2916
+  - ns_dts_2917
+  - ns_dts_2918
+  - ns_dts_2919
+  - ns_dts_2920
+  - ns_dts_2921
+  - ns_dts_2922
+  - ns_dts_2923
+  - ns_dts_2924
+  - ns_dts_2925
+  - ns_dts_2926
+  - ns_dts_2927
+  - ns_dts_2928
+  - ns_dts_2929
+  - ns_dts_2930
+  - ns_dts_2931
+  - ns_dts_2932
+  - ns_dts_2933
+  - ns_dts_2934
+  - ns_dts_2935
+  - ns_dts_2936
+  - ns_dts_2937
+  - ns_dts_2938
+  - ns_dts_2939
+  - ns_dts_2940
+  - ns_dts_2941
+  - ns_dts_2942
+  - ns_dts_2943
+  - ns_dts_2944
+  - ns_dts_2945
+  - ns_dts_2946
+  - ns_dts_2947
+  - ns_dts_2948
+  - ns_dts_2949
+  - ns_dts_2950
+  - ns_dts_2951
+  - ns_dts_2952
+  - ns_dts_2953
+  - ns_dts_2954
+  - ns_dts_2955
+  - ns_dts_2956
+  - ns_dts_2957
+  - ns_dts_2958
+  - ns_dts_2959
+  - ns_dts_2960
+  - ns_dts_2961
+  - ns_dts_2962
+  - ns_dts_2963
+  - ns_dts_2964
+  - ns_dts_2965
+  - ns_dts_2966
+  - ns_dts_2967
+  - ns_dts_2968
+  - ns_dts_2969
+  - ns_dts_2970
+  - ns_dts_2971
+  - ns_dts_2972
+  - ns_dts_2973
+  - ns_dts_2974
+  - ns_dts_2975
+  - ns_dts_2976
+  - ns_dts_2977
+  - ns_dts_2978
+  - ns_dts_2979
+  - ns_dts_2980
+  - ns_dts_2981
+  - ns_dts_2982
+  - ns_dts_2983
+  - ns_dts_2984
+  - ns_dts_2985
+  - ns_dts_2986
+  - ns_dts_2987
+  - ns_dts_2988
+  - ns_dts_2989
+  - ns_dts_2990
+  - ns_dts_2991
+  - ns_dts_2992
+  - ns_dts_2993
+  - ns_dts_2994
+  - ns_dts_2995
+  - ns_dts_2996
+  - ns_dts_2997
+  - ns_dts_2998
+  - ns_dts_2999
+  - ns_dts_3000
+  - ns_dts_3001
+  - ns_dts_3002
+  - ns_dts_3003
+  - ns_dts_3004
+  - ns_dts_3005
+  - ns_dts_3006
+  - ns_dts_3007
+  - ns_dts_3008
+  - ns_dts_3009
+  - ns_dts_3010
+  - ns_dts_3011
+  - ns_dts_3012
+  - ns_dts_3013
+  - ns_dts_3014
+  - ns_dts_3015
+  - ns_dts_3016
+  - ns_dts_3017
+  - ns_dts_3018
+  - ns_dts_3019
+  - ns_dts_3020
+  - ns_dts_3021
+  - ns_dts_3022
+  - ns_dts_3023
+  - ns_dts_3024
+  - ns_dts_3025
+  - ns_dts_3026
+  - ns_dts_3027
+  - ns_dts_3028
+  - ns_dts_3029
+  - ns_dts_3030
+  - ns_dts_3031
+  - ns_dts_3032
+  - ns_dts_3033
+  - ns_dts_3034
+  - ns_dts_3035
+  - ns_dts_3036
+  - ns_dts_3037
+  - ns_dts_3038
+  - ns_dts_3039
+  - ns_dts_3040
+  - ns_dts_3041
+  - ns_dts_3042
+  - ns_dts_3043
+  - ns_dts_3044
+  - ns_dts_3045
+  - ns_dts_3046
+  - ns_dts_3047
+  - ns_dts_3048
+  - ns_dts_3049
+  - ns_dts_3050
+  - ns_dts_3051
+  - ns_dts_3052
+  - ns_dts_3053
+  - ns_dts_3054
+  - ns_dts_3055
+  - ns_dts_3056
+  - ns_dts_3057
+  - ns_dts_3058
+  - ns_dts_3059
+  - ns_dts_3060
+  - ns_dts_3061
+  - ns_dts_3062
+  - ns_dts_3063
+  - ns_dts_3064
+  - ns_dts_3065
+  - ns_dts_3066
+  - ns_dts_3067
+  - ns_dts_3068
+  - ns_dts_3069
+  - ns_dts_3070
+  - ns_dts_3071
+  - ns_dts_3072
+  - ns_dts_3073
+  - ns_dts_3074
+  - ns_dts_3075
+  - ns_dts_3076
+  - ns_dts_3077
+  - ns_dts_3078
+  - ns_dts_3079
+  - ns_dts_3080
+  - ns_dts_3081
+  - ns_dts_3082
+  - ns_dts_3083
+  - ns_dts_3084
+  - ns_dts_3085
+  - ns_dts_3086
+  - ns_dts_3087
+  - ns_dts_3088
+  - ns_dts_3089
+  - ns_dts_3090
+  - ns_dts_3091
+  - ns_dts_3092
+  - ns_dts_3093
+  - ns_dts_3094
+  - ns_dts_3095
+  - ns_dts_3096
+  - ns_dts_3097
+  - ns_dts_3098
+  - ns_dts_3099
+  - ns_dts_3100
+  - ns_dts_3101
+  - ns_dts_3102
+  - ns_dts_3103
+  - ns_dts_3104
+  - ns_dts_3105
+  - ns_dts_3106
+  - ns_dts_3107
+  - ns_dts_3108
+  - ns_dts_3109
+  - ns_dts_3110
+  - ns_dts_3111
+  - ns_dts_3112
+  - ns_dts_3113
+  - ns_dts_3114
+  - ns_dts_3115
+  - ns_dts_3116
+  - ns_dts_3117
+  - ns_dts_3118
+  - ns_dts_3119
+  - ns_dts_3120
+  - ns_dts_3121
+  - ns_dts_3122
+  - ns_dts_3123
+  - ns_dts_3124
+  - ns_dts_3125
+  - ns_dts_3126
+  - ns_dts_3127
+  - ns_dts_3128
+  - ns_dts_3129
+  - ns_dts_3130
+  - ns_dts_3131
+  - ns_dts_3132
+  - ns_dts_3133
+  - ns_dts_3134
+  - ns_dts_3135
+  - ns_dts_3136
+  - ns_dts_3137
+  - ns_dts_3138
+  - ns_dts_3139
+  - ns_dts_3140
+  - ns_dts_3141
+  - ns_dts_3142
+  - ns_dts_3143
+  - ns_dts_3144
+  - ns_dts_3145
+  - ns_dts_3146
+  - ns_dts_3147
+  - ns_dts_3148
+  - ns_dts_3149
+  - ns_dts_3150
+  - ns_dts_3151
+  - ns_dts_3152
+  - ns_dts_3153
+  - ns_dts_3154
+  - ns_dts_3155
+  - ns_dts_3156
+  - ns_dts_3157
+  - ns_dts_3158
+  - ns_dts_3159
+  - ns_dts_3160
+  - ns_dts_3161
+  - ns_dts_3162
+  - ns_dts_3163
+  - ns_dts_3164
+  - ns_dts_3165
+  - ns_dts_3166
+  - ns_dts_3167
+  - ns_dts_3168
+  - ns_dts_3169
+  - ns_dts_3170
+  - ns_dts_3171
+  - ns_dts_3172
+  - ns_dts_3173
+  - ns_dts_3174
+  - ns_dts_3175
+  - ns_dts_3176
+  - ns_dts_3177
+  - ns_dts_3178
+  - ns_dts_3179
+  - ns_dts_3180
+  - ns_dts_3181
+  - ns_dts_3182
+  - ns_dts_3183
+  - ns_dts_3184
+  - ns_dts_3185
+  - ns_dts_3186
+  - ns_dts_3187
+  - ns_dts_3188
+  - ns_dts_3189
+  - ns_dts_3190
+  - ns_dts_3191
+  - ns_dts_3192
+  - ns_dts_3193
+  - ns_dts_3194
+  - ns_dts_3195
+  - ns_dts_3196
+  - ns_dts_3197
+  - ns_dts_3198
+  - ns_dts_3199
+  - ns_dts_3200
+  - ns_dts_3201
+  - ns_dts_3202
+  - ns_dts_3203
+  - ns_dts_3204
+  - ns_dts_3205
+  - ns_dts_3206
+  - ns_dts_3207
+  - ns_dts_3208
+  - ns_dts_3209
+  - ns_dts_3210
+  - ns_dts_3211
+  - ns_dts_3212
+  - ns_dts_3213
+  - ns_dts_3214
+  - ns_dts_3215
+  - ns_dts_3216
+  - ns_dts_3217
+  - ns_dts_3218
+  - ns_dts_3219
+  - ns_dts_3220
+  - ns_dts_3221
+  - ns_dts_3222
+  - ns_dts_3223
+  - ns_dts_3224
+  - ns_dts_3225
+  - ns_dts_3226
+  - ns_dts_3227
+  - ns_dts_3228
+  - ns_dts_3229
+  - ns_dts_3230
+  - ns_dts_3231
+  - ns_dts_3232
+  - ns_dts_3233
+  - ns_dts_3234
+  - ns_dts_3235
+  - ns_dts_3236
+  - ns_dts_3237
+  - ns_dts_3238
+  - ns_dts_3239
+  - ns_dts_3240
+  - ns_dts_3241
+  - ns_dts_3242
+  - ns_dts_3243
+  - ns_dts_3244
+  - ns_dts_3245
+  - ns_dts_3246
+  - ns_dts_3247
+  - ns_dts_3248
+  - ns_dts_3249
+  - ns_dts_3250
+  - ns_dts_3251
+  - ns_dts_3252
+  - ns_dts_3253
+  - ns_dts_3254
+  - ns_dts_3255
+  - ns_dts_3256
+  - ns_dts_3257
+  - ns_dts_3258
+  - ns_dts_3259
+  - ns_dts_3260
+  - ns_dts_3261
+  - ns_dts_3262
+  - ns_dts_3263
+  - ns_dts_3264
+  - ns_dts_3265
+  - ns_dts_3266
+  - ns_dts_3267
+  - ns_dts_3268
+  - ns_dts_3269
+  - ns_dts_3270
+  - ns_dts_3271
+  - ns_dts_3272
+  - ns_dts_3273
+  - ns_dts_3274
+  - ns_dts_3275
+  - ns_dts_3276
+  - ns_dts_3277
+  - ns_dts_3278
+  - ns_dts_3279
+  - ns_dts_3280
+  - ns_dts_3281
+  - ns_dts_3282
+  - ns_dts_3283
+  - ns_dts_3284
+  - ns_dts_3285
+  - ns_dts_3286
+  - ns_dts_3287
+  - ns_dts_3288
+  - ns_dts_3289
+  - ns_dts_3290
+  - ns_dts_3291
+  - ns_dts_3292
+  - ns_dts_3293
+  - ns_dts_3294
+  - ns_dts_3295
+  - ns_dts_3296
+  - ns_dts_3297
+  - ns_dts_3298
+  - ns_dts_3299
+  - ns_dts_3300
+  - ns_dts_3301
+  - ns_dts_3302
+  - ns_dts_3303
+  - ns_dts_3304
+  - ns_dts_3305
+  - ns_dts_3306
+  - ns_dts_3307
+  - ns_dts_3308
+  - ns_dts_3309
+  - ns_dts_3310
+  - ns_dts_3311
+  - ns_dts_3312
+  - ns_dts_3313
+  - ns_dts_3314
+  - ns_dts_3315
+  - ns_dts_3316
+  - ns_dts_3317
+  - ns_dts_3318
+  - ns_dts_3319
+  - ns_dts_3320
+  - ns_dts_3321
+  - ns_dts_3322
+  - ns_dts_3323
+  - ns_dts_3324
+  - ns_dts_3325
+  - ns_dts_3326
+  - ns_dts_3327
+  - ns_dts_3328
+  - ns_dts_3329
+  - ns_dts_3330
+  - ns_dts_3331
+  - ns_dts_3332
+  - ns_dts_3333
+  - ns_dts_3334
+  - ns_dts_3335
+  - ns_dts_3336
+  - ns_dts_3337
+  - ns_dts_3338
+  - ns_dts_3339
+  - ns_dts_3340
+  - ns_dts_3341
+  - ns_dts_3342
+  - ns_dts_3343
+  - ns_dts_3344
+  - ns_dts_3345
+  - ns_dts_3346
+  - ns_dts_3347
+  - ns_dts_3348
+  - ns_dts_3349
+  - ns_dts_3350
+  - ns_dts_3351
+  - ns_dts_3352
+  - ns_dts_3353
+  - ns_dts_3354
+  - ns_dts_3355
+  - ns_dts_3356
+  - ns_dts_3357
+  - ns_dts_3358
+  - ns_dts_3359
+  - ns_dts_3360
+  - ns_dts_3361
+  - ns_dts_3362
+  - ns_dts_3363
+  - ns_dts_3364
+  - ns_dts_3365
+  - ns_dts_3366
+  - ns_dts_3367
+  - ns_dts_3368
+  - ns_dts_3369
+  - ns_dts_3370
+  - ns_dts_3371
+  - ns_dts_3372
+  - ns_dts_3373
+  - ns_dts_3374
+  - ns_dts_3375
+  - ns_dts_3376
+  - ns_dts_3377
+  - ns_dts_3378
+  - ns_dts_3379
+  - ns_dts_3380
+  - ns_dts_3381
+  - ns_dts_3382
+  - ns_dts_3383
+  - ns_dts_3384
+  - ns_dts_3385
+  - ns_dts_3386
+  - ns_dts_3387
+  - ns_dts_3388
+  - ns_dts_3389
+  - ns_dts_3390
+  - ns_dts_3391
+  - ns_dts_3392
+  - ns_dts_3393
+  - ns_dts_3394
+  - ns_dts_3395
+  - ns_dts_3396
+  - ns_dts_3397
+  - ns_dts_3398
+  - ns_dts_3399
+  - ns_dts_3400
+  - ns_dts_3401
+  - ns_dts_3402
+  - ns_dts_3403
+  - ns_dts_3404
+  - ns_dts_3405
+  - ns_dts_3406
+  - ns_dts_3407
+  - ns_dts_3408
+  - ns_dts_3409
+  - ns_dts_3410
+  - ns_dts_3411
+  - ns_dts_3412
+  - ns_dts_3413
+  - ns_dts_3414
+  - ns_dts_3415
+  - ns_dts_3416
+  - ns_dts_3417
+  - ns_dts_3418
+  - ns_dts_3419
+  - ns_dts_3420
+  - ns_dts_3421
+  - ns_dts_3422
+  - ns_dts_3423
+  - ns_dts_3424
+  - ns_dts_3425
+  - ns_dts_3426
+  - ns_dts_3427
+  - ns_dts_3428
+  - ns_dts_3429
+  - ns_dts_3430
+  - ns_dts_3431
+  - ns_dts_3432
+  - ns_dts_3433
+  - ns_dts_3434
+  - ns_dts_3435
+  - ns_dts_3436
+  - ns_dts_3437
+  - ns_dts_3438
+  - ns_dts_3439
+  - ns_dts_3440
+  - ns_dts_3441
+  - ns_dts_3442
+  - ns_dts_3443
+  - ns_dts_3444
+  - ns_dts_3445
+  - ns_dts_3446
+  - ns_dts_3447
+  - ns_dts_3448
+  - ns_dts_3449
+  - ns_dts_3450
+  - ns_dts_3451
+  - ns_dts_3452
+  - ns_dts_3453
+  - ns_dts_3454
+  - ns_dts_3455
+  - ns_dts_3456
+  - ns_dts_3457
+  - ns_dts_3458
+  - ns_dts_3459
+  - ns_dts_3460
+  - ns_dts_3461
+  - ns_dts_3462
+  - ns_dts_3463
+  - ns_dts_3464
+  - ns_dts_3465
+  - ns_dts_3466
+  - ns_dts_3467
+  - ns_dts_3468
+  - ns_dts_3469
+  - ns_dts_3470
+  - ns_dts_3471
+  - ns_dts_3472
+  - ns_dts_3473
+  - ns_dts_3474
+  - ns_dts_3475
+  - ns_dts_3476
+  - ns_dts_3477
+  - ns_dts_3478
+  - ns_dts_3479
+  - ns_dts_3480
+  - ns_dts_3481
+  - ns_dts_3482
+  - ns_dts_3483
+  - ns_dts_3484
+  - ns_dts_3485
+  - ns_dts_3486
+  - ns_dts_3487
+  - ns_dts_3488
+  - ns_dts_3489
+  - ns_dts_3490
+  - ns_dts_3491
+  - ns_dts_3492
+  - ns_dts_3493
+  - ns_dts_3494
+  - ns_dts_3495
+  - ns_dts_3496
+  - ns_dts_3497
+  - ns_dts_3498
+  - ns_dts_3499
+  - ns_dts_3500
+  - ns_dts_3501
+  - ns_dts_3502
+  - ns_dts_3503
+  - ns_dts_3504
+  - ns_dts_3505
+  - ns_dts_3506
+  - ns_dts_3507
+  - ns_dts_3508
+  - ns_dts_3509
+  - ns_dts_3510
+  - ns_dts_3511
+  - ns_dts_3512
+  - ns_dts_3513
+  - ns_dts_3514
+  - ns_dts_3515
+  - ns_dts_3516
+  - ns_dts_3517
+  - ns_dts_3518
+  - ns_dts_3519
+  - ns_dts_3520
+  - ns_dts_3521
+  - ns_dts_3522
+  - ns_dts_3523
+  - ns_dts_3524
+  - ns_dts_3525
+  - ns_dts_3526
+  - ns_dts_3527
+  - ns_dts_3528
+  - ns_dts_3529
+  - ns_dts_3530
+  - ns_dts_3531
+  - ns_dts_3532
+  - ns_dts_3533
+  - ns_dts_3534
+  - ns_dts_3535
+  - ns_dts_3536
+  - ns_dts_3537
+  - ns_dts_3538
+  - ns_dts_3539
+  - ns_dts_3540
+  - ns_dts_3541
+  - ns_dts_3542
+  - ns_dts_3543
+  - ns_dts_3544
+  - ns_dts_3545
+  - ns_dts_3546
+  - ns_dts_3547
+  - ns_dts_3548
+  - ns_dts_3549
+  - ns_dts_3550
+  - ns_dts_3551
+  - ns_dts_3552
+  - ns_dts_3553
+  - ns_dts_3554
+  - ns_dts_3555
+  - ns_dts_3556
+  - ns_dts_3557
+  - ns_dts_3558
+  - ns_dts_3559
+  - ns_dts_3560
+  - ns_dts_3561
+  - ns_dts_3562
+  - ns_dts_3563
+  - ns_dts_3564
+  - ns_dts_3565
+  - ns_dts_3566
+  - ns_dts_3567
+  - ns_dts_3568
+  - ns_dts_3569
+  - ns_dts_3570
+  - ns_dts_3571
+  - ns_dts_3572
+  - ns_dts_3573
+  - ns_dts_3574
+  - ns_dts_3575
+  - ns_dts_3576
+  - ns_dts_3577
+  - ns_dts_3578
+  - ns_dts_3579
+  - ns_dts_3580
+  - ns_dts_3581
+  - ns_dts_3582
+  - ns_dts_3583
+  - ns_dts_3584
+  - ns_dts_3585
+  - ns_dts_3586
+  - ns_dts_3587
+  - ns_dts_3588
+  - ns_dts_3589
+  - ns_dts_3590
+  - ns_dts_3591
+  - ns_dts_3592
+  - ns_dts_3593
+  - ns_dts_3594
+  - ns_dts_3595
+  - ns_dts_3596
+  - ns_dts_3597
+  - ns_dts_3598
+  - ns_dts_3599
+  - ns_dts_3600
+  - ns_dts_3601
+  - ns_dts_3602
+  - ns_dts_3603
+  - ns_dts_3604
+  - ns_dts_3605
+  - ns_dts_3606
+  - ns_dts_3607
+  - ns_dts_3608
+  - ns_dts_3609
+  - ns_dts_3610
+  - ns_dts_3611
+  - ns_dts_3612
+  - ns_dts_3613
+  - ns_dts_3614
+  - ns_dts_3615
+  - ns_dts_3616
+  - ns_dts_3617
+  - ns_dts_3618
+  - ns_dts_3619
+  - ns_dts_3620
+  - ns_dts_3621
+  - ns_dts_3622
+  - ns_dts_3623
+  - ns_dts_3624
+  - ns_dts_3625
+  - ns_dts_3626
+  - ns_dts_3627
+  - ns_dts_3628
+  - ns_dts_3629
+  - ns_dts_3630
+  - ns_dts_3631
+  - ns_dts_3632
+  - ns_dts_3633
+  - ns_dts_3634
+  - ns_dts_3635
+  - ns_dts_3636
+  - ns_dts_3637
+  - ns_dts_3638
+  - ns_dts_3639
+  - ns_dts_3640
+  - ns_dts_3641
+  - ns_dts_3642
+  - ns_dts_3643
+  - ns_dts_3644
+  - ns_dts_3645
+  - ns_dts_3646
+  - ns_dts_3647
+  - ns_dts_3648
+  - ns_dts_3649
+  - ns_dts_3650
+  - ns_dts_3651
+  - ns_dts_3652
+  - ns_dts_3653
+  - ns_dts_3654
+  - ns_dts_3655
+  - ns_dts_3656
+  - ns_dts_3657
+  - ns_dts_3658
+  - ns_dts_3659
+  - ns_dts_3660
+  - ns_dts_3661
+  - ns_dts_3662
+  - ns_dts_3663
+  - ns_dts_3664
+  - ns_dts_3665
+  - ns_dts_3666
+  - ns_dts_3667
+  - ns_dts_3668
+  - ns_dts_3669
+  - ns_dts_3670
+  - ns_dts_3671
+  - ns_dts_3672
+  - ns_dts_3673
+  - ns_dts_3674
+  - ns_dts_3675
+  - ns_dts_3676
+  - ns_dts_3677
+  - ns_dts_3678
+  - ns_dts_3679
+  - ns_dts_3680
+  - ns_dts_3681
+  - ns_dts_3682
+  - ns_dts_3683
+  - ns_dts_3684
+  - ns_dts_3685
+  - ns_dts_3686
+  - ns_dts_3687
+  - ns_dts_3688
+  - ns_dts_3689
+  - ns_dts_3690
+  - ns_dts_3691
+  - ns_dts_3692
+  - ns_dts_3693
+  - ns_dts_3694
+  - ns_dts_3695
+  - ns_dts_3696
+  - ns_dts_3697
+  - ns_dts_3698
+  - ns_dts_3699
+  - ns_dts_3700
+  - ns_dts_3701
+  - ns_dts_3702
+  - ns_dts_3703
+  - ns_dts_3704
+  - ns_dts_3705
+  - ns_dts_3706
+  - ns_dts_3707
+  - ns_dts_3708
+  - ns_dts_3709
+  - ns_dts_3710
+  - ns_dts_3711
+  - ns_dts_3712
+  - ns_dts_3713
+  - ns_dts_3714
+  - ns_dts_3715
+  - ns_dts_3716
+  - ns_dts_3717
+  - ns_dts_3718
+  - ns_dts_3719
+  - ns_dts_3720
+  - ns_dts_3721
+  - ns_dts_3722
+  - ns_dts_3723
+  - ns_dts_3724
+  - ns_dts_3725
+  - ns_dts_3726
+  - ns_dts_3727
+  - ns_dts_3728
+  - ns_dts_3729
+  - ns_dts_3730
+  - ns_dts_3731
+  - ns_dts_3732
+  - ns_dts_3733
+  - ns_dts_3734
+  - ns_dts_3735
+  - ns_dts_3736
+  - ns_dts_3737
+  - ns_dts_3738
+  - ns_dts_3739
+  - ns_dts_3740
+  - ns_dts_3741
+  - ns_dts_3742
+  - ns_dts_3743
+  - ns_dts_3744
+  - ns_dts_3745
+  - ns_dts_3746
+  - ns_dts_3747
+  - ns_dts_3748
+  - ns_dts_3749
+  - ns_dts_3750
+  - ns_dts_3751
+  - ns_dts_3752
+  - ns_dts_3753
+  - ns_dts_3754
+  - ns_dts_3755
+  - ns_dts_3756
+  - ns_dts_3757
+  - ns_dts_3758
+  - ns_dts_3759
+  - ns_dts_3760
+  - ns_dts_3761
+  - ns_dts_3762
+  - ns_dts_3763
+  - ns_dts_3764
+  - ns_dts_3765
+  - ns_dts_3766
+  - ns_dts_3767
+  - ns_dts_3768
+  - ns_dts_3769
+  - ns_dts_3770
+  - ns_dts_3771
+  - ns_dts_3772
+  - ns_dts_3773
+  - ns_dts_3774
+  - ns_dts_3775
+  - ns_dts_3776
+  - ns_dts_3777
+  - ns_dts_3778
+  - ns_dts_3779
+  - ns_dts_3780
+  - ns_dts_3781
+  - ns_dts_3782
+  - ns_dts_3783
+  - ns_dts_3784
+  - ns_dts_3785
+  - ns_dts_3786
+  - ns_dts_3787
+  - ns_dts_3788
+  - ns_dts_3789
+  - ns_dts_3790
+  - ns_dts_3791
+  - ns_dts_3792
+  - ns_dts_3793
+  - ns_dts_3794
+  - ns_dts_3795
+  - ns_dts_3796
+  - ns_dts_3797
+  - ns_dts_3798
+  - ns_dts_3799
+  - ns_dts_3800
+  - ns_dts_3801
+  - ns_dts_3802
+  - ns_dts_3803
+  - ns_dts_3804
+  - ns_dts_3805
+  - ns_dts_3806
+  - ns_dts_3807
+  - ns_dts_3808
+  - ns_dts_3809
+  - ns_dts_3810
+  - ns_dts_3811
+  - ns_dts_3812
+  - ns_dts_3813
+  - ns_dts_3814
+  - ns_dts_3815
+  - ns_dts_3816
+  - ns_dts_3817
+  - ns_dts_3818
+  - ns_dts_3819
+  - ns_dts_3820
+  - ns_dts_3821
+  - ns_dts_3822
+  - ns_dts_3823
+  - ns_dts_3824
+  - ns_dts_3825
+  - ns_dts_3826
+  - ns_dts_3827
+  - ns_dts_3828
+  - ns_dts_3829
+  - ns_dts_3830
+  - ns_dts_3831
+  - ns_dts_3832
+  - ns_dts_3833
+  - ns_dts_3834
+  - ns_dts_3835
+  - ns_dts_3836
+  - ns_dts_3837
+  - ns_dts_3838
+  - ns_dts_3839
+  - ns_dts_3840
+  - ns_dts_3841
+  - ns_dts_3842
+  - ns_dts_3843
+  - ns_dts_3844
+  - ns_dts_3845
+  - ns_dts_3846
+  - ns_dts_3847
+  - ns_dts_3848
+  - ns_dts_3849
+  - ns_dts_3850
+  - ns_dts_3851
+  - ns_dts_3852
+  - ns_dts_3873
+  - ns_dts_3874
+  - ns_dts_3875
+  - ns_dts_3876
+  - ns_dts_3877
+  - ns_dts_3878
+  - ns_dts_3879
+  - ns_dts_3880
+  - ns_dts_3881
+  - ns_dts_3882
+  - ns_dts_3883
+  - ns_dts_3884
+  - ns_dts_3885
+  - ns_dts_3886
+  - ns_dts_3887
+  - ns_dts_3888
+  - ns_dts_3904
+  - ns_dts_3905
+  role: 主干
+  condition: null
+  summary: 成就上限
+  metadata:
+    source_ref: 《滴天髓》
+    snippet_count: 1870
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - blade_killing_config
+  - censor_fitness
+  - chart_yinyang_balance
+  - chunza_panding
+  - clear_energy_level
+- node_id: n_滴天髓_6_101
+  snippet_ids:
+  - ns_dts_3853
+  - ns_dts_3868
+  - ns_dts_3869
+  - ns_dts_3889
+  role: 主干
+  condition: null
+  summary: 藏神状态
+  metadata:
+    source_ref: 《滴天髓》通天论#6
+    snippet_count: 4
+  factor_refs:
+  - branch_cluster
+  - qingyi_stability
+- node_id: n_滴天髓_7_102
+  snippet_ids:
+  - ns_dts_3854
+  - ns_dts_3870
+  - ns_dts_3871
+  - ns_dts_3872
+  role: 主干
+  condition: null
+  summary: 日主极性
+  metadata:
+    source_ref: 《滴天髓》通天论#7
+    snippet_count: 4
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_8_103
+  snippet_ids:
+  - ns_dts_3855
+  - ns_dts_3856
+  - ns_dts_3857
+  - ns_dts_3858
+  - ns_dts_3859
+  - ns_dts_3862
+  role: 主干
+  condition: null
+  summary: 日主阴阳类型
+  metadata:
+    source_ref: 《滴天髓》通天论#8
+    snippet_count: 6
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_1_104
+  snippet_ids:
+  - ns_dts_3860
+  role: 主干
+  condition: null
+  summary: 神功
+  metadata:
+    source_ref: 《滴天髓》通天论#1
+    snippet_count: 1
+  factor_refs:
+  - shengong_function
+- node_id: n_滴天髓_吉_105
+  snippet_ids:
+  - ns_dts_3861
+  role: 主干
+  condition: null
+  summary: 辅弼功能
+  metadata:
+    source_ref: 《滴天髓》何知论#吉
+    snippet_count: 1
+  factor_refs:
+  - fubi_function
+- node_id: n_滴天髓_4_106
+  snippet_ids:
+  - ns_dts_3863
+  - ns_dts_3864
+  role: 主干
+  condition: null
+  summary: 理会
+  metadata:
+    source_ref: 《滴天髓》通天论#4
+    snippet_count: 2
+  factor_refs:
+  - shunbei_awareness
+- node_id: n_滴天髓_4_107
+  snippet_ids:
+  - ns_dts_3865
+  - ns_dts_3866
+  - ns_dts_3867
+  - ns_dts_3890
+  role: 主干
+  condition: null
+  summary: 冲烈度
+  metadata:
+    source_ref: 《滴天髓》地支论#4
+    snippet_count: 4
+  factor_refs:
+  - clash_intensity
+  - motion_boundary
+  - motion_priority
+  - xinghai_buffer
+- node_id: n_滴天髓_1_108
+  snippet_ids:
+  - ns_dts_3891
+  - ns_dts_3892
+  - ns_dts_3893
+  - ns_dts_3894
+  - ns_dts_3895
+  - ns_dts_3896
+  - ns_dts_3897
+  - ns_dts_3898
+  - ns_dts_3899
+  - ns_dts_3900
+  role: 主干
+  condition: null
+  summary: 阳支边界
+  metadata:
+    source_ref: 《滴天髓》地支论#1
+    snippet_count: 10
+  factor_refs:
+  - yangzhi_boundary
+  - yangzhi_control_need
+  - yangzhi_momentum
+  - yangzhi_positions
+  - yinzhi_accumulation
+  - yinzhi_boundary
+  - yinzhi_positions
+  - yinzhi_stability
+- node_id: n_滴天髓_滴天髓_地支论_109
+  snippet_ids:
+  - ns_dts_3901
+  - ns_dts_3902
+  role: 主干
+  condition: null
+  summary: 冲合关系
+  metadata:
+    source_ref: 《滴天髓》地支论
+    snippet_count: 2
+  factor_refs:
+  - achievement_ceiling
+  - adjustment_strategy
+  - adjustment_strategy_type
+  - alternate_achievement
+  - alternate_path_flag
+  - attack_frequency
+  - banshen_ambition_potential
+  - banshen_conflict_strategy
+  - banshen_escape_potential
+  - benefit_exclusivity_flag
+- node_id: n_滴天髓_癸水_110
+  snippet_ids:
+  - ns_dts_3906
+  - ns_dts_3936
+  - ns_dts_3937
+  - ns_dts_3938
+  role: 主干
+  condition: null
+  summary: 癸水散失风险
+  metadata:
+    source_ref: 《滴天髓》天干论#癸水
+    snippet_count: 4
+  factor_refs:
+  - gui_boundary
+  - gui_dispersion_risk
+  - gui_spiritual
+  - gui_transformation_power
+- node_id: n_滴天髓_辛金_111
+  snippet_ids:
+  - ns_dts_3907
+  - ns_dts_3927
+  - ns_dts_3928
+  - ns_dts_3929
+  - ns_dts_3930
+  - ns_dts_3931
+  - ns_dts_3932
+  role: 主干
+  condition: null
+  summary: 辛丙合化
+  metadata:
+    source_ref: 《滴天髓》天干论#辛金
+    snippet_count: 7
+  factor_refs:
+  - transformation
+- node_id: n_滴天髓_丁火_112
+  snippet_ids:
+  - ns_dts_3908
+  - ns_dts_3909
+  - ns_dts_3910
+  role: 主干
+  condition: null
+  summary: 丁火边界
+  metadata:
+    source_ref: 《滴天髓》天干论#丁火
+    snippet_count: 3
+  factor_refs:
+  - ding_boundary
+  - ding_cold_risk
+  - ding_softness
+- node_id: n_滴天髓_戊土_113
+  snippet_ids:
+  - ns_dts_3911
+  - ns_dts_3912
+  - ns_dts_3913
+  - ns_dts_3914
+  - ns_dts_3915
+  - ns_dts_3916
+  - ns_dts_3917
+  role: 主干
+  condition: null
+  summary: 戊土边界
+  metadata:
+    source_ref: 《滴天髓》天干论#戊土
+    snippet_count: 7
+  factor_refs:
+  - wu_boundary
+  - wu_clash_risk
+  - wu_climate_need
+  - wu_commanding
+  - wu_fire_dryness
+  - wu_stability
+  - wu_water_moisture
+- node_id: n_滴天髓_己土_114
+  snippet_ids:
+  - ns_dts_3918
+  - ns_dts_3919
+  - ns_dts_3920
+  - ns_dts_3921
+  - ns_dts_3922
+  - ns_dts_3923
+  role: 主干
+  condition: null
+  summary: 己土边界
+  metadata:
+    source_ref: 《滴天髓》天干论#己土
+    snippet_count: 6
+  factor_refs:
+  - ji_boundary
+  - ji_grade
+  - ji_moisture
+  - ji_pivot_boundary
+  - ji_storage
+  - ji_trigger_conditions
+- node_id: n_滴天髓_庚金_115
+  snippet_ids:
+  - ns_dts_3924
+  - ns_dts_3925
+  - ns_dts_3926
+  role: 主干
+  condition: null
+  summary: 庚金边界
+  metadata:
+    source_ref: 《滴天髓》天干论#庚金
+    snippet_count: 3
+  factor_refs:
+  - geng_boundary
+  - geng_hardness
+  - geng_weapon_formation
+- node_id: n_滴天髓_壬水_116
+  snippet_ids:
+  - ns_dts_3933
+  - ns_dts_3934
+  - ns_dts_3935
+  role: 主干
+  condition: null
+  summary: 壬水边界
+  metadata:
+    source_ref: 《滴天髓》天干论#壬水
+    snippet_count: 3
+  factor_refs:
+  - ren_boundary
+  - ren_firmness
+  - ren_momentum
+- node_id: n_滴天髓_乙木_117
+  snippet_ids:
+  - ns_dts_3940
+  - ns_dts_3944
+  - ns_dts_3945
+  - ns_dts_3946
+  - ns_dts_3947
+  - ns_dts_3948
+  role: 主干
+  condition: null
+  summary: 乙木阳策
+  metadata:
+    source_ref: 《滴天髓》天干论#乙木
+    snippet_count: 6
+  factor_refs:
+  - yi_attachment_mode
+  - yi_boundary
+  - yi_moisture_state
+  - yi_precision_potential
+  - yi_support_profile
+  - yi_yang_strategy
+- node_id: n_滴天髓_丙火_118
+  snippet_ids:
+  - ns_dts_3941
+  - ns_dts_3942
+  - ns_dts_3943
+  role: 主干
+  condition: null
+  summary: 丙火边界
+  metadata:
+    source_ref: 《滴天髓》天干论#丙火
+    snippet_count: 3
+  factor_refs:
+  - bing_boundary
+  - bing_intensity
+  - bing_xin_relation
+- node_id: n_滴天髓_甲木_119
+  snippet_ids:
+  - ns_dts_025
+  - ns_dts_026
+  - ns_dts_027
+  - ns_dts_113
+  - ns_dts_114
+  role: 主干
+  condition: null
+  summary: 日主=甲木
+  metadata:
+    source_ref: 《滴天髓·天干论》#甲木
+    snippet_count: 5
+  factor_refs:
+  - bing_boundary
+  - bing_earth_support
+  - bing_fenmie_risk
+  - bing_geng_relation
+  - bing_intensity
+  - bing_water_control
+  - bing_xin_relation
+  - ding_boundary
+  - ding_cold_risk
+  - ding_intensity_balance
+- node_id: n_滴天髓_甲木_120
+  snippet_ids:
+  - ns_dts_jia_001
+  - ns_dts_jia_002
+  - ns_dts_jia_003
+  - ns_dts_jia_004
+  role: 主干
+  condition: null
+  summary: 甲木边界
+  metadata:
+    source_ref: 《滴天髓》天干论#甲木
+    snippet_count: 4
+  factor_refs:
+  - jia_boundary
+  - jia_burn_risk
+  - jia_growth_potential
+  - jia_root_strength
+- node_id: n_滴天髓_乙木_121
+  snippet_ids:
+  - ns_dts_028
+  - ns_dts_029
+  - ns_dts_030
+  - ns_dts_115
+  - ns_dts_116
+  role: 主干
+  condition: null
+  summary: 日主=乙木
+  metadata:
+    source_ref: 《滴天髓·天干论》#乙木
+    snippet_count: 5
+  factor_refs:
+  - bing_boundary
+  - bing_earth_support
+  - bing_fenmie_risk
+  - bing_geng_relation
+  - bing_intensity
+  - bing_water_control
+  - bing_xin_relation
+  - ding_boundary
+  - ding_cold_risk
+  - ding_intensity_balance
+- node_id: n_滴天髓_丙火_122
+  snippet_ids:
+  - ns_dts_031
+  - ns_dts_032
+  - ns_dts_033
+  - ns_dts_117
+  - ns_dts_118
+  role: 主干
+  condition: null
+  summary: 日主=丙火
+  metadata:
+    source_ref: 《滴天髓·天干论》#丙火
+    snippet_count: 5
+  factor_refs:
+  - bing_boundary
+  - bing_earth_support
+  - bing_fenmie_risk
+  - bing_geng_relation
+  - bing_intensity
+  - bing_water_control
+  - bing_xin_relation
+  - ding_boundary
+  - ding_cold_risk
+  - ding_intensity_balance
+- node_id: n_滴天髓_丁火_123
+  snippet_ids:
+  - ns_dts_034
+  - ns_dts_035
+  - ns_dts_036
+  - ns_dts_119
+  - ns_dts_120
+  role: 主干
+  condition: null
+  summary: 日主=丁火
+  metadata:
+    source_ref: 《滴天髓·天干论》#丁火
+    snippet_count: 5
+  factor_refs:
+  - bing_boundary
+  - bing_earth_support
+  - bing_fenmie_risk
+  - bing_geng_relation
+  - bing_intensity
+  - bing_water_control
+  - bing_xin_relation
+  - ding_boundary
+  - ding_cold_risk
+  - ding_intensity_balance
+- node_id: n_滴天髓_戊土_124
+  snippet_ids:
+  - ns_dts_037
+  - ns_dts_038
+  - ns_dts_039
+  - ns_dts_121
+  - ns_dts_122
+  role: 主干
+  condition: null
+  summary: 日主=戊土
+  metadata:
+    source_ref: 《滴天髓·天干论》#戊土
+    snippet_count: 5
+  factor_refs:
+  - bing_boundary
+  - bing_earth_support
+  - bing_fenmie_risk
+  - bing_geng_relation
+  - bing_intensity
+  - bing_water_control
+  - bing_xin_relation
+  - ding_boundary
+  - ding_cold_risk
+  - ding_intensity_balance
+- node_id: n_滴天髓_己土_125
+  snippet_ids:
+  - ns_dts_040
+  - ns_dts_041
+  - ns_dts_042
+  - ns_dts_123
+  - ns_dts_124
+  role: 主干
+  condition: null
+  summary: 日主=己土
+  metadata:
+    source_ref: 《滴天髓·天干论》#己土
+    snippet_count: 5
+  factor_refs:
+  - bing_boundary
+  - bing_earth_support
+  - bing_fenmie_risk
+  - bing_geng_relation
+  - bing_intensity
+  - bing_water_control
+  - bing_xin_relation
+  - ding_boundary
+  - ding_cold_risk
+  - ding_intensity_balance
+- node_id: n_滴天髓_庚金_126
+  snippet_ids:
+  - ns_dts_043
+  - ns_dts_044
+  - ns_dts_045
+  - ns_dts_125
+  - ns_dts_126
+  role: 主干
+  condition: null
+  summary: 日主=庚金
+  metadata:
+    source_ref: 《滴天髓·天干论》#庚金
+    snippet_count: 5
+  factor_refs:
+  - bing_boundary
+  - bing_earth_support
+  - bing_fenmie_risk
+  - bing_geng_relation
+  - bing_intensity
+  - bing_water_control
+  - bing_xin_relation
+  - ding_boundary
+  - ding_cold_risk
+  - ding_intensity_balance
+- node_id: n_滴天髓_辛金_127
+  snippet_ids:
+  - ns_dts_046
+  - ns_dts_047
+  - ns_dts_048
+  - ns_dts_127
+  - ns_dts_128
+  role: 主干
+  condition: null
+  summary: 日主=辛金
+  metadata:
+    source_ref: 《滴天髓·天干论》#辛金
+    snippet_count: 5
+  factor_refs:
+  - bing_boundary
+  - bing_earth_support
+  - bing_fenmie_risk
+  - bing_geng_relation
+  - bing_intensity
+  - bing_water_control
+  - bing_xin_relation
+  - ding_boundary
+  - ding_cold_risk
+  - ding_intensity_balance
+- node_id: n_滴天髓_壬水_128
+  snippet_ids:
+  - ns_dts_049
+  - ns_dts_050
+  - ns_dts_051
+  - ns_dts_129
+  - ns_dts_130
+  role: 主干
+  condition: null
+  summary: 日主=壬水
+  metadata:
+    source_ref: 《滴天髓·天干论》#壬水
+    snippet_count: 5
+  factor_refs:
+  - bing_boundary
+  - bing_earth_support
+  - bing_fenmie_risk
+  - bing_geng_relation
+  - bing_intensity
+  - bing_water_control
+  - bing_xin_relation
+  - ding_boundary
+  - ding_cold_risk
+  - ding_intensity_balance
+- node_id: n_滴天髓_癸水_129
+  snippet_ids:
+  - ns_dts_052
+  - ns_dts_053
+  - ns_dts_054
+  - ns_dts_131
+  - ns_dts_132
+  role: 主干
+  condition: null
+  summary: 日主=癸水
+  metadata:
+    source_ref: 《滴天髓·天干论》#癸水
+    snippet_count: 5
+  factor_refs:
+  - bing_boundary
+  - bing_earth_support
+  - bing_fenmie_risk
+  - bing_geng_relation
+  - bing_intensity
+  - bing_water_control
+  - bing_xin_relation
+  - ding_boundary
+  - ding_cold_risk
+  - ding_intensity_balance
+edges:
+- from_node: n_滴天髓_第1条_0
+  to_node: n_滴天髓_1_104
+  relation: leads_to
+  condition: 历法节令通过四时造化显现
+  metadata:
+    source_relation_id: rel_dts_tt_001
+    source_ref: 《滴天髓》通天论#1
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_第2条_1
+  to_node: n_滴天髓_滴天髓_100
+  relation: supports
+  condition: 地支局与用神相生扶
+  metadata:
+    source_relation_id: rel_dts_004
+    source_ref: 《滴天髓》通天论#2
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_第2条_1
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 须结合合德与否判断
+  metadata:
+    source_relation_id: rel_dts_005
+    source_ref: 《滴天髓》通天论#2
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_2_2
+  to_node: n_滴天髓_第2条_1
+  relation: leads_to
+  condition: 五行方位分布定偏全模式
+  metadata:
+    source_relation_id: rel_dts_tt_004
+    source_ref: 《滴天髓》通天论#2
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_第2条_1
+  to_node: n_滴天髓_2_2
+  relation: leads_to
+  condition: 极端偏缺时风险升高
+  metadata:
+    source_relation_id: rel_dts_tt_005
+    source_ref: 《滴天髓》通天论#2
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_第3条_3
+  relation: leads_to
+  condition: 天元提供时序基准
+  metadata:
+    source_relation_id: rel_dts_007
+    source_ref: 《滴天髓》通天论#3
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_第3条_3
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 同命局不同选择不同结果
+  metadata:
+    source_relation_id: rel_dts_008
+    source_ref: 《滴天髓》通天论#3
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_3_4
+  to_node: n_滴天髓_第3条_3
+  relation: leads_to
+  condition: 承接天时为三才上层
+  metadata:
+    source_relation_id: rel_dts_tt_007
+    source_ref: 《滴天髓》通天论#3
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_第4条_5
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 节令运岁变化
+  metadata:
+    source_relation_id: rel_dts_010
+    source_ref: 《滴天髓》通天论#4
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_己土_114
+  to_node: n_滴天髓_第4条_5
+  relation: leads_to
+  condition: 三重条件组合触发
+  metadata:
+    source_relation_id: rel_dts_tt_017
+    source_ref: 《滴天髓》通天论#4
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_4_106
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 觉察打破迷昧状态
+  metadata:
+    source_relation_id: rel_dts_tt_018
+    source_ref: 《滴天髓》通天论#4
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_4_106
+  to_node: n_滴天髓_第4条_5
+  relation: leads_to
+  condition: 顺悖觉察度影响机点识别
+  metadata:
+    source_relation_id: rel_dts_tt_019
+    source_ref: 《滴天髓》通天论#4
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_第4条_5
+  relation: leads_to
+  condition: 不识机点升高风险
+  metadata:
+    source_relation_id: rel_dts_tt_021
+    source_ref: 《滴天髓》通天论#4
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_第5条_6
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 春进夏长秋退冬藏
+  metadata:
+    source_relation_id: rel_dts_013
+    source_ref: 《滴天髓》通天论#5
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_第5条_6
+  relation: leads_to
+  condition: 进极宜抑退极宜扬
+  metadata:
+    source_relation_id: rel_dts_014
+    source_ref: 《滴天髓》通天论#5
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_乙木_117
+  to_node: n_滴天髓_第5条_6
+  relation: leads_to
+  condition: 抑扬与进退阶段对应
+  metadata:
+    source_relation_id: rel_dts_tt_024
+    source_ref: 《滴天髓》通天论#5
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_乙木_117
+  relation: leads_to
+  condition: 偏离程度影响调节强度
+  metadata:
+    source_relation_id: rel_dts_tt_026
+    source_ref: 《滴天髓》通天论#5
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_6_101
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 三合方局刑冲
+  metadata:
+    source_relation_id: rel_dts_017
+    source_ref: 《滴天髓》通天论#6
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_第6条_7
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 有情无情分吉凶
+  metadata:
+    source_relation_id: rel_dts_018
+    source_ref: 《滴天髓》通天论#6
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_第6条_7
+  to_node: n_滴天髓_6_101
+  relation: leads_to
+  condition: 干支配合需审支群结构
+  metadata:
+    source_relation_id: rel_dts_tt_028
+    source_ref: 《滴天髓》通天论#6
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_6_101
+  to_node: n_滴天髓_第6条_7
+  relation: leads_to
+  condition: 天干有根则力实
+  metadata:
+    source_relation_id: rel_dts_tt_031
+    source_ref: 《滴天髓》通天论#6
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_第7条_8
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 各干在轴上有位置
+  metadata:
+    source_relation_id: rel_dts_020
+    source_ref: 《滴天髓》通天论#7
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_7_102
+  to_node: n_滴天髓_第7条_8
+  relation: leads_to
+  condition: 日主在阴阳轴上有位置
+  metadata:
+    source_relation_id: rel_dts_tt_032
+    source_ref: 《滴天髓》通天论#7
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_7_102
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 极点偏向程度影响整体
+  metadata:
+    source_relation_id: rel_dts_tt_033
+    source_ref: 《滴天髓》通天论#7
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_第8条_9
+  to_node: n_滴天髓_8_103
+  relation: leads_to
+  condition: 以本气为主的从格
+  metadata:
+    source_relation_id: rel_dts_tt_037
+    source_ref: 《滴天髓》通天论#8
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_8_103
+  to_node: n_滴天髓_第8条_9
+  relation: leads_to
+  condition: 日主根令同气构成内力
+  metadata:
+    source_relation_id: rel_dts_tt_039
+    source_ref: 《滴天髓》通天论#8
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_第8条_9
+  to_node: n_滴天髓_6_101
+  relation: leads_to
+  condition: 从得其正情义可固
+  metadata:
+    source_relation_id: rel_dts_tt_043
+    source_ref: 《滴天髓》通天论#8
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_遥系杂气_39
+  relation: depends_on
+  condition: 五格取用之法
+  metadata:
+    source_relation_id: rel_dts_yongshen_007
+    source_ref: 《滴天髓》论格局
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_性情_80
+  relation: leads_to
+  condition: 用神有多种形态
+  metadata:
+    source_relation_id: rel_dts_yongshen_024
+    source_ref: 《滴天髓》论用神
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_体用_52
+  relation: leads_to
+  condition: 用神来源多元
+  metadata:
+    source_relation_id: rel_dts_yongshen_025
+    source_ref: 《滴天髓》论用神
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_体用_52
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 体用为用神理论基础
+  metadata:
+    source_relation_id: rel_dts_yongshen_026
+    source_ref: 《滴天髓》体用论
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_顺反_71
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 顺用为取用方式
+  metadata:
+    source_relation_id: rel_dts_yongshen_028
+    source_ref: 《滴天髓》论顺逆
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_富_96
+  relation: leads_to
+  condition: 财星受制无用
+  metadata:
+    source_relation_id: rel_dts_cai_001
+    source_ref: 《滴天髓》论财
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_分藩_93
+  relation: leads_to
+  condition: 财官配合失当
+  metadata:
+    source_relation_id: rel_dts_cai_005
+    source_ref: 《滴天髓》论财官
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_8_103
+  to_node: n_滴天髓_滴天髓_100
+  relation: depends_on
+  condition: 财旺无比从财
+  metadata:
+    source_relation_id: rel_dts_cong_001
+    source_ref: 《滴天髓》论从格
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_甲木_119
+  to_node: n_滴天髓_己土_125
+  relation: leads_to
+  condition: 甲己合化土
+  metadata:
+    source_relation_id: rel_dts_tianganhe_001
+    source_ref: 《滴天髓》论天干合
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_乙木_121
+  to_node: n_滴天髓_庚金_126
+  relation: leads_to
+  condition: 乙庚合化金
+  metadata:
+    source_relation_id: rel_dts_tianganhe_002
+    source_ref: 《滴天髓》论天干合
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_丙火_122
+  to_node: n_滴天髓_辛金_127
+  relation: leads_to
+  condition: 丙辛合化水
+  metadata:
+    source_relation_id: rel_dts_tianganhe_003
+    source_ref: 《滴天髓》论天干合
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_丁火_123
+  to_node: n_滴天髓_壬水_128
+  relation: leads_to
+  condition: 丁壬合化木
+  metadata:
+    source_relation_id: rel_dts_tianganhe_004
+    source_ref: 《滴天髓》论天干合
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_戊土_124
+  to_node: n_滴天髓_癸水_129
+  relation: leads_to
+  condition: 戊癸合化火
+  metadata:
+    source_relation_id: rel_dts_tianganhe_005
+    source_ref: 《滴天髓》论天干合
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_甲木_119
+  to_node: n_滴天髓_庚金_126
+  relation: leads_to
+  condition: 甲庚相冲
+  metadata:
+    source_relation_id: rel_dts_tianganhe_006
+    source_ref: 《滴天髓》论天干冲
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_乙木_121
+  to_node: n_滴天髓_辛金_127
+  relation: leads_to
+  condition: 乙辛相冲
+  metadata:
+    source_relation_id: rel_dts_tianganhe_007
+    source_ref: 《滴天髓》论天干冲
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_丙火_122
+  to_node: n_滴天髓_壬水_128
+  relation: leads_to
+  condition: 丙壬相冲
+  metadata:
+    source_relation_id: rel_dts_tianganhe_008
+    source_ref: 《滴天髓》论天干冲
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_丁火_123
+  to_node: n_滴天髓_癸水_129
+  relation: leads_to
+  condition: 丁癸相冲
+  metadata:
+    source_relation_id: rel_dts_tianganhe_009
+    source_ref: 《滴天髓》论天干冲
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_合_74
+  relation: leads_to
+  condition: 用神不宜被合
+  metadata:
+    source_relation_id: rel_dts_tianganhe_011
+    source_ref: 《滴天髓》论天干合
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_丙火_122
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 丙火夏天得令
+  metadata:
+    source_relation_id: rel_dts_tiangan_011
+    source_ref: 《滴天髓》天干论
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_丁火_123
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 丁火夏天得令
+  metadata:
+    source_relation_id: rel_dts_tiangan_013
+    source_ref: 《滴天髓》天干论
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_甲木_119
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 水火冲影响甲木
+  metadata:
+    source_relation_id: rel_dts_tiangan_016
+    source_ref: 《滴天髓》天干论
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_母子_78
+  relation: leads_to
+  condition: 墓库开合路径
+  metadata:
+    source_relation_id: rel_dts_shensha_011
+    source_ref: 《滴天髓》论墓库
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_清浊_64
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 日主状态
+  metadata:
+    source_relation_id: rel_dts_za_004
+    source_ref: 《滴天髓》论清浊
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_才德_79
+  relation: leads_to
+  condition: 财星生德
+  metadata:
+    source_relation_id: rel_dts_za_014
+    source_ref: 《滴天髓》论财
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_五行和_81
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 表里不一
+  metadata:
+    source_relation_id: rel_dts_zb_010
+    source_ref: 《滴天髓》论性情
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_财官印绶_38
+  relation: leads_to
+  condition: 月令之气透出
+  metadata:
+    source_relation_id: rel_dts_yueling_002
+    source_ref: 《滴天髓》论格局
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_7_102
+  relation: depends_on
+  condition: 日主为天元核心
+  metadata:
+    source_relation_id: rel_dts_core_001
+    source_ref: 《滴天髓》通天论#1
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_8_103
+  relation: depends_on
+  condition: 日主阴阳属性
+  metadata:
+    source_relation_id: rel_dts_core_002
+    source_ref: 《滴天髓》通天论#1
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_1_108
+  relation: depends_on
+  condition: 阳支组
+  metadata:
+    source_relation_id: rel_dts_core_003
+    source_ref: 《滴天髓》通天论#1
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_生库败_13
+  relation: depends_on
+  condition: 生旺墓绝
+  metadata:
+    source_relation_id: rel_dts_core_005
+    source_ref: 《滴天髓》通天论#1
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_生方库败_12
+  relation: depends_on
+  condition: 生旺墓绝
+  metadata:
+    source_relation_id: rel_dts_core_005
+    source_ref: 《滴天髓》通天论#1
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_滴天髓_地支论_109
+  relation: depends_on
+  condition: 地支冲
+  metadata:
+    source_relation_id: rel_dts_core_006
+    source_ref: 《滴天髓》通天论#1
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_支神冲刑害_14
+  relation: depends_on
+  condition: 地支冲
+  metadata:
+    source_relation_id: rel_dts_core_006
+    source_ref: 《滴天髓》通天论#1
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_地支论_109
+  to_node: n_滴天髓_支神冲刑害_14
+  relation: leads_to
+  condition: 冲的力度
+  metadata:
+    source_relation_id: rel_dts_core_007
+    source_ref: 《滴天髓》通天论#7
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_地支论_109
+  to_node: n_滴天髓_4_107
+  relation: leads_to
+  condition: 冲的力度
+  metadata:
+    source_relation_id: rel_dts_core_007
+    source_ref: 《滴天髓》通天论#7
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_支神冲刑害_14
+  to_node: n_滴天髓_4_107
+  relation: leads_to
+  condition: 冲的力度
+  metadata:
+    source_relation_id: rel_dts_core_007
+    source_ref: 《滴天髓》通天论#7
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_第1条_0
+  to_node: n_滴天髓_滴天髓_100
+  relation: depends_on
+  condition: 天元层级
+  metadata:
+    source_relation_id: rel_dts_core_009
+    source_ref: 《滴天髓》通天论#1
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_第4条_5
+  to_node: n_滴天髓_己土_114
+  relation: leads_to
+  condition: 机枢判定
+  metadata:
+    source_relation_id: rel_dts_core_016
+    source_ref: 《滴天髓》通天论#4
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_第7条_8
+  to_node: n_滴天髓_7_102
+  relation: leads_to
+  condition: 阴阳强度
+  metadata:
+    source_relation_id: rel_dts_core_019
+    source_ref: 《滴天髓》通天论#7
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_第7条_8
+  relation: leads_to
+  condition: 平衡调整
+  metadata:
+    source_relation_id: rel_dts_core_020
+    source_ref: 《滴天髓》通天论#7
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_阳支_10
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 阳支应期
+  metadata:
+    source_relation_id: rel_dts_core_022
+    source_ref: 《滴天髓》通天论#9
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_1_108
+  to_node: n_滴天髓_阳支_10
+  relation: leads_to
+  condition: 阳支应期
+  metadata:
+    source_relation_id: rel_dts_core_022
+    source_ref: 《滴天髓》通天论#9
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_1_108
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 阳支应期
+  metadata:
+    source_relation_id: rel_dts_core_022
+    source_ref: 《滴天髓》通天论#9
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_阴支_11
+  to_node: n_滴天髓_阳支_10
+  relation: leads_to
+  condition: 阳支应期
+  metadata:
+    source_relation_id: rel_dts_core_022
+    source_ref: 《滴天髓》通天论#9
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_阴支_11
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 阳支应期
+  metadata:
+    source_relation_id: rel_dts_core_022
+    source_ref: 《滴天髓》通天论#9
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_1_108
+  to_node: n_滴天髓_阴支_11
+  relation: leads_to
+  condition: 阴支应期
+  metadata:
+    source_relation_id: rel_dts_core_023
+    source_ref: 《滴天髓》通天论#10
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_阴支_11
+  to_node: n_滴天髓_1_108
+  relation: leads_to
+  condition: 阴支应期
+  metadata:
+    source_relation_id: rel_dts_core_023
+    source_ref: 《滴天髓》通天论#10
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_生库败_13
+  to_node: n_滴天髓_生方库败_12
+  relation: leads_to
+  condition: 墓库状态
+  metadata:
+    source_relation_id: rel_dts_core_024
+    source_ref: 《滴天髓》通天论#11
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_生方库败_12
+  to_node: n_滴天髓_生库败_13
+  relation: leads_to
+  condition: 墓库状态
+  metadata:
+    source_relation_id: rel_dts_core_024
+    source_ref: 《滴天髓》通天论#11
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_暗冲暗会_16
+  to_node: n_滴天髓_支神冲刑害_14
+  relation: leads_to
+  condition: 藏干优先
+  metadata:
+    source_relation_id: rel_dts_core_025
+    source_ref: 《滴天髓》通天论#12
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_暗冲暗会_16
+  to_node: n_滴天髓_支神冲刑害_15
+  relation: leads_to
+  condition: 藏干优先
+  metadata:
+    source_relation_id: rel_dts_core_025
+    source_ref: 《滴天髓》通天论#12
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_暗冲暗会_16
+  to_node: n_滴天髓_4_107
+  relation: leads_to
+  condition: 藏干优先
+  metadata:
+    source_relation_id: rel_dts_core_025
+    source_ref: 《滴天髓》通天论#12
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_地全三物_18
+  to_node: n_滴天髓_地生天者天衰怕冲_22
+  relation: leads_to
+  condition: 天干有根
+  metadata:
+    source_relation_id: rel_dts_tg_c002
+    source_ref: 《滴天髓》天干论#甲木
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_地全三物_18
+  to_node: n_滴天髓_天合地者地旺喜静_23
+  relation: leads_to
+  condition: 纯度评估
+  metadata:
+    source_relation_id: rel_dts_tg_c005
+    source_ref: 《滴天髓》天干论#丁火
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_8_103
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 阴阳评估
+  metadata:
+    source_relation_id: rel_dts_dm_c002
+    source_ref: 《滴天髓》天干论#乙木
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_7_102
+  to_node: n_滴天髓_8_103
+  relation: leads_to
+  condition: 从格判定
+  metadata:
+    source_relation_id: rel_dts_dm_c003
+    source_ref: 《滴天髓》通天论#8
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_7_102
+  to_node: n_滴天髓_第8条_9
+  relation: leads_to
+  condition: 气势评估
+  metadata:
+    source_relation_id: rel_dts_dm_c004
+    source_ref: 《滴天髓》通天论#8
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_阳支_10
+  to_node: n_滴天髓_1_108
+  relation: leads_to
+  condition: 动且强之实现
+  metadata:
+    source_relation_id: rel_dts_yz_004
+    source_ref: 《滴天髓》地支论#阳支
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_阳支_10
+  to_node: n_滴天髓_阴支_11
+  relation: leads_to
+  condition: 速达之应期
+  metadata:
+    source_relation_id: rel_dts_yz_005
+    source_ref: 《滴天髓》地支论#阳支
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_阳支_10
+  relation: leads_to
+  condition: 速达之应期
+  metadata:
+    source_relation_id: rel_dts_yz_005
+    source_ref: 《滴天髓》地支论#阳支
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_1_108
+  relation: leads_to
+  condition: 速达之应期
+  metadata:
+    source_relation_id: rel_dts_yz_005
+    source_ref: 《滴天髓》地支论#阳支
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_阴支_11
+  relation: leads_to
+  condition: 速达之应期
+  metadata:
+    source_relation_id: rel_dts_yz_005
+    source_ref: 《滴天髓》地支论#阳支
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_生库败_13
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 三类地支定性
+  metadata:
+    source_relation_id: rel_dts_skb_004
+    source_ref: 《滴天髓》地支论#生库败
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_生方库败_12
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 三类地支定性
+  metadata:
+    source_relation_id: rel_dts_skb_004
+    source_ref: 《滴天髓》地支论#生库败
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_支神冲刑害_14
+  to_node: n_滴天髓_滴天髓_地支论_109
+  relation: leads_to
+  condition: 冲为重之程度
+  metadata:
+    source_relation_id: rel_dts_cxh_004
+    source_ref: 《滴天髓》地支论#支神冲刑害
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_4_107
+  to_node: n_滴天髓_滴天髓_地支论_109
+  relation: leads_to
+  condition: 冲为重之程度
+  metadata:
+    source_relation_id: rel_dts_cxh_004
+    source_ref: 《滴天髓》地支论#支神冲刑害
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_4_107
+  to_node: n_滴天髓_支神冲刑害_14
+  relation: leads_to
+  condition: 冲为重之程度
+  metadata:
+    source_relation_id: rel_dts_cxh_004
+    source_ref: 《滴天髓》地支论#支神冲刑害
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_支神冲刑害_15
+  to_node: n_滴天髓_支神冲刑害_14
+  relation: leads_to
+  condition: 动象判定顺序
+  metadata:
+    source_relation_id: rel_dts_cxh_006
+    source_ref: 《滴天髓》地支论#支神冲刑害
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_支神冲刑害_15
+  to_node: n_滴天髓_4_107
+  relation: leads_to
+  condition: 动象判定顺序
+  metadata:
+    source_relation_id: rel_dts_cxh_006
+    source_ref: 《滴天髓》地支论#支神冲刑害
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_4_107
+  to_node: n_滴天髓_支神冲刑害_15
+  relation: leads_to
+  condition: 复杂刑害致不准时
+  metadata:
+    source_relation_id: rel_dts_cxh_007
+    source_ref: 《滴天髓》地支论#支神冲刑害
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_阳乘阳位_20
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 阳干阳支
+  metadata:
+    source_relation_id: rel_dts_ycyw_001
+    source_ref: 《滴天髓》地支论#阳乘阳位
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_遥系杂气_39
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 标签式定格
+  metadata:
+    source_relation_id: rel_dts_gj2_002
+    source_ref: 《滴天髓》格局论#遥系杂气
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_月令_60
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 合时
+  metadata:
+    source_relation_id: rel_dts_yl_003
+    source_ref: 《滴天髓》月令论#月令
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_众寡_67
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 势在去寡
+  metadata:
+    source_relation_id: rel_dts_zg_003
+    source_ref: 《滴天髓》众寡论#众寡
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_战合_73
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 干支俱战
+  metadata:
+    source_relation_id: rel_dts_zh_003
+    source_ref: 《滴天髓》战合论#战合
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_五行和_81
+  relation: leads_to
+  condition: 各得其所
+  metadata:
+    source_relation_id: rel_dts_jb_001
+    source_ref: 《滴天髓》疾病论#疾病
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_绊神_85
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 因情坏事
+  metadata:
+    source_relation_id: rel_dts_bs_002
+    source_ref: 《滴天髓》绊神论#绊神
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_吉_105
+  relation: leads_to
+  condition: 喜神有力有位
+  metadata:
+    source_relation_id: rel_dts_ji_002
+    source_ref: 《滴天髓》何知论#吉
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_吉_105
+  to_node: n_滴天髓_己土_114
+  relation: leads_to
+  condition: 辅弼作用明显
+  metadata:
+    source_relation_id: rel_dts_ji_003
+    source_ref: 《滴天髓》何知论#吉
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_甲木_120
+  to_node: n_滴天髓_甲木_119
+  relation: leads_to
+  condition: 寅卯辰等根位强度
+  metadata:
+    source_relation_id: rel_dts_jia_006
+    source_ref: 《滴天髓》天干论#甲木
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_乙木_121
+  to_node: n_滴天髓_甲木_119
+  relation: leads_to
+  condition: 乙木依甲而生
+  metadata:
+    source_relation_id: rel_dts_yi_001
+    source_ref: 《滴天髓》天干论#乙木
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_乙木_121
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 丁暖丙明
+  metadata:
+    source_relation_id: rel_dts_yi_002
+    source_ref: 《滴天髓》天干论#乙木
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_乙木_117
+  to_node: n_滴天髓_乙木_121
+  relation: leads_to
+  condition: 系甲系火多元孤立
+  metadata:
+    source_relation_id: rel_dts_yi_005
+    source_ref: 《滴天髓》天干论#乙木
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_乙木_121
+  to_node: n_滴天髓_乙木_117
+  relation: leads_to
+  condition: 无依附无通关时
+  metadata:
+    source_relation_id: rel_dts_yi_010
+    source_ref: 《滴天髓》天干论#乙木
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_丙火_122
+  to_node: n_滴天髓_庚金_126
+  relation: leads_to
+  condition: 烈火锻炼庚金
+  metadata:
+    source_relation_id: rel_dts_bing_001
+    source_ref: 《滴天髓》天干论#丙火
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_丙火_118
+  to_node: n_滴天髓_丙火_122
+  relation: leads_to
+  condition: 欺霜侮雪之实现
+  metadata:
+    source_relation_id: rel_dts_bing_006
+    source_ref: 《滴天髓》天干论#丙火
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_丙火_122
+  to_node: n_滴天髓_丙火_118
+  relation: leads_to
+  condition: 厚土承火则成慈德
+  metadata:
+    source_relation_id: rel_dts_bing_007
+    source_ref: 《滴天髓》天干论#丙火
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_丁火_123
+  to_node: n_滴天髓_乙木_121
+  relation: leads_to
+  condition: 丁护乙免辛克
+  metadata:
+    source_relation_id: rel_dts_ding_001
+    source_ref: 《滴天髓》天干论#丁火
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_丁火_123
+  to_node: n_滴天髓_甲木_119
+  relation: leads_to
+  condition: 甲木正印生丁
+  metadata:
+    source_relation_id: rel_dts_ding_003
+    source_ref: 《滴天髓》天干论#丁火
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_丁火_112
+  to_node: n_滴天髓_丁火_123
+  relation: leads_to
+  condition: 内性昭融之实现
+  metadata:
+    source_relation_id: rel_dts_ding_005
+    source_ref: 《滴天髓》天干论#丁火
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_丁火_123
+  to_node: n_滴天髓_丁火_112
+  relation: leads_to
+  condition: 旺不烈衰不穷
+  metadata:
+    source_relation_id: rel_dts_ding_009
+    source_ref: 《滴天髓》天干论#丁火
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_戊土_124
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 水润戊土则生机
+  metadata:
+    source_relation_id: rel_dts_wu_001
+    source_ref: 《滴天髓》天干论#戊土
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_戊土_113
+  to_node: n_滴天髓_戊土_124
+  relation: leads_to
+  condition: 固重之实现
+  metadata:
+    source_relation_id: rel_dts_wu_005
+    source_ref: 《滴天髓》天干论#戊土
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_己土_114
+  to_node: n_滴天髓_己土_125
+  relation: leads_to
+  condition: 润湿之性实现
+  metadata:
+    source_relation_id: rel_dts_ji_005
+    source_ref: 《滴天髓》天干论#己土
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_庚金_126
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 水泄金锐
+  metadata:
+    source_relation_id: rel_dts_geng_001
+    source_ref: 《滴天髓》天干论#庚金
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_庚金_126
+  to_node: n_滴天髓_乙木_121
+  relation: leads_to
+  condition: 乙庚合使庚受制
+  metadata:
+    source_relation_id: rel_dts_geng_004
+    source_ref: 《滴天髓》天干论#庚金
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_庚金_115
+  to_node: n_滴天髓_庚金_126
+  relation: leads_to
+  condition: 带煞刚强之实现
+  metadata:
+    source_relation_id: rel_dts_geng_005
+    source_ref: 《滴天髓》天干论#庚金
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_辛金_127
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 水多则清秀
+  metadata:
+    source_relation_id: rel_dts_xin_001
+    source_ref: 《滴天髓》天干论#辛金
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_己土_125
+  relation: leads_to
+  condition: 夏热需己土护
+  metadata:
+    source_relation_id: rel_dts_xin_004
+    source_ref: 《滴天髓》天干论#辛金
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_滴天髓_100
+  to_node: n_滴天髓_丁火_123
+  relation: leads_to
+  condition: 冬寒需丁火暖
+  metadata:
+    source_relation_id: rel_dts_xin_005
+    source_ref: 《滴天髓》天干论#辛金
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_辛金_111
+  to_node: n_滴天髓_辛金_127
+  relation: leads_to
+  condition: 清秀之实现
+  metadata:
+    source_relation_id: rel_dts_xin_006
+    source_ref: 《滴天髓》天干论#辛金
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_壬水_128
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 壬水泄金之锐
+  metadata:
+    source_relation_id: rel_dts_ren_001
+    source_ref: 《滴天髓》天干论#壬水
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_壬水_128
+  to_node: n_滴天髓_丁火_123
+  relation: leads_to
+  condition: 壬丁合化木生丁
+  metadata:
+    source_relation_id: rel_dts_ren_002
+    source_ref: 《滴天髓》天干论#壬水
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_壬水_116
+  to_node: n_滴天髓_壬水_128
+  relation: leads_to
+  condition: 汪洋之势评估
+  metadata:
+    source_relation_id: rel_dts_ren_005
+    source_ref: 《滴天髓》天干论#壬水
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_壬水_128
+  to_node: n_滴天髓_壬水_116
+  relation: leads_to
+  condition: 冲天奔地之条件
+  metadata:
+    source_relation_id: rel_dts_ren_006
+    source_ref: 《滴天髓》天干论#壬水
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_癸水_129
+  to_node: n_滴天髓_滴天髓_100
+  relation: leads_to
+  condition: 灵性通天
+  metadata:
+    source_relation_id: rel_dts_gui_001
+    source_ref: 《滴天髓》天干论#癸水
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_癸水_129
+  to_node: n_滴天髓_戊土_124
+  relation: leads_to
+  condition: 须有真火根
+  metadata:
+    source_relation_id: rel_dts_gui_003
+    source_ref: 《滴天髓》天干论#癸水
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_癸水_110
+  to_node: n_滴天髓_癸水_129
+  relation: leads_to
+  condition: 达于天津之实现
+  metadata:
+    source_relation_id: rel_dts_gui_005
+    source_ref: 《滴天髓》天干论#癸水
+    inferred_from: explicit_relation
+- from_node: n_滴天髓_生方库败_12
+  to_node: n_滴天髓_阳支_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_滴天髓_支神冲刑害_14
+  to_node: n_滴天髓_阳支_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_滴天髓_暗冲暗会_16
+  to_node: n_滴天髓_阳支_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_滴天髓_旺冲衰衰者拔_17
+  to_node: n_滴天髓_阳支_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_滴天髓_阳支_10
+  to_node: n_滴天髓_地全三物_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_滴天髓_阳支_10
+  to_node: n_滴天髓_阳乘阳位_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_滴天髓_生方库败_12
+  to_node: n_滴天髓_阴支_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_滴天髓_支神冲刑害_14
+  to_node: n_滴天髓_阴支_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_滴天髓_暗冲暗会_16
+  to_node: n_滴天髓_阴支_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - 'on'
+    - or
+- from_node: n_滴天髓_旺冲衰衰者拔_17
+  to_node: n_滴天髓_阴支_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - 'on'
+    - or
+- from_node: n_滴天髓_阴支_11
+  to_node: n_滴天髓_地全三物_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - 'on'
+    - or
+- from_node: n_滴天髓_阴支_11
+  to_node: n_滴天髓_阳乘阳位_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_滴天髓_阴乘阴位阴气盛_21
+  to_node: n_滴天髓_阴支_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_地生天者天衰怕冲_22
+  to_node: n_滴天髓_阴支_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_上下贵乎情协_24
+  to_node: n_滴天髓_阴支_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_左右贵乎志同_25
+  to_node: n_滴天髓_阴支_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_支神冲刑害_14
+  to_node: n_滴天髓_生方库败_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_滴天髓_暗冲暗会_16
+  to_node: n_滴天髓_生方库败_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - in
+- from_node: n_滴天髓_旺冲衰衰者拔_17
+  to_node: n_滴天髓_生方库败_12
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - in
+- from_node: n_滴天髓_生方库败_12
+  to_node: n_滴天髓_地全三物_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - in
+- from_node: n_滴天髓_生方库败_12
+  to_node: n_滴天髓_阳乘阳位_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - in
+- from_node: n_滴天髓_支神冲刑害_14
+  to_node: n_滴天髓_旺冲衰衰者拔_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_滴天髓_支神冲刑害_14
+  to_node: n_滴天髓_地全三物_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_滴天髓_支神冲刑害_14
+  to_node: n_滴天髓_阳乘阳位_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_滴天髓_旺冲衰衰者拔_17
+  to_node: n_滴天髓_暗冲暗会_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - in
+    - 'on'
+    - or
+    - vs
+- from_node: n_滴天髓_暗冲暗会_16
+  to_node: n_滴天髓_地全三物_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - in
+    - 'on'
+    - or
+- from_node: n_滴天髓_暗冲暗会_16
+  to_node: n_滴天髓_阳乘阳位_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - in
+- from_node: n_滴天髓_暗冲暗会_16
+  to_node: n_滴天髓_阴乘阴位阴气盛_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_地生天者天衰怕冲_22
+  to_node: n_滴天髓_暗冲暗会_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_上下贵乎情协_24
+  to_node: n_滴天髓_暗冲暗会_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_左右贵乎志同_25
+  to_node: n_滴天髓_暗冲暗会_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_旺冲衰衰者拔_17
+  to_node: n_滴天髓_地全三物_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - in
+    - 'on'
+    - or
+- from_node: n_滴天髓_旺冲衰衰者拔_17
+  to_node: n_滴天髓_阳乘阳位_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - in
+- from_node: n_滴天髓_旺冲衰衰者拔_17
+  to_node: n_滴天髓_阴乘阴位阴气盛_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_地生天者天衰怕冲_22
+  to_node: n_滴天髓_旺冲衰衰者拔_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_上下贵乎情协_24
+  to_node: n_滴天髓_旺冲衰衰者拔_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_左右贵乎志同_25
+  to_node: n_滴天髓_旺冲衰衰者拔_17
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_地全三物_18
+  to_node: n_滴天髓_阳乘阳位_19
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - in
+- from_node: n_滴天髓_阴乘阴位阴气盛_21
+  to_node: n_滴天髓_地全三物_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_上下贵乎情协_24
+  to_node: n_滴天髓_地全三物_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_左右贵乎志同_25
+  to_node: n_滴天髓_地全三物_18
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_地生天者天衰怕冲_22
+  to_node: n_滴天髓_阴乘阴位阴气盛_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_上下贵乎情协_24
+  to_node: n_滴天髓_阴乘阴位阴气盛_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_左右贵乎志同_25
+  to_node: n_滴天髓_阴乘阴位阴气盛_21
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_上下贵乎情协_24
+  to_node: n_滴天髓_地生天者天衰怕冲_22
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_地生天者天衰怕冲_22
+  to_node: n_滴天髓_左右贵乎志同_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_上下贵乎情协_24
+  to_node: n_滴天髓_左右贵乎志同_25
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - 'on'
+- from_node: n_滴天髓_支神冲刑害_14
+  to_node: n_滴天髓_支神冲刑害_15
+  relation: leads_to
+  condition: null
+  metadata:
+    inferred_from: sequential_order
+    chapter: 支神冲刑害
+- from_node: n_滴天髓_阳乘阳位_19
+  to_node: n_滴天髓_阳乘阳位_20
+  relation: leads_to
+  condition: null
+  metadata:
+    inferred_from: sequential_order
+    chapter: 阳乘阳位
+- from_node: n_滴天髓_顺反_70
+  to_node: n_滴天髓_顺反_71
+  relation: leads_to
+  condition: null
+  metadata:
+    inferred_from: sequential_order
+    chapter: 顺反
+- from_node: n_滴天髓_1_104
+  to_node: n_滴天髓_1_108
+  relation: leads_to
+  condition: null
+  metadata:
+    inferred_from: sequential_order
+    chapter: '1'
+- from_node: n_滴天髓_4_106
+  to_node: n_滴天髓_4_107
+  relation: leads_to
+  condition: null
+  metadata:
+    inferred_from: sequential_order
+    chapter: '4'
+- from_node: n_滴天髓_甲木_119
+  to_node: n_滴天髓_甲木_120
+  relation: leads_to
+  condition: null
+  metadata:
+    inferred_from: sequential_order
+    chapter: 甲木
+narrative_order:
+- n_滴天髓_中和_55
+- n_滴天髓_假从_44
+- n_滴天髓_假化_45
+- n_滴天髓_真从_42
+- n_滴天髓_真化_43
+- n_滴天髓_众寡_67
+- n_滴天髓_可见不可见_41
+- n_滴天髓_六亲_86
+- n_滴天髓_出身_90
+- n_滴天髓_清静_88
+- n_滴天髓_秀才_89
+- n_滴天髓_科第_87
+- n_滴天髓_刚柔_56
+- n_滴天髓_君臣_77
+- n_滴天髓_台阁_91
+- n_滴天髓_地位_92
+- n_滴天髓_上下贵乎情协_24
+- n_滴天髓_始终有序_26
+- n_滴天髓_坎离_76
+- n_滴天髓_奋郁_68
+- n_滴天髓_官煞可否混_40
+- n_滴天髓_寒暖_58
+- n_滴天髓_休咎系运_46
+- n_滴天髓_何谓冲_49
+- n_滴天髓_何谓和_50
+- n_滴天髓_何谓好_51
+- n_滴天髓_何谓战_48
+- n_滴天髓_恩怨_69
+- n_滴天髓_战合_73
+- n_滴天髓_局混方_33
+- n_滴天髓_成局干透_36
+- n_滴天髓_成方干透_35
+- n_滴天髓_方局一齐来_34
+- n_滴天髓_方局分辨_32
+- n_滴天髓_月令_60
+- n_滴天髓_导论_37
+- n_滴天髓_清浊_64
+- n_滴天髓_源流_62
+- n_滴天髓_燥湿_59
+- n_滴天髓_生时_61
+- n_滴天髓_疾病_82
+- n_滴天髓_诸症_83
+- n_滴天髓_真假_65
+- n_滴天髓_精神_53
+- n_滴天髓_两气成象_27
+- n_滴天髓_五气成形_28
+- n_滴天髓_全象喜行财地_30
+- n_滴天髓_形全形缺_31
+- n_滴天髓_独象喜行化地_29
+- n_滴天髓_贞元_99
+- n_滴天髓_夭_98
+- n_滴天髓_寿_97
+- n_滴天髓_贱_95
+- n_滴天髓_贵_94
+- n_滴天髓_第1条_0
+- n_滴天髓_通隔_63
+- n_滴天髓_闲神_84
+- n_滴天髓_隐显_66
+- n_滴天髓_震兑_75
+- n_滴天髓_反取_72
+- n_滴天髓_顺反_70
+- n_滴天髓_顺逆_57
+- n_滴天髓_庚金_115
+- n_滴天髓_戊土_113
+- n_滴天髓_癸水_110
+- n_滴天髓_辛金_111
+- n_滴天髓_1_104
+- n_滴天髓_3_4
+- n_滴天髓_4_106
+- n_滴天髓_休哎系运_47
+- n_滴天髓_绊神_85
+- n_滴天髓_衰旺_54
+- n_滴天髓_顺反_71
+- n_滴天髓_体用_52
+- n_滴天髓_分藩_93
+- n_滴天髓_地生天者天衰怕冲_22
+- n_滴天髓_天合地者地旺喜静_23
+- n_滴天髓_左右贵乎志同_25
+- n_滴天髓_支神冲刑害_14
+- n_滴天髓_旺冲衰衰者拔_17
+- n_滴天髓_暗冲暗会_16
+- n_滴天髓_生方库败_12
+- n_滴天髓_阳乘阳位_20
+- n_滴天髓_阳支_10
+- n_滴天髓_阴乘阴位阴气盛_21
+- n_滴天髓_阴支_11
+- n_滴天髓_地全三物_18
+- n_滴天髓_丁火_123
+- n_滴天髓_丙火_122
+- n_滴天髓_乙木_121
+- n_滴天髓_壬水_128
+- n_滴天髓_己土_125
+- n_滴天髓_庚金_126
+- n_滴天髓_戊土_124
+- n_滴天髓_甲木_119
+- n_滴天髓_癸水_129
+- n_滴天髓_辛金_127
+- n_滴天髓_性情_80
+- n_滴天髓_合_74
+- n_滴天髓_才德_79
+- n_滴天髓_财官印绶_38
+- n_滴天髓_遥系杂气_39
+- n_滴天髓_母子_78
+- n_滴天髓_五行和_81
+- n_滴天髓_阳乘阳位_19
+- n_滴天髓_富_96
+- n_滴天髓_第2条_1
+- n_滴天髓_第3条_3
+- n_滴天髓_第4条_5
+- n_滴天髓_第5条_6
+- n_滴天髓_第6条_7
+- n_滴天髓_第7条_8
+- n_滴天髓_第8条_9
+- n_滴天髓_滴天髓_100
+- n_滴天髓_吉_105
+- n_滴天髓_滴天髓_地支论_109
+- n_滴天髓_1_108
+- n_滴天髓_4_107
+- n_滴天髓_生库败_13
+- n_滴天髓_丁火_112
+- n_滴天髓_丙火_118
+- n_滴天髓_乙木_117
+- n_滴天髓_壬水_116
+- n_滴天髓_己土_114
+- n_滴天髓_甲木_120
+- n_滴天髓_2_2
+- n_滴天髓_6_101
+- n_滴天髓_7_102
+- n_滴天髓_8_103
+- n_滴天髓_支神冲刑害_15
+entry_nodes:
+- n_滴天髓_第1条_0
+- n_滴天髓_3_4
+- n_滴天髓_上下贵乎情协_24
+- n_滴天髓_始终有序_26
+- n_滴天髓_两气成象_27
+- n_滴天髓_五气成形_28
+- n_滴天髓_独象喜行化地_29
+- n_滴天髓_全象喜行财地_30
+- n_滴天髓_形全形缺_31
+- n_滴天髓_方局分辨_32
+- n_滴天髓_局混方_33
+- n_滴天髓_方局一齐来_34
+- n_滴天髓_成方干透_35
+- n_滴天髓_成局干透_36
+- n_滴天髓_导论_37
+- n_滴天髓_官煞可否混_40
+- n_滴天髓_可见不可见_41
+- n_滴天髓_真从_42
+- n_滴天髓_真化_43
+- n_滴天髓_假从_44
+- n_滴天髓_假化_45
+- n_滴天髓_休咎系运_46
+- n_滴天髓_何谓战_48
+- n_滴天髓_何谓冲_49
+- n_滴天髓_何谓和_50
+- n_滴天髓_何谓好_51
+- n_滴天髓_精神_53
+- n_滴天髓_中和_55
+- n_滴天髓_刚柔_56
+- n_滴天髓_顺逆_57
+- n_滴天髓_寒暖_58
+- n_滴天髓_燥湿_59
+- n_滴天髓_月令_60
+- n_滴天髓_生时_61
+- n_滴天髓_源流_62
+- n_滴天髓_通隔_63
+- n_滴天髓_清浊_64
+- n_滴天髓_真假_65
+- n_滴天髓_隐显_66
+- n_滴天髓_众寡_67
+- n_滴天髓_奋郁_68
+- n_滴天髓_恩怨_69
+- n_滴天髓_顺反_70
+- n_滴天髓_反取_72
+- n_滴天髓_战合_73
+- n_滴天髓_震兑_75
+- n_滴天髓_坎离_76
+- n_滴天髓_君臣_77
+- n_滴天髓_疾病_82
+- n_滴天髓_诸症_83
+- n_滴天髓_闲神_84
+- n_滴天髓_六亲_86
+- n_滴天髓_科第_87
+- n_滴天髓_清静_88
+- n_滴天髓_秀才_89
+- n_滴天髓_出身_90
+- n_滴天髓_台阁_91
+- n_滴天髓_地位_92
+- n_滴天髓_贵_94
+- n_滴天髓_贱_95
+- n_滴天髓_寿_97
+- n_滴天髓_夭_98
+- n_滴天髓_贞元_99
+- n_滴天髓_4_106
+- n_滴天髓_癸水_110
+- n_滴天髓_辛金_111
+- n_滴天髓_戊土_113
+- n_滴天髓_庚金_115
+terminal_nodes:
+- n_滴天髓_衰旺_54
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-12-04T19:15:38.226729'
+  source_files:
+  - data/schema_staging/snippets/滴天髓_snippets.yaml
+  - data/schema_staging/relations/滴天髓_relations.yaml
+  snippet_count: 2486
+  relation_count: 987
+version: 1.0.0

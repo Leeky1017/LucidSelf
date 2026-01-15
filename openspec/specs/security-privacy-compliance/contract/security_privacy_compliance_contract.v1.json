@@ -1,0 +1,72 @@
+{
+  "contract_id": "security-privacy-compliance",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["user_id", "org_id", "version_id"],
+  "entities": [
+    {
+      "name": "DataClassificationLabel",
+      "description": "数据分类标签（最小字段集合，用于最小化、脱敏与合规策略）",
+      "fields": [
+        { "name": "label_id", "type": "string", "required": true, "notes": "标签标识（唯一）" },
+        { "name": "name", "type": "string", "required": true, "notes": "标签名称（受控词表）" },
+        { "name": "sensitivity", "type": "string", "required": true, "notes": "敏感级别（如 public/internal/confidential/secret）" },
+        { "name": "redaction_policy", "type": "string", "required": true, "notes": "脱敏策略（mask/hash/drop 等）" }
+      ]
+    },
+    {
+      "name": "AccessControlEvidence",
+      "description": "访问控制证据（决策/授权/审计关联的最小字段集合）",
+      "fields": [
+        { "name": "evidence_id", "type": "string", "required": true, "notes": "证据标识" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "主体 user_id" },
+        { "name": "org_id", "type": "string", "required": true, "notes": "主体 org_id" },
+        { "name": "resource_type", "type": "string", "required": true, "notes": "资源类型" },
+        { "name": "action", "type": "string", "required": true, "notes": "动作" },
+        { "name": "decision", "type": "string", "required": true, "notes": "ALLOW/DENY/BLOCK" },
+        { "name": "rejection_reason_code", "type": "string", "required": false, "notes": "拒绝原因（见 rejection_reasons）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "PrivacyRequestRecord",
+      "description": "隐私请求处理记录（删除/导出/更正等）",
+      "fields": [
+        { "name": "request_id", "type": "string", "required": true, "notes": "隐私请求标识" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "请求用户" },
+        { "name": "org_id", "type": "string", "required": true, "notes": "请求组织" },
+        { "name": "request_type", "type": "string", "required": true, "notes": "DELETE/EXPORT/RECTIFY 等（受控词表）" },
+        { "name": "status", "type": "string", "required": true, "notes": "PENDING/IN_PROGRESS/DONE/REJECTED 等（受控词表）" },
+        { "name": "result", "type": "string", "required": false, "notes": "ALLOW/DENY/BLOCK（完成后）" },
+        { "name": "rejection_reason_code", "type": "string", "required": false, "notes": "拒绝原因（见 rejection_reasons）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "IncidentResponseRecord",
+      "description": "事件响应记录（安全/隐私事件处置的最小字段集合）",
+      "fields": [
+        { "name": "incident_id", "type": "string", "required": true, "notes": "事件标识" },
+        { "name": "severity", "type": "string", "required": true, "notes": "严重级别（P0/P1/P2 等）" },
+        { "name": "status", "type": "string", "required": true, "notes": "OPEN/MITIGATING/RESOLVED 等（受控词表）" },
+        { "name": "summary", "type": "string", "required": true, "notes": "事件摘要（禁止敏感原文）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" },
+        { "name": "resolved_at", "type": "string", "required": false, "notes": "ISO-8601 时间戳（若适用）" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_USER_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_ORG_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "CROSS_TENANT_ACCESS", "category": "authz", "retryable": false },
+    { "code": "INVALID_DATA_CLASSIFICATION", "category": "validation", "retryable": false },
+    { "code": "INVALID_PRIVACY_REQUEST", "category": "validation", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

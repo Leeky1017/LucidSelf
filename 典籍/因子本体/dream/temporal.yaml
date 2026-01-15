@@ -1,0 +1,72 @@
+# 梦境体系 - 时间类因子
+# Temporal factors for Dream system
+
+factors:
+  # 做梦时间
+  - id: dream_time_segment
+    status: existing
+    display_zh: 做梦时段
+    display_en: Dream Time Segment
+    description_zh: 梦境发生的睡眠阶段
+    description_en: Sleep stage when dream occurred
+    category: temporal
+    value_type: enum
+    value_range: [early_night, midnight, early_morning, nap]
+    applicable_systems: [dream]
+
+  - id: dream_special_timing
+    status: existing
+    display_zh: 特殊时点
+    display_en: Special Timing
+    description_zh: 是否在特殊时间点做的梦
+    description_en: Whether dream occurred at special time
+    category: temporal
+    value_type: enum
+    value_range: [normal, birthday, anniversary, holiday, crisis, transition]
+    applicable_systems: [dream]
+
+  # 梦内时间
+  - id: dream_internal_duration
+    status: existing
+    display_zh: 梦内时长
+    display_en: Internal Duration
+    description_zh: 梦境故事内感知的时间长度
+    description_en: Perceived time duration within dream
+    category: temporal
+    value_type: enum
+    value_range: [moment, hours, days, years, timeless]
+    applicable_systems: [dream]
+
+  - id: dream_time_direction
+    status: existing
+    display_zh: 时间方向
+    display_en: Time Direction
+    description_zh: 梦中时间是否正常流动
+    description_en: Whether time flows normally in dream
+    category: temporal
+    value_type: enum
+    value_range: [forward, backward, loop, non_linear]
+    applicable_systems: [dream]
+
+  # 预兆相关
+  - id: dream_omen_level
+    status: existing
+    display_zh: 征兆级别
+    display_en: Omen Level
+    description_zh: 梦境预示现实事件的可能性
+    description_en: Likelihood of dream foretelling real events
+    category: temporal
+    value_type: enum
+    value_range: [none, low, medium, high]
+    applicable_systems: [dream]
+
+  - id: dream_prophetic_window
+    status: existing
+    display_zh: 预示窗口
+    display_en: Prophetic Window
+    description_zh: 梦境预示的时间范围
+    description_en: Time range the dream may foretell
+    category: temporal
+    value_type: enum
+    value_range: [immediate, short_term, long_term, symbolic]
+    applicable_systems: [dream]

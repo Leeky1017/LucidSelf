@@ -1,0 +1,149 @@
+# 占星体系 - 时间类因子
+# Temporal factors for Astrology system
+
+factors:
+  # 行运
+  - id: transit_planet
+    status: existing
+    display_zh: 行运行星
+    display_en: Transit Planet
+    description_zh: 当前过境的行星
+    description_en: Currently transiting planet
+    category: temporal
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: transit_saturn
+    status: existing
+    display_zh: 土星行运
+    display_en: Saturn Transit
+    description_zh: 土星过境位置
+    description_en: Saturn transit position
+    category: temporal
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: transit_jupiter
+    status: existing
+    display_zh: 木星行运
+    display_en: Jupiter Transit
+    description_zh: 木星过境位置
+    description_en: Jupiter transit position
+    category: temporal
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: transit_uranus
+    status: existing
+    display_zh: 天王星行运
+    display_en: Uranus Transit
+    description_zh: 天王星过境位置
+    description_en: Uranus transit position
+    category: temporal
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: transit_neptune
+    status: existing
+    display_zh: 海王星行运
+    display_en: Neptune Transit
+    description_zh: 海王星过境位置
+    description_en: Neptune transit position
+    category: temporal
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: transit_pluto
+    status: existing
+    display_zh: 冥王星行运
+    display_en: Pluto Transit
+    description_zh: 冥王星过境位置
+    description_en: Pluto transit position
+    category: temporal
+    value_type: reference
+    applicable_systems: [astro]
+
+  # 推运
+  - id: progressed_sun
+    status: existing
+    display_zh: 推运太阳
+    display_en: Progressed Sun
+    description_zh: 次限太阳位置
+    description_en: Secondary progressed Sun position
+    category: temporal
+    value_type: reference
+    applicable_systems: [astro]
+
+  - id: progressed_moon
+    status: existing
+    display_zh: 推运月亮
+    display_en: Progressed Moon
+    description_zh: 次限月亮位置
+    description_en: Secondary progressed Moon position
+    category: temporal
+    value_type: reference
+    applicable_systems: [astro]
+
+  # 回归
+  - id: solar_return
+    status: existing
+    display_zh: 太阳回归
+    display_en: Solar Return
+    description_zh: 太阳回到本命位置
+    description_en: Sun returns to natal position
+    category: temporal
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: lunar_return
+    status: existing
+    display_zh: 月亮回归
+    display_en: Lunar Return
+    description_zh: 月亮回到本命位置
+    description_en: Moon returns to natal position
+    category: temporal
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: saturn_return
+    status: existing
+    display_zh: 土星回归
+    display_en: Saturn Return
+    description_zh: 土星回到本命位置（约29年周期）
+    description_en: Saturn returns to natal position (about 29-year cycle)
+    category: temporal
+    value_type: boolean
+    applicable_systems: [astro]
+
+  # 月相
+  - id: lunar_phase
+    status: existing
+    display_zh: 月相
+    display_en: Lunar Phase
+    description_zh: 当前月亮相位
+    description_en: Current lunar phase
+    category: temporal
+    value_type: enum
+    value_range: [new, waxing_crescent, first_quarter, waxing_gibbous, full, waning_gibbous, third_quarter, waning_crescent]
+    applicable_systems: [astro]
+
+  # 日月蚀
+  - id: solar_eclipse
+    status: existing
+    display_zh: 日蚀
+    display_en: Solar Eclipse
+    description_zh: 日蚀发生
+    description_en: Solar eclipse occurring
+    category: temporal
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: lunar_eclipse
+    status: existing
+    display_zh: 月蚀
+    display_en: Lunar Eclipse
+    description_zh: 月蚀发生
+    description_en: Lunar eclipse occurring
+    category: temporal
+    value_type: boolean
+    applicable_systems: [astro]

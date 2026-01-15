@@ -1,0 +1,60 @@
+{
+  "contract_id": "bootability-and-regression-baseline",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["version_id"],
+  "entities": [
+    {
+      "name": "StartupCheckItem",
+      "description": "启动检查清单项（最小字段集合）",
+      "fields": [
+        { "name": "check_id", "type": "string", "required": true, "notes": "检查项标识（唯一）" },
+        { "name": "name", "type": "string", "required": true, "notes": "检查项名称" },
+        { "name": "required", "type": "boolean", "required": true, "notes": "是否必须通过" },
+        { "name": "status", "type": "string", "required": true, "notes": "PASS/FAIL/SKIP" },
+        { "name": "reason_code", "type": "string", "required": false, "notes": "失败原因代码（见 rejection_reasons）" }
+      ]
+    },
+    {
+      "name": "RegressionSuiteBaseline",
+      "description": "回归套件基线（最小字段集合）",
+      "fields": [
+        { "name": "suite_id", "type": "string", "required": true, "notes": "套件标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "tests", "type": "array<string>", "required": true, "notes": "测试项列表（最小：命令或用例标识）" },
+        { "name": "pass_threshold", "type": "string", "required": true, "notes": "通过阈值（可判定表达）" }
+      ]
+    },
+    {
+      "name": "BlockRecord",
+      "description": "失败阻断记录（最小字段集合）",
+      "fields": [
+        { "name": "block_id", "type": "string", "required": true, "notes": "阻断标识（唯一）" },
+        { "name": "gate", "type": "string", "required": true, "notes": "Gate-0/1/2/3 或资产门禁" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "reason_code", "type": "string", "required": true, "notes": "阻断原因代码（见 rejection_reasons）" },
+        { "name": "summary", "type": "string", "required": true, "notes": "最小可行动摘要" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "VersionLinkReport",
+      "description": "版本关联报告（版本与产物/测试结果的可追溯关系）",
+      "fields": [
+        { "name": "report_id", "type": "string", "required": true, "notes": "报告标识（唯一）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "artifacts", "type": "array<object>", "required": true, "notes": "关联产物（最小字段集合：类型+标识）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "STARTUP_CHECK_FAILED", "category": "gate", "retryable": false },
+    { "code": "REGRESSION_FAILED", "category": "gate", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

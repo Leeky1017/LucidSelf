@@ -1,0 +1,34 @@
+### strict rules
+version: 1
+ruleset_id: semantic_extraction_quality_rules.blocking_demo
+
+blocking:
+  enabled: true
+
+minimum_blocking_set:
+  description: demo
+  error_types: []
+
+thresholds:
+  max_total_errors: 0
+  max_total_warnings: 0
+
+reporting:
+  max_error_samples: 20
+  max_warning_samples: 20
+
+exceptions:
+  path: data/quality_gates/exceptions/semantic_extraction_exceptions.v1.yaml
+
+### run (expected FAIL exit!=0)
+returncode 2
+--- stdout ---
+FAIL: artifacts/_tmp_quality_blocking/quality_report.json
+
+--- stderr ---
+
+
+### output report summary
+verdict fail
+max_total_errors pass 0 0
+max_total_warnings fail 45801 0

@@ -1,0 +1,1238 @@
+book_id: christian_astrology,_vol._1_and_2
+source_file: 典籍/texts/Christian Astrology, vol. 1 and 2/编辑/Christian_Astrology_Horary_v2.1.md,
+  典籍/texts/Christian Astrology, vol. 1 and 2/编辑/Christian_Astrology_Nativities_v2.1.md,
+  典籍/texts/Christian Astrology, vol. 1 and 2/编辑/Christian_Astrology_Foundations_v2.1.md
+extracted_at: '2025-11-30T15:46:48.680424'
+factors:
+- factor_type: State
+  factor_label: L1 dignity for life
+  factor_id: l1_life_dignity
+  factor_source: new_candidate
+  role_position: Life Assessment
+  value_constraint: Dignity score
+  engine_id: astro_calculator
+  notes: Longevity indicator
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948837'
+- factor_type: Spatial
+  factor_label: L1 house position
+  factor_id: l1_house_position
+  factor_source: new_candidate
+  role_position: Power Assessment
+  value_constraint: Angular/Succedent/Cadent
+  engine_id: astro_calculator
+  notes: Capacity to act
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948845'
+- factor_type: State
+  factor_label: Direction indicator
+  factor_id: direction_indicator
+  factor_source: new_candidate
+  role_position: Direction Guide
+  value_constraint: Strongest planet
+  engine_id: astro_semantic
+  notes: Beneficial direction
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948849'
+- factor_type: State
+  factor_label: L2 wealth dignity
+  factor_id: l2_wealth_dignity
+  factor_source: new_candidate
+  role_position: Wealth Assessment
+  value_constraint: Dignity score
+  engine_id: astro_calculator
+  notes: Financial indicator
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948862'
+- factor_type: Relational
+  factor_label: Debt recovery indicator
+  factor_id: debt_recovery
+  factor_source: new_candidate
+  role_position: Recovery Assessment
+  value_constraint: L2-L1 application
+  engine_id: astro_calculator
+  notes: Money return
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948866'
+- factor_type: Entity
+  factor_label: Wealth source
+  factor_id: wealth_source
+  factor_source: new_candidate
+  role_position: Source Indicator
+  value_constraint: Planet in/aspecting 2nd
+  engine_id: astro_semantic
+  notes: Means of wealth
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948871'
+- factor_type: Relational
+  factor_label: Sibling harmony
+  factor_id: sibling_harmony
+  factor_source: new_candidate
+  role_position: Harmony Assessment
+  value_constraint: L3-L1 aspect
+  engine_id: astro_calculator
+  notes: Family relations
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948882'
+- factor_type: State
+  factor_label: Short journey safety
+  factor_id: short_journey_safety
+  factor_source: new_candidate
+  role_position: Journey Assessment
+  value_constraint: L3 + Moon
+  engine_id: astro_calculator
+  notes: Travel safety
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948886'
+- factor_type: State
+  factor_label: Communication reliability
+  factor_id: communication_reliability
+  factor_source: new_candidate
+  role_position: Message Assessment
+  value_constraint: Mercury condition
+  engine_id: astro_calculator
+  notes: News truth
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948890'
+- factor_type: State
+  factor_label: Property quality
+  factor_id: property_quality_4th
+  factor_source: new_candidate
+  role_position: Quality Assessment
+  value_constraint: L4 dignity
+  engine_id: astro_calculator
+  notes: Real estate
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948901'
+- factor_type: State
+  factor_label: Father condition
+  factor_id: father_condition
+  factor_source: new_candidate
+  role_position: Health Assessment
+  value_constraint: L4 state
+  engine_id: astro_calculator
+  notes: Parent health
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948906'
+- factor_type: Spatial
+  factor_label: Hidden location
+  factor_id: hidden_location
+  factor_source: new_candidate
+  role_position: Place Indicator
+  value_constraint: 4th sign + L4
+  engine_id: astro_semantic
+  notes: Where hidden
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948910'
+- factor_type: State
+  factor_label: Matter outcome
+  factor_id: matter_outcome
+  factor_source: existing
+  role_position: Final Result
+  value_constraint: 4th condition
+  engine_id: astro_calculator
+  notes: Conclusion
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948914'
+- factor_type: State
+  factor_label: Fertility indicator
+  factor_id: fertility_indicator
+  factor_source: new_candidate
+  role_position: Fertility Assessment
+  value_constraint: L5/L1/Moon + sign
+  engine_id: astro_calculator
+  notes: Children likelihood
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948926'
+- factor_type: State
+  factor_label: Pregnancy indicator
+  factor_id: pregnancy_indicator
+  factor_source: new_candidate
+  role_position: Pregnancy Assessment
+  value_constraint: Moon-L5 + fertile
+  engine_id: astro_calculator
+  notes: Conception confirmation
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948930'
+- factor_type: Categorical
+  factor_label: Fertile signs
+  factor_id: fertile_signs
+  factor_source: existing
+  role_position: Sign Classification
+  value_constraint: Cancer/Scorpio/Pisces
+  engine_id: astro_semantic
+  notes: Water signs
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948934'
+- factor_type: Categorical
+  factor_label: Barren signs
+  factor_id: barren_signs
+  factor_source: existing
+  role_position: Sign Classification
+  value_constraint: Gemini/Leo/Virgo
+  engine_id: astro_semantic
+  notes: Infertile signs
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948938'
+- factor_type: Structure
+  factor_label: 1st-7th house axis
+  factor_id: horary_1_7_axis
+  factor_source: existing
+  role_position: Relationship Axis
+  value_constraint: Self vs Other
+  engine_id: astro_semantic
+  notes: Universal for partnership
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948954'
+- factor_type: Relational
+  factor_label: L1-L7 application
+  factor_id: l1_l7_application
+  factor_source: new_candidate
+  role_position: Aspect Dynamic
+  value_constraint: Applying/Separating
+  engine_id: astro_rule_engine
+  notes: Marriage prediction key
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948958'
+- factor_type: State
+  factor_label: Mutual reception
+  factor_id: mutual_reception
+  factor_source: existing
+  role_position: Relationship Quality
+  value_constraint: Reception present/absent
+  engine_id: astro_semantic
+  notes: Mutual interest indicator
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948962'
+- factor_type: State
+  factor_label: Combust condition
+  factor_id: combust_state
+  factor_source: existing
+  role_position: Planet Weakness
+  value_constraint: Within 8° of Sun
+  engine_id: astro_calculator
+  notes: Party overwhelmed
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948966'
+- factor_type: Mechanism
+  factor_label: Translation of light
+  factor_id: translation_of_light
+  factor_source: existing
+  role_position: Facilitation
+  value_constraint: Third planet connects
+  engine_id: astro_rule_engine
+  notes: Intermediary enables
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948970'
+- factor_type: Temporal
+  factor_label: Degrees to perfection
+  factor_id: degrees_to_perfection
+  factor_source: existing
+  role_position: Timing
+  value_constraint: Days/weeks/months
+  engine_id: astro_calculator
+  notes: Context-dependent
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948974'
+- factor_type: Structure
+  factor_label: Career house system
+  factor_id: career_house_system
+  factor_source: existing
+  role_position: House Framework
+  value_constraint: 10th-6th-2nd-11th
+  engine_id: astro_semantic
+  notes: Multi-house career structure
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948986'
+- factor_type: Relational
+  factor_label: L1-L10 application
+  factor_id: l1_l10_application
+  factor_source: new_candidate
+  role_position: Hiring Dynamic
+  value_constraint: Applying/Separating
+  engine_id: astro_rule_engine
+  notes: Job application key
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948990'
+- factor_type: State
+  factor_label: L1 in 10th dignified
+  factor_id: l1_in_10th_dignified
+  factor_source: new_candidate
+  role_position: Strong Candidacy
+  value_constraint: L1 placed + dignified
+  engine_id: astro_calculator
+  notes: Professional success indicator
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948994'
+- factor_type: Structure
+  factor_label: 10th house employer
+  factor_id: horary_10th_employer
+  factor_source: existing
+  role_position: Career Axis
+  value_constraint: Employer/status
+  engine_id: astro_semantic
+  notes: Career questions
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.948998'
+- factor_type: Structure
+  factor_label: Lost object house
+  factor_id: horary_2nd_lost
+  factor_source: existing
+  role_position: Object Location
+  value_constraint: 2nd house lord
+  engine_id: astro_semantic
+  notes: Primary lost object significator
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949011'
+- factor_type: Spatial
+  factor_label: L2 house position
+  factor_id: l2_house_position
+  factor_source: new_candidate
+  role_position: Location Indicator
+  value_constraint: 1-12 house
+  engine_id: astro_calculator
+  notes: Where object is located
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949015'
+- factor_type: Spatial
+  factor_label: Elemental place type
+  factor_id: elemental_place_type
+  factor_source: new_candidate
+  role_position: Place Nature
+  value_constraint: Fire/Earth/Air/Water
+  engine_id: astro_semantic
+  notes: Environment description
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949019'
+- factor_type: State
+  factor_label: Angular vs Cadent
+  factor_id: angular_cadent_state
+  factor_source: existing
+  role_position: Findability
+  value_constraint: Angular/Succedent/Cadent
+  engine_id: astro_calculator
+  notes: Recovery likelihood
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949023'
+- factor_type: Temporal
+  factor_label: Moon-L2 separation
+  factor_id: moon_l2_separation
+  factor_source: new_candidate
+  role_position: Movement Indicator
+  value_constraint: Separating/Applying
+  engine_id: astro_calculator
+  notes: Object recently moved
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949027'
+- factor_type: Structure
+  factor_label: Health house system
+  factor_id: health_house_system
+  factor_source: existing
+  role_position: House Framework
+  value_constraint: 1st-6th-7th-10th
+  engine_id: astro_semantic
+  notes: Multi-house health structure
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949040'
+- factor_type: Relational
+  factor_label: L1-L6 strength comparison
+  factor_id: l1_l6_strength
+  factor_source: new_candidate
+  role_position: Prognosis Indicator
+  value_constraint: L1 > L6 or L6 > L1
+  engine_id: astro_calculator
+  notes: Recovery determination
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949044'
+- factor_type: State
+  factor_label: Disease trajectory
+  factor_id: disease_trajectory
+  factor_source: new_candidate
+  role_position: Motion Indicator
+  value_constraint: Applying/Separating
+  engine_id: astro_calculator
+  notes: Disease direction
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949054'
+- factor_type: State
+  factor_label: Benefic/Malefic influence
+  factor_id: benefic_malefic_influence
+  factor_source: existing
+  role_position: Help/Harm Indicator
+  value_constraint: Benefic = help, Malefic = harm
+  engine_id: astro_semantic
+  notes: External factors
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949059'
+- factor_type: Structure
+  factor_label: Death indicator
+  factor_id: house_8_death
+  factor_source: existing
+  role_position: Severe Prognosis
+  value_constraint: 8th house activated
+  engine_id: astro_semantic
+  notes: Mortality question
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949064'
+- factor_type: Structure
+  factor_label: Legal house system
+  factor_id: legal_house_system
+  factor_source: existing
+  role_position: House Framework
+  value_constraint: 1st-7th-10th-4th
+  engine_id: astro_semantic
+  notes: Adversarial structure
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949079'
+- factor_type: Relational
+  factor_label: L1-L7 strength comparison
+  factor_id: l1_l7_strength
+  factor_source: new_candidate
+  role_position: Victory Indicator
+  value_constraint: L1 > L7 or L7 > L1
+  engine_id: astro_calculator
+  notes: Determines victor
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949083'
+- factor_type: State
+  factor_label: Judge inclination
+  factor_id: judge_inclination
+  factor_source: new_candidate
+  role_position: Ruling Indicator
+  value_constraint: L10 → L1 or L10 → L7
+  engine_id: astro_calculator
+  notes: Authority direction
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949087'
+- factor_type: Structure
+  factor_label: Final outcome
+  factor_id: house_4_outcome
+  factor_source: existing
+  role_position: End of Matter
+  value_constraint: 4th house condition
+  engine_id: astro_semantic
+  notes: Legal result
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949091'
+- factor_type: Mechanism
+  factor_label: Settlement indicator
+  factor_id: settlement_indicator
+  factor_source: new_candidate
+  role_position: Compromise
+  value_constraint: Moon translates light
+  engine_id: astro_rule_engine
+  notes: Out-of-court possibility
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949095'
+- factor_type: Structure
+  factor_label: Travel house system
+  factor_id: travel_house_system
+  factor_source: existing
+  role_position: House Framework
+  value_constraint: 3rd-9th-7th
+  engine_id: astro_semantic
+  notes: Distance-based structure
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949107'
+- factor_type: State
+  factor_label: Journey quality indicator
+  factor_id: journey_quality
+  factor_source: new_candidate
+  role_position: Quality Assessment
+  value_constraint: L9 dignity/affliction
+  engine_id: astro_calculator
+  notes: Travel favorability
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949111'
+- factor_type: Spatial
+  factor_label: Elemental terrain
+  factor_id: elemental_terrain
+  factor_source: new_candidate
+  role_position: Place Description
+  value_constraint: Fire/Water/Air/Earth
+  engine_id: astro_semantic
+  notes: Terrain type
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949115'
+- factor_type: State
+  factor_label: Danger indicator
+  factor_id: travel_danger
+  factor_source: new_candidate
+  role_position: Safety Assessment
+  value_constraint: Malefics in 9th
+  engine_id: astro_calculator
+  notes: Voyage safety
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949119'
+- factor_type: State
+  factor_label: Void of course Moon
+  factor_id: moon_void_travel
+  factor_source: existing
+  role_position: Journey Cancellation
+  value_constraint: Moon void
+  engine_id: astro_calculator
+  notes: May not happen
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949122'
+- factor_type: Structure
+  factor_label: Purchase house system
+  factor_id: purchase_house_system
+  factor_source: existing
+  role_position: House Framework
+  value_constraint: 1st-7th-4th-10th
+  engine_id: astro_semantic
+  notes: Transaction structure
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949135'
+- factor_type: State
+  factor_label: Property quality indicator
+  factor_id: property_quality
+  factor_source: new_candidate
+  role_position: Quality Assessment
+  value_constraint: L4 dignity/affliction
+  engine_id: astro_calculator
+  notes: Property soundness
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949138'
+- factor_type: Relational
+  factor_label: Buyer-seller reception
+  factor_id: buyer_seller_reception
+  factor_source: new_candidate
+  role_position: Deal Indicator
+  value_constraint: L1-L7 reception
+  engine_id: astro_calculator
+  notes: Transaction willingness
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949142'
+- factor_type: State
+  factor_label: Price fairness
+  factor_id: price_fairness
+  factor_source: new_candidate
+  role_position: Value Assessment
+  value_constraint: L10 condition
+  engine_id: astro_calculator
+  notes: Fair or unfair price
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949146'
+- factor_type: Temporal
+  factor_label: Purchase opportunity
+  factor_id: purchase_opportunity
+  factor_source: new_candidate
+  role_position: Timing Indicator
+  value_constraint: Moon-L4 aspect
+  engine_id: astro_calculator
+  notes: Opportunity window
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949150'
+- factor_type: Entity
+  factor_label: Ship significator
+  factor_id: ship_significator
+  factor_source: new_candidate
+  role_position: Vessel Representation
+  value_constraint: ASC + Moon
+  engine_id: astro_semantic
+  notes: Dual significator
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949162'
+- factor_type: State
+  factor_label: Maritime safety
+  factor_id: maritime_safety
+  factor_source: new_candidate
+  role_position: Safety Assessment
+  value_constraint: Benefic/malefic connection
+  engine_id: astro_calculator
+  notes: Voyage outcome
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949166'
+- factor_type: State
+  factor_label: Angular malefic danger
+  factor_id: angular_malefic
+  factor_source: new_candidate
+  role_position: Danger Indicator
+  value_constraint: Saturn/Mars in angles
+  engine_id: astro_calculator
+  notes: Threat presence
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949170'
+- factor_type: State
+  factor_label: Crew quality
+  factor_id: crew_quality_ship
+  factor_source: new_candidate
+  role_position: Crew Assessment
+  value_constraint: L1 dignity/nature
+  engine_id: astro_calculator
+  notes: Mariner reliability
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949174'
+- factor_type: Entity
+  factor_label: Thief significator
+  factor_id: thief_significator
+  factor_source: new_candidate
+  role_position: Thief Representation
+  value_constraint: L7 + peregrine
+  engine_id: astro_semantic
+  notes: Criminal identifier
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949185'
+- factor_type: Descriptive
+  factor_label: Elemental complexion
+  factor_id: elemental_complexion
+  factor_source: new_candidate
+  role_position: Physical Description
+  value_constraint: Fire/Earth/Air/Water
+  engine_id: astro_semantic
+  notes: Appearance mapping
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949189'
+- factor_type: State
+  factor_label: Peregrine indicator
+  factor_id: peregrine_thief
+  factor_source: new_candidate
+  role_position: Vagrant/Thief
+  value_constraint: No essential dignity
+  engine_id: astro_calculator
+  notes: Homeless indicator
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949193'
+- factor_type: Relational
+  factor_label: Recovery indicator
+  factor_id: theft_recovery
+  factor_source: new_candidate
+  role_position: Return Assessment
+  value_constraint: Moon-L2 application
+  engine_id: astro_calculator
+  notes: Goods return
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949197'
+- factor_type: Structure
+  factor_label: War house structure
+  factor_id: war_structure
+  factor_source: new_candidate
+  role_position: Adversarial Framework
+  value_constraint: 1st vs 7th
+  engine_id: astro_semantic
+  notes: Opposition axis
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949208'
+- factor_type: Mechanism
+  factor_label: Victory determination
+  factor_id: victory_determination
+  factor_source: new_candidate
+  role_position: Winner Assessment
+  value_constraint: L1 vs L7 dignity
+  engine_id: astro_calculator
+  notes: Comparative
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949212'
+- factor_type: State
+  factor_label: Battle type
+  factor_id: battle_type
+  factor_source: new_candidate
+  role_position: Conflict Nature
+  value_constraint: Mars/Saturn indicator
+  engine_id: astro_semantic
+  notes: Decisive vs siege
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949216'
+- factor_type: Relational
+  factor_label: Treaty possibility
+  factor_id: treaty_indicator
+  factor_source: new_candidate
+  role_position: Negotiation
+  value_constraint: Moon translating
+  engine_id: astro_calculator
+  notes: Peace option
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.949256'
+- factor_type: Mechanism
+  factor_label: Rectification
+  factor_id: rectification
+  factor_source: existing
+  role_position: Time Correction
+  value_constraint: Multiple methods
+  engine_id: astro_calculator
+  notes: Prerequisite
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954154'
+- factor_type: Mechanism
+  factor_label: Trutine
+  factor_id: trutine_hermes
+  factor_source: new_candidate
+  role_position: Conception Method
+  value_constraint: Moon position
+  engine_id: astro_calculator
+  notes: Ancient
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954161'
+- factor_type: Entity
+  factor_label: Hyleg
+  factor_id: hyleg
+  factor_source: existing
+  role_position: Life Giver
+  value_constraint: Sun/Moon/ASC
+  engine_id: astro_calculator
+  notes: Apheta
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954176'
+- factor_type: Entity
+  factor_label: Anareta
+  factor_id: anareta
+  factor_source: existing
+  role_position: Life Destroyer
+  value_constraint: Mars/Saturn
+  engine_id: astro_calculator
+  notes: Interfector
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954181'
+- factor_type: Mechanism
+  factor_label: Primary Direction
+  factor_id: primary_direction
+  factor_source: existing
+  role_position: Timing
+  value_constraint: 1°=1 year
+  engine_id: astro_calculator
+  notes: Predictive
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954185'
+- factor_type: Entity
+  factor_label: Lord of Geniture
+  factor_id: lord_of_geniture
+  factor_source: existing
+  role_position: Strongest Planet
+  value_constraint: By dignity/position
+  engine_id: astro_calculator
+  notes: Character
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954195'
+- factor_type: Entity
+  factor_label: Almuten
+  factor_id: almuten
+  factor_source: existing
+  role_position: Most Dignified
+  value_constraint: At key degrees
+  engine_id: astro_calculator
+  notes: Alternative
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954199'
+- factor_type: Entity
+  factor_label: Lord of 2nd
+  factor_id: lord_2nd
+  factor_source: existing
+  role_position: Wealth Ruler
+  value_constraint: By sign on 2nd cusp
+  engine_id: astro_calculator
+  notes: Money
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954208'
+- factor_type: Entity
+  factor_label: Part of Fortune
+  factor_id: part_of_fortune
+  factor_source: existing
+  role_position: Lot
+  value_constraint: ASC+Moon-Sun (day)
+  engine_id: astro_calculator
+  notes: Fortune
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954213'
+- factor_type: Entity
+  factor_label: Lord of 7th
+  factor_id: lord_7th
+  factor_source: existing
+  role_position: Spouse Ruler
+  value_constraint: By 7th cusp sign
+  engine_id: astro_calculator
+  notes: Partner
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954226'
+- factor_type: Entity
+  factor_label: Venus (natal)
+  factor_id: venus_natal
+  factor_source: existing
+  role_position: Wife Indicator
+  value_constraint: For men
+  engine_id: astro_semantic
+  notes: Marriage
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954230'
+- factor_type: Entity
+  factor_label: Lord of 5th
+  factor_id: lord_5th
+  factor_source: existing
+  role_position: Children Ruler
+  value_constraint: By 5th cusp sign
+  engine_id: astro_calculator
+  notes: Fertility
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954241'
+- factor_type: State
+  factor_label: Sign Fertility
+  factor_id: sign_fertility
+  factor_source: existing
+  role_position: Fruitful/Barren
+  value_constraint: Cancer/Scorpio/Pisces vs Gemini/Leo/Virgo
+  engine_id: astro_semantic
+  notes: Productivity
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954245'
+- factor_type: Entity
+  factor_label: Lord of 10th
+  factor_id: lord_10th
+  factor_source: existing
+  role_position: Career Ruler
+  value_constraint: By MC sign
+  engine_id: astro_calculator
+  notes: Profession
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954253'
+- factor_type: Structure
+  factor_label: Midheaven
+  factor_id: midheaven
+  factor_source: existing
+  role_position: Career Point
+  value_constraint: 10th cusp
+  engine_id: astro_calculator
+  notes: Honor
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954257'
+- factor_type: Entity
+  factor_label: Significator
+  factor_id: significator
+  factor_source: existing
+  role_position: Directed Point
+  value_constraint: ASC/MC/Sun/Moon
+  engine_id: astro_calculator
+  notes: What moves
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954273'
+- factor_type: Entity
+  factor_label: Promittor
+  factor_id: promittor
+  factor_source: existing
+  role_position: Target Point
+  value_constraint: Planets/aspects
+  engine_id: astro_calculator
+  notes: What is met
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.954279'
+- factor_type: Entity
+  factor_label: Seven Planets
+  factor_id: planet_set
+  factor_source: existing
+  role_position: Celestial Bodies
+  value_constraint: 7 classical
+  engine_id: astro_calculator
+  notes: Core
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955235'
+- factor_type: Entity
+  factor_label: North Node
+  factor_id: north_node
+  factor_source: existing
+  role_position: Math Point
+  value_constraint: Increase
+  engine_id: astro_calculator
+  notes: Dragon's Head
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955242'
+- factor_type: Entity
+  factor_label: South Node
+  factor_id: south_node
+  factor_source: existing
+  role_position: Math Point
+  value_constraint: Decrease
+  engine_id: astro_calculator
+  notes: Dragon's Tail
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955247'
+- factor_type: Structure
+  factor_label: Aspect System
+  factor_id: aspect_system
+  factor_source: existing
+  role_position: Angular Framework
+  value_constraint: 5 Ptolemaic
+  engine_id: astro_calculator
+  notes: Geometric
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955251'
+- factor_type: Entity
+  factor_label: Saturn
+  factor_id: planet_saturn
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Greater Malefic
+  engine_id: astro_calculator
+  notes: 30yr
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955262'
+- factor_type: State
+  factor_label: Saturn nature
+  factor_id: saturn_nature
+  factor_source: existing
+  role_position: Temperament
+  value_constraint: Cold, dry
+  engine_id: astro_semantic
+  notes: Core
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955266'
+- factor_type: Entity
+  factor_label: Jupiter
+  factor_id: planet_jupiter
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Greater Benefic
+  engine_id: astro_calculator
+  notes: 12yr
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955275'
+- factor_type: State
+  factor_label: Jupiter nature
+  factor_id: jupiter_nature
+  factor_source: existing
+  role_position: Temperament
+  value_constraint: Hot, moist
+  engine_id: astro_semantic
+  notes: Core
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955279'
+- factor_type: Entity
+  factor_label: Mars
+  factor_id: planet_mars
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Lesser Malefic
+  engine_id: astro_calculator
+  notes: 2yr
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955291'
+- factor_type: State
+  factor_label: Mars nature
+  factor_id: mars_nature
+  factor_source: existing
+  role_position: Temperament
+  value_constraint: Hot, dry
+  engine_id: astro_semantic
+  notes: Core
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955295'
+- factor_type: Entity
+  factor_label: Sun
+  factor_id: planet_sun
+  factor_source: existing
+  role_position: Luminary
+  value_constraint: Greater Light
+  engine_id: astro_calculator
+  notes: Center
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955306'
+- factor_type: State
+  factor_label: Sun nature
+  factor_id: sun_nature
+  factor_source: existing
+  role_position: Temperament
+  value_constraint: Hot, dry
+  engine_id: astro_semantic
+  notes: Core
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955310'
+- factor_type: Entity
+  factor_label: Venus
+  factor_id: planet_venus
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Lesser Benefic
+  engine_id: astro_calculator
+  notes: Beauty
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955318'
+- factor_type: State
+  factor_label: Venus nature
+  factor_id: venus_nature
+  factor_source: existing
+  role_position: Temperament
+  value_constraint: Cold, moist
+  engine_id: astro_semantic
+  notes: Core
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955323'
+- factor_type: Entity
+  factor_label: Mercury
+  factor_id: planet_mercury
+  factor_source: existing
+  role_position: Planet
+  value_constraint: Neutral
+  engine_id: astro_calculator
+  notes: Variable
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955334'
+- factor_type: State
+  factor_label: Mercury nature
+  factor_id: mercury_nature
+  factor_source: existing
+  role_position: Temperament
+  value_constraint: Convertible
+  engine_id: astro_semantic
+  notes: Adaptable
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955339'
+- factor_type: Entity
+  factor_label: Moon
+  factor_id: planet_moon
+  factor_source: existing
+  role_position: Luminary
+  value_constraint: Lesser Light
+  engine_id: astro_calculator
+  notes: Fastest
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955347'
+- factor_type: State
+  factor_label: Moon nature
+  factor_id: moon_nature
+  factor_source: existing
+  role_position: Temperament
+  value_constraint: Cold, moist
+  engine_id: astro_semantic
+  notes: Core
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955351'
+- factor_type: Structure
+  factor_label: Zodiac System
+  factor_id: zodiac_system
+  factor_source: existing
+  role_position: Framework
+  value_constraint: 12 signs
+  engine_id: astro_calculator
+  notes: Core
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955362'
+- factor_type: Structure
+  factor_label: Element System
+  factor_id: element_system
+  factor_source: existing
+  role_position: Framework
+  value_constraint: 4 elements
+  engine_id: astro_semantic
+  notes: Fire/Earth/Air/Water
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955367'
+- factor_type: Structure
+  factor_label: Quality System
+  factor_id: quality_system
+  factor_source: existing
+  role_position: Framework
+  value_constraint: 3 qualities
+  engine_id: astro_semantic
+  notes: Cardinal/Fixed/Mutable
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955371'
+- factor_type: Structure
+  factor_label: House System
+  factor_id: house_system
+  factor_source: existing
+  role_position: Framework
+  value_constraint: 12 houses
+  engine_id: astro_calculator
+  notes: Regiomontanus
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955378'
+- factor_type: State
+  factor_label: House Strength
+  factor_id: house_strength
+  factor_source: existing
+  role_position: Power Level
+  value_constraint: Angular>Succedent>Cadent
+  engine_id: astro_semantic
+  notes: Placement power
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955382'
+- factor_type: State
+  factor_label: Essential Dignity
+  factor_id: essential_dignity
+  factor_source: existing
+  role_position: Strength
+  value_constraint: -5 to +5
+  engine_id: astro_calculator
+  notes: Sign-based
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955395'
+- factor_type: State
+  factor_label: Domicile
+  factor_id: dignity_domicile
+  factor_source: existing
+  role_position: Highest Dignity
+  value_constraint: '+5'
+  engine_id: astro_calculator
+  notes: Rulership
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955399'
+- factor_type: State
+  factor_label: Exaltation
+  factor_id: dignity_exaltation
+  factor_source: existing
+  role_position: High Dignity
+  value_constraint: '+4'
+  engine_id: astro_calculator
+  notes: Power
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955404'
+- factor_type: State
+  factor_label: Detriment
+  factor_id: debility_detriment
+  factor_source: existing
+  role_position: High Debility
+  value_constraint: '-5'
+  engine_id: astro_calculator
+  notes: Weakness
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955408'
+- factor_type: Boundary
+  factor_label: Radical Test
+  factor_id: radical_chart
+  factor_source: existing
+  role_position: Validity
+  value_constraint: Pass/Fail
+  engine_id: astro_rule_engine
+  notes: Prerequisite
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955421'
+- factor_type: State
+  factor_label: Void of Course
+  factor_id: moon_void_of_course
+  factor_source: existing
+  role_position: Warning
+  value_constraint: Moon no aspects
+  engine_id: astro_calculator
+  notes: Major warning
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955427'
+- factor_type: State
+  factor_label: Via Combusta
+  factor_id: via_combusta
+  factor_source: existing
+  role_position: Warning
+  value_constraint: 15°♎-15°♏
+  engine_id: astro_calculator
+  notes: Burned path
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955432'
+- factor_type: State
+  factor_label: Retrograde
+  factor_id: retrograde
+  factor_source: existing
+  role_position: Condition
+  value_constraint: Backward motion
+  engine_id: astro_calculator
+  notes: Delays
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-11-30T15:46:42.955436'

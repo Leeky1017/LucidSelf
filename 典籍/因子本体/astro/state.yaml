@@ -1,0 +1,113 @@
+# 占星体系 - 状态类因子
+# State factors for Astrology system
+
+factors:
+  # 行星尊贵状态
+  - id: astro_domicile
+    status: existing
+    display_zh: 入庙
+    display_en: Domicile
+    aliases_zh: [守护]
+    aliases_en: [Rulership]
+    description_zh: 行星在其守护星座中
+    description_en: Planet in its ruling sign
+    category: state
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: astro_exalted
+    status: existing
+    display_zh: 曜升
+    display_en: Exalted
+    aliases_zh: [旺]
+    description_zh: 行星在其强势星座中
+    description_en: Planet in its exaltation sign
+    category: state
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: astro_detriment
+    status: existing
+    display_zh: 落陷
+    display_en: Detriment
+    aliases_zh: [陷]
+    description_zh: 行星在其守护星座对面的星座
+    description_en: Planet in sign opposite its rulership
+    category: state
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: astro_fall
+    status: existing
+    display_zh: 弱势
+    display_en: Fall
+    description_zh: 行星在其曜升星座对面的星座
+    description_en: Planet in sign opposite its exaltation
+    category: state
+    value_type: boolean
+    applicable_systems: [astro]
+
+  # 行星状态
+  - id: astro_retrograde
+    status: existing
+    display_zh: 逆行
+    display_en: Retrograde
+    aliases_zh: [退行]
+    aliases_en: [Rx]
+    description_zh: 行星逆行状态
+    description_en: Planet in retrograde motion
+    category: state
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: astro_combust
+    status: existing
+    display_zh: 燃烧
+    display_en: Combust
+    description_zh: 行星与太阳过近
+    description_en: Planet too close to Sun
+    category: state
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: astro_cazimi
+    status: existing
+    display_zh: 中心化
+    display_en: Cazimi
+    description_zh: 行星在太阳心
+    description_en: Planet in heart of Sun
+    category: state
+    value_type: boolean
+    applicable_systems: [astro]
+
+  # 行星力量
+  - id: astro_planet_strength
+    status: existing
+    display_zh: 行星力量
+    display_en: Planet Strength
+    description_zh: 行星的整体力量评估
+    description_en: Overall strength assessment of planet
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [astro]
+
+  - id: astro_afflicted
+    status: existing
+    display_zh: 受克
+    display_en: Afflicted
+    description_zh: 行星受到困难相位影响
+    description_en: Planet affected by challenging aspects
+    category: state
+    value_type: boolean
+    applicable_systems: [astro]
+
+  - id: astro_well_aspected
+    status: existing
+    display_zh: 得助
+    display_en: Well Aspected
+    description_zh: 行星得到有利相位支持
+    description_en: Planet supported by favorable aspects
+    category: state
+    value_type: boolean
+    applicable_systems: [astro]

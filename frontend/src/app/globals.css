@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* CSS Variables and Themes */
+@import "../styles/variables.css";
+
+/* Base Styles */
+@import "../styles/base.css";
+
+/* Animations */
+@import "../styles/animations.css";
+
+/* Layout System */
+@import "../styles/layout.css";
+
+/* View Styles */
+@import "../components/views/NowView/styles.css";
+@import "../components/views/TimelineView/styles.css";
+@import "../components/views/ArchiveView/styles.css";
+@import "../components/views/DreamJournal/styles.css";
+@import "../components/views/Playbook/styles.css";
+@import "../components/views/TodoView/styles.css";
+
+/* Component Styles */
+@import "../components/styles-recorders.css";
+
+/* Responsive Styles */
+@import "../styles/responsive.css";

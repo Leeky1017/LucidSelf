@@ -1,0 +1,5 @@
+$ rg -n "^(observability-slos|security-privacy-compliance)\s*\|" openspec/SPECS_INDEX.md
+10:observability-slos | 可观测性与SLO | P0 | system | 进行中 | Gate-0
+12:security-privacy-compliance | 安全/隐私/合规 | P0 | system | 进行中 | Gate-0
+138:observability-slos | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 身份隔离/安全/版本/生产默认值/可观测基线齐备；失败必须阻断晋级 | `openspec/specs/observability-slos/`（spec/requirements/tasks/design/acceptance）
+140:security-privacy-compliance | `openspec validate --specs --strict --no-interactive` + `openspec list --specs` | 身份隔离/安全/版本/生产默认值/可观测基线齐备；失败必须阻断晋级 | `openspec/specs/security-privacy-compliance/`（spec/requirements/tasks/design/acceptance）

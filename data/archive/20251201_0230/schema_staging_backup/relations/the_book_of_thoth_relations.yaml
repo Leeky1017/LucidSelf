@@ -1,0 +1,1206 @@
+book_id: the_book_of_thoth
+source_file: 典籍/texts/The book of Thoth/编辑/Minor_Arcana_Cups.md, 典籍/texts/The book
+  of Thoth/编辑/Major_Arcana_Thoth.md, 典籍/texts/The book of Thoth/编辑/Theory_of_Tarot.md,
+  典籍/texts/The book of Thoth/编辑/Appendices_Thoth.md, 典籍/texts/The book of Thoth/编辑/Minor_Arcana_Disks.md,
+  典籍/texts/The book of Thoth/编辑/Minor_Arcana_Swords.md, 典籍/texts/The book of Thoth/编辑/Minor_Arcana_Wands.md
+extracted_at: '2025-12-01T02:28:32.874357'
+relations:
+- relation_id: rel_thoth_cups_ace
+  relation_type: card_element
+  factor_a: thoth_cups_ace
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570588'
+- relation_id: rel_thoth_cups_two
+  relation_type: card_element
+  factor_a: thoth_cups_two
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570619'
+- relation_id: rel_thoth_cups_three
+  relation_type: card_element
+  factor_a: thoth_cups_three
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570641'
+- relation_id: rel_thoth_cups_four
+  relation_type: card_element
+  factor_a: thoth_cups_four
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570662'
+- relation_id: rel_thoth_cups_five
+  relation_type: card_element
+  factor_a: thoth_cups_five
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570682'
+- relation_id: rel_thoth_cups_six
+  relation_type: card_element
+  factor_a: thoth_cups_six
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570701'
+- relation_id: rel_thoth_cups_seven
+  relation_type: card_element
+  factor_a: thoth_cups_seven
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570721'
+- relation_id: rel_thoth_cups_eight
+  relation_type: card_element
+  factor_a: thoth_cups_eight
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570740'
+- relation_id: rel_thoth_cups_nine
+  relation_type: card_element
+  factor_a: thoth_cups_nine
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570760'
+- relation_id: rel_thoth_cups_ten
+  relation_type: card_element
+  factor_a: thoth_cups_ten
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570781'
+- relation_id: rel_thoth_cups_knight
+  relation_type: card_element
+  factor_a: thoth_cups_knight
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570800'
+- relation_id: rel_thoth_cups_queen
+  relation_type: card_element
+  factor_a: thoth_cups_queen
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570820'
+- relation_id: rel_prince_cups_air
+  relation_type: elemental
+  factor_a: air_of_water
+  factor_b: volatilization
+  relation_nature: Steam/Catalyst
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Prince Cups
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570847'
+- relation_id: rel_prince_cups_secret
+  relation_type: strategy
+  factor_a: subtle_power
+  factor_b: transformation
+  relation_nature: Hidden agenda
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Prince Cups
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570851'
+- relation_id: rel_princess_cups_earth
+  relation_type: elemental
+  factor_a: earth_of_water
+  factor_b: crystallization
+  relation_nature: Form-giving
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Princess Cups
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570877'
+- relation_id: rel_princess_cups_create
+  relation_type: substantiation
+  factor_a: imagination
+  factor_b: form
+  relation_nature: Embodiment
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Princess Cups
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.570880'
+- relation_id: rel_thoth_001
+  relation_type: primordial_chaos
+  factor_a: card_atu_0
+  factor_b: element_air
+  relation_nature: Aleph = breath
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Fool'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.579715'
+- relation_id: rel_thoth_002
+  relation_type: holy_madness
+  factor_a: card_atu_0
+  factor_b: true_will
+  relation_nature: Divine spark
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Fool'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.579726'
+- relation_id: rel_thoth_atu_8
+  relation_type: qabalah_path
+  factor_a: atu_8
+  factor_b: letter_lamed
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Adjustment'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.579762'
+- relation_id: rel_thoth_atu_11
+  relation_type: qabalah_path
+  factor_a: atu_11
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUXI'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.579793'
+- relation_id: rel_thoth_atu_13
+  relation_type: qabalah_path
+  factor_a: atu_13
+  factor_b: letter_nun
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Death'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.579829'
+- relation_id: rel_thoth_atu_14
+  relation_type: qabalah_path
+  factor_a: atu_14
+  factor_b: letter_samekh
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Art'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.579860'
+- relation_id: rel_thoth_atu_15
+  relation_type: qabalah_path
+  factor_a: atu_15
+  factor_b: letter_ayin
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Devil'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.579888'
+- relation_id: rel_thoth_atu_20
+  relation_type: qabalah_path
+  factor_a: atu_20
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUXX'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.579920'
+- relation_id: rel_thoth_atu_1
+  relation_type: qabalah_path
+  factor_a: atu_1
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUI'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.579951'
+- relation_id: rel_thoth_atu_2
+  relation_type: qabalah_path
+  factor_a: atu_2
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUII'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.579998'
+- relation_id: rel_thoth_atu_3
+  relation_type: qabalah_path
+  factor_a: atu_3
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUIII'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.580029'
+- relation_id: rel_thoth_atu_4
+  relation_type: qabalah_path
+  factor_a: atu_4
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUIV'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.580058'
+- relation_id: rel_thoth_atu_10
+  relation_type: qabalah_path
+  factor_a: atu_10
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUX'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.580084'
+- relation_id: rel_thoth_atu_5
+  relation_type: qabalah_path
+  factor_a: atu_5
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUV'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.580114'
+- relation_id: rel_thoth_atu_9
+  relation_type: qabalah_path
+  factor_a: atu_9
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUIX'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.580139'
+- relation_id: rel_thoth_atu_6
+  relation_type: qabalah_path
+  factor_a: atu_6
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUVI'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.580168'
+- relation_id: rel_thoth_atu_7
+  relation_type: qabalah_path
+  factor_a: atu_7
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUVII'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.580194'
+- relation_id: rel_thoth_atu_12
+  relation_type: qabalah_path
+  factor_a: atu_12
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUXII'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.580224'
+- relation_id: rel_thoth_atu_16
+  relation_type: qabalah_path
+  factor_a: atu_16
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUXVI'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.580252'
+- relation_id: rel_thoth_atu_17
+  relation_type: qabalah_path
+  factor_a: atu_17
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUXVII'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.580278'
+- relation_id: rel_thoth_atu_18
+  relation_type: qabalah_path
+  factor_a: atu_18
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUXVIII'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.580304'
+- relation_id: rel_thoth_atu_19
+  relation_type: qabalah_path
+  factor_a: atu_19
+  factor_b: qabalah
+  relation_nature: Hebrew letter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #ATUXIX'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.580328'
+- relation_id: rel_thoth_atu_21
+  relation_type: completion_path
+  factor_a: card_atu_21
+  factor_b: letter_tau
+  relation_nature: Final path Yesod-Malkuth
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Universe'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.580357'
+- relation_id: rel_thoth_atu_21b
+  relation_type: eternal_return
+  factor_a: symbol_ouroboros
+  factor_b: card_atu_21
+  relation_nature: Cycle complete
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Universe'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.580360'
+- relation_id: rel_tarot_tree
+  relation_type: mapping
+  factor_a: tarot_78
+  factor_b: tree_of_life
+  relation_nature: Structural correspondence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.583262'
+- relation_id: rel_atu_path
+  relation_type: correspondence
+  factor_a: major_arcana
+  factor_b: hebrew_letters
+  relation_nature: 22=22
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.583268'
+- relation_id: rel_naples_creation
+  relation_type: emanation
+  factor_a: ain_veils
+  factor_b: sephiroth_10
+  relation_nature: Manifestation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.583297'
+- relation_id: rel_geom_seph
+  relation_type: correspondence
+  factor_a: dim_emerge
+  factor_b: sephiroth_10
+  relation_nature: Point=1, Line=2, Plane=3
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.583302'
+- relation_id: rel_yhvh_suits
+  relation_type: mapping
+  factor_a: yhvh
+  factor_b: four_suits
+  relation_nature: Correspondence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.583328'
+- relation_id: rel_yhvh_court
+  relation_type: mapping
+  factor_a: yhvh
+  factor_b: court_cards
+  relation_nature: Correspondence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.583331'
+- relation_id: rel_elem_suit
+  relation_type: mapping
+  factor_a: four_elements
+  factor_b: four_suits
+  relation_nature: Correspondence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.583357'
+- relation_id: rel_mother_earth
+  relation_type: crystallization
+  factor_a: mother_letters
+  factor_b: element_earth
+  relation_nature: Manifestation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.583360'
+- relation_id: rel_atu_letter
+  relation_type: correspondence
+  factor_a: major_arcana
+  factor_b: hebrew_letters
+  relation_nature: 1:1 mapping
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.583385'
+- relation_id: rel_letter_path
+  relation_type: mapping
+  factor_a: hebrew_letters
+  factor_b: paths_22
+  relation_nature: Attribution
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.583388'
+- relation_id: rel_linear_circular
+  relation_type: synthesis
+  factor_a: hebrew_linear
+  factor_b: pagan_circular
+  relation_nature: Complementary
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.583411'
+- relation_id: rel_daughter_cycle
+  relation_type: transformation
+  factor_a: daughter_rise
+  factor_b: mother
+  relation_nature: Renewal
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Theory
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.583414'
+- relation_id: rel_exp_div
+  relation_type: method
+  factor_a: exp_learning
+  factor_b: divination_method
+  relation_nature: Implementation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Appendix A
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.584740'
+- relation_id: rel_behav_inter
+  relation_type: manifestation
+  factor_a: card_behaviour
+  factor_b: card_interplay
+  relation_nature: Observable
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Appendix A
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.584747'
+- relation_id: rel_ops_prog
+  relation_type: sequence
+  factor_a: five_ops
+  factor_b: depth
+  relation_nature: Progressive
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Appendix A
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.584780'
+- relation_id: rel_yhvh_domain
+  relation_type: mapping
+  factor_a: yhvh_spread
+  factor_b: question_type
+  relation_nature: Correspondence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Appendix A
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.584784'
+- relation_id: rel_dig_meaning
+  relation_type: modification
+  factor_a: dignity_system
+  factor_b: card_meaning
+  relation_nature: Polarity
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Appendix A
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.584813'
+- relation_id: rel_context_interp
+  relation_type: selection
+  factor_a: sp_mat_context
+  factor_b: interpretation
+  relation_nature: Application
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Appendix A
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.584816'
+- relation_id: rel_777_tarot
+  relation_type: reference
+  factor_a: 777_tables
+  factor_b: tarot_cards
+  relation_nature: Master key
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Appendix B
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.584844'
+- relation_id: rel_decan_pip
+  relation_type: mapping
+  factor_a: decan_card_map
+  factor_b: small_cards
+  relation_nature: Astrological
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Appendix B
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.584847'
+- relation_id: rel_thoth_disks_ace
+  relation_type: card_element
+  factor_a: thoth_disks_ace
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588638'
+- relation_id: rel_thoth_disks_two
+  relation_type: card_element
+  factor_a: thoth_disks_two
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588672'
+- relation_id: rel_thoth_disks_three
+  relation_type: card_element
+  factor_a: thoth_disks_three
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588698'
+- relation_id: rel_thoth_disks_four
+  relation_type: card_element
+  factor_a: thoth_disks_four
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588722'
+- relation_id: rel_thoth_disks_five
+  relation_type: card_element
+  factor_a: thoth_disks_five
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588748'
+- relation_id: rel_thoth_disks_six
+  relation_type: card_element
+  factor_a: thoth_disks_six
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588772'
+- relation_id: rel_thoth_disks_seven
+  relation_type: card_element
+  factor_a: thoth_disks_seven
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588795'
+- relation_id: rel_thoth_disks_eight
+  relation_type: card_element
+  factor_a: thoth_disks_eight
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588815'
+- relation_id: rel_thoth_disks_nine
+  relation_type: card_element
+  factor_a: thoth_disks_nine
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588836'
+- relation_id: rel_thoth_disks_ten
+  relation_type: card_element
+  factor_a: thoth_disks_ten
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588859'
+- relation_id: rel_thoth_disks_knight
+  relation_type: card_element
+  factor_a: thoth_disks_knight
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588883'
+- relation_id: rel_thoth_disks_queen
+  relation_type: card_element
+  factor_a: thoth_disks_queen
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588905'
+- relation_id: rel_prince_disks_air
+  relation_type: elemental
+  factor_a: air_of_earth
+  factor_b: intelligibility
+  relation_nature: Organized matter
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Prince Disks
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588937'
+- relation_id: rel_prince_disks_manage
+  relation_type: function
+  factor_a: planning
+  factor_b: earth
+  relation_nature: Practical control
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Prince Disks
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588940'
+- relation_id: rel_princess_disks_earth
+  relation_type: elemental
+  factor_a: earth_of_earth
+  factor_b: transfiguration
+  relation_nature: Brink of change
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Princess Disks
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588971'
+- relation_id: rel_princess_disks_kether
+  relation_type: transcendence
+  factor_a: diamond
+  factor_b: darkness
+  relation_nature: Highest in lowest
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Princess Disks
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.588975'
+- relation_id: rel_thoth_swords_ace
+  relation_type: card_element
+  factor_a: thoth_swords_ace
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592064'
+- relation_id: rel_thoth_swords_two
+  relation_type: card_element
+  factor_a: thoth_swords_two
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592094'
+- relation_id: rel_thoth_swords_three
+  relation_type: card_element
+  factor_a: thoth_swords_three
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592116'
+- relation_id: rel_thoth_swords_four
+  relation_type: card_element
+  factor_a: thoth_swords_four
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592138'
+- relation_id: rel_thoth_swords_five
+  relation_type: card_element
+  factor_a: thoth_swords_five
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592163'
+- relation_id: rel_thoth_swords_six
+  relation_type: card_element
+  factor_a: thoth_swords_six
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592188'
+- relation_id: rel_thoth_swords_seven
+  relation_type: card_element
+  factor_a: thoth_swords_seven
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592210'
+- relation_id: rel_thoth_swords_eight
+  relation_type: card_element
+  factor_a: thoth_swords_eight
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592232'
+- relation_id: rel_thoth_swords_nine
+  relation_type: card_element
+  factor_a: thoth_swords_nine
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592253'
+- relation_id: rel_thoth_swords_ten
+  relation_type: card_element
+  factor_a: thoth_swords_ten
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592278'
+- relation_id: rel_thoth_swords_knight
+  relation_type: card_element
+  factor_a: thoth_swords_knight
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592300'
+- relation_id: rel_thoth_swords_queen
+  relation_type: card_element
+  factor_a: thoth_swords_queen
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592321'
+- relation_id: rel_prince_swords_air
+  relation_type: elemental
+  factor_a: air_of_air
+  factor_b: pure_intellect
+  relation_nature: Self-reflection
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Prince Swords
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592350'
+- relation_id: rel_prince_swords_volatile
+  relation_type: instability
+  factor_a: creation
+  factor_b: destruction
+  relation_nature: Equal ease
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Prince Swords
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592353'
+- relation_id: rel_princess_swords_earth
+  relation_type: elemental
+  factor_a: earth_of_air
+  factor_b: fixation
+  relation_nature: Materialization
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Princess Swords
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592380'
+- relation_id: rel_princess_swords_avenge
+  relation_type: justice
+  factor_a: clarity
+  factor_b: profanation
+  relation_nature: Redress
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Princess Swords
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.592384'
+- relation_id: rel_thoth_wands_ace
+  relation_type: card_element
+  factor_a: thoth_wands_ace
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.595995'
+- relation_id: rel_thoth_wands_two
+  relation_type: card_element
+  factor_a: thoth_wands_two
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596024'
+- relation_id: rel_thoth_wands_three
+  relation_type: card_element
+  factor_a: thoth_wands_three
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596045'
+- relation_id: rel_thoth_wands_four
+  relation_type: card_element
+  factor_a: thoth_wands_four
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596064'
+- relation_id: rel_thoth_wands_five
+  relation_type: card_element
+  factor_a: thoth_wands_five
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596083'
+- relation_id: rel_thoth_wands_six
+  relation_type: card_element
+  factor_a: thoth_wands_six
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596106'
+- relation_id: rel_wands_7_courage
+  relation_type: desperation
+  factor_a: valour
+  factor_b: disorder
+  relation_nature: Individual response
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Wands 7
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596128'
+- relation_id: rel_wands_7_mars
+  relation_type: energy
+  factor_a: mars_leo
+  factor_b: wavering_fire
+  relation_nature: Brutal support
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Wands 7
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596133'
+- relation_id: rel_thoth_wands_eight
+  relation_type: card_element
+  factor_a: thoth_wands_eight
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596153'
+- relation_id: rel_thoth_wands_nine
+  relation_type: card_element
+  factor_a: thoth_wands_nine
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596418'
+- relation_id: rel_thoth_wands_ten
+  relation_type: card_element
+  factor_a: thoth_wands_ten
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596474'
+- relation_id: rel_thoth_wands_knight
+  relation_type: card_element
+  factor_a: thoth_wands_knight
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596499'
+- relation_id: rel_thoth_wands_queen
+  relation_type: card_element
+  factor_a: thoth_wands_queen
+  factor_b: suit_element
+  relation_nature: Elemental
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Crowley #Thoth'
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596527'
+- relation_id: rel_prince_wands_air
+  relation_type: elemental
+  factor_a: air_of_fire
+  factor_b: expansion
+  relation_nature: Volatilization
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Prince Wands
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596557'
+- relation_id: rel_prince_wands_drama
+  relation_type: expression
+  factor_a: dramatic_energy
+  factor_b: statement
+  relation_nature: Vigorous assertion
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Prince Wands
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596560'
+- relation_id: rel_princess_wands_earth
+  relation_type: elemental
+  factor_a: earth_of_fire
+  factor_b: fuel
+  relation_nature: Combustion
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Princess Wands
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596587'
+- relation_id: rel_princess_wands_passion
+  relation_type: attraction
+  factor_a: chemical_force
+  factor_b: combination
+  relation_nature: Irresistible
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Thoth Princess Wands
+  source_book: the_book_of_thoth
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.596590'

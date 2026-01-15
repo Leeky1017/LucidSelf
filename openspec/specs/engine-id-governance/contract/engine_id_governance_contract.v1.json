@@ -1,0 +1,76 @@
+{
+  "contract_id": "engine-id-governance",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["engine_id", "version_id"],
+  "entities": [
+    {
+      "name": "EngineRegistryRecord",
+      "description": "engine_id 注册表记录（对外可审计的最小字段集合）",
+      "fields": [
+        { "name": "engine_id", "type": "string", "required": true, "notes": "全局唯一、稳定；用于治理与追溯" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "产物/变更记录的不可变版本标识（用于可复现与可审计）" },
+        { "name": "engine_version", "type": "string", "required": false, "notes": "引擎自身语义版本（若适用）" },
+        { "name": "kind", "type": "string", "required": false, "notes": "calculator/semantic/rule/fusion（若适用）" },
+        { "name": "status", "type": "string", "required": false, "notes": "active/experimental/deprecated（若适用）" },
+        { "name": "depends_on", "type": "array<string>", "required": false, "notes": "依赖的 engine_id 列表（若适用）" },
+        { "name": "owner_team", "type": "string", "required": false, "notes": "负责团队/责任归属（若适用）" },
+        { "name": "created_at", "type": "string", "required": false, "notes": "ISO-8601 时间戳（若适用）" },
+        { "name": "updated_at", "type": "string", "required": false, "notes": "ISO-8601 时间戳（若适用）" }
+      ]
+    },
+    {
+      "name": "EngineLifecycleEvent",
+      "description": "引擎生命周期变更事件（用于审计与回放）",
+      "fields": [
+        { "name": "event_id", "type": "string", "required": true, "notes": "事件唯一标识（可审计）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "关联 engine_id" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "事件版本标识" },
+        { "name": "event_type", "type": "string", "required": true, "notes": "REGISTER/UPDATE/STATUS_CHANGE/DEPRECATE/REPLACE/UNREGISTER 等（枚举在规格层固定）" },
+        { "name": "occurred_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" },
+        { "name": "actor_type", "type": "string", "required": false, "notes": "system/user/service（若适用）" },
+        { "name": "actor_id", "type": "string", "required": false, "notes": "操作者标识（脱敏/最小化原则）" },
+        { "name": "request_id", "type": "string", "required": false, "notes": "请求关联标识（若适用）" },
+        { "name": "trace_id", "type": "string", "required": false, "notes": "链路追踪标识（若适用）" },
+        { "name": "metadata", "type": "object", "required": false, "notes": "可审计的最小补充信息（禁止敏感原文）" }
+      ]
+    },
+    {
+      "name": "EngineDeprecationMapping",
+      "description": "弃用/替代关系（deprecated -> replacement）",
+      "fields": [
+        { "name": "deprecated_engine_id", "type": "string", "required": true, "notes": "被弃用引擎" },
+        { "name": "replacement_engine_id", "type": "string", "required": false, "notes": "替代引擎（若存在）" },
+        { "name": "effective_version_id", "type": "string", "required": true, "notes": "关系生效的版本标识" },
+        { "name": "reason", "type": "string", "required": false, "notes": "弃用原因摘要（可审计、不可含敏感原文）" }
+      ]
+    },
+    {
+      "name": "AuditRecord",
+      "description": "审计记录（最小字段集合，用于导出/合规审计）",
+      "fields": [
+        { "name": "audit_id", "type": "string", "required": true, "notes": "审计记录唯一标识" },
+        { "name": "event_id", "type": "string", "required": true, "notes": "关联生命周期事件" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "关联 engine_id" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "result", "type": "string", "required": true, "notes": "ALLOW/DENY/BLOCK 等（枚举在规格层固定）" },
+        { "name": "rejection_reason_code", "type": "string", "required": false, "notes": "失败/拒绝原因代码（见 rejection_reasons）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_ENGINE_ID", "category": "client_error", "retryable": false },
+    { "code": "INVALID_ENGINE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "INVALID_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "ENGINE_ID_ALREADY_REGISTERED", "category": "conflict", "retryable": false },
+    { "code": "ENGINE_ID_NOT_FOUND", "category": "not_found", "retryable": false },
+    { "code": "INVALID_STATUS_TRANSITION", "category": "conflict", "retryable": false },
+    { "code": "ENGINE_DEPENDENCY_VIOLATION", "category": "conflict", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "client_error", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

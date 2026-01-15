@@ -1,0 +1,273 @@
+SECTION artifacts/proofreading_qa
+total 28K
+drwxr-xr-x  2 leeky leeky 4.0K Dec 27 01:02 .
+drwxr-xr-x 12 leeky leeky 4.0K Dec 27 00:57 ..
+-rw-r--r--  1 leeky leeky 9.5K Dec 27 01:06 qa_queue.json
+-rw-r--r--  1 leeky leeky  817 Dec 27 01:06 qa_report.json
+-rw-r--r--  1 leeky leeky  413 Dec 27 01:06 qa_report.md
+
+SECTION artifacts/proofreading_qa/qa_report.json
+{
+  "qa_report_version": "1.0",
+  "qa_session_id": "qa_ver_b23a6a8439c0_cr_b23a6a8439c0",
+  "policy_id": "proofreading_qa_policy.v1",
+  "version_id": "ver_b23a6a8439c0",
+  "corpus_release_id": "cr_b23a6a8439c0",
+  "created_at": "2025-12-26T17:06:12.134833+00:00",
+  "summary": {
+    "tasks_total": 15,
+    "by_status": {
+      "pending": 15
+    },
+    "thresholds": [
+      {
+        "name": "max_rejected",
+        "value": 0,
+        "max": 0,
+        "status": "pass"
+      },
+      {
+        "name": "min_tasks_total",
+        "value": 15,
+        "max": 1,
+        "status": "pass"
+      }
+    ],
+    "verdict": "pass"
+  },
+  "paths": {
+    "queue": "artifacts/proofreading_qa/qa_queue.json",
+    "json": "artifacts/proofreading_qa/qa_report.json",
+    "markdown": "artifacts/proofreading_qa/qa_report.md"
+  }
+}
+
+SECTION qa_report_quick_fields
+27:    "verdict": "pass"
+9:    "tasks_total": 15,
+21:        "name": "min_tasks_total",
+4:  "policy_id": "proofreading_qa_policy.v1",
+5:  "version_id": "ver_b23a6a8439c0",
+6:  "corpus_release_id": "cr_b23a6a8439c0",
+
+SECTION artifacts/proofreading_qa/qa_report.md_head
+# Proofreading QA Report
+
+- version_id: `ver_b23a6a8439c0`
+- corpus_release_id: `cr_b23a6a8439c0`
+- policy_id: `proofreading_qa_policy.v1`
+- verdict: **PASS**
+
+## Totals
+- tasks_total: 15
+- pending: 15
+
+## Thresholds
+- `max_rejected`: 0 <= 0 => **PASS**
+- `min_tasks_total`: 15 <= 1 => **PASS**
+
+## Artifacts
+- queue: `artifacts/proofreading_qa/qa_queue.json`
+- report: `artifacts/proofreading_qa/qa_report.json`
+
+SECTION artifacts/proofreading_qa/qa_queue.json_head
+{
+  "qa_queue_version": "1.0",
+  "qa_session_id": "qa_ver_b23a6a8439c0_cr_b23a6a8439c0",
+  "policy_id": "proofreading_qa_policy.v1",
+  "version_id": "ver_b23a6a8439c0",
+  "corpus_release_id": "cr_b23a6a8439c0",
+  "created_at": "2025-12-26T17:06:12.134009+00:00",
+  "inputs": {
+    "normalized_entries": "artifacts/text_normalization_alignment/normalized_entries.jsonl",
+    "policy_path": "data/proofreading_qa/qa_policy.v1.yaml"
+  },
+  "sampling": {
+    "per_book": 5,
+    "books_included": [
+      "tetrabiblos",
+      "子平真诠",
+      "滴天髓"
+    ],
+    "method": "sha256(entry_id) asc, take first N per book"
+  },
+  "tasks": [
+    {
+      "task_id": "qa_03f801f97924",
+      "status": "pending",
+      "entry_id": "entry_tetrabiblos_n_t_humans_16",
+      "book_id": "tetrabiblos",
+      "node_id": "n_t_humans_16",
+      "source_ref": "Humans",
+      "snippet_ids": [
+        "ns_tetra_ii_026"
+      ],
+      "created_at": "2025-12-26T17:06:12.133816+00:00",
+      "review": null
+    },
+    {
+      "task_id": "qa_043b1f904601",
+      "status": "pending",
+      "entry_id": "entry_tetrabiblos_n_t_source_text_73",
+      "book_id": "tetrabiblos",
+      "node_id": "n_t_source_text_73",
+      "source_ref": "Source Text",
+      "snippet_ids": [
+        "ns_ptolemy_iii_001",
+        "ns_ptolemy_iii_003",
+        "ns_ptolemy_iii_005",
+        "ns_ptolemy_iii_007",
+        "ns_ptolemy_iii_009",
+        "ns_ptolemy_iii_010"
+      ],
+      "created_at": "2025-12-26T17:06:12.133830+00:00",
+      "review": null
+    },
+    {
+      "task_id": "qa_0461aaaac0d4",
+      "status": "pending",
+      "entry_id": "entry_tetrabiblos_n_t_english_paraphrase_44",
+      "book_id": "tetrabiblos",
+      "node_id": "n_t_english_paraphrase_44",
+      "source_ref": "English Paraphrase",
+      "snippet_ids": [
+        "ns_tetra_i005",
+        "ns_ptolemy_iii_002",
+        "ns_ptolemy_iii_004",
+        "ns_ptolemy_iii_006",
+        "ns_ptolemy_iii_008"
+      ],
+      "created_at": "2025-12-26T17:06:12.133833+00:00",
+      "review": null
+    },
+    {
+      "task_id": "qa_070a2da289a2",
+      "status": "pending",
+      "entry_id": "entry_tetrabiblos_n_t_source_text_ii_11_22",
+      "book_id": "tetrabiblos",
+      "node_id": "n_t_source_text_ii_11_22",
+      "source_ref": "Source Text II.11",
+      "snippet_ids": [
+        "ns_tetra_ii008"
+      ],
+      "created_at": "2025-12-26T17:06:12.133835+00:00",
+      "review": null
+    },
+    {
+      "task_id": "qa_0a5f1fdb7046",
+      "status": "pending",
+      "entry_id": "entry_tetrabiblos_n_t_source_text_i_3_46",
+      "book_id": "tetrabiblos",
+      "node_id": "n_t_source_text_i_3_46",
+      "source_ref": "Source Text I.3",
+      "snippet_ids": [
+        "ns_tetra_i011",
+        "ns_tetra_i012",
+        "ns_tetra_i013",
+        "ns_tetra_i014",
+        "ns_tetra_i015",
+        "ns_tetra_i016"
+      ],
+      "created_at": "2025-12-26T17:06:12.133837+00:00",
+      "review": null
+    },
+    {
+      "task_id": "qa_014961cdc758",
+      "status": "pending",
+      "entry_id": "entry_u5b50u5e73u771fu8be0_n_u5b50u5e73u771f_u4e2du5377u7b2c23u7ae0_6",
+      "book_id": "子平真诠",
+      "node_id": "n_子平真_中卷第23章_6",
+      "source_ref": "《子平真诠》#中卷第23章",
+      "snippet_ids": [
+        "ns_zpzy_327"
+      ],
+      "created_at": "2025-12-26T17:06:12.133906+00:00",
+      "review": null
+    },
+    {
+      "task_id": "qa_02c3635212c2",
+      "status": "pending",
+      "entry_id": "entry_u5b50u5e73u771fu8be0_n_u5b50u5e73u771f_u4e2du5377_5",
+      "book_id": "子平真诠",
+      "node_id": "n_子平真_中卷_5",
+      "source_ref": "《子平真诠》#中卷",
+      "snippet_ids": [
+        "ns_zpzy_317",
+        "ns_zpzy_318",
+        "ns_zpzy_319",
+        "ns_zpzy_320",
+        "ns_zpzy_321",
+        "ns_zpzy_322",
+        "ns_zpzy_323",
+        "ns_zpzy_324",
+        "ns_zpzy_325",
+        "ns_zpzy_326",
+        "ns_zpzy_328",
+        "ns_zpzy_329",
+        "ns_zpzy_330",
+        "ns_zpzy_331",
+        "ns_zpzy_332",
+        "ns_zpzy_333",
+        "ns_zpzy_334",
+        "ns_zpzy_335",
+        "ns_zpzy_336",
+        "ns_zpzy_337",
+        "ns_zpzy_338",
+        "ns_zpzy_340",
+        "ns_zpzy_341",
+        "ns_zpzy_342",
+        "ns_zpzy_343",
+        "ns_zpzy_344",
+        "ns_zpzy_345",
+        "ns_zpzy_346",
+        "ns_zpzy_347",
+        "ns_zpzy_348",
+        "ns_zpzy_349",
+        "ns_zpzy_350",
+        "ns_zpzy_352",
+        "ns_zpzy_353",
+        "ns_zpzy_354",
+        "ns_zpzy_355",
+        "ns_zpzy_356",
+        "ns_zpzy_357",
+        "ns_zpzy_358",
+        "ns_zpzy_359",
+        "ns_zpzy_361",
+        "ns_zpzy_362",
+        "ns_zpzy_363",
+        "ns_zpzy_364",
+        "ns_zpzy_365",
+        "ns_zpzy_366",
+        "ns_zpzy_367",
+        "ns_zpzy_368",
+        "ns_zpzy_369",
+        "ns_zpzy_370",
+        "ns_zpzy_371",
+        "ns_zpzy_375",
+        "ns_zpzy_376",
+        "ns_zpzy_377",
+        "ns_zpzy_378",
+        "ns_zpzy_379",
+        "ns_zpzy_380",
+        "ns_zpzy_381",
+        "ns_zpzy_382",
+        "ns_zpzy_383",
+        "ns_zpzy_384",
+        "ns_zpzy_385",
+        "ns_zpzy_386",
+        "ns_zpzy_387",
+        "ns_zpzy_388",
+        "ns_zpzy_389",
+        "ns_zpzy_390",
+        "ns_zpzy_391",
+        "ns_zpzy_395",
+        "ns_zpzy_396",
+        "ns_zpzy_397",
+        "ns_zpzy_398",
+        "ns_zpzy_399",
+        "ns_zpzy_400",
+        "ns_zpzy_401",
+        "ns_zpzy_402",
+        "ns_zpzy_403",
+        "ns_zpzy_404",
+        "ns_zpzy_405",

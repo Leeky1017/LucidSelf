@@ -1,0 +1,1446 @@
+chain_id: chain_tah
+book_id: the_astrological_houses
+nodes:
+- node_id: n_tah_source_text_0
+  snippet_ids:
+  - ns_houses_001
+  - ns_houses_002
+  - ns_houses_006
+  - ns_houses_007
+  - ns_rudhyar_007
+  - ns_rudhyar_008
+  - ns_rudhyar_009
+  - ns_rudhyar_012
+  - ns_rudhyar_013
+  role: 主干
+  condition: null
+  summary: locality_centered
+  metadata:
+    source_ref: Source Text
+    snippet_count: 9
+  factor_refs:
+  - astro_locality_centered_house_system
+  - astro_individual_centered_framework
+  - astro_work_centered_relational_focus
+- node_id: n_tah_english_paraphrase_1
+  snippet_ids:
+  - ns_houses_003
+  - ns_houses_004
+  - ns_houses_005
+  - ns_houses_008
+  - ns_rudhyar_010
+  - ns_rudhyar_011
+  - ns_rudhyar_014
+  - ns_houses_009
+  - ns_houses_010
+  - ns_houses_011
+  - ns_houses_012
+  role: 主干
+  condition: null
+  summary: consciousness_evolution
+  metadata:
+    source_ref: English Paraphrase
+    snippet_count: 11
+  factor_refs:
+  - astro_sky_as_background_of_consciousness
+  - astro_tribal_consciousness
+  - astro_elemental_state_of_consciousness
+- node_id: n_tah_the_astrological_houses_theolo_2
+  snippet_ids:
+  - ns_rudhyar_theology_001
+  - ns_rudhyar_theology_002
+  - ns_rudhyar_theology_003
+  role: 主干
+  condition: null
+  summary: monotheistic_astrology
+  metadata:
+    source_ref: The Astrological Houses Theology
+    snippet_count: 3
+  factor_refs:
+  - astro_local_horizon_anchoring_the_house_system
+  - astro_rulership_as_harmony_not_dominance
+  - astro_circle_of_the_year_as_basis_of_sign_symbolism
+  - astro_seasons_not_constellations_define_zodiac_signs
+  - astro_map_territory_distinction_in_astrology
+  - astro_distortions_framed_as_warnings_not_predictions
+  - astro_concrete_bit_venus_in_virgo_in_the_sixth_house
+  - astro_growth_oriented_astrology_anti_fatalistic
+- node_id: n_tah_the_astrological_houses_h1_3
+  snippet_ids:
+  - ns_rudhyar_h1_001
+  - ns_rudhyar_h1_002
+  - ns_rudhyar_h1_003
+  role: 主干
+  condition: null
+  summary: house_1
+  metadata:
+    source_ref: The Astrological Houses H1
+    snippet_count: 3
+  factor_refs:
+  - astro_local_horizon_anchoring_the_house_system
+  - astro_concrete_bit_venus_in_virgo_in_the_sixth_house
+  - astro_sixth_house_stellium_as_work_relationship_field
+- node_id: n_tah_house_2_source_4
+  snippet_ids:
+  - ns_houses_h2_001
+  - ns_houses_h2_002
+  - ns_houses_h2_003
+  role: 主干
+  condition: null
+  summary: house_2
+  metadata:
+    source_ref: House 2 Source
+    snippet_count: 3
+  factor_refs:
+  - astro_local_horizon_anchoring_the_house_system
+  - astro_concrete_bit_venus_in_virgo_in_the_sixth_house
+  - astro_sixth_house_stellium_as_work_relationship_field
+- node_id: n_tah_house_3_source_5
+  snippet_ids:
+  - ns_houses_h3_001
+  - ns_houses_h3_002
+  role: 主干
+  condition: null
+  summary: house_3
+  metadata:
+    source_ref: House 3 Source
+    snippet_count: 2
+  factor_refs:
+  - astro_local_horizon_anchoring_the_house_system
+  - astro_concrete_bit_venus_in_virgo_in_the_sixth_house
+  - astro_sixth_house_stellium_as_work_relationship_field
+- node_id: n_tah_house_4_source_6
+  snippet_ids:
+  - ns_houses_h4_001
+  - ns_houses_h4_002
+  - ns_houses_h4_003
+  role: 主干
+  condition: null
+  summary: house_4
+  metadata:
+    source_ref: House 4 Source
+    snippet_count: 3
+  factor_refs:
+  - astro_local_horizon_anchoring_the_house_system
+  - astro_concrete_bit_venus_in_virgo_in_the_sixth_house
+  - astro_sixth_house_stellium_as_work_relationship_field
+- node_id: n_tah_house_5_source_7
+  snippet_ids:
+  - ns_houses_h5_001
+  - ns_houses_h5_002
+  role: 主干
+  condition: null
+  summary: house_5
+  metadata:
+    source_ref: House 5 Source
+    snippet_count: 2
+  factor_refs:
+  - astro_local_horizon_anchoring_the_house_system
+  - astro_concrete_bit_venus_in_virgo_in_the_sixth_house
+  - astro_sixth_house_stellium_as_work_relationship_field
+- node_id: n_tah_house_6_source_8
+  snippet_ids:
+  - ns_houses_h6_001
+  - ns_houses_h6_002
+  role: 主干
+  condition: null
+  summary: house_6
+  metadata:
+    source_ref: House 6 Source
+    snippet_count: 2
+  factor_refs:
+  - astro_local_horizon_anchoring_the_house_system
+  - astro_concrete_bit_venus_in_virgo_in_the_sixth_house
+  - astro_sixth_house_stellium_as_work_relationship_field
+- node_id: n_tah_house_7_source_9
+  snippet_ids:
+  - ns_houses_h7_001
+  - ns_houses_h7_002
+  role: 主干
+  condition: null
+  summary: house_7
+  metadata:
+    source_ref: House 7 Source
+    snippet_count: 2
+  factor_refs:
+  - astro_local_horizon_anchoring_the_house_system
+  - astro_concrete_bit_venus_in_virgo_in_the_sixth_house
+  - astro_sixth_house_stellium_as_work_relationship_field
+- node_id: n_tah_house_8_source_10
+  snippet_ids:
+  - ns_houses_h8_001
+  - ns_houses_h8_002
+  role: 主干
+  condition: null
+  summary: house_8
+  metadata:
+    source_ref: House 8 Source
+    snippet_count: 2
+  factor_refs:
+  - astro_local_horizon_anchoring_the_house_system
+  - astro_concrete_bit_venus_in_virgo_in_the_sixth_house
+  - astro_sixth_house_stellium_as_work_relationship_field
+- node_id: n_tah_house_9_source_11
+  snippet_ids:
+  - ns_houses_h9_001
+  - ns_houses_h9_002
+  role: 主干
+  condition: null
+  summary: house_9
+  metadata:
+    source_ref: House 9 Source
+    snippet_count: 2
+  factor_refs:
+  - astro_local_horizon_anchoring_the_house_system
+  - astro_concrete_bit_venus_in_virgo_in_the_sixth_house
+  - astro_sixth_house_stellium_as_work_relationship_field
+- node_id: n_tah_house_10_source_12
+  snippet_ids:
+  - ns_houses_h10_001
+  - ns_houses_h10_002
+  role: 主干
+  condition: null
+  summary: house_10
+  metadata:
+    source_ref: House 10 Source
+    snippet_count: 2
+  factor_refs:
+  - astro_local_horizon_anchoring_the_house_system
+  - astro_concrete_bit_venus_in_virgo_in_the_sixth_house
+  - astro_sixth_house_stellium_as_work_relationship_field
+- node_id: n_tah_house_11_source_13
+  snippet_ids:
+  - ns_houses_h11_001
+  - ns_houses_h11_002
+  role: 主干
+  condition: null
+  summary: house_11
+  metadata:
+    source_ref: House 11 Source
+    snippet_count: 2
+  factor_refs:
+  - astro_local_horizon_anchoring_the_house_system
+  - astro_concrete_bit_venus_in_virgo_in_the_sixth_house
+  - astro_sixth_house_stellium_as_work_relationship_field
+- node_id: n_tah_house_12_source_14
+  snippet_ids:
+  - ns_houses_h12_001
+  - ns_houses_h12_002
+  role: 主干
+  condition: null
+  summary: house_12
+  metadata:
+    source_ref: House 12 Source
+    snippet_count: 2
+  factor_refs:
+  - astro_local_horizon_anchoring_the_house_system
+  - astro_concrete_bit_venus_in_virgo_in_the_sixth_house
+  - astro_sixth_house_stellium_as_work_relationship_field
+- node_id: n_tah_the_astrological_houses_classi_15
+  snippet_ids:
+  - ns_rudhyar_asc_001
+  - ns_rudhyar_asc_002
+  - ns_rudhyar_asc_003
+  - ns_rudhyar_asc_004
+  - ns_rudhyar_asc_005
+  role: 主干
+  condition: null
+  summary: house_classification
+  metadata:
+    source_ref: The Astrological Houses Classification
+    snippet_count: 5
+  factor_refs:
+  - astro_local_horizon_anchoring_the_house_system
+  - astro_concrete_bit_venus_in_virgo_in_the_sixth_house
+  - astro_sixth_house_stellium_as_work_relationship_field
+- node_id: n_tah_polarity_principle_16
+  snippet_ids:
+  - ns_houses_032
+  - ns_houses_033
+  role: 主干
+  condition: null
+  summary: polarity_principle
+  metadata:
+    source_ref: Polarity Principle
+    snippet_count: 2
+  factor_refs:
+  - astro_moon_sun_polarity
+  - astro_opposition_as_polarity_axis
+  - astro_sky_earth_polarity
+- node_id: n_tah_three_level_cycle_17
+  snippet_ids:
+  - ns_houses_034
+  - ns_houses_035
+  role: 主干
+  condition: null
+  summary: three_level_cycle
+  metadata:
+    source_ref: Three-Level Cycle
+    snippet_count: 2
+  factor_refs:
+  - astro_chart_resolution_level_sign_only_vs_sign_house
+  - astro_yearly_cycle
+  - astro_daily_cycle
+- node_id: n_tah_epilogue_18
+  snippet_ids:
+  - ns_houses_036
+  - ns_houses_037
+  role: 主干
+  condition: null
+  summary: methodology
+  metadata:
+    source_ref: Epilogue
+    snippet_count: 2
+  factor_refs:
+  - astro_historical_evolution
+  - astro_task_based_integration_of_contradictory_planets
+edges:
+- from_node: n_tah_house_2_source_4
+  to_node: n_tah_the_astrological_houses_h1_3
+  relation: leads_to
+  condition: When physical body at birth establishes primary ownership foundation
+  metadata:
+    source_relation_id: rel_house_2_body
+    source_ref: House 2 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_2_source_4
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: leads_to
+  condition: When active management dedicates resources for individuality actualization
+  metadata:
+    source_relation_id: rel_house_2_use
+    source_ref: House 2 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_3_source_5
+  to_node: n_tah_english_paraphrase_1
+  relation: leads_to
+  condition: When early life environment shapes intelligence development adaptation
+  metadata:
+    source_relation_id: rel_house_3_env
+    source_ref: House 3 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_3_source_5
+  to_node: n_tah_the_astrological_houses_h1_3
+  relation: leads_to
+  condition: When practical need drives nervous system empirical knowing function
+  metadata:
+    source_relation_id: rel_house_3_mind
+    source_ref: House 3 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_the_astrological_houses_h1_3
+  to_node: n_tah_english_paraphrase_1
+  relation: leads_to
+  condition: When birth roots connect IC to collective unconscious deepest point
+  metadata:
+    source_relation_id: rel_house_4_ic
+    source_ref: House 4 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_5_source_7
+  to_node: n_tah_house_4_source_6
+  relation: leads_to
+  condition: When integration complete enables house 5 creative personality expression
+  metadata:
+    source_relation_id: rel_house_5_create
+    source_ref: House 5 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_5_source_7
+  to_node: n_tah_house_9_source_11
+  relation: leads_to
+  condition: When ego transcendence tests purity of motive in dharma pursuit
+  metadata:
+    source_relation_id: rel_house_5_purity
+    source_ref: House 5 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_5_source_7
+  to_node: n_tah_english_paraphrase_1
+  relation: leads_to
+  condition: When ego transcendence tests purity of motive in dharma pursuit
+  metadata:
+    source_relation_id: rel_house_5_purity
+    source_ref: House 5 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_6_source_8
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: leads_to
+  condition: When recognition of lack catalyzes house 6 crisis transformation growth
+  metadata:
+    source_relation_id: rel_house_6_crisis
+    source_ref: House 6 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_6_source_8
+  to_node: n_tah_house_2_source_4
+  relation: leads_to
+  condition: When master guidance enables house 6 service healing ego transcendence
+  metadata:
+    source_relation_id: rel_house_6_service
+    source_ref: House 6 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_7_source_9
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: leads_to
+  condition: When functional cooperation enables house 7 self-discovery through others
+  metadata:
+    source_relation_id: rel_house_7_partner
+    source_ref: House 7 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_english_paraphrase_1
+  to_node: n_tah_house_12_source_14
+  relation: leads_to
+  condition: When purpose beyond partners drives descendant dynamic transformation
+  metadata:
+    source_relation_id: rel_house_7_transform
+    source_ref: House 7 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_english_paraphrase_1
+  to_node: n_tah_house_8_source_10
+  relation: leads_to
+  condition: When purpose beyond partners drives descendant dynamic transformation
+  metadata:
+    source_relation_id: rel_house_7_transform
+    source_ref: House 7 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_english_paraphrase_1
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: leads_to
+  condition: When purpose beyond partners drives descendant dynamic transformation
+  metadata:
+    source_relation_id: rel_house_7_transform
+    source_ref: House 7 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_8_source_10
+  to_node: n_tah_house_7_source_9
+  relation: leads_to
+  condition: When trust established enables house 8 shared partnership resources
+  metadata:
+    source_relation_id: rel_house_8_trust
+    source_ref: House 8 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_8_source_10
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: leads_to
+  condition: When trust established enables house 8 shared partnership resources
+  metadata:
+    source_relation_id: rel_house_8_trust
+    source_ref: House 8 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_8_source_10
+  to_node: n_tah_house_2_source_4
+  relation: leads_to
+  condition: When surrender enables house 8 ego death-rebirth transformation
+  metadata:
+    source_relation_id: rel_house_8_death
+    source_ref: House 8 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_9_source_11
+  to_node: n_tah_house_11_source_13
+  relation: leads_to
+  condition: When cultural context provides house 9 holistic meaning framework
+  metadata:
+    source_relation_id: rel_house_9_meaning
+    source_ref: House 9 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_9_source_11
+  to_node: n_tah_house_8_source_10
+  relation: leads_to
+  condition: When cultural context provides house 9 holistic meaning framework
+  metadata:
+    source_relation_id: rel_house_9_meaning
+    source_ref: House 9 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_9_source_11
+  to_node: n_tah_english_paraphrase_1
+  relation: leads_to
+  condition: When background knowledge enables house 9 symbol interpretation decoding
+  metadata:
+    source_relation_id: rel_house_9_symbol
+    source_ref: House 9 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_house_2_source_4
+  relation: leads_to
+  condition: When social integration enables house 10 potential fulfillment actualization
+  metadata:
+    source_relation_id: rel_house_10_achieve
+    source_ref: House 10 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_4_source_6
+  to_node: n_tah_english_paraphrase_1
+  relation: leads_to
+  condition: When ascending and descending meet MC culminates individual transfiguration
+  metadata:
+    source_relation_id: rel_house_10_mc
+    source_ref: House 10 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_english_paraphrase_1
+  relation: leads_to
+  condition: When ascending and descending meet MC culminates individual transfiguration
+  metadata:
+    source_relation_id: rel_house_10_mc
+    source_ref: House 10 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_house_9_source_11
+  relation: leads_to
+  condition: When social integration channels house 11 collective creation through
+    individual
+  metadata:
+    source_relation_id: rel_house_11_collective
+    source_ref: House 11 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_english_paraphrase_1
+  relation: leads_to
+  condition: When social integration channels house 11 collective creation through
+    individual
+  metadata:
+    source_relation_id: rel_house_11_collective
+    source_ref: House 11 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_house_8_source_10
+  relation: leads_to
+  condition: When shared purpose enables house 11 society transformation future seeds
+  metadata:
+    source_relation_id: rel_house_11_reform
+    source_ref: House 11 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_12_source_14
+  to_node: n_tah_house_3_source_5
+  relation: leads_to
+  condition: When accumulated results confront house 12 past for cycle completion
+  metadata:
+    source_relation_id: rel_house_12_karma
+    source_ref: House 12 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_house_12_source_14
+  to_node: n_tah_english_paraphrase_1
+  relation: leads_to
+  condition: When letting go prepares house 12 rebirth toward new ascendant
+  metadata:
+    source_relation_id: rel_house_12_seed
+    source_ref: House 12 Source
+    inferred_from: explicit_relation
+- from_node: n_tah_english_paraphrase_1
+  to_node: n_tah_source_text_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_source_text_0
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_source_text_0
+  to_node: n_tah_the_astrological_houses_h1_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_2_source_4
+  to_node: n_tah_source_text_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_3_source_5
+  to_node: n_tah_source_text_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_4_source_6
+  to_node: n_tah_source_text_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_5_source_7
+  to_node: n_tah_source_text_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_6_source_8
+  to_node: n_tah_source_text_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_7_source_9
+  to_node: n_tah_source_text_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_8_source_10
+  to_node: n_tah_source_text_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_9_source_11
+  to_node: n_tah_source_text_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_source_text_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_source_text_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_12_source_14
+  to_node: n_tah_source_text_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_source_text_0
+  to_node: n_tah_the_astrological_houses_classi_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_polarity_principle_16
+  to_node: n_tah_source_text_0
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - astro_horizon
+    - astro_meridian
+- from_node: n_tah_english_paraphrase_1
+  to_node: n_tah_house_2_source_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_english_paraphrase_1
+  to_node: n_tah_house_6_source_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_english_paraphrase_1
+  to_node: n_tah_house_7_source_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_english_paraphrase_1
+  to_node: n_tah_the_astrological_houses_classi_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_english_paraphrase_1
+  to_node: n_tah_polarity_principle_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_the_astrological_houses_h1_3
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_3_source_5
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_4_source_6
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_5_source_7
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_9_source_11
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_12_source_14
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - transformation
+- from_node: n_tah_the_astrological_houses_classi_15
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_polarity_principle_16
+  to_node: n_tah_the_astrological_houses_theolo_2
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_4_source_6
+  to_node: n_tah_the_astrological_houses_h1_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_5_source_7
+  to_node: n_tah_the_astrological_houses_h1_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_6_source_8
+  to_node: n_tah_the_astrological_houses_h1_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_7_source_9
+  to_node: n_tah_the_astrological_houses_h1_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_8_source_10
+  to_node: n_tah_the_astrological_houses_h1_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_9_source_11
+  to_node: n_tah_the_astrological_houses_h1_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_the_astrological_houses_h1_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_the_astrological_houses_h1_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_12_source_14
+  to_node: n_tah_the_astrological_houses_h1_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_the_astrological_houses_classi_15
+  to_node: n_tah_the_astrological_houses_h1_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_polarity_principle_16
+  to_node: n_tah_the_astrological_houses_h1_3
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_2_source_4
+  to_node: n_tah_house_3_source_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_2_source_4
+  to_node: n_tah_house_4_source_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_2_source_4
+  to_node: n_tah_house_5_source_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_2_source_4
+  to_node: n_tah_house_7_source_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_2_source_4
+  to_node: n_tah_house_9_source_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_house_2_source_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_12_source_14
+  to_node: n_tah_house_2_source_4
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_2_source_4
+  to_node: n_tah_the_astrological_houses_classi_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_2_source_4
+  to_node: n_tah_polarity_principle_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_3_source_5
+  to_node: n_tah_house_4_source_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_3_source_5
+  to_node: n_tah_house_5_source_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_3_source_5
+  to_node: n_tah_house_6_source_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_3_source_5
+  to_node: n_tah_house_7_source_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_3_source_5
+  to_node: n_tah_house_8_source_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_3_source_5
+  to_node: n_tah_house_9_source_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_house_3_source_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_house_3_source_5
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_3_source_5
+  to_node: n_tah_the_astrological_houses_classi_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_3_source_5
+  to_node: n_tah_polarity_principle_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_4_source_6
+  to_node: n_tah_house_6_source_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_4_source_6
+  to_node: n_tah_house_7_source_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_4_source_6
+  to_node: n_tah_house_8_source_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_4_source_6
+  to_node: n_tah_house_9_source_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_house_4_source_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - mc
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_house_4_source_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_12_source_14
+  to_node: n_tah_house_4_source_6
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_4_source_6
+  to_node: n_tah_the_astrological_houses_classi_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_4_source_6
+  to_node: n_tah_polarity_principle_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_5_source_7
+  to_node: n_tah_house_6_source_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_5_source_7
+  to_node: n_tah_house_7_source_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_5_source_7
+  to_node: n_tah_house_8_source_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_house_5_source_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_house_5_source_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_12_source_14
+  to_node: n_tah_house_5_source_7
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_5_source_7
+  to_node: n_tah_the_astrological_houses_classi_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_5_source_7
+  to_node: n_tah_polarity_principle_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_6_source_8
+  to_node: n_tah_house_7_source_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_6_source_8
+  to_node: n_tah_house_8_source_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_6_source_8
+  to_node: n_tah_house_9_source_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_house_6_source_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_house_6_source_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_12_source_14
+  to_node: n_tah_house_6_source_8
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_6_source_8
+  to_node: n_tah_the_astrological_houses_classi_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_6_source_8
+  to_node: n_tah_polarity_principle_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_7_source_9
+  to_node: n_tah_house_9_source_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_house_7_source_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_house_7_source_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_12_source_14
+  to_node: n_tah_house_7_source_9
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_7_source_9
+  to_node: n_tah_the_astrological_houses_classi_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_7_source_9
+  to_node: n_tah_polarity_principle_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_house_8_source_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_12_source_14
+  to_node: n_tah_house_8_source_10
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - transformation
+- from_node: n_tah_house_8_source_10
+  to_node: n_tah_the_astrological_houses_classi_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_8_source_10
+  to_node: n_tah_polarity_principle_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_house_9_source_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_12_source_14
+  to_node: n_tah_house_9_source_11
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_9_source_11
+  to_node: n_tah_the_astrological_houses_classi_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_9_source_11
+  to_node: n_tah_polarity_principle_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_house_11_source_13
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_house_12_source_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_the_astrological_houses_classi_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_10_source_12
+  to_node: n_tah_polarity_principle_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_house_12_source_14
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_the_astrological_houses_classi_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_11_source_13
+  to_node: n_tah_polarity_principle_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_12_source_14
+  to_node: n_tah_the_astrological_houses_classi_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_house_12_source_14
+  to_node: n_tah_polarity_principle_16
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+- from_node: n_tah_polarity_principle_16
+  to_node: n_tah_the_astrological_houses_classi_15
+  relation: supports
+  condition: null
+  metadata:
+    inferred_from: factor_cooccurrence
+    shared_factors:
+    - and
+    - or
+narrative_order:
+- n_tah_epilogue_18
+- n_tah_house_10_source_12
+- n_tah_three_level_cycle_17
+- n_tah_english_paraphrase_1
+- n_tah_house_11_source_13
+- n_tah_house_12_source_14
+- n_tah_house_2_source_4
+- n_tah_house_3_source_5
+- n_tah_house_4_source_6
+- n_tah_house_5_source_7
+- n_tah_house_6_source_8
+- n_tah_house_7_source_9
+- n_tah_house_8_source_10
+- n_tah_house_9_source_11
+- n_tah_polarity_principle_16
+- n_tah_source_text_0
+- n_tah_the_astrological_houses_classi_15
+- n_tah_the_astrological_houses_h1_3
+- n_tah_the_astrological_houses_theolo_2
+entry_nodes:
+- n_tah_house_10_source_12
+- n_tah_three_level_cycle_17
+- n_tah_epilogue_18
+terminal_nodes:
+- n_tah_epilogue_18
+- n_tah_the_astrological_houses_theolo_2
+- n_tah_three_level_cycle_17
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-12-04T19:17:46.355959'
+  source_files:
+  - data/schema_staging/snippets/the_astrological_houses_snippets.yaml
+  - data/schema_staging/relations/the_astrological_houses_relations.yaml
+  snippet_count: 61
+  relation_count: 38
+version: 1.0.0

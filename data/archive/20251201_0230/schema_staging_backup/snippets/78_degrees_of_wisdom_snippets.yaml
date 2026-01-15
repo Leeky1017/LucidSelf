@@ -1,0 +1,585 @@
+book_id: 78_degrees_of_wisdom
+source_file: 典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+extracted_at: '2025-12-01T02:28:32.955354'
+snippets:
+- snippet_id: ns_78deg_001
+  trigger: tarot_origin
+  factor_trigger: tarot_history
+  role: 主干
+  snippet_text: Around 1450, Bembo painted unnumbered, unnamed cards for the Visconti
+    family—this is Tarot's documented beginning.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608574'
+- snippet_id: ns_78deg_002
+  trigger: hanged_man_mystery
+  factor_trigger: hanged_man AND mystery
+  role: 主干
+  snippet_text: The Hanged Man stands out as mysterious—a young man hanging upside
+    down, face serene, forming a triangle.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608594'
+- snippet_id: ns_78deg_003
+  trigger: esoteric_embedding
+  factor_trigger: esoteric AND tarot
+  role: 条件分支
+  snippet_text: Did Bembo intentionally embed esoteric knowledge? Evidence is circumstantial
+    but compelling.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608604'
+- snippet_id: ns_78deg_004
+  trigger: archetypal_emergence
+  factor_trigger: archetype AND collective_unconscious
+  role: 总结
+  snippet_text: Bembo may have unconsciously tapped archetypal knowledge structured
+    into the human psyche.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608611'
+- snippet_id: ns_78deg_059
+  trigger: justice_responsibility
+  factor_trigger: justice AND responsibility
+  role: 主干
+  snippet_text: Justice indicates an understanding of the vision shown in the Wheel
+    of Fortune, and the way to understanding lies in responsibility.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608623'
+- snippet_id: ns_78deg_060
+  trigger: self_creation
+  factor_trigger: self_creation AND character
+  role: 主干
+  snippet_text: We create ourselves through every thing we do; every event in our
+    lives helps to form our characters.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608631'
+- snippet_id: ns_78deg_061
+  trigger: sword_of_wisdom
+  factor_trigger: wisdom AND fate
+  role: 条件分支
+  snippet_text: When we accept responsibility for self-creation, the sword of wisdom
+    cuts through the mystery of fate.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608639'
+- snippet_id: ns_78deg_062
+  trigger: no_blindfold
+  factor_trigger: justice AND truth
+  role: 条件分支
+  snippet_text: Justice has no blindfold because one must see the truth to advance
+    spiritually, unlike legal Justitia.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608647'
+- snippet_id: ns_78deg_063
+  trigger: free_will_lesson
+  factor_trigger: free_will AND consciousness
+  role: 主干
+  snippet_text: 'Most important Tarot lesson: how little we exercise freedom—not enough
+    to foresee outcome, must understand why it''s coming.'
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608654'
+- snippet_id: ns_78deg_064
+  trigger: action_vs_movement
+  factor_trigger: action AND illusion
+  role: 条件分支
+  snippet_text: Confusing doing things with action is the first line illusion—pushed
+    from event to event like machines, truly passive.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608662'
+- snippet_id: ns_78deg_065
+  trigger: balance_and_response
+  factor_trigger: balance AND vision
+  role: 总结
+  snippet_text: Justice teaches us to balance our inner and outer worlds, and to respond
+    to the vision we have received.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608669'
+- snippet_id: ns_78deg_066
+  trigger: responsibility_and_freedom
+  factor_trigger: responsibility AND freedom
+  role: 总结
+  snippet_text: True freedom comes from taking responsibility for our actions, and
+    for the consequences of those actions.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608677'
+- snippet_id: ns_78deg_009
+  trigger: rws_revolution
+  factor_trigger: rws_deck AND revolution
+  role: 主干
+  snippet_text: In 1910, Waite and Smith revolutionized Tarot by including a scene
+    on all cards, even Minor Arcana pips.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608691'
+- snippet_id: ns_78deg_010
+  trigger: pictorial_minor
+  factor_trigger: minor_arcana AND pictorial
+  role: 主干
+  snippet_text: 'Traditional 10 of Swords: ten swords in pattern. RWS: a man with
+    ten swords in his back—dramatic narrative.'
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608698'
+- snippet_id: ns_78deg_011
+  trigger: rectified_tarot
+  factor_trigger: waite AND spiritual
+  role: 条件分支
+  snippet_text: Waite called it the "rectified Tarot"—restored to deepest spiritual
+    meanings through mystical experience.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608707'
+- snippet_id: ns_78deg_012
+  trigger: intuitive_access
+  factor_trigger: intuition AND imagery
+  role: 总结
+  snippet_text: Pictorial scenes freed interpretation from rigid formulas, allowing
+    subconscious engagement with imagery.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608715'
+- snippet_id: ns_78deg_013
+  trigger: correspondences
+  factor_trigger: correspondence AND pattern
+  role: 主干
+  snippet_text: Previously people thought in terms of correspondences—patterns in
+    one area corresponding to patterns in other areas.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608726'
+- snippet_id: ns_78deg_014
+  trigger: synchronicity
+  factor_trigger: synchronicity AND meaning
+  role: 主干
+  snippet_text: 'Synchronicity: meaningful coincidences, events occurring together
+    because they share a common meaning in the psyche.'
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608733'
+- snippet_id: ns_78deg_015
+  trigger: tarot_advantage
+  factor_trigger: tarot AND archetype
+  role: 条件分支
+  snippet_text: 'Tarot''s advantage: pictures carry deep archetypal wisdom, not just
+    simple fortune-telling formulas.'
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608739'
+- snippet_id: ns_78deg_016
+  trigger: no_inherent_good_bad
+  factor_trigger: context AND meaning
+  role: 总结
+  snippet_text: No card is inherently good or bad—context determines meaning.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608746'
+- snippet_id: ns_78deg_017
+  trigger: diamond_pattern
+  factor_trigger: four_cards AND archetype
+  role: 主干
+  snippet_text: 'The entire journey can be understood through four archetypal cards
+    in a diamond pattern: Fool(0), Magician(1), Priestess(2), World(21).'
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608759'
+- snippet_id: ns_78deg_018
+  trigger: zero_infinite
+  factor_trigger: fool AND potentiality
+  role: 主干
+  snippet_text: 0 (Fool) is not a number but absence of number = infinite potentiality;
+    all things remain possible because no form has been taken.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608766'
+- snippet_id: ns_78deg_019
+  trigger: journey_meaning
+  factor_trigger: journey AND integration
+  role: 总结
+  snippet_text: 'Start (Fool): innocent potential. Separation (1&2): consciousness
+    splits into opposites. Integration (World): return to unity, now conscious.'
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608773'
+- snippet_id: ns_78deg_020
+  trigger: two_pillars
+  factor_trigger: pillars AND duality
+  role: 主干
+  snippet_text: The two pillars appear again and again in the Major Arcana—a vaginal
+    symbol as well as a symbol of duality.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608785'
+- snippet_id: ns_78deg_021
+  trigger: pillar_appearances
+  factor_trigger: pillars AND major_arcana
+  role: 条件分支
+  snippet_text: 'Pillars appear in: Priestess (B&J), Hierophant (temple), Lovers (two
+    figures), Chariot (sphinxes), Moon (towers).'
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608794'
+- snippet_id: ns_78deg_022
+  trigger: world_transcends
+  factor_trigger: world AND transcendence
+  role: 总结
+  snippet_text: 'World (XXI): pillars transcended—dancer integrates duality within
+    single figure, both wands in one person.'
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608800'
+- snippet_id: ns_78deg_023
+  trigger: fool_zero
+  factor_trigger: fool AND zero
+  role: 主干
+  snippet_text: 'Number 0 is not a real number but absence of number = infinite potentiality:
+    all things remain possible because no form has been taken.'
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608812'
+- snippet_id: ns_78deg_024
+  trigger: true_innocence
+  factor_trigger: innocence AND trust
+  role: 主干
+  snippet_text: True innocence is not 'not guilty' but 'without fear'—completely open
+    to experience, total trust in life.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608819'
+- snippet_id: ns_78deg_025
+  trigger: fall_from_paradise
+  factor_trigger: fall AND paradise
+  role: 条件分支
+  snippet_text: We experience the Fool as something lost—virtually every culture has
+    myth of Fall from primeval paradise.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608825'
+- snippet_id: ns_78deg_026
+  trigger: journey_to_world
+  factor_trigger: innocence AND maturity
+  role: 总结
+  snippet_text: Once innocence is lost, we must struggle, learn, develop maturity
+    to reach the greater freedom of the World.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608834'
+- snippet_id: ns_78deg_027
+  trigger: magician_consciousness
+  factor_trigger: magician AND consciousness
+  role: 主干
+  snippet_text: The Magician represents action, consciousness—the powerful yet limited
+    consciousness of ego as it creates boundaries and forms.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608861'
+- snippet_id: ns_78deg_028
+  trigger: shape_chaos
+  factor_trigger: creativity AND meaning
+  role: 主干
+  snippet_text: What greater creativity is there than giving shape to the chaos of
+    experience? The Magician gives life its meaning and purpose.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608869'
+- snippet_id: ns_78deg_029
+  trigger: as_above
+  factor_trigger: hermetic AND correspondence
+  role: 条件分支
+  snippet_text: Right hand raised to heaven, left pointing down = "As above, so below"—the
+    Hermetic principle of correspondence.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608878'
+- snippet_id: ns_78deg_030
+  trigger: four_tools
+  factor_trigger: four_elements AND mastery
+  role: 总结
+  snippet_text: Four tools on table (Wand/Cup/Sword/Pentacle) = four elements = complete
+    mastery of reality's building blocks.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608884'
+- snippet_id: ns_78deg_031
+  trigger: priestess_passivity
+  factor_trigger: high_priestess AND passivity
+  role: 主干
+  snippet_text: The High Priestess represents passivity, femaleness, unconsciousness—a
+    very deep state of intuitive awareness.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608909'
+- snippet_id: ns_78deg_032
+  trigger: inner_truth
+  factor_trigger: inner_knowledge AND passivity
+  role: 主干
+  snippet_text: Her inner knowledge does not belong to that radiant centre of nothingness
+    that enables the Fool to act freely—she maintains it through total passivity.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608917'
+- snippet_id: ns_78deg_033
+  trigger: two_pillars_threshold
+  factor_trigger: threshold AND mystery
+  role: 条件分支
+  snippet_text: Sitting between pillars of light and dark, she is the threshold between
+    conscious and unconscious, guardian of mysteries.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608926'
+- snippet_id: ns_78deg_034
+  trigger: east_west
+  factor_trigger: magician AND high_priestess
+  role: 总结
+  snippet_text: Magician = West (action, doing); High Priestess = East (withdrawal,
+    being)—integration comes from combining both.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608933'
+- snippet_id: ns_78deg_035
+  trigger: empress_emotion
+  factor_trigger: empress AND emotion
+  role: 主干
+  snippet_text: The Empress represents the more accessible, more benign aspects of
+    the female archetype—motherhood, love, gentleness, sexuality, emotion.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608955'
+- snippet_id: ns_78deg_036
+  trigger: high_priestess_vs_empress
+  factor_trigger: high_priestess AND empress
+  role: 主干
+  snippet_text: The High Priestess represented the mental side of the female archetype;
+    the Empress is pure emotion.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608965'
+- snippet_id: ns_78deg_037
+  trigger: river_life_force
+  factor_trigger: river AND life_force
+  role: 条件分支
+  snippet_text: The river represents the life force current running beneath all separate
+    forms—when we surrender to feeling, we sense this current.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608973'
+- snippet_id: ns_78deg_038
+  trigger: sensuality_enlightenment
+  factor_trigger: sensuality AND enlightenment
+  role: 总结
+  snippet_text: Sensuality is the first step to enlightenment—until we learn to experience
+    the outer world completely we cannot hope to transcend it.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.608980'
+- snippet_id: ns_78deg_039
+  trigger: hierophant_outer
+  factor_trigger: hierophant AND authority
+  role: 主干
+  snippet_text: Hierophant is 'outer way' and 'secret doctrine'—whether being admitted
+    to Church or initiated into mystery cult, they are learning from an outer authority.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609021'
+- snippet_id: ns_78deg_040
+  trigger: egyptian_trinity
+  factor_trigger: trinity AND nature
+  role: 条件分支
+  snippet_text: 'Egyptian Trinity: Empress (Nature)—underlying reality; Emperor (Society)
+    and Hierophant (Religion)—constructs overlaid on nature.'
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609029'
+- snippet_id: ns_78deg_041
+  trigger: teacher_archetype
+  factor_trigger: hierophant AND teaching
+  role: 条件分支
+  snippet_text: Hierophant transmits tradition, interprets doctrine, provides structure,
+    creates community, maintains orthodoxy.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609035'
+- snippet_id: ns_78deg_042
+  trigger: outer_vs_inner
+  factor_trigger: inner AND outer
+  role: 总结
+  snippet_text: High Priestess = inner truth, unconscious wisdom; Hierophant = outer
+    teaching, conscious doctrine—both necessary for complete spiritual development.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609043'
+- snippet_id: ns_78deg_043
+  trigger: chariot_will
+  factor_trigger: chariot AND will
+  role: 主干
+  snippet_text: Like the Magician the Charioteer carries a magic wand, but unlike
+    the Magician he does not raise it to heaven—his chariot looms larger than the
+    town behind.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609078'
+- snippet_id: ns_78deg_044
+  trigger: sphinxes_unreconciled
+  factor_trigger: sphinxes AND duality
+  role: 主干
+  snippet_text: The black and white sphinxes are not reconciled to each other—they
+    look in opposite directions. The charioteer's will holds them together in a tense
+    balance.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609088'
+- snippet_id: ns_78deg_045
+  trigger: will_fails
+  factor_trigger: will AND failure
+  role: 条件分支
+  snippet_text: If that will should fail, the Chariot and its rider will be torn apart.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609094'
+- snippet_id: ns_78deg_046
+  trigger: stone_rigidity
+  factor_trigger: ego AND rigidity
+  role: 总结
+  snippet_text: Charioteer merging into stone vehicle = ego becoming fixed, cut off
+    from forces it controls—the danger of rigidity.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609101'
+- snippet_id: ns_78deg_047
+  trigger: strength_release
+  factor_trigger: strength AND passion
+  role: 主干
+  snippet_text: Strength releases the inner passions to emerge, as the first step
+    in going beyond the ego.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609122'
+- snippet_id: ns_78deg_048
+  trigger: lion_symbolism
+  factor_trigger: lion AND instinct
+  role: 主干
+  snippet_text: The lion symbolizes the whole force of personality, usually smoothed
+    over by the demands of civilized life.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609129'
+- snippet_id: ns_78deg_049
+  trigger: lion_tamed
+  factor_trigger: taming AND joy
+  role: 条件分支
+  snippet_text: The lion is 'tamed' at the same time that it is released—unless we
+    truly believe that the process of self-discovery is joyous, we will never follow
+    it through.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609137'
+- snippet_id: ns_78deg_050
+  trigger: feminine_power
+  factor_trigger: feminine AND surrender
+  role: 总结
+  snippet_text: Where Chariot = masculine will-power, Strength = feminine surrender-power—taming
+    by love, not domination.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609145'
+- snippet_id: ns_78deg_051
+  trigger: hermit_withdrawal
+  factor_trigger: hermit AND withdrawal
+  role: 主干
+  snippet_text: The Hermit signifies a withdrawal from the outer world for the purpose
+    of activating the unconscious mind.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609166'
+- snippet_id: ns_78deg_052
+  trigger: hermit_guide
+  factor_trigger: hermit AND guide
+  role: 主干
+  snippet_text: But the Hermit also signifies a teacher who will show us how to begin
+    this process, and will help us find our way.
+  source_ref: Source Text
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609172'
+- snippet_id: ns_78deg_053
+  trigger: abulafia_triangle
+  factor_trigger: abulafia AND levels
+  role: 条件分支
+  snippet_text: 'Abulafia''s three levels form an isosceles triangle: Doctrine (Hierophant),
+    Personal Teacher (Hermit), Ecstatic Union (Sun).'
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609179'
+- snippet_id: ns_78deg_054
+  trigger: lantern_process
+  factor_trigger: lantern AND process
+  role: 总结
+  snippet_text: The visible lantern shows that the light of unconscious can be released
+    through a definite process available to anyone.
+  source_ref: English Paraphrase
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.609186'

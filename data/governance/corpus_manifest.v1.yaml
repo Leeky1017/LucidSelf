@@ -1,0 +1,81 @@
+manifest_id: lucidself-corpus
+manifest_version: v1
+corpus_name: LucidSelf Corpus
+
+licenses:
+  - license_id: internal-repo
+    allowed_use:
+      - internal_research
+      - development
+    restrictions:
+      - no_redistribution
+    attribution_required: false
+    notes: Repo-internal assets governed by repository policy.
+
+  - license_id: unknown-upstream
+    allowed_use:
+      - review_only
+    restrictions:
+      - requires_license_verification
+      - no_redistribution
+    attribution_required: true
+    notes: Upstream provenance/license requires manual verification.
+
+assets:
+  - asset_id: raw_books
+    name: Raw books (source texts)
+    path: 典籍
+    kind: directory
+    source: repo:/典籍
+    license_id: unknown-upstream
+    derived_from: []
+    release_included: false
+
+  - asset_id: logic_chains
+    name: Logic chains (structured YAML)
+    path: data/logic_chains
+    kind: directory
+    source: derived_from:raw_books
+    license_id: internal-repo
+    derived_from:
+      - raw_books
+    release_included: true
+
+  - asset_id: factor_ontology
+    name: Factor ontology
+    path: data/factor_ontology
+    kind: directory
+    source: repo:/data/factor_ontology
+    license_id: internal-repo
+    derived_from: []
+    release_included: true
+
+  - asset_id: rules
+    name: Rules
+    path: data/rules
+    kind: directory
+    source: repo:/data/rules
+    license_id: internal-repo
+    derived_from: []
+    release_included: true
+
+  - asset_id: knowledge_graph_config
+    name: Knowledge graph configs/templates
+    path: data/knowledge_graph
+    kind: directory
+    source: repo:/data/knowledge_graph
+    license_id: internal-repo
+    derived_from:
+      - logic_chains
+    release_included: true
+
+  - asset_id: golden_set
+    name: Golden set
+    path: data/golden_set
+    kind: directory
+    source: repo:/data/golden_set
+    license_id: internal-repo
+    derived_from:
+      - logic_chains
+    release_included: true
+

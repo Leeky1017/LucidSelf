@@ -1,0 +1,5993 @@
+chain_id: chain_tetrabiblos
+book_id: tetrabiblos
+nodes:
+- node_id: n_tetrabiblos_source_text_1
+  snippet_ids:
+  - ns_ptolemy_iii_001
+  role: 主干
+  condition: null
+  summary: genethliacal
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_2
+  snippet_ids:
+  - ns_ptolemy_iii_003
+  role: 主干
+  condition: null
+  summary: ascendant
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_3
+  snippet_ids:
+  - ns_ptolemy_iii_005
+  role: 主干
+  condition: null
+  summary: distribution
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_4
+  snippet_ids:
+  - ns_ptolemy_iii_007
+  role: 主干
+  condition: null
+  summary: mind_quality
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_5
+  snippet_ids:
+  - ns_ptolemy_iii_009
+  role: 主干
+  condition: null
+  summary: mental_disease
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_6
+  snippet_ids:
+  - ns_ptolemy_iii_010
+  role: 条件分支
+  condition: null
+  summary: saturn_affliction
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text
+    snippet_count: 1
+- node_id: n_tetrabiblos_english_paraphrase_7
+  snippet_ids:
+  - ns_ptolemy_iii_002
+  - ns_ptolemy_iii_004
+  - ns_ptolemy_iii_006
+  - ns_ptolemy_iii_008
+  - ns_tetra_i005
+  role: 主干依赖
+  condition: null
+  summary: individual_destiny
+  metadata:
+    cluster_level: L1
+    source_ref: English Paraphrase
+    snippet_count: 5
+- node_id: n_tetrabiblos_source_text_iii_2_8
+  snippet_ids:
+  - ns_tetra_iii_010
+  role: 主干
+  condition: null
+  summary: conception_birth
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text III.2
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iii_5_9
+  snippet_ids:
+  - ns_tetra_iii011
+  - ns_tetra_iii012
+  role: 主干
+  condition: null
+  summary: parent_significators
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text III.5
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_iii_6_10
+  snippet_ids:
+  - ns_tetra_iii013
+  role: 主干
+  condition: null
+  summary: siblings_place
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text III.6
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iii_7_11
+  snippet_ids:
+  - ns_tetra_iii014
+  role: 主干
+  condition: null
+  summary: sex_determination
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text III.7
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iii_8_12
+  snippet_ids:
+  - ns_tetra_iii015
+  role: 主干
+  condition: null
+  summary: twins_multiples
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text III.8
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iii_9_13
+  snippet_ids:
+  - ns_tetra_iii_020
+  role: 主干
+  condition: null
+  summary: monstrous_birth
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text III.9
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iii_10_14
+  snippet_ids:
+  - ns_tetra_iii_021
+  role: 主干
+  condition: null
+  summary: not_reared
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text III.10
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iii_11_15
+  snippet_ids:
+  - ns_tetra_iii022
+  role: 主干
+  condition: null
+  summary: duration_intro
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text III.11
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iii_12_16
+  snippet_ids:
+  - ns_tetra_iii023
+  role: 主干
+  condition: null
+  summary: prorogatory_places
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text III.12
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iii_13_17
+  snippet_ids:
+  - ns_tetra_iii024
+  role: 主干
+  condition: null
+  summary: prorogator_selection
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text III.13
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iii_14_18
+  snippet_ids:
+  - ns_tetra_iii025
+  role: 主干
+  condition: null
+  summary: prorogation_modes
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text III.14
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iii_15_19
+  snippet_ids:
+  - ns_tetra_iii026
+  role: 主干
+  condition: null
+  summary: prorogation_example
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text III.15
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iii_16_20
+  snippet_ids:
+  - ns_tetra_iii018
+  role: 主干
+  condition: null
+  summary: body_form
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text III.16
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iii_17_21
+  snippet_ids:
+  - ns_tetra_iii019
+  - ns_tetra_iii020
+  role: 主干
+  condition: null
+  summary: bodily_disease
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text III.17
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_ii_1_22
+  snippet_ids:
+  - ns_tetra_ii001
+  role: 主干
+  condition: null
+  summary: mundane_natal_division
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text II.1
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_ii_2_23
+  snippet_ids:
+  - ns_tetra_ii002
+  role: 主干
+  condition: null
+  summary: climatic_astrology
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text II.2
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_ii_3_24
+  snippet_ids:
+  - ns_tetra_ii003
+  - ns_tetra_ii004
+  role: 主干
+  condition: null
+  summary: regional_triplicities
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text II.3
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_ii_4_25
+  snippet_ids:
+  - ns_tetra_ii_010
+  role: 主干
+  condition: null
+  summary: fixed_star_region
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text II.4
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_ii_5_26
+  snippet_ids:
+  - ns_tetra_ii005
+  role: 主干
+  condition: null
+  summary: eclipse_methodology
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text II.5
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_ii_6_27
+  snippet_ids:
+  - ns_tetra_ii006
+  role: 条件分支
+  condition: null
+  summary: eclipse_regions
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text II.6
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_ii_7_28
+  snippet_ids:
+  - ns_tetra_ii_011
+  role: 主干
+  condition: null
+  summary: eclipse_timing
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text II.7
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_ii_8_29
+  snippet_ids:
+  - ns_tetra_ii_012
+  role: 主干
+  condition: null
+  summary: genus_affected
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text II.8
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_ii_9_30
+  snippet_ids:
+  - ns_tetra_ii007
+  role: 主干
+  condition: null
+  summary: eclipse_effect_nature
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text II.9
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_ii_10_31
+  snippet_ids:
+  - ns_tetra_ii_013
+  role: 主干
+  condition: null
+  summary: eclipse_colour
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text II.10
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_ii_11_32
+  snippet_ids:
+  - ns_tetra_ii008
+  role: 主干
+  condition: null
+  summary: aries_ingress
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text II.11
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_ii_12_33
+  snippet_ids:
+  - ns_tetra_ii_014
+  role: 主干
+  condition: null
+  summary: sign_weather
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text II.12
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_ii_13_34
+  snippet_ids:
+  - ns_tetra_ii009
+  role: 条件分支
+  condition: null
+  summary: monthly_weather
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text II.13
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_ii_14_35
+  snippet_ids:
+  - ns_tetra_ii010
+  role: 条件分支
+  condition: null
+  summary: meteors_comets
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text II.14
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iv_1_36
+  snippet_ids:
+  - ns_tetra_iv001
+  - ns_tetra_iv002
+  role: 主干
+  condition: null
+  summary: fortune_wealth
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text IV.1
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_iv_2_37
+  snippet_ids:
+  - ns_tetra_iv003
+  - ns_tetra_iv004
+  role: 主干
+  condition: null
+  summary: rank_dignity
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text IV.2
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_iv_3_38
+  snippet_ids:
+  - ns_tetra_iv005
+  - ns_tetra_iv006
+  role: 主干
+  condition: null
+  summary: profession
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text IV.3
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_iv_4_39
+  snippet_ids:
+  - ns_tetra_iv_010
+  role: 主干
+  condition: null
+  summary: employment_quality
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text IV.4
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iv_5_40
+  snippet_ids:
+  - ns_tetra_iv007
+  - ns_tetra_iv008
+  role: 主干
+  condition: null
+  summary: marriage_men
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text IV.5
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_iv_6_41
+  snippet_ids:
+  - ns_tetra_iv009
+  - ns_tetra_iv010
+  role: 主干
+  condition: null
+  summary: children_givers
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text IV.6
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_iv_7_42
+  snippet_ids:
+  - ns_tetra_iv011
+  role: 主干
+  condition: null
+  summary: synastry_friendship
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text IV.7
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iv_8_43
+  snippet_ids:
+  - ns_tetra_iv012
+  role: 主干
+  condition: null
+  summary: travel_indicated
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text IV.8
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_iv_9_44
+  snippet_ids:
+  - ns_tetra_iv013
+  - ns_tetra_iv014
+  - ns_tetra_iv015
+  role: 主干
+  condition: null
+  summary: death_manner
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text IV.9
+    snippet_count: 3
+- node_id: n_tetrabiblos_source_text_iv_10_45
+  snippet_ids:
+  - ns_tetra_iv_020
+  role: 主干
+  condition: null
+  summary: time_division
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text IV.10
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_1_46
+  snippet_ids:
+  - ns_tetra_i001
+  - ns_tetra_i002
+  - ns_tetra_i003
+  - ns_tetra_i004
+  role: 主干
+  condition: null
+  summary: two_studies_foundation
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.1
+    snippet_count: 4
+- node_id: n_tetrabiblos_source_text_i_2_47
+  snippet_ids:
+  - ns_tetra_i006
+  - ns_tetra_i007
+  - ns_tetra_i008
+  - ns_tetra_i009
+  - ns_tetra_i010
+  role: 主干
+  condition: null
+  summary: aethereal_power
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.2
+    snippet_count: 5
+- node_id: n_tetrabiblos_source_text_i_3_48
+  snippet_ids:
+  - ns_tetra_i011
+  role: 主干
+  condition: null
+  summary: prescience_utility
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text I.3
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_3_49
+  snippet_ids:
+  - ns_tetra_i012
+  role: 主干
+  condition: null
+  summary: non_determinism
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text I.3
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_3_50
+  snippet_ids:
+  - ns_tetra_i013
+  role: 条件分支
+  condition: null
+  summary: general_vs_particular
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text I.3
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_3_51
+  snippet_ids:
+  - ns_tetra_i014
+  role: 条件分支
+  condition: null
+  summary: qualified_determinism
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text I.3
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_3_52
+  snippet_ids:
+  - ns_tetra_i015
+  role: 总结
+  condition: null
+  summary: psychological_preparation
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text I.3
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_3_53
+  snippet_ids:
+  - ns_tetra_i016
+  role: 总结
+  condition: null
+  summary: medical_mathematics
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text I.3
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_4_54
+  snippet_ids:
+  - ns_tetra_i017
+  role: 主干
+  condition: null
+  summary: sun_quality
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text I.4
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_4_55
+  snippet_ids:
+  - ns_tetra_i018
+  role: 主干
+  condition: null
+  summary: moon_quality
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text I.4
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_4_56
+  snippet_ids:
+  - ns_tetra_i019
+  role: 主干
+  condition: null
+  summary: saturn_quality
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text I.4
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_4_57
+  snippet_ids:
+  - ns_tetra_i020
+  role: 主干
+  condition: null
+  summary: mars_quality
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text I.4
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_4_58
+  snippet_ids:
+  - ns_tetra_i021
+  role: 主干
+  condition: null
+  summary: jupiter_quality
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text I.4
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_4_59
+  snippet_ids:
+  - ns_tetra_i022
+  role: 主干
+  condition: null
+  summary: venus_quality
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text I.4
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_4_60
+  snippet_ids:
+  - ns_tetra_i023
+  role: 主干
+  condition: null
+  summary: mercury_quality
+  metadata:
+    cluster_level: L2
+    source_ref: Source Text I.4
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_5_61
+  snippet_ids:
+  - ns_tetra_i024
+  - ns_tetra_i025
+  - ns_tetra_i026
+  role: 主干
+  condition: null
+  summary: benefic_malefic_basis
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.5
+    snippet_count: 3
+- node_id: n_tetrabiblos_source_text_i_6_62
+  snippet_ids:
+  - ns_tetra_i027
+  - ns_tetra_i028
+  - ns_tetra_i029
+  role: 主干
+  condition: null
+  summary: planet_gender
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.6
+    snippet_count: 3
+- node_id: n_tetrabiblos_source_text_i_7_63
+  snippet_ids:
+  - ns_tetra_i030
+  - ns_tetra_i031
+  role: 主干
+  condition: null
+  summary: sect_doctrine
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.7
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_i_8_64
+  snippet_ids:
+  - ns_tetra_i032
+  - ns_tetra_i033
+  role: 主干
+  condition: null
+  summary: moon_phase_quality
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.8
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_i_9_65
+  snippet_ids:
+  - ns_tetra_i034
+  - ns_tetra_i035
+  - ns_tetra_i036
+  role: 主干
+  condition: null
+  summary: fixed_star_nature
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.9
+    snippet_count: 3
+- node_id: n_tetrabiblos_source_text_i_10_66
+  snippet_ids:
+  - ns_tetra_i070
+  role: 主干
+  condition: null
+  summary: northern_stars
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.10
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_11_67
+  snippet_ids:
+  - ns_tetra_i071
+  role: 主干
+  condition: null
+  summary: southern_stars
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.11
+    snippet_count: 1
+- node_id: n_tetrabiblos_footnote_i_11_68
+  snippet_ids:
+  - ns_tetra_i072
+  role: 条件分支
+  condition: null
+  summary: star_power
+  metadata:
+    cluster_level: L1
+    source_ref: Footnote I.11
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_12_69
+  snippet_ids:
+  - ns_tetra_i037
+  - ns_tetra_i038
+  role: 主干
+  condition: null
+  summary: seasonal_quality
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.12
+    snippet_count: 2
+- node_id: n_tetrabiblos_footnote_i_12_70
+  snippet_ids:
+  - ns_tetra_i039
+  role: 总结
+  condition: null
+  summary: tropical_zodiac
+  metadata:
+    cluster_level: L1
+    source_ref: Footnote I.12
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_13_71
+  snippet_ids:
+  - ns_tetra_i040
+  - ns_tetra_i041
+  role: 主干
+  condition: null
+  summary: angle_quality
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.13
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_i_14_72
+  snippet_ids:
+  - ns_tetra_i042
+  - ns_tetra_i043
+  role: 主干
+  condition: null
+  summary: sign_modality
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.14
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_i_15_73
+  snippet_ids:
+  - ns_tetra_i073
+  role: 主干
+  condition: null
+  summary: sign_gender
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.15
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_16_74
+  snippet_ids:
+  - ns_tetra_i044
+  - ns_tetra_i045
+  - ns_tetra_i046
+  role: 主干
+  condition: null
+  summary: aspect_definition
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.16
+    snippet_count: 3
+- node_id: n_tetrabiblos_source_text_i_17_75
+  snippet_ids:
+  - ns_tetra_i074
+  role: 主干
+  condition: null
+  summary: commanding_obeying
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.17
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_18_76
+  snippet_ids:
+  - ns_tetra_i075
+  role: 主干
+  condition: null
+  summary: signs_beholding
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.18
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_19_77
+  snippet_ids:
+  - ns_tetra_i076
+  role: 主干
+  condition: null
+  summary: inconjunct
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.19
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_20_78
+  snippet_ids:
+  - ns_tetra_i047
+  - ns_tetra_i048
+  - ns_tetra_i049
+  role: 主干
+  condition: null
+  summary: domicile_system
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.20
+    snippet_count: 3
+- node_id: n_tetrabiblos_source_text_i_21_79
+  snippet_ids:
+  - ns_tetra_i050
+  - ns_tetra_i051
+  role: 主干
+  condition: null
+  summary: triplicity_system
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.21
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_i_22_80
+  snippet_ids:
+  - ns_tetra_i052
+  - ns_tetra_i053
+  role: 主干
+  condition: null
+  summary: exaltation_system
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.22
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_i_23_81
+  snippet_ids:
+  - ns_tetra_i054
+  role: 主干
+  condition: null
+  summary: egyptian_terms
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.23
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_24_82
+  snippet_ids:
+  - ns_tetra_i055
+  role: 主干
+  condition: null
+  summary: ptolemaic_terms
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.24
+    snippet_count: 1
+- node_id: n_tetrabiblos_source_text_i_25_83
+  snippet_ids:
+  - ns_tetra_i056
+  - ns_tetra_i057
+  role: 主干
+  condition: null
+  summary: tropical_zodiac_defense
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.25
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_i_26_84
+  snippet_ids:
+  - ns_tetra_i058
+  - ns_tetra_i059
+  role: 主干
+  condition: null
+  summary: planetary_face
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.26
+    snippet_count: 2
+- node_id: n_tetrabiblos_source_text_i_27_85
+  snippet_ids:
+  - ns_tetra_i060
+  - ns_tetra_i061
+  role: 主干
+  condition: null
+  summary: application_separation
+  metadata:
+    cluster_level: L1
+    source_ref: Source Text I.27
+    snippet_count: 2
+edges:
+- from_node: n_tetrabiblos_source_text_1
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ptolemy_iii_001
+    source_ref: 'Ptolemy #III'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ptolemy_iii_001
+    source_ref: 'Ptolemy #III'
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_2_8
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_iii_010
+    source_ref: Ptolemy III.2
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_iv_1_36
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_iii_011
+    source_ref: Ptolemy III.5
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_iv_1_36
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_iii_012
+    source_ref: Ptolemy III.5
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_6_10
+  to_node: n_tetrabiblos_source_text_i_17_75
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_iii_013
+    source_ref: Ptolemy III.6
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_8_12
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_iii_015
+    source_ref: Ptolemy III.8
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_11_15
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_iii_022
+    source_ref: Ptolemy III.11
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_12_16
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: depends_on
+  condition: null
+  metadata:
+    source_relation_id: rel_iii_023
+    source_ref: Ptolemy III.12
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_12_16
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_iii_024
+    source_ref: Ptolemy III.13
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_13_17
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_iii_024
+    source_ref: Ptolemy III.13
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_14_18
+  to_node: n_tetrabiblos_source_text_iii_12_16
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_iii_025
+    source_ref: Ptolemy III.14
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_14_18
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_iii_025
+    source_ref: Ptolemy III.14
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_12_16
+  to_node: n_tetrabiblos_source_text_iii_11_15
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_iii_026
+    source_ref: Ptolemy III.15
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_13_17
+  to_node: n_tetrabiblos_source_text_iii_11_15
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_iii_026
+    source_ref: Ptolemy III.15
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_3_24
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ii_003
+    source_ref: Ptolemy II.3
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_11_32
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ii_007
+    source_ref: Ptolemy II.11
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_17_75
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ii_007
+    source_ref: Ptolemy II.11
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_12_33
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ii_014
+    source_ref: Ptolemy II.12
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_13_34
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_ii_008
+    source_ref: Ptolemy II.13
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_3_38
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_iv_005
+    source_ref: Ptolemy IV.3
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_iv_013
+    source_ref: Ptolemy IV.9
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_4_54
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_004
+    source_ref: Ptolemy I.4
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_004
+    source_ref: Ptolemy I.4
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_004
+    source_ref: Ptolemy I.4
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_4_54
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_004
+    source_ref: Ptolemy I.4
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_004
+    source_ref: Ptolemy I.4
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_4_54
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_004
+    source_ref: Ptolemy I.4
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_004
+    source_ref: Ptolemy I.4
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_005
+    source_ref: Ptolemy I.4
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_005
+    source_ref: Ptolemy I.4
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_005
+    source_ref: Ptolemy I.4
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_005
+    source_ref: Ptolemy I.4
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_006
+    source_ref: Ptolemy I.5
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_018
+    source_ref: Ptolemy I.20
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_27_85
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_018
+    source_ref: Ptolemy I.20
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_21_79
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_019
+    source_ref: Ptolemy I.21
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_21_79
+  to_node: n_tetrabiblos_source_text_i_27_85
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_019
+    source_ref: Ptolemy I.21
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_020
+    source_ref: Ptolemy I.22
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_27_85
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_020
+    source_ref: Ptolemy I.22
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_23_81
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_021a
+    source_ref: Ptolemy I.23
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_23_81
+  to_node: n_tetrabiblos_source_text_i_27_85
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_021a
+    source_ref: Ptolemy I.23
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_24_82
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_021b
+    source_ref: Ptolemy I.24
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_24_82
+  to_node: n_tetrabiblos_source_text_i_27_85
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_021b
+    source_ref: Ptolemy I.24
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_26_84
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_023
+    source_ref: Ptolemy I.26
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_26_84
+  to_node: n_tetrabiblos_source_text_i_27_85
+  relation: leads_to
+  condition: null
+  metadata:
+    source_relation_id: rel_i_023
+    source_ref: Ptolemy I.26
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_1
+  to_node: n_tetrabiblos_english_paraphrase_7
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_159
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_english_paraphrase_7
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_159
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_english_paraphrase_7
+  to_node: n_tetrabiblos_source_text_iii_2_8
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_160
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_2_8
+  to_node: n_tetrabiblos_source_text_2
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_161
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_2
+  to_node: n_tetrabiblos_english_paraphrase_7
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_162
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_english_paraphrase_7
+  to_node: n_tetrabiblos_source_text_3
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_163
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_3
+  to_node: n_tetrabiblos_english_paraphrase_7
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_164
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_3
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_164
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_english_paraphrase_7
+  to_node: n_tetrabiblos_source_text_4
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_165
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_4
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_165
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_4
+  to_node: n_tetrabiblos_english_paraphrase_7
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_166
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_english_paraphrase_7
+  to_node: n_tetrabiblos_source_text_5
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_167
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_5
+  to_node: n_tetrabiblos_source_text_6
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_168
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_6
+  to_node: n_tetrabiblos_source_text_iii_5_9
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_169
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_6
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_169
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_iii_5_9
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_170
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_5_9
+  to_node: n_tetrabiblos_source_text_iii_6_10
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_171
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_6_10
+  to_node: n_tetrabiblos_source_text_iii_7_11
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_172
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_7_11
+  to_node: n_tetrabiblos_source_text_iii_8_12
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_173
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_8_12
+  to_node: n_tetrabiblos_source_text_iii_9_13
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_174
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_8_12
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_174
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_9_13
+  to_node: n_tetrabiblos_source_text_iii_10_14
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_175
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_iii_10_14
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_175
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_10_14
+  to_node: n_tetrabiblos_source_text_iii_11_15
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_176
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_11_15
+  to_node: n_tetrabiblos_source_text_iii_12_16
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_177
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_11_15
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_177
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_12_16
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_178
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_13_17
+  to_node: n_tetrabiblos_source_text_iii_12_16
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_178
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_12_16
+  to_node: n_tetrabiblos_source_text_iii_14_18
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_179
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_13_17
+  to_node: n_tetrabiblos_source_text_iii_14_18
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_179
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_14_18
+  to_node: n_tetrabiblos_source_text_iii_15_19
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_180
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_14_18
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_180
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_15_19
+  to_node: n_tetrabiblos_source_text_iii_16_20
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_181
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_iii_16_20
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_181
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_16_20
+  to_node: n_tetrabiblos_source_text_iii_17_21
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_182
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_17_21
+  to_node: n_tetrabiblos_source_text_ii_1_22
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_184
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_1_22
+  to_node: n_tetrabiblos_source_text_ii_2_23
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_185
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_2_23
+  to_node: n_tetrabiblos_source_text_ii_3_24
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_186
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_2_23
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_186
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_3_24
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_187
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_ii_3_24
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_187
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_3_24
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_188
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_3_24
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_188
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_3_24
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_188
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_188
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_188
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_ii_5_26
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_189
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_source_text_ii_5_26
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_189
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_ii_5_26
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_189
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_5_26
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_190
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_5_26
+  to_node: n_tetrabiblos_source_text_ii_6_27
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_190
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_ii_7_28
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_191
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_6_27
+  to_node: n_tetrabiblos_source_text_ii_7_28
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_191
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_7_28
+  to_node: n_tetrabiblos_source_text_ii_8_29
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_192
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_8_29
+  to_node: n_tetrabiblos_source_text_ii_9_30
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_193
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_9_30
+  to_node: n_tetrabiblos_source_text_ii_10_31
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_194
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_10_31
+  to_node: n_tetrabiblos_source_text_ii_11_32
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_195
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_10_31
+  to_node: n_tetrabiblos_source_text_i_17_75
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_195
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_11_32
+  to_node: n_tetrabiblos_source_text_ii_12_33
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_196
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_11_32
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_196
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_17_75
+  to_node: n_tetrabiblos_source_text_ii_12_33
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_196
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_17_75
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_196
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_12_33
+  to_node: n_tetrabiblos_source_text_ii_13_34
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_197
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_12_33
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_197
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_ii_13_34
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_197
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_13_34
+  to_node: n_tetrabiblos_source_text_ii_14_35
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_198
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_ii_14_35
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_198
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_14_35
+  to_node: n_tetrabiblos_source_text_iv_1_36
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_199
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_1_36
+  to_node: n_tetrabiblos_source_text_iv_2_37
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_201
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_2_37
+  to_node: n_tetrabiblos_source_text_iv_3_38
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_203
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_3_38
+  to_node: n_tetrabiblos_source_text_i_4_60
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_204
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_3_38
+  to_node: n_tetrabiblos_source_text_i_6_62
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_204
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_3_38
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_205
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_3_38
+  to_node: n_tetrabiblos_source_text_iv_4_39
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_205
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_60
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_205
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_60
+  to_node: n_tetrabiblos_source_text_iv_4_39
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_205
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_6_62
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_205
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_6_62
+  to_node: n_tetrabiblos_source_text_iv_4_39
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_205
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_13_17
+  to_node: n_tetrabiblos_source_text_iv_5_40
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_206
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_4_39
+  to_node: n_tetrabiblos_source_text_iv_5_40
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_206
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_5_40
+  to_node: n_tetrabiblos_source_text_iv_6_41
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_208
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_6_41
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_209
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_13_17
+  to_node: n_tetrabiblos_source_text_iii_2_8
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_210
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_13_17
+  to_node: n_tetrabiblos_source_text_iv_7_42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_210
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_6_41
+  to_node: n_tetrabiblos_source_text_iii_2_8
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_210
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_6_41
+  to_node: n_tetrabiblos_source_text_iv_7_42
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_210
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_2_8
+  to_node: n_tetrabiblos_source_text_iv_8_43
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_211
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_7_42
+  to_node: n_tetrabiblos_source_text_iv_8_43
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_211
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_8_43
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_212
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_213
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_213
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_213
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_213
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_214
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_iv_10_45
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_215
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_57
+  to_node: n_tetrabiblos_source_text_iv_10_45
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_215
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_iv_10_45
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_215
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_iv_10_45
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_215
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_10_45
+  to_node: n_tetrabiblos_english_paraphrase_7
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_216
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_10_45
+  to_node: n_tetrabiblos_source_text_i_1_46
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_216
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_10_45
+  to_node: n_tetrabiblos_source_text_i_3_48
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_216
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_10_45
+  to_node: n_tetrabiblos_source_text_i_25_83
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_216
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_english_paraphrase_7
+  to_node: n_tetrabiblos_source_text_i_1_46
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_217
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_english_paraphrase_7
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_217
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_1_46
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_217
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_48
+  to_node: n_tetrabiblos_source_text_i_1_46
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_217
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_48
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_217
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_25_83
+  to_node: n_tetrabiblos_source_text_i_1_46
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_217
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_25_83
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_217
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_i_1_46
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_218
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_1_46
+  to_node: n_tetrabiblos_english_paraphrase_7
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_219
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_1_46
+  to_node: n_tetrabiblos_source_text_i_3_48
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_219
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_1_46
+  to_node: n_tetrabiblos_source_text_i_25_83
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_219
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_english_paraphrase_7
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_220
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_1_46
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_220
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_48
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_220
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_25_83
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_220
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_4_54
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_222
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_222
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_22_80
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_222
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_223
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_iii_2_8
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_224
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_55
+  to_node: n_tetrabiblos_source_text_iii_2_8
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_224
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_55
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_224
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_8_64
+  to_node: n_tetrabiblos_source_text_iii_2_8
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_224
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_8_64
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_224
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_iii_2_8
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_224
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_224
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_2_8
+  to_node: n_tetrabiblos_english_paraphrase_7
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_225
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_2_8
+  to_node: n_tetrabiblos_source_text_i_1_46
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_225
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_2_8
+  to_node: n_tetrabiblos_source_text_i_3_48
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_225
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_2_8
+  to_node: n_tetrabiblos_source_text_i_25_83
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_225
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_english_paraphrase_7
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_225
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_1_46
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_225
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_3_48
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_225
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_25_83
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_225
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_english_paraphrase_7
+  to_node: n_tetrabiblos_source_text_i_3_49
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_226
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_english_paraphrase_7
+  to_node: n_tetrabiblos_source_text_i_3_51
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_226
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_1_46
+  to_node: n_tetrabiblos_source_text_i_3_49
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_226
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_1_46
+  to_node: n_tetrabiblos_source_text_i_3_51
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_226
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_48
+  to_node: n_tetrabiblos_source_text_i_3_49
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_226
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_48
+  to_node: n_tetrabiblos_source_text_i_3_51
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_226
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_25_83
+  to_node: n_tetrabiblos_source_text_i_3_49
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_226
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_25_83
+  to_node: n_tetrabiblos_source_text_i_3_51
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_226
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_49
+  to_node: n_tetrabiblos_source_text_i_3_50
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_227
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_51
+  to_node: n_tetrabiblos_source_text_i_3_50
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_227
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_50
+  to_node: n_tetrabiblos_source_text_i_3_49
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_228
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_50
+  to_node: n_tetrabiblos_source_text_i_3_51
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_228
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_49
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_229
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_49
+  to_node: n_tetrabiblos_source_text_i_3_52
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_229
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_51
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_229
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_51
+  to_node: n_tetrabiblos_source_text_i_3_52
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_229
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_13_17
+  to_node: n_tetrabiblos_source_text_i_3_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_230
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_52
+  to_node: n_tetrabiblos_source_text_i_3_53
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_230
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_53
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_231
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_53
+  to_node: n_tetrabiblos_source_text_i_4_54
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_231
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_53
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_231
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_53
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_231
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_53
+  to_node: n_tetrabiblos_source_text_i_22_80
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_231
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_4_59
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_4_59
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_57
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_57
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_57
+  to_node: n_tetrabiblos_source_text_i_4_59
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_57
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_57
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_4_59
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_4_59
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_232
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_55
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_55
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_55
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_55
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_55
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_59
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_59
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_59
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_59
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_59
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_8_64
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_8_64
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_8_64
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_8_64
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_8_64
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_233
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_4_54
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_i_4_54
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_4_54
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_4_54
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_4_54
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_4_57
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_234
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_4_58
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_235
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_235
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_4_58
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_235
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_235
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_57
+  to_node: n_tetrabiblos_source_text_i_4_58
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_235
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_57
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_235
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_4_58
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_235
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_4_58
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_235
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_235
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_58
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_236
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_58
+  to_node: n_tetrabiblos_source_text_i_4_59
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_236
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_58
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_236
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_236
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_4_59
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_236
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_55
+  to_node: n_tetrabiblos_source_text_iv_3_38
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_237
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_55
+  to_node: n_tetrabiblos_source_text_i_4_60
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_237
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_55
+  to_node: n_tetrabiblos_source_text_i_6_62
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_237
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_59
+  to_node: n_tetrabiblos_source_text_iv_3_38
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_237
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_59
+  to_node: n_tetrabiblos_source_text_i_4_60
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_237
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_59
+  to_node: n_tetrabiblos_source_text_i_6_62
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_237
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_iv_3_38
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_237
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_4_60
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_237
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_6_62
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_237
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_3_38
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_238
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_60
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_238
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_6_62
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_238
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_4_58
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_239
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_58
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_240
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_58
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_240
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_58
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_240
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_58
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_240
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_58
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_240
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_240
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_240
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_240
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_240
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_6_62
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_241
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_i_6_62
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_241
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_6_62
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_241
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_6_62
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_241
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_6_62
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_241
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_6_62
+  to_node: n_tetrabiblos_source_text_iv_3_38
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_242
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_6_62
+  to_node: n_tetrabiblos_source_text_i_4_60
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_242
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_3_38
+  to_node: n_tetrabiblos_source_text_i_6_62
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_243
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_60
+  to_node: n_tetrabiblos_source_text_i_6_62
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_243
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_6_62
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_244
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_245
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_245
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_245
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_245
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_4_55
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_246
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_247
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_55
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_247
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_8_64
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_247
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_8_64
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_248
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_8_64
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_248
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_8_64
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_248
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_8_64
+  to_node: n_tetrabiblos_source_text_i_11_67
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_248
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_8_64
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_248
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_249
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_249
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_249
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_249
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_249
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_249
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_249
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_11_67
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_249
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_11_67
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_249
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_11_67
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_249
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_249
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_249
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_250
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_250
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_250
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_250
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_250
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_250
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_251
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_251
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_251
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_251
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_251
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_251
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_251
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_251
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_251
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_i_11_67
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_source_text_i_11_67
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_i_11_67
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_i_11_67
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_252
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_i_11_67
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_source_text_i_11_67
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_i_11_67
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_11_67
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_11_67
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_11_67
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_11_67
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_ii_4_25
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_i_9_65
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_i_11_67
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_253
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_ii_4_25
+  to_node: n_tetrabiblos_source_text_i_12_69
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_254
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_source_text_i_12_69
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_254
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_10_66
+  to_node: n_tetrabiblos_source_text_i_12_69
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_254
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_11_67
+  to_node: n_tetrabiblos_source_text_i_12_69
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_254
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_source_text_i_12_69
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_254
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_12_69
+  to_node: n_tetrabiblos_source_text_i_21_79
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_255
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_12_69
+  to_node: n_tetrabiblos_source_text_i_22_80
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_255
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_12_69
+  to_node: n_tetrabiblos_footnote_i_12_70
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_256
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_12_69
+  to_node: n_tetrabiblos_source_text_i_25_83
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_256
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_21_79
+  to_node: n_tetrabiblos_footnote_i_12_70
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_256
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_21_79
+  to_node: n_tetrabiblos_source_text_i_25_83
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_256
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_footnote_i_12_70
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_256
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_25_83
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_256
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_12_70
+  to_node: n_tetrabiblos_source_text_i_13_71
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_257
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_25_83
+  to_node: n_tetrabiblos_source_text_i_13_71
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_257
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_13_71
+  to_node: n_tetrabiblos_source_text_i_14_72
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_259
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_14_72
+  to_node: n_tetrabiblos_source_text_i_15_73
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_261
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_15_73
+  to_node: n_tetrabiblos_source_text_i_16_74
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_262
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_16_74
+  to_node: n_tetrabiblos_source_text_i_17_75
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_265
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_17_75
+  to_node: n_tetrabiblos_source_text_i_18_76
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_266
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_18_76
+  to_node: n_tetrabiblos_source_text_i_19_77
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_267
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_19_77
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_268
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_269
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_4_54
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_269
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_22_80
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_269
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_iii_13_17
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_iv_9_44
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_4_56
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_5_61
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_7_63
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_270
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iii_13_17
+  to_node: n_tetrabiblos_source_text_i_21_79
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_271
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_iv_9_44
+  to_node: n_tetrabiblos_source_text_i_21_79
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_271
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_56
+  to_node: n_tetrabiblos_source_text_i_21_79
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_271
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_5_61
+  to_node: n_tetrabiblos_source_text_i_21_79
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_271
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_7_63
+  to_node: n_tetrabiblos_source_text_i_21_79
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_271
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_21_79
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_271
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_21_79
+  to_node: n_tetrabiblos_source_text_i_12_69
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_272
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_21_79
+  to_node: n_tetrabiblos_source_text_i_22_80
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_272
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_12_69
+  to_node: n_tetrabiblos_source_text_i_22_80
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_273
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_21_79
+  to_node: n_tetrabiblos_source_text_i_22_80
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_273
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_274
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_4_54
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_274
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_12_69
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_274
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_20_78
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_274
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_21_79
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_274
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_2_47
+  to_node: n_tetrabiblos_source_text_i_23_81
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_275
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_4_54
+  to_node: n_tetrabiblos_source_text_i_23_81
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_275
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_12_69
+  to_node: n_tetrabiblos_source_text_i_23_81
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_275
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_20_78
+  to_node: n_tetrabiblos_source_text_i_23_81
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_275
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_21_79
+  to_node: n_tetrabiblos_source_text_i_23_81
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_275
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_22_80
+  to_node: n_tetrabiblos_source_text_i_23_81
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_275
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_23_81
+  to_node: n_tetrabiblos_source_text_i_24_82
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_276
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_24_82
+  to_node: n_tetrabiblos_footnote_i_12_70
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_277
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_24_82
+  to_node: n_tetrabiblos_source_text_i_25_83
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_277
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_12_70
+  to_node: n_tetrabiblos_english_paraphrase_7
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_278
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_12_70
+  to_node: n_tetrabiblos_source_text_i_1_46
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_278
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_12_70
+  to_node: n_tetrabiblos_source_text_i_3_48
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_278
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_footnote_i_12_70
+  to_node: n_tetrabiblos_source_text_i_25_83
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_278
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_25_83
+  to_node: n_tetrabiblos_english_paraphrase_7
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_278
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_25_83
+  to_node: n_tetrabiblos_source_text_i_1_46
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_278
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_25_83
+  to_node: n_tetrabiblos_source_text_i_3_48
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_278
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_english_paraphrase_7
+  to_node: n_tetrabiblos_source_text_i_26_84
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_279
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_1_46
+  to_node: n_tetrabiblos_source_text_i_26_84
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_279
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_3_48
+  to_node: n_tetrabiblos_source_text_i_26_84
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_279
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_25_83
+  to_node: n_tetrabiblos_source_text_i_26_84
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_279
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_26_84
+  to_node: n_tetrabiblos_source_text_i_27_85
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_281
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_source_text_i_27_85
+  to_node: n_tetrabiblos_source_text_i_10_66
+  relation: leads_to
+  condition: '-'
+  metadata:
+    source_relation_id: rel_seq_282
+    source_ref: 顺序推断
+    confidence: 1.0
+    inferred_from: explicit_relation
+- from_node: n_tetrabiblos_english_paraphrase_7
+  to_node: n_tetrabiblos_source_text_i_3_48
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - astro_epistemology
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_tetrabiblos_source_text_i_3_49
+  to_node: n_tetrabiblos_source_text_i_3_51
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - astro_fate
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_tetrabiblos_source_text_i_4_55
+  to_node: n_tetrabiblos_source_text_i_4_59
+  relation: supports
+  condition: null
+  metadata:
+    shared_factors:
+    - quality_moist
+    confidence: 0.8
+    inferred_from: factor_semantic
+- from_node: n_tetrabiblos_source_text_i_3_51
+  to_node: n_tetrabiblos_source_text_i_3_49
+  relation: depends_on
+  condition: null
+  metadata:
+    shared_factors:
+    - astro_fate
+    confidence: 0.7
+    inferred_from: condition_dependency
+- from_node: n_tetrabiblos_english_paraphrase_7
+  to_node: n_tetrabiblos_footnote_i_11_68
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_footnote_i_11_68
+  to_node: n_tetrabiblos_footnote_i_12_70
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_footnote_i_12_70
+  to_node: n_tetrabiblos_source_text_1
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_1
+  to_node: n_tetrabiblos_source_text_2
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_2
+  to_node: n_tetrabiblos_source_text_3
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_3
+  to_node: n_tetrabiblos_source_text_4
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_4
+  to_node: n_tetrabiblos_source_text_5
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_6
+  to_node: n_tetrabiblos_source_text_i_1_46
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_i_12_69
+  to_node: n_tetrabiblos_source_text_i_13_71
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_i_19_77
+  to_node: n_tetrabiblos_source_text_i_2_47
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_i_27_85
+  to_node: n_tetrabiblos_source_text_i_3_48
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_i_9_65
+  to_node: n_tetrabiblos_source_text_ii_1_22
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_ii_1_22
+  to_node: n_tetrabiblos_source_text_ii_10_31
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_ii_14_35
+  to_node: n_tetrabiblos_source_text_ii_2_23
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_ii_9_30
+  to_node: n_tetrabiblos_source_text_iii_10_14
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_iii_17_21
+  to_node: n_tetrabiblos_source_text_iii_2_8
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_iii_2_8
+  to_node: n_tetrabiblos_source_text_iii_5_9
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_iii_9_13
+  to_node: n_tetrabiblos_source_text_iv_1_36
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_iv_1_36
+  to_node: n_tetrabiblos_source_text_iv_10_45
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+- from_node: n_tetrabiblos_source_text_iv_10_45
+  to_node: n_tetrabiblos_source_text_iv_2_37
+  relation: leads_to
+  condition: null
+  metadata:
+    confidence: 0.5
+    inferred_from: sequential_order
+narrative_order:
+- n_tetrabiblos_source_text_1
+- n_tetrabiblos_source_text_2
+- n_tetrabiblos_source_text_3
+- n_tetrabiblos_source_text_4
+- n_tetrabiblos_source_text_5
+- n_tetrabiblos_source_text_6
+- n_tetrabiblos_english_paraphrase_7
+- n_tetrabiblos_source_text_iii_2_8
+- n_tetrabiblos_source_text_iii_5_9
+- n_tetrabiblos_source_text_iii_6_10
+- n_tetrabiblos_source_text_iii_7_11
+- n_tetrabiblos_source_text_iii_8_12
+- n_tetrabiblos_source_text_iii_9_13
+- n_tetrabiblos_source_text_iii_10_14
+- n_tetrabiblos_source_text_iii_11_15
+- n_tetrabiblos_source_text_iii_12_16
+- n_tetrabiblos_source_text_iii_13_17
+- n_tetrabiblos_source_text_iii_14_18
+- n_tetrabiblos_source_text_iii_15_19
+- n_tetrabiblos_source_text_iii_16_20
+- n_tetrabiblos_source_text_iii_17_21
+- n_tetrabiblos_source_text_ii_1_22
+- n_tetrabiblos_source_text_ii_2_23
+- n_tetrabiblos_source_text_ii_3_24
+- n_tetrabiblos_source_text_ii_4_25
+- n_tetrabiblos_source_text_ii_5_26
+- n_tetrabiblos_source_text_ii_6_27
+- n_tetrabiblos_source_text_ii_7_28
+- n_tetrabiblos_source_text_ii_8_29
+- n_tetrabiblos_source_text_ii_9_30
+- n_tetrabiblos_source_text_ii_10_31
+- n_tetrabiblos_source_text_ii_11_32
+- n_tetrabiblos_source_text_ii_12_33
+- n_tetrabiblos_source_text_ii_13_34
+- n_tetrabiblos_source_text_ii_14_35
+- n_tetrabiblos_source_text_iv_1_36
+- n_tetrabiblos_source_text_iv_2_37
+- n_tetrabiblos_source_text_iv_3_38
+- n_tetrabiblos_source_text_iv_4_39
+- n_tetrabiblos_source_text_iv_5_40
+- n_tetrabiblos_source_text_iv_6_41
+- n_tetrabiblos_source_text_iv_7_42
+- n_tetrabiblos_source_text_iv_8_43
+- n_tetrabiblos_source_text_iv_9_44
+- n_tetrabiblos_source_text_iv_10_45
+- n_tetrabiblos_source_text_i_1_46
+- n_tetrabiblos_source_text_i_2_47
+- n_tetrabiblos_source_text_i_3_48
+- n_tetrabiblos_source_text_i_3_49
+- n_tetrabiblos_source_text_i_3_50
+- n_tetrabiblos_source_text_i_3_51
+- n_tetrabiblos_source_text_i_3_52
+- n_tetrabiblos_source_text_i_3_53
+- n_tetrabiblos_source_text_i_4_54
+- n_tetrabiblos_source_text_i_4_55
+- n_tetrabiblos_source_text_i_4_56
+- n_tetrabiblos_source_text_i_4_57
+- n_tetrabiblos_source_text_i_4_58
+- n_tetrabiblos_source_text_i_4_59
+- n_tetrabiblos_source_text_i_4_60
+- n_tetrabiblos_source_text_i_5_61
+- n_tetrabiblos_source_text_i_6_62
+- n_tetrabiblos_source_text_i_7_63
+- n_tetrabiblos_source_text_i_8_64
+- n_tetrabiblos_source_text_i_9_65
+- n_tetrabiblos_source_text_i_10_66
+- n_tetrabiblos_source_text_i_11_67
+- n_tetrabiblos_footnote_i_11_68
+- n_tetrabiblos_source_text_i_12_69
+- n_tetrabiblos_footnote_i_12_70
+- n_tetrabiblos_source_text_i_13_71
+- n_tetrabiblos_source_text_i_14_72
+- n_tetrabiblos_source_text_i_15_73
+- n_tetrabiblos_source_text_i_16_74
+- n_tetrabiblos_source_text_i_17_75
+- n_tetrabiblos_source_text_i_18_76
+- n_tetrabiblos_source_text_i_19_77
+- n_tetrabiblos_source_text_i_20_78
+- n_tetrabiblos_source_text_i_21_79
+- n_tetrabiblos_source_text_i_22_80
+- n_tetrabiblos_source_text_i_23_81
+- n_tetrabiblos_source_text_i_24_82
+- n_tetrabiblos_source_text_i_25_83
+- n_tetrabiblos_source_text_i_26_84
+- n_tetrabiblos_source_text_i_27_85
+entry_nodes:
+- n_tetrabiblos_source_text_i_4_54
+- n_tetrabiblos_source_text_i_4_55
+- n_tetrabiblos_source_text_i_6_62
+- n_tetrabiblos_source_text_i_8_64
+- n_tetrabiblos_source_text_i_26_84
+- n_tetrabiblos_source_text_1
+- n_tetrabiblos_source_text_2
+- n_tetrabiblos_source_text_3
+- n_tetrabiblos_source_text_4
+- n_tetrabiblos_source_text_5
+- n_tetrabiblos_source_text_iii_2_8
+- n_tetrabiblos_source_text_iii_5_9
+- n_tetrabiblos_source_text_iii_6_10
+- n_tetrabiblos_source_text_iii_7_11
+- n_tetrabiblos_source_text_iii_8_12
+- n_tetrabiblos_source_text_iii_9_13
+- n_tetrabiblos_source_text_iii_10_14
+- n_tetrabiblos_source_text_iii_11_15
+- n_tetrabiblos_source_text_iii_12_16
+- n_tetrabiblos_source_text_iii_13_17
+- n_tetrabiblos_source_text_iii_14_18
+- n_tetrabiblos_source_text_iii_15_19
+- n_tetrabiblos_source_text_iii_16_20
+- n_tetrabiblos_source_text_iii_17_21
+- n_tetrabiblos_source_text_ii_1_22
+- n_tetrabiblos_source_text_ii_2_23
+- n_tetrabiblos_source_text_ii_3_24
+- n_tetrabiblos_source_text_ii_4_25
+- n_tetrabiblos_source_text_ii_5_26
+- n_tetrabiblos_source_text_ii_7_28
+- n_tetrabiblos_source_text_ii_8_29
+- n_tetrabiblos_source_text_ii_9_30
+- n_tetrabiblos_source_text_ii_10_31
+- n_tetrabiblos_source_text_ii_11_32
+- n_tetrabiblos_source_text_ii_12_33
+- n_tetrabiblos_source_text_iv_1_36
+- n_tetrabiblos_source_text_iv_2_37
+- n_tetrabiblos_source_text_iv_3_38
+- n_tetrabiblos_source_text_iv_4_39
+- n_tetrabiblos_source_text_iv_5_40
+- n_tetrabiblos_source_text_iv_6_41
+- n_tetrabiblos_source_text_iv_7_42
+- n_tetrabiblos_source_text_iv_8_43
+- n_tetrabiblos_source_text_iv_9_44
+- n_tetrabiblos_source_text_iv_10_45
+- n_tetrabiblos_source_text_i_1_46
+- n_tetrabiblos_source_text_i_2_47
+- n_tetrabiblos_source_text_i_3_48
+- n_tetrabiblos_source_text_i_3_49
+- n_tetrabiblos_source_text_i_4_56
+- n_tetrabiblos_source_text_i_4_57
+- n_tetrabiblos_source_text_i_4_58
+- n_tetrabiblos_source_text_i_4_59
+- n_tetrabiblos_source_text_i_4_60
+- n_tetrabiblos_source_text_i_5_61
+- n_tetrabiblos_source_text_i_7_63
+- n_tetrabiblos_source_text_i_9_65
+- n_tetrabiblos_source_text_i_10_66
+- n_tetrabiblos_source_text_i_11_67
+- n_tetrabiblos_source_text_i_12_69
+- n_tetrabiblos_source_text_i_13_71
+- n_tetrabiblos_source_text_i_14_72
+- n_tetrabiblos_source_text_i_15_73
+- n_tetrabiblos_source_text_i_16_74
+- n_tetrabiblos_source_text_i_17_75
+- n_tetrabiblos_source_text_i_18_76
+- n_tetrabiblos_source_text_i_19_77
+- n_tetrabiblos_source_text_i_20_78
+- n_tetrabiblos_source_text_i_21_79
+- n_tetrabiblos_source_text_i_22_80
+- n_tetrabiblos_source_text_i_23_81
+- n_tetrabiblos_source_text_i_24_82
+- n_tetrabiblos_source_text_i_25_83
+- n_tetrabiblos_source_text_i_27_85
+terminal_nodes:
+- n_tetrabiblos_source_text_i_27_85
+metadata:
+  version: 2.0.0
+  extracted_at: 2025-11-30 22:13:03.526280
+  source_files: []
+  snippet_count: 126
+  relation_count: 282
+version: 1.0.0

@@ -1,0 +1,86 @@
+{
+  "contract_id": "identity-and-data-isolation",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["user_id", "org_id", "version_id"],
+  "entities": [
+    {
+      "name": "IdentityClaim",
+      "description": "身份声明（请求上下文的最小身份字段集合）",
+      "fields": [
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户身份主边界" },
+        { "name": "org_id", "type": "string", "required": true, "notes": "组织/租户身份边界" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识（可复现/可审计）" },
+        { "name": "request_id", "type": "string", "required": false, "notes": "请求关联标识（若适用）" },
+        { "name": "trace_id", "type": "string", "required": false, "notes": "追踪关联标识（若适用）" },
+        { "name": "issued_at", "type": "string", "required": false, "notes": "ISO-8601 时间戳（若适用）" },
+        { "name": "auth_method", "type": "string", "required": false, "notes": "认证方式（若适用，禁止泄露密钥）" }
+      ]
+    },
+    {
+      "name": "AccessControlDecisionRecord",
+      "description": "访问控制决策记录（用于审计与回放）",
+      "fields": [
+        { "name": "decision_id", "type": "string", "required": true, "notes": "决策记录唯一标识" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "主体 user_id" },
+        { "name": "org_id", "type": "string", "required": true, "notes": "主体 org_id" },
+        { "name": "resource_type", "type": "string", "required": true, "notes": "资源类型（规格层固定枚举或受控词表）" },
+        { "name": "resource_id", "type": "string", "required": true, "notes": "资源标识（最小化；禁止敏感原文）" },
+        { "name": "action", "type": "string", "required": true, "notes": "动作（READ/WRITE/DELETE 等，规格层固定枚举或受控词表）" },
+        { "name": "decision", "type": "string", "required": true, "notes": "ALLOW/DENY/BLOCK" },
+        { "name": "rejection_reason_code", "type": "string", "required": false, "notes": "拒绝原因代码（见 rejection_reasons）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" },
+        { "name": "request_id", "type": "string", "required": false, "notes": "请求关联标识（若适用）" },
+        { "name": "trace_id", "type": "string", "required": false, "notes": "追踪关联标识（若适用）" }
+      ]
+    },
+    {
+      "name": "IsolationViolationAuditEvent",
+      "description": "隔离违规审计事件（越权/跨租户访问的最小审计字段集合）",
+      "fields": [
+        { "name": "event_id", "type": "string", "required": true, "notes": "事件唯一标识" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "主体 user_id" },
+        { "name": "org_id", "type": "string", "required": true, "notes": "主体 org_id" },
+        { "name": "attempted_user_id", "type": "string", "required": false, "notes": "被尝试访问的 user_id（若适用，脱敏/最小化）" },
+        { "name": "attempted_org_id", "type": "string", "required": false, "notes": "被尝试访问的 org_id（若适用，脱敏/最小化）" },
+        { "name": "resource_type", "type": "string", "required": true, "notes": "资源类型" },
+        { "name": "resource_id", "type": "string", "required": true, "notes": "资源标识（最小化；禁止敏感原文）" },
+        { "name": "action", "type": "string", "required": true, "notes": "动作" },
+        { "name": "result", "type": "string", "required": true, "notes": "DENY/BLOCK" },
+        { "name": "rejection_reason_code", "type": "string", "required": true, "notes": "拒绝原因代码（见 rejection_reasons）" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "occurred_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" },
+        { "name": "request_id", "type": "string", "required": false, "notes": "请求关联标识（若适用）" },
+        { "name": "trace_id", "type": "string", "required": false, "notes": "追踪关联标识（若适用）" }
+      ]
+    },
+    {
+      "name": "DeletionRetentionAuditRecord",
+      "description": "删除/保留审计记录（用于合规与可追责）",
+      "fields": [
+        { "name": "audit_id", "type": "string", "required": true, "notes": "审计记录唯一标识" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "关联 user_id" },
+        { "name": "org_id", "type": "string", "required": true, "notes": "关联 org_id" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "关联版本" },
+        { "name": "action", "type": "string", "required": true, "notes": "DELETE/RETENTION（规格层固定枚举或受控词表）" },
+        { "name": "data_category", "type": "string", "required": true, "notes": "数据类别（最小化）" },
+        { "name": "result", "type": "string", "required": true, "notes": "ALLOW/DENY/BLOCK" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_USER_ID", "category": "client_error", "retryable": false },
+    { "code": "INVALID_USER_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_ORG_ID", "category": "client_error", "retryable": false },
+    { "code": "INVALID_ORG_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "INVALID_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "CROSS_TENANT_ACCESS", "category": "authz", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "client_error", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

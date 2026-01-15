@@ -1,0 +1,69 @@
+# 周易体系 - 状态类因子
+# State factors for YiJing system
+
+factors:
+  # 爻动状态
+  - id: yijing_yao_moving
+    status: existing
+    display_zh: 动爻
+    display_en: Moving Line
+    description_zh: 爻处于变化状态
+    description_en: Line is in changing state
+    category: state
+    value_type: boolean
+    applicable_systems: [yijing]
+
+  - id: yijing_yao_static
+    status: existing
+    display_zh: 静爻
+    display_en: Static Line
+    description_zh: 爻处于稳定状态
+    description_en: Line is in stable state
+    category: state
+    value_type: boolean
+    applicable_systems: [yijing]
+
+  # 卦体状态
+  - id: yijing_inner_outer_harmony
+    status: existing
+    display_zh: 内外和谐
+    display_en: Inner-Outer Harmony
+    description_zh: 内卦与外卦的协调程度
+    description_en: Harmony between inner and outer trigrams
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [yijing]
+
+  - id: yijing_yin_yang_balance
+    status: existing
+    display_zh: 阴阳平衡
+    display_en: Yin-Yang Balance
+    description_zh: 卦中阴阳爻的平衡程度
+    description_en: Balance of yin and yang lines in hexagram
+    category: state
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [yijing]
+
+  # 吉凶状态
+  - id: yijing_auspice
+    status: existing
+    display_zh: 卦之吉凶
+    display_en: Hexagram Auspice
+    description_zh: 卦象整体的吉凶判断
+    description_en: Overall auspice of the hexagram
+    category: state
+    value_type: enum
+    value_range: [吉, 凶, 无咎, 悔亡, 利, 不利]
+    applicable_systems: [yijing]
+
+  - id: yijing_position_correct
+    status: existing
+    display_zh: 位正
+    display_en: Position Correct
+    description_zh: 阴爻在阴位、阳爻在阳位
+    description_en: Yin line in yin position, yang line in yang position
+    category: state
+    value_type: boolean
+    applicable_systems: [yijing]

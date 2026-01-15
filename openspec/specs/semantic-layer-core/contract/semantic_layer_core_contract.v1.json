@@ -1,0 +1,80 @@
+{
+  "contract_id": "semantic-layer-core",
+  "contract_version": "v1",
+  "status": "draft",
+  "minimum_identifiers": ["engine_id", "user_id", "version_id", "corpus_release_id"],
+  "entities": [
+    {
+      "name": "SemanticEntry",
+      "description": "semantic entry（语义条目，最小字段集合）",
+      "fields": [
+        { "name": "semantic_entry_id", "type": "string", "required": true, "notes": "语义条目标识（唯一）" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "语义引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识（用于可复现与可审计）" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识" },
+        { "name": "semantic_key", "type": "string", "required": true, "notes": "语义键（规范化后，禁止敏感原文）" },
+        { "name": "payload", "type": "object", "required": false, "notes": "语义载荷（最小化；禁止敏感原文）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "SemanticIndexEntry",
+      "description": "索引条目（最小字段集合）",
+      "fields": [
+        { "name": "index_entry_id", "type": "string", "required": true, "notes": "索引条目标识（唯一）" },
+        { "name": "semantic_entry_id", "type": "string", "required": true, "notes": "关联语义条目" },
+        { "name": "index_name", "type": "string", "required": true, "notes": "索引名称（口径固定）" },
+        { "name": "index_key", "type": "string", "required": true, "notes": "索引键（规范化后）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "ProvenanceRecord",
+      "description": "provenance 记录（最小字段集合）",
+      "fields": [
+        { "name": "provenance_id", "type": "string", "required": true, "notes": "溯源标识（唯一）" },
+        { "name": "semantic_entry_id", "type": "string", "required": true, "notes": "关联语义条目" },
+        { "name": "chain_id", "type": "string", "required": false, "notes": "关联证据链（若适用）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "CitationAnchorBinding",
+      "description": "citation_anchor 绑定（最小字段集合）",
+      "fields": [
+        { "name": "binding_id", "type": "string", "required": true, "notes": "绑定标识（唯一）" },
+        { "name": "semantic_entry_id", "type": "string", "required": true, "notes": "关联语义条目" },
+        { "name": "anchor_id", "type": "string", "required": true, "notes": "关联引用锚点标识" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    },
+    {
+      "name": "SemanticQueryResponse",
+      "description": "查询响应（最小字段集合）",
+      "fields": [
+        { "name": "response_id", "type": "string", "required": true, "notes": "响应标识（唯一）" },
+        { "name": "query_id", "type": "string", "required": true, "notes": "查询标识（可审计）" },
+        { "name": "user_id", "type": "string", "required": true, "notes": "用户标识（隔离边界）" },
+        { "name": "engine_id", "type": "string", "required": true, "notes": "语义引擎标识" },
+        { "name": "version_id", "type": "string", "required": true, "notes": "版本标识" },
+        { "name": "corpus_release_id", "type": "string", "required": true, "notes": "语料发布版本标识" },
+        { "name": "results", "type": "array<object>", "required": true, "notes": "结果集合（最小化；禁止敏感原文）" },
+        { "name": "created_at", "type": "string", "required": true, "notes": "ISO-8601 时间戳" }
+      ]
+    }
+  ],
+  "rejection_reasons": [
+    { "code": "MISSING_ENGINE_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_USER_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_VERSION_ID", "category": "client_error", "retryable": false },
+    { "code": "MISSING_CORPUS_RELEASE_ID", "category": "client_error", "retryable": false },
+    { "code": "SEMANTIC_ENTRY_NOT_FOUND", "category": "not_found", "retryable": false },
+    { "code": "CITATION_NOT_RESOLVABLE", "category": "validation", "retryable": false },
+    { "code": "UNAUTHORIZED", "category": "authz", "retryable": false },
+    { "code": "VALIDATION_FAILED", "category": "validation", "retryable": false },
+    { "code": "INTERNAL_ERROR", "category": "server_error", "retryable": true }
+  ]
+}
+

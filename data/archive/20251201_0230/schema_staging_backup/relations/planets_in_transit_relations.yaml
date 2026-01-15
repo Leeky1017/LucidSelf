@@ -1,0 +1,1308 @@
+book_id: planets_in_transit
+source_file: 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch01-03_Theory_Extended.md, 典籍/texts/Planets
+  in Transit/编辑/PIT_v2.1_Ch11_Uranus.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch04_Sun.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch13_Pluto.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch01-03_Theory.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch07_Venus.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch12_Neptune.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch06_Mercury.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch08_Mars.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch05_Moon.md, 典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch09_Jupiter.md,
+  典籍/texts/Planets in Transit/编辑/PIT_v2.1_Ch10_Saturn.md
+extracted_at: '2025-12-01T02:28:32.500397'
+relations:
+- relation_id: rel_transit_transit_concept
+  relation_type: activation
+  factor_a: transit_planet
+  factor_b: natal_point
+  relation_nature: Aspect formation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Hand #Transit'
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.470766'
+- relation_id: rel_transit_saturn_cycle
+  relation_type: activation
+  factor_a: transit_planet
+  factor_b: natal_point
+  relation_nature: Aspect formation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Hand #Transit'
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.470801'
+- relation_id: rel_transit_jupiter_cycle
+  relation_type: activation
+  factor_a: transit_planet
+  factor_b: natal_point
+  relation_nature: Aspect formation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Hand #Transit'
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.470826'
+- relation_id: rel_transit_uranus_opposition
+  relation_type: activation
+  factor_a: transit_planet
+  factor_b: natal_point
+  relation_nature: Aspect formation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Hand #Transit'
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.470863'
+- relation_id: rel_transit_retrograde_motion
+  relation_type: activation
+  factor_a: transit_planet
+  factor_b: natal_point
+  relation_nature: Aspect formation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Hand #Transit'
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.470889'
+- relation_id: rel_transit_orb_timing
+  relation_type: activation
+  factor_a: transit_planet
+  factor_b: natal_point
+  relation_nature: Aspect formation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Hand #Transit'
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.470912'
+- relation_id: rel_transit_natal_context
+  relation_type: activation
+  factor_a: transit_planet
+  factor_b: natal_point
+  relation_nature: Aspect formation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Hand #Transit'
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.470939'
+- relation_id: rel_transit_aspect_types
+  relation_type: activation
+  factor_a: transit_planet
+  factor_b: natal_point
+  relation_nature: Aspect formation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Hand #Transit'
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.470967'
+- relation_id: rel_transit_transit_duration
+  relation_type: activation
+  factor_a: transit_planet
+  factor_b: natal_point
+  relation_nature: Aspect formation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Hand #Transit'
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.470990'
+- relation_id: rel_transit_transit_intentions
+  relation_type: activation
+  factor_a: transit_planet
+  factor_b: natal_point
+  relation_nature: Aspect formation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: 'Hand #Transit'
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.471021'
+- relation_id: rel_pit_ur001
+  relation_type: planet_house
+  factor_a: transit_uranus
+  factor_b: house_11
+  relation_nature: Group revolution
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch11 Uranus-11H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.473008'
+- relation_id: rel_pit_ur002
+  relation_type: planet_house
+  factor_a: transit_uranus
+  factor_b: house_1
+  relation_nature: Identity awakening
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch11 Uranus-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.473013'
+- relation_id: rel_pit_ur003
+  relation_type: planet_house
+  factor_a: transit_uranus
+  factor_b: house_7
+  relation_nature: Relationship disruption
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch11 Uranus-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.473017'
+- relation_id: rel_pit_001
+  relation_type: planet_house
+  factor_a: transit_sun
+  factor_b: house_1
+  relation_nature: Sun transits 1H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch4 Sun-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.476598'
+- relation_id: rel_pit_002
+  relation_type: house_axis
+  factor_a: house_1
+  factor_b: house_7
+  relation_nature: 1H/7H polarity
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch4 Sun-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.476605'
+- relation_id: rel_pit_003
+  relation_type: temporal_cycle
+  factor_a: transit_sun
+  factor_b: annual_cycle
+  relation_nature: Annual return
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch4 Sun-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.476609'
+- relation_id: rel_pit_004
+  relation_type: planet_house
+  factor_a: transit_sun
+  factor_b: house_2
+  relation_nature: Sun transits 2H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch4 Sun-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.476642'
+- relation_id: rel_pit_005
+  relation_type: house_axis
+  factor_a: house_2
+  factor_b: house_8
+  relation_nature: 2H/8H polarity
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch4 Sun-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.476646'
+- relation_id: rel_pit_006
+  relation_type: psychological
+  factor_a: sun_2h
+  factor_b: value_system
+  relation_nature: Illumination
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch4 Sun-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.476648'
+- relation_id: rel_pit_007
+  relation_type: planet_house
+  factor_a: transit_sun
+  factor_b: house_3
+  relation_nature: Sun transits 3H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch4 Sun-3H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.476681'
+- relation_id: rel_pit_008
+  relation_type: planet_sign
+  factor_a: transit_sun
+  factor_b: mercury_domain
+  relation_nature: Sun in Mercury's house
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch4 Sun-3H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.476684'
+- relation_id: rel_pit_009
+  relation_type: planet_house
+  factor_a: transit_sun
+  factor_b: house_4
+  relation_nature: Sun transits 4H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch4 Sun-4H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.476714'
+- relation_id: rel_pit_010
+  relation_type: psychological
+  factor_a: sun_4h
+  factor_b: past_patterns
+  relation_nature: Illumination
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch4 Sun-4H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.476717'
+- relation_id: rel_pit_011
+  relation_type: planet_house
+  factor_a: transit_sun
+  factor_b: house_5
+  relation_nature: Sun transits 5H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch4 Sun-5H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.476745'
+- relation_id: rel_pit_012
+  relation_type: natural_rulership
+  factor_a: sun
+  factor_b: house_5
+  relation_nature: Sun rules 5H naturally
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch4 Sun-5H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.476747'
+- relation_id: rel_pit_013
+  relation_type: planet_house
+  factor_a: transit_sun
+  factor_b: house_6
+  relation_nature: Sun transits 6H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch4 Sun-6H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.476775'
+- relation_id: rel_pit_014
+  relation_type: house_contrast
+  factor_a: house_5
+  factor_b: house_6
+  relation_nature: 5H joy vs 6H duty
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch4 Sun-6H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.476778'
+- relation_id: rel_pit_pl001
+  relation_type: planet_house
+  factor_a: transit_pluto
+  factor_b: house_8
+  relation_nature: Deep transformation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch13 Pluto-8H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.479242'
+- relation_id: rel_pit_pl002
+  relation_type: planet_house
+  factor_a: transit_pluto
+  factor_b: house_1
+  relation_nature: Identity transformation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch13 Pluto-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.479247'
+- relation_id: rel_pit_pl003
+  relation_type: planet_house
+  factor_a: transit_pluto
+  factor_b: house_7
+  relation_nature: Relationship power
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch13 Pluto-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.479251'
+- relation_id: rel_pit_015
+  relation_type: cross_system
+  factor_a: astro_transit_to_natal
+  factor_b: eastern_geren_ming
+  relation_nature: East-West parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch8
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483564'
+- relation_id: rel_pit_016
+  relation_type: cross_system
+  factor_a: astro_transit_to_transit
+  factor_b: eastern_shidai_yun
+  relation_nature: East-West parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch8
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483566'
+- relation_id: rel_pit_017
+  relation_type: cross_system
+  factor_a: astro_natal_context_principle
+  factor_b: eastern_mingju_dise
+  relation_nature: East-West parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch9
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483590'
+- relation_id: rel_pit_018
+  relation_type: psych_archetype_relation
+  factor_a: astro_interpretive_lens
+  factor_b: psych_personality_filter
+  relation_nature: Psychology parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch9
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483592'
+- relation_id: rel_pit_019
+  relation_type: cross_system
+  factor_a: astro_saturn_cycle
+  factor_b: eastern_dayun
+  relation_nature: East-West parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch10
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483618'
+- relation_id: rel_pit_020
+  relation_type: psych_archetype_relation
+  factor_a: astro_maturation_cycle
+  factor_b: psych_ego_development
+  relation_nature: Psychology parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch10
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483621'
+- relation_id: rel_pit_021
+  relation_type: cross_system
+  factor_a: astro_saturn_return
+  factor_b: eastern_dayun_zhuanhuan
+  relation_nature: East-West parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch11
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483644'
+- relation_id: rel_pit_022
+  relation_type: psych_archetype_relation
+  factor_a: astro_reality_testing
+  factor_b: psych_authenticity_crisis
+  relation_nature: Psychology parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch11
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483647'
+- relation_id: rel_pit_023
+  relation_type: cross_system
+  factor_a: astro_four_quarters
+  factor_b: eastern_xiaoyun
+  relation_nature: East-West parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch12
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483676'
+- relation_id: rel_pit_024
+  relation_type: psych_archetype_relation
+  factor_a: astro_crisis_quarter
+  factor_b: psych_childhood_development
+  relation_nature: Psychology parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch12
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483678'
+- relation_id: rel_pit_025
+  relation_type: cross_system
+  factor_a: astro_jupiter_cycle
+  factor_b: eastern_12nian
+  relation_nature: East-West parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch13
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483703'
+- relation_id: rel_pit_026
+  relation_type: psych_archetype_relation
+  factor_a: astro_expansion_phase
+  factor_b: psych_growth_opportunity
+  relation_nature: Psychology parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch13
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483706'
+- relation_id: rel_pit_027
+  relation_type: cross_system
+  factor_a: astro_jupiter_return
+  factor_b: eastern_12nian_zhuanhuan
+  relation_nature: East-West parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch14
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483729'
+- relation_id: rel_pit_028
+  relation_type: psych_archetype_relation
+  factor_a: astro_opportunity_initiation
+  factor_b: psych_growth_readiness
+  relation_nature: Psychology parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch14
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483732'
+- relation_id: rel_pit_029
+  relation_type: cross_system
+  factor_a: astro_uranus_cycle
+  factor_b: eastern_84nian
+  relation_nature: East-West parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch15
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483758'
+- relation_id: rel_pit_030
+  relation_type: psych_archetype_relation
+  factor_a: astro_authenticity_breakthrough
+  factor_b: psych_individuation_crisis
+  relation_nature: Psychology parallel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Hand Ch15
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.483761'
+- relation_id: rel_pit_ve001
+  relation_type: planet_house
+  factor_a: transit_venus
+  factor_b: house_1
+  relation_nature: Personal charm
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch7 Venus-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.485992'
+- relation_id: rel_pit_ve002
+  relation_type: planet_house
+  factor_a: transit_venus
+  factor_b: house_2
+  relation_nature: Value focus
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch7 Venus-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.485998'
+- relation_id: rel_pit_ve003
+  relation_type: planet_house
+  factor_a: transit_venus
+  factor_b: house_5
+  relation_nature: Romance
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch7 Venus-5H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.486001'
+- relation_id: rel_pit_ve004
+  relation_type: planet_house
+  factor_a: transit_venus
+  factor_b: house_7
+  relation_nature: Partnership
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch7 Venus-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.486004'
+- relation_id: rel_pit_ve005
+  relation_type: planet_house
+  factor_a: transit_venus
+  factor_b: house_8
+  relation_nature: Deep intimacy
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch7 Venus-8H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.486007'
+- relation_id: rel_pit_ne001
+  relation_type: planet_house
+  factor_a: transit_neptune
+  factor_b: house_12
+  relation_nature: Spiritual peak
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch12 Neptune-12H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.487959'
+- relation_id: rel_pit_ne002
+  relation_type: planet_house
+  factor_a: transit_neptune
+  factor_b: house_7
+  relation_nature: Relationship idealization
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch12 Neptune-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.487965'
+- relation_id: rel_pit_ne003
+  relation_type: planet_house
+  factor_a: transit_neptune
+  factor_b: house_1
+  relation_nature: Identity dissolution
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch12 Neptune-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.487968'
+- relation_id: rel_pit_me001
+  relation_type: planet_house
+  factor_a: transit_mercury
+  factor_b: house_1
+  relation_nature: Self-expression
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch6 Mercury-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.489660'
+- relation_id: rel_pit_me002
+  relation_type: planet_house
+  factor_a: transit_mercury
+  factor_b: house_2
+  relation_nature: Value thinking
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch6 Mercury-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.489666'
+- relation_id: rel_pit_me003
+  relation_type: planet_house
+  factor_a: transit_mercury
+  factor_b: house_3
+  relation_nature: Mercury's home
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch6 Mercury-3H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.489669'
+- relation_id: rel_pit_me004
+  relation_type: planet_house
+  factor_a: transit_mercury
+  factor_b: house_4
+  relation_nature: Domestic reflection
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch6 Mercury-4H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.489672'
+- relation_id: rel_pit_me005
+  relation_type: planet_house
+  factor_a: transit_mercury
+  factor_b: house_5
+  relation_nature: Creative thinking
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch6 Mercury-5H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.489675'
+- relation_id: rel_pit_me006
+  relation_type: planet_house
+  factor_a: transit_mercury
+  factor_b: house_6
+  relation_nature: Work analysis
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch6 Mercury-6H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.489678'
+- relation_id: rel_pit_me007
+  relation_type: planet_house
+  factor_a: transit_mercury
+  factor_b: house_7
+  relation_nature: Partner communication
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch6 Mercury-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.489680'
+- relation_id: rel_pit_me008
+  relation_type: planet_house
+  factor_a: transit_mercury
+  factor_b: house_8
+  relation_nature: Deep research
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch6 Mercury-8H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.489683'
+- relation_id: rel_pit_me009
+  relation_type: planet_house
+  factor_a: transit_mercury
+  factor_b: house_9
+  relation_nature: Philosophical
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch6 Mercury-9H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.489687'
+- relation_id: rel_pit_me010
+  relation_type: planet_house
+  factor_a: transit_mercury
+  factor_b: house_10
+  relation_nature: Career speech
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch6 Mercury-10H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.489689'
+- relation_id: rel_pit_me011
+  relation_type: planet_house
+  factor_a: transit_mercury
+  factor_b: house_11
+  relation_nature: Group discussion
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch6 Mercury-11H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.489692'
+- relation_id: rel_pit_me012
+  relation_type: planet_house
+  factor_a: transit_mercury
+  factor_b: house_12
+  relation_nature: Private thinking
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch6 Mercury-12H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.489694'
+- relation_id: rel_pit_ma001
+  relation_type: planet_house
+  factor_a: transit_mars
+  factor_b: house_1
+  relation_nature: Personal energy
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch8 Mars-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.491350'
+- relation_id: rel_pit_ma002
+  relation_type: planet_house
+  factor_a: transit_mars
+  factor_b: house_7
+  relation_nature: Partner conflict
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch8 Mars-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.491355'
+- relation_id: rel_pit_ma003
+  relation_type: planet_house
+  factor_a: transit_mars
+  factor_b: house_8
+  relation_nature: Power action
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch8 Mars-8H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.491359'
+- relation_id: rel_pit_ma004
+  relation_type: planet_house
+  factor_a: transit_mars
+  factor_b: house_10
+  relation_nature: Career drive
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch8 Mars-10H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.491361'
+- relation_id: rel_pit_m001
+  relation_type: planet_house
+  factor_a: transit_moon
+  factor_b: house_1
+  relation_nature: Moon transits 1H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496295'
+- relation_id: rel_pit_m002
+  relation_type: sensitivity
+  factor_a: transit_moon
+  factor_b: state_emotional_sensitivity
+  relation_nature: Sensor activation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496303'
+- relation_id: rel_pit_m003
+  relation_type: exchange
+  factor_a: state_moon_1h_giving
+  factor_b: state_moon_1h_demanding
+  relation_nature: Nurturing balance
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-1H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496306'
+- relation_id: rel_pit_m004
+  relation_type: planet_house
+  factor_a: transit_moon
+  factor_b: house_2
+  relation_nature: Moon transits 2H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496333'
+- relation_id: rel_pit_m005
+  relation_type: identification
+  factor_a: transit_moon
+  factor_b: value_system
+  relation_nature: Emotional fusion
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496336'
+- relation_id: rel_pit_m006
+  relation_type: caution
+  factor_a: transit_moon
+  factor_b: spending_decision
+  relation_nature: Unconscious influence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-2H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496339'
+- relation_id: rel_pit_m007
+  relation_type: planet_house
+  factor_a: transit_moon
+  factor_b: house_3
+  relation_nature: Moon transits 3H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-3H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496363'
+- relation_id: rel_pit_m008
+  relation_type: enhancement
+  factor_a: transit_moon
+  factor_b: casual_conversation
+  relation_nature: Depth added
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-3H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496366'
+- relation_id: rel_pit_m009
+  relation_type: caution
+  factor_a: state_automatic_reactions
+  factor_b: impression
+  relation_nature: Unconscious impact
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-3H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496368'
+- relation_id: rel_pit_m010
+  relation_type: planet_house
+  factor_a: transit_moon
+  factor_b: house_4
+  relation_nature: Moon transits 4H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-4H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496391'
+- relation_id: rel_pit_m011
+  relation_type: awareness
+  factor_a: transit_moon
+  factor_b: past_conditioning
+  relation_nature: Recognition trigger
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-4H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496394'
+- relation_id: rel_pit_m012
+  relation_type: paradox
+  factor_a: holding_tight
+  factor_b: losing
+  relation_nature: Inverse relationship
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-4H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496397'
+- relation_id: rel_pit_m013
+  relation_type: planet_house
+  factor_a: transit_moon
+  factor_b: house_5
+  relation_nature: Moon transits 5H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-5H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496420'
+- relation_id: rel_pit_m014
+  relation_type: intensification
+  factor_a: transit_moon
+  factor_b: love_relationship
+  relation_nature: Emotional depth
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-5H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496423'
+- relation_id: rel_pit_m015
+  relation_type: caution
+  factor_a: protective_instinct
+  factor_b: individual_responsibility
+  relation_nature: Balance needed
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-5H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496429'
+- relation_id: rel_pit_m016
+  relation_type: planet_house
+  factor_a: transit_moon
+  factor_b: house_6
+  relation_nature: Moon transits 6H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-6H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496451'
+- relation_id: rel_pit_m017
+  relation_type: conflict
+  factor_a: moon_needs
+  factor_b: sixth_house_denial
+  relation_nature: Personal vs service
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-6H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496456'
+- relation_id: rel_pit_m018
+  relation_type: outlet
+  factor_a: emotional_repression
+  factor_b: hypercriticism
+  relation_nature: Displaced expression
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-6H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496458'
+- relation_id: rel_pit_m019
+  relation_type: planet_house
+  factor_a: transit_moon
+  factor_b: house_7
+  relation_nature: Moon transits 7H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496482'
+- relation_id: rel_pit_m020
+  relation_type: vulnerability
+  factor_a: transit_moon
+  factor_b: opponent_manipulation
+  relation_nature: Emotional exposure
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496485'
+- relation_id: rel_pit_m021
+  relation_type: insight
+  factor_a: confrontation
+  factor_b: unconscious_self
+  relation_nature: Mirror function
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496488'
+- relation_id: rel_pit_m022
+  relation_type: planet_house
+  factor_a: transit_moon
+  factor_b: house_8
+  relation_nature: Moon transits 8H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-8H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496509'
+- relation_id: rel_pit_m023
+  relation_type: attraction
+  factor_a: transit_moon
+  factor_b: powerful_people
+  relation_nature: Draw to intensity
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-8H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496511'
+- relation_id: rel_pit_m024
+  relation_type: warning
+  factor_a: attachment
+  factor_b: trouble
+  relation_nature: Recognition needed
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-8H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496518'
+- relation_id: rel_pit_m025
+  relation_type: planet_house
+  factor_a: transit_moon
+  factor_b: house_9
+  relation_nature: Moon transits 9H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-9H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496539'
+- relation_id: rel_pit_m026
+  relation_type: contradiction
+  factor_a: moon_familiar
+  factor_b: ninth_house_foreign
+  relation_nature: Security vs adventure
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-9H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496542'
+- relation_id: rel_pit_m027
+  relation_type: recommendation
+  factor_a: mental_journey
+  factor_b: physical_travel
+  relation_nature: Better choice
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-9H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496546'
+- relation_id: rel_pit_m028
+  relation_type: planet_house
+  factor_a: transit_moon
+  factor_b: house_10
+  relation_nature: Moon transits 10H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-10H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496568'
+- relation_id: rel_pit_m029
+  relation_type: exposure
+  factor_a: private_life
+  factor_b: public_display
+  relation_nature: Boundary breach
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-10H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496571'
+- relation_id: rel_pit_m030
+  relation_type: advantage
+  factor_a: emotional_sensitivity
+  factor_b: career_success
+  relation_nature: PR benefit
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-10H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496573'
+- relation_id: rel_pit_m031
+  relation_type: planet_house
+  factor_a: transit_moon
+  factor_b: house_11
+  relation_nature: Moon transits 11H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-11H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496596'
+- relation_id: rel_pit_m032
+  relation_type: deepening
+  factor_a: transit_moon
+  factor_b: friendship
+  relation_nature: Emotional contact
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-11H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496598'
+- relation_id: rel_pit_m033
+  relation_type: examination
+  factor_a: transit_moon
+  factor_b: life_goals
+  relation_nature: Authenticity check
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-11H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496601'
+- relation_id: rel_pit_m034
+  relation_type: planet_house
+  factor_a: transit_moon
+  factor_b: house_12
+  relation_nature: Moon transits 12H
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-12H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496624'
+- relation_id: rel_pit_m035
+  relation_type: hidden_dynamic
+  factor_a: hidden_feelings
+  factor_b: self_control
+  relation_nature: What's hidden controls
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-12H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496627'
+- relation_id: rel_pit_m036
+  relation_type: opportunity
+  factor_a: transit_moon
+  factor_b: spiritual_practice
+  relation_nature: Excellent timing
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-12H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496630'
+- relation_id: rel_pit_ma005
+  relation_type: aspect_tension
+  factor_a: transit_moon
+  factor_b: natal_mars
+  relation_nature: Emotion-action interaction
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-Mars
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496778'
+- relation_id: rel_pit_ma006
+  relation_type: aspect_harmony
+  factor_a: transit_moon
+  factor_b: natal_jupiter
+  relation_nature: Emotion-expansion interaction
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-Jupiter
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496781'
+- relation_id: rel_pit_ma007
+  relation_type: aspect_tension
+  factor_a: transit_moon
+  factor_b: natal_saturn
+  relation_nature: Emotion-restriction interaction
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-Saturn
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496784'
+- relation_id: rel_pit_ma008
+  relation_type: aspect_disruptive
+  factor_a: transit_moon
+  factor_b: natal_uranus
+  relation_nature: Emotion-disruption interaction
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-Uranus
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496787'
+- relation_id: rel_pit_ma009
+  relation_type: aspect_dissolving
+  factor_a: transit_moon
+  factor_b: natal_neptune
+  relation_nature: Emotion-imagination interaction
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-Neptune
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496789'
+- relation_id: rel_pit_ma010
+  relation_type: aspect_transformative
+  factor_a: transit_moon
+  factor_b: natal_pluto
+  relation_nature: Emotion-power interaction
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch5 Moon-Pluto
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.496792'
+- relation_id: rel_pit_ju001
+  relation_type: planet_house
+  factor_a: transit_jupiter
+  factor_b: house_9
+  relation_nature: Philosophy/travel
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch9 Jupiter-9H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.499406'
+- relation_id: rel_pit_ju002
+  relation_type: planet_house
+  factor_a: transit_jupiter
+  factor_b: house_12
+  relation_nature: Spiritual growth
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch9 Jupiter-12H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.499413'
+- relation_id: rel_pit_ju003
+  relation_type: planet_house
+  factor_a: transit_jupiter
+  factor_b: house_10
+  relation_nature: Career expansion
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch9 Jupiter-10H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.499416'
+- relation_id: rel_pit_sa001
+  relation_type: planet_house
+  factor_a: transit_saturn
+  factor_b: house_10
+  relation_nature: Career test
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch10 Saturn-10H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.502245'
+- relation_id: rel_pit_sa002
+  relation_type: planet_house
+  factor_a: transit_saturn
+  factor_b: house_7
+  relation_nature: Relationship test
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch10 Saturn-7H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.502266'
+- relation_id: rel_pit_sa003
+  relation_type: planet_house
+  factor_a: transit_saturn
+  factor_b: house_4
+  relation_nature: Foundation test
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: PIT Ch10 Saturn-4H
+  source_book: planets_in_transit
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.502270'

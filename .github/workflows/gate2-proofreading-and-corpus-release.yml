@@ -1,0 +1,66 @@
+# Gate-2 workflow: proofreading QA + corpus release pipeline
+
+name: Gate-2 Proofreading QA + Corpus Release Pipeline
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'data/**'
+      - 'openspec/**'
+      - 'scripts/**'
+      - '.github/workflows/gate2-proofreading-and-corpus-release.yml'
+  pull_request:
+    branches: [main, develop]
+    paths:
+      - 'data/**'
+      - 'openspec/**'
+      - 'scripts/**'
+      - '.github/workflows/gate2-proofreading-and-corpus-release.yml'
+  workflow_dispatch: {}
+
+env:
+  PYTHON_VERSION: '3.12'
+
+jobs:
+  gate2:
+    name: Gate-2 (QA + Release)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install OpenSpec CLI
+        run: |
+          npm install -g @fission-ai/openspec@0.17.2
+          openspec --version
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Gate-2 acceptance
+        run: |
+          bash scripts/gates/gate2_proofreading_and_corpus_release.sh
+
+      - name: Upload Gate-2 artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gate2-proofreading-and-corpus-release-artifacts
+          path: artifacts/
+          retention-days: 30
+

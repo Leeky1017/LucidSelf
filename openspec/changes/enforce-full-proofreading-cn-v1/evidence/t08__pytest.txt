@@ -1,0 +1,104 @@
+
+==================================== ERRORS ====================================
+____ ERROR collecting backend/core/geocoding/tests/test_geonames_parser.py _____
+ImportError while importing test module '/home/leeky/work/LucidSelf/backend/core/geocoding/tests/test_geonames_parser.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+backend/core/geocoding/tests/test_geonames_parser.py:16: in <module>
+    from build_world_cities_from_geonames import parse_geonames_line
+E   ModuleNotFoundError: No module named 'build_world_cities_from_geonames'
+_ ERROR collecting backend/semantics/core/tests/property_tests/test_entry_properties.py _
+ImportError while importing test module '/home/leeky/work/LucidSelf/backend/semantics/core/tests/property_tests/test_entry_properties.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+backend/semantics/core/tests/property_tests/test_entry_properties.py:26: in <module>
+    from backend.semantics.core.base import (
+E   ImportError: cannot import name 'SEMANTIC_ID_PATTERN' from 'backend.semantics.core.base' (/home/leeky/work/LucidSelf/backend/semantics/core/base.py)
+_ ERROR collecting backend/semantics/core/tests/property_tests/test_registry_properties.py _
+ImportError while importing test module '/home/leeky/work/LucidSelf/backend/semantics/core/tests/property_tests/test_registry_properties.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+backend/semantics/core/tests/property_tests/test_registry_properties.py:18: in <module>
+    from backend.semantics.core.base import (
+E   ImportError: cannot import name 'SEMANTIC_ID_PATTERN' from 'backend.semantics.core.base' (/home/leeky/work/LucidSelf/backend/semantics/core/base.py)
+_______ ERROR collecting backend/tests/integration/test_pipeline_e2e.py ________
+ImportError while importing test module '/home/leeky/work/LucidSelf/backend/tests/integration/test_pipeline_e2e.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'integration.test_pipeline_e2e'
+=============================== warnings summary ===============================
+.venv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:149
+  /home/leeky/work/LucidSelf/.venv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_id" has conflict with protected namespace "model_".
+  
+  You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+    warnings.warn(
+
+.venv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:149
+  /home/leeky/work/LucidSelf/.venv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_used" has conflict with protected namespace "model_".
+  
+  You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+    warnings.warn(
+
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268
+  /home/leeky/work/LucidSelf/.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:268: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.5/migration/
+    warnings.warn(DEPRECATION_MESSAGE, DeprecationWarning)
+
+backend/rules/__init__.py:27
+  /home/leeky/work/LucidSelf/backend/rules/__init__.py:27: DeprecationWarning: dimension.py 已弃用，请迁移到 backend.core.contracts.unified_dimensions 模块的 DimensionRegistry
+    from backend.rules.dimension import DimensionMapper, get_dimension_mapper
+
+.venv/lib/python3.12/site-packages/pytz/tzinfo.py:27
+  /home/leeky/work/LucidSelf/.venv/lib/python3.12/site-packages/pytz/tzinfo.py:27: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+    _epoch = datetime.utcfromtimestamp(0)
+
+backend/calculators/bazi/tests/test_solar_terms_accuracy.py:240
+  /home/leeky/work/LucidSelf/backend/calculators/bazi/tests/test_solar_terms_accuracy.py:240: PytestUnknownMarkWarning: Unknown pytest.mark.slow - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.slow
+
+backend/testing/framework/runner.py:176
+  /home/leeky/work/LucidSelf/backend/testing/framework/runner.py:176: PytestCollectionWarning: cannot collect test class 'TestRunner' because it has a __init__ constructor (from: backend/testing/tests/test_framework.py)
+    class TestRunner(ABC, Generic[T]):
+
+backend/testing/framework/runner.py:35
+  /home/leeky/work/LucidSelf/backend/testing/framework/runner.py:35: PytestCollectionWarning: cannot collect test class 'TestResult' because it has a __init__ constructor (from: backend/testing/tests/test_framework.py)
+    class TestResult(BaseModel):
+
+backend/testing/framework/runner.py:27
+  /home/leeky/work/LucidSelf/backend/testing/framework/runner.py:27: PytestCollectionWarning: cannot collect test class 'TestStatus' because it has a __init__ constructor (from: backend/testing/tests/test_framework.py)
+    class TestStatus(str, Enum):
+
+backend/testing/framework/reporter.py:30
+  /home/leeky/work/LucidSelf/backend/testing/framework/reporter.py:30: PytestCollectionWarning: cannot collect test class 'TestReporter' because it has a __init__ constructor (from: backend/testing/tests/test_framework.py)
+    class TestReporter:
+
+backend/tests/gate0/test_identity_and_data_isolation.py:33
+  /home/leeky/work/LucidSelf/backend/tests/gate0/test_identity_and_data_isolation.py:33: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    created_at: datetime = datetime.utcnow()
+
+backend/tests/gate0/test_identity_and_data_isolation.py:34
+  /home/leeky/work/LucidSelf/backend/tests/gate0/test_identity_and_data_isolation.py:34: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    updated_at: datetime = datetime.utcnow()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR backend/core/geocoding/tests/test_geonames_parser.py
+ERROR backend/semantics/core/tests/property_tests/test_entry_properties.py
+ERROR backend/semantics/core/tests/property_tests/test_registry_properties.py
+ERROR backend/tests/integration/test_pipeline_e2e.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 4 errors during collection !!!!!!!!!!!!!!!!!!!!
+19 warnings, 4 errors in 4.00s

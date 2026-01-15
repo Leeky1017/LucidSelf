@@ -1,0 +1,81 @@
+# Creativity Scenario Template
+# 创意场景模板配置
+
+scenario_id: scn_creativity
+domain: creativity
+
+keywords:
+  primary: ["创意", "艺术", "创作", "creativity", "art", "creation"]
+  synonyms: ["设计", "写作", "绘画", "音乐", "表演", "灵感", "想象力", "作品", "发明", "创新", "才华", "天赋", "手艺", "技艺"]
+  negative: []
+  weight: 1.0
+
+decision_axes:
+  - axis_id: creative_potential
+    label_zh: 创造潜力
+    label_en: Creative Potential
+    description: 创意天赋和潜力
+    value_type: float
+    default_weight: 1.0
+  
+  - axis_id: artistic_expression
+    label_zh: 艺术表达
+    label_en: Artistic Expression
+    description: 艺术表达能力
+    value_type: float
+    default_weight: 1.0
+  
+  - axis_id: inspiration_flow
+    label_zh: 灵感涌现
+    label_en: Inspiration Flow
+    description: 灵感获取和持续能力
+    value_type: float
+    default_weight: 0.9
+  
+  - axis_id: skill_mastery
+    label_zh: 技艺精进
+    label_en: Skill Mastery
+    description: 技艺提升和精进程度
+    value_type: float
+    default_weight: 0.8
+  
+  - axis_id: recognition
+    label_zh: 认可度
+    label_en: Recognition
+    description: 作品获得认可的程度
+    value_type: float
+    default_weight: 0.7
+  
+  - axis_id: commercial_value
+    label_zh: 商业价值
+    label_en: Commercial Value
+    description: 创作的商业变现能力
+    value_type: float
+    default_weight: 0.6
+
+factor_include_patterns:
+  - "bazi_*_talent_*"
+  - "ziwei_creativity_*"
+  - "astro_*_5th_*"
+  - "astro_neptune_*"
+
+factor_exclude_patterns:
+  - "*_health_*"
+  - "*_marriage_*"
+
+factor_always_include:
+  - "bazi_day_master"
+  - "astro_sun_sign"
+
+rule_categories:
+  - "talent"
+  - "creativity"
+  - "guidance"
+
+related_scenarios:
+  - "scn_career"
+  - "scn_spiritual"
+
+label_zh: 创意
+label_en: Creativity
+description: 艺术创作、灵感启发、才华发展等创意相关问题

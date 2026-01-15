@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+/lib/
+/lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
+# Hypothesis
+.hypothesis/
+
+# Build artifacts
+*.log
+*.tmp
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ============================================================================
+# LucidSelf Specific
+# ============================================================================
+
+# Worktrees (agent workflow)
+.worktrees/
+
+# Node / frontend
+node_modules/
+.next/
+out/
+dist/
+
+# AI/editor tooling (local-only)
+.cursor/
+.kiro/
+.windsurf/
+
+# Artifacts (generated outputs)
+artifacts/
+
+# Codegen Pipeline - 生成的 Python 模块（配置源码在 data/，这里是编译产物）
+backend/generated/*
+!backend/generated/.gitkeep
+
+# 注意：data/ 目录下的 JSON/JSONL 是"配置源码"，需要版本控制
+# backend/generated/ 是"编译产物"，由 CI/CD 自动生成
+
+# 临时测试文件
+*.test.py
+test_output/
+
+# Secrets / local configs (keep out of VCS)
+LLM灵芽api配置.md
+
+# Zone Identifier files (Windows WSL)
+*:Zone.Identifier

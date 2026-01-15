@@ -1,0 +1,61 @@
+# 紫微体系 - 能量/情绪类因子
+# Energy/Emotion factors for ZiWei system
+
+factors:
+  # 星曜能量
+  - id: ziwei_auspicious_energy
+    status: existing
+    display_zh: 吉星能量
+    display_en: Auspicious Star Energy
+    description_zh: 吉星的整体能量水平
+    description_en: Overall energy level of auspicious stars
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [ziwei]
+
+  - id: ziwei_malefic_energy
+    status: existing
+    display_zh: 凶星能量
+    display_en: Malefic Star Energy
+    description_zh: 凶星的整体能量水平
+    description_en: Overall energy level of malefic stars
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [ziwei]
+
+  # 宫位能量
+  - id: ziwei_palace_vitality
+    status: existing
+    display_zh: 宫位活力
+    display_en: Palace Vitality
+    description_zh: 宫位的活跃程度
+    description_en: Activity level of palace
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [ziwei]
+
+  - id: ziwei_palace_conflict
+    status: existing
+    display_zh: 宫位冲突
+    display_en: Palace Conflict
+    description_zh: 宫位内星曜的冲突程度
+    description_en: Conflict level among stars in palace
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [ziwei]
+
+  # 整体格局能量
+  - id: ziwei_overall_fortune
+    status: existing
+    display_zh: 整体福运
+    display_en: Overall Fortune
+    description_zh: 命盘的整体福运评估
+    description_en: Overall fortune assessment of chart
+    category: energy
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [ziwei]

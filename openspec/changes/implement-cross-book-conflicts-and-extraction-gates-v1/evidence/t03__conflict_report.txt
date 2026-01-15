@@ -1,0 +1,48 @@
+### artifacts/cross_book_conflicts
+total 788K
+drwxr-xr-x 3 leeky leeky 4.0K Dec 26 23:54 .
+drwxr-xr-x 8 leeky leeky 4.0K Dec 26 23:59 ..
+drwxr-xr-x 2 leeky leeky 4.0K Dec 26 23:54 _kg_build
+-rw-r--r-- 1 leeky leeky 767K Dec 27 00:08 conflict_report.json
+-rw-r--r-- 1 leeky leeky  808 Dec 27 00:08 conflict_report.md
+-rw-r--r-- 1 leeky leeky  235 Dec 27 00:08 exceptions_applied.json
+
+### validate json + show verdict
+verdict pass
+version_id ver_b23a6a8439c0
+corpus_release_id cr_b23a6a8439c0
+policy_id cross_book_conflict_gate_policy.v1
+effective_conflicts 655
+first_conflict_id conf_0039b5fdffb2
+
+### artifacts/cross_book_conflicts/conflict_report.md (head)
+# Cross-Book Conflict Report
+
+- version_id: `ver_b23a6a8439c0`
+- corpus_release_id: `cr_b23a6a8439c0`
+- policy_id: `cross_book_conflict_gate_policy.v1`
+- verdict: **PASS**
+
+## Counts
+- total_conflicts: 655
+- suppressed_by_exceptions: 0
+- effective_conflicts: 655
+
+### By Type
+- `cross_system_divergence`: 502
+- `direct_contradiction`: 153
+
+### By Severity
+- `HIGH`: 153
+- `MEDIUM`: 502
+
+## Thresholds
+- `direct_contradiction_max`: 153 <= 153 => **PASS**
+- `cross_system_divergence_max`: 502 <= 502 => **PASS**
+- `conditional_exception_max`: 0 <= 0 => **PASS**
+- `scope_difference_max`: 0 <= 0 => **PASS**
+- `total_conflicts_max`: 655 <= 655 => **PASS**
+
+## Artifacts
+- JSON: `artifacts/cross_book_conflicts/conflict_report.json`
+- Exceptions Applied: `artifacts/cross_book_conflicts/exceptions_applied.json`

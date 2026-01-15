@@ -1,0 +1,80 @@
+# Career Scenario Template
+# 事业场景模板配置
+
+scenario_id: scn_career
+domain: career
+
+keywords:
+  primary: ["事业", "工作", "职业", "career", "job", "work"]
+  synonyms: ["职场", "升职", "跳槽", "转行", "创业", "加薪", "晋升", "老板", "同事", "行业", "岗位", "面试", "求职", "辞职"]
+  negative: []
+  weight: 1.0
+
+decision_axes:
+  - axis_id: income_ceiling
+    label_zh: 收入上限
+    label_en: Income Ceiling
+    description: 该路径的预期最高收入水平
+    value_type: float
+    default_weight: 1.0
+  
+  - axis_id: stability
+    label_zh: 稳定性
+    label_en: Stability
+    description: 工作/收入的稳定程度
+    value_type: float
+    default_weight: 1.0
+  
+  - axis_id: autonomy
+    label_zh: 自主性
+    label_en: Autonomy
+    description: 工作的自由度和决策权
+    value_type: float
+    default_weight: 0.8
+  
+  - axis_id: growth_potential
+    label_zh: 成长性
+    label_en: Growth Potential
+    description: 技能和职级的上升空间
+    value_type: float
+    default_weight: 1.0
+  
+  - axis_id: social_exposure
+    label_zh: 社交曝光
+    label_en: Social Exposure
+    description: 社交和人脉拓展机会
+    value_type: float
+    default_weight: 0.6
+  
+  - axis_id: work_life_balance
+    label_zh: 工作生活平衡
+    label_en: Work-Life Balance
+    description: 工作与生活的平衡程度
+    value_type: float
+    default_weight: 0.8
+
+factor_include_patterns:
+  - "bazi_*_career_*"
+  - "ziwei_career_*"
+  - "astro_*_10th_*"
+  - "astro_mc_*"
+
+factor_exclude_patterns:
+  - "*_health_*"
+  - "*_marriage_*"
+
+factor_always_include:
+  - "bazi_day_master"
+  - "astro_sun_sign"
+
+rule_categories:
+  - "career"
+  - "fortune"
+  - "guidance"
+
+related_scenarios:
+  - "scn_wealth"
+
+label_zh: 事业
+label_en: Career
+description: 职业发展、工作机会、晋升、跳槽等事业相关问题

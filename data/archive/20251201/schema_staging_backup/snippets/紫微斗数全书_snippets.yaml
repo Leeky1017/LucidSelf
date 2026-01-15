@@ -1,0 +1,69 @@
+book_id: 紫微斗数全书
+source_file: 典籍/中文典籍/紫微斗数全书/编辑/紫微斗数全书_完整规范化_卷四.md, 典籍/中文典籍/紫微斗数全书/编辑/紫微斗数全书_完整规范化_卷三.md,
+  典籍/中文典籍/紫微斗数全书/编辑/紫微斗数全书_完整规范化_卷六.md, 典籍/中文典籍/紫微斗数全书/编辑/紫微斗数全书_完整规范化_卷一.md, 典籍/中文典籍/紫微斗数全书/编辑/紫微斗数全书_完整规范化_卷七.md,
+  典籍/中文典籍/紫微斗数全书/编辑/紫微斗数全书_完整规范化_卷五.md, 典籍/中文典籍/紫微斗数全书/编辑/紫微斗数全书_完整规范化_卷二.md
+extracted_at: '2025-11-30T21:12:27.585544'
+snippets:
+- snippet_id: ns_zwds_j1_001
+  trigger: 紫微守命
+  factor_trigger: star_ziwei AND palace_life
+  role: 主干
+  snippet_text: 紫微为帝座，在诸宫能降福消灾，解诸星之恶虚。
+  source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+  source_book: 紫微斗数全书
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.341571'
+- snippet_id: ns_zwds_j1_002
+  trigger: 紫微有辅弼
+  factor_trigger: star_ziwei AND (star_zuofu OR star_youbi)
+  role: 主干依赖
+  snippet_text: 有相为有用，无相为孤君。
+  source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+  source_book: 紫微斗数全书
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.341592'
+- snippet_id: ns_zwds_j1_003
+  trigger: 紫微无辅弼
+  factor_trigger: star_ziwei AND NOT (star_zuofu OR star_youbi)
+  role: 条件分支
+  snippet_text: 若还无辅弼，诸恶共欺凌，帝为无道主。
+  source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+  source_book: 紫微斗数全书
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.341616'
+- snippet_id: ns_zwds_j1_004
+  trigger: 紫微遇禄存日月
+  factor_trigger: star_ziwei AND star_lucun AND (star_taiyang OR star_taiyin)
+  role: 主干
+  snippet_text: 人之身命，若值禄存同宫，日月三合相照，贵不可言。
+  source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+  source_book: 紫微斗数全书
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.341631'
+- snippet_id: ns_zwds_j1_005
+  trigger: 紫微制杀
+  factor_trigger: star_ziwei AND (star_huoxing OR star_lingxing OR star_qisha)
+  role: 例外处理
+  snippet_text: 能制火铃为善，能降七杀为权。
+  source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+  source_book: 紫微斗数全书
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.341641'
+- snippet_id: ns_zwds_j1_006
+  trigger: 紫微落四陷宫
+  factor_trigger: star_ziwei AND (palace_jie OR palace_xiongdi OR palace_nupu OR palace_xiangmao)
+  role: 条件分支
+  snippet_text: 如落疾厄、兄弟、奴仆相貌四陷宫，主人劳碌，作事无成。
+  source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+  source_book: 紫微斗数全书
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.341647'
+- snippet_id: ns_zwds_j1_007
+  trigger: 女命紫微
+  factor_trigger: gender_female AND star_ziwei
+  role: 总结
+  snippet_text: 女命逢之，作贵妇断。加杀冲破，亦作平常，不为下贱。
+  source_ref: 《紫微斗数全书·诸星问答论》#紫微星
+  source_book: 紫微斗数全书
+  source_chapter: null
+  extracted_at: '2025-11-30T21:12:26.341656'

@@ -1,0 +1,275 @@
+# 塔罗体系 - 结构类因子
+# Structure factors for Tarot system
+
+factors:
+  # 大阿尔卡纳
+  - id: tarot_fool
+    status: existing
+    display_zh: 愚者
+    display_en: The Fool
+    aliases_zh: [愚人]
+    description_zh: 大阿尔卡纳0号牌，代表新开始、天真、冒险
+    description_en: Major Arcana 0, represents new beginnings, innocence, adventure
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_magician
+    status: existing
+    display_zh: 魔术师
+    display_en: The Magician
+    description_zh: 大阿尔卡纳1号牌，代表意志力、技能、创造
+    description_en: Major Arcana 1, represents willpower, skill, creation
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_high_priestess
+    status: existing
+    display_zh: 女祭司
+    display_en: The High Priestess
+    aliases_zh: [女教皇]
+    description_zh: 大阿尔卡纳2号牌，代表直觉、神秘、潜意识
+    description_en: Major Arcana 2, represents intuition, mystery, subconscious
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_empress
+    status: existing
+    display_zh: 皇后
+    display_en: The Empress
+    aliases_zh: [女皇]
+    description_zh: 大阿尔卡纳3号牌，代表丰饶、母性、创造力
+    description_en: Major Arcana 3, represents abundance, motherhood, creativity
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_emperor
+    status: existing
+    display_zh: 皇帝
+    display_en: The Emperor
+    description_zh: 大阿尔卡纳4号牌，代表权威、结构、父性
+    description_en: Major Arcana 4, represents authority, structure, fatherhood
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_hierophant
+    status: existing
+    display_zh: 教皇
+    display_en: The Hierophant
+    aliases_zh: [祭司]
+    description_zh: 大阿尔卡纳5号牌，代表传统、教育、信仰
+    description_en: Major Arcana 5, represents tradition, education, faith
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_lovers
+    status: existing
+    display_zh: 恋人
+    display_en: The Lovers
+    description_zh: 大阿尔卡纳6号牌，代表爱情、选择、和谐
+    description_en: Major Arcana 6, represents love, choice, harmony
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_chariot
+    status: existing
+    display_zh: 战车
+    display_en: The Chariot
+    description_zh: 大阿尔卡纳7号牌，代表意志、胜利、控制
+    description_en: Major Arcana 7, represents will, victory, control
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_strength
+    status: existing
+    display_zh: 力量
+    display_en: Strength
+    description_zh: 大阿尔卡纳8号牌，代表勇气、耐心、内在力量
+    description_en: Major Arcana 8, represents courage, patience, inner strength
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_hermit
+    status: existing
+    display_zh: 隐士
+    display_en: The Hermit
+    description_zh: 大阿尔卡纳9号牌，代表内省、智慧、引导
+    description_en: Major Arcana 9, represents introspection, wisdom, guidance
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_wheel_of_fortune
+    status: existing
+    display_zh: 命运之轮
+    display_en: Wheel of Fortune
+    description_zh: 大阿尔卡纳10号牌，代表命运、周期、转折
+    description_en: Major Arcana 10, represents fate, cycles, turning points
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_justice
+    status: existing
+    display_zh: 正义
+    display_en: Justice
+    description_zh: 大阿尔卡纳11号牌，代表公正、真相、因果
+    description_en: Major Arcana 11, represents fairness, truth, karma
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_hanged_man
+    status: existing
+    display_zh: 倒吊人
+    display_en: The Hanged Man
+    aliases_zh: [吊人]
+    description_zh: 大阿尔卡纳12号牌，代表牺牲、等待、新视角
+    description_en: Major Arcana 12, represents sacrifice, waiting, new perspective
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_death
+    status: existing
+    display_zh: 死神
+    display_en: Death
+    description_zh: 大阿尔卡纳13号牌，代表结束、转化、重生
+    description_en: Major Arcana 13, represents endings, transformation, rebirth
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_temperance
+    status: existing
+    display_zh: 节制
+    display_en: Temperance
+    description_zh: 大阿尔卡纳14号牌，代表平衡、耐心、调和
+    description_en: Major Arcana 14, represents balance, patience, moderation
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_devil
+    status: existing
+    display_zh: 恶魔
+    display_en: The Devil
+    description_zh: 大阿尔卡纳15号牌，代表束缚、诱惑、物质
+    description_en: Major Arcana 15, represents bondage, temptation, materialism
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_tower
+    status: existing
+    display_zh: 塔
+    display_en: The Tower
+    aliases_zh: [高塔]
+    description_zh: 大阿尔卡纳16号牌，代表突变、觉醒、解放
+    description_en: Major Arcana 16, represents upheaval, awakening, liberation
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_star
+    status: existing
+    display_zh: 星星
+    display_en: The Star
+    description_zh: 大阿尔卡纳17号牌，代表希望、灵感、疗愈
+    description_en: Major Arcana 17, represents hope, inspiration, healing
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_moon
+    status: existing
+    display_zh: 月亮
+    display_en: The Moon
+    description_zh: 大阿尔卡纳18号牌，代表幻觉、恐惧、潜意识
+    description_en: Major Arcana 18, represents illusion, fear, subconscious
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_sun
+    status: existing
+    display_zh: 太阳
+    display_en: The Sun
+    description_zh: 大阿尔卡纳19号牌，代表成功、活力、喜悦
+    description_en: Major Arcana 19, represents success, vitality, joy
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_judgement
+    status: existing
+    display_zh: 审判
+    display_en: Judgement
+    description_zh: 大阿尔卡纳20号牌，代表觉醒、更新、召唤
+    description_en: Major Arcana 20, represents awakening, renewal, calling
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_world
+    status: existing
+    display_zh: 世界
+    display_en: The World
+    description_zh: 大阿尔卡纳21号牌，代表完成、整合、成就
+    description_en: Major Arcana 21, represents completion, integration, achievement
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  # 小阿尔卡纳花色
+  - id: tarot_suit_wands
+    status: existing
+    display_zh: 权杖牌组
+    display_en: Suit of Wands
+    aliases_zh: [火元素牌组]
+    description_zh: 代表火元素，关于行动、创意、意志
+    description_en: Fire element, about action, creativity, will
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_suit_cups
+    status: existing
+    display_zh: 圣杯牌组
+    display_en: Suit of Cups
+    aliases_zh: [水元素牌组]
+    description_zh: 代表水元素，关于情感、关系、直觉
+    description_en: Water element, about emotions, relationships, intuition
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_suit_swords
+    status: existing
+    display_zh: 宝剑牌组
+    display_en: Suit of Swords
+    aliases_zh: [风元素牌组]
+    description_zh: 代表风元素，关于思想、冲突、真相
+    description_en: Air element, about thoughts, conflict, truth
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_suit_pentacles
+    status: existing
+    display_zh: 钱币牌组
+    display_en: Suit of Pentacles
+    aliases_zh: [土元素牌组, 五芒星牌组]
+    description_zh: 代表土元素，关于物质、工作、健康
+    description_en: Earth element, about material, work, health
+    category: structure
+    value_type: reference
+    applicable_systems: [tarot]

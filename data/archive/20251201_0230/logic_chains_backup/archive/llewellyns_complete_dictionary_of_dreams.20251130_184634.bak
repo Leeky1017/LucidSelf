@@ -1,0 +1,85 @@
+chain_id: chain_lcdod
+book_id: llewellyns_complete_dictionary_of_dreams
+nodes:
+- node_id: n_lcdod_source_text_0
+  snippet_ids:
+  - ns_llewellyn_001
+  - ns_llewellyn_002
+  - ns_llewellyn_004
+  - ns_llewellyn_005
+  - ns_llewellyn_007
+  - ns_llewellyn_008
+  - ns_llewellyn_009
+  - ns_llewellyn_019
+  - ns_llewellyn_022
+  - ns_llewellyn_025
+  - ns_llewellyn_026
+  - ns_llewellyn_013
+  - ns_llewellyn_014
+  - ns_llewellyn_015
+  - ns_llewellyn_016
+  - ns_llewellyn_017
+  - ns_llewellyn_018
+  - ns_llewellyn_028
+  - ns_llewellyn_029
+  - ns_llewellyn_031
+  - ns_llewellyn_032
+  - ns_llewellyn_033
+  - ns_llewellyn_036
+  - ns_llewellyn_038
+  - ns_llewellyn_039
+  - ns_llewellyn_040
+  - ns_llewellyn_041
+  - ns_llewellyn_042
+  - ns_llewellyn_043
+  - ns_llewellyn_044
+  - ns_llewellyn_047
+  - ns_llewellyn_048
+  - ns_llewellyn_049
+  - ns_llewellyn_050
+  - ns_llewellyn_051
+  - ns_llewellyn_052
+  role: 主干
+  condition: null
+  summary: collective_unconscious
+  metadata:
+    source_ref: Source Text
+    snippet_count: 36
+- node_id: n_lcdod_english_paraphrase_1
+  snippet_ids:
+  - ns_llewellyn_003
+  - ns_llewellyn_006
+  - ns_llewellyn_020
+  - ns_llewellyn_021
+  - ns_llewellyn_023
+  - ns_llewellyn_024
+  - ns_llewellyn_027
+  - ns_llewellyn_030
+  - ns_llewellyn_034
+  - ns_llewellyn_035
+  - ns_llewellyn_037
+  role: 主干
+  condition: null
+  summary: universal_symbols
+  metadata:
+    source_ref: English Paraphrase
+    snippet_count: 11
+edges: []
+narrative_order:
+- n_lcdod_english_paraphrase_1
+- n_lcdod_source_text_0
+entry_nodes:
+- n_lcdod_source_text_0
+- n_lcdod_english_paraphrase_1
+terminal_nodes:
+- n_lcdod_english_paraphrase_1
+- n_lcdod_source_text_0
+metadata:
+  version: 1.0.0
+  extracted_at: '2025-11-30T18:42:52.108476'
+  source_files:
+  - data/schema_staging/snippets/llewellyns_complete_dictionary_of_dreams_snippets.yaml
+  - data/schema_staging/relations/llewellyns_complete_dictionary_of_dreams_relations.yaml
+  snippet_count: 47
+  relation_count: 65
+version: 1.0.0

@@ -1,0 +1,1357 @@
+book_id: the_archetypes_and_the_collective_unconscious
+source_file: 典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_III_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_VI_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_I_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_IX_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_XI_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_IV_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_VIII_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_VII_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_V_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_X_v2.1.md,
+  典籍/texts/The Archetypes and the Collective Unconscious/编辑/Jung_CW9i_Essay_II_v2.1.md
+extracted_at: '2025-12-04T14:27:44.371651'
+relations:
+- relation_id: rel_cw9i_III_001
+  relation_type: causal
+  factor_a: jung_great_mother AND jung_jung_mother_archetype
+  factor_b: jung_religious_image
+  relation_nature: Religious from Psychological
+  condition_constraint: When mother archetype manifests in religious imagery of Great
+    Mother goddess
+  effect_direction: BENEFICIAL
+  source_ref: ¶148
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093122'
+- relation_id: rel_cw9i_III_002
+  relation_type: complementary
+  factor_a: jung_archetype AND jung_jung_platonic_idea
+  factor_b: jung_a_priori_form
+  relation_nature: Psychological-Philosophical parallel
+  condition_constraint: When Jung's empirical archetype concept parallels but differs
+    from Plato's metaphysical Forms
+  effect_direction: NEUTRAL
+  source_ref: ¶149
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093132'
+- relation_id: rel_cw9i_III_003
+  relation_type: illustrates
+  factor_a: crystal_analogy
+  factor_b: archetype
+  relation_nature: Form without content
+  condition_constraint: When crystal lattice analogy illustrates archetype as formal
+    pattern without specific content
+  effect_direction: explaining
+  source_ref: ¶155
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093170'
+- relation_id: rel_cw9i_III_004
+  relation_type: parallel
+  factor_a: archetype
+  factor_b: instinct
+  relation_nature: Both formal only
+  condition_constraint: When archetype parallels instinct as inherited formal pattern
+    (not inherited content)
+  effect_direction: corresponding
+  source_ref: ¶155
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093174'
+- relation_id: rel_cw9i_III_005
+  relation_type: polarity
+  factor_a: mother_positive
+  factor_b: mother_negative
+  relation_nature: Cherishing vs Devouring
+  condition_constraint: When mother archetype displays polar opposition between cherishing/nurturing
+    and devouring/destructive
+  effect_direction: complementary
+  source_ref: ¶157
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093276'
+- relation_id: rel_cw9i_III_006
+  relation_type: embodies
+  factor_a: kali
+  factor_b: mother_archetype
+  relation_nature: Paradoxical unity
+  condition_constraint: When Hindu Kali embodies paradoxical unity of life-giving
+    and death-dealing mother
+  effect_direction: exemplifying
+  source_ref: ¶158
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093302'
+- relation_id: rel_cw9i_III_007
+  relation_type: complicates
+  factor_a: anima
+  factor_b: son_mother_complex
+  relation_nature: Always involved
+  condition_constraint: When anima complicates son's mother complex by adding contrasexual
+    dimension
+  effect_direction: modifying
+  source_ref: ¶162
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093340'
+- relation_id: rel_cw9i_III_008
+  relation_type: polarity
+  factor_a: don_juanism
+  factor_b: heroism
+  relation_nature: Negative-Positive
+  condition_constraint: When same mother-complex energy manifests as either Don Juanism
+    (negative) or heroism (positive)
+  effect_direction: transforming
+  source_ref: ¶165
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093343'
+- relation_id: rel_cw9i_III_009
+  relation_type: variation
+  factor_a: daughter_type_a
+  factor_b: mother_complex
+  relation_nature: Maternal pole
+  condition_constraint: When daughter expresses mother complex through hypertrophied
+    maternal instinct
+  effect_direction: expressing
+  source_ref: ¶167
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093380'
+- relation_id: rel_cw9i_III_010
+  relation_type: variation
+  factor_a: daughter_type_b
+  factor_b: mother_complex
+  relation_nature: Eros pole
+  condition_constraint: When daughter expresses mother complex through overdeveloped
+    Eros and projection onto men
+  effect_direction: expressing
+  source_ref: ¶168
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093383'
+- relation_id: rel_cw9i_III_011
+  relation_type: variation
+  factor_a: daughter_type_c
+  factor_b: mother_complex
+  relation_nature: Identity pole
+  condition_constraint: When daughter expresses mother complex through identity with
+    mother (ego extinction)
+  effect_direction: expressing
+  source_ref: ¶169
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093388'
+- relation_id: rel_cw9i_III_012
+  relation_type: variation
+  factor_a: daughter_type_d
+  factor_b: mother_complex
+  relation_nature: Resistance pole
+  condition_constraint: When daughter expresses mother complex through defensive resistance
+    to mother
+  effect_direction: expressing
+  source_ref: ¶170
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093391'
+- relation_id: rel_cw9i_III_013
+  relation_type: differentiate
+  factor_a: personal_mother
+  factor_b: mater_natura
+  relation_nature: Must separate
+  condition_constraint: When differentiation separates personal mother from archetypal
+    Mater Natura
+  effect_direction: liberating
+  source_ref: ¶172
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093426'
+- relation_id: rel_cw9i_III_014
+  relation_type: preserves
+  factor_a: archetype_consciousness
+  factor_b: highest_values
+  relation_nature: Psychic hygiene
+  condition_constraint: When consciousness of archetypes preserves highest cultural
+    and spiritual values
+  effect_direction: protective
+  source_ref: ¶173-174
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093429'
+- relation_id: rel_cw9i_III_015
+  relation_type: creates
+  factor_a: consciousness
+  factor_b: world
+  relation_nature: Knowing makes exist
+  condition_constraint: When consciousness creates phenomenal world through act of
+    knowing
+  effect_direction: creative
+  source_ref: ¶177
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093460'
+- relation_id: rel_cw9i_III_016
+  relation_type: liberates_from
+  factor_a: logos
+  factor_b: maternal_unconscious
+  relation_nature: Matricide
+  condition_constraint: When logos (rational consciousness) separates from maternal
+    unconscious through symbolic matricide
+  effect_direction: separating
+  source_ref: ¶178
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093463'
+- relation_id: rel_cw9i_III_017
+  relation_type: source_of
+  factor_a: emotion
+  factor_b: consciousness
+  relation_nature: Fire creates light
+  condition_constraint: When emotion (fire) generates consciousness (light) as its
+    source and fuel
+  effect_direction: generating
+  source_ref: ¶179
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.093468'
+- relation_id: rel_cw9i_vi_001
+  relation_type: causal
+  factor_a: jung_wise_old_man AND jung_jung_spirit
+  factor_b: jung_spiritual_guidance
+  relation_nature: Helper/Guide
+  condition_constraint: When wise old man archetype provides spiritual guidance at
+    moments of difficulty
+  effect_direction: BENEFICIAL
+  source_ref: CW9i §391-399
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.095243'
+- relation_id: rel_cw9i_vi_002
+  relation_type: complementary
+  factor_a: jung_spirit_archetype AND jung_jung_life_death
+  factor_b: jung_ambivalent_nature
+  relation_nature: Dual nature
+  condition_constraint: When spirit archetype displays ambivalent life-giving and
+    death-dealing aspects
+  effect_direction: MIXED
+  source_ref: CW9i §409-418
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.095248'
+- relation_id: rel_cw9i_vi_003
+  relation_type: causal
+  factor_a: jung_animal_helpers AND jung_jung_unconscious_spirit
+  factor_b: jung_instinct_wisdom
+  relation_nature: Theriomorphic symbolism
+  condition_constraint: When helpful animals in dreams/tales represent instinctual
+    wisdom of unconscious spirit
+  effect_direction: BENEFICIAL
+  source_ref: CW9i §419-434
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.095252'
+- relation_id: rel_cw9i_vi_004
+  relation_type: complementary
+  factor_a: jung_three_four AND jung_jung_conscious_function
+  factor_b: jung_function_theory
+  relation_nature: Psychological structure
+  condition_constraint: When three conscious functions transform to quaternity by
+    integrating fourth inferior function
+  effect_direction: BENEFICIAL
+  source_ref: CW9i §425-434
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.095255'
+- relation_id: rel_cw9i_001
+  relation_type: causal
+  factor_a: jung_personal_unconscious
+  factor_b: jung_collective_unconscious
+  relation_nature: Personal rests on Collective
+  condition_constraint: When depth analysis reveals personal unconscious resting on
+    collective foundation
+  effect_direction: BENEFICIAL
+  source_ref: ¶3
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.100801'
+- relation_id: rel_cw9i_002
+  relation_type: complementary
+  factor_a: jung_collective_unconscious AND jung_jung_inherited
+  factor_b: jung_universal_patterns
+  relation_nature: Inherited equals universal
+  condition_constraint: When cross-cultural study reveals same archetypal patterns
+    across diverse populations
+  effect_direction: BENEFICIAL
+  source_ref: ¶2-3
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.100812'
+- relation_id: rel_cw9i_003
+  relation_type: inhibitory
+  factor_a: jung_personal_reductionism
+  factor_b: jung_collective_unconscious
+  relation_nature: Personal-only view limits
+  condition_constraint: When exclusively personal/Freudian interpretation blocks access
+    to collective depths
+  effect_direction: RESTRICTIVE
+  source_ref: ¶2
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.100816'
+- relation_id: rel_cw9i_004
+  relation_type: content_of
+  factor_a: complex
+  factor_b: personal_unconscious
+  relation_nature: Complexes = PU contents
+  condition_constraint: When complexes are recognized as contents acquired through
+    personal experience
+  effect_direction: defining
+  source_ref: ¶4
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.100852'
+- relation_id: rel_cw9i_005
+  relation_type: philosophical_lineage
+  factor_a: archetype
+  factor_b: platonic_eidos
+  relation_nature: Archetype = psychological Form
+  condition_constraint: When Jung's archetype concept is traced to Platonic eidos
+    tradition
+  effect_direction: connecting
+  source_ref: ¶5
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.100855'
+- relation_id: rel_cw9i_006
+  relation_type: transformation
+  factor_a: archetype
+  factor_b: archetypal_image
+  relation_nature: Becoming conscious
+  condition_constraint: When unconscious archetype transforms into conscious archetypal
+    image through elaboration
+  effect_direction: manifesting
+  source_ref: ¶6
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.100887'
+- relation_id: rel_cw9i_007
+  relation_type: expression
+  factor_a: archetype
+  factor_b: myth
+  relation_nature: Culturally elaborated form
+  condition_constraint: When archetype finds expression through culturally elaborated
+    mythic forms over time
+  effect_direction: expressing
+  source_ref: ¶6
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.100893'
+- relation_id: rel_cw9i_020
+  relation_type: expression_of
+  factor_a: myth
+  factor_b: collective_unconscious
+  relation_nature: Myth expresses CU
+  condition_constraint: When myth serves as cultural expression of collective unconscious
+    contents
+  effect_direction: manifesting
+  source_ref: ¶8
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.100931'
+- relation_id: rel_cw9i_021
+  relation_type: contains
+  factor_a: religious_container
+  factor_b: eternal_images
+  relation_nature: Religion holds archetypes
+  condition_constraint: When religious tradition provides containing form for raw
+    archetypal experience
+  effect_direction: protective
+  source_ref: ¶10-11
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.100934'
+- relation_id: rel_cw9i_022
+  relation_type: mechanism
+  factor_a: jung_projection
+  factor_b: jung_myth
+  relation_nature: Projection creates myth
+  condition_constraint: When unconscious projection process generates mythic narratives
+  effect_direction: generative
+  source_ref: ¶8
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.100937'
+- relation_id: rel_cw9i_023
+  relation_type: threatens
+  factor_a: jung_numinous
+  factor_b: ego
+  relation_nature: Raw experience threatens ego
+  condition_constraint: When unmediated numinous experience overwhelms ego without
+    protective container
+  effect_direction: destructive
+  source_ref: ¶13
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.100976'
+- relation_id: rel_cw9i_024
+  relation_type: protects
+  factor_a: jung_mandala
+  factor_b: ego
+  relation_nature: Mandala protects from chaos
+  condition_constraint: When mandala symbol provides protective order against psychic
+    chaos
+  effect_direction: protective
+  source_ref: ¶16
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.100979'
+- relation_id: rel_cw9i_025
+  relation_type: transforms
+  factor_a: dogma_container
+  factor_b: jung_numinous
+  relation_nature: Dogma contains raw experience
+  condition_constraint: When dogmatic formulation transforms raw numinous into safe
+    traditional form
+  effect_direction: protective
+  source_ref: ¶17
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.100982'
+- relation_id: rel_cw9i_026
+  relation_type: channels
+  factor_a: religious_container
+  factor_b: collective_unconscious
+  relation_nature: Religion channels CU
+  condition_constraint: When religious tradition channels collective unconscious energies
+    safely
+  effect_direction: containing
+  source_ref: ¶21
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.100984'
+- relation_id: rel_cw9i_027
+  relation_type: destroys
+  factor_a: iconoclasm
+  factor_b: religious_container
+  relation_nature: Reformation effect
+  condition_constraint: When Protestant iconoclasm destroys traditional symbol-containers
+  effect_direction: destructive
+  source_ref: ¶22-23
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101026'
+- relation_id: rel_cw9i_028
+  relation_type: leads_to
+  factor_a: iconoclasm
+  factor_b: symbol_poverty
+  relation_nature: Historical consequence
+  condition_constraint: When destruction of symbols leads to modern symbolic poverty
+    and neurosis
+  effect_direction: causative
+  source_ref: ¶23
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101029'
+- relation_id: rel_cw9i_029
+  relation_type: transforms
+  factor_a: jung_spirit
+  factor_b: jung_water_symbolism
+  relation_nature: Heraclitean descent
+  condition_constraint: When spirit descends into matter following Heraclitean enantiodromia
+  effect_direction: descending
+  source_ref: ¶32
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101032'
+- relation_id: rel_cw9i_030
+  relation_type: usurps
+  factor_a: jung_intellect
+  factor_b: jung_spirit
+  relation_nature: Luciferian presumption
+  condition_constraint: When intellect usurps spirit's position through Luciferian
+    presumption
+  effect_direction: displacing
+  source_ref: ¶32
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101035'
+- relation_id: rel_cw9i_031
+  relation_type: leads_to
+  factor_a: jung_spiritual_poverty
+  factor_b: descent_to_water
+  relation_nature: Poverty enables descent
+  condition_constraint: When spiritual impoverishment forces compensatory descent
+    into unconscious depths
+  effect_direction: directing
+  source_ref: ¶33
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101074'
+- relation_id: rel_cw9i_032
+  relation_type: activates
+  factor_a: pneuma
+  factor_b: jung_water_symbolism
+  relation_nature: Spirit enlivens water
+  condition_constraint: When descended spirit (pneuma) activates and enlivens unconscious
+    waters
+  effect_direction: healing
+  source_ref: ¶35
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101077'
+- relation_id: rel_cw9i_033
+  relation_type: guards
+  factor_a: dragon_guardian
+  factor_b: pearl_treasure
+  relation_nature: Threshold protection
+  condition_constraint: When dragon guardian protects the pearl treasure from unready
+    seekers
+  effect_direction: blocking
+  source_ref: ¶37
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101080'
+- relation_id: rel_cw9i_034
+  relation_type: retrieves
+  factor_a: jung_descent
+  factor_b: pearl_treasure
+  relation_nature: Descent enables retrieval
+  condition_constraint: When successful descent and dragon confrontation retrieves
+    the pearl treasure
+  effect_direction: rewarding
+  source_ref: ¶37
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101083'
+- relation_id: rel_cw9i_008
+  relation_type: symbolizes
+  factor_a: jung_water_symbolism
+  factor_b: collective_unconscious
+  relation_nature: Universal symbol
+  condition_constraint: When water in dreams symbolizes the collective unconscious
+  effect_direction: representing
+  source_ref: ¶40
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101116'
+- relation_id: rel_cw9i_009
+  relation_type: gateway_to
+  factor_a: jung_shadow
+  factor_b: collective_unconscious
+  relation_nature: First encounter
+  condition_constraint: When shadow serves as gateway to deeper collective unconscious
+  effect_direction: transitional
+  source_ref: ¶45
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101120'
+- relation_id: rel_cw9i_010
+  relation_type: quality_of
+  factor_a: cu_objectivity
+  factor_b: collective_unconscious
+  relation_nature: Not personal
+  condition_constraint: When collective unconscious demonstrates objective, non-personal
+    quality
+  effect_direction: defining
+  source_ref: ¶46
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101123'
+- relation_id: rel_cw9i_035
+  relation_type: protects_against
+  factor_a: rite_dogma_protection
+  factor_b: jung_possession
+  relation_nature: Barrier function
+  condition_constraint: When rite and dogma provide protective barrier against archetypal
+    possession
+  effect_direction: protective
+  source_ref: ¶47
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101158'
+- relation_id: rel_cw9i_036
+  relation_type: leads_to
+  factor_a: barrier_collapse
+  factor_b: catastrophe
+  relation_nature: Symbol weakening
+  condition_constraint: When collapse of protective symbolic barriers leads to psychological
+    catastrophe
+  effect_direction: destructive
+  source_ref: ¶48
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101161'
+- relation_id: rel_cw9i_037
+  relation_type: reframes
+  factor_a: gods_as_factors
+  factor_b: archetype
+  relation_nature: Modern psychology
+  condition_constraint: When ancient gods are reframed as psychological factors (archetypes)
+  effect_direction: translating
+  source_ref: ¶49
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101164'
+- relation_id: rel_cw9i_011
+  relation_type: sequence
+  factor_a: jung_shadow
+  factor_b: anima
+  relation_nature: Shadow first, then Anima
+  condition_constraint: When descent sequence processes shadow first then anima
+  effect_direction: sequential
+  source_ref: ¶50
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101194'
+- relation_id: rel_cw9i_012
+  relation_type: mechanism
+  factor_a: anima
+  factor_b: jung_projection
+  relation_nature: Anima projected onto beloved
+  condition_constraint: When unconscious anima projects onto beloved externalizing
+  effect_direction: externalizing
+  source_ref: ¶53
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101197'
+- relation_id: rel_cw9i_013
+  relation_type: mediation
+  factor_a: anima
+  factor_b: collective_unconscious
+  relation_nature: Anima as psychopomp
+  condition_constraint: When establishing conceptual links
+  effect_direction: connecting
+  source_ref: ¶50
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101269'
+- relation_id: rel_cw9i_014
+  relation_type: polarity
+  factor_a: anima_dark
+  factor_b: anima_light
+  relation_nature: Dual nature
+  condition_constraint: When opposites complement each other
+  effect_direction: complementary
+  source_ref: ¶53-57
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101304'
+- relation_id: rel_cw9i_015
+  relation_type: quality
+  factor_a: anima
+  factor_b: apriori_factor
+  relation_nature: Cannot be made
+  condition_constraint: When defining psychological terms
+  effect_direction: defining
+  source_ref: ¶57
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101309'
+- relation_id: rel_cw9i_016
+  relation_type: sequence
+  factor_a: jung_shadow
+  factor_b: anima
+  relation_nature: Apprentice→Master
+  condition_constraint: When individuation progresses from shadow apprentice to anima
+    master
+  effect_direction: progressive
+  source_ref: ¶61
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101338'
+- relation_id: rel_cw9i_017
+  relation_type: hidden_in
+  factor_a: anima
+  factor_b: jung_mother_complex
+  relation_nature: Son's development
+  condition_constraint: When before differentiation anima hides in mother complex
+  effect_direction: concealing
+  source_ref: ¶61
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101342'
+- relation_id: rel_cw9i_018
+  relation_type: symbolizes
+  factor_a: jung_wise_old_man
+  factor_b: preexistent_meaning
+  relation_nature: Spirit reveals meaning
+  condition_constraint: When archetype manifests
+  effect_direction: manifesting
+  source_ref: ¶74
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101436'
+- relation_id: rel_cw9i_019
+  relation_type: polarity
+  factor_a: wise_old_man_light
+  factor_b: wise_old_man_dark
+  relation_nature: Two aspects
+  condition_constraint: When opposites complement each other
+  effect_direction: complementary
+  source_ref: ¶74
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101441'
+- relation_id: rel_cw9i_038
+  relation_type: complement
+  factor_a: white_magician
+  factor_b: black_magician
+  relation_nature: Need each other
+  condition_constraint: When integration process occurs
+  effect_direction: integrating
+  source_ref: ¶71
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101480'
+- relation_id: rel_cw9i_039
+  relation_type: releases
+  factor_a: old_king_death
+  factor_b: black_horse
+  relation_nature: King dies → Anima
+  condition_constraint: When activation occurs
+  effect_direction: activating
+  source_ref: ¶72
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101484'
+- relation_id: rel_cw9i_040
+  relation_type: leads_to
+  factor_a: black_horse
+  factor_b: keys_paradise
+  relation_nature: Follow passion → Wholeness
+  condition_constraint: When progressive development occurs
+  effect_direction: progressive
+  source_ref: ¶73
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101487'
+- relation_id: rel_cw9i_041
+  relation_type: equivalent
+  factor_a: nirdvandva
+  factor_b: opposites_relativized
+  relation_nature: Eastern-Western parallel
+  condition_constraint: When mapping between systems
+  effect_direction: mapping
+  source_ref: ¶76
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101521'
+- relation_id: rel_cw9i_042
+  relation_type: compensates
+  factor_a: jung_unconscious
+  factor_b: conscious
+  relation_nature: Relative standpoint
+  condition_constraint: When compensation is active
+  effect_direction: balancing
+  source_ref: ¶77
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101524'
+- relation_id: rel_cw9i_043
+  relation_type: alternative_name
+  factor_a: lucifer_archetype
+  factor_b: jung_wise_old_man
+  relation_nature: Light-bringer
+  condition_constraint: When archetype is named
+  effect_direction: naming
+  source_ref: ¶79
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.101527'
+- relation_id: rel_cw9i_ix_001
+  relation_type: causal
+  factor_a: jung_active_imagination AND jung_jung_unconscious
+  factor_b: jung_depth_access
+  relation_nature: Method for accessing depth
+  condition_constraint: When active imagination provides direct access to unconscious
+    depth material
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶525-528
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.103446'
+- relation_id: rel_cw9i_ix_002
+  relation_type: causal
+  factor_a: jung_mandala AND jung_jung_self
+  factor_b: jung_wholeness_expression
+  relation_nature: Symbol of integration
+  condition_constraint: When spontaneous mandala symbolizes Self and emerging psychic
+    wholeness
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶583-590
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.103452'
+- relation_id: rel_cw9i_ix_003
+  relation_type: inhibitory
+  factor_a: jung_archetype_identification AND jung_jung_inflation
+  factor_b: jung_ego_weakness
+  relation_nature: Pathological reaction
+  condition_constraint: When weak ego identifies with archetype causing pathological
+    inflation or deflation
+  effect_direction: HARMFUL
+  source_ref: CW9i ¶621
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.103455'
+- relation_id: rel_cw9i_ix_004
+  relation_type: causal
+  factor_a: jung_individuation AND jung_jung_imago_dei
+  factor_b: jung_transcendent_goal
+  relation_nature: Many becoming One
+  condition_constraint: When individuation realizes imago Dei as psychic totality
+    within individual
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶626
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.103458'
+- relation_id: rel_cw9i_xi_001
+  relation_type: causal
+  factor_a: jung_mandala AND jung_jung_universality
+  factor_b: jung_cross_cultural_presence
+  relation_nature: Universal phenomenon
+  condition_constraint: When mandala symbolism appears universally across Eastern
+    and Western cultures
+  effect_direction: NEUTRAL
+  source_ref: CW9i ¶713
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.103954'
+- relation_id: rel_cw9i_xi_002
+  relation_type: causal
+  factor_a: jung_mandala AND jung_jung_self
+  factor_b: jung_psychic_wholeness
+  relation_nature: Symbol equivalence
+  condition_constraint: When spontaneous mandala emergence indicates activated Self
+    and movement toward wholeness
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶716
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.103958'
+- relation_id: rel_cw9i_xi_003
+  relation_type: causal
+  factor_a: jung_mandala_creation AND jung_jung_meditation
+  factor_b: jung_psychological_balance
+  relation_nature: Therapeutic effect
+  condition_constraint: When mandala creation or meditation produces psychological
+    centering and balance
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶718
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.103961'
+- relation_id: rel_cw9i_iv_001
+  relation_type: causal
+  factor_a: jung_child_archetype AND jung_jung_archetype
+  factor_b: jung_individuation
+  relation_nature: Development trigger
+  condition_constraint: When unconscious activates child motif signaling new phase
+    of individuation
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶259-270
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.107746'
+- relation_id: rel_cw9i_iv_002
+  relation_type: causal
+  factor_a: jung_child_symbol AND jung_jung_futurity
+  factor_b: jung_new_beginning
+  relation_nature: Anticipatory meaning
+  condition_constraint: When child symbol in dreams anticipates future psychological
+    development
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶278-281
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.107756'
+- relation_id: rel_cw9i_iv_003
+  relation_type: complementary
+  factor_a: jung_abandonment_motif AND jung_jung_invincibility_motif
+  factor_b: jung_child_polarity
+  relation_nature: Dialectical unity
+  condition_constraint: When child archetype displays paradoxical abandonment-vulnerability
+    with invincibility
+  effect_direction: NEUTRAL
+  source_ref: CW9i ¶282-289
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.107760'
+- relation_id: rel_cw9i_iv_004
+  relation_type: causal
+  factor_a: jung_ego_identification AND jung_jung_hero_bypass
+  factor_b: jung_self_emergence
+  relation_nature: Transcendence process
+  condition_constraint: When child archetype bypasses ego-hero identification enabling
+    Self emergence
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶300-305
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.107764'
+- relation_id: rel_cw9i_iv_005
+  relation_type: causal
+  factor_a: jung_hermaphrodite_motif AND jung_jung_opposites_union
+  factor_b: jung_totality_symbol
+  relation_nature: Wholeness achievement
+  condition_constraint: When hermaphrodite motif symbolizes conscious integration
+    of masculine-feminine opposites
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶290-295
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.107767'
+- relation_id: rel_VIII_001
+  relation_type: ''
+  factor_a: conscious
+  factor_b: unconscious
+  relation_nature: ''
+  condition_constraint: When conscious and unconscious engage in fair dialogue
+  effect_direction: ''
+  source_ref: ''
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.110650'
+- relation_id: rel_VIII_002
+  relation_type: ''
+  factor_a: jung_opposites_union
+  factor_b: jung_transcendent_function
+  relation_nature: ''
+  condition_constraint: When transcendent function unites opposites
+  effect_direction: ''
+  source_ref: ''
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.110657'
+- relation_id: rel_cw9i_viii_001
+  relation_type: complementary
+  factor_a: jung_conscious AND jung_jung_unconscious
+  factor_b: jung_fair_fight
+  relation_nature: Opposition in balance
+  condition_constraint: When conscious and unconscious are given equal rights in psychological
+    dialogue
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶522
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.110677'
+- relation_id: rel_cw9i_viii_002
+  relation_type: causal
+  factor_a: jung_individuation AND jung_jung_transcendent_function
+  factor_b: jung_opposites_union
+  relation_nature: Integration process
+  condition_constraint: When transcendent function holds opposites in tension enabling
+    synthetic resolution
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶524
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.110681'
+- relation_id: rel_cw9i_viii_003
+  relation_type: causal
+  factor_a: jung_unconscious AND jung_jung_consciousness
+  factor_b: jung_psychic_origin
+  relation_nature: Generative relationship
+  condition_constraint: When consciousness emerges from and remains rooted in unconscious
+    psychic matrix
+  effect_direction: NEUTRAL
+  source_ref: CW9i ¶502
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.110685'
+- relation_id: rel_cw9i_viii_004
+  relation_type: causal
+  factor_a: jung_anima_animus_shadow AND jung_jung_collective_unconscious
+  factor_b: jung_archetypal_layers
+  relation_nature: Structural depth
+  condition_constraint: When shadow/anima/animus provide access to deeper phylogenetic
+    archetypal layers
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶513
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.110688'
+- relation_id: rel_cw9i_vii_001
+  relation_type: causal
+  factor_a: jung_trickster AND jung_jung_collective_shadow
+  factor_b: jung_inferior_traits
+  relation_nature: Sum of primitive elements
+  condition_constraint: When trickster embodies collective shadow as sum of undeveloped
+    primitive traits
+  effect_direction: MIXED
+  source_ref: CW9i §456-458
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.111582'
+- relation_id: rel_cw9i_vii_002
+  relation_type: complementary
+  factor_a: jung_trickster AND jung_jung_mercurius
+  factor_b: jung_shape_shifter
+  relation_nature: Alchemical parallel
+  condition_constraint: When trickster parallels alchemical Mercurius as shape-shifting
+    transformative agent
+  effect_direction: BENEFICIAL
+  source_ref: CW9i §456
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.111586'
+- relation_id: rel_cw9i_vii_003
+  relation_type: causal
+  factor_a: jung_shadow AND jung_jung_anima_animus
+  factor_b: jung_depth_sequence
+  relation_nature: Depth layers order
+  condition_constraint: When shadow must be encountered as gateway before deeper anima/animus
+    work
+  effect_direction: BENEFICIAL
+  source_ref: CW9i §485
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.111589'
+- relation_id: rel_cw9i_vii_004
+  relation_type: causal
+  factor_a: jung_trickster AND jung_jung_enantiodromia
+  factor_b: jung_saviour_potential
+  relation_nature: Reversal to opposite
+  condition_constraint: When consciously integrated trickster-shadow reverses into
+    saviour through enantiodromia
+  effect_direction: BENEFICIAL
+  source_ref: CW9i §484-488
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.111592'
+- relation_id: rel_cw9i_v_001
+  relation_type: causal
+  factor_a: jung_kore_archetype AND jung_jung_anima
+  factor_b: jung_male_soul_image
+  relation_nature: Male projection
+  condition_constraint: When Kore (maiden) figure appears in male psyche as anima
+    projection
+  effect_direction: BENEFICIAL
+  source_ref: CW9i §306-315
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.112832'
+- relation_id: rel_cw9i_v_002
+  relation_type: causal
+  factor_a: jung_kore_archetype AND jung_jung_supraordinate_self
+  factor_b: jung_feminine_wholeness
+  relation_nature: Female experience
+  condition_constraint: When Kore archetype appears in female psyche as aspect of
+    supraordinate Self
+  effect_direction: BENEFICIAL
+  source_ref: CW9i §306-315
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.112837'
+- relation_id: rel_cw9i_v_003
+  relation_type: complementary
+  factor_a: jung_demeter_kore_hecate AND jung_jung_threefold_feminine
+  factor_b: jung_complete_feminine
+  relation_nature: Maiden-Mother-Crone unity
+  condition_constraint: When Demeter-Kore-Hecate triad represents complete feminine
+    archetype (maiden-mother-crone)
+  effect_direction: BENEFICIAL
+  source_ref: CW9i §306
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.112841'
+- relation_id: rel_cw9i_v_004
+  relation_type: causal
+  factor_a: jung_eleusinian_mysteries AND jung_jung_catharsis
+  factor_b: jung_rebirth_experience
+  relation_nature: Initiation transformation
+  condition_constraint: When Eleusinian mystery ritual activates psychological rebirth
+    through Demeter-Kore drama
+  effect_direction: BENEFICIAL
+  source_ref: CW9i §337-338
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.112844'
+- relation_id: rel_X_001
+  relation_type: ''
+  factor_a: ''
+  factor_b: ''
+  relation_nature: ''
+  condition_constraint: When mandala spontaneously produced in analysis
+  effect_direction: ''
+  source_ref: ''
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.113711'
+- relation_id: rel_X_002
+  relation_type: ''
+  factor_a: ''
+  factor_b: ''
+  relation_nature: ''
+  condition_constraint: When patient actively engages in mandala creation
+  effect_direction: ''
+  source_ref: ''
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.113717'
+- relation_id: rel_cw9i_x_001
+  relation_type: causal
+  factor_a: jung_mandala AND jung_jung_yantra
+  factor_b: jung_contemplation_aid
+  relation_nature: Concentration tool
+  condition_constraint: When mandala/yantra is used as concentration aid in ritual
+    or therapeutic meditation
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶629-631
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.113742'
+- relation_id: rel_cw9i_x_002
+  relation_type: causal
+  factor_a: jung_mandala AND jung_jung_self
+  factor_b: jung_wholeness_symbol
+  relation_nature: Expression of totality
+  condition_constraint: When spontaneous mandala expresses psychic totality and Self
+    archetype
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶627
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.113746'
+- relation_id: rel_cw9i_x_003
+  relation_type: causal
+  factor_a: jung_mandala_center AND jung_jung_shiva_shakti
+  factor_b: jung_opposites_union
+  relation_nature: Sacred marriage
+  condition_constraint: When mandala center displays Shiva-Shakti union of masculine
+    and feminine principles
+  effect_direction: BENEFICIAL
+  source_ref: CW9i ¶630
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.113749'
+- relation_id: rel_cw9i_II_009
+  relation_type: causal
+  factor_a: jung_depth_psychology AND jung_jung_empirical_method
+  factor_b: jung_valid_knowledge
+  relation_nature: Methodological foundation
+  condition_constraint: When empirical method validates depth psychological findings
+    through cross-cultural evidence
+  effect_direction: BENEFICIAL
+  source_ref: ¶111
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.115683'
+- relation_id: rel_cw9i_II_010
+  relation_type: inhibitory
+  factor_a: jung_psyche_totality AND jung_jung_reductionism
+  factor_b: jung_incomplete_view
+  relation_nature: Holism vs limitation
+  condition_constraint: When reductive methods fragment the holistic totality of psyche
+    into partial views
+  effect_direction: HARMFUL
+  source_ref: ¶113
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.115690'
+- relation_id: rel_cw9i_II_001
+  relation_type: validates
+  factor_a: universal_parallels
+  factor_b: archetype
+  relation_nature: Proof of existence
+  condition_constraint: When cross-cultural parallels validate archetype existence
+    through universal patterns
+  effect_direction: confirming
+  source_ref: ¶118
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.115725'
+- relation_id: rel_cw9i_II_002
+  relation_type: quality_of
+  factor_a: psychic_autonomy
+  factor_b: jung_psyche
+  relation_nature: Irreducibility
+  condition_constraint: When psyche demonstrates autonomous reality irreducible to
+    brain or matter
+  effect_direction: defining
+  source_ref: ¶117-118
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.115728'
+- relation_id: rel_cw9i_II_003
+  relation_type: expression_of
+  factor_a: yang_yin
+  factor_b: jung_syzygy
+  relation_nature: Chinese cosmogonic
+  condition_constraint: When Chinese yang-yin polarity expresses universal syzygy
+    archetype
+  effect_direction: manifesting
+  source_ref: ¶120
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.115758'
+- relation_id: rel_cw9i_II_004
+  relation_type: parallel
+  factor_a: po_kuei
+  factor_b: anima
+  relation_nature: Chinese-Western
+  condition_constraint: When Chinese po/kuei corresponds to Western anima/animus concepts
+  effect_direction: corresponding
+  source_ref: ¶119
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.115763'
+- relation_id: rel_cw9i_II_011
+  relation_type: substitutes
+  factor_a: atheism
+  factor_b: theism
+  relation_nature: One belief for another
+  condition_constraint: When atheism substitutes one archetypal belief system for
+    another
+  effect_direction: replacing
+  source_ref: ¶128
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.115801'
+- relation_id: rel_cw9i_II_012
+  relation_type: persists
+  factor_a: archetype_energy
+  factor_b: consciousness
+  relation_nature: Energy despite ignoring
+  condition_constraint: When archetypal energy persists and influences despite conscious
+    denial
+  effect_direction: continuing
+  source_ref: ¶129
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.115836'
+- relation_id: rel_cw9i_II_013
+  relation_type: intensifies
+  factor_a: rep_collective
+  factor_b: jung_projection
+  relation_nature: Repressed → stronger projection
+  condition_constraint: When repressed collective contents intensify projection onto
+    external objects
+  effect_direction: amplifying
+  source_ref: ¶130
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.115845'
+- relation_id: rel_cw9i_II_005
+  relation_type: opposites
+  factor_a: jung_projection
+  factor_b: projection_withdrawal
+  relation_nature: Active-Resolved
+  condition_constraint: When consciousness transforms active projection into withdrawn
+    integration
+  effect_direction: transforming
+  source_ref: ¶121
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.115873'
+- relation_id: rel_cw9i_II_006
+  relation_type: proves
+  factor_a: klaus_vision
+  factor_b: jung_syzygy
+  relation_nature: Spontaneous = Archetypal
+  condition_constraint: When Brother Klaus's spontaneous vision confirms archetypal
+    syzygy independent of tradition
+  effect_direction: confirming
+  source_ref: ¶131
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.115898'
+- relation_id: rel_cw9i_II_007
+  relation_type: refutes
+  factor_a: archetype
+  factor_b: tabula_rasa
+  relation_nature: Inherited vs Blank
+  condition_constraint: When inherited archetypal structures refute tabula rasa theory
+    of mind at birth
+  effect_direction: opposing
+  source_ref: ¶136
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.115984'
+- relation_id: rel_cw9i_II_008
+  relation_type: inverse
+  factor_a: archetype_strength
+  factor_b: consciousness
+  relation_nature: Weak consciousness = Strong archetype
+  condition_constraint: When weak consciousness allows stronger archetypal manifestation
+    and possession
+  effect_direction: inverse
+  source_ref: ¶137
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.116000'
+- relation_id: rel_cw9i_II_014
+  relation_type: causes
+  factor_a: jung_reality
+  factor_b: demythologization
+  relation_nature: Disappointment
+  condition_constraint: When harsh reality causes demythologization and loss of archetypal
+    meaning
+  effect_direction: destructive
+  source_ref: ¶138-139
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.116050'
+- relation_id: rel_cw9i_II_015
+  relation_type: preserves
+  factor_a: dual_birth
+  factor_b: archetype
+  relation_nature: Godparents ritual
+  condition_constraint: When godparent ritual preserves dual birth archetype in modern
+    form
+  effect_direction: protective
+  source_ref: ¶140
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.116054'
+- relation_id: rel_cw9i_II_016
+  relation_type: causes
+  factor_a: archetype_loss
+  factor_b: cultural_discontent
+  relation_nature: Homelessness
+  condition_constraint: When loss of archetypal containers causes cultural discontent
+    and psychological homelessness
+  effect_direction: destructive
+  source_ref: ¶141
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.116057'
+- relation_id: rel_cw9i_II_017
+  relation_type: changes_at
+  factor_a: anima_relationship
+  factor_b: midlife
+  relation_nature: Before/after differ
+  condition_constraint: When anima relationship fundamentally changes at midlife transition
+    (~35)
+  effect_direction: transitioning
+  source_ref: ¶146-147
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.116093'
+- relation_id: rel_cw9i_II_018
+  relation_type: causes
+  factor_a: anima_loss_postmidlife
+  factor_b: rigidity
+  relation_nature: Vitality diminished
+  condition_constraint: When post-midlife anima loss causes psychological rigidity
+    and vitality diminishment
+  effect_direction: destructive
+  source_ref: ¶147
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.116096'
+- relation_id: rel_cw9i_II_019
+  relation_type: requires
+  factor_a: postmidlife
+  factor_b: archetype_reconnection
+  relation_nature: Therapy goal
+  condition_constraint: When post-midlife therapy requires reconnection with archetypal
+    sources of vitality
+  effect_direction: restorative
+  source_ref: ¶147
+  source_book: the_archetypes_and_the_collective_unconscious
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.116101'

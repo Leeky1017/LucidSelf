@@ -1,0 +1,9 @@
+$ tmpdir=$(mktemp -d)
+$ AUDIT_LOG_DIR="/tmp/tmp.kBrqfZtiMw" PYTHONPATH=. .venv/bin/python - <<'PY'
+from backend.core.audit import create_audit_event, write_audit_event
+ev = create_audit_event(event_type='ACCESS_CONTROL', result='DENY', capability='security-privacy-compliance', rejection_reason_code='UNAUTHORIZED', summary='export demo')
+print(write_audit_event(ev))
+PY
+/tmp/tmp.kBrqfZtiMw/security-privacy-compliance.ndjson
+$ AUDIT_LOG_DIR="/tmp/tmp.kBrqfZtiMw" PYTHONPATH=. .venv/bin/python scripts/export_audit_log.py --capability security-privacy-compliance --validate
+{"audit_id": "aud_7d8bda36af9a", "created_at": "2025-12-26T12:19:54.966820Z", "event_type": "ACCESS_CONTROL", "result": "DENY", "rejection_reason_code": "UNAUTHORIZED", "summary": "export demo"}

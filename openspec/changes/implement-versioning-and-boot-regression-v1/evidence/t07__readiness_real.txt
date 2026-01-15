@@ -1,0 +1,3 @@
+$ PYTHONPATH=. .venv/bin/pytest backend/tests/gate1_boot_regression/test_readiness_endpoint.py -q
+.                                                                        [100%]
+1 passed in 1.66s

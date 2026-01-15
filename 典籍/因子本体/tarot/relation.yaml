@@ -1,0 +1,90 @@
+# 塔罗体系 - 关系类因子
+# Relational factors for Tarot system
+
+factors:
+  # 牌阵位置关系
+  - id: tarot_spread_position
+    status: existing
+    display_zh: 牌阵位置
+    display_en: Spread Position
+    description_zh: 牌在牌阵中的位置意义
+    description_en: Position meaning in the spread
+    category: relation
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_past_present_future
+    status: existing
+    display_zh: 过去现在未来
+    display_en: Past-Present-Future
+    description_zh: 牌在时间轴上的位置
+    description_en: Position on timeline
+    category: relation
+    value_type: enum
+    value_range: [past, present, future]
+    applicable_systems: [tarot]
+
+  # 牌间关系
+  - id: tarot_card_interaction
+    status: existing
+    display_zh: 牌间互动
+    display_en: Card Interaction
+    description_zh: 相邻牌之间的互动关系
+    description_en: Interaction between adjacent cards
+    category: relation
+    value_type: enum
+    value_range: [support, conflict, neutral, transformation]
+    applicable_systems: [tarot]
+
+  - id: tarot_elemental_harmony
+    status: existing
+    display_zh: 元素和谐
+    display_en: Elemental Harmony
+    description_zh: 牌组元素之间的和谐程度
+    description_en: Harmony between card suit elements
+    category: relation
+    value_type: numeric
+    value_range: [0, 1]
+    applicable_systems: [tarot]
+
+  # 主题关联
+  - id: tarot_significator
+    status: existing
+    display_zh: 指示牌
+    display_en: Significator
+    description_zh: 代表问卜者或问题核心的牌
+    description_en: Card representing querent or core question
+    category: relation
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_outcome_card
+    status: existing
+    display_zh: 结果牌
+    display_en: Outcome Card
+    description_zh: 牌阵中代表最终结果的牌
+    description_en: Card representing final outcome in spread
+    category: relation
+    value_type: reference
+    applicable_systems: [tarot]
+
+  # 卡巴拉关联
+  - id: tarot_sephirah
+    status: existing
+    display_zh: 质点对应
+    display_en: Sephirah Correspondence
+    description_zh: 牌与卡巴拉生命树质点的对应
+    description_en: Correspondence to Kabbalistic Tree of Life sephirah
+    category: relation
+    value_type: reference
+    applicable_systems: [tarot]
+
+  - id: tarot_path
+    status: existing
+    display_zh: 路径对应
+    display_en: Path Correspondence
+    description_zh: 大阿尔卡纳与生命树路径的对应
+    description_en: Major Arcana correspondence to Tree of Life paths
+    category: relation
+    value_type: reference
+    applicable_systems: [tarot]

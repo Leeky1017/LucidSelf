@@ -1,0 +1,44 @@
+# LucidSelf Backend Dependencies
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Data Validation
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# HTTP Client
+httpx==0.25.2
+aiohttp==3.13.2
+
+# Database
+asyncpg==0.29.0
+sqlalchemy[asyncio]==2.0.23
+alembic==1.12.1
+
+# Redis
+redis==5.0.1
+
+# NLP
+jieba==0.42.1
+
+# Authentication
+bcrypt==4.1.2
+python-jose[cryptography]==3.3.0
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+PyYAML==6.0.1
+lunarcalendar==0.0.9
+# sxtwl需要C++编译，在Docker中跳过
+
+# Observability
+prometheus-client==0.20.0
+
+# Testing (optional, for dev)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+hypothesis==6.91.0

@@ -1,0 +1,945 @@
+book_id: christian_astrology,_vol._1_and_2
+source_file: 典籍/texts/Christian Astrology, vol. 1 and 2/编辑/Christian_Astrology_Horary_v2.1.md,
+  典籍/texts/Christian Astrology, vol. 1 and 2/编辑/Christian_Astrology_Nativities_v2.1.md,
+  典籍/texts/Christian Astrology, vol. 1 and 2/编辑/Christian_Astrology_Foundations_v2.1.md
+extracted_at: '2025-12-01T02:28:32.168817'
+snippets:
+- snippet_id: ns_lilly_001
+  trigger: horary_definition
+  factor_trigger: horary AND definition
+  role: 主干
+  snippet_text: Horary questions are doubts whereof men require resolution; erect
+    a figure for the hour and give a true answer.
+  source_ref: Source Text
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459318'
+- snippet_id: ns_lilly_002
+  trigger: chart_moment
+  factor_trigger: chart AND moment
+  role: 主干依赖
+  snippet_text: The chart must be framed exactly for the hour the question is propounded—success
+    depends on this moment.
+  source_ref: Source Text
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459332'
+- snippet_id: ns_lilly_003
+  trigger: radicall_intention
+  factor_trigger: radical AND intention
+  role: 条件分支
+  snippet_text: Both the time of receiving the question and the radicall intention
+    of the asker determine the outcome.
+  source_ref: Source Text
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459341'
+- snippet_id: ns_lilly_004
+  trigger: synchronicity
+  factor_trigger: synchronicity AND inquiry
+  role: 总结
+  snippet_text: The heavens at the moment of inquiry mirror the nature and outcome
+    of the matter questioned.
+  source_ref: English Paraphrase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459348'
+- snippet_id: ns_lilly_005
+  trigger: one_question_one_answer
+  factor_trigger: question AND answer
+  role: 主干
+  snippet_text: One question, one chart, one answer—horary delivers focused prediction
+    about specific outcomes.
+  source_ref: English Paraphrase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459355'
+- snippet_id: ns_lilly_006
+  trigger: liuyao_parallel
+  factor_trigger: horary AND liuyao
+  role: 主干依赖
+  snippet_text: Horary closely parallels Chinese 六爻—both use moment-based symbolic
+    systems for specific questions.
+  source_ref: English Paraphrase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459362'
+- snippet_id: ns_lilly_007
+  trigger: querent_significator
+  factor_trigger: querent AND significator
+  role: 主干
+  snippet_text: The significator of the querent is always the Lord of the Ascendent;
+    the Moon is generally a co-significator.
+  source_ref: Source Text
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459380'
+- snippet_id: ns_lilly_008
+  trigger: quesited_significator
+  factor_trigger: quesited AND house_lord
+  role: 主干依赖
+  snippet_text: The significator of the thing demanded is the Lord of that House which
+    signifies the thing demanded.
+  source_ref: Source Text
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459387'
+- snippet_id: ns_lilly_009
+  trigger: applying_aspect
+  factor_trigger: applying AND perfection
+  role: 条件分支
+  snippet_text: Applying aspect between significators = YES, matter perfects; separating
+    = NO, opportunity past.
+  source_ref: English Paraphrase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459394'
+- snippet_id: ns_lilly_010
+  trigger: reception
+  factor_trigger: reception AND dignity
+  role: 总结
+  snippet_text: Reception (planet in another's dignity) indicates welcome, connection
+    strength; mutual reception = strong success despite obstacles.
+  source_ref: English Paraphrase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459401'
+- snippet_id: ns_lilly_011
+  trigger: twelve_houses
+  factor_trigger: houses AND universe
+  role: 主干
+  snippet_text: The twelve Houses do represent the whole Universe, distinguished by
+    the twelve Signs of the Zodiack.
+  source_ref: Source Text
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459416'
+- snippet_id: ns_lilly_012
+  trigger: house_meanings
+  factor_trigger: house AND signification
+  role: 主干依赖
+  snippet_text: 'Every House hath particular signification: the First signifieth Life
+    and Body; the Second, Substance and Wealth; the Third, Brethren and short journeys.'
+  source_ref: Source Text
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459424'
+- snippet_id: ns_lilly_013
+  trigger: angular_power
+  factor_trigger: angular AND strength
+  role: 条件分支
+  snippet_text: Angular houses (1/4/7/10) are strongest—matters manifest quickly;
+    succedent moderate; cadent weakest, often fail.
+  source_ref: English Paraphrase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459432'
+- snippet_id: ns_lilly_014
+  trigger: derived_houses
+  factor_trigger: derived AND counting
+  role: 总结
+  snippet_text: 'Derived houses: count from any house for related matters—e.g., 2nd
+    from 7th (8th house) = partner''s money.'
+  source_ref: English Paraphrase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459439'
+- snippet_id: ns_lilly_015
+  trigger: aspects_behold
+  factor_trigger: aspect AND distance
+  role: 主干
+  snippet_text: Aspects are certaine Distances of Degrees, wherein the Planets mutually
+    behold each other, and worke more powerfully.
+  source_ref: Source Text
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459456'
+- snippet_id: ns_lilly_016
+  trigger: aspect_perfects
+  factor_trigger: aspect AND perfection
+  role: 主干依赖
+  snippet_text: When a significator applies to another by Aspect, and both continue
+    to perfect the Aspect before impediment, the thing shall come to passe.
+  source_ref: Source Text
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459463'
+- snippet_id: ns_lilly_017
+  trigger: frustration
+  factor_trigger: frustration AND impediment
+  role: 条件分支
+  snippet_text: If ere the Aspect be compleat, one turn Retrograde or be combust,
+    then is the Aspect frustrated, and the thing comes not to effect.
+  source_ref: Source Text
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459471'
+- snippet_id: ns_lilly_018
+  trigger: applying_separating
+  factor_trigger: applying AND separating
+  role: 总结
+  snippet_text: Applying = future event, YES indicator; Separating = past event, already
+    happened.
+  source_ref: English Paraphrase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459477'
+- snippet_id: ns_lilly_019
+  trigger: dignities_definition
+  factor_trigger: dignity AND privilege
+  role: 主干
+  snippet_text: Dignities are certaine Priviledges bestowed upon Planets, whereby
+    they become powerful in Operation, and more effectuall.
+  source_ref: Source Text
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459494'
+- snippet_id: ns_lilly_020
+  trigger: domicile_exaltation
+  factor_trigger: essential_dignity AND score
+  role: 主干依赖
+  snippet_text: 'Essential Dignities: when a Planet is in his owne House (+5), Exaltation
+    (+4), Triplicity (+3), Terme (+2), or Face (+1).'
+  source_ref: Source Text
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459502'
+- snippet_id: ns_lilly_021
+  trigger: debility_peregrine
+  factor_trigger: debility AND weakness
+  role: 条件分支
+  snippet_text: 'Debilities: Detriment (-5), Fall (-4), Peregrination (no dignity,
+    wandering), Retrograde, Combust, Cadent—weak significators struggle or fail.'
+  source_ref: English Paraphrase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459509'
+- snippet_id: ns_lilly_022
+  trigger: dignity_judgment
+  factor_trigger: dignity AND judgment
+  role: 总结
+  snippet_text: Even perfect applying aspects fail if significators too weak—dignity
+    assessment is crucial for judgment.
+  source_ref: English Paraphrase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459516'
+- snippet_id: ns_lilly_1A_001
+  trigger: longevity_judgment
+  factor_trigger: L1_dignity
+  role: 主干
+  snippet_text: L1 dignified and angular = long life; L1 cadent and afflicted = short
+    life or poor health.
+  source_ref: Christian Astrology 1st House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459531'
+- snippet_id: ns_lilly_1A_002
+  trigger: best_direction
+  factor_trigger: planet_strength
+  role: 主干依赖
+  snippet_text: The strongest planet by dignity indicates the most beneficial direction
+    for the querent's affairs.
+  source_ref: Christian Astrology 1st House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459538'
+- snippet_id: ns_lilly_2nd_001
+  trigger: wealth_judgment
+  factor_trigger: L2_dignity
+  role: 主干
+  snippet_text: L2 dignified and in angular house or 1st/10th = querent will attain
+    wealth.
+  source_ref: Christian Astrology 2nd House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459551'
+- snippet_id: ns_lilly_2nd_002
+  trigger: wealth_source
+  factor_trigger: planet_in_2nd
+  role: 主干依赖
+  snippet_text: Planet aspecting L2 or placed in 2nd house indicates the means by
+    which wealth is obtained.
+  source_ref: Christian Astrology 2nd House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459558'
+- snippet_id: ns_lilly_3rd_001
+  trigger: sibling_harmony
+  factor_trigger: L3_L1_aspect
+  role: 主干
+  snippet_text: L3 in good aspect with L1, both well dignified = querent and siblings
+    agree well.
+  source_ref: Christian Astrology 3rd House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459569'
+- snippet_id: ns_lilly_3rd_002
+  trigger: short_journey
+  factor_trigger: L3_Moon
+  role: 主干依赖
+  snippet_text: Moon and L3 free from affliction = journey safe and successful.
+  source_ref: Christian Astrology 3rd House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459575'
+- snippet_id: ns_lilly_4th_001
+  trigger: property_quality
+  factor_trigger: L4_dignity
+  role: 主干
+  snippet_text: L4 well dignified = good purchase; L4 afflicted = hidden defects in
+    property.
+  source_ref: Christian Astrology 4th House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459586'
+- snippet_id: ns_lilly_4th_002
+  trigger: hidden_location
+  factor_trigger: 4th_sign
+  role: 主干依赖
+  snippet_text: Sign on 4th cusp describes the place; L4 position shows where the
+    hidden thing lies.
+  source_ref: Christian Astrology 4th House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459593'
+- snippet_id: ns_lilly_5th_001
+  trigger: fertility_judgment
+  factor_trigger: L5_fertile_sign
+  role: 主干
+  snippet_text: L5, L1, and Moon in fruitful signs (Cancer, Scorpio, Pisces) = children
+    likely.
+  source_ref: Christian Astrology 5th House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459604'
+- snippet_id: ns_lilly_5th_002
+  trigger: pregnancy_confirmation
+  factor_trigger: Moon_L5_aspect
+  role: 主干依赖
+  snippet_text: Moon aspecting L5, both in fertile signs = she is with child.
+  source_ref: Christian Astrology 5th House
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459612'
+- snippet_id: ns_lilly_023
+  trigger: horary_marriage
+  factor_trigger: horary_7th_house
+  role: 主干
+  snippet_text: In questions concerning marriage, the Ascendant and its Lord represent
+    the Querent; the 7th House and its Lord the Quesited spouse.
+  source_ref: Christian Astrology Marriage
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459628'
+- snippet_id: ns_lilly_024
+  trigger: application_reception
+  factor_trigger: aspect_application AND reception
+  role: 主干依赖
+  snippet_text: If there be Application between the two Lords by Sextile, Trine, or
+    Conjunction with Reception, marriage may follow. If separation, marriage is denied.
+  source_ref: Christian Astrology Marriage
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459636'
+- snippet_id: ns_lilly_025
+  trigger: translation_light
+  factor_trigger: translation_of_light
+  role: 条件分支
+  snippet_text: 'Translation of light: a third planet separating from one significator
+    and applying to another facilitates union through intermediary.'
+  source_ref: Christian Astrology Marriage
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459643'
+- snippet_id: ns_lilly_026
+  trigger: combust_retrograde
+  factor_trigger: combust OR retrograde
+  role: 总结
+  snippet_text: L1 or L7 combust or retrograde indicates that party is weakened, overwhelmed,
+    or unwilling to proceed.
+  source_ref: Christian Astrology Marriage
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459651'
+- snippet_id: ns_lilly_027
+  trigger: horary_career
+  factor_trigger: horary_10th_house
+  role: 主干
+  snippet_text: 'For career questions: 10th house = employer/profession/status; 6th
+    house = daily work itself; 2nd house = income.'
+  source_ref: Christian Astrology Career
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459667'
+- snippet_id: ns_lilly_028
+  trigger: job_application
+  factor_trigger: L1_L10_aspect
+  role: 主干依赖
+  snippet_text: L1 applying to L10 with reception indicates employer is receptive;
+    L10 applying to L1 means employer seeks the querent.
+  source_ref: Christian Astrology Career
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459675'
+- snippet_id: ns_lilly_029
+  trigger: career_success
+  factor_trigger: L1_in_10th AND dignity
+  role: 总结
+  snippet_text: L1 in 10th house dignified = strong candidacy, favorable position
+    for professional success.
+  source_ref: Christian Astrology Career
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459681'
+- snippet_id: ns_lilly_030
+  trigger: horary_lost_object
+  factor_trigger: horary_2nd_house
+  role: 主干
+  snippet_text: For lost goods, examine the Lord of the 2nd house. If L2 be in an
+    angle, the thing is in the house. If in the 4th, hidden or underground. If in
+    the 7th, another person has it.
+  source_ref: Christian Astrology Lost Objects
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459699'
+- snippet_id: ns_lilly_031
+  trigger: lost_location
+  factor_trigger: L2_position
+  role: 主干依赖
+  snippet_text: Angular position = findable; cadent position = difficult to find.
+    The sign element indicates the nature of the place (fire = near heat, water =
+    damp areas).
+  source_ref: Christian Astrology Lost Objects
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459708'
+- snippet_id: ns_lilly_032
+  trigger: object_moved
+  factor_trigger: moon_separating_L2
+  role: 总结
+  snippet_text: Moon separating from L2 indicates the object has been moved recently
+    from its original location.
+  source_ref: Christian Astrology Lost Objects
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459715'
+- snippet_id: ns_lilly_033
+  trigger: horary_health
+  factor_trigger: horary_6th_house
+  role: 主干
+  snippet_text: 'In sickness questions: 1st house and its lord = the patient; 6th
+    house and its lord = the disease. Compare their dignities to judge who prevails.'
+  source_ref: Christian Astrology Health
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459731'
+- snippet_id: ns_lilly_034
+  trigger: health_prognosis
+  factor_trigger: L1_L6_strength
+  role: 主干依赖
+  snippet_text: If L1 stronger than L6, patient overcomes disease. If L6 stronger,
+    disease prevails. L1 separating from L6 = recovering; applying = worsening.
+  source_ref: Christian Astrology Health
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459740'
+- snippet_id: ns_lilly_035
+  trigger: medical_help
+  factor_trigger: horary_7th_doctor
+  role: 总结
+  snippet_text: 7th house = physician consulted; 10th house = medicine/treatment.
+    Benefic aspects to L1 indicate help and recovery.
+  source_ref: Christian Astrology Health
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459747'
+- snippet_id: ns_lilly_036
+  trigger: horary_legal
+  factor_trigger: horary_7th_adversary
+  role: 主干
+  snippet_text: 'In lawsuits and disputes: 1st house = querent, 7th house = adversary/opponent.
+    The 10th house lord represents the judge who decides between them.'
+  source_ref: Christian Astrology Legal
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459763'
+- snippet_id: ns_lilly_037
+  trigger: legal_outcome
+  factor_trigger: L10_inclination
+  role: 主干依赖
+  snippet_text: L10 applying to L1 = judge favors querent; L10 applying to L7 = judge
+    favors opponent. 4th house shows the final outcome of the matter.
+  source_ref: Christian Astrology Legal
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459771'
+- snippet_id: ns_lilly_038
+  trigger: lawsuit_victor
+  factor_trigger: L1_L7_strength
+  role: 总结
+  snippet_text: Relative dignity and strength between L1 and L7 determines who prevails
+    in the dispute.
+  source_ref: Christian Astrology Legal
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459778'
+- snippet_id: ns_lilly_039
+  trigger: horary_travel
+  factor_trigger: horary_9th_house
+  role: 主干
+  snippet_text: 'For travel questions: 3rd house = short journeys; 9th house = long
+    journeys. The 9th house lord''s condition shows the quality of the voyage.'
+  source_ref: Christian Astrology Travel
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459794'
+- snippet_id: ns_lilly_040
+  trigger: journey_quality
+  factor_trigger: L9_condition
+  role: 主干依赖
+  snippet_text: L9 dignified = favorable journey; L9 afflicted = problems en route.
+    Malefics in 9th indicate dangers. 7th house shows destination conditions.
+  source_ref: Christian Astrology Travel
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459801'
+- snippet_id: ns_lilly_041
+  trigger: travel_terrain
+  factor_trigger: sign_element_9th
+  role: 总结
+  snippet_text: 'Sign element on 9th cusp describes terrain: Fire = hot regions, Water
+    = sea voyages, Air = highlands, Earth = fertile lands.'
+  source_ref: Christian Astrology Travel
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459808'
+- snippet_id: ns_lilly_042
+  trigger: horary_purchase
+  factor_trigger: horary_4th_property
+  role: 主干
+  snippet_text: 'For purchases: 1st house = buyer, 7th house = seller. The 4th house
+    represents the property or thing being purchased. 10th house shows the price.'
+  source_ref: Christian Astrology Purchase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459824'
+- snippet_id: ns_lilly_043
+  trigger: purchase_quality
+  factor_trigger: L4_condition
+  role: 主干依赖
+  snippet_text: L4 dignified = property is valuable and sound; L4 afflicted = hidden
+    problems with the item. L7 in 1st = seller is eager, good bargaining position.
+  source_ref: Christian Astrology Purchase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459832'
+- snippet_id: ns_lilly_044
+  trigger: deal_success
+  factor_trigger: L1_L7_reception
+  role: 总结
+  snippet_text: L1 applying to L7 with reception = good deal, agreement likely. Moon
+    separating from L4 = opportunity slipping away.
+  source_ref: Christian Astrology Purchase
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459840'
+- snippet_id: ns_lilly_ship_001
+  trigger: ship_safety
+  factor_trigger: L1_Moon_benefic
+  role: 主干
+  snippet_text: L1 or Moon joined to fortunate planets in good houses = ship comes
+    safe.
+  source_ref: Christian Astrology Ship
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459855'
+- snippet_id: ns_lilly_ship_002
+  trigger: ship_danger
+  factor_trigger: L1_Moon_malefic_angular
+  role: 主干依赖
+  snippet_text: L1 or Moon joined to infortune in angles = ship in great danger.
+  source_ref: Christian Astrology Ship
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459862'
+- snippet_id: ns_lilly_ship_003
+  trigger: crew_quality
+  factor_trigger: L1_nature
+  role: 条件分支
+  snippet_text: If L1 be an infortune, the mariners are knaves (unreliable).
+  source_ref: Christian Astrology Ship
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459868'
+- snippet_id: ns_lilly_theft_001
+  trigger: thief_significator
+  factor_trigger: L7_thief
+  role: 主干
+  snippet_text: The 7th house and its Lord signifies the Thief. Peregrine planet in
+    angle often describes thief.
+  source_ref: Christian Astrology Theft
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459882'
+- snippet_id: ns_lilly_theft_002
+  trigger: thief_description
+  factor_trigger: L7_sign_element
+  role: 主干依赖
+  snippet_text: Fire signs = ruddy; Earth = swarthy; Air = fair; Water = pale complexion.
+  source_ref: Christian Astrology Theft
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459892'
+- snippet_id: ns_lilly_theft_003
+  trigger: recovery_indicator
+  factor_trigger: Moon_L2_apply
+  role: 条件分支
+  snippet_text: Moon applying to L2 or dispositor of L2 = goods shall be recovered.
+  source_ref: Christian Astrology Theft
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459898'
+- snippet_id: ns_lilly_war_001
+  trigger: war_structure
+  factor_trigger: L1_L7_comparison
+  role: 主干
+  snippet_text: 1st house = our party; 7th = enemy. Whichever Lord is stronger in
+    dignity, that party shall overcome.
+  source_ref: Christian Astrology War
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459911'
+- snippet_id: ns_lilly_war_002
+  trigger: victory_determination
+  factor_trigger: dignity_comparison
+  role: 主干依赖
+  snippet_text: If L1 stronger, we prevail; if L7 stronger, enemy wins. Mars strong
+    = decisive battle.
+  source_ref: Christian Astrology War
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459921'
+- snippet_id: ns_lilly_war_003
+  trigger: treaty_possibility
+  factor_trigger: Moon_translating
+  role: 条件分支
+  snippet_text: Moon translating light between L1 and L7 may show treaty or intermediary
+    bringing peace.
+  source_ref: Christian Astrology War
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.459927'
+- snippet_id: ns_lilly_rect_001
+  trigger: trutine
+  factor_trigger: moon_position_birth
+  role: 主干
+  snippet_text: 'Trutine of Hermes: Moon above earth at birth = Moon degree is ASC
+    at conception.'
+  source_ref: 'CA III #Rectification'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465709'
+- snippet_id: ns_lilly_rect_002
+  trigger: accidents
+  factor_trigger: life_event_timing
+  role: 主干依赖
+  snippet_text: 'Rectification by accidents: Use known life events and work backward
+    via directions.'
+  source_ref: 'CA III #Rectification'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465719'
+- snippet_id: ns_lilly_hyleg_001
+  trigger: hyleg
+  factor_trigger: hyleg_position
+  role: 主干
+  snippet_text: Hyleg is the giver of life—Sun by day, Moon by night, if well-placed.
+  source_ref: 'CA III #Hyleg'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465732'
+- snippet_id: ns_lilly_hyleg_002
+  trigger: anareta
+  factor_trigger: anareta_aspect
+  role: 条件分支
+  snippet_text: Anareta (Mars or Saturn) directing to Hyleg indicates life-threatening
+    periods.
+  source_ref: 'CA III #Hyleg'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465738'
+- snippet_id: ns_lilly_temp_001
+  trigger: appearance
+  factor_trigger: ascendant_sign AND asc_lord
+  role: 主干
+  snippet_text: Ascendant and its Lord describe the body; planets in 1st house strongly
+    modify appearance.
+  source_ref: 'CA III #Temperament'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465748'
+- snippet_id: ns_lilly_temp_002
+  trigger: manners
+  factor_trigger: mercury AND moon
+  role: 主干依赖
+  snippet_text: Mercury and Moon together describe the native's mental qualities and
+    habitual behaviors.
+  source_ref: 'CA III #Temperament'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465759'
+- snippet_id: ns_lilly_wealth_001
+  trigger: wealth
+  factor_trigger: lord_2nd_dignity
+  role: 主干
+  snippet_text: Lord of 2nd dignified = wealth; debilitated = poverty or difficulty
+    acquiring money.
+  source_ref: 'CA III #Wealth'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465768'
+- snippet_id: ns_lilly_wealth_002
+  trigger: wealth_means
+  factor_trigger: planet_in_2nd
+  role: 条件分支
+  snippet_text: 'Planet ruling or in 2nd shows means: Jupiter = religion/law; Mercury
+    = trade/writing.'
+  source_ref: 'CA III #Wealth'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465775'
+- snippet_id: ns_lilly_marriage_001
+  trigger: marriage
+  factor_trigger: venus_dignity AND moon_aspect
+  role: 主干
+  snippet_text: Venus and Moon well-placed = native shall marry; afflicted = difficulties.
+  source_ref: 'CA III #Marriage'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465783'
+- snippet_id: ns_lilly_marriage_002
+  trigger: spouse_quality
+  factor_trigger: lord_7th_dignity
+  role: 主干依赖
+  snippet_text: Lord of 7th dignified = happy marriage; debilitated = spouse of poor
+    quality or strife.
+  source_ref: 'CA III #Marriage'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465791'
+- snippet_id: ns_lilly_child_001
+  trigger: children
+  factor_trigger: lord_5th_dignity
+  role: 主干
+  snippet_text: Lord of 5th dignified with benefics in 5th = children; malefics =
+    few or difficulty.
+  source_ref: 'CA III #Children'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465799'
+- snippet_id: ns_lilly_child_002
+  trigger: fruitful
+  factor_trigger: fruitful_sign_5th
+  role: 条件分支
+  snippet_text: Fruitful signs (Cancer, Scorpio, Pisces) on 5th cusp indicate many
+    children.
+  source_ref: 'CA III #Children'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465805'
+- snippet_id: ns_lilly_career_001
+  trigger: honor
+  factor_trigger: sun_moon_dignity
+  role: 主干
+  snippet_text: Sun and Moon strong = honor and recognition; afflicted = obscurity
+    or disgrace.
+  source_ref: 'CA III #Career'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465813'
+- snippet_id: ns_lilly_career_002
+  trigger: profession
+  factor_trigger: lord_10th_planet
+  role: 主干依赖
+  snippet_text: 'Planet ruling 10th shows profession type: Mercury = trade; Jupiter
+    = law/religion.'
+  source_ref: 'CA III #Career'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465819'
+- snippet_id: ns_lilly_direct_001
+  trigger: direction
+  factor_trigger: asc_direction_to
+  role: 主干
+  snippet_text: ASC directed to Jupiter = honor, wealth, success; to Saturn = illness,
+    melancholy, restrictions.
+  source_ref: 'CA III #Directions'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465828'
+- snippet_id: ns_lilly_direct_002
+  trigger: timing
+  factor_trigger: direction_degree_year
+  role: 主干依赖
+  snippet_text: One degree of direction equals approximately one year of life—Ptolemy's
+    key.
+  source_ref: 'CA III #Directions'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.465834'
+- snippet_id: ns_lilly_found_001
+  trigger: planet_system
+  factor_trigger: planet_count=7
+  role: 主干
+  snippet_text: 'Seven Planets: Saturn, Jupiter, Mars, Sol, Venus, Mercury, Luna.'
+  source_ref: 'CA I #Planets'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467499'
+- snippet_id: ns_lilly_found_002
+  trigger: node_meaning
+  factor_trigger: north_node OR south_node
+  role: 主干依赖
+  snippet_text: North Node = increase; South Node = decrease.
+  source_ref: 'CA I #Nodes'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467508'
+- snippet_id: ns_lilly_sat_001
+  trigger: saturn_nature
+  factor_trigger: planet_saturn
+  role: 主干
+  snippet_text: Saturn is cold, dry, melancholy—Greater Malefic of limitation and
+    time.
+  source_ref: 'CA I #Saturn'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467521'
+- snippet_id: ns_lilly_jup_001
+  trigger: jupiter_nature
+  factor_trigger: planet_jupiter
+  role: 主干
+  snippet_text: Jupiter is hot, moist, sanguine—Greater Benefic of expansion and fortune.
+  source_ref: 'CA I #Jupiter'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467530'
+- snippet_id: ns_lilly_mars_001
+  trigger: mars_nature
+  factor_trigger: planet_mars
+  role: 主干
+  snippet_text: Mars is hot, dry, choleric—Lesser Malefic of action and conflict.
+  source_ref: 'CA I #Mars'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467539'
+- snippet_id: ns_lilly_sun_001
+  trigger: sun_nature
+  factor_trigger: planet_sun
+  role: 主干
+  snippet_text: The Sun is Heart of Heaven, Eye of World—vitality and authority.
+  source_ref: 'CA I #Sun'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467547'
+- snippet_id: ns_lilly_venus_001
+  trigger: venus_nature
+  factor_trigger: planet_venus
+  role: 主干
+  snippet_text: Venus is cold, moist—Lesser Benefic of love, beauty, harmony.
+  source_ref: 'CA I #Venus'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467554'
+- snippet_id: ns_lilly_merc_001
+  trigger: mercury_nature
+  factor_trigger: planet_mercury
+  role: 主干
+  snippet_text: Mercury is convertible—good with benefics, evil with malefics.
+  source_ref: 'CA I #Mercury'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467562'
+- snippet_id: ns_lilly_moon_001
+  trigger: moon_nature
+  factor_trigger: planet_moon
+  role: 主干
+  snippet_text: The Moon is cold, moist, swiftest—emotions, instincts, the public.
+  source_ref: 'CA I #Moon'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467569'
+- snippet_id: ns_lilly_sign_001
+  trigger: element_fire
+  factor_trigger: sign_fire_triplicity
+  role: 主干
+  snippet_text: Fire signs (Aries, Leo, Sagittarius) are hot, dry, active, enthusiastic.
+  source_ref: 'CA I #Signs'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467578'
+- snippet_id: ns_lilly_sign_002
+  trigger: quality_cardinal
+  factor_trigger: sign_cardinal
+  role: 主干依赖
+  snippet_text: Cardinal signs (Aries, Cancer, Libra, Capricorn) initiate and lead.
+  source_ref: 'CA I #Signs'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467583'
+- snippet_id: ns_lilly_house_001
+  trigger: angular_house
+  factor_trigger: house_angular
+  role: 主干
+  snippet_text: Angular houses (1, 4, 7, 10) are most powerful—planets here act strongly.
+  source_ref: 'CA I #Houses'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467593'
+- snippet_id: ns_lilly_house_002
+  trigger: house_meaning
+  factor_trigger: house_signification
+  role: 主干依赖
+  snippet_text: Each house governs specific life domains from life (1st) to hidden
+    enemies (12th).
+  source_ref: 'CA I #Houses'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467600'
+- snippet_id: ns_lilly_dig_001
+  trigger: domicile
+  factor_trigger: dignity_domicile
+  role: 主干
+  snippet_text: Planet in domicile has most strength (+5)—like a king in his own kingdom.
+  source_ref: 'CA I #Dignities'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467609'
+- snippet_id: ns_lilly_dig_002
+  trigger: detriment
+  factor_trigger: debility_detriment
+  role: 条件分支
+  snippet_text: Planet in detriment (-5) is weakened—like a stranger in hostile territory.
+  source_ref: 'CA I #Dignities'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467615'
+- snippet_id: ns_lilly_consid_001
+  trigger: void_of_course
+  factor_trigger: moon_void_of_course
+  role: 主干
+  snippet_text: Moon void of course = nothing will come of the matter asked.
+  source_ref: 'CA I #Considerations'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467625'
+- snippet_id: ns_lilly_consid_002
+  trigger: via_combusta
+  factor_trigger: moon_via_combusta
+  role: 条件分支
+  snippet_text: Moon in Via Combusta (15° Libra to 15° Scorpio) renders judgment unreliable.
+  source_ref: 'CA I #Considerations'
+  source_book: christian_astrology,_vol._1_and_2
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.467631'

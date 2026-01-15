@@ -1,0 +1,3300 @@
+book_id: the_inner_sky
+source_file: 典籍/texts/The Inner Sky/编辑/Inner_Sky_Houses_v2.1_Part7.md, 典籍/texts/The
+  Inner Sky/编辑/Inner_Sky_Zodiac_v2.1_Part6_FINAL.md, 典籍/texts/The Inner Sky/编辑/Inner_Sky_Natal_v2.1_Part3.md,
+  典籍/texts/The Inner Sky/编辑/L1.md, 典籍/texts/The Inner Sky/编辑/Inner_Sky_Zodiac_v2.1_Part4.md,
+  典籍/texts/The Inner Sky/编辑/Inner_Sky_Aspects_v2.1.md, 典籍/texts/The Inner Sky/编辑/Inner_Sky_Zodiac_v2.1_Part5_COMPLETE.md,
+  典籍/texts/The Inner Sky/编辑/Inner_Sky_Natal_v2.1_Part2.md, 典籍/texts/The Inner Sky/编辑/L2.md,
+  典籍/texts/The Inner Sky/编辑/Inner_Sky_Natal_v2.1_Part1.md, 典籍/texts/The Inner Sky/编辑/Inner_Sky_Houses_v2.1_Part8_FINAL.md,
+  典籍/texts/The Inner Sky/编辑/Inner_Sky_Theory_v2.1.md
+extracted_at: '2025-12-04T14:27:42.857878'
+factors:
+- factor_type: '**Structure**'
+  factor_label: First House
+  factor_id: astro_house_1
+  factor_source: existing
+  role_position: Identity Arena
+  value_constraint: Ascendant/Mask
+  engine_id: ''
+  notes: 'Forrest: optimal mask'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880553'
+- factor_type: '**Functional**'
+  factor_label: Personality Channel
+  factor_id: temp_a074dae8
+  factor_source: new_candidate
+  role_position: Expression Function
+  value_constraint: Complex psyche → simple action
+  engine_id: ''
+  notes: Simplification
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880579'
+- factor_type: '**State**'
+  factor_label: Identity Clarity
+  factor_id: temp_4a58af49
+  factor_source: new_candidate
+  role_position: Mastery Indicator
+  value_constraint: Clarity/decisiveness/poise
+  engine_id: ''
+  notes: Success state
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880586'
+- factor_type: '**Relational**'
+  factor_label: Ascendant↔命宫
+  factor_id: temp_e9b4e10f
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: Life Palace/Self presentation
+  engine_id: ''
+  notes: Cross-cultural
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880592'
+- factor_type: '**Structure**'
+  factor_label: Second House
+  factor_id: astro_house_2
+  factor_source: existing
+  role_position: Values Arena
+  value_constraint: Self-Worth/Resources
+  engine_id: ''
+  notes: 'Forrest: self-respect'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880613'
+- factor_type: '**State**'
+  factor_label: Self-Worth Crisis
+  factor_id: temp_df42f679
+  factor_source: new_candidate
+  role_position: Psychological Challenge
+  value_constraint: Insecurity about value
+  engine_id: ''
+  notes: Core issue
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880619'
+- factor_type: '**Functional**'
+  factor_label: Compensation Mechanism
+  factor_id: temp_33efb83d
+  factor_source: new_candidate
+  role_position: Behavioral Pattern
+  value_constraint: Materialism as symptom
+  engine_id: ''
+  notes: When worth lacking
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880624'
+- factor_type: '**Relational**'
+  factor_label: House 2↔财帛/身宫
+  factor_id: temp_399bd27a
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: Wealth/Body Palace/Values
+  engine_id: ''
+  notes: Cross-cultural
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880629'
+- factor_type: '**Structure**'
+  factor_label: Third House
+  factor_id: astro_house_3
+  factor_source: existing
+  role_position: Perception Arena
+  value_constraint: Communication/Mind
+  engine_id: ''
+  notes: 'Forrest: House of Perception'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880644'
+- factor_type: '**Functional**'
+  factor_label: Mental Map Builder
+  factor_id: temp_724846a5
+  factor_source: new_candidate
+  role_position: Cognitive Function
+  value_constraint: Creates "Second World" model
+  engine_id: ''
+  notes: Info processing
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880650'
+- factor_type: '**State**'
+  factor_label: Perceptual Clarity
+  factor_id: temp_3404e656
+  factor_source: new_candidate
+  role_position: Quality Indicator
+  value_constraint: Open exchange → accuracy
+  engine_id: ''
+  notes: Reality testing
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880656'
+- factor_type: '**Relational**'
+  factor_label: House 3↔兄弟/文昌
+  factor_id: temp_2d41de38
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: Siblings/Communication/Intellect
+  engine_id: ''
+  notes: Cross-cultural
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880661'
+- factor_type: '**Structure**'
+  factor_label: Fourth House
+  factor_id: astro_house_4
+  factor_source: existing
+  role_position: Foundation Arena
+  value_constraint: Home/Roots/Nadir
+  engine_id: ''
+  notes: 'Forrest: most subjective'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880674'
+- factor_type: '**State**'
+  factor_label: Secret Garden
+  factor_id: temp_656dac88
+  factor_source: new_candidate
+  role_position: Inner Sanctuary
+  value_constraint: Hero (fantasy) + Shadow (fear)
+  engine_id: ''
+  notes: Unconscious content
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880680'
+- factor_type: '**Functional**'
+  factor_label: Emotional Foundation
+  factor_id: temp_c8fa60a2
+  factor_source: new_candidate
+  role_position: Psychological Base
+  value_constraint: Roots feed life tree
+  engine_id: ''
+  notes: Stability source
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880713'
+- factor_type: '**Relational**'
+  factor_label: House 4↔田宅/地支
+  factor_id: temp_0ff7f555
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: Property/Family/Roots
+  engine_id: ''
+  notes: Cross-cultural
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880722'
+- factor_type: '**Structure**'
+  factor_label: Fifth House
+  factor_id: astro_house_5
+  factor_source: existing
+  role_position: Joy Arena
+  value_constraint: Creativity/Romance/Children
+  engine_id: ''
+  notes: 'Forrest: necessity of joy'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880742'
+- factor_type: '**State**'
+  factor_label: Vitality Source
+  factor_id: temp_a8789878
+  factor_source: new_candidate
+  role_position: Life Force
+  value_constraint: Pleasure keeps us in world
+  engine_id: ''
+  notes: Antidote to despair
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880750'
+- factor_type: '**Functional**'
+  factor_label: Creative Output
+  factor_id: temp_2034f888
+  factor_source: new_candidate
+  role_position: Expression Channel
+  value_constraint: Imprint self on world
+  engine_id: ''
+  notes: Children/art/projects
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880755'
+- factor_type: '**Relational**'
+  factor_label: House 5↔子女/食神/桃花
+  factor_id: temp_81ce91ef
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: Children/Creativity/Romance
+  engine_id: ''
+  notes: Cross-cultural
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880761'
+- factor_type: '**Structure**'
+  factor_label: Sixth House
+  factor_id: astro_house_6
+  factor_source: existing
+  role_position: Competence Arena
+  value_constraint: Work/Health/Service
+  engine_id: ''
+  notes: 'Forrest: need to be useful'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880776'
+- factor_type: '**Functional**'
+  factor_label: Skill Cultivation
+  factor_id: temp_592aa609
+  factor_source: new_candidate
+  role_position: Development Process
+  value_constraint: Apprenticeship → mastery
+  engine_id: ''
+  notes: Craft refinement
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880781'
+- factor_type: '**State**'
+  factor_label: Health Maintenance
+  factor_id: temp_52596710
+  factor_source: new_candidate
+  role_position: Body-Mind Integration
+  value_constraint: Body as service tool
+  engine_id: ''
+  notes: Physical foundation
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880788'
+- factor_type: '**Relational**'
+  factor_label: House 6↔奴仆/官禄/技艺
+  factor_id: temp_e98f56e5
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: Servant/Career/Skills
+  engine_id: ''
+  notes: Cross-cultural
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.880793'
+- factor_type: Structure
+  factor_label: Warrior-Confrontation Pattern
+  factor_id: temp_bce93339
+  factor_source: new_candidate
+  role_position: Core Action Frame
+  value_constraint: Life organised around meeting challenges head-on
+  engine_id: ''
+  notes: Central Aries structure
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.882518'
+- factor_type: Functional
+  factor_label: Conflict Selection Style
+  factor_id: temp_931f89c2
+  factor_source: new_candidate
+  role_position: Battle Strategy
+  value_constraint: '{avoids all conflict, fights randomly, chooses right battles}'
+  engine_id: ''
+  notes: Determines quality of Arian fights
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.882529'
+- factor_type: State
+  factor_label: Fear vs Courage Balance
+  factor_id: temp_48887b02
+  factor_source: new_candidate
+  role_position: Inner State
+  value_constraint: '{paralysed by fear, mixed, courage-leading}'
+  engine_id: ''
+  notes: How fear and courage interplay in action
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.882535'
+- factor_type: Structure
+  factor_label: Embodied-Value Pattern
+  factor_id: temp_91a24786
+  factor_source: new_candidate
+  role_position: Life Structure
+  value_constraint: Values anchored through material forms and routines
+  engine_id: ''
+  notes: Core Taurus orientation
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.882549'
+- factor_type: Functional
+  factor_label: Attachment to Structures
+  factor_id: temp_6c5fd4a3
+  factor_source: new_candidate
+  role_position: Holding Style
+  value_constraint: '{loosely held, balanced, rigidly clung-to}'
+  engine_id: ''
+  notes: How one relates to possessions and routines
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.882555'
+- factor_type: State
+  factor_label: Flexibility vs Inertia Level
+  factor_id: temp_3d5977f1
+  factor_source: new_candidate
+  role_position: Change Capacity
+  value_constraint: '{stuck, slowly adaptive, comfortably flexible}'
+  engine_id: ''
+  notes: Indicates ease of needed change
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.882560'
+- factor_type: Structure
+  factor_label: Witness-Explorer Pattern
+  factor_id: temp_2718f3e2
+  factor_source: new_candidate
+  role_position: Core Mental Frame
+  value_constraint: Life approached as something to sample, map, and describe
+  engine_id: ''
+  notes: Central Gemini pattern
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.882591'
+- factor_type: Functional
+  factor_label: Information Handling Style
+  factor_id: temp_a08a1114
+  factor_source: new_candidate
+  role_position: Learning Mode
+  value_constraint: '{scattered sampler, alternating, focused integrator}'
+  engine_id: ''
+  notes: How data and experiences are processed
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.882596'
+- factor_type: State
+  factor_label: Depth vs Scatter Balance
+  factor_id: temp_ff1d03b6
+  factor_source: new_candidate
+  role_position: Engagement Quality
+  value_constraint: '{mostly surface, mixed, regularly goes deep}'
+  engine_id: ''
+  notes: Indicates capacity to translate variety into wisdom
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.882602'
+- factor_type: Element
+  factor_label: Cardinal
+  factor_id: fixed
+  factor_source: Mutable
+  role_position: ''
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.882610'
+- factor_type: '**Fire**'
+  factor_label: ✅ Aries (Warrior)
+  factor_id: temp_4bb3a604
+  factor_source: ✅ Sagittarius (Philosopher)
+  role_position: ''
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.882619'
+- factor_type: '**Earth**'
+  factor_label: ✅ Capricorn (Builder)
+  factor_id: temp_9a8bf240
+  factor_source: ✅ Virgo (Craftsperson)
+  role_position: ''
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.882627'
+- factor_type: '**Air**'
+  factor_label: ✅ Libra (Diplomat)
+  factor_id: temp_42554fd0
+  factor_source: ✅ Gemini (Witness)
+  role_position: ''
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.882633'
+- factor_type: '**Water**'
+  factor_label: ✅ Cancer (Nurturer)
+  factor_id: temp_72c500c2
+  factor_source: ✅ Pisces (Mystic)
+  role_position: ''
+  value_constraint: ''
+  engine_id: ''
+  notes: ''
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.882638'
+- factor_type: Functional
+  factor_label: Jupiter faith
+  factor_id: jupiter_faith_function
+  factor_source: existing
+  role_position: Expansion Core
+  value_constraint: By sign
+  engine_id: astro_semantic
+  notes: 木星信念
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883746'
+- factor_type: State
+  factor_label: Jupiter benefic
+  factor_id: jupiter_benefic
+  factor_source: existing
+  role_position: Great Benefic
+  value_constraint: Natural luck
+  engine_id: astro_semantic
+  notes: 木星吉星
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883756'
+- factor_type: Structure
+  factor_label: Jupiter in sign
+  factor_id: planet_jupiter
+  factor_source: existing
+  role_position: Planet
+  value_constraint: 12 signs
+  engine_id: astro_calculator
+  notes: 木星星座位置
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883762'
+- factor_type: Relational
+  factor_label: Jupiter-Saturn
+  factor_id: temp_58a3cbe6
+  factor_source: new_candidate
+  role_position: Growth Balance
+  value_constraint: Vision+structure
+  engine_id: astro_semantic
+  notes: 木土平衡
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883777'
+- factor_type: Functional
+  factor_label: Uranus individuality function
+  factor_id: uranus_individuality_function
+  factor_source: new_candidate
+  role_position: Outer Planet Function
+  value_constraint: By sign and house
+  engine_id: ''
+  notes: 开发个体性与自由的行星功能
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883804'
+- factor_type: State
+  factor_label: Uranian rebellion state
+  factor_id: uranus_rebellion_state
+  factor_source: new_candidate
+  role_position: Inner State
+  value_constraint: High tension with authority
+  engine_id: ''
+  notes: 反映对约束的不耐与反叛冲动
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883871'
+- factor_type: Process
+  factor_label: Transcending cultural programming
+  factor_id: uranus_transcend_culture_process
+  factor_source: new_candidate
+  role_position: Development Process
+  value_constraint: Requires intentional self-work
+  engine_id: ''
+  notes: 通过自我工作超越文化编程
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883894'
+- factor_type: Principle
+  factor_label: Invisible planet requires conscious work
+  factor_id: outer_planet_conscious_work_principle
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: No automatic positive expression
+  engine_id: ''
+  notes: 需自觉激活的外行星原则
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883901'
+- factor_type: Functional
+  factor_label: Neptune consciousness function
+  factor_id: neptune_consciousness_function
+  factor_source: new_candidate
+  role_position: Outer Planet Function
+  value_constraint: By sign and house
+  engine_id: ''
+  notes: 超越自我之意识功能
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883929'
+- factor_type: State
+  factor_label: Neptunian sensitivity state
+  factor_id: neptune_sensitivity_state
+  factor_source: new_candidate
+  role_position: Inner State
+  value_constraint: High psychic/emotional openness
+  engine_id: ''
+  notes: 对刺激高度敏感
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883934'
+- factor_type: Process
+  factor_label: Ego decentralization process
+  factor_id: neptune_ego_decentralization
+  factor_source: new_candidate
+  role_position: Development Process
+  value_constraint: Requires containers & practice
+  engine_id: ''
+  notes: 需借助结构与修炼来整合
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883939'
+- factor_type: Principle
+  factor_label: Unity‑orientation of consciousness
+  factor_id: neptune_unity_orientation
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: Sees separation as partial truth
+  engine_id: ''
+  notes: 倾向从合一视角理解经验
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883944'
+- factor_type: Functional
+  factor_label: Pluto destiny/mission function
+  factor_id: pluto_destiny_function
+  factor_source: new_candidate
+  role_position: Outer Planet Function
+  value_constraint: By sign and house
+  engine_id: ''
+  notes: 牵引命运与使命感的行星功能
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883972'
+- factor_type: State
+  factor_label: Plutonian power state
+  factor_id: pluto_power_state
+  factor_source: new_candidate
+  role_position: Inner State
+  value_constraint: High intensity & influence
+  engine_id: ''
+  notes: 集中力量与影响力的心理状态
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883978'
+- factor_type: Process
+  factor_label: Death–rebirth transformation process
+  factor_id: pluto_death_rebirth_process
+  factor_source: new_candidate
+  role_position: Development Process
+  value_constraint: Triggered by crisis & endings
+  engine_id: ''
+  notes: 通过危机与终结推动蜕变
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883983'
+- factor_type: Principle
+  factor_label: Existential confrontation principle
+  factor_id: pluto_existential_principle
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: Forces awareness of futility
+  engine_id: ''
+  notes: 迫使直面虚无以寻找更大意义
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.883988'
+- factor_type: Structure
+  factor_label: Cancer sign
+  factor_id: sign_cancer
+  factor_source: existing
+  role_position: Zodiac Sign
+  value_constraint: Cardinal Water
+  engine_id: astro_calculator
+  notes: 巨蟹座
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888243'
+- factor_type: Structure
+  factor_label: Emotional Home Pattern
+  factor_id: temp_ab776b30
+  factor_source: new_candidate
+  role_position: Core Orientation
+  value_constraint: Life organised around creating sanctuary
+  engine_id: astro_semantic
+  notes: Cancerian life focus
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888264'
+- factor_type: Functional
+  factor_label: Caretaking Style
+  factor_id: temp_a2cb118b
+  factor_source: new_candidate
+  role_position: Relational Mode
+  value_constraint: '{self-sacrificing, balanced, controlling}'
+  engine_id: astro_semantic
+  notes: Nurturing expression
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888272'
+- factor_type: State
+  factor_label: Attachment Security Level
+  factor_id: temp_d9ef3ada
+  factor_source: new_candidate
+  role_position: Emotional State
+  value_constraint: '{anxious, secure, avoidant}'
+  engine_id: astro_semantic
+  notes: Closeness/separation reactions
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888278'
+- factor_type: Structure
+  factor_label: Leo sign
+  factor_id: sign_leo
+  factor_source: existing
+  role_position: Zodiac Sign
+  value_constraint: Fixed Fire
+  engine_id: astro_calculator
+  notes: 狮子座
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888295'
+- factor_type: Structure
+  factor_label: Creative Identity Pattern
+  factor_id: temp_83a73a05
+  factor_source: new_candidate
+  role_position: Core Self-Frame
+  value_constraint: Creativity and visibility
+  engine_id: astro_semantic
+  notes: Central Leo structure
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888301'
+- factor_type: Functional
+  factor_label: Style of Seeking Recognition
+  factor_id: temp_4492aa3e
+  factor_source: new_candidate
+  role_position: Social Strategy
+  value_constraint: '{confident, generous, attention-hungry}'
+  engine_id: astro_semantic
+  notes: Validation pursuit
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888306'
+- factor_type: State
+  factor_label: Heart-Confidence Level
+  factor_id: temp_0dd0a844
+  factor_source: new_candidate
+  role_position: Inner State
+  value_constraint: '{collapsed, wavering, solid}'
+  engine_id: astro_semantic
+  notes: Generosity vs vanity
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888312'
+- factor_type: Structure
+  factor_label: Virgo sign
+  factor_id: sign_virgo
+  factor_source: existing
+  role_position: Zodiac Sign
+  value_constraint: Mutable Earth
+  engine_id: astro_calculator
+  notes: 处女座
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888326'
+- factor_type: Structure
+  factor_label: Practical-Refinement Orientation
+  factor_id: temp_653d1ccf
+  factor_source: new_candidate
+  role_position: Life Approach
+  value_constraint: Improving details and systems
+  engine_id: astro_semantic
+  notes: Core Virgo orientation
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888332'
+- factor_type: Functional
+  factor_label: Service Modality
+  factor_id: temp_0ddcea70
+  factor_source: new_candidate
+  role_position: Helping Style
+  value_constraint: '{self-erasing, balanced, over-functioning}'
+  engine_id: astro_semantic
+  notes: Service expression
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888341'
+- factor_type: State
+  factor_label: Inner Critic Intensity
+  factor_id: temp_4cc8c11c
+  factor_source: new_candidate
+  role_position: Psychological State
+  value_constraint: '{gentle guide, mixed, harsh}'
+  engine_id: astro_semantic
+  notes: Anxiety vs healthy standards
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.888346'
+- factor_type: Structure
+  factor_label: Conjunction aspect
+  factor_id: aspect_conjunction
+  factor_source: existing
+  role_position: Major Aspect
+  value_constraint: 0° (±8-10°)
+  engine_id: astro_semantic
+  notes: Fusion
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889629'
+- factor_type: Pattern
+  factor_label: Planetary fusion
+  factor_id: temp_75be5154
+  factor_source: new_candidate
+  role_position: Aspect Function
+  value_constraint: Unified expression
+  engine_id: astro_semantic
+  notes: Intensification
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889644'
+- factor_type: Relational
+  factor_label: Inseparable action
+  factor_id: temp_07bd2901
+  factor_source: new_candidate
+  role_position: Interaction
+  value_constraint: Cannot act alone
+  engine_id: astro_semantic
+  notes: Key principle
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889656'
+- factor_type: Relation ID
+  factor_label: Relation Type
+  factor_id: temp_67901352
+  factor_source: Factor B
+  role_position: Relation Nature
+  value_constraint: Condition Constraint
+  engine_id: Effect Direction
+  notes: source_ref
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889664'
+- factor_type: rel_forrest_conj_001
+  factor_label: aspect_fusion
+  factor_id: aspect_conjunction
+  factor_source: planetary_energy
+  role_position: Unified expression
+  value_constraint: When planets within orb unify expression
+  engine_id: intensifying
+  notes: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889669'
+- factor_type: rel_forrest_conj_002
+  factor_label: planetary_marriage
+  factor_id: aspect_conjunction
+  factor_source: planetary_energy
+  role_position: Fusion
+  value_constraint: When planets at same degree fuse energies
+  engine_id: blending
+  notes: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889701'
+- factor_type: Evidence ID
+  factor_label: Source Anchor
+  factor_id: temp_a6699e6e
+  factor_source: Reasoning Step
+  role_position: Conclusion Direction
+  value_constraint: Confidence
+  engine_id: Can Generate Rule
+  notes: Target Rule ID
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889711'
+- factor_type: evi_forrest_conj_001
+  factor_label: '"two planets fuse...intensification of both principles"'
+  factor_id: conjunction
+  factor_source: Fusion -> intensification
+  role_position: Conjunction = fusion
+  value_constraint: High
+  engine_id: 'Yes'
+  notes: rule_aspect_conjunction
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889718'
+- factor_type: Concept ID
+  factor_label: Common Semantics
+  factor_id: temp_61e59a40
+  factor_source: Astrology Correspondence
+  role_position: Dream Correspondence
+  value_constraint: Psychology Correspondence
+  engine_id: Notes
+  notes: ''
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889725'
+- factor_type: concept_conjunction
+  factor_label: Fusion of energies at same position
+  factor_id: tongzhu_same_pillar
+  factor_source: aspect_conjunction
+  role_position: fusion_dream
+  value_constraint: psychological_complex
+  engine_id: Intensification
+  notes: ''
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889731'
+- factor_type: Structure
+  factor_label: Opposition aspect
+  factor_id: aspect_opposition
+  factor_source: existing
+  role_position: Major Aspect
+  value_constraint: 180° (±8°)
+  engine_id: astro_semantic
+  notes: Tension
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889764'
+- factor_type: Pattern
+  factor_label: Projection dynamic
+  factor_id: temp_8cb0393c
+  factor_source: new_candidate
+  role_position: Aspect Function
+  value_constraint: Externalization
+  engine_id: astro_semantic
+  notes: Shadow work
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889771'
+- factor_type: Process
+  factor_label: Integration path
+  factor_id: temp_d59107c8
+  factor_source: new_candidate
+  role_position: Development
+  value_constraint: Own both poles
+  engine_id: astro_semantic
+  notes: Balance
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889779'
+- factor_type: rel_forrest_opp_001
+  factor_label: aspect_polarity
+  factor_id: aspect_opposition
+  factor_source: projection
+  role_position: Externalization
+  value_constraint: When one pole denied leads to projection
+  engine_id: polarizing
+  notes: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889789'
+- factor_type: rel_forrest_opp_002
+  factor_label: integration_path
+  factor_id: opposition
+  factor_source: balance
+  role_position: Owning both
+  value_constraint: When both poles recognized leads to integration
+  engine_id: integrating
+  notes: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889794'
+- factor_type: evi_forrest_opp_001
+  factor_label: '"we tend to project one end of it onto other people"'
+  factor_id: opposition
+  factor_source: Tension -> projection -> relationship
+  role_position: Opposition = projection
+  value_constraint: High
+  engine_id: 'Yes'
+  notes: rule_aspect_opposition
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889805'
+- factor_type: concept_opposition
+  factor_label: Polarity requiring integration
+  factor_id: chong_clash
+  factor_source: aspect_opposition
+  role_position: conflict_dream
+  value_constraint: shadow_projection
+  engine_id: Balance through owning
+  notes: ''
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889818'
+- factor_type: Structure
+  factor_label: Square aspect
+  factor_id: aspect_square
+  factor_source: existing
+  role_position: Major Aspect
+  value_constraint: 90° (±8°)
+  engine_id: astro_semantic
+  notes: Friction
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889863'
+- factor_type: Pattern
+  factor_label: Natural enemies
+  factor_id: temp_06a869f1
+  factor_source: new_candidate
+  role_position: Aspect Function
+  value_constraint: Incompatibility
+  engine_id: astro_semantic
+  notes: Cannot project
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889871'
+- factor_type: Process
+  factor_label: Growth through friction
+  factor_id: temp_675c4f49
+  factor_source: new_candidate
+  role_position: Development
+  value_constraint: Internal work
+  engine_id: astro_semantic
+  notes: Challenge
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889878'
+- factor_type: rel_forrest_sq_001
+  factor_label: aspect_friction
+  factor_id: aspect_square
+  factor_source: discord
+  role_position: Incompatibility
+  value_constraint: When perpendicular energies create friction
+  engine_id: challenging
+  notes: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889890'
+- factor_type: rel_forrest_sq_002
+  factor_label: growth_path
+  factor_id: square
+  factor_source: development
+  role_position: Struggle
+  value_constraint: When unavoidable struggle strengthens growth
+  engine_id: strengthening
+  notes: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889895'
+- factor_type: evi_forrest_sq_001
+  factor_label: '"natural enemies...built-in discord"'
+  factor_id: square
+  factor_source: Incompatibility -> friction -> growth
+  role_position: Square = internal challenge
+  value_constraint: High
+  engine_id: 'Yes'
+  notes: rule_aspect_square
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889907'
+- factor_type: concept_square
+  factor_label: Fundamental friction requiring internal work
+  factor_id: xing_punishment
+  factor_source: aspect_square
+  role_position: obstacle_dream
+  value_constraint: internal_conflict
+  engine_id: Growth through struggle
+  notes: ''
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889918'
+- factor_type: Structure
+  factor_label: Trine aspect
+  factor_id: aspect_trine
+  factor_source: existing
+  role_position: Major Aspect
+  value_constraint: 120° (±8°)
+  engine_id: astro_semantic
+  notes: Harmony
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889947'
+- factor_type: Pattern
+  factor_label: Natural alliance
+  factor_id: temp_d41986e4
+  factor_source: new_candidate
+  role_position: Aspect Function
+  value_constraint: Same element
+  engine_id: astro_semantic
+  notes: Effortless
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889953'
+- factor_type: State
+  factor_label: Complacency risk
+  factor_id: temp_8023ac48
+  factor_source: new_candidate
+  role_position: Shadow
+  value_constraint: Taking for granted
+  engine_id: astro_semantic
+  notes: Must awaken
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889960'
+- factor_type: rel_forrest_tri_001
+  factor_label: aspect_harmony
+  factor_id: aspect_trine
+  factor_source: element
+  role_position: Natural flow
+  value_constraint: When same element enables natural flow
+  engine_id: supporting
+  notes: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889971'
+- factor_type: rel_forrest_tri_002
+  factor_label: activation_need
+  factor_id: trine
+  factor_source: awakening
+  role_position: Conscious effort
+  value_constraint: When conscious effort awakens otherwise sleeping talent
+  engine_id: realizing
+  notes: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889975'
+- factor_type: evi_forrest_tri_001
+  factor_label: '"unlimited potential...lack of friction has allowed them to fall
+    asleep"'
+  factor_id: trine
+  factor_source: Ease -> sleep -> awakening needed
+  role_position: Trine = potential requiring activation
+  value_constraint: High
+  engine_id: 'Yes'
+  notes: rule_aspect_trine
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889986'
+- factor_type: concept_trine
+  factor_label: Natural harmony requiring activation
+  factor_id: sanhe_harmony
+  factor_source: aspect_trine
+  role_position: flow_dream
+  value_constraint: natural_talent
+  engine_id: Awaken to realize
+  notes: ''
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.889996'
+- factor_type: Structure
+  factor_label: Sextile aspect
+  factor_id: aspect_sextile
+  factor_source: existing
+  role_position: Major Aspect
+  value_constraint: 60° (±6°)
+  engine_id: astro_semantic
+  notes: Excitation
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.890025'
+- factor_type: Pattern
+  factor_label: Mutual stimulation
+  factor_id: temp_58f9cca9
+  factor_source: new_candidate
+  role_position: Aspect Function
+  value_constraint: Compatible elements
+  engine_id: astro_semantic
+  notes: High energy
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.890033'
+- factor_type: State
+  factor_label: Sustainment challenge
+  factor_id: temp_1bdea189
+  factor_source: new_candidate
+  role_position: Risk
+  value_constraint: Fleeting
+  engine_id: astro_semantic
+  notes: Must direct
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.890040'
+- factor_type: rel_forrest_sex_001
+  factor_label: aspect_excitation
+  factor_id: aspect_sextile
+  factor_source: stimulation
+  role_position: Mutual enlivenment
+  value_constraint: When compatible elements mutually enliven
+  engine_id: energizing
+  notes: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.890050'
+- factor_type: rel_forrest_sex_002
+  factor_label: sustainment_need
+  factor_id: sextile
+  factor_source: direction
+  role_position: Channeling
+  value_constraint: When channeling sustains otherwise fleeting stimulation
+  engine_id: sustaining
+  notes: 'Forrest #Aspects'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.890055'
+- factor_type: evi_forrest_sex_001
+  factor_label: '"like teenagers falling in love...magic but little stability"'
+  factor_id: sextile
+  factor_source: Stimulation -> excitement -> need direction
+  role_position: Sextile = exciting but fleeting
+  value_constraint: High
+  engine_id: 'Yes'
+  notes: rule_aspect_sextile
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.890066'
+- factor_type: concept_sextile
+  factor_label: Exciting stimulation requiring direction
+  factor_id: liuhe_combination
+  factor_source: aspect_sextile
+  role_position: excitement_dream
+  value_constraint: creative_spark
+  engine_id: Must sustain
+  notes: ''
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.890077'
+- factor_type: Structure
+  factor_label: Libra sign
+  factor_id: sign_libra
+  factor_source: existing
+  role_position: Zodiac Sign
+  value_constraint: Cardinal Air
+  engine_id: astro_calculator
+  notes: 天秤座
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892331'
+- factor_type: Structure
+  factor_label: Partnership Orientation
+  factor_id: temp_221960d7
+  factor_source: new_candidate
+  role_position: Core Relational Frame
+  value_constraint: One-to-one relationships
+  engine_id: astro_semantic
+  notes: Central Libra pattern
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892354'
+- factor_type: Functional
+  factor_label: Style of Seeking Harmony
+  factor_id: temp_b43deec1
+  factor_source: new_candidate
+  role_position: Relational Strategy
+  value_constraint: '{assertive, appeasing, avoidant}'
+  engine_id: astro_semantic
+  notes: Balance pursuit
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892361'
+- factor_type: State
+  factor_label: Boundary Clarity
+  factor_id: temp_763f5f28
+  factor_source: new_candidate
+  role_position: Self-Other Boundary
+  value_constraint: '{merged, clear, rigid}'
+  engine_id: astro_semantic
+  notes: Partnership health
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892367'
+- factor_type: Structure
+  factor_label: Scorpio sign
+  factor_id: sign_scorpio
+  factor_source: existing
+  role_position: Zodiac Sign
+  value_constraint: Fixed Water
+  engine_id: astro_calculator
+  notes: 天蝎座
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892383'
+- factor_type: Structure
+  factor_label: Transformation-Oriented Psyche
+  factor_id: temp_a3bfcdb5
+  factor_source: new_candidate
+  role_position: Core Depth Frame
+  value_constraint: Confronting darkness
+  engine_id: astro_semantic
+  notes: Central Scorpio structure
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892395'
+- factor_type: Functional
+  factor_label: Intensity Management Style
+  factor_id: temp_09e9d332
+  factor_source: new_candidate
+  role_position: Emotional Process Mode
+  value_constraint: '{repressive, cathartic, channelled}'
+  engine_id: astro_semantic
+  notes: Handling strong feelings
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892400'
+- factor_type: State
+  factor_label: Trust vs Control Balance
+  factor_id: temp_0038900c
+  factor_source: new_candidate
+  role_position: Relational State
+  value_constraint: '{distrustful, cautious, trusting}'
+  engine_id: astro_semantic
+  notes: Healing vs harm
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892408'
+- factor_type: Structure
+  factor_label: Sagittarius sign
+  factor_id: sign_sagittarius
+  factor_source: existing
+  role_position: Zodiac Sign
+  value_constraint: Mutable Fire
+  engine_id: astro_calculator
+  notes: 射手座
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892424'
+- factor_type: Structure
+  factor_label: Meaning-Seeking Orientation
+  factor_id: temp_30e479c0
+  factor_source: new_candidate
+  role_position: Life Philosophy Frame
+  value_constraint: Search for truth
+  engine_id: astro_semantic
+  notes: Core Sagittarius frame
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892430'
+- factor_type: Functional
+  factor_label: Exploration Modality
+  factor_id: temp_904106ac
+  factor_source: new_candidate
+  role_position: Growth Strategy
+  value_constraint: '{travel, study, quest}'
+  engine_id: astro_semantic
+  notes: Expansion channel
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892435'
+- factor_type: State
+  factor_label: Humility vs Dogmatism Level
+  factor_id: temp_2fadc67d
+  factor_source: new_candidate
+  role_position: Attitude to Truth
+  value_constraint: '{open, mixed, rigid}'
+  engine_id: astro_semantic
+  notes: Teaching impact
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892441'
+- factor_type: Structure
+  factor_label: Capricorn sign
+  factor_id: sign_capricorn
+  factor_source: existing
+  role_position: Zodiac Sign
+  value_constraint: Cardinal Earth
+  engine_id: astro_calculator
+  notes: 摩羯座
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892455'
+- factor_type: Structure
+  factor_label: Achievement-Discipline Framework
+  factor_id: temp_dbd152a2
+  factor_source: new_candidate
+  role_position: Life Structure
+  value_constraint: Goals, duty, progress
+  engine_id: astro_semantic
+  notes: Core Capricorn matrix
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892460'
+- factor_type: Functional
+  factor_label: Work-Style Modality
+  factor_id: temp_396af960
+  factor_source: new_candidate
+  role_position: Action Mode
+  value_constraint: '{balanced, over-responsible, under-committed}'
+  engine_id: astro_semantic
+  notes: Effort handling
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892469'
+- factor_type: State
+  factor_label: Relationship to Authority
+  factor_id: temp_a9a40350
+  factor_source: new_candidate
+  role_position: Authority Pattern
+  value_constraint: '{rebellious, balanced, authoritarian}'
+  engine_id: astro_semantic
+  notes: Authority dynamics
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892477'
+- factor_type: Structure
+  factor_label: Aquarius sign
+  factor_id: sign_aquarius
+  factor_source: existing
+  role_position: Zodiac Sign
+  value_constraint: Fixed Air
+  engine_id: astro_calculator
+  notes: 水瓶座
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892492'
+- factor_type: Structure
+  factor_label: Visionary-Individualist Pattern
+  factor_id: temp_ad7008eb
+  factor_source: new_candidate
+  role_position: Identity Frame
+  value_constraint: Uniqueness, free thought
+  engine_id: astro_semantic
+  notes: Core Aquarius pattern
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892498'
+- factor_type: Functional
+  factor_label: Innovation Modality
+  factor_id: temp_bf9d97e9
+  factor_source: new_candidate
+  role_position: Change Strategy
+  value_constraint: '{quiet, radical, theoretical}'
+  engine_id: astro_semantic
+  notes: Change introduction
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892503'
+- factor_type: State
+  factor_label: Connection vs Isolation Level
+  factor_id: temp_814c88ba
+  factor_source: new_candidate
+  role_position: Relational State
+  value_constraint: '{isolated, selective, networked}'
+  engine_id: astro_semantic
+  notes: Freedom-belonging balance
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892508'
+- factor_type: Structure
+  factor_label: Pisces sign
+  factor_id: sign_pisces
+  factor_source: existing
+  role_position: Zodiac Sign
+  value_constraint: Mutable Water
+  engine_id: astro_calculator
+  notes: 双鱼座
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892523'
+- factor_type: Structure
+  factor_label: Mystical-Transcendent Orientation
+  factor_id: temp_0b6283a4
+  factor_source: new_candidate
+  role_position: Consciousness Frame
+  value_constraint: Dream/spiritual journey
+  engine_id: astro_semantic
+  notes: Core Pisces orientation
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892528'
+- factor_type: Functional
+  factor_label: Coping and Escape Style
+  factor_id: temp_5cb7717e
+  factor_source: new_candidate
+  role_position: Coping Mode
+  value_constraint: '{grounded, creative, destructive}'
+  engine_id: astro_semantic
+  notes: Pain response
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892535'
+- factor_type: State
+  factor_label: Boundary Permeability Level
+  factor_id: temp_a2ecbcf4
+  factor_source: new_candidate
+  role_position: Boundary State
+  value_constraint: '{rigid, flexible, porous}'
+  engine_id: astro_semantic
+  notes: Empathy/fusion
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.892540'
+- factor_type: Functional
+  factor_label: Mercury mind
+  factor_id: mercury_mind_function
+  factor_source: existing
+  role_position: Cognitive Core
+  value_constraint: By sign
+  engine_id: astro_semantic
+  notes: 水星心智
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.894308'
+- factor_type: Structure
+  factor_label: Mercury in sign
+  factor_id: planet_mercury
+  factor_source: existing
+  role_position: Planet
+  value_constraint: 12 signs
+  engine_id: astro_calculator
+  notes: 水星星座位置
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.894315'
+- factor_type: State
+  factor_label: Mercury retrograde
+  factor_id: retrograde_state
+  factor_source: existing
+  role_position: Modifier
+  value_constraint: Rx period
+  engine_id: astro_calculator
+  notes: 水星逆行
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.894321'
+- factor_type: Functional
+  factor_label: Venus love
+  factor_id: venus_love_function
+  factor_source: existing
+  role_position: Relational Core
+  value_constraint: By sign
+  engine_id: astro_semantic
+  notes: 金星爱
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.894335'
+- factor_type: Structure
+  factor_label: Venus in sign
+  factor_id: planet_venus
+  factor_source: existing
+  role_position: Planet
+  value_constraint: 12 signs
+  engine_id: astro_calculator
+  notes: 金星星座位置
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.894340'
+- factor_type: Relational
+  factor_label: Venus-Moon contrast
+  factor_id: temp_150e0d0c
+  factor_source: new_candidate
+  role_position: Distinction
+  value_constraint: Appreciation vs Need
+  engine_id: astro_semantic
+  notes: 金月对比
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.894350'
+- factor_type: Functional
+  factor_label: Mars will
+  factor_id: mars_will_function
+  factor_source: existing
+  role_position: Action Core
+  value_constraint: By sign
+  engine_id: astro_semantic
+  notes: 火星意志
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.894365'
+- factor_type: Structure
+  factor_label: Mars in sign
+  factor_id: planet_mars
+  factor_source: existing
+  role_position: Planet
+  value_constraint: 12 signs
+  engine_id: astro_calculator
+  notes: 火星星座位置
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.894372'
+- factor_type: Relational
+  factor_label: Mars-Sun relation
+  factor_id: temp_84ff64e4
+  factor_source: new_candidate
+  role_position: Executor
+  value_constraint: Soldier-General
+  engine_id: astro_semantic
+  notes: 火日关系
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.894379'
+- factor_type: Functional
+  factor_label: Sun ego
+  factor_id: sun_ego_function
+  factor_source: existing
+  role_position: Identity Core
+  value_constraint: By sign
+  engine_id: astro_semantic
+  notes: 太阳自我
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.897553'
+- factor_type: Structure
+  factor_label: Sun in sign
+  factor_id: planet_sun
+  factor_source: existing
+  role_position: Planet
+  value_constraint: 12 signs
+  engine_id: astro_calculator
+  notes: 太阳星座位置
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.897561'
+- factor_type: State
+  factor_label: Solar feeding need
+  factor_id: temp_6869c2f4
+  factor_source: new_candidate
+  role_position: Developmental
+  value_constraint: Sign-dependent
+  engine_id: astro_semantic
+  notes: 太阳滋养需求
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.897574'
+- factor_type: Functional
+  factor_label: Moon feeling
+  factor_id: moon_feeling_function
+  factor_source: existing
+  role_position: Emotional Core
+  value_constraint: By sign
+  engine_id: astro_semantic
+  notes: 月亮感觉
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.897590'
+- factor_type: Structure
+  factor_label: Moon in sign
+  factor_id: planet_moon
+  factor_source: existing
+  role_position: Planet
+  value_constraint: 12 signs
+  engine_id: astro_calculator
+  notes: 月亮星座位置
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.897595'
+- factor_type: Relational
+  factor_label: Moon-Sun polarity
+  factor_id: temp_e076eef7
+  factor_source: new_candidate
+  role_position: Contrast
+  value_constraint: Fluid vs Fixed
+  engine_id: astro_semantic
+  notes: 日月极性
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.897601'
+- factor_type: '**Structure**'
+  factor_label: Seventh House
+  factor_id: astro_house_7
+  factor_source: existing
+  role_position: Partnership Arena
+  value_constraint: Marriage/Descendant
+  engine_id: ''
+  notes: 'Forrest: The Other'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898690'
+- factor_type: '**Functional**'
+  factor_label: Identification Process
+  factor_id: temp_8b173104
+  factor_source: new_candidate
+  role_position: Psychological Function
+  value_constraint: Suspend ego, honor Other
+  engine_id: ''
+  notes: Core challenge
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898704'
+- factor_type: '**State**'
+  factor_label: Three Keys
+  factor_id: temp_d3b857c0
+  factor_source: new_candidate
+  role_position: Success Factors
+  value_constraint: Equality/Open/Magic
+  engine_id: ''
+  notes: Requirements
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898712'
+- factor_type: '**Relational**'
+  factor_label: Descendant↔夫妻/正官
+  factor_id: temp_ee87ee96
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: Spouse Palace/Partnership
+  engine_id: ''
+  notes: Cross-cultural
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898718'
+- factor_type: '**Structure**'
+  factor_label: Eighth House
+  factor_id: astro_house_8
+  factor_source: existing
+  role_position: Transformation Arena
+  value_constraint: Sex/Death/Occult
+  engine_id: ''
+  notes: 'Forrest: instinct beyond ego'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898739'
+- factor_type: '**State**'
+  factor_label: Ego Surrender
+  factor_id: temp_2f000589
+  factor_source: new_candidate
+  role_position: Psychological Process
+  value_constraint: Loss of control → rebirth
+  engine_id: ''
+  notes: Core mechanism
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898745'
+- factor_type: '**Functional**'
+  factor_label: Instinctive Merging
+  factor_id: temp_ff2f0ef5
+  factor_source: new_candidate
+  role_position: Bonding Function
+  value_constraint: Boundaries dissolve
+  engine_id: ''
+  notes: Intimacy depth
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898750'
+- factor_type: '**Relational**'
+  factor_label: House 8↔疾厜/七杀/生死
+  factor_id: temp_ca907db8
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: Health/Power/Life-Death
+  engine_id: ''
+  notes: Cross-cultural
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898756'
+- factor_type: '**Structure**'
+  factor_label: Ninth House
+  factor_id: astro_house_9
+  factor_source: existing
+  role_position: Expansion Arena
+  value_constraint: Philosophy/Travel/Meaning
+  engine_id: ''
+  notes: 'Forrest: room for miraculous'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898769'
+- factor_type: '**Functional**'
+  factor_label: Model Breaking
+  factor_id: temp_bedf3b20
+  factor_source: new_candidate
+  role_position: Consciousness Function
+  value_constraint: Challenge assumptions
+  engine_id: ''
+  notes: Travel/study/philosophy
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898774'
+- factor_type: '**State**'
+  factor_label: Stereoscopic Mind
+  factor_id: temp_4cc35731
+  factor_source: new_candidate
+  role_position: Worldview Quality
+  value_constraint: Multiple perspectives
+  engine_id: ''
+  notes: Success indicator
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898780'
+- factor_type: '**Relational**'
+  factor_label: House 9↔迁移/驿马/天德
+  factor_id: temp_0633dec7
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: Travel/Movement/Virtue
+  engine_id: ''
+  notes: Cross-cultural
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898787'
+- factor_type: '**Structure**'
+  factor_label: Tenth House
+  factor_id: astro_house_10
+  factor_source: existing
+  role_position: Career Arena
+  value_constraint: Midheaven/Public Role
+  engine_id: ''
+  notes: 'Forrest: paid for being self'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898800'
+- factor_type: '**State**'
+  factor_label: Destiny Alignment
+  factor_id: temp_29e446a7
+  factor_source: new_candidate
+  role_position: Authenticity Measure
+  value_constraint: Inner truth = outer role
+  engine_id: ''
+  notes: Natural authority
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898806'
+- factor_type: '**Functional**'
+  factor_label: Social Contribution
+  factor_id: temp_b54d0d10
+  factor_source: new_candidate
+  role_position: Public Function
+  value_constraint: Role for tribe/community
+  engine_id: ''
+  notes: Career manifestation
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898814'
+- factor_type: '**Relational**'
+  factor_label: Midheaven↔官禄/正官
+  factor_id: temp_28fd38fd
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: Career/Authority/Status
+  engine_id: ''
+  notes: Cross-cultural
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898819'
+- factor_type: '**Structure**'
+  factor_label: Eleventh House
+  factor_id: astro_house_11
+  factor_source: existing
+  role_position: Future Arena
+  value_constraint: Goals/Friendship/Direction
+  engine_id: ''
+  notes: 'Forrest: cannot enter, always ahead'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898832'
+- factor_type: '**State**'
+  factor_label: Conscious Direction
+  factor_id: temp_de9a24e7
+  factor_source: new_candidate
+  role_position: Life Trajectory
+  value_constraint: Intentional vs drifting
+  engine_id: ''
+  notes: Goal clarity
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898837'
+- factor_type: '**Functional**'
+  factor_label: Friend Selection
+  factor_id: temp_41e765c6
+  factor_source: new_candidate
+  role_position: Community Function
+  value_constraint: Allies who symbolize desired future
+  engine_id: ''
+  notes: Support network
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898842'
+- factor_type: '**Relational**'
+  factor_label: House 11↔交友/比劫
+  factor_id: temp_6c70190d
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: Friends/Peers/Network
+  engine_id: ''
+  notes: Cross-cultural
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898849'
+- factor_type: '**Structure**'
+  factor_label: Twelfth House
+  factor_id: astro_house_12
+  factor_source: existing
+  role_position: Transcendence Arena
+  value_constraint: Ego Dissolution/Spirit
+  engine_id: ''
+  notes: 'Forrest: eternal consciousness'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898863'
+- factor_type: '**State**'
+  factor_label: Surrender Quality
+  factor_id: temp_25158d67
+  factor_source: new_candidate
+  role_position: Spiritual Process
+  value_constraint: Letting go vs clinging
+  engine_id: ''
+  notes: Wisdom vs trouble
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898868'
+- factor_type: '**Functional**'
+  factor_label: Meditation Practice
+  factor_id: temp_ca78e7eb
+  factor_source: new_candidate
+  role_position: Spiritual Technique
+  value_constraint: Meditation/solitude/compassion
+  engine_id: ''
+  notes: Inner work
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898874'
+- factor_type: '**Relational**'
+  factor_label: House 12↔福德/空亡/修行
+  factor_id: temp_e928d9c7
+  factor_source: new_candidate
+  role_position: East-West Bridge
+  value_constraint: Fortune/Emptiness/Cultivation
+  engine_id: ''
+  notes: Cross-cultural
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.898880'
+- factor_type: Principle
+  factor_label: Growth-oriented astrology (anti-fatalistic)
+  factor_id: temp_dcedf833
+  factor_source: new_candidate
+  role_position: Interpretive Principle
+  value_constraint: Applies to all charts and readings
+  engine_id: astro_semantic
+  notes: Replaces fate-centric interpretive stance
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903330'
+- factor_type: Principle
+  factor_label: Human mutability and capacity for change
+  factor_id: temp_15d86fe8
+  factor_source: new_candidate
+  role_position: Human Nature Concept
+  value_constraint: Assumes personality can evolve over time
+  engine_id: astro_semantic
+  notes: Counters static trait models
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903341'
+- factor_type: State
+  factor_label: Psychological inertia vs mutability
+  factor_id: temp_e1382645
+  factor_source: new_candidate
+  role_position: Inner State
+  value_constraint: High inertia but non-zero mutability
+  engine_id: astro_semantic
+  notes: Metaphorically "Everest" vs "atom"
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903357'
+- factor_type: Process
+  factor_label: Creative response to chart symbolism
+  factor_id: temp_aafe2bce
+  factor_source: new_candidate
+  role_position: Development Process
+  value_constraint: Depends on awareness and conscious effort
+  engine_id: astro_semantic
+  notes: Opposed to mechanical embodiment
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903363'
+- factor_type: Structure
+  factor_label: Planet–sign rulership affinity
+  factor_id: temp_1d0f0cf2
+  factor_source: new_candidate
+  role_position: Dignity Structure
+  value_constraint: Planet in own sign
+  engine_id: astro_semantic
+  notes: Clear, high-leverage expression
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903385'
+- factor_type: Structure
+  factor_label: Planet–sign fall configuration
+  factor_id: temp_3aa47d0f
+  factor_source: new_candidate
+  role_position: Dignity Structure
+  value_constraint: Planet in opposite sign to rulership
+  engine_id: astro_semantic
+  notes: Expression requires extra adjustment
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903391'
+- factor_type: Principle
+  factor_label: Rulership as harmony, not dominance
+  factor_id: temp_357ee37b
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: Affinity model, not power model
+  engine_id: astro_semantic
+  notes: Counters medieval authority framing
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903397'
+- factor_type: Process
+  factor_label: Using rulerships to weight chart factors
+  factor_id: temp_0b81593e
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: Combine with aspects and houses
+  engine_id: astro_semantic
+  notes: Identifies dominant vs subtle bits
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903402'
+- factor_type: Structure
+  factor_label: Conjunction as macro-bit fusion
+  factor_id: temp_8eee2acf
+  factor_source: new_candidate
+  role_position: Aspect Structure
+  value_constraint: 0° angle; functions inseparable
+  engine_id: astro_semantic
+  notes: Two bits operate as one
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903425'
+- factor_type: Structure
+  factor_label: Opposition as polarity axis
+  factor_id: temp_42697d35
+  factor_source: new_candidate
+  role_position: Aspect Structure
+  value_constraint: 180° angle; two-sided perspective
+  engine_id: astro_semantic
+  notes: Requires holding both ends
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903431'
+- factor_type: Structure
+  factor_label: Square as developmental friction
+  factor_id: temp_a2913cff
+  factor_source: new_candidate
+  role_position: Aspect Structure
+  value_constraint: 90° angle; no common ground
+  engine_id: ''
+  notes: Continuous pressure to evolve
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903439'
+- factor_type: Structure
+  factor_label: Trine as latent ease channel
+  factor_id: temp_d5abb09f
+  factor_source: new_candidate
+  role_position: Aspect Structure
+  value_constraint: 120° angle; natural harmony
+  engine_id: ''
+  notes: Needs activation to avoid stagnation
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903446'
+- factor_type: Structure
+  factor_label: Sextile as excitatory alliance
+  factor_id: temp_08fd0296
+  factor_source: new_candidate
+  role_position: Aspect Structure
+  value_constraint: 60° angle; stimulating connection
+  engine_id: ''
+  notes: Risk of giddiness/instability
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903453'
+- factor_type: Framework
+  factor_label: Astrology as terrain map
+  factor_id: temp_cd8f37ae
+  factor_source: new_candidate
+  role_position: Interpretive Framework
+  value_constraint: Chart describes landscape, not route
+  engine_id: astro_semantic
+  notes: Used for engine design separation
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903473'
+- factor_type: Function
+  factor_label: Optimal life pattern depiction
+  factor_id: temp_a6ec98f7
+  factor_source: new_candidate
+  role_position: Advisory Function
+  value_constraint: One of three legitimate astrology roles
+  engine_id: astro_semantic
+  notes: Links to growth‑oriented outputs
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903478'
+- factor_type: Function
+  factor_label: Psychological tool inventory
+  factor_id: temp_1031c4a2
+  factor_source: new_candidate
+  role_position: Advisory Function
+  value_constraint: Describes inner resources
+  engine_id: astro_semantic
+  notes: Connects to talent/strength factors
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903484'
+- factor_type: Function
+  factor_label: Deviation warning via recognizable patterns
+  factor_id: temp_2e5f7196
+  factor_source: new_candidate
+  role_position: Advisory Function
+  value_constraint: Alerts when pattern diverges from ideal
+  engine_id: astro_semantic
+  notes: For future alert/diagnostic modules
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903489'
+- factor_type: Structure
+  factor_label: Sign system as identity/growth dimension
+  factor_id: temp_89bbf4da
+  factor_source: new_candidate
+  role_position: Symbol Dimension
+  value_constraint: Describes inner style and growth patterns
+  engine_id: astro_semantic
+  notes: Complements houses and planets
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903508'
+- factor_type: Structure
+  factor_label: House system as arena/life-domain dimension
+  factor_id: temp_a665aa14
+  factor_source: new_candidate
+  role_position: Symbol Dimension
+  value_constraint: Describes external fields and tasks
+  engine_id: astro_semantic
+  notes: Must be combined with signs/planets
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903515'
+- factor_type: Structure
+  factor_label: Planetary system as function dimension
+  factor_id: temp_77778579
+  factor_source: new_candidate
+  role_position: Symbol Dimension
+  value_constraint: Describes psychological functions
+  engine_id: astro_semantic
+  notes: Operates across all signs and houses
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903520'
+- factor_type: Relational
+  factor_label: Sign–House–Planet triadic combination
+  factor_id: temp_57f282a9
+  factor_source: new_candidate
+  role_position: Composite Structure
+  value_constraint: Requires all three symbol sets
+  engine_id: astro_semantic
+  notes: Basis for full interpretations
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903526'
+- factor_type: Process
+  factor_label: Planet-first interpretive sequence
+  factor_id: temp_fbfcc37e
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: Step 1 of reading placements
+  engine_id: astro_semantic
+  notes: Followed by sign and house
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903541'
+- factor_type: Process
+  factor_label: Sign motivation and style characterization
+  factor_id: temp_12329dfc
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: Step 2, adds how/why dimension
+  engine_id: astro_semantic
+  notes: Builds on identified planet function
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903548'
+- factor_type: Process
+  factor_label: House-domain assignment of sign–planet dynamic
+  factor_id: temp_e2375213
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: Step 3, assigns where expression occurs
+  engine_id: astro_semantic
+  notes: Describes field of manifestation
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903553'
+- factor_type: Structure
+  factor_label: What/How-Why/Where question mapping
+  factor_id: temp_eb33c50a
+  factor_source: new_candidate
+  role_position: Conceptual Structure
+  value_constraint: Links each symbol type to a core question
+  engine_id: astro_semantic
+  notes: Used in teaching and engine design
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903558'
+- factor_type: Structure
+  factor_label: Three-symbol grammar
+  factor_id: three_symbol_grammar
+  factor_source: new_candidate
+  role_position: Foundational Framework
+  value_constraint: Signs + Houses + Planets
+  engine_id: astro_semantic
+  notes: Core interpretive structure
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903580'
+- factor_type: Structure
+  factor_label: Planet = WHAT dimension
+  factor_id: planet_what_dimension
+  factor_source: new_candidate
+  role_position: Question Type
+  value_constraint: Identifies psychological function
+  engine_id: astro_semantic
+  notes: First step in reading
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903586'
+- factor_type: Structure
+  factor_label: Sign = HOW/WHY dimension
+  factor_id: sign_howwhy_dimension
+  factor_source: new_candidate
+  role_position: Question Type
+  value_constraint: Identifies motivation and style
+  engine_id: astro_semantic
+  notes: Second step in reading
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903591'
+- factor_type: Structure
+  factor_label: House = WHERE dimension
+  factor_id: house_where_dimension
+  factor_source: new_candidate
+  role_position: Question Type
+  value_constraint: Identifies life arena
+  engine_id: astro_semantic
+  notes: Third step in reading
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903596'
+- factor_type: Process
+  factor_label: Planet→Sign→House sequence
+  factor_id: interpretation_sequence
+  factor_source: new_candidate
+  role_position: Reading Order
+  value_constraint: WHAT → HOW/WHY → WHERE
+  engine_id: astro_semantic
+  notes: Standard parsing sequence
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903600'
+- factor_type: Process
+  factor_label: Symbol reading method
+  factor_id: symbol_reading_method
+  factor_source: new_candidate
+  role_position: Interpretive Approach
+  value_constraint: Creative synthesis vs mechanical lookup
+  engine_id: astro_semantic
+  notes: Core skill distinction
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903616'
+- factor_type: Pattern
+  factor_label: Wholeness principle
+  factor_id: wholeness_principle
+  factor_source: new_candidate
+  role_position: First Law
+  value_constraint: Chart as interacting system
+  engine_id: astro_semantic
+  notes: Foundation of interpretation
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903621'
+- factor_type: Structure
+  factor_label: Basic vocabulary size
+  factor_id: basic_vocabulary_size
+  factor_source: new_candidate
+  role_position: Learning Scope
+  value_constraint: 34 words (10+12+12)
+  engine_id: astro_semantic
+  notes: Manageable learning load
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903627'
+- factor_type: Anti-pattern
+  factor_label: Phrase-book approach
+  factor_id: phrase_book_antipattern
+  factor_source: new_candidate
+  role_position: What to Avoid
+  value_constraint: Stock paragraph concatenation
+  engine_id: astro_semantic
+  notes: Produces contradictory results
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903634'
+- factor_type: Structure
+  factor_label: Birthchart as sky map
+  factor_id: temp_403a6328
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: 2D diagram of celestial positions at birth
+  engine_id: astro_semantic
+  notes: Basis for all further interpretation
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903651'
+- factor_type: Structure
+  factor_label: 'Primary elements: signs, houses, planets'
+  factor_id: temp_76d7a892
+  factor_source: new_candidate
+  role_position: Symbol Set
+  value_constraint: Finite shared vocabulary
+  engine_id: astro_semantic
+  notes: Combine via grammar and syntax
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903656'
+- factor_type: Relational
+  factor_label: Unique combination representing an individual
+  factor_id: temp_89915d33
+  factor_source: new_candidate
+  role_position: Identity Structure
+  value_constraint: Specific arrangement of shared elements
+  engine_id: astro_semantic
+  notes: Encodes person-specific pattern
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903661'
+- factor_type: Principle
+  factor_label: Astrology rooted in natural cycles
+  factor_id: temp_a63131ec
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: Derives meaning from nature, not opinion
+  engine_id: astro_semantic
+  notes: Guides calibration and QC
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903667'
+- factor_type: Structure
+  factor_label: Chart shape as distribution across houses
+  factor_id: temp_01415ca6
+  factor_source: new_candidate
+  role_position: Chart Geometry
+  value_constraint: Depends on house positions at birth time
+  engine_id: astro_semantic
+  notes: Distinguishes people born same date
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903683'
+- factor_type: State
+  factor_label: Chart resolution level (sign-only vs sign+house)
+  factor_id: temp_ce34d6c6
+  factor_source: new_candidate
+  role_position: Data Resolution
+  value_constraint: Higher resolution requires house data
+  engine_id: astro_semantic
+  notes: Affects interpretive specificity
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903689'
+- factor_type: Structure
+  factor_label: Local horizon anchoring the house system
+  factor_id: temp_d3abc660
+  factor_source: new_candidate
+  role_position: Reference Frame
+  value_constraint: Tied to birth time and location
+  engine_id: astro_semantic
+  notes: Separates houses from signs
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903694'
+- factor_type: Principle
+  factor_label: Criticality of accurate birth time for houses
+  factor_id: temp_64280c68
+  factor_source: new_candidate
+  role_position: Data Quality Principle
+  value_constraint: Time precision determines house reliability
+  engine_id: astro_semantic
+  notes: Guides data collection priorities
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903703'
+- factor_type: Structure
+  factor_label: 'Prime symbol: sky as foundational image'
+  factor_id: temp_e03b3500
+  factor_source: new_candidate
+  role_position: Symbol Root
+  value_constraint: Underlies all subsequent astrological symbols
+  engine_id: astro_semantic
+  notes: Serves as ultimate reference
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903719'
+- factor_type: Principle
+  factor_label: Astrology as poetry of astronomy
+  factor_id: temp_34c8e88b
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: Focus on meaning rather than structure
+  engine_id: astro_semantic
+  notes: Positions astrology relative to science
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903724'
+- factor_type: State
+  factor_label: Shared human experience under one sky
+  factor_id: temp_b5ee336a
+  factor_source: new_candidate
+  role_position: Human Condition
+  value_constraint: Applies across cultures and eras
+  engine_id: astro_semantic
+  notes: Supports cross-cultural applicability
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903729'
+- factor_type: Structure
+  factor_label: Sky as background of consciousness
+  factor_id: temp_9428ae03
+  factor_source: new_candidate
+  role_position: Inner Landscape
+  value_constraint: Symbolizes deep, undifferentiated awareness
+  engine_id: astro_semantic
+  notes: Distinct from personality-level chart
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903734'
+- factor_type: Structure
+  factor_label: Circle of the year as basis of sign symbolism
+  factor_id: temp_685f0d2c
+  factor_source: new_candidate
+  role_position: Cycle Structure
+  value_constraint: Derived from earth’s revolution
+  engine_id: astro_semantic
+  notes: Distinct from daily rotation (houses)
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903752'
+- factor_type: Structure
+  factor_label: Four seasonal turning points → elements
+  factor_id: temp_fe00359b
+  factor_source: new_candidate
+  role_position: Phase Structure
+  value_constraint: Divides infinity into four phases
+  engine_id: astro_semantic
+  notes: Fire/Earth/Air/Water mapping
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903757'
+- factor_type: State
+  factor_label: Elemental state of consciousness
+  factor_id: temp_c3375b09
+  factor_source: new_candidate
+  role_position: Inner State
+  value_constraint: Fire/Earth/Air/Water mode of awareness
+  engine_id: astro_semantic
+  notes: Used for personality description
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903762'
+- factor_type: Principle
+  factor_label: Seasons, not constellations, define zodiac signs
+  factor_id: temp_84b3ae2a
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: Prioritizes light-cycle basis of signs
+  engine_id: astro_semantic
+  notes: Answers precession-based objections
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903769'
+- factor_type: Process
+  factor_label: Five-step planet–sign–house interpretation
+  factor_id: temp_c807297e
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: Planet→Sign→Resource→Distortion→House
+  engine_id: astro_semantic
+  notes: Minimal workflow for any bit
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903786'
+- factor_type: Structure
+  factor_label: Astrological bit (planet+sign+house) unit
+  factor_id: temp_48ae7342
+  factor_source: new_candidate
+  role_position: Symbol Structure
+  value_constraint: One planet in one sign and one house
+  engine_id: astro_semantic
+  notes: Smallest individual-specific unit
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903791'
+- factor_type: Principle
+  factor_label: Distortions framed as warnings, not predictions
+  factor_id: temp_505cccc6
+  factor_source: new_candidate
+  role_position: Ethical Principle
+  value_constraint: Describes risks without fixing fate
+  engine_id: astro_semantic
+  notes: Supports growth-oriented astrology
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903799'
+- factor_type: Principle
+  factor_label: Orderly, function-first chart reading
+  factor_id: temp_6555926e
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Start from function, then style, then arena
+  engine_id: astro_semantic
+  notes: Prevents cookbook patchwork
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903821'
+- factor_type: Structure
+  factor_label: 'Concrete bit: Venus in Virgo in the sixth house'
+  factor_id: temp_3e7d30b9
+  factor_source: new_candidate
+  role_position: Example Bit
+  value_constraint: Planet+sign+house combined
+  engine_id: astro_semantic
+  notes: Template for similar readings
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903840'
+- factor_type: Process
+  factor_label: Integrating Venus function into work/service
+  factor_id: temp_49b1ccdf
+  factor_source: new_candidate
+  role_position: Development Process
+  value_constraint: Requires cooperative, value‑based work
+  engine_id: astro_semantic
+  notes: Links love/beauty with duty
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903846'
+- factor_type: State
+  factor_label: Work-centered relational focus
+  factor_id: temp_e395b82f
+  factor_source: new_candidate
+  role_position: Life Focus State
+  value_constraint: Strong ties between vocation and partnership
+  engine_id: astro_semantic
+  notes: Co-workers as key soulmates
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903853'
+- factor_type: Principle
+  factor_label: Abstractions need combination to become personal
+  factor_id: temp_6ce0d109
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Single symbols are insufficient alone
+  engine_id: astro_semantic
+  notes: Must read bits, not isolated pieces
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903858'
+- factor_type: Structure
+  factor_label: Aspect network as chart grammar
+  factor_id: temp_90c68848
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Connects planetary bits via angles
+  engine_id: astro_semantic
+  notes: Basis for whole-chart dynamics
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903877'
+- factor_type: Process
+  factor_label: Beyond-bits aspect integration
+  factor_id: temp_70d602c8
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: Links separate bits into interacting system
+  engine_id: astro_semantic
+  notes: Prevents phrase-by-phrase reading
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903882'
+- factor_type: Principle
+  factor_label: Aspects as functional, not good/bad
+  factor_id: temp_e0f96079
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: Evaluates aspects by function and growth
+  engine_id: astro_semantic
+  notes: Replaces fortune-telling categories
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903888'
+- factor_type: Principle
+  factor_label: Chart greater than sum of phrases
+  factor_id: temp_b07d19c1
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Requires systemic, not local-only, reading
+  engine_id: astro_semantic
+  notes: Guides engine-level design
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903893'
+- factor_type: Structure
+  factor_label: South–north node axis
+  factor_id: temp_a0994425
+  factor_source: new_candidate
+  role_position: Axis Structure
+  value_constraint: Always 180° apart
+  engine_id: astro_semantic
+  notes: Links past imprint and future vector
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903910'
+- factor_type: Functional
+  factor_label: South node past-imprint function
+  factor_id: temp_2c6a6ccb
+  factor_source: new_candidate
+  role_position: Nodal Function
+  value_constraint: By sign and house
+  engine_id: astro_semantic
+  notes: Shows familiar, automatic patterns
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903917'
+- factor_type: Functional
+  factor_label: North node future-direction function
+  factor_id: temp_69000cd1
+  factor_source: new_candidate
+  role_position: Nodal Function
+  value_constraint: By sign and house
+  engine_id: astro_semantic
+  notes: Indicates invited growth direction
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903922'
+- factor_type: Principle
+  factor_label: Nodes interpreted like planetary bits
+  factor_id: temp_3b13325c
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Read with tight orbs and full bit logic
+  engine_id: astro_semantic
+  notes: Treats nodes as sign–house–aspect units
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903927'
+- factor_type: Structure
+  factor_label: Primal Triad as chart skeleton
+  factor_id: temp_c47344d4
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Sun+moon+ASC
+  engine_id: astro_semantic
+  notes: Highest interpretive priority
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903943'
+- factor_type: Process
+  factor_label: Five-step Primal Triad analysis
+  factor_id: temp_3396c8cb
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: Sun→Moon→ASC→Aspects→Synthesis
+  engine_id: astro_semantic
+  notes: First stage of chart workflow
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903949'
+- factor_type: Principle
+  factor_label: 'Guideline #1: triad before everything else'
+  factor_id: temp_347bfd64
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Ignore minor factors until triad is clear
+  engine_id: astro_semantic
+  notes: Prevents information overload
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903954'
+- factor_type: Principle
+  factor_label: One-sentence triad synthesis as context filter
+  factor_id: temp_b69bb1f1
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: All later readings checked against it
+  engine_id: astro_semantic
+  notes: Keeps interpretations coherent
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903959'
+- factor_type: Structure
+  factor_label: Upper vs lower hemisphere life-focus
+  factor_id: temp_e90f4ba9
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Majority above vs below horizon
+  engine_id: astro_semantic
+  notes: Events vs realizations
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903974'
+- factor_type: Structure
+  factor_label: East vs west hemisphere orientation
+  factor_id: temp_142e4ad8
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Majority east vs west of meridian
+  engine_id: astro_semantic
+  notes: Initiative vs encounter focus
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903979'
+- factor_type: Principle
+  factor_label: Hemisphere emphasis shapes life, not personality
+  factor_id: temp_2b7ae78c
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: Interpreted as life-geometry, not traits
+  engine_id: astro_semantic
+  notes: Prevents misuse as typology
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903988'
+- factor_type: Process
+  factor_label: 'Applying Guideline #2 before detailed reading'
+  factor_id: temp_adc76083
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: Count hemispheres early in workflow
+  engine_id: astro_semantic
+  notes: Sets global frame for later modules
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.903994'
+- factor_type: Structure
+  factor_label: Ascendant ruler as guaranteed focalizer
+  factor_id: temp_2d22fece
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Ruler(s) of rising sign
+  engine_id: astro_semantic
+  notes: Always high interpretive priority
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904009'
+- factor_type: Structure
+  factor_label: Focalizer dignity conditions catalog
+  factor_id: temp_b44b5ba8
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Rulership, angles, stellia, singleton, etc
+  engine_id: astro_semantic
+  notes: Defines sources of structural strength
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904016'
+- factor_type: Principle
+  factor_label: Focalizers set priorities, not planetary winners
+  factor_id: temp_ece2ff8b
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Used to order discussion, not erase others
+  engine_id: astro_semantic
+  notes: Counters point‑system absolutism
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904022'
+- factor_type: Process
+  factor_label: 'Guideline #3 focalizer identification workflow'
+  factor_id: temp_832585ce
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: Scan checklist after triad & hemispheres
+  engine_id: astro_semantic
+  notes: Feeds weighted interpretation pipeline
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904028'
+- factor_type: Structure
+  factor_label: Major chart themes via planetary alliances
+  factor_id: temp_2b665b2e
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Repeated motifs across bits
+  engine_id: astro_semantic
+  notes: Defines primary life stories
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904043'
+- factor_type: Structure
+  factor_label: Thematic tension between dominant and minority patterns
+  factor_id: temp_ba1269f0
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Strong but discordant configurations
+  engine_id: astro_semantic
+  notes: Source of inner conflict and growth
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904048'
+- factor_type: Principle
+  factor_label: Chart read as a person, not a parts list
+  factor_id: temp_39c15f03
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Emphasis on whole, felt impression
+  engine_id: astro_semantic
+  notes: Bridges symbols and lived experience
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904054'
+- factor_type: Process
+  factor_label: 'Guideline #5 pattern and theme synthesis'
+  factor_id: temp_c1f3a616
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: 'Applied after guidelines #1–#4'
+  engine_id: astro_semantic
+  notes: Prepares for human-level counseling
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904059'
+- factor_type: Structure
+  factor_label: Nodal vs chart past–present tension axis
+  factor_id: temp_55314602
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Compare nodes with triad & focalizers
+  engine_id: astro_semantic
+  notes: Maps history vs current agenda
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904079'
+- factor_type: Functional
+  factor_label: South-node–reinforced planetary themes
+  factor_id: temp_0a723e36
+  factor_source: new_candidate
+  role_position: Nodal Function
+  value_constraint: Planets resonant with south node
+  engine_id: astro_semantic
+  notes: Strong but potentially sticky patterns
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904085'
+- factor_type: Functional
+  factor_label: North-node–aligned growth themes
+  factor_id: temp_0190d7e7
+  factor_source: new_candidate
+  role_position: Nodal Function
+  value_constraint: Planets resonant with north node
+  engine_id: astro_semantic
+  notes: Awkward but crucial developments
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904090'
+- factor_type: Principle
+  factor_label: Nodes used as developmental, not fatalistic, lens
+  factor_id: temp_ec4bc6a4
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Interpret as guidance, not verdict
+  engine_id: astro_semantic
+  notes: Keeps readings growth-oriented
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904095'
+- factor_type: Principle
+  factor_label: Astrology clarifies issues, life resolves them
+  factor_id: temp_7bdf56a3
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Use symbols for perspective, not control
+  engine_id: astro_semantic
+  notes: Keeps agency with the person
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904109'
+- factor_type: Principle
+  factor_label: Drop technique once themes are clear
+  factor_id: temp_bcceb316
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Prevents mechanical over‑interpretation
+  engine_id: astro_semantic
+  notes: Triggers shift to human guidance
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904114'
+- factor_type: Process
+  factor_label: 'Guideline #6 transition to human problem-solving'
+  factor_id: temp_fb9573a6
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: Switch from analysis to resolution focus
+  engine_id: astro_semantic
+  notes: Final stage of reading workflow
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904121'
+- factor_type: Structure
+  factor_label: Common-ground task for Primal Triad integration
+  factor_id: temp_f0222035
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Task engages Sun, Moon, and ASC together
+  engine_id: astro_semantic
+  notes: Core design for resolving triad tension
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904134'
+- factor_type: Functional
+  factor_label: Englishman example as guideline test case
+  factor_id: temp_94e9db7d
+  factor_source: new_candidate
+  role_position: Method Function
+  value_constraint: Applies Ch10 rules to one real chart
+  engine_id: astro_semantic
+  notes: Pedagogical demonstration
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904140'
+- factor_type: Principle
+  factor_label: One-sentence triad formula guides all details
+  factor_id: temp_e406fb14
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Example must not violate base impression
+  engine_id: astro_semantic
+  notes: Ensures whole-chart coherence
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904145'
+- factor_type: Process
+  factor_label: From triad formula to integrative life design
+  factor_id: temp_ba333dca
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: 1) Summarize triad 2) Map tension 3) Design task
+  engine_id: astro_semantic
+  notes: Generalizable example workflow
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904152'
+- factor_type: Structure
+  factor_label: Englishman lower-hemisphere emphasis
+  factor_id: temp_cc4cfd9f
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Majority of weighted points below horizon
+  engine_id: astro_semantic
+  notes: Confirms subjective life orientation
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904167'
+- factor_type: Principle
+  factor_label: Hemispheric emphasis read as life-shape, not trait
+  factor_id: temp_2a424d91
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: Interpreted as orientation, not shyness
+  engine_id: astro_semantic
+  notes: 'Matches Ch10 Guideline #2 usage'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904172'
+- factor_type: Process
+  factor_label: Second-glance hemisphere count in examples
+  factor_id: temp_41c47e48
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: Apply dot-count rule after triad analysis
+  engine_id: astro_semantic
+  notes: Concrete workflow step in case studies
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904179'
+- factor_type: Structure
+  factor_label: Twin stellia dominating 1st and 6th houses
+  factor_id: temp_b65ba5ce
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Major clusters in 1st and 6th concentrate focus
+  engine_id: astro_semantic
+  notes: Defines main life‑area axis
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904197'
+- factor_type: Structure
+  factor_label: Native as social focalizer
+  factor_id: temp_0a4f53b3
+  factor_source: new_candidate
+  role_position: Persona Structure
+  value_constraint: Personality around whom others cluster
+  engine_id: astro_semantic
+  notes: Derived from global strength of placements
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904202'
+- factor_type: Principle
+  factor_label: Prioritize structural clusters over isolated planets
+  factor_id: temp_fca7c576
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Stellia and houses outrank single focalizers
+  engine_id: astro_semantic
+  notes: Response to "too many focalizers" problem
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904207'
+- factor_type: Process
+  factor_label: Focalizer scan with faucet control
+  factor_id: temp_1ffa5f6d
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: 1) Scan for focalizers 2) Step back 3) Simplify by axes
+  engine_id: astro_semantic
+  notes: Concrete workflow for complex charts
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904212'
+- factor_type: Epistemic
+  factor_label: Thematic keys as organizing axis
+  factor_id: temp_b9db0762
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: Use dominant polarity to organize details
+  engine_id: astro_semantic
+  notes: 'Links to Ch10 Guideline #5 usage'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904217'
+- factor_type: Structure
+  factor_label: Sixth-house stellium as work–relationship field
+  factor_id: temp_3228a33f
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Sun, Mars, Neptune, Venus all in 6th
+  engine_id: astro_semantic
+  notes: Defines main arena for Libran growth
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904242'
+- factor_type: Functional
+  factor_label: Work partnerships as primary intimacy channel
+  factor_id: temp_fa1db332
+  factor_source: new_candidate
+  role_position: Life Function
+  value_constraint: Most deep bonds formed via work context
+  engine_id: astro_semantic
+  notes: Explains unusual dependence on work ties
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904249'
+- factor_type: Principle
+  factor_label: House-first reading of stellium
+  factor_id: temp_4405884e
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Read house/sign before individual planets
+  engine_id: astro_semantic
+  notes: Prevents fragmentary sixth-house stories
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904254'
+- factor_type: Process
+  factor_label: From stellium theme to concrete vocation design
+  factor_id: temp_98fb8e50
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: 1) Name sixth-house theme 2) Map planets 3) Shape work scenarios
+  engine_id: astro_semantic
+  notes: Workflow for career counseling
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904259'
+- factor_type: Risk
+  factor_label: Drudgery–humiliation shadow of sixth-house focus
+  factor_id: temp_ecf383a6
+  factor_source: new_candidate
+  role_position: Developmental Risk
+  value_constraint: Neglect of self leads to service turning toxic
+  engine_id: astro_semantic
+  notes: Key shadow to flag in readings
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904265'
+- factor_type: Temporal Scope
+  factor_label: Temporal Scope
+  factor_id: temp_e0174027
+  factor_source: new_candidate
+  role_position: Temporal Scope
+  value_constraint: '[x] Natal layer, [ ] Transit layer, [ ] Progression layer'
+  engine_id: astro_semantic
+  notes: Temporal Scope
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904270'
+- factor_type: Structure
+  factor_label: Taurus first-house stellium shaping the mask
+  factor_id: temp_d27671d3
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Multiple planets conjunct ASC in Taurus
+  engine_id: astro_semantic
+  notes: Concentrates will and style
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904291'
+- factor_type: Structure
+  factor_label: Jupiter–Saturn conjunction in the mask
+  factor_id: temp_1e9de8df
+  factor_source: new_candidate
+  role_position: Persona Structure
+  value_constraint: Fusion of expansiveness and austerity
+  engine_id: astro_semantic
+  notes: Core source of ambivalence
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904296'
+- factor_type: Functional
+  factor_label: Exile mask via first-house Uranus
+  factor_id: temp_792ddccf
+  factor_source: new_candidate
+  role_position: Persona Function
+  value_constraint: Visible outsider/innovator presentation
+  engine_id: astro_semantic
+  notes: Reinforces Aquarian Moon themes
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904303'
+- factor_type: Principle
+  factor_label: Task-based integration of contradictory planets
+  factor_id: temp_50a24543
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Use shared tasks to synthesize opposites
+  engine_id: astro_semantic
+  notes: Reuses "common ground" method
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904371'
+- factor_type: Process
+  factor_label: From extreme portraits to integrated design
+  factor_id: temp_5746a046
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: 1) Describe extremes 2) Imagine synthesis
+  engine_id: astro_semantic
+  notes: General recipe for reading tough conjunctions
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904378'
+- factor_type: Structure
+  factor_label: Seventh-house Scorpio Mercury as focalizer
+  factor_id: temp_cc5459fc
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Angular, highly aspected Mercury
+  engine_id: astro_semantic
+  notes: Central channel for relationship themes
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904405'
+- factor_type: Structure
+  factor_label: Pluto in Leo fifth as creative mission hub
+  factor_id: temp_66edf33d
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: Pluto tied to art and performance
+  engine_id: astro_semantic
+  notes: Binds art to historical impact
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904410'
+- factor_type: Structure
+  factor_label: Aries–Libra nodal axis across 12th/6th
+  factor_id: temp_7d75069c
+  factor_source: new_candidate
+  role_position: Chart Structure
+  value_constraint: South in 12th Aries, North in 6th Libra
+  engine_id: astro_semantic
+  notes: Encodes past warrior vs. present partner‑servant
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904415'
+- factor_type: Principle
+  factor_label: Nodes read against, not apart from, the chart
+  factor_id: temp_3b64d98c
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: Compare nodal story with existing patterns
+  engine_id: astro_semantic
+  notes: 'Operationalizes Ch10 Guideline #4'
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904420'
+- factor_type: Process
+  factor_label: Final integration pass with remaining focalizers
+  factor_id: temp_d87afd65
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: 1) Add Mercury/Pluto 2) Add nodes 3) Summarize arc
+  engine_id: astro_semantic
+  notes: Endgame step in whole‑chart reading
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904426'
+- factor_type: Principle
+  factor_label: Map–territory distinction in astrology
+  factor_id: temp_d3ccd673
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: Chart = map of mind, not substitute for life
+  engine_id: astro_semantic
+  notes: Guards against theory–practice confusion
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904447'
+- factor_type: Principle
+  factor_label: Trust practice before perfection
+  factor_id: temp_8b96ee10
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Start reading before feeling fully ready
+  engine_id: astro_semantic
+  notes: Counters endless-study trap
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904452'
+- factor_type: Process
+  factor_label: First‑reading faucet workflow
+  factor_id: temp_86ccfc41
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: Follow stepwise sequence, limit info flow
+  engine_id: astro_semantic
+  notes: Applies Ch10/11 guidelines in practice
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904458'
+- factor_type: Risk
+  factor_label: Over‑theoretical astrology
+  factor_id: temp_555312c1
+  factor_source: new_candidate
+  role_position: Developmental Risk
+  value_constraint: Studying forever without reading charts
+  engine_id: astro_semantic
+  notes: Common student failure mode
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904465'
+- factor_type: Functional
+  factor_label: Chart–friend analogy for pacing
+  factor_id: temp_563bc688
+  factor_source: new_candidate
+  role_position: Teaching Function
+  value_constraint: Compare chart acquaintance to knowing a person
+  engine_id: astro_semantic
+  notes: Pedagogical aid for students
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904472'
+- factor_type: Principle
+  factor_label: Trust symbols more than transient ego states
+  factor_id: temp_8ff0a604
+  factor_source: new_candidate
+  role_position: Method Principle
+  value_constraint: Symbols prioritized over moods and opinions
+  engine_id: astro_semantic
+  notes: Reduces interpreter‑induced distortion
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904492'
+- factor_type: Principle
+  factor_label: Interpreter bias as main error source
+  factor_id: temp_5b3b2116
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: Reader’s psyche often distorts more than system
+  engine_id: astro_semantic
+  notes: Shifts focus of correction inward
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904497'
+- factor_type: Structure
+  factor_label: Own chart as primary learning laboratory
+  factor_id: temp_437d14de
+  factor_source: new_candidate
+  role_position: Practice Structure
+  value_constraint: Self‑chart used for repeated experimentation
+  engine_id: astro_semantic
+  notes: Core training environment for astrologer
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904503'
+- factor_type: Risk
+  factor_label: Self‑defense sabotaging self‑reading
+  factor_id: temp_0bd54b7a
+  factor_source: new_candidate
+  role_position: Developmental Risk
+  value_constraint: Defenses hide material from conscious view
+  engine_id: astro_semantic
+  notes: Illustrated by "rat guarding the cheese"
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904510'
+- factor_type: Process
+  factor_label: Iterative return to one’s chart
+  factor_id: temp_286df89d
+  factor_source: new_candidate
+  role_position: Interpretive Process
+  value_constraint: Revisit natal chart with growing self‑awareness
+  engine_id: astro_semantic
+  notes: Supports both learning and healing
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904515'
+- factor_type: Structure
+  factor_label: Birthchart as literal sky map
+  factor_id: temp_a1c10aa4
+  factor_source: new_candidate
+  role_position: Epistemic Structure
+  value_constraint: Chart encodes planet positions at birth
+  engine_id: astro_semantic
+  notes: Grounds symbolism in observable sky
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904530'
+- factor_type: Principle
+  factor_label: Two-languages-one-reality cosmology
+  factor_id: temp_ccc1f580
+  factor_source: new_candidate
+  role_position: Epistemic Principle
+  value_constraint: Sky and mind are parallel descriptions
+  engine_id: astro_semantic
+  notes: Core philosophical stance of book
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904536'
+- factor_type: Functional
+  factor_label: Astrologer as border dweller
+  factor_id: temp_22385f43
+  factor_source: new_candidate
+  role_position: Role Definition
+  value_constraint: Mediates between sky events and inner life
+  engine_id: astro_semantic
+  notes: Defines practitioner identity
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904541'
+- factor_type: Process
+  factor_label: Re-embedding chart work in sky-watching
+  factor_id: temp_f0b0d6e4
+  factor_source: new_candidate
+  role_position: Practice Process
+  value_constraint: Regularly pair chart study with observing sky
+  engine_id: astro_semantic
+  notes: Prevents over-psychologizing astrology
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904546'
+- factor_type: Aesthetic
+  factor_label: Cultivation of awe and cosmic order
+  factor_id: temp_baa2c3d2
+  factor_source: new_candidate
+  role_position: Experiential Quality
+  value_constraint: Using astrology to evoke wonder, not dogma
+  engine_id: astro_semantic
+  notes: Links craft to meaning and beauty
+  source_book: the_inner_sky
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:33.904552'

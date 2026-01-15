@@ -1,0 +1,1521 @@
+book_id: 78_degrees_of_wisdom
+source_file: 典籍/texts/78 Degrees of Wisdom/编辑/78Degrees_of_Wisdom_v2.1.md
+extracted_at: '2025-12-04T14:27:44.895417'
+relations:
+- relation_id: rel_78deg_001
+  relation_type: tarot_sequence
+  factor_a: tarot_major_fool
+  factor_b: tarot_major_world
+  relation_nature: Journey bookends
+  condition_constraint: When reading Major Arcana as journey narrative
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Fool'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172210'
+- relation_id: rel_78deg_002
+  relation_type: archetype_manifestation
+  factor_a: tarot_major_fool
+  factor_b: psych_archetype_puer
+  relation_nature: Fool=Puer positive
+  condition_constraint: When Fool appears upright in spread
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Fool'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172234'
+- relation_id: rel_78deg_003
+  relation_type: symbol_meaning
+  factor_a: tarot_number_0
+  factor_b: state_true_innocence
+  relation_nature: Zero enables innocence
+  condition_constraint: When querent faces new beginning
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Fool'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172238'
+- relation_id: rel_78deg_004
+  relation_type: symbol_meaning
+  factor_a: symbol_precipice
+  factor_b: state_true_innocence
+  relation_nature: Threshold requires trust
+  condition_constraint: When querent must take leap of faith
+  effect_direction: neutral
+  source_ref: '78Degrees Ch2 #Fool'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172241'
+- relation_id: rel_78deg_005
+  relation_type: psychological_dynamic
+  factor_a: state_true_innocence
+  factor_b: pattern_fall_innocence
+  relation_nature: Innocence→Fall→Return
+  condition_constraint: When during individuation process innocence transforms through
+    fall and return
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Fool'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172244'
+- relation_id: rel_78deg_006
+  relation_type: cross_system
+  factor_a: state_beginners_mind
+  factor_b: state_true_innocence
+  relation_nature: Zen≈Tarot innocence
+  condition_constraint: When interpreting with Eastern philosophy lens
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Fool'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172247'
+- relation_id: rel_78deg_007
+  relation_type: shadow_relation
+  factor_a: psych_archetype_puer
+  factor_b: tarot_major_fool
+  relation_nature: Puer shadow of Fool
+  condition_constraint: When Fool appears reversed or ill-dignified
+  effect_direction: harmful
+  source_ref: '78Degrees Ch2 #Fool'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172249'
+- relation_id: rel_78deg_008
+  relation_type: tarot_sequence
+  factor_a: tarot_major_fool
+  factor_b: tarot_major_magician
+  relation_nature: Fool→Magician development
+  condition_constraint: When Fool precedes Magician in spread
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Magician'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172320'
+- relation_id: rel_78deg_009
+  relation_type: polarity
+  factor_a: tarot_major_magician
+  factor_b: tarot_major_high_priestess
+  relation_nature: Magician↔Priestess opposition
+  condition_constraint: When both cards appear in same reading
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Magician'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172324'
+- relation_id: rel_78deg_010
+  relation_type: principle_application
+  factor_a: principle_correspondence
+  factor_b: tarot_major_magician
+  relation_nature: Magician embodies correspondence
+  condition_constraint: When querent seeks to manifest intention
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Magician'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172326'
+- relation_id: rel_78deg_011
+  relation_type: tool_mastery
+  factor_a: system_four_elements
+  factor_b: tarot_major_magician
+  relation_nature: Magician commands elements
+  condition_constraint: When all four suits represented nearby
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Magician'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172329'
+- relation_id: rel_78deg_012
+  relation_type: planet_rulership
+  factor_a: planet_mercury
+  factor_b: tarot_major_magician
+  relation_nature: Mercury rules Magician
+  condition_constraint: When Mercury is prominent in natal chart
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Magician'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172332'
+- relation_id: rel_78deg_013
+  relation_type: symbol_meaning
+  factor_a: symbol_infinity
+  factor_b: state_conscious_will
+  relation_nature: Infinity enables unlimited will
+  condition_constraint: When Magician appears upright
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Magician'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172337'
+- relation_id: rel_78deg_014
+  relation_type: psychological_function
+  factor_a: psych_ego_consciousness
+  factor_b: tarot_major_magician
+  relation_nature: Magician=Ego consciousness
+  condition_constraint: When querent in ego-development phase
+  effect_direction: neutral
+  source_ref: '78Degrees Ch2 #Magician'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172340'
+- relation_id: rel_78deg_015
+  relation_type: shadow_danger
+  factor_a: tarot_major_magician
+  factor_b: state_manipulation
+  relation_nature: Mastery can become manipulation
+  condition_constraint: When Magician reversed or surrounded by swords
+  effect_direction: harmful
+  source_ref: '78Degrees Ch2 #Magician'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172342'
+- relation_id: rel_78deg_016
+  relation_type: polarity
+  factor_a: tarot_major_high_priestess
+  factor_b: tarot_major_magician
+  relation_nature: Priestess↔Magician opposition
+  condition_constraint: When both cards appear in same spread
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Priestess'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172405'
+- relation_id: rel_78deg_017
+  relation_type: symbol_meaning
+  factor_a: symbol_two_pillars
+  factor_b: tarot_major_high_priestess
+  relation_nature: Pillars define threshold
+  condition_constraint: When querent faces binary choice
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Priestess'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172409'
+- relation_id: rel_78deg_018
+  relation_type: psychological_function
+  factor_a: psych_archetype_anima
+  factor_b: tarot_major_high_priestess
+  relation_nature: Priestess=Anima archetype
+  condition_constraint: When reading for male querent
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Priestess'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172411'
+- relation_id: rel_78deg_019
+  relation_type: planet_rulership
+  factor_a: planet_moon
+  factor_b: tarot_major_high_priestess
+  relation_nature: Moon rules Priestess
+  condition_constraint: When Moon prominent in querent's chart
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Priestess'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172415'
+- relation_id: rel_78deg_020
+  relation_type: archetype_function
+  factor_a: archetype_threshold_guardian
+  factor_b: tarot_major_high_priestess
+  relation_nature: Priestess guards passage
+  condition_constraint: When querent seeks hidden knowledge
+  effect_direction: neutral
+  source_ref: '78Degrees Ch2 #Priestess'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172417'
+- relation_id: rel_78deg_021
+  relation_type: strategy_paradox
+  factor_a: state_total_passivity
+  factor_b: tarot_major_high_priestess
+  relation_nature: Passivity preserves truth
+  condition_constraint: When action would corrupt the matter
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Priestess'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172420'
+- relation_id: rel_78deg_022
+  relation_type: east_west
+  factor_a: tarot_major_high_priestess
+  factor_b: tarot_major_magician
+  relation_nature: Priestess=East, Magician=West
+  condition_constraint: When comparing Eastern and Western approaches
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Priestess'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172422'
+- relation_id: rel_78deg_023
+  relation_type: polarity
+  factor_a: tarot_major_empress
+  factor_b: tarot_major_high_priestess
+  relation_nature: 'Empress↔Priestess: emotion vs intuition'
+  condition_constraint: When both feminine archetypes appear together
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Empress'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172489'
+- relation_id: rel_78deg_024
+  relation_type: polarity
+  factor_a: tarot_major_empress
+  factor_b: tarot_major_emperor
+  relation_nature: 'Empress↔Emperor: nature vs society'
+  condition_constraint: When cards 3 and 4 appear in same reading
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Empress'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172492'
+- relation_id: rel_78deg_025
+  relation_type: creation_sequence
+  factor_a: tarot_major_magician, tarot_major_high_priestess
+  factor_b: tarot_major_empress
+  relation_nature: Magician+Priestess→Empress
+  condition_constraint: When tracing archetypal creation sequence
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Empress'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172495'
+- relation_id: rel_78deg_026
+  relation_type: planet_rulership
+  factor_a: planet_venus
+  factor_b: tarot_major_empress
+  relation_nature: Venus rules Empress
+  condition_constraint: When Venus prominent in querent's chart
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Empress'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172498'
+- relation_id: rel_78deg_027
+  relation_type: archetype_manifestation
+  factor_a: archetype_great_mother
+  factor_b: tarot_major_empress
+  relation_nature: Empress=Great Mother
+  condition_constraint: When reading involves motherhood or fertility
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Empress'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172501'
+- relation_id: rel_78deg_028
+  relation_type: symbol_meaning
+  factor_a: symbol_life_river
+  factor_b: tarot_major_empress
+  relation_nature: River=life force current
+  condition_constraint: When querent seeks emotional flow
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Empress'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172503'
+- relation_id: rel_78deg_029
+  relation_type: spiritual_principle
+  factor_a: principle_sensual_path
+  factor_b: tarot_major_empress
+  relation_nature: Sensuality first step
+  condition_constraint: When querent integrating body-spirit connection
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Empress'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172506'
+- relation_id: rel_78deg_030
+  relation_type: polarity
+  factor_a: tarot_major_emperor
+  factor_b: tarot_major_empress
+  relation_nature: 'Emperor↔Empress: society vs nature'
+  condition_constraint: When cards 3 and 4 appear in same reading
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Emperor'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172565'
+- relation_id: rel_78deg_031
+  relation_type: sequence
+  factor_a: tarot_major_empress
+  factor_b: tarot_major_emperor, tarot_major_hierophant
+  relation_nature: Worldly Sequence 3-4-5
+  condition_constraint: When analyzing worldly sequence development
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Emperor'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172568'
+- relation_id: rel_78deg_032
+  relation_type: archetype_manifestation
+  factor_a: archetype_father
+  factor_b: tarot_major_emperor
+  relation_nature: Emperor=Father archetype
+  condition_constraint: When reading involves father figure or authority
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Emperor'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172572'
+- relation_id: rel_78deg_033
+  relation_type: psychological_function
+  factor_a: psych_superego
+  factor_b: tarot_major_emperor
+  relation_nature: Emperor=Superego formation
+  condition_constraint: When querent dealing with internalized rules
+  effect_direction: neutral
+  source_ref: '78Degrees Ch2 #Emperor'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172576'
+- relation_id: rel_78deg_034
+  relation_type: planet_rulership
+  factor_a: planet_mars, sign_aries
+  factor_b: tarot_major_emperor
+  relation_nature: Mars/Aries rules Emperor
+  condition_constraint: When Mars or Aries prominent in chart
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Emperor'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172579'
+- relation_id: rel_78deg_035
+  relation_type: symbol_meaning
+  factor_a: symbol_controlled_river
+  factor_b: tarot_major_emperor
+  relation_nature: Controlled river=harnessed nature
+  condition_constraint: When querent needs structure but risks rigidity
+  effect_direction: mixed
+  source_ref: '78Degrees Ch2 #Emperor'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172582'
+- relation_id: rel_78deg_036
+  relation_type: integration_need
+  factor_a: tarot_major_emperor
+  factor_b: tarot_major_empress
+  relation_nature: Must integrate, not dominate
+  condition_constraint: When Emperor appears with Empress in spread
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Emperor'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172584'
+- relation_id: rel_78deg_037
+  relation_type: polarity
+  factor_a: tarot_major_hierophant
+  factor_b: tarot_major_high_priestess
+  relation_nature: 'Hierophant↔Priestess: outer vs inner'
+  condition_constraint: When both cards appear in spiritual reading
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Hierophant'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172648'
+- relation_id: rel_78deg_038
+  relation_type: sequence_completion
+  factor_a: framework_worldly_sequence
+  factor_b: tarot_major_hierophant
+  relation_nature: Hierophant completes 3-4-5
+  condition_constraint: When analyzing worldly sequence cards 3-4-5
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Hierophant'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172652'
+- relation_id: rel_78deg_039
+  relation_type: archetype_manifestation
+  factor_a: archetype_teacher
+  factor_b: tarot_major_hierophant
+  relation_nature: Hierophant=Teacher archetype
+  condition_constraint: When querent seeks guidance from tradition
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Hierophant'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172654'
+- relation_id: rel_78deg_040
+  relation_type: path_relation
+  factor_a: path_outer
+  factor_b: path_inner
+  relation_nature: Outer↔Inner paths
+  condition_constraint: When querent balancing formal teaching with intuition
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Hierophant'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172657'
+- relation_id: rel_78deg_041
+  relation_type: developmental_sequence
+  factor_a: tarot_major_hierophant
+  factor_b: archetype_teacher
+  relation_nature: Must transcend stage
+  condition_constraint: When querent ready to move beyond doctrine
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Hierophant'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172660'
+- relation_id: rel_78deg_042
+  relation_type: symbol_echo
+  factor_a: symbol_hierophant_pillars
+  factor_b: symbol_two_pillars
+  relation_nature: Pillars formalized
+  condition_constraint: When comparing institutional vs intuitive wisdom
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Hierophant'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172663'
+- relation_id: rel_78deg_043
+  relation_type: produces
+  factor_a: polarity_conscious_unconscious
+  factor_b: state_superconscious
+  relation_nature: Union→Super-conscious
+  condition_constraint: When genuine integration of opposites occurs
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Lovers'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172722'
+- relation_id: rel_78deg_044
+  relation_type: archetype_goal
+  factor_a: tarot_major_lovers
+  factor_b: archetype_hermaphrodite
+  relation_nature: Lovers→Hermaphrodite reunion
+  condition_constraint: When reading involves relationship or integration
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Lovers'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172725'
+- relation_id: rel_78deg_045
+  relation_type: principle_dynamic
+  factor_a: principle_passion_liberates
+  factor_b: tarot_major_lovers
+  relation_nature: Passion raises reason
+  condition_constraint: When passion experienced authentically
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Lovers'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172728'
+- relation_id: rel_78deg_046
+  relation_type: completion
+  factor_a: tarot_major_lovers
+  factor_b: framework_first_line
+  relation_nature: Lovers completes First Line
+  condition_constraint: When Lovers appears after cards 0-5 in journey
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Lovers'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172731'
+- relation_id: rel_78deg_047
+  relation_type: symbol_meaning
+  factor_a: symbol_angel_raphael
+  factor_b: state_superconscious
+  relation_nature: Angel=Super-conscious
+  condition_constraint: When couple unites in genuine love
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Lovers'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172733'
+- relation_id: rel_78deg_048
+  relation_type: zodiac_attribution
+  factor_a: sign_gemini
+  factor_b: tarot_major_lovers
+  relation_nature: Gemini rules Lovers
+  condition_constraint: When Gemini or Mercury prominent in chart
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Lovers'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172736'
+- relation_id: rel_78deg_049
+  relation_type: completion
+  factor_a: tarot_major_chariot
+  factor_b: framework_first_line
+  relation_nature: Chariot completes First Line
+  condition_constraint: When querent has achieved worldly success and identity
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Chariot'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172791'
+- relation_id: rel_78deg_050
+  relation_type: contrast
+  factor_a: tarot_major_chariot
+  factor_b: tarot_major_strength
+  relation_nature: 'Chariot↔Strength: will vs surrender'
+  condition_constraint: When Chariot and Strength appear together in spread
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Chariot'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172794'
+- relation_id: rel_78deg_051
+  relation_type: symbol_warning
+  factor_a: symbol_unreconciled_sphinxes
+  factor_b: state_stone_rigidity
+  relation_nature: Unreconciled→rigidity danger
+  condition_constraint: When querent relies solely on willpower without integration
+  effect_direction: harmful
+  source_ref: '78Degrees Ch2 #Chariot'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172797'
+- relation_id: rel_78deg_052
+  relation_type: psychological_danger
+  factor_a: psych_persona
+  factor_b: tarot_major_chariot
+  relation_nature: Persona=Chariot's achievement
+  condition_constraint: When querent identifies too strongly with social role
+  effect_direction: mixed
+  source_ref: '78Degrees Ch2 #Chariot'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172799'
+- relation_id: rel_78deg_053
+  relation_type: echo
+  factor_a: tarot_major_chariot
+  factor_b: tarot_major_magician
+  relation_nature: Chariot echoes Magician
+  condition_constraint: When comparing ego development from card 1 to card 7
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Chariot'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172802'
+- relation_id: rel_78deg_054
+  relation_type: transition
+  factor_a: tarot_major_chariot
+  factor_b: framework_second_line
+  relation_nature: Must proceed to Second Line
+  condition_constraint: When querent ready to release ego-attachment for deeper work
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Chariot'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172805'
+- relation_id: rel_78deg_055
+  relation_type: contrast
+  factor_a: tarot_major_strength
+  factor_b: tarot_major_chariot
+  relation_nature: 'Strength↔Chariot: surrender vs will'
+  condition_constraint: When querent must choose between control and acceptance
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Strength'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172865'
+- relation_id: rel_78deg_056
+  relation_type: begins
+  factor_a: tarot_major_strength
+  factor_b: framework_second_line
+  relation_nature: Strength begins Second Line
+  condition_constraint: When querent begins inner psychological work after outer success
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Strength'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172868'
+- relation_id: rel_78deg_057
+  relation_type: symbol_link
+  factor_a: symbol_infinity_strength
+  factor_b: tarot_major_magician
+  relation_nature: Same ∞ as Magician
+  condition_constraint: When tracing power development from card 1 to card 8
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Strength'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172871'
+- relation_id: rel_78deg_058
+  relation_type: method
+  factor_a: principle_surrender_power
+  factor_b: symbol_lion
+  relation_nature: Surrender tames lion
+  condition_constraint: When querent approaches instincts with gentleness rather than
+    force
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Strength'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172873'
+- relation_id: rel_78deg_059
+  relation_type: transformation
+  factor_a: energy_kundalini
+  factor_b: tarot_major_strength
+  relation_nature: Kundalini released by Strength
+  condition_constraint: When primal energy awakens through peaceful integration
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Strength'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172876'
+- relation_id: rel_78deg_060
+  relation_type: zodiac
+  factor_a: sign_leo
+  factor_b: tarot_major_strength
+  relation_nature: Leo rules Strength
+  condition_constraint: When Leo or Sun prominent in querent's chart
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Strength'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172879'
+- relation_id: rel_78deg_061
+  relation_type: archetype_manifestation
+  factor_a: archetype_wise_old_man
+  factor_b: tarot_major_hermit
+  relation_nature: Hermit=Wise Old Man
+  condition_constraint: When querent seeks inner guidance or mentor figure
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Hermit'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172935'
+- relation_id: rel_78deg_062
+  relation_type: framework_position
+  factor_a: framework_abulafia
+  factor_b: tarot_major_hermit
+  relation_nature: Hermit=middle level
+  condition_constraint: When querent needs personal teacher rather than doctrine
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Hermit'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172938'
+- relation_id: rel_78deg_063
+  relation_type: column_relation
+  factor_a: tarot_major_hermit
+  factor_b: tarot_major_high_priestess
+  relation_nature: Both column 2
+  condition_constraint: When Hermit and High Priestess appear together emphasizing
+    withdrawal
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Hermit'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172941'
+- relation_id: rel_78deg_064
+  relation_type: symbol_goal
+  factor_a: symbol_hexagram
+  factor_b: tarot_major_hermit
+  relation_nature: Hexagram=opposites resolved
+  condition_constraint: When querent approaching integration of conscious and unconscious
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Hermit'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172944'
+- relation_id: rel_78deg_065
+  relation_type: practice_echo
+  factor_a: practice_vision_quest
+  factor_b: tarot_major_hermit
+  relation_nature: Shamanic parallel
+  condition_constraint: When querent needs solitude for spiritual seeking
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Hermit'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172947'
+- relation_id: rel_78deg_066
+  relation_type: zodiac
+  factor_a: sign_virgo
+  factor_b: tarot_major_hermit
+  relation_nature: Virgo rules Hermit
+  condition_constraint: When Virgo or Mercury prominent in querent's chart
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Hermit'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.172949'
+- relation_id: rel_78deg_067
+  relation_type: parallel
+  factor_a: tarot_major_wheel
+  factor_b: tarot_major_world
+  relation_nature: 'Wheel↔World: vision vs embodiment'
+  condition_constraint: When comparing Wheel's glimpse with World's full realization
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Wheel'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173005'
+- relation_id: rel_78deg_068
+  relation_type: prerequisite
+  factor_a: tarot_major_hermit
+  factor_b: tarot_major_wheel
+  relation_nature: Hermit enables Wheel vision
+  condition_constraint: When querent has achieved sufficient detachment to see pattern
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Wheel'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173008'
+- relation_id: rel_78deg_069
+  relation_type: symbol_meaning
+  factor_a: symbol_sphinx
+  factor_b: tarot_major_wheel
+  relation_nature: Sphinx=risen above fate
+  condition_constraint: When querent transcends personal involvement in circumstances
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Wheel'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173010'
+- relation_id: rel_78deg_070
+  relation_type: cycle_dynamic
+  factor_a: cycle_death_rebirth
+  factor_b: tarot_major_wheel
+  relation_nature: Set/Anubis=dissolution/renewal
+  condition_constraint: When querent experiencing life transitions or reversals
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Wheel'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173013'
+- relation_id: rel_78deg_071
+  relation_type: guardian_function
+  factor_a: system_fixed_signs
+  factor_b: tarot_major_wheel
+  relation_nature: Four signs stabilize
+  condition_constraint: When elemental stability needed amid change
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Wheel'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173016'
+- relation_id: rel_78deg_072
+  relation_type: planet_rulership
+  factor_a: planet_jupiter
+  factor_b: tarot_major_wheel
+  relation_nature: Jupiter rules Wheel
+  condition_constraint: When Jupiter prominent in querent's chart or transit
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Wheel'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173019'
+- relation_id: rel_78deg_073
+  relation_type: response
+  factor_a: tarot_major_justice
+  factor_b: tarot_major_wheel
+  relation_nature: Justice responds to Wheel
+  condition_constraint: When querent seeks understanding after glimpsing life patterns
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Justice'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173081'
+- relation_id: rel_78deg_074
+  relation_type: midpoint
+  factor_a: tarot_major_justice
+  factor_b: framework_major_arcana
+  relation_nature: Justice=exact midpoint
+  condition_constraint: When analyzing the Major Arcana's structural balance
+  effect_direction: structural
+  source_ref: '78Degrees Ch2 #Justice'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173084'
+- relation_id: rel_78deg_075
+  relation_type: unity
+  factor_a: unity_magician_priestess
+  factor_b: tarot_major_justice
+  relation_nature: Magician+Priestess=Justice
+  condition_constraint: When querent integrates action and wisdom (1+2=11)
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Justice'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173087'
+- relation_id: rel_78deg_076
+  relation_type: distinction
+  factor_a: principle_self_creation
+  factor_b: principle_responsibility_distinction
+  relation_nature: Self-creation≠external control
+  condition_constraint: When querent confuses self-responsibility with guilt or fate
+  effect_direction: clarifying
+  source_ref: '78Degrees Ch2 #Justice'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173089'
+- relation_id: rel_78deg_077
+  relation_type: zodiac
+  factor_a: sign_libra
+  factor_b: tarot_major_justice
+  relation_nature: Libra rules Justice
+  condition_constraint: When Libra or Venus prominent in querent's chart
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Justice'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173093'
+- relation_id: rel_78deg_078
+  relation_type: echo
+  factor_a: tarot_major_justice
+  factor_b: tarot_major_high_priestess
+  relation_nature: Justice echoes Priestess
+  condition_constraint: When comparing conscious balance with unconscious wisdom
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Justice'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173096'
+- relation_id: rel_78deg_079
+  relation_type: sequence
+  factor_a: tarot_major_justice
+  factor_b: tarot_major_hanged_man
+  relation_nature: Justice→Hanged Man
+  condition_constraint: When querent moves from understanding responsibility to surrendering
+    ego
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #HangedMan'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173151'
+- relation_id: rel_78deg_080
+  relation_type: parallel
+  factor_a: tarot_major_hanged_man
+  factor_b: tarot_major_world
+  relation_nature: 'Hanged Man↔World: 12-21'
+  condition_constraint: When comparing surrender state with final integration
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #HangedMan'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173154'
+- relation_id: rel_78deg_081
+  relation_type: midpoint_completion
+  factor_a: tarot_major_hanged_man
+  factor_b: framework_midpoint
+  relation_nature: Third midpoint card
+  condition_constraint: When analyzing midpoint triad 10-11-12
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #HangedMan'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173157'
+- relation_id: rel_78deg_082
+  relation_type: myth_echo
+  factor_a: myth_odin_sacrifice
+  factor_b: tarot_major_hanged_man
+  relation_nature: Odin=Hanged Man
+  condition_constraint: When querent faces voluntary sacrifice for wisdom
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #HangedMan'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173160'
+- relation_id: rel_78deg_083
+  relation_type: symbol_meaning
+  factor_a: symbol_world_tree
+  factor_b: tarot_major_hanged_man
+  relation_nature: World Tree=axis
+  condition_constraint: When querent connects physical, psychological, and spiritual
+    realms
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #HangedMan'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173163'
+- relation_id: rel_78deg_084
+  relation_type: prepares
+  factor_a: tarot_major_hanged_man
+  factor_b: tarot_major_death
+  relation_nature: Surrender prepares Death
+  condition_constraint: When querent achieving peace before major transformation
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #HangedMan'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173166'
+- relation_id: rel_78deg_085
+  relation_type: sequence
+  factor_a: tarot_major_hanged_man
+  factor_b: tarot_major_death
+  relation_nature: Surrender→Release
+  condition_constraint: When querent has achieved peace through surrender
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Death'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173223'
+- relation_id: rel_78deg_086
+  relation_type: framework
+  factor_a: framework_four_reactions
+  factor_b: tarot_major_death
+  relation_nature: Four approaches to Death
+  condition_constraint: When identifying querent's response pattern to transformation
+  effect_direction: structural
+  source_ref: '78Degrees Ch2 #Death'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173225'
+- relation_id: rel_78deg_087
+  relation_type: necessity
+  factor_a: state_ego_death
+  factor_b: tarot_major_death
+  relation_nature: Ego must die
+  condition_constraint: When old identity must dissolve for new self to emerge
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Death'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173228'
+- relation_id: rel_78deg_088
+  relation_type: symbol_meaning
+  factor_a: symbol_skeleton
+  factor_b: tarot_major_death
+  relation_nature: Skeleton=eternal
+  condition_constraint: When querent seeks what endures beneath changing forms
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Death'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173231'
+- relation_id: rel_78deg_089
+  relation_type: prepares
+  factor_a: tarot_major_death
+  factor_b: tarot_major_temperance
+  relation_nature: Death→Temperance
+  condition_constraint: When release creates space for reintegration
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Death'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173234'
+- relation_id: rel_78deg_090
+  relation_type: zodiac
+  factor_a: sign_scorpio
+  factor_b: tarot_major_death
+  relation_nature: Scorpio rules Death
+  condition_constraint: When Scorpio or Pluto prominent in querent's chart
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Death'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173237'
+- relation_id: rel_78deg_091
+  relation_type: sequence
+  factor_a: tarot_major_death
+  factor_b: tarot_major_temperance
+  relation_nature: Death→Temperance
+  condition_constraint: When querent moves from dissolution to reintegration
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Temperance'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173295'
+- relation_id: rel_78deg_092
+  relation_type: parallel
+  factor_a: tarot_major_temperance
+  factor_b: tarot_major_chariot
+  relation_nature: Temperance below Chariot
+  condition_constraint: When comparing will-based control with organic flow
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Temperance'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173297'
+- relation_id: rel_78deg_093
+  relation_type: completion
+  factor_a: tarot_major_temperance
+  factor_b: framework_second_line
+  relation_nature: Temperance completes Second Line
+  condition_constraint: When querent has achieved psychological integration
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Temperance'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173300'
+- relation_id: rel_78deg_094
+  relation_type: combination
+  factor_a: tarot_major_magician, tarot_major_high_priestess
+  factor_b: tarot_major_temperance
+  relation_nature: Magician+Priestess combined
+  condition_constraint: When conscious and unconscious elements flow together
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Temperance'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173304'
+- relation_id: rel_78deg_095
+  relation_type: symbol_meaning
+  factor_a: deity_iris
+  factor_b: tarot_major_temperance
+  relation_nature: Iris=messenger
+  condition_constraint: When querent serves as bridge between realms
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Temperance'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173306'
+- relation_id: rel_78deg_096
+  relation_type: zodiac
+  factor_a: sign_sagittarius
+  factor_b: tarot_major_temperance
+  relation_nature: Sagittarius rules Temperance
+  condition_constraint: When Sagittarius or Jupiter prominent in chart
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Temperance'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173309'
+- relation_id: rel_78deg_097
+  relation_type: introduces
+  factor_a: tarot_major_devil
+  factor_b: framework_third_line
+  relation_nature: Devil begins Third Line
+  condition_constraint: When querent enters final transformative phase
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Devil'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173386'
+- relation_id: rel_78deg_098
+  relation_type: perversion
+  factor_a: tarot_major_devil
+  factor_b: tarot_major_lovers
+  relation_nature: Devil perverts Lovers
+  condition_constraint: When sacred union distorted into obsession or materialism
+  effect_direction: harmful
+  source_ref: '78Degrees Ch2 #Devil'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173392'
+- relation_id: rel_78deg_099
+  relation_type: energy_source
+  factor_a: principle_sexual_spiritual
+  factor_b: tarot_major_devil
+  relation_nature: Sexual energy=spiritual
+  condition_constraint: When recognizing primal energy as spiritually transformable
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Devil'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173395'
+- relation_id: rel_78deg_100
+  relation_type: prepares
+  factor_a: tarot_major_devil
+  factor_b: tarot_major_tower
+  relation_nature: Devil→Tower explosion
+  condition_constraint: When repressed energy builds toward cathartic release
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Devil'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173398'
+- relation_id: rel_78deg_101
+  relation_type: symbol_meaning
+  factor_a: symbol_loose_chains
+  factor_b: tarot_major_devil
+  relation_nature: Chains easily removed
+  condition_constraint: When querent realizes bondage is self-imposed and escapable
+  effect_direction: clarifying
+  source_ref: '78Degrees Ch2 #Devil'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173401'
+- relation_id: rel_78deg_102
+  relation_type: zodiac
+  factor_a: sign_capricorn
+  factor_b: tarot_major_devil
+  relation_nature: Capricorn rules Devil
+  condition_constraint: When Capricorn or Saturn prominent in querent's chart
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Devil'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173404'
+- relation_id: rel_78deg_103
+  relation_type: consequence
+  factor_a: tarot_major_devil
+  factor_b: tarot_major_tower
+  relation_nature: Devil→Tower
+  condition_constraint: When repressed shadow energy reaches critical mass
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Tower'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173461'
+- relation_id: rel_78deg_104
+  relation_type: destruction
+  factor_a: tarot_major_tower
+  factor_b: tarot_major_chariot
+  relation_nature: Tower destroys Chariot
+  condition_constraint: When ego structures become too rigid to transform gradually
+  effect_direction: destructive
+  source_ref: '78Degrees Ch2 #Tower'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173464'
+- relation_id: rel_78deg_105
+  relation_type: metaphor
+  factor_a: metaphor_dam
+  factor_b: tarot_major_tower
+  relation_nature: Dam blown=Tower
+  condition_constraint: When psychological defenses suddenly collapse
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Tower'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173467'
+- relation_id: rel_78deg_106
+  relation_type: grace
+  factor_a: symbol_yod_grace
+  factor_b: tarot_major_tower
+  relation_nature: Yod=grace
+  condition_constraint: When destruction is recognized as liberation not punishment
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Tower'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173469'
+- relation_id: rel_78deg_107
+  relation_type: prepares
+  factor_a: tarot_major_tower
+  factor_b: tarot_major_star
+  relation_nature: Tower→Star
+  condition_constraint: When cathartic destruction creates space for illumination
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Tower'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173472'
+- relation_id: rel_78deg_108
+  relation_type: planet
+  factor_a: planet_mars
+  factor_b: tarot_major_tower
+  relation_nature: Mars rules Tower
+  condition_constraint: When Mars prominent in querent's chart or transit
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Tower'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173475'
+- relation_id: rel_78deg_109
+  relation_type: sequence
+  factor_a: tarot_major_tower
+  factor_b: tarot_major_star
+  relation_nature: Tower→Star
+  condition_constraint: When querent emerges from Tower-like crisis into a phase of
+    hope and healing
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Star'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173520'
+- relation_id: rel_78deg_110
+  relation_type: contrast
+  factor_a: tarot_major_star
+  factor_b: tarot_major_temperance
+  relation_nature: Star vs Temperance
+  condition_constraint: When contrasting spontaneous naked openness with deliberate
+    moderation or self-control
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Star'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173523'
+- relation_id: rel_78deg_111
+  relation_type: access
+  factor_a: state_behind_veil
+  factor_b: tarot_major_high_priestess
+  relation_nature: Star accesses Priestess's pool
+  condition_constraint: When veil between conscious and unconscious has been torn
+    away, allowing direct access to Priestess's pool
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Star'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173526'
+- relation_id: rel_78deg_112
+  relation_type: higher
+  factor_a: tarot_major_star
+  factor_b: tarot_major_strength
+  relation_nature: Star=higher Strength
+  condition_constraint: When reading Star as spiritualized, higher octave of Strength's
+    taming energy
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Star'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173529'
+- relation_id: rel_78deg_113
+  relation_type: zodiac
+  factor_a: sign_aquarius
+  factor_b: tarot_major_star
+  relation_nature: Aquarius rules Star
+  condition_constraint: When Aquarius or Uranus themes of vision, future and humanity
+    are prominent
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Star'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173532'
+- relation_id: rel_78deg_114
+  relation_type: sequence
+  factor_a: tarot_major_star
+  factor_b: tarot_major_moon
+  relation_nature: Star→Moon
+  condition_constraint: When pure Star experience must pass into the Moon's realm
+    of imagination, dreams and fear
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Moon'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173580'
+- relation_id: rel_78deg_115
+  relation_type: necessity
+  factor_a: principle_imagination_distortion
+  factor_b: tarot_major_moon
+  relation_nature: Distortion necessary
+  condition_constraint: When consciousness cannot take in Star's full light and must
+    receive it through Moon-shaped, partially distorted images
+  effect_direction: clarifying
+  source_ref: '78Degrees Ch2 #Moon'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173583'
+- relation_id: rel_78deg_116
+  relation_type: higher
+  factor_a: tarot_major_moon
+  factor_b: tarot_major_hermit
+  relation_nature: Moon needs Hermit
+  condition_constraint: When Moon confusion requires Hermit's discriminating guidance
+    (18 reducing to 9)
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Moon'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173586'
+- relation_id: rel_78deg_117
+  relation_type: contrast
+  factor_a: tarot_major_moon
+  factor_b: tarot_major_strength
+  relation_nature: Moon=Strength wild
+  condition_constraint: When the same instinctual energy that Strength tames appears
+    in Moon as uncontrolled, frightening forces
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Moon'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173589'
+- relation_id: rel_78deg_118
+  relation_type: prepares
+  factor_a: tarot_major_moon
+  factor_b: tarot_major_sun
+  relation_nature: Moon→Sun
+  condition_constraint: When facing and working through Moon fears prepares the way
+    for Sun's clarity and joy
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Moon'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173592'
+- relation_id: rel_78deg_119
+  relation_type: zodiac
+  factor_a: sign_pisces
+  factor_b: tarot_major_moon
+  relation_nature: Pisces rules Moon
+  condition_constraint: When Pisces or Neptune/12th-house themes of imagination, sensitivity
+    and depths are emphasized
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Moon'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173595'
+- relation_id: rel_78deg_120
+  relation_type: sequence
+  factor_a: tarot_major_moon
+  factor_b: tarot_major_sun
+  relation_nature: Moon→Sun
+  condition_constraint: When a situation moves from Moon-like fear and confusion into
+    Sun's joy, clarity and trust
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Sun'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173643'
+- relation_id: rel_78deg_121
+  relation_type: abulafia_third
+  factor_a: tarot_major_sun
+  factor_b: framework_abulafia
+  relation_nature: Sun=ecstatic union
+  condition_constraint: When using Abulafia's three-level framework to read Sun as
+    the third, ecstatic-union level
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Sun'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173646'
+- relation_id: rel_78deg_122
+  relation_type: transformation
+  factor_a: tarot_major_hermit
+  factor_b: tarot_major_sun
+  relation_nature: Hermit→Sun
+  condition_constraint: When Hermit's solitary inner light bursts outward as Sun's
+    shared radiance
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Sun'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173649'
+- relation_id: rel_78deg_123
+  relation_type: contrast
+  factor_a: tarot_major_sun
+  factor_b: tarot_major_moon
+  relation_nature: Sun vs Moon
+  condition_constraint: When contrasting direct, self-generated enlightenment (Sun)
+    with Moon's reflected, uncertain light
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Sun'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173652'
+- relation_id: rel_78deg_124
+  relation_type: celestial
+  factor_a: celestial_sun
+  factor_b: tarot_major_sun
+  relation_nature: Sun rules Sun
+  condition_constraint: When the natal Sun or strong solar transits highlight themes
+    of vitality, purpose and consciousness
+  effect_direction: beneficial
+  source_ref: '78Degrees Ch2 #Sun'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173654'
+- relation_id: rel_78deg_125
+  relation_type: sequence
+  factor_a: tarot_major_sun
+  factor_b: tarot_major_judgement
+  relation_nature: Sun→Judgement
+  condition_constraint: When Sun-like enlightenment naturally leads to hearing a call
+    to transform one's life
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Judgement'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173702'
+- relation_id: rel_78deg_126
+  relation_type: contrast
+  factor_a: tarot_major_judgement
+  factor_b: tarot_major_justice
+  relation_nature: Judgement vs Justice
+  condition_constraint: When comparing cosmic, collective judgement with Justice's
+    more personal ethical weighing
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #Judgement'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173705'
+- relation_id: rel_78deg_127
+  relation_type: principle
+  factor_a: principle_no_personal_liberation
+  factor_b: tarot_major_judgement
+  relation_nature: No personal liberation
+  condition_constraint: When the reading emphasizes that true liberation cannot be
+    pursued for oneself alone (bodhisattva principle)
+  effect_direction: clarifying
+  source_ref: '78Degrees Ch2 #Judgement'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173707'
+- relation_id: rel_78deg_128
+  relation_type: revelation
+  factor_a: archetype_hidden_identity
+  factor_b: tarot_major_judgement
+  relation_nature: Hidden identity revealed
+  condition_constraint: When the call of Judgement reveals the querent's previously
+    hidden true identity or vocation
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Judgement'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173710'
+- relation_id: rel_78deg_129
+  relation_type: prepares
+  factor_a: tarot_major_judgement
+  factor_b: tarot_major_world
+  relation_nature: Judgement→World
+  condition_constraint: When responding to the call becomes the necessary step before
+    entering World's state of wholeness and cosmic dance
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #Judgement'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173713'
+- relation_id: rel_78deg_130
+  relation_type: sequence
+  factor_a: tarot_major_judgement
+  factor_b: tarot_major_world
+  relation_nature: Judgement→World
+  condition_constraint: When answering Judgement's call naturally leads into World's
+    state of embodied unity and dance
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #World'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173764'
+- relation_id: rel_78deg_131
+  relation_type: unification
+  factor_a: tarot_major_magician, tarot_major_high_priestess
+  factor_b: tarot_major_world
+  relation_nature: 1+2=World
+  condition_constraint: When reading World as the integration of Magician's active
+    will and High Priestess's receptive wisdom (1+2 carried by the two wands)
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #World'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173766'
+- relation_id: rel_78deg_132
+  relation_type: parallel
+  factor_a: tarot_major_world
+  factor_b: tarot_major_hanged_man
+  relation_nature: World↔Hanged Man
+  condition_constraint: When comparing Hanged Man's static surrender (12) with World's
+    dynamic, moving unity (21 reversed)
+  effect_direction: complementary
+  source_ref: '78Degrees Ch2 #World'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173769'
+- relation_id: rel_78deg_133
+  relation_type: realization
+  factor_a: symbol_living_creatures
+  factor_b: system_fixed_signs
+  relation_nature: Creatures now living
+  condition_constraint: When Wheel's symbolic fixed signs have become fully lived,
+    embodied realities in the querent's life
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #World'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173772'
+- relation_id: rel_78deg_134
+  relation_type: return
+  factor_a: tarot_major_world
+  factor_b: tarot_major_fool
+  relation_nature: World returns to Fool
+  condition_constraint: When a cycle of completion immediately opens into a new Fool-journey
+    (21 returning to 0)
+  effect_direction: cyclical
+  source_ref: '78Degrees Ch2 #World'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173775'
+- relation_id: rel_78deg_135
+  relation_type: archetype
+  factor_a: archetype_adam_kadmon
+  factor_b: tarot_major_world
+  relation_nature: Adam Kadmon restored
+  condition_constraint: When World is read as restoration of the original, undivided
+    Self (Adam Kadmon) through the completed journey
+  effect_direction: transformative
+  source_ref: '78Degrees Ch2 #World'
+  source_book: 78_degrees_of_wisdom
+  source_chapter: null
+  extracted_at: '2025-12-04T14:27:34.173778'

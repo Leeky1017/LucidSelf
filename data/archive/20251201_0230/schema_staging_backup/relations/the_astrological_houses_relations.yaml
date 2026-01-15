@@ -1,0 +1,390 @@
+book_id: the_astrological_houses
+source_file: 典籍/texts/The Astrological Houses/编辑/House_Philosophy_12Houses.md, 典籍/texts/The
+  Astrological Houses/编辑/House_Philosophy_12Houses_v2.1.md
+extracted_at: '2025-12-01T02:28:33.048386'
+relations:
+- relation_id: rel_House_Philosophy_12H_1
+  relation_type: concept
+  factor_a: House_Philosophy_12H_1
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627029'
+- relation_id: rel_House_Philosophy_12H_2
+  relation_type: concept
+  factor_a: House_Philosophy_12H_2
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627066'
+- relation_id: rel_House_Philosophy_12H_3
+  relation_type: concept
+  factor_a: House_Philosophy_12H_3
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627095'
+- relation_id: rel_House_Philosophy_12H_4
+  relation_type: concept
+  factor_a: House_Philosophy_12H_4
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627121'
+- relation_id: rel_House_Philosophy_12H_5
+  relation_type: concept
+  factor_a: House_Philosophy_12H_5
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627142'
+- relation_id: rel_House_Philosophy_12H_6
+  relation_type: concept
+  factor_a: House_Philosophy_12H_6
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627166'
+- relation_id: rel_House_Philosophy_12H_7
+  relation_type: concept
+  factor_a: House_Philosophy_12H_7
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627194'
+- relation_id: rel_House_Philosophy_12H_8
+  relation_type: concept
+  factor_a: House_Philosophy_12H_8
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627213'
+- relation_id: rel_house_2_body
+  relation_type: possession
+  factor_a: house_2
+  factor_b: physical_body
+  relation_nature: Primary ownership
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 2 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627240'
+- relation_id: rel_house_2_use
+  relation_type: function
+  factor_a: house_2
+  factor_b: individuality
+  relation_nature: Purposeful dedication
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 2 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627243'
+- relation_id: rel_house_3_env
+  relation_type: adaptation
+  factor_a: house_3
+  factor_b: environment
+  relation_nature: Intelligence development
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 3 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627265'
+- relation_id: rel_house_3_mind
+  relation_type: function
+  factor_a: house_3
+  factor_b: nervous_system
+  relation_nature: Empirical knowing
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 3 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627268'
+- relation_id: rel_house_4_center
+  relation_type: integration
+  factor_a: house_4
+  factor_b: personality
+  relation_nature: Centeredness
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 4 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627290'
+- relation_id: rel_house_4_ic
+  relation_type: structure
+  factor_a: ic
+  factor_b: collective_unconscious
+  relation_nature: Deepest point
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 4 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627292'
+- relation_id: rel_house_5_create
+  relation_type: expression
+  factor_a: house_5
+  factor_b: personality
+  relation_nature: Creative release
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 5 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627318'
+- relation_id: rel_house_5_purity
+  relation_type: test
+  factor_a: house_5
+  factor_b: dharma
+  relation_nature: Purity of motive
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 5 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627320'
+- relation_id: rel_house_6_crisis
+  relation_type: transformation
+  factor_a: house_6
+  factor_b: inadequacy
+  relation_nature: Growth catalyst
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 6 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627342'
+- relation_id: rel_house_6_service
+  relation_type: healing
+  factor_a: house_6
+  factor_b: discipleship
+  relation_nature: Ego transcendence
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 6 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627345'
+- relation_id: rel_house_7_partner
+  relation_type: participation
+  factor_a: house_7
+  factor_b: other_selves
+  relation_nature: Self-discovery
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 7 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627365'
+- relation_id: rel_house_7_transform
+  relation_type: dynamics
+  factor_a: descendant
+  factor_b: transformation
+  relation_nature: Most dynamic
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 7 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627367'
+- relation_id: rel_house_8_trust
+  relation_type: foundation
+  factor_a: house_8
+  factor_b: partnership
+  relation_nature: Shared resources
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 8 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627387'
+- relation_id: rel_house_8_death
+  relation_type: transformation
+  factor_a: house_8
+  factor_b: ego
+  relation_nature: Death-rebirth
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 8 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627390'
+- relation_id: rel_house_9_meaning
+  relation_type: understanding
+  factor_a: house_9
+  factor_b: society
+  relation_nature: Holistic framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 9 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627409'
+- relation_id: rel_house_9_symbol
+  relation_type: interpretation
+  factor_a: house_9
+  factor_b: communication
+  relation_nature: Symbol decoding
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 9 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627412'
+- relation_id: rel_house_10_achieve
+  relation_type: actualization
+  factor_a: house_10
+  factor_b: first_house
+  relation_nature: Potential fulfillment
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 10 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627432'
+- relation_id: rel_house_10_mc
+  relation_type: culmination
+  factor_a: mc
+  factor_b: individual
+  relation_nature: Transfiguration
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 10 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627435'
+- relation_id: rel_house_11_collective
+  relation_type: channel
+  factor_a: house_11
+  factor_b: whole
+  relation_nature: Creation through
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 11 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627455'
+- relation_id: rel_house_11_reform
+  relation_type: transformation
+  factor_a: house_11
+  factor_b: society
+  relation_nature: Future seeds
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 11 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627458'
+- relation_id: rel_house_12_karma
+  relation_type: confrontation
+  factor_a: house_12
+  factor_b: past
+  relation_nature: Cycle completion
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 12 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627478'
+- relation_id: rel_house_12_seed
+  relation_type: rebirth
+  factor_a: house_12
+  factor_b: ascendant
+  relation_nature: Preparation
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: House 12 Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627480'
+- relation_id: rel_House_Philosophy_12H_20
+  relation_type: concept
+  factor_a: House_Philosophy_12H_20
+  factor_b: system
+  relation_nature: Framework
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Source
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627505'
+- relation_id: rel_cycle_28
+  relation_type: development
+  factor_a: cycle_28
+  factor_b: consciousness
+  relation_nature: Three-level progression
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Three-Level Cycle
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627577'
+- relation_id: rel_point_self
+  relation_type: progression
+  factor_a: point_of_self
+  factor_b: natal_planets
+  relation_nature: Consciousness catalyst
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Three-Level Cycle
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627580'
+- relation_id: rel_holistic
+  relation_type: methodology
+  factor_a: methodology_holistic
+  factor_b: chart_interpretation
+  relation_nature: Whole→Parts
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Epilogue
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627602'
+- relation_id: rel_space_time
+  relation_type: ontology
+  factor_a: space
+  factor_b: time
+  relation_nature: Potential→Actual
+  condition_constraint: ''
+  effect_direction: ''
+  source_ref: Epilogue
+  source_book: the_astrological_houses
+  source_chapter: null
+  extracted_at: '2025-12-01T02:28:31.627605'
