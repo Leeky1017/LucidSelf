@@ -1,7 +1,7 @@
 # ISSUE-1
 - Issue: #1
 - Branch: task/1-ls-github-bootstrap
-- PR: <fill-after-created>
+- PR: https://github.com/Leeky1017/LucidSelf/pull/2
 
 ## Plan
 - Establish GitHub/Rulebook/OpenSpec delivery hard gates
