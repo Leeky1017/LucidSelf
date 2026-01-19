@@ -1,7 +1,7 @@
 # ISSUE-3
 - Issue: #3
 - Branch: task/3-zpzq-shigan-dizhi-p0-b01
-- PR: <fill-after-created>
+- PR: https://github.com/Leeky1017/LucidSelf/pull/4
 
 ## Plan
 - Extract `一．论十干十二支` anchors + quotes
