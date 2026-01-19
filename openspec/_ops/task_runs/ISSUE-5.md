@@ -54,3 +54,10 @@
 ### 2026-01-19 23:01 Create PR (local)
 - Command: `gh pr create --base main --head task/5-inner-sky-p0-batch01 ...`
 - Key output: `https://github.com/Leeky1017/LucidSelf/pull/6`
+
+### 2026-01-19 23:03 Enable auto-merge + watch checks (blocked)
+- Command: `scripts/agent_pr_automerge_and_sync.sh --pr 6 --no-create`
+- Key output: GitHub Actions jobs were not started (billing/spending limit); required checks remain failed; PR stays `mergeState=BLOCKED` with auto-merge enabled
+- Evidence:
+  - https://github.com/Leeky1017/LucidSelf/actions/runs/21142125821
+  - https://github.com/Leeky1017/LucidSelf/actions/runs/21142125838
