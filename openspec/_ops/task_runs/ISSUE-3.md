@@ -63,3 +63,13 @@
 - Command: `bash scripts/agent_pr_preflight.sh`
 - Key output: `OK: no overlapping files with open PRs`
 - Evidence: `openspec/_ops/task_runs/ISSUE-3.md`
+
+### 2026-01-19 pr
+- Command: `gh pr create ...`
+- Key output: `https://github.com/Leeky1017/LucidSelf/pull/4`
+- Evidence: `openspec/_ops/task_runs/ISSUE-3.md`
+
+### 2026-01-19 checks-blocked
+- Command: `gh run view 21141175200`
+- Key output: `The job was not started because recent account payments have failed or your spending limit needs to be increased.`
+- Evidence: `https://github.com/Leeky1017/LucidSelf/actions/runs/21141175200`
