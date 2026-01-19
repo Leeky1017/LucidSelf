@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_007`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:17`
 - `source_text`:
-  > `有是五行，何以又有十干十二支乎？`
+  > 有是五行，何以又有十干十二支乎？
 - `priority`: `P0`
 
 ---
@@ -23,7 +23,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_need_stem_branch_system` | 若以「五行」作为分类基础仍不足以表达运行细节 | 则引入「干支体系（抽象结构）」以承载更细的时间/位置信息 | 运势 | 中性 | 中 | `何以又有十干十二支乎` |
+| `rule_zpzq_need_stem_branch_system` | 若以「五行」作为分类基础仍不足以表达运行细节 | 则引入「干支体系（抽象结构）」以承载更细的时间/位置信息 | 运势 | 中性 | 中 | 何以又有十干十二支乎 |
 
 ---
 
@@ -48,4 +48,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 十干十二支 | Heavenly Stems & Earthly Branches | 十天干与十二地支组成的符号系统，用于表达时间与气的运行秩序。 | A cyclic symbolic framework used to encode time, phase dynamics, and positional relations in Chinese metaphysical systems. | common_stem_branch_system | new_candidate |
-

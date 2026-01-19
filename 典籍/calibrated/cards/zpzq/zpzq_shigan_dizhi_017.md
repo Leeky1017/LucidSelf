@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_017`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:19`
 - `source_text`:
-  > `以甲乙寅卯而统分阴阳，则甲乙为阳寅卯为阴，木之在天成象而在地成形者也。`
+  > 以甲乙寅卯而统分阴阳，则甲乙为阳寅卯为阴，木之在天成象而在地成形者也。
 - `priority`: `P0`
 
 ---
@@ -23,7 +23,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_stems_yang_branches_yin` | 若把甲乙与寅卯合并为一套统分体系 | 则可取“甲乙为阳、寅卯为阴”，并用“天成象/地成形”表其分工 | 运势 | 中性 | 中 | `甲乙为阳寅卯为阴` |
+| `rule_zpzq_stems_yang_branches_yin` | 若把甲乙与寅卯合并为一套统分体系 | 则可取“甲乙为阳、寅卯为阴”，并用“天成象/地成形”表其分工 | 运势 | 中性 | 中 | 甲乙为阳寅卯为阴 |
 
 ---
 
@@ -48,4 +48,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 成象／成形 | Image vs. Form (Xiang/Xing) | 天成象，地成形：在天为可感知之象，在地为可承载之形。 | A conceptual split between “image” (abstract pattern, sign) and “form” (embodied structure), used to explain how qualities manifest across layers. | common_heaven_earth_frame | new_candidate |
-

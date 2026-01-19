@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_015`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:19`
 - `source_text`:
-  > `以甲乙而分阴阳，则甲为阳，乙为阴，木之行于天而为阴阳者也。`
+  > 以甲乙而分阴阳，则甲为阳，乙为阴，木之行于天而为阴阳者也。
 - `priority`: `P0`
 
 ---
@@ -22,7 +22,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_stems_polarity_in_heaven` | 若以「天干（甲/乙取值）」在天的层面分判阴阳 | 则甲可取“阳”、乙可取“阴”的解释口径，用以描述木之行于天的两面 | 运势 | 中性 | 高 | `甲为阳，乙为阴` |
+| `rule_zpzq_stems_polarity_in_heaven` | 若以「天干（甲/乙取值）」在天的层面分判阴阳 | 则甲可取“阳”、乙可取“阴”的解释口径，用以描述木之行于天的两面 | 运势 | 中性 | 高 | 甲为阳，乙为阴 |
 
 ---
 
@@ -47,4 +47,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 天干 | Heavenly Stem | 十干之总称，用以表气之运行与分判阴阳。 | One of the two pillars of the stems-and-branches framework; used to encode dynamic qualities and polarity on the “heavenly” layer of the model. | year_stem | existing |
-

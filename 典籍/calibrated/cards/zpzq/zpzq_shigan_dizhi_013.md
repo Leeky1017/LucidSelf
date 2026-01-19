@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_013`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:17`
 - `source_text`:
-  > `方其为甲，而乙之气已备；及其为乙，而甲之质乃坚。有是甲乙，而木之阴阳具矣。`
+  > 方其为甲，而乙之气已备；及其为乙，而甲之质乃坚。有是甲乙，而木之阴阳具矣。
 - `priority`: `P0`
 
 ---
@@ -23,7 +23,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_polarity_mutual_containment` | 若认为甲乙分别偏于「气」与「质」但彼此相含（引用「阴阳互根（相含）」） | 则木之阴阳不作截然二分，而以“互根互用”作为解释口径 | 运势 | 中性 | 中 | `有是甲乙，而木之阴阳具矣` |
+| `rule_zpzq_polarity_mutual_containment` | 若认为甲乙分别偏于「气」与「质」但彼此相含（引用「阴阳互根（相含）」） | 则木之阴阳不作截然二分，而以“互根互用”作为解释口径 | 运势 | 中性 | 中 | 有是甲乙，而木之阴阳具矣 |
 
 ---
 
@@ -48,4 +48,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 互根 | Mutual Rooting | 阴阳两面彼此具备其端，互为根源而不相离。 | A principle that opposite aspects co-arise and contain each other’s seeds, functioning as a stable explanatory rule rather than a literal biology claim. | common_yin_yang | new_candidate |
-

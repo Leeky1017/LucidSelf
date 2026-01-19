@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_011`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:17`
 - `source_text`:
-  > `在天为生气，而流行于万物者，甲也；在地为万物，而承兹生气者，乙也。`
+  > 在天为生气，而流行于万物者，甲也；在地为万物，而承兹生气者，乙也。
 - `priority`: `P0`
 
 ---
@@ -22,7 +22,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_heaven_qi_earth_form` | 若在「天地框架（天/地分位）」中区分“生气流行”与“万物承载” | 则可用甲偏指天上生气之流行，乙偏指地上万物之承受与成形 | 运势 | 中性 | 中 | `在天为生气，而流行于万物者，甲也` |
+| `rule_zpzq_heaven_qi_earth_form` | 若在「天地框架（天/地分位）」中区分“生气流行”与“万物承载” | 则可用甲偏指天上生气之流行，乙偏指地上万物之承受与成形 | 运势 | 中性 | 中 | 在天为生气，而流行于万物者，甲也 |
 
 ---
 
@@ -47,4 +47,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 生气 | Generative Qi | 在天流行、生发并推动万物生长的气。 | A generative, animating force that circulates and enables growth; used here as a functional description rather than a medical term. | common_vital_qi | new_candidate |
-

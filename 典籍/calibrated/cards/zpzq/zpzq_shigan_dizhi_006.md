@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_006`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:15`
 - `source_text`:
-  > `水者，太阴也；火者，太阳也；木者，少阳也；金者，少阴也；土者，阴阳老少、木火金水冲气所结也。`
+  > 水者，太阴也；火者，太阳也；木者，少阳也；金者，少阴也；土者，阴阳老少、木火金水冲气所结也。
 - `priority`: `P0`
 
 ---
@@ -24,7 +24,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_wuxing_as_yinyang_phases` | 若把五行理解为阴阳相位在不同类中的呈现（引用「水行（太阴相）」「火行（太阳相）」等） | 则可用“太阴/太阳/少阴/少阳”的相位语言来解释五行偏性与组合倾向 | 运势 | 中性 | 中 | `水者，太阴也` |
+| `rule_zpzq_wuxing_as_yinyang_phases` | 若把五行理解为阴阳相位在不同类中的呈现（引用「水行（太阴相）」「火行（太阳相）」等） | 则可用“太阴/太阳/少阴/少阳”的相位语言来解释五行偏性与组合倾向 | 运势 | 中性 | 中 | 水者，太阴也 |
 
 ---
 
@@ -49,4 +49,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 土 | Earth Phase (Tu) | 由阴阳老少与木火金水冲气所结，承载与调和诸气。 | The “Earth phase” as an integrative category that stabilizes and mediates other phase dynamics, rather than a literal material element. | earth_presence | existing |
-

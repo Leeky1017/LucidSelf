@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_010`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:17`
 - `source_text`:
-  > `甲者，乙之气；乙者，甲之质。`
+  > 甲者，乙之气；乙者，甲之质。
 - `priority`: `P0`
 
 ---
@@ -22,7 +22,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_jia_qi_yi_form` | 若在同一类（木）内区分「气（运行/生发）」与「质（形质/承载）」 | 则可把甲偏向“气”，乙偏向“质”作为解释口径 | 运势 | 中性 | 中 | `甲者，乙之气；乙者，甲之质` |
+| `rule_zpzq_jia_qi_yi_form` | 若在同一类（木）内区分「气（运行/生发）」与「质（形质/承载）」 | 则可把甲偏向“气”，乙偏向“质”作为解释口径 | 运势 | 中性 | 中 | 甲者，乙之气；乙者，甲之质 |
 
 ---
 
@@ -47,4 +47,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 质 | Substrate/Form (Zhi) | 相对于“气”的形质与承载面，着于成形与稳固。 | The more tangible, form-bearing aspect contrasted with qi—how a quality becomes embodied, sustained, and stabilized. | common_substance_form | new_candidate |
-

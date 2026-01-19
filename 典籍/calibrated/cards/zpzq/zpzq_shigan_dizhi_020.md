@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_020`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:21`
 - `source_text`:
-  > `欲学命者，必须先知干支之说，然后可以入门。`
+  > 欲学命者，必须先知干支之说，然后可以入门。
 - `priority`: `P0`
 
 ---
@@ -23,7 +23,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_stem_branch_prereq_for_learning` | 若以「入门先修（知识前置）」规划命理学习路径 | 则必须先掌握「干支体系（抽象结构）」后，才进入后续判读与推演 | 心理 | 中性 | 高 | `必须先知干支之说` |
+| `rule_zpzq_stem_branch_prereq_for_learning` | 若以「入门先修（知识前置）」规划命理学习路径 | 则必须先掌握「干支体系（抽象结构）」后，才进入后续判读与推演 | 心理 | 中性 | 高 | 必须先知干支之说 |
 
 ---
 
@@ -48,4 +48,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 干支之说 | Stems-and-Branches Fundamentals | 干支为命理基础符号系统，先明其理，方可继续深入。 | Foundational principles of the stems-and-branches framework; treated as prerequisite knowledge before advanced interpretation. | common_stem_branch_system | new_candidate |
-

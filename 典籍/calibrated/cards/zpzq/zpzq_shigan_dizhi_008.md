@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_008`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:17`
 - `source_text`:
-  > `盖有阴阳，因生五行，而五行之中，各有阴阳。`
+  > 盖有阴阳，因生五行，而五行之中，各有阴阳。
 - `priority`: `P0`
 
 ---
@@ -22,7 +22,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_yinyang_generate_wuxing_recursive` | 若以「阴阳（两极框架）」解释世界运行 | 则「五行（分类体系）」由阴阳分化而生，且每一行内部仍可再分阴阳 | 运势 | 中性 | 高 | `盖有阴阳，因生五行` |
+| `rule_zpzq_yinyang_generate_wuxing_recursive` | 若以「阴阳（两极框架）」解释世界运行 | 则「五行（分类体系）」由阴阳分化而生，且每一行内部仍可再分阴阳 | 运势 | 中性 | 高 | 盖有阴阳，因生五行 |
 
 ---
 
@@ -47,4 +47,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 五行阴阳 | Yin-Yang Within Each Phase | 五行虽分五类，而每一类之中仍可再判阴阳。 | A recursive polarity principle: each phase/category can be further analyzed into yin and yang aspects rather than treated as uniform. | common_yin_yang | new_candidate |
-

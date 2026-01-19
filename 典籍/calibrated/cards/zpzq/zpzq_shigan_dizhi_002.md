@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_002`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:15`
 - `source_text`:
-  > `惟有动静，遂分阴阳。`
+  > 惟有动静，遂分阴阳。
 - `priority`: `P0`
 
 ---
@@ -22,7 +22,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_motion_stillness_yinyang` | 若出现「动静（变化/静定）」的对立与互用 | 则「阴阳（两极分化）」作为解释框架被引入 | 运势 | 中性 | 高 | `惟有动静，遂分阴阳` |
+| `rule_zpzq_motion_stillness_yinyang` | 若出现「动静（变化/静定）」的对立与互用 | 则「阴阳（两极分化）」作为解释框架被引入 | 运势 | 中性 | 高 | 惟有动静，遂分阴阳 |
 
 ---
 
@@ -47,4 +47,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 阴阳 | Yin-Yang Polarity | 由动静分判而成的两极与互根结构。 | A paired polarity model describing complementary forces that differentiate from a shared source and remain interdependent. | common_yin_yang | new_candidate |
-

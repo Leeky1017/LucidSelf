@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_012`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:17`
 - `source_text`:
-  > `又细分之，生气之散布者，甲之甲，而生气之凝成者，甲之乙；万木之所以有枝叶者，乙之甲，而万木之枝枝叶叶者，乙之乙也。`
+  > 又细分之，生气之散布者，甲之甲，而生气之凝成者，甲之乙；万木之所以有枝叶者，乙之甲，而万木之枝枝叶叶者，乙之乙也。
 - `priority`: `P0`
 
 ---
@@ -22,7 +22,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_qi_dispersion_condensation` | 若对「生气（生发之气）」作“散布/凝成”的更细分判 | 则可用“散布→发用、凝成→成质”的两态口径解释木之生长与成形差异 | 运势 | 中性 | 中 | `生气之散布者，甲之甲，而生气之凝成者，甲之乙` |
+| `rule_zpzq_qi_dispersion_condensation` | 若对「生气（生发之气）」作“散布/凝成”的更细分判 | 则可用“散布→发用、凝成→成质”的两态口径解释木之生长与成形差异 | 运势 | 中性 | 中 | 生气之散布者，甲之甲，而生气之凝成者，甲之乙 |
 
 ---
 
@@ -47,4 +47,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 凝成 | Condensation into Form | 生气由散而凝，聚而成质，转入可承载之形。 | A process of concentrating diffuse vitality into a stable, form-bearing state; used here as a structural metaphor for manifestation. | common_differentiation | new_candidate |
-

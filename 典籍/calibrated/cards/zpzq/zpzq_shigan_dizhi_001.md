@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_001`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:15`
 - `source_text`:
-  > `天地之间，一气而已。`
+  > 天地之间，一气而已。
 - `priority`: `P0`
 
 ---
@@ -22,7 +22,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_qi_unity_root` | 若采用「一气（同源统一）」解释万物根源 | 则阴阳/五行/干支可被视为同一气的分化表达 | 运势 | 中性 | 中 | `天地之间，一气而已` |
+| `rule_zpzq_qi_unity_root` | 若采用「一气（同源统一）」解释万物根源 | 则阴阳/五行/干支可被视为同一气的分化表达 | 运势 | 中性 | 中 | 天地之间，一气而已 |
 
 ---
 
@@ -47,4 +47,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 一气 | Unified Qi (Primordial Vital Force) | 天地万物同出于一，根源为气。 | A single underlying vital force used as a baseline to explain how all phenomena arise through differentiation. | common_qi_unity | new_candidate |
-

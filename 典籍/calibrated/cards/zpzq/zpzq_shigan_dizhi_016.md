@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_016`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:19`
 - `source_text`:
-  > `以寅卯而阴阳，则寅为阳，卯为阴，木之存乎地而为阴阳者也。`
+  > 以寅卯而阴阳，则寅为阳，卯为阴，木之存乎地而为阴阳者也。
 - `priority`: `P0`
 
 ---
@@ -22,7 +22,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_branches_polarity_on_earth` | 若在“地”的层面用「地支（寅/卯取值）」分判阴阳 | 则可取“寅为阳、卯为阴”的解释口径，表木之存乎地的两面 | 运势 | 中性 | 高 | `寅为阳，卯为阴` |
+| `rule_zpzq_branches_polarity_on_earth` | 若在“地”的层面用「地支（寅/卯取值）」分判阴阳 | 则可取“寅为阳、卯为阴”的解释口径，表木之存乎地的两面 | 运势 | 中性 | 高 | 寅为阳，卯为阴 |
 
 ---
 
@@ -47,4 +47,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 地支 | Earthly Branch | 十二支之总称，用以表“地”的承载与成形层面，并可分判阴阳。 | One of the two pillars of the stems-and-branches framework; used to encode grounded, form-taking qualities on the “earthly” layer. | month_branch | existing |
-

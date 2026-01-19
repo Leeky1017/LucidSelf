@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_019`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:21`
 - `source_text`:
-  > `甲乙在天，故动而不居。建寅之月，岂必当甲？建卯之月，岂必当乙？寅卯在地，故止而不迁。`
+  > 甲乙在天，故动而不居。建寅之月，岂必当甲？建卯之月，岂必当乙？寅卯在地，故止而不迁。
 - `priority`: `P0`
 
 ---
@@ -23,7 +23,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_stem_rotates_branch_fixed_for_months` | 若区分「天干之动（动而不居）」与「地支之定（止而不迁）」 | 则建月以地支为定标，而月干可递易不必固定对齐某一支 | 运势 | 中性 | 中 | `甲乙在天，故动而不居` |
+| `rule_zpzq_stem_rotates_branch_fixed_for_months` | 若区分「天干之动（动而不居）」与「地支之定（止而不迁）」 | 则建月以地支为定标，而月干可递易不必固定对齐某一支 | 运势 | 中性 | 中 | 甲乙在天，故动而不居 |
 
 ---
 
@@ -48,4 +48,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 建寅 | Jian-Yin Month | 以寅为建月之支，月干可递易，不必固定为甲。 | A lunar month designated by the branch Yin as its anchor; the stem overlay can vary rather than being fixed to Jia. | month_branch | existing |
-

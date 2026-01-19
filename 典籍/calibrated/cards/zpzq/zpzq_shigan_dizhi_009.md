@@ -3,7 +3,7 @@
 - `card_id`: `zpzq_shigan_dizhi_009`
 - `source_anchor`: `典籍/中文典籍/子平真诠/原文/子平真诠原文.md:17`
 - `source_text`:
-  > `即以木论，甲乙者，木之阴阳也。`
+  > 即以木论，甲乙者，木之阴阳也。
 - `priority`: `P0`
 
 ---
@@ -22,7 +22,7 @@
 
 | rule_id_draft | rule_condition | rule_conclusion | conclusion_dimension | conclusion_direction | confidence | evidence_quote |
 |---|---|---|---|---|---|---|
-| `rule_zpzq_wood_stems_encode_polarity` | 若讨论「木行（木气/木类）」的阴阳分判 | 则可用「天干（甲/乙取值）」来编码其阴阳两面 | 运势 | 中性 | 高 | `甲乙者，木之阴阳也` |
+| `rule_zpzq_wood_stems_encode_polarity` | 若讨论「木行（木气/木类）」的阴阳分判 | 则可用「天干（甲/乙取值）」来编码其阴阳两面 | 运势 | 中性 | 高 | 甲乙者，木之阴阳也 |
 
 ---
 
@@ -47,4 +47,3 @@
 | source_term | target_term | source_definition | target_definition | factor_id | status |
 |---|---|---|---|---|---|
 | 甲乙 | Jia/Yi (Wood Stems) | 天干中属木的两干，用以分木之阴阳。 | The two Wood-related heavenly stems used to encode polarity within the Wood phase in traditional Chinese systems. | year_stem | existing |
-
