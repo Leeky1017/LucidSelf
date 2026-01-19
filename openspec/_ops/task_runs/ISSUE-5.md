@@ -1,7 +1,7 @@
 # ISSUE-5
 - Issue: #5
 - Branch: task/5-inner-sky-p0-batch01
-- PR: <fill-after-created>
+- PR: https://github.com/Leeky1017/LucidSelf/pull/6
 
 ## Plan
 - Land 20 P0 calibration cards for `inner_sky` (Prime Symbol + Signs)
@@ -42,3 +42,15 @@
 ### 2026-01-19 22:56 Unit tests
 - Command: `PYTHONPATH=. .venv/bin/pytest backend/tests/unit -q`
 - Key output: `108 passed`
+
+### 2026-01-19 23:00 Push branch (local)
+- Command: `git push -u origin HEAD`
+- Key output: `new branch -> task/5-inner-sky-p0-batch01`
+
+### 2026-01-19 23:01 PR preflight (local)
+- Command: `scripts/agent_pr_preflight.sh`
+- Key output: `OK: no overlapping files with open PRs`
+
+### 2026-01-19 23:01 Create PR (local)
+- Command: `gh pr create --base main --head task/5-inner-sky-p0-batch01 ...`
+- Key output: `https://github.com/Leeky1017/LucidSelf/pull/6`
