@@ -1,7 +1,7 @@
 # ISSUE-12
 - Issue: #12
 - Branch: task/12-inner-sky-r01-r10
-- PR: <fill-after-created>
+- PR: #15
 
 ## Plan
 - Produce 10 Scholarly-depth calibration cards for The Inner Sky (Chapters 1-10)
@@ -30,3 +30,7 @@
   - `inner_sky_r09_interp_2_001.md` (Chapter 9: Interpretation II)
   - `inner_sky_r10_interp_3_001.md` (Chapter 10: Interpretation III)
 - All cards follow EN template V3 with L1-L6 layers
+
+### 2026-01-28 PR Created
+- Command: `gh pr create --title "[CAL-R01-R10] inner_sky: Chapters 1-10 (10 Scholarly cards)" ...`
+- Key output: `https://github.com/Leeky1017/LucidSelf/pull/15`
