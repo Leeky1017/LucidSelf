@@ -1,22 +1,6 @@
-# Western Text Deep Calibration Template V3.0
+# Western Text Deep Calibration Template
 
-> **Version**: 3.0 | **Created**: 2026-01-27
-> 
-> **Design Principle**: Upgrade from "form-filling mechanical calibration" to "deep comprehension + critical analysis + cross-system argumentation + case validation" academic-grade calibration framework
-
----
-
-## Conventions (MUST follow)
-
-### Core Changes (vs V2.0)
-
-| Dimension | V2.0 | V3.0 |
-|:---|:---|:---|
-| Granularity | One sentence per card | One semantic unit per card |
-| Structure | A-F six sections (form-filling) | L1-L6 six layers (deep analysis) |
-| Factor extraction | Direct surface extraction | Comprehend first, extract with justification |
-| Cross-system mapping | No evidence required | Must provide academic argumentation |
-| Validation | None | At least 1 case validation required |
+## Conventions
 
 ### Semantic Unit Definition
 
@@ -300,13 +284,3 @@ UNLESS <exception condition: when does the rule not apply>
 - [ ] **L5.3**: Referenced relevant academic literature or classic works
 - [ ] **L6.2**: Honestly annotated uncertainty at each layer
 - [ ] **L6.3**: Listed questions for further research
-
----
-
-## Version Notes
-
-| Version | Date | Major Changes |
-|:---|:---|:---|
-| V1.0 | - | A-F six-section form-filling template |
-| V2.0 | - | Added G section for web verification |
-| V3.0 | 2026-01-27 | Complete restructure to L1-L6 six-layer deep analysis model, emphasizing comprehension-critique-argumentation-validation |

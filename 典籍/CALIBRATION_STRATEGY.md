@@ -52,21 +52,16 @@
 
 ---
 
-## 2. 每本书的精校粒度指南（P0–P3 → Scholarly/Deep/Standard/Index）
+## 2. 每本书的精校粒度指南
 
-> **V3.0 更新**：原 P0-P3 优先级现与新的深度级别对应：
-> - **P0 → Scholarly**：核心概念，完整 L1-L6 六层分析
-> - **P1 → Deep**：主干概念，L1+L3+L4+L5 简化版
-> - **P2 → Standard**：补充概念，L1+L3 核心字段
-> - **P3 → Index**：索引条目，仅 S 综述
->
-> 详见 [`CALIBRATION_DEPTH_LEVELS.md`](CALIBRATION_DEPTH_LEVELS.md)
+深度级别定义详见 [`CALIBRATION_DEPTH_LEVELS.md`](CALIBRATION_DEPTH_LEVELS.md)
 
-说明：
-- **P0/Scholarly**：核心条目，完整深度精校（L1-L6 全部层次）。
-- **P1/Deep**：主干条目，深度精校（L1+L3+L4+L5；允许减少部分字段但关键内容不为空）。
-- **P2/Standard**：背景条目，标准精校（L1+L3 核心字段即可）。
-- **P3/Index**：参考条目，仅保留索引（只做 S 综述中的定位信息）。
+| 级别 | 说明 |
+|:---|:---|
+| **Scholarly** | 核心条目，完整深度精校（L1-L6 全部层次） |
+| **Deep** | 主干条目，深度精校（L1+L3+L4+L5） |
+| **Standard** | 背景条目，标准精校（L1+L3 核心字段） |
+| **Index** | 参考条目，仅保留索引（S 综述定位信息） |
 
 ### 2.1 中文典籍（命理）
 
