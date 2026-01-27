@@ -1,7 +1,7 @@
 # ISSUE-7
 - Issue: #7
 - Branch: task/7-calibration-v3-upgrade
-- PR: <fill-after-created>
+- PR: https://github.com/Leeky1017/LucidSelf/pull/8
 
 ## Plan
 - 新建精校模板 V3.0（中英文）及深度级别定义
