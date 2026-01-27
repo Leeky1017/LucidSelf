@@ -1,7 +1,7 @@
 # ISSUE-13
 - Issue: #13
-- Branch: task/13-cal-zpzq-r01-ganzhi
-- PR: https://github.com/Leeky1017/LucidSelf/pull/16
+- Branch: task/13-cal-zpzq-r01-ganzhi-v2
+- PR: https://github.com/Leeky1017/LucidSelf/pull/19
 
 ## Plan
 - 产出《子平真诠》R01（论十干十二支·上）Scholarly 精校卡，落盘到 `典籍/calibrated/cards/zpzq/zpzq_r01_ganzhi_001.md`。
@@ -60,4 +60,15 @@
 - Key output:
   - `OK: compiled_rules=5357 files=53 output_dir=backend/generated/rules`
   - `20 passed` (gate1_boot_regression + pipeline_e2e)
+
+### 2026-01-28 re-spin PR (openspec-log-guard)
+- Note: PR #16 因合并提交缺少 `(#13)` 被 `openspec-log-guard` 阻断，改用新分支重开 PR
+- Command: `git checkout -b task/13-cal-zpzq-r01-ganzhi-v2 origin/main`
+- Command: `git cherry-pick 2a718cb 279b0fd`
+- Key output: new commits `4dba049`, `554a848`
+- Command: `git push -u origin HEAD`
+- Command: `gh pr create ...`
+- Key output: PR `https://github.com/Leeky1017/LucidSelf/pull/19`
+- Command: `gh pr merge 19 --auto --squash`
+- Command: `gh pr close 16`
 
