@@ -101,6 +101,9 @@ if [[ "$SKIP_OPENSPEC" -eq 0 ]]; then
 fi
 
 if [[ "$SKIP_PYTEST" -eq 0 ]]; then
+  echo "\$ PYTHONPATH=. ${PYTHON_BIN} scripts/codegen/compile_generated_rules.py"
+  PYTHONPATH=. $PYTHON_BIN scripts/codegen/compile_generated_rules.py
+
   echo "\$ PYTHONPATH=. ${PYTEST_BIN} backend/tests/gate1_boot_regression backend/tests/integration/test_pipeline_e2e.py -q --junitxml=${LS_ARTIFACT_DIR}/gate1_boot_regression/pytest-junit.xml"
   PYTHONPATH=. $PYTEST_BIN \
     backend/tests/gate1_boot_regression \
