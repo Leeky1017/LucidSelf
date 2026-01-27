@@ -82,7 +82,9 @@ out/
 dist/
 
 # AI/editor tooling (local-only)
-.cursor/
+.cursor/*
+!.cursor/plans/
+!.cursor/plans/**
 .kiro/
 .windsurf/
 
