@@ -1,7 +1,7 @@
 # ISSUE-9
 - Issue: #9
 - Branch: task/9-calib-plan-rounds
-- PR: <fill-after-created>
+- PR: https://github.com/Leeky1017/LucidSelf/pull/10
 
 ## Plan
 - 在仓库 `.cursor/plans/` 持久化“典籍精校轮次任务清单”（纯文字；每条任务对应一本书一行；包含任务身份与可复制指令）。
