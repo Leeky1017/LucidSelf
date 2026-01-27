@@ -39,6 +39,9 @@ PyYAML==6.0.1
 lunarcalendar==0.0.9
 # sxtwl需要C++编译，在Docker中跳过
 
+# Astrology (Swiss Ephemeris)
+pyswisseph==2.10.3.2
+
 # Observability
 prometheus-client==0.20.0
 
