@@ -538,14 +538,37 @@ def {rule.rule_id}_evaluate(factor_matrix: FactorMatrix) -> RuntimeRuleResult:
                 rule_json = json.loads(line)
                 rule_id = rule_json.get("rule_id", f"unknown_{line_num}")
                 
-                # 检查最低必要字段
-                if not rule_json.get("condition") or not rule_json.get("result"):
-                    report["errors"].append({
-                        "rule_id": rule_id,
-                        "line": line_num,
-                        "errors": ["Missing required fields: condition or result"],
-                    })
+                # 检查最低必要字段（JSONL 宽松兼容）
+                # - result 必须存在
+                # - condition 允许为 null：若提供 required_factors，则自动合成 AND(exists ...)
+                if rule_json.get("result") is None:
+                    report["errors"].append(
+                        {
+                            "rule_id": rule_id,
+                            "line": line_num,
+                            "errors": ["Missing required field: result"],
+                        }
+                    )
                     continue
+
+                if rule_json.get("condition") is None:
+                    required = rule_json.get("required_factors") or []
+                    if required:
+                        if len(required) == 1:
+                            rule_json["condition"] = {
+                                "factor_id": required[0],
+                                "operator": "exists",
+                            }
+                        else:
+                            rule_json["condition"] = {
+                                "operator": "AND",
+                                "conditions": [
+                                    {"factor_id": fid, "operator": "exists"} for fid in required
+                                ],
+                            }
+                    else:
+                        # 无条件规则：默认恒真（由上游保证不会产生“无门槛噪声规则”）
+                        rule_json["condition"] = {"operator": "AND", "conditions": []}
                 
                 # 尝试直接编译（宽松模式）
                 try:

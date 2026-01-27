@@ -1,7 +1,7 @@
 # ISSUE-13
 - Issue: #13
 - Branch: task/13-cal-zpzq-r01-ganzhi
-- PR: <fill-after-created>
+- PR: https://github.com/Leeky1017/LucidSelf/pull/16
 
 ## Plan
 - 产出《子平真诠》R01（论十干十二支·上）Scholarly 精校卡，落盘到 `典籍/calibrated/cards/zpzq/zpzq_r01_ganzhi_001.md`。
@@ -38,4 +38,26 @@
 - Key output: `FAILED (ModuleNotFoundError: No module named 'backend')`
 - Command: `PYTHONPATH=. .venv/bin/pytest backend/tests/unit -q`
 - Key output: `108 passed`
+
+### 2026-01-28 commit + push
+- Command: `git commit -m "docs: add zpzq R01 ganzhi Scholarly calibration card (#13)"`
+- Key output: commit `2a718cb`
+- Command: `git push -u origin HEAD`
+- Key output: branch tracks `origin/task/13-cal-zpzq-r01-ganzhi`
+
+### 2026-01-28 preflight + PR
+- Command: `scripts/agent_pr_preflight.sh`
+- Key output: `OK: no overlapping files with open PRs`
+- Command: `gh pr create ...`
+- Key output: PR `https://github.com/Leeky1017/LucidSelf/pull/16`
+
+### 2026-01-28 fix CI gates (rules + deps + corpus asset)
+- Change: add corpus asset placeholder `data/golden_set/README.md` (unblock Asset Gate)
+- Change: add dependency `pyswisseph==2.10.3.2` into `requirements.txt` (unblock AstroCalculator import)
+- Change: add rules compiler `scripts/codegen/compile_generated_rules.py` and run it inside `scripts/gates/gate1_boot_regression.sh`
+- Change: make JSONL rule codegen tolerate `condition=null` in `scripts/codegen/rule_generator.py`
+- Command: `bash scripts/gates/gate1_boot_regression.sh`
+- Key output:
+  - `OK: compiled_rules=5357 files=53 output_dir=backend/generated/rules`
+  - `20 passed` (gate1_boot_regression + pipeline_e2e)
 
