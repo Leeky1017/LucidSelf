@@ -20,3 +20,16 @@
   - 新增: `zpzq_yinyang_shengke_exemplar.md` (标杆精校卡)
   - 更新: `CALIBRATION_STRATEGY.md` (V3.0 更新说明)
 - Evidence: `git status --short` 输出确认所有文件变更
+
+### 2026-01-27 CI 检查状态
+- Command: `gh pr checks 8 --watch`
+- Key output:
+  - `openspec-log-guard`: **PASS** ✓
+  - `ci`, `merge-serial`, 以及 Gate-0/1/2: **FAIL**
+- Failure Reason: CI 环境缺少 `email-validator` 依赖（预存在问题，非本次变更引入）
+  ```
+  ImportError: email-validator is not installed, run `pip install pydantic[email]`
+  ```
+- Evidence: https://github.com/Leeky1017/LucidSelf/actions/runs/21401926405/job/61615120275
+- Blocker: CI 基础设施问题，需要修复 `requirements.txt` 或 CI workflow
+- Next Action: 建议仓库维护者修复 CI 依赖问题后重新触发检查
