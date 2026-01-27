@@ -33,3 +33,13 @@
 - Evidence: https://github.com/Leeky1017/LucidSelf/actions/runs/21401926405/job/61615120275
 - Blocker: CI 基础设施问题，需要修复 `requirements.txt` 或 CI workflow
 - Next Action: 建议仓库维护者修复 CI 依赖问题后重新触发检查
+
+### 2026-01-27 修复 CI 依赖 + 移除版本说明
+- Command: `git add -A && git commit && git push`
+- Changes:
+  - `requirements.txt`: 添加 `pydantic[email]` 和 `email-validator>=2.0.0`
+  - `CALIBRATION_TEMPLATE_CN_V3.md`: 移除版本对比和版本历史
+  - `CALIBRATION_TEMPLATE_EN_V3.md`: 移除版本对比和版本历史
+  - `CALIBRATION_DEPTH_LEVELS.md`: 移除版本信息
+  - `CALIBRATION_STRATEGY.md`: 简化深度级别说明
+- Evidence: commit 679cb2a
