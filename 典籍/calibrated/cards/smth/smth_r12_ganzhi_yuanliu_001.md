@@ -2,7 +2,7 @@
 
 ## S - 综述 (Synopsis)
 
-- `card_id`: `smth_r12_ganzhi_zonglun_001`
+- `card_id`: `smth_r12_ganzhi_yuanliu_001`
 - `semantic_unit`: 干支源流：天干地支的起源、命名演变与六十甲子的形成
 - `source_range`: `典籍/中文典籍/三命通会/原文/三命通会.md:63` ~ `:67`
 - `depth_level`: `Deep`

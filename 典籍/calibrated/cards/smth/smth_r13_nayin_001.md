@@ -2,7 +2,7 @@
 
 ## S - 综述 (Synopsis)
 
-- `card_id`: `smth_r13_nayin_zonglun_001`
+- `card_id`: `smth_r13_nayin_001`
 - `semantic_unit`: 纳音总论：六十甲子纳音的推算原理与五行归属
 - `source_range`: `典籍/中文典籍/三命通会/原文/三命通会.md:74` ~ `:90`
 - `depth_level`: `Deep`
