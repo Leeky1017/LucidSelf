@@ -1,7 +1,7 @@
 # ISSUE-31
 - Issue: #31
 - Branch: task/31-fix-mlxj-r11-r20
-- PR: <fill-after-created>
+- PR: https://github.com/Leeky1017/LucidSelf/pull/33
 
 ## Plan
 - 重新生成 10 张《梦林玄解》Deep calibration cards，严格按 CALIBRATION_TEMPLATE_CN_V3.md 规范
