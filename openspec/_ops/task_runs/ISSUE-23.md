@@ -1,7 +1,7 @@
 # ISSUE-23
 - Issue: #23
 - Branch: task/23-smth-r11-r20
-- PR: <fill-after-created>
+- PR: https://github.com/Leeky1017/LucidSelf/pull/28
 
 ## Plan
 - 产出《三命通会》R11-R20（10 张 Deep 精校卡），落盘到 `典籍/calibrated/cards/smth/`（文件名按批次清单）。
