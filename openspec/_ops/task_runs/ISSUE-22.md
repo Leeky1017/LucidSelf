@@ -1,7 +1,7 @@
 # ISSUE-22
 - Issue: #22
 - Branch: task/22-cal-mlxj-r11-r20
-- PR: <fill-after-created>
+- PR: https://github.com/Leeky1017/LucidSelf/pull/25
 
 ## Plan
 - 生成《梦林玄解》R11–R20 共 10 张 Deep calibration cards（含 `source_range` 行号引用）
