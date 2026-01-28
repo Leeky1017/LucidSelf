@@ -83,3 +83,57 @@
 - Total output: 10 markdown files in `典籍/calibrated/cards/jung_archetypes/`
 - Files verified: R01 (19KB), R02 (19KB), R03-R10 (5-8KB each)
 - Ready for commit and PR
+
+---
+
+## 第三轮质量审计与修复 (2026-01-28)
+
+### 用户反馈
+用户指出："我认为依然有偷工减料的情况，继续优化，直到你三次核对后确认没有遗漏、错误、偷工减料的情况"
+
+### 三轮核对执行
+
+#### 第一轮核对
+对比 R01（标准）与 R07-R10 的结构差异，发现以下问题：
+
+| 问题 | R01标准 | R07-R10现状 |
+|------|---------|-------------|
+| L3.2 Rule Operationalization | 3维度表格 | ❌ 缺失 |
+| L4.1 Core Function | 段落说明 | ❌ 缺失 |
+| L5.1 Case Source | 完整格式 | ❌ 简化 |
+| L5.1 Validation Analysis | 段落分析 | ❌ 缺失 |
+| L5.3 表格 | 5列完整 | ❌ 4列简化 |
+| A1 表格 | 4列(含URL) | ❌ 3列 |
+
+#### 第二轮核对
+修复 R07-R10 后验证：
+- ✅ 行数：所有卡片 235-247 行
+- ✅ Core Function：10/10
+- ✅ Rule Operationalization：10/10
+
+发现 R05 额外问题：
+- L5.1 缺少 Case Source 行
+- L5.3 列名简化
+
+#### 第三轮核对
+完全修复 R05 后最终验证：
+- ✅ Case Source：10/10
+- ✅ Relationship to This Calibration：10/10
+- ✅ Reference URL (A1)：10/10
+- ✅ 行数范围：235-247 行（全部达标）
+
+### 修复统计
+- 修改文件：R05, R07, R08, R09, R10（5个文件）
+- 新增行数：492 行
+- 删除行数：385 行
+- 净增：107 行
+
+### 提交信息
+```
+commit 4cdab65
+fix(典籍): complete R05/R07-R10 to full Scholarly depth (#11)
+```
+
+### 交付
+- PR #18 已更新，包含完整三轮审计修复
+- 所有 10 张卡片均达到 Scholarly 深度标准
