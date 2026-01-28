@@ -2,7 +2,7 @@
 
 - Issue: #37
 - Branch: task/37-planets-transit-r21-r30
-- PR: <fill-after-created>
+- PR: https://github.com/Leeky1017/LucidSelf/pull/42
 
 ## Plan
 
