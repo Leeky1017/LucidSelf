@@ -1,7 +1,7 @@
 # ISSUE-24
 - Issue: #24
-- Branch: task/24-interp-dreams-r11-r20
-- PR: <fill-after-created>
+- Branch: task/24-interp-dreams-r11-r20-v2
+- PR: https://github.com/Leeky1017/LucidSelf/pull/29
 
 ## Plan
 - 落盘 Rulebook task 与 RUN_LOG（issue-24-interp-dreams-r11-r20）
