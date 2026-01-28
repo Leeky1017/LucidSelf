@@ -2,7 +2,7 @@
 
 - Issue: #30
 - Branch: task/30-qtbj-r21-r30
-- PR: <fill-after-created>
+- PR: https://github.com/Leeky1017/LucidSelf/pull/32
 
 ## Plan
 
